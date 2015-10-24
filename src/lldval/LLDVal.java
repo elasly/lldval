@@ -255,30 +255,30 @@ public class LLDVal {
                  nextcell.setCellValue(field.getName());
                  
                 }
-                Row row1 = vfcSheet.createRow(1);
-                System.out.println("value row"+row1);
-                Cell valuecell = row1.createCell(0);
-                valuecell.setCellValue(lparName[j]);
-                Cell vfcNamecell = row1.createCell(vfcRows);
-                vfcNamecell.setCellValue(vfcs.get(vfcRows).vfcName);
-                Cell physLoccell = row1.createCell(vfcRows);
-                physLoccell.setCellValue(vfcs.get(vfcRows).physLoc);
-                Cell clntIdcell = row1.createCell(vfcRows);
-                clntIdcell.setCellValue(vfcs.get(vfcRows).clntId);
-                Cell clntNamecell = row1.createCell(vfcRows);
-                clntNamecell.setCellValue(vfcs.get(vfcRows).clntName);
-                Cell statuscell = row1.createCell(vfcRows);
-                statuscell.setCellValue(vfcs.get(vfcRows).status);
-                Cell fc_namecell = row1.createCell(vfcRows);
-                fc_namecell.setCellValue(vfcs.get(vfcRows).fc_name);
-                Cell fc_loc_codecell = row1.createCell(vfcRows);
-                fc_loc_codecell.setCellValue(vfcs.get(vfcRows).fc_loc_code);
-                Cell flagscell = row1.createCell(vfcRows);
-                flagscell.setCellValue(vfcs.get(vfcRows).flags);
-                Cell VFC_client_namecell = row1.createCell(vfcRows);
-                VFC_client_namecell.setCellValue(vfcs.get(vfcRows).VFC_client_name);
-                Cell VFC_client_DRCcell = row1.createCell(vfcRows);
-                VFC_client_DRCcell.setCellValue(vfcs.get(vfcRows).VFC_client_DRC);
+//                Row row1 = vfcSheet.createRow(1);
+//                System.out.println("value row"+row1);
+//                Cell valuecell = row1.createCell(0);
+//                valuecell.setCellValue(lparName[j]);
+//                Cell vfcNamecell = row1.createCell(vfcRows);
+//                vfcNamecell.setCellValue(vfcs.get(vfcRows).vfcName);
+//                Cell physLoccell = row1.createCell(vfcRows);
+//                physLoccell.setCellValue(vfcs.get(vfcRows).physLoc);
+//                Cell clntIdcell = row1.createCell(vfcRows);
+//                clntIdcell.setCellValue(vfcs.get(vfcRows).clntId);
+//                Cell clntNamecell = row1.createCell(vfcRows);
+//                clntNamecell.setCellValue(vfcs.get(vfcRows).clntName);
+//                Cell statuscell = row1.createCell(vfcRows);
+//                statuscell.setCellValue(vfcs.get(vfcRows).status);
+//                Cell fc_namecell = row1.createCell(vfcRows);
+//                fc_namecell.setCellValue(vfcs.get(vfcRows).fc_name);
+//                Cell fc_loc_codecell = row1.createCell(vfcRows);
+//                fc_loc_codecell.setCellValue(vfcs.get(vfcRows).fc_loc_code);
+//                Cell flagscell = row1.createCell(vfcRows);
+//                flagscell.setCellValue(vfcs.get(vfcRows).flags);
+//                Cell VFC_client_namecell = row1.createCell(vfcRows);
+//                VFC_client_namecell.setCellValue(vfcs.get(vfcRows).VFC_client_name);
+//                Cell VFC_client_DRCcell = row1.createCell(vfcRows);
+//                VFC_client_DRCcell.setCellValue(vfcs.get(vfcRows).VFC_client_DRC);
 //vfcs.get(vfcRows).vfcName+" | "+vfcs.get(vfcRows).physLoc+" | "+vfcs.get(vfcRows).clntId+" | "+vfcs.get(vfcRows).clntName+" | "+vfcs.get(vfcRows).status+" | "+vfcs.get(vfcRows).fc_name+" | "+vfcs.get(vfcRows).fc_loc_code+" | "+vfcs.get(vfcRows).flags+" | "+vfcs.get(vfcRows).VFC_client_name+" | "+vfcs.get(vfcRows).VFC_client_DRC
             }else
               if (vfcs.get(vfcRows).vfcName != null && !vfcs.get(vfcRows).vfcName.isEmpty()){
