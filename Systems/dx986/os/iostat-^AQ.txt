@@ -1,0 +1,41 @@
+==== This output can be found in Systems/dx986/os/iostat-^AQ.txt ====
+==== START iostat -AQ Tue Jul  7 00:45:13 GST 2015 ====
+
+System configuration: lcpu=32 ent=3.60 maxserver=960
+
+aio: avgc avfc maxgc maxfc maxreqs avg-cpu: % user % sys % idle % iowait physc % entc
+     16.4  0.0     0     0    131072            11.9   4.7   80.2      3.2   0.9   25.3
+
+Queue#         Count          Filesystems
+129            0              /
+130            0              /usr
+132            0              /var
+133            0              /tmp
+135            0              /home
+136            0              /admin
+137            0              /proc
+138            0              /opt
+139            0              /var/adm/ras/livedump
+140            0              /perfdata
+143            0              /aha
+144            0              /nessdb_arclog1
+145            0              /nessdb_arclog2
+146            0              /nessdb_base
+147            0              /nessdb_bkp
+148            0              /nessdb_bkp1
+149            0              /nessdb_ctrl1
+150            0              /nessdb_ctrl2
+151            0              /nessdb_ctrl3
+152            0              /nessdb_data1
+153            0              /nessdb_flash
+154            0              /nessdb_index1
+155            0              /nessdb_redo1
+156            0              /nessdb_redo2
+157            0              /nessdb_stage
+158            0              /nessdb_sys
+159            0              /nessdb_temp
+160            0              /nessdb_undo
+169            0              /nessbkp_nfs
+170            0              /nessdb_bct
+==== EXITED with rc 0 ====
+==== END iostat -AQ Tue Jul  7 00:45:13 GST 2015 ====

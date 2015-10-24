@@ -1,0 +1,22 @@
+==== This output can be found in Systems/dx975/os/for_j_in_ls-d_usr_java_do_echo_cmd_j_bin_java-vers.txt ====
+==== START for j in $(ls -d /usr/java*); do echo "cmd: $j/bin/java -version"; $j/bin/java -version;echo ""; done Tue Jul  7 12:46:11 CDT 2015 ====
+java version "1.5.0"
+Java(TM) 2 Runtime Environment, Standard Edition (build pap32devifx-20140122 (SR16 FP5 ))
+IBM J9 VM (build 2.3, J2RE 1.5.0 IBM J9 2.3 AIX ppc-32 j9vmap3223ifx-20131230 (JIT enabled)
+J9VM - 20131213_178553_bHdSMr
+JIT  - 20130920_46470ifx1_r8
+GC   - 20120911_AA)
+JCL  - 20140122
+java version "1.6.0"
+Java(TM) SE Runtime Environment (build pap3260sr15fp1-20140110_01(SR15 FP1))
+IBM J9 VM (build 2.4, JRE 1.6.0 IBM J9 2.4 AIX ppc-32 jvmap3260sr15-20131231_180656 (JIT enabled, AOT enabled)
+J9VM - 20131231_180656
+JIT  - r9_20130920_46510ifx3
+GC   - GA24_Java6_SR15_20131231_1152_B180656)
+JCL  - 20140107_01
+cmd: /usr/java5/bin/java -version
+
+cmd: /usr/java6/bin/java -version
+
+==== EXITED with rc 0 ====
+==== END for j in $(ls -d /usr/java*); do echo "cmd: $j/bin/java -version"; $j/bin/java -version;echo ""; done Tue Jul  7 12:46:12 CDT 2015 ====

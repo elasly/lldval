@@ -1,0 +1,204 @@
+==== This output can be found in Systems/dx1010/vio/VIOCLI_lsmap-all-npiv.txt ====
+==== START $VIOCLI lsmap -all -npiv Tue Jul  7 13:20:34 CDT 2015 ====
+Name          Physloc                            ClntID ClntName       ClntOS 
+------------- ---------------------------------- ------ -------------- -------
+vfchost0      U9179.MHD.212EECV-V2-C301              33 NESS-A         AIX
+
+Status:LOGGED_IN
+FC name:fcs11                   FC loc code:U2C4E.001.DBJU911-P2-C5-T4
+Ports logged in:6
+Flags:a<LOGGED_IN,STRIP_MERGE>
+VFC client name:fcs0            VFC client DRC:U9179.MHD.212EECV-V33-C301
+
+Name          Physloc                            ClntID ClntName       ClntOS 
+------------- ---------------------------------- ------ -------------- -------
+vfchost1      U9179.MHD.212EECV-V2-C302              33                 
+
+Status:NOT_LOGGED_IN
+FC name:                        FC loc code:
+Ports logged in:0
+Flags:1<NOT_MAPPED,NOT_CONNECTED>
+VFC client name:                VFC client DRC:
+
+Name          Physloc                            ClntID ClntName       ClntOS 
+------------- ---------------------------------- ------ -------------- -------
+vfchost2      U9179.MHD.212EECV-V2-C303              33                 
+
+Status:NOT_LOGGED_IN
+FC name:                        FC loc code:
+Ports logged in:0
+Flags:1<NOT_MAPPED,NOT_CONNECTED>
+VFC client name:                VFC client DRC:
+
+Name          Physloc                            ClntID ClntName       ClntOS 
+------------- ---------------------------------- ------ -------------- -------
+vfchost3      U9179.MHD.212EECV-V2-C304              33 NESS-A         AIX
+
+Status:LOGGED_IN
+FC name:fcs14                   FC loc code:U2C4E.001.DBJU911-P2-C1-T3
+Ports logged in:6
+Flags:a<LOGGED_IN,STRIP_MERGE>
+VFC client name:fcs3            VFC client DRC:U9179.MHD.212EECV-V33-C304
+
+Name          Physloc                            ClntID ClntName       ClntOS 
+------------- ---------------------------------- ------ -------------- -------
+vfchost4      U9179.MHD.212EECV-V2-C331              36                 
+
+Status:NOT_LOGGED_IN
+FC name:                        FC loc code:
+Ports logged in:0
+Flags:1<NOT_MAPPED,NOT_CONNECTED>
+VFC client name:                VFC client DRC:
+
+Name          Physloc                            ClntID ClntName       ClntOS 
+------------- ---------------------------------- ------ -------------- -------
+vfchost5      U9179.MHD.212EECV-V2-C332              36                 
+
+Status:NOT_LOGGED_IN
+FC name:                        FC loc code:
+Ports logged in:0
+Flags:1<NOT_MAPPED,NOT_CONNECTED>
+VFC client name:                VFC client DRC:
+
+Name          Physloc                            ClntID ClntName       ClntOS 
+------------- ---------------------------------- ------ -------------- -------
+vfchost6      U9179.MHD.212EECV-V2-C333              36                 
+
+Status:NOT_LOGGED_IN
+FC name:fcs11                   FC loc code:U2C4E.001.DBJU911-P2-C5-T4
+Ports logged in:0
+Flags:4<NOT_LOGGED>
+VFC client name:                VFC client DRC:
+
+Name          Physloc                            ClntID ClntName       ClntOS 
+------------- ---------------------------------- ------ -------------- -------
+vfchost7      U9179.MHD.212EECV-V2-C334              36                 
+
+Status:NOT_LOGGED_IN
+FC name:fcs14                   FC loc code:U2C4E.001.DBJU911-P2-C1-T3
+Ports logged in:0
+Flags:4<NOT_LOGGED>
+VFC client name:                VFC client DRC:
+
+Name          Physloc                            ClntID ClntName       ClntOS 
+------------- ---------------------------------- ------ -------------- -------
+vfchost8      U9179.MHD.212EECV-V2-C341              37                 
+
+Status:NOT_LOGGED_IN
+FC name:                        FC loc code:
+Ports logged in:0
+Flags:1<NOT_MAPPED,NOT_CONNECTED>
+VFC client name:                VFC client DRC:
+
+Name          Physloc                            ClntID ClntName       ClntOS 
+------------- ---------------------------------- ------ -------------- -------
+vfchost9      U9179.MHD.212EECV-V2-C342              37                 
+
+Status:NOT_LOGGED_IN
+FC name:                        FC loc code:
+Ports logged in:0
+Flags:1<NOT_MAPPED,NOT_CONNECTED>
+VFC client name:                VFC client DRC:
+
+Name          Physloc                            ClntID ClntName       ClntOS 
+------------- ---------------------------------- ------ -------------- -------
+vfchost10     U9179.MHD.212EECV-V2-C343              37                 
+
+Status:NOT_LOGGED_IN
+FC name:fcs11                   FC loc code:U2C4E.001.DBJU911-P2-C5-T4
+Ports logged in:0
+Flags:4<NOT_LOGGED>
+VFC client name:                VFC client DRC:
+
+Name          Physloc                            ClntID ClntName       ClntOS 
+------------- ---------------------------------- ------ -------------- -------
+vfchost11     U9179.MHD.212EECV-V2-C344              37                 
+
+Status:NOT_LOGGED_IN
+FC name:fcs14                   FC loc code:U2C4E.001.DBJU911-P2-C1-T3
+Ports logged in:0
+Flags:4<NOT_LOGGED>
+VFC client name:                VFC client DRC:
+
+Name          Physloc                            ClntID ClntName       ClntOS 
+------------- ---------------------------------- ------ -------------- -------
+vfchost12     U9179.MHD.212EECV-V2-C424              26 GPRS-P         AIX
+
+Status:LOGGED_IN
+FC name:fcs15                   FC loc code:U2C4E.001.DBJU911-P2-C1-T4
+Ports logged in:4
+Flags:a<LOGGED_IN,STRIP_MERGE>
+VFC client name:fcs11           VFC client DRC:U9179.MHD.212EECV-V26-C424
+
+Name          Physloc                            ClntID ClntName       ClntOS 
+------------- ---------------------------------- ------ -------------- -------
+vfchost13     U9179.MHD.212EECV-V2-C423              26 GPRS-P         AIX
+
+Status:LOGGED_IN
+FC name:fcs10                   FC loc code:U2C4E.001.DBJU911-P2-C5-T3
+Ports logged in:4
+Flags:a<LOGGED_IN,STRIP_MERGE>
+VFC client name:fcs10           VFC client DRC:U9179.MHD.212EECV-V26-C423
+
+Name          Physloc                            ClntID ClntName       ClntOS 
+------------- ---------------------------------- ------ -------------- -------
+vfchost14     U9179.MHD.212EECV-V2-C422              26                 
+
+Status:NOT_LOGGED_IN
+FC name:                        FC loc code:
+Ports logged in:0
+Flags:1<NOT_MAPPED,NOT_CONNECTED>
+VFC client name:                VFC client DRC:
+
+Name          Physloc                            ClntID ClntName       ClntOS 
+------------- ---------------------------------- ------ -------------- -------
+vfchost15     U9179.MHD.212EECV-V2-C421              26                 
+
+Status:NOT_LOGGED_IN
+FC name:                        FC loc code:
+Ports logged in:0
+Flags:1<NOT_MAPPED,NOT_CONNECTED>
+VFC client name:                VFC client DRC:
+
+Name          Physloc                            ClntID ClntName       ClntOS 
+------------- ---------------------------------- ------ -------------- -------
+vfchost16     U9179.MHD.212EECV-V2-C414              25 GSM-A          AIX
+
+Status:LOGGED_IN
+FC name:fcs15                   FC loc code:U2C4E.001.DBJU911-P2-C1-T4
+Ports logged in:4
+Flags:a<LOGGED_IN,STRIP_MERGE>
+VFC client name:fcs3            VFC client DRC:U9179.MHD.212EECV-V25-C414
+
+Name          Physloc                            ClntID ClntName       ClntOS 
+------------- ---------------------------------- ------ -------------- -------
+vfchost17     U9179.MHD.212EECV-V2-C413              25 GSM-A          AIX
+
+Status:LOGGED_IN
+FC name:fcs10                   FC loc code:U2C4E.001.DBJU911-P2-C5-T3
+Ports logged in:4
+Flags:a<LOGGED_IN,STRIP_MERGE>
+VFC client name:fcs2            VFC client DRC:U9179.MHD.212EECV-V25-C413
+
+Name          Physloc                            ClntID ClntName       ClntOS 
+------------- ---------------------------------- ------ -------------- -------
+vfchost18     U9179.MHD.212EECV-V2-C412              25                 
+
+Status:NOT_LOGGED_IN
+FC name:                        FC loc code:
+Ports logged in:0
+Flags:1<NOT_MAPPED,NOT_CONNECTED>
+VFC client name:                VFC client DRC:
+
+Name          Physloc                            ClntID ClntName       ClntOS 
+------------- ---------------------------------- ------ -------------- -------
+vfchost19     U9179.MHD.212EECV-V2-C411              25                 
+
+Status:NOT_LOGGED_IN
+FC name:                        FC loc code:
+Ports logged in:0
+Flags:1<NOT_MAPPED,NOT_CONNECTED>
+VFC client name:                VFC client DRC:
+
+==== EXITED with rc 0 ====
+==== END $VIOCLI lsmap -all -npiv Tue Jul  7 13:20:35 CDT 2015 ====

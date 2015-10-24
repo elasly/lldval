@@ -1,0 +1,15 @@
+==== This output can be found in Systems/dx975/perf/svmon-^G.txt ====
+==== START svmon -G Tue Jul  7 12:47:43 CDT 2015 ====
+               size       inuse        free         pin     virtual   mmode
+memory      2097152     2000296       96856      935290     1243263     Ded
+pg space     393216        6400
+
+               work        pers        clnt       other
+pin          863365           0        2005       69920
+in use      1243263           0      757033
+
+PageSize   PoolSize       inuse        pgsp         pin     virtual
+s    4 KB         -     1030824        6400      165066      273791
+m   64 KB         -       60592           0       48139       60592
+==== EXITED with rc 0 ====
+==== END svmon -G Tue Jul  7 12:47:43 CDT 2015 ====

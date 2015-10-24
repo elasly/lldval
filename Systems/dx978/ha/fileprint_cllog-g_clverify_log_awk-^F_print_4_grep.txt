@@ -1,0 +1,7144 @@
+==== This output can be found in Systems/dx978/ha/fileprint_cllog-g_clverify_log_awk-^F_print_4_grep.txt ====
+==== START fileprint $(cllog -g clverify.log | awk -F: '{print $4}' | grep -v value)/clverify.log Mon Jul  6 23:43:07 GST 2015 ====
+==== BEGIN Contents of /var/hacmp/clverify/clverify.log ====
+Verification to be performed on the following:
+	Cluster Topology
+	Cluster Resources
+
+Reading Cluster Topology Configuration...
+
+ VERIFICATION API count HACMPcustom is  0
+
+ Performing sync of VERIFICATION API Libs
+
+Retrieving data from available cluster nodes.  This could take a few minutes.
+
+	Start data collection on node DX977
+	Start data collection on node DX978
+	Collector on node DX978 completed
+	Waiting on node DX977 data collection, 15 seconds elapsed
+	Collector on node DX977 completed
+	Data collection complete
+VERIFICATION NAME: base.ver_determine_active_cluster
+2015-04-23T01:51:58.416867
+Determine if one or more nodes in the cluster are active.
+
+
+Data Collectors:
+	ID: 23  Description: Run cldare -a to determine if cluster services are running.
+		Collector succeeded on node DX977 (7 bytes)
+		Collector succeeded on node DX978 (7 bytes)
+
+BEGIN CHECK
+Node: DX977 is running cluster services.
+Node: DX978 is running cluster services.
+
+END CHECK
+Check: PASSED
+
+
+VERIFICATION NAME: base.ver_chk_free_space
+2015-04-23T01:51:58.417058
+Check for adequate filesystem free space before verification.
+
+Data Collectors:
+	ID: 12  Description: Determine log information from all cluster nodes.
+		Collector succeeded on node DX977 (2922 bytes)
+		Collector succeeded on node DX978 (2922 bytes)
+
+BEGIN CHECK
+
+END CHECK
+Check: PASSED
+
+
+VERIFICATION NAME: base.ver_chk_inactive_cluster_components
+2015-04-23T01:51:58.420273
+Verifying inactive cluster components.
+
+
+Data Collectors:
+	No data collectors
+
+BEGIN CHECK
+	No inactive cluster components detected.
+
+END CHECK
+Check: PASSED
+
+
+VERIFICATION NAME: base.parameterized.verification
+2015-04-23T01:51:58.883788
+Verify parameterized verification files in /usr/es/sbin/cluster/etc/config/verify
+
+Data Collectors:
+	ID: 59  Description: Parameter modules collector
+		Collector returned successfully on node DX977 (no data was returned)
+		Collector returned successfully on node DX978 (no data was returned)
+
+BEGIN CHECK
+
+END CHECK
+Check: PASSED
+
+
+VERIFICATION NAME: general.ver_topology_chk_names
+2015-04-23T01:51:58.884388
+Checks the validity of user defined topology names for cluster, node, network, adapter, and group
+
+Data Collectors:
+	No data collectors
+
+BEGIN CHECK
+
+Verifying cluster name
+DX977_cluster	PASS
+
+
+Verifying node names
+DX977	PASS
+
+DX978	PASS
+
+
+Verifying resource group names
+DX977_RSG	PASS
+
+
+Verifying network names
+net_ether_01	PASS
+
+net_ether_02	PASS
+
+net_ether_03	PASS
+
+
+Verifying communication interface and service IP label names
+DX977_sc0	PASS
+
+DX977-VIP	PASS
+
+DX977	PASS
+
+DX977_b	PASS
+
+DX978_sc0	PASS
+
+DX978	PASS
+
+DX978_b	PASS
+
+
+Verifying communication interface and service IP label names
+
+END CHECK
+Check: PASSED
+
+
+VERIFICATION NAME: topology.ver_topology_chk_sircol
+2015-04-23T01:51:58.885374
+Verify HACMPsircol is valid
+
+Data Collectors:
+	No data collectors
+
+BEGIN CHECK
+
+END CHECK
+Check: PASSED
+
+
+VERIFICATION NAME: topology.ver_topology_no_mixed_static_dynamic_service_on_network
+2015-04-23T01:51:58.885553
+Verify no mixed static / dynamic service adapters appear on one network
+
+Data Collectors:
+	No data collectors
+
+BEGIN CHECK
+
+Verifying that no networks have both dynamic and static service IP labels
+	DX977:net_ether_02:DX977-VIP	PASS
+
+	DX978:net_ether_02:DX977-VIP	PASS
+
+
+END CHECK
+Check: PASSED
+
+
+VERIFICATION NAME: topology.ver_topology_obtain_ifs_data
+2015-04-23T01:51:58.885700
+Obtain interface and tty adapters for HA.
+
+Data Collectors:
+	ID: 1  Description: Retrieve a copy of ODM CuAt from each node.
+	ID: 10  Description: Retrieve the output from ver_get_addr6_info for each node.
+
+		Collector succeeded on node DX977 (15 bytes)
+		Collector succeeded on node DX978 (15 bytes)
+
+BEGIN CHECK
+
+Obtaining adapter and tty information
+	Node: DX977
+	Node: DX978
+
+END CHECK
+Check: PASSED
+
+
+VERIFICATION NAME: topology.ver_topology_chk_ipaddr_map
+2015-04-23T01:51:58.891734
+Performs the host command on each adapter specified in HACMPadapters to determine if the adapter is available on that node.
+
+Data Collectors:
+	ID: 8  Description: Retrieve the output from ver_get_ipaddr_map for each node
+		Collector succeeded on node DX977 (177 bytes)
+		Collector succeeded on node DX978 (177 bytes)
+	ID: 10  Description: Retrieve the output from ver_get_addr6_info for each node.
+
+		Collector succeeded on node DX977 (15 bytes)
+		Collector succeeded on node DX978 (15 bytes)
+
+BEGIN CHECK
+
+Verifying that all IP labels resolve to correct IP address on all nodes.
+	Node: DX977
+	DX977_sc0 (10.51.229.220)	PASS
+
+	DX977-VIP (10.51.226.228)	PASS
+
+	DX977 (10.51.226.224)	PASS
+
+	DX977_b (10.51.227.229)	PASS
+
+	DX978_sc0 (10.51.229.221)	PASS
+
+	DX978 (10.51.226.225)	PASS
+
+	DX978_b (10.51.227.230)	PASS
+
+	Node: DX978
+	DX977_sc0 (10.51.229.220)	PASS
+
+	DX977-VIP (10.51.226.228)	PASS
+
+	DX977 (10.51.226.224)	PASS
+
+	DX977_b (10.51.227.229)	PASS
+
+	DX978_sc0 (10.51.229.221)	PASS
+
+	DX978 (10.51.226.225)	PASS
+
+	DX978_b (10.51.227.230)	PASS
+
+
+END CHECK
+Check: PASSED
+
+
+	Completed 10 percent of the verification checks
+VERIFICATION NAME: topology.ver_topology_chk_single_node_network
+2015-04-23T01:51:58.895308
+Check that every IP capable network has at least two nodes defined on the network.
+
+Data Collectors:
+	No data collectors
+
+BEGIN CHECK
+Verifying IP network net_ether_03 has at least two nodes.
+
+	Node DX977 configured on network
+
+	Node DX978 configured on network
+
+	Network net_ether_03:		PASS
+
+Verifying IP network net_ether_02 has at least two nodes.
+
+	Node DX977 configured on network
+
+	Node DX978 configured on network
+
+	Network net_ether_02:		PASS
+
+Verifying IP network net_ether_01 has at least two nodes.
+
+	Node DX977 configured on network
+
+	Node DX978 configured on network
+
+	Network net_ether_01:		PASS
+
+
+END CHECK
+Check: PASSED
+
+
+VERIFICATION NAME: topology.ver_topology_chk_netmon_cf
+2015-04-23T01:51:58.939196
+Verifying single-adapter networks
+
+Data Collectors:
+	ID: 39  Description: Retrieve the file /usr/es/sbin/cluster/netmon.cf
+		Collector succeeded on node DX977 (23 bytes)
+		Collector succeeded on node DX978 (23 bytes)
+
+BEGIN CHECK
+	Network net_ether_03:	Node: DX977
+	PASS
+
+	Network net_ether_03:	Node: DX978
+	PASS
+
+	Network net_ether_02:	Node: DX977
+	PASS
+
+	Network net_ether_02:	Node: DX978
+	PASS
+
+	Network net_ether_01:	Node: DX977
+	PASS
+
+	Network net_ether_01:	Node: DX978
+	PASS
+
+
+END CHECK
+Check: PASSED
+
+
+VERIFICATION NAME: topology.ver_topology_chk_persistent_labels
+2015-04-23T01:51:58.940327
+Verify that all persistent labels are configured correctly.
+
+Data Collectors:
+	No data collectors
+
+BEGIN CHECK
+
+Verifying that all persistent labels are correctly configured.
+
+END CHECK
+Check: PASSED
+
+
+VERIFICATION NAME: topology.ver_topology_chk_addr_info
+2015-04-23T01:51:58.940401
+Checks that hardware address for each adapter is unique on all nodes in the cluster. Checks loopback entry in /etc/host, and validity of broadcast addresses
+
+Data Collectors:
+	ID: 9  Description: Retrieve the output from ver_get_addr_info for each node
+		Collector succeeded on node DX977 (364 bytes)
+		Collector succeeded on node DX978 (379 bytes)
+
+BEGIN CHECK
+
+Verifying that loopback entries exist, and broadcast addresses
+are correct on all nodes.
+	Node: DX977
+	Loopback is present	PASS
+
+	IPv6 Loopback is present	PASS
+
+	Node: DX978
+	Loopback is present	PASS
+
+	IPv6 Loopback is present	PASS
+
+
+Verifying that all hardware addresses are unique
+	Hardware addresses to compare:
+	DX977:en0:4a.64.d8.a2.b1.4
+	DX977:en1:4a.64.d8.a2.b1.5
+	DX977:en3:4a.64.d8.a2.b1.7
+	DX978:en0:4a.64.d4.90.40.4
+	DX978:en1:4a.64.d4.90.40.5
+	DX978:en3:4a.64.d4.90.40.7
+
+
+Verifying the compatibility between network and adapter type as well as adapter type and the associated hardware.
+net_ether_01:ether
+	DX977_sc0	en3	PASS
+
+	DX978_sc0	en3	PASS
+
+net_ether_02:ether
+	DX977	en0	PASS
+
+	DX978	en0	PASS
+
+net_ether_03:ether
+	DX977_b	en1	PASS
+
+	DX978_b	en1	PASS
+
+
+END CHECK
+Check: PASSED
+
+
+VERIFICATION NAME: topology.ver_topology_chk_alias
+2015-04-23T01:51:58.943942
+Verifying IP aliasing is configured correctly.
+
+Data Collectors:
+	No data collectors
+
+BEGIN CHECK
+Verifying cluster topology for IP aliasing. 
+Node DX977 has only one adapter on network net_ether_01. 
+Skipping subnet checks for this node and network. 
+Node DX978 has only one adapter on network net_ether_01. 
+Skipping subnet checks for this node and network. 
+Node DX977 has only one adapter on network net_ether_02. 
+Skipping subnet checks for this node and network. 
+Node DX978 has only one adapter on network net_ether_02. 
+Skipping subnet checks for this node and network. 
+Node DX977 has only one adapter on network net_ether_03. 
+Skipping subnet checks for this node and network. 
+Node DX978 has only one adapter on network net_ether_03. 
+Skipping subnet checks for this node and network. 
+
+END CHECK
+Check: PASSED
+
+
+VERIFICATION NAME: topology.ver_topology_chk_network_netmasks
+2015-04-23T01:52:00.805273
+Verifying correct network netmasks exist on all HA adapters.
+
+Data Collectors:
+	No data collectors
+
+BEGIN CHECK
+
+Verifying that all PowerHA SystemMirror interfaces on the same network use the same netmask.
+
+END CHECK
+Check: PASSED
+
+
+VERIFICATION NAME: topology.ver_topology_chk_snmpd_files
+2015-04-23T01:52:00.826146
+Verifying contents of /etc/snmpd(v3).conf and /etc/snmpd.peers
+
+Data Collectors:
+	ID: 33  Description: Retrieve the file /etc/snmpd.conf
+		Collector succeeded on node DX977 (10216 bytes)
+		Collector succeeded on node DX978 (10216 bytes)
+	ID: 34  Description: Retrieve the file /etc/snmpdv3.conf
+		Collector succeeded on node DX977 (10597 bytes)
+		Collector succeeded on node DX978 (10597 bytes)
+	ID: 35  Description: Retrieve the file /etc/snmpd.peers
+		Collector succeeded on node DX977 (2606 bytes)
+		Collector succeeded on node DX978 (2606 bytes)
+	ID: 36  Description: Retrieve the link /usr/sbin/snmpd
+		Collector succeeded on node DX977 (10 bytes)
+		Collector succeeded on node DX978 (10 bytes)
+
+BEGIN CHECK
+Checking /etc/snmpd(v3).conf and /etc/snmpd.peers for HA entries
+	Verifying node /etc/snmpdv3.conf DX977:	PASS
+
+	Verifying node /etc/snmpd.peers DX977:	PASS
+
+
+	Verifying node /etc/snmpdv3.conf DX978:	PASS
+
+	Verifying node /etc/snmpd.peers DX978:	PASS
+
+
+
+END CHECK
+Check: PASSED
+
+
+VERIFICATION NAME: topology.ver_topology_chk_cluster_filesets
+2015-04-23T01:52:00.839657
+Check installed cluster filesets on all nodes.
+
+Data Collectors:
+	ID: 14  Description: Retrieve the list of cluster,CAA,rsct,sna and sx25 filesets installed on all nodes.
+		Collector succeeded on node DX977 (14146 bytes)
+		Collector succeeded on node DX978 (14146 bytes)
+	ID: 15  Description: Retrieve a list of running processes.
+		Collector succeeded on node DX977 (14626 bytes)
+		Collector succeeded on node DX978 (1019 bytes)
+
+BEGIN CHECK
+
+Verifying that fileset 'cluster.adt.es.client.include' is installed on all nodes
+	DX977	PASS
+
+	DX978	PASS
+
+
+Verifying that fileset 'cluster.adt.es.client.samples.clinfo' is installed on all nodes
+	DX977	PASS
+
+	DX978	PASS
+
+
+Verifying that fileset 'cluster.adt.es.client.samples.clstat' is installed on all nodes
+	DX977	PASS
+
+	DX978	PASS
+
+
+Verifying that fileset 'cluster.adt.es.client.samples.libcl' is installed on all nodes
+	DX977	PASS
+
+	DX978	PASS
+
+
+Verifying that fileset 'cluster.doc.en_US.assist.smartassists.pdf' is installed on all nodes
+	DX977	PASS
+
+	DX978	PASS
+
+
+Verifying that fileset 'cluster.doc.en_US.es.pdf' is installed on all nodes
+	DX977	PASS
+
+	DX978	PASS
+
+
+Verifying that fileset 'cluster.es.assist.common' is installed on all nodes
+	DX977	PASS
+
+	DX978	PASS
+
+
+Verifying that fileset 'cluster.es.assist.db2' is installed on all nodes
+	DX977	PASS
+
+	DX978	PASS
+
+
+Verifying that fileset 'cluster.es.assist.dhcp' is installed on all nodes
+	DX977	PASS
+
+	DX978	PASS
+
+
+Verifying that fileset 'cluster.es.assist.dns' is installed on all nodes
+	DX977	PASS
+
+	DX978	PASS
+
+
+Verifying that fileset 'cluster.es.assist.domino' is installed on all nodes
+	DX977	PASS
+
+	DX978	PASS
+
+
+Verifying that fileset 'cluster.es.assist.filenet' is installed on all nodes
+	DX977	PASS
+
+	DX978	PASS
+
+
+Verifying that fileset 'cluster.es.assist.ihs' is installed on all nodes
+	DX977	PASS
+
+	DX978	PASS
+
+
+Verifying that fileset 'cluster.es.assist.maxdb' is installed on all nodes
+	DX977	PASS
+
+	DX978	PASS
+
+
+Verifying that fileset 'cluster.es.assist.oraappsrv' is installed on all nodes
+	DX977	PASS
+
+	DX978	PASS
+
+
+Verifying that fileset 'cluster.es.assist.oracle' is installed on all nodes
+	DX977	PASS
+
+	DX978	PASS
+
+
+Verifying that fileset 'cluster.es.assist.printServer' is installed on all nodes
+	DX977	PASS
+
+	DX978	PASS
+
+
+Verifying that fileset 'cluster.es.assist.sap' is installed on all nodes
+	DX977	PASS
+
+	DX978	PASS
+
+
+Verifying that fileset 'cluster.es.assist.tds' is installed on all nodes
+	DX977	PASS
+
+	DX978	PASS
+
+
+Verifying that fileset 'cluster.es.assist.tsmadmin' is installed on all nodes
+	DX977	PASS
+
+	DX978	PASS
+
+
+Verifying that fileset 'cluster.es.assist.tsmclient' is installed on all nodes
+	DX977	PASS
+
+	DX978	PASS
+
+
+Verifying that fileset 'cluster.es.assist.tsmserver' is installed on all nodes
+	DX977	PASS
+
+	DX978	PASS
+
+
+Verifying that fileset 'cluster.es.assist.websphere' is installed on all nodes
+	DX977	PASS
+
+	DX978	PASS
+
+
+Verifying that fileset 'cluster.es.assist.wmq' is installed on all nodes
+	DX977	PASS
+
+	DX978	PASS
+
+
+Verifying that fileset 'cluster.es.client.clcomd' is installed on all nodes
+	DX977	PASS
+
+	DX978	PASS
+
+
+Verifying that fileset 'cluster.es.client.lib' is installed on all nodes
+	DX977	PASS
+
+	DX978	PASS
+
+
+Verifying that fileset 'cluster.es.client.rte' is installed on all nodes
+	DX977	PASS
+
+	DX978	PASS
+
+
+Verifying that fileset 'cluster.es.client.utils' is installed on all nodes
+	DX977	PASS
+
+	DX978	PASS
+
+
+Verifying that fileset 'cluster.es.cspoc.cmds' is installed on all nodes
+	DX977	PASS
+
+	DX978	PASS
+
+
+Verifying that fileset 'cluster.es.cspoc.rte' is installed on all nodes
+	DX977	PASS
+
+	DX978	PASS
+
+
+Verifying that fileset 'cluster.es.director.agent.rte' is installed on all nodes
+	DX977	PASS
+
+	DX978	PASS
+
+
+Verifying that fileset 'cluster.es.migcheck' is installed on all nodes
+	DX977	PASS
+
+	DX978	PASS
+
+
+Verifying that fileset 'cluster.es.nfs.rte' is installed on all nodes
+	DX977	PASS
+
+	DX978	PASS
+
+
+Verifying that fileset 'cluster.es.server.diag' is installed on all nodes
+	DX977	PASS
+
+	DX978	PASS
+
+
+Verifying that fileset 'cluster.es.server.events' is installed on all nodes
+	DX977	PASS
+
+	DX978	PASS
+
+
+Verifying that fileset 'cluster.es.server.rte' is installed on all nodes
+	DX977	PASS
+
+	DX978	PASS
+
+
+Verifying that fileset 'cluster.es.server.testtool' is installed on all nodes
+	DX977	PASS
+
+	DX978	PASS
+
+
+Verifying that fileset 'cluster.es.server.utils' is installed on all nodes
+	DX977	PASS
+
+	DX978	PASS
+
+
+Verifying that fileset 'cluster.license' is installed on all nodes
+	DX977	PASS
+
+	DX978	PASS
+
+
+Verifying that fileset 'cluster.man.en_US.es.data' is installed on all nodes
+	DX977	PASS
+
+	DX978	PASS
+
+
+Verifying that fileset 'cluster.msg.en_US.assist' is installed on all nodes
+	DX977	PASS
+
+	DX978	PASS
+
+
+Verifying that fileset 'cluster.msg.en_US.es.client' is installed on all nodes
+	DX977	PASS
+
+	DX978	PASS
+
+
+Verifying that fileset 'cluster.msg.en_US.es.server' is installed on all nodes
+	DX977	PASS
+
+	DX978	PASS
+
+
+END CHECK
+Check: PASSED
+
+
+VERIFICATION NAME: topology.ver_topology_chk_caa_filesets
+2015-04-23T01:52:00.877690
+Check installed CAA filesets on all nodes.
+
+Data Collectors:
+	No data collectors
+
+BEGIN CHECK
+
+Verifying that CAA fileset 'devices.common.IBM.storfwork.rte' is at the same level on all nodes
+	DX977	PASS
+
+	DX978	PASS
+
+
+Verifying that CAA fileset 'bos.cluster.rte' is at the same level on all nodes
+	DX977	PASS
+
+	DX978	PASS
+
+
+END CHECK
+Check: PASSED
+
+
+	Completed 20 percent of the verification checks
+VERIFICATION NAME: topology.ver_topology_chk_rsct_filesets
+2015-04-23T01:52:00.878018
+check installed rsct filesets on all nodes.
+
+Data Collectors:
+	ID: 26  Description: Obtain the oslevel.
+		Collector succeeded on node DX977 (7 bytes)
+		Collector succeeded on node DX978 (7 bytes)
+
+BEGIN CHECK
+
+Verifying that fileset 'rsct.core.utils' is installed on all nodes and same software level installed on the nodes with the same level of AIX.
+
+Verifying that fileset 'rsct.basic.hacmp' is installed on all nodes and same software level installed on the nodes with the same level of AIX.
+
+Verifying that fileset 'rsct.basic.rte' is installed on all nodes and same software level installed on the nodes with the same level of AIX.
+
+Verifying that fileset 'rsct.core.sec' is installed on all nodes and same software level installed on the nodes with the same level of AIX.
+
+END CHECK
+Check: PASSED
+
+
+VERIFICATION NAME: topology.ver_topology_chk_etc_services
+2015-04-23T01:52:00.878579
+Check /etc/services for cluster service ports.
+
+Data Collectors:
+	ID: 37  Description: Retrieve the file /etc/services
+		Collector succeeded on node DX977 (345118 bytes)
+		Collector succeeded on node DX978 (345118 bytes)
+
+BEGIN CHECK
+
+Verifying /etc/services entry 'clcomd_caa 16191/tcp'
+	DX977	PASS
+
+	DX978	PASS
+
+
+Verifying /etc/services entry 'clinfo_client 6174/tcp'
+	DX977	PASS
+
+	DX978	PASS
+
+
+Verifying /etc/services entry 'clinfo_deadman 6176/tcp'
+	DX977	PASS
+
+	DX978	PASS
+
+
+Verifying /etc/services entry 'clsmuxpd 6270/tcp'
+	DX977	PASS
+
+	DX978	PASS
+
+
+Verifying /etc/services entry 'clm_smux 6175/tcp'
+	DX977	PASS
+
+	DX978	PASS
+
+
+END CHECK
+Check: PASSED
+
+
+VERIFICATION NAME: topology.ver_topology_chk_reserved_words
+2015-04-23T01:52:03.829186
+Check adapters, networks and node names against a list of reserved words in
+/usr/es/sbin/cluster/etc/reserved_words.
+
+Data Collectors:
+	No data collectors
+
+BEGIN CHECK
+
+Verifying that network, interface, IP label, and node names
+are not reserved words.
+	RESERVED WORD: adapter
+		net_ether_01	PASS
+
+		net_ether_02	PASS
+
+		net_ether_03	PASS
+
+		DX977_sc0	PASS
+
+		DX977-VIP	PASS
+
+		DX977	PASS
+
+		DX977_b	PASS
+
+		DX978_sc0	PASS
+
+		DX978	PASS
+
+		DX978_b	PASS
+
+		DX977	PASS
+
+		DX978	PASS
+
+	RESERVED WORD: cluster
+		net_ether_01	PASS
+
+		net_ether_02	PASS
+
+		net_ether_03	PASS
+
+		DX977_sc0	PASS
+
+		DX977-VIP	PASS
+
+		DX977	PASS
+
+		DX977_b	PASS
+
+		DX978_sc0	PASS
+
+		DX978	PASS
+
+		DX978_b	PASS
+
+		DX977	PASS
+
+		DX978	PASS
+
+	RESERVED WORD: command
+		net_ether_01	PASS
+
+		net_ether_02	PASS
+
+		net_ether_03	PASS
+
+		DX977_sc0	PASS
+
+		DX977-VIP	PASS
+
+		DX977	PASS
+
+		DX977_b	PASS
+
+		DX978_sc0	PASS
+
+		DX978	PASS
+
+		DX978_b	PASS
+
+		DX977	PASS
+
+		DX978	PASS
+
+	RESERVED WORD: custom
+		net_ether_01	PASS
+
+		net_ether_02	PASS
+
+		net_ether_03	PASS
+
+		DX977_sc0	PASS
+
+		DX977-VIP	PASS
+
+		DX977	PASS
+
+		DX977_b	PASS
+
+		DX978_sc0	PASS
+
+		DX978	PASS
+
+		DX978_b	PASS
+
+		DX977	PASS
+
+		DX978	PASS
+
+	RESERVED WORD: daemon
+		net_ether_01	PASS
+
+		net_ether_02	PASS
+
+		net_ether_03	PASS
+
+		DX977_sc0	PASS
+
+		DX977-VIP	PASS
+
+		DX977	PASS
+
+		DX977_b	PASS
+
+		DX978_sc0	PASS
+
+		DX978	PASS
+
+		DX978_b	PASS
+
+		DX977	PASS
+
+		DX978	PASS
+
+	RESERVED WORD: event
+		net_ether_01	PASS
+
+		net_ether_02	PASS
+
+		net_ether_03	PASS
+
+		DX977_sc0	PASS
+
+		DX977-VIP	PASS
+
+		DX977	PASS
+
+		DX977_b	PASS
+
+		DX978_sc0	PASS
+
+		DX978	PASS
+
+		DX978_b	PASS
+
+		DX977	PASS
+
+		DX978	PASS
+
+	RESERVED WORD: group
+		net_ether_01	PASS
+
+		net_ether_02	PASS
+
+		net_ether_03	PASS
+
+		DX977_sc0	PASS
+
+		DX977-VIP	PASS
+
+		DX977	PASS
+
+		DX977_b	PASS
+
+		DX978_sc0	PASS
+
+		DX978	PASS
+
+		DX978_b	PASS
+
+		DX977	PASS
+
+		DX978	PASS
+
+	RESERVED WORD: network
+		net_ether_01	PASS
+
+		net_ether_02	PASS
+
+		net_ether_03	PASS
+
+		DX977_sc0	PASS
+
+		DX977-VIP	PASS
+
+		DX977	PASS
+
+		DX977_b	PASS
+
+		DX978_sc0	PASS
+
+		DX978	PASS
+
+		DX978_b	PASS
+
+		DX977	PASS
+
+		DX978	PASS
+
+	RESERVED WORD: node
+		net_ether_01	PASS
+
+		net_ether_02	PASS
+
+		net_ether_03	PASS
+
+		DX977_sc0	PASS
+
+		DX977-VIP	PASS
+
+		DX977	PASS
+
+		DX977_b	PASS
+
+		DX978_sc0	PASS
+
+		DX978	PASS
+
+		DX978_b	PASS
+
+		DX977	PASS
+
+		DX978	PASS
+
+	RESERVED WORD: resource
+		net_ether_01	PASS
+
+		net_ether_02	PASS
+
+		net_ether_03	PASS
+
+		DX977_sc0	PASS
+
+		DX977-VIP	PASS
+
+		DX977	PASS
+
+		DX977_b	PASS
+
+		DX978_sc0	PASS
+
+		DX978	PASS
+
+		DX978_b	PASS
+
+		DX977	PASS
+
+		DX978	PASS
+
+	RESERVED WORD: name
+		net_ether_01	PASS
+
+		net_ether_02	PASS
+
+		net_ether_03	PASS
+
+		DX977_sc0	PASS
+
+		DX977-VIP	PASS
+
+		DX977	PASS
+
+		DX977_b	PASS
+
+		DX978_sc0	PASS
+
+		DX978	PASS
+
+		DX978_b	PASS
+
+		DX977	PASS
+
+		DX978	PASS
+
+	RESERVED WORD: grep
+		net_ether_01	PASS
+
+		net_ether_02	PASS
+
+		net_ether_03	PASS
+
+		DX977_sc0	PASS
+
+		DX977-VIP	PASS
+
+		DX977	PASS
+
+		DX977_b	PASS
+
+		DX978_sc0	PASS
+
+		DX978	PASS
+
+		DX978_b	PASS
+
+		DX977	PASS
+
+		DX978	PASS
+
+	RESERVED WORD: subnet
+		net_ether_01	PASS
+
+		net_ether_02	PASS
+
+		net_ether_03	PASS
+
+		DX977_sc0	PASS
+
+		DX977-VIP	PASS
+
+		DX977	PASS
+
+		DX977_b	PASS
+
+		DX978_sc0	PASS
+
+		DX978	PASS
+
+		DX978_b	PASS
+
+		DX977	PASS
+
+		DX978	PASS
+
+	RESERVED WORD: nim
+		net_ether_01	PASS
+
+		net_ether_02	PASS
+
+		net_ether_03	PASS
+
+		DX977_sc0	PASS
+
+		DX977-VIP	PASS
+
+		DX977	PASS
+
+		DX977_b	PASS
+
+		DX978_sc0	PASS
+
+		DX978	PASS
+
+		DX978_b	PASS
+
+		DX977	PASS
+
+		DX978	PASS
+
+	RESERVED WORD: ip
+		net_ether_01	PASS
+
+		net_ether_02	PASS
+
+		net_ether_03	PASS
+
+		DX977_sc0	PASS
+
+		DX977-VIP	PASS
+
+		DX977	PASS
+
+		DX977_b	PASS
+
+		DX978_sc0	PASS
+
+		DX978	PASS
+
+		DX978_b	PASS
+
+		DX977	PASS
+
+		DX978	PASS
+
+	RESERVED WORD: IP
+		net_ether_01	PASS
+
+		net_ether_02	PASS
+
+		net_ether_03	PASS
+
+		DX977_sc0	PASS
+
+		DX977-VIP	PASS
+
+		DX977	PASS
+
+		DX977_b	PASS
+
+		DX978_sc0	PASS
+
+		DX978	PASS
+
+		DX978_b	PASS
+
+		DX977	PASS
+
+		DX978	PASS
+
+	RESERVED WORD: ether
+		net_ether_01	PASS
+
+		net_ether_02	PASS
+
+		net_ether_03	PASS
+
+		DX977_sc0	PASS
+
+		DX977-VIP	PASS
+
+		DX977	PASS
+
+		DX977_b	PASS
+
+		DX978_sc0	PASS
+
+		DX978	PASS
+
+		DX978_b	PASS
+
+		DX977	PASS
+
+		DX978	PASS
+
+	RESERVED WORD: token
+		net_ether_01	PASS
+
+		net_ether_02	PASS
+
+		net_ether_03	PASS
+
+		DX977_sc0	PASS
+
+		DX977-VIP	PASS
+
+		DX977	PASS
+
+		DX977_b	PASS
+
+		DX978_sc0	PASS
+
+		DX978	PASS
+
+		DX978_b	PASS
+
+		DX977	PASS
+
+		DX978	PASS
+
+	RESERVED WORD: rs232
+		net_ether_01	PASS
+
+		net_ether_02	PASS
+
+		net_ether_03	PASS
+
+		DX977_sc0	PASS
+
+		DX977-VIP	PASS
+
+		DX977	PASS
+
+		DX977_b	PASS
+
+		DX978_sc0	PASS
+
+		DX978	PASS
+
+		DX978_b	PASS
+
+		DX977	PASS
+
+		DX978	PASS
+
+	RESERVED WORD: socc
+		net_ether_01	PASS
+
+		net_ether_02	PASS
+
+		net_ether_03	PASS
+
+		DX977_sc0	PASS
+
+		DX977-VIP	PASS
+
+		DX977	PASS
+
+		DX977_b	PASS
+
+		DX978_sc0	PASS
+
+		DX978	PASS
+
+		DX978_b	PASS
+
+		DX977	PASS
+
+		DX978	PASS
+
+	RESERVED WORD: fddi
+		net_ether_01	PASS
+
+		net_ether_02	PASS
+
+		net_ether_03	PASS
+
+		DX977_sc0	PASS
+
+		DX977-VIP	PASS
+
+		DX977	PASS
+
+		DX977_b	PASS
+
+		DX978_sc0	PASS
+
+		DX978	PASS
+
+		DX978_b	PASS
+
+		DX977	PASS
+
+		DX978	PASS
+
+	RESERVED WORD: slip
+		net_ether_01	PASS
+
+		net_ether_02	PASS
+
+		net_ether_03	PASS
+
+		DX977_sc0	PASS
+
+		DX977-VIP	PASS
+
+		DX977	PASS
+
+		DX977_b	PASS
+
+		DX978_sc0	PASS
+
+		DX978	PASS
+
+		DX978_b	PASS
+
+		DX977	PASS
+
+		DX978	PASS
+
+	RESERVED WORD: tmscsi
+		net_ether_01	PASS
+
+		net_ether_02	PASS
+
+		net_ether_03	PASS
+
+		DX977_sc0	PASS
+
+		DX977-VIP	PASS
+
+		DX977	PASS
+
+		DX977_b	PASS
+
+		DX978_sc0	PASS
+
+		DX978	PASS
+
+		DX978_b	PASS
+
+		DX977	PASS
+
+		DX978	PASS
+
+	RESERVED WORD: fcs
+		net_ether_01	PASS
+
+		net_ether_02	PASS
+
+		net_ether_03	PASS
+
+		DX977_sc0	PASS
+
+		DX977-VIP	PASS
+
+		DX977	PASS
+
+		DX977_b	PASS
+
+		DX978_sc0	PASS
+
+		DX978	PASS
+
+		DX978_b	PASS
+
+		DX977	PASS
+
+		DX978	PASS
+
+	RESERVED WORD: hps
+		net_ether_01	PASS
+
+		net_ether_02	PASS
+
+		net_ether_03	PASS
+
+		DX977_sc0	PASS
+
+		DX977-VIP	PASS
+
+		DX977	PASS
+
+		DX977_b	PASS
+
+		DX978_sc0	PASS
+
+		DX978	PASS
+
+		DX978_b	PASS
+
+		DX977	PASS
+
+		DX978	PASS
+
+	RESERVED WORD: atm
+		net_ether_01	PASS
+
+		net_ether_02	PASS
+
+		net_ether_03	PASS
+
+		DX977_sc0	PASS
+
+		DX977-VIP	PASS
+
+		DX977	PASS
+
+		DX977_b	PASS
+
+		DX978_sc0	PASS
+
+		DX978	PASS
+
+		DX978_b	PASS
+
+		DX977	PASS
+
+		DX978	PASS
+
+	RESERVED WORD: tmssa
+		net_ether_01	PASS
+
+		net_ether_02	PASS
+
+		net_ether_03	PASS
+
+		DX977_sc0	PASS
+
+		DX977-VIP	PASS
+
+		DX977	PASS
+
+		DX977_b	PASS
+
+		DX978_sc0	PASS
+
+		DX978	PASS
+
+		DX978_b	PASS
+
+		DX977	PASS
+
+		DX978	PASS
+
+	RESERVED WORD: serial
+		net_ether_01	PASS
+
+		net_ether_02	PASS
+
+		net_ether_03	PASS
+
+		DX977_sc0	PASS
+
+		DX977-VIP	PASS
+
+		DX977	PASS
+
+		DX977_b	PASS
+
+		DX978_sc0	PASS
+
+		DX978	PASS
+
+		DX978_b	PASS
+
+		DX977	PASS
+
+		DX978	PASS
+
+	RESERVED WORD: public
+		net_ether_01	PASS
+
+		net_ether_02	PASS
+
+		net_ether_03	PASS
+
+		DX977_sc0	PASS
+
+		DX977-VIP	PASS
+
+		DX977	PASS
+
+		DX977_b	PASS
+
+		DX978_sc0	PASS
+
+		DX978	PASS
+
+		DX978_b	PASS
+
+		DX977	PASS
+
+		DX978	PASS
+
+	RESERVED WORD: private
+		net_ether_01	PASS
+
+		net_ether_02	PASS
+
+		net_ether_03	PASS
+
+		DX977_sc0	PASS
+
+		DX977-VIP	PASS
+
+		DX977	PASS
+
+		DX977_b	PASS
+
+		DX978_sc0	PASS
+
+		DX978	PASS
+
+		DX978_b	PASS
+
+		DX977	PASS
+
+		DX978	PASS
+
+	RESERVED WORD: diskhb
+		net_ether_01	PASS
+
+		net_ether_02	PASS
+
+		net_ether_03	PASS
+
+		DX977_sc0	PASS
+
+		DX977-VIP	PASS
+
+		DX977	PASS
+
+		DX977_b	PASS
+
+		DX978_sc0	PASS
+
+		DX978	PASS
+
+		DX978_b	PASS
+
+		DX977	PASS
+
+		DX978	PASS
+
+	RESERVED WORD: diskhbmulti
+		net_ether_01	PASS
+
+		net_ether_02	PASS
+
+		net_ether_03	PASS
+
+		DX977_sc0	PASS
+
+		DX977-VIP	PASS
+
+		DX977	PASS
+
+		DX977_b	PASS
+
+		DX978_sc0	PASS
+
+		DX978	PASS
+
+		DX978_b	PASS
+
+		DX977	PASS
+
+		DX978	PASS
+
+	RESERVED WORD: alias
+		net_ether_01	PASS
+
+		net_ether_02	PASS
+
+		net_ether_03	PASS
+
+		DX977_sc0	PASS
+
+		DX977-VIP	PASS
+
+		DX977	PASS
+
+		DX977_b	PASS
+
+		DX978_sc0	PASS
+
+		DX978	PASS
+
+		DX978_b	PASS
+
+		DX977	PASS
+
+		DX978	PASS
+
+	RESERVED WORD: disk
+		net_ether_01	PASS
+
+		net_ether_02	PASS
+
+		net_ether_03	PASS
+
+		DX977_sc0	PASS
+
+		DX977-VIP	PASS
+
+		DX977	PASS
+
+		DX977_b	PASS
+
+		DX978_sc0	PASS
+
+		DX978	PASS
+
+		DX978_b	PASS
+
+		DX977	PASS
+
+		DX978	PASS
+
+	RESERVED WORD: volume
+		net_ether_01	PASS
+
+		net_ether_02	PASS
+
+		net_ether_03	PASS
+
+		DX977_sc0	PASS
+
+		DX977-VIP	PASS
+
+		DX977	PASS
+
+		DX977_b	PASS
+
+		DX978_sc0	PASS
+
+		DX978	PASS
+
+		DX978_b	PASS
+
+		DX977	PASS
+
+		DX978	PASS
+
+	RESERVED WORD: vpath
+		net_ether_01	PASS
+
+		net_ether_02	PASS
+
+		net_ether_03	PASS
+
+		DX977_sc0	PASS
+
+		DX977-VIP	PASS
+
+		DX977	PASS
+
+		DX977_b	PASS
+
+		DX978_sc0	PASS
+
+		DX978	PASS
+
+		DX978_b	PASS
+
+		DX977	PASS
+
+		DX978	PASS
+
+	RESERVED WORD: tty
+		net_ether_01	PASS
+
+		net_ether_02	PASS
+
+		net_ether_03	PASS
+
+		DX977_sc0	PASS
+
+		DX977-VIP	PASS
+
+		DX977	PASS
+
+		DX977_b	PASS
+
+		DX978_sc0	PASS
+
+		DX978	PASS
+
+		DX978_b	PASS
+
+		DX977	PASS
+
+		DX978	PASS
+
+	RESERVED WORD: scsi
+		net_ether_01	PASS
+
+		net_ether_02	PASS
+
+		net_ether_03	PASS
+
+		DX977_sc0	PASS
+
+		DX977-VIP	PASS
+
+		DX977	PASS
+
+		DX977_b	PASS
+
+		DX978_sc0	PASS
+
+		DX978	PASS
+
+		DX978_b	PASS
+
+		DX977	PASS
+
+		DX978	PASS
+
+	RESERVED WORD: fscsi
+		net_ether_01	PASS
+
+		net_ether_02	PASS
+
+		net_ether_03	PASS
+
+		DX977_sc0	PASS
+
+		DX977-VIP	PASS
+
+		DX977	PASS
+
+		DX977_b	PASS
+
+		DX978_sc0	PASS
+
+		DX978	PASS
+
+		DX978_b	PASS
+
+		DX977	PASS
+
+		DX978	PASS
+
+	RESERVED WORD: vscsi
+		net_ether_01	PASS
+
+		net_ether_02	PASS
+
+		net_ether_03	PASS
+
+		DX977_sc0	PASS
+
+		DX977-VIP	PASS
+
+		DX977	PASS
+
+		DX977_b	PASS
+
+		DX978_sc0	PASS
+
+		DX978	PASS
+
+		DX978_b	PASS
+
+		DX977	PASS
+
+		DX978	PASS
+
+	RESERVED WORD: nodename
+		net_ether_01	PASS
+
+		net_ether_02	PASS
+
+		net_ether_03	PASS
+
+		DX977_sc0	PASS
+
+		DX977-VIP	PASS
+
+		DX977	PASS
+
+		DX977_b	PASS
+
+		DX978_sc0	PASS
+
+		DX978	PASS
+
+		DX978_b	PASS
+
+		DX977	PASS
+
+		DX978	PASS
+
+	RESERVED WORD: OHN
+		net_ether_01	PASS
+
+		net_ether_02	PASS
+
+		net_ether_03	PASS
+
+		DX977_sc0	PASS
+
+		DX977-VIP	PASS
+
+		DX977	PASS
+
+		DX977_b	PASS
+
+		DX978_sc0	PASS
+
+		DX978	PASS
+
+		DX978_b	PASS
+
+		DX977	PASS
+
+		DX978	PASS
+
+	RESERVED WORD: OFAN
+		net_ether_01	PASS
+
+		net_ether_02	PASS
+
+		net_ether_03	PASS
+
+		DX977_sc0	PASS
+
+		DX977-VIP	PASS
+
+		DX977	PASS
+
+		DX977_b	PASS
+
+		DX978_sc0	PASS
+
+		DX978	PASS
+
+		DX978_b	PASS
+
+		DX977	PASS
+
+		DX978	PASS
+
+	RESERVED WORD: OUDP
+		net_ether_01	PASS
+
+		net_ether_02	PASS
+
+		net_ether_03	PASS
+
+		DX977_sc0	PASS
+
+		DX977-VIP	PASS
+
+		DX977	PASS
+
+		DX977_b	PASS
+
+		DX978_sc0	PASS
+
+		DX978	PASS
+
+		DX978_b	PASS
+
+		DX977	PASS
+
+		DX978	PASS
+
+	RESERVED WORD: OAAN
+		net_ether_01	PASS
+
+		net_ether_02	PASS
+
+		net_ether_03	PASS
+
+		DX977_sc0	PASS
+
+		DX977-VIP	PASS
+
+		DX977	PASS
+
+		DX977_b	PASS
+
+		DX978_sc0	PASS
+
+		DX978	PASS
+
+		DX978_b	PASS
+
+		DX977	PASS
+
+		DX978	PASS
+
+	RESERVED WORD: FNPN
+		net_ether_01	PASS
+
+		net_ether_02	PASS
+
+		net_ether_03	PASS
+
+		DX977_sc0	PASS
+
+		DX977-VIP	PASS
+
+		DX977	PASS
+
+		DX977_b	PASS
+
+		DX978_sc0	PASS
+
+		DX978	PASS
+
+		DX978_b	PASS
+
+		DX977	PASS
+
+		DX978	PASS
+
+	RESERVED WORD: FUDNP
+		net_ether_01	PASS
+
+		net_ether_02	PASS
+
+		net_ether_03	PASS
+
+		DX977_sc0	PASS
+
+		DX977-VIP	PASS
+
+		DX977	PASS
+
+		DX977_b	PASS
+
+		DX978_sc0	PASS
+
+		DX978	PASS
+
+		DX978_b	PASS
+
+		DX977	PASS
+
+		DX978	PASS
+
+	RESERVED WORD: BO
+		net_ether_01	PASS
+
+		net_ether_02	PASS
+
+		net_ether_03	PASS
+
+		DX977_sc0	PASS
+
+		DX977-VIP	PASS
+
+		DX977	PASS
+
+		DX977_b	PASS
+
+		DX978_sc0	PASS
+
+		DX978	PASS
+
+		DX978_b	PASS
+
+		DX977	PASS
+
+		DX978	PASS
+
+	RESERVED WORD: FBHPN
+		net_ether_01	PASS
+
+		net_ether_02	PASS
+
+		net_ether_03	PASS
+
+		DX977_sc0	PASS
+
+		DX977-VIP	PASS
+
+		DX977	PASS
+
+		DX977_b	PASS
+
+		DX978_sc0	PASS
+
+		DX978	PASS
+
+		DX978_b	PASS
+
+		DX977	PASS
+
+		DX978	PASS
+
+	RESERVED WORD: NFB
+		net_ether_01	PASS
+
+		net_ether_02	PASS
+
+		net_ether_03	PASS
+
+		DX977_sc0	PASS
+
+		DX977-VIP	PASS
+
+		DX977	PASS
+
+		DX977_b	PASS
+
+		DX978_sc0	PASS
+
+		DX978	PASS
+
+		DX978_b	PASS
+
+		DX977	PASS
+
+		DX978	PASS
+
+	RESERVED WORD: ipv6
+		net_ether_01	PASS
+
+		net_ether_02	PASS
+
+		net_ether_03	PASS
+
+		DX977_sc0	PASS
+
+		DX977-VIP	PASS
+
+		DX977	PASS
+
+		DX977_b	PASS
+
+		DX978_sc0	PASS
+
+		DX978	PASS
+
+		DX978_b	PASS
+
+		DX977	PASS
+
+		DX978	PASS
+
+	RESERVED WORD: IPv6
+		net_ether_01	PASS
+
+		net_ether_02	PASS
+
+		net_ether_03	PASS
+
+		DX977_sc0	PASS
+
+		DX977-VIP	PASS
+
+		DX977	PASS
+
+		DX977_b	PASS
+
+		DX978_sc0	PASS
+
+		DX978	PASS
+
+		DX978_b	PASS
+
+		DX977	PASS
+
+		DX978	PASS
+
+	RESERVED WORD: IPV6
+		net_ether_01	PASS
+
+		net_ether_02	PASS
+
+		net_ether_03	PASS
+
+		DX977_sc0	PASS
+
+		DX977-VIP	PASS
+
+		DX977	PASS
+
+		DX977_b	PASS
+
+		DX978_sc0	PASS
+
+		DX978	PASS
+
+		DX978_b	PASS
+
+		DX977	PASS
+
+		DX978	PASS
+
+	RESERVED WORD: IW
+		net_ether_01	PASS
+
+		net_ether_02	PASS
+
+		net_ether_03	PASS
+
+		DX977_sc0	PASS
+
+		DX977-VIP	PASS
+
+		DX977	PASS
+
+		DX977_b	PASS
+
+		DX978_sc0	PASS
+
+		DX978	PASS
+
+		DX978_b	PASS
+
+		DX977	PASS
+
+		DX978	PASS
+
+
+END CHECK
+Check: PASSED
+
+
+VERIFICATION NAME: topology.ver_topology_chk_etc_hosts
+2015-04-23T01:52:03.835239
+Check /etc/hosts contains the same entries as defined to HACMP.
+
+Data Collectors:
+	ID: 20  Description: Retrieve the file /etc/hosts
+		Collector succeeded on node DX977 (16947 bytes)
+		Collector succeeded on node DX978 (438 bytes)
+
+BEGIN CHECK
+WARNING: Duplicate IP address found on node DX977 in /etc/hosts: 127.0.0.1
+WARNING: Duplicate host found on node DX977 in /etc/hosts: au308.etisalat.corp.ae
+WARNING: Duplicate host found on node DX977 in /etc/hosts: au308
+WARNING: Duplicate host found on node DX977 in /etc/hosts: omucit.etisalat.corp.ae
+WARNING: Duplicate host found on node DX977 in /etc/hosts: omucit
+WARNING: Duplicate host found on node DX977 in /etc/hosts: au309.etisalat.corp.ae
+WARNING: Duplicate host found on node DX977 in /etc/hosts: au309
+WARNING: Duplicate host found on node DX977 in /etc/hosts: dx131_pa
+WARNING: Duplicate host found on node DX977 in /etc/hosts: dx131_sa
+WARNING: Duplicate host found on node DX977 in /etc/hosts: dx105_b
+WARNING: Duplicate host found on node DX977 in /etc/hosts: dx104
+WARNING: Duplicate host found on node DX977 in /etc/hosts: dx105
+
+END CHECK
+Check: PASSED
+
+
+VERIFICATION NAME: topology.ver_topology_chk_clhosts_client
+2015-04-23T01:52:03.864268
+Check /usr/es/sbin/cluster/etc/clhosts.client contains the information about IP labels known to HACMP.
+
+
+Data Collectors:
+	ID: 21  Description: Retrieve the file /usr/es/sbin/cluster/etc/clhosts.client
+
+		Collector succeeded on node DX977 (98 bytes)
+		Collector succeeded on node DX978 (98 bytes)
+
+BEGIN CHECK
+
+END CHECK
+Check: PASSED
+
+
+VERIFICATION NAME: topology.ver_chk_autoverify
+2015-04-23T01:52:03.867238
+Verifying Automatic Cluster Configuration Monitoring settings
+
+Data Collectors:
+	No data collectors
+
+BEGIN CHECK
+	PASS
+
+
+END CHECK
+Check: PASSED
+
+
+VERIFICATION NAME: topology.ver_topology_chk_xd_nets
+2015-04-23T01:52:03.867344
+Verifying XD networks
+
+Data Collectors:
+	ID: 1  Description: Retrieve a copy of ODM CuAt from each node.
+	ID: 2  Description: Retrieve a copy of ODM CuDv from each node.
+
+BEGIN CHECK
+
+END CHECK
+Check: PASSED
+
+
+VERIFICATION NAME: topology.ver_topology_chk_net_options
+2015-04-23T01:52:03.867461
+Verifying the network options.
+
+Data Collectors:
+	ID: 25  Description: Obtain the list of network options
+
+		Collector succeeded on node DX977 (183 bytes)
+		Collector succeeded on node DX978 (183 bytes)
+
+BEGIN CHECK
+Node: DX977
+
+Node: DX978
+
+
+END CHECK
+Check: PASSED
+
+
+VERIFICATION NAME: topology.ver_chk_etc_group
+2015-04-23T01:52:03.868215
+Verify "hacmp" user group exists on all nodes in /etc/group
+
+Data Collectors:
+	ID: 42  Description: Gathering /etc/group from each cluster node
+		Collector succeeded on node DX977 (521 bytes)
+		Collector succeeded on node DX978 (516 bytes)
+
+BEGIN CHECK
+
+END CHECK
+Check: PASSED
+
+
+	Completed 30 percent of the verification checks
+VERIFICATION NAME: topology.ver_topology_chk_nd_capable
+2015-04-23T01:52:03.869480
+Verifying ndpd-host daemon status and LL address configuration on IPv6
+hosts.
+
+
+Data Collectors:
+	ID: 64  Description: Collecting ndpd-host daemon status.
+
+		Collector succeeded on node DX977 (116 bytes)
+		Collector succeeded on node DX978 (116 bytes)
+	ID: 28  Description: Gather netstat -in output
+		Collector succeeded on node DX977 (865 bytes)
+		Collector succeeded on node DX978 (768 bytes)
+
+BEGIN CHECK
+
+END CHECK
+Check: PASSED
+
+
+VERIFICATION NAME: topology.ver_topology_chk_ipv6_service_ip_network
+2015-04-23T01:52:03.869793
+Verifying PowerHA SystemMirror network topology for IPv6 service IP.
+
+
+Data Collectors:
+	No data collectors
+
+BEGIN CHECK
+	DX977-VIP(10.51.226.228)	PASS
+
+
+END CHECK
+Check: PASSED
+
+
+VERIFICATION NAME: topology.ver_topology_chk_IPv6_boot_network
+2015-04-23T01:52:03.869969
+verifying IPv6 HACMPnetwork for nimname.
+
+
+Data Collectors:
+	No data collectors
+
+BEGIN CHECK
+	PASS
+
+
+END CHECK
+Check: PASSED
+
+
+VERIFICATION NAME: topology.ver_topology_chk_mcast_mping 
+2015-04-23T01:52:03.870054
+	Validating multicast communication using mping
+
+
+Data Collectors:
+	No data collectors
+
+BEGIN CHECK
+	PASS
+
+This cluster uses Unicast heartbeat
+
+END CHECK
+Check: PASSED
+
+
+VERIFICATION NAME: topology.ver_private_networks
+2015-04-23T01:52:03.870143
+Verifying not all networks are marked as private
+
+Data Collectors:
+	No data collectors
+
+BEGIN CHECK
+
+END CHECK
+Check: PASSED
+
+
+VERIFICATION NAME: resource.ip_check_resource
+2015-04-23T01:52:03.870224
+Check all service label resources.
+
+Data Collectors:
+	No data collectors
+
+BEGIN CHECK
+
+Verifying that all nodes in resource groups exist in cluster
+DX977	PASS
+
+DX978	PASS
+
+
+Verifying that service IP label is in topology: DX977-VIP	PASS
+
+
+Verifying that each node in RG has interface for service IP label
+DX977	PASS
+
+
+Verifying that all service IP labels are configured correctly
+Node: DX977
+Node: DX978
+Node: DX977
+	Service IP Label: DX977-VIP
+		Is the label in only one RG	PASS
+
+Node: DX978
+	Service IP Label: DX977-VIP
+		Is the label in only one RG	PASS
+
+Node: DX977
+Node: DX978
+chk_ipat_site_labels: Check for site specific service IP
+
+Nothing to verify for this check
+
+END CHECK
+Check: PASSED
+
+
+VERIFICATION NAME: resource.ver_chk_custom_resource_group
+2015-04-23T01:52:03.870735
+Run Resource Group verification checks
+
+Data Collectors:
+	No data collectors
+
+BEGIN CHECK
+Verifying User Preferences for Resource Groups
+Verifying Resource Group: DX977_RSG
+
+END CHECK
+Check: PASSED
+
+
+VERIFICATION NAME: resource.ver_chk_rep_resource
+2015-04-23T01:52:03.870928
+Check all replicated resources.
+
+Data Collectors:
+	No data collectors
+
+BEGIN CHECK
+
+END CHECK
+Check: PASSED
+
+
+VERIFICATION NAME: resource.ver_chk_rot_group
+2015-04-23T01:52:03.871281
+Check node participation in rotating resource groups.
+
+Data Collectors:
+	No data collectors
+
+BEGIN CHECK
+
+END CHECK
+Check: PASSED
+
+
+	Completed 40 percent of the verification checks
+VERIFICATION NAME: resource.get_general_resource_data
+2015-04-23T01:52:03.871370
+Set up general data structures for resource checks.
+
+Data Collectors:
+	ID: 3  Description: Retrieve a copy of ODM CuDvDr from each node.
+	ID: 1  Description: Retrieve a copy of ODM CuAt from each node.
+	ID: 2  Description: Retrieve a copy of ODM CuDv from each node.
+	ID: 5  Description: Retrieve a copy of ODM PdDv from each node.
+
+BEGIN CHECK
+Gathering data about all disks, volume groups, logical volumes, 
+and filesystems configured across the cluster.
+
+Verifying that logical volumes have disks on node DX977
+	rootvg	PASS
+
+	rootvg	PASS
+
+	rootvg	PASS
+
+	rootvg	PASS
+
+	rootvg	PASS
+
+	rootvg	PASS
+
+	rootvg	PASS
+
+	rootvg	PASS
+
+	rootvg	PASS
+
+	rootvg	PASS
+
+	rootvg	PASS
+
+	rootvg	PASS
+
+	rootvg	PASS
+
+	oravg	PASS
+
+	oravg	PASS
+
+	oravg	PASS
+
+	exp1vg	PASS
+
+	ctrl1vg	PASS
+
+	ctrl1vg	PASS
+
+	temp1vg	PASS
+
+	ctrl1vg	PASS
+
+	data1vg	PASS
+
+	indx1vg	PASS
+
+	arch1vg	PASS
+
+	arch1vg	PASS
+
+	redo1vg	PASS
+
+	redo1vg	PASS
+
+	flash1vg	PASS
+
+	undo1vg	PASS
+
+	bkp1vg	PASS
+
+	gg1vg	PASS
+
+	caavg_private	PASS
+
+	caavg_private	PASS
+
+	caavg_private	PASS
+
+	caavg_private	PASS
+
+	datacollectvg	PASS
+
+	datacollectvg	PASS
+
+
+Verifying that logical volumes have disks on node DX978
+	rootvg	PASS
+
+	rootvg	PASS
+
+	rootvg	PASS
+
+	rootvg	PASS
+
+	rootvg	PASS
+
+	rootvg	PASS
+
+	rootvg	PASS
+
+	rootvg	PASS
+
+	rootvg	PASS
+
+	rootvg	PASS
+
+	rootvg	PASS
+
+	rootvg	PASS
+
+	rootvg	PASS
+
+	oravg	PASS
+
+	oravg	PASS
+
+	oravg	PASS
+
+	exp1vg	PASS
+
+	ctrl1vg	PASS
+
+	ctrl1vg	PASS
+
+	ctrl1vg	PASS
+
+	temp1vg	PASS
+
+	data1vg	PASS
+
+	indx1vg	PASS
+
+	arch1vg	PASS
+
+	arch1vg	PASS
+
+	redo1vg	PASS
+
+	redo1vg	PASS
+
+	flash1vg	PASS
+
+	gg1vg	PASS
+
+	undo1vg	PASS
+
+	bkp1vg	PASS
+
+	caavg_private	PASS
+
+	caavg_private	PASS
+
+	caavg_private	PASS
+
+	caavg_private	PASS
+
+Finished gathering data
+
+END CHECK
+Check: PASSED
+
+
+VERIFICATION NAME: resource.ver_chk_lvuniq
+2015-04-23T01:52:05.746987
+Check logical volume configuration consistancy.
+
+Data Collectors:
+	ID: 3  Description: Retrieve a copy of ODM CuDvDr from each node.
+	ID: 1  Description: Retrieve a copy of ODM CuAt from each node.
+	ID: 56  Description: Collect Active volume groups list
+		Collector succeeded on node DX977 (126 bytes)
+		Collector succeeded on node DX978 (21 bytes)
+	ID: 50  Description: collect PVID access status
+
+		Collector succeeded on node DX977 (3150 bytes)
+		Collector succeeded on node DX978 (3150 bytes)
+
+BEGIN CHECK
+
+
+Performing volume group consistency check
+
+Verifying that VGs for all PowerHA SystemMirror filesystems are found in the system ODM
+
+
+	Comparing volume group configuration on 
+	node DX977 and node DX978.
+		oravg
+	PASS
+
+	Comparing logical volume configuration on
+		node DX977 and node DX978 for volume group oravg
+
+		R5_syslv	PASS
+
+		R5_stagelv	PASS
+
+		R5_baselv	PASS
+
+	Comparing volume group configuration on 
+	node DX977 and node DX978.
+		redo1vg
+	PASS
+
+	Comparing logical volume configuration on
+		node DX977 and node DX978 for volume group redo1vg
+
+		R1_redo1lv	PASS
+
+		R1_redo2lv	PASS
+
+	Comparing volume group configuration on 
+	node DX977 and node DX978.
+		exp1vg
+	PASS
+
+	Comparing logical volume configuration on
+		node DX977 and node DX978 for volume group exp1vg
+
+		R5_explv	PASS
+
+	Comparing volume group configuration on 
+	node DX977 and node DX978.
+		data1vg
+	PASS
+
+	Comparing logical volume configuration on
+		node DX977 and node DX978 for volume group data1vg
+
+		R1_data1lv	PASS
+
+	Comparing volume group configuration on 
+	node DX977 and node DX978.
+		ctrl1vg
+	PASS
+
+	Comparing logical volume configuration on
+		node DX977 and node DX978 for volume group ctrl1vg
+
+		R1_ctrl1lv	PASS
+
+		R1_ctrl2lv	PASS
+
+		R1_ctrl3lv	PASS
+
+	Comparing volume group configuration on 
+	node DX977 and node DX978.
+		temp1vg
+	PASS
+
+	Comparing logical volume configuration on
+		node DX977 and node DX978 for volume group temp1vg
+
+		R1_templv	PASS
+
+	Comparing volume group configuration on 
+	node DX977 and node DX978.
+		indx1vg
+	PASS
+
+	Comparing logical volume configuration on
+		node DX977 and node DX978 for volume group indx1vg
+
+		R1_indx1lv	PASS
+
+	Comparing volume group configuration on 
+	node DX977 and node DX978.
+		arch1vg
+	PASS
+
+	Comparing logical volume configuration on
+		node DX977 and node DX978 for volume group arch1vg
+
+		R1_arch1lv	PASS
+
+		R1_arch2lv	PASS
+
+	Comparing volume group configuration on 
+	node DX977 and node DX978.
+		flash1vg
+	PASS
+
+	Comparing logical volume configuration on
+		node DX977 and node DX978 for volume group flash1vg
+
+		R1_flashlv	PASS
+
+	Comparing volume group configuration on 
+	node DX977 and node DX978.
+		gg1vg
+	PASS
+
+	Comparing logical volume configuration on
+		node DX977 and node DX978 for volume group gg1vg
+
+		R5_gglv	PASS
+
+	Comparing volume group configuration on 
+	node DX977 and node DX978.
+		undo1vg
+	PASS
+
+	Comparing logical volume configuration on
+		node DX977 and node DX978 for volume group undo1vg
+
+		R5_undolv	PASS
+
+	Comparing volume group configuration on 
+	node DX977 and node DX978.
+		bkp1vg
+	PASS
+
+	Comparing logical volume configuration on
+		node DX977 and node DX978 for volume group bkp1vg
+
+		R6_bkplv	PASS
+
+	Comparing volume group configuration on 
+	node DX978 and node DX977.
+		oravg
+	PASS
+
+	Comparing logical volume configuration on
+		node DX978 and node DX977 for volume group oravg
+
+		R5_baselv	PASS
+
+		R5_syslv	PASS
+
+		R5_stagelv	PASS
+
+	Comparing volume group configuration on 
+	node DX978 and node DX977.
+		exp1vg
+	PASS
+
+	Comparing logical volume configuration on
+		node DX978 and node DX977 for volume group exp1vg
+
+		R5_explv	PASS
+
+	Comparing volume group configuration on 
+	node DX978 and node DX977.
+		ctrl1vg
+	PASS
+
+	Comparing logical volume configuration on
+		node DX978 and node DX977 for volume group ctrl1vg
+
+		R1_ctrl1lv	PASS
+
+		R1_ctrl2lv	PASS
+
+		R1_ctrl3lv	PASS
+
+	Comparing volume group configuration on 
+	node DX978 and node DX977.
+		temp1vg
+	PASS
+
+	Comparing logical volume configuration on
+		node DX978 and node DX977 for volume group temp1vg
+
+		R1_templv	PASS
+
+	Comparing volume group configuration on 
+	node DX978 and node DX977.
+		data1vg
+	PASS
+
+	Comparing logical volume configuration on
+		node DX978 and node DX977 for volume group data1vg
+
+		R1_data1lv	PASS
+
+	Comparing volume group configuration on 
+	node DX978 and node DX977.
+		indx1vg
+	PASS
+
+	Comparing logical volume configuration on
+		node DX978 and node DX977 for volume group indx1vg
+
+		R1_indx1lv	PASS
+
+	Comparing volume group configuration on 
+	node DX978 and node DX977.
+		arch1vg
+	PASS
+
+	Comparing logical volume configuration on
+		node DX978 and node DX977 for volume group arch1vg
+
+		R1_arch1lv	PASS
+
+		R1_arch2lv	PASS
+
+	Comparing volume group configuration on 
+	node DX978 and node DX977.
+		redo1vg
+	PASS
+
+	Comparing logical volume configuration on
+		node DX978 and node DX977 for volume group redo1vg
+
+		R1_redo1lv	PASS
+
+		R1_redo2lv	PASS
+
+	Comparing volume group configuration on 
+	node DX978 and node DX977.
+		flash1vg
+	PASS
+
+	Comparing logical volume configuration on
+		node DX978 and node DX977 for volume group flash1vg
+
+		R1_flashlv	PASS
+
+	Comparing volume group configuration on 
+	node DX978 and node DX977.
+		gg1vg
+	PASS
+
+	Comparing logical volume configuration on
+		node DX978 and node DX977 for volume group gg1vg
+
+		R5_gglv	PASS
+
+	Comparing volume group configuration on 
+	node DX978 and node DX977.
+		undo1vg
+	PASS
+
+	Comparing logical volume configuration on
+		node DX978 and node DX977 for volume group undo1vg
+
+		R5_undolv	PASS
+
+	Comparing volume group configuration on 
+	node DX978 and node DX977.
+		bkp1vg
+	PASS
+
+	Comparing logical volume configuration on
+		node DX978 and node DX977 for volume group bkp1vg
+
+		R6_bkplv	PASS
+
+
+END CHECK
+Check: PASSED
+
+
+VERIFICATION NAME: resource.ver_chk_disk_vg_fs
+2015-04-23T01:52:05.837221
+Verify all disk, VG, and filesystem configurations are consistent on all nodes.
+
+Data Collectors:
+	ID: 3  Description: Retrieve a copy of ODM CuDvDr from each node.
+	ID: 11  Description: Retrieve filesystem configuration settings.
+		Collector succeeded on node DX977 (1933 bytes)
+		Collector succeeded on node DX978 (1720 bytes)
+	ID: 1  Description: Retrieve a copy of ODM CuAt from each node.
+	ID: 4  Description: Retrieve a copy of ODM PdAt from each node.
+	ID: 43  Description: Collect stats for specified file.
+		Collector succeeded on node DX977 (6692 bytes)
+		Collector succeeded on node DX978 (6692 bytes)
+	ID: 24  Description: List the filesystems and associated volume groups.
+		Collector succeeded on node DX977 (326 bytes)
+		Collector succeeded on node DX978 (326 bytes)
+
+BEGIN CHECK
+
+Verifying Resource Group: DX977_RSG
+-------------------------
+
+Checking resource configuration for all disks, volume groups, 
+logical volumes, filesystems, and node priority policies.
+
+Verifying Resource Group: DX977_RSG
+-------------------------
+
+Verifying Resources on each Node...
+Verifying Volume Group: oravg
+	Volume group oravg is correctly configured on each node
+		DX977
+		Volume group is accessible	PASS
+
+		Volume group not set to autovaryon	PASS
+
+		DX978
+		Volume group is accessible	PASS
+
+		Volume group not set to autovaryon	PASS
+
+		Volume group uses the same disks on all nodes	PASS
+
+		Filesystem not set to automount	PASS
+
+		Filesystem not set to automount	PASS
+
+		Filesystem not set to automount	PASS
+
+		Filesystem not set to automount	PASS
+
+		Filesystem not set to automount	PASS
+
+		Filesystem not set to automount	PASS
+
+Verifying Volume Group: data1vg
+	Volume group data1vg is correctly configured on each node
+		DX977
+		Volume group is accessible	PASS
+
+		Volume group not set to autovaryon	PASS
+
+		DX978
+		Volume group is accessible	PASS
+
+		Volume group not set to autovaryon	PASS
+
+		Volume group uses the same disks on all nodes	PASS
+
+		Filesystem not set to automount	PASS
+
+		Filesystem not set to automount	PASS
+
+Verifying Volume Group: indx1vg
+	Volume group indx1vg is correctly configured on each node
+		DX977
+		Volume group is accessible	PASS
+
+		Volume group not set to autovaryon	PASS
+
+		DX978
+		Volume group is accessible	PASS
+
+		Volume group not set to autovaryon	PASS
+
+		Volume group uses the same disks on all nodes	PASS
+
+		Filesystem not set to automount	PASS
+
+		Filesystem not set to automount	PASS
+
+Verifying Volume Group: arch1vg
+	Volume group arch1vg is correctly configured on each node
+		DX977
+		Volume group is accessible	PASS
+
+		Volume group not set to autovaryon	PASS
+
+		DX978
+		Volume group is accessible	PASS
+
+		Volume group not set to autovaryon	PASS
+
+		Volume group uses the same disks on all nodes	PASS
+
+		Filesystem not set to automount	PASS
+
+		Filesystem not set to automount	PASS
+
+		Filesystem not set to automount	PASS
+
+		Filesystem not set to automount	PASS
+
+Verifying Volume Group: exp1vg
+	Volume group exp1vg is correctly configured on each node
+		DX977
+		Volume group is accessible	PASS
+
+		Volume group not set to autovaryon	PASS
+
+		DX978
+		Volume group is accessible	PASS
+
+		Volume group not set to autovaryon	PASS
+
+		Volume group uses the same disks on all nodes	PASS
+
+		Filesystem not set to automount	PASS
+
+		Filesystem not set to automount	PASS
+
+Verifying Volume Group: temp1vg
+	Volume group temp1vg is correctly configured on each node
+		DX977
+		Volume group is accessible	PASS
+
+		Volume group not set to autovaryon	PASS
+
+		DX978
+		Volume group is accessible	PASS
+
+		Volume group not set to autovaryon	PASS
+
+		Volume group uses the same disks on all nodes	PASS
+
+		Filesystem not set to automount	PASS
+
+		Filesystem not set to automount	PASS
+
+Verifying Volume Group: redo1vg
+	Volume group redo1vg is correctly configured on each node
+		DX977
+		Volume group is accessible	PASS
+
+		Volume group not set to autovaryon	PASS
+
+		DX978
+		Volume group is accessible	PASS
+
+		Volume group not set to autovaryon	PASS
+
+		Volume group uses the same disks on all nodes	PASS
+
+		Filesystem not set to automount	PASS
+
+		Filesystem not set to automount	PASS
+
+		Filesystem not set to automount	PASS
+
+		Filesystem not set to automount	PASS
+
+Verifying Volume Group: ctrl1vg
+	Volume group ctrl1vg is correctly configured on each node
+		DX977
+		Volume group is accessible	PASS
+
+		Volume group not set to autovaryon	PASS
+
+		DX978
+		Volume group is accessible	PASS
+
+		Volume group not set to autovaryon	PASS
+
+		Volume group uses the same disks on all nodes	PASS
+
+		Filesystem not set to automount	PASS
+
+		Filesystem not set to automount	PASS
+
+		Filesystem not set to automount	PASS
+
+		Filesystem not set to automount	PASS
+
+		Filesystem not set to automount	PASS
+
+		Filesystem not set to automount	PASS
+
+Verifying Volume Group: undo1vg
+	Volume group undo1vg is correctly configured on each node
+		DX977
+		Volume group is accessible	PASS
+
+		Volume group not set to autovaryon	PASS
+
+		DX978
+		Volume group is accessible	PASS
+
+		Volume group not set to autovaryon	PASS
+
+		Volume group uses the same disks on all nodes	PASS
+
+		Filesystem not set to automount	PASS
+
+		Filesystem not set to automount	PASS
+
+Verifying Volume Group: gg1vg
+	Volume group gg1vg is correctly configured on each node
+		DX977
+		Volume group is accessible	PASS
+
+		Volume group not set to autovaryon	PASS
+
+		DX978
+		Volume group is accessible	PASS
+
+		Volume group not set to autovaryon	PASS
+
+		Volume group uses the same disks on all nodes	PASS
+
+		Filesystem not set to automount	PASS
+
+		Filesystem not set to automount	PASS
+
+Verifying Volume Group: flash1vg
+	Volume group flash1vg is correctly configured on each node
+		DX977
+		Volume group is accessible	PASS
+
+		Volume group not set to autovaryon	PASS
+
+		DX978
+		Volume group is accessible	PASS
+
+		Volume group not set to autovaryon	PASS
+
+		Volume group uses the same disks on all nodes	PASS
+
+		Filesystem not set to automount	PASS
+
+		Filesystem not set to automount	PASS
+
+Verifying Volume Group: bkp1vg
+	Volume group bkp1vg is correctly configured on each node
+		DX977
+		Volume group is accessible	PASS
+
+		Volume group not set to autovaryon	PASS
+
+		DX978
+		Volume group is accessible	PASS
+
+		Volume group not set to autovaryon	PASS
+
+		Volume group uses the same disks on all nodes	PASS
+
+		Filesystem not set to automount	PASS
+
+		Filesystem not set to automount	PASS
+
+
+
+Verifying Resources across Resource Groups
+------------------------------------------
+
+Verifying that file systems use same disk as another resource group
+
+Verifying that volume groups use same disk as another resource group
+	00f9ada1f0ff0ba80000000000000000	PASS
+
+	00f9ada1fc9019020000000000000000	PASS
+
+	00f9ada1fc97f2170000000000000000	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	00f9ada1fc9016be0000000000000000	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	00f9ada1fa9bcd050000000000000000	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	00f9ada1fc91d9730000000000000000	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	00f9ada10064f5f90000000000000000	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	00f9ada1fc9120f60000000000000000	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	00f9ada1007d79a60000000000000000	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	00f9ada1006c143a0000000000000000	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	00f9ada10069c48a0000000000000000	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	00f9ada1008807410000000000000000	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+	PASS
+
+
+Verifying that resource groups share same disks
+
+END CHECK
+Check: PASSED
+
+
+VERIFICATION NAME: resource.ver_chk_sdnp
+2015-04-23T01:52:05.888680
+Verifying SDNP scripts and timeout values for SDNP enabled resource groups
+
+Data Collectors:
+	ID: 43  Description: Collect stats for specified file.
+		Collector succeeded on node DX977 (6692 bytes)
+		Collector succeeded on node DX978 (6692 bytes)
+
+BEGIN CHECK
+
+END CHECK
+Check: PASSED
+
+
+VERIFICATION NAME: resource.ver_chk_nfs_ipat
+2015-04-23T01:52:05.888814
+Checking that all NFS resources have a service label
+
+Data Collectors:
+	No data collectors
+
+BEGIN CHECK
+
+END CHECK
+Check: PASSED
+
+
+VERIFICATION NAME: resource.ver_chk_app_server
+2015-04-23T01:52:05.889231
+Verify all application server start, stop, and monitor scripts are executable on all nodes.
+
+Data Collectors:
+	ID: 43  Description: Collect stats for specified file.
+		Collector succeeded on node DX977 (6692 bytes)
+		Collector succeeded on node DX978 (6692 bytes)
+
+BEGIN CHECK
+
+Verifying that application servers specified as resource are in PowerHA SystemMirror config
+	dbscripts	PASS
+
+
+Verifying that application server start, stop, and monitor scripts 
+exist on all nodes in the resource group
+Verifying Server: dbscripts on Node DX977
+		File: /usr/es/sbin/cluster/scripts/dbstart.sh
+		Type: 
+		Permission: rwxrwxrwx
+	/usr/es/sbin/cluster/scripts/dbstart.sh	PASS
+
+		File: /usr/es/sbin/cluster/scripts/dbstop.sh
+		Type: 
+		Permission: rwxrwxrwx
+	/usr/es/sbin/cluster/scripts/dbstop.sh	PASS
+
+Verifying Server: dbscripts on Node DX978
+		File: /usr/es/sbin/cluster/scripts/dbstart.sh
+		Type: 
+		Permission: rwxrwxrwx
+	/usr/es/sbin/cluster/scripts/dbstart.sh	PASS
+
+		File: /usr/es/sbin/cluster/scripts/dbstop.sh
+		Type: 
+		Permission: rwxrwxrwx
+	/usr/es/sbin/cluster/scripts/dbstop.sh	PASS
+
+
+WARNING: Application monitors are required for detecting application failures
+in order for PowerHA SystemMirror to recover from them.  Application monitors are started
+by PowerHA SystemMirror when the resource group in which they participate is activated.
+The following application(s), shown with their associated resource group,
+do not have an application monitor configured:
+
+   Application Server                Resource Group
+   --------------------------------  ---------------------------------
+   dbscripts                         DX977_RSG                       
+
+END CHECK
+Check: PASSED
+
+
+VERIFICATION NAME: resource.ver_chk_userdef_resources
+2015-04-23T01:52:05.935483
+Verify all all user defined resource type methods are executable on all nodes.
+
+Data Collectors:
+	ID: 43  Description: Collect stats for specified file.
+		Collector succeeded on node DX977 (6692 bytes)
+		Collector succeeded on node DX978 (6692 bytes)
+
+BEGIN CHECK
+
+Verifying that User defined resource specified as resource are in PowerHA SystemMirror config
+
+Verifying User defined resource type scripts 
+exist on all nodes in the resource group
+
+END CHECK
+Check: PASSED
+
+
+VERIFICATION NAME: resource.val_app_mon
+2015-04-23T01:52:05.971121
+Check that application monitor is not included in more than one RG, and that only one monitor is configured per RG.
+
+Data Collectors:
+	No data collectors
+
+BEGIN CHECK
+
+Nothing to verify for this check
+
+END CHECK
+Check: PASSED
+
+
+VERIFICATION NAME: resource.ver_chk_mon_cnt
+2015-04-23T01:52:05.971412
+Verify that number of application monitors does not exceed limit.
+
+Data Collectors:
+	No data collectors
+
+BEGIN CHECK
+
+END CHECK
+Check: PASSED
+
+
+	Completed 50 percent of the verification checks
+VERIFICATION NAME: resource.ver_chk_pager
+2015-04-23T01:52:05.971735
+Verify pager message file exists and is readable on all nodes.
+
+Data Collectors:
+	ID: 43  Description: Collect stats for specified file.
+		Collector succeeded on node DX977 (6692 bytes)
+		Collector succeeded on node DX978 (6692 bytes)
+
+BEGIN CHECK
+
+Verifying that all pager notification ports are available.
+
+Verifying that all pager notification message files exist.
+
+END CHECK
+Check: PASSED
+
+
+VERIFICATION NAME: resource.ver_chk_fast_conn
+2015-04-23T01:52:05.972027
+Verify all fast connect resources are consistent on all nodes.
+
+Data Collectors:
+	ID: 17  Description: Determine netbios server name on node.
+		Collector returned successfully on node DX977 (no data was returned)
+		Collector returned successfully on node DX978 (no data was returned)
+	ID: 46  Description: Collect fastconnect print queue status.
+		Collector returned successfully on node DX977 (no data was returned)
+		Collector returned successfully on node DX978 (no data was returned)
+
+BEGIN CHECK
+
+END CHECK
+Check: PASSED
+
+
+VERIFICATION NAME: resource.ver_chk_event
+2015-04-23T01:52:05.972195
+Verify all event command, recovery, and notification scripts are executable on all nodes.
+
+Data Collectors:
+	ID: 43  Description: Collect stats for specified file.
+		Collector succeeded on node DX977 (6692 bytes)
+		Collector succeeded on node DX978 (6692 bytes)
+
+BEGIN CHECK
+Verifying Events on Node: DX977
+
+Verifying that all required events exist on node DX977
+	swap_adapter	PASS
+
+	node_up	PASS
+
+	network_up	PASS
+
+	join_standby	PASS
+
+	node_down	PASS
+
+	network_down	PASS
+
+	fail_standby	PASS
+
+	network_up_complete	PASS
+
+	network_down_complete	PASS
+
+	swap_adapter_complete	PASS
+
+	node_up_complete	PASS
+
+	node_down_complete	PASS
+
+	config_too_long	PASS
+
+	event_error	PASS
+
+	fail_interface	PASS
+
+	join_interface	PASS
+
+	reconfig_topology_start	PASS
+
+	reconfig_topology_complete	PASS
+
+	reconfig_resource_release	PASS
+
+	reconfig_resource_acquire	PASS
+
+	reconfig_resource_complete	PASS
+
+	migrate	PASS
+
+	migrate_complete	PASS
+
+	server_restart	PASS
+
+	server_down	PASS
+
+	rg_move	PASS
+
+	site_up	PASS
+
+	site_down	PASS
+
+	site_up_complete	PASS
+
+	site_down_complete	PASS
+
+	site_merge	PASS
+
+	site_isolation	PASS
+
+	site_merge_complete	PASS
+
+	site_isolation_complete	PASS
+
+
+Verifying that all required event scripts exist on node DX977
+		File: /usr/es/sbin/cluster/events/swap_adapter
+		Type: 
+		Permission: rwxr--r--
+	swap_adapter: /usr/es/sbin/cluster/events/swap_adapter	PASS
+
+		File: /usr/es/sbin/cluster/events/swap_adapter_complete
+		Type: 
+		Permission: rwxr--r--
+	swap_adapter_complete: /usr/es/sbin/cluster/events/swap_adapter_complete	PASS
+
+		File: /usr/es/sbin/cluster/events/network_up
+		Type: 
+		Permission: rwxr--r--
+	network_up: /usr/es/sbin/cluster/events/network_up	PASS
+
+		File: /usr/es/sbin/cluster/events/network_down
+		Type: 
+		Permission: rwxr--r--
+	network_down: /usr/es/sbin/cluster/events/network_down	PASS
+
+		File: /usr/es/sbin/cluster/events/network_up_complete
+		Type: 
+		Permission: rwxr--r--
+	network_up_complete: /usr/es/sbin/cluster/events/network_up_complete	PASS
+
+		File: /usr/es/sbin/cluster/events/network_down_complete
+		Type: 
+		Permission: rwxr--r--
+	network_down_complete: /usr/es/sbin/cluster/events/network_down_complete	PASS
+
+		File: /usr/es/sbin/cluster/events/node_up
+		Type: 
+		Permission: rwxr--r--
+	node_up: /usr/es/sbin/cluster/events/node_up	PASS
+
+		File: /usr/es/sbin/cluster/events/node_down
+		Type: 
+		Permission: rwxr--r--
+	node_down: /usr/es/sbin/cluster/events/node_down	PASS
+
+		File: /usr/es/sbin/cluster/events/node_up_complete
+		Type: 
+		Permission: rwxr--r--
+	node_up_complete: /usr/es/sbin/cluster/events/node_up_complete	PASS
+
+		File: /usr/es/sbin/cluster/events/node_down_complete
+		Type: 
+		Permission: rwxr--r--
+	node_down_complete: /usr/es/sbin/cluster/events/node_down_complete	PASS
+
+		File: /usr/es/sbin/cluster/events/join_standby
+		Type: 
+		Permission: rwxr--r--
+	join_standby: /usr/es/sbin/cluster/events/join_standby	PASS
+
+		File: /usr/es/sbin/cluster/events/fail_standby
+		Type: 
+		Permission: rwxr--r--
+	fail_standby: /usr/es/sbin/cluster/events/fail_standby	PASS
+
+		File: /usr/es/sbin/cluster/events/acquire_service_addr
+		Type: 
+		Permission: rwxr--r--
+	acquire_service_addr: /usr/es/sbin/cluster/events/acquire_service_addr	PASS
+
+		File: /usr/es/sbin/cluster/events/acquire_takeover_addr
+		Type: 
+		Permission: rwxr--r--
+	acquire_takeover_addr: /usr/es/sbin/cluster/events/acquire_takeover_addr	PASS
+
+		File: /usr/es/sbin/cluster/events/get_disk_vg_fs
+		Type: 
+		Permission: rwxr--r--
+	get_disk_vg_fs: /usr/es/sbin/cluster/events/get_disk_vg_fs	PASS
+
+		File: /usr/es/sbin/cluster/events/node_down_local
+		Type: 
+		Permission: rwxr--r--
+	node_down_local: /usr/es/sbin/cluster/events/node_down_local	PASS
+
+		File: /usr/es/sbin/cluster/events/node_down_local_complete
+		Type: 
+		Permission: rwxr--r--
+	node_down_local_complete: /usr/es/sbin/cluster/events/node_down_local_complete	PASS
+
+		File: /usr/es/sbin/cluster/events/node_down_remote
+		Type: 
+		Permission: rwxr--r--
+	node_down_remote: /usr/es/sbin/cluster/events/node_down_remote	PASS
+
+		File: /usr/es/sbin/cluster/events/node_down_remote_complete
+		Type: 
+		Permission: rwxr--r--
+	node_down_remote_complete: /usr/es/sbin/cluster/events/node_down_remote_complete	PASS
+
+		File: /usr/es/sbin/cluster/events/node_up_local
+		Type: 
+		Permission: rwxr--r--
+	node_up_local: /usr/es/sbin/cluster/events/node_up_local	PASS
+
+		File: /usr/es/sbin/cluster/events/node_up_local_complete
+		Type: 
+		Permission: rwxr--r--
+	node_up_local_complete: /usr/es/sbin/cluster/events/node_up_local_complete	PASS
+
+		File: /usr/es/sbin/cluster/events/node_up_remote
+		Type: 
+		Permission: rwxr--r--
+	node_up_remote: /usr/es/sbin/cluster/events/node_up_remote	PASS
+
+		File: /usr/es/sbin/cluster/events/node_up_remote_complete
+		Type: 
+		Permission: rwxr--r--
+	node_up_remote_complete: /usr/es/sbin/cluster/events/node_up_remote_complete	PASS
+
+		File: /usr/es/sbin/cluster/events/release_service_addr
+		Type: 
+		Permission: rwxr--r--
+	release_service_addr: /usr/es/sbin/cluster/events/release_service_addr	PASS
+
+		File: /usr/es/sbin/cluster/events/release_takeover_addr
+		Type: 
+		Permission: rwxr--r--
+	release_takeover_addr: /usr/es/sbin/cluster/events/release_takeover_addr	PASS
+
+		File: /usr/es/sbin/cluster/events/release_vg_fs
+		Type: 
+		Permission: rwxr--r--
+	release_vg_fs: /usr/es/sbin/cluster/events/release_vg_fs	PASS
+
+		File: /usr/es/sbin/cluster/events/start_server
+		Type: 
+		Permission: rwxr--r--
+	start_server: /usr/es/sbin/cluster/events/start_server	PASS
+
+		File: /usr/es/sbin/cluster/events/stop_server
+		Type: 
+		Permission: rwxr--r--
+	stop_server: /usr/es/sbin/cluster/events/stop_server	PASS
+
+		File: /usr/es/sbin/cluster/events/config_too_long
+		Type: 
+		Permission: rwxr--r--
+	config_too_long: /usr/es/sbin/cluster/events/config_too_long	PASS
+
+		File: /usr/es/sbin/cluster/events/event_error
+		Type: 
+		Permission: rwxr--r--
+	event_error: /usr/es/sbin/cluster/events/event_error	PASS
+
+		File: /usr/es/sbin/cluster/events/reconfig_topology_start
+		Type: 
+		Permission: rwxr--r--
+	reconfig_topology_start: /usr/es/sbin/cluster/events/reconfig_topology_start	PASS
+
+		File: /usr/es/sbin/cluster/events/reconfig_topology_complete
+		Type: 
+		Permission: rwxr--r--
+	reconfig_topology_complete: /usr/es/sbin/cluster/events/reconfig_topology_complete	PASS
+
+		File: /usr/es/sbin/cluster/events/reconfig_resource_release
+		Type: 
+		Permission: rwxr--r--
+	reconfig_resource_release: /usr/es/sbin/cluster/events/reconfig_resource_release	PASS
+
+		File: /usr/es/sbin/cluster/events/reconfig_resource_release_primary
+		Type: 
+		Permission: rwxr--r--
+	reconfig_resource_release_primary: /usr/es/sbin/cluster/events/reconfig_resource_release_primary	PASS
+
+		File: /usr/es/sbin/cluster/events/reconfig_resource_release_secondary
+		Type: 
+		Permission: rwxr--r--
+	reconfig_resource_release_secondary: /usr/es/sbin/cluster/events/reconfig_resource_release_secondary	PASS
+
+		File: /usr/es/sbin/cluster/events/reconfig_resource_acquire_secondary
+		Type: 
+		Permission: rwxr--r--
+	reconfig_resource_acquire_secondary: /usr/es/sbin/cluster/events/reconfig_resource_acquire_secondary	PASS
+
+		File: /usr/es/sbin/cluster/events/reconfig_resource_complete_secondary
+		Type: 
+		Permission: rwxr--r--
+	reconfig_resource_complete_secondary: /usr/es/sbin/cluster/events/reconfig_resource_complete_secondary	PASS
+
+		File: /usr/es/sbin/cluster/events/reconfig_resource_release_fence
+		Type: 
+		Permission: rwxr--r--
+	reconfig_resource_release_fence: /usr/es/sbin/cluster/events/reconfig_resource_release_fence	PASS
+
+		File: /usr/es/sbin/cluster/events/reconfig_resource_acquire_fence
+		Type: 
+		Permission: rwxr--r--
+	reconfig_resource_acquire_fence: /usr/es/sbin/cluster/events/reconfig_resource_acquire_fence	PASS
+
+		File: /usr/es/sbin/cluster/events/reconfig_resource_acquire
+		Type: 
+		Permission: rwxr--r--
+	reconfig_resource_acquire: /usr/es/sbin/cluster/events/reconfig_resource_acquire	PASS
+
+		File: /usr/es/sbin/cluster/events/reconfig_resource_complete
+		Type: 
+		Permission: rwxr--r--
+	reconfig_resource_complete: /usr/es/sbin/cluster/events/reconfig_resource_complete	PASS
+
+		File: /usr/es/sbin/cluster/events/migrate
+		Type: 
+		Permission: rwxr--r--
+	migrate: /usr/es/sbin/cluster/events/migrate	PASS
+
+		File: /usr/es/sbin/cluster/events/migrate_complete
+		Type: 
+		Permission: rwxr--r--
+	migrate_complete: /usr/es/sbin/cluster/events/migrate_complete	PASS
+
+		File: /usr/es/sbin/cluster/events/acquire_aconn_service
+		Type: 
+		Permission: r-x------
+	acquire_aconn_service: /usr/es/sbin/cluster/events/acquire_aconn_service	PASS
+
+		File: /usr/es/sbin/cluster/events/swap_aconn_protocols
+		Type: 
+		Permission: r-x------
+	swap_aconn_protocols: /usr/es/sbin/cluster/events/swap_aconn_protocols	PASS
+
+		File: /usr/es/sbin/cluster/events/get_aconn_rs
+		Type: 
+		Permission: r-x------
+	get_aconn_rs: /usr/es/sbin/cluster/events/get_aconn_rs	PASS
+
+		File: /usr/es/sbin/cluster/events/release_aconn_rs
+		Type: 
+		Permission: r-x------
+	release_aconn_rs: /usr/es/sbin/cluster/events/release_aconn_rs	PASS
+
+		File: /usr/es/sbin/cluster/events/server_restart
+		Type: 
+		Permission: rwxr--r--
+	server_restart: /usr/es/sbin/cluster/events/server_restart	PASS
+
+		File: /usr/es/sbin/cluster/events/server_restart_complete
+		Type: 
+		Permission: rwxr--r--
+	server_restart_complete: /usr/es/sbin/cluster/events/server_restart_complete	PASS
+
+		File: /usr/es/sbin/cluster/events/server_down
+		Type: 
+		Permission: rwxr--r--
+	server_down: /usr/es/sbin/cluster/events/server_down	PASS
+
+		File: /usr/es/sbin/cluster/events/server_down_complete
+		Type: 
+		Permission: rwxr--r--
+	server_down_complete: /usr/es/sbin/cluster/events/server_down_complete	PASS
+
+		File: /usr/es/sbin/cluster/events/rg_move
+		Type: 
+		Permission: rwxr--r--
+	rg_move: /usr/es/sbin/cluster/events/rg_move	PASS
+
+		File: /usr/es/sbin/cluster/events/rg_move_release
+		Type: 
+		Permission: rwxr--r--
+	rg_move_release: /usr/es/sbin/cluster/events/rg_move_release	PASS
+
+		File: /usr/es/sbin/cluster/events/rg_move_acquire
+		Type: 
+		Permission: rwxr--r--
+	rg_move_acquire: /usr/es/sbin/cluster/events/rg_move_acquire	PASS
+
+		File: /usr/es/sbin/cluster/events/rg_move_fence
+		Type: 
+		Permission: rwxr--r--
+	rg_move_fence: /usr/es/sbin/cluster/events/rg_move_fence	PASS
+
+		File: /usr/es/sbin/cluster/events/rg_move_complete
+		Type: 
+		Permission: rwxr--r--
+	rg_move_complete: /usr/es/sbin/cluster/events/rg_move_complete	PASS
+
+		File: /usr/es/sbin/cluster/events/site_down
+		Type: 
+		Permission: rwxr--r--
+	site_down: /usr/es/sbin/cluster/events/site_down	PASS
+
+		File: /usr/es/sbin/cluster/events/site_down_complete
+		Type: 
+		Permission: rwxr--r--
+	site_down_complete: /usr/es/sbin/cluster/events/site_down_complete	PASS
+
+		File: /usr/es/sbin/cluster/events/site_down_local
+		Type: 
+		Permission: rwxr--r--
+	site_down_local: /usr/es/sbin/cluster/events/site_down_local	PASS
+
+		File: /usr/es/sbin/cluster/events/site_down_local_complete
+		Type: 
+		Permission: rwxr--r--
+	site_down_local_complete: /usr/es/sbin/cluster/events/site_down_local_complete	PASS
+
+		File: /usr/es/sbin/cluster/events/site_down_remote
+		Type: 
+		Permission: rwxr--r--
+	site_down_remote: /usr/es/sbin/cluster/events/site_down_remote	PASS
+
+		File: /usr/es/sbin/cluster/events/site_down_remote_complete
+		Type: 
+		Permission: rwxr--r--
+	site_down_remote_complete: /usr/es/sbin/cluster/events/site_down_remote_complete	PASS
+
+		File: /usr/es/sbin/cluster/events/site_up
+		Type: 
+		Permission: rwxr--r--
+	site_up: /usr/es/sbin/cluster/events/site_up	PASS
+
+		File: /usr/es/sbin/cluster/events/site_up_complete
+		Type: 
+		Permission: rwxr--r--
+	site_up_complete: /usr/es/sbin/cluster/events/site_up_complete	PASS
+
+		File: /usr/es/sbin/cluster/events/site_up_local
+		Type: 
+		Permission: rwxr--r--
+	site_up_local: /usr/es/sbin/cluster/events/site_up_local	PASS
+
+		File: /usr/es/sbin/cluster/events/site_up_local_complete
+		Type: 
+		Permission: rwxr--r--
+	site_up_local_complete: /usr/es/sbin/cluster/events/site_up_local_complete	PASS
+
+		File: /usr/es/sbin/cluster/events/site_up_remote
+		Type: 
+		Permission: rwxr--r--
+	site_up_remote: /usr/es/sbin/cluster/events/site_up_remote	PASS
+
+		File: /usr/es/sbin/cluster/events/site_up_remote_complete
+		Type: 
+		Permission: rwxr--r--
+	site_up_remote_complete: /usr/es/sbin/cluster/events/site_up_remote_complete	PASS
+
+		File: /usr/es/sbin/cluster/events/site_merge
+		Type: 
+		Permission: rwxr--r--
+	site_merge: /usr/es/sbin/cluster/events/site_merge	PASS
+
+		File: /usr/es/sbin/cluster/events/site_merge_complete
+		Type: 
+		Permission: rwxr--r--
+	site_merge_complete: /usr/es/sbin/cluster/events/site_merge_complete	PASS
+
+		File: /usr/es/sbin/cluster/events/site_isolation
+		Type: 
+		Permission: rwxr--r--
+	site_isolation: /usr/es/sbin/cluster/events/site_isolation	PASS
+
+		File: /usr/es/sbin/cluster/events/site_isolation_complete
+		Type: 
+		Permission: rwxr--r--
+	site_isolation_complete: /usr/es/sbin/cluster/events/site_isolation_complete	PASS
+
+		File: /usr/es/sbin/cluster/events/fail_interface
+		Type: 
+		Permission: rwxr--r--
+	fail_interface: /usr/es/sbin/cluster/events/fail_interface	PASS
+
+		File: /usr/es/sbin/cluster/events/join_interface
+		Type: 
+		Permission: rwxr--r--
+	join_interface: /usr/es/sbin/cluster/events/join_interface	PASS
+
+		File: /usr/es/sbin/cluster/events/cluster_notify
+		Type: 
+		Permission: rwxr--r--
+	cluster_notify: /usr/es/sbin/cluster/events/cluster_notify	PASS
+
+		File: /usr/es/sbin/cluster/events/resource_add
+		Type: 
+		Permission: rwxr--r--
+	resource_add: /usr/es/sbin/cluster/events/resource_add	PASS
+
+		File: /usr/es/sbin/cluster/events/resource_modify
+		Type: 
+		Permission: rwxr--r--
+	resource_modify: /usr/es/sbin/cluster/events/resource_modify	PASS
+
+		File: /usr/es/sbin/cluster/events/resource_delete
+		Type: 
+		Permission: rwxr--r--
+	resource_delete: /usr/es/sbin/cluster/events/resource_delete	PASS
+
+		File: /usr/es/sbin/cluster/events/resource_online
+		Type: 
+		Permission: rwxr--r--
+	resource_online: /usr/es/sbin/cluster/events/resource_online	PASS
+
+		File: /usr/es/sbin/cluster/events/resource_offline
+		Type: 
+		Permission: rwxr--r--
+	resource_offline: /usr/es/sbin/cluster/events/resource_offline	PASS
+
+		File: /usr/es/sbin/cluster/events/resource_state_change
+		Type: 
+		Permission: r-xr--r--
+	resource_state_change: /usr/es/sbin/cluster/events/resource_state_change	PASS
+
+		File: /usr/es/sbin/cluster/events/resource_state_change_complete
+		Type: 
+		Permission: r-xr--r--
+	resource_state_change_complete: /usr/es/sbin/cluster/events/resource_state_change_complete	PASS
+
+		File: /usr/es/sbin/cluster/events/external_resource_state_change
+		Type: 
+		Permission: r-xr--r--
+	external_resource_state_change: /usr/es/sbin/cluster/events/external_resource_state_change	PASS
+
+		File: /usr/es/sbin/cluster/events/external_resource_state_change_complete
+		Type: 
+		Permission: r-xr--r--
+	external_resource_state_change_complete: /usr/es/sbin/cluster/events/external_resource_state_change_complete	PASS
+
+		File: /usr/es/sbin/cluster/events/intersite_fallover_prevented
+		Type: 
+		Permission: rwxr--r--
+	intersite_fallover_prevented: /usr/es/sbin/cluster/events/intersite_fallover_prevented	PASS
+
+		File: /usr/es/sbin/cluster/events/reconfig_configuration_complete
+		Type: 
+		Permission: rwxr--r--
+	reconfig_configuration_complete: /usr/es/sbin/cluster/events/reconfig_configuration_complete	PASS
+
+		File: /usr/es/sbin/cluster/events/forced_down_too_long
+		Type: 
+		Permission: rwxr--r--
+	forced_down_too_long: /usr/es/sbin/cluster/events/forced_down_too_long	PASS
+
+		File: /usr/es/sbin/cluster/events/start_udresource
+		Type: 
+		Permission: rwxr--r--
+	start_udresource: /usr/es/sbin/cluster/events/start_udresource	PASS
+
+		File: /usr/es/sbin/cluster/events/stop_udresource
+		Type: 
+		Permission: rwxr--r--
+	stop_udresource: /usr/es/sbin/cluster/events/stop_udresource	PASS
+
+		File: /usr/es/sbin/cluster/utilities/cl_sm_prompt
+		Type: 
+		Permission: r-x------
+	split_merge_prompt: /usr/es/sbin/cluster/utilities/cl_sm_prompt	PASS
+
+Verifying Events on Node: DX978
+
+Verifying that all required events exist on node DX978
+	swap_adapter	PASS
+
+	node_up	PASS
+
+	network_up	PASS
+
+	join_standby	PASS
+
+	node_down	PASS
+
+	network_down	PASS
+
+	fail_standby	PASS
+
+	network_up_complete	PASS
+
+	network_down_complete	PASS
+
+	swap_adapter_complete	PASS
+
+	node_up_complete	PASS
+
+	node_down_complete	PASS
+
+	config_too_long	PASS
+
+	event_error	PASS
+
+	fail_interface	PASS
+
+	join_interface	PASS
+
+	reconfig_topology_start	PASS
+
+	reconfig_topology_complete	PASS
+
+	reconfig_resource_release	PASS
+
+	reconfig_resource_acquire	PASS
+
+	reconfig_resource_complete	PASS
+
+	migrate	PASS
+
+	migrate_complete	PASS
+
+	server_restart	PASS
+
+	server_down	PASS
+
+	rg_move	PASS
+
+	site_up	PASS
+
+	site_down	PASS
+
+	site_up_complete	PASS
+
+	site_down_complete	PASS
+
+	site_merge	PASS
+
+	site_isolation	PASS
+
+	site_merge_complete	PASS
+
+	site_isolation_complete	PASS
+
+
+Verifying that all required event scripts exist on node DX978
+		File: /usr/es/sbin/cluster/events/swap_adapter
+		Type: 
+		Permission: rwxr--r--
+	swap_adapter: /usr/es/sbin/cluster/events/swap_adapter	PASS
+
+		File: /usr/es/sbin/cluster/events/swap_adapter_complete
+		Type: 
+		Permission: rwxr--r--
+	swap_adapter_complete: /usr/es/sbin/cluster/events/swap_adapter_complete	PASS
+
+		File: /usr/es/sbin/cluster/events/network_up
+		Type: 
+		Permission: rwxr--r--
+	network_up: /usr/es/sbin/cluster/events/network_up	PASS
+
+		File: /usr/es/sbin/cluster/events/network_down
+		Type: 
+		Permission: rwxr--r--
+	network_down: /usr/es/sbin/cluster/events/network_down	PASS
+
+		File: /usr/es/sbin/cluster/events/network_up_complete
+		Type: 
+		Permission: rwxr--r--
+	network_up_complete: /usr/es/sbin/cluster/events/network_up_complete	PASS
+
+		File: /usr/es/sbin/cluster/events/network_down_complete
+		Type: 
+		Permission: rwxr--r--
+	network_down_complete: /usr/es/sbin/cluster/events/network_down_complete	PASS
+
+		File: /usr/es/sbin/cluster/events/node_up
+		Type: 
+		Permission: rwxr--r--
+	node_up: /usr/es/sbin/cluster/events/node_up	PASS
+
+		File: /usr/es/sbin/cluster/events/node_down
+		Type: 
+		Permission: rwxr--r--
+	node_down: /usr/es/sbin/cluster/events/node_down	PASS
+
+		File: /usr/es/sbin/cluster/events/node_up_complete
+		Type: 
+		Permission: rwxr--r--
+	node_up_complete: /usr/es/sbin/cluster/events/node_up_complete	PASS
+
+		File: /usr/es/sbin/cluster/events/node_down_complete
+		Type: 
+		Permission: rwxr--r--
+	node_down_complete: /usr/es/sbin/cluster/events/node_down_complete	PASS
+
+		File: /usr/es/sbin/cluster/events/join_standby
+		Type: 
+		Permission: rwxr--r--
+	join_standby: /usr/es/sbin/cluster/events/join_standby	PASS
+
+		File: /usr/es/sbin/cluster/events/fail_standby
+		Type: 
+		Permission: rwxr--r--
+	fail_standby: /usr/es/sbin/cluster/events/fail_standby	PASS
+
+		File: /usr/es/sbin/cluster/events/acquire_service_addr
+		Type: 
+		Permission: rwxr--r--
+	acquire_service_addr: /usr/es/sbin/cluster/events/acquire_service_addr	PASS
+
+		File: /usr/es/sbin/cluster/events/acquire_takeover_addr
+		Type: 
+		Permission: rwxr--r--
+	acquire_takeover_addr: /usr/es/sbin/cluster/events/acquire_takeover_addr	PASS
+
+		File: /usr/es/sbin/cluster/events/get_disk_vg_fs
+		Type: 
+		Permission: rwxr--r--
+	get_disk_vg_fs: /usr/es/sbin/cluster/events/get_disk_vg_fs	PASS
+
+		File: /usr/es/sbin/cluster/events/node_down_local
+		Type: 
+		Permission: rwxr--r--
+	node_down_local: /usr/es/sbin/cluster/events/node_down_local	PASS
+
+		File: /usr/es/sbin/cluster/events/node_down_local_complete
+		Type: 
+		Permission: rwxr--r--
+	node_down_local_complete: /usr/es/sbin/cluster/events/node_down_local_complete	PASS
+
+		File: /usr/es/sbin/cluster/events/node_down_remote
+		Type: 
+		Permission: rwxr--r--
+	node_down_remote: /usr/es/sbin/cluster/events/node_down_remote	PASS
+
+		File: /usr/es/sbin/cluster/events/node_down_remote_complete
+		Type: 
+		Permission: rwxr--r--
+	node_down_remote_complete: /usr/es/sbin/cluster/events/node_down_remote_complete	PASS
+
+		File: /usr/es/sbin/cluster/events/node_up_local
+		Type: 
+		Permission: rwxr--r--
+	node_up_local: /usr/es/sbin/cluster/events/node_up_local	PASS
+
+		File: /usr/es/sbin/cluster/events/node_up_local_complete
+		Type: 
+		Permission: rwxr--r--
+	node_up_local_complete: /usr/es/sbin/cluster/events/node_up_local_complete	PASS
+
+		File: /usr/es/sbin/cluster/events/node_up_remote
+		Type: 
+		Permission: rwxr--r--
+	node_up_remote: /usr/es/sbin/cluster/events/node_up_remote	PASS
+
+		File: /usr/es/sbin/cluster/events/node_up_remote_complete
+		Type: 
+		Permission: rwxr--r--
+	node_up_remote_complete: /usr/es/sbin/cluster/events/node_up_remote_complete	PASS
+
+		File: /usr/es/sbin/cluster/events/release_service_addr
+		Type: 
+		Permission: rwxr--r--
+	release_service_addr: /usr/es/sbin/cluster/events/release_service_addr	PASS
+
+		File: /usr/es/sbin/cluster/events/release_takeover_addr
+		Type: 
+		Permission: rwxr--r--
+	release_takeover_addr: /usr/es/sbin/cluster/events/release_takeover_addr	PASS
+
+		File: /usr/es/sbin/cluster/events/release_vg_fs
+		Type: 
+		Permission: rwxr--r--
+	release_vg_fs: /usr/es/sbin/cluster/events/release_vg_fs	PASS
+
+		File: /usr/es/sbin/cluster/events/start_server
+		Type: 
+		Permission: rwxr--r--
+	start_server: /usr/es/sbin/cluster/events/start_server	PASS
+
+		File: /usr/es/sbin/cluster/events/stop_server
+		Type: 
+		Permission: rwxr--r--
+	stop_server: /usr/es/sbin/cluster/events/stop_server	PASS
+
+		File: /usr/es/sbin/cluster/events/config_too_long
+		Type: 
+		Permission: rwxr--r--
+	config_too_long: /usr/es/sbin/cluster/events/config_too_long	PASS
+
+		File: /usr/es/sbin/cluster/events/event_error
+		Type: 
+		Permission: rwxr--r--
+	event_error: /usr/es/sbin/cluster/events/event_error	PASS
+
+		File: /usr/es/sbin/cluster/events/reconfig_topology_start
+		Type: 
+		Permission: rwxr--r--
+	reconfig_topology_start: /usr/es/sbin/cluster/events/reconfig_topology_start	PASS
+
+		File: /usr/es/sbin/cluster/events/reconfig_topology_complete
+		Type: 
+		Permission: rwxr--r--
+	reconfig_topology_complete: /usr/es/sbin/cluster/events/reconfig_topology_complete	PASS
+
+		File: /usr/es/sbin/cluster/events/reconfig_resource_release
+		Type: 
+		Permission: rwxr--r--
+	reconfig_resource_release: /usr/es/sbin/cluster/events/reconfig_resource_release	PASS
+
+		File: /usr/es/sbin/cluster/events/reconfig_resource_release_primary
+		Type: 
+		Permission: rwxr--r--
+	reconfig_resource_release_primary: /usr/es/sbin/cluster/events/reconfig_resource_release_primary	PASS
+
+		File: /usr/es/sbin/cluster/events/reconfig_resource_release_secondary
+		Type: 
+		Permission: rwxr--r--
+	reconfig_resource_release_secondary: /usr/es/sbin/cluster/events/reconfig_resource_release_secondary	PASS
+
+		File: /usr/es/sbin/cluster/events/reconfig_resource_acquire_secondary
+		Type: 
+		Permission: rwxr--r--
+	reconfig_resource_acquire_secondary: /usr/es/sbin/cluster/events/reconfig_resource_acquire_secondary	PASS
+
+		File: /usr/es/sbin/cluster/events/reconfig_resource_complete_secondary
+		Type: 
+		Permission: rwxr--r--
+	reconfig_resource_complete_secondary: /usr/es/sbin/cluster/events/reconfig_resource_complete_secondary	PASS
+
+		File: /usr/es/sbin/cluster/events/reconfig_resource_release_fence
+		Type: 
+		Permission: rwxr--r--
+	reconfig_resource_release_fence: /usr/es/sbin/cluster/events/reconfig_resource_release_fence	PASS
+
+		File: /usr/es/sbin/cluster/events/reconfig_resource_acquire_fence
+		Type: 
+		Permission: rwxr--r--
+	reconfig_resource_acquire_fence: /usr/es/sbin/cluster/events/reconfig_resource_acquire_fence	PASS
+
+		File: /usr/es/sbin/cluster/events/reconfig_resource_acquire
+		Type: 
+		Permission: rwxr--r--
+	reconfig_resource_acquire: /usr/es/sbin/cluster/events/reconfig_resource_acquire	PASS
+
+		File: /usr/es/sbin/cluster/events/reconfig_resource_complete
+		Type: 
+		Permission: rwxr--r--
+	reconfig_resource_complete: /usr/es/sbin/cluster/events/reconfig_resource_complete	PASS
+
+		File: /usr/es/sbin/cluster/events/migrate
+		Type: 
+		Permission: rwxr--r--
+	migrate: /usr/es/sbin/cluster/events/migrate	PASS
+
+		File: /usr/es/sbin/cluster/events/migrate_complete
+		Type: 
+		Permission: rwxr--r--
+	migrate_complete: /usr/es/sbin/cluster/events/migrate_complete	PASS
+
+		File: /usr/es/sbin/cluster/events/acquire_aconn_service
+		Type: 
+		Permission: r-x------
+	acquire_aconn_service: /usr/es/sbin/cluster/events/acquire_aconn_service	PASS
+
+		File: /usr/es/sbin/cluster/events/swap_aconn_protocols
+		Type: 
+		Permission: r-x------
+	swap_aconn_protocols: /usr/es/sbin/cluster/events/swap_aconn_protocols	PASS
+
+		File: /usr/es/sbin/cluster/events/get_aconn_rs
+		Type: 
+		Permission: r-x------
+	get_aconn_rs: /usr/es/sbin/cluster/events/get_aconn_rs	PASS
+
+		File: /usr/es/sbin/cluster/events/release_aconn_rs
+		Type: 
+		Permission: r-x------
+	release_aconn_rs: /usr/es/sbin/cluster/events/release_aconn_rs	PASS
+
+		File: /usr/es/sbin/cluster/events/server_restart
+		Type: 
+		Permission: rwxr--r--
+	server_restart: /usr/es/sbin/cluster/events/server_restart	PASS
+
+		File: /usr/es/sbin/cluster/events/server_restart_complete
+		Type: 
+		Permission: rwxr--r--
+	server_restart_complete: /usr/es/sbin/cluster/events/server_restart_complete	PASS
+
+		File: /usr/es/sbin/cluster/events/server_down
+		Type: 
+		Permission: rwxr--r--
+	server_down: /usr/es/sbin/cluster/events/server_down	PASS
+
+		File: /usr/es/sbin/cluster/events/server_down_complete
+		Type: 
+		Permission: rwxr--r--
+	server_down_complete: /usr/es/sbin/cluster/events/server_down_complete	PASS
+
+		File: /usr/es/sbin/cluster/events/rg_move
+		Type: 
+		Permission: rwxr--r--
+	rg_move: /usr/es/sbin/cluster/events/rg_move	PASS
+
+		File: /usr/es/sbin/cluster/events/rg_move_release
+		Type: 
+		Permission: rwxr--r--
+	rg_move_release: /usr/es/sbin/cluster/events/rg_move_release	PASS
+
+		File: /usr/es/sbin/cluster/events/rg_move_acquire
+		Type: 
+		Permission: rwxr--r--
+	rg_move_acquire: /usr/es/sbin/cluster/events/rg_move_acquire	PASS
+
+		File: /usr/es/sbin/cluster/events/rg_move_fence
+		Type: 
+		Permission: rwxr--r--
+	rg_move_fence: /usr/es/sbin/cluster/events/rg_move_fence	PASS
+
+		File: /usr/es/sbin/cluster/events/rg_move_complete
+		Type: 
+		Permission: rwxr--r--
+	rg_move_complete: /usr/es/sbin/cluster/events/rg_move_complete	PASS
+
+		File: /usr/es/sbin/cluster/events/site_down
+		Type: 
+		Permission: rwxr--r--
+	site_down: /usr/es/sbin/cluster/events/site_down	PASS
+
+		File: /usr/es/sbin/cluster/events/site_down_complete
+		Type: 
+		Permission: rwxr--r--
+	site_down_complete: /usr/es/sbin/cluster/events/site_down_complete	PASS
+
+		File: /usr/es/sbin/cluster/events/site_down_local
+		Type: 
+		Permission: rwxr--r--
+	site_down_local: /usr/es/sbin/cluster/events/site_down_local	PASS
+
+		File: /usr/es/sbin/cluster/events/site_down_local_complete
+		Type: 
+		Permission: rwxr--r--
+	site_down_local_complete: /usr/es/sbin/cluster/events/site_down_local_complete	PASS
+
+		File: /usr/es/sbin/cluster/events/site_down_remote
+		Type: 
+		Permission: rwxr--r--
+	site_down_remote: /usr/es/sbin/cluster/events/site_down_remote	PASS
+
+		File: /usr/es/sbin/cluster/events/site_down_remote_complete
+		Type: 
+		Permission: rwxr--r--
+	site_down_remote_complete: /usr/es/sbin/cluster/events/site_down_remote_complete	PASS
+
+		File: /usr/es/sbin/cluster/events/site_up
+		Type: 
+		Permission: rwxr--r--
+	site_up: /usr/es/sbin/cluster/events/site_up	PASS
+
+		File: /usr/es/sbin/cluster/events/site_up_complete
+		Type: 
+		Permission: rwxr--r--
+	site_up_complete: /usr/es/sbin/cluster/events/site_up_complete	PASS
+
+		File: /usr/es/sbin/cluster/events/site_up_local
+		Type: 
+		Permission: rwxr--r--
+	site_up_local: /usr/es/sbin/cluster/events/site_up_local	PASS
+
+		File: /usr/es/sbin/cluster/events/site_up_local_complete
+		Type: 
+		Permission: rwxr--r--
+	site_up_local_complete: /usr/es/sbin/cluster/events/site_up_local_complete	PASS
+
+		File: /usr/es/sbin/cluster/events/site_up_remote
+		Type: 
+		Permission: rwxr--r--
+	site_up_remote: /usr/es/sbin/cluster/events/site_up_remote	PASS
+
+		File: /usr/es/sbin/cluster/events/site_up_remote_complete
+		Type: 
+		Permission: rwxr--r--
+	site_up_remote_complete: /usr/es/sbin/cluster/events/site_up_remote_complete	PASS
+
+		File: /usr/es/sbin/cluster/events/site_merge
+		Type: 
+		Permission: rwxr--r--
+	site_merge: /usr/es/sbin/cluster/events/site_merge	PASS
+
+		File: /usr/es/sbin/cluster/events/site_merge_complete
+		Type: 
+		Permission: rwxr--r--
+	site_merge_complete: /usr/es/sbin/cluster/events/site_merge_complete	PASS
+
+		File: /usr/es/sbin/cluster/events/site_isolation
+		Type: 
+		Permission: rwxr--r--
+	site_isolation: /usr/es/sbin/cluster/events/site_isolation	PASS
+
+		File: /usr/es/sbin/cluster/events/site_isolation_complete
+		Type: 
+		Permission: rwxr--r--
+	site_isolation_complete: /usr/es/sbin/cluster/events/site_isolation_complete	PASS
+
+		File: /usr/es/sbin/cluster/events/fail_interface
+		Type: 
+		Permission: rwxr--r--
+	fail_interface: /usr/es/sbin/cluster/events/fail_interface	PASS
+
+		File: /usr/es/sbin/cluster/events/join_interface
+		Type: 
+		Permission: rwxr--r--
+	join_interface: /usr/es/sbin/cluster/events/join_interface	PASS
+
+		File: /usr/es/sbin/cluster/events/cluster_notify
+		Type: 
+		Permission: rwxr--r--
+	cluster_notify: /usr/es/sbin/cluster/events/cluster_notify	PASS
+
+		File: /usr/es/sbin/cluster/events/resource_add
+		Type: 
+		Permission: rwxr--r--
+	resource_add: /usr/es/sbin/cluster/events/resource_add	PASS
+
+		File: /usr/es/sbin/cluster/events/resource_modify
+		Type: 
+		Permission: rwxr--r--
+	resource_modify: /usr/es/sbin/cluster/events/resource_modify	PASS
+
+		File: /usr/es/sbin/cluster/events/resource_delete
+		Type: 
+		Permission: rwxr--r--
+	resource_delete: /usr/es/sbin/cluster/events/resource_delete	PASS
+
+		File: /usr/es/sbin/cluster/events/resource_online
+		Type: 
+		Permission: rwxr--r--
+	resource_online: /usr/es/sbin/cluster/events/resource_online	PASS
+
+		File: /usr/es/sbin/cluster/events/resource_offline
+		Type: 
+		Permission: rwxr--r--
+	resource_offline: /usr/es/sbin/cluster/events/resource_offline	PASS
+
+		File: /usr/es/sbin/cluster/events/resource_state_change
+		Type: 
+		Permission: r-xr--r--
+	resource_state_change: /usr/es/sbin/cluster/events/resource_state_change	PASS
+
+		File: /usr/es/sbin/cluster/events/resource_state_change_complete
+		Type: 
+		Permission: r-xr--r--
+	resource_state_change_complete: /usr/es/sbin/cluster/events/resource_state_change_complete	PASS
+
+		File: /usr/es/sbin/cluster/events/external_resource_state_change
+		Type: 
+		Permission: r-xr--r--
+	external_resource_state_change: /usr/es/sbin/cluster/events/external_resource_state_change	PASS
+
+		File: /usr/es/sbin/cluster/events/external_resource_state_change_complete
+		Type: 
+		Permission: r-xr--r--
+	external_resource_state_change_complete: /usr/es/sbin/cluster/events/external_resource_state_change_complete	PASS
+
+		File: /usr/es/sbin/cluster/events/intersite_fallover_prevented
+		Type: 
+		Permission: rwxr--r--
+	intersite_fallover_prevented: /usr/es/sbin/cluster/events/intersite_fallover_prevented	PASS
+
+		File: /usr/es/sbin/cluster/events/reconfig_configuration_complete
+		Type: 
+		Permission: rwxr--r--
+	reconfig_configuration_complete: /usr/es/sbin/cluster/events/reconfig_configuration_complete	PASS
+
+		File: /usr/es/sbin/cluster/events/forced_down_too_long
+		Type: 
+		Permission: rwxr--r--
+	forced_down_too_long: /usr/es/sbin/cluster/events/forced_down_too_long	PASS
+
+		File: /usr/es/sbin/cluster/events/start_udresource
+		Type: 
+		Permission: rwxr--r--
+	start_udresource: /usr/es/sbin/cluster/events/start_udresource	PASS
+
+		File: /usr/es/sbin/cluster/events/stop_udresource
+		Type: 
+		Permission: rwxr--r--
+	stop_udresource: /usr/es/sbin/cluster/events/stop_udresource	PASS
+
+		File: /usr/es/sbin/cluster/utilities/cl_sm_prompt
+		Type: 
+		Permission: r-x------
+	split_merge_prompt: /usr/es/sbin/cluster/utilities/cl_sm_prompt	PASS
+
+
+END CHECK
+Check: PASSED
+
+
+VERIFICATION NAME: resource.ver_chk_prepost
+2015-04-23T01:52:06.269844
+Verify all pre/post event scripts are executable on all nodes.
+
+Data Collectors:
+	ID: 43  Description: Collect stats for specified file.
+		Collector succeeded on node DX977 (6692 bytes)
+		Collector succeeded on node DX978 (6692 bytes)
+
+BEGIN CHECK
+
+Verifying custom events
+Verifying custom events on node: DX977.
+
+Verifying that all required events exist on node DX977
+	swap_adapter	PASS
+
+	node_up	PASS
+
+	network_up	PASS
+
+	join_standby	PASS
+
+	node_down	PASS
+
+	network_down	PASS
+
+	fail_standby	PASS
+
+	network_up_complete	PASS
+
+	network_down_complete	PASS
+
+	swap_adapter_complete	PASS
+
+	node_up_complete	PASS
+
+	node_down_complete	PASS
+
+	config_too_long	PASS
+
+	event_error	PASS
+
+	fail_interface	PASS
+
+	join_interface	PASS
+
+	reconfig_topology_start	PASS
+
+	reconfig_topology_complete	PASS
+
+	reconfig_resource_release	PASS
+
+	reconfig_resource_acquire	PASS
+
+	reconfig_resource_complete	PASS
+
+	migrate	PASS
+
+	migrate_complete	PASS
+
+	server_restart	PASS
+
+	server_down	PASS
+
+	rg_move	PASS
+
+	site_up	PASS
+
+	site_down	PASS
+
+	site_up_complete	PASS
+
+	site_down_complete	PASS
+
+	site_merge	PASS
+
+	site_isolation	PASS
+
+	site_merge_complete	PASS
+
+	site_isolation_complete	PASS
+
+
+Verifying that all pre-and-post event scripts exist on node DX977
+Verifying custom events on node: DX978.
+
+Verifying that all required events exist on node DX978
+	swap_adapter	PASS
+
+	node_up	PASS
+
+	network_up	PASS
+
+	join_standby	PASS
+
+	node_down	PASS
+
+	network_down	PASS
+
+	fail_standby	PASS
+
+	network_up_complete	PASS
+
+	network_down_complete	PASS
+
+	swap_adapter_complete	PASS
+
+	node_up_complete	PASS
+
+	node_down_complete	PASS
+
+	config_too_long	PASS
+
+	event_error	PASS
+
+	fail_interface	PASS
+
+	join_interface	PASS
+
+	reconfig_topology_start	PASS
+
+	reconfig_topology_complete	PASS
+
+	reconfig_resource_release	PASS
+
+	reconfig_resource_acquire	PASS
+
+	reconfig_resource_complete	PASS
+
+	migrate	PASS
+
+	migrate_complete	PASS
+
+	server_restart	PASS
+
+	server_down	PASS
+
+	rg_move	PASS
+
+	site_up	PASS
+
+	site_down	PASS
+
+	site_up_complete	PASS
+
+	site_down_complete	PASS
+
+	site_merge	PASS
+
+	site_isolation	PASS
+
+	site_merge_complete	PASS
+
+	site_isolation_complete	PASS
+
+
+Verifying that all pre-and-post event scripts exist on node DX978
+
+END CHECK
+Check: PASSED
+
+
+VERIFICATION NAME: resource.ver_chk_customs
+2015-04-23T01:52:06.271716
+Verify all custom verification scripts are executable on all nodes.
+
+Data Collectors:
+	ID: 43  Description: Collect stats for specified file.
+		Collector succeeded on node DX977 (6692 bytes)
+		Collector succeeded on node DX978 (6692 bytes)
+
+BEGIN CHECK
+
+END CHECK
+Check: PASSED
+
+
+VERIFICATION NAME: resource.ver_chk_snap_methods
+2015-04-23T01:52:06.271896
+Verify all custom snapshot scripts are executable on all nodes.
+
+Data Collectors:
+	ID: 43  Description: Collect stats for specified file.
+		Collector succeeded on node DX977 (6692 bytes)
+		Collector succeeded on node DX978 (6692 bytes)
+
+BEGIN CHECK
+
+END CHECK
+Check: PASSED
+
+
+VERIFICATION NAME: resource.ver_resource_chk_clusterlogs
+2015-04-23T01:52:06.272030
+Verify cluster logs are configured correctly on all remote nodes.
+
+Data Collectors:
+	ID: 12  Description: Determine log information from all cluster nodes.
+		Collector succeeded on node DX977 (2922 bytes)
+		Collector succeeded on node DX978 (2922 bytes)
+
+BEGIN CHECK
+
+Verifying Cluster Log Directories
+
+Recommended disk space required for logs (upper limit):
+clstrmgr.debug                   2 MB
+cluster.log                      2 MB
+cluster.mmddyyyy                 2 MB
+cspoc.log                        2 MB
+hacmp.out                       14 MB
+clavan.log                       2 MB
+clverify.log                    25 MB
+clcomd.log                       8 MB
+clcomddiag.log                  80 MB
+clconfigassist.log               2 MB
+clutils.log                      2 MB
+cl_testtool.log                  2 MB
+autoverify.log                   2 MB
+sa.log                           2 MB
+clstrmgr.debug.long              2 MB
+cspoc.log.long                   2 MB
+cspoc.log.remote                 2 MB
+clinfo.log                       2 MB
+migration.log                    2 MB
+
+Verifying cluster log directories on node: DX977
+
+
+Verifying that log dirs are valid
+clstrmgr.debug	PASS
+
+clstrmgr.debug 19310.00 MB disk space remaining on node DX977.
+cluster.log	PASS
+
+cluster.log 19310.00 MB disk space remaining on node DX977.
+cluster.mmddyyyy	PASS
+
+cluster.mmddyyyy 19310.00 MB disk space remaining on node DX977.
+cspoc.log	PASS
+
+cspoc.log 19310.00 MB disk space remaining on node DX977.
+emuhacmp.out	PASS
+
+emuhacmp.out 19310.00 MB disk space remaining on node DX977.
+hacmp.out	PASS
+
+hacmp.out 19310.00 MB disk space remaining on node DX977.
+clavan.log	PASS
+
+clavan.log 19310.00 MB disk space remaining on node DX977.
+clverify.log	PASS
+
+clverify.log 19310.00 MB disk space remaining on node DX977.
+clcomd.log	PASS
+
+clcomd.log 19310.00 MB disk space remaining on node DX977.
+clcomddiag.log	PASS
+
+clcomddiag.log 19310.00 MB disk space remaining on node DX977.
+clconfigassist.log	PASS
+
+clconfigassist.log 19310.00 MB disk space remaining on node DX977.
+cl2siteconfig_assist.log	PASS
+
+cl2siteconfig_assist.log 19310.00 MB disk space remaining on node DX977.
+clutils.log	PASS
+
+clutils.log 19310.00 MB disk space remaining on node DX977.
+cl_testtool.log	PASS
+
+cl_testtool.log 19310.00 MB disk space remaining on node DX977.
+autoverify.log	PASS
+
+autoverify.log 19310.00 MB disk space remaining on node DX977.
+sa.log	PASS
+
+sa.log 19310.00 MB disk space remaining on node DX977.
+clstrmgr.debug.long	PASS
+
+clstrmgr.debug.long 19310.00 MB disk space remaining on node DX977.
+cspoc.log.long	PASS
+
+cspoc.log.long 19310.00 MB disk space remaining on node DX977.
+cspoc.log.remote	PASS
+
+cspoc.log.remote 19310.00 MB disk space remaining on node DX977.
+clinfo.log	PASS
+
+clinfo.log 19310.00 MB disk space remaining on node DX977.
+migration.log	PASS
+
+migration.log 19310.00 MB disk space remaining on node DX977.
+dnssa.log	PASS
+
+dnssa.log 19310.00 MB disk space remaining on node DX977.
+dhcpsa.log	PASS
+
+dhcpsa.log 19310.00 MB disk space remaining on node DX977.
+domino_server.log	PASS
+
+domino_server.log 19310.00 MB disk space remaining on node DX977.
+sax.log	PASS
+
+sax.log 19310.00 MB disk space remaining on node DX977.
+ihssa.log	PASS
+
+ihssa.log 19310.00 MB disk space remaining on node DX977.
+maxdbsa.log	PASS
+
+maxdbsa.log 19310.00 MB disk space remaining on node DX977.
+clevents	PASS
+
+clevents 19310.00 MB disk space remaining on node DX977.
+hswizard.log	PASS
+
+hswizard.log 19310.00 MB disk space remaining on node DX977.
+wmqsa.log	PASS
+
+wmqsa.log 19310.00 MB disk space remaining on node DX977.
+tsm_server.log	PASS
+
+tsm_server.log 19310.00 MB disk space remaining on node DX977.
+tsm_client.log	PASS
+
+tsm_client.log 19310.00 MB disk space remaining on node DX977.
+tsm_admin.log	PASS
+
+tsm_admin.log 19310.00 MB disk space remaining on node DX977.
+sapsa.log	PASS
+
+sapsa.log 19310.00 MB disk space remaining on node DX977.
+printServersa.log	PASS
+
+printServersa.log 19310.00 MB disk space remaining on node DX977.
+oraclesa.log	PASS
+
+oraclesa.log 19310.00 MB disk space remaining on node DX977.
+oraappsa.log	PASS
+
+oraappsa.log 19310.00 MB disk space remaining on node DX977.
+filenetsa.log	PASS
+
+filenetsa.log 19310.00 MB disk space remaining on node DX977.
+
+Verifying cluster log directories on node: DX978
+
+
+Verifying that log dirs are valid
+clstrmgr.debug	PASS
+
+clstrmgr.debug 19825.00 MB disk space remaining on node DX978.
+cluster.log	PASS
+
+cluster.log 19825.00 MB disk space remaining on node DX978.
+cluster.mmddyyyy	PASS
+
+cluster.mmddyyyy 19825.00 MB disk space remaining on node DX978.
+cspoc.log	PASS
+
+cspoc.log 19825.00 MB disk space remaining on node DX978.
+emuhacmp.out	PASS
+
+emuhacmp.out 19825.00 MB disk space remaining on node DX978.
+hacmp.out	PASS
+
+hacmp.out 19825.00 MB disk space remaining on node DX978.
+clavan.log	PASS
+
+clavan.log 19825.00 MB disk space remaining on node DX978.
+clverify.log	PASS
+
+clverify.log 19825.00 MB disk space remaining on node DX978.
+clcomd.log	PASS
+
+clcomd.log 19825.00 MB disk space remaining on node DX978.
+clcomddiag.log	PASS
+
+clcomddiag.log 19825.00 MB disk space remaining on node DX978.
+clconfigassist.log	PASS
+
+clconfigassist.log 19825.00 MB disk space remaining on node DX978.
+cl2siteconfig_assist.log	PASS
+
+cl2siteconfig_assist.log 19825.00 MB disk space remaining on node DX978.
+clutils.log	PASS
+
+clutils.log 19825.00 MB disk space remaining on node DX978.
+cl_testtool.log	PASS
+
+cl_testtool.log 19825.00 MB disk space remaining on node DX978.
+autoverify.log	PASS
+
+autoverify.log 19825.00 MB disk space remaining on node DX978.
+sa.log	PASS
+
+sa.log 19825.00 MB disk space remaining on node DX978.
+clstrmgr.debug.long	PASS
+
+clstrmgr.debug.long 19825.00 MB disk space remaining on node DX978.
+cspoc.log.long	PASS
+
+cspoc.log.long 19825.00 MB disk space remaining on node DX978.
+cspoc.log.remote	PASS
+
+cspoc.log.remote 19825.00 MB disk space remaining on node DX978.
+clinfo.log	PASS
+
+clinfo.log 19825.00 MB disk space remaining on node DX978.
+migration.log	PASS
+
+migration.log 19825.00 MB disk space remaining on node DX978.
+dnssa.log	PASS
+
+dnssa.log 19825.00 MB disk space remaining on node DX978.
+dhcpsa.log	PASS
+
+dhcpsa.log 19825.00 MB disk space remaining on node DX978.
+domino_server.log	PASS
+
+domino_server.log 19825.00 MB disk space remaining on node DX978.
+sax.log	PASS
+
+sax.log 19825.00 MB disk space remaining on node DX978.
+ihssa.log	PASS
+
+ihssa.log 19825.00 MB disk space remaining on node DX978.
+maxdbsa.log	PASS
+
+maxdbsa.log 19825.00 MB disk space remaining on node DX978.
+clevents	PASS
+
+clevents 19825.00 MB disk space remaining on node DX978.
+hswizard.log	PASS
+
+hswizard.log 19825.00 MB disk space remaining on node DX978.
+wmqsa.log	PASS
+
+wmqsa.log 19825.00 MB disk space remaining on node DX978.
+tsm_server.log	PASS
+
+tsm_server.log 19825.00 MB disk space remaining on node DX978.
+tsm_client.log	PASS
+
+tsm_client.log 19825.00 MB disk space remaining on node DX978.
+tsm_admin.log	PASS
+
+tsm_admin.log 19825.00 MB disk space remaining on node DX978.
+sapsa.log	PASS
+
+sapsa.log 19825.00 MB disk space remaining on node DX978.
+printServersa.log	PASS
+
+printServersa.log 19825.00 MB disk space remaining on node DX978.
+oraclesa.log	PASS
+
+oraclesa.log 19825.00 MB disk space remaining on node DX978.
+oraappsa.log	PASS
+
+oraappsa.log 19824.00 MB disk space remaining on node DX978.
+filenetsa.log	PASS
+
+filenetsa.log 19824.00 MB disk space remaining on node DX978.
+
+END CHECK
+Check: PASSED
+
+
+VERIFICATION NAME: resource.ver_chk_disktype
+2015-04-23T01:52:06.331661
+Verify all custom disk scripts are executable on all nodes.
+
+Data Collectors:
+	ID: 43  Description: Collect stats for specified file.
+		Collector succeeded on node DX977 (6692 bytes)
+		Collector succeeded on node DX978 (6692 bytes)
+
+BEGIN CHECK
+
+END CHECK
+Check: PASSED
+
+
+VERIFICATION NAME: resource.ver_resource_chk_vg_timestamps
+2015-04-23T01:52:06.331950
+Check the HA volume group timestamps for accuracy.
+
+Data Collectors:
+	ID: 22  Description: Obtain a list of shared volume group time stamps.
+		Collector succeeded on node DX977 (560 bytes)
+		Collector returned successfully on node DX978 (no data was returned)
+
+BEGIN CHECK
+
+END CHECK
+Check: PASSED
+
+
+	Completed 60 percent of the verification checks
+VERIFICATION NAME: resource.ver_resource_chk_anticolloc_pers_IP
+2015-04-23T01:52:06.334936
+Verify Service IP labels configured with distribution dependencies.
+
+Data Collectors:
+	No data collectors
+
+BEGIN CHECK
+
+END CHECK
+Check: PASSED
+
+
+VERIFICATION NAME: resource.ver_resource_chk_clstr_wlm_config
+2015-04-23T01:52:06.335136
+Checks the integrity of the cluster's WLM configuration settings,
+and verifies the configuration on the local node.
+
+Data Collectors:
+	No data collectors
+
+BEGIN CHECK
+
+Nothing to verify for this check
+
+END CHECK
+Check: PASSED
+
+
+VERIFICATION NAME: resource.check_nfs
+2015-04-23T01:52:06.335305
+Verify the exports file is the same on all cluster nodes.
+
+Data Collectors:
+	ID: 18  Description: Retrieve contents of /usr/es/sbin/cluster/etc/exports.
+		Collector returned successfully on node DX977 (no data was returned)
+		Collector returned successfully on node DX978 (no data was returned)
+	ID: 43  Description: Collect stats for specified file.
+		Collector succeeded on node DX977 (6692 bytes)
+		Collector succeeded on node DX978 (6692 bytes)
+
+BEGIN CHECK
+
+Nothing to verify for this check
+
+END CHECK
+Check: PASSED
+
+
+VERIFICATION NAME: resource.ver_resource_chk_nested_fs
+2015-04-23T01:52:06.335647
+Verifying resource groups processed in parallel do not have nested filesystems.
+
+Data Collectors:
+	No data collectors
+
+BEGIN CHECK
+
+Verifying that resource groups using serial filesystem recovery
+do not have any nested filesystems.
+
+END CHECK
+Check: PASSED
+
+
+VERIFICATION NAME: resource.ver_resource_chk_vg_major_nr
+2015-04-23T01:52:06.335783
+Verifying exported filesystems and logical volumes exist.
+
+Data Collectors:
+	ID: 44  Description: Collect volume group and major number data.
+		Collector succeeded on node DX977 (161 bytes)
+		Collector succeeded on node DX978 (144 bytes)
+
+BEGIN CHECK
+
+Verifying participating nodes for resource group 'DX977_RSG' have volume group oravg
+	DX977 	PASS
+
+	Major numbers match	PASS
+
+	DX978 	PASS
+
+	Major numbers match	PASS
+
+
+Verifying participating nodes for resource group 'DX977_RSG' have volume group data1vg
+	DX977 	PASS
+
+	Major numbers match	PASS
+
+	DX978 	PASS
+
+	Major numbers match	PASS
+
+
+Verifying participating nodes for resource group 'DX977_RSG' have volume group indx1vg
+	DX977 	PASS
+
+	Major numbers match	PASS
+
+	DX978 	PASS
+
+	Major numbers match	PASS
+
+
+Verifying participating nodes for resource group 'DX977_RSG' have volume group arch1vg
+	DX977 	PASS
+
+	Major numbers match	PASS
+
+	DX978 	PASS
+
+	Major numbers match	PASS
+
+
+Verifying participating nodes for resource group 'DX977_RSG' have volume group exp1vg
+	DX977 	PASS
+
+	Major numbers match	PASS
+
+	DX978 	PASS
+
+	Major numbers match	PASS
+
+
+Verifying participating nodes for resource group 'DX977_RSG' have volume group temp1vg
+	DX977 	PASS
+
+	Major numbers match	PASS
+
+	DX978 	PASS
+
+	Major numbers match	PASS
+
+
+Verifying participating nodes for resource group 'DX977_RSG' have volume group redo1vg
+	DX977 	PASS
+
+	Major numbers match	PASS
+
+	DX978 	PASS
+
+	Major numbers match	PASS
+
+
+Verifying participating nodes for resource group 'DX977_RSG' have volume group ctrl1vg
+	DX977 	PASS
+
+	Major numbers match	PASS
+
+	DX978 	PASS
+
+	Major numbers match	PASS
+
+
+Verifying participating nodes for resource group 'DX977_RSG' have volume group undo1vg
+	DX977 	PASS
+
+	Major numbers match	PASS
+
+	DX978 	PASS
+
+	Major numbers match	PASS
+
+
+Verifying participating nodes for resource group 'DX977_RSG' have volume group gg1vg
+	DX977 	PASS
+
+	Major numbers match	PASS
+
+	DX978 	PASS
+
+	Major numbers match	PASS
+
+
+Verifying participating nodes for resource group 'DX977_RSG' have volume group flash1vg
+	DX977 	PASS
+
+	Major numbers match	PASS
+
+	DX978 	PASS
+
+	Major numbers match	PASS
+
+
+Verifying participating nodes for resource group 'DX977_RSG' have volume group bkp1vg
+	DX977 	PASS
+
+	Major numbers match	PASS
+
+	DX978 	PASS
+
+	Major numbers match	PASS
+
+
+END CHECK
+Check: PASSED
+
+
+VERIFICATION NAME: resource.ver_resource_chk_nfs_mount_points_unique
+2015-04-23T01:52:06.346481
+Verifying NFS mount points for all filesystems in all resource groups are unique.
+
+Data Collectors:
+	No data collectors
+
+BEGIN CHECK
+
+Verifying that all NFS mount points are unique.
+
+Verifying that all NFS mount points are unique.
+
+END CHECK
+Check: PASSED
+
+
+VERIFICATION NAME: resource.ver_resource_chk_concurrent_groups
+2015-04-23T01:52:06.346627
+Verifying all cluster nodes belong to concurrent resource groups.
+
+Data Collectors:
+	No data collectors
+
+BEGIN CHECK
+
+Verifying that all nodes are present in concurrent resource groups
+with fencing enabled and no replicated resources.
+
+END CHECK
+Check: PASSED
+
+
+VERIFICATION NAME: resource.ver_resource_chk_rotating_repel_for_sites
+2015-04-23T01:52:06.346674
+Verifying the number of distributed resource groups is one less than the number of nodes in the cluster.
+
+Data Collectors:
+	No data collectors
+
+BEGIN CHECK
+
+END CHECK
+Check: PASSED
+
+
+VERIFICATION NAME: resource.ver_resource_chk_one_node_in_casc_group
+2015-04-23T01:52:06.346716
+Verifying at least one node belongs to a cascading resource group.
+
+Data Collectors:
+	No data collectors
+
+BEGIN CHECK
+
+Verifying that resource groups have more than one node.
+	DX977_RSG	PASS
+
+
+END CHECK
+Check: PASSED
+
+
+	Completed 70 percent of the verification checks
+VERIFICATION NAME: resource.ver_resource_chk_node_standby_casc_with_ipat
+2015-04-23T01:52:06.346780
+Verifying that nodes that belong to one or more cascading resource groups have the at least the same number of standby adapters.
+
+Data Collectors:
+	No data collectors
+
+BEGIN CHECK
+
+Verifying that nodes on resource groups have
+enough interfaces for proper fallover.
+
+Verifying that nodes on resource groups have
+enough interfaces for proper fallover.
+
+END CHECK
+Check: PASSED
+
+
+VERIFICATION NAME: resource.ver_resource_chk_site_concurrent_nonconcurrent
+2015-04-23T01:52:06.346840
+Checks to ensure a non-concurrent / concurrent resource group has not been configured.
+
+Data Collectors:
+	No data collectors
+
+BEGIN CHECK
+
+END CHECK
+Check: PASSED
+
+
+VERIFICATION NAME: resource.ver_resource_chk_rg_dependencies
+2015-04-23T01:52:06.346996
+Verifying Resource Group dependencies
+
+Data Collectors:
+	No data collectors
+
+BEGIN CHECK
+
+END CHECK
+Check: PASSED
+
+
+VERIFICATION NAME: resource.ver_resource_chk_rg_loc_dependencies
+2015-04-23T01:52:06.347373
+Verifying Resource Group location dependencies
+
+Data Collectors:
+	No data collectors
+
+BEGIN CHECK
+	PASS
+
+
+END CHECK
+Check: PASSED
+
+
+VERIFICATION NAME: resource.ver_resource_chk_rg_wpar_coloc_dependencies
+2015-04-23T01:52:06.347522
+Verifying Resource Group collocation dependencies for WPAR-enabled resource groups
+
+Data Collectors:
+	No data collectors
+
+BEGIN CHECK
+	PASS
+
+
+END CHECK
+Check: PASSED
+
+
+VERIFICATION NAME: resource.verify_site_configuration
+2015-04-23T01:52:06.347614
+Run PowerHA SystemMirror Sites verification checks
+
+Data Collectors:
+	ID: 14  Description: Retrieve the list of cluster,CAA,rsct,sna and sx25 filesets installed on all nodes.
+		Collector succeeded on node DX977 (14146 bytes)
+		Collector succeeded on node DX978 (14146 bytes)
+
+BEGIN CHECK
+
+END CHECK
+Check: PASSED
+
+
+VERIFICATION NAME: resource.ver_chk_filecollection
+2015-04-23T01:52:06.347834
+Verifying files listed in PowerHA SystemMirror File Collections.
+
+Data Collectors:
+	ID: 43  Description: Collect stats for specified file.
+		Collector succeeded on node DX977 (6692 bytes)
+		Collector succeeded on node DX978 (6692 bytes)
+
+BEGIN CHECK
+Verifying File Collection files.
+		File: /etc/hosts
+		Type: 
+		Permission: rw-rw-r--
+		File: /etc/services
+		Type: 
+		Permission: rw-r--r--
+		File: /etc/snmpd.conf
+		Type: 
+		Permission: rw-r-----
+		File: /etc/snmpdv3.conf
+		Type: 
+		Permission: rw-r-----
+		File: /etc/rc.net
+		Type: 
+		Permission: r-xr-xr--
+		File: /etc/inetd.conf
+		Type: 
+		Permission: rw-rw-r--
+		File: /usr/es/sbin/cluster/netmon.cf
+		Type: 
+		Permission: rwxr-xr-x
+		File: /usr/es/sbin/cluster/etc/clhosts
+		Type: 
+		Permission: rw-r--r--
+		File: /etc/cluster/rhosts
+		Type: 
+		Permission: rw-------
+		File: /usr/es/sbin/cluster/etc/clinfo.rc
+		Type: 
+		Permission: rwxr--r--
+		File: /etc/hosts
+		Type: 
+		Permission: rw-rw-r--
+		File: /etc/services
+		Type: 
+		Permission: rw-r--r--
+		File: /etc/snmpd.conf
+		Type: 
+		Permission: rw-r-----
+		File: /etc/snmpdv3.conf
+		Type: 
+		Permission: rw-r-----
+		File: /etc/rc.net
+		Type: 
+		Permission: r-xr-xr--
+		File: /etc/inetd.conf
+		Type: 
+		Permission: rw-rw-r--
+		File: /usr/es/sbin/cluster/netmon.cf
+		Type: 
+		Permission: rwxr-xr-x
+		File: /usr/es/sbin/cluster/etc/clhosts
+		Type: 
+		Permission: rw-r--r--
+		File: /etc/cluster/rhosts
+		Type: 
+		Permission: rw-------
+		File: /usr/es/sbin/cluster/etc/clinfo.rc
+		Type: 
+		Permission: rwxr--r--
+
+END CHECK
+Check: PASSED
+
+
+	Completed 80 percent of the verification checks
+VERIFICATION NAME: resource.ver_chk_dlpar
+2015-04-23T01:52:06.408188
+Verifying DLPAR and CoD resources
+
+Data Collectors:
+	ID: 48  Description: Collect DLPAR information
+		Collector succeeded on node DX977 (22 bytes)
+		Collector succeeded on node DX978 (22 bytes)
+
+BEGIN CHECK
+	HMC_LIST for node DX977
+	HMC_LIST_END for node DX977
+	HMC_LIST for node DX978
+	HMC_LIST_END for node DX978
+
+END CHECK
+Check: PASSED
+
+
+VERIFICATION NAME: resource.ver_check_active_resource
+2015-04-23T01:52:06.409235
+
+ Checking for active resources
+
+
+Data Collectors:
+	ID: 28  Description: Gather netstat -in output
+		Collector succeeded on node DX977 (865 bytes)
+		Collector succeeded on node DX978 (768 bytes)
+	ID: 23  Description: Run cldare -a to determine if cluster services are running.
+		Collector succeeded on node DX977 (7 bytes)
+		Collector succeeded on node DX978 (7 bytes)
+	ID: 29  Description: Gather lssrc -ls clstrmgrES
+		Collector succeeded on node DX977 (1263 bytes)
+		Collector succeeded on node DX978 (1263 bytes)
+	ID: 56  Description: Collect Active volume groups list
+		Collector succeeded on node DX977 (126 bytes)
+		Collector succeeded on node DX978 (21 bytes)
+
+BEGIN CHECK
+
+END CHECK
+Check: PASSED
+
+
+VERIFICATION NAME: resource.ver_wpar_checks
+2015-04-23T01:52:06.409452
+
+Checking WPAR related configuration for WPAR-enabled Resource Groups
+
+
+Data Collectors:
+	ID: 60  Description: 
+Collecting WPAR related data from all nodes
+
+		Collector succeeded on node DX977 (22 bytes)
+		Collector succeeded on node DX978 (22 bytes)
+
+BEGIN CHECK
+
+END CHECK
+Check: PASSED
+
+
+VERIFICATION NAME: topology.ver_XD_configuration
+2015-04-23T01:52:06.512999
+Verifying user-defined XD utilities
+
+
+Data Collectors:
+	ID: 14  Description: Retrieve the list of cluster,CAA,rsct,sna and sx25 filesets installed on all nodes.
+		Collector succeeded on node DX977 (14146 bytes)
+		Collector succeeded on node DX978 (14146 bytes)
+	ID: 1  Description: Retrieve a copy of ODM CuAt from each node.
+	ID: 2  Description: Retrieve a copy of ODM CuDv from each node.
+	ID: 6  Description: Retrieve a copy of ODM product from each node.
+	ID: 49  Description: Collect GMVG Mirror information
+		Collector returned successfully on node DX977 (no data was returned)
+		Collector returned successfully on node DX978 (no data was returned)
+	ID: 70  Description: Collect LSS information of each disk in the Mirror group
+
+		Collector returned successfully on node DX977 (no data was returned)
+		Collector returned successfully on node DX978 (no data was returned)
+	ID: 71  Description: Collect disk access information from the node
+
+		Collector returned successfully on node DX977 (no data was returned)
+		Collector returned successfully on node DX978 (no data was returned)
+	ID: 72  Description: Check if repository disk is accessible or not on a node
+
+		Collector succeeded on node DX977 (2 bytes)
+		Collector succeeded on node DX978 (2 bytes)
+	ID: 26  Description: Obtain the oslevel.
+		Collector succeeded on node DX977 (7 bytes)
+		Collector succeeded on node DX978 (7 bytes)
+
+BEGIN CHECK
+
+Verifying XD Solutions...
+
+
+Verifying XD Solution PPRC...
+
+Verifying XD Solution SVCPPRC...
+
+Verifying XD Solution EMC SRDF®...
+
+Verifying XD Solution GLVM...
+
+Verifying XD Solution Hitachi TrueCopy®...
+
+Verifying XD Solution GENERIC XD...
+
+Verifying XD Solution DS8K Metro Mirror Inband...
+
+END CHECK
+Check: PASSED
+
+
+VERIFICATION NAME: resource.ver_resource_chk_is_valid_ipv6_address
+2015-04-23T01:52:06.658495
+Verifying that the configured IPv6 service IP addresses are valid.
+
+
+Data Collectors:
+	No data collectors
+
+BEGIN CHECK
+Validating IPv6 addressDX977-VIP(10.51.226.228)
+		PASS
+
+	Verifying no loopback/unspecified address configuration for service IP	PASS
+
+	Verifying that IPv6 service IP is not a link local address	PASS
+
+	Duplicate Address Detection (DAD)	PASS
+
+
+END CHECK
+Check: PASSED
+
+
+VERIFICATION NAME: db2.ver_db2_fmc
+2015-04-23T01:52:06.659104
+Verify the Fault Monitor Coordinator is disabled on all nodes participating in instance resource groups.
+
+Data Collectors:
+	ID: 40  Description: Gather /etc/inittab from each cluster node
+		Collector succeeded on node DX977 (4867 bytes)
+		Collector succeeded on node DX978 (4867 bytes)
+
+BEGIN CHECK
+
+END CHECK
+Check: PASSED
+
+
+VERIFICATION NAME: db2.ver_db2_instance_rhosts
+2015-04-23T01:52:06.659294
+Verify the .rhosts for the instance owner contains an entry for the service IP label.
+
+Data Collectors:
+	ID: 30  Description: Gathering DB2 rhosts information
+		Collector succeeded on node DX977 (81 bytes)
+		Collector succeeded on node DX978 (81 bytes)
+
+BEGIN CHECK
+
+END CHECK
+Check: PASSED
+
+
+VERIFICATION NAME: db2.ver_db2_autostart
+2015-04-23T01:52:06.659375
+Verify DB2 instances are not set to auto start on node reboot
+
+Data Collectors:
+	ID: 32  Description: Gathering DB2 instance environment variables
+		Collector succeeded on node DX977 (24 bytes)
+		Collector succeeded on node DX978 (24 bytes)
+
+BEGIN CHECK
+
+END CHECK
+Check: PASSED
+
+
+VERIFICATION NAME: db2.ver_db2_software
+2015-04-23T01:52:06.659453
+Ensure all nodes that participate in an instance resource group are running the same level of DB2
+
+Data Collectors:
+	ID: 31  Description: Gather the DB2 software levels
+		Collector succeeded on node DX977 (40 bytes)
+		Collector succeeded on node DX978 (40 bytes)
+
+BEGIN CHECK
+
+END CHECK
+Check: PASSED
+
+
+	Completed 90 percent of the verification checks
+VERIFICATION NAME: db2.ver_db2_instance_users
+2015-04-23T01:52:06.659551
+Verify DB2 instance owners and groups both exist on all participating nodes, and have the same UID and GIDs.
+
+Data Collectors:
+	ID: 41  Description: Gathering /etc/passwd from each cluster node
+		Collector succeeded on node DX977 (749 bytes)
+		Collector succeeded on node DX978 (711 bytes)
+
+BEGIN CHECK
+
+END CHECK
+Check: PASSED
+
+
+VERIFICATION NAME: db2.ver_db2_chk_etc_services
+2015-04-23T01:52:06.659626
+Verify DB2 /etc/services entries on participating nodes of an instance resource group.
+
+Data Collectors:
+	ID: 37  Description: Retrieve the file /etc/services
+		Collector succeeded on node DX977 (345118 bytes)
+		Collector succeeded on node DX978 (345118 bytes)
+
+BEGIN CHECK
+
+END CHECK
+Check: PASSED
+
+
+VERIFICATION NAME: db2.ver_db2_chk_resources
+2015-04-23T01:52:06.660161
+Validate the DB2 instance resource group contains SA resources.
+
+Data Collectors:
+	ID: 30  Description: Gathering DB2 rhosts information
+		Collector succeeded on node DX977 (81 bytes)
+		Collector succeeded on node DX978 (81 bytes)
+
+BEGIN CHECK
+
+END CHECK
+Check: PASSED
+
+
+VERIFICATION NAME: was.ver_chk_was_software
+2015-04-23T01:52:06.660238
+Verify the WebSphere Components are still installed.
+
+
+Data Collectors:
+	ID: 52  Description: Gathering installation information for WebSphere Components.
+
+		Collector returned successfully on node DX977 (no data was returned)
+		Collector returned successfully on node DX978 (no data was returned)
+
+BEGIN CHECK
+
+END CHECK
+Check: PASSED
+
+
+VERIFICATION NAME: was.ver_chk_was_transport
+2015-04-23T01:52:06.660491
+Verify the end points and listen directives for WebSphere 
+match resource group service IP labels.
+
+
+Data Collectors:
+	ID: 53  Description: Gathering listen directive and end point Host for WebSphere 
+Components.
+
+		Collector returned successfully on node DX977 (no data was returned)
+		Collector returned successfully on node DX978 (no data was returned)
+
+BEGIN CHECK
+	PASS
+
+
+END CHECK
+Check: PASSED
+
+
+VERIFICATION NAME: was.ver_chk_was_translog
+2015-04-23T01:52:06.660646
+Verify the transaction log for the members of the WebSphere 
+Cluster point to the shared memory location.
+
+
+Data Collectors:
+	ID: 54  Description: Gathering Transaction Log information for WebSphere Clusters.
+
+		Collector returned successfully on node DX977 (no data was returned)
+		Collector returned successfully on node DX978 (no data was returned)
+
+BEGIN CHECK
+
+END CHECK
+Check: PASSED
+
+
+VERIFICATION NAME: was.ver_chk_was_cluster_nodes
+2015-04-23T01:52:06.660766
+Verify the node in the WebSphere Cluster match the nodes in 
+the resource group.
+
+
+Data Collectors:
+	ID: 55  Description: Gathering WebSphere Cluster information.
+
+		Collector returned successfully on node DX977 (no data was returned)
+		Collector returned successfully on node DX978 (no data was returned)
+
+BEGIN CHECK
+
+END CHECK
+Check: PASSED
+
+
+VERIFICATION NAME: resource.ver_OEM_VolumesFilesystems
+2015-04-23T01:52:06.660836
+Verifying OEM Volume Group and Filesystems support.
+This could take a few minutes...
+
+
+
+Data Collectors:
+	ID: 58  Description: Collect OEM method file information.
+
+		Collector succeeded on node DX977 (717 bytes)
+		Collector succeeded on node DX978 (717 bytes)
+
+BEGIN CHECK
+
+END CHECK
+Check: PASSED
+
+
+VERIFICATION NAME: resource.ver_chk_oraclesa_opmn_conf
+2015-04-23T01:52:06.661067
+Check the Oracle AFC/CFC smart assist application's OPMN configuration for changes
+
+Data Collectors:
+	ID: 57  Description: Collect the Oracle Smart Assist OPMN configuration
+		Collector returned successfully on node DX977 (no data was returned)
+		Collector returned successfully on node DX978 (no data was returned)
+
+BEGIN CHECK
+
+END CHECK
+Check: PASSED
+
+
+	Completed 100 percent of the verification checks
+VERIFICATION NAME: resource.ver_chk_etc_inittab_conf
+2015-04-23T01:52:06.661183
+Verifying /etc/inittab configuration's settings for clinit, and pst_client entries
+
+Data Collectors:
+	ID: 40  Description: Gather /etc/inittab from each cluster node
+		Collector succeeded on node DX977 (4867 bytes)
+		Collector succeeded on node DX978 (4867 bytes)
+	ID: 43  Description: Collect stats for specified file.
+		Collector succeeded on node DX977 (6692 bytes)
+		Collector succeeded on node DX978 (6692 bytes)
+
+BEGIN CHECK
+
+END CHECK
+Check: PASSED
+
+
+VERIFICATION NAME: resource.ver_check_nfs_graceperiod
+2015-04-23T01:52:06.667073
+Verifying NFSv4 grace period settings
+
+Data Collectors:
+	ID: 14  Description: Retrieve the list of cluster,CAA,rsct,sna and sx25 filesets installed on all nodes.
+		Collector succeeded on node DX977 (14146 bytes)
+		Collector succeeded on node DX978 (14146 bytes)
+	ID: 61  Description: Retrieve a list of running processes and arguments.
+		Collector succeeded on node DX977 (66088 bytes)
+		Collector succeeded on node DX978 (7575 bytes)
+	ID: 62  Description: Retrieve a copy of ODM SRCsubsys from each node
+
+BEGIN CHECK
+
+END CHECK
+Check: PASSED
+
+
+VERIFICATION NAME: resource.ver_check_nfs_domain
+2015-04-23T01:52:06.667250
+Verifying NFSv4 domain name
+
+Data Collectors:
+	ID: 63  Description: Retrieve the NFSv4 domain name.
+		Collector succeeded on node DX977 (26 bytes)
+		Collector succeeded on node DX978 (26 bytes)
+
+BEGIN CHECK
+
+END CHECK
+Check: PASSED
+
+
+VERIFICATION NAME: resource.ver_check_ldap_version
+2015-04-23T01:52:06.667510
+Verifying LDAP version
+
+Data Collectors:
+	ID: 65  Description: Collecting TDS Version.
+
+		Collector returned successfully on node DX977 (no data was returned)
+		Collector returned successfully on node DX978 (no data was returned)
+
+BEGIN CHECK
+
+Nothing to verify for this check
+
+END CHECK
+Check: PASSED
+
+
+VERIFICATION NAME: resource.ver_check_ldap_conf
+2015-04-23T01:52:06.667652
+Verifying LDAP client configuration
+
+Data Collectors:
+	ID: 66  Description: Collecting TDS client Configuration.
+
+		Collector returned successfully on node DX977 (no data was returned)
+		Collector returned successfully on node DX978 (no data was returned)
+
+BEGIN CHECK
+
+Nothing to verify for this check
+
+END CHECK
+Check: PASSED
+
+
+VERIFICATION NAME: resource.ver_check_efs_enable
+2015-04-23T01:52:06.667769
+Verifying EFS enable
+
+Data Collectors:
+	ID: 67  Description: Collecting EFS enable details.
+
+		Collector succeeded on node DX977 (2 bytes)
+		Collector succeeded on node DX978 (2 bytes)
+
+BEGIN CHECK
+
+Nothing to verify for this check
+
+END CHECK
+Check: PASSED
+
+
+VERIFICATION NAME: resource.ver_resource_chk_cl_parrallel_processing
+2015-04-23T01:52:06.667902
+Verifying whether the variable CL_PARRALLEL_PROCESSING has the same value on all nodes.
+
+
+Data Collectors:
+	ID: 68  Description: Collect the value of CL_PARRALLEL_PROCESSING from each node.
+
+		Collector returned successfully on node DX977 (no data was returned)
+		Collector returned successfully on node DX978 (no data was returned)
+
+BEGIN CHECK
+
+END CHECK
+Check: PASSED
+
+
+
+Total elapse time: 26 second(s)
+
+Verification has completed normally.
+
+
+SUMMARY REPORT
+
+Results of: /usr/es/sbin/cluster/diag/clver -D -c
+
+Node        Errors Logged
+
+--------------------------------------------------
+All          0
+DX977        0
+DX978        0
+--------------------------------------------------
+Totals       0
+==== END Contents of /var/hacmp/clverify/clverify.log ====
+==== EXITED with rc 0 ====
+==== END fileprint $(cllog -g clverify.log | awk -F: '{print $4}' | grep -v value)/clverify.log Mon Jul  6 23:43:07 GST 2015 ====

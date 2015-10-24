@@ -1,0 +1,4 @@
+==== This output can be found in Systems/dx980/hw/lsdev-^Cc_adapter_grep-i_hea_awk-^F_print_lscfg-vl.txt ====
+==== START lsdev -Cc adapter | grep -i hea | awk -F ' ' '{print "lscfg -vl " $1}' | /usr/bin/ksh Mon Jul  6 23:23:42 GST 2015 ====
+==== EXITED with rc 0 ====
+==== END lsdev -Cc adapter | grep -i hea | awk -F ' ' '{print "lscfg -vl " $1}' | /usr/bin/ksh Mon Jul  6 23:23:42 GST 2015 ====

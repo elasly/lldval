@@ -1,0 +1,26 @@
+==== This output can be found in Systems/dx975/perf/vmstat-v.txt ====
+==== START vmstat -v  Tue Jul  7 12:47:12 CDT 2015 ====
+              2097152 memory pages
+              2018800 lruable pages
+                64600 free pages
+                    3 memory pools
+               935210 pinned pages
+                 80.0 maxpin percentage
+                  3.0 minperm percentage
+                 90.0 maxperm percentage
+                 37.0 numperm percentage
+               748541 file pages
+                  0.0 compressed percentage
+                    0 compressed pages
+                 37.0 numclient percentage
+                 90.0 maxclient percentage
+               748541 client pages
+                    0 remote pageouts scheduled
+                    0 pending disk I/Os blocked with no pbuf
+                    0 paging space I/Os blocked with no psbuf
+                 2253 filesystem I/Os blocked with no fsbuf
+                  274 client filesystem I/Os blocked with no fsbuf
+                   23 external pager filesystem I/Os blocked with no fsbuf
+                 61.2 percentage of memory used for computational pages
+==== EXITED with rc 0 ====
+==== END vmstat -v  Tue Jul  7 12:47:12 CDT 2015 ====

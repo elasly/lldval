@@ -1,0 +1,83 @@
+==== This output can be found in Systems/dx987/network/netstat-ss.txt ====
+==== START netstat -ss Tue Jul  7 00:01:08 GST 2015 ====
+icmp:
+	460 calls to icmp_error
+	Output histogram:
+		echo reply: 54498
+		destination unreachable: 460
+		echo: 3577254
+	Input histogram:
+		echo reply: 3577162
+		destination unreachable: 171
+		source quench: 2
+		echo: 54527
+	54498 message responses generated
+igmp:
+	18 membership reports sent
+tcp:
+	27377212 packets sent
+		18303096 data packets (26132110175 bytes)
+		47 data packets (77192 bytes) retransmitted
+		2463160 ack-only packets (1317020 delayed)
+		5748945 window update packets
+		1723928 control packets
+		16060073 large sends
+		25989930481 bytes sent using largesend
+		65160 bytes is the biggest largesend
+	27545514 packets received
+		11226916 acks (for 26132555826 bytes)
+		293788 duplicate acks
+		16554526 packets (22183811189 bytes) received in-sequence
+		9846 completely duplicate packets (4448 bytes)
+		2 packets with some dup. data (2984 bytes duped)
+		274668 out-of-order packets (80592 bytes)
+		311922 window update packets
+		19790 packets received after close
+		4704 discarded by listeners
+		7591052 ack packet headers correctly predicted
+		14613605 data packet headers correctly predicted
+	292406 connection requests
+	285960 connection accepts
+	578306 connections established (including accepts)
+	1977929 connections closed (including 8829 drops)
+	59 embryonic connections dropped
+	11518086 segments updated rtt (of 11233851 attempts)
+	6 path MTU discovery terminations due to retransmits
+	35 retransmit timeouts
+	2 fast retransmits
+	18 newreno retransmits
+	1237 keepalive timeouts
+		4 connections dropped by keepalive
+udp:
+	11076703 datagrams received
+	145947 dropped due to no socket
+	3217677 broadcast/multicast datagrams dropped due to no socket
+	7713079 delivered
+	7415753 datagrams output
+ip:
+	42613263 total packets received
+	42095390 packets for this host
+	10519 packets for unknown/unsupported protocol
+	214818 packets not forwardable
+	38268214 packets sent from this host
+	306 output datagrams fragmented
+	1894 fragments created
+	332951 packets dropped due to the full socket receive buffer
+
+ipv6:
+	292536 total packets received
+	Input histogram:
+		TCP: 2681
+		UDP: 145489
+		ICMP v6: 144366
+	292536 packets for this host
+	292536 packets sent from this host
+	46210 output packets discarded due to no route
+icmpv6:
+	145487 calls to icmp6_error
+	Output histogram:
+		unreachable: 144366
+	Input histogram:
+		unreachable: 144366
+==== EXITED with rc 0 ====
+==== END netstat -ss Tue Jul  7 00:01:08 GST 2015 ====

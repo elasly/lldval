@@ -1,0 +1,21 @@
+==== This output can be found in Systems/dx989/os/bootlist-vom_service.txt ====
+==== START bootlist -vom service Thu Aug  6 11:22:14 GST 2015 ====
+'ibm,max-boot-devices' = 0x5
+NVRAM variable: (diag-device=/vdevice/vfc-client@300001b1/disk@50060e8007e43a7a:2 /vdevice/vfc-client@300001b1/disk@50060e8007e43a72:2 /vdevice/vfc-client@300001b2/disk@50060e8007e43a6a:2 /vdevice/vfc-client@300001b2/disk@50060e8007e43a62:2 /vdevice/vfc-client@300001b5/disk@50060e8007e43a6a:2)
+Path name: (/vdevice/vfc-client@300001b1/disk@50060e8007e43a7a:2)
+match_specific_info: ut=disk/fcp/htcvspg1000mpio
+hdisk0 blv=hd5 pathid=0
+Path name: (/vdevice/vfc-client@300001b1/disk@50060e8007e43a72:2)
+match_specific_info: ut=disk/fcp/htcvspg1000mpio
+hdisk0 blv=hd5 pathid=1
+Path name: (/vdevice/vfc-client@300001b2/disk@50060e8007e43a6a:2)
+match_specific_info: ut=disk/fcp/htcvspg1000mpio
+hdisk0 blv=hd5 pathid=2
+Path name: (/vdevice/vfc-client@300001b2/disk@50060e8007e43a62:2)
+match_specific_info: ut=disk/fcp/htcvspg1000mpio
+hdisk0 blv=hd5 pathid=3
+Path name: (/vdevice/vfc-client@300001b5/disk@50060e8007e43a6a:2)
+match_specific_info: ut=disk/fcp/htcvspg1000mpio
+hdisk0 blv=hd5 pathid=4
+==== EXITED with rc 0 ====
+==== END bootlist -vom service Thu Aug  6 11:22:14 GST 2015 ====

@@ -1,0 +1,96 @@
+==== This output can be found in Systems/dx986/network/netstat-ss.txt ====
+==== START netstat -ss Tue Jul  7 00:57:27 GST 2015 ====
+icmp:
+	705 calls to icmp_error
+	Output histogram:
+		echo reply: 589473
+		destination unreachable: 705
+		echo: 4610929
+	Input histogram:
+		echo reply: 4610822
+		destination unreachable: 27390
+		source quench: 926
+		echo: 564802
+		time exceeded: 6
+	564770 message responses generated
+igmp:
+	18 membership reports sent
+tcp:
+	3770474287 packets sent
+		3201333113 data packets (84763789163986 bytes)
+		518053 data packets (2018786811 bytes) retransmitted
+		94656571 ack-only packets (55684524 delayed)
+		7 window probe packets
+		464495260 window update packets
+		18943822 control packets
+		1379479280 large sends
+		83789087042357 bytes sent using largesend
+		65160 bytes is the biggest largesend
+	5290617321 packets received
+		2515606392 acks (for 84763930271178 bytes)
+		11276123 duplicate acks
+		3821482699 packets (2262733370749 bytes) received in-sequence
+		358408 completely duplicate packets (30673557 bytes)
+		132817 packets with some dup. data (132946 bytes duped)
+		24433860 out-of-order packets (31964721914 bytes)
+		1755 packets (1755 bytes) of data after window
+		1755 window probes
+		669058 window update packets
+		16153 packets received after close
+		5111 discarded by listeners
+		649820767 ack packet headers correctly predicted
+		2685405298 data packet headers correctly predicted
+	3053345 connection requests
+	5572807 connection accepts
+	6546695 connections established (including accepts)
+	10162325 connections closed (including 8182 drops)
+	2079433 embryonic connections dropped
+	2510504833 segments updated rtt (of 1833824854 attempts)
+	175 path MTU discovery terminations due to retransmits
+	34053 retransmit timeouts
+		9 connections dropped by rexmit timeout
+	47658 fast retransmits
+		451 when congestion window less than 4 segments
+	324028 newreno retransmits
+	184141 times avoided false fast retransmits
+	7 persist timeouts
+	326994 keepalive timeouts
+		3 connections dropped by keepalive
+	43 connections in timewait reused
+	8543 Connections dropped due to bad ACKs
+udp:
+	23222564 datagrams received
+	146130 dropped due to no socket
+	3220522 broadcast/multicast datagrams dropped due to no socket
+	19855912 delivered
+	15013238 datagrams output
+ip:
+	1024564614 total packets received
+	257104 fragments received
+	128552 packets reassembled ok
+	1017092097 packets for this host
+	477 packets for unknown/unsupported protocol
+	215060 packets not forwardable
+	3786095218 packets sent from this host
+	42 packets sent with fabricated ip header
+	36 output datagrams fragmented
+	36 datagrams that can't be fragmented
+	4434324 packets dropped due to the full socket receive buffer
+
+ipv6:
+	7128428 total packets received
+	Input histogram:
+		TCP: 6837486
+		UDP: 146475
+		ICMP v6: 144467
+	7128428 packets for this host
+	7128428 packets sent from this host
+	46242 output packets discarded due to no route
+icmpv6:
+	145425 calls to icmp6_error
+	Output histogram:
+		unreachable: 144467
+	Input histogram:
+		unreachable: 144467
+==== EXITED with rc 0 ====
+==== END netstat -ss Tue Jul  7 00:57:27 GST 2015 ====

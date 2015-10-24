@@ -1,0 +1,331 @@
+==== This output can be found in Systems/dx978/perf/netstat-tn.txt ====
+==== START netstat -tn Mon Jul  6 23:29:51 GST 2015 ====
+Active Internet connections
+Proto Recv-Q Send-Q  Local Address          Foreign Address        (state)
+tcp4       0      0  127.0.0.1.33014        127.0.0.1.33018        ESTABLISHED
+tcp4       0      0  127.0.0.1.33018        127.0.0.1.33014        ESTABLISHED
+tcp6       0      0  ::1.32928                                     ::1.42560                                     ESTABLISHED
+tcp6       0      0  ::1.42560                                     ::1.32928                                     ESTABLISHED
+tcp4       0      0  127.0.0.1.58189        127.0.0.1.9514         TIME_WAIT
+tcp        0      0  10.51.229.221.36084    10.51.229.220.42112    ESTABLISHED
+tcp6       0      0  ::1.32860                                     ::1.43520                                     ESTABLISHED
+tcp6       0      0  ::1.43520                                     ::1.32860                                     ESTABLISHED
+tcp6       0      0  ::1.32874                                     ::1.43522                                     ESTABLISHED
+tcp6       0      0  ::1.43522                                     ::1.32874                                     ESTABLISHED
+tcp6       0      0  ::1.32890                                     ::1.44838                                     ESTABLISHED
+tcp6       0      0  ::1.44838                                     ::1.32890                                     ESTABLISHED
+tcp4       0      0  10.51.226.225.57659    10.51.226.226.22       ESTABLISHED
+tcp4       0      0  10.51.226.225.22       10.32.22.159.59653     ESTABLISHED
+tcp6       0      0  ::1.32860                                     *.*                    LISTEN
+tcp6       0      0  ::1.32874                                     *.*                    LISTEN
+tcp6       0      0  ::1.32890                                     *.*                    LISTEN
+tcp6       0      0  ::1.32913                                     *.*                    LISTEN
+tcp6       0      0  ::1.32919                                     *.*                    LISTEN
+tcp6       0      0  ::1.32928                                     *.*                    LISTEN
+tcp4       0      0  10.51.226.225.22       10.51.226.228.61278    ESTABLISHED
+tcp4       0      0  127.0.0.1.33014        *.*                    LISTEN
+tcp        0      0  10.51.226.225.1023     10.51.226.228.16191    ESTABLISHED
+tcp4       0      0  127.0.0.1.9514         *.*                    LISTEN
+tcp4       0      0  127.0.0.1.9515         *.*                    LISTEN
+tcp        0      0  10.51.226.225.49847    10.51.226.224.42112    ESTABLISHED
+tcp        0      0  10.51.227.230.49846    10.51.227.229.42112    ESTABLISHED
+tcp4       0      0  127.0.0.1.199          127.0.0.1.33016        ESTABLISHED
+tcp4       0      0  127.0.0.1.33016        127.0.0.1.199          ESTABLISHED
+tcp6       0      0  ::1.32994                                     ::1.32995                                     CLOSE_WAIT
+tcp4       0      0  127.0.0.1.32773        127.0.0.1.32774        ESTABLISHED
+tcp        0      0  127.0.0.1.32774        127.0.0.1.32773        ESTABLISHED
+tcp4       0      0  127.0.0.1.32773        127.0.0.1.32775        ESTABLISHED
+tcp        0      0  127.0.0.1.32775        127.0.0.1.32773        ESTABLISHED
+tcp4       0      0  127.0.0.1.32773        127.0.0.1.32779        ESTABLISHED
+tcp        0      0  127.0.0.1.32779        127.0.0.1.32773        ESTABLISHED
+tcp4       0      0  127.0.0.1.32773        127.0.0.1.32780        ESTABLISHED
+tcp        0      0  127.0.0.1.32780        127.0.0.1.32773        ESTABLISHED
+udp        0      0  10.51.227.230.2279     *.*                   
+udp        0      0  10.51.226.225.2279     *.*                   
+udp        0      0  10.51.229.221.2279     *.*                   
+udp        0      0  10.51.226.225.33448    *.*                   
+udp        0      0  10.51.227.230.33448    *.*                   
+udp        0      0  10.51.229.221.33448    *.*                   
+
+Active UNIX domain sockets
+SADR/PCB         Type   Recv-Q Send-Q      Inode            Conn             Refs           Nextref      Addr
+f1000e000fc4c408 dgram       0      0 f1000a04d0698020                0 f1000e000fe61b00                0 /dev/log
+f1000e000fe7a900
+f1000e0000523408 dgram       0      0                0 f1000e000fe7a900                0 f1000e000f41c800
+f1000e0000521a00
+f1000e0000523808 stream      0      0 f1000a04d06c9020                0                0                0 /tmp/dpi_socket
+f1000e0000521a80
+f1000e000fc19c08 dgram       0      0 f1000a04d054f420                0                0                0 /dev/.SRC-unix/SRC0002163280uYiqio
+f1000e000fe62980
+f1000e000fb73c08 dgram       0      0 f1000a04d4ec0c20                0                0                0 /dev/.SRC-unix/SRC00021632809Aiqix
+f1000e000fe7d700
+f1000e000fc29408 stream      0      0                0                0                0                0
+f1000e000fe61080
+f1000e000fc2b408 dgram       0      0 f1000a04d04bf420                0                0                0 /dev/.SRC-unix/SRC0002163280uIiqin
+f1000e000fe62b00
+f1000e0002d29008 dgram       0      0 f1000a04d2e61020                0                0                0 /dev/.SRC-unix/SRC0002163280piiqiw
+f1000e0002d22680
+f1000e000fc4c008 dgram       0      0 f1000a04d0668020                0                0                0 /dev/.SRC-unix/SRC00021632805Yiqid
+f1000e000fe7ab00
+f1000e000fc28808 stream      0      0 f1000a04d04dc820                0                0                0 /etc/cluster/clcomd_sec
+f1000e000fe60480
+f1000e000fc3e008 dgram       0      0                0 f1000e000fe7a900                0 f1000e0000521a00
+f1000e000fe60700
+f1000e000e253408 dgram       0      0 f1000a04d039c820                0                0                0 /dev/.SRC-unix/SRC0002163280wqiqil
+f1000e000fe60780
+f1000e000fc19008 dgram       0      0                0 f1000e000fe7a900                0                0
+f1000e000fe7b780
+f1000e000fc29808 dgram       0      0 f1000a04d01c8420                0                0                0 /dev/.SRC-unix/SRC000216328063iqig
+f1000e000fe7ba00
+f1000e000fc3cc08 dgram       0      0 f1000a04d0728020                0                0                0 /dev/.SRC-unix/SRC00021632806qiqif
+f1000e000fe7a680
+f1000e000e7ea008 dgram       0      0 f1000a04d0628020                0                0                0 /dev/.SRC-unix/SRC00021632805Uiqic
+f1000e000fe78100
+f1000e000fbfe008 stream      0      0 f1000a04d38bec20 f1000e000fe7b700                0                0 /var/ct/2DulyUs68HvBlEIcJKa405/soc/cthags/cthags.clients/u6422628
+f1000e0000006b80
+f1000e00105a4008 stream      0      0                0 f1000e0010819800                0                0 /var/ct/IW/soc/mc/RMIBM.HostRM.0
+f1000e0010817b00
+f1000e000fdb6408 dgram       0      0 f1000a04d04f8020                0                0                0 /dev/.SRC-unix/SRC00021632804Uiqia
+f1000e000fe77400
+f1000e0000007408 dgram       0      0 f1000a04d05d8020                0                0                0 /dev/.SRC-unix/SRC00021632805Iiqib
+f1000e000fe78e80
+f1000e0000f29c08 stream      0      0 f1000a04d3013020 f1000e0000f2fb00                0                0 /var/ct/2DulyUs68HvBlEIcJKa405/soc/cthags/cthags.clients/u10354938
+f1000e0000f26800
+f1000e0010597008 stream      0      0                0 f1000e0010815880                0                0 /var/ct/IW/soc/mc/RMIBM.DRM.0
+f1000e0010815800
+f1000e000e9ee008 stream      0      0                0                0                0                0
+f1000e000fe61700
+f1000e0000a26808 stream      0      0 f1000a04d1071020                0                0                0 /var/ct/IW/soc/mc/RMIBM.DRM.0
+f1000e0000a22800
+f1000e000fc4ec08 stream      0      0 f1000a04d0e31c20 f1000e000fe62280                0                0 /var/ct/2DulyUs68HvBlEIcJKa405/soc/cthags/cthags.clients/u3932834
+f1000e000fe62300
+f1000e000fc2a408 stream      0      0 f1000a04d0ad0c20                0                0                0 /var/ct/IW/soc/mc/RMIBM.ConfigRM.0
+f1000e000fe62780
+f1000e0002338408 stream      0      0                0 f1000e0002322680                0                0 /var/ct/IW/soc/mc/RMIBM.ConfigRM.0
+f1000e0002322600
+f1000e0000a37408 stream      0      0                0 f1000e0000a5b380                0                0
+f1000e0000a52500
+f1000e000fc28c08 stream      0      0 f1000a04d0c73820                0                0                0 /usr/es/sbin/cluster/ha_vt_ipc
+f1000e000fe77280
+f1000e000fc19808 stream      0      0 f1000a04d0bf3820                0                0                0 /usr/es/sbin/cluster/ha_ipc
+f1000e000fe77300
+f1000e000fb50008 stream      0      0 f1000a04d37ed820 f1000e000fe61200                0                0 /var/ct/2DulyUs68HvBlEIcJKa405/soc/cthags/cthags.clients/u11862252
+f1000e000fe7c380
+f1000e0000a3a408 dgram       0      0 f1000a04d2ff3020                0                0                0 /dev/ch.sock.00f9ada100004c000000014c04acf767
+f1000e0000a52200
+f1000e000fc0b008 dgram       0      0 f1000103807fbc20                0                0                0 /dev/ch.sock.00f9ada100004c000000014c08687384
+f1000e000fe7bf80
+f1000e000fc1e008 dgram       0      0 f1000a04d37dd820                0                0                0 /dev/ch.sock.00f9ada100004c000000014c02bc1f84
+f1000e000fe79280
+f1000e000fc20408 dgram       0      0                0 f1000e000fe7a900                0 f1000e0011640880
+f1000e000fe7f900
+f1000e000fc22c08 stream      0      0                0                0                0                0
+f1000e000fe7de00
+f1000e000420f008 dgram       0      0 f1000a051a8f3420                0                0                0 /dev/ch.sock.00f92eec00004c000000014df59358bf
+f1000e0000553900
+f1000e0000568408 dgram       0      0 f1000a04d244e420                0                0                0 /dev/.SRC-unix/SRC0002163280iqiqiv
+f1000e000057a200
+f1000e0000f28808 dgram       0      0 f1000a04d27ae420                0                0                0 /dev/socket.gsclvmd
+f1000e0000f26600
+f1000e0000a4c808 stream      0      0                0 f1000e0000a52500                0                0 /usr/es/sbin/cluster/hacmprd.stat
+f1000e0000a5b380
+f1000e000fc51408 stream      0      0 f1000a04d3e72820 f1000e000fe62100                0                0 /var/ct/2DulyUs68HvBlEIcJKa405/soc/cthags/cthags.clients/u10879056
+f1000e000e23c380
+f1000e000fbed408 stream      0      0                0                0                0                0
+f1000e000fe77880
+f1000e000fb95408 stream      0      0                0                0                0                0
+f1000e000fe62680
+f1000e000fbb6c08 dgram       0      0 f1000a04d3de2820                0                0                0 /dev/ch.sock.00f9ada100004c000000014bf94fea9b
+f1000e000fe7d880
+f1000e000fc3c408 stream      0      0 f1000a04d3dc5c20 f1000e0011692a80                0                0 /var/ct/2DulyUs68HvBlEIcJKa405/soc/cthags/cthags.clients/u10093230
+f1000e000fe7c900
+f1000e000fb42808 dgram       0      0                0 f1000e000fe7a900                0 f1000e0002464880
+f1000e000fe61580
+f1000e0000534408 stream      0      0 f1000a051a903420 f1000e0000521b00                0                0 /var/ct/2DulyUs68HvBlEIcJKa405/soc/cthags/cthags.clients/u16187500
+f1000e0000521980
+f1000e000fc50c08 stream      0      0                0                0                0                0
+f1000e000fe78700
+f1000e000fb50808 stream      0      0                0                0                0                0
+f1000e000fe7d180
+f1000e000fb97808 stream      0      0                0                0                0                0
+f1000e000fe77f00
+f1000e000fc4c808 stream      0      0                0                0                0                0
+f1000e000fe7ef80
+f1000e000fc52008 stream      0      0                0                0                0                0
+f1000e000fe7be00
+f1000e000fbef408 stream      0      0                0                0                0                0
+f1000e000fe7fd80
+f1000e000fbc7808 dgram       0      0                0 f1000e000fe7a900                0 f1000e000fe61580
+f1000e000fe61b00
+f1000e0010802808 dgram       0      0 f1000a04d0d03820                0                0                0 /usr/es/sbin/cluster/hacmprd.extev
+f1000e0010817f80
+f1000e000f697c08 dgram       0      0 f1000a04d0548c20                0                0                0 /dev/.SRC-unix/SRC0002163280TAiqij
+f1000e000f427b00
+f1000e0010562408 stream      0      0                0 f1000e0010817880                0                0
+f1000e0010817580
+f1000e0010562008 stream      0      0                0 f1000e0010817580                0                0 /var/ct/IW/soc/mc/RMIBM.StorageRM.0
+f1000e0010817880
+f1000e000f696008 stream      0      0                0 f1000e0010815800                0                0
+f1000e0010815880
+f1000e000f691008 dgram       0      0 f1000a04d01a9020                0                0                0 /dev/.SRC-unix/SRC0002163280Viiqik
+f1000e000f427e00
+f1000e000f696c08 dgram       0      0                0 f1000e000fe7a900                0 f1000e000fe7b780
+f1000e000f41c800
+f1000e000f667408 dgram       0      0 f1000a04d026a820                0                0                0 /var/opt/OV/tmp/ovcd.sock
+f1000e000f427d00
+f1000e00105e5008 stream      0      0 f1000a04d0be6020                0                0                0 /var/ct/IW/soc/mc/RMIBM.StorageRM.0
+f1000e0010817700
+f1000e0010594408 dgram       0      0 f1000a04d0cc3820                0                0                0 /usr/es/sbin/cluster/rd_dswap_fd
+f1000e0010817d00
+f1000e0010597808 stream      0      0                0 f1000e0010815d80                0                0
+f1000e0010814180
+f1000e0010552808 stream      0      0                0 f1000e0010817b00                0                0
+f1000e0010819800
+f1000e000eb3a008 dgram       0      0 f1000a04d0358020                0                0                0 /dev/SRC
+f1000e000f41c780
+f1000e0010804c08 dgram       0      0 f1000a04d040d420                0                0                0 /dev/.SRC-unix/SRC00021632800Yiqim
+f1000e0010814b00
+f1000e000f690808 dgram       0      0 f1000a04d0238c20                0                0                0 /dev/.SRC-unix/SRC0002163280Sqiqih
+f1000e001081a080
+f1000e000f422008 dgram       0      0 f1000a04d02e8c20                0                0                0 /dev/.SRC-unix/SRC0002163280S3iqii
+f1000e000f664680
+f1000e0002467408 dgram       0      0                0 f1000e000fe7a900                0 f1000e000fe7f900
+f1000e0002464880
+f1000e000eb3a408 stream      0      0                0 f1000e0010812a80                0                0 /var/ct/2DulyUs68HvBlEIcJKa405/soc/cthags/cthagsdsocket
+f1000e0010814780
+f1000e000f434c08 stream      0      0 f1000a04d5010c20                0                0                0 /var/ct/IW/soc/mc/RMIBM.HostRM.0
+f1000e0010815680
+f1000e000233fc08 stream      0      0 f1000a04d045b420                0                0                0 /opt/freeware/cimom/pegasus/etc/cimxml.socket
+f1000e0002322880
+f1000e0002330008 stream      0      0                0 f1000e0002322a00                0                0 /var/ct/2DulyUs68HvBlEIcJKa405/soc/cthags/cthagsdsocket
+f1000e0002322980
+f1000e0010805c08 stream      0      0                0 f1000e0010814180                0                0 /var/ct/IW/soc/mc/RMIBM.ServiceRM.0
+f1000e0010815d80
+f1000e000f424008 stream      0      0 f1000a04d0f20420                0                0                0 /var/ct/2DulyUs68HvBlEIcJKa405/soc/cthags/cthagsdsocket
+f1000e0010814300
+f1000e000232bc08 stream      0      0 f1000a04d0c10820 f1000e0002322980                0                0 /var/ct/2DulyUs68HvBlEIcJKa405/soc/cthags/cthags.clients/u3735982
+f1000e0002322a00
+f1000e0002338808 stream      0      0 f1000a04d0cf0820                0                0                0 /var/ct/IW/soc/mc/clsrv
+f1000e0002322500
+f1000e0002323008 stream      0      0 f1000a04d0d30820                0                0                0 /var/ct/IW/soc/mc/rmsrv
+f1000e0002322800
+f1000e000f696808 dgram       0      0 f1000a04d1060820                0                0                0 /dev/.SRC-unix/SRC00021632803Miqip
+f1000e0010814500
+f1000e0002334008 stream      0      0                0 f1000e0002322600                0                0
+f1000e0002322680
+f1000e0010560c08 dgram       0      0 f1000a04d0ca3820                0                0                0 /usr/es/sbin/cluster/vtapi_event.stat
+f1000e0010817d80
+f1000e000fc3d808 stream      0      0                0 f1000e000fe62300                0                0 /var/ct/2DulyUs68HvBlEIcJKa405/soc/cthags/cthagsdsocket
+f1000e000fe62280
+f1000e000f68a808 dgram       0      0 f1000a04d0d23820                0                0                0 /usr/es/sbin/cluster/hats_to_cm
+f1000e0010817b80
+f1000e0002332808 stream      0      0 f1000a04d0e42c20 f1000e0002322380                0                0 /var/ct/2DulyUs68HvBlEIcJKa405/soc/cthags/cthags.clients/u4522716
+f1000e0002322c80
+f1000e0002325808 stream      0      0                0 f1000e0002322c80                0                0 /var/ct/2DulyUs68HvBlEIcJKa405/soc/cthags/cthagsdsocket
+f1000e0002322380
+f1000e000232e008 stream      0      0                0 f1000e0002322f00                0                0
+f1000e0002322d80
+f1000e0002332408 stream      0      0                0 f1000e0002322d80                0                0 /var/ct/IW/soc/mc/clsrv
+f1000e0002322f00
+f1000e000f41d408 dgram       0      0 f1000a04d0b83420                0                0                0 /dev/.SRC-unix/SRC0002163280MUiqiu
+f1000e0010816780
+f1000e00105e5c08 dgram       0      0 f1000a04d0ce3820                0                0                0 /usr/es/sbin/cluster/clresmgrd.stat
+f1000e0010817c80
+f1000e0003364408 stream      0      0                0 f1000e0003363100                0                0 /var/ct/IW/soc/mc/clsrv
+f1000e0003363080
+f1000e00116f1408 stream      0      0                0 f1000e000fe7c900                0                0 /var/ct/2DulyUs68HvBlEIcJKa405/soc/cthags/cthagsdsocket
+f1000e0011692a80
+f1000e000f693c08 dgram       0      0 f1000a04d38ee420                0                0                0 /dev/ch.sock.00f9ada100004c000000014c08662d11
+f1000e0010815100
+f1000e000fc1dc08 stream      0      0                0 f1000e000e23c380                0                0 /var/ct/2DulyUs68HvBlEIcJKa405/soc/cthags/cthagsdsocket
+f1000e000fe62100
+f1000e000323a808 stream      0      0 f1000a04d287c020                0                0                0 /usr/es/sbin/cluster/HacmpClstrmgrSrvr
+f1000e0003222800
+f1000e000322a008 stream      0      0 f1000a04d3dc4c20 f1000e0003222300                0                0 /var/ct/2DulyUs68HvBlEIcJKa405/soc/cthags/cthags.clients/u5636592
+f1000e000323bc80
+f1000e0003225c08 dgram       0      0 f1000a04d3db4c20                0                0                0 /dev/ch.sock.00f9ada100004c000000014c04a3e9e1
+f1000e000323b400
+f1000e0003225808 stream      0      0                0 f1000e000323bc80                0                0 /var/ct/2DulyUs68HvBlEIcJKa405/soc/cthags/cthagsdsocket
+f1000e0003222300
+f1000e0003237c08 stream      0      0                0 f1000e0003222080                0                0 /var/ct/2DulyUs68HvBlEIcJKa405/soc/cthags/cthagsdsocket
+f1000e000323ba00
+f1000e0002335008 stream      0      0 f1000a04d2c64420 f1000e000234d100                0                0 /var/ct/2DulyUs68HvBlEIcJKa405/soc/cthags/cthags.clients/u4063566
+f1000e000234d300
+f1000e000232a008 stream      0      0                0 f1000e000234d300                0                0 /var/ct/2DulyUs68HvBlEIcJKa405/soc/cthags/cthagsdsocket
+f1000e000234d100
+f1000e000f697808 dgram       0      0 f1000a04d40d1c20                0                0                0 /dev/ch.sock.00f9ada100004c000000014c04ac62c9
+f1000e001081ae00
+f1000e00105c4008 stream      0      0 f1000a04d38fe420 f1000e0010814780                0                0 /var/ct/2DulyUs68HvBlEIcJKa405/soc/cthags/cthags.clients/u4391420
+f1000e0010812a80
+f1000e0003226c08 stream      0      0 f1000a04d3a2bc20 f1000e000323ba00                0                0 /var/ct/2DulyUs68HvBlEIcJKa405/soc/cthags/cthags.clients/u3867082
+f1000e0003222080
+f1000e0003364c08 stream      0      0                0 f1000e0003363080                0                0
+f1000e0003363100
+f1000e001051ec08 stream      0      0 f1000a04d3f33c20 f1000e0010814d80                0                0 /var/ct/2DulyUs68HvBlEIcJKa405/soc/cthags/cthags.clients/u8913230
+f1000e0010812d80
+f1000e000fb97008 stream      0      0                0 f1000e0000006b80                0                0 /var/ct/2DulyUs68HvBlEIcJKa405/soc/cthags/cthagsdsocket
+f1000e000fe7b700
+f1000e000fc51808 stream      0      0                0 f1000e000fe7c380                0                0 /var/ct/2DulyUs68HvBlEIcJKa405/soc/cthags/cthagsdsocket
+f1000e000fe61200
+f1000e0003238008 dgram       0      0 f1000a04d39dbc20                0                0                0 /dev/ch.sock.00f9ada100004c000000014c04aae1c0
+f1000e0003222400
+f1000e00105c7c08 stream      0      0                0 f1000e0010817e00                0                0 /var/ct/2DulyUs68HvBlEIcJKa405/soc/cthags/cthagsdsocket
+f1000e001081ad00
+f1000e001052d408 stream      0      0 f1000a04d40f1c20 f1000e001081ad00                0                0 /var/ct/2DulyUs68HvBlEIcJKa405/soc/cthags/cthags.clients/u3670486
+f1000e0010817e00
+f1000e0000f2e008 stream      0      0                0 f1000e0000f26800                0                0 /var/ct/2DulyUs68HvBlEIcJKa405/soc/cthags/cthagsdsocket
+f1000e0000f2fb00
+f1000e000f691808 stream      0      0                0 f1000e0010812d80                0                0 /var/ct/2DulyUs68HvBlEIcJKa405/soc/cthags/cthagsdsocket
+f1000e0010814d80
+f1000e000374c808 stream      0      0                0 f1000e000372e680                0                0 /var/ct/2DulyUs68HvBlEIcJKa405/soc/cthags/cthagsdsocket
+f1000e000373f600
+f1000e001168c408 stream      0      0                0 f1000e0011d53500                0                0 /var/ct/2DulyUs68HvBlEIcJKa405/soc/cthags/cthagsdsocket
+f1000e0011d54b00
+f1000e00104e6c08 stream      0      0                0                0                0                0
+f1000e000f664900
+f1000e0000556808 stream      0      0                0 f1000e0000521980                0                0 /var/ct/2DulyUs68HvBlEIcJKa405/soc/cthags/cthagsdsocket
+f1000e0000521b00
+f1000e0010552008 stream      0      0                0                0                0                0
+f1000e001081aa00
+f1000e0011685008 dgram       0      0 f1000a04d3f23c20                0                0                0 /dev/ch.sock.00f9ada100004c000000014c08610fd5
+f1000e0011d53280
+f1000e0001923c08 stream      0      0                0                0                0                0
+f1000e0011640700
+f1000e001165a408 stream      0      0 f1000a04d0d50c20                0                0                0 /var/ct/IW/soc/mc/RMIBM.ServiceRM.0
+f1000e0011640600
+f1000e0011658c08 dgram       0      0 f1000a04d0ef1020                0                0                0 /dev/.SRC-unix/SRC000216328003iqir
+f1000e0011640b80
+f1000e0002827008 stream      0      0                0                0                0                0
+f1000e0002826e00
+f1000e0011674008 dgram       0      0                0 f1000e000fe7a900                0 f1000e000fe60700
+f1000e0011640880
+f1000e001166d808 dgram       0      0 f1000a04d0f62820                0                0                0 /dev/.SRC-unix/SRC0002163280Gyiqit
+f1000e0011640280
+f1000e00028b5008 stream      0      0                0                0                0                0
+f1000e0002831480
+f1000e0011685808 stream      0      0                0                0                0                0
+f1000e0011683d80
+f1000e0003732c08 dgram       0      0 f1000a04d32b6820                0                0                0 /dev/ch.sock.00f9ada100004c000000014c087b6d73
+f1000e000372e280
+f1000e0011654808 stream      0      0 f1000a04d307d420 f1000e0011d54b00                0                0 /var/ct/2DulyUs68HvBlEIcJKa405/soc/cthags/cthags.clients/u5767892
+f1000e0011d53500
+f1000e0011671c08 stream      0      0                0                0                0                0
+f1000e0011d55e00
+f1000e001168a408 dgram       0      0 f1000a04d3da5c20                0                0                0 /dev/ch.sock.00f9ada100004c000000014c08764ba3
+f1000e0011684000
+f1000e000373d808 stream      0      0 f1000a04d3306820 f1000e000373f600                0                0 /var/ct/2DulyUs68HvBlEIcJKa405/soc/cthags/cthags.clients/u11076272
+f1000e000372e680
+f1000e0011d5e408 stream      0      0                0                0                0                0
+f1000e0011692780
+f1000e0011688008 dgram       0      0 f1000a04d305d420                0                0                0 /dev/ch.sock.00f9ada100004c000000014c04a9cf61
+f1000e0011d53480
+f1000e0002838808 stream      0      0                0                0                0                0
+f1000e000287db80
+f1000e0011653c08 stream      0      0                0                0                0                0
+f1000e0011d5bd80
+f1000e001168e408 stream      0      0                0                0                0                0
+f1000e0011d5b880
+f1000e00116bf008 stream      0      0                0                0                0                0
+f1000e0011d54500
+==== EXITED with rc 0 ====
+==== END netstat -tn Mon Jul  6 23:29:51 GST 2015 ====

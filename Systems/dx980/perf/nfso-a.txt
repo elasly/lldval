@@ -1,0 +1,18 @@
+==== This output can be found in Systems/dx980/perf/nfso-a.txt ====
+==== START nfso -a Mon Jul  6 23:16:03 GST 2015 ====
+           client_delegation = 1
+           nfs_max_read_size = 65536
+          nfs_max_write_size = 65536
+                 nfs_rfc1323 = 1
+   nfs_securenfs_authtimeout = 0
+    nfs_server_base_priority = 0
+           nfs_server_clread = 1
+      nfs_use_reserved_ports = 0
+   nfs_v3_server_readdirplus = 1
+    nfs_v4_fail_over_timeout = 0
+                   portcheck = 0
+           server_delegation = 1
+             utf8_validation = 1
+      nfs_server_close_delay = 0
+==== EXITED with rc 0 ====
+==== END nfso -a Mon Jul  6 23:16:03 GST 2015 ====

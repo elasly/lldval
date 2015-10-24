@@ -1,0 +1,6474 @@
+==== This output can be found in Systems/dx975/perf/lsvpd-mv.txt ====
+==== START lsvpd -mv  Tue Jul  7 12:47:14 CDT 2015 ====
+	Getting CuDv list
+	Found 535 CuDv objects
+*VC 5.0
+*TM IBM,9179-MHD
+*SE IBM,0221ADA1V
+*PI 00F9ADA1
+	print_cuod_vpd:len=301
+	value=V1  3   78  78  BASE    917921-ADA1V  521C01-24CP00443570117235E37A354A8003400417D006466  66  ONOFFPRC0079510000004096000000000000000000000012 0000 000082  82  DEBITPRC00                                                00000000000000000   66  TRIALPRC0 5555000000409A        00000000              0000
+	process_enh_cuod : nbr optional sections = 3
+		offset = 78 section_len = 78 data_len = 63
+		output_ptr (62) 917921-ADA1V  521C01-24CP00443570117235E37A354A8003400417D0064
+		offset = 66 section_len = 66 data_len = 51
+		output_ptr (50) 0079510000004096000000000000000000000012 0000 0000
+		offset = 82 section_len = 82 data_len = 67
+		output_ptr (66) 00                                                0000000000000000
+		offset = 0 section_len = 66 data_len = 51
+		output_ptr (50) 0 5555000000409A        00000000              0000
+		total_len = 228
+*N5 917921-ADA1V  521C01-24CP00443570117235E37A354A8003400417D00640079510000004096000000000000000000000012 0000 000000                                                00000000000000000 5555000000409A        00000000              0000
+	print_cuod_vpd:tok (38) not supported, try legacy tok
+	print_cuod_vpd:len=57
+	value=917921-ADA1V521C01-24CP00443570117235E37A38212138400419C
+*N6 917921-ADA1V521C01-24CP00443570117235E37A38212138400419C
+*OS AIX 6.1.0.0
+	Getting tokens for ODM devices
+	sysplanar0 has token of 4
+	mem0 has token of 0
+	L2cache0 has token of 0
+	proc0 has token of 229216
+	proc4 has token of 231208
+	proc8 has token of 233088
+	proc12 has token of 234968
+	proc16 has token of 236848
+	proc20 has token of 238728
+	pci0 has token of 214104
+	pci1 has token of 215412
+	pci2 has token of 217040
+	pci3 has token of 218668
+	pci4 has token of 220296
+	pci5 has token of 221608
+	pci6 has token of 222920
+	pci7 has token of 224548
+	vio0 has token of 168944
+	sissas0 has token of 275856
+	ent0 has token of 276884
+	ent1 has token of 278288
+	ent2 has token of 279632
+	ent3 has token of 280976
+	fcs0 has token of 282320
+	fcs1 has token of 283520
+	pci8 has token of 284720
+	pci9 has token of 313188
+	pci10 has token of 318488
+	fcs2 has token of 363404
+	fcs3 has token of 364656
+	pci11 has token of 323868
+	fcs4 has token of 365912
+	fcs5 has token of 367164
+	pci12 has token of 290204
+	pci13 has token of 329248
+	pci14 has token of 334548
+	fcs6 has token of 368420
+	fcs7 has token of 369672
+	pci15 has token of 339928
+	fcs8 has token of 370928
+	fcs9 has token of 372180
+	sissas1 has token of 295688
+	sissas2 has token of 296872
+	ent4 has token of 298056
+	ent5 has token of 299460
+	ent6 has token of 300804
+	ent7 has token of 302148
+	fcs10 has token of 303492
+	fcs11 has token of 304692
+	pci16 has token of 305892
+	pci17 has token of 346868
+	pci18 has token of 352168
+	fcs12 has token of 374440
+	fcs13 has token of 375692
+	pci19 has token of 357548
+	fcs14 has token of 376948
+	fcs15 has token of 378200
+	vsa0 has token of 242360
+	sas0 has token of 311932
+	sata0 has token of 312080
+	sas1 has token of 345308
+	sata1 has token of 345456
+	sas2 has token of 345612
+	sata2 has token of 345760
+	ses0 has token of 362928
+	cd0 has token of 363248
+	ses1 has token of 373436
+	ses2 has token of 373436
+	pdisk0 has token of 373436
+	hdisk0 has token of 373436
+	ses3 has token of 373964
+	ses4 has token of 373964
+	pdisk1 has token of 373964
+	hdisk1 has token of 373964
+	fscsi0 has token of 282320
+	fscsi1 has token of 283520
+	fcnet0 has token of 379596
+	fscsi2 has token of 363404
+	fcnet1 has token of 380068
+	fscsi3 has token of 364656
+	fcnet2 has token of 380540
+	fscsi4 has token of 365912
+	fcnet3 has token of 381012
+	fscsi5 has token of 367164
+	fcnet4 has token of 381484
+	fscsi6 has token of 368420
+	fcnet5 has token of 381956
+	fscsi7 has token of 369672
+	fcnet6 has token of 382428
+	fscsi8 has token of 370928
+	fcnet7 has token of 382900
+	fscsi9 has token of 372180
+	fscsi10 has token of 303492
+	fscsi11 has token of 304692
+	fcnet8 has token of 383372
+	fscsi12 has token of 374440
+	fcnet9 has token of 383844
+	fscsi13 has token of 375692
+	fcnet10 has token of 384316
+	fscsi14 has token of 376948
+	fcnet11 has token of 384788
+	fscsi15 has token of 378200
+	vty0 has token of 0
+	lvdd has token of 0
+	rootvg has token of 0
+	hd5 has token of 0
+	hd6 has token of 0
+	paging00 has token of 0
+	hd8 has token of 0
+	hd4 has token of 0
+	hd2 has token of 0
+	hd9var has token of 0
+	hd3 has token of 0
+	hd1 has token of 0
+	hd10opt has token of 0
+	hd11admin has token of 0
+	livedump has token of 0
+	lg_dumplv has token of 0
+	sfw0 has token of 0
+	sfwcomm0 has token of 312376
+	sfwcomm1 has token of 312852
+	sfwcomm2 has token of 379596
+	sfwcomm3 has token of 380068
+	sfwcomm4 has token of 380540
+	sfwcomm5 has token of 381012
+	sfwcomm6 has token of 381484
+	sfwcomm7 has token of 381956
+	sfwcomm8 has token of 382428
+	sfwcomm9 has token of 382900
+	sfwcomm10 has token of 346056
+	sfwcomm11 has token of 346532
+	sfwcomm12 has token of 383372
+	sfwcomm13 has token of 383844
+	sfwcomm14 has token of 384316
+	sfwcomm15 has token of 384788
+	sfwcomm16 has token of 362928
+	sfwcomm17 has token of 373436
+	sfwcomm18 has token of 373964
+	pkcs11 has token of 0
+	inet0 has token of 0
+	en0 has token of 0
+	en1 has token of 0
+	en2 has token of 0
+	en3 has token of 0
+	en4 has token of 0
+	en5 has token of 0
+	en6 has token of 0
+	en7 has token of 0
+	et0 has token of 0
+	et1 has token of 0
+	et2 has token of 0
+	et3 has token of 0
+	et4 has token of 0
+	et5 has token of 0
+	et6 has token of 0
+	et7 has token of 0
+	lo0 has token of 0
+	pty0 has token of 0
+	iscsi0 has token of 0
+	rcm0 has token of 0
+	vios0 has token of 0
+	vioslpm0 has token of 0
+	vlogrepo0 has token of 0
+	suspended0 has token of 0
+	vioscm0 has token of 0
+	viosrules0 has token of 0
+	iocp0 has token of 0
+	cluster0 has token of 0
+	mover0 has token of 0
+	vfchost0 has token of 271960
+	vfchost1 has token of 272384
+	vhost0 has token of 272808
+	vhost1 has token of 273248
+	vhost2 has token of 273688
+	ent8 has token of 242644
+	ent9 has token of 243468
+	ent10 has token of 244292
+	ent11 has token of 245116
+	ent12 has token of 245940
+	ent13 has token of 246736
+	ent14 has token of 247532
+	en8 has token of 0
+	en9 has token of 0
+	en10 has token of 0
+	en11 has token of 0
+	en12 has token of 0
+	en13 has token of 0
+	en14 has token of 0
+	et8 has token of 0
+	et9 has token of 0
+	et10 has token of 0
+	et11 has token of 0
+	et12 has token of 0
+	et13 has token of 0
+	et14 has token of 0
+	ent15 has token of 0
+	en15 has token of 0
+	et15 has token of 0
+	ent16 has token of 0
+	en16 has token of 0
+	et16 has token of 0
+	vhost5 has token of 249132
+	vhost6 has token of 249600
+	vhost7 has token of 250068
+	vhost8 has token of 250536
+	vhost9 has token of 251004
+	vhost10 has token of 251472
+	vhost11 has token of 251940
+	vhost12 has token of 252408
+	vhost13 has token of 252876
+	vhost14 has token of 253344
+	hdisk174 has token of 380540
+	hdisk175 has token of 380540
+	hdisk176 has token of 380540
+	hdisk177 has token of 380540
+	hdisk178 has token of 380540
+	vhost3 has token of 274128
+	vhost4 has token of 274568
+	vfchost2 has token of 275008
+	vfchost3 has token of 275432
+	hdisk179 has token of 380540
+	vhost25 has token of 253812
+	vhost26 has token of 254280
+	vhost27 has token of 254748
+	vhost28 has token of 255216
+	vhost29 has token of 255684
+	vhost30 has token of 256152
+	vhost31 has token of 256620
+	vhost32 has token of 257088
+	vhost33 has token of 257556
+	vhost34 has token of 258024
+	vhost35 has token of 258492
+	vhost36 has token of 258960
+	vhost37 has token of 259428
+	vhost38 has token of 259896
+	vhost39 has token of 260364
+	hdisk180 has token of 380540
+	hdisk181 has token of 380540
+	hdisk182 has token of 380540
+	vtscsi0 has token of 0
+	vfchost4 has token of 260832
+	vfchost5 has token of 261284
+	vfchost6 has token of 261736
+	vfchost7 has token of 262188
+	vfchost8 has token of 262640
+	vfchost9 has token of 263092
+	vfchost10 has token of 263544
+	vfchost11 has token of 263996
+	vtscsi1 has token of 0
+	vtscsi2 has token of 0
+	vtscsi3 has token of 0
+	vtscsi4 has token of 0
+	vtscsi5 has token of 0
+	vtscsi6 has token of 0
+	vtscsi7 has token of 0
+	vtscsi8 has token of 0
+	vfchost20 has token of 264448
+	vfchost21 has token of 264900
+	vfchost22 has token of 265352
+	vfchost23 has token of 265804
+	vfchost24 has token of 266256
+	vfchost25 has token of 266708
+	vfchost26 has token of 267160
+	vfchost27 has token of 267612
+	vfchost28 has token of 268064
+	vfchost29 has token of 268516
+	vfchost30 has token of 268968
+	vfchost31 has token of 269420
+	perfdatalv has token of 0
+	powerpath0 has token of 0
+	hdisk2 has token of 379596
+	hdisk3 has token of 379596
+	hdisk4 has token of 379596
+	hdisk5 has token of 379596
+	hdisk6 has token of 379596
+	hdisk7 has token of 379596
+	hdisk8 has token of 379596
+	hdisk9 has token of 379596
+	hdisk10 has token of 379596
+	hdisk11 has token of 379596
+	hdisk12 has token of 379596
+	hdisk13 has token of 379596
+	hdisk14 has token of 379596
+	hdisk15 has token of 379596
+	hdisk16 has token of 379596
+	hdisk17 has token of 379596
+	hdisk18 has token of 379596
+	hdisk19 has token of 379596
+	hdisk20 has token of 379596
+	hdisk21 has token of 379596
+	hdisk22 has token of 379596
+	hdisk23 has token of 379596
+	hdisk24 has token of 379596
+	hdisk25 has token of 379596
+	hdisk26 has token of 380068
+	hdisk27 has token of 380068
+	hdisk28 has token of 380068
+	hdisk29 has token of 380068
+	hdisk30 has token of 380068
+	hdisk31 has token of 380068
+	hdisk32 has token of 380068
+	hdisk33 has token of 380068
+	hdisk34 has token of 380068
+	hdisk35 has token of 380068
+	hdisk36 has token of 380068
+	hdisk37 has token of 380068
+	hdisk38 has token of 380068
+	hdisk39 has token of 380068
+	hdisk40 has token of 380068
+	hdisk41 has token of 380068
+	hdisk42 has token of 380068
+	hdisk43 has token of 380068
+	hdisk44 has token of 380068
+	hdisk45 has token of 380068
+	hdisk46 has token of 380068
+	hdisk47 has token of 380068
+	hdisk48 has token of 380068
+	hdisk49 has token of 380068
+	hdisk50 has token of 380540
+	hdisk51 has token of 380540
+	hdisk52 has token of 380540
+	hdisk53 has token of 380540
+	hdisk54 has token of 380540
+	hdisk55 has token of 380540
+	hdisk56 has token of 380540
+	hdisk57 has token of 380540
+	hdisk58 has token of 380540
+	hdisk59 has token of 380540
+	hdisk60 has token of 380540
+	hdisk61 has token of 380540
+	hdisk62 has token of 380540
+	hdisk63 has token of 380540
+	hdisk64 has token of 380540
+	hdisk65 has token of 380540
+	hdisk66 has token of 380540
+	hdisk67 has token of 380540
+	hdisk68 has token of 380540
+	hdisk69 has token of 380540
+	hdisk70 has token of 380540
+	hdisk71 has token of 380540
+	hdisk72 has token of 380540
+	hdisk73 has token of 380540
+	hdisk74 has token of 380540
+	hdisk75 has token of 380540
+	hdisk76 has token of 380540
+	hdisk77 has token of 380540
+	hdisk78 has token of 380540
+	hdisk79 has token of 380540
+	hdisk80 has token of 380540
+	hdisk81 has token of 380540
+	hdisk82 has token of 380540
+	hdisk83 has token of 380540
+	hdisk84 has token of 380540
+	hdisk85 has token of 380540
+	hdisk86 has token of 380540
+	hdisk87 has token of 380540
+	hdisk88 has token of 380540
+	hdisk89 has token of 380540
+	hdisk90 has token of 380540
+	hdisk91 has token of 380540
+	hdisk92 has token of 380540
+	hdisk93 has token of 380540
+	hdisk94 has token of 380540
+	hdisk95 has token of 380540
+	hdisk96 has token of 380540
+	hdisk97 has token of 380540
+	hdisk98 has token of 380540
+	hdisk99 has token of 380540
+	hdisk100 has token of 380540
+	hdisk101 has token of 380540
+	hdisk102 has token of 380540
+	hdisk103 has token of 380540
+	hdisk104 has token of 380540
+	hdisk105 has token of 380540
+	hdisk106 has token of 380540
+	hdisk107 has token of 380540
+	hdisk108 has token of 380540
+	hdisk109 has token of 380540
+	hdisk110 has token of 380540
+	hdisk111 has token of 380540
+	hdisk112 has token of 380540
+	hdisk113 has token of 380540
+	hdisk114 has token of 380540
+	hdisk115 has token of 381484
+	hdisk116 has token of 381484
+	hdisk117 has token of 381484
+	hdisk118 has token of 381484
+	hdisk119 has token of 381484
+	hdisk120 has token of 381484
+	hdisk121 has token of 381484
+	hdisk122 has token of 381484
+	hdisk123 has token of 381484
+	hdisk124 has token of 381484
+	hdisk125 has token of 381484
+	hdisk126 has token of 381484
+	hdisk127 has token of 381484
+	hdisk128 has token of 381484
+	hdisk129 has token of 381484
+	hdisk130 has token of 381484
+	hdisk131 has token of 381484
+	hdisk132 has token of 381484
+	hdisk133 has token of 381484
+	hdisk134 has token of 381484
+	hdisk135 has token of 381484
+	hdisk136 has token of 381484
+	hdisk137 has token of 381484
+	hdisk138 has token of 381484
+	hdisk139 has token of 381956
+	hdisk140 has token of 381956
+	hdisk141 has token of 381956
+	hdisk142 has token of 381956
+	hdisk143 has token of 381956
+	hdisk144 has token of 381956
+	hdisk145 has token of 381956
+	hdisk146 has token of 381956
+	hdisk147 has token of 381956
+	hdisk148 has token of 381956
+	hdisk149 has token of 381956
+	hdisk150 has token of 381956
+	hdisk151 has token of 381956
+	hdisk152 has token of 381956
+	hdisk153 has token of 381956
+	hdisk154 has token of 381956
+	hdisk155 has token of 381956
+	hdisk156 has token of 381956
+	hdisk157 has token of 381956
+	hdisk158 has token of 381956
+	hdisk159 has token of 381956
+	hdisk160 has token of 381956
+	hdisk161 has token of 381956
+	hdisk162 has token of 381956
+	hdiskpower0 has token of 381956
+	hdiskpower1 has token of 381956
+	hdiskpower2 has token of 381956
+	vasi0 has token of 269872
+	vbsd0 has token of 0
+	pager0 has token of 0
+	hdiskpower3 has token of 381956
+	hdiskpower4 has token of 381956
+	hdiskpower5 has token of 381956
+	hdiskpower6 has token of 381956
+	hdiskpower7 has token of 381956
+	hdiskpower8 has token of 381956
+	hdiskpower9 has token of 381956
+	hdiskpower10 has token of 381956
+	hdiskpower11 has token of 381956
+	ent17 has token of 248332
+	vtscsi9 has token of 0
+	et17 has token of 0
+	vtscsi10 has token of 0
+	vtscsi11 has token of 0
+	vtscsi12 has token of 0
+	vtscsi13 has token of 0
+	vtscsi14 has token of 0
+	vtscsi15 has token of 0
+	vtscsi16 has token of 0
+	vtscsi17 has token of 0
+	vhost42 has token of 271080
+	vhost43 has token of 271520
+	vtscsi55 has token of 0
+	vtscsi56 has token of 0
+	vtscsi57 has token of 0
+	vtscsi58 has token of 0
+	vtscsi59 has token of 0
+	vtscsi60 has token of 0
+	vtscsi61 has token of 0
+	vtscsi62 has token of 0
+	vtscsi63 has token of 0
+	vtscsi64 has token of 0
+	vtscsi65 has token of 0
+	vtscsi66 has token of 0
+	vtscsi67 has token of 0
+	vtscsi68 has token of 0
+	vtscsi69 has token of 0
+	vtscsi70 has token of 0
+	vtscsi71 has token of 0
+	vtscsi72 has token of 0
+	vtscsi73 has token of 0
+	vtscsi74 has token of 0
+	vtscsi75 has token of 0
+	vtscsi76 has token of 0
+	vtscsi77 has token of 0
+	vtscsi78 has token of 0
+	vtscsi79 has token of 0
+	vtscsi80 has token of 0
+	vtscsi81 has token of 0
+	vtscsi82 has token of 0
+	vtscsi83 has token of 0
+	vtscsi84 has token of 0
+	vtscsi85 has token of 0
+	vtscsi86 has token of 0
+	vtscsi87 has token of 0
+	vtscsi88 has token of 0
+	vtscsi89 has token of 0
+	vtscsi90 has token of 0
+	vtscsi91 has token of 0
+	vtscsi92 has token of 0
+	vtscsi93 has token of 0
+	vtscsi94 has token of 0
+	vtscsi95 has token of 0
+	vtscsi96 has token of 0
+	vtscsi97 has token of 0
+	vtscsi98 has token of 0
+	vtscsi99 has token of 0
+	vtscsi100 has token of 0
+	vtscsi101 has token of 0
+	vtscsi102 has token of 0
+	vtscsi103 has token of 0
+	vtscsi104 has token of 0
+	vtscsi105 has token of 0
+	vtscsi106 has token of 0
+	vtscsi107 has token of 0
+	vtscsi108 has token of 0
+	vtscsi109 has token of 0
+	hdisk163 has token of 379596
+	en17 has token of 0
+	hdisk164 has token of 379596
+	fc6 has token of 0
+	fc9 has token of 0
+	hdiskpower12 has token of 379596
+	hdisk165 has token of 380540
+	hdisk166 has token of 382428
+	hdisk167 has token of 382428
+	hdisk168 has token of 382428
+	hdisk169 has token of 382428
+	hdisk170 has token of 383844
+	hdisk171 has token of 383844
+	hdisk172 has token of 383844
+	hdisk173 has token of 383844
+	hdiskpower13 has token of 383844
+	hdiskpower14 has token of 383844
+	hdiskpower15 has token of 383844
+	vtscsi111 has token of 0
+	ipsec_v4 has token of 0
+	ipsec_v6 has token of 0
+	Looking through device tree
+	Found built_in property for pci0
+	Found built_in property for pci1
+	Found built_in property for pci2
+	Found built_in property for pci3
+	Found built_in property for pci4
+	Found built_in property for pci5
+	Found built_in property for pci6
+	Found built_in property for pci7
+	Found built_in property for sissas0
+*FC ********
+*DS System VPD
+*YL U9179.MHD.21ADA1V
+*RT VSYS
+*FG XXSV
+*BR S0
+*SE 21ADA1V
+*TM 9179-MHD
+*SU 0004AC1B0D46
+*WN C05076084490
+*FV AM780_059
+*VK ipzSeries
+*FC ********
+*DS CEC
+*YL U2C4E.001.DBJ0043
+*RT VCEN
+*FG XXEV
+*BR S0
+*SE DBJ0043
+*TM 78C0-001
+*CI 9179-MHD 21ADA1V
+*RK 0000000000000000
+*FC 78C0-001
+*VK ipzSeries
+*FC ********
+*DS BP EXTENSION    
+*YL U2C4E.001.DBJ0043-P1
+*RT VINI
+*FG XXBP
+*CC 2BBD
+*SN YL11BG4AW03Z
+*CE 1
+*VZ 01
+*FN 74Y2627
+*PN 00E1018
+*PR 2300000000000000
+*HE 0001
+*CT 40F30016
+*HW 0001
+*B3 000000000001
+*B4 00
+*B7 000000000000000000000000
+*VK ipzSeries
+*FC ********
+*DS FSP             
+*YL U2C4E.001.DBJ0043-P1-C1
+*RT VINI
+*FG XXCC
+*CC 2BBB
+*SN YL10BG4AZ01C
+*CE 1
+*VZ 02
+*FN 00E3316
+*PN 00E3317
+*HE 0001
+*CT 30B30005
+*HW 0004
+*B3 000000000001
+*B4 00
+*B7 000000000000000000000000
+*VK ipzSeries
+*FC ********
+*DS I/O BACKPLANE   
+*YL U2C4E.001.DBJ0043-P2
+*RT VINI
+*FG XXCC
+*CC 2B59
+*SN YL10BG4AR01H
+*CE 1
+*VZ 01
+*FN 00E2748
+*PN 00E3436
+*PR 2900000000000000
+*HE 0001
+*CT 40F30025
+*HW 0100
+*B3 000000000001
+*B4 00
+*B7 000000000000000000000000
+*VK ipzSeries
+*FC ********
+*DS ANCHOR          
+*YL U2C4E.001.DBJ0043-P2-C7
+*RT VINI
+*FG XXAV
+*CC 521C
+*SN YL10124CP004
+*CE 1
+*VZ 01
+*FN 00E1757
+*PN 74Y3977
+*PR 8100300000000000
+*HE 0010
+*CT 40B40000
+*HW 0001
+*B3 000000000001
+*B4 00
+*B7 000000000000000000000000
+*B9 435343570117235E37A35350577835846F145F274D313489699F019D52C24D325F81A2EC2842F7BF4D33EEE9377B09CEB59A4D34CEC8C5253D7C4939
+*VK ipzSeries
+*FC ********
+*DS DUAL 1&10GBO ETH
+*YL U2C4E.001.DBJ0043-P2-C8
+*RT VINI
+*FG XXET
+*CC 2C4D
+*SN YL10BG38T00G
+*CE 1
+*VZ 01
+*FN 00E2913
+*PN 00E2914
+*HE 0001
+*CT 30910008
+*HW 0001
+*B3 000000000001
+*B4 00
+*B7 000000000000000000000000
+*VK ipzSeries
+*FC ********
+*DS PSBPD6MR  3GSAS 
+*YL U2C4E.001.DBJ0043-P2-C9
+*RT VINI
+*FG XXPR
+*CC 2BBE
+*SN YL13D4325206
+*FN  00E7753
+*PN 00E6221
+*CE 1
+*VZ 04
+*B2 5005076065E44F000000000000000100
+*VK RS6K
+*FC ********
+*DS PROCESSOR BX    
+*YL U2C4E.001.DBJ0043-P3
+*RT VINI
+*FG XXBX
+*CC 2C4E
+*SN YL10BG47B028
+*CE 1
+*VZ 01
+*FN 00E1330
+*PN 00E3891
+*PR A600000000000000
+*HE 0001
+*CT 40120020
+*HW 0400
+*B3 000000000001
+*B4 00
+*B7 000000000000000000000000
+*VK ipzSeries
+*FC ********
+*DS Memory DIMM
+*YL U2C4E.001.DBJ0043-P3-C1
+*RT VINI
+*FG XXMS
+*CC 31DE
+*SN YH10M14AS1F3
+*CE 1
+*VZ 01
+*FN 41T8258
+*PN 41T8258
+*PR 4900000000020000
+*SZ 32768
+*HE 0001
+*CT 12214320
+*HW 0093
+*B3 402400000001
+*B4 00
+*B7 000000000000000000000000
+*OD 
+*HA 
+*VK ipzSeries
+*FC ********
+*DS Memory DIMM
+*YL U2C4E.001.DBJ0043-P3-C2
+*RT VINI
+*FG XXMS
+*CC 31DE
+*SN YH10M14AT12Y
+*CE 1
+*VZ 01
+*FN 41T8258
+*PN 41T8258
+*PR 4900000000020000
+*SZ 32768
+*HE 0001
+*CT 12214320
+*HW 0093
+*B3 402400000001
+*B4 00
+*B7 000000000000000000000000
+*OD 
+*HA 
+*VK ipzSeries
+*FC ********
+*DS Memory DIMM
+*YL U2C4E.001.DBJ0043-P3-C3
+*RT VINI
+*FG XXMS
+*CC 31DE
+*SN YH10M14BD12S
+*CE 1
+*VZ 01
+*FN 41T8258
+*PN 41T8258
+*PR 4900000000020000
+*SZ 32768
+*HE 0001
+*CT 12214320
+*HW 0093
+*B3 402400000001
+*B4 00
+*B7 000000000000000000000000
+*OD 
+*HA 
+*VK ipzSeries
+*FC ********
+*DS Memory DIMM
+*YL U2C4E.001.DBJ0043-P3-C4
+*RT VINI
+*FG XXMS
+*CC 31DE
+*SN YH10M14BD13B
+*CE 1
+*VZ 01
+*FN 41T8258
+*PN 41T8258
+*PR 4900000000020000
+*SZ 32768
+*HE 0001
+*CT 12214320
+*HW 0093
+*B3 402400000001
+*B4 00
+*B7 000000000000000000000000
+*OD 
+*HA 
+*VK ipzSeries
+*FC ********
+*DS MEM2 REGULATOR  
+*YL U2C4E.001.DBJ0043-P3-C5
+*RT VINI
+*FG XXRG
+*CC 2BC8
+*SN YL1024920116
+*PN 00E6369
+*FN  00E6369
+*CE 1
+*VZ 01
+*VK RS6K
+*FC ********
+*DS 3OP REGULATOR   
+*YL U2C4E.001.DBJ0043-P3-C6
+*RT VINI
+*FG XXRG
+*CC 2BF9
+*SN YL10248S0056
+*PN 00E6371
+*FN  00E6371
+*CE 1
+*VZ 01
+*VK RS6K
+*FC ********
+*DS Memory DIMM
+*YL U2C4E.001.DBJ0043-P3-C7
+*RT VINI
+*FG XXMS
+*CC 31DE
+*SN YH10M14BD12L
+*CE 1
+*VZ 01
+*FN 41T8258
+*PN 41T8258
+*PR 4900000000020000
+*SZ 32768
+*HE 0001
+*CT 12214320
+*HW 0093
+*B3 402400000001
+*B4 00
+*B7 000000000000000000000000
+*OD 
+*HA 
+*VK ipzSeries
+*FC ********
+*DS Memory DIMM
+*YL U2C4E.001.DBJ0043-P3-C8
+*RT VINI
+*FG XXMS
+*CC 31DE
+*SN YH10M13391LR
+*CE 1
+*VZ 01
+*FN 41T8258
+*PN 41T8258
+*PR 4900000000020000
+*SZ 32768
+*HE 0001
+*CT 12214320
+*HW 0093
+*B3 402400000001
+*B4 00
+*B7 000000000000000000000000
+*OD 
+*HA 
+*VK ipzSeries
+*FC ********
+*DS Memory DIMM
+*YL U2C4E.001.DBJ0043-P3-C9
+*RT VINI
+*FG XXMS
+*CC 31DE
+*SN YH10M141T1JD
+*CE 1
+*VZ 01
+*FN 41T8258
+*PN 41T8258
+*PR 4900000000020000
+*SZ 32768
+*HE 0001
+*CT 12214320
+*HW 0093
+*B3 402400000001
+*B4 00
+*B7 000000000000000000000000
+*OD 
+*HA 
+*VK ipzSeries
+*FC ********
+*DS Memory DIMM
+*YL U2C4E.001.DBJ0043-P3-C10
+*RT VINI
+*FG XXMS
+*CC 31DE
+*SN YH10M14AS18L
+*CE 1
+*VZ 01
+*FN 41T8258
+*PN 41T8258
+*PR 4900000000020000
+*SZ 32768
+*HE 0001
+*CT 12214320
+*HW 0093
+*B3 402400000001
+*B4 00
+*B7 000000000000000000000000
+*OD 
+*HA 
+*VK ipzSeries
+*FC ********
+*DS Memory DIMM
+*YL U2C4E.001.DBJ0043-P3-C11
+*RT VINI
+*FG XXMS
+*CC 31DE
+*SN YH10M14AS1F8
+*CE 1
+*VZ 01
+*FN 41T8258
+*PN 41T8258
+*PR 4900000000020000
+*SZ 32768
+*HE 0001
+*CT 12214320
+*HW 0093
+*B3 402400000001
+*B4 00
+*B7 000000000000000000000000
+*OD 
+*HA 
+*VK ipzSeries
+*FC ********
+*DS Memory DIMM
+*YL U2C4E.001.DBJ0043-P3-C12
+*RT VINI
+*FG XXMS
+*CC 31DE
+*SN YH10M14BC15Y
+*CE 1
+*VZ 01
+*FN 41T8258
+*PN 41T8258
+*PR 4900000000020000
+*SZ 32768
+*HE 0001
+*CT 12214320
+*HW 0093
+*B3 402400000001
+*B4 00
+*B7 000000000000000000000000
+*OD 
+*HA 
+*VK ipzSeries
+*FC ********
+*DS Memory DIMM
+*YL U2C4E.001.DBJ0043-P3-C13
+*RT VINI
+*FG XXMS
+*CC 31DE
+*SN YH10M14BK1R2
+*CE 1
+*VZ 01
+*FN 41T8258
+*PN 41T8258
+*PR 4900000000020000
+*SZ 32768
+*HE 0001
+*CT 12214320
+*HW 0093
+*B3 402400000001
+*B4 00
+*B7 000000000000000000000000
+*OD 
+*HA 
+*VK ipzSeries
+*FC ********
+*DS Memory DIMM
+*YL U2C4E.001.DBJ0043-P3-C14
+*RT VINI
+*FG XXMS
+*CC 31DE
+*SN YH10M14BK1NS
+*CE 1
+*VZ 01
+*FN 41T8258
+*PN 41T8258
+*PR 4900000000020000
+*SZ 32768
+*HE 0001
+*CT 12214320
+*HW 0093
+*B3 402400000001
+*B4 00
+*B7 000000000000000000000000
+*OD 
+*HA 
+*VK ipzSeries
+*FC ********
+*DS 3OP REGULATOR   
+*YL U2C4E.001.DBJ0043-P3-C15
+*RT VINI
+*FG XXRG
+*CC 2BF9
+*SN YL10248S0051
+*PN 00E6371
+*FN  00E6371
+*CE 1
+*VZ 01
+*VK RS6K
+*FC ********
+*DS THERMAL PWR MGMT
+*YL U2C4E.001.DBJ0043-P3-C16
+*RT VINI
+*FG XXTP
+*CC 2A14
+*SN YL10UF4B409A
+*CE 1
+*VZ 01
+*FN 74Y2876
+*PN 74Y3920
+*HE 0001
+*CT 40B60004
+*HW 0001
+*B3 000000000001
+*B4 00
+*B7 000000000000000000000000
+*VK ipzSeries
+*FC ********
+*DS MEM2 REGULATOR  
+*YL U2C4E.001.DBJ0043-P3-C17
+*RT VINI
+*FG XXRG
+*CC 2BC8
+*SN YL1024920122
+*PN 00E6369
+*FN  00E6369
+*CE 1
+*VZ 01
+*VK RS6K
+*FC ********
+*DS Memory DIMM
+*YL U2C4E.001.DBJ0043-P3-C18
+*RT VINI
+*FG XXMS
+*CC 31DE
+*SN YH10M14BK1PP
+*CE 1
+*VZ 01
+*FN 41T8258
+*PN 41T8258
+*PR 4900000000020000
+*SZ 32768
+*HE 0001
+*CT 12214320
+*HW 0093
+*B3 402400000001
+*B4 00
+*B7 000000000000000000000000
+*OD 
+*HA 
+*VK ipzSeries
+*FC ********
+*DS Memory DIMM
+*YL U2C4E.001.DBJ0043-P3-C19
+*RT VINI
+*FG XXMS
+*CC 31DE
+*SN YH10M14BK1RH
+*CE 1
+*VZ 01
+*FN 41T8258
+*PN 41T8258
+*PR 4900000000020000
+*SZ 32768
+*HE 0001
+*CT 12214320
+*HW 0093
+*B3 402400000001
+*B4 00
+*B7 000000000000000000000000
+*OD 
+*HA 
+*VK ipzSeries
+*FC ********
+*DS Memory DIMM
+*YL U2C4E.001.DBJ0043-P3-C20
+*RT VINI
+*FG XXMS
+*CC 31DE
+*SN YH10M14BD13L
+*CE 1
+*VZ 01
+*FN 41T8258
+*PN 41T8258
+*PR 4900000000020000
+*SZ 32768
+*HE 0001
+*CT 12214320
+*HW 0093
+*B3 402400000001
+*B4 00
+*B7 000000000000000000000000
+*OD 
+*HA 
+*VK ipzSeries
+*FC ********
+*DS Memory DIMM
+*YL U2C4E.001.DBJ0043-P3-C21
+*RT VINI
+*FG XXMS
+*CC 31DE
+*SN YH10M14BD12P
+*CE 1
+*VZ 01
+*FN 41T8258
+*PN 41T8258
+*PR 4900000000020000
+*SZ 32768
+*HE 0001
+*CT 12214320
+*HW 0093
+*B3 402400000001
+*B4 00
+*B7 000000000000000000000000
+*OD 
+*HA 
+*VK ipzSeries
+*FC ********
+*DS PROC2 REGULATOR 
+*YL U2C4E.001.DBJ0043-P3-C22
+*RT VINI
+*FG XXRG
+*CC 2BF8
+*SN YL1024AA0070
+*PN 00E6367
+*FN  00E6367
+*CE 1
+*VZ 01
+*VK RS6K
+*FC ********
+*DS 4-WAY  PROC CUOD
+*YL U2C4E.001.DBJ0043-P3-C23
+*RT VINI
+*FG XXPF
+*CC 54A8
+*SN YA1932404880
+*FN 00E6818
+*PN 00E6818
+*HE 0001
+*CT 40110004
+*HW 0001
+*B3 000000000000
+*B4 00
+*B7 000000000000000000000000
+*PR 3400400133038000
+*VZ 03
+*CE 1
+*VK ipzSeries
+*FC ********
+*DS 4-WAY  PROC CUOD
+*YL U2C4E.001.DBJ0043-P3-C24
+*RT VINI
+*FG XXPF
+*CC 54A8
+*SN YA1932404885
+*FN 00E6818
+*PN 00E6818
+*HE 0001
+*CT 40110004
+*HW 0001
+*B3 000000000000
+*B4 00
+*B7 000000000000000000000000
+*PR 3400400133038000
+*VZ 03
+*CE 1
+*VK ipzSeries
+*FC ********
+*DS PROC2 REGULATOR 
+*YL U2C4E.001.DBJ0043-P3-C25
+*RT VINI
+*FG XXRG
+*CC 2BF8
+*SN YL1024AA0071
+*PN 00E6367
+*FN  00E6367
+*CE 1
+*VZ 01
+*VK RS6K
+*FC ********
+*DS PROC2 REGULATOR 
+*YL U2C4E.001.DBJ0043-P3-C26
+*RT VINI
+*FG XXRG
+*CC 2BF8
+*SN YL1024AA0067
+*PN 00E6367
+*FN  00E6367
+*CE 1
+*VZ 01
+*VK RS6K
+*FC ********
+*DS 4-WAY  PROC CUOD
+*YL U2C4E.001.DBJ0043-P3-C27
+*RT VINI
+*FG XXPF
+*CC 54A8
+*SN YA1932404884
+*FN 00E6818
+*PN 00E6818
+*HE 0001
+*CT 40110004
+*HW 0001
+*B3 000000000000
+*B4 00
+*B7 000000000000000000000000
+*PR 3400400133038000
+*VZ 03
+*CE 1
+*VK ipzSeries
+*FC ********
+*DS 4-WAY  PROC CUOD
+*YL U2C4E.001.DBJ0043-P3-C28
+*RT VINI
+*FG XXPF
+*CC 54A8
+*SN YA1932404877
+*FN 00E6818
+*PN 00E6818
+*HE 0001
+*CT 40110004
+*HW 0001
+*B3 000000000000
+*B4 00
+*B7 000000000000000000000000
+*PR 3400400133038000
+*VZ 03
+*CE 1
+*VK ipzSeries
+*FC ********
+*DS PROC2 REGULATOR 
+*YL U2C4E.001.DBJ0043-P3-C29
+*RT VINI
+*FG XXRG
+*CC 2BF8
+*SN YL1024AA0068
+*PN 00E6367
+*FN  00E6367
+*CE 1
+*VZ 01
+*VK RS6K
+*FC ********
+*DS CEC OP PANEL    
+*YL U2C4E.001.DBJ0043-D1
+*RT VINI
+*FG XXOP
+*CC 2B01
+*SN YL11UF49J05L
+*CE 1
+*VZ 01
+*FN 00E1635
+*PN 00E1898
+*HE 0001
+*CT 40B50002
+*HW 0200
+*B3 000000000000
+*B4 00
+*B7 000000000000000000000000
+*VK ipzSeries
+*FC ********
+*DS A IBM AC PS     
+*YL U2C4E.001.DBJ0043-E1
+*RT VINI
+*FG XXPS
+*CC 2BED
+*SN YL1024890577
+*PN 00FW422
+*FN  00FW422
+*VK RS6K
+*FC ********
+*DS A IBM AC PS     
+*YL U2C4E.001.DBJ0043-E2
+*RT VINI
+*FG XXPS
+*CC 2BED
+*SN YL1024890552
+*PN 00FW422
+*FN  00FW422
+*VK RS6K
+*FC ********
+*DS IBM Air Mover   
+*YL U2C4E.001.DBJ0043-A1
+*RT VINI
+*FG XXAM
+*CC 6B1A
+*FN  46K4939
+*VK RS6K
+*FC ********
+*DS IBM Air Mover   
+*YL U2C4E.001.DBJ0043-A2
+*RT VINI
+*FG XXAM
+*CC 6B1A
+*FN  46K4939
+*VK RS6K
+*FC ********
+*DS IBM Air Mover   
+*YL U2C4E.001.DBJ0043-A3
+*RT VINI
+*FG XXAM
+*CC 6B1A
+*FN  46K4939
+*VK RS6K
+*FC ********
+*DS IBM Air Mover   
+*YL U2C4E.001.DBJ0043-A4
+*RT VINI
+*FG XXAM
+*CC 6B1A
+*FN  46K4939
+*VK RS6K
+*FC ********
+*DS IBM Air Mover   
+*YL U2C4E.001.DBJ0043-A5
+*RT VINI
+*FG XXAM
+*CC 6B1A
+*FN  46K4939
+*VK RS6K
+*FC ********
+*DS CEC
+*YL U2C4E.001.DBJZ836
+*RT VCEN
+*FG XXEV
+*BR S0
+*SE DBJZ836
+*TM 78C0-001
+*CI 9179-MHD 21ADA1V
+*RK 0000000000000000
+*FC 78C0-001
+*VK ipzSeries
+*FC ********
+*DS BP EXTENSION    
+*YL U2C4E.001.DBJZ836-P1
+*RT VINI
+*FG XXBP
+*CC 2BBD
+*SN YL11BG4AW049
+*CE 1
+*VZ 01
+*FN 74Y2627
+*PN 00E1018
+*PR 2300000000000000
+*HE 0001
+*CT 40F30016
+*HW 0001
+*B3 000000000001
+*B4 00
+*B7 000000000000000000000000
+*VK ipzSeries
+*FC ********
+*DS FSP             
+*YL U2C4E.001.DBJZ836-P1-C1
+*RT VINI
+*FG XXCC
+*CC 2BBB
+*SN YL10BG4AZ030
+*CE 1
+*VZ 02
+*FN 00E3316
+*PN 00E3317
+*HE 0001
+*CT 30B30005
+*HW 0004
+*B3 000000000001
+*B4 00
+*B7 000000000000000000000000
+*VK ipzSeries
+*FC ********
+*DS I/O BACKPLANE   
+*YL U2C4E.001.DBJZ836-P2
+*RT VINI
+*FG XXCC
+*CC 2B59
+*SN YL10BG4AR03A
+*CE 1
+*VZ 01
+*FN 00E2748
+*PN 00E3436
+*PR 2900000000000000
+*HE 0001
+*CT 40F30025
+*HW 0100
+*B3 000000000001
+*B4 00
+*B7 000000000000000000000000
+*VK ipzSeries
+*FC ********
+*DS DUAL 1&10GBO ETH
+*YL U2C4E.001.DBJZ836-P2-C8
+*RT VINI
+*FG XXET
+*CC 2C4D
+*SN YL10BG44W02X
+*CE 1
+*VZ 01
+*FN 00E2913
+*PN 00E2914
+*HE 0001
+*CT 30910008
+*HW 0001
+*B3 000000000001
+*B4 00
+*B7 000000000000000000000000
+*VK ipzSeries
+*FC ********
+*DS PSBPD6MR  3GSAS 
+*YL U2C4E.001.DBJZ836-P2-C9
+*RT VINI
+*FG XXPR
+*CC 2BBE
+*SN YL13D4340064
+*FN  00E7753
+*PN 00E6221
+*CE 1
+*VZ 04
+*B2 5005076065E51B000000000000000100
+*VK RS6K
+*FC ********
+*DS PROCESSOR BX    
+*YL U2C4E.001.DBJZ836-P3
+*RT VINI
+*FG XXBX
+*CC 2C4E
+*SN YL11BG3BV05B
+*CE 1
+*VZ 01
+*FN 00E1330
+*PN 00E2557
+*PR A600000000000000
+*HE 0001
+*CT 40120020
+*HW 0400
+*B3 000000000001
+*B4 00
+*B7 000000000000000000000000
+*VK ipzSeries
+*FC ********
+*DS Memory DIMM
+*YL U2C4E.001.DBJZ836-P3-C1
+*RT VINI
+*FG XXMS
+*CC 31DE
+*SN YH10MS43S043
+*CE 1
+*VZ 01
+*FN 41T8258
+*PN 41T8258
+*PR 4900000000020000
+*SZ 32768
+*HE 0001
+*CT 12214320
+*HW 0093
+*B3 402400000001
+*B4 00
+*B7 000000000000000000000000
+*OD 
+*HA 
+*VK ipzSeries
+*FC ********
+*DS Memory DIMM
+*YL U2C4E.001.DBJZ836-P3-C2
+*RT VINI
+*FG XXMS
+*CC 31DE
+*SN YH10MS43S053
+*CE 1
+*VZ 01
+*FN 41T8258
+*PN 41T8258
+*PR 4900000000020000
+*SZ 32768
+*HE 0001
+*CT 12214320
+*HW 0093
+*B3 402400000001
+*B4 00
+*B7 000000000000000000000000
+*OD 
+*HA 
+*VK ipzSeries
+*FC ********
+*DS Memory DIMM
+*YL U2C4E.001.DBJZ836-P3-C3
+*RT VINI
+*FG XXMS
+*CC 31DE
+*SN YH10MS48B01D
+*CE 1
+*VZ 01
+*FN 41T8258
+*PN 41T8258
+*PR 4900000000020000
+*SZ 32768
+*HE 0001
+*CT 12214320
+*HW 0093
+*B3 402400000001
+*B4 00
+*B7 000000000000000000000000
+*OD 
+*HA 
+*VK ipzSeries
+*FC ********
+*DS Memory DIMM
+*YL U2C4E.001.DBJZ836-P3-C4
+*RT VINI
+*FG XXMS
+*CC 31DE
+*SN YH10MS48J0C5
+*CE 1
+*VZ 01
+*FN 41T8258
+*PN 41T8258
+*PR 4900000000020000
+*SZ 32768
+*HE 0001
+*CT 12214320
+*HW 0093
+*B3 402400000001
+*B4 00
+*B7 000000000000000000000000
+*OD 
+*HA 
+*VK ipzSeries
+*FC ********
+*DS MEM2 REGULATOR  
+*YL U2C4E.001.DBJZ836-P3-C5
+*RT VINI
+*FG XXRG
+*CC 2BC8
+*SN YL1023AM0063
+*PN 00E6369
+*FN  00E6369
+*CE 1
+*VZ 01
+*VK RS6K
+*FC ********
+*DS 3OP REGULATOR   
+*YL U2C4E.001.DBJZ836-P3-C6
+*RT VINI
+*FG XXRG
+*CC 2BF9
+*SN YL1023AA0106
+*PN 00E6371
+*FN  00E6371
+*CE 1
+*VZ 01
+*VK RS6K
+*FC ********
+*DS Memory DIMM
+*YL U2C4E.001.DBJZ836-P3-C7
+*RT VINI
+*FG XXMS
+*CC 31DE
+*SN YH10MS48J0BF
+*CE 1
+*VZ 01
+*FN 41T8258
+*PN 41T8258
+*PR 4900000000020000
+*SZ 32768
+*HE 0001
+*CT 12214320
+*HW 0093
+*B3 402400000001
+*B4 00
+*B7 000000000000000000000000
+*OD 
+*HA 
+*VK ipzSeries
+*FC ********
+*DS Memory DIMM
+*YL U2C4E.001.DBJZ836-P3-C8
+*RT VINI
+*FG XXMS
+*CC 31DE
+*SN YH10MS48J0CC
+*CE 1
+*VZ 01
+*FN 41T8258
+*PN 41T8258
+*PR 4900000000020000
+*SZ 32768
+*HE 0001
+*CT 12214320
+*HW 0093
+*B3 402400000001
+*B4 00
+*B7 000000000000000000000000
+*OD 
+*HA 
+*VK ipzSeries
+*FC ********
+*DS Memory DIMM
+*YL U2C4E.001.DBJZ836-P3-C9
+*RT VINI
+*FG XXMS
+*CC 31DE
+*SN YH10MS4840E1
+*CE 1
+*VZ 01
+*FN 41T8258
+*PN 41T8258
+*PR 4900000000020000
+*SZ 32768
+*HE 0001
+*CT 12214320
+*HW 0093
+*B3 402400000001
+*B4 00
+*B7 000000000000000000000000
+*OD 
+*HA 
+*VK ipzSeries
+*FC ********
+*DS Memory DIMM
+*YL U2C4E.001.DBJZ836-P3-C10
+*RT VINI
+*FG XXMS
+*CC 31DE
+*SN YH10MS49F2D0
+*CE 1
+*VZ 01
+*FN 41T8258
+*PN 41T8258
+*PR 4900000000020000
+*SZ 32768
+*HE 0001
+*CT 12214320
+*HW 0093
+*B3 402400000001
+*B4 00
+*B7 000000000000000000000000
+*OD 
+*HA 
+*VK ipzSeries
+*FC ********
+*DS Memory DIMM
+*YL U2C4E.001.DBJZ836-P3-C11
+*RT VINI
+*FG XXMS
+*CC 31DE
+*SN YH10MS49F2CF
+*CE 1
+*VZ 01
+*FN 41T8258
+*PN 41T8258
+*PR 4900000000020000
+*SZ 32768
+*HE 0001
+*CT 12214320
+*HW 0093
+*B3 402400000001
+*B4 00
+*B7 000000000000000000000000
+*OD 
+*HA 
+*VK ipzSeries
+*FC ********
+*DS Memory DIMM
+*YL U2C4E.001.DBJZ836-P3-C12
+*RT VINI
+*FG XXMS
+*CC 31DE
+*SN YH10MS43S051
+*CE 1
+*VZ 01
+*FN 41T8258
+*PN 41T8258
+*PR 4900000000020000
+*SZ 32768
+*HE 0001
+*CT 12214320
+*HW 0093
+*B3 402400000001
+*B4 00
+*B7 000000000000000000000000
+*OD 
+*HA 
+*VK ipzSeries
+*FC ********
+*DS Memory DIMM
+*YL U2C4E.001.DBJZ836-P3-C13
+*RT VINI
+*FG XXMS
+*CC 31DE
+*SN YH10MS49F2B3
+*CE 1
+*VZ 01
+*FN 41T8258
+*PN 41T8258
+*PR 4900000000020000
+*SZ 32768
+*HE 0001
+*CT 12214320
+*HW 0093
+*B3 402400000001
+*B4 00
+*B7 000000000000000000000000
+*OD 
+*HA 
+*VK ipzSeries
+*FC ********
+*DS Memory DIMM
+*YL U2C4E.001.DBJZ836-P3-C14
+*RT VINI
+*FG XXMS
+*CC 31DE
+*SN YH10MS43S04D
+*CE 1
+*VZ 01
+*FN 41T8258
+*PN 41T8258
+*PR 4900000000020000
+*SZ 32768
+*HE 0001
+*CT 12214320
+*HW 0093
+*B3 402400000001
+*B4 00
+*B7 000000000000000000000000
+*OD 
+*HA 
+*VK ipzSeries
+*FC ********
+*DS 3OP REGULATOR   
+*YL U2C4E.001.DBJZ836-P3-C15
+*RT VINI
+*FG XXRG
+*CC 2BF9
+*SN YL1023AA0101
+*PN 00E6371
+*FN  00E6371
+*CE 1
+*VZ 01
+*VK RS6K
+*FC ********
+*DS THERMAL PWR MGMT
+*YL U2C4E.001.DBJZ836-P3-C16
+*RT VINI
+*FG XXTP
+*CC 2A14
+*SN YL10UF3AS09R
+*CE 1
+*VZ 01
+*FN 74Y2876
+*PN 74Y3920
+*HE 0001
+*CT 40B60004
+*HW 0001
+*B3 000000000001
+*B4 00
+*B7 000000000000000000000000
+*VK ipzSeries
+*FC ********
+*DS MEM2 REGULATOR  
+*YL U2C4E.001.DBJZ836-P3-C17
+*RT VINI
+*FG XXRG
+*CC 2BC8
+*SN YL1023AM0053
+*PN 00E6369
+*FN  00E6369
+*CE 1
+*VZ 01
+*VK RS6K
+*FC ********
+*DS Memory DIMM
+*YL U2C4E.001.DBJZ836-P3-C18
+*RT VINI
+*FG XXMS
+*CC 31DE
+*SN YH10MS43S04E
+*CE 1
+*VZ 01
+*FN 41T8258
+*PN 41T8258
+*PR 4900000000020000
+*SZ 32768
+*HE 0001
+*CT 12214320
+*HW 0093
+*B3 402400000001
+*B4 00
+*B7 000000000000000000000000
+*OD 
+*HA 
+*VK ipzSeries
+*FC ********
+*DS Memory DIMM
+*YL U2C4E.001.DBJZ836-P3-C19
+*RT VINI
+*FG XXMS
+*CC 31DE
+*SN YH10MS43S04F
+*CE 1
+*VZ 01
+*FN 41T8258
+*PN 41T8258
+*PR 4900000000020000
+*SZ 32768
+*HE 0001
+*CT 12214320
+*HW 0093
+*B3 402400000001
+*B4 00
+*B7 000000000000000000000000
+*OD 
+*HA 
+*VK ipzSeries
+*FC ********
+*DS Memory DIMM
+*YL U2C4E.001.DBJZ836-P3-C20
+*RT VINI
+*FG XXMS
+*CC 31DE
+*SN YH10MS43S048
+*CE 1
+*VZ 01
+*FN 41T8258
+*PN 41T8258
+*PR 4900000000020000
+*SZ 32768
+*HE 0001
+*CT 12214320
+*HW 0093
+*B3 402400000001
+*B4 00
+*B7 000000000000000000000000
+*OD 
+*HA 
+*VK ipzSeries
+*FC ********
+*DS Memory DIMM
+*YL U2C4E.001.DBJZ836-P3-C21
+*RT VINI
+*FG XXMS
+*CC 31DE
+*SN YH10MS43S04B
+*CE 1
+*VZ 01
+*FN 41T8258
+*PN 41T8258
+*PR 4900000000020000
+*SZ 32768
+*HE 0001
+*CT 12214320
+*HW 0093
+*B3 402400000001
+*B4 00
+*B7 000000000000000000000000
+*OD 
+*HA 
+*VK ipzSeries
+*FC ********
+*DS PROC2 REGULATOR 
+*YL U2C4E.001.DBJZ836-P3-C22
+*RT VINI
+*FG XXRG
+*CC 2BF8
+*SN YL1023BD0183
+*PN 00E6367
+*FN  00E6367
+*CE 1
+*VZ 01
+*VK RS6K
+*FC ********
+*DS 4-WAY  PROC CUOD
+*YL U2C4E.001.DBJZ836-P3-C23
+*RT VINI
+*FG XXPF
+*CC 54A8
+*SN YA1931884416
+*FN 00E6818
+*PN 00E6818
+*HE 0001
+*CT 40110004
+*HW 0001
+*B3 000000000000
+*B4 00
+*B7 000000000000000000000000
+*PR 3400400133038000
+*VZ 03
+*CE 1
+*VK ipzSeries
+*FC ********
+*DS 4-WAY  PROC CUOD
+*YL U2C4E.001.DBJZ836-P3-C24
+*RT VINI
+*FG XXPF
+*CC 54A8
+*SN YA1931884411
+*FN 00E6818
+*PN 00E6818
+*HE 0001
+*CT 40110004
+*HW 0001
+*B3 000000000000
+*B4 00
+*B7 000000000000000000000000
+*PR 3400400133038000
+*VZ 03
+*CE 1
+*VK ipzSeries
+*FC ********
+*DS PROC2 REGULATOR 
+*YL U2C4E.001.DBJZ836-P3-C25
+*RT VINI
+*FG XXRG
+*CC 2BF8
+*SN YL1023BD0188
+*PN 00E6367
+*FN  00E6367
+*CE 1
+*VZ 01
+*VK RS6K
+*FC ********
+*DS PROC2 REGULATOR 
+*YL U2C4E.001.DBJZ836-P3-C26
+*RT VINI
+*FG XXRG
+*CC 2BF8
+*SN YL1023BD0186
+*PN 00E6367
+*FN  00E6367
+*CE 1
+*VZ 01
+*VK RS6K
+*FC ********
+*DS 4-WAY  PROC CUOD
+*YL U2C4E.001.DBJZ836-P3-C27
+*RT VINI
+*FG XXPF
+*CC 54A8
+*SN YA1931884415
+*FN 00E6818
+*PN 00E6818
+*HE 0001
+*CT 40110004
+*HW 0001
+*B3 000000000000
+*B4 00
+*B7 000000000000000000000000
+*PR 3400400133038000
+*VZ 03
+*CE 1
+*VK ipzSeries
+*FC ********
+*DS 4-WAY  PROC CUOD
+*YL U2C4E.001.DBJZ836-P3-C28
+*RT VINI
+*FG XXPF
+*CC 54A8
+*SN YA1931884410
+*FN 00E6818
+*PN 00E6818
+*HE 0001
+*CT 40110004
+*HW 0001
+*B3 000000000000
+*B4 00
+*B7 000000000000000000000000
+*PR 3400400133038000
+*VZ 03
+*CE 1
+*VK ipzSeries
+*FC ********
+*DS PROC2 REGULATOR 
+*YL U2C4E.001.DBJZ836-P3-C29
+*RT VINI
+*FG XXRG
+*CC 2BF8
+*SN YL1023BD0184
+*PN 00E6367
+*FN  00E6367
+*CE 1
+*VZ 01
+*VK RS6K
+*FC ********
+*DS A IBM AC PS     
+*YL U2C4E.001.DBJZ836-E1
+*RT VINI
+*FG XXPS
+*CC 2BED
+*SN YL1024890571
+*PN 00FW422
+*FN  00FW422
+*VK RS6K
+*FC ********
+*DS A IBM AC PS     
+*YL U2C4E.001.DBJZ836-E2
+*RT VINI
+*FG XXPS
+*CC 2BED
+*SN YL1024890576
+*PN 00FW422
+*FN  00FW422
+*VK RS6K
+*FC ********
+*DS IBM Air Mover   
+*YL U2C4E.001.DBJZ836-A1
+*RT VINI
+*FG XXAM
+*CC 6B1A
+*FN  46K4939
+*VK RS6K
+*FC ********
+*DS IBM Air Mover   
+*YL U2C4E.001.DBJZ836-A2
+*RT VINI
+*FG XXAM
+*CC 6B1A
+*FN  46K4939
+*VK RS6K
+*FC ********
+*DS IBM Air Mover   
+*YL U2C4E.001.DBJZ836-A3
+*RT VINI
+*FG XXAM
+*CC 6B1A
+*FN  46K4939
+*VK RS6K
+*FC ********
+*DS IBM Air Mover   
+*YL U2C4E.001.DBJZ836-A4
+*RT VINI
+*FG XXAM
+*CC 6B1A
+*FN  46K4939
+*VK RS6K
+*FC ********
+*DS IBM Air Mover   
+*YL U2C4E.001.DBJZ836-A5
+*RT VINI
+*FG XXAM
+*CC 6B1A
+*FN  46K4939
+*VK RS6K
+*FC ********
+*DS CEC
+*YL U2C4E.001.DBJ0041
+*RT VCEN
+*FG XXEV
+*BR S0
+*SE DBJ0041
+*TM 78C0-001
+*CI 9179-MHD 21ADA1V
+*RK 0000000000000000
+*FC 78C0-001
+*VK ipzSeries
+*FC ********
+*DS BP EXTENSION    
+*YL U2C4E.001.DBJ0041-P1
+*RT VINI
+*FG XXBP
+*CC 2BBD
+*SN YL11BG4AW04A
+*CE 1
+*VZ 01
+*FN 74Y2627
+*PN 00E1018
+*PR 2300000000000000
+*HE 0001
+*CT 40F30016
+*HW 0001
+*B3 000000000001
+*B4 00
+*B7 000000000000000000000000
+*VK ipzSeries
+*FC ********
+*DS CLOCK PASSTHRU  
+*YL U2C4E.001.DBJ0041-P1-C1
+*RT VINI
+*FG XXCC
+*CC 2BBC
+*SN YL12BG4BM041
+*CE 1
+*VZ 01
+*FN 74Y2861
+*PN 74Y3878
+*PR 1300000000000000
+*HE 0001
+*CT 30B20003
+*HW 0003
+*B3 000000000001
+*B4 00
+*B7 000000000000000000000000
+*VK ipzSeries
+*FC ********
+*DS I/O BACKPLANE   
+*YL U2C4E.001.DBJ0041-P2
+*RT VINI
+*FG XXCC
+*CC 2B59
+*SN YL10BG4AR04J
+*CE 1
+*VZ 01
+*FN 00E2748
+*PN 00E3436
+*PR 2900000000000000
+*HE 0001
+*CT 40F30025
+*HW 0100
+*B3 000000000001
+*B4 00
+*B7 000000000000000000000000
+*VK ipzSeries
+*FC ********
+*DS DUAL 1&10GBO ETH
+*YL U2C4E.001.DBJ0041-P2-C8
+*RT VINI
+*FG XXET
+*CC 2C4D
+*SN YL10BG38D00W
+*CE 1
+*VZ 01
+*FN 00E2913
+*PN 00E2914
+*HE 0001
+*CT 30910008
+*HW 0001
+*B3 000000000001
+*B4 00
+*B7 000000000000000000000000
+*VK ipzSeries
+*FC ********
+*DS PSBPD6MR  3GSAS 
+*YL U2C4E.001.DBJ0041-P2-C9
+*RT VINI
+*FG XXPR
+*CC 2BBE
+*SN YL13D4340098
+*FN  00E7753
+*PN 00E6221
+*CE 1
+*VZ 04
+*B2 5005076065E53D000000000000000100
+*VK RS6K
+*FC ********
+*DS PROCESSOR BX    
+*YL U2C4E.001.DBJ0041-P3
+*RT VINI
+*FG XXBX
+*CC 2C4E
+*SN YL10BG46P055
+*CE 1
+*VZ 01
+*FN 00E1330
+*PN 00E3891
+*PR A600000000000000
+*HE 0001
+*CT 40120020
+*HW 0400
+*B3 000000000001
+*B4 00
+*B7 000000000000000000000000
+*VK ipzSeries
+*FC ********
+*DS Memory DIMM
+*YL U2C4E.001.DBJ0041-P3-C1
+*RT VINI
+*FG XXMS
+*CC 31DE
+*SN YH10M14B71DN
+*CE 1
+*VZ 01
+*FN 41T8258
+*PN 41T8258
+*PR 4900000000020000
+*SZ 32768
+*HE 0001
+*CT 12214320
+*HW 0093
+*B3 402400000001
+*B4 00
+*B7 000000000000000000000000
+*OD 
+*HA 
+*VK ipzSeries
+*FC ********
+*DS Memory DIMM
+*YL U2C4E.001.DBJ0041-P3-C2
+*RT VINI
+*FG XXMS
+*CC 31DE
+*SN YH10M14BC1CC
+*CE 1
+*VZ 01
+*FN 41T8258
+*PN 41T8258
+*PR 4900000000020000
+*SZ 32768
+*HE 0001
+*CT 12214320
+*HW 0093
+*B3 402400000001
+*B4 00
+*B7 000000000000000000000000
+*OD 
+*HA 
+*VK ipzSeries
+*FC ********
+*DS Memory DIMM
+*YL U2C4E.001.DBJ0041-P3-C3
+*RT VINI
+*FG XXMS
+*CC 31DE
+*SN YH10M14BC1C2
+*CE 1
+*VZ 01
+*FN 41T8258
+*PN 41T8258
+*PR 4900000000020000
+*SZ 32768
+*HE 0001
+*CT 12214320
+*HW 0093
+*B3 402400000001
+*B4 00
+*B7 000000000000000000000000
+*OD 
+*HA 
+*VK ipzSeries
+*FC ********
+*DS Memory DIMM
+*YL U2C4E.001.DBJ0041-P3-C4
+*RT VINI
+*FG XXMS
+*CC 31DE
+*SN YH10M14BC178
+*CE 1
+*VZ 01
+*FN 41T8258
+*PN 41T8258
+*PR 4900000000020000
+*SZ 32768
+*HE 0001
+*CT 12214320
+*HW 0093
+*B3 402400000001
+*B4 00
+*B7 000000000000000000000000
+*OD 
+*HA 
+*VK ipzSeries
+*FC ********
+*DS MEM2 REGULATOR  
+*YL U2C4E.001.DBJ0041-P3-C5
+*RT VINI
+*FG XXRG
+*CC 2BC8
+*SN YL10246H0083
+*PN 00E6369
+*FN  00E6369
+*CE 1
+*VZ 01
+*VK RS6K
+*FC ********
+*DS 3OP REGULATOR   
+*YL U2C4E.001.DBJ0041-P3-C6
+*RT VINI
+*FG XXRG
+*CC 2BF9
+*SN YL1024580010
+*PN 00E6371
+*FN  00E6371
+*CE 1
+*VZ 01
+*VK RS6K
+*FC ********
+*DS Memory DIMM
+*YL U2C4E.001.DBJ0041-P3-C7
+*RT VINI
+*FG XXMS
+*CC 31DE
+*SN YH10M14AS1F9
+*CE 1
+*VZ 01
+*FN 41T8258
+*PN 41T8258
+*PR 4900000000020000
+*SZ 32768
+*HE 0001
+*CT 12214320
+*HW 0093
+*B3 402400000001
+*B4 00
+*B7 000000000000000000000000
+*OD 
+*HA 
+*VK ipzSeries
+*FC ********
+*DS Memory DIMM
+*YL U2C4E.001.DBJ0041-P3-C8
+*RT VINI
+*FG XXMS
+*CC 31DE
+*SN YH10M14BC16F
+*CE 1
+*VZ 01
+*FN 41T8258
+*PN 41T8258
+*PR 4900000000020000
+*SZ 32768
+*HE 0001
+*CT 12214320
+*HW 0093
+*B3 402400000001
+*B4 00
+*B7 000000000000000000000000
+*OD 
+*HA 
+*VK ipzSeries
+*FC ********
+*DS Memory DIMM
+*YL U2C4E.001.DBJ0041-P3-C9
+*RT VINI
+*FG XXMS
+*CC 31DE
+*SN YH10M14BC172
+*CE 1
+*VZ 01
+*FN 41T8258
+*PN 41T8258
+*PR 4900000000020000
+*SZ 32768
+*HE 0001
+*CT 12214320
+*HW 0093
+*B3 402400000001
+*B4 00
+*B7 000000000000000000000000
+*OD 
+*HA 
+*VK ipzSeries
+*FC ********
+*DS Memory DIMM
+*YL U2C4E.001.DBJ0041-P3-C10
+*RT VINI
+*FG XXMS
+*CC 31DE
+*SN YH10M14B71CY
+*CE 1
+*VZ 01
+*FN 41T8258
+*PN 41T8258
+*PR 4900000000020000
+*SZ 32768
+*HE 0001
+*CT 12214320
+*HW 0093
+*B3 402400000001
+*B4 00
+*B7 000000000000000000000000
+*OD 
+*HA 
+*VK ipzSeries
+*FC ********
+*DS Memory DIMM
+*YL U2C4E.001.DBJ0041-P3-C11
+*RT VINI
+*FG XXMS
+*CC 31DE
+*SN YH10M14B71DF
+*CE 1
+*VZ 01
+*FN 41T8258
+*PN 41T8258
+*PR 4900000000020000
+*SZ 32768
+*HE 0001
+*CT 12214320
+*HW 0093
+*B3 402400000001
+*B4 00
+*B7 000000000000000000000000
+*OD 
+*HA 
+*VK ipzSeries
+*FC ********
+*DS Memory DIMM
+*YL U2C4E.001.DBJ0041-P3-C12
+*RT VINI
+*FG XXMS
+*CC 31DE
+*SN YH10M14BC1AD
+*CE 1
+*VZ 01
+*FN 41T8258
+*PN 41T8258
+*PR 4900000000020000
+*SZ 32768
+*HE 0001
+*CT 12214320
+*HW 0093
+*B3 402400000001
+*B4 00
+*B7 000000000000000000000000
+*OD 
+*HA 
+*VK ipzSeries
+*FC ********
+*DS Memory DIMM
+*YL U2C4E.001.DBJ0041-P3-C13
+*RT VINI
+*FG XXMS
+*CC 31DE
+*SN YH10M14BC1AZ
+*CE 1
+*VZ 01
+*FN 41T8258
+*PN 41T8258
+*PR 4900000000020000
+*SZ 32768
+*HE 0001
+*CT 12214320
+*HW 0093
+*B3 402400000001
+*B4 00
+*B7 000000000000000000000000
+*OD 
+*HA 
+*VK ipzSeries
+*FC ********
+*DS Memory DIMM
+*YL U2C4E.001.DBJ0041-P3-C14
+*RT VINI
+*FG XXMS
+*CC 31DE
+*SN YH10M14BC1AP
+*CE 1
+*VZ 01
+*FN 41T8258
+*PN 41T8258
+*PR 4900000000020000
+*SZ 32768
+*HE 0001
+*CT 12214320
+*HW 0093
+*B3 402400000001
+*B4 00
+*B7 000000000000000000000000
+*OD 
+*HA 
+*VK ipzSeries
+*FC ********
+*DS 3OP REGULATOR   
+*YL U2C4E.001.DBJ0041-P3-C15
+*RT VINI
+*FG XXRG
+*CC 2BF9
+*SN YL1024580005
+*PN 00E6371
+*FN  00E6371
+*CE 1
+*VZ 01
+*VK RS6K
+*FC ********
+*DS THERMAL PWR MGMT
+*YL U2C4E.001.DBJ0041-P3-C16
+*RT VINI
+*FG XXTP
+*CC 2A14
+*SN YL10UF46J06L
+*CE 1
+*VZ 01
+*FN 74Y2876
+*PN 74Y3920
+*HE 0001
+*CT 40B60004
+*HW 0001
+*B3 000000000001
+*B4 00
+*B7 000000000000000000000000
+*VK ipzSeries
+*FC ********
+*DS MEM2 REGULATOR  
+*YL U2C4E.001.DBJ0041-P3-C17
+*RT VINI
+*FG XXRG
+*CC 2BC8
+*SN YL10246H0089
+*PN 00E6369
+*FN  00E6369
+*CE 1
+*VZ 01
+*VK RS6K
+*FC ********
+*DS Memory DIMM
+*YL U2C4E.001.DBJ0041-P3-C18
+*RT VINI
+*FG XXMS
+*CC 31DE
+*SN YH10M14BC1AG
+*CE 1
+*VZ 01
+*FN 41T8258
+*PN 41T8258
+*PR 4900000000020000
+*SZ 32768
+*HE 0001
+*CT 12214320
+*HW 0093
+*B3 402400000001
+*B4 00
+*B7 000000000000000000000000
+*OD 
+*HA 
+*VK ipzSeries
+*FC ********
+*DS Memory DIMM
+*YL U2C4E.001.DBJ0041-P3-C19
+*RT VINI
+*FG XXMS
+*CC 31DE
+*SN YH10M14BC1AB
+*CE 1
+*VZ 01
+*FN 41T8258
+*PN 41T8258
+*PR 4900000000020000
+*SZ 32768
+*HE 0001
+*CT 12214320
+*HW 0093
+*B3 402400000001
+*B4 00
+*B7 000000000000000000000000
+*OD 
+*HA 
+*VK ipzSeries
+*FC ********
+*DS Memory DIMM
+*YL U2C4E.001.DBJ0041-P3-C20
+*RT VINI
+*FG XXMS
+*CC 31DE
+*SN YH10M14BC1AF
+*CE 1
+*VZ 01
+*FN 41T8258
+*PN 41T8258
+*PR 4900000000020000
+*SZ 32768
+*HE 0001
+*CT 12214320
+*HW 0093
+*B3 402400000001
+*B4 00
+*B7 000000000000000000000000
+*OD 
+*HA 
+*VK ipzSeries
+*FC ********
+*DS Memory DIMM
+*YL U2C4E.001.DBJ0041-P3-C21
+*RT VINI
+*FG XXMS
+*CC 31DE
+*SN YH10M14BC1AX
+*CE 1
+*VZ 01
+*FN 41T8258
+*PN 41T8258
+*PR 4900000000020000
+*SZ 32768
+*HE 0001
+*CT 12214320
+*HW 0093
+*B3 402400000001
+*B4 00
+*B7 000000000000000000000000
+*OD 
+*HA 
+*VK ipzSeries
+*FC ********
+*DS PROC2 REGULATOR 
+*YL U2C4E.001.DBJ0041-P3-C22
+*RT VINI
+*FG XXRG
+*CC 2BF8
+*SN YL10245C0177
+*PN 00E6367
+*FN  00E6367
+*CE 1
+*VZ 01
+*VK RS6K
+*FC ********
+*DS 4-WAY  PROC CUOD
+*YL U2C4E.001.DBJ0041-P3-C23
+*RT VINI
+*FG XXPF
+*CC 54A8
+*SN YA1932217730
+*FN 00E6818
+*PN 00E6818
+*HE 0001
+*CT 40110004
+*HW 0001
+*B3 000000000000
+*B4 00
+*B7 000000000000000000000000
+*PR 3400400133038000
+*VZ 03
+*CE 1
+*VK ipzSeries
+*FC ********
+*DS 4-WAY  PROC CUOD
+*YL U2C4E.001.DBJ0041-P3-C24
+*RT VINI
+*FG XXPF
+*CC 54A8
+*SN YA1932217699
+*FN 00E6818
+*PN 00E6818
+*HE 0001
+*CT 40110004
+*HW 0001
+*B3 000000000000
+*B4 00
+*B7 000000000000000000000000
+*PR 3400400133038000
+*VZ 03
+*CE 1
+*VK ipzSeries
+*FC ********
+*DS PROC2 REGULATOR 
+*YL U2C4E.001.DBJ0041-P3-C25
+*RT VINI
+*FG XXRG
+*CC 2BF8
+*SN YL10245C0191
+*PN 00E6367
+*FN  00E6367
+*CE 1
+*VZ 01
+*VK RS6K
+*FC ********
+*DS PROC2 REGULATOR 
+*YL U2C4E.001.DBJ0041-P3-C26
+*RT VINI
+*FG XXRG
+*CC 2BF8
+*SN YL10245A0106
+*PN 00E6367
+*FN  00E6367
+*CE 1
+*VZ 01
+*VK RS6K
+*FC ********
+*DS 4-WAY  PROC CUOD
+*YL U2C4E.001.DBJ0041-P3-C27
+*RT VINI
+*FG XXPF
+*CC 54A8
+*SN YA1932217729
+*FN 00E6818
+*PN 00E6818
+*HE 0001
+*CT 40110004
+*HW 0001
+*B3 000000000000
+*B4 00
+*B7 000000000000000000000000
+*PR 3400400133038000
+*VZ 03
+*CE 1
+*VK ipzSeries
+*FC ********
+*DS 4-WAY  PROC CUOD
+*YL U2C4E.001.DBJ0041-P3-C28
+*RT VINI
+*FG XXPF
+*CC 54A8
+*SN YA1932217692
+*FN 00E6818
+*PN 00E6818
+*HE 0001
+*CT 40110004
+*HW 0001
+*B3 000000000000
+*B4 00
+*B7 000000000000000000000000
+*PR 3400400133038000
+*VZ 03
+*CE 1
+*VK ipzSeries
+*FC ********
+*DS PROC2 REGULATOR 
+*YL U2C4E.001.DBJ0041-P3-C29
+*RT VINI
+*FG XXRG
+*CC 2BF8
+*SN YL10245A0100
+*PN 00E6367
+*FN  00E6367
+*CE 1
+*VZ 01
+*VK RS6K
+*FC ********
+*DS A IBM AC PS     
+*YL U2C4E.001.DBJ0041-E1
+*RT VINI
+*FG XXPS
+*CC 2BED
+*SN YL10247C0281
+*PN 00FW422
+*FN  00FW422
+*VK RS6K
+*FC ********
+*DS A IBM AC PS     
+*YL U2C4E.001.DBJ0041-E2
+*RT VINI
+*FG XXPS
+*CC 2BED
+*SN YL1024890600
+*PN 00FW422
+*FN  00FW422
+*VK RS6K
+*FC ********
+*DS IBM Air Mover   
+*YL U2C4E.001.DBJ0041-A1
+*RT VINI
+*FG XXAM
+*CC 6B1A
+*FN  46K4939
+*VK RS6K
+*FC ********
+*DS IBM Air Mover   
+*YL U2C4E.001.DBJ0041-A2
+*RT VINI
+*FG XXAM
+*CC 6B1A
+*FN  46K4939
+*VK RS6K
+*FC ********
+*DS IBM Air Mover   
+*YL U2C4E.001.DBJ0041-A3
+*RT VINI
+*FG XXAM
+*CC 6B1A
+*FN  46K4939
+*VK RS6K
+*FC ********
+*DS IBM Air Mover   
+*YL U2C4E.001.DBJ0041-A4
+*RT VINI
+*FG XXAM
+*CC 6B1A
+*FN  46K4939
+*VK RS6K
+*FC ********
+*DS IBM Air Mover   
+*YL U2C4E.001.DBJ0041-A5
+*RT VINI
+*FG XXAM
+*CC 6B1A
+*FN  46K4939
+*VK RS6K
+*FC ********
+*DS System Firmware
+*YL U9179.MHD.21ADA1V-Y1
+*CL Phyp_1 09532014102880A00701
+*CL PFW 15112014100181CF0681
+*CL FSP_Ker 09562014121181E00100
+*CL FSP_Fil 10022014121181E00109
+*CL FipS_BU 10022014121181E00208
+*CL Phyp_2 09532014102885A00702
+*CL SPCN3 124620060531A0E00A11
+*CL SPCN1 183020070213A0E00D00
+*CL SPCN2 183420070213A0E00D20
+*MI AM780_068 AM780_059 AM780_068
+*ML FW780.21 FW780.11 FW780.21
+*FC ========
+*DS PCIe2 10GbE SFP+ SR 4-port Converged Network Adapter (df1020e214100f04)
+*AX ent0
+*PL 01-00
+*CD 1014040f
+*PN 00E3497
+*SN 1A42700063
+*EC D77535
+*CC 2B93
+*RM 10.2.252.9
+*YL U2C4E.001.DBJ0043-P2-C3-T1
+*FC ========
+*DS PCIe2 10GbE SFP+ SR 4-port Converged Network Adapter (df1020e214100f04)
+*AX ent1
+*PL 01-01
+*CD 1014040f
+*PN 00E3497
+*SN 1A42700063
+*EC D77535
+*CC 2B93
+*RM 10.2.252.9
+*YL U2C4E.001.DBJ0043-P2-C3-T2
+*FC ========
+*DS PCIe2 100/1000 Base-TX 4-port Converged Network Adapter (df1020e214103c04)
+*AX ent2
+*PL 01-02
+*CD 1014043c
+*PN 00E3497
+*SN 1A42700063
+*EC D77535
+*CC 2B93
+*RM 10.2.252.9
+*YL U2C4E.001.DBJ0043-P2-C3-T3
+*FC ========
+*DS PCIe2 100/1000 Base-TX 4-port Converged Network Adapter (df1020e214103c04)
+*AX ent3
+*PL 01-03
+*CD 1014043c
+*PN 00E3497
+*SN 1A42700063
+*EC D77535
+*CC 2B93
+*RM 10.2.252.9
+*YL U2C4E.001.DBJ0043-P2-C3-T4
+*FC ========
+*DS PCIe2 10Gb 4-Port FCoE Adapter (df1060e214101004)
+*AX fcs0
+*PL 01-04
+*CD 10140410
+*PN 00E3497
+*SN 1A42700063
+*EC D77535
+*CC 2B93
+*MF 001A
+*FN 00E3498
+*Z0 0000000B
+*Z1 00000030
+*Z2 00000000
+*Z3 08090000
+*Z4 00003001
+*Z5 2E323532
+*Z6 2E323532
+*Z7 C0022B40
+*Z8 20000090FA77151E
+*Z9 10.2.252.9
+*ZA 10.2.252.9
+*ZB 30313233
+*ZC 00040000
+*ZD 000000FF
+*YL U2C4E.001.DBJ0043-P2-C3-T1
+*FC ========
+*DS PCIe2 10Gb 4-Port FCoE Adapter (df1060e214101004)
+*AX fcs1
+*PL 01-05
+*CD 10140410
+*PN 00E3497
+*SN 1A42700063
+*EC D77535
+*CC 2B93
+*MF 001A
+*FN 00E3498
+*Z0 0000000B
+*Z1 00000030
+*Z2 00000000
+*Z3 08090000
+*Z4 00013101
+*Z5 2E323532
+*Z6 2E323532
+*Z7 C0022B40
+*Z8 20000090FA77151F
+*Z9 10.2.252.9
+*ZA 10.2.252.9
+*ZB 30313233
+*ZC 00040000
+*ZD 000000FF
+*YL U2C4E.001.DBJ0043-P2-C3-T2
+*FC ========
+*DS PCI Express Bus
+*AX pci8
+*PL 02-00
+*CD 10b58616
+*YL U2C4E.001.DBJ0043-P2-C2
+*FC ========
+*DS PCI Express Bus
+*AX pci9
+*PL 08-20
+*CD 10b58616
+*YL U2C4E.001.DBJ0043-P2-C2
+*FC ========
+*DS PCI Express Bus
+*AX pci10
+*PL 08-28
+*CD 10b58616
+*YL U2C4E.001.DBJ0043-P2-C2
+*FC ========
+*DS PCIe2 4-Port 8Gb FC Adapter (df1000f114100104)
+*AX fcs2
+*PL 0A-00
+*CD 10140401
+*PN 74Y3467
+*SN 1A446003BC
+*MF 001A
+*EC  D77075
+*CC 5729
+*FN 74Y3467
+*ZM 3
+*RL 027820B7
+*Z0 31004549
+*Z1 00000000
+*Z2 00000000
+*Z3 09030909
+*Z4 FF781150
+*Z5 027820B7
+*Z6 077320B7
+*Z7 0B7C20B7
+*Z8 20000120FA8AABEC
+*ZA U2D2.02X7 
+*ZB U3K2.02X7 
+*ZC 00000000
+*YL U2C4E.001.DBJ0043-P2-C2-T1
+*FC ========
+*DS PCIe2 4-Port 8Gb FC Adapter (df1000f114100104)
+*AX fcs3
+*PL 0A-01
+*CD 10140401
+*PN 74Y3467
+*SN 1A446003BC
+*MF 001A
+*EC  D77075
+*CC 5729
+*FN 74Y3467
+*ZM 3
+*RL 027820B7
+*Z0 31004549
+*Z1 00000000
+*Z2 00000000
+*Z3 09030909
+*Z4 FF781150
+*Z5 027820B7
+*Z6 077320B7
+*Z7 0B7C20B7
+*Z8 20000120FA8AABED
+*ZA U2D2.02X7 
+*ZB U3K2.02X7 
+*ZC 00000000
+*YL U2C4E.001.DBJ0043-P2-C2-T2
+*FC ========
+*DS PCI Express Bus
+*AX pci11
+*PL 08-30
+*CD 10b58616
+*YL U2C4E.001.DBJ0043-P2-C2
+*FC ========
+*DS PCIe2 4-Port 8Gb FC Adapter (df1000f114100104)
+*AX fcs4
+*PL 0B-00
+*CD 10140401
+*PN 74Y3467
+*SN 1A446003BC
+*MF 001A
+*EC  D77075
+*CC 5729
+*FN 74Y3467
+*ZM 3
+*RL 027820B7
+*Z0 31004549
+*Z1 00000000
+*Z2 00000000
+*Z3 09030909
+*Z4 FF781150
+*Z5 027820B7
+*Z6 077320B7
+*Z7 0B7C20B7
+*Z8 20000120FA8AABEE
+*ZA U2D2.02X7 
+*ZB U3K2.02X7 
+*ZC 00000000
+*YL U2C4E.001.DBJ0043-P2-C2-T3
+*FC ========
+*DS PCIe2 4-Port 8Gb FC Adapter (df1000f114100104)
+*AX fcs5
+*PL 0B-01
+*CD 10140401
+*PN 74Y3467
+*SN 1A446003BC
+*MF 001A
+*EC  D77075
+*CC 5729
+*FN 74Y3467
+*ZM 3
+*RL 027820B7
+*Z0 31004549
+*Z1 00000000
+*Z2 00000000
+*Z3 09030909
+*Z4 FF781150
+*Z5 027820B7
+*Z6 077320B7
+*Z7 0B7C20B7
+*Z8 20000120FA8AABEF
+*ZA U2D2.02X7 
+*ZB U3K2.02X7 
+*ZC 00000000
+*YL U2C4E.001.DBJ0043-P2-C2-T4
+*FC ========
+*DS PCI Express Bus
+*AX pci12
+*PL 03-00
+*CD 10b58616
+*YL U2C4E.001.DBJ0043-P2-C1
+*FC ========
+*DS PCI Express Bus
+*AX pci13
+*PL 0C-20
+*CD 10b58616
+*YL U2C4E.001.DBJ0043-P2-C1
+*FC ========
+*DS PCI Express Bus
+*AX pci14
+*PL 0C-28
+*CD 10b58616
+*YL U2C4E.001.DBJ0043-P2-C1
+*FC ========
+*DS PCIe2 4-Port 8Gb FC Adapter (df1000f114100104)
+*AX fcs6
+*PL 0E-00
+*CD 10140401
+*PN 74Y3467
+*SN 1A446003B2
+*MF 001A
+*EC  D77075
+*CC 5729
+*FN 74Y3467
+*ZM 3
+*RL 027820B7
+*Z0 31004549
+*Z1 00000000
+*Z2 00000000
+*Z3 09030909
+*Z4 FF781150
+*Z5 027820B7
+*Z6 077320B7
+*Z7 0B7C20B7
+*Z8 20000120FA8AAC30
+*ZA U2D2.02X7 
+*ZB U3K2.02X7 
+*ZC 00000000
+*YL U2C4E.001.DBJ0043-P2-C1-T1
+*FC ========
+*DS PCIe2 4-Port 8Gb FC Adapter (df1000f114100104)
+*AX fcs7
+*PL 0E-01
+*CD 10140401
+*PN 74Y3467
+*SN 1A446003B2
+*MF 001A
+*EC  D77075
+*CC 5729
+*FN 74Y3467
+*ZM 3
+*RL 027820B7
+*Z0 31004549
+*Z1 00000000
+*Z2 00000000
+*Z3 09030909
+*Z4 FF781150
+*Z5 027820B7
+*Z6 077320B7
+*Z7 0B7C20B7
+*Z8 20000120FA8AAC31
+*ZA U2D2.02X7 
+*ZB U3K2.02X7 
+*ZC 00000000
+*YL U2C4E.001.DBJ0043-P2-C1-T2
+*FC ========
+*DS PCI Express Bus
+*AX pci15
+*PL 0C-30
+*CD 10b58616
+*YL U2C4E.001.DBJ0043-P2-C1
+*FC ========
+*DS PCIe2 4-Port 8Gb FC Adapter (df1000f114100104)
+*AX fcs8
+*PL 0F-00
+*CD 10140401
+*PN 74Y3467
+*SN 1A446003B2
+*MF 001A
+*EC  D77075
+*CC 5729
+*FN 74Y3467
+*ZM 3
+*RL 027820B7
+*Z0 31004549
+*Z1 00000000
+*Z2 00000000
+*Z3 09030909
+*Z4 FF781150
+*Z5 027820B7
+*Z6 077320B7
+*Z7 0B7C20B7
+*Z8 20000120FA8AAC32
+*ZA U2D2.02X7 
+*ZB U3K2.02X7 
+*ZC 00000000
+*YL U2C4E.001.DBJ0043-P2-C1-T3
+*FC ========
+*DS PCIe2 4-Port 8Gb FC Adapter (df1000f114100104)
+*AX fcs9
+*PL 0F-01
+*CD 10140401
+*PN 74Y3467
+*SN 1A446003B2
+*MF 001A
+*EC  D77075
+*CC 5729
+*FN 74Y3467
+*ZM 3
+*RL 027820B7
+*Z0 31004549
+*Z1 00000000
+*Z2 00000000
+*Z3 09030909
+*Z4 FF781150
+*Z5 027820B7
+*Z6 077320B7
+*Z7 0B7C20B7
+*Z8 20000120FA8AAC33
+*ZA U2D2.02X7 
+*ZB U3K2.02X7 
+*ZC 00000000
+*YL U2C4E.001.DBJ0043-P2-C1-T4
+*FC ========
+*DS PCI Express x8 Planar 3Gb SAS Adapter
+*CD 1014033a
+*YL U2C4E.001.DBJ0043-P2-C9-T1
+*PN 0000000
+*FN 0000000
+*SN YL3000000001
+*MN 0000
+*EC 0
+*RM 0422003f
+*CC 57C7
+*Z1 0
+*FC ========
+*DS PCI Express x8 Planar 3Gb SAS Adapter
+*CD 1014033a
+*YL U2C4E.001.DBJ0043-P2-C9-T2
+*PN 0000000
+*FN 0000000
+*SN YL3000000001
+*MN 0000
+*EC 0
+*RM 0422003f
+*CC 57C7
+*Z1 0
+*FC ========
+*DS PCIe2 10GbE SFP+ SR 4-port Converged Network Adapter (df1020e214100f04)
+*AX ent4
+*PL 06-00
+*CD 1014040f
+*PN 00E3497
+*SN 1A4390002D
+*EC D77535
+*CC 2B93
+*RM 10.2.252.9
+*YL U2C4E.001.DBJ0043-P2-C6-T1
+*FC ========
+*DS PCIe2 10GbE SFP+ SR 4-port Converged Network Adapter (df1020e214100f04)
+*AX ent5
+*PL 06-01
+*CD 1014040f
+*PN 00E3497
+*SN 1A4390002D
+*EC D77535
+*CC 2B93
+*RM 10.2.252.9
+*YL U2C4E.001.DBJ0043-P2-C6-T2
+*FC ========
+*DS PCIe2 100/1000 Base-TX 4-port Converged Network Adapter (df1020e214103c04)
+*AX ent6
+*PL 06-02
+*CD 1014043c
+*PN 00E3497
+*SN 1A4390002D
+*EC D77535
+*CC 2B93
+*RM 10.2.252.9
+*YL U2C4E.001.DBJ0043-P2-C6-T3
+*FC ========
+*DS PCIe2 100/1000 Base-TX 4-port Converged Network Adapter (df1020e214103c04)
+*AX ent7
+*PL 06-03
+*CD 1014043c
+*PN 00E3497
+*SN 1A4390002D
+*EC D77535
+*CC 2B93
+*RM 10.2.252.9
+*YL U2C4E.001.DBJ0043-P2-C6-T4
+*FC ========
+*DS PCIe2 10Gb 4-Port FCoE Adapter (df1060e214101004)
+*AX fcs10
+*PL 06-04
+*CD 10140410
+*PN 00E3497
+*SN 1A4390002D
+*EC D77535
+*CC 2B93
+*MF 001A
+*FN 00E3498
+*Z0 0000000B
+*Z1 00000030
+*Z2 00000000
+*Z3 08090000
+*Z4 00003001
+*Z5 2E323532
+*Z6 2E323532
+*Z7 C0022B40
+*Z8 20000090FA7E992A
+*Z9 10.2.252.9
+*ZA 10.2.252.9
+*ZB 30313233
+*ZC 00040000
+*ZD 000000FF
+*YL U2C4E.001.DBJ0043-P2-C6-T1
+*FC ========
+*DS PCIe2 10Gb 4-Port FCoE Adapter (df1060e214101004)
+*AX fcs11
+*PL 06-05
+*CD 10140410
+*PN 00E3497
+*SN 1A4390002D
+*EC D77535
+*CC 2B93
+*MF 001A
+*FN 00E3498
+*Z0 0000000B
+*Z1 00000030
+*Z2 00000000
+*Z3 08090000
+*Z4 00013101
+*Z5 2E323532
+*Z6 2E323532
+*Z7 C0022B40
+*Z8 20000090FA7E992B
+*Z9 10.2.252.9
+*ZA 10.2.252.9
+*ZB 30313233
+*ZC 00040000
+*ZD 000000FF
+*YL U2C4E.001.DBJ0043-P2-C6-T2
+*FC ========
+*DS PCI Express Bus
+*AX pci16
+*PL 07-00
+*CD 10b58616
+*YL U2C4E.001.DBJ0043-P2-C5
+*FC ========
+*DS PCI Express Bus
+*AX pci17
+*PL 0G-20
+*CD 10b58616
+*YL U2C4E.001.DBJ0043-P2-C5
+*FC ========
+*DS PCI Express Bus
+*AX pci18
+*PL 0G-28
+*CD 10b58616
+*YL U2C4E.001.DBJ0043-P2-C5
+*FC ========
+*DS PCIe2 4-Port 8Gb FC Adapter (df1000f114100104)
+*AX fcs12
+*PL 0I-00
+*CD 10140401
+*PN 74Y3467
+*SN 1A446003E5
+*MF 001A
+*EC  D77075
+*CC 5729
+*FN 74Y3467
+*ZM 3
+*RL 027820B7
+*Z0 31004549
+*Z1 00000000
+*Z2 00000000
+*Z3 09030909
+*Z4 FF781150
+*Z5 027820B7
+*Z6 077320B7
+*Z7 0B7C20B7
+*Z8 20000120FA8A9DAA
+*ZA U2D2.02X7 
+*ZB U3K2.02X7 
+*ZC 00000000
+*YL U2C4E.001.DBJ0043-P2-C5-T1
+*FC ========
+*DS PCIe2 4-Port 8Gb FC Adapter (df1000f114100104)
+*AX fcs13
+*PL 0I-01
+*CD 10140401
+*PN 74Y3467
+*SN 1A446003E5
+*MF 001A
+*EC  D77075
+*CC 5729
+*FN 74Y3467
+*ZM 3
+*RL 027820B7
+*Z0 31004549
+*Z1 00000000
+*Z2 00000000
+*Z3 09030909
+*Z4 FF781150
+*Z5 027820B7
+*Z6 077320B7
+*Z7 0B7C20B7
+*Z8 20000120FA8A9DAB
+*ZA U2D2.02X7 
+*ZB U3K2.02X7 
+*ZC 00000000
+*YL U2C4E.001.DBJ0043-P2-C5-T2
+*FC ========
+*DS PCI Express Bus
+*AX pci19
+*PL 0G-30
+*CD 10b58616
+*YL U2C4E.001.DBJ0043-P2-C5
+*FC ========
+*DS PCIe2 4-Port 8Gb FC Adapter (df1000f114100104)
+*AX fcs14
+*PL 0J-00
+*CD 10140401
+*PN 74Y3467
+*SN 1A446003E5
+*MF 001A
+*EC  D77075
+*CC 5729
+*FN 74Y3467
+*ZM 3
+*RL 027820B7
+*Z0 31004549
+*Z1 00000000
+*Z2 00000000
+*Z3 09030909
+*Z4 FF781150
+*Z5 027820B7
+*Z6 077320B7
+*Z7 0B7C20B7
+*Z8 20000120FA8A9DAC
+*ZA U2D2.02X7 
+*ZB U3K2.02X7 
+*ZC 00000000
+*YL U2C4E.001.DBJ0043-P2-C5-T3
+*FC ========
+*DS PCIe2 4-Port 8Gb FC Adapter (df1000f114100104)
+*AX fcs15
+*PL 0J-01
+*CD 10140401
+*PN 74Y3467
+*SN 1A446003E5
+*MF 001A
+*EC  D77075
+*CC 5729
+*FN 74Y3467
+*ZM 3
+*RL 027820B7
+*Z0 31004549
+*Z1 00000000
+*Z2 00000000
+*Z3 09030909
+*Z4 FF781150
+*Z5 027820B7
+*Z6 077320B7
+*Z7 0B7C20B7
+*Z8 20000120FA8A9DAD
+*ZA U2D2.02X7 
+*ZB U3K2.02X7 
+*ZC 00000000
+*YL U2C4E.001.DBJ0043-P2-C5-T4
+*FC ========
+*DS Controller SAS Protocol
+*AX sas0
+*PL 00-00-00
+*YL U2C4E.001.DBJ0043-P2-T3
+*FC ========
+*DS Controller SATA Protocol
+*AX sata0
+*PL 00-00-00
+*YL U2C4E.001.DBJ0043-P2-T3
+*FC ========
+*DS Controller SAS Protocol
+*AX sas1
+*PL 04-00-00
+*YL U2C4E.001.DBJ0043-P2-C9-T1
+*FC ========
+*DS Controller SATA Protocol
+*AX sata1
+*PL 04-00-00
+*YL U2C4E.001.DBJ0043-P2-C9-T1
+*FC ========
+*DS Controller SAS Protocol
+*AX sas2
+*PL 05-00-00
+*YL U2C4E.001.DBJ0043-P2-C9-T2
+*FC ========
+*DS Controller SATA Protocol
+*AX sata2
+*PL 05-00-00
+*YL U2C4E.001.DBJ0043-P2-C9-T2
+*FC ========
+*DS SAS Enclosure Services Device
+*AX ses0
+*PL 00-00-00
+*RM   04
+*YL U2C4E.001.DBJ0043-P2-C9-Y1
+*FC ========
+*DS SATA DVD-RAM Drive
+*AX cd0
+*PL 00-00-00
+*MF IBM.    
+*TM RMBO0140532     
+*RL RA64
+*Z0 058002028F000030
+*PN 00RW610     
+*EC N99020    
+*FN 00RW611     
+*YL U2C4E.001.DBJ0043-P2-C9-D7
+*FC ========
+*DS SAS Enclosure Services Device
+*AX ses1
+*PL 04-00-00
+*FN 00E7753
+*SN YL13D4325206
+*CC 2BBE
+*ZM 2
+*LI A1700DE4
+*RM 0011
+*YL U2C4E.001.DBJ0043-P2-C9-Y2
+*FC ========
+*DS SAS Enclosure Services Device
+*AX ses2
+*PL 04-00-00
+*FN 00E7753
+*SN YL13D4325206
+*CC 2BBE
+*ZM 2
+*LI A1700DE4
+*RM 0011
+*YL U2C4E.001.DBJ0043-P2-C9-Y1
+*FC ========
+*DS Physical SAS Solid State Drive
+*AX pdisk0
+*PL 04-00-00
+*MF IBM     
+*TM HUSML4040ASS600 
+*FN 74Y9524     
+*RL 41333342
+*SN XYW0YK3A
+*EC L36403    
+*PN 74Y9523     
+*Z0 000006329F003002
+*Z1 MLIPA33B    
+*Z2 0068
+*Z3 14247
+*Z4 
+*Z5 22
+*Z6 L36403    
+*YL U2C4E.001.DBJ0043-P2-C9-D1
+*FC ========
+*DS SAS Enclosure Services Device
+*AX ses3
+*PL 05-00-00
+*FN 00E7753
+*SN YL13D4325206
+*CC 2BBE
+*ZM 2
+*LI A1700DE4
+*RM 0011
+*YL U2C4E.001.DBJ0043-P2-C9-Y2
+*FC ========
+*DS SAS Enclosure Services Device
+*AX ses4
+*PL 05-00-00
+*FN 00E7753
+*SN YL13D4325206
+*CC 2BBE
+*ZM 2
+*LI A1700DE4
+*RM 0011
+*YL U2C4E.001.DBJ0043-P2-C9-Y1
+*FC ========
+*DS Physical SAS Solid State Drive
+*AX pdisk1
+*PL 05-00-00
+*MF IBM     
+*TM HUSML4040ASS600 
+*FN 74Y9524     
+*RL 41333342
+*SN XYW0UB9A
+*EC L36403    
+*PN 74Y9523     
+*Z0 000006329F001002
+*Z1 MLIPA33B    
+*Z2 0068
+*Z3 14247
+*Z4 
+*Z5 22
+*Z6 L36403    
+*YL U2C4E.001.DBJ0043-P2-C9-D4
+*FC ========
+*DS FC SCSI I/O Controller Protocol Device
+*AX fscsi0
+*PL 01-04-01
+*CD 10140410
+*YL U2C4E.001.DBJ0043-P2-C3-T1
+*FC ========
+*DS FC SCSI I/O Controller Protocol Device
+*AX fscsi1
+*PL 01-05-01
+*CD 10140410
+*YL U2C4E.001.DBJ0043-P2-C3-T2
+*FC ========
+*DS FC SCSI I/O Controller Protocol Device
+*AX fscsi2
+*PL 0A-00-02
+*CD 10140401
+*YL U2C4E.001.DBJ0043-P2-C2-T1
+*FC ========
+*DS FC SCSI I/O Controller Protocol Device
+*AX fscsi3
+*PL 0A-01-02
+*CD 10140401
+*YL U2C4E.001.DBJ0043-P2-C2-T2
+*FC ========
+*DS FC SCSI I/O Controller Protocol Device
+*AX fscsi4
+*PL 0B-00-02
+*CD 10140401
+*YL U2C4E.001.DBJ0043-P2-C2-T3
+*FC ========
+*DS FC SCSI I/O Controller Protocol Device
+*AX fscsi5
+*PL 0B-01-02
+*CD 10140401
+*YL U2C4E.001.DBJ0043-P2-C2-T4
+*FC ========
+*DS FC SCSI I/O Controller Protocol Device
+*AX fscsi6
+*PL 0E-00-02
+*CD 10140401
+*YL U2C4E.001.DBJ0043-P2-C1-T1
+*FC ========
+*DS FC SCSI I/O Controller Protocol Device
+*AX fscsi7
+*PL 0E-01-02
+*CD 10140401
+*YL U2C4E.001.DBJ0043-P2-C1-T2
+*FC ========
+*DS FC SCSI I/O Controller Protocol Device
+*AX fscsi8
+*PL 0F-00-02
+*CD 10140401
+*YL U2C4E.001.DBJ0043-P2-C1-T3
+*FC ========
+*DS FC SCSI I/O Controller Protocol Device
+*AX fscsi9
+*PL 0F-01-02
+*CD 10140401
+*YL U2C4E.001.DBJ0043-P2-C1-T4
+*FC ========
+*DS FC SCSI I/O Controller Protocol Device
+*AX fscsi10
+*PL 06-04-01
+*CD 10140410
+*YL U2C4E.001.DBJ0043-P2-C6-T1
+*FC ========
+*DS FC SCSI I/O Controller Protocol Device
+*AX fscsi11
+*PL 06-05-01
+*CD 10140410
+*YL U2C4E.001.DBJ0043-P2-C6-T2
+*FC ========
+*DS FC SCSI I/O Controller Protocol Device
+*AX fscsi12
+*PL 0I-00-02
+*CD 10140401
+*YL U2C4E.001.DBJ0043-P2-C5-T1
+*FC ========
+*DS FC SCSI I/O Controller Protocol Device
+*AX fscsi13
+*PL 0I-01-02
+*CD 10140401
+*YL U2C4E.001.DBJ0043-P2-C5-T2
+*FC ========
+*DS FC SCSI I/O Controller Protocol Device
+*AX fscsi14
+*PL 0J-00-02
+*CD 10140401
+*YL U2C4E.001.DBJ0043-P2-C5-T3
+*FC ========
+*DS FC SCSI I/O Controller Protocol Device
+*AX fscsi15
+*PL 0J-01-02
+*CD 10140401
+*YL U2C4E.001.DBJ0043-P2-C5-T4
+*FC ========
+*DS MPIO IBM FlashSystem Disk
+*AX hdisk174
+*PL 0B-00-02
+*MF IBM     
+*TM FlashSystem-9840
+*RL 31313336
+*SN 420a6284
+*Z0 000005325B001002
+*Z1 420a-0000-0
+*YL U2C4E.001.DBJ0043-P2-C2-T3-W500507605E82FB42-L42000000000000
+*FC ========
+*DS MPIO IBM FlashSystem Disk
+*AX hdisk175
+*PL 0B-00-02
+*MF IBM     
+*TM FlashSystem-9840
+*RL 31313336
+*SN 420a6284
+*Z0 000005325B001002
+*Z1 420a-0000-0
+*YL U2C4E.001.DBJ0043-P2-C2-T3-W500507605E82FB42-L43000000000000
+*FC ========
+*DS MPIO IBM FlashSystem Disk
+*AX hdisk176
+*PL 0B-00-02
+*MF IBM     
+*TM FlashSystem-9840
+*RL 31313336
+*SN 420a6284
+*Z0 000005325B001002
+*Z1 420a-0000-0
+*YL U2C4E.001.DBJ0043-P2-C2-T3-W500507605E82FB42-L44000000000000
+*FC ========
+*DS MPIO IBM FlashSystem Disk
+*AX hdisk177
+*PL 0B-00-02
+*MF IBM     
+*TM FlashSystem-9840
+*RL 31313336
+*SN 420a6284
+*Z0 000005325B001002
+*Z1 420a-0000-0
+*YL U2C4E.001.DBJ0043-P2-C2-T3-W500507605E82FB42-L45000000000000
+*FC ========
+*DS MPIO IBM FlashSystem Disk
+*AX hdisk178
+*PL 0B-00-02
+*MF IBM     
+*TM FlashSystem-9840
+*RL 31313336
+*SN 420a6284
+*Z0 000005325B001002
+*Z1 420a-0000-0
+*YL U2C4E.001.DBJ0043-P2-C2-T3-W500507605E82FB42-L46000000000000
+*FC ========
+*DS MPIO IBM FlashSystem Disk
+*AX hdisk179
+*PL 0B-00-02
+*MF IBM     
+*TM FlashSystem-9840
+*RL 31313336
+*SN 420a6284
+*Z0 000005325B001002
+*Z1 420a-0000-0
+*YL U2C4E.001.DBJ0043-P2-C2-T3-W500507605E82FB42-L47000000000000
+*FC ========
+*DS MPIO IBM FlashSystem Disk
+*AX hdisk180
+*PL 0B-00-02
+*MF IBM     
+*TM FlashSystem-9840
+*RL 31313336
+*SN 420a6284
+*Z0 000005325B001002
+*Z1 420a-0000-0
+*YL U2C4E.001.DBJ0043-P2-C2-T3-W500507605E82FB42-L48000000000000
+*FC ========
+*DS MPIO IBM FlashSystem Disk
+*AX hdisk181
+*PL 0B-00-02
+*MF IBM     
+*TM FlashSystem-9840
+*RL 31313336
+*SN 420a6284
+*Z0 000005325B001002
+*Z1 420a-0000-0
+*YL U2C4E.001.DBJ0043-P2-C2-T3-W500507605E82FB42-L49000000000000
+*FC ========
+*DS MPIO IBM FlashSystem Disk
+*AX hdisk182
+*PL 0B-00-02
+*MF IBM     
+*TM FlashSystem-9840
+*RL 31313336
+*SN 420a6284
+*Z0 000005325B001002
+*Z1 420a-0000-0
+*YL U2C4E.001.DBJ0043-P2-C2-T3-W500507605E82FB42-L4A000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk2
+*PL 0A-00-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81!v;000
+*PN 000000000000401954000292
+*EC 603381
+*LN 31C8
+*Z0 10
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C2-T1-W500009740834D550-L0
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk3
+*PL 0A-00-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81":?000
+*PN 000000000000401954000292
+*EC 603381
+*LN 388C
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C2-T1-W500009740834D550-L1000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk4
+*PL 0A-00-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81":k000
+*PN 000000000000401954000292
+*EC 603381
+*LN 38AC
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C2-T1-W500009740834D550-L2000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk5
+*PL 0A-00-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81";-000
+*PN 000000000000401954000292
+*EC 603381
+*LN 38CC
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C2-T1-W500009740834D550-L3000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk6
+*PL 0A-00-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81";]000
+*PN 000000000000401954000292
+*EC 603381
+*LN 38EC
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C2-T1-W500009740834D550-L4000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk7
+*PL 0A-00-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81"<%000
+*PN 000000000000401954000292
+*EC 603381
+*LN 390C
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C2-T1-W500009740834D550-L5000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk8
+*PL 0A-00-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81"<U000
+*PN 000000000000401954000292
+*EC 603381
+*LN 392C
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C2-T1-W500009740834D550-L6000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk9
+*PL 0A-00-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81"<{000
+*PN 000000000000401954000292
+*EC 603381
+*LN 394C
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C2-T1-W500009740834D550-L7000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk10
+*PL 0A-00-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81"=M000
+*PN 000000000000401954000292
+*EC 603381
+*LN 396C
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C2-T1-W500009740834D550-L8000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk11
+*PL 0A-00-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81"=s000
+*PN 000000000000401954000292
+*EC 603381
+*LN 398C
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C2-T1-W500009740834D550-L9000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk12
+*PL 0A-00-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81">?000
+*PN 000000000000401954000292
+*EC 603381
+*LN 39AC
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C2-T1-W500009740834D550-LA000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk13
+*PL 0A-00-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81">k000
+*PN 000000000000401954000292
+*EC 603381
+*LN 39CC
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C2-T1-W500009740834D550-LB000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk14
+*PL 0A-00-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81!v;000
+*PN 00000000000040194A000292
+*EC 603381
+*LN 31C8
+*Z0 10
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C2-T1-W500009740834D528-L0
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk15
+*PL 0A-00-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81":?000
+*PN 00000000000040194A000292
+*EC 603381
+*LN 388C
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C2-T1-W500009740834D528-L1000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk16
+*PL 0A-00-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81":k000
+*PN 00000000000040194A000292
+*EC 603381
+*LN 38AC
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C2-T1-W500009740834D528-L2000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk17
+*PL 0A-00-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81";-000
+*PN 00000000000040194A000292
+*EC 603381
+*LN 38CC
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C2-T1-W500009740834D528-L3000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk18
+*PL 0A-00-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81";]000
+*PN 00000000000040194A000292
+*EC 603381
+*LN 38EC
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C2-T1-W500009740834D528-L4000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk19
+*PL 0A-00-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81"<%000
+*PN 00000000000040194A000292
+*EC 603381
+*LN 390C
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C2-T1-W500009740834D528-L5000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk20
+*PL 0A-00-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81"<U000
+*PN 00000000000040194A000292
+*EC 603381
+*LN 392C
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C2-T1-W500009740834D528-L6000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk21
+*PL 0A-00-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81"<{000
+*PN 00000000000040194A000292
+*EC 603381
+*LN 394C
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C2-T1-W500009740834D528-L7000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk22
+*PL 0A-00-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81"=M000
+*PN 00000000000040194A000292
+*EC 603381
+*LN 396C
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C2-T1-W500009740834D528-L8000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk23
+*PL 0A-00-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81"=s000
+*PN 00000000000040194A000292
+*EC 603381
+*LN 398C
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C2-T1-W500009740834D528-L9000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk24
+*PL 0A-00-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81">?000
+*PN 00000000000040194A000292
+*EC 603381
+*LN 39AC
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C2-T1-W500009740834D528-LA000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk25
+*PL 0A-00-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81">k000
+*PN 00000000000040194A000292
+*EC 603381
+*LN 39CC
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C2-T1-W500009740834D528-LB000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk26
+*PL 0A-01-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81!v;000
+*PN 000000000000401945000292
+*EC 603381
+*LN 31C8
+*Z0 10
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C2-T2-W500009740834D514-L0
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk27
+*PL 0A-01-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81":?000
+*PN 000000000000401945000292
+*EC 603381
+*LN 388C
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C2-T2-W500009740834D514-L1000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk28
+*PL 0A-01-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81":k000
+*PN 000000000000401945000292
+*EC 603381
+*LN 38AC
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C2-T2-W500009740834D514-L2000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk29
+*PL 0A-01-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81";-000
+*PN 000000000000401945000292
+*EC 603381
+*LN 38CC
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C2-T2-W500009740834D514-L3000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk30
+*PL 0A-01-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81";]000
+*PN 000000000000401945000292
+*EC 603381
+*LN 38EC
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C2-T2-W500009740834D514-L4000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk31
+*PL 0A-01-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81"<%000
+*PN 000000000000401945000292
+*EC 603381
+*LN 390C
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C2-T2-W500009740834D514-L5000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk32
+*PL 0A-01-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81"<U000
+*PN 000000000000401945000292
+*EC 603381
+*LN 392C
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C2-T2-W500009740834D514-L6000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk33
+*PL 0A-01-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81"<{000
+*PN 000000000000401945000292
+*EC 603381
+*LN 394C
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C2-T2-W500009740834D514-L7000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk34
+*PL 0A-01-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81"=M000
+*PN 000000000000401945000292
+*EC 603381
+*LN 396C
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C2-T2-W500009740834D514-L8000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk35
+*PL 0A-01-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81"=s000
+*PN 000000000000401945000292
+*EC 603381
+*LN 398C
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C2-T2-W500009740834D514-L9000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk36
+*PL 0A-01-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81">?000
+*PN 000000000000401945000292
+*EC 603381
+*LN 39AC
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C2-T2-W500009740834D514-LA000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk37
+*PL 0A-01-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81">k000
+*PN 000000000000401945000292
+*EC 603381
+*LN 39CC
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C2-T2-W500009740834D514-LB000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk38
+*PL 0A-01-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81!v;000
+*PN 00000000000040195B000292
+*EC 603381
+*LN 31C8
+*Z0 10
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C2-T2-W500009740834D56C-L0
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk39
+*PL 0A-01-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81":?000
+*PN 00000000000040195B000292
+*EC 603381
+*LN 388C
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C2-T2-W500009740834D56C-L1000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk40
+*PL 0A-01-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81":k000
+*PN 00000000000040195B000292
+*EC 603381
+*LN 38AC
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C2-T2-W500009740834D56C-L2000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk41
+*PL 0A-01-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81";-000
+*PN 00000000000040195B000292
+*EC 603381
+*LN 38CC
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C2-T2-W500009740834D56C-L3000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk42
+*PL 0A-01-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81";]000
+*PN 00000000000040195B000292
+*EC 603381
+*LN 38EC
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C2-T2-W500009740834D56C-L4000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk43
+*PL 0A-01-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81"<%000
+*PN 00000000000040195B000292
+*EC 603381
+*LN 390C
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C2-T2-W500009740834D56C-L5000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk44
+*PL 0A-01-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81"<U000
+*PN 00000000000040195B000292
+*EC 603381
+*LN 392C
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C2-T2-W500009740834D56C-L6000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk45
+*PL 0A-01-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81"<{000
+*PN 00000000000040195B000292
+*EC 603381
+*LN 394C
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C2-T2-W500009740834D56C-L7000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk46
+*PL 0A-01-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81"=M000
+*PN 00000000000040195B000292
+*EC 603381
+*LN 396C
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C2-T2-W500009740834D56C-L8000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk47
+*PL 0A-01-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81"=s000
+*PN 00000000000040195B000292
+*EC 603381
+*LN 398C
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C2-T2-W500009740834D56C-L9000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk48
+*PL 0A-01-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81">?000
+*PN 00000000000040195B000292
+*EC 603381
+*LN 39AC
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C2-T2-W500009740834D56C-LA000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk49
+*PL 0A-01-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81">k000
+*PN 00000000000040195B000292
+*EC 603381
+*LN 39CC
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C2-T2-W500009740834D56C-LB000000000000
+*FC ========
+*DS MPIO IBM FlashSystem Disk
+*AX hdisk50
+*PL 0B-00-02
+*MF IBM     
+*TM FlashSystem-9840
+*RL 31313336
+*SN 420a6284
+*Z0 000005325B001002
+*Z1 420a-0000-0
+*YL U2C4E.001.DBJ0043-P2-C2-T3-W500507605E82FB42-L0
+*FC ========
+*DS MPIO IBM FlashSystem Disk
+*AX hdisk51
+*PL 0B-00-02
+*MF IBM     
+*TM FlashSystem-9840
+*RL 31313336
+*SN 420a6284
+*Z0 000005325B001002
+*Z1 420a-0000-0
+*YL U2C4E.001.DBJ0043-P2-C2-T3-W500507605E82FB42-L1000000000000
+*FC ========
+*DS MPIO IBM FlashSystem Disk
+*AX hdisk52
+*PL 0B-00-02
+*MF IBM     
+*TM FlashSystem-9840
+*RL 31313336
+*SN 420a6284
+*Z0 000005325B001002
+*Z1 420a-0000-0
+*YL U2C4E.001.DBJ0043-P2-C2-T3-W500507605E82FB42-L2000000000000
+*FC ========
+*DS MPIO IBM FlashSystem Disk
+*AX hdisk53
+*PL 0B-00-02
+*MF IBM     
+*TM FlashSystem-9840
+*RL 31313336
+*SN 420a6284
+*Z0 000005325B001002
+*Z1 420a-0000-0
+*YL U2C4E.001.DBJ0043-P2-C2-T3-W500507605E82FB42-L3000000000000
+*FC ========
+*DS MPIO IBM FlashSystem Disk
+*AX hdisk54
+*PL 0B-00-02
+*MF IBM     
+*TM FlashSystem-9840
+*RL 31313336
+*SN 420a6284
+*Z0 000005325B001002
+*Z1 420a-0000-0
+*YL U2C4E.001.DBJ0043-P2-C2-T3-W500507605E82FB42-L4000000000000
+*FC ========
+*DS MPIO IBM FlashSystem Disk
+*AX hdisk55
+*PL 0B-00-02
+*MF IBM     
+*TM FlashSystem-9840
+*RL 31313336
+*SN 420a6284
+*Z0 000005325B001002
+*Z1 420a-0000-0
+*YL U2C4E.001.DBJ0043-P2-C2-T3-W500507605E82FB42-L5000000000000
+*FC ========
+*DS MPIO IBM FlashSystem Disk
+*AX hdisk56
+*PL 0B-00-02
+*MF IBM     
+*TM FlashSystem-9840
+*RL 31313336
+*SN 420a6284
+*Z0 000005325B001002
+*Z1 420a-0000-0
+*YL U2C4E.001.DBJ0043-P2-C2-T3-W500507605E82FB42-L6000000000000
+*FC ========
+*DS MPIO IBM FlashSystem Disk
+*AX hdisk57
+*PL 0B-00-02
+*MF IBM     
+*TM FlashSystem-9840
+*RL 31313336
+*SN 420a6284
+*Z0 000005325B001002
+*Z1 420a-0000-0
+*YL U2C4E.001.DBJ0043-P2-C2-T3-W500507605E82FB42-L7000000000000
+*FC ========
+*DS MPIO IBM FlashSystem Disk
+*AX hdisk58
+*PL 0B-00-02
+*MF IBM     
+*TM FlashSystem-9840
+*RL 31313336
+*SN 420a6284
+*Z0 000005325B001002
+*Z1 420a-0000-0
+*YL U2C4E.001.DBJ0043-P2-C2-T3-W500507605E82FB42-L8000000000000
+*FC ========
+*DS MPIO IBM FlashSystem Disk
+*AX hdisk59
+*PL 0B-00-02
+*MF IBM     
+*TM FlashSystem-9840
+*RL 31313336
+*SN 420a6284
+*Z0 000005325B001002
+*Z1 420a-0000-0
+*YL U2C4E.001.DBJ0043-P2-C2-T3-W500507605E82FB42-L9000000000000
+*FC ========
+*DS MPIO IBM FlashSystem Disk
+*AX hdisk60
+*PL 0B-00-02
+*MF IBM     
+*TM FlashSystem-9840
+*RL 31313336
+*SN 420a6284
+*Z0 000005325B001002
+*Z1 420a-0000-0
+*YL U2C4E.001.DBJ0043-P2-C2-T3-W500507605E82FB42-LA000000000000
+*FC ========
+*DS MPIO IBM FlashSystem Disk
+*AX hdisk61
+*PL 0B-00-02
+*MF IBM     
+*TM FlashSystem-9840
+*RL 31313336
+*SN 420a6284
+*Z0 000005325B001002
+*Z1 420a-0000-0
+*YL U2C4E.001.DBJ0043-P2-C2-T3-W500507605E82FB42-LB000000000000
+*FC ========
+*DS MPIO IBM FlashSystem Disk
+*AX hdisk62
+*PL 0B-00-02
+*MF IBM     
+*TM FlashSystem-9840
+*RL 31313336
+*SN 420a6284
+*Z0 000005325B001002
+*Z1 420a-0000-0
+*YL U2C4E.001.DBJ0043-P2-C2-T3-W500507605E82FB42-LC000000000000
+*FC ========
+*DS MPIO IBM FlashSystem Disk
+*AX hdisk63
+*PL 0B-00-02
+*MF IBM     
+*TM FlashSystem-9840
+*RL 31313336
+*SN 420a6284
+*Z0 000005325B001002
+*Z1 420a-0000-0
+*YL U2C4E.001.DBJ0043-P2-C2-T3-W500507605E82FB42-LD000000000000
+*FC ========
+*DS MPIO IBM FlashSystem Disk
+*AX hdisk64
+*PL 0B-00-02
+*MF IBM     
+*TM FlashSystem-9840
+*RL 31313336
+*SN 420a6284
+*Z0 000005325B001002
+*Z1 420a-0000-0
+*YL U2C4E.001.DBJ0043-P2-C2-T3-W500507605E82FB42-LE000000000000
+*FC ========
+*DS MPIO IBM FlashSystem Disk
+*AX hdisk65
+*PL 0B-00-02
+*MF IBM     
+*TM FlashSystem-9840
+*RL 31313336
+*SN 420a6284
+*Z0 000005325B001002
+*Z1 420a-0000-0
+*YL U2C4E.001.DBJ0043-P2-C2-T3-W500507605E82FB42-LF000000000000
+*FC ========
+*DS MPIO IBM FlashSystem Disk
+*AX hdisk66
+*PL 0B-00-02
+*MF IBM     
+*TM FlashSystem-9840
+*RL 31313336
+*SN 420a6284
+*Z0 000005325B001002
+*Z1 420a-0000-0
+*YL U2C4E.001.DBJ0043-P2-C2-T3-W500507605E82FB42-L10000000000000
+*FC ========
+*DS MPIO IBM FlashSystem Disk
+*AX hdisk67
+*PL 0B-00-02
+*MF IBM     
+*TM FlashSystem-9840
+*RL 31313336
+*SN 420a6284
+*Z0 000005325B001002
+*Z1 420a-0000-0
+*YL U2C4E.001.DBJ0043-P2-C2-T3-W500507605E82FB42-L11000000000000
+*FC ========
+*DS MPIO IBM FlashSystem Disk
+*AX hdisk68
+*PL 0B-00-02
+*MF IBM     
+*TM FlashSystem-9840
+*RL 31313336
+*SN 420a6284
+*Z0 000005325B001002
+*Z1 420a-0000-0
+*YL U2C4E.001.DBJ0043-P2-C2-T3-W500507605E82FB42-L12000000000000
+*FC ========
+*DS MPIO IBM FlashSystem Disk
+*AX hdisk69
+*PL 0B-00-02
+*MF IBM     
+*TM FlashSystem-9840
+*RL 31313336
+*SN 420a6284
+*Z0 000005325B001002
+*Z1 420a-0000-0
+*YL U2C4E.001.DBJ0043-P2-C2-T3-W500507605E82FB42-L13000000000000
+*FC ========
+*DS MPIO IBM FlashSystem Disk
+*AX hdisk70
+*PL 0B-00-02
+*MF IBM     
+*TM FlashSystem-9840
+*RL 31313336
+*SN 420a6284
+*Z0 000005325B001002
+*Z1 420a-0000-0
+*YL U2C4E.001.DBJ0043-P2-C2-T3-W500507605E82FB42-L14000000000000
+*FC ========
+*DS MPIO IBM FlashSystem Disk
+*AX hdisk71
+*PL 0B-00-02
+*MF IBM     
+*TM FlashSystem-9840
+*RL 31313336
+*SN 420a6284
+*Z0 000005325B001002
+*Z1 420a-0000-0
+*YL U2C4E.001.DBJ0043-P2-C2-T3-W500507605E82FB42-L15000000000000
+*FC ========
+*DS MPIO IBM FlashSystem Disk
+*AX hdisk72
+*PL 0B-00-02
+*MF IBM     
+*TM FlashSystem-9840
+*RL 31313336
+*SN 420a6284
+*Z0 000005325B001002
+*Z1 420a-0000-0
+*YL U2C4E.001.DBJ0043-P2-C2-T3-W500507605E82FB42-L16000000000000
+*FC ========
+*DS MPIO IBM FlashSystem Disk
+*AX hdisk73
+*PL 0B-00-02
+*MF IBM     
+*TM FlashSystem-9840
+*RL 31313336
+*SN 420a6284
+*Z0 000005325B001002
+*Z1 420a-0000-0
+*YL U2C4E.001.DBJ0043-P2-C2-T3-W500507605E82FB42-L17000000000000
+*FC ========
+*DS MPIO IBM FlashSystem Disk
+*AX hdisk74
+*PL 0B-00-02
+*MF IBM     
+*TM FlashSystem-9840
+*RL 31313336
+*SN 420a6284
+*Z0 000005325B001002
+*Z1 420a-0000-0
+*YL U2C4E.001.DBJ0043-P2-C2-T3-W500507605E82FB42-L18000000000000
+*FC ========
+*DS MPIO IBM FlashSystem Disk
+*AX hdisk75
+*PL 0B-00-02
+*MF IBM     
+*TM FlashSystem-9840
+*RL 31313336
+*SN 420a6284
+*Z0 000005325B001002
+*Z1 420a-0000-0
+*YL U2C4E.001.DBJ0043-P2-C2-T3-W500507605E82FB42-L19000000000000
+*FC ========
+*DS MPIO IBM FlashSystem Disk
+*AX hdisk76
+*PL 0B-00-02
+*MF IBM     
+*TM FlashSystem-9840
+*RL 31313336
+*SN 420a6284
+*Z0 000005325B001002
+*Z1 420a-0000-0
+*YL U2C4E.001.DBJ0043-P2-C2-T3-W500507605E82FB42-L1A000000000000
+*FC ========
+*DS MPIO IBM FlashSystem Disk
+*AX hdisk77
+*PL 0B-00-02
+*MF IBM     
+*TM FlashSystem-9840
+*RL 31313336
+*SN 420a6284
+*Z0 000005325B001002
+*Z1 420a-0000-0
+*YL U2C4E.001.DBJ0043-P2-C2-T3-W500507605E82FB42-L1B000000000000
+*FC ========
+*DS MPIO IBM FlashSystem Disk
+*AX hdisk78
+*PL 0B-00-02
+*MF IBM     
+*TM FlashSystem-9840
+*RL 31313336
+*SN 420a6284
+*Z0 000005325B001002
+*Z1 420a-0000-0
+*YL U2C4E.001.DBJ0043-P2-C2-T3-W500507605E82FB42-L1C000000000000
+*FC ========
+*DS MPIO IBM FlashSystem Disk
+*AX hdisk79
+*PL 0B-00-02
+*MF IBM     
+*TM FlashSystem-9840
+*RL 31313336
+*SN 420a6284
+*Z0 000005325B001002
+*Z1 420a-0000-0
+*YL U2C4E.001.DBJ0043-P2-C2-T3-W500507605E82FB42-L1D000000000000
+*FC ========
+*DS MPIO IBM FlashSystem Disk
+*AX hdisk80
+*PL 0B-00-02
+*MF IBM     
+*TM FlashSystem-9840
+*RL 31313336
+*SN 420a6284
+*Z0 000005325B001002
+*Z1 420a-0000-0
+*YL U2C4E.001.DBJ0043-P2-C2-T3-W500507605E82FB42-L1E000000000000
+*FC ========
+*DS MPIO IBM FlashSystem Disk
+*AX hdisk81
+*PL 0B-00-02
+*MF IBM     
+*TM FlashSystem-9840
+*RL 31313336
+*SN 420a6284
+*Z0 000005325B001002
+*Z1 420a-0000-0
+*YL U2C4E.001.DBJ0043-P2-C2-T3-W500507605E82FB42-L1F000000000000
+*FC ========
+*DS MPIO IBM FlashSystem Disk
+*AX hdisk82
+*PL 0B-00-02
+*MF IBM     
+*TM FlashSystem-9840
+*RL 31313336
+*SN 420a6284
+*Z0 000005325B001002
+*Z1 420a-0000-0
+*YL U2C4E.001.DBJ0043-P2-C2-T3-W500507605E82FB42-L20000000000000
+*FC ========
+*DS MPIO IBM FlashSystem Disk
+*AX hdisk83
+*PL 0B-00-02
+*MF IBM     
+*TM FlashSystem-9840
+*RL 31313336
+*SN 420a6284
+*Z0 000005325B001002
+*Z1 420a-0000-0
+*YL U2C4E.001.DBJ0043-P2-C2-T3-W500507605E82FB42-L21000000000000
+*FC ========
+*DS MPIO IBM FlashSystem Disk
+*AX hdisk84
+*PL 0B-00-02
+*MF IBM     
+*TM FlashSystem-9840
+*RL 31313336
+*SN 420a6284
+*Z0 000005325B001002
+*Z1 420a-0000-0
+*YL U2C4E.001.DBJ0043-P2-C2-T3-W500507605E82FB42-L22000000000000
+*FC ========
+*DS MPIO IBM FlashSystem Disk
+*AX hdisk85
+*PL 0B-00-02
+*MF IBM     
+*TM FlashSystem-9840
+*RL 31313336
+*SN 420a6284
+*Z0 000005325B001002
+*Z1 420a-0000-0
+*YL U2C4E.001.DBJ0043-P2-C2-T3-W500507605E82FB42-L23000000000000
+*FC ========
+*DS MPIO IBM FlashSystem Disk
+*AX hdisk86
+*PL 0B-00-02
+*MF IBM     
+*TM FlashSystem-9840
+*RL 31313336
+*SN 420a6284
+*Z0 000005325B001002
+*Z1 420a-0000-0
+*YL U2C4E.001.DBJ0043-P2-C2-T3-W500507605E82FB42-L24000000000000
+*FC ========
+*DS MPIO IBM FlashSystem Disk
+*AX hdisk87
+*PL 0B-00-02
+*MF IBM     
+*TM FlashSystem-9840
+*RL 31313336
+*SN 420a6284
+*Z0 000005325B001002
+*Z1 420a-0000-0
+*YL U2C4E.001.DBJ0043-P2-C2-T3-W500507605E82FB42-L25000000000000
+*FC ========
+*DS MPIO IBM FlashSystem Disk
+*AX hdisk88
+*PL 0B-00-02
+*MF IBM     
+*TM FlashSystem-9840
+*RL 31313336
+*SN 420a6284
+*Z0 000005325B001002
+*Z1 420a-0000-0
+*YL U2C4E.001.DBJ0043-P2-C2-T3-W500507605E82FB42-L26000000000000
+*FC ========
+*DS MPIO IBM FlashSystem Disk
+*AX hdisk89
+*PL 0B-00-02
+*MF IBM     
+*TM FlashSystem-9840
+*RL 31313336
+*SN 420a6284
+*Z0 000005325B001002
+*Z1 420a-0000-0
+*YL U2C4E.001.DBJ0043-P2-C2-T3-W500507605E82FB42-L27000000000000
+*FC ========
+*DS MPIO IBM FlashSystem Disk
+*AX hdisk90
+*PL 0B-00-02
+*MF IBM     
+*TM FlashSystem-9840
+*RL 31313336
+*SN 420a6284
+*Z0 000005325B001002
+*Z1 420a-0000-0
+*YL U2C4E.001.DBJ0043-P2-C2-T3-W500507605E82FB42-L28000000000000
+*FC ========
+*DS MPIO IBM FlashSystem Disk
+*AX hdisk91
+*PL 0B-00-02
+*MF IBM     
+*TM FlashSystem-9840
+*RL 31313336
+*SN 420a6284
+*Z0 000005325B001002
+*Z1 420a-0000-0
+*YL U2C4E.001.DBJ0043-P2-C2-T3-W500507605E82FB42-L29000000000000
+*FC ========
+*DS MPIO IBM FlashSystem Disk
+*AX hdisk92
+*PL 0B-00-02
+*MF IBM     
+*TM FlashSystem-9840
+*RL 31313336
+*SN 420a6284
+*Z0 000005325B001002
+*Z1 420a-0000-0
+*YL U2C4E.001.DBJ0043-P2-C2-T3-W500507605E82FB42-L2A000000000000
+*FC ========
+*DS MPIO IBM FlashSystem Disk
+*AX hdisk93
+*PL 0B-00-02
+*MF IBM     
+*TM FlashSystem-9840
+*RL 31313336
+*SN 420a6284
+*Z0 000005325B001002
+*Z1 420a-0000-0
+*YL U2C4E.001.DBJ0043-P2-C2-T3-W500507605E82FB42-L2B000000000000
+*FC ========
+*DS MPIO IBM FlashSystem Disk
+*AX hdisk94
+*PL 0B-00-02
+*MF IBM     
+*TM FlashSystem-9840
+*RL 31313336
+*SN 420a6284
+*Z0 000005325B001002
+*Z1 420a-0000-0
+*YL U2C4E.001.DBJ0043-P2-C2-T3-W500507605E82FB42-L2C000000000000
+*FC ========
+*DS MPIO IBM FlashSystem Disk
+*AX hdisk95
+*PL 0B-00-02
+*MF IBM     
+*TM FlashSystem-9840
+*RL 31313336
+*SN 420a6284
+*Z0 000005325B001002
+*Z1 420a-0000-0
+*YL U2C4E.001.DBJ0043-P2-C2-T3-W500507605E82FB42-L2D000000000000
+*FC ========
+*DS MPIO IBM FlashSystem Disk
+*AX hdisk96
+*PL 0B-00-02
+*MF IBM     
+*TM FlashSystem-9840
+*RL 31313336
+*SN 420a6284
+*Z0 000005325B001002
+*Z1 420a-0000-0
+*YL U2C4E.001.DBJ0043-P2-C2-T3-W500507605E82FB42-L2E000000000000
+*FC ========
+*DS MPIO IBM FlashSystem Disk
+*AX hdisk97
+*PL 0B-00-02
+*MF IBM     
+*TM FlashSystem-9840
+*RL 31313336
+*SN 420a6284
+*Z0 000005325B001002
+*Z1 420a-0000-0
+*YL U2C4E.001.DBJ0043-P2-C2-T3-W500507605E82FB42-L2F000000000000
+*FC ========
+*DS MPIO IBM FlashSystem Disk
+*AX hdisk98
+*PL 0B-00-02
+*MF IBM     
+*TM FlashSystem-9840
+*RL 31313336
+*SN 420a6284
+*Z0 000005325B001002
+*Z1 420a-0000-0
+*YL U2C4E.001.DBJ0043-P2-C2-T3-W500507605E82FB42-L30000000000000
+*FC ========
+*DS MPIO IBM FlashSystem Disk
+*AX hdisk99
+*PL 0B-00-02
+*MF IBM     
+*TM FlashSystem-9840
+*RL 31313336
+*SN 420a6284
+*Z0 000005325B001002
+*Z1 420a-0000-0
+*YL U2C4E.001.DBJ0043-P2-C2-T3-W500507605E82FB42-L31000000000000
+*FC ========
+*DS MPIO IBM FlashSystem Disk
+*AX hdisk100
+*PL 0B-00-02
+*MF IBM     
+*TM FlashSystem-9840
+*RL 31313336
+*SN 420a6284
+*Z0 000005325B001002
+*Z1 420a-0000-0
+*YL U2C4E.001.DBJ0043-P2-C2-T3-W500507605E82FB42-L32000000000000
+*FC ========
+*DS MPIO IBM FlashSystem Disk
+*AX hdisk101
+*PL 0B-00-02
+*MF IBM     
+*TM FlashSystem-9840
+*RL 31313336
+*SN 420a6284
+*Z0 000005325B001002
+*Z1 420a-0000-0
+*YL U2C4E.001.DBJ0043-P2-C2-T3-W500507605E82FB42-L33000000000000
+*FC ========
+*DS MPIO IBM FlashSystem Disk
+*AX hdisk102
+*PL 0B-00-02
+*MF IBM     
+*TM FlashSystem-9840
+*RL 31313336
+*SN 420a6284
+*Z0 000005325B001002
+*Z1 420a-0000-0
+*YL U2C4E.001.DBJ0043-P2-C2-T3-W500507605E82FB42-L34000000000000
+*FC ========
+*DS MPIO IBM FlashSystem Disk
+*AX hdisk103
+*PL 0B-00-02
+*MF IBM     
+*TM FlashSystem-9840
+*RL 31313336
+*SN 420a6284
+*Z0 000005325B001002
+*Z1 420a-0000-0
+*YL U2C4E.001.DBJ0043-P2-C2-T3-W500507605E82FB42-L35000000000000
+*FC ========
+*DS MPIO IBM FlashSystem Disk
+*AX hdisk104
+*PL 0B-00-02
+*MF IBM     
+*TM FlashSystem-9840
+*RL 31313336
+*SN 420a6284
+*Z0 000005325B001002
+*Z1 420a-0000-0
+*YL U2C4E.001.DBJ0043-P2-C2-T3-W500507605E82FB42-L36000000000000
+*FC ========
+*DS MPIO IBM FlashSystem Disk
+*AX hdisk105
+*PL 0B-00-02
+*MF IBM     
+*TM FlashSystem-9840
+*RL 31313336
+*SN 420a6284
+*Z0 000005325B001002
+*Z1 420a-0000-0
+*YL U2C4E.001.DBJ0043-P2-C2-T3-W500507605E82FB42-L37000000000000
+*FC ========
+*DS MPIO IBM FlashSystem Disk
+*AX hdisk106
+*PL 0B-00-02
+*MF IBM     
+*TM FlashSystem-9840
+*RL 31313336
+*SN 420a6284
+*Z0 000005325B001002
+*Z1 420a-0000-0
+*YL U2C4E.001.DBJ0043-P2-C2-T3-W500507605E82FB42-L38000000000000
+*FC ========
+*DS MPIO IBM FlashSystem Disk
+*AX hdisk107
+*PL 0B-00-02
+*MF IBM     
+*TM FlashSystem-9840
+*RL 31313336
+*SN 420a6284
+*Z0 000005325B001002
+*Z1 420a-0000-0
+*YL U2C4E.001.DBJ0043-P2-C2-T3-W500507605E82FB42-L39000000000000
+*FC ========
+*DS MPIO IBM FlashSystem Disk
+*AX hdisk108
+*PL 0B-00-02
+*MF IBM     
+*TM FlashSystem-9840
+*RL 31313336
+*SN 420a6284
+*Z0 000005325B001002
+*Z1 420a-0000-0
+*YL U2C4E.001.DBJ0043-P2-C2-T3-W500507605E82FB42-L3A000000000000
+*FC ========
+*DS MPIO IBM FlashSystem Disk
+*AX hdisk109
+*PL 0B-00-02
+*MF IBM     
+*TM FlashSystem-9840
+*RL 31313336
+*SN 420a6284
+*Z0 000005325B001002
+*Z1 420a-0000-0
+*YL U2C4E.001.DBJ0043-P2-C2-T3-W500507605E82FB42-L3B000000000000
+*FC ========
+*DS MPIO IBM FlashSystem Disk
+*AX hdisk110
+*PL 0B-00-02
+*MF IBM     
+*TM FlashSystem-9840
+*RL 31313336
+*SN 420a6284
+*Z0 000005325B001002
+*Z1 420a-0000-0
+*YL U2C4E.001.DBJ0043-P2-C2-T3-W500507605E82FB42-L3C000000000000
+*FC ========
+*DS MPIO IBM FlashSystem Disk
+*AX hdisk111
+*PL 0B-00-02
+*MF IBM     
+*TM FlashSystem-9840
+*RL 31313336
+*SN 420a6284
+*Z0 000005325B001002
+*Z1 420a-0000-0
+*YL U2C4E.001.DBJ0043-P2-C2-T3-W500507605E82FB42-L3D000000000000
+*FC ========
+*DS MPIO IBM FlashSystem Disk
+*AX hdisk112
+*PL 0B-00-02
+*MF IBM     
+*TM FlashSystem-9840
+*RL 31313336
+*SN 420a6284
+*Z0 000005325B001002
+*Z1 420a-0000-0
+*YL U2C4E.001.DBJ0043-P2-C2-T3-W500507605E82FB42-L3E000000000000
+*FC ========
+*DS MPIO IBM FlashSystem Disk
+*AX hdisk113
+*PL 0B-00-02
+*MF IBM     
+*TM FlashSystem-9840
+*RL 31313336
+*SN 420a6284
+*Z0 000005325B001002
+*Z1 420a-0000-0
+*YL U2C4E.001.DBJ0043-P2-C2-T3-W500507605E82FB42-L3F000000000000
+*FC ========
+*DS MPIO IBM FlashSystem Disk
+*AX hdisk114
+*PL 0B-00-02
+*MF IBM     
+*TM FlashSystem-9840
+*RL 31313336
+*SN 420a6284
+*Z0 000005325B001002
+*Z1 420a-0000-0
+*YL U2C4E.001.DBJ0043-P2-C2-T3-W500507605E82FB42-L40000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk115
+*PL 0E-00-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81!v;000
+*PN 000000000000401954000292
+*EC 603381
+*LN 31C8
+*Z0 10
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C1-T1-W500009740834D550-L0
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk116
+*PL 0E-00-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81":?000
+*PN 000000000000401954000292
+*EC 603381
+*LN 388C
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C1-T1-W500009740834D550-L1000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk117
+*PL 0E-00-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81":k000
+*PN 000000000000401954000292
+*EC 603381
+*LN 38AC
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C1-T1-W500009740834D550-L2000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk118
+*PL 0E-00-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81";-000
+*PN 000000000000401954000292
+*EC 603381
+*LN 38CC
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C1-T1-W500009740834D550-L3000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk119
+*PL 0E-00-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81";]000
+*PN 000000000000401954000292
+*EC 603381
+*LN 38EC
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C1-T1-W500009740834D550-L4000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk120
+*PL 0E-00-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81"<%000
+*PN 000000000000401954000292
+*EC 603381
+*LN 390C
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C1-T1-W500009740834D550-L5000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk121
+*PL 0E-00-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81"<U000
+*PN 000000000000401954000292
+*EC 603381
+*LN 392C
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C1-T1-W500009740834D550-L6000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk122
+*PL 0E-00-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81"<{000
+*PN 000000000000401954000292
+*EC 603381
+*LN 394C
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C1-T1-W500009740834D550-L7000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk123
+*PL 0E-00-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81"=M000
+*PN 000000000000401954000292
+*EC 603381
+*LN 396C
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C1-T1-W500009740834D550-L8000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk124
+*PL 0E-00-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81"=s000
+*PN 000000000000401954000292
+*EC 603381
+*LN 398C
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C1-T1-W500009740834D550-L9000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk125
+*PL 0E-00-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81">?000
+*PN 000000000000401954000292
+*EC 603381
+*LN 39AC
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C1-T1-W500009740834D550-LA000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk126
+*PL 0E-00-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81">k000
+*PN 000000000000401954000292
+*EC 603381
+*LN 39CC
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C1-T1-W500009740834D550-LB000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk127
+*PL 0E-00-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81!v;000
+*PN 00000000000040194A000292
+*EC 603381
+*LN 31C8
+*Z0 10
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C1-T1-W500009740834D528-L0
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk128
+*PL 0E-00-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81":?000
+*PN 00000000000040194A000292
+*EC 603381
+*LN 388C
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C1-T1-W500009740834D528-L1000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk129
+*PL 0E-00-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81":k000
+*PN 00000000000040194A000292
+*EC 603381
+*LN 38AC
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C1-T1-W500009740834D528-L2000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk130
+*PL 0E-00-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81";-000
+*PN 00000000000040194A000292
+*EC 603381
+*LN 38CC
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C1-T1-W500009740834D528-L3000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk131
+*PL 0E-00-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81";]000
+*PN 00000000000040194A000292
+*EC 603381
+*LN 38EC
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C1-T1-W500009740834D528-L4000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk132
+*PL 0E-00-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81"<%000
+*PN 00000000000040194A000292
+*EC 603381
+*LN 390C
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C1-T1-W500009740834D528-L5000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk133
+*PL 0E-00-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81"<U000
+*PN 00000000000040194A000292
+*EC 603381
+*LN 392C
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C1-T1-W500009740834D528-L6000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk134
+*PL 0E-00-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81"<{000
+*PN 00000000000040194A000292
+*EC 603381
+*LN 394C
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C1-T1-W500009740834D528-L7000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk135
+*PL 0E-00-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81"=M000
+*PN 00000000000040194A000292
+*EC 603381
+*LN 396C
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C1-T1-W500009740834D528-L8000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk136
+*PL 0E-00-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81"=s000
+*PN 00000000000040194A000292
+*EC 603381
+*LN 398C
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C1-T1-W500009740834D528-L9000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk137
+*PL 0E-00-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81">?000
+*PN 00000000000040194A000292
+*EC 603381
+*LN 39AC
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C1-T1-W500009740834D528-LA000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk138
+*PL 0E-00-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81">k000
+*PN 00000000000040194A000292
+*EC 603381
+*LN 39CC
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C1-T1-W500009740834D528-LB000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk139
+*PL 0E-01-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81!v;000
+*PN 000000000000401945000292
+*EC 603381
+*LN 31C8
+*Z0 10
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C1-T2-W500009740834D514-L0
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk140
+*PL 0E-01-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81":?000
+*PN 000000000000401945000292
+*EC 603381
+*LN 388C
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C1-T2-W500009740834D514-L1000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk141
+*PL 0E-01-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81":k000
+*PN 000000000000401945000292
+*EC 603381
+*LN 38AC
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C1-T2-W500009740834D514-L2000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk142
+*PL 0E-01-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81";-000
+*PN 000000000000401945000292
+*EC 603381
+*LN 38CC
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C1-T2-W500009740834D514-L3000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk143
+*PL 0E-01-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81";]000
+*PN 000000000000401945000292
+*EC 603381
+*LN 38EC
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C1-T2-W500009740834D514-L4000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk144
+*PL 0E-01-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81"<%000
+*PN 000000000000401945000292
+*EC 603381
+*LN 390C
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C1-T2-W500009740834D514-L5000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk145
+*PL 0E-01-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81"<U000
+*PN 000000000000401945000292
+*EC 603381
+*LN 392C
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C1-T2-W500009740834D514-L6000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk146
+*PL 0E-01-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81"<{000
+*PN 000000000000401945000292
+*EC 603381
+*LN 394C
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C1-T2-W500009740834D514-L7000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk147
+*PL 0E-01-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81"=M000
+*PN 000000000000401945000292
+*EC 603381
+*LN 396C
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C1-T2-W500009740834D514-L8000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk148
+*PL 0E-01-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81"=s000
+*PN 000000000000401945000292
+*EC 603381
+*LN 398C
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C1-T2-W500009740834D514-L9000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk149
+*PL 0E-01-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81">?000
+*PN 000000000000401945000292
+*EC 603381
+*LN 39AC
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C1-T2-W500009740834D514-LA000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk150
+*PL 0E-01-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81">k000
+*PN 000000000000401945000292
+*EC 603381
+*LN 39CC
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C1-T2-W500009740834D514-LB000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk151
+*PL 0E-01-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81!v;000
+*PN 00000000000040195B000292
+*EC 603381
+*LN 31C8
+*Z0 10
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C1-T2-W500009740834D56C-L0
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk152
+*PL 0E-01-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81":?000
+*PN 00000000000040195B000292
+*EC 603381
+*LN 388C
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C1-T2-W500009740834D56C-L1000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk153
+*PL 0E-01-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81":k000
+*PN 00000000000040195B000292
+*EC 603381
+*LN 38AC
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C1-T2-W500009740834D56C-L2000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk154
+*PL 0E-01-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81";-000
+*PN 00000000000040195B000292
+*EC 603381
+*LN 38CC
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C1-T2-W500009740834D56C-L3000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk155
+*PL 0E-01-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81";]000
+*PN 00000000000040195B000292
+*EC 603381
+*LN 38EC
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C1-T2-W500009740834D56C-L4000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk156
+*PL 0E-01-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81"<%000
+*PN 00000000000040195B000292
+*EC 603381
+*LN 390C
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C1-T2-W500009740834D56C-L5000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk157
+*PL 0E-01-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81"<U000
+*PN 00000000000040195B000292
+*EC 603381
+*LN 392C
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C1-T2-W500009740834D56C-L6000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk158
+*PL 0E-01-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81"<{000
+*PN 00000000000040195B000292
+*EC 603381
+*LN 394C
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C1-T2-W500009740834D56C-L7000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk159
+*PL 0E-01-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81"=M000
+*PN 00000000000040195B000292
+*EC 603381
+*LN 396C
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C1-T2-W500009740834D56C-L8000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk160
+*PL 0E-01-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81"=s000
+*PN 00000000000040195B000292
+*EC 603381
+*LN 398C
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C1-T2-W500009740834D56C-L9000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk161
+*PL 0E-01-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81">?000
+*PN 00000000000040195B000292
+*EC 603381
+*LN 39AC
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C1-T2-W500009740834D56C-LA000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk162
+*PL 0E-01-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81">k000
+*PN 00000000000040195B000292
+*EC 603381
+*LN 39CC
+*Z0 20
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C1-T2-W500009740834D56C-LB000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk163
+*PL 0A-00-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81000000
+*PN 00000000000040194C000292
+*EC 603381
+*LN 0000
+*Z0 00
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 55B10000
+*Z5 9F80
+*Z6 41
+*YL U2C4E.001.DBJ0043-P2-C2-T1-W500009740834D530-LC000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk164
+*PL 0A-00-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81#Ht000
+*PN 00000000000040194C000292
+*EC 603381
+*LN 4F35
+*Z0 08
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541A0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C2-T1-W500009740834D530-LD000000000000
+*FC ********
+*DS Fibre Channel Network Interface
+*AX fc6
+*PL 0F-00-01
+*YL 
+*FC ********
+*DS Fibre Channel Network Interface
+*AX fc9
+*PL 0I-01-01
+*YL 
+*FC ========
+*DS MPIO IBM FlashSystem Disk
+*AX hdisk165
+*PL 0B-00-02
+*MF IBM     
+*TM FlashSystem-9840
+*RL 31313336
+*SN 420a6284
+*Z0 000005325B001002
+*Z1 420a-0000-0
+*YL U2C4E.001.DBJ0043-P2-C2-T3-W500507605E82FB42-L41000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk166
+*PL 0F-00-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81#Hl000
+*PN 00000000000040194C000292
+*EC 603381
+*LN 4F2D
+*Z0 08
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C1-T3-W500009740834D530-L0
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk167
+*PL 0F-00-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81#Ht000
+*PN 00000000000040194C000292
+*EC 603381
+*LN 4F35
+*Z0 08
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C1-T3-W500009740834D530-L1000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk168
+*PL 0F-00-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81#H|000
+*PN 00000000000040194C000292
+*EC 603381
+*LN 4F3D
+*Z0 08
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C1-T3-W500009740834D530-L2000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk169
+*PL 0F-00-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81#I&000
+*PN 00000000000040194C000292
+*EC 603381
+*LN 4F45
+*Z0 08
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C1-T3-W500009740834D530-L3000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk170
+*PL 0I-01-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81#Hl000
+*PN 00000000000040194D000292
+*EC 603381
+*LN 4F2D
+*Z0 08
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C5-T2-W500009740834D534-L0
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk171
+*PL 0I-01-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81#Ht000
+*PN 00000000000040194D000292
+*EC 603381
+*LN 4F35
+*Z0 08
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C5-T2-W500009740834D534-L1000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk172
+*PL 0I-01-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81#H|000
+*PN 00000000000040194D000292
+*EC 603381
+*LN 4F3D
+*Z0 08
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C5-T2-W500009740834D534-L2000000000000
+*FC ========
+*DS EMC Symmetrix FCP VRAID
+*AX hdisk173
+*PL 0I-01-02
+*MF EMC     
+*TM SYMMETRIX       
+*RL 5876
+*SN 81#I&000
+*PN 00000000000040194D000292
+*EC 603381
+*LN 4F45
+*Z0 08
+*Z1 40
+*Z2 000000300D9C09000260019C
+*Z3 12000000
+*Z4 541B0000
+*Z5 9F80
+*Z6 45
+*YL U2C4E.001.DBJ0043-P2-C5-T2-W500009740834D534-L3000000000000
+==== EXITED with rc 0 ====
+==== END lsvpd -mv  Tue Jul  7 12:47:16 CDT 2015 ====

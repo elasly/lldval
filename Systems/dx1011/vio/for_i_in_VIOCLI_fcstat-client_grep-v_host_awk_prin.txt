@@ -1,0 +1,288 @@
+==== This output can be found in Systems/dx1011/vio/for_i_in_VIOCLI_fcstat-client_grep-v_host_awk_prin.txt ====
+==== START for i in $($VIOCLI fcstat -client |grep -v host | awk '{print $3 ":" $2}' | cut -c 3-); do echo "\n### $VIOCLI fcstat -n $(echo $i | tr ':' ' ') ### \n" ; $VIOCLI fcstat -n $(echo $i | tr ':' ' '); done Tue Jul  7 13:44:17 CDT 2015 ====
+Error reading statistics information
+Invalid initiator world wide name
+Error reading statistics information
+Invalid initiator world wide name
+Invalid initiator world wide name
+Error reading statistics information
+Invalid initiator world wide name
+Invalid initiator world wide name
+Error reading statistics information
+Invalid initiator world wide name
+
+### /usr/ios/cli/ioscli fcstat -n 10000090FA4855AC fcs10 ### 
+
+
+FIBRE CHANNEL STATISTICS REPORT: fcs10
+
+Device Type: FC Adapter (adapter/pciex/df1000f11410010)
+Serial Number: 1C403081A1
+Option ROM Version: 027820B7
+ZA: U2D2.02X7 
+World Wide Node Name: 0x20000120FA4855AC
+World Wide Port Name: 0x10000090FA4855AC
+
+FC-4 TYPES:
+  Supported: 0x0000012000000000000000000000000000000000000000000000000000000000
+  Active:    0x0000010000000000000000000000000000000000000000000000000000000000
+Class of Service: 3
+Port Speed (supported): 8 GBIT
+Port Speed (running):   8 GBIT
+Port FC ID: 0x02FE80
+Port Type: Fabric
+Attention Type:   Link Up
+Topology:  Point to Point or Fabric
+
+Seconds Since Last Reset: 7101336         
+
+	Transmit Statistics	Receive Statistics
+	-------------------	------------------
+Frames: 3789720942      	2885212718      
+Words:  558539579136    	243237274112    
+
+LIP Count: 0               
+NOS Count: 0               
+Error Frames:  0               
+Dumped Frames: 0               
+Link Failure Count: 0               
+Loss of Sync Count: 0               
+Loss of Signal: 0               
+Primitive Seq Protocol Error Count: 0               
+Invalid Tx Word Count: 30              
+Invalid CRC Count: 0               
+
+IP over FC Adapter Driver Information
+  No DMA Resource Count: 0               
+  No Adapter Elements Count: 32941           
+
+FC SCSI Adapter Driver Information
+  No DMA Resource Count: 0               
+  No Adapter Elements Count: 32941           
+  No Command Resource Count: 0               
+
+IP over FC Traffic Statistics
+  Input Requests:   0               
+  Output Requests:  0               
+  Control Requests: 0               
+  Input Bytes:  0               
+  Output Bytes: 0               
+
+FC SCSI Traffic Statistics
+  Input Requests:   0               
+  Output Requests:  0               
+  Control Requests: 0               
+  Input Bytes:  0               
+  Output Bytes: 0               
+
+### /usr/ios/cli/ioscli fcstat -n C05076079D520006 fcs6 ### 
+
+
+### /usr/ios/cli/ioscli fcstat -n 10000090FA4855AD fcs11 ### 
+
+
+FIBRE CHANNEL STATISTICS REPORT: fcs11
+
+Device Type: FC Adapter (adapter/pciex/df1000f11410010)
+Serial Number: 1C403081A1
+Option ROM Version: 027820B7
+ZA: U2D2.02X7 
+World Wide Node Name: 0x20000120FA4855AD
+World Wide Port Name: 0x10000090FA4855AD
+
+FC-4 TYPES:
+  Supported: 0x0000012000000000000000000000000000000000000000000000000000000000
+  Active:    0x0000010000000000000000000000000000000000000000000000000000000000
+Class of Service: 3
+Port Speed (supported): 8 GBIT
+Port Speed (running):   8 GBIT
+Port FC ID: 0x02FE80
+Port Type: Fabric
+Attention Type:   Link Up
+Topology:  Point to Point or Fabric
+
+Seconds Since Last Reset: 7101337         
+
+	Transmit Statistics	Receive Statistics
+	-------------------	------------------
+Frames: 703198818       	644666145       
+Words:  529466552064    	156531337728    
+
+LIP Count: 0               
+NOS Count: 0               
+Error Frames:  0               
+Dumped Frames: 0               
+Link Failure Count: 0               
+Loss of Sync Count: 0               
+Loss of Signal: 0               
+Primitive Seq Protocol Error Count: 0               
+Invalid Tx Word Count: 27              
+Invalid CRC Count: 0               
+
+IP over FC Adapter Driver Information
+  No DMA Resource Count: 0               
+  No Adapter Elements Count: 1553            
+
+FC SCSI Adapter Driver Information
+  No DMA Resource Count: 0               
+  No Adapter Elements Count: 1553            
+  No Command Resource Count: 0               
+
+IP over FC Traffic Statistics
+  Input Requests:   0               
+  Output Requests:  0               
+  Control Requests: 0               
+  Input Bytes:  0               
+  Output Bytes: 0               
+
+FC SCSI Traffic Statistics
+  Input Requests:   0               
+  Output Requests:  0               
+  Control Requests: 0               
+  Input Bytes:  0               
+  Output Bytes: 0               
+
+### /usr/ios/cli/ioscli fcstat -n C05076084490001B fcs14 ### 
+
+
+### /usr/ios/cli/ioscli fcstat -n C05076084490000D fcs6 ### 
+
+
+### /usr/ios/cli/ioscli fcstat -n 10000090FA80CF5E fcs14 ### 
+
+
+FIBRE CHANNEL STATISTICS REPORT: fcs14
+
+Device Type: FC Adapter (adapter/pciex/df1000f11410010)
+Serial Number: 1A4460002E
+Option ROM Version: 027820B7
+ZA: U2D2.02X7 
+World Wide Node Name: 0x20000120FA80CF5E
+World Wide Port Name: 0x10000090FA80CF5E
+
+FC-4 TYPES:
+  Supported: 0x0000012000000000000000000000000000000000000000000000000000000000
+  Active:    0x0000010000000000000000000000000000000000000000000000000000000000
+Class of Service: 3
+Port Speed (supported): 8 GBIT
+Port Speed (running):   8 GBIT
+Port FC ID: 0x02FF80
+Port Type: Fabric
+Attention Type:   Link Up
+Topology:  Point to Point or Fabric
+
+Seconds Since Last Reset: 7101337         
+
+	Transmit Statistics	Receive Statistics
+	-------------------	------------------
+Frames: 541694021       	4181192165      
+Words:  452388704512    	873053151488    
+
+LIP Count: 0               
+NOS Count: 0               
+Error Frames:  0               
+Dumped Frames: 0               
+Link Failure Count: 0               
+Loss of Sync Count: 0               
+Loss of Signal: 0               
+Primitive Seq Protocol Error Count: 0               
+Invalid Tx Word Count: 38              
+Invalid CRC Count: 0               
+
+IP over FC Adapter Driver Information
+  No DMA Resource Count: 0               
+  No Adapter Elements Count: 1159            
+
+FC SCSI Adapter Driver Information
+  No DMA Resource Count: 0               
+  No Adapter Elements Count: 1159            
+  No Command Resource Count: 0               
+
+IP over FC Traffic Statistics
+  Input Requests:   0               
+  Output Requests:  0               
+  Control Requests: 0               
+  Input Bytes:  0               
+  Output Bytes: 0               
+
+FC SCSI Traffic Statistics
+  Input Requests:   0               
+  Output Requests:  0               
+  Control Requests: 0               
+  Input Bytes:  0               
+  Output Bytes: 0               
+
+### /usr/ios/cli/ioscli fcstat -n C05076084490001D fcs15 ### 
+
+
+### /usr/ios/cli/ioscli fcstat -n C05076084490000F fcs7 ### 
+
+
+### /usr/ios/cli/ioscli fcstat -n 10000090FA80CF5F fcs15 ### 
+
+
+FIBRE CHANNEL STATISTICS REPORT: fcs15
+
+Device Type: FC Adapter (adapter/pciex/df1000f11410010)
+Serial Number: 1A4460002E
+Option ROM Version: 027820B7
+ZA: U2D2.02X7 
+World Wide Node Name: 0x20000120FA80CF5F
+World Wide Port Name: 0x10000090FA80CF5F
+
+FC-4 TYPES:
+  Supported: 0x0000012000000000000000000000000000000000000000000000000000000000
+  Active:    0x0000010000000000000000000000000000000000000000000000000000000000
+Class of Service: 3
+Port Speed (supported): 8 GBIT
+Port Speed (running):   8 GBIT
+Port FC ID: 0x02FF80
+Port Type: Fabric
+Attention Type:   Link Up
+Topology:  Point to Point or Fabric
+
+Seconds Since Last Reset: 7101337         
+
+	Transmit Statistics	Receive Statistics
+	-------------------	------------------
+Frames: 1596522427      	631626170       
+Words:  519556969472    	137200924416    
+
+LIP Count: 0               
+NOS Count: 0               
+Error Frames:  0               
+Dumped Frames: 0               
+Link Failure Count: 0               
+Loss of Sync Count: 0               
+Loss of Signal: 0               
+Primitive Seq Protocol Error Count: 0               
+Invalid Tx Word Count: 33              
+Invalid CRC Count: 0               
+
+IP over FC Adapter Driver Information
+  No DMA Resource Count: 0               
+  No Adapter Elements Count: 41012           
+
+FC SCSI Adapter Driver Information
+  No DMA Resource Count: 0               
+  No Adapter Elements Count: 41012           
+  No Command Resource Count: 0               
+
+IP over FC Traffic Statistics
+  Input Requests:   0               
+  Output Requests:  0               
+  Control Requests: 0               
+  Input Bytes:  0               
+  Output Bytes: 0               
+
+FC SCSI Traffic Statistics
+  Input Requests:   0               
+  Output Requests:  0               
+  Control Requests: 0               
+  Input Bytes:  0               
+  Output Bytes: 0               
+
+### /usr/ios/cli/ioscli fcstat -n C05076079D520008 fcs7 ### 
+
+==== EXITED with rc 0 ====
+==== END for i in $($VIOCLI fcstat -client |grep -v host | awk '{print $3 ":" $2}' | cut -c 3-); do echo "\n### $VIOCLI fcstat -n $(echo $i | tr ':' ' ') ### \n" ; $VIOCLI fcstat -n $(echo $i | tr ':' ' '); done Tue Jul  7 13:44:18 CDT 2015 ====

@@ -1,0 +1,75 @@
+==== This output can be found in Systems/dx1011/storage/for_i_in_lspv_grep-iv_none_grep-v_Defined_awk_prin.txt ====
+==== START for i in $(lspv | grep -iv none | grep -v Defined | awk '{print $1}');do echo "### Disk: $i ### \n $(lspv -p $i | grep -wv $i) \n \n"; done Tue Jul  7 13:42:46 CDT 2015 ====
+### Disk: hdisk0 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-1     used    outer edge    hd5                 boot       N/A
+  2-145   free    outer edge                                   
+146-146   used    outer middle  hd6                 paging     N/A
+147-147   used    outer middle  livedump            jfs2       /var/adm/ras/livedump
+148-149   used    outer middle  lg_dumplv           sysdump    N/A
+150-159   used    outer middle  vioupdatelv         jfs2       /vioupdate
+160-289   free    outer middle                                 
+290-291   used    center        paging00            paging     N/A
+292-292   used    center        hd8                 jfs2log    N/A
+293-293   used    center        hd4                 jfs2       /
+294-301   used    center        hd2                 jfs2       /usr
+302-303   used    center        hd9var              jfs2       /var
+304-313   used    center        hd3                 jfs2       /tmp
+314-333   used    center        hd1                 jfs2       /home
+334-335   used    center        hd10opt             jfs2       /opt
+336-336   used    center        hd11admin           jfs2       /admin
+337-342   used    center        hd3                 jfs2       /tmp
+343-344   used    center        hd9var              jfs2       /var
+345-347   used    center        hd2                 jfs2       /usr
+348-433   free    center                                       
+434-577   free    inner middle                                 
+578-722   free    inner edge                                    
+ 
+
+### Disk: hdisk1 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-49    free    outer edge                                   
+ 50-169   used    outer edge    vhdisk3             jfs        N/A
+170-289   used    outer edge    vhdisk2             jfs        N/A
+290-409   used    outer middle  vhdisk0             jfs        N/A
+410-529   used    outer middle  vhdisk1             jfs        N/A
+530-578   used    outer middle  vhdisk4             jfs        N/A
+579-649   used    center        vhdisk4             jfs        N/A
+650-769   used    center        vhdisk5             jfs        N/A
+770-866   used    center        vhdisk6             jfs        N/A
+867-889   used    inner middle  vhdisk6             jfs        N/A
+890-1009  used    inner middle  vhdisk7             jfs        N/A
+1010-1129  used    inner middle  vhdisk8             jfs        N/A
+1130-1155  used    inner middle  vhdisk9             jfs        N/A
+1156-1249  used    inner edge    vhdisk9             jfs        N/A
+1250-1369  used    inner edge    VMLibrary           jfs2       /var/vio/VMLibrary
+1370-1444  free    inner edge                                    
+ 
+
+### Disk: hdisk2 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-1     used    outer edge    hd5                 boot       N/A
+  2-145   free    outer edge                                   
+146-146   used    outer middle  hd6                 paging     N/A
+147-147   used    outer middle  livedump            jfs2       /var/adm/ras/livedump
+148-167   used    outer middle  perfdatalv          jfs2       /perfdata
+168-289   free    outer middle                                 
+290-291   used    center        paging00            paging     N/A
+292-292   used    center        hd8                 jfs2log    N/A
+293-293   used    center        hd4                 jfs2       /
+294-301   used    center        hd2                 jfs2       /usr
+302-303   used    center        hd9var              jfs2       /var
+304-313   used    center        hd3                 jfs2       /tmp
+314-333   used    center        hd1                 jfs2       /home
+334-335   used    center        hd10opt             jfs2       /opt
+336-336   used    center        hd11admin           jfs2       /admin
+337-342   used    center        hd3                 jfs2       /tmp
+343-344   used    center        hd9var              jfs2       /var
+345-347   used    center        hd2                 jfs2       /usr
+348-433   free    center                                       
+434-577   free    inner middle                                 
+578-722   free    inner edge                                    
+ 
+
+==== EXITED with rc 0 ====
+==== END for i in $(lspv | grep -iv none | grep -v Defined | awk '{print $1}');do echo "### Disk: $i ### \n $(lspv -p $i | grep -wv $i) \n \n"; done Tue Jul  7 13:42:47 CDT 2015 ====

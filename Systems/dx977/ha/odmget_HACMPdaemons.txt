@@ -1,0 +1,53 @@
+==== This output can be found in Systems/dx977/ha/odmget_HACMPdaemons.txt ====
+==== START odmget HACMPdaemons Tue Jul  7 00:28:08 GST 2015 ====
+
+HACMPdaemons:
+	nodename = "DX977"
+	daemon = "clstrmgr"
+	type = "start"
+	object = "manage"
+	value = "auto"
+
+HACMPdaemons:
+	nodename = "DX977"
+	daemon = "clstrmgr"
+	type = "start"
+	object = "broadcast"
+	value = "false"
+
+HACMPdaemons:
+	nodename = "DX977"
+	daemon = "clinfo"
+	type = "start"
+	object = "time"
+	value = "true"
+
+HACMPdaemons:
+	nodename = "DX977"
+	daemon = "clstrmgr_scripts"
+	type = "resource_locator"
+	object = "DX977_RSG"
+	value = "UP"
+
+HACMPdaemons:
+	nodename = "DX977"
+	daemon = "clstrmgrES"
+	type = "stop"
+	object = "time"
+	value = "now"
+
+HACMPdaemons:
+	nodename = "DX977"
+	daemon = "clstrmgrES"
+	type = "stop"
+	object = "broadcast"
+	value = "false"
+
+HACMPdaemons:
+	nodename = "DX977"
+	daemon = "clstrmgrES"
+	type = "stop"
+	object = "mode"
+	value = "forced"
+==== EXITED with rc 0 ====
+==== END odmget HACMPdaemons Tue Jul  7 00:28:08 GST 2015 ====

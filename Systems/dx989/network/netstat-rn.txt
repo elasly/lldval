@@ -1,0 +1,25 @@
+==== This output can be found in Systems/dx989/network/netstat-rn.txt ====
+==== START netstat -rn Thu Aug  6 11:22:13 GST 2015 ====
+Routing tables
+Destination        Gateway           Flags   Refs     Use  If   Exp  Groups
+
+Route tree for Protocol Family 2 (Internet):
+default            10.51.226.1       UG        3      1440 en0      -      -   
+10.51.226.0        10.51.226.235     UHSb      0         0 en0      -      -   =>
+10.51.226/24       10.51.226.235     U         4      8293 en0      -      -   
+10.51.226.235      127.0.0.1         UGHS      1      1720 lo0      -      -   
+10.51.226.255      10.51.226.235     UHSb      0         1 en0      -      -   
+10.51.227.0        10.51.227.88      UHSb      0         0 en1      -      -   =>
+10.51.227/24       10.51.227.88      U         3      6906 en1      -      -   
+10.51.227.88       127.0.0.1         UGHS      0        29 lo0      -      -   
+10.51.227.255      10.51.227.88      UHSb      0         1 en1      -      -   
+10.51.229.0        10.51.229.235     UHSb      0         0 en2      -      -   =>
+10.51.229/24       10.51.229.235     U         3     10038 en2      -      -   
+10.51.229.235      127.0.0.1         UGHS      0        33 lo0      -      -   
+10.51.229.255      10.51.229.235     UHSb      2         9 en2      -      -   
+127/8              127.0.0.1         U        12       950 lo0      -      -   
+
+Route tree for Protocol Family 24 (Internet v6):
+::1%1              ::1%1             UH        1       106 lo0      -      -   
+==== EXITED with rc 0 ====
+==== END netstat -rn Thu Aug  6 11:22:13 GST 2015 ====

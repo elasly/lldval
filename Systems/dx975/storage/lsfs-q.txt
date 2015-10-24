@@ -1,0 +1,24 @@
+==== This output can be found in Systems/dx975/storage/lsfs-q.txt ====
+==== START lsfs -q Tue Jul  7 12:49:26 CDT 2015 ====
+Name            Nodename   Mount Pt               VFS   Size    Options    Auto Accounting
+/dev/hd4        --         /                      jfs2  1048576 rw         yes  no 
+  (lv size: 1048576, fs size: 1048576, block size: 4096, sparse files: yes, inline log: no, inline log size: 0, EAformat: v1, Quota: no, DMAPI: no, VIX: yes, EFS: no, ISNAPSHOT: no, MAXEXT: 0, MountGuard: no)
+/dev/hd1        --         /home                  jfs2  20971520 rw         yes  no 
+  (lv size: 20971520, fs size: 20971520, block size: 4096, sparse files: yes, inline log: no, inline log size: 0, EAformat: v1, Quota: no, DMAPI: no, VIX: yes, EFS: no, ISNAPSHOT: no, MAXEXT: 0, MountGuard: no)
+/dev/hd2        --         /usr                   jfs2  8388608 rw         yes  no 
+  (lv size: 8388608, fs size: 8388608, block size: 4096, sparse files: yes, inline log: no, inline log size: 0, EAformat: v1, Quota: no, DMAPI: no, VIX: yes, EFS: no, ISNAPSHOT: no, MAXEXT: 0, MountGuard: no)
+/dev/hd9var     --         /var                   jfs2  2097152 rw         yes  no 
+  (lv size: 2097152, fs size: 2097152, block size: 4096, sparse files: yes, inline log: no, inline log size: 0, EAformat: v1, Quota: no, DMAPI: no, VIX: yes, EFS: no, ISNAPSHOT: no, MAXEXT: 0, MountGuard: no)
+/dev/hd3        --         /tmp                   jfs2  10485760 rw         yes  no 
+  (lv size: 10485760, fs size: 10485760, block size: 4096, sparse files: yes, inline log: no, inline log size: 0, EAformat: v1, Quota: no, DMAPI: no, VIX: yes, EFS: no, ISNAPSHOT: no, MAXEXT: 0, MountGuard: no)
+/dev/hd11admin  --         /admin                 jfs2  1048576 rw         yes  no 
+  (lv size: 1048576, fs size: 1048576, block size: 4096, sparse files: yes, inline log: no, inline log size: 0, EAformat: v1, Quota: no, DMAPI: no, VIX: yes, EFS: no, ISNAPSHOT: no, MAXEXT: 0, MountGuard: no)
+/proc           --         /proc                  procfs --      rw         yes  no 
+/dev/hd10opt    --         /opt                   jfs2  2097152 rw         yes  no 
+  (lv size: 2097152, fs size: 2097152, block size: 4096, sparse files: yes, inline log: no, inline log size: 0, EAformat: v1, Quota: no, DMAPI: no, VIX: yes, EFS: no, ISNAPSHOT: no, MAXEXT: 0, MountGuard: no)
+/dev/livedump   --         /var/adm/ras/livedump  jfs2  1048576 rw         yes  no 
+  (lv size: 1048576, fs size: 1048576, block size: 4096, sparse files: yes, inline log: no, inline log size: 0, EAformat: v1, Quota: no, DMAPI: no, VIX: yes, EFS: no, ISNAPSHOT: no, MAXEXT: 0, MountGuard: no)
+/dev/perfdatalv --         /perfdata              jfs2  10485760 rw         yes  no 
+  (lv size: 10485760, fs size: 10485760, block size: 4096, sparse files: yes, inline log: no, inline log size: 0, EAformat: v1, Quota: no, DMAPI: no, VIX: yes, EFS: no, ISNAPSHOT: no, MAXEXT: 0, MountGuard: no)
+==== EXITED with rc 0 ====
+==== END lsfs -q Tue Jul  7 12:49:26 CDT 2015 ====

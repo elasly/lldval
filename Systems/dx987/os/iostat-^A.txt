@@ -1,0 +1,9 @@
+==== This output can be found in Systems/dx987/os/iostat-^A.txt ====
+==== START iostat -A Mon Jul  6 23:48:41 GST 2015 ====
+iostat: 0551-157 Asynchronous I/O not configured on the system.
+
+System configuration: lcpu=32 drives=746 ent=3.60 paths=0 vdisks=10 maxserver=960
+
+aio: avgc avfc maxgc maxfc maxreqs avg-cpu: % user % sys % idle % iowait physc % entc
+==== EXITED with rc 0 ====
+==== END iostat -A Mon Jul  6 23:48:41 GST 2015 ====

@@ -1,0 +1,13 @@
+==== This output can be found in Systems/dx1010/perf/vmstat_5_3.txt ====
+==== START vmstat 5 3  Tue Jul  7 13:15:23 CDT 2015 ====
+
+System configuration: lcpu=24 mem=8192MB ent=2.00
+
+kthr    memory              page              faults              cpu          
+----- ----------- ------------------------ ------------ -----------------------
+ r  b   avm   fre  re  pi  po  fr   sr  cy  in   sy  cs us sy id wa    pc    ec
+ 3  0 1197480 76996   0   0   0 1179 1295   0 36391 833931 42033 18 45 37  0  3.81 190.6
+ 3  0 1199021 91927   0   0   0 3890 3964   0 29030 804345 36068 12 51 37  0  3.73 186.3
+ 4  0 1195251 97134   0   0   0 102  103   0 26867 798353 30060 11 54 35  0  3.80 189.9
+==== EXITED with rc 0 ====
+==== END vmstat 5 3  Tue Jul  7 13:15:38 CDT 2015 ====

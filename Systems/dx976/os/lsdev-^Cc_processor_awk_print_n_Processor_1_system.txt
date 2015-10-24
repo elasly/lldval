@@ -1,0 +1,46 @@
+==== This output can be found in Systems/dx976/os/lsdev-^Cc_processor_awk_print_n_Processor_1_system.txt ====
+==== START lsdev -Cc processor  | awk '{print "\n#### Processor: " $1" ####";system("lsattr -El " $1)}' Tue Jul  7 13:04:26 CDT 2015 ====
+
+#### Processor: proc0 ####
+frequency   4424001000     Processor Speed       False
+smt_enabled true           Processor SMT enabled False
+smt_threads 4              Processor SMT threads False
+state       enable         Processor state       False
+type        PowerPC_POWER7 Processor type        False
+
+#### Processor: proc4 ####
+frequency   4424001000     Processor Speed       False
+smt_enabled true           Processor SMT enabled False
+smt_threads 4              Processor SMT threads False
+state       enable         Processor state       False
+type        PowerPC_POWER7 Processor type        False
+
+#### Processor: proc8 ####
+frequency   4424001000     Processor Speed       False
+smt_enabled true           Processor SMT enabled False
+smt_threads 4              Processor SMT threads False
+state       enable         Processor state       False
+type        PowerPC_POWER7 Processor type        False
+
+#### Processor: proc12 ####
+frequency   4424001000     Processor Speed       False
+smt_enabled true           Processor SMT enabled False
+smt_threads 4              Processor SMT threads False
+state       enable         Processor state       False
+type        PowerPC_POWER7 Processor type        False
+
+#### Processor: proc16 ####
+frequency   4424001000     Processor Speed       False
+smt_enabled true           Processor SMT enabled False
+smt_threads 4              Processor SMT threads False
+state       enable         Processor state       False
+type        PowerPC_POWER7 Processor type        False
+
+#### Processor: proc20 ####
+frequency   4424001000     Processor Speed       False
+smt_enabled true           Processor SMT enabled False
+smt_threads 4              Processor SMT threads False
+state       enable         Processor state       False
+type        PowerPC_POWER7 Processor type        False
+==== EXITED with rc 0 ====
+==== END lsdev -Cc processor  | awk '{print "\n#### Processor: " $1" ####";system("lsattr -El " $1)}' Tue Jul  7 13:04:26 CDT 2015 ====

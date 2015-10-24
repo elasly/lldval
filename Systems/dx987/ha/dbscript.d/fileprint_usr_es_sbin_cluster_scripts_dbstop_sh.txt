@@ -1,0 +1,7 @@
+==== This output can be found in Systems/dx987/ha/collect_PowerHA_scripts.txt ====
+==== START fileprint /usr/es/sbin/cluster/scripts/dbstop.sh Tue Jul  7 00:00:23 GST 2015 ====
+==== BEGIN Contents of /usr/es/sbin/cluster/scripts/dbstop.sh ====
+/usr/bin/su - oracle -c "dbshut /nessdb_base/app/oracle/product/11.2.0/dbhome_1" >> /var/hacmp/log/hacmp.out
+==== END Contents of /usr/es/sbin/cluster/scripts/dbstop.sh ====
+==== EXITED with rc 0 ====
+==== END fileprint /usr/es/sbin/cluster/scripts/dbstop.sh Tue Jul  7 00:00:23 GST 2015 ====

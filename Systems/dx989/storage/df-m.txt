@@ -1,0 +1,16 @@
+==== This output can be found in Systems/dx989/storage/df-m.txt ====
+==== START df -m Thu Aug  6 11:22:12 GST 2015 ====
+Filesystem    MB blocks      Free %Used    Iused %Iused Mounted on
+/dev/hd4        2048.00   1852.42   10%    11104     3% /
+/dev/hd2        8192.00   2126.57   75%    90979    16% /usr
+/dev/hd9var     2048.00   1716.52   17%     6649     2% /var
+/dev/hd3        2048.00   2043.80    1%      156     1% /tmp
+/dev/hd1        2048.00   2047.35    1%        5     1% /home
+/dev/hd11admin   2048.00   2047.35    1%        5     1% /admin
+/proc                 -         -    -         -     -  /proc
+/dev/hd10opt    1024.00    848.66   18%     8606     5% /opt
+/dev/livedump    512.00    511.60    1%        4     1% /var/adm/ras/livedump
+/dev/perfdatalv   5120.00   5044.70    2%      217     1% /perfdata
+/aha                  -         -    -        50     1% /aha
+==== EXITED with rc 0 ====
+==== END df -m Thu Aug  6 11:22:12 GST 2015 ====

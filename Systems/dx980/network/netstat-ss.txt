@@ -1,0 +1,92 @@
+==== This output can be found in Systems/dx980/network/netstat-ss.txt ====
+==== START netstat -ss Mon Jul  6 23:24:53 GST 2015 ====
+icmp:
+	495 calls to icmp_error
+	Output histogram:
+		echo reply: 231765
+		destination unreachable: 495
+		echo: 548425
+	Input histogram:
+		echo reply: 548425
+		destination unreachable: 160
+		source quench: 415
+		echo: 221035
+	221025 message responses generated
+igmp:
+	18 membership reports sent
+tcp:
+	26346719 packets sent
+		11788561 data packets (12980915701 bytes)
+		42 data packets (49588 bytes) retransmitted
+		6354055 ack-only packets (3875455 delayed)
+		1 window probe packet
+		7505849 window update packets
+		1396422 control packets
+		4890297 large sends
+		9568301973 bytes sent using largesend
+		65160 bytes is the biggest largesend
+	44075662 packets received
+		8180459 acks (for 12981510846 bytes)
+		257265 duplicate acks
+		37356003 packets (31750920991 bytes) received in-sequence
+		2508 completely duplicate packets (9202 bytes)
+		2 old duplicate packets
+		245139 out-of-order packets (867113 bytes)
+		13 packets (13 bytes) of data after window
+		13 window probes
+		284898 window update packets
+		8339 packets received after close
+		2276 discarded by listeners
+		3795495 ack packet headers correctly predicted
+		34183136 data packet headers correctly predicted
+	252576 connection requests
+	250275 connection accepts
+	501929 connections established (including accepts)
+	1168099 connections closed (including 3645 drops)
+	921 embryonic connections dropped
+	8384067 segments updated rtt (of 8310520 attempts)
+	3 path MTU discovery terminations due to retransmits
+	19 retransmit timeouts
+		1 connection dropped by rexmit timeout
+	6 fast retransmits
+	19 newreno retransmits
+	2216 keepalive timeouts
+		1 connection dropped by keepalive
+udp:
+	10872247 datagrams received
+	60284 dropped due to no socket
+	1342239 broadcast/multicast datagrams dropped due to no socket
+	9469724 delivered
+	7647024 datagrams output
+ip:
+	55873825 total packets received
+	52765092 packets for this host
+	14 packets for unknown/unsupported protocol
+	96093 packets not forwardable
+	31829743 packets sent from this host
+	61314 output datagrams fragmented
+	122628 fragments created
+	548858 packets dropped due to the full socket receive buffer
+
+ipv6:
+	3012629 total packets received
+	Input histogram:
+		TCP: 2892936
+		UDP: 59902
+		ICMP v6: 59791
+	3012629 packets for this host
+	3012629 packets sent from this host
+	19154 output packets discarded due to no route
+icmpv6:
+	59789 calls to icmp6_error
+	Output histogram:
+		unreachable: 59789
+		echo request: 1
+		echo reply: 1
+	Input histogram:
+		unreachable: 59789
+		echo request: 1
+		echo reply: 1
+	1 message response generated
+==== EXITED with rc 0 ====
+==== END netstat -ss Mon Jul  6 23:24:53 GST 2015 ====

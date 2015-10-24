@@ -1,0 +1,32 @@
+==== This output can be found in Systems/dx978/os/lsgroup_ALL.txt ====
+==== START lsgroup ALL Mon Jul  6 23:30:21 GST 2015 ====
+system id=0 admin=true users=root,pconsole,esaadmin registry=files 
+staff id=1 admin=false users=ipsec,esaadmin,sshd,opc_op,sisuser,daemon registry=files 
+bin id=2 admin=true users=root,bin registry=files 
+sys id=3 admin=true users=root,bin,sys registry=files 
+adm id=4 admin=true users=bin,adm registry=files 
+uucp id=5 admin=true users=uucp,nuucp registry=files 
+mail id=6 admin=true users= registry=files 
+security id=7 admin=true users=root registry=files 
+cron id=8 admin=true users=root registry=files 
+printq id=9 admin=true users=lp registry=files 
+audit id=10 admin=true users=root registry=files 
+ecs id=28 admin=true users= registry=files 
+nobody id=4294967294 admin=false users=nobody,lpd registry=files 
+usr id=100 admin=false users=guest registry=files 
+perf id=20 admin=false users= registry=files 
+shutdown id=21 admin=true users= registry=files 
+lp id=11 admin=true users=root,lp registry=files 
+invscout id=12 admin=true users=invscout registry=files 
+snapp id=13 admin=true users=snapp registry=files 
+ipsec id=200 admin=false users= registry=files 
+pconsole id=14 admin=true users=pconsole registry=files 
+sshd id=201 admin=false users=sshd registry=files 
+hacmp id=202 admin=false users= registry=files 
+haemrm id=203 admin=false users= registry=files 
+dba id=500 admin=false users=oracle adms=root registry=files 
+oinstall id=501 admin=false users=oracle adms=root registry=files 
+hagsuser id=206 admin=false users=oracle adms=root registry=files 
+opcgrp id=212 admin=false users=opc_op registry=files 
+==== EXITED with rc 0 ====
+==== END lsgroup ALL Mon Jul  6 23:30:21 GST 2015 ====

@@ -1,0 +1,437 @@
+==== This output can be found in Systems/dx1011/network/netstat-an.txt ====
+==== START netstat -an Tue Jul  7 13:38:40 CDT 2015 ====
+Active Internet connections (including servers)
+Proto Recv-Q Send-Q  Local Address          Foreign Address        (state)
+tcp        0      0  *.*                    *.*                    CLOSED
+tcp4       0      0  *.*                    *.*                    CLOSED
+tcp        0      0  *.*                    *.*                    CLOSED
+tcp4       0      0  *.*                    *.*                    CLOSED
+tcp        0      0  *.21                   *.*                    LISTEN
+tcp4       0      0  *.22                   *.*                    LISTEN
+tcp6       0      0  *.22                   *.*                    LISTEN
+tcp        0      0  *.23                   *.*                    LISTEN
+tcp        0      0  *.111                  *.*                    LISTEN
+tcp        0      0  *.199                  *.*                    LISTEN
+tcp        0      0  *.427                  *.*                    LISTEN
+tcp        0      0  *.657                  *.*                    LISTEN
+tcp4       0      0  *.1334                 *.*                    LISTEN
+tcp        0      0  *.3192                 *.*                    LISTEN
+tcp        0      0  *.5988                 *.*                    LISTEN
+tcp        0      0  *.5989                 *.*                    LISTEN
+tcp        0      0  *.6181                 *.*                    LISTEN
+tcp        0      0  *.6987                 *.*                    LISTEN
+tcp        0      0  *.6988                 *.*                    LISTEN
+tcp4       0      0  *.32769                *.*                    LISTEN
+tcp        0      0  *.32770                *.*                    LISTEN
+tcp        0      0  *.32816                *.*                    LISTEN
+tcp        0      0  *.32825                *.*                    LISTEN
+tcp        0      0  *.32830                *.*                    LISTEN
+tcp        0      0  *.9510                 *.*                    LISTEN
+tcp4       0      0  127.0.0.1.6001         *.*                    LISTEN
+tcp4       0      0  10.51.229.241.22       10.32.22.188.64164     ESTABLISHED
+tcp4       0      0  127.0.0.1.9514         *.*                    LISTEN
+tcp4       0      0  127.0.0.1.9515         *.*                    LISTEN
+tcp        0      0  *.14248                *.*                    LISTEN
+tcp        0      0  *.16191                *.*                    LISTEN
+tcp6       0      0  ::1.32823                                     ::1.32824                                     CLOSE_WAIT
+udp4       0      0  *.*                    *.*                   
+udp4       0      0  *.*                    *.*                   
+udp4       0      0  *.*                    *.*                   
+udp4       0      0  *.*                    *.*                   
+udp4       0      0  *.*                    *.*                   
+udp4       0      0  *.*                    *.*                   
+udp4       0      0  *.*                    *.*                   
+udp        0      0  *.111                  *.*                   
+udp        0      0  *.161                  *.*                   
+udp        0      0  *.427                  *.*                   
+udp        0      0  *.657                  *.*                   
+udp        0      0  10.51.229.241.2279     *.*                   
+udp        0      0  *.2279                 *.*                   
+udp        0      0  *.32768                *.*                   
+udp4       0      0  *.32771                *.*                   
+udp        0      0  *.32782                *.*                   
+udp        0      0  *.32852                *.*                   
+udp        0      0  *.32853                *.*                   
+udp        0      0  *.14252                *.*                   
+udp        0      0  *.14253                *.*                   
+
+Active UNIX domain sockets
+SADR/PCB         Type   Recv-Q Send-Q      Inode            Conn             Refs           Nextref      Addr
+f1000e0001931008 stream      0      0 f1000a015b8a3020                0                0                0 /var/ct/IW/soc/mc/RMIBM.MgmtDomainRM.0
+f1000e0001922980
+f1000e0009363408 dgram       0      0 f1000a015b6a0420                0                0                0 /dev/.SRC-unix/SRC0007864392He5aaf
+f1000e0009367580
+f1000e0000a39808 stream      0      0 f1000a015b713020                0                0                0 /var/ct/IW/soc/mc/RMIBM.DRM.0
+f1000e0000a28100
+f1000e0000f30808 stream      0      0                0 f1000e0000f22d00                0                0 /var/ct/IW/soc/mc/RMIBM.CSMAgentRM.0
+f1000e0000f22e80
+f1000e0000a26408 stream      0      0                0 f1000e0000a28c80                0                0 /var/ct/IW/soc/mc/RMIBM.ServiceRM.0
+f1000e0000a28600
+f1000e0000a37c08 stream      0      0                0 f1000e0000a28880                0                0 /var/ct/IW/soc/mc/RMIBM.MgmtDomainRM.0
+f1000e0000a28580
+f1000e0000a33808 stream      0      0                0 f1000e0000a28580                0                0
+f1000e0000a28880
+f1000e0001931c08 stream      0      0                0 f1000e0001421580                0                0
+f1000e0001922000
+f1000e000192e008 stream      0      0                0 f1000e0009367200                0                0
+f1000e0001922380
+f1000e0001929c08 stream      0      0 f1000a015b760420                0                0                0 /home/ios/socks/api_eve_unix
+f1000e0001922b80
+f1000e0000668808 dgram       0      0                0 f1000e001bd12c00                0 f1000e001bd3af00
+f1000e0000663a00
+f1000e0019136c08 dgram       0      0                0 f1000e001bd12c00                0                0
+f1000e001bd13d80
+f1000e000936d808 dgram       0      0                0 f1000e001bd12c00                0 f1000e0000a28480
+f1000e0009367480
+f1000e0001938c08 stream      0      0                0 f1000e0001937a00                0                0
+f1000e0001937980
+f1000e0000f2fc08 stream      0      0                0 f1000e0000f22d80                0                0
+f1000e0000f22000
+f1000e0000f30c08 stream      0      0                0 f1000e0000f22e80                0                0
+f1000e0000f22d00
+f1000e001bdb6808 dgram       0      0                0 f1000e001bd12c00                0 f1000e0000a28280
+f1000e001bd3af00
+f1000e0000f2e008 stream      0      0                0                0                0                0
+f1000e001f403980
+f1000e0001952008 stream      0      0                0                0                0                0
+f1000e0001fdbb00
+f1000e0000f2c008 stream      0      0                0                0                0                0
+f1000e001f40f500
+f1000e0001437008 stream      0      0                0 f1000e001cc11480                0                0
+f1000e001cc11600
+f1000e00010e8c08 stream      0      0                0                0                0                0
+f1000e0001070d00
+f1000e0000f4a808 stream      0      0                0                0                0                0
+f1000e0000f5bd00
+f1000e000066a808 stream      0      0 f1000a015b8c1c20                0                0                0 /var/ct/IW/soc/mc/clsrv
+f1000e0000663680
+f1000e000066a408 stream      0      0 f1000a015b8e1c20                0                0                0 /var/ct/IW/soc/mc/rmsrv
+f1000e0000663600
+f1000e0000f3d408 stream      0      0                0                0                0                0
+f1000e001f40e900
+f1000e0000f3d808 stream      0      0                0                0                0                0
+f1000e0000f3fb80
+f1000e001f476c08 stream      0      0                0                0                0                0
+f1000e001f457700
+f1000e0019133408 stream      0      0                0                0                0                0
+f1000e001bd98b80
+f1000e0000f48408 stream      0      0                0                0                0                0
+f1000e0000f5b580
+f1000e0000f2f008 stream      0      0                0 f1000e0000f22e00                0                0 /var/ct/IW/soc/mc/RMIBM.DRM.0
+f1000e0000f22c80
+f1000e0001071808 stream      0      0                0                0                0                0
+f1000e0001070d80
+f1000e0000f3dc08 stream      0      0                0                0                0                0
+f1000e001f40ec80
+f1000e0001437408 stream      0      0                0                0                0                0
+f1000e002785ed00
+f1000e001c3b5c08 stream      0      0                0                0                0                0
+f1000e001bda7680
+f1000e0000f2a408 stream      0      0                0                0                0                0
+f1000e0000f5b600
+f1000e0000f48008 stream      0      0                0                0                0                0
+f1000e0000f5b800
+f1000e0009363808 stream      0      0 f1000a015b680420                0                0                0 /etc/cluster/clcomd_sec
+f1000e0009367600
+f1000e0009364c08 dgram       0      0 f1000a0157a4cc20                0                0                0 /dev/.SRC-unix/SRC00078643925A5aaa
+f1000e0009367700
+f1000e001bdb6408 stream      0      0                0                0                0                0
+f1000e001bd40280
+f1000e0000a26008 dgram       0      0 f1000100e0736c20                0                0                0 /dev/.SRC-unix/SRC00078643925I5aab
+f1000e0000a28c00
+f1000e0000a34808 stream      0      0                0                0                0                0
+f1000e0000a28000
+f1000e0001933408 stream      0      0 f1000a015b830420                0                0                0 /tmp/ecpvdpd_sock
+f1000e0001922900
+f1000e0000f27c08 dgram       0      0 f1000a015b753020                0                0                0 /dev/.SRC-unix/SRC0007864392Pe5aam
+f1000e0000f22380
+f1000e000192f808 dgram       0      0 f1000a015b6e2c20                0                0                0 /dev/.SRC-unix/SRC0007864392OM5aak
+f1000e0001922880
+f1000e0000f30408 stream      0      0                0                0                0                0
+f1000e001f409900
+f1000e001bdb7c08 stream      0      0                0                0                0                0
+f1000e001bd42e80
+f1000e0001935008 stream      0      0                0 f1000e0001937980                0                0
+f1000e0001937a00
+f1000e000193c008 stream      0      0 f1000a015b6d4c20                0                0                0 /opt/freeware/cimom/pegasus/etc/cimxml.socket
+f1000e0001922200
+f1000e0000a39c08 dgram       0      0 f1000a015b862c20                0                0                0 /dev/.SRC-unix/SRC0007864392OU5aal
+f1000e0000a28400
+f1000e0019133c08 stream      0      0 f1000a015b671020                0                0                0 /var/adm/lpm/apsock
+f1000e001bd3ad80
+f1000e0000a37808 stream      0      0                0 f1000e0000a28600                0                0
+f1000e0000a28c80
+f1000e0000a39008 dgram       0      0 f1000a015b772820                0                0                0 /dev/.SRC-unix/SRC0007864392O35aai
+f1000e0000a28b80
+f1000e0009364808 stream      0      0                0 f1000e0001421780                0                0
+f1000e0009367380
+f1000e0000a26c08 stream      0      0                0                0                0                0
+f1000e0000a28b00
+f1000e0000f2f808 stream      0      0                0 f1000e0000f22000                0                0 /var/ct/IW/soc/mc/RMIBM.HostRM.0
+f1000e0000f22d80
+f1000e0000a33008 dgram       0      0 f1000a0157e2d820                0                0                0 /dev/.SRC-unix/SRC0007864392DE5aac
+f1000e0000a28380
+f1000e0000a2d008 dgram       0      0 f1000a0157f2c820                0                0                0 /dev/SRC
+f1000e0000a28180
+f1000e0001932c08 dgram       0      0 f1000a0157fce820                0                0                0 /dev/.SRC-unix/SRC0007864392Ge5aad
+f1000e0001922300
+f1000e0018f2e008 dgram       0      0 f1000a0157d5cc20                0 f1000e001ccf6500                0 /dev/log
+f1000e001bd12c00
+f1000e0000a34c08 stream      0      0                0                0                0                0
+f1000e0000a28300
+f1000e0001933c08 stream      0      0 f1000a015b6f3020                0                0                0 /var/ct/IW/soc/mc/RMIBM.HostRM.0
+f1000e0001922a00
+f1000e0000a33408 dgram       0      0                0 f1000e001bd12c00                0 f1000e001bd13d80
+f1000e0000a28480
+f1000e0000a33c08 dgram       0      0                0 f1000e001bd12c00                0 f1000e0009367480
+f1000e0000a28280
+f1000e0009371808 dgram       0      0 f1000a015b862820                0                0                0 /dev/.SRC-unix/SRC0007864392OA5aaj
+f1000e0009373a00
+f1000e0019154c08 stream      0      0                0                0                0                0
+f1000e001bd15080
+f1000e0009364408 stream      0      0 f1000a015762f420                0                0                0 /var/perf/pcm/ipcso
+f1000e0009367680
+f1000e0001931808 dgram       0      0 f1000a0157fbec20                0                0                0 /dev/.SRC-unix/SRC0007864392Gq5aae
+f1000e0001922100
+f1000e000192e408 dgram       0      0 f1000a015b7a0420                0                0                0 /dev/.SRC-unix/SRC0007864392Hi5aag
+f1000e0001922c80
+f1000e0001428408 stream      0      0 f1000a015b710420                0                0                0 /var/run/lldpdsock
+f1000e0001421b80
+f1000e0001422808 stream      0      0 f1000a015b913020                0                0                0 /var/ct/IW/soc/mc/RMIBM.ServiceRM.0
+f1000e0001421100
+f1000e0001427408 dgram       0      0 f1000a015b920820                0                0                0 /dev/.SRC-unix/SRC0007864392Jy5aah
+f1000e0001421600
+f1000e0019134408 stream      0      0                0                0                0                0
+f1000e001bd41180
+f1000e0000f2f408 stream      0      0                0 f1000e0000f22c80                0                0
+f1000e0000f22e00
+f1000e0000f27008 stream      0      0 f1000a015b8c3020                0                0                0 /var/ct/IW/soc/mc/RMIBM.CSMAgentRM.0
+f1000e0000f22400
+f1000e001c3b6c08 stream      0      0                0                0                0                0
+f1000e001bd3df00
+f1000e0000f36808 stream      0      0                0                0                0                0
+f1000e001f406500
+f1000e0001927008 dgram       0      0 f1000a015b745020                0                0                0 /dev/.SRC-unix/SRC0007864392BM5aao
+f1000e0001922700
+f1000e0001438008 stream      0      0 f1000a015b6d5c20                0                0                0 /tmp/dpi_socket
+f1000e0001436680
+f1000e0000f2e408 stream      0      0                0                0                0                0
+f1000e0000f3f100
+f1000e001bdb5008 stream      0      0                0                0                0                0
+f1000e001bd3f900
+f1000e001c3b4c08 stream      0      0                0                0                0                0
+f1000e001bd41000
+f1000e001bdb5c08 stream      0      0                0                0                0                0
+f1000e001bda7900
+f1000e0019133008 stream      0      0                0                0                0                0
+f1000e001bda7780
+f1000e001bcab408 stream      0      0                0                0                0                0
+f1000e001bda7700
+f1000e0019155808 stream      0      0                0                0                0                0
+f1000e001bda7880
+f1000e0019155408 stream      0      0                0                0                0                0
+f1000e001bda7600
+f1000e001bdb5808 stream      0      0                0                0                0                0
+f1000e001bda7800
+f1000e001bdb5408 stream      0      0                0                0                0                0
+f1000e001bda7580
+f1000e0000f2a008 stream      0      0                0                0                0                0
+f1000e0000f5bf80
+f1000e0000f36408 stream      0      0                0                0                0                0
+f1000e001f408880
+f1000e0000f2cc08 stream      0      0                0                0                0                0
+f1000e001f40f480
+f1000e001f476808 stream      0      0                0                0                0                0
+f1000e001f40bc00
+f1000e0019134008 stream      0      0                0                0                0                0
+f1000e001bd41080
+f1000e001f45f408 stream      0      0                0                0                0                0
+f1000e0000f3f900
+f1000e0000f36008 stream      0      0                0                0                0                0
+f1000e001f40e680
+f1000e0001434808 stream      0      0                0                0                0                0
+f1000e002780bc00
+f1000e0000f3ec08 stream      0      0                0                0                0                0
+f1000e001f40ea80
+f1000e000192fc08 stream      0      0                0                0                0                0
+f1000e0001fd9c80
+f1000e001f45fc08 stream      0      0                0                0                0                0
+f1000e001f40fc00
+f1000e0000f30008 stream      0      0                0                0                0                0
+f1000e001f40e800
+f1000e0001933008 stream      0      0                0                0                0                0
+f1000e0001922580
+f1000e0001932808 stream      0      0                0                0                0                0
+f1000e000200d600
+f1000e0001422008 stream      0      0                0                0                0                0
+f1000e002785ed80
+f1000e0000f2c808 stream      0      0                0                0                0                0
+f1000e001f408800
+f1000e0019133808 stream      0      0                0                0                0                0
+f1000e001bd73580
+f1000e0001438408 stream      0      0                0                0                0                0
+f1000e002780bb80
+f1000e0000f4a408 stream      0      0                0                0                0                0
+f1000e001f40e780
+f1000e0000f2c408 stream      0      0                0                0                0                0
+f1000e001f40d080
+f1000e0000f36c08 stream      0      0                0                0                0                0
+f1000e001f410f00
+f1000e0001071008 stream      0      0                0                0                0                0
+f1000e0001070e00
+f1000e0001927c08 stream      0      0                0                0                0                0
+f1000e0001fc8a00
+f1000e001f470408 stream      0      0                0                0                0                0
+f1000e001f3fde00
+f1000e0009374008 stream      0      0                0                0                0                0
+f1000e0023aedc00
+f1000e002cd08008 stream      0      0                0                0                0                0
+f1000e0002000480
+f1000e0001932008 stream      0      0                0                0                0                0
+f1000e0002001780
+f1000e000193f008 stream      0      0                0                0                0                0
+f1000e0001f07b00
+f1000e001f45f808 stream      0      0                0                0                0                0
+f1000e0000f22280
+f1000e00010e8008 stream      0      0                0                0                0                0
+f1000e0001070c00
+f1000e001f45f008 stream      0      0                0                0                0                0
+f1000e001f40fb80
+f1000e0000f48808 stream      0      0                0                0                0                0
+f1000e001f40f000
+f1000e0001437808 stream      0      0                0                0                0                0
+f1000e00277f9e00
+f1000e0000f2e808 stream      0      0                0                0                0                0
+f1000e001f40ee80
+f1000e0009375808 stream      0      0                0                0                0                0
+f1000e0023aabd80
+f1000e001b7b4408 stream      0      0                0                0                0                0
+f1000e001bd3e400
+f1000e0001071408 stream      0      0                0                0                0                0
+f1000e0001070e80
+f1000e001e49d408 stream      0      0                0                0                0                0
+f1000e001f40a200
+f1000e0000f3e808 stream      0      0                0                0                0                0
+f1000e001f406480
+f1000e0000f3d008 stream      0      0                0                0                0                0
+f1000e001f409780
+f1000e000192e808 stream      0      0                0                0                0                0
+f1000e0002002a00
+f1000e0001938408 stream      0      0                0                0                0                0
+f1000e0001f06c00
+f1000e001f461808 stream      0      0                0                0                0                0
+f1000e001f3fdc80
+f1000e0000a38808 stream      0      0                0                0                0                0
+f1000e0000a24080
+f1000e0000f48c08 stream      0      0                0                0                0                0
+f1000e001f458180
+f1000e0001952808 stream      0      0                0                0                0                0
+f1000e002ccef480
+f1000e00222fcc08 stream      0      0                0                0                0                0
+f1000e001f400580
+f1000e001f470008 stream      0      0                0                0                0                0
+f1000e001f408680
+f1000e0001435408 stream      0      0                0                0                0                0
+f1000e00277f8080
+f1000e0000a25808 stream      0      0                0                0                0                0
+f1000e0000a24f80
+f1000e0001931408 stream      0      0                0                0                0                0
+f1000e000200f400
+f1000e0009372008 stream      0      0                0                0                0                0
+f1000e0023aedc80
+f1000e000193b008 stream      0      0                0                0                0                0
+f1000e000200d280
+f1000e0000f2a808 stream      0      0                0                0                0                0
+f1000e001f403800
+f1000e0001935408 stream      0      0                0                0                0                0
+f1000e0001fc6100
+f1000e00222fc008 stream      0      0 f1000a016a0e6020                0                0                0 /var/ct/IW/soc/mc/RMIBM.ConfigRM.0
+f1000e001f445980
+f1000e0000f4a008 stream      0      0                0                0                0                0
+f1000e001f40eb00
+f1000e0000f3e008 stream      0      0                0                0                0                0
+f1000e001f40d100
+f1000e001f461008 stream      0      0                0                0                0                0
+f1000e001f400800
+f1000e0000f2ec08 stream      0      0                0                0                0                0
+f1000e001f408480
+f1000e000193f808 stream      0      0                0                0                0                0
+f1000e0001fdcc00
+f1000e0000a37008 stream      0      0                0                0                0                0
+f1000e0000a24a00
+f1000e0019134c08 stream      0      0                0                0                0                0
+f1000e001bd42f80
+f1000e0000a3fc08 stream      0      0                0                0                0                0
+f1000e0000a28a00
+f1000e001f476008 stream      0      0                0                0                0                0
+f1000e001f457c80
+f1000e001f476408 stream      0      0                0                0                0                0
+f1000e001f468400
+f1000e001f461c08 stream      0      0                0                0                0                0
+f1000e001f400700
+f1000e0001425408 dgram       0      0                0 f1000e001bd12c00                0 f1000e0027869200
+f1000e001ccf6500
+f1000e001c3b5008 stream      0      0                0                0                0                0
+f1000e001bd98a80
+f1000e0019155008 stream      0      0                0                0                0                0
+f1000e001bd49500
+f1000e0000f4ac08 stream      0      0                0                0                0                0
+f1000e001f400680
+f1000e00010e8408 stream      0      0                0                0                0                0
+f1000e0001070c80
+f1000e001c3b7c08 stream      0      0                0                0                0                0
+f1000e001bd42d80
+f1000e001c3b7008 stream      0      0                0                0                0                0
+f1000e001bd41280
+f1000e0000a3f808 dgram       0      0 f1000a016a575c20                0                0                0 /dev/.SRC-unix/SRC0007864392Ya5aap
+f1000e002a627380
+f1000e001c3b4008 stream      0      0                0                0                0                0
+f1000e001bd15200
+f1000e000142d408 dgram       0      0                0 f1000e001bd12c00                0 f1000e0000663a00
+f1000e0027869180
+f1000e0019135808 stream      0      0                0                0                0                0
+f1000e001bd49400
+f1000e0009371c08 stream      0      0                0                0                0                0
+f1000e0023a63700
+f1000e001b7b4c08 stream      0      0                0                0                0                0
+f1000e001bd73200
+f1000e000192f408 stream      0      0                0                0                0                0
+f1000e0001fc7500
+f1000e0022301008 stream      0      0                0 f1000e001f445a80                0                0 /var/ct/IW/soc/mc/RMIBM.ConfigRM.0
+f1000e001f445900
+f1000e0001435c08 dgram       0      0                0 f1000e001bd12c00                0 f1000e0027869180
+f1000e0027869200
+f1000e001e49d008 stream      0      0                0 f1000e001f445900                0                0
+f1000e001f445a80
+f1000e000193cc08 stream      0      0                0                0                0                0
+f1000e0001fc6500
+f1000e000193f408 stream      0      0                0                0                0                0
+f1000e0001922800
+f1000e0001952c08 stream      0      0                0                0                0                0
+f1000e000200c180
+f1000e000193c408 stream      0      0                0                0                0                0
+f1000e0001fd9b80
+f1000e0001932408 stream      0      0                0                0                0                0
+f1000e0001fc8e00
+f1000e0001952408 stream      0      0                0                0                0                0
+f1000e002ccef380
+f1000e0009374c08 stream      0      0                0                0                0                0
+f1000e0023aee980
+f1000e0023b01008 stream      0      0                0                0                0                0
+f1000e0023aee780
+f1000e0001425c08 stream      0      0                0 f1000e001cc11600                0                0
+f1000e001cc11480
+f1000e002cd08c08 stream      0      0                0                0                0                0
+f1000e000200c380
+f1000e0023af3408 stream      0      0                0                0                0                0
+f1000e0023aacd80
+f1000e000193b808 stream      0      0                0                0                0                0
+f1000e0002010500
+f1000e002cd08808 stream      0      0                0                0                0                0
+f1000e0001fdba80
+f1000e0023afbc08 stream      0      0                0                0                0                0
+f1000e0023a63480
+f1000e0001935c08 stream      0      0                0                0                0                0
+f1000e0001fdce00
+==== EXITED with rc 0 ====
+==== END netstat -an Tue Jul  7 13:38:40 CDT 2015 ====

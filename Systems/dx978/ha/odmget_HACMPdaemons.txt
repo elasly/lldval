@@ -1,0 +1,46 @@
+==== This output can be found in Systems/dx978/ha/odmget_HACMPdaemons.txt ====
+==== START odmget HACMPdaemons Mon Jul  6 23:43:22 GST 2015 ====
+
+HACMPdaemons:
+	nodename = "DX978"
+	daemon = "clstrmgr"
+	type = "start"
+	object = "manage"
+	value = "auto"
+
+HACMPdaemons:
+	nodename = "DX978"
+	daemon = "clstrmgr"
+	type = "start"
+	object = "broadcast"
+	value = "false"
+
+HACMPdaemons:
+	nodename = "DX978"
+	daemon = "clinfo"
+	type = "start"
+	object = "time"
+	value = "true"
+
+HACMPdaemons:
+	nodename = "DX978"
+	daemon = "clstrmgrES"
+	type = "stop"
+	object = "time"
+	value = "now"
+
+HACMPdaemons:
+	nodename = "DX978"
+	daemon = "clstrmgrES"
+	type = "stop"
+	object = "broadcast"
+	value = "false"
+
+HACMPdaemons:
+	nodename = "DX978"
+	daemon = "clstrmgrES"
+	type = "stop"
+	object = "mode"
+	value = "forced"
+==== EXITED with rc 0 ====
+==== END odmget HACMPdaemons Mon Jul  6 23:43:22 GST 2015 ====

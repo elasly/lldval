@@ -1,0 +1,4 @@
+==== This output can be found in Systems/dx986/storage/for_k_in_lspv_egrep_active_concurrent_awk_print_3_.txt ====
+==== START for k in $(lspv | egrep "active|concurrent" | awk '{print $3}' | sort -u | lsvg -il | egrep -v "LV NAME|:" | awk '{print $1}'); do echo "#### LV $k ####";lslv $k |grep COPIES | awk '{print $1 " " $2}'; echo ""; done | grep -vwp 1 Tue Jul  7 00:52:39 GST 2015 ====
+==== EXITED with rc 0 ====
+==== END for k in $(lspv | egrep "active|concurrent" | awk '{print $3}' | sort -u | lsvg -il | egrep -v "LV NAME|:" | awk '{print $1}'); do echo "#### LV $k ####";lslv $k |grep COPIES | awk '{print $1 " " $2}'; echo ""; done | grep -vwp 1 Tue Jul  7 00:52:52 GST 2015 ====

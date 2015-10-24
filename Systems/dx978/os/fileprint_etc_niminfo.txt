@@ -1,0 +1,29 @@
+==== This output can be found in Systems/dx978/os/fileprint_etc_niminfo.txt ====
+==== START fileprint /etc/niminfo Mon Jul  6 23:29:56 GST 2015 ====
+==== BEGIN Contents of /etc/niminfo ====
+#------------------ Network Install Manager ---------------
+# warning - this file contains NIM configuration information
+# 	and should only be updated by NIM
+export NIM_NAME=DX977
+export NIM_HOSTNAME=DX977
+export NIM_CONFIGURATION=standalone
+export NIM_MASTER_HOSTNAME=DX983
+export NIM_MASTER_PORT=1058
+export NIM_REGISTRATION_PORT=1059
+export NIM_SHELL="shell"
+export NIM_MASTERID=00F9ADA14C00
+export REMAIN_NIM_CLIENT=no
+export NIM_LICENSE_ACCEPT=yes
+export RC_CONFIG=rc.bos_inst
+export NIM_BOSINST_ENV="/../SPOT/usr/lpp/bos.sysmgt/nim/methods/c_bosinst_env"
+export NIM_BOSINST_RECOVER="/../SPOT/usr/lpp/bos.sysmgt/nim/methods/c_bosinst_env -a hostname=DX977"
+export NIM_BOSINST_DATA=/NIM_BOSINST_DATA
+export SPOT=DX983:/export/nim/spot/710spot_res/usr
+export NIM_BOS_IMAGE=/NIM_BOS_IMAGE
+export NIM_BOS_FORMAT=mksysb
+export NIM_HOSTS=" 127.0.0.1:loopback:localhost  10.51.229.220:DX977  10.51.226.230:DX983 "
+export NIM_MOUNTS=" DX983:/export/nim/bosinst_data/7100-03bid_ow:/NIM_BOSINST_DATA:file  DX983:/export/nim/lpp_source/710lpp_res:/SPOT/usr/sys/inst.images:dir  DX983:/export/nim/mksysb/generic_sysb:/NIM_BOS_IMAGE:file "
+export ROUTES=" default:0:10.51.229.1 "
+==== END Contents of /etc/niminfo ====
+==== EXITED with rc 0 ====
+==== END fileprint /etc/niminfo Mon Jul  6 23:29:56 GST 2015 ====

@@ -1,0 +1,7 @@
+==== This output can be found in Systems/dx987/ha/get_HA_rsct_details-c_IBM_TieBreaker.txt ====
+==== START get_HA_rsct_details -c IBM.TieBreaker Tue Jul  7 00:00:50 GST 2015 ====
+Resource Class Persistent Attributes for IBM.TieBreaker
+resource 1:
+	AvailableTypes = {["DISK",""],["EXEC",""],["Operator",""],["Fail",""],["Success",""],["SCSIPR","/usr/sbin/rsct/modules/tblm_SCSIPR.a"]}
+==== EXITED with rc 0 ====
+==== END get_HA_rsct_details -c IBM.TieBreaker Tue Jul  7 00:00:50 GST 2015 ====

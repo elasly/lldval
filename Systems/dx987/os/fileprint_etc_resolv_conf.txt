@@ -1,0 +1,14 @@
+==== This output can be found in Systems/dx987/os/fileprint_etc_resolv_conf.txt ====
+==== START fileprint /etc/resolv.conf Mon Jul  6 23:48:21 GST 2015 ====
+==== BEGIN Contents of /etc/resolv.conf ====
+nameserver      10.36.153.13
+nameserver      10.32.156.112
+nameserver      10.32.156.114
+nameserver      10.65.157.31
+nameserver      10.55.153.31
+domain  etisalat.corp.ae
+options rotate
+options timeout:2
+==== END Contents of /etc/resolv.conf ====
+==== EXITED with rc 0 ====
+==== END fileprint /etc/resolv.conf Mon Jul  6 23:48:21 GST 2015 ====

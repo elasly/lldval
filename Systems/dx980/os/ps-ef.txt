@@ -1,0 +1,108 @@
+==== This output can be found in Systems/dx980/os/ps-ef.txt ====
+==== START ps -ef Mon Jul  6 23:12:40 GST 2015 ====
+     UID      PID     PPID   C    STIME    TTY  TIME CMD
+    root        1        0   0   Jun 12      -  0:04 /etc/init
+    root  3342398        1   0   Jun 12      -  0:00 /usr/ccs/bin/shlap64
+    root  3539184  4390986   0   Jun 12      -  0:00 /usr/sbin/biod 6
+    root  3866708        1   0   Jun 12      - 44:40 /usr/sbin/syncd 60
+    root  3932194  4390986   0   Jun 12      -  0:00 /usr/sbin/hostmibd
+    root  4390986        1   0   Jun 12      -  0:00 /usr/sbin/srcmstr
+    root  4653298  4390986   0   Jun 12      -  1:35 /usr/sbin/syslogd -R
+    root  4718758        1   0   Jun 12      -  0:00 /opt/freeware/cimom/pegasus/bin/CIM_diagd
+  daemon  4784242  4390986   0   Jun 12      -  0:00 /usr/sbin/rpc.statd -d 0 -t 50
+    root  4915224  4390986   0   Jun 12      -  0:00 /opt/freeware/cimom/pegasus/bin/cimssys platform_agent
+    root  4980790  4390986   0   Jun 12      -  0:00 /usr/sbin/rpc.lockd -d 0
+    root  5046492        1   0   Jun 12      -  0:01 [cimserve]
+    root  5111888  3539240   0   Jun 12      -  1:55 /usr/lpp/OV/lbin/eaagt/opcacta
+    root  5177392  3539240   0   Jun 12      -  5:19 /usr/lpp/OV/lbin/perf/coda
+    root  5242928  4390986   0   Jun 12      -  0:00 /opt/freeware/cimom/pegasus/bin/cimssys cimsys
+    root  5374010  4390986   0   Jun 12      - 236:31 /usr/sbin/snmpd
+    root  5505084  4390986   0   Jun 12      -  0:00 /usr/sbin/writesrv
+    root  5701748  3539240   0   Jun 12      -  1:05 /usr/lpp/OV/bin/ovbbccb -nodaemon
+    root  5767258        1   0   Jun 12      -  0:00 /usr/sbin/uprintfd
+    root  5832816  4390986   0   Jun 12      -  0:00 /usr/sbin/qdaemon
+    root  6160466        1   0   Jun 12      -  0:00 /usr/bin/cimlistener
+    root  6226056  3539240   0   Jun 12      -  5:16 /usr/lpp/OV/lbin/eaagt/opcmona
+    root  6422654  4390986   0   Jun 12      -  0:12 /usr/sbin/clconfd
+pconsole  6488248  4587896   0   Jun 12      -  0:00 /bin/ksh /pconsole/lwi/bin/lwistart_src.sh
+    root  6619284  4390986   0   Jun 12      -  0:04 /usr/sbin/rsct/bin/IBM.ConfigRMd
+    root  6684810  4390986   0   Jun 12      -  0:00 /bin/ksh /var/opt/tivoli/ep/runtime/nonstop/bin/cas_src.sh
+pconsole  6750320  6488248   0   Jun 12      -  2:07 /usr/java6/bin/java -Xmx512m -Xms20m -Xscmx10m -Xshareclasses -Xbootclasspath/p:/usr/java5/jre/lib/ibmjsseprovider2.jar -Dfile.encoding=UTF-8 -Xbootclasspath/a:/pconsole/lwi/runtime/core/eclipse/plugins/com.ibm.rcp.base_6.2.1.20091117-1800/rcpbootcp.jar:/pconsole/lwi/lib/ISCJaasModule.jar:/pconsole/lwi/lib/com.ibm.logging.icl_1.1.1.jar:/pconsole/lwi/lib/jaas2zos.jar:/pconsole/lwi/lib/jaasmodule.jar:/pconsole/lwi/lib/lwinative.jar:/pconsole/lwi/lib/lwinl.jar:/pconsole/lwi/lib/lwirolemap.jar:/pconsole/lwi/lib/lwisecurity.jar:/pconsole/lwi/lib/lwitools.jar:/pconsole/lwi/lib/passutils.jar -Xverify:none -cp eclipse/launch.jar:eclipse/startup.jar:/pconsole/lwi/runtime/core/eclipse/plugins/com.ibm.rcp.base_6.2.1.20091117-1800/launcher.jar com.ibm.lwi.LaunchLWI
+    root  7012516  4390986   0   Jun 12      - 11:22 /usr/es/sbin/cluster/clstrmgr
+    root  7077892        1   0   Jun 12      -  1:47 lsdaemon 10000
+    root  7143582  4390986   0   Jun 12      -  0:00 /usr/sbin/rsct/bin/IBM.ServiceRMd
+    root  7995496 20119584   0   Jun 12      -  0:02 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f9ada100004c000000014c0951cf79 -v 0
+    root  8519792 20119584   0   Jun 12      -  0:02 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f9ada100004c000000014c09525811 -v 0
+    root  9240664        1   0   Jun 12      -  3:46 /usr/sbin/getty /dev/console
+    root  9568344 20119584   0   Jun 12      -  0:01 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f9ada100004c000000014c0951da28 -v 0
+    root  9896120 20119584   0   Jun 12      -  0:01 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f9ada100004c000000014c09524832 -v 0
+    root 10551354  7012516   0   Jun 12      -  0:00 run_rcovcmd
+    root 10682478  4390986   0   Jun 15      -  0:00 /usr/es/sbin/cluster/clevmgrd
+    root 13435000 20119584   0   Jun 12      -  0:01 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f9ada100004c000000014c09525034 -v 0
+    root 15401106 20119584   0   Jun 12      -  0:02 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f9ada100004c000000014c02a5ec39 -v 0
+    root 16187616 20119584   0   Jun 12      -  0:02 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f9ada100004c000000014c09520b0c -v 0
+    root 16449706 20119584   0   Jun 12      -  0:01 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f9ada100004c000000014c09523810 -v 0
+    root 19398820 20119584   0   Jun 15      -  0:01 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f9ada100004c000000014df5af0cba -v 0
+    root 20119584  4390986   0   Jun 12      -  0:01 /usr/sbin/gsclvmd
+    root 20906142 20119584   0   Jun 12      -  0:02 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f9ada100004c000000014c095223e0 -v 0
+    root 29229124 42664308   0 23:12:40  pts/2  0:00 /bin/sh /tmp/pcat/pcat/./pcat-os.sh aa
+    root 40435800 41681104   0   Jun 30  pts/1  0:00 -ksh
+    root 41681104  4850070   0   Jun 30      -  0:00 sshd: root@pts/1
+    root 47055000 34800024   0 23:12:22  pts/2  0:00 tee Systems/dx980/pcat-os_sh-out.txt
+    root 48365774  4850070   0 12:34:17      -  0:00 sshd: root@pts/0
+    root 49545418        1   0 20:00:01      -  0:00 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX980 -ystart_time=20:00:00,Jul06,2015
+    root 52101236 48365774   0 12:34:28  pts/0  0:00 -ksh
+    root 52166768 46727456   0 23:09:44  pts/2  0:00 bash
+    root  1769846  4390986   0   Jun 12      -  0:00 /usr/sbin/portmap
+    root  2228504  4390986   0   Jun 12      -  0:17 sendmail: accepting connections
+    root  2294034        1   0   Jun 12      -  0:00 /usr/lib/errdemon
+    root  2949394  3539240   0   Jun 12      -  0:00 /usr/lpp/OV/lbin/eaagt/opcmsgi
+    root  3015164        1   0   Jun 12      -  3:03 /usr/sbin/emcp_mond
+    root  3080628        1   0   Jun 12      -  0:10 /opt/freeware/cimom/pegasus/bin/cimprovagt 0 12 16 root SLPProviderModule
+    root  3146224  4390986   0   Jun 12      -  0:00 /usr/sbin/inetd
+    root  3277300  4390986   0   Jun 12      -  0:00 /usr/sbin/snmpmibd
+    root  3342838  4390986   0   Jun 12      -  0:04 /usr/sbin/aixmibd
+    root  3408224  3539240   0   Jun 12      -  1:07 /usr/lpp/OV/lbin/eaagt/opcmsga
+    root  3473918  3146224   0   Jun 12      -  3:01 xmtopas -p3
+    root  3539240        1   0   Jun 12      -  3:28 /usr/lpp/OV/bin/ovcd
+    root  3604888        1   0   Jun 12      -  0:04 /opt/ibm/icc/cimom/bin/dirsnmpd
+    root  3670302        1   0   Jun 12      -  0:09 /usr/sbin/cron
+    root  3801382        1   0   Jun 12      -  0:40 /bin/nsrexecd
+    root  3997998        1   0   Jun 12      -  0:16 ./slp_srvreg -D
+    root  4129076  4390986   0   Jun 12      -  2:44 /usr/sbin/clcomd -d
+    root  4194590  4390986   0   Jun 12      -  0:22 /usr/sbin/aso
+    root  4325668  4390986   0   Jun 12      -  0:00 /usr/sbin/hrd
+    root  4456748        1   0   Jun 12      -  0:01 /opt/ibm/director/cimom/bin/tier1slp
+    root  4587896  4390986   0   Jun 12      -  0:00 /bin/ksh /pconsole/lwi/bin/lwistart_src.sh
+    root  4718928  3539240   0   Jun 12      -  0:00 /usr/lpp/OV/lbin/conf/ovconfd
+    root  4850070  4390986   0   Jun 12      -  0:00 /usr/sbin/sshd
+    root  4915670  6684810   0   Jun 12      -  0:05 bin/nonstop_aix @/var/opt/tivoli/ep/runtime/nonstop/config/nonstop.properties
+    root  4981174  4390986   0   Jun 12      -  8:30 /usr/es/sbin/cluster/clinfo
+    root  5112278        1   0   Jun 12      -  0:47 /usr/lpp/perf/bin/perfalarm
+    root  5177706        1   0   Jun 12      -  6:58 /usr/bin/topasrec  -L -s 300 -R 1 -r 6 -o /var/perf/daily/ -ypersistent=1 -O type=bin -ystart_time=01:22:08,Jun12,2015
+    root  5243282  4390986   0   Jun 12      -  3:15 /usr/sbin/rsct/bin/hagsd cthags
+    root  5308846        1   0   Jun 12      -  0:00 /usr/dt/bin/dtlogin -daemon
+    root  5570960  4915670   0   Jun 12      - 11:20 /var/opt/tivoli/ep/_jvm/jre/bin/java -Xmx384m -Xminf0.01 -Xmaxf0.4 -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Xbootclasspath/a:/var/opt/tivoli/ep/runtime/core/eclipse/plugins/com.ibm.rcp.base_6.2.3.20110824-0615/rcpbootcp.jar:/var/opt/tivoli/ep/lib/com.ibm.logging.icl_1.1.1.jar:/var/opt/tivoli/ep/lib/jaas2zos.jar:/var/opt/tivoli/ep/lib/jaasmodule.jar:/var/opt/tivoli/ep/lib/lwidiag.jar:/var/opt/tivoli/ep/lib/lwinative.jar:/var/opt/tivoli/ep/lib/lwinl.jar:/var/opt/tivoli/ep/lib/lwirolemap.jar:/var/opt/tivoli/ep/lib/lwisecurity.jar:/var/opt/tivoli/ep/lib/lwitools.jar:/var/opt/tivoli/ep/lib/passutils.jar:../../runtime/agent/lib/cas-bootcp.jar -Xverify:none -cp eclipse/launch.jar:eclipse/startup.jar:/var/opt/tivoli/ep/runtime/core/eclipse/plugins/com.ibm.rcp.base_6.2.3.20110824-0615/launcher.jar com.ibm.lwi.LaunchLWI
+    root  5702022  4390986   0   Jun 12      -  1:40 /usr/sbin/rsct/bin/rmcd -a IBM.LPCommands -r -S 1500
+    root  5767636  4390986   0   Jun 12      -  7:19 /usr/sbin/rsct/bin/IBM.HostRMd
+    root  5833120  4390986   0   Jun 12      -  1:24 /usr/sbin/rsct/bin/IBM.StorageRMd
+    root  5898690        1   1   Jun 12      - 23:24 /usr/lpp/perf/bin/scopeux
+    root  6029802        1   0   Jun 12      -  0:01 /usr/lpp/perf/bin/midaemon
+    root  6095260  4390986   0   Jun 12      -  0:00 /usr/sbin/rsct/bin/IBM.DRMd
+    root  6226238  7077892   0                  0:00 <defunct>
+    root  6423002        1   0   Jun 12      -  0:00 /usr/lpp/perf/bin/ttd
+    root  6488334        1   9   Jun 12      - 74:44 perfd
+    root  6750624 20119584   0   Jun 12      -  0:02 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f9ada100004c000000014c095240b8 -v 0
+    root  9372092 20119584   0   Jun 12      -  0:02 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f9ada100004c000000014bf9574a93 -v 0
+    root  9437506 20119584   0   Jun 12      -  0:02 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f9ada100004c000000014c09527420 -v 0
+    root 32309714 40435800   0   Jun 30  pts/1  0:00 ssh
+    root 34800024 46530942   0 23:12:19  pts/2  0:00 /bin/sh /tmp/pcat/pcat/./pcat-os.sh aa
+    root 37486924        1   0                  0:00 <defunct>
+    root 40305104 29229124   0 23:12:40  pts/2  0:00 tail -512000
+    root 41484684 40305104   0 23:12:40  pts/2  0:00 ps -ef
+    root 42664308 34800024  14 23:12:22  pts/2  0:00 /bin/sh /tmp/pcat/pcat/./pcat-os.sh aa
+    root 46530942 52166768   0 23:12:19  pts/2  0:00 /bin/sh ./pcat.sh --notsm --nohmc
+    root 46727456 49348986   0 23:08:44  pts/2  0:00 -ksh
+    root 49348986  4850070   0 23:08:28      -  0:00 sshd: root@pts/2
+==== EXITED with rc 0 ====
+==== END ps -ef Mon Jul  6 23:12:40 GST 2015 ====

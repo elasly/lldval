@@ -1,0 +1,96 @@
+==== This output can be found in Systems/dx987/os/ps-ef.txt ====
+==== START ps -ef Mon Jul  6 23:48:21 GST 2015 ====
+     UID      PID     PPID   C    STIME    TTY  TIME CMD
+    root        1        0   0   May 07      -  0:10 /etc/init
+    root  1835100        1   0   May 07      -  0:42 ./slp_srvreg -D
+    root  2752536  1245506   0   May 07      -  0:00 /usr/sbin/inetd
+    root  2949180  1245506   0   May 07      -  0:00 /usr/sbin/hrd
+    root  3014704  1245506   0   May 07      -  0:02 /usr/sbin/snmpd
+    root  3080200  1245506   0   May 07      -  0:00 /usr/sbin/sshd
+    root  3342366  1245506   0   May 07      -  0:00 /usr/sbin/qdaemon
+    root  3604530  1245506   0   May 07      -  0:00 /bin/ksh /pconsole/lwi/bin/lwistart_src.sh
+    root  3670138        1   0   May 07      -  0:02 [cimserve]
+    root  3735700  4260430   0   May 07      -  0:06 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f92eec00004c000000014d24573925 -v 0
+    root  3801140        1   0   May 07      -  0:00 /usr/dt/bin/dtlogin -daemon
+pconsole  3866688  2556486   0   May 07      -  5:00 /usr/java6/bin/java -Xmx512m -Xms20m -Xscmx10m -Xshareclasses -Xbootclasspath/p:/usr/java5/jre/lib/ibmjsseprovider2.jar -Dfile.encoding=UTF-8 -Xbootclasspath/a:/pconsole/lwi/runtime/core/eclipse/plugins/com.ibm.rcp.base_6.2.1.20091117-1800/rcpbootcp.jar:/pconsole/lwi/lib/ISCJaasModule.jar:/pconsole/lwi/lib/com.ibm.logging.icl_1.1.1.jar:/pconsole/lwi/lib/jaas2zos.jar:/pconsole/lwi/lib/jaasmodule.jar:/pconsole/lwi/lib/lwinative.jar:/pconsole/lwi/lib/lwinl.jar:/pconsole/lwi/lib/lwirolemap.jar:/pconsole/lwi/lib/lwisecurity.jar:/pconsole/lwi/lib/lwitools.jar:/pconsole/lwi/lib/passutils.jar -Xverify:none -cp eclipse/launch.jar:eclipse/startup.jar:/pconsole/lwi/runtime/core/eclipse/plugins/com.ibm.rcp.base_6.2.1.20091117-1800/launcher.jar com.ibm.lwi.LaunchLWI
+    root  4128894  2949438   0   May 07      - 22:57 /var/opt/tivoli/ep/_jvm/jre/bin/java -Xmx384m -Xminf0.01 -Xmaxf0.4 -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Xbootclasspath/a:/var/opt/tivoli/ep/runtime/core/eclipse/plugins/com.ibm.rcp.base_6.2.3.20110824-0615/rcpbootcp.jar:/var/opt/tivoli/ep/lib/com.ibm.logging.icl_1.1.1.jar:/var/opt/tivoli/ep/lib/jaas2zos.jar:/var/opt/tivoli/ep/lib/jaasmodule.jar:/var/opt/tivoli/ep/lib/lwidiag.jar:/var/opt/tivoli/ep/lib/lwinative.jar:/var/opt/tivoli/ep/lib/lwinl.jar:/var/opt/tivoli/ep/lib/lwirolemap.jar:/var/opt/tivoli/ep/lib/lwisecurity.jar:/var/opt/tivoli/ep/lib/lwitools.jar:/var/opt/tivoli/ep/lib/passutils.jar:../../runtime/agent/lib/cas-bootcp.jar -Xverify:none -cp eclipse/launch.jar:eclipse/startup.jar:/var/opt/tivoli/ep/runtime/core/eclipse/plugins/com.ibm.rcp.base_6.2.3.20110824-0615/launcher.jar com.ibm.lwi.LaunchLWI
+    root  4259904  1245506   0   May 07      - 20:25 /usr/sbin/rsct/bin/IBM.HostRMd
+    root  4390944  4260430   0   May 07      -  0:06 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f92eec00004c000000014d24572836 -v 0
+    root  4980796  4260430   0   May 07      -  0:06 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f92eec00004c000000014d245730ee -v 0
+    root  5832916  4260430   0   May 07      -  0:06 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f92eec00004c000000014cd88d4c97 -v 0
+    root  5898446  4260430   0   May 07      -  0:06 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f92eec00004c000000014cd898d2e7 -v 0
+    root  7405746        1   0   May 26      -  1:14 /bin/nsrexecd
+    root  7930084        1   0   Jul 01      -  7:18 perfd
+    root  9437190        1   0   Jul 01      -  0:26 lsdaemon 10000
+    root  9765016        1   0   Jul 01      -  0:00 /usr/lpp/perf/bin/ttd
+    root 11862096  9371932   0   Jul 01      -  0:04 /usr/lpp/OV/lbin/perf/coda
+    root 11927774  9371932   0   Jul 01      -  0:23 /usr/lpp/OV/lbin/eaagt/opcacta
+    root 12189772        1   0   Jul 01      -  3:26 /usr/lpp/perf/bin/scopeux
+    root 12451974  5112538   0 23:47:53  pts/1  0:00 /bin/sh /tmp/pcat/pcat/./pcat-os.sh aa
+    root 12517546 12714142   0   Jun 30  pts/0  0:00 -ksh
+    root 12714142  3080200   0   Jun 30      -  0:00 sshd: root@pts/0
+    root 12845070        1   0 20:00:01      -  0:01 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX987 -ystart_time=20:00:01,Jul06,2015
+    root 13041868  8716792   0 23:39:56  pts/1  0:00 -ksh
+    root  1180072        1   0   May 07      -  0:10 /opt/ibm/icc/cimom/bin/dirsnmpd
+    root  1245506        1   0   May 07      -  0:00 /usr/sbin/srcmstr
+    root  1573162        1   0   May 07      - 61:35 /usr/sbin/syncd 60
+    root  1901028  1245506   0   May 07      -  0:06 /usr/sbin/syslogd -R
+    root  1966558  1245506   0   May 07      -  0:10 /usr/sbin/aixmibd
+    root  2031926  1245506   0   May 07      -  0:00 /usr/sbin/rsct/bin/IBM.ServiceRMd
+    root  2097478        1   0   May 07      -  0:00 /usr/sbin/uprintfd
+    root  2163192  1245506   0   May 07      -  0:00 /usr/sbin/writesrv
+    root  2228590        1   0   May 07      -  0:04 /usr/bin/cimlistener
+    root  2294020  1245506   0   May 07      -  0:56 /usr/sbin/aso
+    root  2425208  4260430   0   May 07      -  0:06 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f92eec00004c000000014d245740d1 -v 0
+    root  2490632  1245506   0   May 07      -  0:00 /usr/sbin/biod 6
+    root  2556168        1   0   May 07      -  0:02 /opt/ibm/director/cimom/bin/tier1slp
+    root  2621706  1245506   0   May 07      -  0:00 /opt/freeware/cimom/pegasus/bin/cimssys cimsys
+    root  2687258        1   0   May 07      -  0:00 /opt/freeware/cimom/pegasus/bin/CIM_diagd
+    root  2949438  2949688   0   May 07      -  0:16 bin/nonstop_aix @/var/opt/tivoli/ep/runtime/nonstop/config/nonstop.properties
+    root  3014952  1245506   0   May 07      -  6:28 /usr/sbin/clcomd -d
+    root  3211542  1245506   0   May 07      -  7:33 /usr/es/sbin/cluster/clstrmgr
+    root  3277156  1245506   0   May 07      -  0:00 /usr/sbin/rsct/bin/IBM.DRMd
+    root  3342736        1   0   May 07      -  0:25 /opt/freeware/cimom/pegasus/bin/cimprovagt 0 12 16 root SLPProviderModule
+    root  3867080  1245506   0   May 07      -  0:26 /usr/sbin/clconfd
+    root  4325674 12451974   0 23:47:56  pts/1  0:00 tee Systems/dx987/pcat-os_sh-out.txt
+    root  4456800  4260430   0   May 07      -  0:07 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f92eec00004c000000014d233468e4 -v 0
+    root  4784432  3211542   0   May 07      -  0:00 run_rcovcmd
+    root  5112318  9371932   0   Jul 01      -  0:00 /usr/lpp/OV/bin/ovbbccb -nodaemon
+    root  5243344  4260430   0   May 07      -  0:06 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f92eec00004c000000014d23347c99 -v 0
+    root  5439788  4260430   0   May 07      -  0:06 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f92eec00004c000000014cf69e988b -v 0
+    root  5570834  4260430   0   May 07      -  0:07 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f92eec00004c000000014d23345024 -v 0
+    root  5833126  4260430   0   May 07      -  0:06 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f92eec00004c000000014d2457486f -v 0
+    root  5964128  9371932   0   Jul 01      -  0:00 /usr/lpp/OV/lbin/conf/ovconfd
+    root  6226322        1   0   Jul 01      -  0:10 /usr/lpp/perf/bin/perfalarm
+    root  6291720  4784846   1 23:48:21  pts/1  0:00 ps -ef
+    root  6881722  9371932   0   Jul 01      -  0:26 /usr/lpp/OV/lbin/eaagt/opcmsga
+    root  8126730        1   0   Jul 01      -  0:00 /usr/lpp/perf/bin/midaemon
+    root  8716792  3080200   0 23:39:28      -  0:00 sshd: root@pts/1
+    root  9371932        1   0   Jul 01      -  0:40 /usr/lpp/OV/bin/ovcd
+    root  9830806  4260430   0   Jun 15      -  0:03 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f92eec00004c000000014df5e31d1d -v 0
+    root   787156        1   0   May 07      -  0:00 /usr/ccs/bin/shlap64
+    root  2032344  1245506   0   May 07      -  0:01 /usr/sbin/hostmibd
+    root  2097882  1245506   0   May 07      -  0:43 sendmail: accepting connections
+    root  2163422  1245506   0   May 07      -  0:00 /usr/sbin/portmap
+    root  2228958  1245506   0   May 07      -  0:00 /usr/sbin/snmpmibd
+  daemon  2294284  1245506   0   May 07      -  0:00 /usr/sbin/rpc.statd -d 0 -t 50
+    root  2359856  1245506   0   May 07      -  0:00 /usr/sbin/rpc.lockd -d 0
+    root  2425360        1   0   May 07      -  0:25 /usr/sbin/cron
+    root  2491130  1245506   0   May 07      -  0:00 /opt/freeware/cimom/pegasus/bin/cimssys platform_agent
+pconsole  2556486  3604530   0   May 07      -  0:00 /bin/ksh /pconsole/lwi/bin/lwistart_src.sh
+    root  2622006  2752536   0   May 07      -  7:04 xmtopas -p3
+    root  2687530  1245506   0   May 07      -  3:07 /usr/sbin/rsct/bin/rmcd -a IBM.LPCommands -r -S 1500
+    root  2949688  1245506   0   May 07      -  0:00 /bin/ksh /var/opt/tivoli/ep/runtime/nonstop/bin/cas_src.sh
+    root  3211872  1245506   0   May 07      -  0:04 /usr/sbin/rsct/bin/IBM.ConfigRMd
+    root  3473940  1245506   0   May 07      - 11:06 /usr/sbin/rsct/bin/hagsd cthags
+    root  4260430  1245506   0   May 07      -  0:05 /usr/sbin/gsclvmd
+    root  4784846  4915790   0 23:48:21  pts/1  0:00 tail -512000
+    root  4915790  5308942   0 23:48:21  pts/1  0:00 /bin/sh /tmp/pcat/pcat/./pcat-os.sh aa
+    root  4981422 13041868   0 23:40:05  pts/1  0:00 bash
+    root  5046974  1245506   0   Jun 15      -  0:01 /usr/es/sbin/cluster/clevmgrd
+    root  5112538  4981422   0 23:47:53  pts/1  0:00 /bin/sh ./pcat.sh --notsm --nohmc
+    root  5178068        1   0   May 18      -  9:01 /usr/sbin/getty /dev/console
+    root  5308942 12451974  18 23:47:56  pts/1  0:00 /bin/sh /tmp/pcat/pcat/./pcat-os.sh aa
+    root  5505726  9437190   0                  0:00 <defunct>
+==== EXITED with rc 0 ====
+==== END ps -ef Mon Jul  6 23:48:21 GST 2015 ====

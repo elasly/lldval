@@ -1,0 +1,13 @@
+==== This output can be found in Systems/dx980/storage/powermt_display.txt ====
+==== START powermt display Mon Jul  6 23:22:49 GST 2015 ====
+Symmetrix logical device count=60
+==============================================================================
+----- Host Bus Adapters ---------  ------ I/O Paths -----  ------ Stats ------
+###  HW Path                       Summary   Total   Dead  IO/Sec Q-IOs Errors
+==============================================================================
+   4 fscsi11                       optimal     116      0       -     0      0
+   5 fscsi14                       optimal     116      0       -     0      0
+   6 fscsi10                       optimal     116      0       -     0      0
+   7 fscsi15                       optimal     116      0       -     0      0
+==== EXITED with rc 0 ====
+==== END powermt display Mon Jul  6 23:22:49 GST 2015 ====

@@ -1,0 +1,24 @@
+==== This output can be found in Systems/dx978/os/lsuser-a_su_ALL_sort.txt ====
+==== START lsuser -a su ALL | sort Mon Jul  6 23:30:23 GST 2015 ====
+adm su=true
+bin su=true
+daemon su=true
+esaadmin su=true
+guest su=true
+invscout su=true
+ipsec su=true
+lp su=true
+lpd su=true
+nobody su=true
+nuucp su=true
+opc_op su=true
+oracle su=true
+pconsole su=false
+root su=true
+sisuser su=true
+snapp su=false
+sshd su=true
+sys su=true
+uucp su=true
+==== EXITED with rc 0 ====
+==== END lsuser -a su ALL | sort Mon Jul  6 23:30:23 GST 2015 ====

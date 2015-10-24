@@ -1,0 +1,33 @@
+==== This output can be found in Systems/dx980/ha/cltopinfo.txt ====
+==== START cltopinfo Mon Jul  6 23:23:11 GST 2015 ====
+Cluster Name:	 DX979_cluster
+Cluster Type:	 Standard
+Heartbeat Type:	 Unicast
+Repository Disk: hdiskpower1 (00f9ada1ece042b9)
+
+There are 2 node(s) and 3 network(s) defined
+NODE DX979:
+	Network net_ether_01
+		DX979-VIP	10.51.226.229
+		DX979	10.51.226.226
+	Network net_ether_02
+		DX979_b	10.51.227.231
+	Network net_ether_03
+		DX979_sc0	10.51.229.222
+NODE DX980:
+	Network net_ether_01
+		DX979-VIP	10.51.226.229
+		DX980	10.51.226.227
+	Network net_ether_02
+		DX980_b	10.51.227.232
+	Network net_ether_03
+		DX980_sc0	10.51.229.223
+
+Resource Group DX979_RSG
+	Startup Policy	 Online On Home Node Only
+	Fallover Policy	 Fallover To Next Priority Node In The List
+	Fallback Policy	 Never Fallback
+	Participating Nodes	 DX979 DX980
+	Service IP Label		 DX979-VIP
+==== EXITED with rc 0 ====
+==== END cltopinfo Mon Jul  6 23:23:11 GST 2015 ====

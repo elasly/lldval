@@ -1,0 +1,18 @@
+==== This output can be found in Systems/dx1011/os/emgr-^P.txt ====
+==== START emgr -P Tue Jul  7 13:38:44 CDT 2015 ====
+
+PACKAGE                                                  INSTALLER   LABEL
+======================================================== =========== ==========
+rsct.core.rmc                                            installp    rsctvios2
+rsct.basic.rte                                           installp    rsctvios2
+rsct.core.utils                                          installp    rsctvios2
+rsct.core.sec                                            installp    rsctvios2
+devices.vtdev.scsi.rte                                   installp    IV66758m4c
+devices.vdevice.IBM.vfc-server.rte                       installp    IV66758m4c
+devices.common.IBM.sissas.rte                            installp    IV66758m4c
+devices.ethernet.shi.rte                                 installp    IV66758m4c
+devices.ethernet.mlx.rte                                 installp    IV66758m4c
+devices.common.IBM.mpio.rte                              installp    IV66758m4c
+ios.cli.rte                                              installp    IV67090s4a
+==== EXITED with rc 0 ====
+==== END emgr -P Tue Jul  7 13:38:44 CDT 2015 ====

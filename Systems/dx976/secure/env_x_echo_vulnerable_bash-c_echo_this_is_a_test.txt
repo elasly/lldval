@@ -1,0 +1,5 @@
+==== This output can be found in Systems/dx976/secure/env_x_echo_vulnerable_bash-c_echo_this_is_a_test.txt ====
+==== START env x='() { :;}; echo vulnerable' bash -c "echo this is a test" Tue Jul  7 13:03:58 CDT 2015 ====
+bash: No such file or directory
+==== EXITED with rc 0 ====
+==== END env x='() { :;}; echo vulnerable' bash -c "echo this is a test" Tue Jul  7 13:03:58 CDT 2015 ====

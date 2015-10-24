@@ -1,0 +1,248 @@
+==== This output can be found in Systems/dx979/network/netstat-s.txt ====
+==== START netstat -s Tue Jul  7 00:29:05 GST 2015 ====
+icmp:
+	7423 calls to icmp_error
+	0 errors not generated because old message was icmp
+	Output histogram:
+		echo reply: 42401
+		destination unreachable: 7423
+		echo: 1031164
+	0 messages with bad code fields
+	0 messages < minimum length
+	0 bad checksums
+	0 messages with bad length
+	Input histogram:
+		echo reply: 1031126
+		destination unreachable: 7157
+		source quench: 397
+		echo: 31639
+		time exceeded: 1
+	31629 message responses generated
+igmp:
+	0 messages received
+	0 messages received with too few bytes
+	0 messages received with bad checksum
+	0 membership queries received
+	0 membership queries received with invalid field(s)
+	0 membership reports received
+	0 membership reports received with invalid field(s)
+	0 membership reports received for groups to which we belong
+	18 membership reports sent
+tcp:
+	7335443043 packets sent
+		6448429317 data packets (34868093554852 bytes)
+		382273 data packets (619598288 bytes) retransmitted
+		85496397 ack-only packets (81480608 delayed)
+		1 URG only packet
+		63 window probe packets
+		799132652 window update packets
+		4005876 control packets
+		804899630 large sends
+		33167867454702 bytes sent using largesend
+		65160 bytes is the biggest largesend
+	7744136492 packets received
+		6105959304 acks (for 34868106838610 bytes)
+		1204233 duplicate acks
+		0 acks for unsent data
+		6995691041 packets (8351151517867 bytes) received in-sequence
+		30521 completely duplicate packets (17278700 bytes)
+		16 old duplicate packets
+		1 packet with some dup. data (48 bytes duped)
+		365066 out-of-order packets (53065677 bytes)
+		6715 packets (6874 bytes) of data after window
+		6714 window probes
+		1981218 window update packets
+		51268 packets received after close
+		0 packets with bad hardware assisted checksum
+		0 discarded for bad checksums
+		0 discarded for bad header offset fields
+		0 discarded because packet too short
+		2693 discarded by listeners
+		0 discarded due to listener's queue full
+		225174164 ack packet headers correctly predicted
+		1586853286 data packet headers correctly predicted
+	1268659 connection requests
+	473387 connection accepts
+	852553 connections established (including accepts)
+	2491213 connections closed (including 50750 drops)
+	0 connections with ECN capability
+	0 times responded to ECN
+	889492 embryonic connections dropped
+	5865936845 segments updated rtt (of 5678981181 attempts)
+	0 segments with congestion window reduced bit set
+	0 segments with congestion experienced bit set
+	0 resends due to path MTU discovery
+	656 path MTU discovery terminations due to retransmits
+	41566 retransmit timeouts
+		2 connections dropped by rexmit timeout
+	40436 fast retransmits
+		1461 when congestion window less than 4 segments
+	259881 newreno retransmits
+	2452 times avoided false fast retransmits
+	50 persist timeouts
+		0 connections dropped due to persist timeout
+	30627 keepalive timeouts
+		0 keepalive probes sent
+		6 connections dropped by keepalive
+	0 times SACK blocks array is extended
+	0 times SACK holes array is extended
+	0 packets dropped due to memory allocation failure
+	1 connection in timewait reused
+	0 delayed ACKs for SYN
+	0 delayed ACKs for FIN
+	0 send_and_disconnects
+	0 spliced connections
+	0 spliced connections closed
+	0 spliced connections reset
+	0 spliced connections timeout
+	0 spliced connections persist timeout
+	0 spliced connections keepalive timeout
+	0 TCP checksum offload disabled during retransmit
+	18 Connections dropped due to bad ACKs
+	0 Connections dropped due to duplicate SYN packets
+	0 fastpath loopback connections
+	0 fastpath loopback sent packets (0 bytes)
+	0 fastpath loopback received packets (0 bytes)
+udp:
+	13401502 datagrams received
+	0 incomplete headers
+	0 bad data length fields
+	0 bad checksums
+	68156 dropped due to no socket
+	1346112 broadcast/multicast datagrams dropped due to no socket
+	0 socket buffer overflows
+	11987234 delivered
+	15448287 datagrams output
+ip:
+	3463798115 total packets received
+	0 bad header checksums
+	0 with size smaller than minimum
+	0 with data size < data length
+	0 with header length < data size
+	0 with data length < header length
+	0 with bad options
+	0 with incorrect version number
+	12 fragments received
+	0 fragments dropped (dup or out of space)
+	0 fragments dropped after timeout
+	6 packets reassembled ok
+	3453668199 packets for this host
+	13 packets for unknown/unsupported protocol
+	0 packets forwarded
+	97124 packets not forwardable
+	0 redirects sent
+	3048009175 packets sent from this host
+	147 packets sent with fabricated ip header
+	0 output packets dropped due to no bufs, etc.
+	0 output packets discarded due to no route
+	126 output datagrams fragmented
+	0 fragments created
+	126 datagrams that can't be fragmented
+	0 IP Multicast packets dropped due to no receiver
+	0 successful path MTU discovery cycles
+	0 path MTU rediscovery cycles attempted
+	0 path MTU discovery no-response estimates
+	0 path MTU discovery response timeouts
+	0 path MTU discovery decreases detected
+	0 path MTU discovery packets sent
+	0 path MTU discovery memory allocation failures
+	0 ipintrq overflows
+	0 with illegal source
+	0 packets processed by threads
+	0 packets dropped by threads
+	1038540 packets dropped due to the full socket receive buffer
+	0 dead gateway detection packets sent
+	0 dead gateway detection packet allocation failures
+	0 dead gateway detection gateway allocation failures
+	0 incoming packets dropped due to MLS filters
+	0 packets not sent due to MLS filters
+
+ipv6:
+	10032776 total packets received
+	Input histogram:
+		TCP: 9911741
+		UDP: 61063
+		ICMP v6: 59972
+	0 with size smaller than minimum
+	0 with data size < data length
+	0 with incorrect version number
+	0 with illegal source
+	0 input packets without enough memory
+	0 fragments received
+	0 fragments dropped (dup or out of space)
+	0 fragments dropped after timeout
+	0 packets reassembled ok
+	10032776 packets for this host
+	0 packets for unknown/unsupported protocol
+	0 packets forwarded
+	0 packets not forwardable
+	0 too big packets not forwarded
+	10032776 packets sent from this host
+	0 packets sent with fabricated ipv6 header
+	0 output packets dropped due to no bufs
+	0 output packets without enough memory
+	19202 output packets discarded due to no route
+	0 output datagrams fragmented
+	0 fragments created
+	0 packets dropped due to full socket receive buffer
+	0 packets not delivered due to bad raw IPv6 checksum
+	0 incoming packets dropped due to MLS filters
+	0 packets not sent due to MLS filters
+icmpv6:
+	60733 calls to icmp6_error
+	0 errors not generated because old message was icmpv6
+	Output histogram:
+		unreachable: 59970
+		packets too big: 0
+		time exceeded: 0
+		parameter problems: 0
+		redirects: 0
+		echo request: 1
+		echo reply: 1
+		group queries: 0
+		group reports: 0
+		group terminations: 0
+		router solicitations: 0
+		router advertisements: 0
+		neighbor solicitations: 0
+		neighbor advertisements: 0
+	0 messages with bad code fields
+	0 messages < minimum length
+	0 bad checksums
+	0 messages with bad length
+	Input histogram:
+		unreachable: 59970
+		packets too big: 0
+		time exceeded: 0
+		parameter problems: 0
+		echo request: 1
+		echo reply: 1
+		group queries: 0
+			bad group queries: 0
+		group reports: 0
+			bad group reports: 0
+			our groups' reports: 0
+		group terminations: 0
+		bad group terminations: 0
+		router solicitations: 0
+		bad router solicitations: 0
+		router advertisements: 0
+		bad router advertisements: 0
+		neighbor solicitations: 0
+		bad neighbor solicitations: 0
+		neighbor advertisements: 0
+		bad neighbor advertisements: 0
+		redirects: 0
+		bad redirects: 0
+		mobility calls when not started: 0
+		home agent address discovery requests: 0
+		bad home agent address discovery requests: 0
+		bad home agent address discovery replys: 0
+		bad home agent address discovery replys: 0
+		prefix solicitations: 0
+		bad prefix solicitations: 0
+		prefix advertisements: 0
+		bad prefix advertisements: 0
+	1 message response generated
+==== EXITED with rc 0 ====
+==== END netstat -s Tue Jul  7 00:29:05 GST 2015 ====

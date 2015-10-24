@@ -1,0 +1,48 @@
+==== This output can be found in Systems/dx976/perf/lparstat-i.txt ====
+==== START lparstat -i  Tue Jul  7 13:04:45 CDT 2015 ====
+Node Name                                  : DX976
+Partition Name                             : VIO4
+Partition Number                           : 2
+Type                                       : Shared-SMT-4
+Mode                                       : Uncapped
+Entitled Capacity                          : 2.00
+Partition Group-ID                         : 32770
+Shared Pool ID                             : 0
+Online Virtual CPUs                        : 6
+Maximum Virtual CPUs                       : 12
+Minimum Virtual CPUs                       : 3
+Online Memory                              : 8192 MB
+Maximum Memory                             : 16384 MB
+Minimum Memory                             : 4096 MB
+Variable Capacity Weight                   : 255
+Minimum Capacity                           : 1.00
+Maximum Capacity                           : 4.00
+Capacity Increment                         : 0.01
+Maximum Physical CPUs in system            : 64
+Active Physical CPUs in system             : 36
+Active CPUs in Pool                        : 36
+Shared Physical CPUs in system             : 36
+Maximum Capacity of Pool                   : 3600
+Entitled Capacity of Pool                  : 1980
+Unallocated Capacity                       : 0.00
+Physical CPU Percentage                    : 33.33%
+Unallocated Weight                         : 0
+Memory Mode                                : Dedicated
+Total I/O Memory Entitlement               : -
+Variable Memory Capacity Weight            : -
+Memory Pool ID                             : -
+Physical Memory in the Pool                : -
+Hypervisor Page Size                       : -
+Unallocated Variable Memory Capacity Weight: -
+Unallocated I/O Memory entitlement         : -
+Memory Group ID of LPAR                    : -
+Desired Virtual CPUs                       : 6
+Desired Memory                             : 8192 MB
+Desired Variable Capacity Weight           : 255
+Desired Capacity                           : 2.00
+Target Memory Expansion Factor             : -
+Target Memory Expansion Size               : -
+Power Saving Mode                          : Dynamic Power Savings (Favor Performance)
+Sub Processor Mode                         : -
+==== EXITED with rc 0 ====
+==== END lparstat -i  Tue Jul  7 13:04:45 CDT 2015 ====

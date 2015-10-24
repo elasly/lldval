@@ -1,0 +1,8 @@
+==== This output can be found in Systems/dx978/os/for_i_in_audit_do_echo_audit_file_i_auditpr-i_i_ec.txt ====
+==== START for i in /audit/*;do echo "#### audit file: $i ####"; auditpr -i $i;echo "########";done Mon Jul  6 23:29:56 GST 2015 ====
+** Input file could not be opened.
+No such file or directory
+#### audit file: /audit/* ####
+########
+==== EXITED with rc 0 ====
+==== END for i in /audit/*;do echo "#### audit file: $i ####"; auditpr -i $i;echo "########";done Mon Jul  6 23:29:56 GST 2015 ====

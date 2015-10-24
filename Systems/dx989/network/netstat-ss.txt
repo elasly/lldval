@@ -1,0 +1,68 @@
+==== This output can be found in Systems/dx989/network/netstat-ss.txt ====
+==== START netstat -ss Thu Aug  6 11:28:43 GST 2015 ====
+icmp:
+	134 calls to icmp_error
+	Output histogram:
+		echo reply: 30
+		destination unreachable: 134
+		echo: 1220
+	Input histogram:
+		echo reply: 1220
+		destination unreachable: 14
+		echo: 33
+	30 message responses generated
+igmp:
+	18 membership reports sent
+tcp:
+	30052 packets sent
+		15223 data packets (12730233 bytes)
+		8093 ack-only packets (6479 delayed)
+		6413 window update packets
+		646 control packets
+	30886 packets received
+		8248 acks (for 12730213 bytes)
+		111 duplicate acks
+		25045 packets (28718893 bytes) received in-sequence
+		4 completely duplicate packets (0 bytes)
+		97 out-of-order packets (0 bytes)
+		173 window update packets
+		7 packets received after close
+		3873 ack packet headers correctly predicted
+		22042 data packet headers correctly predicted
+	123 connection requests
+	107 connection accepts
+	224 connections established (including accepts)
+	815 connections closed (including 7 drops)
+	5 embryonic connections dropped
+	8365 segments updated rtt (of 8289 attempts)
+	1 retransmit timeout
+udp:
+	5994 datagrams received
+	191 dropped due to no socket
+	1199 broadcast/multicast datagrams dropped due to no socket
+	4604 delivered
+	4781 datagrams output
+ip:
+	38281 total packets received
+	38056 packets for this host
+	20 packets for unknown/unsupported protocol
+	77 packets not forwardable
+	36152 packets sent from this host
+
+ipv6:
+	128 total packets received
+	Input histogram:
+		TCP: 14
+		UDP: 57
+		ICMP v6: 57
+	128 packets for this host
+	128 packets sent from this host
+	26 output packets discarded due to no route
+icmpv6:
+	57 calls to icmp6_error
+	Output histogram:
+		unreachable: 57
+	Input histogram:
+		unreachable: 57
+==== EXITED with rc 0 ====
+==== END netstat -ss Thu Aug  6 11:28:43 GST 2015 ====

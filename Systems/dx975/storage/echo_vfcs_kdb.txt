@@ -1,0 +1,27 @@
+==== This output can be found in Systems/dx975/storage/echo_vfcs_kdb.txt ====
+==== START echo "vfcs" | kdb Tue Jul  7 12:47:44 CDT 2015 ====
+           START              END <name>
+0000000000001000 0000000004150000 start+000FD8
+F00000002FF47600 F00000002FFDF9C8 __ublock+000000
+000000002FF22FF4 000000002FF22FF8 environ+000000
+000000002FF22FF8 000000002FF22FFC errno+000000
+F1000F0A00000000 F1000F0A10000000 pvproc+000000
+F1000F0A10000000 F1000F0A18000000 pvthread+000000
+read vscsi_scsi_ptrs OK, ptr = 0x0
+vmcKdb_anchor_p=0x0000000000000000
+vmc kdb command extension, 64 bit version, is loaded.  Commands are:
+vmc - load extension and show help text
+vmcu - unload extension
+vmcd - VMC dump anchor, adapter, connections
+vmcfa - VMC fetch anchor from symbol table
+vmcsa address - VMC set anchor
+vmcdb - VMC dump connection buffers
+vmcdm - VMC dump connection messages
+vmcdq - VMC dump queue
+vmct directoryname - VMC Internal Adapter trace
+vmctbm directoryname - VMC buffer and message trace
+vmcKdb_anchor_p=0x0000000000000000
+(0)> vfcs
+[kdb_read_mem] no real storage @ 7C7243A6E8630090
+(0)> ==== EXITED with rc 0 ====
+==== END echo "vfcs" | kdb Tue Jul  7 12:47:45 CDT 2015 ====

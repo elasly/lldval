@@ -1,0 +1,13 @@
+==== This output can be found in Systems/dx976/perf/vmstat_5_3.txt ====
+==== START vmstat 5 3  Tue Jul  7 13:05:06 CDT 2015 ====
+
+System configuration: lcpu=24 mem=8192MB ent=2.00
+
+kthr    memory              page              faults              cpu          
+----- ----------- ------------------------ ------------ -----------------------
+ r  b   avm   fre  re  pi  po  fr   sr  cy  in   sy  cs us sy id wa    pc    ec
+ 4  1 1188711 100375   0   0   0 16815 41830   0 8058 925753 10422 24 40 36  0  3.31 165.5
+ 2  1 1192201 114865   0   0   0 5415 12473   0 6633 1064113 9157 17 47 36  0  2.44 121.9
+ 2  0 1189029 135756   0   0   0 3609 5731   0 6640 968036 8402 19 44 37  0  2.28 114.1
+==== EXITED with rc 0 ====
+==== END vmstat 5 3  Tue Jul  7 13:05:21 CDT 2015 ====

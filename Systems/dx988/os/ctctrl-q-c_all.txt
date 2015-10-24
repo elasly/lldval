@@ -1,0 +1,414 @@
+==== This output can be found in Systems/dx988/os/ctctrl-q-c_all.txt ====
+==== START ctctrl -q -c all Thu Aug  6 11:13:41 GST 2015 ====
+---------------------------------------+-------+-------+-------+---------------
+                                       | Have  |Mem Trc|Sys Trc| Buffer size
+     Component name                    | alias | /level| /level| /Allocated
+---------------------------------------+-------+-------+-------+---------------
+acf                                    |  NO   |  ON/3 |  ON/3 |       2048/YES
+     .nx                               |  NO   |  ON/3 |  ON/3 |       2048/YES
+     .p11                              |  NO   |  ON/3 |  ON/3 |       2048/YES
+aio                                    |  NO   | OFF/3 |  ON/3 |          0/ NO
+aixdiskpcmke                           |  NO   |  ON/7 |  ON/3 |       6400/YES
+     .pprc                             |  NO   |  ON/7 |  ON/3 |       6400/YES
+cluster
+     .ahafs                            |  NO   |  ON/3 |  ON/3 |    1048576/YES
+     comm
+          .disk                        |  NO   |  ON/3 |  ON/3 |    2097152/YES
+          .net                         |  NO   |  ON/3 |  ON/3 |    2097152/YES
+          .san                         |  NO   |  ON/3 |  ON/3 |    2097152/YES
+     .config                           |  NO   |  ON/3 |  ON/3 |      65536/YES
+     .link                             |  NO   |  ON/3 |  ON/3 |    2097152/YES
+     .lock                             |  NO   |  ON/3 |  ON/3 |      65536/YES
+dpcom                                  |  NO   |  ON/3 |  ON/3 |       6400/YES
+efscsidd
+     .fscsi0                           |  NO   |  ON/3 |  ON/3 |      64000/YES
+          .bufx                        |  NO   |  ON/0 |  ON/0 |      64000/YES
+     .fscsi1                           |  NO   |  ON/3 |  ON/3 |      64000/YES
+          .bufx                        |  NO   |  ON/0 |  ON/0 |      64000/YES
+     .fscsi2                           |  NO   |  ON/3 |  ON/3 |      64000/YES
+          .50060E8007E43A72            |  NO   | OFF/3 | OFF/3 |      32000/ NO
+               .0                      |  NO   |  ON/3 |  ON/3 |       3200/YES
+               .1000000000000          |  NO   |  ON/3 |  ON/3 |       3200/YES
+          .50060E8007E43A7A            |  NO   | OFF/3 | OFF/3 |      32000/ NO
+               .0                      |  NO   |  ON/3 |  ON/3 |       3200/YES
+               .1000000000000          |  NO   |  ON/3 |  ON/3 |       3200/YES
+          .bufx                        |  NO   |  ON/0 |  ON/0 |      64000/YES
+     .fscsi3                           |  NO   |  ON/3 |  ON/3 |      64000/YES
+          .50060E8007E43A62            |  NO   | OFF/3 | OFF/3 |      32000/ NO
+               .0                      |  NO   |  ON/3 |  ON/3 |       3200/YES
+               .1000000000000          |  NO   |  ON/3 |  ON/3 |       3200/YES
+          .50060E8007E43A6A            |  NO   | OFF/3 | OFF/3 |      32000/ NO
+               .0                      |  NO   |  ON/3 |  ON/3 |       3200/YES
+               .1000000000000          |  NO   |  ON/3 |  ON/3 |       3200/YES
+          .bufx                        |  NO   |  ON/0 |  ON/0 |      64000/YES
+     .fscsi4                           |  NO   |  ON/3 |  ON/3 |      64000/YES
+          .bufx                        |  NO   |  ON/0 |  ON/0 |      64000/YES
+     .fscsi5                           |  NO   |  ON/3 |  ON/3 |      64000/YES
+          .bufx                        |  NO   |  ON/0 |  ON/0 |      64000/YES
+     .fscsi6                           |  NO   |  ON/3 |  ON/3 |      64000/YES
+          .50060E8007E43A62            |  NO   | OFF/3 | OFF/3 |      32000/ NO
+               .0                      |  NO   |  ON/3 |  ON/3 |       3200/YES
+               .1000000000000          |  NO   |  ON/3 |  ON/3 |       3200/YES
+          .50060E8007E43A6A            |  NO   | OFF/3 | OFF/3 |      32000/ NO
+               .0                      |  NO   |  ON/3 |  ON/3 |       3200/YES
+               .1000000000000          |  NO   |  ON/3 |  ON/3 |       3200/YES
+          .bufx                        |  NO   |  ON/0 |  ON/0 |      64000/YES
+     .fscsi7                           |  NO   |  ON/3 |  ON/3 |      64000/YES
+          .50060E8007E43A72            |  NO   | OFF/3 | OFF/3 |      32000/ NO
+               .0                      |  NO   |  ON/3 |  ON/3 |       3200/YES
+               .1000000000000          |  NO   |  ON/3 |  ON/3 |       3200/YES
+          .50060E8007E43A7A            |  NO   | OFF/3 | OFF/3 |      32000/ NO
+               .0                      |  NO   |  ON/3 |  ON/3 |       3200/YES
+               .1000000000000          |  NO   |  ON/3 |  ON/3 |       3200/YES
+          .bufx                        |  NO   |  ON/0 |  ON/0 |      64000/YES
+if_en                                  |  NO   |  ON/1 |  ON/7 |      10240/YES
+iscsisw
+     .iscsi0                           |  NO   |  ON/3 |  ON/3 |      16384/YES
+jfs2                                   |  NO   |  ON/3 |  ON/3 |       8192/YES
+     filesystem
+          .__1                         |  NO   |  ON/3 |  ON/3 |       4096/YES
+               .metadata               |  NO   |  ON/3 |  ON/3 |       4096/YES
+               .snapshot               |  NO   | OFF/3 |  ON/3 |          0/ NO
+               .userdata               |  NO   |  ON/3 |  ON/3 |       4096/YES
+          ._admin_8                    |  NO   |  ON/3 |  ON/3 |       4096/YES
+               .metadata               |  NO   |  ON/3 |  ON/3 |       4096/YES
+               .snapshot               |  NO   | OFF/3 |  ON/3 |          0/ NO
+               .userdata               |  NO   |  ON/3 |  ON/3 |       4096/YES
+          ._home_7                     |  NO   |  ON/3 |  ON/3 |       4096/YES
+               .metadata               |  NO   |  ON/3 |  ON/3 |       4096/YES
+               .snapshot               |  NO   | OFF/3 |  ON/3 |          0/ NO
+               .userdata               |  NO   |  ON/3 |  ON/3 |       4096/YES
+          ._opt_10                     |  NO   |  ON/3 |  ON/3 |       4096/YES
+               .metadata               |  NO   |  ON/3 |  ON/3 |       4096/YES
+               .snapshot               |  NO   | OFF/3 |  ON/3 |          0/ NO
+               .userdata               |  NO   |  ON/3 |  ON/3 |       4096/YES
+          ._perfdata_12                |  NO   |  ON/3 |  ON/3 |       4096/YES
+               .metadata               |  NO   |  ON/3 |  ON/3 |       4096/YES
+               .snapshot               |  NO   | OFF/3 |  ON/3 |          0/ NO
+               .userdata               |  NO   |  ON/3 |  ON/3 |       4096/YES
+          ._tmp_5                      |  NO   |  ON/3 |  ON/3 |       4096/YES
+               .metadata               |  NO   |  ON/3 |  ON/3 |       4096/YES
+               .snapshot               |  NO   | OFF/3 |  ON/3 |          0/ NO
+               .userdata               |  NO   |  ON/3 |  ON/3 |       4096/YES
+          ._usr_2                      |  NO   |  ON/3 |  ON/3 |       4096/YES
+               .metadata               |  NO   |  ON/3 |  ON/3 |       4096/YES
+               .snapshot               |  NO   | OFF/3 |  ON/3 |          0/ NO
+               .userdata               |  NO   |  ON/3 |  ON/3 |       4096/YES
+          ._var_4                      |  NO   |  ON/3 |  ON/3 |       4096/YES
+               .metadata               |  NO   |  ON/3 |  ON/3 |       4096/YES
+               .snapshot               |  NO   | OFF/3 |  ON/3 |          0/ NO
+               .userdata               |  NO   |  ON/3 |  ON/3 |       4096/YES
+          ._var_adm_ras_livedump_11    |  NO   |  ON/3 |  ON/3 |       4096/YES
+               .metadata               |  NO   |  ON/3 |  ON/3 |       4096/YES
+               .snapshot               |  NO   | OFF/3 |  ON/3 |          0/ NO
+               .userdata               |  NO   |  ON/3 |  ON/3 |       4096/YES
+     log
+          .A_3                         |  NO   |  ON/3 |  ON/3 |       2048/YES
+lfs                                    |  NO   |  ON/3 |  ON/3 |          0/ NO
+     filesystem
+          ._0                          |  NO   |  ON/3 |  ON/3 |          0/ NO
+          .__1                         |  NO   |  ON/3 |  ON/3 |          0/ NO
+          ._admin_8                    |  NO   |  ON/3 |  ON/3 |          0/ NO
+          ._aha_15                     |  NO   |  ON/3 |  ON/3 |          0/ NO
+          ._home_7                     |  NO   |  ON/3 |  ON/3 |          0/ NO
+          ._opt_10                     |  NO   |  ON/3 |  ON/3 |          0/ NO
+          ._perfdata_12                |  NO   |  ON/3 |  ON/3 |          0/ NO
+          ._proc_9                     |  NO   |  ON/3 |  ON/3 |          0/ NO
+          ._tmp_5                      |  NO   |  ON/3 |  ON/3 |          0/ NO
+          ._usr_2                      |  NO   |  ON/3 |  ON/3 |          0/ NO
+          ._var_4                      |  NO   |  ON/3 |  ON/3 |          0/ NO
+          ._var_adm_ras_livedump_11    |  NO   |  ON/3 |  ON/3 |          0/ NO
+     .kdm                              |  NO   |  ON/3 |  ON/3 |          0/ NO
+lvm                                    |  NO   |  ON/3 |  ON/3 |          0/ NO
+     .caavg_private                    |  NO   | OFF/3 |  ON/3 |          0/ NO
+          .metadata                    |  NO   |  ON/3 |  ON/3 |      16384/YES
+               .lvs                    |  NO   | OFF/3 |  ON/3 |          0/ NO
+                    .caalv_private1    |  NO   | OFF/3 |  ON/3 |       4096/ NO
+                    .caalv_private2    |  NO   | OFF/3 |  ON/3 |       4096/ NO
+                    .caalv_private3    |  NO   | OFF/3 |  ON/3 |       4096/ NO
+                    .caavg_private_dalv|  NO   | OFF/3 |  ON/3 |       4096/ NO
+                    .powerha_crlv      |  NO   | OFF/3 |  ON/3 |       4096/ NO
+               .pvs                    |  NO   | OFF/3 |  ON/3 |          0/ NO
+                    .hdisk1            |  NO   | OFF/3 |  ON/3 |          0/ NO
+          .userdata                    |  NO   | OFF/3 |  ON/3 |          0/ NO
+               .lvs                    |  NO   | OFF/3 |  ON/3 |          0/ NO
+                    .caalv_private1    |  NO   | OFF/3 |  ON/3 |          0/ NO
+                    .caalv_private2    |  NO   | OFF/3 |  ON/3 |          0/ NO
+                    .caalv_private3    |  NO   | OFF/3 |  ON/3 |          0/ NO
+                    .caavg_private_dalv|  NO   | OFF/3 |  ON/3 |          0/ NO
+                    .powerha_crlv      |  NO   | OFF/3 |  ON/3 |          0/ NO
+               .pvs                    |  NO   | OFF/3 |  ON/3 |          0/ NO
+                    .hdisk1            |  NO   | OFF/3 |  ON/3 |          0/ NO
+     .rootvg                           |  NO   | OFF/3 |  ON/3 |          0/ NO
+          .metadata                    |  NO   |  ON/3 |  ON/3 |      16384/YES
+               .lvs                    |  NO   | OFF/3 |  ON/3 |          0/ NO
+                    .hd1               |  NO   | OFF/3 |  ON/3 |       4096/ NO
+                    .hd10opt           |  NO   | OFF/3 |  ON/3 |       4096/ NO
+                    .hd11admin         |  NO   | OFF/3 |  ON/3 |       4096/ NO
+                    .hd2               |  NO   | OFF/3 |  ON/3 |       4096/ NO
+                    .hd3               |  NO   | OFF/3 |  ON/3 |       4096/ NO
+                    .hd4               |  NO   | OFF/3 |  ON/3 |       4096/ NO
+                    .hd5               |  NO   | OFF/3 |  ON/3 |       4096/ NO
+                    .hd6               |  NO   | OFF/3 |  ON/3 |       4096/ NO
+                    .hd8               |  NO   | OFF/3 |  ON/3 |       4096/ NO
+                    .hd9var            |  NO   | OFF/3 |  ON/3 |       4096/ NO
+                    .lg_dumplv         |  NO   | OFF/3 |  ON/3 |       4096/ NO
+                    .livedump          |  NO   | OFF/3 |  ON/3 |       4096/ NO
+                    .perfdatalv        |  NO   | OFF/3 |  ON/3 |       4096/ NO
+                    .rootvg_dalv       |  NO   | OFF/3 |  ON/3 |       4096/ NO
+               .pvs                    |  NO   | OFF/3 |  ON/3 |          0/ NO
+                    .hdisk0            |  NO   | OFF/3 |  ON/3 |          0/ NO
+          .userdata                    |  NO   | OFF/3 |  ON/3 |          0/ NO
+               .lvs                    |  NO   | OFF/3 |  ON/3 |          0/ NO
+                    .hd1               |  NO   | OFF/3 |  ON/3 |          0/ NO
+                    .hd10opt           |  NO   | OFF/3 |  ON/3 |          0/ NO
+                    .hd11admin         |  NO   | OFF/3 |  ON/3 |          0/ NO
+                    .hd2               |  NO   | OFF/3 |  ON/3 |          0/ NO
+                    .hd3               |  NO   | OFF/3 |  ON/3 |          0/ NO
+                    .hd4               |  NO   | OFF/3 |  ON/3 |          0/ NO
+                    .hd5               |  NO   | OFF/3 |  ON/3 |          0/ NO
+                    .hd6               |  NO   | OFF/3 |  ON/3 |          0/ NO
+                    .hd8               |  NO   | OFF/3 |  ON/3 |          0/ NO
+                    .hd9var            |  NO   | OFF/3 |  ON/3 |          0/ NO
+                    .lg_dumplv         |  NO   | OFF/3 |  ON/3 |          0/ NO
+                    .livedump          |  NO   | OFF/3 |  ON/3 |          0/ NO
+                    .perfdatalv        |  NO   | OFF/3 |  ON/3 |          0/ NO
+                    .rootvg_dalv       |  NO   | OFF/3 |  ON/3 |          0/ NO
+               .pvs                    |  NO   | OFF/3 |  ON/3 |          0/ NO
+                    .hdisk0            |  NO   | OFF/3 |  ON/3 |          0/ NO
+mbuf                                   |  NO   |  ON/1 |  ON/7 |      20480/YES
+     .mpool                            |  NO   |  ON/1 |  ON/7 |      20480/YES
+net                                    |  NO   |  ON/1 |  ON/7 |       1024/YES
+     .cdli                             |  NO   |  ON/1 |  ON/7 |      10240/YES
+     .loop                             |  NO   |  ON/1 |  ON/7 |      10240/YES
+     .netisr                           |  NO   |  ON/1 |  ON/7 |      10240/YES
+     .route                            |  NO   |  ON/1 |  ON/7 |      40960/YES
+netinet                                |  NO   |  ON/1 |  ON/7 |      10240/YES
+     .ipv4                             |  NO   |  ON/1 |  ON/7 |      10240/YES
+     .ipv6                             |  NO   |  ON/1 |  ON/7 |      10240/YES
+     .netinet_misc                     |  NO   |  ON/1 |  ON/7 |      40960/YES
+     .tcp                              |  NO   |  ON/1 |  ON/7 |      40960/YES
+     .udp                              |  NO   |  ON/1 |  ON/7 |      10240/YES
+netmalloc                              |  NO   |  ON/3 |  ON/7 |      40960/YES
+     .police                           |  NO   |  ON/3 |  ON/7 |     524288/YES
+network_rtec_errlog                    |  NO   |  ON/3 |  ON/3 |      65536/YES
+pal
+     .cpu                              |  NO   |  ON/3 |  ON/3 |       2048/YES
+     .display                          |  NO   |  ON/3 |  ON/3 |       2048/YES
+     .dump                             |  NO   |  ON/3 |  ON/3 |       2048/YES
+     .eeh                              |  NO   |  ON/3 |  ON/3 |       2048/YES
+     .errinject                        |  NO   |  ON/3 |  ON/3 |       2048/YES
+     .event                            |  NO   |  ON/3 |  ON/3 |       2048/YES
+     .interrupt                        |  NO   |  ON/3 |  ON/3 |       2048/YES
+     .lastError                        |  NO   |  ON/3 |  ON/3 |       2048/YES
+     .migration                        |  NO   |  ON/3 |  ON/3 |       2048/YES
+     .nmi                              |  NO   |  ON/3 |  ON/3 |       2048/YES
+     .nvram                            |  NO   |  ON/3 |  ON/3 |       2048/YES
+     .pciConfig                        |  NO   |  ON/3 |  ON/3 |       2048/YES
+     .power                            |  NO   |  ON/3 |  ON/3 |       2048/YES
+     .sensor                           |  NO   |  ON/3 |  ON/3 |       2048/YES
+     .sysparm                          |  NO   |  ON/3 |  ON/3 |       2048/YES
+     .time                             |  NO   |  ON/3 |  ON/3 |       2048/YES
+     .updateFlashReboot                |  NO   |  ON/3 |  ON/3 |       2048/YES
+     .vpd                              |  NO   |  ON/3 |  ON/3 |       2048/YES
+pile                                   |  NO   |  ON/3 |  ON/3 |          0/ NO
+pmsvcs                                 |  NO   | OFF/3 |  ON/3 |          0/ NO
+posix_aio                              |  NO   | OFF/3 |  ON/3 |          0/ NO
+proc
+     .dr                               |  YES  |  ON/3 |  ON/3 |    1048576/YES
+pse                                    |  NO   |  ON/1 |  ON/1 |      32768/YES
+     .timod                            |  NO   |  ON/1 |  ON/1 |       8192/YES
+     .tirdwr                           |  NO   |  ON/1 |  ON/1 |       8192/YES
+     .xtiso                            |  NO   |  ON/1 |  ON/1 |      16384/YES
+ras
+     .ct                               |  YES  |  ON/3 |  ON/3 |      16384/YES
+     dump
+          .livedump                    |  YES  |  ON/7 |  ON/3 |     131072/YES
+     .errlg                            |  YES  |  ON/3 |  ON/3 |      32768/YES
+     .infra                            |  YES  |  ON/3 |  ON/3 |      16384/YES
+rbac                                   |  NO   |  ON/3 |  ON/7 |      40960/YES
+     .kat                              |  NO   |  ON/3 |  ON/7 |      40960/YES
+     .kpcdt                            |  NO   |  ON/3 |  ON/7 |      40960/YES
+     .kprt                             |  NO   |  ON/3 |  ON/7 |      40960/YES
+     .krt                              |  NO   |  ON/3 |  ON/7 |      40960/YES
+     .kst                              |  NO   |  ON/3 |  ON/7 |      40960/YES
+     .wpar                             |  NO   |  ON/3 |  ON/7 |      40960/YES
+refmon                                 |  NO   |  ON/3 |  ON/7 |      40960/YES
+     .dac                              |  NO   |  ON/3 |  ON/7 |      40960/YES
+     .fs                               |  NO   |  ON/3 |  ON/7 |      40960/YES
+     .fsf                              |  NO   |  ON/3 |  ON/7 |      40960/YES
+     .label                            |  NO   |  ON/3 |  ON/7 |      40960/YES
+     .mac                              |  NO   |  ON/3 |  ON/7 |      40960/YES
+     .objsec                           |  NO   |  ON/3 |  ON/7 |      40960/YES
+     .policy                           |  NO   |  ON/3 |  ON/7 |      40960/YES
+     .priv                             |  NO   |  ON/3 |  ON/7 |      40960/YES
+scsidiskdd
+     .hdisk0                           |  YES  |  ON/3 |  ON/3 |       6400/YES
+          .bufx                        |  NO   | OFF/0 |  ON/0 |       6400/ NO
+          .mpio0                       |  NO   |  ON/3 |  ON/3 |       4096/YES
+               .pcm0                   |  NO   |  ON/3 |  ON/3 |       6400/YES
+     .hdisk1                           |  YES  |  ON/3 |  ON/3 |       6400/YES
+          .bufx                        |  NO   | OFF/0 |  ON/0 |       6400/ NO
+          .mpio1                       |  NO   |  ON/3 |  ON/3 |       4096/YES
+               .pcm1                   |  NO   |  ON/3 |  ON/3 |       6400/YES
+socket                                 |  NO   |  ON/1 |  ON/7 |      40960/YES
+     .so_unix                          |  NO   |  ON/1 |  ON/7 |      10240/YES
+storfwork                              |  NO   |  ON/3 |  ON/3 |       6400/YES
+vdev
+     vio0
+          .handle1                     |  NO   |  ON/3 |  ON/3 |        512/YES
+          .handle10                    |  NO   |  ON/3 |  ON/3 |        512/YES
+          .handle11                    |  NO   |  ON/3 |  ON/3 |        512/YES
+          .handle12                    |  NO   |  ON/3 |  ON/3 |        512/YES
+          .handle13                    |  NO   |  ON/3 |  ON/3 |        512/YES
+          .handle14                    |  NO   |  ON/3 |  ON/3 |        512/YES
+          .handle15                    |  NO   |  ON/3 |  ON/3 |        512/YES
+          .handle16                    |  NO   |  ON/3 |  ON/3 |        512/YES
+          .handle17                    |  NO   |  ON/3 |  ON/3 |        512/YES
+          .handle18                    |  NO   |  ON/3 |  ON/3 |        512/YES
+          .handle19                    |  NO   |  ON/3 |  ON/3 |        512/YES
+          .handle2                     |  NO   |  ON/3 |  ON/3 |        512/YES
+          .handle20                    |  NO   |  ON/3 |  ON/3 |        512/YES
+          .handle21                    |  NO   |  ON/3 |  ON/3 |        512/YES
+          .handle22                    |  NO   |  ON/3 |  ON/3 |        512/YES
+          .handle23                    |  NO   |  ON/3 |  ON/3 |        512/YES
+          .handle24                    |  NO   |  ON/3 |  ON/3 |        512/YES
+          .handle25                    |  NO   |  ON/3 |  ON/3 |        512/YES
+          .handle26                    |  NO   |  ON/3 |  ON/3 |        512/YES
+          .handle27                    |  NO   |  ON/3 |  ON/3 |        512/YES
+          .handle28                    |  NO   |  ON/3 |  ON/3 |        512/YES
+          .handle29                    |  NO   |  ON/3 |  ON/3 |        512/YES
+          .handle3                     |  NO   |  ON/3 |  ON/3 |        512/YES
+          .handle30                    |  NO   |  ON/3 |  ON/3 |        512/YES
+          .handle31                    |  NO   |  ON/3 |  ON/3 |        512/YES
+          .handle32                    |  NO   |  ON/3 |  ON/3 |        512/YES
+          .handle33                    |  NO   |  ON/3 |  ON/3 |        512/YES
+          .handle34                    |  NO   |  ON/3 |  ON/3 |        512/YES
+          .handle35                    |  NO   |  ON/3 |  ON/3 |        512/YES
+          .handle36                    |  NO   |  ON/3 |  ON/3 |        512/YES
+          .handle37                    |  NO   |  ON/3 |  ON/3 |        512/YES
+          .handle38                    |  NO   |  ON/3 |  ON/3 |        512/YES
+          .handle39                    |  NO   |  ON/3 |  ON/3 |        512/YES
+          .handle4                     |  NO   |  ON/3 |  ON/3 |        512/YES
+          .handle40                    |  NO   |  ON/3 |  ON/3 |        512/YES
+          .handle41                    |  NO   |  ON/3 |  ON/3 |        512/YES
+          .handle42                    |  NO   |  ON/3 |  ON/3 |        512/YES
+          .handle43                    |  NO   |  ON/3 |  ON/3 |        512/YES
+          .handle44                    |  NO   |  ON/3 |  ON/3 |        512/YES
+          .handle45                    |  NO   |  ON/3 |  ON/3 |        512/YES
+          .handle46                    |  NO   |  ON/3 |  ON/3 |        512/YES
+          .handle47                    |  NO   |  ON/3 |  ON/3 |        512/YES
+          .handle48                    |  NO   |  ON/3 |  ON/3 |        512/YES
+          .handle49                    |  NO   |  ON/3 |  ON/3 |        512/YES
+          .handle5                     |  NO   |  ON/3 |  ON/3 |        512/YES
+          .handle50                    |  NO   |  ON/3 |  ON/3 |        512/YES
+          .handle51                    |  NO   |  ON/3 |  ON/3 |        512/YES
+          .handle52                    |  NO   |  ON/3 |  ON/3 |        512/YES
+          .handle53                    |  NO   |  ON/3 |  ON/3 |        512/YES
+          .handle54                    |  NO   |  ON/3 |  ON/3 |        512/YES
+          .handle55                    |  NO   |  ON/3 |  ON/3 |        512/YES
+          .handle56                    |  NO   |  ON/3 |  ON/3 |        512/YES
+          .handle57                    |  NO   |  ON/3 |  ON/3 |        512/YES
+          .handle58                    |  NO   |  ON/3 |  ON/3 |        512/YES
+          .handle59                    |  NO   |  ON/3 |  ON/3 |        512/YES
+          .handle6                     |  NO   |  ON/3 |  ON/3 |        512/YES
+          .handle60                    |  NO   |  ON/3 |  ON/3 |        512/YES
+          .handle61                    |  NO   |  ON/3 |  ON/3 |        512/YES
+          .handle62                    |  NO   |  ON/3 |  ON/3 |        512/YES
+          .handle63                    |  NO   |  ON/3 |  ON/3 |        512/YES
+          .handle64                    |  NO   |  ON/3 |  ON/3 |        512/YES
+          .handle65                    |  NO   |  ON/3 |  ON/3 |        512/YES
+          .handle66                    |  NO   |  ON/3 |  ON/3 |        512/YES
+          .handle67                    |  NO   |  ON/3 |  ON/3 |        512/YES
+          .handle68                    |  NO   |  ON/3 |  ON/3 |        512/YES
+          .handle69                    |  NO   |  ON/3 |  ON/3 |        512/YES
+          .handle7                     |  NO   |  ON/3 |  ON/3 |        512/YES
+          .handle70                    |  NO   |  ON/3 |  ON/3 |        512/YES
+          .handle71                    |  NO   |  ON/3 |  ON/3 |        512/YES
+          .handle72                    |  NO   |  ON/3 |  ON/3 |        512/YES
+          .handle73                    |  NO   |  ON/3 |  ON/3 |        512/YES
+          .handle74                    |  NO   |  ON/3 |  ON/3 |        512/YES
+          .handle75                    |  NO   |  ON/3 |  ON/3 |        512/YES
+          .handle8                     |  NO   |  ON/3 |  ON/3 |        512/YES
+          .handle9                     |  NO   |  ON/3 |  ON/3 |        512/YES
+vfcdd
+     .fcs0                             |  YES  |  ON/3 |  ON/3 |      64000/YES
+     .fcs1                             |  YES  |  ON/3 |  ON/3 |      64000/YES
+     .fcs2                             |  YES  |  ON/3 |  ON/3 |      64000/YES
+     .fcs3                             |  YES  |  ON/3 |  ON/3 |      64000/YES
+     .fcs4                             |  YES  |  ON/3 |  ON/3 |      64000/YES
+     .fcs5                             |  YES  |  ON/3 |  ON/3 |      64000/YES
+     .fcs6                             |  YES  |  ON/3 |  ON/3 |      64000/YES
+     .fcs7                             |  YES  |  ON/3 |  ON/3 |      64000/YES
+vioentdd
+     .dd                               |  NO   |  ON/3 |  ON/3 |     524288/YES
+          .ent0                        |  YES  |  ON/3 |  ON/3 |      32768/YES
+               .ffdc                   |  NO   |  ON/3 |  ON/3 |      65536/YES
+               .managers               |  NO   |  ON/3 |  ON/3 |      65536/YES
+               .other                  |  NO   |  ON/3 |  ON/3 |      32768/YES
+               .receive                |  NO   |  ON/3 |  ON/3 |      32768/YES
+               .transmit               |  NO   |  ON/3 |  ON/3 |      32768/YES
+          .ent1                        |  YES  |  ON/3 |  ON/3 |      32768/YES
+               .ffdc                   |  NO   |  ON/3 |  ON/3 |      65536/YES
+               .managers               |  NO   |  ON/3 |  ON/3 |      65536/YES
+               .other                  |  NO   |  ON/3 |  ON/3 |      32768/YES
+               .receive                |  NO   |  ON/3 |  ON/3 |      32768/YES
+               .transmit               |  NO   |  ON/3 |  ON/3 |      32768/YES
+          .ent2                        |  YES  |  ON/3 |  ON/3 |      32768/YES
+               .ffdc                   |  NO   |  ON/3 |  ON/3 |      65536/YES
+               .managers               |  NO   |  ON/3 |  ON/3 |      65536/YES
+               .other                  |  NO   |  ON/3 |  ON/3 |      32768/YES
+               .receive                |  NO   |  ON/3 |  ON/3 |      32768/YES
+               .transmit               |  NO   |  ON/3 |  ON/3 |      32768/YES
+          .ent3                        |  YES  |  ON/3 |  ON/3 |      32768/YES
+               .ffdc                   |  NO   |  ON/3 |  ON/3 |      65536/YES
+     .ffdc                             |  NO   |  ON/3 |  ON/3 |    2097152/YES
+vmm
+     .adsp                             |  NO   |  ON/3 |  ON/3 |          0/ NO
+     .chlmb                            |  NO   |  ON/3 |  ON/3 |       8192/YES
+     .cmem                             |  NO   |  ON/3 |  ON/3 |          0/ NO
+     .dr                               |  NO   |  ON/3 |  ON/3 |      65536/YES
+     .internal                         |  NO   |  ON/3 |  ON/3 |      65536/YES
+     .loan                             |  NO   |  ON/3 |  ON/3 |          0/ NO
+     memp
+          .mempLRU                     |  NO   | OFF/3 |  ON/3 |          0/ NO
+               .mempLRU0               |  YES  |  ON/3 |  ON/3 |      16384/YES
+               .mempLRU1               |  YES  |  ON/3 |  ON/3 |      16384/YES
+               .mempLRU2               |  YES  |  ON/3 |  ON/3 |      16384/YES
+               .mempLRU3               |  YES  |  ON/3 |  ON/3 |      16384/YES
+               .mempLRU4               |  YES  |  ON/3 |  ON/3 |      16384/YES
+          .mempPSMD                    |  NO   | OFF/3 |  ON/3 |          0/ NO
+               .mempPSMD0              |  YES  |  ON/3 |  ON/3 |      16384/YES
+               .mempPSMD1              |  YES  |  ON/3 |  ON/3 |      16384/YES
+               .mempPSMD2              |  YES  |  ON/3 |  ON/3 |      16384/YES
+               .mempPSMD3              |  YES  |  ON/3 |  ON/3 |      16384/YES
+               .mempPSMD4              |  YES  |  ON/3 |  ON/3 |      16384/YES
+     .pdt                              |  YES  | OFF/3 |  ON/3 |          0/ NO
+          .pdt0                        |  YES  |  ON/3 |  ON/3 |          0/ NO
+          .pdt80                       |  YES  |  ON/3 |  ON/3 |          0/ NO
+          .pdt81                       |  YES  |  ON/3 |  ON/3 |          0/ NO
+          .pdt82                       |  YES  |  ON/3 |  ON/3 |          0/ NO
+          .pdt83                       |  YES  |  ON/3 |  ON/3 |          0/ NO
+          .pdt84                       |  YES  |  ON/3 |  ON/3 |          0/ NO
+          .pdt85                       |  YES  |  ON/3 |  ON/3 |          0/ NO
+          .pdt86                       |  YES  |  ON/3 |  ON/3 |          0/ NO
+          .pdt87                       |  YES  |  ON/3 |  ON/3 |          0/ NO
+          .pdt88                       |  YES  |  ON/3 |  ON/3 |          0/ NO
+          .pdt89                       |  YES  |  ON/3 |  ON/3 |          0/ NO
+          .pdtbufx                     |  NO   | OFF/3 |  ON/3 |          0/ NO
+               .pdtbufx0               |  YES  |  ON/3 |  ON/3 |      65536/YES
+     .services                         |  NO   |  ON/3 |  ON/3 |          0/ NO
+     .xmem                             |  NO   |  ON/3 |  ON/3 |        128/YES
+vscsi_initdd
+     .vscsi0                           |  YES  |  ON/3 |  ON/3 |       8192/YES
+     .vscsi1                           |  YES  |  ON/3 |  ON/3 |       8192/YES
+     .vscsi2                           |  YES  |  ON/3 |  ON/3 |       8192/YES
+     .vscsi3                           |  YES  |  ON/3 |  ON/3 |       8192/YES
+     .vscsi4                           |  YES  |  ON/3 |  ON/3 |       8192/YES
+     .vscsi5                           |  YES  |  ON/3 |  ON/3 |       8192/YES
+     .vscsi6                           |  YES  |  ON/3 |  ON/3 |       8192/YES
+     .vscsi7                           |  YES  |  ON/3 |  ON/3 |       8192/YES
+     .vscsi8                           |  YES  |  ON/3 |  ON/3 |       8192/YES
+     .vscsi9                           |  YES  |  ON/3 |  ON/3 |       8192/YES
+==== EXITED with rc 0 ====
+==== END ctctrl -q -c all Thu Aug  6 11:13:41 GST 2015 ====

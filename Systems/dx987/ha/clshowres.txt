@@ -1,0 +1,60 @@
+==== This output can be found in Systems/dx987/ha/clshowres.txt ====
+==== START clshowres Tue Jul  7 00:00:25 GST 2015 ====
+
+Resource Group Name                                 DX986_RSG 
+Participating Node Name(s)                          DX986 DX987 
+Startup Policy                                      Online On Home Node Only 
+Fallover Policy                                     Fallover To Next Priority Node In The List 
+Fallback Policy                                     Never Fallback 
+Site Relationship                                   ignore 
+Node Priority                                       
+Service IP Label                                    DX986-VIP 
+Filesystems                                         ALL 
+Filesystems Consistency Check                       fsck
+Filesystems Recovery Method                         sequential
+Filesystems/Directories to be exported (NFSv3)      
+Filesystems/Directories to be exported (NFSv4)      
+Filesystems to be NFS mounted                       
+Network For NFS Mount                               
+Filesystem/Directory for NFSv4 Stable Storage       
+Volume Groups                                       ctrl1vg data1vg indx1vg arch1vg temp1vg undo1vg flash1vg oravg redo1vg bkp1vg bkp2vg bctvg 
+Concurrent Volume Groups                            
+Use forced varyon for volume groups, if necessary   false 
+Disks                                               
+Raw Disks                                           
+Disk Error Management?                              no 
+GMVG Replicated Resources                           
+GMD Replicated Resources                            
+PPRC Replicated Resources                           
+SVC PPRC Replicated Resources                       
+EMC SRDF® Replicated Resources                      
+Hitachi TrueCopy® Replicated Resources              
+Generic XD Replicated Resources                     
+AIX Connections Services                            
+AIX Fast Connect Services                           
+Shared Tape Resources                               
+Application Servers                                 dbscript 
+Highly Available Communication Links                
+Primary Workload Manager Class                      
+Secondary Workload Manager Class                    
+Delayed Fallback Timer                              
+Miscellaneous Data                                  
+Automatically Import Volume Groups                  false 
+Inactive Takeover                                   
+SSA Disk Fencing                                    false 
+Filesystems mounted before IP configured            false
+WPAR Name                                           
+
+
+Run Time Parameters:
+
+Node Name                                           DX986
+Debug Level                                         high 
+Format for hacmp.out                                Standard 
+
+Node Name                                           DX987
+Debug Level                                         high 
+Format for hacmp.out                                Standard 
+
+==== EXITED with rc 0 ====
+==== END clshowres Tue Jul  7 00:00:25 GST 2015 ====

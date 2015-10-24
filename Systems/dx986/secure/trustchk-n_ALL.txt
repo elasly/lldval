@@ -1,0 +1,10 @@
+==== This output can be found in Systems/dx986/secure/trustchk-n_ALL.txt ====
+==== START trustchk -n ALL  Tue Jul  7 00:49:02 GST 2015 ====
+trustchk: File or directory or device not existing: /dev/rfslv00
+trustchk: File or directory or device not existing: /dev/rfslv01
+trustchk: Invalid Mode
+trustchk: /usr/sbin/lsof: Verification of attributes failed: mode 
+trustchk: File or directory or device not existing: /dev/fslv00
+trustchk: File or directory or device not existing: /dev/fslv01
+==== EXITED with rc 0 ====
+==== END trustchk -n ALL  Tue Jul  7 00:51:24 GST 2015 ====

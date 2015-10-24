@@ -1,0 +1,7 @@
+==== This output can be found in Systems/dx989/ha/cllsgrp_sort_awk_print_RG_1_system_usr_es_sbin_clu.txt ====
+==== START cllsgrp | sort | awk '{print "#### RG: " $1 " ####";system("/usr/es/sbin/cluster/utilities/cllsdisk -g " $1);print ""}' Thu Aug  6 11:28:18 GST 2015 ====
+#### RG: DX988_RSG ####
+00f92eec01bc8623
+
+==== EXITED with rc 0 ====
+==== END cllsgrp | sort | awk '{print "#### RG: " $1 " ####";system("/usr/es/sbin/cluster/utilities/cllsdisk -g " $1);print ""}' Thu Aug  6 11:28:18 GST 2015 ====

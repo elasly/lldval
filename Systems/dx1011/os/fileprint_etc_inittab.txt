@@ -1,0 +1,98 @@
+==== This output can be found in Systems/dx1011/os/fileprint_etc_inittab.txt ====
+==== START fileprint /etc/inittab Tue Jul  7 13:38:37 CDT 2015 ====
+==== BEGIN Contents of /etc/inittab ====
+: @(#)49 1.28.6.1 src/bos/etc/inittab/inittab, cmdoper, bos61S, 1139A_61S 9/13/11 16:17:22
+: IBM_PROLOG_BEGIN_TAG
+: This is an automatically generated prolog.
+:
+: bos61S src/bos/etc/inittab/inittab 1.28.6.1
+:
+: Licensed Materials - Property of IBM
+:
+: COPYRIGHT International Business Machines Corp. 1989,1993
+: All Rights Reserved
+:
+: US Government Users Restricted Rights - Use, duplication or
+: disclosure restricted by GSA ADP Schedule Contract with IBM Corp.
+:
+: IBM_PROLOG_END_TAG
+:
+: COMPONENT_NAME: CMDOPER
+:
+: ORIGINS: 3, 27
+:
+: (C) COPYRIGHT International Business Machines Corp. 1989, 1993
+: All Rights Reserved
+: Licensed Materials - Property of IBM
+:
+: US Government Users Restricted Rights - Use, duplication or
+: disclosure restricted by GSA ADP Schedule Contract with IBM Corp.
+:
+: Note - initdefault and sysinit should be the first and second entry.
+:
+init:2:initdefault:
+brc::sysinit:/sbin/rc.boot 3 >/dev/console 2>&1 # Phase 3 of system boot
+powerfail::powerfail:/etc/rc.powerfail 2>&1 | alog -tboot > /dev/console # Power Failure Detection
+powermig:2:wait:/etc/rc.powermig transition >/dev/null 2>&1  # powermig startup
+mkatmpvc:2:once:/usr/sbin/mkatmpvc >/dev/console 2>&1
+atmsvcd:2:once:/usr/sbin/atmsvcd >/dev/console 2>&1
+tunables:23456789:wait:/usr/sbin/tunrestore -R > /dev/console 2>&1 # Set tunables
+securityboot:2:bootwait:/etc/rc.security.boot > /dev/console 2>&1
+rc:23456789:wait:/etc/rc 2>&1 | alog -tboot > /dev/console # Multi-User checks
+powermig2:2:wait:/etc/rc.powermig recover >/dev/null 2>&1  # powermig recover
+pp_paging:2:wait:/usr/sbin/lsps -a -c | /usr/bin/grep hdiskpower | /usr/bin/cut -f2 -d':' | /usr/bin/xargs /etc/methods/cfgpowerdisk -l > /dev/null 2>&1 # base_paging=1
+powermt:2:wait:/usr/sbin/powermt load     >/dev/null 2>&1  # powermt load
+srcmstr:23456789:respawn:/usr/sbin/srcmstr # System Resource Controller
+rctcpip:23456789:wait:/etc/rc.tcpip > /dev/console 2>&1 # Start TCP/IP daemons
+haemcp_mond:2:wait:/etc/rc.emcp_mond start >         /dev/console 2>&1
+ofed:2:once:/usr/sbin/ofedctrl -l >/dev/null 2>&1
+vioscmd:23456789:wait:/usr/lib/methods/cfgvke > /dev/console 2>&1
+sniinst:2:wait:/var/adm/sni/sniprei > /dev/console 2>&1
+aso:23456789:once:/usr/bin/startsrc -s aso
+rcnfs:23456789:wait:/etc/rc.nfs > /dev/console 2>&1 # Start NFS Daemons
+vios_sys:2:wait:/var/adm/ras/vios_sys.sh > /dev/console 2>&1
+rcitm1:2:once:/etc/rc.itm1 > /dev/console 2>&1
+fbcheck:23456789:wait:/usr/sbin/fbcheck 2>&1 | alog -tboot > /dev/console # run /etc/firstboot
+cron:23456789:respawn:/usr/sbin/cron
+clusterconf:23456789:once:/usr/sbin/clusterconf
+piobe:2:wait:/usr/lib/lpd/pioinit_cp >/dev/null 2>&1 # pb cleanup
+qdaemon:23456789:wait:/usr/bin/startsrc -sqdaemon
+writesrv:23456789:wait:/usr/bin/startsrc -swritesrv
+uprintfd:23456789:respawn:/usr/sbin/uprintfd
+shdaemon:2:off:/usr/sbin/shdaemon >/dev/console 2>&1 # High availability daemon
+trustedboot:2:wait:/etc/rc.trustedboot > /dev/console 2>&1 # Get trusted log and start TCSD
+l2:2:wait:/etc/rc.d/rc 2
+l3:3:wait:/etc/rc.d/rc 3
+l4:4:wait:/etc/rc.d/rc 4
+l5:5:wait:/etc/rc.d/rc 5
+l6:6:wait:/etc/rc.d/rc 6
+l7:7:wait:/etc/rc.d/rc 7
+l8:8:wait:/etc/rc.d/rc 8
+l9:9:wait:/etc/rc.d/rc 9
+naudio2::boot:/usr/sbin/naudio2 > /dev/null
+naudio::boot:/usr/sbin/naudio > /dev/null
+ntbl_reset:2:once:/usr/bin/ntbl_reset_datafiles
+rcml:2:once:/usr/ml/aix61/rc.ml > /dev/console 2>&1
+rcwpars:2:once:/etc/rc.wpars > /dev/console 2>&1 # Corrals autostart
+logsymp:2:once:/usr/lib/ras/logsymptom # for system dumps
+perfprovider:2:once:/usr/bin/startsrc -s perfprovider > /dev/null 2>&1
+perfstat:2:once:/usr/lib/perf/libperfstat_updt_dictionary >/dev/console 2>&1
+diagd:2:once:/usr/lpp/diagnostics/bin/diagd >/dev/console 2>&1
+xmdaily:2:once:/usr/bin/topasrec -L -s 300 -R 1 -r 6 -o /var/perf/daily/ -ypersistent=1 2>&1 >/dev/null #Start local binary recording
+ha_star:h2:once:/etc/rc.ha_star >/dev/console 2>&1
+clcomd:23456789:once:/usr/bin/startsrc -s clcomd
+filecleaning:23456789:once:/usr/ios/sbin/ruled_cleaning -cronadd >/dev/null 2>&1
+vio_daemon:23456789:once:/usr/bin/startsrc -s vio_daemon -a "-d 4" >/dev/null 2>&1
+artex:2:wait:/usr/sbin/artexset -q -c -R /etc/security/artex/config/master_profile.xml > /dev/console 2>&1
+rcvnet:23456789:wait:/etc/rc.vnet> /dev/console 2>&1 # Start lldp/ecpvdp daemons
+lparmgr:23456789:once:/usr/ios/lpm/sbin/lparmgr all start > /dev/null 2>&1
+lpmhttpd:23456789:once:/usr/ios/lpm/sbin/httpdmgr start > /dev/null 2>&1
+rcnetwlm:23456789:wait:/etc/rc.netwlm start> /dev/console 2>&1 # Start netwlm 
+director_agent:2:once:/opt/ibm/director/agent/bin/startagent_vios >/dev/null 2>&1
+ctrmc:2:once:/usr/bin/startsrc -s ctrmc > /dev/null 2>&1
+rcemcpower:2:wait:/etc/rc.emcpower set_ipldevice > /dev/console 2>&1
+cons:0123456789:respawn:/usr/sbin/getty /dev/console
+climgrcim:23456789:once:/usr/ios/sbin/climgr cimserver start > /dev/null 2>&1
+==== END Contents of /etc/inittab ====
+==== EXITED with rc 0 ====
+==== END fileprint /etc/inittab Tue Jul  7 13:38:37 CDT 2015 ====

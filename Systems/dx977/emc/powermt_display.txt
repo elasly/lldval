@@ -1,0 +1,13 @@
+==== This output can be found in Systems/dx977/emc/powermt_display.txt ====
+==== START powermt display Tue Jul  7 00:26:58 GST 2015 ====
+Symmetrix logical device count=95
+==============================================================================
+----- Host Bus Adapters ---------  ------ I/O Paths -----  ------ Stats ------
+###  HW Path                       Summary   Total   Dead  IO/Sec Q-IOs Errors
+==============================================================================
+   0 fscsi3                        optimal     186      0       -     0    283
+   1 fscsi6                        optimal     186      0       -     0    279
+   2 fscsi7                        optimal     186      0       -     1    358
+   3 fscsi2                        optimal     186      0       -     1    278
+==== EXITED with rc 0 ====
+==== END powermt display Tue Jul  7 00:26:59 GST 2015 ====

@@ -1,0 +1,60 @@
+==== This output can be found in Systems/dx978/os/schedo-^L.txt ====
+==== START schedo -L Mon Jul  6 23:30:40 GST 2015 ====
+NAME                      CUR    DEF    BOOT   MIN    MAX    UNIT           TYPE
+     DEPENDENCIES
+--------------------------------------------------------------------------------
+affinity_lim              7      7      7      0      100    dispatches        D
+--------------------------------------------------------------------------------
+big_tick_size             1      1      1      1      100    10 ms             D
+--------------------------------------------------------------------------------
+ded_cpu_donate_thresh     80     80     80     0      100    % busy            D
+--------------------------------------------------------------------------------
+fixed_pri_global          0      0      0      0      1      boolean           D
+--------------------------------------------------------------------------------
+force_grq                 0      0      0      0      1      boolean           D
+--------------------------------------------------------------------------------
+maxspin                   16K    16K    16K    1      4G-1   spins             D
+--------------------------------------------------------------------------------
+pacefork                  10     10     10     10     2G-1   clock ticks       D
+--------------------------------------------------------------------------------
+proc_disk_stats           1      1      1      0      1      boolean           D
+--------------------------------------------------------------------------------
+sched_D                   16     16     16     0      32                       D
+--------------------------------------------------------------------------------
+sched_R                   16     16     16     0      32                       D
+--------------------------------------------------------------------------------
+tb_balance_S0             2      2      2      0      2      ticks             D
+--------------------------------------------------------------------------------
+tb_balance_S1             2      2      2      0      2      ticks             D
+--------------------------------------------------------------------------------
+tb_threshold              100    100    100    10     1000   ticks             D
+--------------------------------------------------------------------------------
+timeslice                 1      1      1      0      2G-1   clock ticks       D
+--------------------------------------------------------------------------------
+vpm_fold_policy           1      1      1      0      15                       D
+--------------------------------------------------------------------------------
+vpm_throughput_core_threshold
+                          1      1      1      0      1K     cores             D
+--------------------------------------------------------------------------------
+vpm_throughput_mode       0      0      0      0      8      level             D
+--------------------------------------------------------------------------------
+vpm_xvcpus                0      0      0      -1     1K     processors        D
+--------------------------------------------------------------------------------
+
+n/a means parameter not supported by the current platform or kernel
+
+Parameter types:
+    S = Static: cannot be changed
+    D = Dynamic: can be freely changed
+    B = Bosboot: can only be changed using bosboot and reboot
+    R = Reboot: can only be changed during reboot
+    C = Connect: changes are only effective for future socket connections
+    M = Mount: changes are only effective for future mountings
+    I = Incremental: can only be incremented
+    d = deprecated: deprecated and cannot be changed
+
+Value conventions:
+    K = Kilo: 2^10       G = Giga: 2^30       P = Peta: 2^50      
+    M = Mega: 2^20       T = Tera: 2^40       E = Exa: 2^60       
+==== EXITED with rc 0 ====
+==== END schedo -L Mon Jul  6 23:30:40 GST 2015 ====

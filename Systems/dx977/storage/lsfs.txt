@@ -1,0 +1,38 @@
+==== This output can be found in Systems/dx977/storage/lsfs.txt ====
+==== START lsfs Tue Jul  7 00:20:17 GST 2015 ====
+Name            Nodename   Mount Pt               VFS   Size    Options    Auto Accounting
+/dev/hd4        --         /                      jfs2  20971520 --         yes  no 
+/dev/hd1        --         /home                  jfs2  20971520 --         yes  no 
+/dev/hd2        --         /usr                   jfs2  31457280 --         yes  no 
+/dev/hd9var     --         /var                   jfs2  41943040 --         yes  no 
+/dev/hd3        --         /tmp                   jfs2  31457280 --         yes  no 
+/dev/hd11admin  --         /admin                 jfs2  4194304 --         yes  no 
+/proc           --         /proc                  procfs --      --         yes  no 
+/dev/hd10opt    --         /opt                   jfs2  52428800 --         yes  no 
+/dev/livedump   --         /var/adm/ras/livedump  jfs2  1048576 --         yes  no 
+/dev/perfdatalv --         /perfdata              jfs2  10485760 --         yes  no 
+/dev/fslv00     --         /export/nim            jfs2  --      rw         yes  no 
+/dev/fslv01     --         /tftpboot              jfs2  --      rw         yes  no 
+/dev/R1_flashlv --         /gsm_flash             jfs2  104398848 noatime,rw no   no 
+/dev/R1_templv  --         /gsm_temp              jfs2  1468006400 noatime,rw no   no 
+/dev/R5_baselv  --         /gsm_base              jfs2  209715200 noatime,rw no   no 
+/dev/R5_syslv   --         /gsm_sys               jfs2  104857600 rw         no   no 
+/dev/R5_stagelv --         /gsm_stage             jfs2  104857600 rw         no   no 
+/dev/R1_redo1lv --         /gsm_redo1             jfs2  62914560 noatime,rw no   no 
+/dev/R1_redo2lv --         /gsm_redo2             jfs2  62914560 noatime,rw no   no 
+/dev/R1_arch1lv --         /gsm_arclog1           jfs2  10725883904 noatime,rbrw,rw no   no 
+/dev/R5_gglv    --         /gsm_gg                jfs2  418775040 rw         no   no 
+/dev/R6_bkplv   --         /gsm_bkp               jfs2  21451767808 rw         no   no 
+/dev/R1_arch2lv --         /gsm_arclog2           jfs2  10725883904 noatime,rbrw,rw no   no 
+/dev/R5_explv   --         /gsm_exp               jfs2  8580497408 noatime,rbrw,rw no   no 
+/dev/R1_ctrl1lv --         /gsm_ctrl1             jfs2  20828160 noatime,rw no   no 
+/dev/R5_undolv  --         /gsm_undo              jfs2  838402048 noatime,rw no   no 
+/dev/R1_ctrl2lv --         /gsm_ctrl2             jfs2  20828160 noatime,rw no   no 
+/dev/R1_ctrl3lv --         /gsm_ctrl3             jfs2  20828160 noatime,rw no   no 
+/dev/R1_indx1lv --         /gsm_index1            jfs2  6441598976 noatime,rw no   no 
+/dev/R1_data1lv --         /gsm_data1             jfs2  31134646272 noatime,rw no   no 
+/data/col1/dd_GSM_Bkp 10.51.227.241 /dd_GSM_Bkp            nfs   --      rw,intr,hard,rsize=65536,wsize=65536,proto=tcp,combehind,timeo=1200,numclust=128,biod=16,bg,llock,noacl yes  no 
+/dev/datacollectlv --         /datacollect           jfs2  207618048 --         no   no 
+/dev/bctlv      --         /gsm_bct               jfs2  19922944 rw         no   no 
+==== EXITED with rc 0 ====
+==== END lsfs Tue Jul  7 00:20:17 GST 2015 ====

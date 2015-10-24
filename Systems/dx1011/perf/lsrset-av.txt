@@ -1,0 +1,149 @@
+==== This output can be found in Systems/dx1011/perf/lsrset-av.txt ====
+==== START lsrset -av Tue Jul  7 13:40:10 CDT 2015 ====
+T  Name               Owner     Group     Mode    CPU  Memory
+r  sys/sys0           root      system    r-r-r-   24    8192 
+     CPU: 0-23
+     MEM: 0
+
+r  sys/node.01.00000  root      system    r-r-r-   24    8192 
+     CPU: 0-23
+     MEM: 0
+
+r  sys/node.02.00000  root      system    r-r-r-   24    8192 
+     CPU: 0-23
+     MEM: 0
+
+r  sys/node.03.00000  root      system    r-r-r-   24    8192 
+     CPU: 0-23
+     MEM: 0
+
+r  sys/node.04.00000  root      system    r-r-r-   24    8192 
+     CPU: 0-23
+     MEM: 0
+
+r  sys/node.05.00000  root      system    r-r-r-    4    8192 
+     CPU: 0-3
+     MEM: 0
+
+r  sys/node.05.00001  root      system    r-r-r-    4    8192 
+     CPU: 4-7
+     MEM: 0
+
+r  sys/node.05.00002  root      system    r-r-r-    4    8192 
+     CPU: 8-11
+     MEM: 0
+
+r  sys/node.05.00003  root      system    r-r-r-    4    8192 
+     CPU: 12-15
+     MEM: 0
+
+r  sys/node.05.00004  root      system    r-r-r-    4    8192 
+     CPU: 16-19
+     MEM: 0
+
+r  sys/node.05.00005  root      system    r-r-r-    4    8192 
+     CPU: 20-23
+     MEM: 0
+
+r  sys/mem.00000      root      system    r-r-r-    0    8192 
+     CPU: <empty>
+     MEM: 0
+
+r  sys/cpu.00000      root      system    r-r-r-    1       0 
+     CPU: 0
+     MEM: <empty>
+
+r  sys/cpu.00001      root      system    r-r-r-    1       0 
+     CPU: 1
+     MEM: <empty>
+
+r  sys/cpu.00002      root      system    r-r-r-    1       0 
+     CPU: 2
+     MEM: <empty>
+
+r  sys/cpu.00003      root      system    r-r-r-    1       0 
+     CPU: 3
+     MEM: <empty>
+
+r  sys/cpu.00004      root      system    r-r-r-    1       0 
+     CPU: 4
+     MEM: <empty>
+
+r  sys/cpu.00005      root      system    r-r-r-    1       0 
+     CPU: 5
+     MEM: <empty>
+
+r  sys/cpu.00006      root      system    r-r-r-    1       0 
+     CPU: 6
+     MEM: <empty>
+
+r  sys/cpu.00007      root      system    r-r-r-    1       0 
+     CPU: 7
+     MEM: <empty>
+
+r  sys/cpu.00008      root      system    r-r-r-    1       0 
+     CPU: 8
+     MEM: <empty>
+
+r  sys/cpu.00009      root      system    r-r-r-    1       0 
+     CPU: 9
+     MEM: <empty>
+
+r  sys/cpu.00010      root      system    r-r-r-    1       0 
+     CPU: 10
+     MEM: <empty>
+
+r  sys/cpu.00011      root      system    r-r-r-    1       0 
+     CPU: 11
+     MEM: <empty>
+
+r  sys/cpu.00012      root      system    r-r-r-    1       0 
+     CPU: 12
+     MEM: <empty>
+
+r  sys/cpu.00013      root      system    r-r-r-    1       0 
+     CPU: 13
+     MEM: <empty>
+
+r  sys/cpu.00014      root      system    r-r-r-    1       0 
+     CPU: 14
+     MEM: <empty>
+
+r  sys/cpu.00015      root      system    r-r-r-    1       0 
+     CPU: 15
+     MEM: <empty>
+
+r  sys/cpu.00016      root      system    r-r-r-    1       0 
+     CPU: 16
+     MEM: <empty>
+
+r  sys/cpu.00017      root      system    r-r-r-    1       0 
+     CPU: 17
+     MEM: <empty>
+
+r  sys/cpu.00018      root      system    r-r-r-    1       0 
+     CPU: 18
+     MEM: <empty>
+
+r  sys/cpu.00019      root      system    r-r-r-    1       0 
+     CPU: 19
+     MEM: <empty>
+
+r  sys/cpu.00020      root      system    r-r-r-    1       0 
+     CPU: 20
+     MEM: <empty>
+
+r  sys/cpu.00021      root      system    r-r-r-    1       0 
+     CPU: 21
+     MEM: <empty>
+
+r  sys/cpu.00022      root      system    r-r-r-    1       0 
+     CPU: 22
+     MEM: <empty>
+
+r  sys/cpu.00023      root      system    r-r-r-    1       0 
+     CPU: 23
+     MEM: <empty>
+
+==== EXITED with rc 0 ====
+==== END lsrset -av Tue Jul  7 13:40:10 CDT 2015 ====

@@ -1,0 +1,58 @@
+==== This output can be found in Systems/dx986/network/nfsstat-b.txt ====
+==== START nfsstat -b Tue Jul  7 00:57:27 GST 2015 ====
+NFS Version 4 server:
+minor version     server faults     resource errors   
+0                 0                 0                 
+
+Compound RPC calls:
+null              compound          bad call          bad op            
+0                 0                 0                 0                 
+
+Memory allocations:
+allocations       readdir hit       readdir miss      readdir toobig    
+0                 0                 0                 0                 
+reply toobig      
+0                 
+
+Odd attribute requests:
+getattr           nverify           readdir           
+0                 0                 0                 
+
+State management:
+resource          server fault      inval             register vfs      
+0                 0                 0                 0                 
+unregister vfs    xvfs cookies      cookies revoked   cookies bad       
+0                 0                 0                 0                 
+xvfs bad          lease time        no grace          reclaim conflict  
+0                 120               0                 0                 
+
+Client ID's:
+active            in use            bad               stale             
+0                 0                 0                 0                 
+expired           admin revoked     resource revoked  dead reclaim      
+0                 0                 0                 0                 
+cb update         cb confirm        cb destroy        
+0                 0                 0                 
+
+Open state:
+owners active     bad seqid         dup seqid         cleanups          
+0                 0                 0                 0                 
+revoked           open files        share denies      
+0                 0                 0                 
+
+Lock state:
+cleanups          owners active     locks active      close w/locks     
+0                 0                 0                 0                 
+conflict          range conflict    denied            dealock           
+0                 0                 0                 0                 
+revoked           dup seqid         bad seqid         
+0                 0                 0                 
+
+State ID's:
+revoked           bad seqid         bad               stale             
+0                 0                 0                 0                 
+old               
+0                 
+
+==== EXITED with rc 0 ====
+==== END nfsstat -b Tue Jul  7 00:57:27 GST 2015 ====

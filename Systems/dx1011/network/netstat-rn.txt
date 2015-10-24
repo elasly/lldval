@@ -1,0 +1,17 @@
+==== This output can be found in Systems/dx1011/network/netstat-rn.txt ====
+==== START netstat -rn Tue Jul  7 13:38:41 CDT 2015 ====
+Routing tables
+Destination        Gateway           Flags   Refs     Use  If   Exp  Groups
+
+Route tree for Protocol Family 2 (Internet):
+default            10.51.229.1       UG        1    121706 en14     -      -   
+10.51.229.0        10.51.229.241     UHSb      0         0 en14     -      -   =>
+10.51.229/24       10.51.229.241     U         4  69410272 en14     -      -   
+10.51.229.241      127.0.0.1         UGHS      0     17280 lo0      -      -   
+10.51.229.255      10.51.229.241     UHSb      2     31561 en14     -      -   
+127/8              127.0.0.1         U        16  13330907 lo0      -      -   
+
+Route tree for Protocol Family 24 (Internet v6):
+::1%1              ::1%1             UH        1   6313250 lo0      -      -   
+==== EXITED with rc 0 ====
+==== END netstat -rn Tue Jul  7 13:38:41 CDT 2015 ====

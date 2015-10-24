@@ -1,0 +1,14 @@
+==== This output can be found in Systems/dx975/hw/lsdev-^Cc_memory_awk_print_n_Memory_1_system_lsatt.txt ====
+==== START lsdev -Cc memory | awk '{print "\n#### Memory: " $1" ####";system("lsattr -El " $1)}' Tue Jul  7 12:49:38 CDT 2015 ====
+
+#### Memory: L2cache0 ####
+size 0 Size of L2 cache in Kbytes False
+
+#### Memory: mem0 ####
+ent_mem_cap         I/O memory entitlement in Kbytes           False
+goodsize       8192 Amount of usable physical memory in Mbytes False
+mem_exp_factor      Memory expansion factor                    False
+size           8192 Total amount of physical memory in Mbytes  False
+var_mem_weight      Variable memory capacity weight            False
+==== EXITED with rc 0 ====
+==== END lsdev -Cc memory | awk '{print "\n#### Memory: " $1" ####";system("lsattr -El " $1)}' Tue Jul  7 12:49:38 CDT 2015 ====

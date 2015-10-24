@@ -1,0 +1,239 @@
+==== This output can be found in Systems/dx988/os/echo_output_of_ps-ef_ps-ef_echo_n_n_output_of_ps_a.txt ====
+==== START echo '#### output of: ps -ef ####';ps -ef;echo '\n\n#### output of: ps aux ####';ps auxw Thu Aug  6 11:13:41 GST 2015 ====
+#### output of: ps -ef ####
+     UID     PID    PPID   C    STIME    TTY  TIME CMD
+    root       1       0   0 10:53:50      -  0:00 /etc/init
+    root 1835164       1   0 10:58:03      -  0:00 /usr/lib/errdemon
+    root 1900686       1   0 10:58:03      -  0:00 /usr/sbin/syncd 60
+    root 2031778       1   0 10:53:53      -  0:00 /usr/ccs/bin/shlap64
+    root 2425052 1769940   0 10:58:11      -  0:00 /usr/sbin/aixmibd
+    root 2621472 1769940   0 10:59:44      -  0:00 /usr/sbin/rsct/bin/hagsd cthags
+    root 2687014 1769940   0 10:58:13      -  0:00 /usr/sbin/qdaemon
+    root 2752708       1   0 10:58:12      -  0:00 /opt/ibm/icc/cimom/bin/dirsnmpd
+    root 2818280 1769940   0 10:58:11      -  0:00 /usr/sbin/snmpmibd
+    root 2883616 1769940   0 10:58:12      -  0:00 /opt/freeware/cimom/pegasus/bin/cimssys cimsys
+    root 2949128 1769940   0 10:58:14      -  0:00 /bin/ksh /pconsole/lwi/bin/lwistart_src.sh
+    root 3014882 1769940   0 10:58:12      -  0:00 /usr/sbin/snmpd
+    root 3080406       1   0 10:58:13      -  0:00 /usr/sbin/uprintfd
+    root 3145932 1769940   0 10:58:12      -  0:00 /usr/sbin/biod 6
+  daemon 3211296 1769940   0 10:58:13      -  0:00 /usr/sbin/rpc.statd -d 0 -t 50
+    root 3342560 1769940   0 10:58:12      -  0:00 /opt/freeware/cimom/pegasus/bin/cimssys platform_agent
+    root 3407896       1   0 11:00:41   vty0  0:00 -ksh
+    root 3473656       1   0 10:58:12      -  0:00 ./slp_srvreg -D
+    root 3670052       1   0 10:58:22      -  0:00 /opt/freeware/cimom/pegasus/bin/cimprovagt 0 16 21 root AIX_DynMetricsModule
+    root 3801104 1769940   0 10:58:13      -  0:00 /usr/sbin/writesrv
+    root 3866660 1704214   0 10:58:19      -  0:07 /var/opt/tivoli/ep/_jvm/jre/bin/java -Xmx384m -Xminf0.01 -Xmaxf0.4 -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Xbootclasspath/a:/var/opt/tivoli/ep/runtime/core/eclipse/plugins/com.ibm.rcp.base_6.2.3.20110824-0615/rcpbootcp.jar:/var/opt/tivoli/ep/lib/com.ibm.logging.icl_1.1.1.jar:/var/opt/tivoli/ep/lib/jaas2zos.jar:/var/opt/tivoli/ep/lib/jaasmodule.jar:/var/opt/tivoli/ep/lib/lwidiag.jar:/var/opt/tivoli/ep/lib/lwinative.jar:/var/opt/tivoli/ep/lib/lwinl.jar:/var/opt/tivoli/ep/lib/lwirolemap.jar:/var/opt/tivoli/ep/lib/lwisecurity.jar:/var/opt/tivoli/ep/lib/lwitools.jar:/var/opt/tivoli/ep/lib/passutils.jar:../../runtime/agent/lib/cas-bootcp.jar -Xverify:none -cp eclipse/launch.jar:eclipse/startup.jar:/var/opt/tivoli/ep/runtime/core/eclipse/plugins/com.ibm.rcp.base_6.2.3.20110824-0615/launcher.jar com.ibm.lwi.LaunchLWI
+    root 3997734 1769940   0 10:58:14      -  0:00 /usr/sbin/rsct/bin/IBM.ConfigRMd
+    root 4128830       1   0 10:58:30      -  0:00 /opt/freeware/cimom/pegasus/bin/cimprovagt 0 49 52 root Director|Agent|AgentProvider
+    root 4194406 1769940   0 10:58:26      -  0:00 /usr/es/sbin/cluster/clstrmgr
+    root 4259886 1769940   0 10:58:14      -  0:00 /usr/sbin/rsct/bin/IBM.ServiceRMd
+    root 4325560       1   0 10:58:22      -  0:00 /opt/freeware/cimom/pegasus/bin/cimprovagt 0 27 30 root AIX_StorageVirtualizerModule
+    root 4522100 4587528  12 11:13:18   vty0  0:00 /bin/sh /perfdata/Eti/pcat/pcat/./pcat-os.sh aa
+    root 4587528 2556496   0 11:13:16   vty0  0:00 /bin/sh /perfdata/Eti/pcat/pcat/./pcat-os.sh aa
+    root 4653222 4587528   0 11:13:18   vty0  0:00 tee Systems/dx988/pcat-os_sh-out.txt
+    root 6160422 7209058   0 11:13:40   vty0  0:00 /usr/sbin/fcstat -e fcs0
+    root 6881512 1769940   0 11:02:11      -  0:00 /usr/sbin/gsclvmd
+    root 7209058 4260180   0 11:13:40   vty0  0:00 grep -vp FC SCSI
+    root 7274510 4522100   0 11:13:41   vty0  0:00 /bin/sh /perfdata/Eti/pcat/pcat/./pcat-os.sh aa
+    root 7405616 4522100   0 11:13:40   vty0  0:00 /bin/sh /perfdata/Eti/pcat/pcat/./pcat-os.sh aa
+    root 1180110 1769940   0 10:58:11      -  0:00 /usr/sbin/portmap
+    root 1507808       1   0 10:58:12      -  0:00 /opt/ibm/director/cimom/bin/tier1slp
+    root 1573174       1   0 10:58:14      -  0:00 /usr/bin/topasrec  -L -s 300 -R 1 -r 6 -o /var/perf/daily/ -ypersistent=1 -O type=bin -ystart_time=10:58:14,Aug06,2015
+    root 1638870 1769940   0 10:58:12      -  0:00 /usr/sbin/hrd
+    root 1704214 2490630   0 10:58:15      -  0:00 bin/nonstop_aix @/var/opt/tivoli/ep/runtime/nonstop/config/nonstop.properties
+    root 1769940       1   0 10:58:06      -  0:00 /usr/sbin/srcmstr
+    root 1835490 1769940   0 10:58:11      -  0:00 /usr/sbin/inetd
+    root 1901016 1769940   0 10:58:11      -  0:00 /usr/sbin/syslogd -R
+    root 2032096 1769940   0 10:58:12      -  0:00 /usr/sbin/aso
+    root 2097420 1769940   0 10:58:13      -  0:00 /usr/sbin/rpc.lockd -d 0
+pconsole 2163074 2556172   0 10:58:14      -  0:04 /usr/java6/bin/java -Xmx512m -Xms20m -Xscmx10m -Xshareclasses -Xbootclasspath/p:/usr/java5/jre/lib/ibmjsseprovider2.jar -Dfile.encoding=UTF-8 -Xbootclasspath/a:/pconsole/lwi/runtime/core/eclipse/plugins/com.ibm.rcp.base_6.2.1.20091117-1800/rcpbootcp.jar:/pconsole/lwi/lib/ISCJaasModule.jar:/pconsole/lwi/lib/com.ibm.logging.icl_1.1.1.jar:/pconsole/lwi/lib/jaas2zos.jar:/pconsole/lwi/lib/jaasmodule.jar:/pconsole/lwi/lib/lwinative.jar:/pconsole/lwi/lib/lwinl.jar:/pconsole/lwi/lib/lwirolemap.jar:/pconsole/lwi/lib/lwisecurity.jar:/pconsole/lwi/lib/lwitools.jar:/pconsole/lwi/lib/passutils.jar -Xverify:none -cp eclipse/launch.jar:eclipse/startup.jar:/pconsole/lwi/runtime/core/eclipse/plugins/com.ibm.rcp.base_6.2.1.20091117-1800/launcher.jar com.ibm.lwi.LaunchLWI
+    root 2228522 1769940   0 10:58:14      -  0:00 /usr/sbin/clcomd -d
+    root 2294022       1   0 10:58:13      -  0:00 /opt/freeware/cimom/pegasus/bin/CIM_diagd
+    root 2425098       1   0 10:58:14      -  0:00 /usr/dt/bin/dtlogin -daemon
+    root 2490630 1769940   0 10:58:14      -  0:00 /bin/ksh /var/opt/tivoli/ep/runtime/nonstop/bin/cas_src.sh
+pconsole 2556172 2949128   0 10:58:14      -  0:00 /bin/ksh /pconsole/lwi/bin/lwistart_src.sh
+    root 2621732       1   0 10:58:22      -  0:00 /opt/freeware/cimom/pegasus/bin/cimprovagt 0 21 24 root AIX_RegisteredProfileProviderModule
+    root 2687278       1   0 10:58:23      -  0:00 /opt/freeware/cimom/pegasus/bin/cimprovagt 0 46 49 root AIX_ReferencedProfileProviderModule
+    root 2818342 1769940   0 10:58:14      -  0:00 /usr/sbin/rsct/bin/IBM.DRMd
+    root 2883900       1   0 10:58:22      -  0:00 /opt/freeware/cimom/pegasus/bin/cimprovagt 0 36 41 root AIX_PGSubProfileRequiresProfileProviderModule
+    root 3014982       1   0 10:58:21      -  0:00 /opt/freeware/cimom/pegasus/bin/cimprovagt 0 11 16 root SLPProviderModule
+    root 3080528       1   0 10:58:22      -  0:00 /opt/freeware/cimom/pegasus/bin/cimprovagt 0 36 39 root AIX_SubProfileRequiresProfileProviderModule
+    root 3211744       1   0 10:58:23      -  0:00 /usr/bin/cimlistener
+    root 3277154       1   0 10:58:20      -  0:01 [cimserve]
+    root 3342664 1835490   0 10:58:16      -  0:00 xmtopas -p3
+    root 3408278 1769940   0 10:59:44      -  0:00 /usr/sbin/clconfd
+    root 3932626 1769940   0 11:02:10      -  0:00 /usr/es/sbin/cluster/clevmgrd
+    root 4260180 2687570   0 11:13:40   vty0  0:00 netstat -v
+    root  852568 1769940   0 10:58:14      -  0:00 /usr/sbin/rsct/bin/rmcd -a IBM.LPCommands -r -S 1500
+    root 1114844 1769940   0 10:58:11      -  0:00 sendmail: accepting connections
+    root 1180414 1769940   0 10:58:11      -  0:00 /usr/sbin/hostmibd
+    root 1442366       1   0 10:58:22      -  0:00 /opt/freeware/cimom/pegasus/bin/cimprovagt 0 41 44 root AIX_SubProfileRequiresPGProfileProviderModule
+    root 1508032 1769940   0 11:00:14      -  0:00 /usr/sbin/rsct/bin/IBM.StorageRMd
+    root 1573606       1   0 10:58:13      -  0:00 /usr/sbin/cron
+    root 1770238 1769940   0 10:58:14      -  0:00 /usr/sbin/sshd
+    root 1966632 1769940   0 10:58:14      -  0:00 /usr/sbin/rsct/bin/IBM.HostRMd
+    root 2163326       1   0 10:58:22      -  0:00 /opt/freeware/cimom/pegasus/bin/cimprovagt 0 24 27 root AIX_SMISRegisteredProfileProviderModule
+    root 2228798       1   0 10:58:22      -  0:00 /opt/freeware/cimom/pegasus/bin/cimprovagt 0 16 19 root AIX_RegisteredSubProfileProviderModule
+    root 2491130 4194406   0 11:02:22      -  0:00 run_rcovcmd
+    root 2556496 3407896   0 11:13:16   vty0  0:00 /bin/sh ./pcat.sh --notsm --nohmc
+    root 2622032 7274510   0 11:13:41   vty0  0:00 /bin/sh /perfdata/Eti/pcat/pcat/./pcat-os.sh aa
+    root 2687570 7405616   0 11:13:40   vty0  0:00 tail -512000
+    root 3015302 2622032   0 11:13:41   vty0  0:00 ps -ef
+
+
+#### output of: ps aux ####
+USER         PID %CPU %MEM   SZ  RSS    TTY STAT    STIME  TIME COMMAND
+root     1114154  0.0  0.0  448  448      - A    10:52:27  0:11 wait
+root     1179692  0.0  0.0  448  448      - A    10:52:27  0:11 wait
+root     1048616  0.0  0.0  448  448      - A    10:52:27  0:11 wait
+root     3866660  0.0  1.0 73632 73648      - A    10:58:19  0:07 /var/opt/tivoli/ep/_jvm/jre/bin/java -Xmx384m -Xminf0.01 -Xmaxf0.4 
+pconsole 2163074  0.0  1.0 59980 60032      - A    10:58:14  0:04 /usr/java6/bin/java -Xmx512m -Xms20m -Xscmx10m -Xshareclasses -Xboo
+root      327988  0.0  0.0  448  448      - A    10:52:27  0:05 wait
+root      262450  0.0  0.0  448  448      - A    10:52:27  0:05 wait
+root      196912  0.0  0.0  448  448      - A    10:52:27  0:05 wait
+root      328276  0.0  0.0  448  448      - A    10:52:27  0:04 wait
+root      262738  0.0  0.0  448  448      - A    10:52:27  0:04 wait
+root      197200  0.0  0.0  448  448      - A    10:52:27  0:04 wait
+root           0  0.0  0.0  384  384      - A    10:52:27  0:03 swapper
+root     3277154  0.0  0.0 30720 30748      - A    10:58:20  0:01 [cimserve]
+root     1769600  0.0  0.0 9856 9856      - A    10:53:48  0:01 j2pg
+root     1310776  0.0  0.0  448  448      - A    10:52:27  0:01 wait
+root     1376314  0.0  0.0  448  448      - A    10:52:27  0:01 wait
+root     1638474  0.0  0.0  448  448      - A    10:52:27  0:01 wait
+root     1704012  0.0  0.0  448  448      - A    10:52:27  0:01 wait
+root     1441852  0.0  0.0  448  448      - A    10:52:27  0:01 wait
+root     1572936  0.0  0.0  448  448      - A    10:52:27  0:01 wait
+root     2359588  0.0  0.0  448  448      - A    10:58:14  0:00 ahaqueue
+root     2425098  0.0  0.0  892  908      - A    10:58:14  0:00 /usr/dt/bin/dtlogin -daemon 
+root     3080528  0.0  0.0 14728 14760      - A    10:58:22  0:00 /opt/freeware/cimom/pegasus/bin/cimprovagt 0 36 39 root AIX_SubProf
+root     3211744  0.0  0.0 9600 9628      - A    10:58:23  0:00 /usr/bin/cimlistener 
+root     2228522  0.0  0.0 3004 3128      - A    10:58:14  0:00 /usr/sbin/clcomd -d 
+root     2294022  0.0  0.0  324  340      - A    10:58:13  0:00 /opt/freeware/cimom/pegasus/bin/CIM_diagd 
+root     3014982  0.0  0.0 13024 13056      - A    10:58:21  0:00 /opt/freeware/cimom/pegasus/bin/cimprovagt 0 11 16 root SLPProvider
+root     2687278  0.0  0.0 14152 14184      - A    10:58:23  0:00 /opt/freeware/cimom/pegasus/bin/cimprovagt 0 46 49 root AIX_Referen
+root     2621732  0.0  0.0 14100 14132      - A    10:58:22  0:00 /opt/freeware/cimom/pegasus/bin/cimprovagt 0 21 24 root AIX_Registe
+pconsole 2556172  0.0  0.0  796  832      - A    10:58:14  0:00 /bin/ksh /pconsole/lwi/bin/lwistart_src.sh 
+root     2883900  0.0  0.0 14708 14740      - A    10:58:22  0:00 /opt/freeware/cimom/pegasus/bin/cimprovagt 0 36 41 root AIX_PGSubPr
+root     2818342  0.0  0.0 1848 1872      - A    10:58:14  0:00 /usr/sbin/rsct/bin/IBM.DRMd 
+root     2490630  0.0  0.0  816  852      - A    10:58:14  0:00 /bin/ksh /var/opt/tivoli/ep/runtime/nonstop/bin/cas_src.sh 
+root     1245608  0.0  0.0  512  512      - A    10:58:04  0:00 nfsSM
+root     1180110  0.0  0.0 1036 1056      - A    10:58:11  0:00 /usr/sbin/portmap 
+root     1442216  0.0  0.0  448  448      - A    10:58:04  0:00 rtcmd
+root     1376696  0.0  0.0  448  448      - A    10:58:04  0:00 rgsr
+root     1114552  0.0  0.0  384  384      - A    10:58:03  0:00 lock_rcv
+root      917890  0.0  0.0  448  448      - A    10:53:49  0:00 memp_rbd
+root      852356  0.0  0.0  448  448      - A    10:53:48  0:00 lvmbb
+root     1048974  0.0  0.0 3520 3520      - A    10:56:42  0:00 dog
+root      983468  0.0  0.0  704  704      - A    10:53:54  0:00 ldmp_process
+root     1901016  0.0  0.0  908  924      - A    10:58:11  0:00 /usr/sbin/syslogd -R 
+root     1835490  0.0  0.0  756  772      - A    10:58:11  0:00 /usr/sbin/inetd 
+root     2097420  0.0  0.0  384  388      - A    10:58:13  0:00 /usr/sbin/rpc.lockd -d 0 
+root     2032096  0.0  0.0 1960 1928      - A    10:58:12  0:00 /usr/sbin/aso 
+root     1769940  0.0  0.0 1032 1052      - A    10:58:06  0:00 /usr/sbin/srcmstr 
+root     1573174  0.0  0.0 1808 1640      - A    10:58:14  0:00 /usr/bin/topasrec  -L -s 300 -R 1 -r 6 -o /var/perf/daily/ -ypersis
+root     1507808  0.0  0.0 7080 7100      - A    10:58:12  0:00 /opt/ibm/director/cimom/bin/tier1slp 
+root     1704214  0.0  0.0  500  516      - A    10:58:15  0:00 bin/nonstop_aix @/var/opt/tivoli/ep/runtime/nonstop/config/nonstop.
+root     1638870  0.0  0.0 1144 1196      - A    10:58:12  0:00 /usr/sbin/hrd 
+root     1508032  0.0  0.0 6168 5708      - A    11:00:14  0:00 /usr/sbin/rsct/bin/IBM.StorageRMd 
+root     1442366  0.0  0.0 14188 14220      - A    10:58:22  0:00 /opt/freeware/cimom/pegasus/bin/cimprovagt 0 41 44 root AIX_SubProf
+root     1639164  0.0  0.0 1024 1024      - A    10:58:14  0:00 multisite_listener
+root     1573606  0.0  0.0 4668 4692      - A    10:58:13  0:00 /usr/sbin/cron 
+root     1114844  0.0  0.0 2416 1852      - A    10:58:11  0:00 sendmail: accepting connections 
+root     1049232  0.0  0.0 1216 1216      - A    10:56:37  0:00 kpkcs11
+root     1376816  0.0  0.0  448  448      - A    10:58:14  0:00 multisite_connection_monitor
+root     1180414  0.0  0.0 1504 1444      - A    10:58:11  0:00 /usr/sbin/hostmibd 
+root     2556496  0.0  0.0  956  992   vty0 A    11:13:16  0:00 /bin/sh ./pcat.sh --notsm --nohmc 
+root     2491130  0.0  0.0  792  804      - A    11:02:22  0:00 run_rcovcmd 
+root     2687570  0.0  0.0  172  180   vty0 A    11:13:40  0:00 tail -512000 
+root     2622032  0.0  0.0  172  180   vty0 A    11:13:41  0:00 tail -512000 
+root     1966632  0.0  0.0 2776 2740      - A    10:58:14  0:00 /usr/sbin/rsct/bin/IBM.HostRMd 
+root     1770238  0.0  0.0 1352 1444      - A    10:58:14  0:00 /usr/sbin/sshd 
+root     2228798  0.0  0.0 13812 13844      - A    10:58:22  0:00 /opt/freeware/cimom/pegasus/bin/cimprovagt 0 16 19 root AIX_Registe
+root     2163326  0.0  0.0 13520 13552      - A    10:58:22  0:00 /opt/freeware/cimom/pegasus/bin/cimprovagt 0 24 27 root AIX_SMISReg
+root         524  0.0  0.0  448  448      - A    10:52:27  0:00 swapper
+root     4260180  0.0  0.0  936  976   vty0 A    11:13:40  0:00 netstat -v 
+root      131662  0.0  0.0  448  448      - A    10:52:27  0:00 wait
+root       66062  0.0  0.0  448  448      - A    10:52:27  0:00 sched
+root     3408278  0.0  0.0  764  776      - A    10:59:44  0:00 /usr/sbin/clconfd 
+root     3342664  0.0  0.0 1216 1252      - A    10:58:16  0:00 xmtopas -p3 
+root     3932626  0.0  0.0 4776 4792      - A    11:02:10  0:00 /usr/es/sbin/cluster/clevmgrd 
+root     3866962  0.0  0.0  448  448      - A    11:02:10  0:00 pkm_kern_proc
+root      852568  0.0  0.0 14204 14448      - A    10:58:14  0:00 /usr/sbin/rsct/bin/rmcd -a IBM.LPCommands -r -S 1500 
+root      787132  0.0  0.0  448  448      - A    10:58:03  0:00 aioPpool
+root      983706  0.0  0.0  448  448      - A    10:58:03  0:00 aha_rcv
+root      918186  0.0  0.0  512  512      - A    10:58:04  0:00 kbiod
+root      459352  0.0  0.0  960  960      - A    10:52:27  0:00 gil
+root      393814  0.0  0.0  448  448      - A    10:52:27  0:00 netm
+root      721532  0.0  0.0  448  448      - A    10:58:03  0:00 link_rcv
+root      590492  0.0  0.0  448  448      - A    10:58:03  0:00 clean_if
+root      786932  0.0  0.0  448  448      - A    10:58:02  0:00 aioLpool
+root     2556070  0.0  0.0  448  448      - A    10:58:04  0:00 rdpgc
+root     2490534  0.0  0.0  896  896      - A    10:58:04  0:00 nfssync_kproc
+root     2687014  0.0  0.0  316  320      - A    10:58:13  0:00 /usr/sbin/qdaemon 
+root     2621472  0.0  0.0 20616 21248      - A    10:59:44  0:00 /usr/sbin/rsct/bin/hagsd cthags 
+root     2228378  0.0  0.0  448  448      - A    10:58:04  0:00 n4bg
+root     2162850  0.0  0.0  448  448      - A    10:58:03  0:00 clusterwide_rcv
+root     2425052  0.0  0.0 1792 1608      - A    10:58:11  0:00 /usr/sbin/aixmibd 
+root     2359444  0.0  0.0  384  384      - A    10:58:03  0:00 sec_rcv
+root     2752708  0.0  0.0 9316 9340      - A    10:58:12  0:00 /opt/ibm/icc/cimom/bin/dirsnmpd 
+root     3145932  0.0  0.0  172  180      - A    10:58:12  0:00 /usr/sbin/biod 6 
+root     3080406  0.0  0.0   88   92      - A    10:58:13  0:00 /usr/sbin/uprintfd 
+root     3342560  0.0  0.0  436  444      - A    10:58:12  0:00 /opt/freeware/cimom/pegasus/bin/cimssys platform_agent 
+daemon   3211296  0.0  0.0 3036 3056      - A    10:58:13  0:00 /usr/sbin/rpc.statd -d 0 -t 50 
+root     2883616  0.0  0.0  440  448      - A    10:58:12  0:00 /opt/freeware/cimom/pegasus/bin/cimssys cimsys 
+root     2818280  0.0  0.0 1740 1548      - A    10:58:11  0:00 /usr/sbin/snmpmibd 
+root     3014882  0.0  0.0 1344 1388      - A    10:58:12  0:00 /usr/sbin/snmpd 
+root     2949128  0.0  0.0  804  840      - A    10:58:14  0:00 /bin/ksh /pconsole/lwi/bin/lwistart_src.sh 
+root      852002  0.0  0.0  448  448      - A    10:52:27  0:00 devstatd
+root      786464  0.0  0.0 1472 1472      - A    10:52:27  0:00 vtiol
+root      983078  0.0  0.0  448  448      - A    10:52:27  0:00 xmgc
+root      917540  0.0  0.0  640  640      - A    10:52:27  0:00 pilegc
+root      589850  0.0  0.0  640  640      - A    10:52:27  0:00 reaffin
+root      524312  0.0  0.0  448  448      - A    10:52:27  0:00 pvlist
+root      720930  0.0  0.0  448  448      - A    10:55:13  0:00 pofCmdProc
+root      655388  0.0  0.0  448  448      - A    10:52:27  0:00 memgrdd
+root      458774  0.0  0.0  832  832      - A    10:52:27  0:00 vmmd
+root     1900686  0.0  0.0  616  624      - A    10:58:03  0:00 /usr/sbin/syncd 60 
+root     1835164  0.0  0.0 1148 1184      - A    10:58:03  0:00 /usr/lib/errdemon 
+root     2031778  0.0  0.0  428  440      - A    10:53:53  0:00 /usr/ccs/bin/shlap64 
+root     1966106  0.0  0.0  448  448      - A    10:58:06  0:00 random
+root      327698  0.0  0.0  448  448      - A    10:52:27  0:00 vmptacrt
+root      393236  0.0  0.0  896  896      - A    10:52:27  0:00 psmd
+root     1507398  0.0  0.0  448  448      - A    10:52:27  0:00 wait
+root     1245238  0.0  0.0  448  448      - A    10:52:27  0:00 wait
+root         264  0.0  0.0  448  448      - A    10:52:27  0:00 swapper
+root     8061088  0.0  0.0  836  868   vty0 A    11:13:41  0:00 ps auxw 
+root      131374  0.0  0.0  448  448      - A    10:52:27  0:00 wait
+root       65802  0.0  0.0  448  448      - A    10:52:27  0:00 sched
+root     7209058  0.0  0.0  236  248   vty0 A    11:13:40  0:00 grep -vp FC SCSI 
+root     6881512  0.0  0.0  764  732      - A    11:02:11  0:00 /usr/sbin/gsclvmd 
+root     7405616  0.0  0.0  960  432   vty0 A    11:13:40  0:00 /bin/sh /perfdata/Eti/pcat/pcat/./pcat-os.sh aa 
+root     7274510  0.0  0.0 1052  416   vty0 A    11:13:41  0:00 /bin/sh /perfdata/Eti/pcat/pcat/./pcat-os.sh aa 
+root      196614  0.0  0.0  448  448      - A    10:52:27  0:00 sched
+root      590148  0.0  0.0  448  448      - A    10:52:27  0:00 wait
+root      524610  0.0  0.0  448  448      - A    10:52:27  0:00 wait
+root      721244  0.0  0.0  448  448      - A    10:52:27  0:00 armtrace_kproc
+root      655706  0.0  0.0  512  512      - A    10:52:27  0:00 wlmsched
+root           1  0.0  0.0  808  824      - A    10:53:50  0:00 /etc/init 
+root      131076  0.0  0.0  448  448      - A    10:52:27  0:00 wait
+root      459072  0.0  0.0  448  448      - A    10:52:27  0:00 wait
+root      393534  0.0  0.0  448  448      - A    10:52:27  0:00 wait
+root     3801104  0.0  0.0  308  316      - A    10:58:13  0:00 /usr/sbin/writesrv 
+root     3735804  0.0  0.0  448  448      - A    10:58:13  0:00 DPKP
+root     3997734  0.0  0.0 24860 25584      - A    10:58:14  0:00 /usr/sbin/rsct/bin/IBM.ConfigRMd 
+root      262160  0.0  0.0  896  896      - A    10:52:27  0:00 lrud
+root     3473656  0.0  0.0  480  496      - A    10:58:12  0:00 ./slp_srvreg -D 
+root     3407896  0.0  0.0  808  844   vty0 A    11:00:41  0:00 -ksh 
+root     3670052  0.0  0.0 13532 13564      - A    10:58:22  0:00 /opt/freeware/cimom/pegasus/bin/cimprovagt 0 16 21 root AIX_DynMetr
+root     3538950  0.0  0.0 1216 1216      - A    10:58:13  0:00 rpc.lockd
+root     4063242  0.0  0.0  448  448      - A    10:58:14  0:00 ahafs_kproc
+root     4587528  0.0  0.0  836  408   vty0 A    11:13:16  0:00 /bin/sh /perfdata/Eti/pcat/pcat/./pcat-os.sh aa 
+root     4522100  0.0  0.0  984  348   vty0 A    11:13:18  0:00 /bin/sh /perfdata/Eti/pcat/pcat/./pcat-os.sh aa 
+root     6160422  0.0  0.0  360  404   vty0 A    11:13:40  0:00 /usr/sbin/fcstat -e fcs0 
+root     4653222  0.0  0.0  116  124   vty0 A    11:13:18  0:00 tee Systems/dx988/pcat-os_sh-out.txt 
+root     4194406  0.0  0.0 7520 7408      - A    10:58:26  0:00 /usr/es/sbin/cluster/clstrmgr 
+root     4128830  0.0  0.0 11976 12008      - A    10:58:30  0:00 /opt/freeware/cimom/pegasus/bin/cimprovagt 0 49 52 root Director|Ag
+root     4325560  0.0  0.0 14644 14676      - A    10:58:22  0:00 /opt/freeware/cimom/pegasus/bin/cimprovagt 0 27 30 root AIX_Storage
+root     4259886  0.0  0.0 1964 1896      - A    10:58:14  0:00 /usr/sbin/rsct/bin/IBM.ServiceRMd 
+==== EXITED with rc 0 ====
+==== END echo '#### output of: ps -ef ####';ps -ef;echo '\n\n#### output of: ps aux ####';ps auxw Thu Aug  6 11:13:41 GST 2015 ====

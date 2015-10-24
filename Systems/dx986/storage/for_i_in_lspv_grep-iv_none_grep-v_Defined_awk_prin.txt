@@ -1,0 +1,1040 @@
+==== This output can be found in Systems/dx986/storage/for_i_in_lspv_grep-iv_none_grep-v_Defined_awk_prin.txt ====
+==== START for i in $(lspv | grep -iv none | grep -v Defined | awk '{print $1}');do echo "### Disk: $i ### \n $(lspv -p $i | grep -wv $i) \n \n"; done Tue Jul  7 00:52:52 GST 2015 ====
+### Disk: hdisk0 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-1     used    outer edge    hd5                 boot       N/A
+  2-17    free    outer edge                                   
+ 18-21    used    outer edge    hd6                 paging     N/A
+ 22-57    used    outer edge    hd9var              jfs2       /var
+ 58-61    used    outer edge    hd2                 jfs2       /usr
+ 62-62    used    outer middle  hd6                 paging     N/A
+ 63-70    used    outer middle  lg_dumplv           sysdump    N/A
+ 71-71    used    outer middle  livedump            jfs2       /var/adm/ras/livedump
+ 72-81    used    outer middle  perfdatalv          jfs2       /perfdata
+ 82-88    used    outer middle  hd6                 paging     N/A
+ 89-111   used    outer middle  hd10opt             jfs2       /opt
+112-122   used    outer middle  hd1                 jfs2       /home
+123-123   used    center        hd8                 jfs2log    N/A
+124-127   used    center        hd4                 jfs2       /
+128-143   used    center        hd2                 jfs2       /usr
+144-147   used    center        hd9var              jfs2       /var
+148-151   used    center        hd3                 jfs2       /tmp
+152-155   used    center        hd1                 jfs2       /home
+156-157   used    center        hd10opt             jfs2       /opt
+158-161   used    center        hd11admin           jfs2       /admin
+162-177   used    center        hd4                 jfs2       /
+178-182   used    center        hd1                 jfs2       /home
+183-207   used    inner middle  hd10opt             jfs2       /opt
+208-233   used    inner middle  hd3                 jfs2       /tmp
+234-243   used    inner middle  hd2                 jfs2       /usr
+244-304   free    inner edge                                    
+ 
+
+### Disk: hdisk1 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-1     used    outer edge    hd5                 boot       N/A
+  2-17    free    outer edge                                   
+ 18-21    used    outer edge    hd6                 paging     N/A
+ 22-57    used    outer edge    hd9var              jfs2       /var
+ 58-61    used    outer edge    hd2                 jfs2       /usr
+ 62-62    used    outer middle  hd6                 paging     N/A
+ 63-70    used    outer middle  lg_dumplv           sysdump    N/A
+ 71-71    used    outer middle  livedump            jfs2       /var/adm/ras/livedump
+ 72-81    used    outer middle  perfdatalv          jfs2       /perfdata
+ 82-88    used    outer middle  hd6                 paging     N/A
+ 89-111   used    outer middle  hd10opt             jfs2       /opt
+112-122   used    outer middle  hd1                 jfs2       /home
+123-123   used    center        hd8                 jfs2log    N/A
+124-127   used    center        hd4                 jfs2       /
+128-143   used    center        hd2                 jfs2       /usr
+144-147   used    center        hd9var              jfs2       /var
+148-151   used    center        hd3                 jfs2       /tmp
+152-155   used    center        hd1                 jfs2       /home
+156-157   used    center        hd10opt             jfs2       /opt
+158-161   used    center        hd11admin           jfs2       /admin
+162-177   used    center        hd4                 jfs2       /
+178-182   used    center        hd1                 jfs2       /home
+183-207   used    inner middle  hd10opt             jfs2       /opt
+208-233   used    inner middle  hd3                 jfs2       /tmp
+234-243   used    inner middle  hd2                 jfs2       /usr
+244-304   free    inner edge                                    
+ 
+
+### Disk: hdisk2 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-1     used    outer edge    hd5                 boot       N/A
+  2-17    free    outer edge                                   
+ 18-21    used    outer edge    hd6                 paging     N/A
+ 22-57    used    outer edge    hd9var              jfs2       /var
+ 58-61    used    outer edge    hd2                 jfs2       /usr
+ 62-62    used    outer middle  hd6                 paging     N/A
+ 63-70    used    outer middle  lg_dumplv           sysdump    N/A
+ 71-71    used    outer middle  livedump            jfs2       /var/adm/ras/livedump
+ 72-81    used    outer middle  perfdatalv          jfs2       /perfdata
+ 82-88    used    outer middle  hd6                 paging     N/A
+ 89-111   used    outer middle  hd10opt             jfs2       /opt
+112-122   used    outer middle  hd1                 jfs2       /home
+123-123   used    center        hd8                 jfs2log    N/A
+124-127   used    center        hd4                 jfs2       /
+128-143   used    center        hd2                 jfs2       /usr
+144-147   used    center        hd9var              jfs2       /var
+148-151   used    center        hd3                 jfs2       /tmp
+152-155   used    center        hd1                 jfs2       /home
+156-157   used    center        hd10opt             jfs2       /opt
+158-161   used    center        hd11admin           jfs2       /admin
+162-177   used    center        hd4                 jfs2       /
+178-182   used    center        hd1                 jfs2       /home
+183-207   used    inner middle  hd10opt             jfs2       /opt
+208-233   used    inner middle  hd3                 jfs2       /tmp
+234-243   used    inner middle  hd2                 jfs2       /usr
+244-304   free    inner edge                                    
+ 
+
+### Disk: hdisk4 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-1     used    outer edge    hd5                 boot       N/A
+  2-17    free    outer edge                                   
+ 18-21    used    outer edge    hd6                 paging     N/A
+ 22-57    used    outer edge    hd9var              jfs2       /var
+ 58-61    used    outer edge    hd2                 jfs2       /usr
+ 62-62    used    outer middle  hd6                 paging     N/A
+ 63-70    used    outer middle  lg_dumplv           sysdump    N/A
+ 71-71    used    outer middle  livedump            jfs2       /var/adm/ras/livedump
+ 72-81    used    outer middle  perfdatalv          jfs2       /perfdata
+ 82-88    used    outer middle  hd6                 paging     N/A
+ 89-111   used    outer middle  hd10opt             jfs2       /opt
+112-122   used    outer middle  hd1                 jfs2       /home
+123-123   used    center        hd8                 jfs2log    N/A
+124-127   used    center        hd4                 jfs2       /
+128-143   used    center        hd2                 jfs2       /usr
+144-147   used    center        hd9var              jfs2       /var
+148-151   used    center        hd3                 jfs2       /tmp
+152-155   used    center        hd1                 jfs2       /home
+156-157   used    center        hd10opt             jfs2       /opt
+158-161   used    center        hd11admin           jfs2       /admin
+162-177   used    center        hd4                 jfs2       /
+178-182   used    center        hd1                 jfs2       /home
+183-207   used    inner middle  hd10opt             jfs2       /opt
+208-233   used    inner middle  hd3                 jfs2       /tmp
+234-243   used    inner middle  hd2                 jfs2       /usr
+244-304   free    inner edge                                    
+ 
+
+### Disk: hdisk5 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-1     used    outer edge    hd5                 boot       N/A
+  2-17    free    outer edge                                   
+ 18-21    used    outer edge    hd6                 paging     N/A
+ 22-57    used    outer edge    hd9var              jfs2       /var
+ 58-61    used    outer edge    hd2                 jfs2       /usr
+ 62-62    used    outer middle  hd6                 paging     N/A
+ 63-70    used    outer middle  lg_dumplv           sysdump    N/A
+ 71-71    used    outer middle  livedump            jfs2       /var/adm/ras/livedump
+ 72-81    used    outer middle  perfdatalv          jfs2       /perfdata
+ 82-88    used    outer middle  hd6                 paging     N/A
+ 89-111   used    outer middle  hd10opt             jfs2       /opt
+112-122   used    outer middle  hd1                 jfs2       /home
+123-123   used    center        hd8                 jfs2log    N/A
+124-127   used    center        hd4                 jfs2       /
+128-143   used    center        hd2                 jfs2       /usr
+144-147   used    center        hd9var              jfs2       /var
+148-151   used    center        hd3                 jfs2       /tmp
+152-155   used    center        hd1                 jfs2       /home
+156-157   used    center        hd10opt             jfs2       /opt
+158-161   used    center        hd11admin           jfs2       /admin
+162-177   used    center        hd4                 jfs2       /
+178-182   used    center        hd1                 jfs2       /home
+183-207   used    inner middle  hd10opt             jfs2       /opt
+208-233   used    inner middle  hd3                 jfs2       /tmp
+234-243   used    inner middle  hd2                 jfs2       /usr
+244-304   free    inner edge                                    
+ 
+
+### Disk: hdisk6 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-1     used    outer edge    hd5                 boot       N/A
+  2-17    free    outer edge                                   
+ 18-21    used    outer edge    hd6                 paging     N/A
+ 22-57    used    outer edge    hd9var              jfs2       /var
+ 58-61    used    outer edge    hd2                 jfs2       /usr
+ 62-62    used    outer middle  hd6                 paging     N/A
+ 63-70    used    outer middle  lg_dumplv           sysdump    N/A
+ 71-71    used    outer middle  livedump            jfs2       /var/adm/ras/livedump
+ 72-81    used    outer middle  perfdatalv          jfs2       /perfdata
+ 82-88    used    outer middle  hd6                 paging     N/A
+ 89-111   used    outer middle  hd10opt             jfs2       /opt
+112-122   used    outer middle  hd1                 jfs2       /home
+123-123   used    center        hd8                 jfs2log    N/A
+124-127   used    center        hd4                 jfs2       /
+128-143   used    center        hd2                 jfs2       /usr
+144-147   used    center        hd9var              jfs2       /var
+148-151   used    center        hd3                 jfs2       /tmp
+152-155   used    center        hd1                 jfs2       /home
+156-157   used    center        hd10opt             jfs2       /opt
+158-161   used    center        hd11admin           jfs2       /admin
+162-177   used    center        hd4                 jfs2       /
+178-182   used    center        hd1                 jfs2       /home
+183-207   used    inner middle  hd10opt             jfs2       /opt
+208-233   used    inner middle  hd3                 jfs2       /tmp
+234-243   used    inner middle  hd2                 jfs2       /usr
+244-304   free    inner edge                                    
+ 
+
+### Disk: hdisk7 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-1     used    outer edge    hd5                 boot       N/A
+  2-17    free    outer edge                                   
+ 18-21    used    outer edge    hd6                 paging     N/A
+ 22-57    used    outer edge    hd9var              jfs2       /var
+ 58-61    used    outer edge    hd2                 jfs2       /usr
+ 62-62    used    outer middle  hd6                 paging     N/A
+ 63-70    used    outer middle  lg_dumplv           sysdump    N/A
+ 71-71    used    outer middle  livedump            jfs2       /var/adm/ras/livedump
+ 72-81    used    outer middle  perfdatalv          jfs2       /perfdata
+ 82-88    used    outer middle  hd6                 paging     N/A
+ 89-111   used    outer middle  hd10opt             jfs2       /opt
+112-122   used    outer middle  hd1                 jfs2       /home
+123-123   used    center        hd8                 jfs2log    N/A
+124-127   used    center        hd4                 jfs2       /
+128-143   used    center        hd2                 jfs2       /usr
+144-147   used    center        hd9var              jfs2       /var
+148-151   used    center        hd3                 jfs2       /tmp
+152-155   used    center        hd1                 jfs2       /home
+156-157   used    center        hd10opt             jfs2       /opt
+158-161   used    center        hd11admin           jfs2       /admin
+162-177   used    center        hd4                 jfs2       /
+178-182   used    center        hd1                 jfs2       /home
+183-207   used    inner middle  hd10opt             jfs2       /opt
+208-233   used    inner middle  hd3                 jfs2       /tmp
+234-243   used    inner middle  hd2                 jfs2       /usr
+244-304   free    inner edge                                    
+ 
+
+### Disk: hdiskpower1 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-16    free    outer edge                                   
+ 17-17    used    outer middle  caalv_private1      boot       N/A
+ 18-18    used    outer middle  caalv_private2      boot       N/A
+ 19-22    used    outer middle  caalv_private3      boot       N/A
+ 23-23    used    outer middle  powerha_crlv        boot       N/A
+ 24-32    free    outer middle                                 
+ 33-47    free    center                                       
+ 48-63    free    inner middle                                 
+ 64-79    free    inner edge                                    
+ 
+
+### Disk: hdiskpower2 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-8     used    outer edge    bctlv               jfs2       /nessdb_bct
+  9-16    used    outer middle  bctlv               jfs2       /nessdb_bct
+ 17-23    used    center        bctlv               jfs2       /nessdb_bct
+ 24-31    used    inner middle  bctlv               jfs2       /nessdb_bct
+ 32-38    used    inner edge    bctlv               jfs2       /nessdb_bct
+ 39-39    used    inner edge    loglv01             jfs2log    N/A 
+ 
+
+### Disk: hdiskpower45 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-160   used    outer edge    R5_baselv           jfs2       /nessdb_base
+161-319   used    outer middle  R5_baselv           jfs2       /nessdb_base
+320-478   used    center        R5_baselv           jfs2       /nessdb_base
+479-533   used    inner middle  R5_baselv           jfs2       /nessdb_base
+534-637   used    inner middle  R5_stagelv          jfs2       /nessdb_stage
+638-797   used    inner edge    R5_stagelv          jfs2       /nessdb_stage 
+ 
+
+### Disk: hdiskpower46 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-160   used    outer edge    R5_baselv           jfs2       /nessdb_base
+161-319   used    outer middle  R5_baselv           jfs2       /nessdb_base
+320-478   used    center        R5_baselv           jfs2       /nessdb_base
+479-533   used    inner middle  R5_baselv           jfs2       /nessdb_base
+534-637   used    inner middle  R5_stagelv          jfs2       /nessdb_stage
+638-797   used    inner edge    R5_stagelv          jfs2       /nessdb_stage 
+ 
+
+### Disk: hdiskpower47 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-160   used    outer edge    R5_baselv           jfs2       /nessdb_base
+161-319   used    outer middle  R5_baselv           jfs2       /nessdb_base
+320-478   used    center        R5_baselv           jfs2       /nessdb_base
+479-533   used    inner middle  R5_baselv           jfs2       /nessdb_base
+534-637   used    inner middle  R5_stagelv          jfs2       /nessdb_stage
+638-797   used    inner edge    R5_stagelv          jfs2       /nessdb_stage 
+ 
+
+### Disk: hdiskpower48 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-160   used    outer edge    R5_baselv           jfs2       /nessdb_base
+161-319   used    outer middle  R5_baselv           jfs2       /nessdb_base
+320-478   used    center        R5_baselv           jfs2       /nessdb_base
+479-533   used    inner middle  R5_baselv           jfs2       /nessdb_base
+534-637   used    inner middle  R5_stagelv          jfs2       /nessdb_stage
+638-797   used    inner edge    R5_stagelv          jfs2       /nessdb_stage 
+ 
+
+### Disk: hdiskpower49 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-163   used    outer edge    R5_stagelv          jfs2       /nessdb_stage
+164-320   used    outer edge    R5_syslv            jfs2       /nessdb_sys
+321-639   used    outer middle  R5_baselv           jfs2       /nessdb_base
+640-854   used    center        R5_baselv           jfs2       /nessdb_base
+855-958   used    center        R5_stagelv          jfs2       /nessdb_stage
+959-1277  used    inner middle  R5_syslv            jfs2       /nessdb_sys
+1278-1596  used    inner edge    R5_syslv            jfs2       /nessdb_sys
+1597-1597  free    inner edge                                    
+ 
+
+### Disk: hdiskpower50 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-163   used    outer edge    R5_stagelv          jfs2       /nessdb_stage
+164-320   used    outer edge    R5_syslv            jfs2       /nessdb_sys
+321-639   used    outer middle  R5_baselv           jfs2       /nessdb_base
+640-854   used    center        R5_baselv           jfs2       /nessdb_base
+855-958   used    center        R5_stagelv          jfs2       /nessdb_stage
+959-1277  used    inner middle  R5_syslv            jfs2       /nessdb_sys
+1278-1596  used    inner edge    R5_syslv            jfs2       /nessdb_sys
+1597-1597  free    inner edge                                    
+ 
+
+### Disk: hdiskpower53 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-205   used    outer edge    R6_bkplv            jfs2       /nessdb_bkp
+206-410   used    outer middle  R6_bkplv            jfs2       /nessdb_bkp
+411-614   used    center        R6_bkplv            jfs2       /nessdb_bkp
+615-818   used    inner middle  R6_bkplv            jfs2       /nessdb_bkp
+819-979   used    inner edge    R6_bkplv            jfs2       /nessdb_bkp
+980-1023  free    inner edge                                    
+ 
+
+### Disk: hdiskpower54 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-205   used    outer edge    R6_bkplv            jfs2       /nessdb_bkp
+206-410   used    outer middle  R6_bkplv            jfs2       /nessdb_bkp
+411-614   used    center        R6_bkplv            jfs2       /nessdb_bkp
+615-818   used    inner middle  R6_bkplv            jfs2       /nessdb_bkp
+819-979   used    inner edge    R6_bkplv            jfs2       /nessdb_bkp
+980-1023  free    inner edge                                    
+ 
+
+### Disk: hdiskpower55 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-205   used    outer edge    R6_bkplv            jfs2       /nessdb_bkp
+206-410   used    outer middle  R6_bkplv            jfs2       /nessdb_bkp
+411-614   used    center        R6_bkplv            jfs2       /nessdb_bkp
+615-818   used    inner middle  R6_bkplv            jfs2       /nessdb_bkp
+819-979   used    inner edge    R6_bkplv            jfs2       /nessdb_bkp
+980-1023  free    inner edge                                    
+ 
+
+### Disk: hdiskpower56 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-205   used    outer edge    R6_bkplv            jfs2       /nessdb_bkp
+206-410   used    outer middle  R6_bkplv            jfs2       /nessdb_bkp
+411-614   used    center        R6_bkplv            jfs2       /nessdb_bkp
+615-818   used    inner middle  R6_bkplv            jfs2       /nessdb_bkp
+819-979   used    inner edge    R6_bkplv            jfs2       /nessdb_bkp
+980-1023  free    inner edge                                    
+ 
+
+### Disk: hdiskpower57 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-205   used    outer edge    R6_bkplv            jfs2       /nessdb_bkp
+206-410   used    outer middle  R6_bkplv            jfs2       /nessdb_bkp
+411-614   used    center        R6_bkplv            jfs2       /nessdb_bkp
+615-818   used    inner middle  R6_bkplv            jfs2       /nessdb_bkp
+819-979   used    inner edge    R6_bkplv            jfs2       /nessdb_bkp
+980-1023  free    inner edge                                    
+ 
+
+### Disk: hdiskpower58 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-205   used    outer edge    R6_bkplv            jfs2       /nessdb_bkp
+206-410   used    outer middle  R6_bkplv            jfs2       /nessdb_bkp
+411-614   used    center        R6_bkplv            jfs2       /nessdb_bkp
+615-818   used    inner middle  R6_bkplv            jfs2       /nessdb_bkp
+819-979   used    inner edge    R6_bkplv            jfs2       /nessdb_bkp
+980-1023  free    inner edge                                    
+ 
+
+### Disk: hdiskpower59 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-205   used    outer edge    R6_bkplv            jfs2       /nessdb_bkp
+206-410   used    outer middle  R6_bkplv            jfs2       /nessdb_bkp
+411-614   used    center        R6_bkplv            jfs2       /nessdb_bkp
+615-818   used    inner middle  R6_bkplv            jfs2       /nessdb_bkp
+819-979   used    inner edge    R6_bkplv            jfs2       /nessdb_bkp
+980-1023  free    inner edge                                    
+ 
+
+### Disk: hdiskpower60 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-205   used    outer edge    R6_bkplv            jfs2       /nessdb_bkp
+206-410   used    outer middle  R6_bkplv            jfs2       /nessdb_bkp
+411-614   used    center        R6_bkplv            jfs2       /nessdb_bkp
+615-818   used    inner middle  R6_bkplv            jfs2       /nessdb_bkp
+819-979   used    inner edge    R6_bkplv            jfs2       /nessdb_bkp
+980-1023  free    inner edge                                    
+ 
+
+### Disk: hdiskpower61 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-205   used    outer edge    R6_bkplv            jfs2       /nessdb_bkp
+206-410   used    outer middle  R6_bkplv            jfs2       /nessdb_bkp
+411-614   used    center        R6_bkplv            jfs2       /nessdb_bkp
+615-818   used    inner middle  R6_bkplv            jfs2       /nessdb_bkp
+819-979   used    inner edge    R6_bkplv            jfs2       /nessdb_bkp
+980-1023  free    inner edge                                    
+ 
+
+### Disk: hdiskpower62 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-205   used    outer edge    R6_bkplv            jfs2       /nessdb_bkp
+206-410   used    outer middle  R6_bkplv            jfs2       /nessdb_bkp
+411-614   used    center        R6_bkplv            jfs2       /nessdb_bkp
+615-818   used    inner middle  R6_bkplv            jfs2       /nessdb_bkp
+819-978   used    inner edge    R6_bkplv            jfs2       /nessdb_bkp
+979-1023  free    inner edge                                    
+ 
+
+### Disk: hdiskpower63 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-205   used    outer edge    R6_bkplv            jfs2       /nessdb_bkp
+206-410   used    outer middle  R6_bkplv            jfs2       /nessdb_bkp
+411-614   used    center        R6_bkplv            jfs2       /nessdb_bkp
+615-818   used    inner middle  R6_bkplv            jfs2       /nessdb_bkp
+819-978   used    inner edge    R6_bkplv            jfs2       /nessdb_bkp
+979-1023  free    inner edge                                    
+ 
+
+### Disk: hdiskpower64 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-205   used    outer edge    R6_bkplv            jfs2       /nessdb_bkp
+206-410   used    outer middle  R6_bkplv            jfs2       /nessdb_bkp
+411-614   used    center        R6_bkplv            jfs2       /nessdb_bkp
+615-818   used    inner middle  R6_bkplv            jfs2       /nessdb_bkp
+819-978   used    inner edge    R6_bkplv            jfs2       /nessdb_bkp
+979-1023  free    inner edge                                    
+ 
+
+### Disk: hdiskpower65 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-205   used    outer edge    R6_bkplv            jfs2       /nessdb_bkp
+206-410   used    outer middle  R6_bkplv            jfs2       /nessdb_bkp
+411-614   used    center        R6_bkplv            jfs2       /nessdb_bkp
+615-818   used    inner middle  R6_bkplv            jfs2       /nessdb_bkp
+819-978   used    inner edge    R6_bkplv            jfs2       /nessdb_bkp
+979-1023  free    inner edge                                    
+ 
+
+### Disk: hdiskpower66 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-205   used    outer edge    R6_bkplv            jfs2       /nessdb_bkp
+206-410   used    outer middle  R6_bkplv            jfs2       /nessdb_bkp
+411-614   used    center        R6_bkplv            jfs2       /nessdb_bkp
+615-818   used    inner middle  R6_bkplv            jfs2       /nessdb_bkp
+819-978   used    inner edge    R6_bkplv            jfs2       /nessdb_bkp
+979-1023  free    inner edge                                    
+ 
+
+### Disk: hdiskpower67 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-205   used    outer edge    R6_bkplv            jfs2       /nessdb_bkp
+206-410   used    outer middle  R6_bkplv            jfs2       /nessdb_bkp
+411-614   used    center        R6_bkplv            jfs2       /nessdb_bkp
+615-818   used    inner middle  R6_bkplv            jfs2       /nessdb_bkp
+819-978   used    inner edge    R6_bkplv            jfs2       /nessdb_bkp
+979-1023  free    inner edge                                    
+ 
+
+### Disk: hdiskpower68 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-205   used    outer edge    R6_bkplv            jfs2       /nessdb_bkp
+206-410   used    outer middle  R6_bkplv            jfs2       /nessdb_bkp
+411-614   used    center        R6_bkplv            jfs2       /nessdb_bkp
+615-818   used    inner middle  R6_bkplv            jfs2       /nessdb_bkp
+819-978   used    inner edge    R6_bkplv            jfs2       /nessdb_bkp
+979-1023  free    inner edge                                    
+ 
+
+### Disk: hdiskpower69 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-205   used    outer edge    R6_bkplv            jfs2       /nessdb_bkp
+206-410   used    outer middle  R6_bkplv            jfs2       /nessdb_bkp
+411-614   used    center        R6_bkplv            jfs2       /nessdb_bkp
+615-818   used    inner middle  R6_bkplv            jfs2       /nessdb_bkp
+819-978   used    inner edge    R6_bkplv            jfs2       /nessdb_bkp
+979-1023  free    inner edge                                    
+ 
+
+### Disk: hdiskpower70 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-205   used    outer edge    R6_bkplv            jfs2       /nessdb_bkp
+206-410   used    outer middle  R6_bkplv            jfs2       /nessdb_bkp
+411-614   used    center        R6_bkplv            jfs2       /nessdb_bkp
+615-818   used    inner middle  R6_bkplv            jfs2       /nessdb_bkp
+819-978   used    inner edge    R6_bkplv            jfs2       /nessdb_bkp
+979-1023  free    inner edge                                    
+ 
+
+### Disk: hdiskpower71 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-205   used    outer edge    R6_bkp1lv           jfs2       /nessdb_bkp1
+206-410   used    outer middle  R6_bkp1lv           jfs2       /nessdb_bkp1
+411-614   used    center        R6_bkp1lv           jfs2       /nessdb_bkp1
+615-818   used    inner middle  R6_bkp1lv           jfs2       /nessdb_bkp1
+819-1020  used    inner edge    R6_bkp1lv           jfs2       /nessdb_bkp1
+1021-1023  free    inner edge                                    
+ 
+
+### Disk: hdiskpower72 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-205   used    outer edge    R6_bkp1lv           jfs2       /nessdb_bkp1
+206-410   used    outer middle  R6_bkp1lv           jfs2       /nessdb_bkp1
+411-614   used    center        R6_bkp1lv           jfs2       /nessdb_bkp1
+615-818   used    inner middle  R6_bkp1lv           jfs2       /nessdb_bkp1
+819-1020  used    inner edge    R6_bkp1lv           jfs2       /nessdb_bkp1
+1021-1023  free    inner edge                                    
+ 
+
+### Disk: hdiskpower73 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-205   used    outer edge    R6_bkp1lv           jfs2       /nessdb_bkp1
+206-410   used    outer middle  R6_bkp1lv           jfs2       /nessdb_bkp1
+411-614   used    center        R6_bkp1lv           jfs2       /nessdb_bkp1
+615-818   used    inner middle  R6_bkp1lv           jfs2       /nessdb_bkp1
+819-1020  used    inner edge    R6_bkp1lv           jfs2       /nessdb_bkp1
+1021-1023  free    inner edge                                    
+ 
+
+### Disk: hdiskpower74 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-205   used    outer edge    R6_bkp1lv           jfs2       /nessdb_bkp1
+206-410   used    outer middle  R6_bkp1lv           jfs2       /nessdb_bkp1
+411-614   used    center        R6_bkp1lv           jfs2       /nessdb_bkp1
+615-818   used    inner middle  R6_bkp1lv           jfs2       /nessdb_bkp1
+819-1020  used    inner edge    R6_bkp1lv           jfs2       /nessdb_bkp1
+1021-1023  free    inner edge                                    
+ 
+
+### Disk: hdiskpower75 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-205   used    outer edge    R6_bkp1lv           jfs2       /nessdb_bkp1
+206-410   used    outer middle  R6_bkp1lv           jfs2       /nessdb_bkp1
+411-614   used    center        R6_bkp1lv           jfs2       /nessdb_bkp1
+615-818   used    inner middle  R6_bkp1lv           jfs2       /nessdb_bkp1
+819-1020  used    inner edge    R6_bkp1lv           jfs2       /nessdb_bkp1
+1021-1023  free    inner edge                                    
+ 
+
+### Disk: hdiskpower76 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-205   used    outer edge    R6_bkp1lv           jfs2       /nessdb_bkp1
+206-410   used    outer middle  R6_bkp1lv           jfs2       /nessdb_bkp1
+411-614   used    center        R6_bkp1lv           jfs2       /nessdb_bkp1
+615-818   used    inner middle  R6_bkp1lv           jfs2       /nessdb_bkp1
+819-1020  used    inner edge    R6_bkp1lv           jfs2       /nessdb_bkp1
+1021-1023  free    inner edge                                    
+ 
+
+### Disk: hdiskpower77 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-205   used    outer edge    R6_bkp1lv           jfs2       /nessdb_bkp1
+206-410   used    outer middle  R6_bkp1lv           jfs2       /nessdb_bkp1
+411-614   used    center        R6_bkp1lv           jfs2       /nessdb_bkp1
+615-818   used    inner middle  R6_bkp1lv           jfs2       /nessdb_bkp1
+819-1020  used    inner edge    R6_bkp1lv           jfs2       /nessdb_bkp1
+1021-1023  free    inner edge                                    
+ 
+
+### Disk: hdiskpower78 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-205   used    outer edge    R6_bkp1lv           jfs2       /nessdb_bkp1
+206-410   used    outer middle  R6_bkp1lv           jfs2       /nessdb_bkp1
+411-614   used    center        R6_bkp1lv           jfs2       /nessdb_bkp1
+615-818   used    inner middle  R6_bkp1lv           jfs2       /nessdb_bkp1
+819-1020  used    inner edge    R6_bkp1lv           jfs2       /nessdb_bkp1
+1021-1023  free    inner edge                                    
+ 
+
+### Disk: hdiskpower79 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-205   used    outer edge    R6_bkp1lv           jfs2       /nessdb_bkp1
+206-410   used    outer middle  R6_bkp1lv           jfs2       /nessdb_bkp1
+411-614   used    center        R6_bkp1lv           jfs2       /nessdb_bkp1
+615-818   used    inner middle  R6_bkp1lv           jfs2       /nessdb_bkp1
+819-1020  used    inner edge    R6_bkp1lv           jfs2       /nessdb_bkp1
+1021-1023  free    inner edge                                    
+ 
+
+### Disk: hdiskpower80 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-205   used    outer edge    R6_bkp1lv           jfs2       /nessdb_bkp1
+206-410   used    outer middle  R6_bkp1lv           jfs2       /nessdb_bkp1
+411-614   used    center        R6_bkp1lv           jfs2       /nessdb_bkp1
+615-818   used    inner middle  R6_bkp1lv           jfs2       /nessdb_bkp1
+819-1020  used    inner edge    R6_bkp1lv           jfs2       /nessdb_bkp1
+1021-1023  free    inner edge                                    
+ 
+
+### Disk: hdiskpower81 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-3277  used    outer edge    R1_data1lv          jfs2       /nessdb_data1
+3278-6553  used    outer middle  R1_data1lv          jfs2       /nessdb_data1
+6554-9829  used    center        R1_data1lv          jfs2       /nessdb_data1
+9830-13105 used    inner middle  R1_data1lv          jfs2       /nessdb_data1
+13106-15656 used    inner edge    R1_data1lv          jfs2       /nessdb_data1
+15657-16382 free    inner edge                                    
+ 
+
+### Disk: hdiskpower82 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-3277  used    outer edge    R1_data1lv          jfs2       /nessdb_data1
+3278-6553  used    outer middle  R1_data1lv          jfs2       /nessdb_data1
+6554-9829  used    center        R1_data1lv          jfs2       /nessdb_data1
+9830-13105 used    inner middle  R1_data1lv          jfs2       /nessdb_data1
+13106-15656 used    inner edge    R1_data1lv          jfs2       /nessdb_data1
+15657-16382 free    inner edge                                    
+ 
+
+### Disk: hdiskpower83 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-3277  used    outer edge    R1_data1lv          jfs2       /nessdb_data1
+3278-6553  used    outer middle  R1_data1lv          jfs2       /nessdb_data1
+6554-9829  used    center        R1_data1lv          jfs2       /nessdb_data1
+9830-13105 used    inner middle  R1_data1lv          jfs2       /nessdb_data1
+13106-15656 used    inner edge    R1_data1lv          jfs2       /nessdb_data1
+15657-16382 free    inner edge                                    
+ 
+
+### Disk: hdiskpower84 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-3277  used    outer edge    R1_data1lv          jfs2       /nessdb_data1
+3278-6553  used    outer middle  R1_data1lv          jfs2       /nessdb_data1
+6554-9829  used    center        R1_data1lv          jfs2       /nessdb_data1
+9830-13105 used    inner middle  R1_data1lv          jfs2       /nessdb_data1
+13106-15656 used    inner edge    R1_data1lv          jfs2       /nessdb_data1
+15657-16382 free    inner edge                                    
+ 
+
+### Disk: hdiskpower85 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-3277  used    outer edge    R1_data1lv          jfs2       /nessdb_data1
+3278-6553  used    outer middle  R1_data1lv          jfs2       /nessdb_data1
+6554-9829  used    center        R1_data1lv          jfs2       /nessdb_data1
+9830-13105 used    inner middle  R1_data1lv          jfs2       /nessdb_data1
+13106-15656 used    inner edge    R1_data1lv          jfs2       /nessdb_data1
+15657-16382 free    inner edge                                    
+ 
+
+### Disk: hdiskpower86 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-3277  used    outer edge    R1_data1lv          jfs2       /nessdb_data1
+3278-6553  used    outer middle  R1_data1lv          jfs2       /nessdb_data1
+6554-9829  used    center        R1_data1lv          jfs2       /nessdb_data1
+9830-13105 used    inner middle  R1_data1lv          jfs2       /nessdb_data1
+13106-15656 used    inner edge    R1_data1lv          jfs2       /nessdb_data1
+15657-16382 free    inner edge                                    
+ 
+
+### Disk: hdiskpower87 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-3277  used    outer edge    R1_data1lv          jfs2       /nessdb_data1
+3278-6553  used    outer middle  R1_data1lv          jfs2       /nessdb_data1
+6554-9829  used    center        R1_data1lv          jfs2       /nessdb_data1
+9830-13105 used    inner middle  R1_data1lv          jfs2       /nessdb_data1
+13106-15656 used    inner edge    R1_data1lv          jfs2       /nessdb_data1
+15657-16382 free    inner edge                                    
+ 
+
+### Disk: hdiskpower88 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-3277  used    outer edge    R1_data1lv          jfs2       /nessdb_data1
+3278-6553  used    outer middle  R1_data1lv          jfs2       /nessdb_data1
+6554-9829  used    center        R1_data1lv          jfs2       /nessdb_data1
+9830-13105 used    inner middle  R1_data1lv          jfs2       /nessdb_data1
+13106-15656 used    inner edge    R1_data1lv          jfs2       /nessdb_data1
+15657-16382 free    inner edge                                    
+ 
+
+### Disk: hdiskpower89 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-3277  used    outer edge    R1_data1lv          jfs2       /nessdb_data1
+3278-6553  used    outer middle  R1_data1lv          jfs2       /nessdb_data1
+6554-9829  used    center        R1_data1lv          jfs2       /nessdb_data1
+9830-13105 used    inner middle  R1_data1lv          jfs2       /nessdb_data1
+13106-15656 used    inner edge    R1_data1lv          jfs2       /nessdb_data1
+15657-16382 free    inner edge                                    
+ 
+
+### Disk: hdiskpower90 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-3277  used    outer edge    R1_data1lv          jfs2       /nessdb_data1
+3278-6553  used    outer middle  R1_data1lv          jfs2       /nessdb_data1
+6554-9829  used    center        R1_data1lv          jfs2       /nessdb_data1
+9830-13105 used    inner middle  R1_data1lv          jfs2       /nessdb_data1
+13106-15656 used    inner edge    R1_data1lv          jfs2       /nessdb_data1
+15657-16382 free    inner edge                                    
+ 
+
+### Disk: hdiskpower91 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-3277  used    outer edge    R1_data1lv          jfs2       /nessdb_data1
+3278-6553  used    outer middle  R1_data1lv          jfs2       /nessdb_data1
+6554-9829  used    center        R1_data1lv          jfs2       /nessdb_data1
+9830-13105 used    inner middle  R1_data1lv          jfs2       /nessdb_data1
+13106-15656 used    inner edge    R1_data1lv          jfs2       /nessdb_data1
+15657-16382 free    inner edge                                    
+ 
+
+### Disk: hdiskpower92 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-3277  used    outer edge    R1_data1lv          jfs2       /nessdb_data1
+3278-6553  used    outer middle  R1_data1lv          jfs2       /nessdb_data1
+6554-9829  used    center        R1_data1lv          jfs2       /nessdb_data1
+9830-13105 used    inner middle  R1_data1lv          jfs2       /nessdb_data1
+13106-15656 used    inner edge    R1_data1lv          jfs2       /nessdb_data1
+15657-16382 free    inner edge                                    
+ 
+
+### Disk: hdiskpower93 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-3277  used    outer edge    R1_data1lv          jfs2       /nessdb_data1
+3278-6553  used    outer middle  R1_data1lv          jfs2       /nessdb_data1
+6554-9829  used    center        R1_data1lv          jfs2       /nessdb_data1
+9830-13105 used    inner middle  R1_data1lv          jfs2       /nessdb_data1
+13106-15656 used    inner edge    R1_data1lv          jfs2       /nessdb_data1
+15657-16382 free    inner edge                                    
+ 
+
+### Disk: hdiskpower94 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-3277  used    outer edge    R1_data1lv          jfs2       /nessdb_data1
+3278-6553  used    outer middle  R1_data1lv          jfs2       /nessdb_data1
+6554-9829  used    center        R1_data1lv          jfs2       /nessdb_data1
+9830-13105 used    inner middle  R1_data1lv          jfs2       /nessdb_data1
+13106-15656 used    inner edge    R1_data1lv          jfs2       /nessdb_data1
+15657-16382 free    inner edge                                    
+ 
+
+### Disk: hdiskpower95 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-3277  used    outer edge    R1_data1lv          jfs2       /nessdb_data1
+3278-6553  used    outer middle  R1_data1lv          jfs2       /nessdb_data1
+6554-9829  used    center        R1_data1lv          jfs2       /nessdb_data1
+9830-13105 used    inner middle  R1_data1lv          jfs2       /nessdb_data1
+13106-15656 used    inner edge    R1_data1lv          jfs2       /nessdb_data1
+15657-16382 free    inner edge                                    
+ 
+
+### Disk: hdiskpower96 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-3277  used    outer edge    R1_data1lv          jfs2       /nessdb_data1
+3278-6553  used    outer middle  R1_data1lv          jfs2       /nessdb_data1
+6554-9829  used    center        R1_data1lv          jfs2       /nessdb_data1
+9830-13105 used    inner middle  R1_data1lv          jfs2       /nessdb_data1
+13106-15655 used    inner edge    R1_data1lv          jfs2       /nessdb_data1
+15656-16382 free    inner edge                                    
+ 
+
+### Disk: hdiskpower97 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-3277  used    outer edge    R1_data1lv          jfs2       /nessdb_data1
+3278-6553  used    outer middle  R1_data1lv          jfs2       /nessdb_data1
+6554-9829  used    center        R1_data1lv          jfs2       /nessdb_data1
+9830-13105 used    inner middle  R1_data1lv          jfs2       /nessdb_data1
+13106-15655 used    inner edge    R1_data1lv          jfs2       /nessdb_data1
+15656-16382 free    inner edge                                    
+ 
+
+### Disk: hdiskpower98 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-3277  used    outer edge    R1_data1lv          jfs2       /nessdb_data1
+3278-6553  used    outer middle  R1_data1lv          jfs2       /nessdb_data1
+6554-9829  used    center        R1_data1lv          jfs2       /nessdb_data1
+9830-13105 used    inner middle  R1_data1lv          jfs2       /nessdb_data1
+13106-15655 used    inner edge    R1_data1lv          jfs2       /nessdb_data1
+15656-16382 free    inner edge                                    
+ 
+
+### Disk: hdiskpower99 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-3277  used    outer edge    R1_indx1lv          jfs2       /nessdb_index1
+3278-6553  used    outer middle  R1_indx1lv          jfs2       /nessdb_index1
+6554-9829  used    center        R1_indx1lv          jfs2       /nessdb_index1
+9830-13105 used    inner middle  R1_indx1lv          jfs2       /nessdb_index1
+13106-14746 used    inner edge    R1_indx1lv          jfs2       /nessdb_index1
+14747-16382 free    inner edge                                    
+ 
+
+### Disk: hdiskpower100 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-3277  used    outer edge    R1_indx1lv          jfs2       /nessdb_index1
+3278-6553  used    outer middle  R1_indx1lv          jfs2       /nessdb_index1
+6554-9829  used    center        R1_indx1lv          jfs2       /nessdb_index1
+9830-13105 used    inner middle  R1_indx1lv          jfs2       /nessdb_index1
+13106-14746 used    inner edge    R1_indx1lv          jfs2       /nessdb_index1
+14747-16382 free    inner edge                                    
+ 
+
+### Disk: hdiskpower101 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-3277  used    outer edge    R1_indx1lv          jfs2       /nessdb_index1
+3278-6553  used    outer middle  R1_indx1lv          jfs2       /nessdb_index1
+6554-9829  used    center        R1_indx1lv          jfs2       /nessdb_index1
+9830-13105 used    inner middle  R1_indx1lv          jfs2       /nessdb_index1
+13106-14746 used    inner edge    R1_indx1lv          jfs2       /nessdb_index1
+14747-16382 free    inner edge                                    
+ 
+
+### Disk: hdiskpower102 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-3277  used    outer edge    R1_indx1lv          jfs2       /nessdb_index1
+3278-6553  used    outer middle  R1_indx1lv          jfs2       /nessdb_index1
+6554-9829  used    center        R1_indx1lv          jfs2       /nessdb_index1
+9830-13105 used    inner middle  R1_indx1lv          jfs2       /nessdb_index1
+13106-14746 used    inner edge    R1_indx1lv          jfs2       /nessdb_index1
+14747-16382 free    inner edge                                    
+ 
+
+### Disk: hdiskpower103 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-3277  used    outer edge    R1_indx1lv          jfs2       /nessdb_index1
+3278-6553  used    outer middle  R1_indx1lv          jfs2       /nessdb_index1
+6554-9829  used    center        R1_indx1lv          jfs2       /nessdb_index1
+9830-13105 used    inner middle  R1_indx1lv          jfs2       /nessdb_index1
+13106-14746 used    inner edge    R1_indx1lv          jfs2       /nessdb_index1
+14747-16382 free    inner edge                                    
+ 
+
+### Disk: hdiskpower104 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-3277  used    outer edge    R1_indx1lv          jfs2       /nessdb_index1
+3278-6553  used    outer middle  R1_indx1lv          jfs2       /nessdb_index1
+6554-9829  used    center        R1_indx1lv          jfs2       /nessdb_index1
+9830-13105 used    inner middle  R1_indx1lv          jfs2       /nessdb_index1
+13106-14745 used    inner edge    R1_indx1lv          jfs2       /nessdb_index1
+14746-16382 free    inner edge                                    
+ 
+
+### Disk: hdiskpower105 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-3277  used    outer edge    R1_indx1lv          jfs2       /nessdb_index1
+3278-6553  used    outer middle  R1_indx1lv          jfs2       /nessdb_index1
+6554-9829  used    center        R1_indx1lv          jfs2       /nessdb_index1
+9830-13105 used    inner middle  R1_indx1lv          jfs2       /nessdb_index1
+13106-14745 used    inner edge    R1_indx1lv          jfs2       /nessdb_index1
+14746-16382 free    inner edge                                    
+ 
+
+### Disk: hdiskpower106 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-3277  used    outer edge    R1_indx1lv          jfs2       /nessdb_index1
+3278-6553  used    outer middle  R1_indx1lv          jfs2       /nessdb_index1
+6554-9829  used    center        R1_indx1lv          jfs2       /nessdb_index1
+9830-13105 used    inner middle  R1_indx1lv          jfs2       /nessdb_index1
+13106-14745 used    inner edge    R1_indx1lv          jfs2       /nessdb_index1
+14746-16382 free    inner edge                                    
+ 
+
+### Disk: hdiskpower107 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-103   used    outer edge    R1_arch1lv          jfs2       /nessdb_arclog1
+104-205   used    outer edge    R1_arch2lv          jfs2       /nessdb_arclog2
+206-410   used    outer middle  R1_arch1lv          jfs2       /nessdb_arclog1
+411-614   used    center        R1_arch1lv          jfs2       /nessdb_arclog1
+615-818   used    inner middle  R1_arch2lv          jfs2       /nessdb_arclog2
+819-1023  used    inner edge    R1_arch2lv          jfs2       /nessdb_arclog2 
+ 
+
+### Disk: hdiskpower108 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-103   used    outer edge    R1_arch1lv          jfs2       /nessdb_arclog1
+104-205   used    outer edge    R1_arch2lv          jfs2       /nessdb_arclog2
+206-410   used    outer middle  R1_arch1lv          jfs2       /nessdb_arclog1
+411-614   used    center        R1_arch1lv          jfs2       /nessdb_arclog1
+615-818   used    inner middle  R1_arch2lv          jfs2       /nessdb_arclog2
+819-1023  used    inner edge    R1_arch2lv          jfs2       /nessdb_arclog2 
+ 
+
+### Disk: hdiskpower109 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-103   used    outer edge    R1_arch1lv          jfs2       /nessdb_arclog1
+104-205   used    outer edge    R1_arch2lv          jfs2       /nessdb_arclog2
+206-410   used    outer middle  R1_arch1lv          jfs2       /nessdb_arclog1
+411-614   used    center        R1_arch1lv          jfs2       /nessdb_arclog1
+615-818   used    inner middle  R1_arch2lv          jfs2       /nessdb_arclog2
+819-1023  used    inner edge    R1_arch2lv          jfs2       /nessdb_arclog2 
+ 
+
+### Disk: hdiskpower110 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-102   used    outer edge    R1_arch1lv          jfs2       /nessdb_arclog1
+103-205   used    outer edge    R1_arch2lv          jfs2       /nessdb_arclog2
+206-410   used    outer middle  R1_arch1lv          jfs2       /nessdb_arclog1
+411-614   used    center        R1_arch1lv          jfs2       /nessdb_arclog1
+615-818   used    inner middle  R1_arch2lv          jfs2       /nessdb_arclog2
+819-1023  used    inner edge    R1_arch2lv          jfs2       /nessdb_arclog2 
+ 
+
+### Disk: hdiskpower111 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-102   used    outer edge    R1_arch1lv          jfs2       /nessdb_arclog1
+103-205   used    outer edge    R1_arch2lv          jfs2       /nessdb_arclog2
+206-410   used    outer middle  R1_arch1lv          jfs2       /nessdb_arclog1
+411-614   used    center        R1_arch1lv          jfs2       /nessdb_arclog1
+615-818   used    inner middle  R1_arch2lv          jfs2       /nessdb_arclog2
+819-1023  used    inner edge    R1_arch2lv          jfs2       /nessdb_arclog2 
+ 
+
+### Disk: hdiskpower112 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-102   used    outer edge    R1_arch1lv          jfs2       /nessdb_arclog1
+103-205   used    outer edge    R1_arch2lv          jfs2       /nessdb_arclog2
+206-410   used    outer middle  R1_arch1lv          jfs2       /nessdb_arclog1
+411-614   used    center        R1_arch1lv          jfs2       /nessdb_arclog1
+615-818   used    inner middle  R1_arch2lv          jfs2       /nessdb_arclog2
+819-1023  used    inner edge    R1_arch2lv          jfs2       /nessdb_arclog2 
+ 
+
+### Disk: hdiskpower113 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-102   used    outer edge    R1_arch1lv          jfs2       /nessdb_arclog1
+103-205   used    outer edge    R1_arch2lv          jfs2       /nessdb_arclog2
+206-410   used    outer middle  R1_arch1lv          jfs2       /nessdb_arclog1
+411-614   used    center        R1_arch1lv          jfs2       /nessdb_arclog1
+615-818   used    inner middle  R1_arch2lv          jfs2       /nessdb_arclog2
+819-1022  used    inner edge    R1_arch2lv          jfs2       /nessdb_arclog2
+1023-1023  free    inner edge                                    
+ 
+
+### Disk: hdiskpower114 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-102   used    outer edge    R1_arch1lv          jfs2       /nessdb_arclog1
+103-205   used    outer edge    R1_arch2lv          jfs2       /nessdb_arclog2
+206-410   used    outer middle  R1_arch1lv          jfs2       /nessdb_arclog1
+411-614   used    center        R1_arch1lv          jfs2       /nessdb_arclog1
+615-818   used    inner middle  R1_arch2lv          jfs2       /nessdb_arclog2
+819-1022  used    inner edge    R1_arch2lv          jfs2       /nessdb_arclog2
+1023-1023  free    inner edge                                    
+ 
+
+### Disk: hdiskpower115 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-819   used    outer edge    R1_templv           jfs2       /nessdb_temp
+820-1638  used    outer middle  R1_templv           jfs2       /nessdb_temp
+1639-2456  used    center        R1_templv           jfs2       /nessdb_temp
+2457-3275  used    inner middle  R1_templv           jfs2       /nessdb_temp
+3276-4000  used    inner edge    R1_templv           jfs2       /nessdb_temp
+4001-4094  free    inner edge                                    
+ 
+
+### Disk: hdiskpower116 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-819   used    outer edge    R1_templv           jfs2       /nessdb_temp
+820-1638  used    outer middle  R1_templv           jfs2       /nessdb_temp
+1639-2456  used    center        R1_templv           jfs2       /nessdb_temp
+2457-3275  used    inner middle  R1_templv           jfs2       /nessdb_temp
+3276-4000  used    inner edge    R1_templv           jfs2       /nessdb_temp
+4001-4094  free    inner edge                                    
+ 
+
+### Disk: hdiskpower117 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-819   used    outer edge    R5_undolv           jfs2       /nessdb_undo
+820-1638  used    outer middle  R5_undolv           jfs2       /nessdb_undo
+1639-2456  used    center        R5_undolv           jfs2       /nessdb_undo
+2457-3275  used    inner middle  R5_undolv           jfs2       /nessdb_undo
+3276-4000  used    inner edge    R5_undolv           jfs2       /nessdb_undo
+4001-4094  free    inner edge                                    
+ 
+
+### Disk: hdiskpower118 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-819   used    outer edge    R5_undolv           jfs2       /nessdb_undo
+820-1638  used    outer middle  R5_undolv           jfs2       /nessdb_undo
+1639-2456  used    center        R5_undolv           jfs2       /nessdb_undo
+2457-3275  used    inner middle  R5_undolv           jfs2       /nessdb_undo
+3276-4000  used    inner edge    R5_undolv           jfs2       /nessdb_undo
+4001-4094  free    inner edge                                    
+ 
+
+### Disk: hdiskpower119 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-160   used    outer edge    R1_flashlv          jfs2       /nessdb_flash
+161-319   used    outer middle  R1_flashlv          jfs2       /nessdb_flash
+320-478   used    center        R1_flashlv          jfs2       /nessdb_flash
+479-637   used    inner middle  R1_flashlv          jfs2       /nessdb_flash
+638-797   used    inner edge    R1_flashlv          jfs2       /nessdb_flash 
+ 
+
+### Disk: hdiskpower120 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-160   used    outer edge    R1_flashlv          jfs2       /nessdb_flash
+161-319   used    outer middle  R1_flashlv          jfs2       /nessdb_flash
+320-478   used    center        R1_flashlv          jfs2       /nessdb_flash
+479-637   used    inner middle  R1_flashlv          jfs2       /nessdb_flash
+638-796   used    inner edge    R1_flashlv          jfs2       /nessdb_flash
+797-797   free    inner edge                                    
+ 
+
+### Disk: hdiskpower121 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-2035  used    outer edge    R1_ctrl2lv          jfs2       /nessdb_ctrl2
+2036-4069  used    outer middle  R1_ctrl1lv          jfs2       /nessdb_ctrl1
+4070-5425  used    center        R1_ctrl1lv          jfs2       /nessdb_ctrl1
+5426-6103  used    center        R1_ctrl2lv          jfs2       /nessdb_ctrl2
+6104-6780  used    inner middle  R1_ctrl2lv          jfs2       /nessdb_ctrl2
+6781-8137  used    inner middle  R1_ctrl3lv          jfs2       /nessdb_ctrl3
+8138-10170 used    inner edge    R1_ctrl3lv          jfs2       /nessdb_ctrl3
+10171-10171 free    inner edge                                    
+ 
+
+### Disk: hdiskpower122 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-2035  used    outer edge    R1_ctrl2lv          jfs2       /nessdb_ctrl2
+2036-4069  used    outer middle  R1_ctrl1lv          jfs2       /nessdb_ctrl1
+4070-5425  used    center        R1_ctrl1lv          jfs2       /nessdb_ctrl1
+5426-6103  used    center        R1_ctrl2lv          jfs2       /nessdb_ctrl2
+6104-6780  used    inner middle  R1_ctrl2lv          jfs2       /nessdb_ctrl2
+6781-8137  used    inner middle  R1_ctrl3lv          jfs2       /nessdb_ctrl3
+8138-10170 used    inner edge    R1_ctrl3lv          jfs2       /nessdb_ctrl3
+10171-10171 free    inner edge                                    
+ 
+
+### Disk: hdiskpower123 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-2035  used    outer edge    R1_ctrl2lv          jfs2       /nessdb_ctrl2
+2036-4069  used    outer middle  R1_ctrl1lv          jfs2       /nessdb_ctrl1
+4070-5425  used    center        R1_ctrl1lv          jfs2       /nessdb_ctrl1
+5426-6103  used    center        R1_ctrl2lv          jfs2       /nessdb_ctrl2
+6104-6780  used    inner middle  R1_ctrl2lv          jfs2       /nessdb_ctrl2
+6781-8137  used    inner middle  R1_ctrl3lv          jfs2       /nessdb_ctrl3
+8138-10170 used    inner edge    R1_ctrl3lv          jfs2       /nessdb_ctrl3
+10171-10171 free    inner edge                                    
+ 
+
+### Disk: hdiskpower124 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-383   used    outer edge    R1_redo1lv          jfs2       /nessdb_redo1
+384-765   used    outer edge    R1_redo2lv          jfs2       /nessdb_redo2
+766-1529  used    outer middle  R1_redo1lv          jfs2       /nessdb_redo1
+1530-2293  used    center        R1_redo1lv          jfs2       /nessdb_redo1
+2294-3057  used    inner middle  R1_redo2lv          jfs2       /nessdb_redo2
+3058-3821  used    inner edge    R1_redo2lv          jfs2       /nessdb_redo2
+3822-3822  free    inner edge                                    
+ 
+
+### Disk: hdiskpower125 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-382   used    outer edge    R1_redo1lv          jfs2       /nessdb_redo1
+383-765   used    outer edge    R1_redo2lv          jfs2       /nessdb_redo2
+766-1529  used    outer middle  R1_redo1lv          jfs2       /nessdb_redo1
+1530-2293  used    center        R1_redo1lv          jfs2       /nessdb_redo1
+2294-3057  used    inner middle  R1_redo2lv          jfs2       /nessdb_redo2
+3058-3821  used    inner edge    R1_redo2lv          jfs2       /nessdb_redo2
+3822-3822  free    inner edge                                    
+ 
+
+==== EXITED with rc 0 ====
+==== END for i in $(lspv | grep -iv none | grep -v Defined | awk '{print $1}');do echo "### Disk: $i ### \n $(lspv -p $i | grep -wv $i) \n \n"; done Tue Jul  7 00:56:09 GST 2015 ====

@@ -1,0 +1,20 @@
+==== This output can be found in Systems/dx978/ha/odmget-q_object_COMMUNICATION_PATH_HACMPnode.txt ====
+==== START odmget -q "object=COMMUNICATION_PATH" HACMPnode Mon Jul  6 23:43:22 GST 2015 ====
+
+HACMPnode:
+	name = "DX977"
+	object = "COMMUNICATION_PATH"
+	value = "DX977"
+	node_id = 1
+	node_handle = 1
+	version = 15
+
+HACMPnode:
+	name = "DX978"
+	object = "COMMUNICATION_PATH"
+	value = "DX978"
+	node_id = 2
+	node_handle = 2
+	version = 15
+==== EXITED with rc 0 ====
+==== END odmget -q "object=COMMUNICATION_PATH" HACMPnode Mon Jul  6 23:43:22 GST 2015 ====

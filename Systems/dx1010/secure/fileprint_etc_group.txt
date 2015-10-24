@@ -1,0 +1,29 @@
+==== This output can be found in Systems/dx1010/secure/fileprint_etc_group.txt ====
+==== START fileprint /etc/group Tue Jul  7 13:13:37 CDT 2015 ====
+==== BEGIN Contents of /etc/group ====
+system:!:0:root
+staff:!:1:ipsec,padmin,sshd
+bin:!:2:root,bin
+sys:!:3:root,bin,sys
+adm:!:4:bin,adm
+uucp:!:5:uucp,nuucp
+mail:!:6:
+security:!:7:root
+cron:!:8:root
+printq:!:9:lp
+audit:!:10:root
+ecs:!:28:
+nobody:!:4294967294:nobody,lpd
+usr:!:100:guest
+perf:!:20:
+shutdown:!:21:
+lp:!:11:root,lp
+invscout:!:12:invscout
+snapp:!:13:snapp
+ipsec:!:200:
+view:!:201:
+lparmgr:!:711:
+sshd:!:203:sshd
+==== END Contents of /etc/group ====
+==== EXITED with rc 0 ====
+==== END fileprint /etc/group Tue Jul  7 13:13:37 CDT 2015 ====

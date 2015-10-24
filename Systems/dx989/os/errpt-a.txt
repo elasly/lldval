@@ -1,0 +1,1171 @@
+==== This output can be found in Systems/dx989/os/errpt-a.txt ====
+==== START errpt -a Thu Aug  6 11:22:15 GST 2015 ====
+---------------------------------------------------------------------------
+LABEL:		STORAGERM_STARTED_S
+IDENTIFIER:	EDFF8E9B
+
+Date/Time:       Thu Aug  6 10:59:54 2015
+Sequence Number: 144
+Machine Id:      00F9ADA14C00
+Node Id:         DX989
+Class:           O
+Type:            INFO
+WPAR:            Global
+Resource Name:   StorageRM
+
+Description
+IBM.StorageRM daemon has started. 
+
+Probable Causes
+The RSCT Storage Resource Manager daemon (IBM.StorageRMd) has been started.
+
+User Causes
+The RSCT Storage Resource Manager daemon (IBM.StorageRMd) has been started.
+
+	Recommended Actions
+	None
+
+Detail Data
+DETECTING MODULE
+RSCT,IBM.StorageRMd.C,1.49,147                
+ERROR ID 
+                                          
+REFERENCE CODE
+                                          
+---------------------------------------------------------------------------
+LABEL:		CONFIGRM_ONLINE_ST
+IDENTIFIER:	3B16518D
+
+Date/Time:       Thu Aug  6 10:59:51 2015
+Sequence Number: 143
+Machine Id:      00F9ADA14C00
+Node Id:         DX989
+Class:           S
+Type:            INFO
+WPAR:            Global
+Resource Name:   ConfigRM
+
+Description
+The node is online in the domain indicated in the detail data.
+
+Probable Causes
+A user ran the 'startrpdomain' or 'startrpnode' commands.
+The node rebooted while the node was online.
+The configuration manager recycled the node through an offline/online 
+transition to resynchronize the domain configuration or to recover 
+from some other failure.
+
+User Causes
+A user ran the 'startrpdomain' or 'startrpnode' commands.
+The node rebooted while the node was online.
+The configuration manager recycled the node through an offline/online 
+transition to resynchronize the domain configuration or to recover 
+from some other failure.
+
+	Recommended Actions
+	None
+
+Detail Data
+DETECTING MODULE
+RSCT,PeerDomain.C,1.99.30.7,24925             
+ERROR ID 
+                                          
+REFERENCE CODE
+                                          
+Peer Domain Name
+DX988_cluster
+---------------------------------------------------------------------------
+LABEL:		CONFIGRM_HASQUORUM_
+IDENTIFIER:	4BDDFBCC
+
+Date/Time:       Thu Aug  6 10:59:51 2015
+Sequence Number: 142
+Machine Id:      00F9ADA14C00
+Node Id:         DX989
+Class:           S
+Type:            INFO
+WPAR:            Global
+Resource Name:   ConfigRM
+
+Description
+The operational quorum state of the active peer domain has changed to HAS_QUORUM. 
+In this state, cluster resources may be recovered and controlled as needed by 
+management applications.
+
+Probable Causes
+One or more nodes have come online in the peer domain.
+
+User Causes
+One or more nodes have come online in the peer domain.
+
+	Recommended Actions
+	None
+
+Detail Data
+DETECTING MODULE
+RSCT,PeerDomain.C,1.99.30.7,19684             
+ERROR ID 
+                                          
+REFERENCE CODE
+                                          
+---------------------------------------------------------------------------
+LABEL:		GS_START_ST
+IDENTIFIER:	AFA89905
+
+Date/Time:       Thu Aug  6 10:59:44 2015
+Sequence Number: 141
+Machine Id:      00F9ADA14C00
+Node Id:         DX989
+Class:           O
+Type:            INFO
+WPAR:            Global
+Resource Name:   cthags
+
+Description
+Group Services daemon started
+
+Probable Causes
+Daemon started during system startup
+Daemon re-started automatically by SRC
+Daemon started during installation
+Daemon started manually by user
+
+User Causes
+Daemon started manually by user
+
+	Recommended Actions
+	Check that Group Services daemon is running
+
+Detail Data
+DETECTING MODULE
+RSCT,pgsd.C,1.62.1.29,710                     
+ERROR ID 
+63Y7ej0ULkkJ/qfK0f9yA8....................
+REFERENCE CODE
+                                          
+DIAGNOSTIC EXPLANATION
+HAGS daemon started by SRC. Log file is /var/ct/1VC0TKF0OHvQvmRfcICZW5/log/cthags/trace.
+---------------------------------------------------------------------------
+LABEL:		CONFIGRM_STARTED_ST
+IDENTIFIER:	DE84C4DB
+
+Date/Time:       Thu Aug  6 10:59:14 2015
+Sequence Number: 140
+Machine Id:      00F9ADA14C00
+Node Id:         DX989
+Class:           O
+Type:            INFO
+WPAR:            Global
+Resource Name:   ConfigRM
+
+Description
+IBM.ConfigRM daemon has started. 
+
+Probable Causes
+The RSCT Configuration Manager daemon (IBM.ConfigRMd) has been started.
+
+User Causes
+The RSCT Configuration Manager daemon (IBM.ConfigRMd) has been started.
+
+	Recommended Actions
+	None
+
+Detail Data
+DETECTING MODULE
+RSCT,IBM.ConfigRMd.C,1.61.1.1,421             
+ERROR ID 
+                                          
+REFERENCE CODE
+                                          
+---------------------------------------------------------------------------
+LABEL:		RMCD_INFO_0_ST
+IDENTIFIER:	A6DF45AA
+
+Date/Time:       Thu Aug  6 10:59:13 2015
+Sequence Number: 139
+Machine Id:      00F9ADA14C00
+Node Id:         DX989
+Class:           O
+Type:            INFO
+WPAR:            Global
+Resource Name:   RMCdaemon
+
+Description
+The daemon is started.
+
+Probable Causes
+The Resource Monitoring and Control daemon has been started.
+
+User Causes
+The startsrc -s ctrmc command has been executed or
+the rmcctrl -s command has been executed.
+
+	Recommended Actions
+	Confirm that the daemon should be started.
+
+Detail Data
+DETECTING MODULE
+RSCT,rmcd.c,1.106,243                         
+ERROR ID 
+6eKora0/LkkJ/v8j0f9yA8....................
+REFERENCE CODE
+                                          
+---------------------------------------------------------------------------
+LABEL:		SRC_TRYX
+IDENTIFIER:	1BA7DF4E
+
+Date/Time:       Thu Aug  6 10:59:11 2015
+Sequence Number: 138
+Machine Id:      00F9ADA14C00
+Node Id:         DX989
+Class:           S
+Type:            PERM
+WPAR:            Global
+Resource Name:   SRC
+
+Description
+SOFTWARE PROGRAM ERROR
+
+Probable Causes
+APPLICATION PROGRAM
+
+Failure Causes
+SOFTWARE PROGRAM
+
+	Recommended Actions
+	DETERMINE WHY SUBSYSTEM CANNOT RESTART
+
+Detail Data
+SYMPTOM CODE
+        3072
+SOFTWARE ERROR CODE
+       -9020
+ERROR CODE
+           0
+DETECTING MODULE
+'srchevn.c'@line:'369'
+FAILING MODULE
+nimesis
+---------------------------------------------------------------------------
+LABEL:		SRC_RSTRT
+IDENTIFIER:	CB4A951F
+
+Date/Time:       Thu Aug  6 10:59:11 2015
+Sequence Number: 137
+Machine Id:      00F9ADA14C00
+Node Id:         DX989
+Class:           S
+Type:            INFO
+WPAR:            Global
+Resource Name:   SRC
+
+Description
+SOFTWARE PROGRAM ERROR
+
+Probable Causes
+APPLICATION PROGRAM
+
+Failure Causes
+SOFTWARE PROGRAM
+
+	Recommended Actions
+	VERIFY SUBSYSTEM RESTARTED AUTOMATICALLY
+
+Detail Data
+SYMPTOM CODE
+        3072
+SOFTWARE ERROR CODE
+       -9035
+ERROR CODE
+           0
+DETECTING MODULE
+'srchevn.c'@line:'234'
+FAILING MODULE
+nimesis
+---------------------------------------------------------------------------
+LABEL:		SRC_RSTRT
+IDENTIFIER:	CB4A951F
+
+Date/Time:       Thu Aug  6 10:59:11 2015
+Sequence Number: 136
+Machine Id:      00F9ADA14C00
+Node Id:         DX989
+Class:           S
+Type:            INFO
+WPAR:            Global
+Resource Name:   SRC
+
+Description
+SOFTWARE PROGRAM ERROR
+
+Probable Causes
+APPLICATION PROGRAM
+
+Failure Causes
+SOFTWARE PROGRAM
+
+	Recommended Actions
+	VERIFY SUBSYSTEM RESTARTED AUTOMATICALLY
+
+Detail Data
+SYMPTOM CODE
+        3072
+SOFTWARE ERROR CODE
+       -9035
+ERROR CODE
+           0
+DETECTING MODULE
+'srchevn.c'@line:'234'
+FAILING MODULE
+nimesis
+---------------------------------------------------------------------------
+LABEL:		REBOOT_ID
+IDENTIFIER:	2BFA76F6
+
+Date/Time:       Thu Aug  6 10:53:41 2015
+Sequence Number: 133
+Machine Id:      00F9ADA14C00
+Node Id:         DX989
+Class:           S
+Type:            TEMP
+WPAR:            Global
+Resource Name:   SYSPROC
+
+Description
+SYSTEM SHUTDOWN BY USER
+
+Probable Causes
+SYSTEM SHUTDOWN
+
+Detail Data
+USER ID
+           0
+0=SOFT IPL 1=HALT 2=TIME REBOOT
+           0
+TIME TO REBOOT (FOR TIMED REBOOT ONLY)
+           0
+---------------------------------------------------------------------------
+LABEL:		ERRLOG_ON
+IDENTIFIER:	9DBCFDEE
+
+Date/Time:       Thu Aug  6 10:59:02 2015
+Sequence Number: 132
+Machine Id:      00F9ADA14C00
+Node Id:         DX989
+Class:           O
+Type:            TEMP
+WPAR:            Global
+Resource Name:   errdemon
+
+Description
+ERROR LOGGING TURNED ON
+
+Probable Causes
+ERRDEMON STARTED AUTOMATICALLY
+
+User Causes
+/USR/LIB/ERRDEMON COMMAND
+
+	Recommended Actions
+	NONE
+
+---------------------------------------------------------------------------
+LABEL:		ERRLOG_OFF
+IDENTIFIER:	192AC071
+
+Date/Time:       Thu Aug  6 10:52:07 2015
+Sequence Number: 131
+Machine Id:      00F9ADA14C00
+Node Id:         DX989
+Class:           O
+Type:            TEMP
+WPAR:            Global
+Resource Name:   errdemon
+
+Description
+ERROR LOGGING TURNED OFF
+
+Probable Causes
+ERRSTOP COMMAND
+
+User Causes
+ERRSTOP COMMAND
+
+	Recommended Actions
+	RUN ERRDEAD COMMAND
+	TURN ERROR LOGGING ON
+
+---------------------------------------------------------------------------
+LABEL:		CONFIGRM_STOPPED_ST
+IDENTIFIER:	447D3237
+
+Date/Time:       Thu Aug  6 10:52:06 2015
+Sequence Number: 130
+Machine Id:      00F9ADA14C00
+Node Id:         DX989
+Class:           O
+Type:            INFO
+WPAR:            Global
+Resource Name:   ConfigRM
+
+Description
+IBM.ConfigRM daemon has been stopped.
+
+Probable Causes
+The RSCT Configuration Manager daemon(IBM.ConfigRMd) has been stopped.
+
+User Causes
+The stopsrc -s IBM.ConfigRM command has been executed.
+
+	Recommended Actions
+	Confirm that the daemon should be stopped. Normally, this daemon should 
+	not be stopped explicitly by the user.
+
+Detail Data
+DETECTING MODULE
+RSCT,ConfigRMDaemon.C,1.25.1.1,219            
+ERROR ID 
+                                          
+REFERENCE CODE
+                                          
+---------------------------------------------------------------------------
+LABEL:		GS_START_ST
+IDENTIFIER:	AFA89905
+
+Date/Time:       Thu Aug  6 10:51:34 2015
+Sequence Number: 129
+Machine Id:      00F9ADA14C00
+Node Id:         DX989
+Class:           O
+Type:            INFO
+WPAR:            Global
+Resource Name:   cthags
+
+Description
+Group Services daemon started
+
+Probable Causes
+Daemon started during system startup
+Daemon re-started automatically by SRC
+Daemon started during installation
+Daemon started manually by user
+
+User Causes
+Daemon started manually by user
+
+	Recommended Actions
+	Check that Group Services daemon is running
+
+Detail Data
+DETECTING MODULE
+RSCT,pgsd.C,1.62.1.29,710                     
+ERROR ID 
+63Y7ej0qDkkJ/n2j0f9yA8....................
+REFERENCE CODE
+                                          
+DIAGNOSTIC EXPLANATION
+HAGS daemon started by SRC. Log file is /var/ct/1VC0TKF0OHvQvmRfcICZW5/log/cthags/trace.
+---------------------------------------------------------------------------
+LABEL:		CONFIGRM_STARTED_ST
+IDENTIFIER:	DE84C4DB
+
+Date/Time:       Thu Aug  6 10:51:19 2015
+Sequence Number: 128
+Machine Id:      00F9ADA14C00
+Node Id:         DX989
+Class:           O
+Type:            INFO
+WPAR:            Global
+Resource Name:   ConfigRM
+
+Description
+IBM.ConfigRM daemon has started. 
+
+Probable Causes
+The RSCT Configuration Manager daemon (IBM.ConfigRMd) has been started.
+
+User Causes
+The RSCT Configuration Manager daemon (IBM.ConfigRMd) has been started.
+
+	Recommended Actions
+	None
+
+Detail Data
+DETECTING MODULE
+RSCT,IBM.ConfigRMd.C,1.61.1.1,421             
+ERROR ID 
+                                          
+REFERENCE CODE
+                                          
+---------------------------------------------------------------------------
+LABEL:		CONFIGRM_STOPPED_ST
+IDENTIFIER:	447D3237
+
+Date/Time:       Thu Aug  6 10:51:14 2015
+Sequence Number: 127
+Machine Id:      00F9ADA14C00
+Node Id:         DX989
+Class:           O
+Type:            INFO
+WPAR:            Global
+Resource Name:   ConfigRM
+
+Description
+IBM.ConfigRM daemon has been stopped.
+
+Probable Causes
+The RSCT Configuration Manager daemon(IBM.ConfigRMd) has been stopped.
+
+User Causes
+The stopsrc -s IBM.ConfigRM command has been executed.
+
+	Recommended Actions
+	Confirm that the daemon should be stopped. Normally, this daemon should 
+	not be stopped explicitly by the user.
+
+Detail Data
+DETECTING MODULE
+RSCT,ConfigRMDaemon.C,1.25,219                
+ERROR ID 
+                                          
+REFERENCE CODE
+                                          
+---------------------------------------------------------------------------
+LABEL:		CONFIGRM_OFFLINE_ST
+IDENTIFIER:	2625C573
+
+Date/Time:       Thu Aug  6 10:51:08 2015
+Sequence Number: 126
+Machine Id:      00F9ADA14C00
+Node Id:         DX989
+Class:           S
+Type:            INFO
+WPAR:            Global
+Resource Name:   ConfigRM
+
+Description
+The node is offline.
+
+Probable Causes
+A user ran the 'stoprpdomain' or 'stoprpnode' commands.
+There was a failure while attempting to bring the node online.
+
+User Causes
+A user ran the 'stoprpdomain' or 'stoprpnode' commands.
+There was a failure while attempting to bring the node online.
+
+	Recommended Actions
+	If the node is offline due to a failure, attempt to resolve the failure 
+	and then run the 'startrpnode' or 'startrpnode' commands to bring the node 
+	online.
+
+Detail Data
+DETECTING MODULE
+RSCT,PeerDomain.C,1.99.30.1,25415             
+ERROR ID 
+                                          
+REFERENCE CODE
+                                          
+---------------------------------------------------------------------------
+LABEL:		GS_STOP_ST
+IDENTIFIER:	28854E81
+
+Date/Time:       Thu Aug  6 10:51:08 2015
+Sequence Number: 125
+Machine Id:      00F9ADA14C00
+Node Id:         DX989
+Class:           O
+Type:            INFO
+WPAR:            Global
+Resource Name:   cthags
+
+Description
+Group Services daemon stopped
+
+Probable Causes
+Daemon stopped by SRC
+Daemon stopped by signal
+
+User Causes
+Daemon stopped manually by user
+
+	Recommended Actions
+	Check that Group Services daemon is stopped
+
+Detail Data
+DETECTING MODULE
+RSCT,SRCSocket.C,1.94,423                     
+ERROR ID 
+6/uIVc.QDkkJ/3fp.f9yA8....................
+REFERENCE CODE
+                                          
+DIAGNOSTIC EXPLANATION
+Exiting for STOP NORMAL request from SRC.
+---------------------------------------------------------------------------
+LABEL:		STORAGERM_STOPPED_S
+IDENTIFIER:	A8576C0D
+
+Date/Time:       Thu Aug  6 10:51:01 2015
+Sequence Number: 124
+Machine Id:      00F9ADA14C00
+Node Id:         DX989
+Class:           O
+Type:            INFO
+WPAR:            Global
+Resource Name:   StorageRM
+
+Description
+IBM.StorageRM daemon has been stopped.
+
+Probable Causes
+The RSCT Storage Resource Manager daemon(IBM.StorageRMd) has been stopped.
+
+User Causes
+The stopsrc -s IBM.StorageRM command has been executed.
+
+	Recommended Actions
+	Confirm that the daemon should be stopped. Normally, this daemon should 
+not be stopped explicitly by the user.
+
+Detail Data
+DETECTING MODULE
+RSCT,StorageRMDaemon.C,1.65,362               
+ERROR ID 
+                                          
+REFERENCE CODE
+                                          
+---------------------------------------------------------------------------
+LABEL:		CONFIGRM_HASQUORUM_
+IDENTIFIER:	4BDDFBCC
+
+Date/Time:       Thu Aug  6 10:49:32 2015
+Sequence Number: 123
+Machine Id:      00F9ADA14C00
+Node Id:         DX989
+Class:           S
+Type:            INFO
+WPAR:            Global
+Resource Name:   ConfigRM
+
+Description
+The operational quorum state of the active peer domain has changed to HAS_QUORUM. 
+In this state, cluster resources may be recovered and controlled as needed by 
+management applications.
+
+Probable Causes
+One or more nodes have come online in the peer domain.
+
+User Causes
+One or more nodes have come online in the peer domain.
+
+	Recommended Actions
+	None
+
+Detail Data
+DETECTING MODULE
+RSCT,PeerDomain.C,1.99.30.1,19655             
+ERROR ID 
+                                          
+REFERENCE CODE
+                                          
+---------------------------------------------------------------------------
+LABEL:		CONFIGRM_PENDINGQUO
+IDENTIFIER:	A098BF90
+
+Date/Time:       Thu Aug  6 10:49:32 2015
+Sequence Number: 122
+Machine Id:      00F9ADA14C00
+Node Id:         DX989
+Class:           S
+Type:            PERM
+WPAR:            Global
+Resource Name:   ConfigRM
+
+Description
+The operational quorum state of the active peer domain has changed to PENDING_QUORUM. 
+This state usually indicates that exactly half of the nodes that are defined in the 
+peer domain are online.  In this state cluster resources cannot be recovered although 
+none will be stopped explicitly.
+
+Probable Causes
+One or more nodes in the active peer domain have failed.
+One or more nodes in the active peer domain have been taken offline by the user.
+A network failure has disrupted communication between the cluster nodes.
+
+Failure Causes
+One or more nodes in the active peer domain have failed.
+One or more nodes in the active peer domain have been taken offline by the user.
+A network failure has disrupted communication between the cluster nodes.
+
+	Recommended Actions
+	Ensure that more than half of the nodes of the domain are online.
+	Ensure that the network that is used for communication between the nodes is functioning correctly.
+	Ensure that the active tie breaker device is operational and if it set to 
+	'Operator' then resolve the tie situation by granting ownership to one of 
+	the active sub-domains.
+
+Detail Data
+DETECTING MODULE
+RSCT,PeerDomain.C,1.99.30.1,19659             
+ERROR ID 
+                                          
+REFERENCE CODE
+                                          
+---------------------------------------------------------------------------
+LABEL:		OPMSG
+IDENTIFIER:	AA8AB241
+
+Date/Time:       Thu Aug  6 10:48:44 2015
+Sequence Number: 121
+Machine Id:      00F9ADA14C00
+Node Id:         DX989
+Class:           O
+Type:            TEMP
+WPAR:            Global
+Resource Name:   OPERATOR
+
+Description
+OPERATOR NOTIFICATION
+
+User Causes
+ERRLOGGER COMMAND
+
+	Recommended Actions
+	REVIEW DETAILED DATA
+
+Detail Data
+MESSAGE FROM ERRLOGGER COMMAND
+clexit.rc : Normal termination of clstrmgrES. Restart now.
+---------------------------------------------------------------------------
+LABEL:		SRC_SVKO
+IDENTIFIER:	BC3BE5A3
+
+Date/Time:       Thu Aug  6 10:48:44 2015
+Sequence Number: 120
+Machine Id:      00F9ADA14C00
+Node Id:         DX989
+Class:           S
+Type:            PERM
+WPAR:            Global
+Resource Name:   SRC
+
+Description
+SOFTWARE PROGRAM ERROR
+
+Probable Causes
+APPLICATION PROGRAM
+
+Failure Causes
+SOFTWARE PROGRAM
+
+	Recommended Actions
+	MANUALLY RESTART SUBSYSTEM IF NEEDED
+
+Detail Data
+SYMPTOM CODE
+         256
+SOFTWARE ERROR CODE
+       -9017
+ERROR CODE
+           0
+DETECTING MODULE
+'srchevn.c'@line:'376'
+FAILING MODULE
+clstrmgrES
+---------------------------------------------------------------------------
+LABEL:		STORAGERM_STARTED_S
+IDENTIFIER:	EDFF8E9B
+
+Date/Time:       Thu Aug  6 10:43:20 2015
+Sequence Number: 119
+Machine Id:      00F9ADA14C00
+Node Id:         DX989
+Class:           O
+Type:            INFO
+WPAR:            Global
+Resource Name:   StorageRM
+
+Description
+IBM.StorageRM daemon has started. 
+
+Probable Causes
+The RSCT Storage Resource Manager daemon (IBM.StorageRMd) has been started.
+
+User Causes
+The RSCT Storage Resource Manager daemon (IBM.StorageRMd) has been started.
+
+	Recommended Actions
+	None
+
+Detail Data
+DETECTING MODULE
+RSCT,IBM.StorageRMd.C,1.49,147                
+ERROR ID 
+                                          
+REFERENCE CODE
+                                          
+---------------------------------------------------------------------------
+LABEL:		CONFIGRM_ONLINE_ST
+IDENTIFIER:	3B16518D
+
+Date/Time:       Thu Aug  6 10:43:20 2015
+Sequence Number: 118
+Machine Id:      00F9ADA14C00
+Node Id:         DX989
+Class:           S
+Type:            INFO
+WPAR:            Global
+Resource Name:   ConfigRM
+
+Description
+The node is online in the domain indicated in the detail data.
+
+Probable Causes
+A user ran the 'startrpdomain' or 'startrpnode' commands.
+The node rebooted while the node was online.
+The configuration manager recycled the node through an offline/online 
+transition to resynchronize the domain configuration or to recover 
+from some other failure.
+
+User Causes
+A user ran the 'startrpdomain' or 'startrpnode' commands.
+The node rebooted while the node was online.
+The configuration manager recycled the node through an offline/online 
+transition to resynchronize the domain configuration or to recover 
+from some other failure.
+
+	Recommended Actions
+	None
+
+Detail Data
+DETECTING MODULE
+RSCT,PeerDomain.C,1.99.30.1,24881             
+ERROR ID 
+                                          
+REFERENCE CODE
+                                          
+Peer Domain Name
+DX988_cluster
+---------------------------------------------------------------------------
+LABEL:		CONFIGRM_HASQUORUM_
+IDENTIFIER:	4BDDFBCC
+
+Date/Time:       Thu Aug  6 10:43:20 2015
+Sequence Number: 117
+Machine Id:      00F9ADA14C00
+Node Id:         DX989
+Class:           S
+Type:            INFO
+WPAR:            Global
+Resource Name:   ConfigRM
+
+Description
+The operational quorum state of the active peer domain has changed to HAS_QUORUM. 
+In this state, cluster resources may be recovered and controlled as needed by 
+management applications.
+
+Probable Causes
+One or more nodes have come online in the peer domain.
+
+User Causes
+One or more nodes have come online in the peer domain.
+
+	Recommended Actions
+	None
+
+Detail Data
+DETECTING MODULE
+RSCT,PeerDomain.C,1.99.30.1,19655             
+ERROR ID 
+                                          
+REFERENCE CODE
+                                          
+---------------------------------------------------------------------------
+LABEL:		GS_START_ST
+IDENTIFIER:	AFA89905
+
+Date/Time:       Thu Aug  6 10:43:18 2015
+Sequence Number: 116
+Machine Id:      00F9ADA14C00
+Node Id:         DX989
+Class:           O
+Type:            INFO
+WPAR:            Global
+Resource Name:   cthags
+
+Description
+Group Services daemon started
+
+Probable Causes
+Daemon started during system startup
+Daemon re-started automatically by SRC
+Daemon started during installation
+Daemon started manually by user
+
+User Causes
+Daemon started manually by user
+
+	Recommended Actions
+	Check that Group Services daemon is running
+
+Detail Data
+DETECTING MODULE
+RSCT,pgsd.C,1.62.1.29,710                     
+ERROR ID 
+63Y7ej046kkJ/Y1f.f9yA8....................
+REFERENCE CODE
+                                          
+DIAGNOSTIC EXPLANATION
+HAGS daemon started by SRC. Log file is /var/ct/1VC0TKF0OHvQvmRfcICZW5/log/cthags/trace.
+---------------------------------------------------------------------------
+LABEL:		CONFIGRM_STARTED_ST
+IDENTIFIER:	DE84C4DB
+
+Date/Time:       Thu Aug  6 10:43:17 2015
+Sequence Number: 115
+Machine Id:      00F9ADA14C00
+Node Id:         DX989
+Class:           O
+Type:            INFO
+WPAR:            Global
+Resource Name:   ConfigRM
+
+Description
+IBM.ConfigRM daemon has started. 
+
+Probable Causes
+The RSCT Configuration Manager daemon (IBM.ConfigRMd) has been started.
+
+User Causes
+The RSCT Configuration Manager daemon (IBM.ConfigRMd) has been started.
+
+	Recommended Actions
+	None
+
+Detail Data
+DETECTING MODULE
+RSCT,IBM.ConfigRMd.C,1.61,395                 
+ERROR ID 
+                                          
+REFERENCE CODE
+                                          
+---------------------------------------------------------------------------
+LABEL:		RMCD_INFO_0_ST
+IDENTIFIER:	A6DF45AA
+
+Date/Time:       Thu Aug  6 10:35:57 2015
+Sequence Number: 114
+Machine Id:      00F9ADA14C00
+Node Id:         DX989
+Class:           O
+Type:            INFO
+WPAR:            Global
+Resource Name:   RMCdaemon
+
+Description
+The daemon is started.
+
+Probable Causes
+The Resource Monitoring and Control daemon has been started.
+
+User Causes
+The startsrc -s ctrmc command has been executed or
+the rmcctrl -s command has been executed.
+
+	Recommended Actions
+	Confirm that the daemon should be started.
+
+Detail Data
+DETECTING MODULE
+RSCT,rmcd.c,1.106,243                         
+ERROR ID 
+6eKora0B/kkJ/SKb1f9yA8....................
+REFERENCE CODE
+                                          
+---------------------------------------------------------------------------
+LABEL:		SRC_TRYX
+IDENTIFIER:	1BA7DF4E
+
+Date/Time:       Thu Aug  6 10:35:55 2015
+Sequence Number: 113
+Machine Id:      00F9ADA14C00
+Node Id:         DX989
+Class:           S
+Type:            PERM
+WPAR:            Global
+Resource Name:   SRC
+
+Description
+SOFTWARE PROGRAM ERROR
+
+Probable Causes
+APPLICATION PROGRAM
+
+Failure Causes
+SOFTWARE PROGRAM
+
+	Recommended Actions
+	DETERMINE WHY SUBSYSTEM CANNOT RESTART
+
+Detail Data
+SYMPTOM CODE
+        3072
+SOFTWARE ERROR CODE
+       -9020
+ERROR CODE
+           0
+DETECTING MODULE
+'srchevn.c'@line:'369'
+FAILING MODULE
+nimesis
+---------------------------------------------------------------------------
+LABEL:		SRC_RSTRT
+IDENTIFIER:	CB4A951F
+
+Date/Time:       Thu Aug  6 10:35:55 2015
+Sequence Number: 112
+Machine Id:      00F9ADA14C00
+Node Id:         DX989
+Class:           S
+Type:            INFO
+WPAR:            Global
+Resource Name:   SRC
+
+Description
+SOFTWARE PROGRAM ERROR
+
+Probable Causes
+APPLICATION PROGRAM
+
+Failure Causes
+SOFTWARE PROGRAM
+
+	Recommended Actions
+	VERIFY SUBSYSTEM RESTARTED AUTOMATICALLY
+
+Detail Data
+SYMPTOM CODE
+        3072
+SOFTWARE ERROR CODE
+       -9035
+ERROR CODE
+           0
+DETECTING MODULE
+'srchevn.c'@line:'234'
+FAILING MODULE
+nimesis
+---------------------------------------------------------------------------
+LABEL:		SRC_RSTRT
+IDENTIFIER:	CB4A951F
+
+Date/Time:       Thu Aug  6 10:35:55 2015
+Sequence Number: 111
+Machine Id:      00F9ADA14C00
+Node Id:         DX989
+Class:           S
+Type:            INFO
+WPAR:            Global
+Resource Name:   SRC
+
+Description
+SOFTWARE PROGRAM ERROR
+
+Probable Causes
+APPLICATION PROGRAM
+
+Failure Causes
+SOFTWARE PROGRAM
+
+	Recommended Actions
+	VERIFY SUBSYSTEM RESTARTED AUTOMATICALLY
+
+Detail Data
+SYMPTOM CODE
+        3072
+SOFTWARE ERROR CODE
+       -9035
+ERROR CODE
+           0
+DETECTING MODULE
+'srchevn.c'@line:'234'
+FAILING MODULE
+nimesis
+---------------------------------------------------------------------------
+LABEL:		REBOOT_ID
+IDENTIFIER:	2BFA76F6
+
+Date/Time:       Thu Aug  6 10:30:13 2015
+Sequence Number: 108
+Machine Id:      00F9ADA14C00
+Node Id:         DX989
+Class:           S
+Type:            TEMP
+WPAR:            Global
+Resource Name:   SYSPROC
+
+Description
+SYSTEM SHUTDOWN BY USER
+
+Probable Causes
+SYSTEM SHUTDOWN
+
+Detail Data
+USER ID
+           0
+0=SOFT IPL 1=HALT 2=TIME REBOOT
+           0
+TIME TO REBOOT (FOR TIMED REBOOT ONLY)
+           0
+---------------------------------------------------------------------------
+LABEL:		ERRLOG_ON
+IDENTIFIER:	9DBCFDEE
+
+Date/Time:       Thu Aug  6 10:35:48 2015
+Sequence Number: 107
+Machine Id:      00F9ADA14C00
+Node Id:         DX989
+Class:           O
+Type:            TEMP
+WPAR:            Global
+Resource Name:   errdemon
+
+Description
+ERROR LOGGING TURNED ON
+
+Probable Causes
+ERRDEMON STARTED AUTOMATICALLY
+
+User Causes
+/USR/LIB/ERRDEMON COMMAND
+
+	Recommended Actions
+	NONE
+
+---------------------------------------------------------------------------
+LABEL:		ERRLOG_OFF
+IDENTIFIER:	192AC071
+
+Date/Time:       Thu Aug  6 10:28:40 2015
+Sequence Number: 106
+Machine Id:      00F9ADA14C00
+Node Id:         DX989
+Class:           O
+Type:            TEMP
+WPAR:            Global
+Resource Name:   errdemon
+
+Description
+ERROR LOGGING TURNED OFF
+
+Probable Causes
+ERRSTOP COMMAND
+
+User Causes
+ERRSTOP COMMAND
+
+	Recommended Actions
+	RUN ERRDEAD COMMAND
+	TURN ERROR LOGGING ON
+
+==== EXITED with rc 0 ====
+==== END errpt -a Thu Aug  6 11:22:15 GST 2015 ====

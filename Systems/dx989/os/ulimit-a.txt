@@ -1,0 +1,13 @@
+==== This output can be found in Systems/dx989/os/ulimit-a.txt ====
+==== START ulimit -a Thu Aug  6 11:22:11 GST 2015 ====
+time(seconds)        unlimited
+file(blocks)         unlimited
+data(kbytes)         unlimited
+stack(kbytes)        unlimited
+memory(kbytes)       unlimited
+coredump(blocks)     2097151
+nofiles(descriptors) unlimited
+threads(per process) unlimited
+processes(per user)  unlimited
+==== EXITED with rc 0 ====
+==== END ulimit -a Thu Aug  6 11:22:11 GST 2015 ====

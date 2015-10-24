@@ -1,0 +1,23 @@
+==== This output can be found in Systems/dx978/storage/echo_vfcs_kdb.txt ====
+==== START echo "vfcs" | kdb Mon Jul  6 23:33:36 GST 2015 ====
+           START              END <name>
+0000000000001000 0000000005840000 start+000FD8
+F00000002FF47600 F00000002FFDF9C8 __ublock+000000
+000000002FF22FF4 000000002FF22FF8 environ+000000
+000000002FF22FF8 000000002FF22FFC errno+000000
+F1000F0A00000000 F1000F0A10000000 pvproc+000000
+F1000F0A10000000 F1000F0A18000000 pvthread+000000
+read vscsi_scsi_ptrs OK, ptr = 0xF1000000C020BE20
+(0)> vfcs
+NAME      ADDRESS             STATE   HOST      HOST_ADAP  OPENED NUM_ACTIVE
+fcs10     0xF1000A0026934000  0x0008  VIO3      vfchost1  0x01    0x0000
+fcs11     0xF1000A002693C000  0x0008  VIO3      vfchost0  0x01    0x0000
+fcs12     0xF1000A0026936000  0x0002                      0x00    0x0000
+fcs13     0xF1000A0026938000  0x0002                      0x00    0x0000
+fcs14     0xF1000A002693A000  0x0008  VIO4      vfchost1  0x01    0x0000
+fcs15     0xF1000A002693E000  0x0008  VIO4      vfchost0  0x01    0x0000
+fcs8      0xF1000A0026932000  0x0002                      0x00    0x0000
+fcs9      0xF1000A00001E0000  0x0002                      0x00    0x0000
+
+(0)> ==== EXITED with rc 0 ====
+==== END echo "vfcs" | kdb Mon Jul  6 23:33:36 GST 2015 ====

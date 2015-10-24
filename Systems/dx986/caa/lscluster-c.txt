@@ -1,0 +1,17 @@
+==== This output can be found in Systems/dx986/caa/lscluster-c.txt ====
+==== START lscluster -c Tue Jul  7 00:57:11 GST 2015 ====
+Cluster Name: DX986_cluster
+Cluster UUID: 55e6bd08-e721-11e4-97bb-6e9994d59704
+Number of nodes in cluster = 2
+	Cluster ID for node DX986: 1
+	Primary IP address for node DX986: 10.51.226.231
+	Cluster ID for node DX987: 2
+	Primary IP address for node DX987: 10.51.226.232
+Number of disks in cluster = 1
+	Disk = hdiskpower1 UUID = 7b06894b-8819-905e-b851-c6b3ccaf9f65 cluster_major = 0 cluster_minor = 1
+Multicast for site LOCAL: IPv4 228.51.226.231 IPv6 ff05::e433:e2e7
+Communication Mode: unicast
+Local node maximum capabilities: HNAME_CHG, UNICAST, IPV6, SITE
+Effective cluster-wide capabilities: HNAME_CHG, UNICAST, IPV6, SITE
+==== EXITED with rc 0 ====
+==== END lscluster -c Tue Jul  7 00:57:11 GST 2015 ====

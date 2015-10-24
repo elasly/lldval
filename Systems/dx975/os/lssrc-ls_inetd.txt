@@ -1,0 +1,15 @@
+==== This output can be found in Systems/dx975/os/lssrc-ls_inetd.txt ====
+==== START lssrc -ls inetd Tue Jul  7 12:46:32 CDT 2015 ====
+Subsystem         Group            PID          Status 
+ inetd            tcpip            9961656      active
+Debug         Not active 
+Signal        Purpose 
+ SIGALRM      Establishes socket connections for failed services. 
+ SIGHUP       Rereads the configuration database and reconfigures services. 
+ SIGCHLD      Restarts the service in case the service ends abnormally. 
+Service       Command                  Description              Status 
+ caa_cfg      /usr/sbin/clusterconf    clusterconf              active
+ telnet       /usr/sbin/telnetd        telnetd -a               active
+ ftp          /usr/sbin/ftpd           ftpd                     active
+==== EXITED with rc 0 ====
+==== END lssrc -ls inetd Tue Jul  7 12:46:32 CDT 2015 ====

@@ -1,0 +1,26 @@
+==== This output can be found in Systems/dx976/perf/vmstat-v.txt ====
+==== START vmstat -v  Tue Jul  7 13:05:06 CDT 2015 ====
+              2097152 memory pages
+              2018784 lruable pages
+                93002 free pages
+                    3 memory pools
+               924880 pinned pages
+                 80.0 maxpin percentage
+                  3.0 minperm percentage
+                 90.0 maxperm percentage
+                 38.6 numperm percentage
+               780236 file pages
+                  0.0 compressed percentage
+                    0 compressed pages
+                 38.6 numclient percentage
+                 90.0 maxclient percentage
+               780236 client pages
+                    0 remote pageouts scheduled
+                    4 pending disk I/Os blocked with no pbuf
+                    0 paging space I/Os blocked with no psbuf
+                 2253 filesystem I/Os blocked with no fsbuf
+                  413 client filesystem I/Os blocked with no fsbuf
+                   18 external pager filesystem I/Os blocked with no fsbuf
+                 58.4 percentage of memory used for computational pages
+==== EXITED with rc 0 ====
+==== END vmstat -v  Tue Jul  7 13:05:06 CDT 2015 ====

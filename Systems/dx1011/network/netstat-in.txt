@@ -1,0 +1,10 @@
+==== This output can be found in Systems/dx1011/network/netstat-in.txt ====
+==== START netstat -in Tue Jul  7 13:38:41 CDT 2015 ====
+Name  Mtu   Network     Address           Ipkts Ierrs    Opkts Oerrs  Coll
+en14  1500  link#2      6e.99.9a.31.6.a  294400663     0 70954810     0     0
+en14  1500  10.51.229   10.51.229.241    294400663     0 70954810     0     0
+lo0   16896 link#1                       19723932     0 19724050     0     0
+lo0   16896 127         127.0.0.1        19723932     0 19724050     0     0
+lo0   16896 ::1%1                        19723932     0 19724050     0     0
+==== EXITED with rc 0 ====
+==== END netstat -in Tue Jul  7 13:38:41 CDT 2015 ====

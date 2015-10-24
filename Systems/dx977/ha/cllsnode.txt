@@ -1,0 +1,22 @@
+==== This output can be found in Systems/dx977/ha/cllsnode.txt ====
+==== START cllsnode Tue Jul  7 00:27:33 GST 2015 ====
+
+Node DX977
+	Interfaces to network net_ether_01
+		Communication Interface: Name DX977_sc0, Attribute public, IP address 10.51.229.220
+	Interfaces to network net_ether_02
+		Communication Interface: Name DX977, Attribute public, IP address 10.51.226.224
+		Communication Interface: Name DX977-VIP, Attribute public, IP address 10.51.226.228
+	Interfaces to network net_ether_03
+		Communication Interface: Name DX977_b, Attribute public, IP address 10.51.227.229
+
+Node DX978
+	Interfaces to network net_ether_01
+		Communication Interface: Name DX978_sc0, Attribute public, IP address 10.51.229.221
+	Interfaces to network net_ether_02
+		Communication Interface: Name DX978, Attribute public, IP address 10.51.226.225
+		Communication Interface: Name DX977-VIP, Attribute public, IP address 10.51.226.228
+	Interfaces to network net_ether_03
+		Communication Interface: Name DX978_b, Attribute public, IP address 10.51.227.230
+==== EXITED with rc 0 ====
+==== END cllsnode Tue Jul  7 00:27:33 GST 2015 ====

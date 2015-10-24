@@ -1,0 +1,15 @@
+==== This output can be found in Systems/dx976/perf/lspv_egrep_active_concurrent_awk_print_3_sort-u_aw.txt ====
+==== START lspv | egrep "active|concurrent" | awk '{print $3}' | sort -u |  awk '{print "\n#### VolumeGroup: " $1" ####";system("lvmo -av " $1)}' Tue Jul  7 13:05:06 CDT 2015 ====
+
+#### VolumeGroup: rootvg ####
+vgname = rootvg
+pv_pbuf_count = 512
+total_vg_pbufs = 1024
+max_vg_pbufs = 16384
+pervg_blocked_io_count = 4
+pv_min_pbuf = 512
+max_vg_pbuf_count = 0
+global_blocked_io_count = 4
+aio_cache_pbuf_count = 0
+==== EXITED with rc 0 ====
+==== END lspv | egrep "active|concurrent" | awk '{print $3}' | sort -u |  awk '{print "\n#### VolumeGroup: " $1" ####";system("lvmo -av " $1)}' Tue Jul  7 13:05:06 CDT 2015 ====

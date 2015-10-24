@@ -1,0 +1,120 @@
+==== This output can be found in Systems/dx989/os/iostat-aDRTl.txt ====
+==== START iostat -aDRTl Thu Aug  6 11:22:32 GST 2015 ====
+
+System configuration: lcpu=24 drives=2 paths=16 vdisks=10 tapes=0
+Adapter:                      xfers              time
+-------------------- --------------------------- ---------
+                        bps    tps  bread  bwrtn
+fcs2                  56.2    0.0   43.3   12.9   11:22:32
+
+Disks:                           xfers                                read                                write                                  queue                    time
+-------------------- -------------------------------- ------------------------------------ ------------------------------------ -------------------------------------- ---------
+                       %tm    bps   tps  bread  bwrtn   rps    avg    min    max time fail   wps    avg    min    max time fail    avg    min    max   avg   avg  serv
+                       act                                    serv   serv   serv outs              serv   serv   serv outs        time   time   time  wqsz  sqsz qfull
+hdisk1                 0.0   1.1    0.0   1.1    0.1    0.0   0.5    0.1   50.0     0    0   0.0   0.3    0.2   49.8     0    0   0.0    0.0    0.2    0.0   0.0   0.0  11:22:32
+hdisk0                 0.0  55.1    0.0  42.3   12.8    0.0   0.3    0.1   50.2     0    0   0.0   0.2    0.2   50.3     0    0   0.5    0.0   39.6    0.0   0.0   0.0  11:22:32
+Adapter:                      xfers              time
+-------------------- --------------------------- ---------
+                        bps    tps  bread  bwrtn
+fcs3                   0.0    0.0    0.0    0.0   11:22:32
+
+Disks:                           xfers                                read                                write                                  queue                    time
+-------------------- -------------------------------- ------------------------------------ ------------------------------------ -------------------------------------- ---------
+                       %tm    bps   tps  bread  bwrtn   rps    avg    min    max time fail   wps    avg    min    max time fail    avg    min    max   avg   avg  serv
+                       act                                    serv   serv   serv outs              serv   serv   serv outs        time   time   time  wqsz  sqsz qfull
+hdisk1                 0.0   0.0    0.0   0.0    0.0    0.0   0.5    0.1   50.0     0    0   0.0   0.3    0.2   49.8     0    0   0.0    0.0    0.2    0.0   0.0   0.0  11:22:32
+hdisk0                 0.0   0.0    0.0   0.0    0.0    0.0   0.3    0.1   50.2     0    0   0.0   0.2    0.2   50.3     0    0   0.5    0.0   39.6    0.0   0.0   0.0  11:22:32
+Adapter:                      xfers              time
+-------------------- --------------------------- ---------
+                        bps    tps  bread  bwrtn
+fcs6                   0.0    0.0    0.0    0.0   11:22:32
+
+Disks:                           xfers                                read                                write                                  queue                    time
+-------------------- -------------------------------- ------------------------------------ ------------------------------------ -------------------------------------- ---------
+                       %tm    bps   tps  bread  bwrtn   rps    avg    min    max time fail   wps    avg    min    max time fail    avg    min    max   avg   avg  serv
+                       act                                    serv   serv   serv outs              serv   serv   serv outs        time   time   time  wqsz  sqsz qfull
+hdisk1                 0.0   0.0    0.0   0.0    0.0    0.0   0.5    0.1   50.0     0    0   0.0   0.3    0.2   49.8     0    0   0.0    0.0    0.2    0.0   0.0   0.0  11:22:32
+hdisk0                 0.0   0.0    0.0   0.0    0.0    0.0   0.3    0.1   50.2     0    0   0.0   0.2    0.2   50.3     0    0   0.5    0.0   39.6    0.0   0.0   0.0  11:22:32
+Adapter:                      xfers              time
+-------------------- --------------------------- ---------
+                        bps    tps  bread  bwrtn
+fcs7                   0.0    0.0    0.0    0.0   11:22:32
+
+Disks:                           xfers                                read                                write                                  queue                    time
+-------------------- -------------------------------- ------------------------------------ ------------------------------------ -------------------------------------- ---------
+                       %tm    bps   tps  bread  bwrtn   rps    avg    min    max time fail   wps    avg    min    max time fail    avg    min    max   avg   avg  serv
+                       act                                    serv   serv   serv outs              serv   serv   serv outs        time   time   time  wqsz  sqsz qfull
+hdisk1                 0.0   0.0    0.0   0.0    0.0    0.0   0.5    0.1   50.0     0    0   0.0   0.3    0.2   49.8     0    0   0.0    0.0    0.2    0.0   0.0   0.0  11:22:32
+hdisk0                 0.0   0.0    0.0   0.0    0.0    0.0   0.3    0.1   50.2     0    0   0.0   0.2    0.2   50.3     0    0   0.5    0.0   39.6    0.0   0.0   0.0  11:22:32
+
+Vadapter:                        xfers                                 read                        write                              queue                    time
+-------------------- --------------------------------------- -------------------------- -------------------------- -------------------------------------- ---------
+                       Kbps   tps bkread bkwrtn partition-id   rps    avg    min    max   wps    avg    min    max    avg    min    max   avg   avg  serv
+                                                                     serv   serv   serv         serv   serv   serv   time   time   time  wqsz  sqsz qfull
+vscsi0                  0.0   0.0    0.0    0.0            1   0.0   0.0    0.0    0.0    0.0   0.0    0.0    0.0    0.0    0.0    0.0    0.0   0.0   0.0  11:22:32
+
+
+Vadapter:                        xfers                                 read                        write                              queue                    time
+-------------------- --------------------------------------- -------------------------- -------------------------- -------------------------------------- ---------
+                       Kbps   tps bkread bkwrtn partition-id   rps    avg    min    max   wps    avg    min    max    avg    min    max   avg   avg  serv
+                                                                     serv   serv   serv         serv   serv   serv   time   time   time  wqsz  sqsz qfull
+vscsi1                  0.0   0.0    0.0    0.0            1   0.0   0.0    0.0    0.0    0.0   0.0    0.0    0.0    0.0    0.0    0.0    0.0   0.0   0.0  11:22:32
+
+
+Vadapter:                        xfers                                 read                        write                              queue                    time
+-------------------- --------------------------------------- -------------------------- -------------------------- -------------------------------------- ---------
+                       Kbps   tps bkread bkwrtn partition-id   rps    avg    min    max   wps    avg    min    max    avg    min    max   avg   avg  serv
+                                                                     serv   serv   serv         serv   serv   serv   time   time   time  wqsz  sqsz qfull
+vscsi2                  0.0   0.0    0.0    0.0            1   0.0   0.0    0.0    0.0    0.0   0.0    0.0    0.0    0.0    0.0    0.0    0.0   0.0   0.0  11:22:32
+
+
+Vadapter:                        xfers                                 read                        write                              queue                    time
+-------------------- --------------------------------------- -------------------------- -------------------------- -------------------------------------- ---------
+                       Kbps   tps bkread bkwrtn partition-id   rps    avg    min    max   wps    avg    min    max    avg    min    max   avg   avg  serv
+                                                                     serv   serv   serv         serv   serv   serv   time   time   time  wqsz  sqsz qfull
+vscsi3                  0.0   0.0    0.0    0.0            1   0.0   0.0    0.0    0.0    0.0   0.0    0.0    0.0    0.0    0.0    0.0    0.0   0.0   0.0  11:22:32
+
+
+Vadapter:                        xfers                                 read                        write                              queue                    time
+-------------------- --------------------------------------- -------------------------- -------------------------- -------------------------------------- ---------
+                       Kbps   tps bkread bkwrtn partition-id   rps    avg    min    max   wps    avg    min    max    avg    min    max   avg   avg  serv
+                                                                     serv   serv   serv         serv   serv   serv   time   time   time  wqsz  sqsz qfull
+vscsi4                  0.0   0.0    0.0    0.0            1   0.0   0.0    0.0    0.0    0.0   0.0    0.0    0.0    0.0    0.0    0.0    0.0   0.0   0.0  11:22:32
+
+
+Vadapter:                        xfers                                 read                        write                              queue                    time
+-------------------- --------------------------------------- -------------------------- -------------------------- -------------------------------------- ---------
+                       Kbps   tps bkread bkwrtn partition-id   rps    avg    min    max   wps    avg    min    max    avg    min    max   avg   avg  serv
+                                                                     serv   serv   serv         serv   serv   serv   time   time   time  wqsz  sqsz qfull
+vscsi5                  0.0   0.0    0.0    0.0            2   0.0   0.0    0.0    0.0    0.0   0.0    0.0    0.0    0.0    0.0    0.0    0.0   0.0   0.0  11:22:32
+
+
+Vadapter:                        xfers                                 read                        write                              queue                    time
+-------------------- --------------------------------------- -------------------------- -------------------------- -------------------------------------- ---------
+                       Kbps   tps bkread bkwrtn partition-id   rps    avg    min    max   wps    avg    min    max    avg    min    max   avg   avg  serv
+                                                                     serv   serv   serv         serv   serv   serv   time   time   time  wqsz  sqsz qfull
+vscsi6                  0.0   0.0    0.0    0.0            2   0.0   0.0    0.0    0.0    0.0   0.0    0.0    0.0    0.0    0.0    0.0    0.0   0.0   0.0  11:22:32
+
+
+Vadapter:                        xfers                                 read                        write                              queue                    time
+-------------------- --------------------------------------- -------------------------- -------------------------- -------------------------------------- ---------
+                       Kbps   tps bkread bkwrtn partition-id   rps    avg    min    max   wps    avg    min    max    avg    min    max   avg   avg  serv
+                                                                     serv   serv   serv         serv   serv   serv   time   time   time  wqsz  sqsz qfull
+vscsi7                  0.0   0.0    0.0    0.0            2   0.0   0.0    0.0    0.0    0.0   0.0    0.0    0.0    0.0    0.0    0.0    0.0   0.0   0.0  11:22:32
+
+
+Vadapter:                        xfers                                 read                        write                              queue                    time
+-------------------- --------------------------------------- -------------------------- -------------------------- -------------------------------------- ---------
+                       Kbps   tps bkread bkwrtn partition-id   rps    avg    min    max   wps    avg    min    max    avg    min    max   avg   avg  serv
+                                                                     serv   serv   serv         serv   serv   serv   time   time   time  wqsz  sqsz qfull
+vscsi8                  0.0   0.0    0.0    0.0            2   0.0   0.0    0.0    0.0    0.0   0.0    0.0    0.0    0.0    0.0    0.0    0.0   0.0   0.0  11:22:32
+
+
+Vadapter:                        xfers                                 read                        write                              queue                    time
+-------------------- --------------------------------------- -------------------------- -------------------------- -------------------------------------- ---------
+                       Kbps   tps bkread bkwrtn partition-id   rps    avg    min    max   wps    avg    min    max    avg    min    max   avg   avg  serv
+                                                                     serv   serv   serv         serv   serv   serv   time   time   time  wqsz  sqsz qfull
+vscsi9                  0.0   0.0    0.0    0.0            2   0.0   0.0    0.0    0.0    0.0   0.0    0.0    0.0    0.0    0.0    0.0    0.0   0.0   0.0  11:22:32
+
+==== EXITED with rc 0 ====
+==== END iostat -aDRTl Thu Aug  6 11:22:32 GST 2015 ====

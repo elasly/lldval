@@ -1,0 +1,65 @@
+==== This output can be found in Systems/dx986/ha/cllscf.txt ====
+==== START cllscf Tue Jul  7 00:56:43 GST 2015 ====
+Cluster Name:	 DX986_cluster
+Cluster Type:	 Standard
+Heartbeat Type:	 Unicast
+Repository Disk: hdiskpower1 (00f92eecd24d900e)
+
+There were 1 networks defined: net_ether_01
+There are 2 nodes in this cluster
+
+NODE DX986:
+	This node has 1 service IP label(s):
+
+	Service IP Label DX986-VIP:
+		IP address:	10.51.226.233
+		Hardware Address: 	
+		Network:	net_ether_01
+		Attribute:	public
+		Aliased Address?:	Enable
+
+	Service IP Label DX986-VIP has 1 communication interfaces.
+		(Alternate Service) Communication Interface 1: DX986
+			IP Address:	10.51.226.231
+			Network:	net_ether_01
+			Attribute:	public
+
+			Alias address for heartbeat:	
+	Service IP Label DX986-VIP has no communication interfaces for recovery.
+
+
+NODE DX987:
+	This node has 1 service IP label(s):
+
+	Service IP Label DX986-VIP:
+		IP address:	10.51.226.233
+		Hardware Address: 	
+		Network:	net_ether_01
+		Attribute:	public
+		Aliased Address?:	Enable
+
+	Service IP Label DX986-VIP has 1 communication interfaces.
+		(Alternate Service) Communication Interface 1: DX987
+			IP Address:	10.51.226.232
+			Network:	net_ether_01
+			Attribute:	public
+
+			Alias address for heartbeat:	
+	Service IP Label DX986-VIP has no communication interfaces for recovery.
+
+
+
+
+Breakdown of network connections:
+
+Connections to network net_ether_01
+	Node DX986 is connected to network net_ether_01 by these interfaces:
+		DX986
+		DX986-VIP
+
+	Node DX987 is connected to network net_ether_01 by these interfaces:
+		DX987
+		DX986-VIP
+
+==== EXITED with rc 0 ====
+==== END cllscf Tue Jul  7 00:56:43 GST 2015 ====

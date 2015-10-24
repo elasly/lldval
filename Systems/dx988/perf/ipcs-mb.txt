@@ -1,0 +1,14 @@
+==== This output can be found in Systems/dx988/perf/ipcs-mb.txt ====
+==== START ipcs -mb Thu Aug  6 11:16:56 GST 2015 ====
+IPC status from /dev/mem as of Thu Aug  6 11:16:56 GST 2015
+T        ID     KEY        MODE       OWNER    GROUP     SEGSZ
+Shared Memory:
+m   1048576 0x78000460 --rw-rw-rw-     root   system 222696000
+m   2097153 0x6100005a --rw------- pconsole   system  10485760
+m   1048578 0xffffffff D-rw------- pconsole   system 536870912
+m         3 0x78000100 --rw-rw-rw-     root   system  33554432
+m         4 0x78100100 --rw-rw-rw-     root   system  33554432
+m         5 0x780003ff --rw-rw-rw-     root   system      2656
+m         6 0x01007281 --rw-------     root   system     12288
+==== EXITED with rc 0 ====
+==== END ipcs -mb Thu Aug  6 11:16:56 GST 2015 ====

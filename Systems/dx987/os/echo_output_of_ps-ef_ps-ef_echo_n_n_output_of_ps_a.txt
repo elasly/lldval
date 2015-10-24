@@ -1,0 +1,301 @@
+==== This output can be found in Systems/dx987/os/echo_output_of_ps-ef_ps-ef_echo_n_n_output_of_ps_a.txt ====
+==== START echo '#### output of: ps -ef ####';ps -ef;echo '\n\n#### output of: ps aux ####';ps auxw Mon Jul  6 23:48:28 GST 2015 ====
+#### output of: ps -ef ####
+     UID      PID     PPID   C    STIME    TTY  TIME CMD
+    root        1        0   0   May 07      -  0:10 /etc/init
+    root  1835100        1   0   May 07      -  0:42 ./slp_srvreg -D
+    root  2752536  1245506   0   May 07      -  0:00 /usr/sbin/inetd
+    root  2949180  1245506   0   May 07      -  0:00 /usr/sbin/hrd
+    root  3014704  1245506   0   May 07      -  0:02 /usr/sbin/snmpd
+    root  3080200  1245506   0   May 07      -  0:00 /usr/sbin/sshd
+    root  3342366  1245506   0   May 07      -  0:00 /usr/sbin/qdaemon
+    root  3604530  1245506   0   May 07      -  0:00 /bin/ksh /pconsole/lwi/bin/lwistart_src.sh
+    root  3670138        1   0   May 07      -  0:02 [cimserve]
+    root  3735700  4260430   0   May 07      -  0:06 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f92eec00004c000000014d24573925 -v 0
+    root  3801140        1   0   May 07      -  0:00 /usr/dt/bin/dtlogin -daemon
+pconsole  3866688  2556486   0   May 07      -  5:00 /usr/java6/bin/java -Xmx512m -Xms20m -Xscmx10m -Xshareclasses -Xbootclasspath/p:/usr/java5/jre/lib/ibmjsseprovider2.jar -Dfile.encoding=UTF-8 -Xbootclasspath/a:/pconsole/lwi/runtime/core/eclipse/plugins/com.ibm.rcp.base_6.2.1.20091117-1800/rcpbootcp.jar:/pconsole/lwi/lib/ISCJaasModule.jar:/pconsole/lwi/lib/com.ibm.logging.icl_1.1.1.jar:/pconsole/lwi/lib/jaas2zos.jar:/pconsole/lwi/lib/jaasmodule.jar:/pconsole/lwi/lib/lwinative.jar:/pconsole/lwi/lib/lwinl.jar:/pconsole/lwi/lib/lwirolemap.jar:/pconsole/lwi/lib/lwisecurity.jar:/pconsole/lwi/lib/lwitools.jar:/pconsole/lwi/lib/passutils.jar -Xverify:none -cp eclipse/launch.jar:eclipse/startup.jar:/pconsole/lwi/runtime/core/eclipse/plugins/com.ibm.rcp.base_6.2.1.20091117-1800/launcher.jar com.ibm.lwi.LaunchLWI
+    root  4128894  2949438   0   May 07      - 22:57 /var/opt/tivoli/ep/_jvm/jre/bin/java -Xmx384m -Xminf0.01 -Xmaxf0.4 -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Xbootclasspath/a:/var/opt/tivoli/ep/runtime/core/eclipse/plugins/com.ibm.rcp.base_6.2.3.20110824-0615/rcpbootcp.jar:/var/opt/tivoli/ep/lib/com.ibm.logging.icl_1.1.1.jar:/var/opt/tivoli/ep/lib/jaas2zos.jar:/var/opt/tivoli/ep/lib/jaasmodule.jar:/var/opt/tivoli/ep/lib/lwidiag.jar:/var/opt/tivoli/ep/lib/lwinative.jar:/var/opt/tivoli/ep/lib/lwinl.jar:/var/opt/tivoli/ep/lib/lwirolemap.jar:/var/opt/tivoli/ep/lib/lwisecurity.jar:/var/opt/tivoli/ep/lib/lwitools.jar:/var/opt/tivoli/ep/lib/passutils.jar:../../runtime/agent/lib/cas-bootcp.jar -Xverify:none -cp eclipse/launch.jar:eclipse/startup.jar:/var/opt/tivoli/ep/runtime/core/eclipse/plugins/com.ibm.rcp.base_6.2.3.20110824-0615/launcher.jar com.ibm.lwi.LaunchLWI
+    root  4259904  1245506   0   May 07      - 20:25 /usr/sbin/rsct/bin/IBM.HostRMd
+    root  4390944  4260430   0   May 07      -  0:06 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f92eec00004c000000014d24572836 -v 0
+    root  4980796  4260430   0   May 07      -  0:06 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f92eec00004c000000014d245730ee -v 0
+    root  5832916  4260430   0   May 07      -  0:06 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f92eec00004c000000014cd88d4c97 -v 0
+    root  5898446  4260430   0   May 07      -  0:06 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f92eec00004c000000014cd898d2e7 -v 0
+    root  6750244  5308942   0 23:48:28  pts/1  0:00 /bin/sh /tmp/pcat/pcat/./pcat-os.sh aa
+    root  7405746        1   0   May 26      -  1:14 /bin/nsrexecd
+    root  7930084        1   0   Jul 01      -  7:18 perfd
+    root  8060998  5243406   0 23:48:27  pts/1  0:00 /usr/sbin/fcstat -e fcs0
+    root  8519712 12386468   0 23:48:27  pts/1  0:00 netstat -v
+    root  9437190        1   0   Jul 01      -  0:26 lsdaemon 10000
+    root  9765016        1   0   Jul 01      -  0:00 /usr/lpp/perf/bin/ttd
+    root 11862096  9371932   0   Jul 01      -  0:04 /usr/lpp/OV/lbin/perf/coda
+    root 11927774  9371932   0   Jul 01      -  0:23 /usr/lpp/OV/lbin/eaagt/opcacta
+    root 12189772        1   0   Jul 01      -  3:26 /usr/lpp/perf/bin/scopeux
+    root 12321022  4719112   0 23:48:28  pts/1  0:00 ps -ef
+    root 12386468  6291836   0 23:48:27  pts/1  0:00 tail -512000
+    root 12451974  5112538   0 23:47:53  pts/1  0:00 /bin/sh /tmp/pcat/pcat/./pcat-os.sh aa
+    root 12517546 12714142   0   Jun 30  pts/0  0:00 -ksh
+    root 12714142  3080200   0   Jun 30      -  0:00 sshd: root@pts/0
+    root 12845070        1   0 20:00:01      -  0:01 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX987 -ystart_time=20:00:01,Jul06,2015
+    root 13041868  8716792   0 23:39:56  pts/1  0:00 -ksh
+    root  1180072        1   0   May 07      -  0:10 /opt/ibm/icc/cimom/bin/dirsnmpd
+    root  1245506        1   0   May 07      -  0:00 /usr/sbin/srcmstr
+    root  1573162        1   0   May 07      - 61:35 /usr/sbin/syncd 60
+    root  1901028  1245506   0   May 07      -  0:06 /usr/sbin/syslogd -R
+    root  1966558  1245506   0   May 07      -  0:10 /usr/sbin/aixmibd
+    root  2031926  1245506   0   May 07      -  0:00 /usr/sbin/rsct/bin/IBM.ServiceRMd
+    root  2097478        1   0   May 07      -  0:00 /usr/sbin/uprintfd
+    root  2163192  1245506   0   May 07      -  0:00 /usr/sbin/writesrv
+    root  2228590        1   0   May 07      -  0:04 /usr/bin/cimlistener
+    root  2294020  1245506   0   May 07      -  0:56 /usr/sbin/aso
+    root  2425208  4260430   0   May 07      -  0:06 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f92eec00004c000000014d245740d1 -v 0
+    root  2490632  1245506   0   May 07      -  0:00 /usr/sbin/biod 6
+    root  2556168        1   0   May 07      -  0:02 /opt/ibm/director/cimom/bin/tier1slp
+    root  2621706  1245506   0   May 07      -  0:00 /opt/freeware/cimom/pegasus/bin/cimssys cimsys
+    root  2687258        1   0   May 07      -  0:00 /opt/freeware/cimom/pegasus/bin/CIM_diagd
+    root  2949438  2949688   0   May 07      -  0:16 bin/nonstop_aix @/var/opt/tivoli/ep/runtime/nonstop/config/nonstop.properties
+    root  3014952  1245506   0   May 07      -  6:28 /usr/sbin/clcomd -d
+    root  3211542  1245506   0   May 07      -  7:33 /usr/es/sbin/cluster/clstrmgr
+    root  3277156  1245506   0   May 07      -  0:00 /usr/sbin/rsct/bin/IBM.DRMd
+    root  3342736        1   0   May 07      -  0:25 /opt/freeware/cimom/pegasus/bin/cimprovagt 0 12 16 root SLPProviderModule
+    root  3867080  1245506   0   May 07      -  0:26 /usr/sbin/clconfd
+    root  4325674 12451974   0 23:47:56  pts/1  0:00 tee Systems/dx987/pcat-os_sh-out.txt
+    root  4456800  4260430   0   May 07      -  0:07 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f92eec00004c000000014d233468e4 -v 0
+    root  4784432  3211542   0   May 07      -  0:00 run_rcovcmd
+    root  5112318  9371932   0   Jul 01      -  0:00 /usr/lpp/OV/bin/ovbbccb -nodaemon
+    root  5243344  4260430   0   May 07      -  0:06 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f92eec00004c000000014d23347c99 -v 0
+    root  5439788  4260430   0   May 07      -  0:06 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f92eec00004c000000014cf69e988b -v 0
+    root  5570834  4260430   0   May 07      -  0:07 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f92eec00004c000000014d23345024 -v 0
+    root  5833126  4260430   0   May 07      -  0:06 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f92eec00004c000000014d2457486f -v 0
+    root  5964128  9371932   0   Jul 01      -  0:00 /usr/lpp/OV/lbin/conf/ovconfd
+    root  6226322        1   0   Jul 01      -  0:10 /usr/lpp/perf/bin/perfalarm
+    root  6291836  5308942   0 23:48:27  pts/1  0:00 /bin/sh /tmp/pcat/pcat/./pcat-os.sh aa
+    root  6881722  9371932   0   Jul 01      -  0:26 /usr/lpp/OV/lbin/eaagt/opcmsga
+    root  8126730        1   0   Jul 01      -  0:00 /usr/lpp/perf/bin/midaemon
+    root  8716792  3080200   0 23:39:28      -  0:00 sshd: root@pts/1
+    root  9371932        1   0   Jul 01      -  0:40 /usr/lpp/OV/bin/ovcd
+    root  9830806  4260430   0   Jun 15      -  0:03 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f92eec00004c000000014df5e31d1d -v 0
+    root   787156        1   0   May 07      -  0:00 /usr/ccs/bin/shlap64
+    root  2032344  1245506   0   May 07      -  0:01 /usr/sbin/hostmibd
+    root  2097882  1245506   0   May 07      -  0:43 sendmail: accepting connections
+    root  2163422  1245506   0   May 07      -  0:00 /usr/sbin/portmap
+    root  2228958  1245506   0   May 07      -  0:00 /usr/sbin/snmpmibd
+  daemon  2294284  1245506   0   May 07      -  0:00 /usr/sbin/rpc.statd -d 0 -t 50
+    root  2359856  1245506   0   May 07      -  0:00 /usr/sbin/rpc.lockd -d 0
+    root  2425360        1   0   May 07      -  0:25 /usr/sbin/cron
+    root  2491130  1245506   0   May 07      -  0:00 /opt/freeware/cimom/pegasus/bin/cimssys platform_agent
+pconsole  2556486  3604530   0   May 07      -  0:00 /bin/ksh /pconsole/lwi/bin/lwistart_src.sh
+    root  2622006  2752536   0   May 07      -  7:04 xmtopas -p3
+    root  2687530  1245506   0   May 07      -  3:07 /usr/sbin/rsct/bin/rmcd -a IBM.LPCommands -r -S 1500
+    root  2949688  1245506   0   May 07      -  0:00 /bin/ksh /var/opt/tivoli/ep/runtime/nonstop/bin/cas_src.sh
+    root  3211872  1245506   0   May 07      -  0:04 /usr/sbin/rsct/bin/IBM.ConfigRMd
+    root  3473940  1245506   2   May 07      - 11:06 /usr/sbin/rsct/bin/hagsd cthags
+    root  4260430  1245506   0   May 07      -  0:05 /usr/sbin/gsclvmd
+    root  4719112  6750244   0 23:48:28  pts/1  0:00 /bin/sh /tmp/pcat/pcat/./pcat-os.sh aa
+    root  4981422 13041868   0 23:40:05  pts/1  0:00 bash
+    root  5046974  1245506   0   Jun 15      -  0:01 /usr/es/sbin/cluster/clevmgrd
+    root  5112538  4981422   0 23:47:53  pts/1  0:00 /bin/sh ./pcat.sh --notsm --nohmc
+    root  5178068        1   1   May 18      -  9:01 /usr/sbin/getty /dev/console
+    root  5243406  8519712   0 23:48:27  pts/1  0:00 grep -vp FC SCSI
+    root  5308942 12451974  24 23:47:56  pts/1  0:00 /bin/sh /tmp/pcat/pcat/./pcat-os.sh aa
+    root  5505726  9437190   0                  0:00 <defunct>
+
+
+#### output of: ps aux ####
+USER          PID %CPU %MEM   SZ  RSS    TTY STAT    STIME  TIME COMMAND
+root       589850  0.0  0.0  640  640      - A      May 07 442:03 reaffin
+root      1179692  0.0  0.0  448  448      - A      May 07 291:13 wait
+root      1048616  0.0  0.0  448  448      - A      May 07 290:40 wait
+root      1114154  0.0  0.0  448  448      - A      May 07 290:08 wait
+root      2424862  0.0  0.0  448  448      - A      May 07 153:37 MpxPeriodicCallbackDaemon
+root      7930084  0.0  0.0 6564 6664      - A      Jul 01  7:18 perfd 
+root       131076  0.0  0.0  448  448      - A      May 07 71:51 wait
+root      1573162  0.0  0.0  620  628      - A      May 07 61:35 /usr/sbin/syncd 60 
+root      1572952  0.0  0.0  448  448      - A      May 07 39:55 wait
+root      1704028  0.0  0.0  448  448      - A      May 07 39:19 wait
+root      1638490  0.0  0.0  448  448      - A      May 07 37:45 wait
+root     12189772  0.0  0.0 6756 6920      - A      Jul 01  3:26 /usr/lpp/perf/bin/scopeux 
+root      2818598  0.0  0.0  384  384      - A      May 07 36:06 lock_rcv
+root       197176  0.0  0.0  448  448      - A      May 07 29:53 wait
+root       328252  0.0  0.0  448  448      - A      May 07 29:50 wait
+root       262714  0.0  0.0  448  448      - A      May 07 29:15 wait
+root      4128894  0.0  0.0 83992 84204      - A      May 07 22:57 /var/opt/tivoli/ep/_jvm/jre/bin/java -Xmx384m -Xminf0.01 -Xmaxf0.4
+root       196912  0.0  0.0  448  448      - A      May 07 21:19 wait
+root       327988  0.0  0.0  448  448      - A      May 07 21:15 wait
+root       262450  0.0  0.0  448  448      - A      May 07 21:13 wait
+root      4259904  0.0  1.0 254200 254588      - A      May 07 20:25 /usr/sbin/rsct/bin/IBM.HostRMd 
+root            0  0.0  0.0  384  384      - A      May 07 16:41 swapper
+root       983078  0.0  0.0  448  448      - A      May 07 14:55 xmgc
+root      3473940  0.0  0.0 20168 35548      - A      May 07 11:06 /usr/sbin/rsct/bin/hagsd cthags 
+root      5178068  0.0  0.0  796  824      - A      May 18  9:01 /usr/sbin/getty /dev/console 
+root          524  0.0  0.0  448  448      - A      May 07 10:49 swapper
+root          264  0.0  0.0  448  448      - A      May 07 10:14 swapper
+root       131638  0.0  0.0  448  448      - A      May 07 10:10 wait
+root       721512  0.0  0.0  960  960      - A      May 07  8:45 gil
+root      1769488  0.0  0.0  448  448      - A      May 07  8:25 resv_minder
+root      1507414  0.0  0.0  448  448      - A      May 07  8:21 wait
+root      3211542  0.0  0.0 7996 13188      - A      May 07  7:33 /usr/es/sbin/cluster/clstrmgr 
+root      9371932  0.0  0.0 7312 8360      - A      Jul 01  0:40 /usr/lpp/OV/bin/ovcd 
+root      2622006  0.0  0.0 3052 3108      - A      May 07  7:04 xmtopas -p3 
+root      3014952  0.0  0.0 2920 3760      - A      May 07  6:28 /usr/sbin/clcomd -d 
+root     12845070  0.0  0.0 6528 6740      - A    20:00:01  0:01 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root      3473492  0.0  0.0 1024 1024      - A      May 07  6:08 multisite_connection_monitor
+pconsole  3866688  0.0  0.0 60876 60928      - A      May 07  5:00 /usr/java6/bin/java -Xmx512m -Xms20m -Xscmx10m -Xshareclasses -Xbo
+root      2818106  0.0  0.0  448  448      - A      May 07  4:56 DPKP
+root       131374  0.0  0.0  448  448      - A      May 07  4:45 wait
+root      6881722  0.0  0.0 6000 6164      - A      Jul 01  0:26 /usr/lpp/OV/lbin/eaagt/opcmsga 
+root      9437190  0.0  0.0 1044 1088      - A      Jul 01  0:26 lsdaemon 10000 
+root     11927774  0.0  0.0 4916 5044      - A      Jul 01  0:23 /usr/lpp/OV/lbin/eaagt/opcacta 
+root      2687530  0.0  0.0 14140 16656      - A      May 07  3:07 /usr/sbin/rsct/bin/rmcd -a IBM.LPCommands -r -S 1500 
+root       459080  0.0  0.0  448  448      - A      May 07  2:47 wait
+root       590156  0.0  0.0  448  448      - A      May 07  2:45 wait
+root       524618  0.0  0.0  448  448      - A      May 07  2:45 wait
+root      1310784  0.0  0.0  448  448      - A      May 07  2:26 wait
+root      1441860  0.0  0.0  448  448      - A      May 07  2:25 wait
+root      1376322  0.0  0.0  448  448      - A      May 07  2:23 wait
+root       459344  0.0  0.0  448  448      - A      May 07  2:15 wait
+root       721248  0.0  0.0  448  448      - A      May 07  2:14 wait
+root       786786  0.0  0.0  448  448      - A      May 07  2:12 wait
+root       590420  0.0  0.0  448  448      - A      May 07  2:12 wait
+root       524882  0.0  0.0  448  448      - A      May 07  2:11 wait
+root       852324  0.0  0.0  448  448      - A      May 07  2:11 wait
+root      2883860  0.0  0.0  384  384      - A      May 07  2:07 sec_rcv
+root       655710  0.0  0.0  448  448      - A      May 07  1:51 wait
+root      2359618  0.0  0.0 1216 1216      - A      May 07  1:50 rpc.lockd
+root      7405746  0.0  0.0 23952 25224      - A      May 26  1:14 /bin/nsrexecd 
+root      6226322  0.0  0.0 13972 14352      - A      Jul 01  0:10 /usr/lpp/perf/bin/perfalarm 
+root       393542  0.0  0.0  448  448      - A      May 07  1:46 wait
+root       393806  0.0  0.0  448  448      - A      May 07  1:26 wait
+root      1245246  0.0  0.0  448  448      - A      May 07  1:15 wait
+root      2294020  0.0  0.0 1968 16336      - A      May 07  0:56 /usr/sbin/aso 
+root     11862096  0.0  0.0 7808 7852      - A      Jul 01  0:04 /usr/lpp/OV/lbin/perf/coda 
+root      2097882  0.0  0.0 2448 2728      - A      May 07  0:43 sendmail: accepting connections 
+root      1835100  0.0  0.0  480  496      - A      May 07  0:42 ./slp_srvreg -D 
+root       655974  0.0  0.0  448  448      - A      May 07  0:27 netm
+root      3867080  0.0  0.0  764  776      - A      May 07  0:26 /usr/sbin/clconfd 
+root      3342736  0.0  0.0 13004 13036      - A      May 07  0:25 /opt/freeware/cimom/pegasus/bin/cimprovagt 0 12 16 root SLPProvide
+root      2425360  0.0  0.0 4688 4712      - A      May 07  0:25 /usr/sbin/cron 
+root      2818322  0.0  0.0  448  448      - A      May 07  0:21 clusterwide_rcv
+root      2949438  0.0  0.0  516  588      - A      May 07  0:16 bin/nonstop_aix @/var/opt/tivoli/ep/runtime/nonstop/config/nonstop
+root       786464  0.0  0.0 1856 1856      - A      May 07  0:14 vtiol
+root      1704196  0.0  0.0  448  448      - A      May 07  0:13 MpxGrDaemon
+root      1180072  0.0  0.0 9320 9412      - A      May 07  0:10 /opt/ibm/icc/cimom/bin/dirsnmpd 
+root      1966558  0.0  0.0 1808 2068      - A      May 07  0:10 /usr/sbin/aixmibd 
+root            1  0.0  0.0  820  836      - A      May 07  0:10 /etc/init 
+root       917540  0.0  0.0  640  640      - A      May 07  0:10 pilegc
+root      9830806  0.0  0.0 3916 3988      - A      Jun 15  0:03 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f92eec00004c000000014df
+root      4456800  0.0  0.0 1308 1380      - A      May 07  0:07 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f92eec00004c000000014d2
+root      5570834  0.0  0.0 1308 1380      - A      May 07  0:07 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f92eec00004c000000014d2
+root      2687132  0.0  0.0  448  448      - A      May 07  0:07 clean_if
+root      5833126  0.0  0.0 1312 1384      - A      May 07  0:06 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f92eec00004c000000014d2
+root      3735700  0.0  0.0 1316 1388      - A      May 07  0:06 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f92eec00004c000000014d2
+root      4980796  0.0  0.0 1308 1380      - A      May 07  0:06 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f92eec00004c000000014d2
+root      5898446  0.0  0.0 1312 1384      - A      May 07  0:06 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f92eec00004c000000014cd
+root      2425208  0.0  0.0 1312 1384      - A      May 07  0:06 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f92eec00004c000000014d2
+root      4390944  0.0  0.0 1312 1384      - A      May 07  0:06 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f92eec00004c000000014d2
+root      5439788  0.0  0.0 1308 1380      - A      May 07  0:06 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f92eec00004c000000014cf
+root      5832916  0.0  0.0 1368 1440      - A      May 07  0:06 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f92eec00004c000000014cd
+root      5243344  0.0  0.0 1312 1384      - A      May 07  0:06 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f92eec00004c000000014d2
+root      1901028  0.0  0.0  912  932      - A      May 07  0:06 /usr/sbin/syslogd -R 
+root      1048998  0.0  0.0 1280 1280      - A      May 07  0:06 nfssync_kproc
+root      4260430  0.0  0.0  860  932      - A      May 07  0:05 /usr/sbin/gsclvmd 
+root      1639146  0.0  0.0 12928 12928      - A      May 07  0:05 j2pg
+root      2228590  0.0  0.0 9608 9636      - A      May 07  0:04 /usr/bin/cimlistener 
+root      3211872  0.0  0.0 25616 36868      - A      May 07  0:04 /usr/sbin/rsct/bin/IBM.ConfigRMd 
+root      1311012  0.0  0.0  448  448      - A      May 07  0:04 rgsr
+root        65802  0.0  0.0  448  448      - A      May 07  0:04 sched
+root        66062  0.0  0.0  448  448      - A      May 07  0:04 sched
+root       196614  0.0  0.0  448  448      - A      May 07  0:04 sched
+root      1114414  0.0  0.0  448  448      - A      May 07  0:03 n4bg
+root      2031778  0.0  0.0  448  448      - A      May 07  0:03 pp2d
+root      5046974  0.0  0.0 4848 5224      - A      Jun 15  0:01 /usr/es/sbin/cluster/clevmgrd 
+root      3670138  0.0  0.0 30544 30572      - A      May 07  0:02 [cimserve]
+root      3014704  0.0  0.0 1344 1524      - A      May 07  0:02 /usr/sbin/snmpd 
+root      2556168  0.0  0.0 7088 7148      - A      May 07  0:02 /opt/ibm/director/cimom/bin/tier1slp 
+root      1900588  0.0  0.0  448  448      - A      May 07  0:02 rdpgc
+root      2032344  0.0  0.0 1516 1556      - A      May 07  0:01 /usr/sbin/hostmibd 
+root      1573598  0.0  0.0  448  448      - A      May 07  0:00 pp2def
+root      1442312  0.0  0.0  448  448      - A      May 07  0:00 MpxResumeIoDaemon
+root      1508068  0.0  0.0  448  448      - A      May 07  0:00 aioPpool
+root      1901264  0.0  0.0  448  448      - A      May 07  0:00 pp_filler
+root       852002  0.0  0.0  448  448      - A      May 07  0:00 devstatd
+root      1704480  0.0  0.0  448  448      - A      May 07  0:00 pp2xmfree
+root      2097384  0.0  0.0  448  448      - A      May 07  0:00 MpxDispatchDaemon
+root       787156  0.0  0.0  428  448      - A      May 07  0:00 /usr/ccs/bin/shlap64 
+root      1049120  0.0  0.0  448  448      - A      May 07  0:00 MpxProactiveDaemon
+root       918212  0.0  0.0  704  704      - A      May 07  0:00 ldmp_process
+root       852686  0.0  0.0  448  448      - A      May 07  0:00 MpxTestDaemon    000292603381
+root      1966104  0.0  0.0  512  512      - A      May 07  0:00 nfsSM
+root      1311420  0.0  0.0  448  448      - A      May 07  0:00 MpxTestDaemon    000292602893
+root      1376856  0.0  0.0  448  448      - A      May 07  0:00 random
+root      1114742  0.0  0.0  704  704      - A      May 07  0:00 rtcmd
+root      1245914  0.0  0.0  448  448      - A      May 07  0:00 memp_rbd
+root      2163422  0.0  0.0 1072 1092      - A      May 07  0:00 /usr/sbin/portmap 
+root       262160  0.0  0.0 1024 1024      - A      May 07  0:00 lrud
+root      4719112  0.0  0.0  172  180  pts/1 A    23:48:28  0:00 tail -512000 
+root       327698  0.0  0.0  448  448      - A      May 07  0:00 vmptacrt
+root      2949688  0.0  0.0  824  872      - A      May 07  0:00 /bin/ksh /var/opt/tivoli/ep/runtime/nonstop/bin/cas_src.sh 
+root       393236  0.0  0.0 1024 1024      - A      May 07  0:00 psmd
+root      4981422  0.0  0.0 2332 3152  pts/1 A    23:40:05  0:00 bash 
+root      5374538  0.0  0.0  448  448      - A      Jun 15  0:00 pp2log
+root      5505726                            Z              0:00 <defunct>
+root      5308942  0.0  0.0  956  348  pts/1 A    23:47:56  0:00 /bin/sh /tmp/pcat/pcat/./pcat-os.sh aa 
+root      5112538  0.0  0.0  956 1004  pts/1 A    23:47:53  0:00 /bin/sh ./pcat.sh --notsm --nohmc 
+root      5243406  0.0  0.0  236  248  pts/1 A    23:48:27  0:00 grep -vp FC SCSI 
+root       721082  0.0  0.0  448  448      - A      May 07  0:00 MpxAsyncIoDaemon
+root      2491130  0.0  0.0  440  448      - A      May 07  0:00 /opt/freeware/cimom/pegasus/bin/cimssys platform_agent 
+root      2359856  0.0  0.0  384  388      - A      May 07  0:00 /usr/sbin/rpc.lockd -d 0 
+root      2228958  0.0  0.0 1740 2332      - A      May 07  0:00 /usr/sbin/snmpmibd 
+daemon    2294284  0.0  0.0 3040 3124      - A      May 07  0:00 /usr/sbin/rpc.statd -d 0 -t 50 
+pconsole  2556486  0.0  0.0  796  844      - A      May 07  0:00 /bin/ksh /pconsole/lwi/bin/lwistart_src.sh 
+root       458774  0.0  0.0  832  832      - A      May 07  0:00 vmmd
+root      2884148  0.0  0.0  448  448      - A      May 07  0:00 ahaqueue
+root      2753062  0.0  0.0  448  448      - A      May 07  0:00 aha_rcv
+root       655388  0.0  0.0  448  448      - A      May 07  0:00 memgrdd
+root       524312  0.0  0.0  448  448      - A      May 07  0:00 pvlist
+root      2162926  0.0  0.0  448  448      - A      May 07  0:00 MpxTestDaemon
+root     12517546  0.0  0.0  792  840  pts/0 A      Jun 30  0:00 -ksh 
+root     12451974  0.0  0.0  832  412  pts/1 A    23:47:53  0:00 /bin/sh /tmp/pcat/pcat/./pcat-os.sh aa 
+root     12714142  0.0  0.0 1916 3692      - A      Jun 30  0:00 sshd: root@pts/0 
+root      2621706  0.0  0.0  440  448      - A      May 07  0:00 /opt/freeware/cimom/pegasus/bin/cimssys cimsys 
+root      2687258  0.0  0.0  360  376      - A      May 07  0:00 /opt/freeware/cimom/pegasus/bin/CIM_diagd 
+root     12386468  0.0  0.0  172  180  pts/1 A    23:48:27  0:00 tail -512000 
+root      8060998  0.0  0.0  360  432  pts/1 A    23:48:27  0:00 /usr/sbin/fcstat -e fcs0 
+root      4129092  0.0  0.0  448  448      - A      May 07  0:00 pkm_kern_proc
+root      8519712  0.0  0.0  936 1132  pts/1 A    23:48:27  0:00 netstat -v 
+root      9765016  0.0  0.0 1200 1276      - A      Jul 01  0:00 /usr/lpp/perf/bin/ttd 
+root      3277156  0.0  0.0 1848 1896      - A      May 07  0:00 /usr/sbin/rsct/bin/IBM.DRMd 
+root      1245506  0.0  0.0 1036 1056      - A      May 07  0:00 /usr/sbin/srcmstr 
+root      2031926  0.0  0.0 2332 2408      - A      May 07  0:00 /usr/sbin/rsct/bin/IBM.ServiceRMd 
+root      1769858  0.0  0.0  512  512      - A      May 07  0:00 kbiod
+root      1442068  0.0  0.0  448  448      - A      May 07  0:00 pp_skimmer
+root      1376744  0.0  0.0  448  448      - A      May 07  0:00 lvmbb
+root      2097478  0.0  0.0   88   92      - A      May 07  0:00 /usr/sbin/uprintfd 
+root     13041868  0.0  0.0  792  840  pts/1 A    23:39:56  0:00 -ksh 
+root      2490632  0.0  0.0  172  180      - A      May 07  0:00 /usr/sbin/biod 6 
+root       917866  0.0  0.0  512  512      - A      May 07  0:00 wlmsched
+root      2163192  0.0  0.0  308  316      - A      May 07  0:00 /usr/sbin/writesrv 
+root       983404  0.0  0.0  448  448      - A      May 07  0:00 armtrace_kproc
+root      3080200  0.0  0.0 1368 3144      - A      May 07  0:00 /usr/sbin/sshd 
+root      2949180  0.0  0.0 1156 1316      - A      May 07  0:00 /usr/sbin/hrd 
+root      9109964  0.0  0.0 1284 1316  pts/1 A    23:48:28  0:00 ps auxw 
+root      8126730  0.0  0.0  928 1004      - A      Jul 01  0:00 /usr/lpp/perf/bin/midaemon 
+root      8716792  0.0  0.0 1904 3680      - A    23:39:28  0:00 sshd: root@pts/1 
+root      2883638  0.0  0.0  448  448      - A      May 07  0:00 link_rcv
+root      2490414  0.0  0.0 4544 4544      - A      May 07  0:00 dog
+root      2228374  0.0  0.0  448  448      - A      May 07  0:00 aioLpool
+root      2555904  0.0  0.0  448  448      - A      May 07  0:00 baseOpen
+root      2752536  0.0  0.0  764  816      - A      May 07  0:00 /usr/sbin/inetd 
+root      2621682  0.0  0.0 1216 1216      - A      May 07  0:00 kpkcs11
+root      5112318  0.0  0.0 5192 6280      - A      Jul 01  0:00 /usr/lpp/OV/bin/ovbbccb -nodaemon 
+root      3932212  0.0  0.0  448  448      - A      May 07  0:00 ahafs_kproc
+root      4784432  0.0  0.0  804 1208      - A      May 07  0:00 run_rcovcmd 
+root      4325674  0.0  0.0  116  124  pts/1 A    23:47:56  0:00 tee Systems/dx987/pcat-os_sh-out.txt 
+root      6750244  0.0  0.0 1040  432  pts/1 A    23:48:28  0:00 /bin/sh /tmp/pcat/pcat/./pcat-os.sh aa 
+root      3801140  0.0  0.0  900  960      - A      May 07  0:00 /usr/dt/bin/dtlogin -daemon 
+root      6291836  0.0  0.0  956  436  pts/1 A    23:48:27  0:00 /bin/sh /tmp/pcat/pcat/./pcat-os.sh aa 
+root      3342366  0.0  0.0  316  340      - A      May 07  0:00 /usr/sbin/qdaemon 
+root      3538978  0.0  0.0  448  448      - A      May 07  0:00 multisite_listener
+root      3604530  0.0  0.0  800  848      - A      May 07  0:00 /bin/ksh /pconsole/lwi/bin/lwistart_src.sh 
+root      5964128  0.0  0.0 4456 4604      - A      Jul 01  0:00 /usr/lpp/OV/lbin/conf/ovconfd 
+==== EXITED with rc 0 ====
+==== END echo '#### output of: ps -ef ####';ps -ef;echo '\n\n#### output of: ps aux ####';ps auxw Mon Jul  6 23:48:28 GST 2015 ====

@@ -1,0 +1,7 @@
+==== This output can be found in Systems/dx1010/secure/for_j_in_etc_pam_d_do_fileprint_j_done.txt ====
+==== START for j in /etc/pam.d/*; do fileprint $j; done Tue Jul  7 13:13:37 CDT 2015 ====
+==== BEGIN Contents of /etc/pam.d/invscout ====
+auth	required	/lib/security/pam_unix_auth.so
+account	required	/lib/security/pam_unix_acct.so==== END Contents of /etc/pam.d/invscout ====
+==== EXITED with rc 0 ====
+==== END for j in /etc/pam.d/*; do fileprint $j; done Tue Jul  7 13:13:37 CDT 2015 ====

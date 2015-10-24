@@ -1,0 +1,65 @@
+==== This output can be found in Systems/dx980/ha/cllsgrp_sort_awk_print_RG_1_system_usr_es_sbin_clu.txt ====
+==== START cllsgrp | sort | awk '{print "#### RG: " $1 " ####";system("/usr/es/sbin/cluster/utilities/cllsdisk -g " $1);print ""}' Mon Jul  6 23:23:10 GST 2015 ====
+#### RG: DX979_RSG ####
+00f9ada1015a6b75
+00f9ada1015a9227
+00f9ada1015b9ae9
+00f9ada1015bdc8c
+00f9ada1015c3c18
+00f9ada1015c8c6d
+00f9ada1015cf530
+00f9ada1015db611
+00f9ada1015e0b66
+00f9ada1015e3119
+00f9ada1015e41c9
+00f9ada1015e92b4
+00f9ada1015f431d
+00f9ada1015f9ed4
+00f9ada1015fad2a
+00f9ada1015ff413
+00f9ada1016098d3
+00f9ada101609b08
+00f9ada101613cfa
+00f9ada101616df2
+00f9ada101620761
+00f9ada10162112e
+00f9ada101621cd3
+00f9ada101624044
+00f9ada101626558
+00f9ada101629952
+00f9ada10162a3a5
+00f9ada10162bc70
+00f9ada10162c00f
+00f9ada101641323
+00f9ada101646c4a
+00f9ada10164803e
+00f9ada10164b4c2
+00f9ada10164e991
+00f9ada101658310
+00f9ada10165c9f4
+00f9ada101662af4
+00f9ada10166516c
+00f9ada101667e23
+00f9ada101667f90
+00f9ada101668a07
+00f9ada10166a0e2
+00f9ada10166bd55
+00f9ada10166c10d
+00f9ada101671f38
+00f9ada101672510
+00f9ada101672e1c
+00f9ada101684e84
+00f9ada10168694e
+00f9ada1016875b7
+00f9ada10169383f
+00f9ada101696887
+00f9ada1e6755d17
+00f9ada1eacaeb74
+00f9ada1ece042b9
+00f9ada1f102ab02
+00f9ada1f98a0333
+00f9ada1fa87b2f1
+00f9ada1fa8d0522
+
+==== EXITED with rc 0 ====
+==== END cllsgrp | sort | awk '{print "#### RG: " $1 " ####";system("/usr/es/sbin/cluster/utilities/cllsdisk -g " $1);print ""}' Mon Jul  6 23:23:11 GST 2015 ====

@@ -1,0 +1,107 @@
+==== This output can be found in Systems/dx987/storage/fileprint_etc_iscsi_targets.txt ====
+==== START fileprint /etc/iscsi/targets Mon Jul  6 23:52:25 GST 2015 ====
+==== BEGIN Contents of /etc/iscsi/targets ====
+# IBM_PROLOG_BEGIN_TAG 
+# This is an automatically generated prolog. 
+#  
+# bos610 src/bos/usr/lib/methods/cfgiscsi/targets.sh 1.2 
+#  
+# Licensed Materials - Property of IBM 
+#  
+# COPYRIGHT International Business Machines Corp. 2003,2004 
+# All Rights Reserved 
+#  
+# US Government Users Restricted Rights - Use, duplication or 
+# disclosure restricted by GSA ADP Schedule Contract with IBM Corp. 
+#  
+# @(#)25	1.2  src/bos/usr/lib/methods/cfgiscsi/targets.sh, sysxiscsi, bos610 8/30/04 13:58:05
+# IBM_PROLOG_END_TAG 
+# iSCSI targets file
+#
+# Comments may be used in the file, the comment character is '#', 0x23.  
+# Anything from a comment char to the end of the line is ignored.
+#
+# Blank lines are ignored.
+#
+# The format for a target line is defined according to the Augmented BNF 
+# syntax as # described in rfc2234.
+#
+# The format for the IPv4Address is taken from rfc2373.
+#
+# The line continuation character '\' (i.e., back-slash) can be used to make
+# each TargetLine easier to read. To ensure no parsing errors, the '\' 
+# character must be the last character and must be preceeded by white space. 
+#
+# ---
+#
+# comment        = %x23 *CHARS LF
+#                  ; #
+#
+# TargetLine     = *WSP HostNameOrAddr 1*WSP PortNumber 1*WSP ISCSIName *WSP LF
+#	or
+# TargetLine     = *WSP HostNameOrAddr 1*WSP PortNumber 1*WSP ISCSIName *WSP ChapSecret *WSP LF
+#
+# HostNameOrAddr = HostName / IPv4Address
+#
+# HostName       = 1*alphnum *( "." (alphanum / allowedPunc))
+#
+# IPv4Address    = 1*3DIGIT "." 1*3DIGIT "." 1*3DIGIT "." 1*3DIGIT
+#                  ; 0.1.2.345
+#
+# hexseq         = hex4 *( ":" hex4)
+#
+# hex4           = 1*4HEXDIG
+#
+# hex64	         = 16HEXDIG
+#
+# PortNumber     = 1*5DIGIT
+#                  ; to hold uint16 port number
+#
+# ISCSIName      = "iscsi" /  "iqn." iscsiNameChars / "eui.0x" hex64
+# 	         ; if the ISCSIName is "iscsi", all luns on the device will 
+#                  be requested.
+#
+# iscsiNameChars = 1*alphanum *( allowedPunc alphanum )
+#                  ; includes alphanumeric, dot, dash, underbar, colon.
+#
+# alphanum       = %x30-39 / %x41-5a / %x61-7a
+# 		 ; [0-9]   [A-Z]     [a-z]
+#
+# allowedPunc    = %x2d / %x2e / %x5f / %x58
+# 		 ; dash, dot, underbar, colon
+#
+# dot            = %x2e
+# 		 ; "."
+#
+# ChapSecret     = %x22 *( any character ) %x22
+#                ;   "                      "
+#                ; ChapSecret is a string enclosed in double quotes.  The
+#                ; quotes are required, but are not part of the secret.
+#
+# EXAMPLE 1: iSCSI Target without CHAP(MD5) authentication
+#	Assume the target is at address 192.168.3.2,
+#	the valid port is 5003
+#	the name of the target is iqn.com.ibm-4125-23WTT26
+# The target line would look like:
+# 192.168.3.2 5003 iqn.com.ibm-4125-23WWT26
+#
+# EXAMPLE 2: iSCSI Target with CHAP(MD5) authentication
+#	Assume the target is at address 10.2.1.105
+#	the valid port is 3260
+#	the name of the target is iqn.com.ibm-K167-42.fc1a
+#	the CHAP secret is "This is my password."
+# The target line would look like:
+# 10.2.1.105 3260 iqn.com.ibm-K167-42.fc1a "This is my password."
+#
+# EXAMPLE 3: iSCSI Target with CHAP(MD5) authentication and line continuation
+#	Assume the target is at address 10.2.1.106
+#	the valid port is 3260
+#	the name of the target is iqn.2003-01.com.ibm:00.fcd0ab21.shark128
+#	the CHAP secret is "123ismysecretpassword.fc1b"
+# The target line would look like:
+# 10.2.1.106 3260 iqn.2003-01.com.ibm:00.fcd0ab21.shark128 \
+#		"123ismysecretpassword.fc1b"
+#
+==== END Contents of /etc/iscsi/targets ====
+==== EXITED with rc 0 ====
+==== END fileprint /etc/iscsi/targets Mon Jul  6 23:52:25 GST 2015 ====

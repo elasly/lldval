@@ -1,0 +1,51 @@
+==== This output can be found in Systems/dx1011/os/raso-^L.txt ====
+==== START raso -L Tue Jul  7 13:39:44 CDT 2015 ====
+NAME                      CUR    DEF    BOOT   MIN    MAX    UNIT           TYPE
+     DEPENDENCIES
+--------------------------------------------------------------------------------
+biostat                   0      0      0      0      1      boolean           D
+--------------------------------------------------------------------------------
+devnull_lazytime          0      0      0      0      1      boolean           D
+--------------------------------------------------------------------------------
+kern_heap_noexec          0      0      0      0      1      boolean           B
+--------------------------------------------------------------------------------
+kernel_noexec             1      1      1      0      1      boolean           B
+--------------------------------------------------------------------------------
+mbuf_heap_noexec          0      0      0      0      1      boolean           B
+--------------------------------------------------------------------------------
+mtrc_commonbufsize        647    647    647    1      5426   4KB pages         D
+     mtrc_enabled
+     mtrc_rarebufsize
+--------------------------------------------------------------------------------
+mtrc_enabled              1      1      1      0      1      boolean           B
+--------------------------------------------------------------------------------
+mtrc_rarebufsize          33     33     33     1      4812   4KB pages         D
+     mtrc_enabled
+     mtrc_commonbufsize
+--------------------------------------------------------------------------------
+tprof_cyc_mult            1      1      1      1      100    numeric           D
+--------------------------------------------------------------------------------
+tprof_evt_mult            1      1      1      1      10000  numeric           D
+--------------------------------------------------------------------------------
+tprof_evt_system          1      1      1      0      1      boolean           D
+--------------------------------------------------------------------------------
+tprof_inst_threshold      1000   1000   1000   1      2G-1   numeric           D
+--------------------------------------------------------------------------------
+
+n/a means parameter not supported by the current platform or kernel
+
+Parameter types:
+    S = Static: cannot be changed
+    D = Dynamic: can be freely changed
+    B = Bosboot: can only be changed using bosboot and reboot
+    R = Reboot: can only be changed during reboot
+    C = Connect: changes are only effective for future socket connections
+    M = Mount: changes are only effective for future mountings
+    I = Incremental: can only be incremented
+    d = deprecated: deprecated and cannot be changed
+
+Value conventions:
+    K = Kilo: 2^10       G = Giga: 2^30       P = Peta: 2^50      
+    M = Mega: 2^20       T = Tera: 2^40       E = Exa: 2^60       
+==== EXITED with rc 0 ====
+==== END raso -L Tue Jul  7 13:39:44 CDT 2015 ====

@@ -1,0 +1,19 @@
+==== This output can be found in Systems/dx1010/os/lsuser-a_account_locked_ALL_sort_grep_false.txt ====
+==== START lsuser -a account_locked ALL | sort| grep false Tue Jul  7 13:14:29 CDT 2015 ====
+adm account_locked=false
+bin account_locked=false
+daemon account_locked=false
+guest account_locked=false
+invscout account_locked=false
+ipsec account_locked=false
+lp account_locked=false
+lpd account_locked=false
+nobody account_locked=false
+nuucp account_locked=false
+padmin account_locked=false
+root account_locked=false
+snapp account_locked=false
+sys account_locked=false
+uucp account_locked=false
+==== EXITED with rc 0 ====
+==== END lsuser -a account_locked ALL | sort| grep false Tue Jul  7 13:14:29 CDT 2015 ====

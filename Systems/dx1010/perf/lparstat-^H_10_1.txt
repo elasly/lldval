@@ -1,0 +1,79 @@
+==== This output can be found in Systems/dx1010/perf/lparstat-^H_10_1.txt ====
+==== START lparstat -H 10 1  Tue Jul  7 13:15:03 CDT 2015 ====
+
+System configuration: type=Shared mode=Uncapped smt=4 lcpu=24 mem=8192MB psize=34 ent=2.00 
+
+           Detailed information on Hypervisor Calls
+
+Hypervisor      	    Number of    %Total Time   %Hypervisor   Avg Call    Max Call
+  Call      		      Calls         Spent      Time Spent    Time(ns)    Time(ns)
+
+remove                      288793            0.8           1.0        934       60500
+read                        129830            0.0           0.0        105       16546
+nclear_mod                       0            0.0           0.0          0           0
+page_init                   140818            0.3           0.4        789       34656
+clear_ref                   256346            0.5           0.6        637       25031
+protect                       1110            0.0           0.0       1259       65562
+put_tce                     102541            0.1           0.1        198       18968
+h_put_tce_indirect               0            0.0           0.0          0       32656
+xirr                             0            0.0           0.0          0           0
+eoi                         363747            0.5           0.6        496      397062
+ipi                             88            0.0           0.0        673       15218
+cppr                          1216            0.0           0.0        689       35250
+asr                              0            0.0           0.0          0           0
+others                      504607            2.7           3.3       1813    32886593
+cede                        505889           63.9          77.6      42811    13346270359
+enter                       334817            0.4           0.4        360       33375
+migrate_dma                      0            0.0           0.0          0           0
+put_rtce                   2456253            4.8           5.8        658      253937
+confer                          14            0.0           0.0       3350    48818265
+prod                        194083            0.9           1.1       1597       84031
+get_ppp                         20            0.0           0.0       3823       33187
+set_ppp                          0            0.0           0.0          0           0
+purr                             0            0.0           0.0          0           0
+pic                             20            0.0           0.0      26133       64437
+bulk_remove                  17222            0.1           0.1       2400      128906
+send_crq                     50667            0.3           0.4       2120      535687
+copy_rdma                    76275            0.3           0.3       1146      217093
+get_tce                          0            0.0           0.0          0           0
+send_logical_lan            204260            1.8           2.1       2926      680781
+add_logical_lan_buf         165368            0.4           0.5        798    32679125
+h_remove_rtce              2455999            4.6           5.6        634      108718
+h_ipoll                          0            0.0           0.0          0           0
+h_stuff_tce                  30659            0.0           0.0        316       32156
+h_get_mpp                        0            0.0           0.0          0           0
+h_set_mpp                        0            0.0           0.0          0           0
+h_get_mpp_x                      0            0.0           0.0          0           0
+h_get_em_parms                  30            0.0           0.0        834    33205093
+h_vpm_pstat                      0            0.0           0.0          0           0
+h_hfi_start_interface            0            0.0           0.0          0           0
+h_hfi_stop_interface             0            0.0           0.0          0           0
+h_hfi_query_interface            0            0.0           0.0          0           0
+h_hfi_query_window               0            0.0           0.0          0           0
+h_hfi_open_window                0            0.0           0.0          0           0
+h_hfi_close_window               0            0.0           0.0          0           0
+h_hfi_dump_info                  0            0.0           0.0          0           0
+h_hfi_adapter_attach             0            0.0           0.0          0           0
+h_hfi_modify_rcxt                0            0.0           0.0          0           0
+h_hfi_route_info                 0            0.0           0.0          0           0
+h_cau_write_index                0            0.0           0.0          0           0
+h_cau_read_index                 0            0.0           0.0          0           0
+h_nmmu_start                     0            0.0           0.0          0           0
+h_nmmu_stop                      0            0.0           0.0          0           0
+h_nmmu_allocate_resource         0            0.0           0.0          0           0
+h_nmmu_free_resource             0            0.0           0.0          0           0
+h_nmmu_modify_resource           0            0.0           0.0          0           0
+h_confer_adjunct                 0            0.0           0.0          0           0
+h_adjunct_mode                   0            0.0           0.0          0           0
+h_get_ppp_x                      0            0.0           0.0          0           0
+h_cop_op                         0            0.0           0.0          0           0
+h_stop_cop_op                    0            0.0           0.0          0           0
+h_random                       672            0.0           0.0        544       11468
+h_enter_decomp                   0            0.0           0.0          0           0
+h_remove_comp                    0            0.0           0.0          0           0
+h_xirr_x                         0            0.0           0.0          0           0
+h_get_perf_info                  0            0.0           0.0          0           0
+h_block_remove                 588            0.0           0.0       1611       33718
+--------------------------------------------------------------------------------
+==== EXITED with rc 0 ====
+==== END lparstat -H 10 1  Tue Jul  7 13:15:13 CDT 2015 ====

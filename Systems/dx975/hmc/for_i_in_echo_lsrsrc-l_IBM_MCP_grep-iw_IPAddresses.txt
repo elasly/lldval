@@ -1,0 +1,5 @@
+==== This output can be found in Systems/dx975/hmc/for_i_in_echo_lsrsrc-l_IBM_MCP_grep-iw_IPAddresses.txt ====
+==== START for i in `echo \`lsrsrc -l "IBM.MCP" | grep -iw IPAddresses | awk -F\" '{print $2}'`;do host $i; done Tue Jul  7 12:49:34 CDT 2015 ====
+host: address 10.51.229.182 NOT FOUND
+==== EXITED with rc 0 ====
+==== END for i in `echo \`lsrsrc -l "IBM.MCP" | grep -iw IPAddresses | awk -F\" '{print $2}'`;do host $i; done Tue Jul  7 12:49:34 CDT 2015 ====

@@ -1,0 +1,79 @@
+==== This output can be found in Systems/dx986/perf/netstat-p_tcp.txt ====
+==== START netstat -p tcp Tue Jul  7 00:49:29 GST 2015 ====
+tcp:
+	3770388318 packets sent
+		3201284847 data packets (84763759613502 bytes)
+		518053 data packets (2018786811 bytes) retransmitted
+		94652414 ack-only packets (55681859 delayed)
+		0 URG only packets
+		7 window probe packets
+		464462452 window update packets
+		18942346 control packets
+		1379476448 large sends
+		83789081730505 bytes sent using largesend
+		65160 bytes is the biggest largesend
+	5290424291 packets received
+		2515557905 acks (for 84763900719626 bytes)
+		11275674 duplicate acks
+		0 acks for unsent data
+		3821304041 packets (2262597975901 bytes) received in-sequence
+		358385 completely duplicate packets (30673538 bytes)
+		0 old duplicate packets
+		132817 packets with some dup. data (132946 bytes duped)
+		24433694 out-of-order packets (31964721914 bytes)
+		1755 packets (1755 bytes) of data after window
+		1755 window probes
+		668987 window update packets
+		16150 packets received after close
+		0 packets with bad hardware assisted checksum
+		0 discarded for bad checksums
+		0 discarded for bad header offset fields
+		0 discarded because packet too short
+		5110 discarded by listeners
+		0 discarded due to listener's queue full
+		649809981 ack packet headers correctly predicted
+		2685262781 data packet headers correctly predicted
+	3053054 connection requests
+	5572283 connection accepts
+	6546070 connections established (including accepts)
+	10161495 connections closed (including 8181 drops)
+	0 connections with ECN capability
+	0 times responded to ECN
+	2079243 embryonic connections dropped
+	2510456861 segments updated rtt (of 1833776773 attempts)
+	0 segments with congestion window reduced bit set
+	0 segments with congestion experienced bit set
+	0 resends due to path MTU discovery
+	175 path MTU discovery terminations due to retransmits
+	34053 retransmit timeouts
+		9 connections dropped by rexmit timeout
+	47658 fast retransmits
+		451 when congestion window less than 4 segments
+	324028 newreno retransmits
+	184141 times avoided false fast retransmits
+	7 persist timeouts
+		0 connections dropped due to persist timeout
+	326942 keepalive timeouts
+		0 keepalive probes sent
+		3 connections dropped by keepalive
+	0 times SACK blocks array is extended
+	0 times SACK holes array is extended
+	0 packets dropped due to memory allocation failure
+	43 connections in timewait reused
+	0 delayed ACKs for SYN
+	0 delayed ACKs for FIN
+	0 send_and_disconnects
+	0 spliced connections
+	0 spliced connections closed
+	0 spliced connections reset
+	0 spliced connections timeout
+	0 spliced connections persist timeout
+	0 spliced connections keepalive timeout
+	0 TCP checksum offload disabled during retransmit
+	8543 Connections dropped due to bad ACKs
+	0 Connections dropped due to duplicate SYN packets
+	0 fastpath loopback connections
+	0 fastpath loopback sent packets (0 bytes)
+	0 fastpath loopback received packets (0 bytes)
+==== EXITED with rc 0 ====
+==== END netstat -p tcp Tue Jul  7 00:49:29 GST 2015 ====

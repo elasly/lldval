@@ -1,0 +1,14 @@
+==== This output can be found in Systems/dx986/perf/netstat-p_udp.txt ====
+==== START netstat -p udp Tue Jul  7 00:49:29 GST 2015 ====
+udp:
+	23219425 datagrams received
+	0 incomplete headers
+	0 bad data length fields
+	0 bad checksums
+	146117 dropped due to no socket
+	3220211 broadcast/multicast datagrams dropped due to no socket
+	0 socket buffer overflows
+	19853097 delivered
+	15010321 datagrams output
+==== EXITED with rc 0 ====
+==== END netstat -p udp Tue Jul  7 00:49:29 GST 2015 ====

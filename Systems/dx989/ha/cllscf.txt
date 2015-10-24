@@ -1,0 +1,85 @@
+==== This output can be found in Systems/dx989/ha/cllscf.txt ====
+==== START cllscf Thu Aug  6 11:28:18 GST 2015 ====
+Cluster Name:	 DX988_cluster
+Cluster Type:	 Standard
+Heartbeat Type:	 Unicast
+Repository Disk: hdisk1 (00f92eec01bc8623)
+
+There were 3 networks defined: net_ether_01, net_ether_02, net_ether_03
+There are 2 nodes in this cluster
+
+NODE DX988:
+	This node has 1 service IP label(s):
+
+	Service IP Label DX988-VIP:
+		IP address:	10.51.226.236
+		Hardware Address: 	
+		Network:	net_ether_01
+		Attribute:	public
+		Aliased Address?:	Enable
+
+	Service IP Label DX988-VIP has 1 communication interfaces.
+		(Alternate Service) Communication Interface 1: DX988
+			IP Address:	10.51.226.234
+			Network:	net_ether_01
+			Attribute:	public
+
+			Alias address for heartbeat:	
+	Service IP Label DX988-VIP has no communication interfaces for recovery.
+
+
+
+
+NODE DX989:
+	This node has 1 service IP label(s):
+
+	Service IP Label DX988-VIP:
+		IP address:	10.51.226.236
+		Hardware Address: 	
+		Network:	net_ether_01
+		Attribute:	public
+		Aliased Address?:	Enable
+
+	Service IP Label DX988-VIP has 1 communication interfaces.
+		(Alternate Service) Communication Interface 1: DX989
+			IP Address:	10.51.226.235
+			Network:	net_ether_01
+			Attribute:	public
+
+			Alias address for heartbeat:	
+	Service IP Label DX988-VIP has no communication interfaces for recovery.
+
+
+
+
+
+
+Breakdown of network connections:
+
+Connections to network net_ether_01
+	Node DX988 is connected to network net_ether_01 by these interfaces:
+		DX988
+		DX988-VIP
+
+	Node DX989 is connected to network net_ether_01 by these interfaces:
+		DX989
+		DX988-VIP
+
+
+Connections to network net_ether_02
+	Node DX988 is connected to network net_ether_02 by these interfaces:
+		DX988_b
+
+	Node DX989 is connected to network net_ether_02 by these interfaces:
+		DX989_b
+
+
+Connections to network net_ether_03
+	Node DX988 is connected to network net_ether_03 by these interfaces:
+		DX988_sc0
+
+	Node DX989 is connected to network net_ether_03 by these interfaces:
+		DX989_sc0
+
+==== EXITED with rc 0 ====
+==== END cllscf Thu Aug  6 11:28:18 GST 2015 ====

@@ -1,0 +1,718 @@
+==== This output can be found in Systems/dx1011/storage/lsattr_disk.txt ====
+==== START lsattr_disk  Tue Jul  7 13:42:40 CDT 2015 ====
+
+#### DISK: hdiskpower10 ####
+PR_key_value   none                             Reserve Key.                                   True
+clr_q          yes                              Clear Queue (RS/6000)                          True
+location                                        Location                                       True
+lun_id         0xb000000000000                  LUN ID                                         False
+lun_reset_spt  yes                              FC Forced Open LUN                             True
+max_coalesce   0x100000                         Maximum coalesce size                          True
+max_transfer   0x100000                         Maximum transfer size                          True
+pvid           00f92eec1d95e0f30000000000000000 Physical volume identifier                     False
+pvid_takeover  yes                              Takeover PVIDs from hdisks                     True
+q_err          no                               Use QERR bit                                   True
+q_type         simple                           Queue TYPE                                     False
+queue_depth    64                               Queue DEPTH                                    True
+reassign_to    120                              REASSIGN time out value                        True
+reserve_policy no_reserve                       Reserve Policy used to reserve device on open. True
+reset_delay    2                                Reset Delay                                    True
+rw_timeout     40                               READ/WRITE time out                            True
+scsi_id        0x13700                          SCSI ID                                        False
+start_timeout  180                              START unit time out                            True
+ww_name        0x500009740834d550               World Wide Name                                False
+
+#### DISK: hdiskpower11 ####
+PR_key_value   none                             Reserve Key.                                   True
+clr_q          yes                              Clear Queue (RS/6000)                          True
+location                                        Location                                       True
+lun_id         0xc000000000000                  LUN ID                                         False
+lun_reset_spt  yes                              FC Forced Open LUN                             True
+max_coalesce   0x100000                         Maximum coalesce size                          True
+max_transfer   0x100000                         Maximum transfer size                          True
+pvid           00f92eec1d95e17d0000000000000000 Physical volume identifier                     False
+pvid_takeover  yes                              Takeover PVIDs from hdisks                     True
+q_err          no                               Use QERR bit                                   True
+q_type         simple                           Queue TYPE                                     False
+queue_depth    64                               Queue DEPTH                                    True
+reassign_to    120                              REASSIGN time out value                        True
+reserve_policy no_reserve                       Reserve Policy used to reserve device on open. True
+reset_delay    2                                Reset Delay                                    True
+rw_timeout     40                               READ/WRITE time out                            True
+scsi_id        0x13700                          SCSI ID                                        False
+start_timeout  180                              START unit time out                            True
+ww_name        0x500009740834d550               World Wide Name                                False
+
+#### DISK: hdiskpower40 ####
+PR_key_value   none               Reserve Key.                                   True
+clr_q          yes                Clear Queue (RS/6000)                          True
+location                          Location                                       True
+lun_id         0x0                LUN ID                                         False
+lun_reset_spt  yes                FC Forced Open LUN                             True
+max_coalesce   0x100000           Maximum coalesce size                          True
+max_transfer   0x100000           Maximum transfer size                          True
+pvid           none               Physical volume identifier                     False
+pvid_takeover  yes                Takeover PVIDs from hdisks                     True
+q_err          no                 Use QERR bit                                   True
+q_type         simple             Queue TYPE                                     False
+queue_depth    32                 Queue DEPTH                                    True
+reassign_to    120                REASSIGN time out value                        True
+reserve_policy no_reserve         Reserve Policy used to reserve device on open. True
+reset_delay    2                  Reset Delay                                    True
+rw_timeout     40                 READ/WRITE time out                            True
+scsi_id        0x2f080            SCSI ID                                        False
+start_timeout  180                START unit time out                            True
+ww_name        0x500009740834d528 World Wide Name                                False
+
+#### DISK: hdiskpower41 ####
+PR_key_value   none               Reserve Key.                                   True
+clr_q          yes                Clear Queue (RS/6000)                          True
+location                          Location                                       True
+lun_id         0x1000000000000    LUN ID                                         False
+lun_reset_spt  yes                FC Forced Open LUN                             True
+max_coalesce   0x100000           Maximum coalesce size                          True
+max_transfer   0x100000           Maximum transfer size                          True
+pvid           none               Physical volume identifier                     False
+pvid_takeover  yes                Takeover PVIDs from hdisks                     True
+q_err          no                 Use QERR bit                                   True
+q_type         simple             Queue TYPE                                     False
+queue_depth    32                 Queue DEPTH                                    True
+reassign_to    120                REASSIGN time out value                        True
+reserve_policy no_reserve         Reserve Policy used to reserve device on open. True
+reset_delay    2                  Reset Delay                                    True
+rw_timeout     40                 READ/WRITE time out                            True
+scsi_id        0x2f080            SCSI ID                                        False
+start_timeout  180                START unit time out                            True
+ww_name        0x500009740834d528 World Wide Name                                False
+
+#### DISK: hdiskpower42 ####
+PR_key_value   none               Reserve Key.                                   True
+clr_q          yes                Clear Queue (RS/6000)                          True
+location                          Location                                       True
+lun_id         0x2000000000000    LUN ID                                         False
+lun_reset_spt  yes                FC Forced Open LUN                             True
+max_coalesce   0x100000           Maximum coalesce size                          True
+max_transfer   0x100000           Maximum transfer size                          True
+pvid           none               Physical volume identifier                     False
+pvid_takeover  yes                Takeover PVIDs from hdisks                     True
+q_err          no                 Use QERR bit                                   True
+q_type         simple             Queue TYPE                                     False
+queue_depth    32                 Queue DEPTH                                    True
+reassign_to    120                REASSIGN time out value                        True
+reserve_policy no_reserve         Reserve Policy used to reserve device on open. True
+reset_delay    2                  Reset Delay                                    True
+rw_timeout     40                 READ/WRITE time out                            True
+scsi_id        0x2f080            SCSI ID                                        False
+start_timeout  180                START unit time out                            True
+ww_name        0x500009740834d528 World Wide Name                                False
+
+#### DISK: hdiskpower43 ####
+PR_key_value   none               Reserve Key.                                   True
+clr_q          yes                Clear Queue (RS/6000)                          True
+location                          Location                                       True
+lun_id         0x3000000000000    LUN ID                                         False
+lun_reset_spt  yes                FC Forced Open LUN                             True
+max_coalesce   0x100000           Maximum coalesce size                          True
+max_transfer   0x100000           Maximum transfer size                          True
+pvid           none               Physical volume identifier                     False
+pvid_takeover  yes                Takeover PVIDs from hdisks                     True
+q_err          no                 Use QERR bit                                   True
+q_type         simple             Queue TYPE                                     False
+queue_depth    32                 Queue DEPTH                                    True
+reassign_to    120                REASSIGN time out value                        True
+reserve_policy no_reserve         Reserve Policy used to reserve device on open. True
+reset_delay    2                  Reset Delay                                    True
+rw_timeout     40                 READ/WRITE time out                            True
+scsi_id        0x2f080            SCSI ID                                        False
+start_timeout  180                START unit time out                            True
+ww_name        0x500009740834d528 World Wide Name                                False
+
+#### DISK: hdiskpower44 ####
+PR_key_value   none               Reserve Key.                                   True
+clr_q          yes                Clear Queue (RS/6000)                          True
+location                          Location                                       True
+lun_id         0x4000000000000    LUN ID                                         False
+lun_reset_spt  yes                FC Forced Open LUN                             True
+max_coalesce   0x100000           Maximum coalesce size                          True
+max_transfer   0x100000           Maximum transfer size                          True
+pvid           none               Physical volume identifier                     False
+pvid_takeover  yes                Takeover PVIDs from hdisks                     True
+q_err          no                 Use QERR bit                                   True
+q_type         simple             Queue TYPE                                     False
+queue_depth    32                 Queue DEPTH                                    True
+reassign_to    120                REASSIGN time out value                        True
+reserve_policy no_reserve         Reserve Policy used to reserve device on open. True
+reset_delay    2                  Reset Delay                                    True
+rw_timeout     40                 READ/WRITE time out                            True
+scsi_id        0x2f080            SCSI ID                                        False
+start_timeout  180                START unit time out                            True
+ww_name        0x500009740834d528 World Wide Name                                False
+
+#### DISK: hdiskpower45 ####
+PR_key_value   none               Reserve Key.                                   True
+clr_q          yes                Clear Queue (RS/6000)                          True
+location                          Location                                       True
+lun_id         0x5000000000000    LUN ID                                         False
+lun_reset_spt  yes                FC Forced Open LUN                             True
+max_coalesce   0x100000           Maximum coalesce size                          True
+max_transfer   0x100000           Maximum transfer size                          True
+pvid           none               Physical volume identifier                     False
+pvid_takeover  yes                Takeover PVIDs from hdisks                     True
+q_err          no                 Use QERR bit                                   True
+q_type         simple             Queue TYPE                                     False
+queue_depth    32                 Queue DEPTH                                    True
+reassign_to    120                REASSIGN time out value                        True
+reserve_policy no_reserve         Reserve Policy used to reserve device on open. True
+reset_delay    2                  Reset Delay                                    True
+rw_timeout     40                 READ/WRITE time out                            True
+scsi_id        0x2f080            SCSI ID                                        False
+start_timeout  180                START unit time out                            True
+ww_name        0x500009740834d528 World Wide Name                                False
+
+#### DISK: hdiskpower46 ####
+PR_key_value   none               Reserve Key.                                   True
+clr_q          yes                Clear Queue (RS/6000)                          True
+location                          Location                                       True
+lun_id         0x6000000000000    LUN ID                                         False
+lun_reset_spt  yes                FC Forced Open LUN                             True
+max_coalesce   0x100000           Maximum coalesce size                          True
+max_transfer   0x100000           Maximum transfer size                          True
+pvid           none               Physical volume identifier                     False
+pvid_takeover  yes                Takeover PVIDs from hdisks                     True
+q_err          no                 Use QERR bit                                   True
+q_type         simple             Queue TYPE                                     False
+queue_depth    32                 Queue DEPTH                                    True
+reassign_to    120                REASSIGN time out value                        True
+reserve_policy no_reserve         Reserve Policy used to reserve device on open. True
+reset_delay    2                  Reset Delay                                    True
+rw_timeout     40                 READ/WRITE time out                            True
+scsi_id        0x2f080            SCSI ID                                        False
+start_timeout  180                START unit time out                            True
+ww_name        0x500009740834d528 World Wide Name                                False
+
+#### DISK: hdiskpower47 ####
+PR_key_value   none               Reserve Key.                                   True
+clr_q          yes                Clear Queue (RS/6000)                          True
+location                          Location                                       True
+lun_id         0x7000000000000    LUN ID                                         False
+lun_reset_spt  yes                FC Forced Open LUN                             True
+max_coalesce   0x100000           Maximum coalesce size                          True
+max_transfer   0x100000           Maximum transfer size                          True
+pvid           none               Physical volume identifier                     False
+pvid_takeover  yes                Takeover PVIDs from hdisks                     True
+q_err          no                 Use QERR bit                                   True
+q_type         simple             Queue TYPE                                     False
+queue_depth    32                 Queue DEPTH                                    True
+reassign_to    120                REASSIGN time out value                        True
+reserve_policy no_reserve         Reserve Policy used to reserve device on open. True
+reset_delay    2                  Reset Delay                                    True
+rw_timeout     40                 READ/WRITE time out                            True
+scsi_id        0x2f080            SCSI ID                                        False
+start_timeout  180                START unit time out                            True
+ww_name        0x500009740834d528 World Wide Name                                False
+
+#### DISK: hdiskpower48 ####
+PR_key_value   none               Reserve Key.                                   True
+clr_q          yes                Clear Queue (RS/6000)                          True
+location                          Location                                       True
+lun_id         0x8000000000000    LUN ID                                         False
+lun_reset_spt  yes                FC Forced Open LUN                             True
+max_coalesce   0x100000           Maximum coalesce size                          True
+max_transfer   0x100000           Maximum transfer size                          True
+pvid           none               Physical volume identifier                     False
+pvid_takeover  yes                Takeover PVIDs from hdisks                     True
+q_err          no                 Use QERR bit                                   True
+q_type         simple             Queue TYPE                                     False
+queue_depth    32                 Queue DEPTH                                    True
+reassign_to    120                REASSIGN time out value                        True
+reserve_policy no_reserve         Reserve Policy used to reserve device on open. True
+reset_delay    2                  Reset Delay                                    True
+rw_timeout     40                 READ/WRITE time out                            True
+scsi_id        0x2f080            SCSI ID                                        False
+start_timeout  180                START unit time out                            True
+ww_name        0x500009740834d528 World Wide Name                                False
+
+#### DISK: hdiskpower49 ####
+PR_key_value   none               Reserve Key.                                   True
+clr_q          yes                Clear Queue (RS/6000)                          True
+location                          Location                                       True
+lun_id         0x9000000000000    LUN ID                                         False
+lun_reset_spt  yes                FC Forced Open LUN                             True
+max_coalesce   0x100000           Maximum coalesce size                          True
+max_transfer   0x100000           Maximum transfer size                          True
+pvid           none               Physical volume identifier                     False
+pvid_takeover  yes                Takeover PVIDs from hdisks                     True
+q_err          no                 Use QERR bit                                   True
+q_type         simple             Queue TYPE                                     False
+queue_depth    32                 Queue DEPTH                                    True
+reassign_to    120                REASSIGN time out value                        True
+reserve_policy no_reserve         Reserve Policy used to reserve device on open. True
+reset_delay    2                  Reset Delay                                    True
+rw_timeout     40                 READ/WRITE time out                            True
+scsi_id        0x2f080            SCSI ID                                        False
+start_timeout  180                START unit time out                            True
+ww_name        0x500009740834d528 World Wide Name                                False
+
+#### DISK: hdiskpower50 ####
+PR_key_value   none               Reserve Key.                                   True
+clr_q          yes                Clear Queue (RS/6000)                          True
+location                          Location                                       True
+lun_id         0xa000000000000    LUN ID                                         False
+lun_reset_spt  yes                FC Forced Open LUN                             True
+max_coalesce   0x100000           Maximum coalesce size                          True
+max_transfer   0x100000           Maximum transfer size                          True
+pvid           none               Physical volume identifier                     False
+pvid_takeover  yes                Takeover PVIDs from hdisks                     True
+q_err          no                 Use QERR bit                                   True
+q_type         simple             Queue TYPE                                     False
+queue_depth    32                 Queue DEPTH                                    True
+reassign_to    120                REASSIGN time out value                        True
+reserve_policy no_reserve         Reserve Policy used to reserve device on open. True
+reset_delay    2                  Reset Delay                                    True
+rw_timeout     40                 READ/WRITE time out                            True
+scsi_id        0x2f080            SCSI ID                                        False
+start_timeout  180                START unit time out                            True
+ww_name        0x500009740834d528 World Wide Name                                False
+
+#### DISK: hdiskpower51 ####
+PR_key_value   none                             Reserve Key.                                   True
+clr_q          yes                              Clear Queue (RS/6000)                          True
+location                                        Location                                       True
+lun_id         0xd000000000000                  LUN ID                                         False
+lun_reset_spt  yes                              FC Forced Open LUN                             True
+max_coalesce   0x100000                         Maximum coalesce size                          True
+max_transfer   0x100000                         Maximum transfer size                          True
+pvid           00f92eec128c6cde0000000000000000 Physical volume identifier                     False
+pvid_takeover  yes                              Takeover PVIDs from hdisks                     True
+q_err          no                               Use QERR bit                                   True
+q_type         simple                           Queue TYPE                                     False
+queue_depth    32                               Queue DEPTH                                    True
+reassign_to    120                              REASSIGN time out value                        True
+reserve_policy no_reserve                       Reserve Policy used to reserve device on open. True
+reset_delay    2                                Reset Delay                                    True
+rw_timeout     40                               READ/WRITE time out                            True
+scsi_id        0x2f080                          SCSI ID                                        False
+start_timeout  180                              START unit time out                            True
+ww_name        0x500009740834d528               World Wide Name                                False
+
+#### DISK: hdiskpower52 ####
+PR_key_value   none                             Reserve Key.                                   True
+clr_q          yes                              Clear Queue (RS/6000)                          True
+location                                        Location                                       True
+lun_id         0xe000000000000                  LUN ID                                         False
+lun_reset_spt  yes                              FC Forced Open LUN                             True
+max_coalesce   0x100000                         Maximum coalesce size                          True
+max_transfer   0x100000                         Maximum transfer size                          True
+pvid           00f92eec128c6d440000000000000000 Physical volume identifier                     False
+pvid_takeover  yes                              Takeover PVIDs from hdisks                     True
+q_err          no                               Use QERR bit                                   True
+q_type         simple                           Queue TYPE                                     False
+queue_depth    32                               Queue DEPTH                                    True
+reassign_to    120                              REASSIGN time out value                        True
+reserve_policy no_reserve                       Reserve Policy used to reserve device on open. True
+reset_delay    2                                Reset Delay                                    True
+rw_timeout     40                               READ/WRITE time out                            True
+scsi_id        0x2f080                          SCSI ID                                        False
+start_timeout  180                              START unit time out                            True
+ww_name        0x500009740834d528               World Wide Name                                False
+
+#### DISK: hdiskpower53 ####
+PR_key_value   none                             Reserve Key.                                   True
+clr_q          yes                              Clear Queue (RS/6000)                          True
+location                                        Location                                       True
+lun_id         0xf000000000000                  LUN ID                                         False
+lun_reset_spt  yes                              FC Forced Open LUN                             True
+max_coalesce   0x100000                         Maximum coalesce size                          True
+max_transfer   0x100000                         Maximum transfer size                          True
+pvid           00f92eec128c671e0000000000000000 Physical volume identifier                     False
+pvid_takeover  yes                              Takeover PVIDs from hdisks                     True
+q_err          no                               Use QERR bit                                   True
+q_type         simple                           Queue TYPE                                     False
+queue_depth    32                               Queue DEPTH                                    True
+reassign_to    120                              REASSIGN time out value                        True
+reserve_policy no_reserve                       Reserve Policy used to reserve device on open. True
+reset_delay    2                                Reset Delay                                    True
+rw_timeout     40                               READ/WRITE time out                            True
+scsi_id        0x2f080                          SCSI ID                                        False
+start_timeout  180                              START unit time out                            True
+ww_name        0x500009740834d528               World Wide Name                                False
+
+#### DISK: hdiskpower54 ####
+PR_key_value   none                             Reserve Key.                                   True
+clr_q          yes                              Clear Queue (RS/6000)                          True
+location                                        Location                                       True
+lun_id         0x10000000000000                 LUN ID                                         False
+lun_reset_spt  yes                              FC Forced Open LUN                             True
+max_coalesce   0x100000                         Maximum coalesce size                          True
+max_transfer   0x100000                         Maximum transfer size                          True
+pvid           00f92eec128c67780000000000000000 Physical volume identifier                     False
+pvid_takeover  yes                              Takeover PVIDs from hdisks                     True
+q_err          no                               Use QERR bit                                   True
+q_type         simple                           Queue TYPE                                     False
+queue_depth    32                               Queue DEPTH                                    True
+reassign_to    120                              REASSIGN time out value                        True
+reserve_policy no_reserve                       Reserve Policy used to reserve device on open. True
+reset_delay    2                                Reset Delay                                    True
+rw_timeout     40                               READ/WRITE time out                            True
+scsi_id        0x2f080                          SCSI ID                                        False
+start_timeout  180                              START unit time out                            True
+ww_name        0x500009740834d528               World Wide Name                                False
+
+#### DISK: hdiskpower55 ####
+PR_key_value   none                             Reserve Key.                                   True
+clr_q          yes                              Clear Queue (RS/6000)                          True
+location                                        Location                                       True
+lun_id         0x11000000000000                 LUN ID                                         False
+lun_reset_spt  yes                              FC Forced Open LUN                             True
+max_coalesce   0x100000                         Maximum coalesce size                          True
+max_transfer   0x100000                         Maximum transfer size                          True
+pvid           00f92eec128c683a0000000000000000 Physical volume identifier                     False
+pvid_takeover  yes                              Takeover PVIDs from hdisks                     True
+q_err          no                               Use QERR bit                                   True
+q_type         simple                           Queue TYPE                                     False
+queue_depth    32                               Queue DEPTH                                    True
+reassign_to    120                              REASSIGN time out value                        True
+reserve_policy no_reserve                       Reserve Policy used to reserve device on open. True
+reset_delay    2                                Reset Delay                                    True
+rw_timeout     40                               READ/WRITE time out                            True
+scsi_id        0x2f080                          SCSI ID                                        False
+start_timeout  180                              START unit time out                            True
+ww_name        0x500009740834d528               World Wide Name                                False
+
+#### DISK: hdiskpower56 ####
+PR_key_value   none                             Reserve Key.                                   True
+clr_q          yes                              Clear Queue (RS/6000)                          True
+location                                        Location                                       True
+lun_id         0x12000000000000                 LUN ID                                         False
+lun_reset_spt  yes                              FC Forced Open LUN                             True
+max_coalesce   0x100000                         Maximum coalesce size                          True
+max_transfer   0x100000                         Maximum transfer size                          True
+pvid           00f92eec128c68920000000000000000 Physical volume identifier                     False
+pvid_takeover  yes                              Takeover PVIDs from hdisks                     True
+q_err          no                               Use QERR bit                                   True
+q_type         simple                           Queue TYPE                                     False
+queue_depth    32                               Queue DEPTH                                    True
+reassign_to    120                              REASSIGN time out value                        True
+reserve_policy no_reserve                       Reserve Policy used to reserve device on open. True
+reset_delay    2                                Reset Delay                                    True
+rw_timeout     40                               READ/WRITE time out                            True
+scsi_id        0x2f080                          SCSI ID                                        False
+start_timeout  180                              START unit time out                            True
+ww_name        0x500009740834d528               World Wide Name                                False
+
+#### DISK: hdiskpower57 ####
+PR_key_value   none                             Reserve Key.                                   True
+clr_q          yes                              Clear Queue (RS/6000)                          True
+location                                        Location                                       True
+lun_id         0x13000000000000                 LUN ID                                         False
+lun_reset_spt  yes                              FC Forced Open LUN                             True
+max_coalesce   0x100000                         Maximum coalesce size                          True
+max_transfer   0x100000                         Maximum transfer size                          True
+pvid           00f92eec128c6da40000000000000000 Physical volume identifier                     False
+pvid_takeover  yes                              Takeover PVIDs from hdisks                     True
+q_err          no                               Use QERR bit                                   True
+q_type         simple                           Queue TYPE                                     False
+queue_depth    32                               Queue DEPTH                                    True
+reassign_to    120                              REASSIGN time out value                        True
+reserve_policy no_reserve                       Reserve Policy used to reserve device on open. True
+reset_delay    2                                Reset Delay                                    True
+rw_timeout     40                               READ/WRITE time out                            True
+scsi_id        0x2f080                          SCSI ID                                        False
+start_timeout  180                              START unit time out                            True
+ww_name        0x500009740834d528               World Wide Name                                False
+
+#### DISK: hdiskpower58 ####
+PR_key_value   none                             Reserve Key.                                   True
+clr_q          yes                              Clear Queue (RS/6000)                          True
+location                                        Location                                       True
+lun_id         0x14000000000000                 LUN ID                                         False
+lun_reset_spt  yes                              FC Forced Open LUN                             True
+max_coalesce   0x100000                         Maximum coalesce size                          True
+max_transfer   0x100000                         Maximum transfer size                          True
+pvid           00f92eec128c69a80000000000000000 Physical volume identifier                     False
+pvid_takeover  yes                              Takeover PVIDs from hdisks                     True
+q_err          no                               Use QERR bit                                   True
+q_type         simple                           Queue TYPE                                     False
+queue_depth    32                               Queue DEPTH                                    True
+reassign_to    120                              REASSIGN time out value                        True
+reserve_policy no_reserve                       Reserve Policy used to reserve device on open. True
+reset_delay    2                                Reset Delay                                    True
+rw_timeout     40                               READ/WRITE time out                            True
+scsi_id        0x2f080                          SCSI ID                                        False
+start_timeout  180                              START unit time out                            True
+ww_name        0x500009740834d528               World Wide Name                                False
+
+#### DISK: hdiskpower59 ####
+PR_key_value   none                             Reserve Key.                                   True
+clr_q          yes                              Clear Queue (RS/6000)                          True
+location                                        Location                                       True
+lun_id         0x15000000000000                 LUN ID                                         False
+lun_reset_spt  yes                              FC Forced Open LUN                             True
+max_coalesce   0x100000                         Maximum coalesce size                          True
+max_transfer   0x100000                         Maximum transfer size                          True
+pvid           00f92eec128c6a090000000000000000 Physical volume identifier                     False
+pvid_takeover  yes                              Takeover PVIDs from hdisks                     True
+q_err          no                               Use QERR bit                                   True
+q_type         simple                           Queue TYPE                                     False
+queue_depth    32                               Queue DEPTH                                    True
+reassign_to    120                              REASSIGN time out value                        True
+reserve_policy no_reserve                       Reserve Policy used to reserve device on open. True
+reset_delay    2                                Reset Delay                                    True
+rw_timeout     40                               READ/WRITE time out                            True
+scsi_id        0x2f080                          SCSI ID                                        False
+start_timeout  180                              START unit time out                            True
+ww_name        0x500009740834d528               World Wide Name                                False
+
+#### DISK: hdiskpower60 ####
+PR_key_value   none                             Reserve Key.                                   True
+clr_q          yes                              Clear Queue (RS/6000)                          True
+location                                        Location                                       True
+lun_id         0x16000000000000                 LUN ID                                         False
+lun_reset_spt  yes                              FC Forced Open LUN                             True
+max_coalesce   0x100000                         Maximum coalesce size                          True
+max_transfer   0x100000                         Maximum transfer size                          True
+pvid           00f92eec128c6a5e0000000000000000 Physical volume identifier                     False
+pvid_takeover  yes                              Takeover PVIDs from hdisks                     True
+q_err          no                               Use QERR bit                                   True
+q_type         simple                           Queue TYPE                                     False
+queue_depth    32                               Queue DEPTH                                    True
+reassign_to    120                              REASSIGN time out value                        True
+reserve_policy no_reserve                       Reserve Policy used to reserve device on open. True
+reset_delay    2                                Reset Delay                                    True
+rw_timeout     40                               READ/WRITE time out                            True
+scsi_id        0x2f080                          SCSI ID                                        False
+start_timeout  180                              START unit time out                            True
+ww_name        0x500009740834d528               World Wide Name                                False
+
+#### DISK: hdiskpower61 ####
+PR_key_value   none                             Reserve Key.                                   True
+clr_q          yes                              Clear Queue (RS/6000)                          True
+location                                        Location                                       True
+lun_id         0x17000000000000                 LUN ID                                         False
+lun_reset_spt  yes                              FC Forced Open LUN                             True
+max_coalesce   0x100000                         Maximum coalesce size                          True
+max_transfer   0x100000                         Maximum transfer size                          True
+pvid           00f92eec128c6ab50000000000000000 Physical volume identifier                     False
+pvid_takeover  yes                              Takeover PVIDs from hdisks                     True
+q_err          no                               Use QERR bit                                   True
+q_type         simple                           Queue TYPE                                     False
+queue_depth    32                               Queue DEPTH                                    True
+reassign_to    120                              REASSIGN time out value                        True
+reserve_policy no_reserve                       Reserve Policy used to reserve device on open. True
+reset_delay    2                                Reset Delay                                    True
+rw_timeout     40                               READ/WRITE time out                            True
+scsi_id        0x2f080                          SCSI ID                                        False
+start_timeout  180                              START unit time out                            True
+ww_name        0x500009740834d528               World Wide Name                                False
+
+#### DISK: hdiskpower62 ####
+PR_key_value   none                             Reserve Key.                                   True
+clr_q          yes                              Clear Queue (RS/6000)                          True
+location                                        Location                                       True
+lun_id         0x18000000000000                 LUN ID                                         False
+lun_reset_spt  yes                              FC Forced Open LUN                             True
+max_coalesce   0x100000                         Maximum coalesce size                          True
+max_transfer   0x100000                         Maximum transfer size                          True
+pvid           00f92eec128c6b1e0000000000000000 Physical volume identifier                     False
+pvid_takeover  yes                              Takeover PVIDs from hdisks                     True
+q_err          no                               Use QERR bit                                   True
+q_type         simple                           Queue TYPE                                     False
+queue_depth    32                               Queue DEPTH                                    True
+reassign_to    120                              REASSIGN time out value                        True
+reserve_policy no_reserve                       Reserve Policy used to reserve device on open. True
+reset_delay    2                                Reset Delay                                    True
+rw_timeout     40                               READ/WRITE time out                            True
+scsi_id        0x2f080                          SCSI ID                                        False
+start_timeout  180                              START unit time out                            True
+ww_name        0x500009740834d528               World Wide Name                                False
+
+#### DISK: hdiskpower63 ####
+PR_key_value   none                             Reserve Key.                                   True
+clr_q          yes                              Clear Queue (RS/6000)                          True
+location                                        Location                                       True
+lun_id         0x19000000000000                 LUN ID                                         False
+lun_reset_spt  yes                              FC Forced Open LUN                             True
+max_coalesce   0x100000                         Maximum coalesce size                          True
+max_transfer   0x100000                         Maximum transfer size                          True
+pvid           00f92eec128c6b7a0000000000000000 Physical volume identifier                     False
+pvid_takeover  yes                              Takeover PVIDs from hdisks                     True
+q_err          no                               Use QERR bit                                   True
+q_type         simple                           Queue TYPE                                     False
+queue_depth    32                               Queue DEPTH                                    True
+reassign_to    120                              REASSIGN time out value                        True
+reserve_policy no_reserve                       Reserve Policy used to reserve device on open. True
+reset_delay    2                                Reset Delay                                    True
+rw_timeout     40                               READ/WRITE time out                            True
+scsi_id        0x2f080                          SCSI ID                                        False
+start_timeout  180                              START unit time out                            True
+ww_name        0x500009740834d528               World Wide Name                                False
+
+#### DISK: hdiskpower64 ####
+PR_key_value   none                             Reserve Key.                                   True
+clr_q          yes                              Clear Queue (RS/6000)                          True
+location                                        Location                                       True
+lun_id         0x1a000000000000                 LUN ID                                         False
+lun_reset_spt  yes                              FC Forced Open LUN                             True
+max_coalesce   0x100000                         Maximum coalesce size                          True
+max_transfer   0x100000                         Maximum transfer size                          True
+pvid           00f92eec128c6c2d0000000000000000 Physical volume identifier                     False
+pvid_takeover  yes                              Takeover PVIDs from hdisks                     True
+q_err          no                               Use QERR bit                                   True
+q_type         simple                           Queue TYPE                                     False
+queue_depth    32                               Queue DEPTH                                    True
+reassign_to    120                              REASSIGN time out value                        True
+reserve_policy no_reserve                       Reserve Policy used to reserve device on open. True
+reset_delay    2                                Reset Delay                                    True
+rw_timeout     40                               READ/WRITE time out                            True
+scsi_id        0x2f080                          SCSI ID                                        False
+start_timeout  180                              START unit time out                            True
+ww_name        0x500009740834d528               World Wide Name                                False
+
+#### DISK: hdiskpower65 ####
+PR_key_value   none                             Reserve Key.                                   True
+clr_q          yes                              Clear Queue (RS/6000)                          True
+location                                        Location                                       True
+lun_id         0x1b000000000000                 LUN ID                                         False
+lun_reset_spt  yes                              FC Forced Open LUN                             True
+max_coalesce   0x100000                         Maximum coalesce size                          True
+max_transfer   0x100000                         Maximum transfer size                          True
+pvid           00f92eec128c67da0000000000000000 Physical volume identifier                     False
+pvid_takeover  yes                              Takeover PVIDs from hdisks                     True
+q_err          no                               Use QERR bit                                   True
+q_type         simple                           Queue TYPE                                     False
+queue_depth    32                               Queue DEPTH                                    True
+reassign_to    120                              REASSIGN time out value                        True
+reserve_policy no_reserve                       Reserve Policy used to reserve device on open. True
+reset_delay    2                                Reset Delay                                    True
+rw_timeout     40                               READ/WRITE time out                            True
+scsi_id        0x2f080                          SCSI ID                                        False
+start_timeout  180                              START unit time out                            True
+ww_name        0x500009740834d528               World Wide Name                                False
+
+#### DISK: hdiskpower66 ####
+PR_key_value   none                             Reserve Key.                                   True
+clr_q          yes                              Clear Queue (RS/6000)                          True
+location                                        Location                                       True
+lun_id         0x1c000000000000                 LUN ID                                         False
+lun_reset_spt  yes                              FC Forced Open LUN                             True
+max_coalesce   0x100000                         Maximum coalesce size                          True
+max_transfer   0x100000                         Maximum transfer size                          True
+pvid           00f92eec128c68e90000000000000000 Physical volume identifier                     False
+pvid_takeover  yes                              Takeover PVIDs from hdisks                     True
+q_err          no                               Use QERR bit                                   True
+q_type         simple                           Queue TYPE                                     False
+queue_depth    32                               Queue DEPTH                                    True
+reassign_to    120                              REASSIGN time out value                        True
+reserve_policy no_reserve                       Reserve Policy used to reserve device on open. True
+reset_delay    2                                Reset Delay                                    True
+rw_timeout     40                               READ/WRITE time out                            True
+scsi_id        0x2f080                          SCSI ID                                        False
+start_timeout  180                              START unit time out                            True
+ww_name        0x500009740834d528               World Wide Name                                False
+
+#### DISK: hdiskpower67 ####
+PR_key_value   none                             Reserve Key.                                   True
+clr_q          yes                              Clear Queue (RS/6000)                          True
+location                                        Location                                       True
+lun_id         0x1d000000000000                 LUN ID                                         False
+lun_reset_spt  yes                              FC Forced Open LUN                             True
+max_coalesce   0x100000                         Maximum coalesce size                          True
+max_transfer   0x100000                         Maximum transfer size                          True
+pvid           00f92eec128c694b0000000000000000 Physical volume identifier                     False
+pvid_takeover  yes                              Takeover PVIDs from hdisks                     True
+q_err          no                               Use QERR bit                                   True
+q_type         simple                           Queue TYPE                                     False
+queue_depth    32                               Queue DEPTH                                    True
+reassign_to    120                              REASSIGN time out value                        True
+reserve_policy no_reserve                       Reserve Policy used to reserve device on open. True
+reset_delay    2                                Reset Delay                                    True
+rw_timeout     40                               READ/WRITE time out                            True
+scsi_id        0x2f080                          SCSI ID                                        False
+start_timeout  180                              START unit time out                            True
+ww_name        0x500009740834d528               World Wide Name                                False
+
+#### DISK: hdiskpower68 ####
+PR_key_value   none                             Reserve Key.                                   True
+clr_q          yes                              Clear Queue (RS/6000)                          True
+location                                        Location                                       True
+lun_id         0x1e000000000000                 LUN ID                                         False
+lun_reset_spt  yes                              FC Forced Open LUN                             True
+max_coalesce   0x100000                         Maximum coalesce size                          True
+max_transfer   0x100000                         Maximum transfer size                          True
+pvid           00f92eec1227b6340000000000000000 Physical volume identifier                     False
+pvid_takeover  yes                              Takeover PVIDs from hdisks                     True
+q_err          no                               Use QERR bit                                   True
+q_type         simple                           Queue TYPE                                     False
+queue_depth    32                               Queue DEPTH                                    True
+reassign_to    120                              REASSIGN time out value                        True
+reserve_policy no_reserve                       Reserve Policy used to reserve device on open. True
+reset_delay    2                                Reset Delay                                    True
+rw_timeout     40                               READ/WRITE time out                            True
+scsi_id        0x2f080                          SCSI ID                                        False
+start_timeout  180                              START unit time out                            True
+ww_name        0x500009740834d528               World Wide Name                                False
+
+#### DISK: hdiskpower69 ####
+PR_key_value   none                             Reserve Key.                                   True
+clr_q          yes                              Clear Queue (RS/6000)                          True
+location                                        Location                                       True
+lun_id         0x1f000000000000                 LUN ID                                         False
+lun_reset_spt  yes                              FC Forced Open LUN                             True
+max_coalesce   0x100000                         Maximum coalesce size                          True
+max_transfer   0x100000                         Maximum transfer size                          True
+pvid           00f92eec125cf84b0000000000000000 Physical volume identifier                     False
+pvid_takeover  yes                              Takeover PVIDs from hdisks                     True
+q_err          no                               Use QERR bit                                   True
+q_type         simple                           Queue TYPE                                     False
+queue_depth    32                               Queue DEPTH                                    True
+reassign_to    120                              REASSIGN time out value                        True
+reserve_policy no_reserve                       Reserve Policy used to reserve device on open. True
+reset_delay    2                                Reset Delay                                    True
+rw_timeout     40                               READ/WRITE time out                            True
+scsi_id        0x2f080                          SCSI ID                                        False
+start_timeout  180                              START unit time out                            True
+ww_name        0x500009740834d528               World Wide Name                                False
+
+#### DISK: hdiskpower72 ####
+PR_key_value   none                             Reserve Key.                                   True
+clr_q          yes                              Clear Queue (RS/6000)                          True
+location                                        Location                                       True
+lun_id         0xb000000000000                  LUN ID                                         False
+lun_reset_spt  yes                              FC Forced Open LUN                             True
+max_coalesce   0x100000                         Maximum coalesce size                          True
+max_transfer   0x100000                         Maximum transfer size                          True
+pvid           00f92eec4238a7640000000000000000 Physical volume identifier                     False
+pvid_takeover  yes                              Takeover PVIDs from hdisks                     True
+q_err          no                               Use QERR bit                                   True
+q_type         simple                           Queue TYPE                                     False
+queue_depth    32                               Queue DEPTH                                    True
+reassign_to    120                              REASSIGN time out value                        True
+reserve_policy no_reserve                       Reserve Policy used to reserve device on open. True
+reset_delay    2                                Reset Delay                                    True
+rw_timeout     40                               READ/WRITE time out                            True
+scsi_id        0x2f080                          SCSI ID                                        False
+start_timeout  180                              START unit time out                            True
+ww_name        0x500009740834d528               World Wide Name                                False
+
+#### DISK: hdiskpower73 ####
+PR_key_value   none                             Reserve Key.                                   True
+clr_q          yes                              Clear Queue (RS/6000)                          True
+location                                        Location                                       True
+lun_id         0xc000000000000                  LUN ID                                         False
+lun_reset_spt  yes                              FC Forced Open LUN                             True
+max_coalesce   0x100000                         Maximum coalesce size                          True
+max_transfer   0x100000                         Maximum transfer size                          True
+pvid           00f92eec4ee73e7a0000000000000000 Physical volume identifier                     False
+pvid_takeover  yes                              Takeover PVIDs from hdisks                     True
+q_err          no                               Use QERR bit                                   True
+q_type         simple                           Queue TYPE                                     False
+queue_depth    32                               Queue DEPTH                                    True
+reassign_to    120                              REASSIGN time out value                        True
+reserve_policy no_reserve                       Reserve Policy used to reserve device on open. True
+reset_delay    2                                Reset Delay                                    True
+rw_timeout     40                               READ/WRITE time out                            True
+scsi_id        0x2f080                          SCSI ID                                        False
+start_timeout  180                              START unit time out                            True
+ww_name        0x500009740834d528               World Wide Name                                False
+==== EXITED with rc 0 ====
+==== END lsattr_disk  Tue Jul  7 13:42:41 CDT 2015 ====

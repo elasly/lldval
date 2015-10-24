@@ -1,0 +1,126 @@
+==== This output can be found in Systems/dx977/secure/fileprint_etc_pam_conf.txt ====
+==== START fileprint /etc/pam.conf Tue Jul  7 00:15:24 GST 2015 ====
+==== BEGIN Contents of /etc/pam.conf ====
+# IBM_PROLOG_BEGIN_TAG 
+# This is an automatically generated prolog. 
+#  
+# bos71L src/bos/etc/pam/pam.conf 1.8.1.1 
+#  
+# Licensed Materials - Property of IBM 
+#  
+# COPYRIGHT International Business Machines Corp. 2003,2012 
+# All Rights Reserved 
+#  
+# US Government Users Restricted Rights - Use, duplication or 
+# disclosure restricted by GSA ADP Schedule Contract with IBM Corp. 
+#  
+# IBM_PROLOG_END_TAG 
+#
+# PAM Configuration File
+#
+# This file controls the PAM stacks for PAM enabled services.
+# The format of each entry is as follows:
+#
+# <service_name> <module_type> <control_flag> <module_path> [module_options]
+#
+# Where:
+#	<service_name> is:
+#		The name of the PAM enabled service.
+#
+# 	<module_type> is one of: 
+# 		auth, account, password, session
+#
+#	<control_flag> is one of: 
+#		required, requisite, sufficient, optional
+#
+#	<module_path> is:
+#		The path to the module. If the field does not begin with '/' 
+#		then /usr/lib/security/ is prefixed for 32-bit services,
+#		/usr/lib/security/64/ is prefixed for 64-bit services.
+#		If the module path is specified as full path,then it
+#		directly uses for 32-bit services, for 64-bit services
+#		module path derived as <module_path>/64/<module_name>.
+#
+#	[module_options] is:
+#		An optional field. Consult the specified modules documentation
+#		for valid options.
+#	
+# The service name OTHER controls the behavior of services that are PAM 
+# enabled but do not have an explicit entry in this file.
+#
+
+#
+# Authentication
+#
+authexec auth 	required 	pam_aix
+dtaction auth	required	pam_aix
+dtsession auth	required	pam_aix
+dtlogin	auth	required	pam_aix
+ftp	auth	required	pam_aix
+imap	auth	required	pam_aix
+login	auth	required	pam_aix
+rexec	auth	required	pam_aix
+rlogin	auth	sufficient	pam_rhosts_auth
+rlogin	auth	required	pam_aix
+rsh	auth	required	pam_rhosts_auth
+snapp	auth	required	pam_aix
+su	auth	sufficient	pam_allowroot
+su	auth	required	pam_aix
+swrole	auth	required	pam_aix
+telnet	auth	required	pam_aix
+xdm	auth	required	pam_aix
+OTHER	auth	required	pam_prohibit
+
+#
+# Account Management
+#
+authexec account required 	pam_aix
+dtlogin	account	required	pam_aix
+ftp	account	required	pam_aix
+login	account	required	pam_aix
+rexec	account	required	pam_aix
+rlogin	account	required	pam_aix
+rsh	account	required	pam_aix
+su	account	sufficient	pam_allowroot
+su	account	required	pam_aix
+swrole	account	required	pam_aix
+telnet	account	required	pam_aix
+xdm	account	required	pam_aix
+OTHER	account	required	pam_prohibit
+
+#
+# Password Management
+#
+authexec password  required 	pam_aix
+dtlogin	password  required	pam_aix
+login	password  required	pam_aix
+passwd	password  required	pam_aix
+rlogin	password  required	pam_aix
+su	password  required	pam_aix
+telnet	password  required	pam_aix
+xdm	password  required	pam_aix
+OTHER	password  required	pam_prohibit
+
+#
+# Session Management
+#
+dtlogin	session	required	pam_aix
+ftp	session	required	pam_aix
+imap	session	required	pam_aix
+login	session	required	pam_aix
+rexec	session	required	pam_aix
+rlogin	session	required	pam_aix
+rsh	session	required	pam_aix
+snapp	session	required	pam_aix
+su	session	required	pam_aix
+swrole	session	required	pam_aix
+telnet	session	required	pam_aix
+xdm	session	required	pam_aix
+OTHER	session	required	pam_prohibit
+wbem auth required /usr/lib/security/pam_aix
+wbem account required /usr/lib/security/pam_aix
+wbem password required /usr/lib/security/pam_aix
+wbem session required /usr/lib/security/pam_aix
+==== END Contents of /etc/pam.conf ====
+==== EXITED with rc 0 ====
+==== END fileprint /etc/pam.conf Tue Jul  7 00:15:24 GST 2015 ====

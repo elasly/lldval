@@ -1,0 +1,11 @@
+==== This output can be found in Systems/dx1010/perf/ipcs-mb.txt ====
+==== START ipcs -mb Tue Jul  7 13:15:23 CDT 2015 ====
+IPC status from /dev/mem as of Tue Jul  7 13:15:23 CDT 2015
+T        ID     KEY        MODE       OWNER    GROUP     SEGSZ
+Shared Memory:
+m  18874368 0x78000100 --rw-rw-rw-     root   system  33554432
+m  18874369 0x78100100 --rw-rw-rw-     root   system  33554432
+m  18874370 0x78000068 --rw-rw-rw-     root   system      2656
+m  17825795 0x7800038f --rw-rw-rw-     root   system 222696000
+==== EXITED with rc 0 ====
+==== END ipcs -mb Tue Jul  7 13:15:23 CDT 2015 ====

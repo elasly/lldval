@@ -1,0 +1,26 @@
+==== This output can be found in Systems/dx975/secure/trustchk-n_ALL.txt ====
+==== START trustchk -n ALL  Tue Jul  7 12:46:50 CDT 2015 ====
+trustchk: /etc/security/lastlog: Verification of attributes failed: group mode 
+trustchk: /usr/esa/sbin/esa_auth: Verification of attributes failed: accessauths innateprivs secflags 
+trustchk: /usr/esa/sbin/hmcControlled: Verification of attributes failed: accessauths innateprivs secflags 
+trustchk: /usr/esa/sbin/esa_awareness: Verification of attributes failed: mode 
+trustchk: /usr/sbin/chrepos: Verification of attributes failed: accessauths 
+trustchk: /usr/bin/rolelist: Verification of attributes failed: authprivs 
+trustchk: /etc/security/login.cfg: Verification of attributes failed: mode 
+trustchk: /etc/security/user: Verification of attributes failed: group mode 
+trustchk: /usr/esa/sbin/creatediag: Verification of attributes failed: accessauths innateprivs secflags 
+trustchk: /usr/lib/cluster/clstartstop: Verification of attributes failed: accessauths 
+trustchk: File or directory or device not existing: /etc/motd
+trustchk: Invalid Mode
+trustchk: /usr/ios/lpm/bin/migrlpar: Verification of attributes failed: mode 
+trustchk: /usr/sbin/lscluster: Verification of attributes failed: accessauths 
+trustchk: /etc/inetd.conf: Verification of attributes failed: mode 
+trustchk: /usr/lib/cluster/clo: Verification of attributes failed: accessauths 
+trustchk: /etc/snmpd.conf: Verification of attributes failed: mode 
+trustchk: /usr/bin/lsmpio: Verification of attributes failed: authprivs 
+trustchk: /etc/hosts: Verification of attributes failed: mode 
+trustchk: /etc/security/passwd: Verification of attributes failed: group mode 
+trustchk: /usr/esa/sbin/sa_snap: Verification of attributes failed: accessauths innateprivs inheritprivs secflags 
+trustchk: /usr/lib/boot/bootinfo.txt: Verification of attributes failed: size hashvalue signature 
+==== EXITED with rc 0 ====
+==== END trustchk -n ALL  Tue Jul  7 12:49:13 CDT 2015 ====

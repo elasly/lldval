@@ -1,0 +1,8 @@
+==== This output can be found in Systems/dx977/storage/lspath_grep_vscsi_awk_print_lspath-^AE-l_2-p_3_awk.txt ====
+==== START lspath | grep vscsi | awk '{print "lspath -AE -l " $2" -p "$3 ";"}'| awk -F";" '{print $1 ;system($1); print "\n"}' Tue Jul  7 00:20:17 GST 2015 ====
+lspath -AE -l hdisk740 -p vscsi0
+priority 1 Priority True
+
+
+==== EXITED with rc 0 ====
+==== END lspath | grep vscsi | awk '{print "lspath -AE -l " $2" -p "$3 ";"}'| awk -F";" '{print $1 ;system($1); print "\n"}' Tue Jul  7 00:20:17 GST 2015 ====

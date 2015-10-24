@@ -1,0 +1,13 @@
+==== This output can be found in Systems/dx986/emc/powermt_display.txt ====
+==== START powermt display Tue Jul  7 00:56:20 GST 2015 ====
+Symmetrix logical device count=82
+==============================================================================
+----- Host Bus Adapters ---------  ------ I/O Paths -----  ------ Stats ------
+###  HW Path                       Summary   Total   Dead  IO/Sec Q-IOs Errors
+==============================================================================
+   0 fscsi2                        optimal     164      0       -     0     72
+   1 fscsi0                        optimal     164      0       -     0     72
+   2 fscsi5                        degraded    164     36       -     2     36
+   3 fscsi6                        optimal     164      0       -     0     72
+==== EXITED with rc 0 ====
+==== END powermt display Tue Jul  7 00:56:20 GST 2015 ====

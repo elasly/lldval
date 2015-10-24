@@ -1,0 +1,43 @@
+==== This output can be found in Systems/dx975/os/ls-il_var.txt ====
+==== START ls -il /var Tue Jul  7 12:46:25 CDT 2015 ====
+total 40
+    5 drwxr-xr-x    7 bin      bin            4096 Oct 15 2014  LicenseUseManagement
+   26 drwxrwx---    2 root     adm             256 Mar  3 01:10 aacct
+   32 drwxrwxr-x   19 root     adm            4096 Jun 10 05:34 adm
+  163 dr-xr-xr-x    2 root     system          256 Mar 26 09:47 cim
+  166 drwxrwxr-x    5 bin      bin            4096 Apr  9 05:39 ct
+ 4164 drwxr-xr-x    4 bin      bin             256 Oct 15 2014  dt
+ 4170 drwxrwxr-x    4 root     system          256 Oct 15 2014  ecc
+ 4213 drwxr-xr-x    2 root     system          256 Oct 15 2014  ecpvdpd
+ 4214 drwxr-xr-x    2 root     system          256 Oct 15 2014  empty
+ 4215 drwxr-xr-x    8 root     system          256 Oct 15 2014  esa
+ 4244 drwxr-xr-x    6 root     system          256 Oct 15 2014  ha
+ 4250 drwxr-xr-x    3 root     system          256 Oct 15 2014  ibm
+ 4255 drwxr-xr-x    3 root     system          256 Oct 15 2014  idsldap
+ 4264 drwxrwxrwt    3 bin      bin            4096 Oct 15 2014  ifor
+ 4284 drwxr-xr-x    4 bin      bin             256 Oct 15 2014  lib
+ 4294 drwxrwxrwt    3 root     system          256 Jul  7 12:19 locks
+ 4304 drwxr-xr-x    5 bin      bin             256 Oct 15 2014  log
+    3 drwx------    2 root     system          256 Mar  2 01:02 lost+found
+ 4314 drwxrwxrwt    2 bin      bin             256 Oct 15 2014  msgs
+  225 lrwxrwxrwx    1 bin      bin               8 Mar  2 01:04 ncs -> /etc/ncs
+ 4315 drwxrwxrwt    2 bin      bin             256 Oct 15 2014  news
+ 4316 drwxr-xr-x    5 bin      bin             256 Oct 15 2014  opt
+36865 drwxr-xr-x   10 adm      adm             256 Oct 15 2014  perf
+36905 drwxrwxrwt    2 bin      bin             256 Oct 15 2014  preserve
+36906 dr-xr-xr-x    3 bin      bin             256 Oct 15 2014  probevue
+36908 drwxr-xr-x    2 bin      bin             256 Mar 26 09:47 run
+36910 drwxr-xr-x    2 root     system          256 Oct 15 2014  sea
+36912 dr-xr-x---    5 root     system          256 Oct 15 2014  security
+36919 drwxr-x---    2 root     snapp           256 Oct 15 2014  snapp
+36920 drwxrwxr-x   12 bin      bin            4096 Oct 15 2014  spool
+36972 drwxr-xr-x    3 root     system          256 Oct 15 2014  ssl
+21037 drwxr-xr-x    4 daemon   sys             256 Mar  3 02:37 statmon
+36982 drwxr-xr-x    5 bin      bin             256 Oct 15 2014  suma
+36987 drwxrwxrwt    2 bin      bin             256 Jul  7 12:46 tmp
+37056 drwxrwxr-x    3 root     system          256 Oct 15 2014  tss
+36995 drwxr-xr-x    5 root     system          256 Apr  9 05:40 vio
+37000 drwxrwxr-x    5 bin      bin             256 Oct 15 2014  websm
+45215 drwxr-xr-x    2 root     system          256 Oct 15 2014  yp
+==== EXITED with rc 0 ====
+==== END ls -il /var Tue Jul  7 12:46:25 CDT 2015 ====

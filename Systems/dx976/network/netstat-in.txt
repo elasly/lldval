@@ -1,0 +1,10 @@
+==== This output can be found in Systems/dx976/network/netstat-in.txt ====
+==== START netstat -in Tue Jul  7 13:03:59 CDT 2015 ====
+Name  Mtu   Network     Address           Ipkts Ierrs    Opkts Oerrs  Coll
+en14  1500  link#2      4a.64.d5.80.6d.a 20840770     0 15349604     0     0
+en14  1500  10.51.229   10.51.229.219    20840770     0 15349604     0     0
+lo0   16896 link#1                       16217370     0 16217471     0     0
+lo0   16896 127         127.0.0.1        16217370     0 16217471     0     0
+lo0   16896 ::1%1                        16217370     0 16217471     0     0
+==== EXITED with rc 0 ====
+==== END netstat -in Tue Jul  7 13:03:59 CDT 2015 ====

@@ -1,0 +1,436 @@
+==== This output can be found in Systems/dx975/network/lsdev-^C_egrep_en_0-9_tr_0-9_fi_0-9_awk_print_Netw.txt ====
+==== START lsdev -C | egrep "en[0-9]|tr[0-9]|fi[0-9]" | awk '{print "#### Network interface: " $1 " ####";system("lsattr -El " $1);print "############\n"}' Tue Jul  7 12:49:44 CDT 2015 ====
+#### Network interface: en0 ####
+alias4             IPv4 Alias including Subnet Mask              True
+alias6             IPv6 Alias including Prefix Length            True
+arp           on   Address Resolution Protocol (ARP)             True
+authority          Authorized Users                              True
+broadcast          Broadcast Address                             True
+monitor       off  Enable/Disable monitor attribute              True
+mtu           1500 Maximum IP Packet Size for This Device        True
+mtu_bypass    off  Enable/Disable largesend for virtual Ethernet True
+netaddr            Internet Address                              True
+netaddr6           IPv6 Internet Address                         True
+netmask            Subnet Mask                                   True
+prefixlen          Prefix Length for IPv6 Internet Address       True
+remmtu        576  Maximum IP Packet Size for REMOTE Networks    True
+rfc1323            Enable/Disable TCP RFC 1323 Window Scaling    True
+security      none Security Level                                True
+state         down Current Interface Status                      True
+tcp_mssdflt        Set TCP Maximum Segment Size                  True
+tcp_nodelay        Enable/Disable TCP_NODELAY Option             True
+tcp_recvspace      Set Socket Buffer Space for Receiving         True
+tcp_sendspace      Set Socket Buffer Space for Sending           True
+thread        off  Enable/Disable thread attribute               True
+############
+
+#### Network interface: en1 ####
+alias4             IPv4 Alias including Subnet Mask              True
+alias6             IPv6 Alias including Prefix Length            True
+arp           on   Address Resolution Protocol (ARP)             True
+authority          Authorized Users                              True
+broadcast          Broadcast Address                             True
+monitor       off  Enable/Disable monitor attribute              True
+mtu           1500 Maximum IP Packet Size for This Device        True
+mtu_bypass    off  Enable/Disable largesend for virtual Ethernet True
+netaddr            Internet Address                              True
+netaddr6           IPv6 Internet Address                         True
+netmask            Subnet Mask                                   True
+prefixlen          Prefix Length for IPv6 Internet Address       True
+remmtu        576  Maximum IP Packet Size for REMOTE Networks    True
+rfc1323            Enable/Disable TCP RFC 1323 Window Scaling    True
+security      none Security Level                                True
+state         down Current Interface Status                      True
+tcp_mssdflt        Set TCP Maximum Segment Size                  True
+tcp_nodelay        Enable/Disable TCP_NODELAY Option             True
+tcp_recvspace      Set Socket Buffer Space for Receiving         True
+tcp_sendspace      Set Socket Buffer Space for Sending           True
+thread        off  Enable/Disable thread attribute               True
+############
+
+#### Network interface: en2 ####
+alias4             IPv4 Alias including Subnet Mask              True
+alias6             IPv6 Alias including Prefix Length            True
+arp           on   Address Resolution Protocol (ARP)             True
+authority          Authorized Users                              True
+broadcast          Broadcast Address                             True
+monitor       off  Enable/Disable monitor attribute              True
+mtu           1500 Maximum IP Packet Size for This Device        True
+mtu_bypass    off  Enable/Disable largesend for virtual Ethernet True
+netaddr            Internet Address                              True
+netaddr6           IPv6 Internet Address                         True
+netmask            Subnet Mask                                   True
+prefixlen          Prefix Length for IPv6 Internet Address       True
+remmtu        576  Maximum IP Packet Size for REMOTE Networks    True
+rfc1323            Enable/Disable TCP RFC 1323 Window Scaling    True
+security      none Security Level                                True
+state         down Current Interface Status                      True
+tcp_mssdflt        Set TCP Maximum Segment Size                  True
+tcp_nodelay        Enable/Disable TCP_NODELAY Option             True
+tcp_recvspace      Set Socket Buffer Space for Receiving         True
+tcp_sendspace      Set Socket Buffer Space for Sending           True
+thread        off  Enable/Disable thread attribute               True
+############
+
+#### Network interface: en3 ####
+alias4             IPv4 Alias including Subnet Mask              True
+alias6             IPv6 Alias including Prefix Length            True
+arp           on   Address Resolution Protocol (ARP)             True
+authority          Authorized Users                              True
+broadcast          Broadcast Address                             True
+monitor       off  Enable/Disable monitor attribute              True
+mtu           1500 Maximum IP Packet Size for This Device        True
+mtu_bypass    off  Enable/Disable largesend for virtual Ethernet True
+netaddr            Internet Address                              True
+netaddr6           IPv6 Internet Address                         True
+netmask            Subnet Mask                                   True
+prefixlen          Prefix Length for IPv6 Internet Address       True
+remmtu        576  Maximum IP Packet Size for REMOTE Networks    True
+rfc1323            Enable/Disable TCP RFC 1323 Window Scaling    True
+security      none Security Level                                True
+state         down Current Interface Status                      True
+tcp_mssdflt        Set TCP Maximum Segment Size                  True
+tcp_nodelay        Enable/Disable TCP_NODELAY Option             True
+tcp_recvspace      Set Socket Buffer Space for Receiving         True
+tcp_sendspace      Set Socket Buffer Space for Sending           True
+thread        off  Enable/Disable thread attribute               True
+############
+
+#### Network interface: en4 ####
+alias4             IPv4 Alias including Subnet Mask              True
+alias6             IPv6 Alias including Prefix Length            True
+arp           on   Address Resolution Protocol (ARP)             True
+authority          Authorized Users                              True
+broadcast          Broadcast Address                             True
+monitor       off  Enable/Disable monitor attribute              True
+mtu           1500 Maximum IP Packet Size for This Device        True
+mtu_bypass    off  Enable/Disable largesend for virtual Ethernet True
+netaddr            Internet Address                              True
+netaddr6           IPv6 Internet Address                         True
+netmask            Subnet Mask                                   True
+prefixlen          Prefix Length for IPv6 Internet Address       True
+remmtu        576  Maximum IP Packet Size for REMOTE Networks    True
+rfc1323            Enable/Disable TCP RFC 1323 Window Scaling    True
+security      none Security Level                                True
+state         down Current Interface Status                      True
+tcp_mssdflt        Set TCP Maximum Segment Size                  True
+tcp_nodelay        Enable/Disable TCP_NODELAY Option             True
+tcp_recvspace      Set Socket Buffer Space for Receiving         True
+tcp_sendspace      Set Socket Buffer Space for Sending           True
+thread        off  Enable/Disable thread attribute               True
+############
+
+#### Network interface: en5 ####
+alias4             IPv4 Alias including Subnet Mask              True
+alias6             IPv6 Alias including Prefix Length            True
+arp           on   Address Resolution Protocol (ARP)             True
+authority          Authorized Users                              True
+broadcast          Broadcast Address                             True
+monitor       off  Enable/Disable monitor attribute              True
+mtu           1500 Maximum IP Packet Size for This Device        True
+mtu_bypass    off  Enable/Disable largesend for virtual Ethernet True
+netaddr            Internet Address                              True
+netaddr6           IPv6 Internet Address                         True
+netmask            Subnet Mask                                   True
+prefixlen          Prefix Length for IPv6 Internet Address       True
+remmtu        576  Maximum IP Packet Size for REMOTE Networks    True
+rfc1323            Enable/Disable TCP RFC 1323 Window Scaling    True
+security      none Security Level                                True
+state         down Current Interface Status                      True
+tcp_mssdflt        Set TCP Maximum Segment Size                  True
+tcp_nodelay        Enable/Disable TCP_NODELAY Option             True
+tcp_recvspace      Set Socket Buffer Space for Receiving         True
+tcp_sendspace      Set Socket Buffer Space for Sending           True
+thread        off  Enable/Disable thread attribute               True
+############
+
+#### Network interface: en6 ####
+alias4             IPv4 Alias including Subnet Mask              True
+alias6             IPv6 Alias including Prefix Length            True
+arp           on   Address Resolution Protocol (ARP)             True
+authority          Authorized Users                              True
+broadcast          Broadcast Address                             True
+monitor       off  Enable/Disable monitor attribute              True
+mtu           1500 Maximum IP Packet Size for This Device        True
+mtu_bypass    off  Enable/Disable largesend for virtual Ethernet True
+netaddr            Internet Address                              True
+netaddr6           IPv6 Internet Address                         True
+netmask            Subnet Mask                                   True
+prefixlen          Prefix Length for IPv6 Internet Address       True
+remmtu        576  Maximum IP Packet Size for REMOTE Networks    True
+rfc1323            Enable/Disable TCP RFC 1323 Window Scaling    True
+security      none Security Level                                True
+state         down Current Interface Status                      True
+tcp_mssdflt        Set TCP Maximum Segment Size                  True
+tcp_nodelay        Enable/Disable TCP_NODELAY Option             True
+tcp_recvspace      Set Socket Buffer Space for Receiving         True
+tcp_sendspace      Set Socket Buffer Space for Sending           True
+thread        off  Enable/Disable thread attribute               True
+############
+
+#### Network interface: en7 ####
+alias4             IPv4 Alias including Subnet Mask              True
+alias6             IPv6 Alias including Prefix Length            True
+arp           on   Address Resolution Protocol (ARP)             True
+authority          Authorized Users                              True
+broadcast          Broadcast Address                             True
+monitor       off  Enable/Disable monitor attribute              True
+mtu           1500 Maximum IP Packet Size for This Device        True
+mtu_bypass    off  Enable/Disable largesend for virtual Ethernet True
+netaddr            Internet Address                              True
+netaddr6           IPv6 Internet Address                         True
+netmask            Subnet Mask                                   True
+prefixlen          Prefix Length for IPv6 Internet Address       True
+remmtu        576  Maximum IP Packet Size for REMOTE Networks    True
+rfc1323            Enable/Disable TCP RFC 1323 Window Scaling    True
+security      none Security Level                                True
+state         down Current Interface Status                      True
+tcp_mssdflt        Set TCP Maximum Segment Size                  True
+tcp_nodelay        Enable/Disable TCP_NODELAY Option             True
+tcp_recvspace      Set Socket Buffer Space for Receiving         True
+tcp_sendspace      Set Socket Buffer Space for Sending           True
+thread        off  Enable/Disable thread attribute               True
+############
+
+#### Network interface: en8 ####
+alias4             IPv4 Alias including Subnet Mask              True
+alias6             IPv6 Alias including Prefix Length            True
+arp           on   Address Resolution Protocol (ARP)             True
+authority          Authorized Users                              True
+broadcast          Broadcast Address                             True
+monitor       off  Enable/Disable monitor attribute              True
+mtu           1500 Maximum IP Packet Size for This Device        True
+mtu_bypass    off  Enable/Disable largesend for virtual Ethernet True
+netaddr            Internet Address                              True
+netaddr6           IPv6 Internet Address                         True
+netmask            Subnet Mask                                   True
+prefixlen          Prefix Length for IPv6 Internet Address       True
+remmtu        576  Maximum IP Packet Size for REMOTE Networks    True
+rfc1323            Enable/Disable TCP RFC 1323 Window Scaling    True
+security      none Security Level                                True
+state         down Current Interface Status                      True
+tcp_mssdflt        Set TCP Maximum Segment Size                  True
+tcp_nodelay        Enable/Disable TCP_NODELAY Option             True
+tcp_recvspace      Set Socket Buffer Space for Receiving         True
+tcp_sendspace      Set Socket Buffer Space for Sending           True
+thread        off  Enable/Disable thread attribute               True
+############
+
+#### Network interface: en9 ####
+alias4             IPv4 Alias including Subnet Mask              True
+alias6             IPv6 Alias including Prefix Length            True
+arp           on   Address Resolution Protocol (ARP)             True
+authority          Authorized Users                              True
+broadcast          Broadcast Address                             True
+monitor       off  Enable/Disable monitor attribute              True
+mtu           1500 Maximum IP Packet Size for This Device        True
+mtu_bypass    off  Enable/Disable largesend for virtual Ethernet True
+netaddr            Internet Address                              True
+netaddr6           IPv6 Internet Address                         True
+netmask            Subnet Mask                                   True
+prefixlen          Prefix Length for IPv6 Internet Address       True
+remmtu        576  Maximum IP Packet Size for REMOTE Networks    True
+rfc1323            Enable/Disable TCP RFC 1323 Window Scaling    True
+security      none Security Level                                True
+state         down Current Interface Status                      True
+tcp_mssdflt        Set TCP Maximum Segment Size                  True
+tcp_nodelay        Enable/Disable TCP_NODELAY Option             True
+tcp_recvspace      Set Socket Buffer Space for Receiving         True
+tcp_sendspace      Set Socket Buffer Space for Sending           True
+thread        off  Enable/Disable thread attribute               True
+############
+
+#### Network interface: en10 ####
+alias4             IPv4 Alias including Subnet Mask              True
+alias6             IPv6 Alias including Prefix Length            True
+arp           on   Address Resolution Protocol (ARP)             True
+authority          Authorized Users                              True
+broadcast          Broadcast Address                             True
+monitor       off  Enable/Disable monitor attribute              True
+mtu           1500 Maximum IP Packet Size for This Device        True
+mtu_bypass    off  Enable/Disable largesend for virtual Ethernet True
+netaddr            Internet Address                              True
+netaddr6           IPv6 Internet Address                         True
+netmask            Subnet Mask                                   True
+prefixlen          Prefix Length for IPv6 Internet Address       True
+remmtu        576  Maximum IP Packet Size for REMOTE Networks    True
+rfc1323            Enable/Disable TCP RFC 1323 Window Scaling    True
+security      none Security Level                                True
+state         down Current Interface Status                      True
+tcp_mssdflt        Set TCP Maximum Segment Size                  True
+tcp_nodelay        Enable/Disable TCP_NODELAY Option             True
+tcp_recvspace      Set Socket Buffer Space for Receiving         True
+tcp_sendspace      Set Socket Buffer Space for Sending           True
+thread        off  Enable/Disable thread attribute               True
+############
+
+#### Network interface: en11 ####
+alias4             IPv4 Alias including Subnet Mask              True
+alias6             IPv6 Alias including Prefix Length            True
+arp           on   Address Resolution Protocol (ARP)             True
+authority          Authorized Users                              True
+broadcast          Broadcast Address                             True
+monitor       off  Enable/Disable monitor attribute              True
+mtu           1500 Maximum IP Packet Size for This Device        True
+mtu_bypass    off  Enable/Disable largesend for virtual Ethernet True
+netaddr            Internet Address                              True
+netaddr6           IPv6 Internet Address                         True
+netmask            Subnet Mask                                   True
+prefixlen          Prefix Length for IPv6 Internet Address       True
+remmtu        576  Maximum IP Packet Size for REMOTE Networks    True
+rfc1323            Enable/Disable TCP RFC 1323 Window Scaling    True
+security      none Security Level                                True
+state         down Current Interface Status                      True
+tcp_mssdflt        Set TCP Maximum Segment Size                  True
+tcp_nodelay        Enable/Disable TCP_NODELAY Option             True
+tcp_recvspace      Set Socket Buffer Space for Receiving         True
+tcp_sendspace      Set Socket Buffer Space for Sending           True
+thread        off  Enable/Disable thread attribute               True
+############
+
+#### Network interface: en12 ####
+alias4             IPv4 Alias including Subnet Mask              True
+alias6             IPv6 Alias including Prefix Length            True
+arp           on   Address Resolution Protocol (ARP)             True
+authority          Authorized Users                              True
+broadcast          Broadcast Address                             True
+monitor       off  Enable/Disable monitor attribute              True
+mtu           1500 Maximum IP Packet Size for This Device        True
+mtu_bypass    off  Enable/Disable largesend for virtual Ethernet True
+netaddr            Internet Address                              True
+netaddr6           IPv6 Internet Address                         True
+netmask            Subnet Mask                                   True
+prefixlen          Prefix Length for IPv6 Internet Address       True
+remmtu        576  Maximum IP Packet Size for REMOTE Networks    True
+rfc1323            Enable/Disable TCP RFC 1323 Window Scaling    True
+security      none Security Level                                True
+state         down Current Interface Status                      True
+tcp_mssdflt        Set TCP Maximum Segment Size                  True
+tcp_nodelay        Enable/Disable TCP_NODELAY Option             True
+tcp_recvspace      Set Socket Buffer Space for Receiving         True
+tcp_sendspace      Set Socket Buffer Space for Sending           True
+thread        off  Enable/Disable thread attribute               True
+############
+
+#### Network interface: en13 ####
+alias4             IPv4 Alias including Subnet Mask              True
+alias6             IPv6 Alias including Prefix Length            True
+arp           on   Address Resolution Protocol (ARP)             True
+authority          Authorized Users                              True
+broadcast          Broadcast Address                             True
+monitor       off  Enable/Disable monitor attribute              True
+mtu           1500 Maximum IP Packet Size for This Device        True
+mtu_bypass    off  Enable/Disable largesend for virtual Ethernet True
+netaddr            Internet Address                              True
+netaddr6           IPv6 Internet Address                         True
+netmask            Subnet Mask                                   True
+prefixlen          Prefix Length for IPv6 Internet Address       True
+remmtu        576  Maximum IP Packet Size for REMOTE Networks    True
+rfc1323            Enable/Disable TCP RFC 1323 Window Scaling    True
+security      none Security Level                                True
+state         down Current Interface Status                      True
+tcp_mssdflt        Set TCP Maximum Segment Size                  True
+tcp_nodelay        Enable/Disable TCP_NODELAY Option             True
+tcp_recvspace      Set Socket Buffer Space for Receiving         True
+tcp_sendspace      Set Socket Buffer Space for Sending           True
+thread        off  Enable/Disable thread attribute               True
+############
+
+#### Network interface: en14 ####
+alias4                      IPv4 Alias including Subnet Mask              True
+alias6                      IPv6 Alias including Prefix Length            True
+arp           on            Address Resolution Protocol (ARP)             True
+authority                   Authorized Users                              True
+broadcast                   Broadcast Address                             True
+monitor       off           Enable/Disable monitor attribute              True
+mtu           1500          Maximum IP Packet Size for This Device        True
+mtu_bypass    off           Enable/Disable largesend for virtual Ethernet True
+netaddr       10.51.229.218 Internet Address                              True
+netaddr6                    IPv6 Internet Address                         True
+netmask       225.255.255.0 Subnet Mask                                   True
+prefixlen                   Prefix Length for IPv6 Internet Address       True
+remmtu        576           Maximum IP Packet Size for REMOTE Networks    True
+rfc1323                     Enable/Disable TCP RFC 1323 Window Scaling    True
+security      none          Security Level                                True
+state         up            Current Interface Status                      True
+tcp_mssdflt                 Set TCP Maximum Segment Size                  True
+tcp_nodelay                 Enable/Disable TCP_NODELAY Option             True
+tcp_recvspace               Set Socket Buffer Space for Receiving         True
+tcp_sendspace               Set Socket Buffer Space for Sending           True
+thread        off           Enable/Disable thread attribute               True
+############
+
+#### Network interface: en15 ####
+alias4             IPv4 Alias including Subnet Mask              True
+alias6             IPv6 Alias including Prefix Length            True
+arp           on   Address Resolution Protocol (ARP)             True
+authority          Authorized Users                              True
+broadcast          Broadcast Address                             True
+monitor       off  Enable/Disable monitor attribute              True
+mtu           1500 Maximum IP Packet Size for This Device        True
+mtu_bypass    off  Enable/Disable largesend for virtual Ethernet True
+netaddr            Internet Address                              True
+netaddr6           IPv6 Internet Address                         True
+netmask            Subnet Mask                                   True
+prefixlen          Prefix Length for IPv6 Internet Address       True
+remmtu        576  Maximum IP Packet Size for REMOTE Networks    True
+rfc1323            Enable/Disable TCP RFC 1323 Window Scaling    True
+security      none Security Level                                True
+state         down Current Interface Status                      True
+tcp_mssdflt        Set TCP Maximum Segment Size                  True
+tcp_nodelay        Enable/Disable TCP_NODELAY Option             True
+tcp_recvspace      Set Socket Buffer Space for Receiving         True
+tcp_sendspace      Set Socket Buffer Space for Sending           True
+thread        off  Enable/Disable thread attribute               True
+############
+
+#### Network interface: en16 ####
+alias4             IPv4 Alias including Subnet Mask              True
+alias6             IPv6 Alias including Prefix Length            True
+arp           on   Address Resolution Protocol (ARP)             True
+authority          Authorized Users                              True
+broadcast          Broadcast Address                             True
+monitor       off  Enable/Disable monitor attribute              True
+mtu           1500 Maximum IP Packet Size for This Device        True
+mtu_bypass    off  Enable/Disable largesend for virtual Ethernet True
+netaddr            Internet Address                              True
+netaddr6           IPv6 Internet Address                         True
+netmask            Subnet Mask                                   True
+prefixlen          Prefix Length for IPv6 Internet Address       True
+remmtu        576  Maximum IP Packet Size for REMOTE Networks    True
+rfc1323            Enable/Disable TCP RFC 1323 Window Scaling    True
+security      none Security Level                                True
+state         down Current Interface Status                      True
+tcp_mssdflt        Set TCP Maximum Segment Size                  True
+tcp_nodelay        Enable/Disable TCP_NODELAY Option             True
+tcp_recvspace      Set Socket Buffer Space for Receiving         True
+tcp_sendspace      Set Socket Buffer Space for Sending           True
+thread        off  Enable/Disable thread attribute               True
+############
+
+#### Network interface: en17 ####
+alias4             IPv4 Alias including Subnet Mask              True
+alias6             IPv6 Alias including Prefix Length            True
+arp           on   Address Resolution Protocol (ARP)             True
+authority          Authorized Users                              True
+broadcast          Broadcast Address                             True
+monitor       off  Enable/Disable monitor attribute              True
+mtu           1500 Maximum IP Packet Size for This Device        True
+mtu_bypass    off  Enable/Disable largesend for virtual Ethernet True
+netaddr            Internet Address                              True
+netaddr6           IPv6 Internet Address                         True
+netmask            Subnet Mask                                   True
+prefixlen          Prefix Length for IPv6 Internet Address       True
+remmtu        576  Maximum IP Packet Size for REMOTE Networks    True
+rfc1323            Enable/Disable TCP RFC 1323 Window Scaling    True
+security      none Security Level                                True
+state         down Current Interface Status                      True
+tcp_mssdflt        Set TCP Maximum Segment Size                  True
+tcp_nodelay        Enable/Disable TCP_NODELAY Option             True
+tcp_recvspace      Set Socket Buffer Space for Receiving         True
+tcp_sendspace      Set Socket Buffer Space for Sending           True
+thread        off  Enable/Disable thread attribute               True
+############
+
+==== EXITED with rc 0 ====
+==== END lsdev -C | egrep "en[0-9]|tr[0-9]|fi[0-9]" | awk '{print "#### Network interface: " $1 " ####";system("lsattr -El " $1);print "############\n"}' Tue Jul  7 12:49:45 CDT 2015 ====

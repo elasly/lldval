@@ -1,0 +1,10 @@
+==== This output can be found in Systems/dx1010/network/netstat-i.txt ====
+==== START netstat -i Tue Jul  7 13:13:39 CDT 2015 ====
+Name  Mtu   Network     Address           Ipkts Ierrs    Opkts Oerrs  Coll
+en14  1500  link#2      6e.99.92.69.b7.a 18129206     0 43900850     0     0
+en14  1500  10.51.229   DX1010           18129206     0 43900850     0     0
+lo0   16896 link#1                       19738755     0 19738841     0     0
+lo0   16896 127         loopback         19738755     0 19738841     0     0
+lo0   16896 ::1%1                        19738755     0 19738841     0     0
+==== EXITED with rc 0 ====
+==== END netstat -i Tue Jul  7 13:13:39 CDT 2015 ====

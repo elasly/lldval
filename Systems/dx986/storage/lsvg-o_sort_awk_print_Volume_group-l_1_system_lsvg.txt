@@ -1,0 +1,110 @@
+==== This output can be found in Systems/dx986/storage/lsvg-o_sort_awk_print_Volume_group-l_1_system_lsvg.txt ====
+==== START lsvg -o |sort|awk '{print "#### Volume group -l: " $1 " ####";system("lsvg -l " $1 ); print "\n"}' Tue Jul  7 00:56:13 GST 2015 ====
+#### Volume group -l: arch1vg ####
+arch1vg:
+LV NAME             TYPE       LPs     PPs     PVs  LV STATE      MOUNT POINT
+R1_arch1lv          jfs2       4091    4091    8    open/syncd    /nessdb_arclog1
+R1_arch2lv          jfs2       4091    4091    8    open/syncd    /nessdb_arclog2
+
+
+#### Volume group -l: bctvg ####
+bctvg:
+LV NAME             TYPE       LPs     PPs     PVs  LV STATE      MOUNT POINT
+bctlv               jfs2       38      38      1    open/syncd    /nessdb_bct
+loglv01             jfs2log    1       1       1    open/syncd    N/A
+
+
+#### Volume group -l: bkp1vg ####
+bkp1vg:
+LV NAME             TYPE       LPs     PPs     PVs  LV STATE      MOUNT POINT
+R6_bkplv            jfs2       17613   17613   18   open/syncd    /nessdb_bkp
+
+
+#### Volume group -l: bkp2vg ####
+bkp2vg:
+LV NAME             TYPE       LPs     PPs     PVs  LV STATE      MOUNT POINT
+R6_bkp1lv           jfs2       10200   10200   10   open/syncd    /nessdb_bkp1
+
+
+#### Volume group -l: caavg_private ####
+caavg_private:
+LV NAME             TYPE       LPs     PPs     PVs  LV STATE      MOUNT POINT
+caalv_private1      boot       1       1       1    closed/syncd  N/A
+caalv_private2      boot       1       1       1    closed/syncd  N/A
+caalv_private3      boot       4       4       1    open/syncd    N/A
+powerha_crlv        boot       1       1       1    closed/syncd  N/A
+
+
+#### Volume group -l: ctrl1vg ####
+ctrl1vg:
+LV NAME             TYPE       LPs     PPs     PVs  LV STATE      MOUNT POINT
+R1_ctrl1lv          jfs2       10170   10170   3    open/syncd    /nessdb_ctrl1
+R1_ctrl2lv          jfs2       10170   10170   3    open/syncd    /nessdb_ctrl2
+R1_ctrl3lv          jfs2       10170   10170   3    open/syncd    /nessdb_ctrl3
+
+
+#### Volume group -l: data1vg ####
+data1vg:
+LV NAME             TYPE       LPs     PPs     PVs  LV STATE      MOUNT POINT
+R1_data1lv          jfs2       281805  281805  18   open/syncd    /nessdb_data1
+
+
+#### Volume group -l: flash1vg ####
+flash1vg:
+LV NAME             TYPE       LPs     PPs     PVs  LV STATE      MOUNT POINT
+R1_flashlv          jfs2       1593    1593    2    open/syncd    /nessdb_flash
+
+
+#### Volume group -l: indx1vg ####
+indx1vg:
+LV NAME             TYPE       LPs     PPs     PVs  LV STATE      MOUNT POINT
+R1_indx1lv          jfs2       117965  117965  8    open/syncd    /nessdb_index1
+
+
+#### Volume group -l: oravg ####
+oravg:
+LV NAME             TYPE       LPs     PPs     PVs  LV STATE      MOUNT POINT
+R5_baselv           jfs2       3200    3200    6    open/syncd    /nessdb_base
+R5_stagelv          jfs2       1590    1590    6    open/syncd    /nessdb_stage
+R5_syslv            jfs2       1590    1590    2    open/syncd    /nessdb_sys
+
+
+#### Volume group -l: redo1vg ####
+redo1vg:
+LV NAME             TYPE       LPs     PPs     PVs  LV STATE      MOUNT POINT
+R1_redo1lv          jfs2       3821    3821    2    open/syncd    /nessdb_redo1
+R1_redo2lv          jfs2       3821    3821    2    open/syncd    /nessdb_redo2
+
+
+#### Volume group -l: rootvg ####
+rootvg:
+LV NAME             TYPE       LPs     PPs     PVs  LV STATE      MOUNT POINT
+hd5                 boot       1       1       1    closed/syncd  N/A
+hd6                 paging     12      12      1    open/syncd    N/A
+hd8                 jfs2log    1       1       1    open/syncd    N/A
+hd4                 jfs2       20      20      1    open/syncd    /
+hd2                 jfs2       30      30      1    open/syncd    /usr
+hd9var              jfs2       40      40      1    open/syncd    /var
+hd3                 jfs2       30      30      1    open/syncd    /tmp
+hd1                 jfs2       20      20      1    open/syncd    /home
+hd10opt             jfs2       50      50      1    open/syncd    /opt
+hd11admin           jfs2       4       4       1    open/syncd    /admin
+lg_dumplv           sysdump    8       8       1    open/syncd    N/A
+livedump            jfs2       1       1       1    open/syncd    /var/adm/ras/livedump
+perfdatalv          jfs2       10      10      1    open/syncd    /perfdata
+
+
+#### Volume group -l: temp1vg ####
+temp1vg:
+LV NAME             TYPE       LPs     PPs     PVs  LV STATE      MOUNT POINT
+R1_templv           jfs2       8000    8000    2    open/syncd    /nessdb_temp
+
+
+#### Volume group -l: undo1vg ####
+undo1vg:
+LV NAME             TYPE       LPs     PPs     PVs  LV STATE      MOUNT POINT
+R5_undolv           jfs2       8000    8000    2    open/syncd    /nessdb_undo
+
+
+==== EXITED with rc 0 ====
+==== END lsvg -o |sort|awk '{print "#### Volume group -l: " $1 " ####";system("lsvg -l " $1 ); print "\n"}' Tue Jul  7 00:56:16 GST 2015 ====

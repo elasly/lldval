@@ -1,0 +1,32 @@
+==== This output can be found in Systems/dx986/storage/lsvg_sort_awk_print_system_ls-l_dev_1.txt ====
+==== START lsvg |sort|awk '{print "";system("ls -l /dev/"$1 )}' Tue Jul  7 00:56:09 GST 2015 ====
+
+crw-rw----    1 root     system       54,  0 May  7 19:39 /dev/arch1vg
+
+crw-rw----    1 root     system       60,  0 Jun 15 10:23 /dev/bctvg
+
+crw-rw----    1 root     system       49,  0 Apr 21 13:04 /dev/bkp1vg
+
+crw-rw----    1 root     system       51,  0 Apr 26 20:45 /dev/bkp2vg
+
+crw-rw----    1 root     system       40,  0 Apr 20 09:51 /dev/caavg_private
+
+crw-rw----    1 root     system       55,  0 May  7 19:33 /dev/ctrl1vg
+
+crw-rw----    1 root     system       52,  0 May  7 19:36 /dev/data1vg
+
+crw-rw----    1 root     system       58,  0 May  7 19:40 /dev/flash1vg
+
+crw-rw----    1 root     system       53,  0 May  7 19:37 /dev/indx1vg
+
+crw-rw----    1 root     system       50,  0 Apr 21 13:02 /dev/oravg
+
+crw-rw----    1 root     system       56,  0 May  7 19:41 /dev/redo1vg
+
+crw-rw----    1 root     system       10,  0 Apr 19 16:03 /dev/rootvg
+
+crw-rw----    1 root     system       57,  0 May  7 19:39 /dev/temp1vg
+
+crw-rw----    1 root     system       59,  0 May  7 19:40 /dev/undo1vg
+==== EXITED with rc 0 ====
+==== END lsvg |sort|awk '{print "";system("ls -l /dev/"$1 )}' Tue Jul  7 00:56:09 GST 2015 ====

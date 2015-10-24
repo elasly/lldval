@@ -1,0 +1,32 @@
+Running /tmp/pcat/pcat/./pcat-os.sh version 4.2.2 on dx980 for OS aix
+Enabling extensions in /tmp/pcat/pcat/./aa-aix-ext.sh /tmp/pcat/pcat/./aa-aix-ext.sh
+Using command sets found in  "/tmp/pcat/pcat/./aa-cmds.txt" "/tmp/pcat/pcat/./aa-aix-cmds.txt"
+List of analysis categories:
+	ext/net		2 commands (skipped)
+	ext/perf		2 commands (skipped)
+	ext/rsct		1 commands (skipped)
+	CAA		11 commands
+	EMC		5 commands
+	HA		69 commands
+	HDS		9 commands (skipped)
+	HMC		4 commands
+	OS		152 commands
+	TSA		17 commands (skipped)
+	TSM		23 commands (skipped)
+	VCS		13 commands (skipped)
+	VxSF		8 commands (skipped)
+	WPAR		3 commands (skipped)
+	XIV		1 commands (skipped)
+	gpfs		33 commands (skipped)
+	hw		22 commands
+	network		44 commands
+	perf		46 commands
+	secure		47 commands
+	storage		51 commands
+	vio		25 commands (skipped)
+	zsecure		3 commands (skipped)
+	TOTAL		589 commands
+	(most of these take about seconds or up to a minute each depending on system load and command used)
+Beginning aix host data collection for aa on dx980 at Mon Jul  6 23:12:40 GST 2015
+Ending aix host data collection for dx980 at Mon Jul  6 23:24:54 GST 2015
+Log of this output can be found in Systems/dx980/pcat-os_sh-out.txt

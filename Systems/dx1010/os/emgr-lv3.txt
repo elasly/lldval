@@ -1,0 +1,597 @@
+==== This output can be found in Systems/dx1010/os/emgr-lv3.txt ====
+==== START emgr -lv3 Tue Jul  7 13:13:43 CDT 2015 ====
++-----------------------------------------------------------------------------+
+EFIX ID: 1
+EFIX LABEL: rsctvios2
++-----------------------------------------------------------------------------+
+LABEL:                  rsctvios2
+STATE:                  STABLE
+UPDATED BY:             
+ABSTRACT:               RSCT fixes for VIOS
+VUID:                   00008EED4C00022008023715
+PACKAGER VERSION:       7
+INSTALL DATE:           04/09/15 04:16:03
+EPKG VERSION:           7
+REBOOT REQUIRED:        no
+BUILD BOOT IMAGE:       no
+PACKAGE LOCKS:          no
+SUPERSEDE:              no
+INSTALLP PREREQUISITES: yes
+E2E PREREQUISITES:      no
+FIX TESTED:             no
+FILES:                  18
+
+Install Scripts
+===============
+PRE_INSTALL:            yes
+POST_INSTALL:           yes
+PRE_REMOVE:             yes
+POST_REMOVE:            yes
+
+FILE NUMBER:      1
+   LOCATION:      /usr/sbin/rsct/bin/IBM.ConfigRMd
+   FILE TYPE:     Standard (file or executable)
+   INSTALLER:     installp
+   SIZE:          27808
+   CKSUM:         26770
+   ACL:           DEFAULT
+   PACKAGE:       rsct.core.rmc
+   MOUNT INST:    no
+
+FILE NUMBER:      2
+   LOCATION:      /usr/sbin/rsct/bin/IBM.MgmtDomainRMd
+   FILE TYPE:     Standard (file or executable)
+   INSTALLER:     installp
+   SIZE:          4032
+   CKSUM:         20189
+   ACL:           DEFAULT
+   PACKAGE:       rsct.core.rmc
+   MOUNT INST:    no
+
+FILE NUMBER:      3
+   LOCATION:      /usr/sbin/rsct/bin/RMstart
+   FILE TYPE:     Standard (file or executable)
+   INSTALLER:     installp
+   SIZE:          32
+   CKSUM:         08706
+   ACL:           DEFAULT
+   PACKAGE:       rsct.core.rmc
+   MOUNT INST:    no
+
+FILE NUMBER:      4
+   LOCATION:      /usr/sbin/rsct/bin/RMstop
+   FILE TYPE:     Standard (file or executable)
+   INSTALLER:     installp
+   SIZE:          32
+   CKSUM:         45968
+   ACL:           DEFAULT
+   PACKAGE:       rsct.core.rmc
+   MOUNT INST:    no
+
+FILE NUMBER:      5
+   LOCATION:      /usr/sbin/rsct/bin/ct_node_runstate
+   FILE TYPE:     Standard (file or executable)
+   INSTALLER:     installp
+   SIZE:          32
+   CKSUM:         20237
+   ACL:           DEFAULT
+   PACKAGE:       rsct.core.rmc
+   MOUNT INST:    no
+
+FILE NUMBER:      6
+   LOCATION:      /usr/sbin/rsct/bin/ctcaactrl
+   FILE TYPE:     Standard (file or executable)
+   INSTALLER:     installp
+   SIZE:          192
+   CKSUM:         17586
+   ACL:           DEFAULT
+   PACKAGE:       rsct.basic.rte
+   MOUNT INST:    no
+
+FILE NUMBER:      7
+   LOCATION:      /usr/sbin/rsct/bin/partitionStatusChangeEvent
+   FILE TYPE:     Standard (file or executable)
+   INSTALLER:     installp
+   SIZE:          32
+   CKSUM:         18807
+   ACL:           DEFAULT
+   PACKAGE:       rsct.core.rmc
+   MOUNT INST:    no
+
+FILE NUMBER:      8
+   LOCATION:      /usr/sbin/rsct/bin/rmcd
+   FILE TYPE:     Standard (file or executable)
+   INSTALLER:     installp
+   SIZE:          6656
+   CKSUM:         63504
+   ACL:           DEFAULT
+   PACKAGE:       rsct.core.rmc
+   MOUNT INST:    no
+
+FILE NUMBER:      9
+   LOCATION:      /usr/sbin/rsct/bin/rmcd_start
+   FILE TYPE:     Standard (file or executable)
+   INSTALLER:     installp
+   SIZE:          32
+   CKSUM:         07482
+   ACL:           DEFAULT
+   PACKAGE:       rsct.core.rmc
+   MOUNT INST:    no
+
+FILE NUMBER:      10
+   LOCATION:      /usr/sbin/rsct/install/bin/uncfgct
+   FILE TYPE:     Standard (file or executable)
+   INSTALLER:     installp
+   SIZE:          32
+   CKSUM:         16705
+   ACL:           DEFAULT
+   PACKAGE:       rsct.core.rmc
+   MOUNT INST:    no
+
+FILE NUMBER:      11
+   LOCATION:      /usr/sbin/rsct/lib/libct_ffdc.a
+   FILE TYPE:     Standard (file or executable)
+   INSTALLER:     installp
+   SIZE:          1120
+   CKSUM:         20456
+   ACL:           DEFAULT
+   PACKAGE:       rsct.core.utils
+   MOUNT INST:    no
+
+FILE NUMBER:      12
+   LOCATION:      /usr/sbin/rsct/lib/libct_idm.a
+   FILE TYPE:     Standard (file or executable)
+   INSTALLER:     installp
+   SIZE:          1376
+   CKSUM:         48898
+   ACL:           DEFAULT
+   PACKAGE:       rsct.core.sec
+   MOUNT INST:    no
+
+FILE NUMBER:      13
+   LOCATION:      /usr/sbin/rsct/lib/libct_mss.a
+   FILE TYPE:     Standard (file or executable)
+   INSTALLER:     installp
+   SIZE:          8256
+   CKSUM:         23575
+   ACL:           DEFAULT
+   PACKAGE:       rsct.core.sec
+   MOUNT INST:    no
+
+FILE NUMBER:      14
+   LOCATION:      /usr/sbin/rsct/lib/libct_prm.a
+   FILE TYPE:     Standard (file or executable)
+   INSTALLER:     installp
+   SIZE:          4864
+   CKSUM:         43458
+   ACL:           DEFAULT
+   PACKAGE:       rsct.core.utils
+   MOUNT INST:    no
+
+FILE NUMBER:      15
+   LOCATION:      /usr/sbin/rsct/lib/libhb_client.a
+   FILE TYPE:     Standard (file or executable)
+   INSTALLER:     installp
+   SIZE:          1536
+   CKSUM:         09736
+   ACL:           DEFAULT
+   PACKAGE:       rsct.basic.rte
+   MOUNT INST:    no
+
+FILE NUMBER:      16
+   LOCATION:      /usr/sbin/rsct/trctmplts/_MCD.tpl
+   FILE TYPE:     Standard (file or executable)
+   INSTALLER:     installp
+   SIZE:          192
+   CKSUM:         08776
+   ACL:           DEFAULT
+   PACKAGE:       rsct.core.rmc
+   MOUNT INST:    no
+
+FILE NUMBER:      17
+   LOCATION:      /usr/sbin/rsct/trctmplts/_MDD.tpl
+   FILE TYPE:     Standard (file or executable)
+   INSTALLER:     installp
+   SIZE:          32
+   CKSUM:         63412
+   ACL:           DEFAULT
+   PACKAGE:       rsct.core.rmc
+   MOUNT INST:    no
+
+FILE NUMBER:      18
+   LOCATION:      /usr/sbin/rsct/trctmplts/_PRM.tpl
+   FILE TYPE:     Standard (file or executable)
+   INSTALLER:     installp
+   SIZE:          96
+   CKSUM:         38659
+   ACL:           DEFAULT
+   PACKAGE:       rsct.core.utils
+   MOUNT INST:    no
+
+Installp Prerequisite Information:
+==================================
+PREREQUISITE NUM:      1
+   FILESET:            rsct.core.rmc
+   MINIMAL LEVEL:      3.2.0.0
+   MAXIMUM LEVEL:      3.2.0.0
+   TYPE:               PREREQ
+   LEVEL AT INSTALL:   3.2.0.0
+
+PREREQUISITE NUM:      2
+   FILESET:            rsct.core.sec
+   MINIMAL LEVEL:      3.2.0.0
+   MAXIMUM LEVEL:      3.2.0.0
+   TYPE:               PREREQ
+   LEVEL AT INSTALL:   3.2.0.0
+
+PREREQUISITE NUM:      3
+   FILESET:            rsct.core.utils
+   MINIMAL LEVEL:      3.2.0.0
+   MAXIMUM LEVEL:      3.2.0.0
+   TYPE:               PREREQ
+   LEVEL AT INSTALL:   3.2.0.0
+
+Efix to Efix Prerequisite Information:
+======================================
+No efix to efix prerequisites data.
+
+Description:
+============
+Efix for VIOS clusters at RSCT 3.2.0.0
+
+Includes various internal fixes between RSCT 3.2.0.0 and 3.2.0.5, plus:
+
+  * IV65648 "EXTERNAL PACKET CUSTOMIZATION IN RMC NOT WORKING WITH OLD HMCS"
+            - fixed in rsct.core.rmc 3.2.0.1
+
+  * IV66651 "IBM.MGMTDOMAINRM DEFAULT FILE GROWS TOO LARGE"
+            - fixed in rsct.core.rmc 3.2.0.4
+
+  * IV66606 "NODE DOWN IN CAA CLUSTER DUE TO CONFIGRM MEMORY LEAK"
+
+
+
+Delivery object:
+/usr/sbin/rsct/bin/IBM.ConfigRMd
+/usr/sbin/rsct/bin/IBM.MgmtDomainRMd
+/usr/sbin/rsct/bin/RMstart
+/usr/sbin/rsct/bin/RMstop
+/usr/sbin/rsct/bin/ct_node_runstate
+/usr/sbin/rsct/bin/ctcaactrl
+/usr/sbin/rsct/bin/partitionStatusChangeEvent
+/usr/sbin/rsct/bin/rmcd
+/usr/sbin/rsct/bin/rmcd_start
+/usr/sbin/rsct/install/bin/uncfgct
+/usr/sbin/rsct/lib/libct_ffdc.a
+/usr/sbin/rsct/lib/libct_idm.a
+/usr/sbin/rsct/lib/libct_mss.a
+/usr/sbin/rsct/lib/libct_prm.a
+/usr/sbin/rsct/lib/libhb_client.a
+/usr/sbin/rsct/trctmplts/_MCD.tpl
+/usr/sbin/rsct/trctmplts/_MDD.tpl
+/usr/sbin/rsct/trctmplts/_PRM.tpl
+
+sum:
+26770 13890 IBM.ConfigRMd
+20189  2004 IBM.MgmtDomainRMd
+08706    15 RMstart
+45968     8 RMstop
+20237     8 ct_node_runstate
+17586    92 ctcaactrl
+18807     5 partitionStatusChangeEvent
+63504  3320 rmcd
+07482    13 rmcd_start
+16705     8 uncfgct
+20456   556 libct_ffdc.a
+48898   687 libct_idm.a
+23575  4119 libct_mss.a
+43458  2424 libct_prm.a
+09736   763 libhb_client.a
+08776    94 _MCD.tpl
+63412    16 _MDD.tpl
+38659    34 _PRM.tpl
+
+
++-----------------------------------------------------------------------------+
+EFIX ID: 2
+EFIX LABEL: IV66758m4c
++-----------------------------------------------------------------------------+
+LABEL:                  IV66758m4c
+STATE:                  STABLE
+UPDATED BY:             
+ABSTRACT:               Multiple PowerVC fixes VIOS 2.2.3.4
+VUID:                   00F850C44C00011215010915
+PACKAGER VERSION:       7
+INSTALL DATE:           04/09/15 04:16:52
+EPKG VERSION:           7
+REBOOT REQUIRED:        no
+BUILD BOOT IMAGE:       no
+PACKAGE LOCKS:          no
+SUPERSEDE:              no
+INSTALLP PREREQUISITES: yes
+E2E PREREQUISITES:      no
+FIX TESTED:             no
+FILES:                  15
+
+Install Scripts
+===============
+PRE_INSTALL:            no
+POST_INSTALL:           yes
+PRE_REMOVE:             no
+POST_REMOVE:            yes
+
+FILE NUMBER:      1
+   LOCATION:      /usr/lib/libvio.a
+   FILE TYPE:     Standard (file or executable)
+   INSTALLER:     installp
+   SIZE:          13264
+   CKSUM:         64529
+   ACL:           DEFAULT
+   PACKAGE:       devices.vtdev.scsi.rte
+   MOUNT INST:    no
+
+FILE NUMBER:      2
+   LOCATION:      /usr/lib/methods/mig_vscsi
+   FILE TYPE:     Standard (file or executable)
+   INSTALLER:     installp
+   SIZE:          2624
+   CKSUM:         34370
+   ACL:           DEFAULT
+   PACKAGE:       devices.vtdev.scsi.rte
+   MOUNT INST:    no
+
+FILE NUMBER:      3
+   LOCATION:      /usr/lib/methods/pmig_monitor
+   FILE TYPE:     Standard (file or executable)
+   INSTALLER:     installp
+   SIZE:          1872
+   CKSUM:         13497
+   ACL:           DEFAULT
+   PACKAGE:       devices.vtdev.scsi.rte
+   MOUNT INST:    no
+
+FILE NUMBER:      4
+   LOCATION:      /usr/lib/methods/rr_monitor
+   FILE TYPE:     Standard (file or executable)
+   INSTALLER:     installp
+   SIZE:          1696
+   CKSUM:         58834
+   ACL:           DEFAULT
+   PACKAGE:       devices.vtdev.scsi.rte
+   MOUNT INST:    no
+
+FILE NUMBER:      5
+   LOCATION:      /usr/lib/drivers/vfc_host
+   FILE TYPE:     Standard (file or executable)
+   INSTALLER:     installp
+   SIZE:          472
+   CKSUM:         62360
+   ACL:           DEFAULT
+   PACKAGE:       devices.vdevice.IBM.vfc-server.rte
+   MOUNT INST:    no
+
+FILE NUMBER:      6
+   LOCATION:      /usr/lib/drivers/pci/sischn_dd
+   FILE TYPE:     Standard (file or executable)
+   INSTALLER:     installp
+   SIZE:          840
+   CKSUM:         46212
+   ACL:           DEFAULT
+   PACKAGE:       devices.common.IBM.sissas.rte
+   MOUNT INST:    no
+
+FILE NUMBER:      7
+   LOCATION:      /usr/lib/drivers/pci/sissas64_dd
+   FILE TYPE:     Standard (file or executable)
+   INSTALLER:     installp
+   SIZE:          816
+   CKSUM:         25524
+   ACL:           DEFAULT
+   PACKAGE:       devices.common.IBM.sissas.rte
+   MOUNT INST:    no
+
+FILE NUMBER:      8
+   LOCATION:      /usr/lib/drivers/pci/sissas_dd
+   FILE TYPE:     Standard (file or executable)
+   INSTALLER:     installp
+   SIZE:          792
+   CKSUM:         36661
+   ACL:           DEFAULT
+   PACKAGE:       devices.common.IBM.sissas.rte
+   MOUNT INST:    no
+
+FILE NUMBER:      9
+   LOCATION:      /usr/lib/drivers/pci/shientdd
+   FILE TYPE:     Standard (file or executable)
+   INSTALLER:     installp
+   SIZE:          4928
+   CKSUM:         52968
+   ACL:           DEFAULT
+   PACKAGE:       devices.ethernet.shi.rte
+   MOUNT INST:    no
+
+FILE NUMBER:      10
+   LOCATION:      /usr/lib/drivers/pci/mlxentdd
+   FILE TYPE:     Standard (file or executable)
+   INSTALLER:     installp
+   SIZE:          4408
+   CKSUM:         15729
+   ACL:           DEFAULT
+   PACKAGE:       devices.ethernet.mlx.rte
+   MOUNT INST:    no
+
+FILE NUMBER:      11
+   LOCATION:      /usr/lib/libmpiocmd.a
+   FILE TYPE:     Standard (file or executable)
+   INSTALLER:     installp
+   SIZE:          184
+   CKSUM:         52790
+   ACL:           DEFAULT
+   PACKAGE:       devices.common.IBM.mpio.rte
+   MOUNT INST:    no
+
+FILE NUMBER:      12
+   LOCATION:      /usr/lib/methods/vioscmd
+   FILE TYPE:     Standard (file or executable)
+   INSTALLER:     installp
+   SIZE:          240
+   CKSUM:         51167
+   ACL:           DEFAULT
+   PACKAGE:       devices.vtdev.scsi.rte
+   MOUNT INST:    no
+
+FILE NUMBER:      13
+   LOCATION:      /usr/lib/methods/viosmgr
+   FILE TYPE:     Standard (file or executable)
+   INSTALLER:     installp
+   SIZE:          640
+   CKSUM:         04858
+   ACL:           DEFAULT
+   PACKAGE:       devices.vtdev.scsi.rte
+   MOUNT INST:    no
+
+FILE NUMBER:      14
+   LOCATION:      /usr/sbin/vio_daemon
+   FILE TYPE:     Standard (file or executable)
+   INSTALLER:     installp
+   SIZE:          1200
+   CKSUM:         14863
+   ACL:           DEFAULT
+   PACKAGE:       devices.vtdev.scsi.rte
+   MOUNT INST:    no
+
+FILE NUMBER:      15
+   LOCATION:      /usr/lib/vio1.21.xsd
+   FILE TYPE:     Standard (file or executable)
+   INSTALLER:     installp (new)
+   SIZE:          312
+   CKSUM:         42498
+   ACL:           root:system:400
+   PACKAGE:       None or Unknown
+   MOUNT INST:    no
+
+Installp Prerequisite Information:
+==================================
+PREREQUISITE NUM:      1
+   FILESET:            devices.vtdev.scsi.rte
+   MINIMAL LEVEL:      6.1.9.30
+   MAXIMUM LEVEL:      6.1.9.30
+   TYPE:               PREREQ
+   LEVEL AT INSTALL:   6.1.9.30
+
+PREREQUISITE NUM:      2
+   FILESET:            devices.common.IBM.mpio.rte
+   MINIMAL LEVEL:      6.1.9.30
+   MAXIMUM LEVEL:      6.1.9.30
+   TYPE:               PREREQ
+   LEVEL AT INSTALL:   6.1.9.30
+
+PREREQUISITE NUM:      3
+   FILESET:            devices.vdevice.IBM.vfc-server.rte
+   MINIMAL LEVEL:      6.1.9.30
+   MAXIMUM LEVEL:      6.1.9.30
+   TYPE:               PREREQ
+   LEVEL AT INSTALL:   6.1.9.30
+
+PREREQUISITE NUM:      4
+   FILESET:            devices.common.IBM.sissas.rte
+   MINIMAL LEVEL:      6.1.9.30
+   MAXIMUM LEVEL:      6.1.9.30
+   TYPE:               PREREQ
+   LEVEL AT INSTALL:   6.1.9.30
+
+PREREQUISITE NUM:      5
+   FILESET:            devices.ethernet.shi.rte
+   MINIMAL LEVEL:      6.1.9.30
+   MAXIMUM LEVEL:      6.1.9.30
+   TYPE:               PREREQ
+   LEVEL AT INSTALL:   6.1.9.30
+
+PREREQUISITE NUM:      6
+   FILESET:            devices.ethernet.mlx.rte
+   MINIMAL LEVEL:      6.1.9.30
+   MAXIMUM LEVEL:      6.1.9.30
+   TYPE:               PREREQ
+   LEVEL AT INSTALL:   6.1.9.30
+
+Efix to Efix Prerequisite Information:
+======================================
+No efix to efix prerequisites data.
+
+Description:
+============
+IV66758 - Multiple PowerVC fixes for VIOS 2.2.3.4 (packaging APAR only)
+IV66267 - Various changes for VIOS support of PowerVC
+IV67160 - cmdb not available after vg deletion
+IV66273 - start nodes fails as node list shows all nodes status down
+IV67200 - required.change may cause requests to fail with retry
+IV67450 - error getting attribute list attr unable to open PV
+IV67961 - enhancements for powervc
+
+== This also includes ifix IV63331m4a which contains ==
+IV63331 - Multiple fixes for VIOS 2.2.3.4 (packaging APAR only)
+IV65848 - handle disks with no reserve policy attr
+IV66048 - powervc deploy to thick-provisioned ssp disk fails
+IV66052 - unmarshalling error after a disk went offline
+IV66430 - remote restart of client fails
+IV66292 - support getting wwpns of the client when the adapter are
+IV65338 - system crash on boot due to bad sas configuration
+IV66491 - fc#en0s and fc#en0w may show software error in errpt
+IV66502 - vpd read timeout while configuring connectx-2/3 adapters
+
++-----------------------------------------------------------------------------+
+EFIX ID: 3
+EFIX LABEL: IV67090s4a
++-----------------------------------------------------------------------------+
+LABEL:                  IV67090s4a
+STATE:                  STABLE
+UPDATED BY:             
+ABSTRACT:               viosbr fails with emc disks
+VUID:                   00F850C44C00120508123314
+PACKAGER VERSION:       7
+INSTALL DATE:           04/15/15 13:33:07
+EPKG VERSION:           7
+REBOOT REQUIRED:        no
+BUILD BOOT IMAGE:       no
+PACKAGE LOCKS:          no
+SUPERSEDE:              no
+INSTALLP PREREQUISITES: yes
+E2E PREREQUISITES:      no
+FIX TESTED:             no
+FILES:                  1
+
+Install Scripts
+===============
+PRE_INSTALL:            no
+POST_INSTALL:           no
+PRE_REMOVE:             no
+POST_REMOVE:            no
+
+FILE NUMBER:      1
+   LOCATION:      /usr/lib/methods/virtualcfg
+   FILE TYPE:     Standard (file or executable)
+   INSTALLER:     installp
+   SIZE:          3840
+   CKSUM:         19215
+   ACL:           DEFAULT
+   PACKAGE:       ios.cli.rte
+   MOUNT INST:    no
+
+Installp Prerequisite Information:
+==================================
+PREREQUISITE NUM:      1
+   FILESET:            ios.cli.rte
+   MINIMAL LEVEL:      6.1.9.30
+   MAXIMUM LEVEL:      6.1.9.30
+   TYPE:               PREREQ
+   LEVEL AT INSTALL:   6.1.9.30
+
+Efix to Efix Prerequisite Information:
+======================================
+No efix to efix prerequisites data.
+
+Description:
+============
+IV67090 - viosbr -restore failed with emc disk and powerpath
+==== EXITED with rc 0 ====
+==== END emgr -lv3 Tue Jul  7 13:13:43 CDT 2015 ====

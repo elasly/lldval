@@ -1,0 +1,2281 @@
+==== This output can be found in Systems/dx988/network/netstat-ano.txt ====
+==== START netstat -ano Thu Aug  6 11:13:40 GST 2015 ====
+Active Internet connections (including servers)
+Proto Recv-Q Send-Q  Local Address          Foreign Address        (state)
+tcp        0      0  *.*                    *.*                    CLOSED
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|MEMCOMPRESS|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:262144 lowat:4096 mbcnt:0 mbmax:1048576
+	 rcvbuf: 
+		 hiwat:262144 lowat:1 mbcnt:0 mbmax:1048576
+	 TCP:
+	 mss:1460  flags: (RFC1323|COPYFLAGS) 
+
+
+tcp4       0      0  *.*                    *.*                    CLOSED
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|MEMCOMPRESS|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:262144 lowat:4096 mbcnt:0 mbmax:1048576
+	 rcvbuf: 
+		 hiwat:262144 lowat:1 mbcnt:0 mbmax:1048576
+	 TCP:
+	 mss:1460  flags: (RFC1323|COPYFLAGS) 
+
+
+tcp        0      0  *.*                    *.*                    CLOSED
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|MEMCOMPRESS|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:262144 lowat:4096 mbcnt:0 mbmax:1048576
+	 rcvbuf: 
+		 hiwat:262144 lowat:1 mbcnt:0 mbmax:1048576
+	 TCP:
+	 mss:1460  flags: (RFC1323|COPYFLAGS) 
+
+
+tcp4       0      0  *.*                    *.*                    CLOSED
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|MEMCOMPRESS|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:262144 lowat:4096 mbcnt:0 mbmax:1048576
+	 rcvbuf: 
+		 hiwat:262144 lowat:1 mbcnt:0 mbmax:1048576
+	 TCP:
+	 mss:1460  flags: (RFC1323|COPYFLAGS) 
+
+
+tcp        0      0  *.*                    *.*                    CLOSED
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|MEMCOMPRESS|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:262144 lowat:4096 mbcnt:0 mbmax:1048576
+	 rcvbuf: 
+		 hiwat:262144 lowat:1 mbcnt:0 mbmax:1048576
+	 TCP:
+	 mss:1460  flags: (RFC1323|COPYFLAGS) 
+
+
+tcp4       0      0  *.*                    *.*                    CLOSED
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|MEMCOMPRESS|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:262144 lowat:4096 mbcnt:0 mbmax:1048576
+	 rcvbuf: 
+		 hiwat:262144 lowat:1 mbcnt:0 mbmax:1048576
+	 TCP:
+	 mss:1460  flags: (RFC1323|COPYFLAGS) 
+
+
+tcp4       0      0  *.13                   *.*                    LISTEN
+
+	 so_options: (ACCEPTCONN|REUSEADDR) 
+	 q0len:0 qlen:0 qlimit:1000 	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|MEMCOMPRESS|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:262144 lowat:4096 mbcnt:0 mbmax:1048576
+	 rcvbuf: 
+		 hiwat:262144 lowat:1 mbcnt:0 mbmax:1048576
+		 sb_flags: (SEL|NOTIFY) 
+	 TCP:
+	 mss:1460  flags: (RFC1323|COPYFLAGS) 
+
+
+tcp        0      0  *.21                   *.*                    LISTEN
+
+	 so_options: (ACCEPTCONN|REUSEADDR) 
+	 q0len:0 qlen:0 qlimit:1000 	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|MEMCOMPRESS|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:262144 lowat:4096 mbcnt:0 mbmax:1048576
+	 rcvbuf: 
+		 hiwat:262144 lowat:1 mbcnt:0 mbmax:1048576
+		 sb_flags: (SEL|NOTIFY) 
+	 TCP:
+	 mss:1460  flags: (RFC1323|COPYFLAGS) 
+
+
+tcp6       0      0  *.22                   *.*                    LISTEN
+
+	 so_options: (ACCEPTCONN|REUSEADDR) 
+	 q0len:0 qlen:0 qlimit:128 	 so_state: (PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|MEMCOMPRESS|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:262144 lowat:4096 mbcnt:0 mbmax:1048576
+	 rcvbuf: 
+		 hiwat:262144 lowat:1 mbcnt:0 mbmax:1048576
+		 sb_flags: (SEL|NOTIFY) 
+	 TCP:
+	 mss:1460  flags: (RFC1323|COPYFLAGS) 
+
+
+tcp4       0      0  *.22                   *.*                    LISTEN
+
+	 so_options: (ACCEPTCONN|REUSEADDR) 
+	 q0len:0 qlen:0 qlimit:128 	 so_state: (PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|MEMCOMPRESS|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:262144 lowat:4096 mbcnt:0 mbmax:1048576
+	 rcvbuf: 
+		 hiwat:262144 lowat:1 mbcnt:0 mbmax:1048576
+		 sb_flags: (SEL|NOTIFY) 
+	 TCP:
+	 mss:1460  flags: (RFC1323|COPYFLAGS) 
+
+
+tcp        0      0  *.23                   *.*                    LISTEN
+
+	 so_options: (ACCEPTCONN|REUSEADDR) 
+	 q0len:0 qlen:0 qlimit:1000 	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|MEMCOMPRESS|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:262144 lowat:4096 mbcnt:0 mbmax:1048576
+	 rcvbuf: 
+		 hiwat:262144 lowat:1 mbcnt:0 mbmax:1048576
+		 sb_flags: (SEL|NOTIFY) 
+	 TCP:
+	 mss:1460  flags: (RFC1323|COPYFLAGS) 
+
+
+tcp4       0      0  *.25                   *.*                    LISTEN
+
+	 so_options: (ACCEPTCONN|REUSEADDR|KEEPALIVE) 
+	 q0len:0 qlen:0 qlimit:10 	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|MEMCOMPRESS|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:262144 lowat:4096 mbcnt:0 mbmax:1048576
+	 rcvbuf: 
+		 hiwat:262144 lowat:1 mbcnt:0 mbmax:1048576
+		 sb_flags: (SEL|NOTIFY) 
+	 TCP:
+	 mss:1460  flags: (RFC1323|COPYFLAGS) 
+
+
+tcp4       0      0  *.37                   *.*                    LISTEN
+
+	 so_options: (ACCEPTCONN|REUSEADDR) 
+	 q0len:0 qlen:0 qlimit:1000 	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|MEMCOMPRESS|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:262144 lowat:4096 mbcnt:0 mbmax:1048576
+	 rcvbuf: 
+		 hiwat:262144 lowat:1 mbcnt:0 mbmax:1048576
+		 sb_flags: (SEL|NOTIFY) 
+	 TCP:
+	 mss:1460  flags: (RFC1323|COPYFLAGS) 
+
+
+tcp        0      0  *.111                  *.*                    LISTEN
+
+	 so_options: (ACCEPTCONN|REUSEADDR|OOBINLINE|REUSEPORT) 
+	 q0len:0 qlen:0 qlimit:64 	 so_state: (NBIO) 
+	 timeo:0 uid:0
+	 so_special: (NOUAREA|LOCKABLE|EXTPRIV|MEMCOMPRESS|DISABLE) 
+	 sndbuf: 
+		 hiwat:262144 lowat:4096 mbcnt:0 mbmax:1048576
+		 sb_flags: (SEL|NOINTR|INHERIT|NOTIFY) 
+	 rcvbuf: 
+		 hiwat:262144 lowat:1 mbcnt:0 mbmax:1048576
+		 sb_flags: (SEL|NOINTR|INHERIT|NOTIFY) 
+	 TCP:
+	 mss:1460  flags: (RFC1323|STDURG|COPYFLAGS) 
+
+
+tcp        0      0  *.199                  *.*                    LISTEN
+
+	 so_options: (ACCEPTCONN|REUSEPORT) 
+	 q0len:0 qlen:0 qlimit:5 	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|MEMCOMPRESS|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:262144 lowat:4096 mbcnt:0 mbmax:1048576
+	 rcvbuf: 
+		 hiwat:262144 lowat:1 mbcnt:0 mbmax:1048576
+		 sb_flags: (SEL|NOTIFY) 
+	 TCP:
+	 mss:1460  flags: (RFC1323|NODELAYACK|COPYFLAGS) 
+
+
+tcp        0      0  *.427                  *.*                    LISTEN
+
+	 so_options: (ACCEPTCONN|REUSEADDR) 
+	 q0len:0 qlen:0 qlimit:1024 	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|XPG1170|MEMCOMPRESS|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:262144 lowat:4096 mbcnt:0 mbmax:1048576
+	 rcvbuf: 
+		 hiwat:262144 lowat:1 mbcnt:0 mbmax:1048576
+		 sb_flags: (SEL|NOTIFY) 
+	 TCP:
+	 mss:1460  flags: (RFC1323|COPYFLAGS) 
+
+
+tcp        0      0  *.512                  *.*                    LISTEN
+
+	 so_options: (ACCEPTCONN|REUSEADDR) 
+	 q0len:0 qlen:0 qlimit:1000 	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|MEMCOMPRESS|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:262144 lowat:4096 mbcnt:0 mbmax:1048576
+	 rcvbuf: 
+		 hiwat:262144 lowat:1 mbcnt:0 mbmax:1048576
+		 sb_flags: (SEL|NOTIFY) 
+	 TCP:
+	 mss:1460  flags: (RFC1323|COPYFLAGS) 
+
+
+tcp        0      0  *.513                  *.*                    LISTEN
+
+	 so_options: (ACCEPTCONN|REUSEADDR) 
+	 q0len:0 qlen:0 qlimit:1000 	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|MEMCOMPRESS|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:262144 lowat:4096 mbcnt:0 mbmax:1048576
+	 rcvbuf: 
+		 hiwat:262144 lowat:1 mbcnt:0 mbmax:1048576
+		 sb_flags: (SEL|NOTIFY) 
+	 TCP:
+	 mss:1460  flags: (RFC1323|COPYFLAGS) 
+
+
+tcp        0      0  *.514                  *.*                    LISTEN
+
+	 so_options: (ACCEPTCONN|REUSEADDR) 
+	 q0len:0 qlen:0 qlimit:1000 	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|MEMCOMPRESS|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:262144 lowat:4096 mbcnt:0 mbmax:1048576
+	 rcvbuf: 
+		 hiwat:262144 lowat:1 mbcnt:0 mbmax:1048576
+		 sb_flags: (SEL|NOTIFY) 
+	 TCP:
+	 mss:1460  flags: (RFC1323|COPYFLAGS) 
+
+
+tcp        0      0  *.657                  *.*                    LISTEN
+
+	 so_options: (ACCEPTCONN) 
+	 q0len:0 qlen:0 qlimit:1024 	 so_state: (PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|MEMCOMPRESS|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:262144 lowat:4096 mbcnt:0 mbmax:1048576
+	 rcvbuf: 
+		 hiwat:262144 lowat:1 mbcnt:0 mbmax:1048576
+		 sb_flags: (SEL|NOTIFY) 
+	 TCP:
+	 mss:1460  flags: (RFC1323|COPYFLAGS) 
+
+
+tcp4       0      0  *.1334                 *.*                    LISTEN
+
+	 so_options: (ACCEPTCONN) 
+	 q0len:0 qlen:0 qlimit:5 	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|MEMCOMPRESS|ACCEPT|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:262144 lowat:4096 mbcnt:0 mbmax:1048576
+	 rcvbuf: 
+		 hiwat:262144 lowat:1 mbcnt:0 mbmax:1048576
+	 TCP:
+	 mss:1460  flags: (RFC1323|COPYFLAGS) 
+
+
+tcp        0      0  *.5335                 *.*                    LISTEN
+
+	 so_options: (ACCEPTCONN) 
+	 q0len:0 qlen:0 qlimit:511 	 so_state: (PRIV|NBIO) 
+	 timeo:0 uid:8
+	 so_special: (LOCKABLE|MEMCOMPRESS|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:262144 lowat:4096 mbcnt:0 mbmax:1048576
+	 rcvbuf: 
+		 hiwat:262144 lowat:1 mbcnt:0 mbmax:1048576
+		 sb_flags: (SEL|NOTIFY) 
+	 TCP:
+	 mss:1460  flags: (RFC1323|COPYFLAGS) 
+
+
+tcp        0      0  *.5336                 *.*                    LISTEN
+
+	 so_options: (ACCEPTCONN) 
+	 q0len:0 qlen:0 qlimit:511 	 so_state: (PRIV|NBIO) 
+	 timeo:0 uid:8
+	 so_special: (LOCKABLE|MEMCOMPRESS|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:262144 lowat:4096 mbcnt:0 mbmax:1048576
+	 rcvbuf: 
+		 hiwat:262144 lowat:1 mbcnt:0 mbmax:1048576
+		 sb_flags: (SEL|NOTIFY) 
+	 TCP:
+	 mss:1460  flags: (RFC1323|COPYFLAGS) 
+
+
+tcp        0      0  *.5988                 *.*                    LISTEN
+
+	 so_options: (ACCEPTCONN|REUSEADDR) 
+	 q0len:0 qlen:0 qlimit:15 	 so_state: (PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|MEMCOMPRESS|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:262144 lowat:4096 mbcnt:0 mbmax:1048576
+	 rcvbuf: 
+		 hiwat:262144 lowat:1 mbcnt:0 mbmax:1048576
+		 sb_flags: (SEL|NOTIFY) 
+	 TCP:
+	 mss:1460  flags: (NODELAY|RFC1323|COPYFLAGS) 
+
+
+tcp        0      0  *.5989                 *.*                    LISTEN
+
+	 so_options: (ACCEPTCONN|REUSEADDR) 
+	 q0len:0 qlen:0 qlimit:15 	 so_state: (PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|MEMCOMPRESS|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:262144 lowat:4096 mbcnt:0 mbmax:1048576
+	 rcvbuf: 
+		 hiwat:262144 lowat:1 mbcnt:0 mbmax:1048576
+		 sb_flags: (SEL|NOTIFY) 
+	 TCP:
+	 mss:1460  flags: (NODELAY|RFC1323|COPYFLAGS) 
+
+
+tcp4       0      0  *.6112                 *.*                    LISTEN
+
+	 so_options: (ACCEPTCONN|REUSEADDR) 
+	 q0len:0 qlen:0 qlimit:1000 	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|MEMCOMPRESS|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:262144 lowat:4096 mbcnt:0 mbmax:1048576
+	 rcvbuf: 
+		 hiwat:262144 lowat:1 mbcnt:0 mbmax:1048576
+		 sb_flags: (SEL|NOTIFY) 
+	 TCP:
+	 mss:1460  flags: (RFC1323|COPYFLAGS) 
+
+
+tcp        0      0  *.6181                 *.*                    LISTEN
+
+	 so_options: (ACCEPTCONN|REUSEADDR) 
+	 q0len:0 qlen:0 qlimit:1000 	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|MEMCOMPRESS|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:262144 lowat:4096 mbcnt:0 mbmax:1048576
+	 rcvbuf: 
+		 hiwat:262144 lowat:1 mbcnt:0 mbmax:1048576
+		 sb_flags: (SEL|NOTIFY) 
+	 TCP:
+	 mss:1460  flags: (RFC1323|COPYFLAGS) 
+
+
+tcp        0      0  *.6987                 *.*                    LISTEN
+
+	 so_options: (ACCEPTCONN|REUSEADDR) 
+	 q0len:0 qlen:0 qlimit:50 	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|MEMCOMPRESS|ACCEPT|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:262144 lowat:4096 mbcnt:0 mbmax:1048576
+	 rcvbuf: 
+		 hiwat:262144 lowat:1 mbcnt:0 mbmax:1048576
+	 TCP:
+	 mss:1460  flags: (RFC1323|COPYFLAGS) 
+
+
+tcp        0      0  *.6988                 *.*                    LISTEN
+
+	 so_options: (ACCEPTCONN|REUSEADDR) 
+	 q0len:0 qlen:0 qlimit:15 	 so_state: (PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|MEMCOMPRESS|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:262144 lowat:4096 mbcnt:0 mbmax:1048576
+	 rcvbuf: 
+		 hiwat:262144 lowat:1 mbcnt:0 mbmax:1048576
+		 sb_flags: (SEL|NOTIFY) 
+	 TCP:
+	 mss:1460  flags: (NODELAY|RFC1323|COPYFLAGS) 
+
+
+tcp        0      0  *.32769                *.*                    LISTEN
+
+	 so_options: (ACCEPTCONN) 
+	 q0len:0 qlen:0 qlimit:5 	 so_state: (PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|MEMCOMPRESS|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:262144 lowat:4096 mbcnt:0 mbmax:1048576
+	 rcvbuf: 
+		 hiwat:262144 lowat:1 mbcnt:0 mbmax:1048576
+		 sb_flags: (SEL|NOTIFY) 
+	 TCP:
+	 mss:1460  flags: (RFC1323|COPYFLAGS) 
+
+
+tcp        0      0  *.32770                *.*                    LISTEN
+
+	 so_options: (ACCEPTCONN|OOBINLINE|NOREUSEADDR) 
+	 q0len:0 qlen:0 qlimit:1024 	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|MEMCOMPRESS|DISABLE) 
+	 sndbuf: 
+		 hiwat:50000 lowat:4096 mbcnt:0 mbmax:200000
+	 rcvbuf: 
+		 hiwat:50032 lowat:1 mbcnt:0 mbmax:200128
+		 sb_flags: (SEL|NOINTR|INHERIT|NOTIFY) 
+	 TCP:
+	 mss:1460  flags: (NODELAY|RFC1323|COPYFLAGS) 
+
+
+tcp4       0      0  *.32772                *.*                    LISTEN
+
+	 so_options: (ACCEPTCONN|REUSEADDR|OOBINLINE|REUSEPORT) 
+	 q0len:0 qlen:0 qlimit:64 	 so_state: (NBIO) 
+	 timeo:0 uid:0
+	 so_special: (NOUAREA|LOCKABLE|EXTPRIV|MEMCOMPRESS|DISABLE) 
+	 sndbuf: 
+		 hiwat:262144 lowat:4096 mbcnt:0 mbmax:1048576
+		 sb_flags: (SEL|NOINTR|INHERIT|NOTIFY) 
+	 rcvbuf: 
+		 hiwat:262144 lowat:1 mbcnt:0 mbmax:1048576
+		 sb_flags: (SEL|NOINTR|INHERIT|NOTIFY) 
+	 TCP:
+	 mss:1460  flags: (RFC1323|STDURG|COPYFLAGS) 
+
+
+tcp4       0      0  *.32777                *.*                    LISTEN
+
+	 so_options: (ACCEPTCONN) 
+	 q0len:0 qlen:0 qlimit:5 	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|MEMCOMPRESS|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:262144 lowat:4096 mbcnt:0 mbmax:1048576
+	 rcvbuf: 
+		 hiwat:262144 lowat:1 mbcnt:0 mbmax:1048576
+		 sb_flags: (SEL|NOTIFY) 
+	 TCP:
+	 mss:1460  flags: (RFC1323|COPYFLAGS) 
+
+
+tcp        0      0  *.32786                *.*                    LISTEN
+
+	 so_options: (ACCEPTCONN|REUSEADDR) 
+	 q0len:0 qlen:0 qlimit:500 	 so_state: (PRIV) 
+	 timeo:0 uid:8
+	 so_special: (LOCKABLE|MEMCOMPRESS|ACCEPT|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:262144 lowat:4096 mbcnt:0 mbmax:1048576
+	 rcvbuf: 
+		 hiwat:262144 lowat:1 mbcnt:0 mbmax:1048576
+	 TCP:
+	 mss:1460  flags: (RFC1323|COPYFLAGS) 
+
+
+tcp4       0      0  *.32787                *.*                    LISTEN
+
+	 so_options: (ACCEPTCONN|REUSEADDR) 
+	 q0len:0 qlen:0 qlimit:1000 	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|MEMCOMPRESS|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:262144 lowat:4096 mbcnt:0 mbmax:1048576
+	 rcvbuf: 
+		 hiwat:262144 lowat:1 mbcnt:0 mbmax:1048576
+		 sb_flags: (SEL|NOTIFY) 
+	 TCP:
+	 mss:1460  flags: (RFC1323|COPYFLAGS) 
+
+
+tcp        0      0  *.32796                *.*                    LISTEN
+
+	 so_options: (ACCEPTCONN|REUSEADDR) 
+	 q0len:0 qlen:0 qlimit:500 	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|MEMCOMPRESS|ACCEPT|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:262144 lowat:4096 mbcnt:0 mbmax:1048576
+	 rcvbuf: 
+		 hiwat:262144 lowat:1 mbcnt:0 mbmax:1048576
+	 TCP:
+	 mss:1460  flags: (RFC1323|COPYFLAGS) 
+
+
+tcp        0      0  *.32799                *.*                    LISTEN
+
+	 so_options: (ACCEPTCONN|REUSEADDR) 
+	 q0len:0 qlen:0 qlimit:50 	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|MEMCOMPRESS|ACCEPT|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:262144 lowat:4096 mbcnt:0 mbmax:1048576
+	 rcvbuf: 
+		 hiwat:262144 lowat:1 mbcnt:0 mbmax:1048576
+	 TCP:
+	 mss:1460  flags: (RFC1323|COPYFLAGS) 
+
+
+tcp        0      0  *.9510                 *.*                    LISTEN
+
+	 so_options: (ACCEPTCONN|REUSEADDR) 
+	 q0len:0 qlen:0 qlimit:50 	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|MEMCOMPRESS|ACCEPT|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:262144 lowat:4096 mbcnt:0 mbmax:1048576
+	 rcvbuf: 
+		 hiwat:262144 lowat:1 mbcnt:0 mbmax:1048576
+	 TCP:
+	 mss:1460  flags: (RFC1323|COPYFLAGS) 
+
+
+tcp        0      0  10.51.226.236.1023     10.51.226.235.16191    ESTABLISHED
+	 so_state: (ISCONNECTED|PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|MEMCOMPRESS|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:65160 lowat:16383 mbcnt:0 mbmax:260640
+		 sb_flags: (SEL|NOTIFY) 
+	 rcvbuf: 
+		 hiwat:262088 lowat:1 mbcnt:0 mbmax:1048352
+		 sb_flags: (SEL|NOTIFY) 
+	 TCP:
+	 mss:1448  flags: (NODELAY|RFC1323|SENT_WS|RCVD_WS|SENT_TS|RCVD_TS|RCVD_LS|COPYFLAGS...
+...) 
+
+
+tcp4       0      0  127.0.0.1.9514         *.*                    LISTEN
+
+	 so_options: (ACCEPTCONN|REUSEADDR) 
+	 q0len:0 qlen:0 qlimit:16 	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|MEMCOMPRESS|ACCEPT|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:262144 lowat:4096 mbcnt:0 mbmax:1048576
+	 rcvbuf: 
+		 hiwat:262144 lowat:1 mbcnt:0 mbmax:1048576
+	 TCP:
+	 mss:1460  flags: (RFC1323|COPYFLAGS) 
+
+
+tcp4       0      0  127.0.0.1.9515         *.*                    LISTEN
+
+	 so_options: (ACCEPTCONN|REUSEADDR) 
+	 q0len:0 qlen:0 qlimit:16 	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|MEMCOMPRESS|ACCEPT|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:262144 lowat:4096 mbcnt:0 mbmax:1048576
+	 rcvbuf: 
+		 hiwat:262144 lowat:1 mbcnt:0 mbmax:1048576
+	 TCP:
+	 mss:1460  flags: (RFC1323|COPYFLAGS) 
+
+
+tcp        0      0  *.14248                *.*                    LISTEN
+
+	 so_options: (ACCEPTCONN|REUSEADDR) 
+	 q0len:0 qlen:0 qlimit:50 	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|MEMCOMPRESS|ACCEPT|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:262144 lowat:4096 mbcnt:0 mbmax:1048576
+	 rcvbuf: 
+		 hiwat:262144 lowat:1 mbcnt:0 mbmax:1048576
+	 TCP:
+	 mss:1460  flags: (RFC1323|COPYFLAGS) 
+
+
+tcp4       0      0  10.51.226.236.32846    10.32.156.112.53       TIME_WAIT
+	 so_state: (NOFDREF|CANTSENDMORE|CANTRCVMORE|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|MEMCOMPRESS|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:262088 lowat:2048 mbcnt:0 mbmax:1048352
+	 rcvbuf: 
+		 hiwat:262088 lowat:1 mbcnt:0 mbmax:1048352
+	 TCP:
+	 mss:1448  flags: (SENTFIN|RFC1323|SENT_WS|RCVD_WS|SENT_TS|RCVD_TS|RCVD_LS|COPYFLAGS...
+...) 
+
+
+tcp4       0      0  10.51.226.236.32847    10.32.156.114.53       TIME_WAIT
+	 so_state: (NOFDREF|CANTSENDMORE|CANTRCVMORE|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|MEMCOMPRESS|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:262088 lowat:2048 mbcnt:0 mbmax:1048352
+	 rcvbuf: 
+		 hiwat:262088 lowat:1 mbcnt:0 mbmax:1048352
+	 TCP:
+	 mss:1448  flags: (SENTFIN|RFC1323|SENT_WS|RCVD_WS|SENT_TS|RCVD_TS|RCVD_LS|COPYFLAGS...
+...) 
+
+
+tcp        0      0  *.16191                *.*                    LISTEN
+
+	 so_options: (ACCEPTCONN|REUSEADDR) 
+	 q0len:0 qlen:0 qlimit:1024 	 so_state: (PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|MEMCOMPRESS|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:262144 lowat:4096 mbcnt:0 mbmax:1048576
+	 rcvbuf: 
+		 hiwat:262144 lowat:1 mbcnt:0 mbmax:1048576
+		 sb_flags: (SEL|NOTIFY) 
+	 TCP:
+	 mss:1460  flags: (NODELAY|RFC1323|COPYFLAGS) 
+
+
+tcp4       0      0  127.0.0.1.199          127.0.0.1.32806        ESTABLISHED
+
+	 so_options: (REUSEPORT) 
+	 so_state: (ISCONNECTED|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|MEMCOMPRESS|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:134752 lowat:33688 mbcnt:0 mbmax:539008
+	 rcvbuf: 
+		 hiwat:134752 lowat:1 mbcnt:0 mbmax:539008
+		 sb_flags: (SEL|NOTIFY) 
+	 TCP:
+	 mss:16844  flags: (RFC1323|SENT_WS|RCVD_WS|SENT_TS|RCVD_TS|NODELAYACK|COPYFLAGS) 
+
+
+tcp4       0      0  127.0.0.1.32806        127.0.0.1.199          ESTABLISHED
+
+	 so_options: (KEEPALIVE) 
+	 so_state: (ISCONNECTED|PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|MEMCOMPRESS|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:134752 lowat:16383 mbcnt:0 mbmax:539008
+	 rcvbuf: 
+		 hiwat:134752 lowat:1 mbcnt:0 mbmax:539008
+		 sb_flags: (SEL|NOTIFY) 
+	 TCP:
+	 mss:16844  flags: (NODELAY|RFC1323|SENT_WS|RCVD_WS|SENT_TS|RCVD_TS|COPYFLAGS) 
+
+
+tcp6       0      0  ::1.32794                                     ::1.32795                                     CLOSE_WAIT
+	 so_state: (ISCONNECTED|CANTRCVMORE|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|MEMCOMPRESS|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:134592 lowat:33648 mbcnt:0 mbmax:538368
+	 rcvbuf: 
+		 hiwat:134592 lowat:1 mbcnt:0 mbmax:538368
+	 TCP:
+	 mss:16824  flags: (RFC1323|SENT_WS|RCVD_WS|SENT_TS|RCVD_TS|COPYFLAGS) 
+
+
+tcp        0      0  *.42112                *.*                    LISTEN
+
+	 so_options: (ACCEPTCONN|KEEPALIVE) 
+	 q0len:0 qlen:0 qlimit:10 	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|MEMCOMPRESS|ACCEPT|DISABLE) 
+	 sndbuf: 
+		 hiwat:262144 lowat:4096 mbcnt:0 mbmax:1048576
+	 rcvbuf: 
+		 hiwat:262144 lowat:1 mbcnt:0 mbmax:1048576
+	 TCP:
+	 mss:1460  flags: (RFC1323|COPYFLAGS) 
+
+
+tcp4       0      0  10.51.226.234.42112    10.51.226.235.32776    ESTABLISHED
+
+	 so_options: (KEEPALIVE) 
+	 so_state: (ISCONNECTED|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|MEMCOMPRESS|DISABLE) 
+	 so_special2: (MSGWAITALL) 
+	 sndbuf: 
+		 hiwat:262088 lowat:65522 mbcnt:0 mbmax:1048352
+	 rcvbuf: 
+		 hiwat:262088 lowat:1 mbcnt:0 mbmax:1048352
+		 sb_flags: (WAIT|NOTIFY) 
+	 TCP:
+	 mss:1448  flags: (RFC1323|SENT_WS|RCVD_WS|SENT_TS|RCVD_TS|RCVD_LS|COPYFLAGS) 
+
+
+tcp4       0      0  10.51.227.87.42112     10.51.227.88.32777     ESTABLISHED
+
+	 so_options: (KEEPALIVE) 
+	 so_state: (ISCONNECTED|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|MEMCOMPRESS|DISABLE) 
+	 so_special2: (MSGWAITALL) 
+	 sndbuf: 
+		 hiwat:262088 lowat:65522 mbcnt:0 mbmax:1048352
+	 rcvbuf: 
+		 hiwat:262088 lowat:1 mbcnt:0 mbmax:1048352
+		 sb_flags: (WAIT|NOTIFY) 
+	 TCP:
+	 mss:1448  flags: (RFC1323|SENT_WS|RCVD_WS|SENT_TS|RCVD_TS|RCVD_LS|COPYFLAGS) 
+
+
+tcp4       0      0  10.51.229.234.42112    10.51.229.235.32778    ESTABLISHED
+
+	 so_options: (KEEPALIVE) 
+	 so_state: (ISCONNECTED|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|MEMCOMPRESS|DISABLE) 
+	 so_special2: (MSGWAITALL) 
+	 sndbuf: 
+		 hiwat:262088 lowat:65522 mbcnt:0 mbmax:1048352
+	 rcvbuf: 
+		 hiwat:262088 lowat:1 mbcnt:0 mbmax:1048352
+		 sb_flags: (WAIT|NOTIFY) 
+	 TCP:
+	 mss:1448  flags: (RFC1323|SENT_WS|RCVD_WS|SENT_TS|RCVD_TS|RCVD_LS|COPYFLAGS) 
+
+
+tcp4       0      0  127.0.0.1.32769        127.0.0.1.32776        ESTABLISHED
+	 so_state: (ISCONNECTED|PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|MEMCOMPRESS|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:134752 lowat:33688 mbcnt:0 mbmax:539008
+	 rcvbuf: 
+		 hiwat:134752 lowat:1 mbcnt:0 mbmax:539008
+		 sb_flags: (SEL|NOTIFY) 
+	 TCP:
+	 mss:16844  flags: (RFC1323|SENT_WS|RCVD_WS|SENT_TS|RCVD_TS|COPYFLAGS) 
+
+
+tcp        0      0  127.0.0.1.32776        127.0.0.1.32769        ESTABLISHED
+	 so_state: (ISCONNECTED|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|MEMCOMPRESS|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:134752 lowat:16383 mbcnt:0 mbmax:539008
+	 rcvbuf: 
+		 hiwat:134752 lowat:1 mbcnt:0 mbmax:539008
+		 sb_flags: (SEL|NOTIFY) 
+	 TCP:
+	 mss:16844  flags: (RFC1323|SENT_WS|RCVD_WS|SENT_TS|RCVD_TS|COPYFLAGS) 
+
+
+tcp4       0      0  127.0.0.1.32769        127.0.0.1.32778        ESTABLISHED
+	 so_state: (ISCONNECTED|PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|MEMCOMPRESS|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:134752 lowat:33688 mbcnt:0 mbmax:539008
+	 rcvbuf: 
+		 hiwat:134752 lowat:1 mbcnt:0 mbmax:539008
+		 sb_flags: (SEL|NOTIFY) 
+	 TCP:
+	 mss:16844  flags: (RFC1323|SENT_WS|RCVD_WS|SENT_TS|RCVD_TS|COPYFLAGS) 
+
+
+tcp        0      0  127.0.0.1.32778        127.0.0.1.32769        ESTABLISHED
+	 so_state: (ISCONNECTED|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|MEMCOMPRESS|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:134752 lowat:16383 mbcnt:0 mbmax:539008
+	 rcvbuf: 
+		 hiwat:134752 lowat:1 mbcnt:0 mbmax:539008
+		 sb_flags: (SEL|NOTIFY) 
+	 TCP:
+	 mss:16844  flags: (RFC1323|SENT_WS|RCVD_WS|SENT_TS|RCVD_TS|COPYFLAGS) 
+
+
+tcp4       0      0  127.0.0.1.32769        127.0.0.1.32779        ESTABLISHED
+	 so_state: (ISCONNECTED|PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|MEMCOMPRESS|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:134752 lowat:33688 mbcnt:0 mbmax:539008
+	 rcvbuf: 
+		 hiwat:134752 lowat:1 mbcnt:0 mbmax:539008
+		 sb_flags: (SEL|NOTIFY) 
+	 TCP:
+	 mss:16844  flags: (RFC1323|SENT_WS|RCVD_WS|SENT_TS|RCVD_TS|COPYFLAGS) 
+
+
+tcp        0      0  127.0.0.1.32779        127.0.0.1.32769        ESTABLISHED
+	 so_state: (ISCONNECTED|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|MEMCOMPRESS|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:134752 lowat:16383 mbcnt:0 mbmax:539008
+	 rcvbuf: 
+		 hiwat:134752 lowat:1 mbcnt:0 mbmax:539008
+		 sb_flags: (SEL|NOTIFY) 
+	 TCP:
+	 mss:16844  flags: (RFC1323|SENT_WS|RCVD_WS|SENT_TS|RCVD_TS|COPYFLAGS) 
+
+
+tcp4       0      0  127.0.0.1.32769        127.0.0.1.32783        ESTABLISHED
+	 so_state: (ISCONNECTED|PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|MEMCOMPRESS|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:134752 lowat:33688 mbcnt:0 mbmax:539008
+	 rcvbuf: 
+		 hiwat:134752 lowat:1 mbcnt:0 mbmax:539008
+		 sb_flags: (SEL|NOTIFY) 
+	 TCP:
+	 mss:16844  flags: (RFC1323|SENT_WS|RCVD_WS|SENT_TS|RCVD_TS|COPYFLAGS) 
+
+
+tcp        0      0  127.0.0.1.32783        127.0.0.1.32769        ESTABLISHED
+	 so_state: (ISCONNECTED|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|MEMCOMPRESS|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:134752 lowat:16383 mbcnt:0 mbmax:539008
+	 rcvbuf: 
+		 hiwat:134752 lowat:1 mbcnt:0 mbmax:539008
+		 sb_flags: (SEL|NOTIFY) 
+	 TCP:
+	 mss:16844  flags: (RFC1323|SENT_WS|RCVD_WS|SENT_TS|RCVD_TS|COPYFLAGS) 
+
+
+udp4       0      0  *.*                    *.*                   
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:65536 lowat:4096 mbcnt:0 mbmax:262144
+	 rcvbuf: 
+		 hiwat:655360 lowat:1 mbcnt:0 mbmax:2621440
+
+udp4       0      0  *.*                    *.*                   
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:65536 lowat:4096 mbcnt:0 mbmax:262144
+	 rcvbuf: 
+		 hiwat:655360 lowat:1 mbcnt:0 mbmax:2621440
+
+udp4       0      0  *.*                    *.*                   
+
+	 so_options: (REUSEPORT) 
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|XPG1170|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:65536 lowat:4096 mbcnt:0 mbmax:262144
+	 rcvbuf: 
+		 hiwat:655360 lowat:1 mbcnt:0 mbmax:2621440
+
+udp4       0      0  *.*                    *.*                   
+
+	 so_options: (REUSEPORT) 
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|XPG1170|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:65536 lowat:4096 mbcnt:0 mbmax:262144
+	 rcvbuf: 
+		 hiwat:655360 lowat:1 mbcnt:0 mbmax:2621440
+
+udp4       0      0  *.*                    *.*                   
+
+	 so_options: (REUSEPORT) 
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|XPG1170|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:65536 lowat:4096 mbcnt:0 mbmax:262144
+	 rcvbuf: 
+		 hiwat:655360 lowat:1 mbcnt:0 mbmax:2621440
+
+udp4       0      0  *.*                    *.*                   
+
+	 so_options: (REUSEPORT) 
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|XPG1170|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:65536 lowat:4096 mbcnt:0 mbmax:262144
+	 rcvbuf: 
+		 hiwat:655360 lowat:1 mbcnt:0 mbmax:2621440
+
+udp4       0      0  *.*                    *.*                   
+
+	 so_options: (REUSEPORT) 
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|XPG1170|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:65536 lowat:4096 mbcnt:0 mbmax:262144
+	 rcvbuf: 
+		 hiwat:655360 lowat:1 mbcnt:0 mbmax:2621440
+
+udp        0      0  *.*                    *.*                   
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:65536 lowat:4096 mbcnt:0 mbmax:262144
+	 rcvbuf: 
+		 hiwat:655360 lowat:1 mbcnt:0 mbmax:2621440
+
+udp4       0      0  *.*                    *.*                   
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:65536 lowat:4096 mbcnt:0 mbmax:262144
+	 rcvbuf: 
+		 hiwat:655360 lowat:1 mbcnt:0 mbmax:2621440
+
+udp        0      0  *.*                    *.*                   
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|DISABLE) 
+	 sndbuf: 
+		 hiwat:65536 lowat:4096 mbcnt:0 mbmax:262144
+	 rcvbuf: 
+		 hiwat:655360 lowat:1 mbcnt:0 mbmax:2621440
+
+udp        0      0  *.*                    *.*                   
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|DISABLE) 
+	 sndbuf: 
+		 hiwat:65536 lowat:4096 mbcnt:0 mbmax:262144
+	 rcvbuf: 
+		 hiwat:655360 lowat:1 mbcnt:0 mbmax:2621440
+
+udp        0      0  *.*                    *.*                   
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|DISABLE) 
+	 sndbuf: 
+		 hiwat:65536 lowat:4096 mbcnt:0 mbmax:262144
+	 rcvbuf: 
+		 hiwat:655360 lowat:1 mbcnt:0 mbmax:2621440
+
+udp4       0      0  *.13                   *.*                   
+
+	 so_options: (REUSEADDR) 
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:65536 lowat:4096 mbcnt:0 mbmax:262144
+	 rcvbuf: 
+		 hiwat:655360 lowat:1 mbcnt:0 mbmax:2621440
+		 sb_flags: (SEL|NOTIFY) 
+
+udp4       0      0  *.37                   *.*                   
+
+	 so_options: (REUSEADDR) 
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:65536 lowat:4096 mbcnt:0 mbmax:262144
+	 rcvbuf: 
+		 hiwat:655360 lowat:1 mbcnt:0 mbmax:2621440
+		 sb_flags: (SEL|NOTIFY) 
+
+udp        0      0  *.111                  *.*                   
+
+	 so_options: (REUSEADDR|OOBINLINE|REUSEPORT) 
+	 so_state: (NBIO) 
+	 timeo:0 uid:0
+	 so_special: (NOUAREA|LOCKABLE|EXTPRIV|DISABLE) 
+	 sndbuf: 
+		 hiwat:65536 lowat:4096 mbcnt:0 mbmax:262144
+		 sb_flags: (SEL|NOINTR|INHERIT|NOTIFY) 
+	 rcvbuf: 
+		 hiwat:655360 lowat:1 mbcnt:0 mbmax:2621440
+		 sb_flags: (SEL|NOINTR|INHERIT|NOTIFY) 
+
+udp        0      0  *.161                  *.*                   
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:65536 lowat:4096 mbcnt:0 mbmax:262144
+	 rcvbuf: 
+		 hiwat:655360 lowat:1 mbcnt:0 mbmax:2621440
+		 sb_flags: (SEL|NOTIFY) 
+
+udp4       0      0  *.177                  *.*                   
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:65536 lowat:4096 mbcnt:0 mbmax:262144
+	 rcvbuf: 
+		 hiwat:655360 lowat:1 mbcnt:0 mbmax:2621440
+		 sb_flags: (SEL|NOTIFY) 
+
+udp        0      0  *.427                  *.*                   
+
+	 so_options: (REUSEADDR) 
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|XPG1170|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:65536 lowat:4096 mbcnt:0 mbmax:262144
+	 rcvbuf: 
+		 hiwat:655360 lowat:1 mbcnt:0 mbmax:2621440
+		 sb_flags: (SEL|NOTIFY) 
+
+udp4       0      0  *.518                  *.*                   
+
+	 so_options: (REUSEADDR) 
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:65536 lowat:4096 mbcnt:0 mbmax:262144
+	 rcvbuf: 
+		 hiwat:655360 lowat:1 mbcnt:0 mbmax:2621440
+		 sb_flags: (SEL|NOTIFY) 
+
+udp        0      0  *.657                  *.*                   
+	 so_state: (PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:65536 lowat:4096 mbcnt:0 mbmax:262144
+	 rcvbuf: 
+		 hiwat:262144 lowat:1 mbcnt:0 mbmax:1048576
+		 sb_flags: (SEL|NOTIFY) 
+
+udp        0      0  10.51.229.234.2279     *.*                   
+
+	 so_options: (REUSEADDR|NOMULTIPATH) 
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:65536 lowat:4096 mbcnt:0 mbmax:262144
+	 rcvbuf: 
+		 hiwat:655360 lowat:1 mbcnt:0 mbmax:2621440
+		 sb_flags: (SEL|NOTIFY) 
+
+udp        0      0  10.51.226.234.2279     *.*                   
+
+	 so_options: (REUSEADDR|NOMULTIPATH) 
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:65536 lowat:4096 mbcnt:0 mbmax:262144
+	 rcvbuf: 
+		 hiwat:655360 lowat:1 mbcnt:0 mbmax:2621440
+		 sb_flags: (SEL|NOTIFY) 
+
+udp        0      0  10.51.227.87.2279      *.*                   
+
+	 so_options: (REUSEADDR|NOMULTIPATH) 
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:65536 lowat:4096 mbcnt:0 mbmax:262144
+	 rcvbuf: 
+		 hiwat:655360 lowat:1 mbcnt:0 mbmax:2621440
+		 sb_flags: (SEL|NOTIFY) 
+
+udp        0      0  *.2279                 *.*                   
+
+	 so_options: (REUSEADDR|USELOOPBACK) 
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:65536 lowat:4096 mbcnt:0 mbmax:262144
+	 rcvbuf: 
+		 hiwat:655360 lowat:1 mbcnt:0 mbmax:2621440
+		 sb_flags: (SEL|NOTIFY) 
+
+udp        0      0  *.32768                *.*                   
+
+	 so_options: (REUSEADDR|OOBINLINE|REUSEPORT) 
+	 so_state: (NBIO) 
+	 timeo:0 uid:0
+	 so_special: (NOUAREA|LOCKABLE|EXTPRIV|DISABLE) 
+	 sndbuf: 
+		 hiwat:65536 lowat:4096 mbcnt:0 mbmax:262144
+		 sb_flags: (SEL|NOINTR|INHERIT|NOTIFY) 
+	 rcvbuf: 
+		 hiwat:655360 lowat:1 mbcnt:0 mbmax:2621440
+		 sb_flags: (SEL|NOINTR|INHERIT|NOTIFY) 
+
+udp        0      0  *.32788                *.*                   
+
+	 so_options: (NOREUSEADDR) 
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|DISABLE) 
+	 sndbuf: 
+		 hiwat:50000 lowat:4096 mbcnt:0 mbmax:200000
+	 rcvbuf: 
+		 hiwat:50032 lowat:1 mbcnt:0 mbmax:200128
+		 sb_flags: (SEL|NOINTR|WAITING|INHERIT|NOTIFY) 
+
+udp4       0      0  *.32809                *.*                   
+
+	 so_options: (REUSEADDR|OOBINLINE|REUSEPORT) 
+	 so_state: (NBIO) 
+	 timeo:0 uid:0
+	 so_special: (NOUAREA|LOCKABLE|EXTPRIV|DISABLE) 
+	 sndbuf: 
+		 hiwat:65536 lowat:4096 mbcnt:0 mbmax:262144
+		 sb_flags: (SEL|NOINTR|INHERIT|NOTIFY) 
+	 rcvbuf: 
+		 hiwat:655360 lowat:1 mbcnt:0 mbmax:2621440
+		 sb_flags: (SEL|NOINTR|INHERIT|NOTIFY) 
+
+udp4       0      0  *.57312                *.*                   
+
+	 so_options: (BROADCAST) 
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:65536 lowat:4096 mbcnt:0 mbmax:262144
+	 rcvbuf: 
+		 hiwat:655360 lowat:1 mbcnt:0 mbmax:2621440
+		 sb_flags: (SEL|NOTIFY) 
+
+udp4       0      0  *.32877                *.*                   
+
+	 so_options: (REUSEADDR) 
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:65536 lowat:4096 mbcnt:0 mbmax:262144
+	 rcvbuf: 
+		 hiwat:655360 lowat:1 mbcnt:0 mbmax:2621440
+		 sb_flags: (SEL|NOTIFY) 
+
+udp        0      0  *.33088                *.*                   
+
+	 so_options: (REUSEADDR|BROADCAST|REUSEPORT) 
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:65536 lowat:4096 mbcnt:0 mbmax:262144
+	 rcvbuf: 
+		 hiwat:655360 lowat:1 mbcnt:0 mbmax:2621440
+		 sb_flags: (WAIT|NOTIFY) 
+
+udp        0      0  *.33105                *.*                   
+
+	 so_options: (REUSEADDR|BROADCAST|REUSEPORT) 
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:65536 lowat:4096 mbcnt:0 mbmax:262144
+	 rcvbuf: 
+		 hiwat:655360 lowat:1 mbcnt:0 mbmax:2621440
+		 sb_flags: (WAIT|NOTIFY) 
+
+udp        0      0  *.14252                *.*                   
+
+	 so_options: (BROADCAST) 
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:65536 lowat:4096 mbcnt:0 mbmax:262144
+	 rcvbuf: 
+		 hiwat:655360 lowat:1 mbcnt:0 mbmax:2621440
+		 sb_flags: (WAIT|NOTIFY) 
+
+udp        0      0  *.14254                *.*                   
+
+	 so_options: (BROADCAST) 
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:65536 lowat:4096 mbcnt:0 mbmax:262144
+	 rcvbuf: 
+		 hiwat:655360 lowat:1 mbcnt:0 mbmax:2621440
+		 sb_flags: (WAIT|NOTIFY) 
+
+
+Active UNIX domain sockets
+SADR/PCB         Type   Recv-Q Send-Q      Inode            Conn             Refs           Nextref      Addr
+f1000e001af6e808 dgram       0      0 f1000a04d0186820                0                0                0 /dev/.SRC-unix/SRC0001769940ZqgMec
+f1000e001af0ce80
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:8192 lowat:1 mbcnt:0 mbmax:32768
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0019e4f408 stream      0      0                0                0                0                0
+f1000e001af3b800
+	 so_state: (CANTSENDMORE|CANTRCVMORE|PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|XPG1170) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0019caa808 dgram       0      0 f1000a04d0386020                0                0                0 /dev/SRC
+f1000e001af0a000
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:8192 lowat:4096 mbcnt:0 mbmax:32768
+	 rcvbuf: 
+		 hiwat:45000 lowat:1 mbcnt:0 mbmax:180000
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e001af71008 dgram       0      0 f1000a04d0286820                0                0                0 /dev/.SRC-unix/SRC0001769940ZAgMeg
+f1000e001af0c680
+	 so_state: (PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:8192 lowat:1 mbcnt:0 mbmax:32768
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0000a25408 dgram       0      0 f1000a04d0208020                0                0                0 /dev/.SRC-unix/SRC0001769940fugMek
+f1000e0000a20380
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:8192 lowat:1 mbcnt:0 mbmax:32768
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e001af6e408 dgram       0      0 f1000a04d01d6820                0                0                0 /dev/.SRC-unix/SRC0001769940ZugMed
+f1000e001af0cc80
+	 so_state: (PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:8192 lowat:1 mbcnt:0 mbmax:32768
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e001af71408 dgram       0      0 f1000a04d0256820                0                0                0 /dev/.SRC-unix/SRC0001769940Z7gMef
+f1000e001af0c880
+	 so_state: (PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:8192 lowat:1 mbcnt:0 mbmax:32768
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0019caa408 dgram       0      0 f1000a04d0296420                0 f1000e001af0e880                0 /dev/log
+f1000e001af0ba00
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0009e08008 dgram       0      0 f1000a04d02c6420                0                0                0 /dev/.SRC-unix/SRC0001769940ZegMeb
+f1000e001af0b900
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:8192 lowat:1 mbcnt:0 mbmax:32768
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e000bd69008 dgram       0      0 f1000a04d01f6420                0                0                0 /dev/.SRC-unix/SRC0001769940YYgMea
+f1000e001af0bc80
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:8192 lowat:1 mbcnt:0 mbmax:32768
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0001427408 dgram       0      0 f1000a04d0257c20                0                0                0 /dev/.SRC-unix/SRC0001769940eMgMej
+f1000e0001422100
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:8192 lowat:1 mbcnt:0 mbmax:32768
+		 sb_flags: (WAIT|NOTIFY) 
+
+f1000e0019e50808 dgram       0      0 f1000a04d044a820                0                0                0 /dev/.SRC-unix/SRC0001769940qAgMem
+f1000e001af3b980
+	 so_state: (PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:8192 lowat:1 mbcnt:0 mbmax:32768
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0019e7fc08 dgram       0      0                0 f1000e001af0ba00                0 f1000e001af0f180
+f1000e001af3ba80
+	 so_state: (ISCONNECTED|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e000bd69408 dgram       0      0                0 f1000e001af0ba00                0 f1000e0000f20780
+f1000e001af0f180
+	 so_state: (ISCONNECTED|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0019e60c08 stream      0      0                0                0                0                0
+f1000e001af3be00
+	 so_state: (CANTSENDMORE|CANTRCVMORE|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0000a25808 stream      0      0 f1000a04d0358420                0                0                0 /tmp/dpi_socket
+f1000e0000a20200
+
+	 so_options: (ACCEPTCONN) 
+	 q0len:0 qlen:0 qlimit:5 	 so_state: (PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0001429808 stream      0      0                0                0                0                0
+f1000e0001422880
+	 so_state: (CANTSENDMORE|CANTRCVMORE|PRIV) 
+	 timeo:0 uid:8
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0019e2f008 stream      0      0 f1000a04d0b51420                0                0                0 /usr/es/sbin/cluster/ha_ipc
+f1000e001af3dc80
+
+	 so_options: (ACCEPTCONN) 
+	 q0len:0 qlen:0 qlimit:32 	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0019e91808 dgram       0      0 f1000a04d0bf1420                0                0                0 /usr/es/sbin/cluster/clresmgrd.stat
+f1000e001af3da00
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0019e5e008 dgram       0      0 f1000a04d0bd1420                0                0                0 /usr/es/sbin/cluster/rd_dswap_fd
+f1000e001af3da80
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0019e1ec08 dgram       0      0 f1000a04d0bd1020                0                0                0 /dev/.SRC-unix/SRC00017699401mgMes
+f1000e001af3c800
+	 so_state: (PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:8192 lowat:1 mbcnt:0 mbmax:32768
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0019e80808 stream      0      0 f1000a04d0b71420                0                0                0 /usr/es/sbin/cluster/ha_vt_ipc
+f1000e001af3dc00
+
+	 so_options: (ACCEPTCONN) 
+	 q0len:0 qlen:0 qlimit:32 	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0019e40008 dgram       0      0 f1000a04d0bb1420                0                0                0 /usr/es/sbin/cluster/vtapi_event.stat
+f1000e001af3db00
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0019e51008 dgram       0      0 f1000a04d0c31420                0                0                0 /usr/es/sbin/cluster/hats_to_cm
+f1000e001af3d900
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0019e80408 dgram       0      0 f1000a04d0c11420                0                0                0 /usr/es/sbin/cluster/hacmprd.extev
+f1000e001af3d980
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0019e3f408 stream      0      0 f1000a04d0d76820                0                0                0 /var/ct/1VC0TKF0OHvQvmRfcICZW5/soc/cthags/cthagsdsocket
+f1000e001af48780
+
+	 so_options: (ACCEPTCONN) 
+	 q0len:0 qlen:0 qlimit:128 	 so_state: (PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:655360 lowat:4096 mbcnt:0 mbmax:2621440
+	 rcvbuf: 
+		 hiwat:131070 lowat:1 mbcnt:0 mbmax:524280
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0019e4fc08 stream      0      0                0 f1000e001af4ac00                0                0 /var/ct/IW/soc/mc/clsrv
+f1000e001af4ab80
+	 so_state: (ISCONNECTED|PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:32768 lowat:4096 mbcnt:0 mbmax:131072
+	 rcvbuf: 
+		 hiwat:32768 lowat:1 mbcnt:0 mbmax:131072
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e000bd67008 stream      0      0                0 f1000e001af49280                0                0 /var/ct/1VC0TKF0OHvQvmRfcICZW5/soc/cthags/cthagsdsocket
+f1000e001af49200
+	 so_state: (ISCONNECTED|PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:655360 lowat:4096 mbcnt:0 mbmax:2621440
+	 rcvbuf: 
+		 hiwat:131070 lowat:1 mbcnt:0 mbmax:524280
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e001af70408 dgram       0      0 f1000a04d0b45820                0                0                0 /dev/.SRC-unix/SRC0001769940fagMet
+f1000e001af41b00
+	 so_state: (PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:655360 lowat:4096 mbcnt:0 mbmax:2621440
+	 rcvbuf: 
+		 hiwat:131070 lowat:1 mbcnt:0 mbmax:524280
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0019e7f808 stream      0      0                0 f1000e001af48600                0                0 /var/ct/1VC0TKF0OHvQvmRfcICZW5/soc/cthags/cthagsdsocket
+f1000e001af48500
+	 so_state: (ISCONNECTED|PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:655360 lowat:4096 mbcnt:0 mbmax:2621440
+	 rcvbuf: 
+		 hiwat:131070 lowat:1 mbcnt:0 mbmax:524280
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0019e31c08 stream      0      0 f1000a04d0d26c20 f1000e001af4ac80                0                0 /var/ct/1VC0TKF0OHvQvmRfcICZW5/soc/cthags/cthags.clients/u1508032
+f1000e001af4ad00
+
+	 so_options: (REUSEADDR) 
+	 so_state: (ISCONNECTED|PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:131070 lowat:4096 mbcnt:0 mbmax:524280
+	 rcvbuf: 
+		 hiwat:131070 lowat:1 mbcnt:0 mbmax:524280
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0019e90c08 stream      0      0 f1000a04d0d86820 f1000e001af48500                0                0 /var/ct/1VC0TKF0OHvQvmRfcICZW5/soc/cthags/cthags.clients/u3997734
+f1000e001af48600
+
+	 so_options: (REUSEADDR) 
+	 so_state: (ISCONNECTED|PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:131070 lowat:4096 mbcnt:0 mbmax:524280
+	 rcvbuf: 
+		 hiwat:131070 lowat:1 mbcnt:0 mbmax:524280
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0019e7f408 stream      0      0 f1000a04d0c16c20 f1000e001af49200                0                0 /var/ct/1VC0TKF0OHvQvmRfcICZW5/soc/cthags/cthags.clients/u852568
+f1000e001af49280
+
+	 so_options: (REUSEADDR) 
+	 so_state: (ISCONNECTED|PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:131070 lowat:4096 mbcnt:0 mbmax:524280
+	 rcvbuf: 
+		 hiwat:131070 lowat:1 mbcnt:0 mbmax:524280
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e001aeb0c08 stream      0      0                0 f1000e001af4ad00                0                0 /var/ct/1VC0TKF0OHvQvmRfcICZW5/soc/cthags/cthagsdsocket
+f1000e001af4ac80
+	 so_state: (ISCONNECTED|PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:655360 lowat:4096 mbcnt:0 mbmax:2621440
+	 rcvbuf: 
+		 hiwat:131070 lowat:1 mbcnt:0 mbmax:524280
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0019e90408 dgram       0      0 f1000a04d0c86c20                0                0                0 /dev/.SRC-unix/SRC0001769940bYgMeu
+f1000e001af4ae00
+	 so_state: (PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:8192 lowat:1 mbcnt:0 mbmax:32768
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0019e7f008 stream      0      0                0 f1000e001af4ab80                0                0
+f1000e001af4ac00
+	 so_state: (ISCONNECTED|PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e001aeb0408 stream      0      0 f1000a04d0be7020                0                0                0 /var/ct/IW/soc/mc/RMIBM.StorageRM.0
+f1000e001af4be80
+
+	 so_options: (ACCEPTCONN) 
+	 q0len:0 qlen:0 qlimit:4 	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0019e30808 stream      0      0                0 f1000e001af4bc80                0                0
+f1000e001af4bd00
+	 so_state: (ISCONNECTED|PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0019e4e808 stream      0      0                0 f1000e001af4bd00                0                0 /var/ct/IW/soc/mc/RMIBM.StorageRM.0
+f1000e001af4bc80
+	 so_state: (ISCONNECTED|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (WAIT|NOTIFY) 
+
+f1000e001912bc08 stream      0      0 f1000a04d0b9bc20 f1000e001af40d80                0                0 /var/ct/1VC0TKF0OHvQvmRfcICZW5/soc/cthags/cthags.clients/u4194406
+f1000e001af40e80
+
+	 so_options: (REUSEADDR) 
+	 so_state: (ISCONNECTED|PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:131070 lowat:4096 mbcnt:0 mbmax:524280
+	 rcvbuf: 
+		 hiwat:131070 lowat:1 mbcnt:0 mbmax:524280
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e00192bac08 stream      0      0                0 f1000e001af3fc00                0                0
+f1000e001af3fc80
+	 so_state: (ISCONNECTED|PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e00191b0c08 stream      0      0                0 f1000e001af40e80                0                0 /var/ct/1VC0TKF0OHvQvmRfcICZW5/soc/cthags/cthagsdsocket
+f1000e001af40d80
+	 so_state: (ISCONNECTED|PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:655360 lowat:4096 mbcnt:0 mbmax:2621440
+	 rcvbuf: 
+		 hiwat:131070 lowat:1 mbcnt:0 mbmax:524280
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0019e50408 stream      0      0                0 f1000e001af3fc80                0                0 /var/ct/IW/soc/mc/clsrv
+f1000e001af3fc00
+	 so_state: (ISCONNECTED|PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:32768 lowat:4096 mbcnt:0 mbmax:131072
+	 rcvbuf: 
+		 hiwat:32768 lowat:1 mbcnt:0 mbmax:131072
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0011e50c08 stream      0      0                0 f1000e0011e42600                0                0 /usr/es/sbin/cluster/hacmprd.stat
+f1000e0011ef3c00
+	 so_state: (ISCONNECTED|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:65535 lowat:4096 mbcnt:0 mbmax:262140
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0019171008 stream      0      0 f1000a04d0cbb820                0                0                0 /usr/es/sbin/cluster/HacmpClstrmgrSrvr
+f1000e000bf23b80
+
+	 so_options: (ACCEPTCONN) 
+	 q0len:0 qlen:0 qlimit:5 	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:65535 lowat:4096 mbcnt:0 mbmax:262140
+	 rcvbuf: 
+		 hiwat:65535 lowat:1 mbcnt:0 mbmax:262140
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0019e30408 dgram       0      0 f1000a04d0aebc20                0                0                0 /dev/socket.gsclvmd
+f1000e001af3c200
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e000000f408 dgram       0      0 f1000a04d0dab820                0                0                0 /dev/.SRC-unix/SRC00017699403QgMev
+f1000e001af3c480
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:65536 lowat:1 mbcnt:0 mbmax:262144
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e00192bb808 dgram       0      0                0 f1000e001af0ba00                0 f1000e000bf22100
+f1000e000bf23c00
+	 so_state: (ISCONNECTED|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0019e5e408 dgram       0      0                0 f1000e001af0ba00                0 f1000e0000662b00
+f1000e000bf22180
+	 so_state: (ISCONNECTED|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0019236c08 dgram       0      0                0 f1000e001af0ba00                0 f1000e000bf22180
+f1000e000bf22100
+	 so_state: (ISCONNECTED|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0019388408 dgram       0      0                0 f1000e001af0ba00                0 f1000e000bf23c00
+f1000e001af0e880
+	 so_state: (ISCONNECTED|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0000529408 dgram       0      0                0 f1000e001af0ba00                0                0
+f1000e0000527900
+	 so_state: (ISCONNECTED|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0000520c08 dgram       0      0 f1000a04d02c7820                0                0                0 /dev/.SRC-unix/SRC0001769940eegMei
+f1000e0000535700
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:8192 lowat:1 mbcnt:0 mbmax:32768
+		 sb_flags: (WAIT|NOTIFY) 
+
+f1000e0000534c08 stream      0      0 f1000a04d042d020                0                0                0 /var/ct/IW/soc/mc/RMIBM.HostRM.0
+f1000e0000535900
+
+	 so_options: (ACCEPTCONN) 
+	 q0len:0 qlen:0 qlimit:4 	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e000052e008 dgram       0      0 f1000a04d0207820                0                0                0 /dev/.SRC-unix/SRC0001769940dQgMeh
+f1000e0000535200
+	 so_state: (PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:8192 lowat:1 mbcnt:0 mbmax:32768
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0000f23808 dgram       0      0                0 f1000e001af0ba00                0 f1000e0000527900
+f1000e0000f20780
+	 so_state: (ISCONNECTED|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e000053b408 dgram       0      0 f1000a04d043a420                0                0                0 /dev/.SRC-unix/SRC0001769940qigMel
+f1000e0000535b80
+	 so_state: (PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:8192 lowat:1 mbcnt:0 mbmax:32768
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0000521408 dgram       0      0                0 f1000e001af0ba00                0 f1000e001af3ba80
+f1000e0000535180
+	 so_state: (ISCONNECTED|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0000536808 stream      0      0 f1000a04d02ac020                0                0                0 /etc/cluster/clcomd_sec
+f1000e0000541c00
+
+	 so_options: (ACCEPTCONN) 
+	 q0len:0 qlen:0 qlimit:1024 	 so_state: (PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0000666808 dgram       0      0 f1000a04d044c820                0                0                0 /dev/.SRC-unix/SRC0001769940tEgMen
+f1000e0000662e00
+	 so_state: (PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:8192 lowat:1 mbcnt:0 mbmax:32768
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0000666008 dgram       0      0 f1000a04d033cc20                0                0                0 /dev/.SRC-unix/SRC0001769940tUgMep
+f1000e0000662d00
+	 so_state: (PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:8192 lowat:1 mbcnt:0 mbmax:32768
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0011c1c808 stream      0      0                0 f1000e0011e40200                0                0 /var/ct/IW/soc/mc/RMIBM.ConfigRM.0
+f1000e0011e40180
+	 so_state: (ISCONNECTED|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (WAIT|NOTIFY) 
+
+f1000e0000666408 dgram       0      0 f1000a04d021cc20                0                0                0 /dev/.SRC-unix/SRC0001769940tIgMeo
+f1000e0000662d80
+	 so_state: (PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:8192 lowat:1 mbcnt:0 mbmax:32768
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0000539c08 stream      0      0 f1000a04d03bd020                0                0                0 /var/ct/IW/soc/mc/RMIBM.ServiceRM.0
+f1000e0000527300
+
+	 so_options: (ACCEPTCONN) 
+	 q0len:0 qlen:0 qlimit:4 	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0001a74008 stream      0      0                0 f1000e0001a6c180                0                0 /var/ct/IW/soc/mc/RMIBM.HostRM.0
+f1000e0001a6c100
+	 so_state: (ISCONNECTED|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (WAIT|NOTIFY) 
+
+f1000e000053d008 stream      0      0 f1000a04d043d820                0                0                0 /var/ct/IW/soc/mc/RMIBM.ConfigRM.0
+f1000e0000535880
+
+	 so_options: (ACCEPTCONN) 
+	 q0len:0 qlen:0 qlimit:4 	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0000668008 dgram       0      0                0 f1000e001af0ba00                0 f1000e0000535180
+f1000e0000662b00
+	 so_state: (ISCONNECTED|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0000668808 stream      0      0 f1000a04d088bc20                0                0                0 /opt/freeware/cimom/pegasus/etc/cimxml.socket
+f1000e0000662980
+
+	 so_options: (ACCEPTCONN|REUSEADDR) 
+	 q0len:0 qlen:0 qlimit:15 	 so_state: (PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0000531408 dgram       0      0 f1000a04d021d020                0                0                0 /dev/.SRC-unix/SRC0001769940tYgMeq
+f1000e0000541880
+	 so_state: (PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:8192 lowat:1 mbcnt:0 mbmax:32768
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0000542408 stream      0      0 f1000a04d03dd020                0                0                0 /var/ct/IW/soc/mc/RMIBM.DRM.0
+f1000e0000541000
+
+	 so_options: (ACCEPTCONN) 
+	 q0len:0 qlen:0 qlimit:4 	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e000ee38408 stream      0      0 f1000a04d044c020                0                0                0 /var/ct/IW/soc/mc/clsrv
+f1000e0011e47680
+
+	 so_options: (ACCEPTCONN) 
+	 q0len:0 qlen:0 qlimit:1024 	 so_state: (PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e000ee38008 stream      0      0 f1000a04d016c420                0                0                0 /var/ct/IW/soc/mc/rmsrv
+f1000e0011e47600
+
+	 so_options: (ACCEPTCONN) 
+	 q0len:0 qlen:0 qlimit:1024 	 so_state: (PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0001a74808 stream      0      0                0 f1000e0001a6c280                0                0 /var/ct/IW/soc/mc/RMIBM.DRM.0
+f1000e0001a6c200
+	 so_state: (ISCONNECTED|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (WAIT|NOTIFY) 
+
+f1000e0001a6d008 stream      0      0                0 f1000e0001a6c300                0                0
+f1000e0001a6c380
+	 so_state: (ISCONNECTED|PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0001a6dc08 stream      0      0                0 f1000e0001a6c380                0                0 /var/ct/IW/soc/mc/RMIBM.ServiceRM.0
+f1000e0001a6c300
+	 so_state: (ISCONNECTED|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (WAIT|NOTIFY) 
+
+f1000e0001a74c08 stream      0      0                0 f1000e0001a6c200                0                0
+f1000e0001a6c280
+	 so_state: (ISCONNECTED|PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0001a74408 stream      0      0                0 f1000e0001a6c100                0                0
+f1000e0001a6c180
+	 so_state: (ISCONNECTED|PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0011c1cc08 stream      0      0                0 f1000e0011e40180                0                0
+f1000e0011e40200
+	 so_state: (ISCONNECTED|PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0011e80008 stream      0      0                0 f1000e0011ef3c00                0                0
+f1000e0011e42600
+	 so_state: (ISCONNECTED|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:65535 lowat:4096 mbcnt:0 mbmax:262140
+	 rcvbuf: 
+		 hiwat:65535 lowat:1 mbcnt:0 mbmax:262140
+		 sb_flags: (SEL|NOTIFY) 
+
+==== EXITED with rc 0 ====
+==== END netstat -ano Thu Aug  6 11:13:40 GST 2015 ====

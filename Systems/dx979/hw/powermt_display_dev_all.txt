@@ -1,0 +1,1008 @@
+==== This output can be found in Systems/dx979/hw/powermt_display_dev_all.txt ====
+==== START powermt display dev=all Tue Jul  7 00:42:04 GST 2015 ====
+Pseudo name=hdiskpower0
+Symmetrix ID=000292603381
+Logical device ID=4973
+state=alive; policy=SymmOpt; queued-IOs=0
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   5 fscsi14                hdisk179    FA  4e:00 active   alive      0      0
+   5 fscsi14                hdisk2      FA 14e:00 active   alive      0      0
+   4 fscsi11                hdisk105    FA  4e:00 active   alive      0      0
+   4 fscsi11                hdisk0      FA 14e:00 active   alive      0      0
+   6 fscsi10                hdisk25     FA 13e:00 active   alive      0      0
+   6 fscsi10                hdisk5      FA  3e:00 active   alive      0      0
+   7 fscsi0                 hdisk31     FA 13e:00 active   alive      0      0
+   7 fscsi0                 hdisk9      FA  3e:00 active   alive      0      0
+
+Pseudo name=hdiskpower1
+Symmetrix ID=000292603381
+Logical device ID=4984
+state=alive; policy=SymmOpt; queued-IOs=0
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   5 fscsi14                hdisk180    FA  4e:00 active   alive      0      0
+   5 fscsi14                hdisk3      FA 14e:00 active   alive      0      0
+   4 fscsi11                hdisk106    FA  4e:00 active   alive      0      0
+   4 fscsi11                hdisk1      FA 14e:00 active   alive      0      0
+   6 fscsi10                hdisk26     FA 13e:00 active   alive      0      0
+   6 fscsi10                hdisk6      FA  3e:00 active   alive      0      0
+   7 fscsi0                 hdisk32     FA 13e:00 active   alive      0      0
+   7 fscsi0                 hdisk10     FA  3e:00 active   alive      0      0
+
+Pseudo name=hdiskpower2
+Symmetrix ID=000292603381
+Logical device ID=4953
+state=alive; policy=SymmOpt; queued-IOs=0
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   5 fscsi14                hdisk178    FA  4e:00 active   alive      0      0
+   5 fscsi14                hdisk11     FA 14e:00 active   alive      0      0
+   4 fscsi11                hdisk104    FA  4e:00 active   alive      0      0
+   4 fscsi11                hdisk8      FA 14e:00 active   alive      0      0
+   6 fscsi10                hdisk24     FA 13e:00 active   alive      0      0
+   6 fscsi10                hdisk4      FA  3e:00 active   alive      0      0
+   7 fscsi0                 hdisk30     FA 13e:00 active   alive      0      0
+   7 fscsi0                 hdisk7      FA  3e:00 active   alive      0      0
+
+Pseudo name=hdiskpower3
+Symmetrix ID=000292603381
+Logical device ID=498F
+state=alive; policy=SymmOpt; queued-IOs=0
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   5 fscsi14                hdisk181    FA  4e:00 active   alive      0      0
+   5 fscsi14                hdisk14     FA 14e:00 active   alive      0      0
+   4 fscsi11                hdisk107    FA  4e:00 active   alive      0      0
+   4 fscsi11                hdisk13     FA 14e:00 active   alive      0      0
+   6 fscsi10                hdisk27     FA 13e:00 active   alive      0      0
+   6 fscsi10                hdisk12     FA  3e:00 active   alive      0      0
+   7 fscsi0                 hdisk33     FA 13e:00 active   alive      0      0
+   7 fscsi0                 hdisk15     FA  3e:00 active   alive      0      0
+
+Pseudo name=hdiskpower4
+Symmetrix ID=000292603381
+Logical device ID=4C85
+state=alive; policy=SymmOpt; queued-IOs=0
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   5 fscsi14                hdisk182    FA  4e:00 active   alive      0      0
+   5 fscsi14                hdisk20     FA 14e:00 active   alive      0      0
+   4 fscsi11                hdisk108    FA  4e:00 active   alive      0      0
+   4 fscsi11                hdisk18     FA 14e:00 active   alive      0      0
+   6 fscsi10                hdisk28     FA 13e:00 active   alive      0      0
+   6 fscsi10                hdisk16     FA  3e:00 active   alive      0      0
+   7 fscsi0                 hdisk34     FA 13e:00 active   alive      0      0
+   7 fscsi0                 hdisk22     FA  3e:00 active   alive      0      0
+
+Pseudo name=hdiskpower5
+Symmetrix ID=000292603381
+Logical device ID=4C8D
+state=alive; policy=SymmOpt; queued-IOs=0
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   5 fscsi14                hdisk183    FA  4e:00 active   alive      0      0
+   5 fscsi14                hdisk21     FA 14e:00 active   alive      0      0
+   4 fscsi11                hdisk109    FA  4e:00 active   alive      0      0
+   4 fscsi11                hdisk19     FA 14e:00 active   alive      0      0
+   6 fscsi10                hdisk29     FA 13e:00 active   alive      0      0
+   6 fscsi10                hdisk17     FA  3e:00 active   alive      0      0
+   7 fscsi0                 hdisk35     FA 13e:00 active   alive      0      0
+   7 fscsi0                 hdisk23     FA  3e:00 active   alive      0      0
+
+Pseudo name=hdiskpower6
+Symmetrix ID=000292603381
+Logical device ID=4BA5
+state=alive; policy=SymmOpt; queued-IOs=0
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   5 fscsi14                hdisk218    FA 14e:00 active   alive      0      0
+   5 fscsi14                hdisk184    FA  4e:00 active   alive      0      0
+   4 fscsi11                hdisk144    FA 14e:00 active   alive      0      0
+   4 fscsi11                hdisk110    FA  4e:00 active   alive      0      0
+   6 fscsi10                hdisk70     FA  3e:00 active   alive      0      0
+   6 fscsi10                hdisk36     FA 13e:00 active   alive      0      0
+   7 fscsi0                 hdisk286    FA  3e:00 active   alive      0      0
+   7 fscsi0                 hdisk252    FA 13e:00 active   alive      0      0
+
+Pseudo name=hdiskpower7
+Symmetrix ID=000292603381
+Logical device ID=4BAD
+state=alive; policy=SymmOpt; queued-IOs=0
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   5 fscsi14                hdisk219    FA 14e:00 active   alive      0      0
+   5 fscsi14                hdisk185    FA  4e:00 active   alive      0      0
+   4 fscsi11                hdisk145    FA 14e:00 active   alive      0      0
+   4 fscsi11                hdisk111    FA  4e:00 active   alive      0      0
+   6 fscsi10                hdisk71     FA  3e:00 active   alive      0      0
+   6 fscsi10                hdisk37     FA 13e:00 active   alive      0      0
+   7 fscsi0                 hdisk287    FA  3e:00 active   alive      0      0
+   7 fscsi0                 hdisk253    FA 13e:00 active   alive      0      0
+
+Pseudo name=hdiskpower8
+Symmetrix ID=000292603381
+Logical device ID=4BB5
+state=alive; policy=SymmOpt; queued-IOs=0
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   5 fscsi14                hdisk220    FA 14e:00 active   alive      0      0
+   5 fscsi14                hdisk186    FA  4e:00 active   alive      0      0
+   4 fscsi11                hdisk146    FA 14e:00 active   alive      0      0
+   4 fscsi11                hdisk112    FA  4e:00 active   alive      0      0
+   6 fscsi10                hdisk72     FA  3e:00 active   alive      0      0
+   6 fscsi10                hdisk38     FA 13e:00 active   alive      0      0
+   7 fscsi0                 hdisk288    FA  3e:00 active   alive      0      0
+   7 fscsi0                 hdisk254    FA 13e:00 active   alive      0      0
+
+Pseudo name=hdiskpower9
+Symmetrix ID=000292603381
+Logical device ID=4BBD
+state=alive; policy=SymmOpt; queued-IOs=0
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   5 fscsi14                hdisk221    FA 14e:00 active   alive      0      0
+   5 fscsi14                hdisk187    FA  4e:00 active   alive      0      0
+   4 fscsi11                hdisk147    FA 14e:00 active   alive      0      0
+   4 fscsi11                hdisk113    FA  4e:00 active   alive      0      0
+   6 fscsi10                hdisk73     FA  3e:00 active   alive      0      0
+   6 fscsi10                hdisk39     FA 13e:00 active   alive      0      0
+   7 fscsi0                 hdisk289    FA  3e:00 active   alive      0      0
+   7 fscsi0                 hdisk255    FA 13e:00 active   alive      0      0
+
+Pseudo name=hdiskpower10
+Symmetrix ID=000292603381
+Logical device ID=4BC5
+state=alive; policy=SymmOpt; queued-IOs=0
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   5 fscsi14                hdisk222    FA 14e:00 active   alive      0      0
+   5 fscsi14                hdisk188    FA  4e:00 active   alive      0      0
+   4 fscsi11                hdisk148    FA 14e:00 active   alive      0      0
+   4 fscsi11                hdisk114    FA  4e:00 active   alive      0      0
+   6 fscsi10                hdisk74     FA  3e:00 active   alive      0      0
+   6 fscsi10                hdisk40     FA 13e:00 active   alive      0      0
+   7 fscsi0                 hdisk290    FA  3e:00 active   alive      0      0
+   7 fscsi0                 hdisk256    FA 13e:00 active   alive      0      0
+
+Pseudo name=hdiskpower11
+Symmetrix ID=000292603381
+Logical device ID=4BCD
+state=alive; policy=SymmOpt; queued-IOs=0
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   5 fscsi14                hdisk223    FA 14e:00 active   alive      0      0
+   5 fscsi14                hdisk189    FA  4e:00 active   alive      0      0
+   4 fscsi11                hdisk149    FA 14e:00 active   alive      0      0
+   4 fscsi11                hdisk115    FA  4e:00 active   alive      0      0
+   6 fscsi10                hdisk75     FA  3e:00 active   alive      0      0
+   6 fscsi10                hdisk41     FA 13e:00 active   alive      0      0
+   7 fscsi0                 hdisk291    FA  3e:00 active   alive      0      0
+   7 fscsi0                 hdisk257    FA 13e:00 active   alive      0      0
+
+Pseudo name=hdiskpower12
+Symmetrix ID=000292603381
+Logical device ID=4BD5
+state=alive; policy=SymmOpt; queued-IOs=0
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   5 fscsi14                hdisk224    FA 14e:00 active   alive      0      0
+   5 fscsi14                hdisk190    FA  4e:00 active   alive      0      0
+   4 fscsi11                hdisk150    FA 14e:00 active   alive      0      0
+   4 fscsi11                hdisk116    FA  4e:00 active   alive      0      0
+   6 fscsi10                hdisk76     FA  3e:00 active   alive      0      0
+   6 fscsi10                hdisk42     FA 13e:00 active   alive      0      0
+   7 fscsi0                 hdisk292    FA  3e:00 active   alive      0      0
+   7 fscsi0                 hdisk258    FA 13e:00 active   alive      0      0
+
+Pseudo name=hdiskpower13
+Symmetrix ID=000292603381
+Logical device ID=4BDD
+state=alive; policy=SymmOpt; queued-IOs=0
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   5 fscsi14                hdisk225    FA 14e:00 active   alive      0      0
+   5 fscsi14                hdisk191    FA  4e:00 active   alive      0      0
+   4 fscsi11                hdisk151    FA 14e:00 active   alive      0      0
+   4 fscsi11                hdisk117    FA  4e:00 active   alive      0      0
+   6 fscsi10                hdisk77     FA  3e:00 active   alive      0      0
+   6 fscsi10                hdisk43     FA 13e:00 active   alive      0      0
+   7 fscsi0                 hdisk293    FA  3e:00 active   alive      0      0
+   7 fscsi0                 hdisk259    FA 13e:00 active   alive      0      0
+
+Pseudo name=hdiskpower14
+Symmetrix ID=000292603381
+Logical device ID=4BE5
+state=alive; policy=SymmOpt; queued-IOs=0
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   5 fscsi14                hdisk226    FA 14e:00 active   alive      0      0
+   5 fscsi14                hdisk192    FA  4e:00 active   alive      0      0
+   4 fscsi11                hdisk152    FA 14e:00 active   alive      0      0
+   4 fscsi11                hdisk118    FA  4e:00 active   alive      0      0
+   6 fscsi10                hdisk78     FA  3e:00 active   alive      0      0
+   6 fscsi10                hdisk44     FA 13e:00 active   alive      0      0
+   7 fscsi0                 hdisk294    FA  3e:00 active   alive      0      0
+   7 fscsi0                 hdisk260    FA 13e:00 active   alive      0      0
+
+Pseudo name=hdiskpower15
+Symmetrix ID=000292603381
+Logical device ID=4BED
+state=alive; policy=SymmOpt; queued-IOs=0
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   5 fscsi14                hdisk227    FA 14e:00 active   alive      0      0
+   5 fscsi14                hdisk193    FA  4e:00 active   alive      0      0
+   4 fscsi11                hdisk153    FA 14e:00 active   alive      0      0
+   4 fscsi11                hdisk119    FA  4e:00 active   alive      0      0
+   6 fscsi10                hdisk79     FA  3e:00 active   alive      0      0
+   6 fscsi10                hdisk45     FA 13e:00 active   alive      0      0
+   7 fscsi0                 hdisk295    FA  3e:00 active   alive      0      0
+   7 fscsi0                 hdisk261    FA 13e:00 active   alive      0      0
+
+Pseudo name=hdiskpower16
+Symmetrix ID=000292603381
+Logical device ID=4BF5
+state=alive; policy=SymmOpt; queued-IOs=0
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   5 fscsi14                hdisk228    FA 14e:00 active   alive      0      0
+   5 fscsi14                hdisk194    FA  4e:00 active   alive      0      0
+   4 fscsi11                hdisk154    FA 14e:00 active   alive      0      0
+   4 fscsi11                hdisk120    FA  4e:00 active   alive      0      0
+   6 fscsi10                hdisk80     FA  3e:00 active   alive      0      0
+   6 fscsi10                hdisk46     FA 13e:00 active   alive      0      0
+   7 fscsi0                 hdisk296    FA  3e:00 active   alive      0      0
+   7 fscsi0                 hdisk262    FA 13e:00 active   alive      0      0
+
+Pseudo name=hdiskpower17
+Symmetrix ID=000292603381
+Logical device ID=4BFD
+state=alive; policy=SymmOpt; queued-IOs=0
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   5 fscsi14                hdisk229    FA 14e:00 active   alive      0      0
+   5 fscsi14                hdisk195    FA  4e:00 active   alive      0      0
+   4 fscsi11                hdisk155    FA 14e:00 active   alive      0      0
+   4 fscsi11                hdisk121    FA  4e:00 active   alive      0      0
+   6 fscsi10                hdisk81     FA  3e:00 active   alive      0      0
+   6 fscsi10                hdisk47     FA 13e:00 active   alive      0      0
+   7 fscsi0                 hdisk297    FA  3e:00 active   alive      0      0
+   7 fscsi0                 hdisk263    FA 13e:00 active   alive      0      0
+
+Pseudo name=hdiskpower18
+Symmetrix ID=000292603381
+Logical device ID=4C05
+state=alive; policy=SymmOpt; queued-IOs=0
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   5 fscsi14                hdisk230    FA 14e:00 active   alive      0      0
+   5 fscsi14                hdisk196    FA  4e:00 active   alive      0      0
+   4 fscsi11                hdisk156    FA 14e:00 active   alive      0      0
+   4 fscsi11                hdisk122    FA  4e:00 active   alive      0      0
+   6 fscsi10                hdisk82     FA  3e:00 active   alive      0      0
+   6 fscsi10                hdisk48     FA 13e:00 active   alive      0      0
+   7 fscsi0                 hdisk298    FA  3e:00 active   alive      0      0
+   7 fscsi0                 hdisk264    FA 13e:00 active   alive      0      0
+
+Pseudo name=hdiskpower19
+Symmetrix ID=000292603381
+Logical device ID=4C0D
+state=alive; policy=SymmOpt; queued-IOs=0
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   5 fscsi14                hdisk231    FA 14e:00 active   alive      0      0
+   5 fscsi14                hdisk197    FA  4e:00 active   alive      0      0
+   4 fscsi11                hdisk157    FA 14e:00 active   alive      0      0
+   4 fscsi11                hdisk123    FA  4e:00 active   alive      0      0
+   6 fscsi10                hdisk83     FA  3e:00 active   alive      0      0
+   6 fscsi10                hdisk49     FA 13e:00 active   alive      0      0
+   7 fscsi0                 hdisk299    FA  3e:00 active   alive      0      0
+   7 fscsi0                 hdisk265    FA 13e:00 active   alive      0      0
+
+Pseudo name=hdiskpower20
+Symmetrix ID=000292603381
+Logical device ID=4C15
+state=alive; policy=SymmOpt; queued-IOs=5
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   5 fscsi14                hdisk232    FA 14e:00 active   alive      0      0
+   5 fscsi14                hdisk198    FA  4e:00 active   alive      0      0
+   4 fscsi11                hdisk158    FA 14e:00 active   alive      2      0
+   4 fscsi11                hdisk124    FA  4e:00 active   alive      2      0
+   6 fscsi10                hdisk84     FA  3e:00 active   alive      0      0
+   6 fscsi10                hdisk50     FA 13e:00 active   alive      0      0
+   7 fscsi0                 hdisk300    FA  3e:00 active   alive      1      0
+   7 fscsi0                 hdisk266    FA 13e:00 active   alive      0      0
+
+Pseudo name=hdiskpower21
+Symmetrix ID=000292603381
+Logical device ID=4C1D
+state=alive; policy=SymmOpt; queued-IOs=1
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   5 fscsi14                hdisk233    FA 14e:00 active   alive      0      0
+   5 fscsi14                hdisk199    FA  4e:00 active   alive      0      0
+   4 fscsi11                hdisk159    FA 14e:00 active   alive      0      0
+   4 fscsi11                hdisk125    FA  4e:00 active   alive      0      0
+   6 fscsi10                hdisk85     FA  3e:00 active   alive      0      0
+   6 fscsi10                hdisk51     FA 13e:00 active   alive      1      0
+   7 fscsi0                 hdisk301    FA  3e:00 active   alive      0      0
+   7 fscsi0                 hdisk267    FA 13e:00 active   alive      0      0
+
+Pseudo name=hdiskpower22
+Symmetrix ID=000292603381
+Logical device ID=4C25
+state=alive; policy=SymmOpt; queued-IOs=0
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   5 fscsi14                hdisk234    FA 14e:00 active   alive      0      0
+   5 fscsi14                hdisk200    FA  4e:00 active   alive      0      0
+   4 fscsi11                hdisk160    FA 14e:00 active   alive      0      0
+   4 fscsi11                hdisk126    FA  4e:00 active   alive      0      0
+   6 fscsi10                hdisk86     FA  3e:00 active   alive      0      0
+   6 fscsi10                hdisk52     FA 13e:00 active   alive      0      0
+   7 fscsi0                 hdisk302    FA  3e:00 active   alive      0      0
+   7 fscsi0                 hdisk268    FA 13e:00 active   alive      0      0
+
+Pseudo name=hdiskpower23
+Symmetrix ID=000292603381
+Logical device ID=4C2D
+state=alive; policy=SymmOpt; queued-IOs=0
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   5 fscsi14                hdisk235    FA 14e:00 active   alive      0      0
+   5 fscsi14                hdisk201    FA  4e:00 active   alive      0      0
+   4 fscsi11                hdisk161    FA 14e:00 active   alive      0      0
+   4 fscsi11                hdisk127    FA  4e:00 active   alive      0      0
+   6 fscsi10                hdisk87     FA  3e:00 active   alive      0      0
+   6 fscsi10                hdisk53     FA 13e:00 active   alive      0      0
+   7 fscsi0                 hdisk303    FA  3e:00 active   alive      0      0
+   7 fscsi0                 hdisk269    FA 13e:00 active   alive      0      0
+
+Pseudo name=hdiskpower24
+Symmetrix ID=000292603381
+Logical device ID=4C35
+state=alive; policy=SymmOpt; queued-IOs=0
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   5 fscsi14                hdisk236    FA 14e:00 active   alive      0      0
+   5 fscsi14                hdisk202    FA  4e:00 active   alive      0      0
+   4 fscsi11                hdisk162    FA 14e:00 active   alive      0      0
+   4 fscsi11                hdisk128    FA  4e:00 active   alive      0      0
+   6 fscsi10                hdisk88     FA  3e:00 active   alive      0      0
+   6 fscsi10                hdisk54     FA 13e:00 active   alive      0      0
+   7 fscsi0                 hdisk304    FA  3e:00 active   alive      0      0
+   7 fscsi0                 hdisk270    FA 13e:00 active   alive      0      0
+
+Pseudo name=hdiskpower25
+Symmetrix ID=000292603381
+Logical device ID=4C3D
+state=alive; policy=SymmOpt; queued-IOs=2
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   5 fscsi14                hdisk237    FA 14e:00 active   alive      0      0
+   5 fscsi14                hdisk203    FA  4e:00 active   alive      1      0
+   4 fscsi11                hdisk163    FA 14e:00 active   alive      0      0
+   4 fscsi11                hdisk129    FA  4e:00 active   alive      1      0
+   6 fscsi10                hdisk89     FA  3e:00 active   alive      0      0
+   6 fscsi10                hdisk55     FA 13e:00 active   alive      0      0
+   7 fscsi0                 hdisk305    FA  3e:00 active   alive      0      0
+   7 fscsi0                 hdisk271    FA 13e:00 active   alive      0      0
+
+Pseudo name=hdiskpower26
+Symmetrix ID=000292603381
+Logical device ID=4C45
+state=alive; policy=SymmOpt; queued-IOs=3
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   5 fscsi14                hdisk238    FA 14e:00 active   alive      1      0
+   5 fscsi14                hdisk204    FA  4e:00 active   alive      0      0
+   4 fscsi11                hdisk164    FA 14e:00 active   alive      0      0
+   4 fscsi11                hdisk130    FA  4e:00 active   alive      0      0
+   6 fscsi10                hdisk90     FA  3e:00 active   alive      1      0
+   6 fscsi10                hdisk56     FA 13e:00 active   alive      1      0
+   7 fscsi0                 hdisk306    FA  3e:00 active   alive      0      0
+   7 fscsi0                 hdisk272    FA 13e:00 active   alive      0      0
+
+Pseudo name=hdiskpower27
+Symmetrix ID=000292603381
+Logical device ID=4C4D
+state=alive; policy=SymmOpt; queued-IOs=0
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   5 fscsi14                hdisk239    FA 14e:00 active   alive      0      0
+   5 fscsi14                hdisk205    FA  4e:00 active   alive      0      0
+   4 fscsi11                hdisk165    FA 14e:00 active   alive      0      0
+   4 fscsi11                hdisk131    FA  4e:00 active   alive      0      0
+   6 fscsi10                hdisk91     FA  3e:00 active   alive      0      0
+   6 fscsi10                hdisk57     FA 13e:00 active   alive      0      0
+   7 fscsi0                 hdisk307    FA  3e:00 active   alive      0      0
+   7 fscsi0                 hdisk273    FA 13e:00 active   alive      0      0
+
+Pseudo name=hdiskpower28
+Symmetrix ID=000292603381
+Logical device ID=4C55
+state=alive; policy=SymmOpt; queued-IOs=0
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   5 fscsi14                hdisk240    FA 14e:00 active   alive      0      0
+   5 fscsi14                hdisk206    FA  4e:00 active   alive      0      0
+   4 fscsi11                hdisk166    FA 14e:00 active   alive      0      0
+   4 fscsi11                hdisk132    FA  4e:00 active   alive      0      0
+   6 fscsi10                hdisk92     FA  3e:00 active   alive      0      0
+   6 fscsi10                hdisk58     FA 13e:00 active   alive      0      0
+   7 fscsi0                 hdisk308    FA  3e:00 active   alive      0      0
+   7 fscsi0                 hdisk274    FA 13e:00 active   alive      0      0
+
+Pseudo name=hdiskpower29
+Symmetrix ID=000292603381
+Logical device ID=4C5D
+state=alive; policy=SymmOpt; queued-IOs=0
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   5 fscsi14                hdisk241    FA 14e:00 active   alive      0      0
+   5 fscsi14                hdisk207    FA  4e:00 active   alive      0      0
+   4 fscsi11                hdisk167    FA 14e:00 active   alive      0      0
+   4 fscsi11                hdisk133    FA  4e:00 active   alive      0      0
+   6 fscsi10                hdisk93     FA  3e:00 active   alive      0      0
+   6 fscsi10                hdisk59     FA 13e:00 active   alive      0      0
+   7 fscsi0                 hdisk309    FA  3e:00 active   alive      0      0
+   7 fscsi0                 hdisk275    FA 13e:00 active   alive      0      0
+
+Pseudo name=hdiskpower30
+Symmetrix ID=000292603381
+Logical device ID=4C65
+state=alive; policy=SymmOpt; queued-IOs=0
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   5 fscsi14                hdisk242    FA 14e:00 active   alive      0      0
+   5 fscsi14                hdisk208    FA  4e:00 active   alive      0      0
+   4 fscsi11                hdisk168    FA 14e:00 active   alive      0      0
+   4 fscsi11                hdisk134    FA  4e:00 active   alive      0      0
+   6 fscsi10                hdisk94     FA  3e:00 active   alive      0      0
+   6 fscsi10                hdisk60     FA 13e:00 active   alive      0      0
+   7 fscsi0                 hdisk310    FA  3e:00 active   alive      0      0
+   7 fscsi0                 hdisk276    FA 13e:00 active   alive      0      0
+
+Pseudo name=hdiskpower31
+Symmetrix ID=000292603381
+Logical device ID=4C6D
+state=alive; policy=SymmOpt; queued-IOs=0
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   5 fscsi14                hdisk243    FA 14e:00 active   alive      0      0
+   5 fscsi14                hdisk209    FA  4e:00 active   alive      0      0
+   4 fscsi11                hdisk169    FA 14e:00 active   alive      0      0
+   4 fscsi11                hdisk135    FA  4e:00 active   alive      0      0
+   6 fscsi10                hdisk95     FA  3e:00 active   alive      0      0
+   6 fscsi10                hdisk61     FA 13e:00 active   alive      0      0
+   7 fscsi0                 hdisk311    FA  3e:00 active   alive      0      0
+   7 fscsi0                 hdisk277    FA 13e:00 active   alive      0      0
+
+Pseudo name=hdiskpower32
+Symmetrix ID=000292603381
+Logical device ID=4C75
+state=alive; policy=SymmOpt; queued-IOs=0
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   5 fscsi14                hdisk244    FA 14e:00 active   alive      0      0
+   5 fscsi14                hdisk210    FA  4e:00 active   alive      0      0
+   4 fscsi11                hdisk170    FA 14e:00 active   alive      0      0
+   4 fscsi11                hdisk136    FA  4e:00 active   alive      0      0
+   6 fscsi10                hdisk96     FA  3e:00 active   alive      0      0
+   6 fscsi10                hdisk62     FA 13e:00 active   alive      0      0
+   7 fscsi0                 hdisk312    FA  3e:00 active   alive      0      0
+   7 fscsi0                 hdisk278    FA 13e:00 active   alive      0      0
+
+Pseudo name=hdiskpower33
+Symmetrix ID=000292603381
+Logical device ID=4C7D
+state=alive; policy=SymmOpt; queued-IOs=0
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   5 fscsi14                hdisk245    FA 14e:00 active   alive      0      0
+   5 fscsi14                hdisk211    FA  4e:00 active   alive      0      0
+   4 fscsi11                hdisk171    FA 14e:00 active   alive      0      0
+   4 fscsi11                hdisk137    FA  4e:00 active   alive      0      0
+   6 fscsi10                hdisk97     FA  3e:00 active   alive      0      0
+   6 fscsi10                hdisk63     FA 13e:00 active   alive      0      0
+   7 fscsi0                 hdisk313    FA  3e:00 active   alive      0      0
+   7 fscsi0                 hdisk279    FA 13e:00 active   alive      0      0
+
+Pseudo name=hdiskpower34
+Symmetrix ID=000292603381
+Logical device ID=4DE5
+state=alive; policy=SymmOpt; queued-IOs=0
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   5 fscsi14                hdisk246    FA 14e:00 active   alive      0      0
+   5 fscsi14                hdisk212    FA  4e:00 active   alive      0      0
+   4 fscsi11                hdisk172    FA 14e:00 active   alive      0      0
+   4 fscsi11                hdisk138    FA  4e:00 active   alive      0      0
+   6 fscsi10                hdisk98     FA  3e:00 active   alive      0      0
+   6 fscsi10                hdisk64     FA 13e:00 active   alive      0      0
+   7 fscsi0                 hdisk314    FA  3e:00 active   alive      0      0
+   7 fscsi0                 hdisk280    FA 13e:00 active   alive      0      0
+
+Pseudo name=hdiskpower35
+Symmetrix ID=000292603381
+Logical device ID=4DED
+state=alive; policy=SymmOpt; queued-IOs=0
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   5 fscsi14                hdisk247    FA 14e:00 active   alive      0      0
+   5 fscsi14                hdisk213    FA  4e:00 active   alive      0      0
+   4 fscsi11                hdisk173    FA 14e:00 active   alive      0      0
+   4 fscsi11                hdisk139    FA  4e:00 active   alive      0      0
+   6 fscsi10                hdisk99     FA  3e:00 active   alive      0      0
+   6 fscsi10                hdisk65     FA 13e:00 active   alive      0      0
+   7 fscsi0                 hdisk315    FA  3e:00 active   alive      0      0
+   7 fscsi0                 hdisk281    FA 13e:00 active   alive      0      0
+
+Pseudo name=hdiskpower36
+Symmetrix ID=000292603381
+Logical device ID=385A
+state=alive; policy=SymmOpt; queued-IOs=0
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   5 fscsi14                hdisk248    FA 14e:00 active   alive      0      0
+   5 fscsi14                hdisk214    FA  4e:00 active   alive      0      0
+   4 fscsi11                hdisk174    FA 14e:00 active   alive      0      0
+   4 fscsi11                hdisk140    FA  4e:00 active   alive      0      0
+   6 fscsi10                hdisk100    FA  3e:00 active   alive      0      0
+   6 fscsi10                hdisk66     FA 13e:00 active   alive      0      0
+   7 fscsi0                 hdisk316    FA  3e:00 active   alive      0      0
+   7 fscsi0                 hdisk282    FA 13e:00 active   alive      0      0
+
+Pseudo name=hdiskpower37
+Symmetrix ID=000292603381
+Logical device ID=385B
+state=alive; policy=SymmOpt; queued-IOs=0
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   5 fscsi14                hdisk249    FA 14e:00 active   alive      0      0
+   5 fscsi14                hdisk215    FA  4e:00 active   alive      0      0
+   4 fscsi11                hdisk175    FA 14e:00 active   alive      0      0
+   4 fscsi11                hdisk141    FA  4e:00 active   alive      0      0
+   6 fscsi10                hdisk101    FA  3e:00 active   alive      0      0
+   6 fscsi10                hdisk67     FA 13e:00 active   alive      0      0
+   7 fscsi0                 hdisk317    FA  3e:00 active   alive      0      0
+   7 fscsi0                 hdisk283    FA 13e:00 active   alive      0      0
+
+Pseudo name=hdiskpower38
+Symmetrix ID=000292603381
+Logical device ID=4DF5
+state=alive; policy=SymmOpt; queued-IOs=0
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   5 fscsi14                hdisk250    FA 14e:00 active   alive      0      0
+   5 fscsi14                hdisk216    FA  4e:00 active   alive      0      0
+   4 fscsi11                hdisk176    FA 14e:00 active   alive      0      0
+   4 fscsi11                hdisk142    FA  4e:00 active   alive      0      0
+   6 fscsi10                hdisk102    FA  3e:00 active   alive      0      0
+   6 fscsi10                hdisk68     FA 13e:00 active   alive      0      0
+   7 fscsi0                 hdisk318    FA  3e:00 active   alive      0      0
+   7 fscsi0                 hdisk284    FA 13e:00 active   alive      0      0
+
+Pseudo name=hdiskpower39
+Symmetrix ID=000292603381
+Logical device ID=4DFD
+state=alive; policy=SymmOpt; queued-IOs=0
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   5 fscsi14                hdisk251    FA 14e:00 active   alive      0      0
+   5 fscsi14                hdisk217    FA  4e:00 active   alive      0      0
+   4 fscsi11                hdisk177    FA 14e:00 active   alive      0      0
+   4 fscsi11                hdisk143    FA  4e:00 active   alive      0      0
+   6 fscsi10                hdisk103    FA  3e:00 active   alive      0      0
+   6 fscsi10                hdisk69     FA 13e:00 active   alive      0      0
+   7 fscsi0                 hdisk319    FA  3e:00 active   alive      0      0
+   7 fscsi0                 hdisk285    FA 13e:00 active   alive      0      0
+
+Pseudo name=hdiskpower40
+Symmetrix ID=000292603381
+Logical device ID=4E15
+state=alive; policy=SymmOpt; queued-IOs=0
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   5 fscsi14                hdisk375    FA 14e:00 active   alive      0      0
+   5 fscsi14                hdisk364    FA  4e:00 active   alive      0      0
+   4 fscsi11                hdisk353    FA 14e:00 active   alive      0      0
+   4 fscsi11                hdisk342    FA  4e:00 active   alive      0      0
+   6 fscsi10                hdisk331    FA  3e:00 active   alive      0      0
+   6 fscsi10                hdisk320    FA 13e:00 active   alive      0      0
+   7 fscsi0                 hdisk397    FA  3e:00 active   alive      0      0
+   7 fscsi0                 hdisk386    FA 13e:00 active   alive      0      0
+
+Pseudo name=hdiskpower41
+Symmetrix ID=000292603381
+Logical device ID=4E1D
+state=alive; policy=SymmOpt; queued-IOs=0
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   5 fscsi14                hdisk376    FA 14e:00 active   alive      0      0
+   5 fscsi14                hdisk365    FA  4e:00 active   alive      0      0
+   4 fscsi11                hdisk354    FA 14e:00 active   alive      0      0
+   4 fscsi11                hdisk343    FA  4e:00 active   alive      0      0
+   6 fscsi10                hdisk332    FA  3e:00 active   alive      0      0
+   6 fscsi10                hdisk321    FA 13e:00 active   alive      0      0
+   7 fscsi0                 hdisk398    FA  3e:00 active   alive      0      0
+   7 fscsi0                 hdisk387    FA 13e:00 active   alive      0      0
+
+Pseudo name=hdiskpower42
+Symmetrix ID=000292603381
+Logical device ID=4E25
+state=alive; policy=SymmOpt; queued-IOs=0
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   5 fscsi14                hdisk377    FA 14e:00 active   alive      0      0
+   5 fscsi14                hdisk366    FA  4e:00 active   alive      0      0
+   4 fscsi11                hdisk355    FA 14e:00 active   alive      0      0
+   4 fscsi11                hdisk344    FA  4e:00 active   alive      0      0
+   6 fscsi10                hdisk333    FA  3e:00 active   alive      0      0
+   6 fscsi10                hdisk322    FA 13e:00 active   alive      0      0
+   7 fscsi0                 hdisk399    FA  3e:00 active   alive      0      0
+   7 fscsi0                 hdisk388    FA 13e:00 active   alive      0      0
+
+Pseudo name=hdiskpower43
+Symmetrix ID=000292603381
+Logical device ID=4E2D
+state=alive; policy=SymmOpt; queued-IOs=0
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   5 fscsi14                hdisk378    FA 14e:00 active   alive      0      0
+   5 fscsi14                hdisk367    FA  4e:00 active   alive      0      0
+   4 fscsi11                hdisk356    FA 14e:00 active   alive      0      0
+   4 fscsi11                hdisk345    FA  4e:00 active   alive      0      0
+   6 fscsi10                hdisk334    FA  3e:00 active   alive      0      0
+   6 fscsi10                hdisk323    FA 13e:00 active   alive      0      0
+   7 fscsi0                 hdisk400    FA  3e:00 active   alive      0      0
+   7 fscsi0                 hdisk389    FA 13e:00 active   alive      0      0
+
+Pseudo name=hdiskpower44
+Symmetrix ID=000292603381
+Logical device ID=4E35
+state=alive; policy=SymmOpt; queued-IOs=0
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   5 fscsi14                hdisk379    FA 14e:00 active   alive      0      0
+   5 fscsi14                hdisk368    FA  4e:00 active   alive      0      0
+   4 fscsi11                hdisk357    FA 14e:00 active   alive      0      0
+   4 fscsi11                hdisk346    FA  4e:00 active   alive      0      0
+   6 fscsi10                hdisk335    FA  3e:00 active   alive      0      0
+   6 fscsi10                hdisk324    FA 13e:00 active   alive      0      0
+   7 fscsi0                 hdisk401    FA  3e:00 active   alive      0      0
+   7 fscsi0                 hdisk390    FA 13e:00 active   alive      0      0
+
+Pseudo name=hdiskpower45
+Symmetrix ID=000292603381
+Logical device ID=4E3D
+state=alive; policy=SymmOpt; queued-IOs=0
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   5 fscsi14                hdisk380    FA 14e:00 active   alive      0      0
+   5 fscsi14                hdisk369    FA  4e:00 active   alive      0      0
+   4 fscsi11                hdisk358    FA 14e:00 active   alive      0      0
+   4 fscsi11                hdisk347    FA  4e:00 active   alive      0      0
+   6 fscsi10                hdisk336    FA  3e:00 active   alive      0      0
+   6 fscsi10                hdisk325    FA 13e:00 active   alive      0      0
+   7 fscsi0                 hdisk402    FA  3e:00 active   alive      0      0
+   7 fscsi0                 hdisk391    FA 13e:00 active   alive      0      0
+
+Pseudo name=hdiskpower46
+Symmetrix ID=000292603381
+Logical device ID=4E45
+state=alive; policy=SymmOpt; queued-IOs=0
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   5 fscsi14                hdisk381    FA 14e:00 active   alive      0      0
+   5 fscsi14                hdisk370    FA  4e:00 active   alive      0      0
+   4 fscsi11                hdisk359    FA 14e:00 active   alive      0      0
+   4 fscsi11                hdisk348    FA  4e:00 active   alive      0      0
+   6 fscsi10                hdisk337    FA  3e:00 active   alive      0      0
+   6 fscsi10                hdisk326    FA 13e:00 active   alive      0      0
+   7 fscsi0                 hdisk403    FA  3e:00 active   alive      0      0
+   7 fscsi0                 hdisk392    FA 13e:00 active   alive      0      0
+
+Pseudo name=hdiskpower47
+Symmetrix ID=000292603381
+Logical device ID=4E4D
+state=alive; policy=SymmOpt; queued-IOs=0
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   5 fscsi14                hdisk382    FA 14e:00 active   alive      0      0
+   5 fscsi14                hdisk371    FA  4e:00 active   alive      0      0
+   4 fscsi11                hdisk360    FA 14e:00 active   alive      0      0
+   4 fscsi11                hdisk349    FA  4e:00 active   alive      0      0
+   6 fscsi10                hdisk338    FA  3e:00 active   alive      0      0
+   6 fscsi10                hdisk327    FA 13e:00 active   alive      0      0
+   7 fscsi0                 hdisk404    FA  3e:00 active   alive      0      0
+   7 fscsi0                 hdisk393    FA 13e:00 active   alive      0      0
+
+Pseudo name=hdiskpower48
+Symmetrix ID=000292603381
+Logical device ID=4E55
+state=alive; policy=SymmOpt; queued-IOs=0
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   5 fscsi14                hdisk383    FA 14e:00 active   alive      0      0
+   5 fscsi14                hdisk372    FA  4e:00 active   alive      0      0
+   4 fscsi11                hdisk361    FA 14e:00 active   alive      0      0
+   4 fscsi11                hdisk350    FA  4e:00 active   alive      0      0
+   6 fscsi10                hdisk339    FA  3e:00 active   alive      0      0
+   6 fscsi10                hdisk328    FA 13e:00 active   alive      0      0
+   7 fscsi0                 hdisk405    FA  3e:00 active   alive      0      0
+   7 fscsi0                 hdisk394    FA 13e:00 active   alive      0      0
+
+Pseudo name=hdiskpower49
+Symmetrix ID=000292603381
+Logical device ID=4E5D
+state=alive; policy=SymmOpt; queued-IOs=0
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   5 fscsi14                hdisk384    FA 14e:00 active   alive      0      0
+   5 fscsi14                hdisk373    FA  4e:00 active   alive      0      0
+   4 fscsi11                hdisk362    FA 14e:00 active   alive      0      0
+   4 fscsi11                hdisk351    FA  4e:00 active   alive      0      0
+   6 fscsi10                hdisk340    FA  3e:00 active   alive      0      0
+   6 fscsi10                hdisk329    FA 13e:00 active   alive      0      0
+   7 fscsi0                 hdisk406    FA  3e:00 active   alive      0      0
+   7 fscsi0                 hdisk395    FA 13e:00 active   alive      0      0
+
+Pseudo name=hdiskpower50
+Symmetrix ID=000292603381
+Logical device ID=4E65
+state=alive; policy=SymmOpt; queued-IOs=0
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   5 fscsi14                hdisk385    FA 14e:00 active   alive      0      0
+   5 fscsi14                hdisk374    FA  4e:00 active   alive      0      0
+   4 fscsi11                hdisk363    FA 14e:00 active   alive      0      0
+   4 fscsi11                hdisk352    FA  4e:00 active   alive      0      0
+   6 fscsi10                hdisk341    FA  3e:00 active   alive      0      0
+   6 fscsi10                hdisk330    FA 13e:00 active   alive      0      0
+   7 fscsi0                 hdisk407    FA  3e:00 active   alive      0      0
+   7 fscsi0                 hdisk396    FA 13e:00 active   alive      0      0
+
+Pseudo name=hdiskpower51
+Symmetrix ID=000292603381
+Logical device ID=4E05
+state=alive; policy=SymmOpt; queued-IOs=0
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   5 fscsi14                hdisk434    FA 12h:00 active   alive      0      0
+   4 fscsi11                hdisk424    FA 12h:00 active   alive      0      0
+   6 fscsi10                hdisk408    FA  5h:00 active   alive      0      0
+   7 fscsi0                 hdisk438    FA  5h:00 active   alive      0      0
+
+Pseudo name=hdiskpower52
+Symmetrix ID=000292603381
+Logical device ID=4E09
+state=alive; policy=SymmOpt; queued-IOs=0
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   5 fscsi14                hdisk435    FA 12h:00 active   alive      0      0
+   4 fscsi11                hdisk425    FA 12h:00 active   alive      0      0
+   6 fscsi10                hdisk409    FA  5h:00 active   alive      0      0
+   7 fscsi0                 hdisk439    FA  5h:00 active   alive      0      0
+
+Pseudo name=hdiskpower53
+Symmetrix ID=000292603381
+Logical device ID=4E0D
+state=alive; policy=SymmOpt; queued-IOs=0
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   5 fscsi14                hdisk436    FA 12h:00 active   alive      0      0
+   4 fscsi11                hdisk426    FA 12h:00 active   alive      0      0
+   6 fscsi10                hdisk410    FA  5h:00 active   alive      0      0
+   7 fscsi0                 hdisk440    FA  5h:00 active   alive      0      0
+
+Pseudo name=hdiskpower54
+Symmetrix ID=000292603381
+Logical device ID=4E11
+state=alive; policy=SymmOpt; queued-IOs=0
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   5 fscsi14                hdisk437    FA 12h:00 active   alive      0      0
+   4 fscsi11                hdisk427    FA 12h:00 active   alive      0      0
+   6 fscsi10                hdisk411    FA  5h:00 active   alive      0      0
+   7 fscsi0                 hdisk441    FA  5h:00 active   alive      0      0
+
+Pseudo name=hdiskpower55
+Symmetrix ID=000292603381
+Logical device ID=0EA9
+state=alive; policy=SymmOpt; queued-IOs=0
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   5 fscsi14                hdisk431    FA 14e:00 active   alive      0      0
+   5 fscsi14                hdisk428    FA  4e:00 active   alive      0      0
+   4 fscsi11                hdisk421    FA 14e:00 active   alive      0      0
+   4 fscsi11                hdisk418    FA  4e:00 active   alive      0      0
+   6 fscsi10                hdisk415    FA  3e:00 active   alive      0      0
+   6 fscsi10                hdisk412    FA 13e:00 active   alive      0      0
+   7 fscsi0                 hdisk445    FA  3e:00 active   alive      0      0
+   7 fscsi0                 hdisk442    FA 13e:00 active   alive      0      0
+
+Pseudo name=hdiskpower56
+Symmetrix ID=000292603381
+Logical device ID=0EAA
+state=alive; policy=SymmOpt; queued-IOs=0
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   5 fscsi14                hdisk432    FA 14e:00 active   alive      0      0
+   5 fscsi14                hdisk429    FA  4e:00 active   alive      0      0
+   4 fscsi11                hdisk422    FA 14e:00 active   alive      0      0
+   4 fscsi11                hdisk419    FA  4e:00 active   alive      0      0
+   6 fscsi10                hdisk416    FA  3e:00 active   alive      0      0
+   6 fscsi10                hdisk413    FA 13e:00 active   alive      0      0
+   7 fscsi0                 hdisk446    FA  3e:00 active   alive      0      0
+   7 fscsi0                 hdisk443    FA 13e:00 active   alive      0      0
+
+Pseudo name=hdiskpower57
+Symmetrix ID=000292603381
+Logical device ID=0EAB
+state=alive; policy=SymmOpt; queued-IOs=0
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   5 fscsi14                hdisk433    FA 14e:00 active   alive      0      0
+   5 fscsi14                hdisk430    FA  4e:00 active   alive      0      0
+   4 fscsi11                hdisk423    FA 14e:00 active   alive      0      0
+   4 fscsi11                hdisk420    FA  4e:00 active   alive      0      0
+   6 fscsi10                hdisk417    FA  3e:00 active   alive      0      0
+   6 fscsi10                hdisk414    FA 13e:00 active   alive      0      0
+   7 fscsi0                 hdisk447    FA  3e:00 active   alive      0      0
+   7 fscsi0                 hdisk444    FA 13e:00 active   alive      0      0
+
+Pseudo name=hdiskpower58
+Symmetrix ID=000292603381
+Logical device ID=4986
+state=alive; policy=SymmOpt; queued-IOs=0
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   7 fscsi0                 hdisk455    FA  3e:00 active   alive      0      0
+   7 fscsi0                 hdisk454    FA 13e:00 active   alive      0      0
+   5 fscsi14                hdisk453    FA 14e:00 active   alive      0      0
+   5 fscsi14                hdisk452    FA  4e:00 active   alive      0      0
+   4 fscsi11                hdisk451    FA 14e:00 active   alive      0      0
+   4 fscsi11                hdisk450    FA  4e:00 active   alive      0      0
+   6 fscsi10                hdisk449    FA  3e:00 active   alive      0      0
+   6 fscsi10                hdisk448    FA 13e:00 active   alive      0      0
+
+Pseudo name=hdiskpower59
+Symmetrix ID=000292603381
+Logical device ID=4310
+state=alive; policy=SymmOpt; queued-IOs=0
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   6 fscsi10                hdisk456    FA 13e:00 active   alive      0      0
+   6 fscsi10                hdisk457    FA  3e:00 active   alive      0      0
+   4 fscsi11                hdisk458    FA  4e:00 active   alive      0      0
+   4 fscsi11                hdisk459    FA 14e:00 active   alive      0      0
+   5 fscsi14                hdisk460    FA  4e:00 active   alive      0      0
+   5 fscsi14                hdisk461    FA 14e:00 active   alive      0      0
+   7 fscsi0                 hdisk462    FA 13e:00 active   alive      0      0
+   7 fscsi0                 hdisk463    FA  3e:00 active   alive      0      0
+
+==== EXITED with rc 0 ====
+==== END powermt display dev=all Tue Jul  7 00:42:04 GST 2015 ====

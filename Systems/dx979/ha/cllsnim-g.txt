@@ -1,0 +1,52 @@
+==== This output can be found in Systems/dx979/ha/cllsnim-g.txt ====
+==== START cllsnim -g Tue Jul  7 00:41:24 GST 2015 ====
+Current values for Network Module <XD_data>:
+
+Description			[Internet Protocol for Extended Distance Data Mirroring]
+Parameters			[]
+Grace Period			30
+Supports gratuitous arp		True
+Type				Address (IP)
+Entry type			[adapter_type]
+Next generic type		[transport]
+Next generic name		[Generic_UDP]
+Supports source routing		True
+Failure Cycle			12
+Heartbeat Rate (seconds)	2.50
+Failure Detection Rate		(Normal)
+
+  12 * 2.50 * 2 = 60.00 seconds
+Current values for Network Module <XD_ip>:
+
+Description			[Internet Protocol for Extended Distance Heartbeat]
+Parameters			[]
+Grace Period			30
+Supports gratuitous arp		True
+Type				Address (IP)
+Entry type			[adapter_type]
+Next generic type		[transport]
+Next generic name		[Generic_UDP]
+Supports source routing		True
+Failure Cycle			12
+Heartbeat Rate (seconds)	2.50
+Failure Detection Rate		(Normal)
+
+  12 * 2.50 * 2 = 60.00 seconds
+Current values for Network Module <ether>:
+
+Description			[Ethernet Protocol]
+Parameters			[]
+Grace Period			60
+Supports gratuitous arp		True
+Type				Address (IP)
+Entry type			[adapter_type]
+Next generic type		[transport]
+Next generic name		[Generic_UDP]
+Supports source routing		True
+Failure Cycle			10
+Heartbeat Rate (seconds)	1.00
+Failure Detection Rate		(Normal)
+
+  10 * 1.00 * 2 = 20.00 seconds
+==== EXITED with rc 0 ====
+==== END cllsnim -g Tue Jul  7 00:41:24 GST 2015 ====

@@ -1,0 +1,13 @@
+==== This output can be found in Systems/dx1010/storage/powermt_display.txt ====
+==== START powermt display Tue Jul  7 13:18:00 CDT 2015 ====
+Symmetrix logical device count=32
+==============================================================================
+----- Host Bus Adapters ---------  ------ I/O Paths -----  ------ Stats ------
+###  HW Path                       Summary   Total   Dead  IO/Sec Q-IOs Errors
+==============================================================================
+   0 fscsi6                        optimal      64      0       -     0     64
+   1 fscsi7                        optimal      64      0       -     0     64
+   4 fscsi12                       optimal      64      0       -     0     64
+   5 fscsi13                       optimal      64      0       -     0     64
+==== EXITED with rc 0 ====
+==== END powermt display Tue Jul  7 13:18:00 CDT 2015 ====

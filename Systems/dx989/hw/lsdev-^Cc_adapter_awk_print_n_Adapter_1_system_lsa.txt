@@ -1,0 +1,229 @@
+==== This output can be found in Systems/dx989/hw/lsdev-^Cc_adapter_awk_print_n_Adapter_1_system_lsa.txt ====
+==== START lsdev -Cc adapter | awk '{print "\n#### Adapter: " $1" ####";system("lsattr -El " $1)}' Thu Aug  6 11:28:39 GST 2015 ====
+
+#### Adapter: ent0 ####
+alt_addr        0x000000000000 Alternate Ethernet Address                 True
+chksum_offload  yes            Checksum Offload Enable                    True
+copy_buffs      32             Transmit Copy Buffers                      True
+copy_bytes      65536          Transmit Copy Buffer Size                  True
+desired_mapmem  0              I/O memory entitlement reserved for device False
+max_buf_control 64             Maximum Control Buffers                    True
+max_buf_huge    96             Maximum Huge Buffers                       True
+max_buf_large   128            Maximum Large Buffers                      True
+max_buf_medium  1024           Maximum Medium Buffers                     True
+max_buf_small   4096           Maximum Small Buffers                      True
+max_buf_tiny    4096           Maximum Tiny Buffers                       True
+min_buf_control 24             Minimum Control Buffers                    True
+min_buf_huge    96             Minimum Huge Buffers                       True
+min_buf_large   128            Minimum Large Buffers                      True
+min_buf_medium  1024           Minimum Medium Buffers                     True
+min_buf_small   4096           Minimum Small Buffers                      True
+min_buf_tiny    4096           Minimum Tiny Buffers                       True
+poll_uplink     no             Enable Uplink Polling                      True
+poll_uplink_int 1000           Time interval for Uplink Polling           True
+trace_debug     no             Trace Debug Enable                         True
+use_alt_addr    no             Enable Alternate Ethernet Address          True
+
+#### Adapter: ent1 ####
+alt_addr        0x000000000000 Alternate Ethernet Address                 True
+chksum_offload  yes            Checksum Offload Enable                    True
+copy_buffs      32             Transmit Copy Buffers                      True
+copy_bytes      65536          Transmit Copy Buffer Size                  True
+desired_mapmem  0              I/O memory entitlement reserved for device False
+max_buf_control 64             Maximum Control Buffers                    True
+max_buf_huge    96             Maximum Huge Buffers                       True
+max_buf_large   128            Maximum Large Buffers                      True
+max_buf_medium  1024           Maximum Medium Buffers                     True
+max_buf_small   4096           Maximum Small Buffers                      True
+max_buf_tiny    4096           Maximum Tiny Buffers                       True
+min_buf_control 24             Minimum Control Buffers                    True
+min_buf_huge    96             Minimum Huge Buffers                       True
+min_buf_large   128            Minimum Large Buffers                      True
+min_buf_medium  1024           Minimum Medium Buffers                     True
+min_buf_small   4096           Minimum Small Buffers                      True
+min_buf_tiny    4096           Minimum Tiny Buffers                       True
+poll_uplink     no             Enable Uplink Polling                      True
+poll_uplink_int 1000           Time interval for Uplink Polling           True
+trace_debug     no             Trace Debug Enable                         True
+use_alt_addr    no             Enable Alternate Ethernet Address          True
+
+#### Adapter: ent2 ####
+alt_addr        0x000000000000 Alternate Ethernet Address                 True
+chksum_offload  yes            Checksum Offload Enable                    True
+copy_buffs      32             Transmit Copy Buffers                      True
+copy_bytes      65536          Transmit Copy Buffer Size                  True
+desired_mapmem  0              I/O memory entitlement reserved for device False
+max_buf_control 64             Maximum Control Buffers                    True
+max_buf_huge    96             Maximum Huge Buffers                       True
+max_buf_large   128            Maximum Large Buffers                      True
+max_buf_medium  1024           Maximum Medium Buffers                     True
+max_buf_small   4096           Maximum Small Buffers                      True
+max_buf_tiny    4096           Maximum Tiny Buffers                       True
+min_buf_control 24             Minimum Control Buffers                    True
+min_buf_huge    96             Minimum Huge Buffers                       True
+min_buf_large   128            Minimum Large Buffers                      True
+min_buf_medium  1024           Minimum Medium Buffers                     True
+min_buf_small   4096           Minimum Small Buffers                      True
+min_buf_tiny    4096           Minimum Tiny Buffers                       True
+poll_uplink     no             Enable Uplink Polling                      True
+poll_uplink_int 1000           Time interval for Uplink Polling           True
+trace_debug     no             Trace Debug Enable                         True
+use_alt_addr    no             Enable Alternate Ethernet Address          True
+
+#### Adapter: ent3 ####
+alt_addr        0x000000000000 Alternate Ethernet Address                 True
+chksum_offload  yes            Checksum Offload Enable                    True
+copy_buffs      32             Transmit Copy Buffers                      True
+copy_bytes      65536          Transmit Copy Buffer Size                  True
+desired_mapmem  0              I/O memory entitlement reserved for device False
+max_buf_control 64             Maximum Control Buffers                    True
+max_buf_huge    96             Maximum Huge Buffers                       True
+max_buf_large   128            Maximum Large Buffers                      True
+max_buf_medium  1024           Maximum Medium Buffers                     True
+max_buf_small   4096           Maximum Small Buffers                      True
+max_buf_tiny    4096           Maximum Tiny Buffers                       True
+min_buf_control 24             Minimum Control Buffers                    True
+min_buf_huge    96             Minimum Huge Buffers                       True
+min_buf_large   128            Minimum Large Buffers                      True
+min_buf_medium  1024           Minimum Medium Buffers                     True
+min_buf_small   4096           Minimum Small Buffers                      True
+min_buf_tiny    4096           Minimum Tiny Buffers                       True
+poll_uplink     no             Enable Uplink Polling                      True
+poll_uplink_int 1000           Time interval for Uplink Polling           True
+trace_debug     no             Trace Debug Enable                         True
+use_alt_addr    no             Enable Alternate Ethernet Address          True
+
+#### Adapter: fcs0 ####
+intr_priority 3        Interrupt priority                 False
+lg_term_dma   0x800000 Long term DMA                      True
+max_xfer_size 0x100000 Maximum Transfer Size              True
+num_cmd_elems 200      Maximum Number of COMMAND Elements True
+sw_fc_class   2        FC Class for Fabric                True
+
+#### Adapter: fcs1 ####
+intr_priority 3        Interrupt priority                 False
+lg_term_dma   0x800000 Long term DMA                      True
+max_xfer_size 0x100000 Maximum Transfer Size              True
+num_cmd_elems 200      Maximum Number of COMMAND Elements True
+sw_fc_class   2        FC Class for Fabric                True
+
+#### Adapter: fcs2 ####
+intr_priority 3        Interrupt priority                 False
+lg_term_dma   0x800000 Long term DMA                      True
+max_xfer_size 0x100000 Maximum Transfer Size              True
+num_cmd_elems 200      Maximum Number of COMMAND Elements True
+sw_fc_class   2        FC Class for Fabric                True
+
+#### Adapter: fcs3 ####
+intr_priority 3        Interrupt priority                 False
+lg_term_dma   0x800000 Long term DMA                      True
+max_xfer_size 0x100000 Maximum Transfer Size              True
+num_cmd_elems 200      Maximum Number of COMMAND Elements True
+sw_fc_class   2        FC Class for Fabric                True
+
+#### Adapter: fcs4 ####
+intr_priority 3        Interrupt priority                 False
+lg_term_dma   0x800000 Long term DMA                      True
+max_xfer_size 0x100000 Maximum Transfer Size              True
+num_cmd_elems 200      Maximum Number of COMMAND Elements True
+sw_fc_class   2        FC Class for Fabric                True
+
+#### Adapter: fcs5 ####
+intr_priority 3        Interrupt priority                 False
+lg_term_dma   0x800000 Long term DMA                      True
+max_xfer_size 0x100000 Maximum Transfer Size              True
+num_cmd_elems 200      Maximum Number of COMMAND Elements True
+sw_fc_class   2        FC Class for Fabric                True
+
+#### Adapter: fcs6 ####
+intr_priority 3        Interrupt priority                 False
+lg_term_dma   0x800000 Long term DMA                      True
+max_xfer_size 0x100000 Maximum Transfer Size              True
+num_cmd_elems 200      Maximum Number of COMMAND Elements True
+sw_fc_class   2        FC Class for Fabric                True
+
+#### Adapter: fcs7 ####
+intr_priority 3        Interrupt priority                 False
+lg_term_dma   0x800000 Long term DMA                      True
+max_xfer_size 0x100000 Maximum Transfer Size              True
+num_cmd_elems 200      Maximum Number of COMMAND Elements True
+sw_fc_class   2        FC Class for Fabric                True
+
+#### Adapter: pkcs11 ####
+comp_trace   no Trace Software Crypto    True
+io_threads   8  Trace Memory Allocations True
+proc_heap_sz 8  Trace Memory Allocations True
+trc_adm      no Trace Software Crypto    True
+trc_clic     no Trace Software Crypto    True
+trc_context  no Trace Software Crypto    True
+trc_dd       no Trace Software Crypto    True
+trc_hw       no Trace Software Crypto    True
+trc_io       no Trace Software Crypto    True
+trc_k_klib   no Trace Software Crypto    True
+trc_k_ulib   no Trace Software Crypto    True
+trc_malloc   no Trace Software Crypto    True
+trc_meta     no Trace Software Crypto    True
+trc_mmap     no Trace Software Crypto    True
+trc_obj      no Trace Software Crypto    True
+trc_req      no Trace Software Crypto    True
+trc_sess     no Trace Software Crypto    True
+trc_slot     no Trace Software Crypto    True
+trc_token    no Trace Software Crypto    True
+trc_u_lib    no Trace Software Crypto    True
+trc_util     no Trace Software Crypto    True
+y4_max_req   16 Trace Memory Allocations True
+
+#### Adapter: vsa0 ####
+desired_mapmem  I/O memory entitlement reserved for device, in bytes False
+
+#### Adapter: vscsi0 ####
+rw_timeout      0            Virtual SCSI Read/Write Command Timeout True
+vscsi_err_recov delayed_fail N/A                                     True
+vscsi_path_to   0            Virtual SCSI Path Timeout               True
+
+#### Adapter: vscsi1 ####
+rw_timeout      0            Virtual SCSI Read/Write Command Timeout True
+vscsi_err_recov delayed_fail N/A                                     True
+vscsi_path_to   0            Virtual SCSI Path Timeout               True
+
+#### Adapter: vscsi2 ####
+rw_timeout      0            Virtual SCSI Read/Write Command Timeout True
+vscsi_err_recov delayed_fail N/A                                     True
+vscsi_path_to   0            Virtual SCSI Path Timeout               True
+
+#### Adapter: vscsi3 ####
+rw_timeout      0            Virtual SCSI Read/Write Command Timeout True
+vscsi_err_recov delayed_fail N/A                                     True
+vscsi_path_to   0            Virtual SCSI Path Timeout               True
+
+#### Adapter: vscsi4 ####
+rw_timeout      0            Virtual SCSI Read/Write Command Timeout True
+vscsi_err_recov delayed_fail N/A                                     True
+vscsi_path_to   0            Virtual SCSI Path Timeout               True
+
+#### Adapter: vscsi5 ####
+rw_timeout      0            Virtual SCSI Read/Write Command Timeout True
+vscsi_err_recov delayed_fail N/A                                     True
+vscsi_path_to   0            Virtual SCSI Path Timeout               True
+
+#### Adapter: vscsi6 ####
+rw_timeout      0            Virtual SCSI Read/Write Command Timeout True
+vscsi_err_recov delayed_fail N/A                                     True
+vscsi_path_to   0            Virtual SCSI Path Timeout               True
+
+#### Adapter: vscsi7 ####
+rw_timeout      0            Virtual SCSI Read/Write Command Timeout True
+vscsi_err_recov delayed_fail N/A                                     True
+vscsi_path_to   0            Virtual SCSI Path Timeout               True
+
+#### Adapter: vscsi8 ####
+rw_timeout      0            Virtual SCSI Read/Write Command Timeout True
+vscsi_err_recov delayed_fail N/A                                     True
+vscsi_path_to   0            Virtual SCSI Path Timeout               True
+
+#### Adapter: vscsi9 ####
+rw_timeout      0            Virtual SCSI Read/Write Command Timeout True
+vscsi_err_recov delayed_fail N/A                                     True
+vscsi_path_to   0            Virtual SCSI Path Timeout               True
+==== EXITED with rc 0 ====
+==== END lsdev -Cc adapter | awk '{print "\n#### Adapter: " $1" ####";system("lsattr -El " $1)}' Thu Aug  6 11:28:40 GST 2015 ====

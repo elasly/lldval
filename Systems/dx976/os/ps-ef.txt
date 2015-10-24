@@ -1,0 +1,66 @@
+==== This output can be found in Systems/dx976/os/ps-ef.txt ====
+==== START ps -ef Tue Jul  7 13:03:56 CDT 2015 ====
+     UID      PID     PPID   C    STIME    TTY  TIME CMD
+    root        1        0   1   Mar 31      -  0:06 /etc/init
+    root  3604654        1   0   Mar 31      -  0:00 /usr/ccs/bin/shlap64
+    root  3801110  8716362   0   Mar 31      - 2195:48 /usr/perf/pcm/srcloop
+    root  4325626        1   0   Mar 31      - 30:12 /usr/sbin/syncd 60
+  padmin  6488224 17891528   1 05:50:41      -  0:00 sshd: padmin@pts/0
+    root  7667762  8716362   0   Mar 31      -  0:00 /usr/sbin/lldpd
+    root  7733272        1   0   Mar 31      -  0:00 /usr/lpp/diagnostics/bin/diagd
+    root  8060940  8716362   0   Mar 31      -  0:00 /usr/sbin/rpc.lockd -d 0
+    root  8126468  8716362   0   Mar 31      -  0:06 /usr/sbin/syslogd -R
+    root  8323116 11731056   0   Mar 31      -  0:41 /usr/ios/lpm/sbin/accessprocess
+    root  8388648        1   0   Mar 31      -  0:00 /usr/lib/errdemon
+    root  8454174  8716362   0   Mar 31      -  0:00 /usr/sbin/sshd
+    root  8716362        1   0   Mar 31      -  0:00 /usr/sbin/srcmstr
+    root  8847418  8716362   0   Mar 31      -  0:00 /usr/sbin/portmap
+    root  8978560  8716362   0   Mar 31      -  0:00 /usr/sbin/snmpd
+    root  9437254        1   0   Mar 31      -  7:54 /usr/sbin/emcp_mond
+  daemon  9961638  8716362   0   Mar 31      -  0:00 /usr/sbin/rpc.statd -d 0 -t 50
+    root 10158152  8716362   0   Mar 31      -  0:00 /usr/sbin/ecpvdpd
+    root 10223804  8716362   0   Mar 31      -  4:31 /usr/sbin/clcomd -d
+    root 10354918  8716362   0   Mar 31      -  0:00 /bin/ksh /var/opt/tivoli/ep/runtime/nonstop/bin/cas_src.sh
+    root 10420324        1   0   Mar 31      -  0:00 /usr/sbin/uprintfd
+    root 10551372        1   0   Mar 31      -  0:43 /usr/sbin/cron
+    root 10682470  8716362   0   Mar 31      -  0:00 /usr/sbin/writesrv
+    root 10813456        1   0   Mar 31      -  0:00 /usr/sbin/SEAmon /aha
+    root 10879110        1   0   Mar 31      - 319:23 /usr/bin/topasrec  -L -s 300 -R 1 -r 6 -o /var/perf/daily/ -ypersistent=1 -O type=bin -ystart_time=10:03:25,Mar31,2015
+    root 11272324  8716362   0   Mar 31      -  0:00 /usr/sbin/qdaemon
+    root 11403446  8716362   0   Mar 31      -  0:00 /usr/sbin/inetd
+    root 11600022  8716362   0   Mar 31      -  0:00 /usr/sbin/biod 6
+    root 11731056        1   0   Mar 31      -  0:00 /usr/bin/ksh /usr/ios/lpm/sbin/lparmgr all start
+    root 11862160        1   0   Mar 31      -  0:05 /usr/bin/cimlistener
+    root 12452044        1   0   Mar 31      -  0:02 [cimserve]
+    root 13172878  8716362   0   Apr 09      -  0:09 /usr/sbin/rsct/bin/IBM.MgmtDomainRMd
+    root 13435036        1   0   Mar 31      -  0:14 /usr/sbin/slp_srvreg -D
+    root 13500598        1   0   Mar 31      -  0:00 /opt/freeware/cimom/pegasus/bin/CIM_diagd
+    root 13762760 14090276   0   Mar 31      - 24:28 /var/opt/tivoli/ep/_jvm/jre/bin/java -Xmx384m -Xminf0.01 -Xmaxf0.4 -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Xbootclasspath/a:/var/opt/tivoli/ep/runtime/core/eclipse/plugins/com.ibm.rcp.base_6.2.3.20110824-0615/rcpbootcp.jar:/var/opt/tivoli/ep/lib/com.ibm.logging.icl_1.1.1.jar:/var/opt/tivoli/ep/lib/jaas2zos.jar:/var/opt/tivoli/ep/lib/jaasmodule.jar:/var/opt/tivoli/ep/lib/lwidiag.jar:/var/opt/tivoli/ep/lib/lwinative.jar:/var/opt/tivoli/ep/lib/lwinl.jar:/var/opt/tivoli/ep/lib/lwirolemap.jar:/var/opt/tivoli/ep/lib/lwisecurity.jar:/var/opt/tivoli/ep/lib/lwitools.jar:/var/opt/tivoli/ep/lib/passutils.jar:../../runtime/agent/lib/cas-bootcp.jar -Xverify:none -cp eclipse/launch.jar:eclipse/startup.jar:/var/opt/tivoli/ep/runtime/core/eclipse/plugins/com.ibm.rcp.base_6.2.3.20110824-0615/launcher.jar com.ibm.lwi.LaunchLWI
+    root 13828338        1   0   Mar 31      -  0:16 /opt/freeware/cimom/pegasus/bin/cimprovagt 0 11 15 root SLPProviderModule
+    root 14090276 10354918   0   Mar 31      -  0:27 bin/nonstop_aix @/var/opt/tivoli/ep/runtime/nonstop/config/nonstop.properties
+    root 14549114        1   0   Mar 31      -  0:01 /opt/ibm/director/cimom/bin/tier1slp
+    root 14876720        1   0   May 18      -  8:20 /usr/sbin/getty /dev/console
+    root 15925312  8716362   0   Apr 09      - 19:10 /usr/sbin/rsct/bin/rmcd -a IBM.LPCommands -r -S 1500
+    root 16449604  8716362   0   Apr 09      - 14:25 /usr/sbin/rsct/bin/IBM.DRMd
+    root 16908480 17105038   1   Apr 09      - 17:19 /usr/ios/db/bin/solid -f -c /var/vio/CM/DB
+    root 16973958 19726508   0 13:03:40  pts/0  0:00 /bin/sh ./pcat.sh --notsm --nohmc
+    root 17039472  8716362   0   Apr 09      -  0:00 /usr/sbin/rsct/bin/IBM.ServiceRMd
+    root 17105038 17170656   0   Apr 09      - 132:51 vio_chgmgt
+    root 17170656  8716362   0   Apr 09      -  0:00 /usr/sbin/vio_daemon -d 4
+    root 17432602  8716362   0   Apr 09      -  0:00 /usr/sbin/rsct/bin/IBM.HostRMd
+    root 17498248  8716362   0   May 04      -  0:29 /usr/sbin/rsct/bin/IBM.ConfigRMd
+    root 17563774 17105038   9                  0:00 <defunct>
+    root 17629230 19529890   0 13:03:56  pts/0  0:00 tail -512000
+    root 17694858  8716362   0   Apr 09      -  0:00 /usr/sbin/rsct/bin/vac8/IBM.CSMAgentRMd
+    root 17891528  8454174   0 05:50:34      -  0:00 sshd: padmin [priv]
+    root 18219082 17629230   1 13:03:56  pts/0  0:00 ps -ef
+    root 19529890 25034948   0 13:03:56  pts/0  0:00 /bin/sh /home/padmin/pcat1/pcat/./pcat-os.sh aa
+    root 19726508 26607844   0 13:01:12  pts/0  0:00 ksh
+    root 19988674        1   0                  0:00 <defunct>
+    root 25034948 27459768  24 13:03:41  pts/0  0:00 /bin/sh /home/padmin/pcat1/pcat/./pcat-os.sh aa
+  padmin 26607844  6488224   0 05:50:41  pts/0  0:00 -rksh
+    root 26738928 27459768   0 13:03:41  pts/0  0:00 tee Systems/dx976/pcat-os_sh-out.txt
+    root 27459768 16973958   0 13:03:40  pts/0  0:00 /bin/sh /home/padmin/pcat1/pcat/./pcat-os.sh aa
+    root 28180518        1   0 01:10:12      -  0:00 acctras
+==== EXITED with rc 0 ====
+==== END ps -ef Tue Jul  7 13:03:56 CDT 2015 ====

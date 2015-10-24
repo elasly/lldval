@@ -1,0 +1,456 @@
+==== This output can be found in Systems/dx989/os/lscfg_sort_grep-v_Diagnostic_support_awk_+_print_s.txt ====
+==== START lscfg | sort | grep -v "Diagnostic support" | awk '/[*+] / {print "#### system device: " $2 " ####";system("/usr/sbin/lsattr -El " $2);print ""}' Thu Aug  6 11:22:33 GST 2015 ====
+#### system device: ent0 ####
+alt_addr        0x000000000000 Alternate Ethernet Address                 True
+chksum_offload  yes            Checksum Offload Enable                    True
+copy_buffs      32             Transmit Copy Buffers                      True
+copy_bytes      65536          Transmit Copy Buffer Size                  True
+desired_mapmem  0              I/O memory entitlement reserved for device False
+max_buf_control 64             Maximum Control Buffers                    True
+max_buf_huge    96             Maximum Huge Buffers                       True
+max_buf_large   128            Maximum Large Buffers                      True
+max_buf_medium  1024           Maximum Medium Buffers                     True
+max_buf_small   4096           Maximum Small Buffers                      True
+max_buf_tiny    4096           Maximum Tiny Buffers                       True
+min_buf_control 24             Minimum Control Buffers                    True
+min_buf_huge    96             Minimum Huge Buffers                       True
+min_buf_large   128            Minimum Large Buffers                      True
+min_buf_medium  1024           Minimum Medium Buffers                     True
+min_buf_small   4096           Minimum Small Buffers                      True
+min_buf_tiny    4096           Minimum Tiny Buffers                       True
+poll_uplink     no             Enable Uplink Polling                      True
+poll_uplink_int 1000           Time interval for Uplink Polling           True
+trace_debug     no             Trace Debug Enable                         True
+use_alt_addr    no             Enable Alternate Ethernet Address          True
+
+#### system device: ent1 ####
+alt_addr        0x000000000000 Alternate Ethernet Address                 True
+chksum_offload  yes            Checksum Offload Enable                    True
+copy_buffs      32             Transmit Copy Buffers                      True
+copy_bytes      65536          Transmit Copy Buffer Size                  True
+desired_mapmem  0              I/O memory entitlement reserved for device False
+max_buf_control 64             Maximum Control Buffers                    True
+max_buf_huge    96             Maximum Huge Buffers                       True
+max_buf_large   128            Maximum Large Buffers                      True
+max_buf_medium  1024           Maximum Medium Buffers                     True
+max_buf_small   4096           Maximum Small Buffers                      True
+max_buf_tiny    4096           Maximum Tiny Buffers                       True
+min_buf_control 24             Minimum Control Buffers                    True
+min_buf_huge    96             Minimum Huge Buffers                       True
+min_buf_large   128            Minimum Large Buffers                      True
+min_buf_medium  1024           Minimum Medium Buffers                     True
+min_buf_small   4096           Minimum Small Buffers                      True
+min_buf_tiny    4096           Minimum Tiny Buffers                       True
+poll_uplink     no             Enable Uplink Polling                      True
+poll_uplink_int 1000           Time interval for Uplink Polling           True
+trace_debug     no             Trace Debug Enable                         True
+use_alt_addr    no             Enable Alternate Ethernet Address          True
+
+#### system device: ent2 ####
+alt_addr        0x000000000000 Alternate Ethernet Address                 True
+chksum_offload  yes            Checksum Offload Enable                    True
+copy_buffs      32             Transmit Copy Buffers                      True
+copy_bytes      65536          Transmit Copy Buffer Size                  True
+desired_mapmem  0              I/O memory entitlement reserved for device False
+max_buf_control 64             Maximum Control Buffers                    True
+max_buf_huge    96             Maximum Huge Buffers                       True
+max_buf_large   128            Maximum Large Buffers                      True
+max_buf_medium  1024           Maximum Medium Buffers                     True
+max_buf_small   4096           Maximum Small Buffers                      True
+max_buf_tiny    4096           Maximum Tiny Buffers                       True
+min_buf_control 24             Minimum Control Buffers                    True
+min_buf_huge    96             Minimum Huge Buffers                       True
+min_buf_large   128            Minimum Large Buffers                      True
+min_buf_medium  1024           Minimum Medium Buffers                     True
+min_buf_small   4096           Minimum Small Buffers                      True
+min_buf_tiny    4096           Minimum Tiny Buffers                       True
+poll_uplink     no             Enable Uplink Polling                      True
+poll_uplink_int 1000           Time interval for Uplink Polling           True
+trace_debug     no             Trace Debug Enable                         True
+use_alt_addr    no             Enable Alternate Ethernet Address          True
+
+#### system device: ent3 ####
+alt_addr        0x000000000000 Alternate Ethernet Address                 True
+chksum_offload  yes            Checksum Offload Enable                    True
+copy_buffs      32             Transmit Copy Buffers                      True
+copy_bytes      65536          Transmit Copy Buffer Size                  True
+desired_mapmem  0              I/O memory entitlement reserved for device False
+max_buf_control 64             Maximum Control Buffers                    True
+max_buf_huge    96             Maximum Huge Buffers                       True
+max_buf_large   128            Maximum Large Buffers                      True
+max_buf_medium  1024           Maximum Medium Buffers                     True
+max_buf_small   4096           Maximum Small Buffers                      True
+max_buf_tiny    4096           Maximum Tiny Buffers                       True
+min_buf_control 24             Minimum Control Buffers                    True
+min_buf_huge    96             Minimum Huge Buffers                       True
+min_buf_large   128            Minimum Large Buffers                      True
+min_buf_medium  1024           Minimum Medium Buffers                     True
+min_buf_small   4096           Minimum Small Buffers                      True
+min_buf_tiny    4096           Minimum Tiny Buffers                       True
+poll_uplink     no             Enable Uplink Polling                      True
+poll_uplink_int 1000           Time interval for Uplink Polling           True
+trace_debug     no             Trace Debug Enable                         True
+use_alt_addr    no             Enable Alternate Ethernet Address          True
+
+#### system device: hdisk0 ####
+PCM             PCM/friend/Hitachi               Path Control Module              False
+PR_key_value    none                             Reserve Key                      True
+algorithm       fail_over                        Algorithm                        True
+clr_q           no                               Device CLEARS its Queue on error True
+dist_err_pcnt   0                                Distributed Error Percentage     True
+dist_tw_width   50                               Distributed Error Sample Time    True
+hcheck_cmd      inquiry                          Health Check Command             True
+hcheck_interval 60                               Health Check Interval            True
+hcheck_mode     nonactive                        Health Check Mode                True
+location                                         Location Label                   True
+lun_id          0x0                              Logical Unit Number ID           False
+lun_reset_spt   yes                              SCSI LUN reset                   True
+max_transfer    0x40000                          Maximum TRANSFER Size            True
+node_name       0x50060e8007e43a6a               Node Name                        False
+pvid            00f9ada1fdd9ba680000000000000000 Physical Volume ID               False
+q_err           yes                              Use QERR bit                     False
+q_type          simple                           Queue TYPE                       True
+queue_depth     2                                Queue DEPTH                      True
+reassign_to     120                              REASSIGN time out                True
+reserve_policy  single_path                      Reserve Policy                   True
+rw_timeout      60                               READ/WRITE time out              True
+scsi_id         0x25700                          SCSI ID                          False
+start_timeout   60                               START UNIT time out              True
+timeout_policy  retry_path                       Timeout Policy                   True
+ww_name         0x50060e8007e43a6a               FC World Wide Name               False
+
+#### system device: hdisk1 ####
+PCM             PCM/friend/Hitachi               Path Control Module              False
+PR_key_value    none                             Reserve Key                      True
+algorithm       fail_over                        Algorithm                        True
+clr_q           no                               Device CLEARS its Queue on error True
+dist_err_pcnt   0                                Distributed Error Percentage     True
+dist_tw_width   50                               Distributed Error Sample Time    True
+hcheck_cmd      inquiry                          Health Check Command             True
+hcheck_interval 60                               Health Check Interval            True
+hcheck_mode     nonactive                        Health Check Mode                True
+location                                         Location Label                   True
+lun_id          0x1000000000000                  Logical Unit Number ID           False
+lun_reset_spt   yes                              SCSI LUN reset                   True
+max_transfer    0x40000                          Maximum TRANSFER Size            True
+node_name       0x50060e8007e43a7a               Node Name                        False
+pvid            00f92eec01bc86230000000000000000 Physical Volume ID               False
+q_err           yes                              Use QERR bit                     False
+q_type          simple                           Queue TYPE                       True
+queue_depth     32                               Queue DEPTH                      True
+reassign_to     120                              REASSIGN time out                True
+reserve_policy  no_reserve                       Reserve Policy                   True
+rw_timeout      60                               READ/WRITE time out              True
+scsi_id         0x25700                          SCSI ID                          False
+start_timeout   60                               START UNIT time out              True
+timeout_policy  retry_path                       Timeout Policy                   True
+ww_name         0x50060e8007e43a7a               FC World Wide Name               False
+
+#### system device: sfwcomm0 ####
+
+#### system device: sfwcomm1 ####
+
+#### system device: sfwcomm2 ####
+
+#### system device: sfwcomm3 ####
+
+#### system device: vio0 ####
+bus_id 0x90000340 Bus Identifier False
+
+#### system device: vsa0 ####
+desired_mapmem  I/O memory entitlement reserved for device, in bytes False
+
+#### system device: vscsi0 ####
+rw_timeout      0            Virtual SCSI Read/Write Command Timeout True
+vscsi_err_recov delayed_fail N/A                                     True
+vscsi_path_to   0            Virtual SCSI Path Timeout               True
+
+#### system device: vscsi1 ####
+rw_timeout      0            Virtual SCSI Read/Write Command Timeout True
+vscsi_err_recov delayed_fail N/A                                     True
+vscsi_path_to   0            Virtual SCSI Path Timeout               True
+
+#### system device: vscsi2 ####
+rw_timeout      0            Virtual SCSI Read/Write Command Timeout True
+vscsi_err_recov delayed_fail N/A                                     True
+vscsi_path_to   0            Virtual SCSI Path Timeout               True
+
+#### system device: vscsi3 ####
+rw_timeout      0            Virtual SCSI Read/Write Command Timeout True
+vscsi_err_recov delayed_fail N/A                                     True
+vscsi_path_to   0            Virtual SCSI Path Timeout               True
+
+#### system device: vscsi4 ####
+rw_timeout      0            Virtual SCSI Read/Write Command Timeout True
+vscsi_err_recov delayed_fail N/A                                     True
+vscsi_path_to   0            Virtual SCSI Path Timeout               True
+
+#### system device: vscsi5 ####
+rw_timeout      0            Virtual SCSI Read/Write Command Timeout True
+vscsi_err_recov delayed_fail N/A                                     True
+vscsi_path_to   0            Virtual SCSI Path Timeout               True
+
+#### system device: vscsi6 ####
+rw_timeout      0            Virtual SCSI Read/Write Command Timeout True
+vscsi_err_recov delayed_fail N/A                                     True
+vscsi_path_to   0            Virtual SCSI Path Timeout               True
+
+#### system device: vscsi7 ####
+rw_timeout      0            Virtual SCSI Read/Write Command Timeout True
+vscsi_err_recov delayed_fail N/A                                     True
+vscsi_path_to   0            Virtual SCSI Path Timeout               True
+
+#### system device: vscsi8 ####
+rw_timeout      0            Virtual SCSI Read/Write Command Timeout True
+vscsi_err_recov delayed_fail N/A                                     True
+vscsi_path_to   0            Virtual SCSI Path Timeout               True
+
+#### system device: vscsi9 ####
+rw_timeout      0            Virtual SCSI Read/Write Command Timeout True
+vscsi_err_recov delayed_fail N/A                                     True
+vscsi_path_to   0            Virtual SCSI Path Timeout               True
+
+#### system device: vty0 ####
+autoconfig available                                                                                            STATUS of device at BOOT time              True
+bpc        8                                                                                                    BITS per character                         True
+csmap      sbcs                                                                                                 CODESET map file                           True
+discard    ^o                                                                                                   DISCARD character                          True
+dsusp      ^y                                                                                                   DELAY SUSPEND PROCESS character            True
+eof        ^d                                                                                                   END OF FILE character                      True
+eol        ^@                                                                                                   END OF LINE character                      True
+eol2       ^?                                                                                                   2nd END OF LINE character                  True
+erase      ^h                                                                                                   ERASE character                            True
+flow_disp  xon                                                                                                  FLOW CONTROL to be used                    True
+imap       none                                                                                                 INPUT map file                             True
+intr       ^c                                                                                                   INTERRUPT character                        True
+kill       ^u                                                                                                   KILL character                             True
+lnext      ^v                                                                                                   LITERAL NEXT character                     True
+logger                                                                                                          LOGGER name                                True
+login      disable                                                                                              Enable LOGIN                               True
+logmodes   hupcl,cread,echoe,cs8                                                                                STTY attributes for LOGIN                  True
+modules    ldterm                                                                                               STREAMS modules to be pushed at OPEN time  True
+omap       none                                                                                                 OUTPUT map file                            True
+open_disp  dtropen                                                                                              OPEN DISCIPLINE to be used                 True
+parity     none                                                                                                 PARITY                                     True
+quit       ^\                                                                                                   QUIT character                             True
+reprint    ^r                                                                                                   REPRINT LINE character                     True
+runmodes   hupcl,cread,brkint,icrnl,opost,tab3,onlcr,isig,icanon,echo,echoe,echok,echoctl,echoke,imaxbel,iexten STTY attributes for RUN time               True
+speed      19200                                                                                                N/A                                        True
+start      ^q                                                                                                   START character                            True
+stop       ^s                                                                                                   STOP character                             True
+stops      1                                                                                                    Number of STOP BITS                        True
+susp       ^z                                                                                                   SUSPEND PROCESS character                  True
+term       vt220                                                                                                TERMINAL type                              True
+timeout    0                                                                                                    TIME before advancing to next port setting True
+werase     ^w                                                                                                   WORD ERASE character                       True
+
+#### system device: L2cache0 ####
+size 0 Size of L2 cache in Kbytes False
+
+#### system device: fcs0 ####
+intr_priority 3        Interrupt priority                 False
+lg_term_dma   0x800000 Long term DMA                      True
+max_xfer_size 0x100000 Maximum Transfer Size              True
+num_cmd_elems 200      Maximum Number of COMMAND Elements True
+sw_fc_class   2        FC Class for Fabric                True
+
+#### system device: fcs1 ####
+intr_priority 3        Interrupt priority                 False
+lg_term_dma   0x800000 Long term DMA                      True
+max_xfer_size 0x100000 Maximum Transfer Size              True
+num_cmd_elems 200      Maximum Number of COMMAND Elements True
+sw_fc_class   2        FC Class for Fabric                True
+
+#### system device: fcs2 ####
+intr_priority 3        Interrupt priority                 False
+lg_term_dma   0x800000 Long term DMA                      True
+max_xfer_size 0x100000 Maximum Transfer Size              True
+num_cmd_elems 200      Maximum Number of COMMAND Elements True
+sw_fc_class   2        FC Class for Fabric                True
+
+#### system device: fcs3 ####
+intr_priority 3        Interrupt priority                 False
+lg_term_dma   0x800000 Long term DMA                      True
+max_xfer_size 0x100000 Maximum Transfer Size              True
+num_cmd_elems 200      Maximum Number of COMMAND Elements True
+sw_fc_class   2        FC Class for Fabric                True
+
+#### system device: fcs4 ####
+intr_priority 3        Interrupt priority                 False
+lg_term_dma   0x800000 Long term DMA                      True
+max_xfer_size 0x100000 Maximum Transfer Size              True
+num_cmd_elems 200      Maximum Number of COMMAND Elements True
+sw_fc_class   2        FC Class for Fabric                True
+
+#### system device: fcs5 ####
+intr_priority 3        Interrupt priority                 False
+lg_term_dma   0x800000 Long term DMA                      True
+max_xfer_size 0x100000 Maximum Transfer Size              True
+num_cmd_elems 200      Maximum Number of COMMAND Elements True
+sw_fc_class   2        FC Class for Fabric                True
+
+#### system device: fcs6 ####
+intr_priority 3        Interrupt priority                 False
+lg_term_dma   0x800000 Long term DMA                      True
+max_xfer_size 0x100000 Maximum Transfer Size              True
+num_cmd_elems 200      Maximum Number of COMMAND Elements True
+sw_fc_class   2        FC Class for Fabric                True
+
+#### system device: fcs7 ####
+intr_priority 3        Interrupt priority                 False
+lg_term_dma   0x800000 Long term DMA                      True
+max_xfer_size 0x100000 Maximum Transfer Size              True
+num_cmd_elems 200      Maximum Number of COMMAND Elements True
+sw_fc_class   2        FC Class for Fabric                True
+
+#### system device: fscsi0 ####
+attach       none      How this adapter is CONNECTED         False
+dyntrk       yes       Dynamic Tracking of FC Devices        True
+fc_err_recov fast_fail FC Fabric Event Error RECOVERY Policy True
+scsi_id                Adapter SCSI ID                       False
+sw_fc_class  3         FC Class for Fabric                   True
+
+#### system device: fscsi1 ####
+attach       none      How this adapter is CONNECTED         False
+dyntrk       yes       Dynamic Tracking of FC Devices        True
+fc_err_recov fast_fail FC Fabric Event Error RECOVERY Policy True
+scsi_id                Adapter SCSI ID                       False
+sw_fc_class  3         FC Class for Fabric                   True
+
+#### system device: fscsi2 ####
+attach       switch    How this adapter is CONNECTED         False
+dyntrk       yes       Dynamic Tracking of FC Devices        True
+fc_err_recov fast_fail FC Fabric Event Error RECOVERY Policy True
+scsi_id      0x2ff2d   Adapter SCSI ID                       False
+sw_fc_class  3         FC Class for Fabric                   True
+
+#### system device: fscsi3 ####
+attach       switch    How this adapter is CONNECTED         False
+dyntrk       yes       Dynamic Tracking of FC Devices        True
+fc_err_recov fast_fail FC Fabric Event Error RECOVERY Policy True
+scsi_id      0x2fe18   Adapter SCSI ID                       False
+sw_fc_class  3         FC Class for Fabric                   True
+
+#### system device: fscsi4 ####
+attach       none      How this adapter is CONNECTED         False
+dyntrk       yes       Dynamic Tracking of FC Devices        True
+fc_err_recov fast_fail FC Fabric Event Error RECOVERY Policy True
+scsi_id                Adapter SCSI ID                       False
+sw_fc_class  3         FC Class for Fabric                   True
+
+#### system device: fscsi5 ####
+attach       none      How this adapter is CONNECTED         False
+dyntrk       yes       Dynamic Tracking of FC Devices        True
+fc_err_recov fast_fail FC Fabric Event Error RECOVERY Policy True
+scsi_id                Adapter SCSI ID                       False
+sw_fc_class  3         FC Class for Fabric                   True
+
+#### system device: fscsi6 ####
+attach       switch    How this adapter is CONNECTED         False
+dyntrk       yes       Dynamic Tracking of FC Devices        True
+fc_err_recov fast_fail FC Fabric Event Error RECOVERY Policy True
+scsi_id      0x2fb82   Adapter SCSI ID                       False
+sw_fc_class  3         FC Class for Fabric                   True
+
+#### system device: fscsi7 ####
+attach       switch    How this adapter is CONNECTED         False
+dyntrk       yes       Dynamic Tracking of FC Devices        True
+fc_err_recov fast_fail FC Fabric Event Error RECOVERY Policy True
+scsi_id      0x2fa82   Adapter SCSI ID                       False
+sw_fc_class  3         FC Class for Fabric                   True
+
+#### system device: mem0 ####
+ent_mem_cap          I/O memory entitlement in Kbytes           False
+goodsize       98304 Amount of usable physical memory in Mbytes False
+mem_exp_factor       Memory expansion factor                    False
+size           98304 Total amount of physical memory in Mbytes  False
+var_mem_weight       Variable memory capacity weight            False
+
+#### system device: proc0 ####
+frequency   4424001000     Processor Speed       False
+smt_enabled true           Processor SMT enabled False
+smt_threads 4              Processor SMT threads False
+state       enable         Processor state       False
+type        PowerPC_POWER7 Processor type        False
+
+#### system device: proc12 ####
+frequency   4424001000     Processor Speed       False
+smt_enabled true           Processor SMT enabled False
+smt_threads 4              Processor SMT threads False
+state       enable         Processor state       False
+type        PowerPC_POWER7 Processor type        False
+
+#### system device: proc16 ####
+frequency   4424001000     Processor Speed       False
+smt_enabled true           Processor SMT enabled False
+smt_threads 4              Processor SMT threads False
+state       enable         Processor state       False
+type        PowerPC_POWER7 Processor type        False
+
+#### system device: proc20 ####
+frequency   4424001000     Processor Speed       False
+smt_enabled true           Processor SMT enabled False
+smt_threads 4              Processor SMT threads False
+state       enable         Processor state       False
+type        PowerPC_POWER7 Processor type        False
+
+#### system device: proc4 ####
+frequency   4424001000     Processor Speed       False
+smt_enabled true           Processor SMT enabled False
+smt_threads 4              Processor SMT threads False
+state       enable         Processor state       False
+type        PowerPC_POWER7 Processor type        False
+
+#### system device: proc8 ####
+frequency   4424001000     Processor Speed       False
+smt_enabled true           Processor SMT enabled False
+smt_threads 4              Processor SMT threads False
+state       enable         Processor state       False
+type        PowerPC_POWER7 Processor type        False
+
+#### system device: sys0 ####
+SW_dist_intr    false                                Enable SW distribution of interrupts                True
+autorestart     true                                 Automatically REBOOT OS after a crash               True
+boottype        disk                                 N/A                                                 False
+capacity_inc    0.01                                 Processor capacity increment                        False
+capped          false                                Partition is capped                                 False
+chown_restrict  true                                 Chown Restriction Mode                              True
+conslogin       enable                               System Console Login                                False
+cpuguard        enable                               CPU Guard                                           True
+dedicated       false                                Partition is dedicated                              False
+enhanced_RBAC   true                                 Enhanced RBAC Mode                                  True
+ent_capacity    4.00                                 Entitled processor capacity                         False
+frequency       6400000000                           System Bus Frequency                                False
+fullcore        false                                Enable full CORE dump                               True
+fwversion       IBM,AM780_068                        Firmware version and revision levels                False
+ghostdev        0                                    Recreate ODM devices on system change / modify PVID True
+id_to_partition 0X8000109BE230001B                   Partition ID                                        False
+id_to_system    0X8000109BE2300000                   System ID                                           False
+iostat          false                                Continuously maintain DISK I/O history              True
+keylock         normal                               State of system keylock at boot time                False
+log_pg_dealloc  true                                 Log predictive memory page deallocation events      True
+max_capacity    6.00                                 Maximum potential processor capacity                False
+max_logname     9                                    Maximum login name length at boot time              True
+maxbuf          20                                   Maximum number of pages in block I/O BUFFER CACHE   True
+maxmbuf         0                                    Maximum Kbytes of real memory allowed for MBUFS     True
+maxpout         8193                                 HIGH water mark for pending write I/Os per file     True
+maxuproc        16384                                Maximum number of PROCESSES allowed per user        True
+min_capacity    2.00                                 Minimum potential processor capacity                False
+minpout         4096                                 LOW water mark for pending write I/Os per file      True
+modelname       IBM,9179-MHD                         Machine name                                        False
+ncargs          256                                  ARG/ENV list size in 4K byte blocks                 True
+nfs4_acl_compat secure                               NFS4 ACL Compatibility Mode                         True
+ngroups_allowed 128                                  Number of Groups Allowed                            True
+os_uuid         6b7fcfd2-57ad-4b47-a435-1916a889dd5f N/A                                                 True
+pre430core      false                                Use pre-430 style CORE dump                         True
+pre520tune      disable                              Pre-520 tuning compatibility mode                   True
+realmem         100663296                            Amount of usable physical memory in Kbytes          False
+rtasversion     1                                    Open Firmware RTAS version                          False
+sed_config      select                               Stack Execution Disable (SED) Mode                  True
+systemid        IBM,0221ADA1V                        Hardware system identifier                          False
+variable_weight 127                                  Variable processor capacity weight                  False
+
+#### system device: sysplanar0 ####
+
+==== EXITED with rc 0 ====
+==== END lscfg | sort | grep -v "Diagnostic support" | awk '/[*+] / {print "#### system device: " $2 " ####";system("/usr/sbin/lsattr -El " $2);print ""}' Thu Aug  6 11:22:33 GST 2015 ====

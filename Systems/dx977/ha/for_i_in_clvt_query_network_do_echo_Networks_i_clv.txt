@@ -1,0 +1,55 @@
+==== This output can be found in Systems/dx977/ha/for_i_in_clvt_query_network_do_echo_Networks_i_clv.txt ====
+==== START for i in $(clvt query network); do  echo "### Networks: $i ###"; clvt query network $i; echo ""; done Tue Jul  7 00:28:03 GST 2015 ====
+### Networks: net_ether_01 ###
+NAME="net_ether_01"
+GID="151509187362791"
+NETMASK="255.255.255.0"
+NET_FAMILY="1"
+NETWORK_ID="0"
+ALIAS="aliased"
+RESOURCE_DIST_PREF=""
+POLLINTERVAL="0"
+TYPE="ether"
+GLOBALNAME=""
+ALIAS_HB_NETMASK=""
+ALIAS_HB_ADDR=""
+MONITOR_METHOD="default"
+PUBLIC="public"
+GLOBALNAME=""
+
+### Networks: net_ether_02 ###
+NAME="net_ether_02"
+GID="15150918731"
+NETMASK="255.255.255.0"
+NET_FAMILY="1"
+NETWORK_ID="1"
+ALIAS="aliased"
+RESOURCE_DIST_PREF="AC"
+POLLINTERVAL="0"
+TYPE="ether"
+GLOBALNAME=""
+ALIAS_HB_NETMASK=""
+ALIAS_HB_ADDR=""
+MONITOR_METHOD="default"
+PUBLIC="public"
+GLOBALNAME=""
+
+### Networks: net_ether_03 ###
+NAME="net_ether_03"
+GID="15150918732"
+NETMASK="255.255.255.0"
+NET_FAMILY="1"
+NETWORK_ID="2"
+ALIAS="aliased"
+RESOURCE_DIST_PREF=""
+POLLINTERVAL="0"
+TYPE="ether"
+GLOBALNAME=""
+ALIAS_HB_NETMASK=""
+ALIAS_HB_ADDR=""
+MONITOR_METHOD="default"
+PUBLIC="public"
+GLOBALNAME=""
+
+==== EXITED with rc 0 ====
+==== END for i in $(clvt query network); do  echo "### Networks: $i ###"; clvt query network $i; echo ""; done Tue Jul  7 00:28:06 GST 2015 ====

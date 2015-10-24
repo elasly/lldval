@@ -1,0 +1,23 @@
+==== This output can be found in Systems/dx986/os/drmgr-l.txt ====
+==== START drmgr -l Tue Jul  7 00:44:38 GST 2015 ====
+DR Install Root Directory: /usr/lib/dr/scripts
+Syslog ID: DRMGR
+------------------------------------------------------------
+/usr/lib/dr/scripts/all/aud_acct_dr		 WPAR DR Script for Auditing and Accounting
+	Vendor:IBM,	Version:1,	Date:03232007
+	Script Timeout:60,	Admin Override Timeout:0
+	Memory DR Percentage:100
+	Resources Supported:
+		Resource Name: wmig-checkpoint	 Resource Usage: Checkpoint of Auditing and Accounting within a WPAR
+		Resource Name: wmig-restart	 Resource Usage: Restart of Auditing and Accounting within a WPAR
+------------------------------------------------------------
+/usr/lib/dr/scripts/all/ctrmc_MDdr		 DR script to refresh Management Domain configuration
+	Vendor:IBM,	Version:2,	Date:05252010
+	Script Timeout:10,	Admin Override Timeout:0
+	Memory DR Percentage:100
+	Resources Supported:
+		Resource Name: pmig	 Resource Usage: Partition migration for RSCT Management Domain
+		Resource Name: phib	 Resource Usage: Partition hibernation for RSCT Management Domain
+------------------------------------------------------------
+==== EXITED with rc 0 ====
+==== END drmgr -l Tue Jul  7 00:44:38 GST 2015 ====

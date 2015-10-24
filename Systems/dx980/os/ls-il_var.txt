@@ -1,0 +1,38 @@
+==== This output can be found in Systems/dx980/os/ls-il_var.txt ====
+==== START ls -il /var Mon Jul  6 23:13:03 GST 2015 ====
+total 40
+    5 drwxrwx---    2 root     adm             256 Jun  4 10:59 aacct
+   32 drwxrwxr-x   18 root     adm            4096 Apr  1 14:09 adm
+  192 dr-xr-xr-x    2 root     system          256 Jun 12 01:22 cim
+  127 drwxrwxr-x    7 bin      bin            4096 Apr  1 15:04 ct
+ 4224 drwxr-xr-x    4 bin      bin             256 Mar  4 16:03 dt
+ 4168 drwxrwxr-x    4 root     system          256 Mar  2 15:42 ecc
+ 4288 drwxr-xr-x    2 root     system          256 Mar  4 12:47 empty
+ 4217 drwxr-xr-x    8 esaadmin system          256 Mar  2 15:44 esa
+ 4239 drwxr-xr-x    6 root     system          256 Mar  2 15:43 ha
+16867 drwxr-xr-x    7 root     system          256 Apr  1 16:30 hacmp
+ 4245 drwxr-xr-x    4 root     system          256 Mar  2 15:44 lib
+ 4320 drwxrwxrwt    3 root     system          256 Jul  6 23:07 locks
+ 4268 drwxr-xr-x    5 bin      bin             256 Mar  2 15:49 log
+    3 drwx------    2 root     system          256 Mar  5 20:36 lost+found
+ 4352 drwxrwxrwt    2 bin      bin             256 Oct 15 2014  msgs
+  183 lrwxrwxrwx    1 bin      bin               8 Mar  5 20:36 ncs -> /etc/ncs
+ 4294 drwxrwxrwt    2 bin      bin             256 Oct 15 2014  news
+ 4295 drwxr-xr-x    6 root     system          256 Mar 23 13:41 opt
+36865 drwxr-xr-x    4 root     system          256 Mar  2 15:38 pconsole
+36868 drwxr-xr-x    9 adm      adm            4096 Mar  6 06:44 perf
+36920 drwxrwxrwt    2 bin      bin             256 Mar  7 13:32 preserve
+36921 dr-xr-xr-x    3 bin      bin             256 Mar  2 15:13 probevue
+36923 drwxr-xr-x    3 root     system          256 Jun 12 01:21 run
+36992 dr-xr-x---    5 root     system          256 Mar  2 15:32 security
+36933 drwxr-x---    2 root     snapp           256 Mar  2 15:32 snapp
+36934 drwxrwxr-x   12 bin      bin            4096 Mar  2 15:32 spool
+36986 drwxr-xr-x    3 root     system          256 Mar  2 14:59 ssl
+37056 drwxr-xr-x    4 daemon   sys             256 Mar  5 12:26 statmon
+36999 drwxr-xr-x    5 bin      bin             256 Mar  2 15:44 suma
+37004 drwxrwxrwt    3 bin      bin            4096 Jul  6 23:12 tmp
+37009 drwxrwxr-x    3 root     system          256 Mar  2 14:55 tss
+37012 drwxr-xr-x    3 root     system          256 Mar  2 15:43 websm
+37016 drwxr-xr-x    2 root     system          256 Mar  4 12:52 yp
+==== EXITED with rc 0 ====
+==== END ls -il /var Mon Jul  6 23:13:03 GST 2015 ====

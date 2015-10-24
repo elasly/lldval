@@ -1,0 +1,37 @@
+==== This output can be found in Systems/dx977/storage/df-m.txt ====
+==== START df -m Tue Jul  7 00:09:54 GST 2015 ====
+Filesystem    MB blocks      Free %Used    Iused %Iused Mounted on
+/dev/hd4       10240.00  10027.89    3%    13156     1% /
+/dev/hd2       15360.00   8561.73   45%    94892     5% /usr
+/dev/hd9var    20480.00  19037.08    8%     8365     1% /var
+/dev/hd3       15360.00   9793.86   37%     2793     1% /tmp
+/dev/hd1       10240.00  10178.56    1%      548     1% /home
+/dev/hd11admin   2048.00   2047.35    1%        5     1% /admin
+/proc                 -         -    -         -     -  /proc
+/dev/hd10opt   25600.00  25403.36    1%     8678     1% /opt
+/dev/livedump    512.00    506.04    2%       23     1% /var/adm/ras/livedump
+/dev/perfdatalv   5120.00    543.31   90%     2945     3% /perfdata
+/aha                  -         -    -       141     1% /aha
+/dev/R1_arch1lv 5237248.00 4454117.74   15%      232     1% /gsm_arclog1
+/dev/R1_arch2lv 5237248.00 4454117.75   15%      232     1% /gsm_arclog2
+/dev/R5_baselv 102400.00  91567.13   11%    61206     1% /gsm_base
+/dev/R1_ctrl1lv  10170.00  10055.41    2%        7     1% /gsm_ctrl1
+/dev/R1_ctrl2lv  10170.00  10055.41    2%        7     1% /gsm_ctrl2
+/dev/R1_ctrl3lv  10170.00  10055.41    2%        7     1% /gsm_ctrl3
+/dev/R1_data1lv 15202464.00 11702885.52   24%      147     1% /gsm_data1
+/dev/R1_flashlv  50976.00  50767.93    1%        4     1% /gsm_flash
+/dev/R5_gglv  204480.00 203936.53    1%        4     1% /gsm_gg
+/dev/R1_indx1lv 3145312.00 2091512.55   34%       66     1% /gsm_index1
+/dev/R1_redo1lv  30720.00  18274.25   41%        9     1% /gsm_redo1
+/dev/R1_redo2lv  30720.00  18274.25   41%        9     1% /gsm_redo2
+/dev/R5_stagelv  51200.00  50991.89    1%        4     1% /gsm_stage
+/dev/R5_syslv  51200.00  50260.44    2%      878     1% /gsm_sys
+/dev/R1_templv 716800.00 685912.75    5%       29     1% /gsm_temp
+/dev/R5_undolv 409376.00  48799.95   89%       18     1% /gsm_undo
+/dev/datacollectlv 101376.00  90352.61   11%     2082     1% /datacollect
+/dev/R6_bkplv 10474496.00 8642501.02   18%     1266     1% /gsm_bkp
+/dev/R5_explv 4189696.00 3623775.71   14%     1535     1% /gsm_exp
+10.51.227.241:/data/col1/dd_GSM_Bkp 265333162.50 14325277.50   95%    22109     1% /dd_GSM_Bkp
+/dev/bctlv      9728.00   9515.09    3%        7     1% /gsm_bct
+==== EXITED with rc 0 ====
+==== END df -m Tue Jul  7 00:09:54 GST 2015 ====

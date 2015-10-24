@@ -1,0 +1,89 @@
+==== This output can be found in Systems/dx978/network/netstat-ss.txt ====
+==== START netstat -ss Mon Jul  6 23:43:39 GST 2015 ====
+icmp:
+	654 calls to icmp_error
+	Output histogram:
+		echo reply: 132866
+		destination unreachable: 654
+		echo: 1639881
+	Input histogram:
+		echo reply: 1639845
+		destination unreachable: 21109
+		source quench: 1249
+		echo: 100616
+	100565 message responses generated
+igmp:
+	18 membership reports sent
+tcp:
+	65635137 packets sent
+		30951262 data packets (38193359060 bytes)
+		208 data packets (342112 bytes) retransmitted
+		9345438 ack-only packets (3391738 delayed)
+		23257141 window update packets
+		4162182 control packets
+		20122742 large sends
+		36313576897 bytes sent using largesend
+		65160 bytes is the biggest largesend
+	81192384 packets received
+		23008298 acks (for 38195084743 bytes)
+		758036 duplicate acks
+		61296110 packets (76377889547 bytes) received in-sequence
+		3842 completely duplicate packets (30851 bytes)
+		4 packets with some dup. data (5968 bytes duped)
+		731715 out-of-order packets (319752 bytes)
+		853860 window update packets
+		25537 packets received after close
+		7185 discarded by listeners
+		9535250 ack packet headers correctly predicted
+		51213709 data packet headers correctly predicted
+	753953 connection requests
+	742156 connection accepts
+	1496065 connections established (including accepts)
+	3049194 connections closed (including 10894 drops)
+	43 embryonic connections dropped
+	23683548 segments updated rtt (of 23352649 attempts)
+	7 path MTU discovery terminations due to retransmits
+	47 retransmit timeouts
+	5 fast retransmits
+	145 newreno retransmits
+	2 times avoided false fast retransmits
+	3282 keepalive timeouts
+		2 connections dropped by keepalive
+udp:
+	31350304 datagrams received
+	182725 dropped due to no socket
+	3944088 broadcast/multicast datagrams dropped due to no socket
+	27223491 delivered
+	22409795 datagrams output
+ip:
+	114913668 total packets received
+	62054 fragments received
+	31027 packets reassembled ok
+	108951922 packets for this host
+	10 packets for unknown/unsupported protocol
+	397298 packets not forwardable
+	84454056 packets sent from this host
+	1662065 packets dropped due to the full socket receive buffer
+
+ipv6:
+	5533412 total packets received
+	Input histogram:
+		TCP: 5171402
+		UDP: 182173
+		ICMP v6: 179837
+	5533412 packets for this host
+	5533412 packets sent from this host
+	57562 output packets discarded due to no route
+icmpv6:
+	182071 calls to icmp6_error
+	Output histogram:
+		unreachable: 179835
+		echo request: 1
+		echo reply: 1
+	Input histogram:
+		unreachable: 179835
+		echo request: 1
+		echo reply: 1
+	1 message response generated
+==== EXITED with rc 0 ====
+==== END netstat -ss Mon Jul  6 23:43:39 GST 2015 ====

@@ -1,0 +1,151 @@
+==== This output can be found in Systems/dx987/os/rpm-qa_sort_awk_echo_software_package_1_system_rpm.txt ====
+==== START rpm -qa | sort | awk '{echo "#### software package: " $1 " ####";system("rpm -qi " $1);echo "\n"}' Mon Jul  6 23:48:21 GST 2015 ====
+Name        : AIX-rpm                      Relocations: (not relocateable)
+Version     : 7.1.3.30                          Vendor: (none)
+Release     : 3                             Build Date: Thu Mar  5 12:17:51 2015
+Install date: Thu Mar  5 12:17:56 2015      Build Host: loopback
+Group       : System Environment/Libraries   Source RPM: AIX-rpm-7.1.3.30-3.src.rpm
+Size        : 0                                License: none
+Packager    : auto-generated
+Summary     : Virtual Package for libraries and shells installed on system
+Description :
+This package contains no files.  It is a package which contains
+information about shared libraries and shell interpreters installed
+on the operating system.
+Name        : bash                         Relocations: /opt/freeware 
+Version     : 4.2                               Vendor: (none)
+Release     : 1                             Build Date: Mon Jan 21 12:44:36 2013
+Install date: Thu Mar  5 09:36:38 2015      Build Host: akash79.in.ibm.com
+Group       : System Environment/Shells     Source RPM: bash-4.2-1.src.rpm
+Size        : 5712035                          License: GPL
+URL         : http://www.gnu.org/software/bash
+Summary     : The GNU Bourne Again shell (bash).
+Description :
+The GNU bash shell is a command language interpreter that attempts
+compatibility with the Bourne shell (sh).  Bash incorporates useful features
+from the Korn shell (ksh) and the C shell (csh).  Most sh scripts can be run by
+bash without modification.  Bash is intended to be a conformant implementation
+of the IEEE Posix Shell and Tools specification (IEEE Working Group 1003.2).
+Name        : bash-doc                     Relocations: /opt/freeware 
+Version     : 4.2                               Vendor: (none)
+Release     : 1                             Build Date: Mon Jan 21 12:44:36 2013
+Install date: Thu Mar  5 09:36:39 2015      Build Host: akash79.in.ibm.com
+Group       : Documentation                 Source RPM: bash-4.2-1.src.rpm
+Size        : 1761133                          License: GPL
+URL         : http://www.gnu.org/software/bash
+Summary     : Documentation for the GNU Bourne Again shell (bash).
+Description :
+The bash-doc package contains documentation for the GNU bash shell.
+Name        : cpio                         Relocations: /opt/freeware 
+Version     : 2.11                              Vendor: (none)
+Release     : 1                             Build Date: Mon Jan 21 11:12:52 2013
+Install date: Thu Mar  5 12:18:14 2015      Build Host: akash79.in.ibm.com
+Group       : Applications/Archiving        Source RPM: cpio-2.11-1.src.rpm
+Size        : 1275371                          License: GPL
+URL         : http://www.gnu.org/software/cpio
+Summary     : A GNU archiving program.
+Description :
+GNU cpio copies files into or out of a cpio or tar archive.  Archives
+are files which contain a collection of other files plus information
+about them, such as their file name, owner, timestamps, and access
+permissions.  The archive can be another file on the disk, a magnetic
+tape, or a pipe.  GNU cpio supports the following archive formats:  binary,
+old ASCII, new ASCII, crc, HPUX binary, HPUX old ASCII, old tar and POSIX.1
+tar.  By default, cpio creates binary format archives, so that they are
+compatible with older cpio programs.  When it is extracting files from
+archives, cpio automatically recognizes which kind of archive it is reading
+and can read archives created on machines with a different byte-order.
+
+Install cpio if you need a program to manage file archives.
+Name        : expect                       Relocations: /opt 
+Version     : 5.42.1                            Vendor: (none)
+Release     : 3                             Build Date: Wed May 20 14:01:11 2009
+Install date: Mon Mar  2 15:51:27 2015      Build Host: otto03.austin.ibm.com
+Group       : Development/Languages         Source RPM: expect-5.42.1-3.src.rpm
+Size        : 0                                License: IBM_ILA
+Summary     : A tcl extension for simplifying program-script interaction(empty).
+Description :
+This is an empty rpm used to register with the rpm db so that the AIX Director 6.1 GA server
+ continues to install successfully on AIX 61H.
+Name        : sudo                         Relocations: /opt/freeware 
+Version     : 1.6.9p23                          Vendor: (none)
+Release     : 2noldap                       Build Date: Thu Nov 17 14:45:18 2011
+Install date: Thu Mar  5 09:36:40 2015      Build Host: dennis01.in.ibm.com
+Group       : Applications/System           Source RPM: sudo-1.6.9p23-2noldap.src.rpm
+Size        : 579646                           License: IBM_ILA
+URL         : http://www.sudo.ws
+Summary     : Allows restricted root access for specified users.
+Description :
+Sudo (superuser do) allows a system administrator to give certain users (or
+groups of users) the ability to run some (or all) commands as root while
+logging all commands and arguments. Sudo operates on a per-command basis.  It
+is not a replacement for the shell.  Features include: the ability to restrict
+what commands a user may run on a per-host basis, copious logging of each
+command (providing a clear audit trail of who did what), a configurable timeout
+of the sudo command, and the ability to use the same configuration file
+(sudoers) on many different machines.
+Name        : tcl                          Relocations: /opt 
+Version     : 8.4.7                             Vendor: (none)
+Release     : 3                             Build Date: Wed May 20 14:01:55 2009
+Install date: Mon Mar  2 15:51:25 2015      Build Host: otto03.austin.ibm.com
+Group       : Development/Languages         Source RPM: tcl-8.4.7-3.src.rpm
+Size        : 0                                License: IBM_ILA
+Summary     : An embeddable scripting language(empty).
+Description :
+ This is an empty rpm used to register with the rpm db so that the AIX Director 6.1 GA server
+ continues to install successfully on AIX 61H.
+Name        : tk                           Relocations: /opt 
+Version     : 8.4.7                             Vendor: (none)
+Release     : 3                             Build Date: Wed May 20 14:02:02 2009
+Install date: Mon Mar  2 15:51:26 2015      Build Host: otto03.austin.ibm.com
+Group       : Development/Languages         Source RPM: tk-8.4.7-3.src.rpm
+Size        : 0                                License: IBM_ILA
+Summary     : The Tk GUI toolkit for Tcl, with shared libraries(empty).
+Description :
+ This is an empty rpm used to register with the rpm db so that the AIX Director 6.1 GA server
+ continues to install successfully on AIX 61H.
+Name        : unzip                        Relocations: /opt/freeware 
+Version     : 5.51                              Vendor: (none)
+Release     : 1                             Build Date: Mon Sep 27 23:40:54 2004
+Install date: Thu Mar  5 09:36:41 2015      Build Host: emperor.aixpclab.austin.ibm.com
+Group       : Applications/Archiving        Source RPM: unzip-5.51-1.src.rpm
+Size        : 488393                           License: IBM_ILA
+URL         : http://www.ctan.org/tex-archive/tools/zip/info-zip/UnZip.html
+Summary     : A utility for unpacking zip files.
+Description :
+The unzip utility is used to list, test, or extract files from a zip archive.
+Zip archives are commonly found on MS-DOS systems.  The zip utility, included
+in the zip package, creates zip archives.  Zip and unzip are both compatible
+with archives created by PKWARE(R)'s PKZIP for MS-DOS, but the programs'
+options and default behaviors do differ in some respects.
+Name        : vnc                          Relocations: /opt/freeware 
+Version     : 3.3.3r2                           Vendor: (none)
+Release     : 6                             Build Date: Thu Dec  7 22:00:59 2006
+Install date: Thu Mar  5 12:18:16 2015      Build Host: stonehenge.austin.ibm.com
+Group       : Applications/Productivity     Source RPM: vnc-3.3.3r2-6.src.rpm
+Size        : 2676209                          License: GPL
+URL         : http://www.uk.research.att.com/vnc/
+Summary     : Virtual Network Computing
+Description :
+VNC stands for Virtual Network Computing. It is, in essence, a remote display
+system which allows you to view a computing 'desktop' environment not only on
+the machine where it is running, but from anywhere on the Internet and from a
+wide variety of machine architectures.
+Name        : zip                          Relocations: /opt/freeware 
+Version     : 2.3                               Vendor: (none)
+Release     : 3                             Build Date: Sat Nov 23 02:55:40 2002
+Install date: Thu Mar  5 09:36:42 2015      Build Host: emperor.aixpclab.austin.ibm.com
+Group       : Applications/Archiving        Source RPM: zip-2.3-3.src.rpm
+Size        : 323779                           License: IBM_ILA
+URL         : http://www.info-zip.org/pub/infozip/Zip.html
+Summary     : A file compression and packaging utility compatible with PKZIP.
+Description :
+The zip program is a compression and file packaging utility.  Zip is
+analogous to a combination of the UNIX tar and compress commands and
+is compatible with PKZIP (a compression and file packaging utility for
+MS-DOS systems).
+
+Install the zip package if you need to compress files using the zip
+program.
+==== EXITED with rc 0 ====
+==== END rpm -qa | sort | awk '{echo "#### software package: " $1 " ####";system("rpm -qi " $1);echo "\n"}' Mon Jul  6 23:48:24 GST 2015 ====

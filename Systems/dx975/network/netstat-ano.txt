@@ -1,0 +1,4366 @@
+==== This output can be found in Systems/dx975/network/netstat-ano.txt ====
+==== START netstat -ano Tue Jul  7 12:46:01 CDT 2015 ====
+Active Internet connections (including servers)
+Proto Recv-Q Send-Q  Local Address          Foreign Address        (state)
+tcp        0      0  *.*                    *.*                    CLOSED
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|MEMCOMPRESS|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+	 TCP:
+	 mss:1460 
+
+tcp4       0      0  *.*                    *.*                    CLOSED
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|MEMCOMPRESS|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+	 TCP:
+	 mss:1460 
+
+tcp        0      0  *.*                    *.*                    CLOSED
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|MEMCOMPRESS|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+	 TCP:
+	 mss:1460 
+
+tcp4       0      0  *.*                    *.*                    CLOSED
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|MEMCOMPRESS|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+	 TCP:
+	 mss:1460 
+
+tcp        0      0  *.21                   *.*                    LISTEN
+
+	 so_options: (ACCEPTCONN|REUSEADDR) 
+	 q0len:0 qlen:0 qlimit:1000 	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|MEMCOMPRESS|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+	 TCP:
+	 mss:1460 
+
+tcp4       0      0  *.22                   *.*                    LISTEN
+
+	 so_options: (ACCEPTCONN|REUSEADDR) 
+	 q0len:0 qlen:0 qlimit:128 	 so_state: (PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|MEMCOMPRESS|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+	 TCP:
+	 mss:1460 
+
+tcp6       0      0  *.22                   *.*                    LISTEN
+
+	 so_options: (ACCEPTCONN|REUSEADDR) 
+	 q0len:0 qlen:0 qlimit:128 	 so_state: (PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|MEMCOMPRESS|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+	 TCP:
+	 mss:1460 
+
+tcp        0      0  *.23                   *.*                    LISTEN
+
+	 so_options: (ACCEPTCONN|REUSEADDR) 
+	 q0len:0 qlen:0 qlimit:1000 	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|MEMCOMPRESS|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+	 TCP:
+	 mss:1460 
+
+tcp        0      0  *.111                  *.*                    LISTEN
+
+	 so_options: (ACCEPTCONN|REUSEADDR|OOBINLINE|REUSEPORT) 
+	 q0len:0 qlen:0 qlimit:64 	 so_state: (NBIO) 
+	 timeo:0 uid:0
+	 so_special: (NOUAREA|LOCKABLE|EXTPRIV|MEMCOMPRESS|DISABLE) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOINTR|INHERIT|NOTIFY) 
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOINTR|INHERIT|NOTIFY) 
+	 TCP:
+	 mss:1460  flags: (STDURG|COPYFLAGS) 
+
+
+tcp        0      0  *.199                  *.*                    LISTEN
+
+	 so_options: (ACCEPTCONN|REUSEPORT) 
+	 q0len:0 qlen:0 qlimit:5 	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|MEMCOMPRESS|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+	 TCP:
+	 mss:1460  flags: (NODELAYACK|COPYFLAGS) 
+
+
+tcp        0      0  *.427                  *.*                    LISTEN
+
+	 so_options: (ACCEPTCONN|REUSEADDR) 
+	 q0len:0 qlen:0 qlimit:1024 	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|MEMCOMPRESS|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+	 TCP:
+	 mss:1460 
+
+tcp        0      0  *.657                  *.*                    LISTEN
+
+	 so_options: (ACCEPTCONN) 
+	 q0len:0 qlen:0 qlimit:1024 	 so_state: (PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|MEMCOMPRESS|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+	 TCP:
+	 mss:1460 
+
+tcp4       0      0  *.1334                 *.*                    LISTEN
+
+	 so_options: (ACCEPTCONN) 
+	 q0len:0 qlen:0 qlimit:5 	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|MEMCOMPRESS|ACCEPT|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+	 TCP:
+	 mss:1460 
+
+tcp        0      0  *.2049                 *.*                    LISTEN
+
+	 so_options: (ACCEPTCONN|REUSEADDR|OOBINLINE) 
+	 q0len:0 qlen:0 qlimit:1024 	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|MEMCOMPRESS|DISABLE) 
+	 sndbuf: 
+		 hiwat:600000 lowat:4096 mbcnt:0 mbmax:2097152
+	 rcvbuf: 
+		 hiwat:600032 lowat:1 mbcnt:0 mbmax:2097152
+		 sb_flags: (SEL|NOINTR|INHERIT|NOTIFY) 
+	 TCP:
+	 mss:1460  flags: (NODELAY|RFC1323|COPYFLAGS) 
+
+
+tcp        0      0  *.3192                 *.*                    LISTEN
+
+	 so_options: (ACCEPTCONN|REUSEADDR|LINGER|REUSEPORT) 
+	 q0len:0 qlen:0 qlimit:5 	 so_state: (PRIV) 
+	 timeo:0 uid:8
+	 so_special: (LOCKABLE|MEMCOMPRESS|ACCEPT|DISABLE) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+	 TCP:
+	 mss:1460  flags: (NODELAY|COPYFLAGS) 
+
+
+tcp4       0      0  10.51.229.218.22       10.32.22.159.54532     ESTABLISHED
+
+	 so_options: (REUSEADDR|KEEPALIVE) 
+	 so_state: (ISCONNECTED|NBIO) 
+	 timeo:0 uid:8
+	 so_special: (LOCKABLE|MEMCOMPRESS|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:262800 lowat:16384 mbcnt:0 mbmax:1051200
+	 rcvbuf: 
+		 hiwat:262800 lowat:1 mbcnt:0 mbmax:1051200
+		 sb_flags: (SEL|NOTIFY) 
+	 TCP:
+	 mss:1460  flags: (NODELAY|RFC1323|SENT_WS|RCVD_WS|RCVD_LS|COPYFLAGS) 
+
+
+tcp        0      0  *.5988                 *.*                    LISTEN
+
+	 so_options: (ACCEPTCONN|REUSEADDR) 
+	 q0len:0 qlen:0 qlimit:15 	 so_state: (PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|MEMCOMPRESS|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+	 TCP:
+	 mss:1460  flags: (NODELAY|COPYFLAGS) 
+
+
+tcp        0      0  *.5989                 *.*                    LISTEN
+
+	 so_options: (ACCEPTCONN|REUSEADDR) 
+	 q0len:0 qlen:0 qlimit:15 	 so_state: (PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|MEMCOMPRESS|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+	 TCP:
+	 mss:1460  flags: (NODELAY|COPYFLAGS) 
+
+
+tcp        0      0  *.6181                 *.*                    LISTEN
+
+	 so_options: (ACCEPTCONN|REUSEADDR) 
+	 q0len:0 qlen:0 qlimit:1000 	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|MEMCOMPRESS|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+	 TCP:
+	 mss:1460 
+
+tcp        0      0  *.6987                 *.*                    LISTEN
+
+	 so_options: (ACCEPTCONN|REUSEADDR) 
+	 q0len:0 qlen:0 qlimit:50 	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|MEMCOMPRESS|ACCEPT|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+	 TCP:
+	 mss:1460 
+
+tcp        0      0  *.6988                 *.*                    LISTEN
+
+	 so_options: (ACCEPTCONN|REUSEADDR) 
+	 q0len:0 qlen:0 qlimit:15 	 so_state: (PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|MEMCOMPRESS|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+	 TCP:
+	 mss:1460  flags: (NODELAY|COPYFLAGS) 
+
+
+tcp4       0      0  *.32769                *.*                    LISTEN
+
+	 so_options: (ACCEPTCONN|REUSEADDR|OOBINLINE|REUSEPORT) 
+	 q0len:0 qlen:0 qlimit:64 	 so_state: (NBIO) 
+	 timeo:0 uid:0
+	 so_special: (NOUAREA|LOCKABLE|EXTPRIV|MEMCOMPRESS|DISABLE) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOINTR|INHERIT|NOTIFY) 
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOINTR|INHERIT|NOTIFY) 
+	 TCP:
+	 mss:1460  flags: (STDURG|COPYFLAGS) 
+
+
+tcp        0      0  *.32771                *.*                    LISTEN
+
+	 so_options: (ACCEPTCONN|OOBINLINE|NOREUSEADDR) 
+	 q0len:0 qlen:0 qlimit:1024 	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|MEMCOMPRESS|DISABLE) 
+	 sndbuf: 
+		 hiwat:50000 lowat:4096 mbcnt:0 mbmax:200000
+	 rcvbuf: 
+		 hiwat:50032 lowat:1 mbcnt:0 mbmax:200128
+		 sb_flags: (SEL|NOINTR|INHERIT|NOTIFY) 
+	 TCP:
+	 mss:1460  flags: (NODELAY|RFC1323|COPYFLAGS) 
+
+
+tcp        0      0  *.32816                *.*                    LISTEN
+
+	 so_options: (ACCEPTCONN) 
+	 q0len:0 qlen:0 qlimit:5 	 so_state: (PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|MEMCOMPRESS|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+	 TCP:
+	 mss:1460 
+
+tcp        0      0  *.32833                *.*                    LISTEN
+
+	 so_options: (ACCEPTCONN|REUSEADDR) 
+	 q0len:0 qlen:0 qlimit:500 	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|MEMCOMPRESS|ACCEPT|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+	 TCP:
+	 mss:1460 
+
+tcp        0      0  *.32839                *.*                    LISTEN
+
+	 so_options: (ACCEPTCONN|REUSEADDR) 
+	 q0len:0 qlen:0 qlimit:50 	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|MEMCOMPRESS|ACCEPT|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+	 TCP:
+	 mss:1460 
+
+tcp        0      0  *.9510                 *.*                    LISTEN
+
+	 so_options: (ACCEPTCONN|REUSEADDR) 
+	 q0len:0 qlen:0 qlimit:50 	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|MEMCOMPRESS|ACCEPT|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+	 TCP:
+	 mss:1460 
+
+tcp4       0      0  127.0.0.1.6001         *.*                    LISTEN
+
+	 so_options: (ACCEPTCONN|REUSEADDR|USELOOPBACK) 
+	 q0len:0 qlen:0 qlimit:1024 	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|MEMCOMPRESS|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+	 TCP:
+	 mss:1460  flags: (NODELAY|COPYFLAGS) 
+
+
+tcp        0      0  *.36439                *.*                    LISTEN
+
+	 so_options: (ACCEPTCONN|REUSEADDR|OOBINLINE|REUSEPORT) 
+	 q0len:0 qlen:0 qlimit:64 	 so_state: (NBIO) 
+	 timeo:0 uid:0
+	 so_special: (NOUAREA|LOCKABLE|EXTPRIV|MEMCOMPRESS|DISABLE) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOINTR|INHERIT|NOTIFY) 
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOINTR|INHERIT|NOTIFY) 
+	 TCP:
+	 mss:1460  flags: (STDURG|COPYFLAGS) 
+
+
+tcp4       0      0  10.51.229.218.22       10.32.22.188.64165     ESTABLISHED
+
+	 so_options: (REUSEADDR|KEEPALIVE) 
+	 so_state: (ISCONNECTED|NBIO) 
+	 timeo:0 uid:8
+	 so_special: (LOCKABLE|MEMCOMPRESS|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:262800 lowat:16384 mbcnt:0 mbmax:1051200
+	 rcvbuf: 
+		 hiwat:262800 lowat:1 mbcnt:0 mbmax:1051200
+		 sb_flags: (SEL|NOTIFY) 
+	 TCP:
+	 mss:1460  flags: (NODELAY|RFC1323|SENT_WS|RCVD_WS|RCVD_LS|COPYFLAGS) 
+
+
+tcp4       0      0  127.0.0.1.9514         *.*                    LISTEN
+
+	 so_options: (ACCEPTCONN|REUSEADDR) 
+	 q0len:0 qlen:0 qlimit:16 	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|MEMCOMPRESS|ACCEPT|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+	 TCP:
+	 mss:1460 
+
+tcp4       0      0  127.0.0.1.9515         *.*                    LISTEN
+
+	 so_options: (ACCEPTCONN|REUSEADDR) 
+	 q0len:0 qlen:0 qlimit:16 	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|MEMCOMPRESS|ACCEPT|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+	 TCP:
+	 mss:1460 
+
+tcp        0      0  *.14248                *.*                    LISTEN
+
+	 so_options: (ACCEPTCONN|REUSEADDR) 
+	 q0len:0 qlen:0 qlimit:50 	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|MEMCOMPRESS|ACCEPT|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+	 TCP:
+	 mss:1460 
+
+tcp        0      0  *.16191                *.*                    LISTEN
+
+	 so_options: (ACCEPTCONN|REUSEADDR) 
+	 q0len:0 qlen:0 qlimit:1024 	 so_state: (PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|MEMCOMPRESS|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+	 TCP:
+	 mss:1460  flags: (NODELAY|COPYFLAGS) 
+
+
+tcp6       0      0  ::1.32831                                     ::1.32832                                     CLOSE_WAIT
+	 so_state: (ISCONNECTED|CANTRCVMORE|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|MEMCOMPRESS|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:134592 lowat:33648 mbcnt:0 mbmax:538368
+	 rcvbuf: 
+		 hiwat:134592 lowat:1 mbcnt:0 mbmax:538368
+	 TCP:
+	 mss:16824  flags: (RFC1323|SENT_WS|RCVD_WS|SENT_TS|RCVD_TS|COPYFLAGS) 
+
+
+udp4       0      0  *.*                    *.*                   
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:9216 lowat:4096 mbcnt:0 mbmax:36864
+	 rcvbuf: 
+		 hiwat:42080 lowat:1 mbcnt:0 mbmax:168320
+
+udp        0      0  *.*                    *.*                   
+
+	 so_options: (NOREUSEADDR) 
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|DISABLE|GROUP) 
+	 sndbuf: 
+		 hiwat:9216 lowat:4096 mbcnt:0 mbmax:36864
+	 rcvbuf: 
+		 hiwat:42080 lowat:1 mbcnt:0 mbmax:168320
+		 sb_flags: (SEL|NOINTR|WAITING|INHERIT|NOTIFY) 
+
+udp        0      0  *.*                    *.*                   
+
+	 so_options: (NOREUSEADDR) 
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|DISABLE|GROUP) 
+	 sndbuf: 
+		 hiwat:9216 lowat:4096 mbcnt:0 mbmax:36864
+	 rcvbuf: 
+		 hiwat:42080 lowat:1 mbcnt:0 mbmax:168320
+		 sb_flags: (SEL|NOINTR|WAITING|INHERIT|NOTIFY) 
+
+udp        0      0  *.*                    *.*                   
+
+	 so_options: (NOREUSEADDR) 
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|DISABLE|GROUP) 
+	 sndbuf: 
+		 hiwat:9216 lowat:4096 mbcnt:0 mbmax:36864
+	 rcvbuf: 
+		 hiwat:42080 lowat:1 mbcnt:0 mbmax:168320
+		 sb_flags: (SEL|NOINTR|WAITING|INHERIT|NOTIFY) 
+
+udp        0      0  *.*                    *.*                   
+
+	 so_options: (NOREUSEADDR) 
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|DISABLE|GROUP) 
+	 sndbuf: 
+		 hiwat:9216 lowat:4096 mbcnt:0 mbmax:36864
+	 rcvbuf: 
+		 hiwat:42080 lowat:1 mbcnt:0 mbmax:168320
+		 sb_flags: (SEL|NOINTR|WAITING|INHERIT|NOTIFY) 
+
+udp        0      0  *.*                    *.*                   
+
+	 so_options: (NOREUSEADDR) 
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|DISABLE|GROUP) 
+	 sndbuf: 
+		 hiwat:9216 lowat:4096 mbcnt:0 mbmax:36864
+	 rcvbuf: 
+		 hiwat:42080 lowat:1 mbcnt:0 mbmax:168320
+		 sb_flags: (SEL|NOINTR|WAITING|INHERIT|NOTIFY) 
+
+udp        0      0  *.*                    *.*                   
+
+	 so_options: (NOREUSEADDR) 
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|DISABLE|GROUP) 
+	 sndbuf: 
+		 hiwat:9216 lowat:4096 mbcnt:0 mbmax:36864
+	 rcvbuf: 
+		 hiwat:42080 lowat:1 mbcnt:0 mbmax:168320
+		 sb_flags: (SEL|NOINTR|WAITING|INHERIT|NOTIFY) 
+
+udp        0      0  *.*                    *.*                   
+
+	 so_options: (NOREUSEADDR) 
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|DISABLE|GROUP) 
+	 sndbuf: 
+		 hiwat:9216 lowat:4096 mbcnt:0 mbmax:36864
+	 rcvbuf: 
+		 hiwat:42080 lowat:1 mbcnt:0 mbmax:168320
+		 sb_flags: (SEL|NOINTR|WAITING|INHERIT|NOTIFY) 
+
+udp        0      0  *.*                    *.*                   
+
+	 so_options: (NOREUSEADDR) 
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|DISABLE|GROUP) 
+	 sndbuf: 
+		 hiwat:9216 lowat:4096 mbcnt:0 mbmax:36864
+	 rcvbuf: 
+		 hiwat:42080 lowat:1 mbcnt:0 mbmax:168320
+		 sb_flags: (SEL|NOINTR|WAITING|INHERIT|NOTIFY) 
+
+udp        0      0  *.*                    *.*                   
+
+	 so_options: (NOREUSEADDR) 
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|DISABLE|GROUP) 
+	 sndbuf: 
+		 hiwat:9216 lowat:4096 mbcnt:0 mbmax:36864
+	 rcvbuf: 
+		 hiwat:42080 lowat:1 mbcnt:0 mbmax:168320
+		 sb_flags: (SEL|NOINTR|WAITING|INHERIT|NOTIFY) 
+
+udp        0      0  *.*                    *.*                   
+
+	 so_options: (NOREUSEADDR) 
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|DISABLE|GROUP) 
+	 sndbuf: 
+		 hiwat:9216 lowat:4096 mbcnt:0 mbmax:36864
+	 rcvbuf: 
+		 hiwat:42080 lowat:1 mbcnt:0 mbmax:168320
+		 sb_flags: (SEL|NOINTR|WAITING|INHERIT|NOTIFY) 
+
+udp        0      0  *.*                    *.*                   
+
+	 so_options: (NOREUSEADDR) 
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|DISABLE|GROUP) 
+	 sndbuf: 
+		 hiwat:9216 lowat:4096 mbcnt:0 mbmax:36864
+	 rcvbuf: 
+		 hiwat:42080 lowat:1 mbcnt:0 mbmax:168320
+		 sb_flags: (SEL|NOINTR|WAITING|INHERIT|NOTIFY) 
+
+udp        0      0  *.*                    *.*                   
+
+	 so_options: (NOREUSEADDR) 
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|DISABLE|GROUP) 
+	 sndbuf: 
+		 hiwat:9216 lowat:4096 mbcnt:0 mbmax:36864
+	 rcvbuf: 
+		 hiwat:42080 lowat:1 mbcnt:0 mbmax:168320
+		 sb_flags: (SEL|NOINTR|WAITING|INHERIT|NOTIFY) 
+
+udp        0      0  *.*                    *.*                   
+
+	 so_options: (NOREUSEADDR) 
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|DISABLE|GROUP) 
+	 sndbuf: 
+		 hiwat:9216 lowat:4096 mbcnt:0 mbmax:36864
+	 rcvbuf: 
+		 hiwat:42080 lowat:1 mbcnt:0 mbmax:168320
+		 sb_flags: (SEL|NOINTR|WAITING|INHERIT|NOTIFY) 
+
+udp        0      0  *.*                    *.*                   
+
+	 so_options: (NOREUSEADDR) 
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|DISABLE|GROUP) 
+	 sndbuf: 
+		 hiwat:9216 lowat:4096 mbcnt:0 mbmax:36864
+	 rcvbuf: 
+		 hiwat:42080 lowat:1 mbcnt:0 mbmax:168320
+		 sb_flags: (SEL|NOINTR|WAITING|INHERIT|NOTIFY) 
+
+udp        0      0  *.*                    *.*                   
+
+	 so_options: (NOREUSEADDR) 
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|DISABLE|GROUP) 
+	 sndbuf: 
+		 hiwat:9216 lowat:4096 mbcnt:0 mbmax:36864
+	 rcvbuf: 
+		 hiwat:42080 lowat:1 mbcnt:0 mbmax:168320
+		 sb_flags: (SEL|NOINTR|WAITING|INHERIT|NOTIFY) 
+
+udp        0      0  *.*                    *.*                   
+
+	 so_options: (NOREUSEADDR) 
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|DISABLE|GROUP) 
+	 sndbuf: 
+		 hiwat:9216 lowat:4096 mbcnt:0 mbmax:36864
+	 rcvbuf: 
+		 hiwat:42080 lowat:1 mbcnt:0 mbmax:168320
+		 sb_flags: (SEL|NOINTR|WAITING|INHERIT|NOTIFY) 
+
+udp        0      0  *.*                    *.*                   
+
+	 so_options: (NOREUSEADDR) 
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|DISABLE|GROUP) 
+	 sndbuf: 
+		 hiwat:9216 lowat:4096 mbcnt:0 mbmax:36864
+	 rcvbuf: 
+		 hiwat:42080 lowat:1 mbcnt:0 mbmax:168320
+		 sb_flags: (SEL|NOINTR|WAITING|INHERIT|NOTIFY) 
+
+udp        0      0  *.*                    *.*                   
+
+	 so_options: (NOREUSEADDR) 
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|DISABLE|GROUP) 
+	 sndbuf: 
+		 hiwat:9216 lowat:4096 mbcnt:0 mbmax:36864
+	 rcvbuf: 
+		 hiwat:42080 lowat:1 mbcnt:0 mbmax:168320
+		 sb_flags: (SEL|NOINTR|WAITING|INHERIT|NOTIFY) 
+
+udp        0      0  *.*                    *.*                   
+
+	 so_options: (NOREUSEADDR) 
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|DISABLE|GROUP) 
+	 sndbuf: 
+		 hiwat:9216 lowat:4096 mbcnt:0 mbmax:36864
+	 rcvbuf: 
+		 hiwat:42080 lowat:1 mbcnt:0 mbmax:168320
+		 sb_flags: (SEL|NOINTR|WAITING|INHERIT|NOTIFY) 
+
+udp        0      0  *.*                    *.*                   
+
+	 so_options: (NOREUSEADDR) 
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|DISABLE|GROUP) 
+	 sndbuf: 
+		 hiwat:9216 lowat:4096 mbcnt:0 mbmax:36864
+	 rcvbuf: 
+		 hiwat:42080 lowat:1 mbcnt:0 mbmax:168320
+		 sb_flags: (SEL|NOINTR|WAITING|INHERIT|NOTIFY) 
+
+udp        0      0  *.*                    *.*                   
+
+	 so_options: (NOREUSEADDR) 
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|DISABLE|GROUP) 
+	 sndbuf: 
+		 hiwat:9216 lowat:4096 mbcnt:0 mbmax:36864
+	 rcvbuf: 
+		 hiwat:42080 lowat:1 mbcnt:0 mbmax:168320
+		 sb_flags: (SEL|NOINTR|WAITING|INHERIT|NOTIFY) 
+
+udp        0      0  *.*                    *.*                   
+
+	 so_options: (NOREUSEADDR) 
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|DISABLE|GROUP) 
+	 sndbuf: 
+		 hiwat:9216 lowat:4096 mbcnt:0 mbmax:36864
+	 rcvbuf: 
+		 hiwat:42080 lowat:1 mbcnt:0 mbmax:168320
+		 sb_flags: (SEL|NOINTR|WAITING|INHERIT|NOTIFY) 
+
+udp        0      0  *.*                    *.*                   
+
+	 so_options: (NOREUSEADDR) 
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|DISABLE|GROUP) 
+	 sndbuf: 
+		 hiwat:9216 lowat:4096 mbcnt:0 mbmax:36864
+	 rcvbuf: 
+		 hiwat:42080 lowat:1 mbcnt:0 mbmax:168320
+		 sb_flags: (SEL|NOINTR|WAITING|INHERIT|NOTIFY) 
+
+udp4       0      0  *.*                    *.*                   
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:9216 lowat:4096 mbcnt:0 mbmax:36864
+	 rcvbuf: 
+		 hiwat:42080 lowat:1 mbcnt:0 mbmax:168320
+
+udp4       0      0  *.*                    *.*                   
+
+	 so_options: (REUSEPORT) 
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|XPG1170|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:9216 lowat:4096 mbcnt:0 mbmax:36864
+	 rcvbuf: 
+		 hiwat:42080 lowat:1 mbcnt:0 mbmax:168320
+
+udp4       0      0  *.*                    *.*                   
+
+	 so_options: (REUSEPORT) 
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|XPG1170|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:9216 lowat:4096 mbcnt:0 mbmax:36864
+	 rcvbuf: 
+		 hiwat:42080 lowat:1 mbcnt:0 mbmax:168320
+
+udp4       0      0  *.*                    *.*                   
+
+	 so_options: (REUSEPORT) 
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|XPG1170|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:9216 lowat:4096 mbcnt:0 mbmax:36864
+	 rcvbuf: 
+		 hiwat:42080 lowat:1 mbcnt:0 mbmax:168320
+
+udp4       0      0  *.*                    *.*                   
+
+	 so_options: (REUSEPORT) 
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|XPG1170|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:9216 lowat:4096 mbcnt:0 mbmax:36864
+	 rcvbuf: 
+		 hiwat:42080 lowat:1 mbcnt:0 mbmax:168320
+
+udp4       0      0  *.*                    *.*                   
+
+	 so_options: (REUSEPORT) 
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|XPG1170|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:9216 lowat:4096 mbcnt:0 mbmax:36864
+	 rcvbuf: 
+		 hiwat:42080 lowat:1 mbcnt:0 mbmax:168320
+
+udp        0      0  *.111                  *.*                   
+
+	 so_options: (REUSEADDR|OOBINLINE|REUSEPORT) 
+	 so_state: (NBIO) 
+	 timeo:0 uid:0
+	 so_special: (NOUAREA|LOCKABLE|EXTPRIV|DISABLE) 
+	 sndbuf: 
+		 hiwat:9216 lowat:4096 mbcnt:0 mbmax:36864
+		 sb_flags: (SEL|NOINTR|INHERIT|NOTIFY) 
+	 rcvbuf: 
+		 hiwat:42080 lowat:1 mbcnt:0 mbmax:168320
+		 sb_flags: (SEL|NOINTR|INHERIT|NOTIFY) 
+
+udp        0      0  *.161                  *.*                   
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:9216 lowat:4096 mbcnt:0 mbmax:36864
+	 rcvbuf: 
+		 hiwat:42080 lowat:1 mbcnt:0 mbmax:168320
+		 sb_flags: (SEL|NOTIFY) 
+
+udp        0      0  *.427                  *.*                   
+
+	 so_options: (REUSEADDR) 
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:9216 lowat:4096 mbcnt:0 mbmax:36864
+	 rcvbuf: 
+		 hiwat:42080 lowat:1 mbcnt:0 mbmax:168320
+		 sb_flags: (SEL|NOTIFY) 
+
+udp6       0      0  ::1.500                                       *.*                   
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:9216 lowat:4096 mbcnt:0 mbmax:36864
+	 rcvbuf: 
+		 hiwat:42080 lowat:1 mbcnt:0 mbmax:168320
+		 sb_flags: (SEL|NOTIFY) 
+
+udp        0      0  127.0.0.1.500          *.*                   
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:9216 lowat:4096 mbcnt:0 mbmax:36864
+	 rcvbuf: 
+		 hiwat:42080 lowat:1 mbcnt:0 mbmax:168320
+		 sb_flags: (SEL|NOTIFY) 
+
+udp        0      0  10.51.229.218.500      *.*                   
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:9216 lowat:4096 mbcnt:0 mbmax:36864
+	 rcvbuf: 
+		 hiwat:42080 lowat:1 mbcnt:0 mbmax:168320
+		 sb_flags: (SEL|NOTIFY) 
+
+udp        0      0  *.657                  *.*                   
+	 so_state: (PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:65536 lowat:4096 mbcnt:0 mbmax:262144
+	 rcvbuf: 
+		 hiwat:262144 lowat:1 mbcnt:0 mbmax:1048576
+		 sb_flags: (SEL|NOTIFY) 
+
+udp        0      0  *.2049                 *.*                   
+
+	 so_options: (NOREUSEADDR) 
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|DISABLE|GROUP) 
+	 sndbuf: 
+		 hiwat:600000 lowat:4096 mbcnt:0 mbmax:2097152
+	 rcvbuf: 
+		 hiwat:600032 lowat:1 mbcnt:0 mbmax:2097152
+		 sb_flags: (SEL|NOINTR|WAITING|INHERIT|NOTIFY) 
+
+udp6       0      0  ::1.4500                                      *.*                   
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:9216 lowat:4096 mbcnt:0 mbmax:36864
+	 rcvbuf: 
+		 hiwat:42080 lowat:1 mbcnt:0 mbmax:168320
+		 sb_flags: (SEL|NOTIFY) 
+
+udp        0      0  127.0.0.1.4500         *.*                   
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:9216 lowat:4096 mbcnt:0 mbmax:36864
+	 rcvbuf: 
+		 hiwat:42080 lowat:1 mbcnt:0 mbmax:168320
+		 sb_flags: (SEL|NOTIFY) 
+
+udp        0      0  10.51.229.218.4500     *.*                   
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:9216 lowat:4096 mbcnt:0 mbmax:36864
+	 rcvbuf: 
+		 hiwat:42080 lowat:1 mbcnt:0 mbmax:168320
+		 sb_flags: (SEL|NOTIFY) 
+
+udp        0      0  *.32768                *.*                   
+
+	 so_options: (REUSEADDR|OOBINLINE|REUSEPORT) 
+	 so_state: (NBIO) 
+	 timeo:0 uid:0
+	 so_special: (NOUAREA|LOCKABLE|EXTPRIV|DISABLE) 
+	 sndbuf: 
+		 hiwat:9216 lowat:4096 mbcnt:0 mbmax:36864
+		 sb_flags: (SEL|NOINTR|INHERIT|NOTIFY) 
+	 rcvbuf: 
+		 hiwat:42080 lowat:1 mbcnt:0 mbmax:168320
+		 sb_flags: (SEL|NOINTR|INHERIT|NOTIFY) 
+
+udp4       0      0  *.32771                *.*                   
+
+	 so_options: (REUSEADDR|OOBINLINE|REUSEPORT) 
+	 so_state: (NBIO) 
+	 timeo:0 uid:0
+	 so_special: (NOUAREA|LOCKABLE|EXTPRIV|DISABLE) 
+	 sndbuf: 
+		 hiwat:9216 lowat:4096 mbcnt:0 mbmax:36864
+		 sb_flags: (SEL|NOINTR|INHERIT|NOTIFY) 
+	 rcvbuf: 
+		 hiwat:42080 lowat:1 mbcnt:0 mbmax:168320
+		 sb_flags: (SEL|NOINTR|INHERIT|NOTIFY) 
+
+udp        0      0  *.32784                *.*                   
+
+	 so_options: (NOREUSEADDR) 
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|DISABLE) 
+	 sndbuf: 
+		 hiwat:50000 lowat:4096 mbcnt:0 mbmax:200000
+	 rcvbuf: 
+		 hiwat:50032 lowat:1 mbcnt:0 mbmax:200128
+		 sb_flags: (SEL|NOINTR|WAITING|INHERIT|NOTIFY) 
+
+udp        0      0  *.32852                *.*                   
+
+	 so_options: (REUSEADDR|BROADCAST|REUSEPORT) 
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:9216 lowat:4096 mbcnt:0 mbmax:36864
+	 rcvbuf: 
+		 hiwat:42080 lowat:1 mbcnt:0 mbmax:168320
+		 sb_flags: (WAIT|NOTIFY) 
+
+udp        0      0  *.32853                *.*                   
+
+	 so_options: (REUSEADDR|BROADCAST|REUSEPORT) 
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:9216 lowat:4096 mbcnt:0 mbmax:36864
+	 rcvbuf: 
+		 hiwat:42080 lowat:1 mbcnt:0 mbmax:168320
+		 sb_flags: (WAIT|NOTIFY) 
+
+udp6       0      0  ::1.8500                                      *.*                   
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:9216 lowat:4096 mbcnt:0 mbmax:36864
+	 rcvbuf: 
+		 hiwat:42080 lowat:1 mbcnt:0 mbmax:168320
+		 sb_flags: (SEL|NOTIFY) 
+
+udp        0      0  127.0.0.1.8500         *.*                   
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:9216 lowat:4096 mbcnt:0 mbmax:36864
+	 rcvbuf: 
+		 hiwat:42080 lowat:1 mbcnt:0 mbmax:168320
+		 sb_flags: (SEL|NOTIFY) 
+
+udp        0      0  10.51.229.218.8500     *.*                   
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:9216 lowat:4096 mbcnt:0 mbmax:36864
+	 rcvbuf: 
+		 hiwat:42080 lowat:1 mbcnt:0 mbmax:168320
+		 sb_flags: (SEL|NOTIFY) 
+
+udp6       0      0  ::1.10500                                     *.*                   
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:9216 lowat:4096 mbcnt:0 mbmax:36864
+	 rcvbuf: 
+		 hiwat:42080 lowat:1 mbcnt:0 mbmax:168320
+		 sb_flags: (SEL|NOTIFY) 
+
+udp        0      0  127.0.0.1.10500        *.*                   
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:9216 lowat:4096 mbcnt:0 mbmax:36864
+	 rcvbuf: 
+		 hiwat:42080 lowat:1 mbcnt:0 mbmax:168320
+		 sb_flags: (SEL|NOTIFY) 
+
+udp        0      0  10.51.229.218.10500    *.*                   
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:9216 lowat:4096 mbcnt:0 mbmax:36864
+	 rcvbuf: 
+		 hiwat:42080 lowat:1 mbcnt:0 mbmax:168320
+		 sb_flags: (SEL|NOTIFY) 
+
+udp        0      0  *.35070                *.*                   
+
+	 so_options: (REUSEADDR|OOBINLINE|REUSEPORT) 
+	 so_state: (NBIO) 
+	 timeo:0 uid:0
+	 so_special: (NOUAREA|LOCKABLE|EXTPRIV|DISABLE) 
+	 sndbuf: 
+		 hiwat:9216 lowat:4096 mbcnt:0 mbmax:36864
+		 sb_flags: (SEL|NOINTR|INHERIT|NOTIFY) 
+	 rcvbuf: 
+		 hiwat:42080 lowat:1 mbcnt:0 mbmax:168320
+		 sb_flags: (SEL|NOINTR|INHERIT|NOTIFY) 
+
+udp        0      0  *.35071                *.*                   
+
+	 so_options: (REUSEADDR|OOBINLINE|REUSEPORT) 
+	 so_state: (NBIO) 
+	 timeo:0 uid:0
+	 so_special: (NOUAREA|LOCKABLE|EXTPRIV|DISABLE) 
+	 sndbuf: 
+		 hiwat:9216 lowat:4096 mbcnt:0 mbmax:36864
+		 sb_flags: (SEL|NOINTR|INHERIT|NOTIFY) 
+	 rcvbuf: 
+		 hiwat:42080 lowat:1 mbcnt:0 mbmax:168320
+		 sb_flags: (SEL|NOINTR|INHERIT|NOTIFY) 
+
+udp6       0      0  ::1.12500                                     *.*                   
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:9216 lowat:4096 mbcnt:0 mbmax:36864
+	 rcvbuf: 
+		 hiwat:42080 lowat:1 mbcnt:0 mbmax:168320
+		 sb_flags: (SEL|NOTIFY) 
+
+udp        0      0  127.0.0.1.12500        *.*                   
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:9216 lowat:4096 mbcnt:0 mbmax:36864
+	 rcvbuf: 
+		 hiwat:42080 lowat:1 mbcnt:0 mbmax:168320
+		 sb_flags: (SEL|NOTIFY) 
+
+udp        0      0  10.51.229.218.12500    *.*                   
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:9216 lowat:4096 mbcnt:0 mbmax:36864
+	 rcvbuf: 
+		 hiwat:42080 lowat:1 mbcnt:0 mbmax:168320
+		 sb_flags: (SEL|NOTIFY) 
+
+udp        0      0  *.14252                *.*                   
+
+	 so_options: (BROADCAST) 
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:9216 lowat:4096 mbcnt:0 mbmax:36864
+	 rcvbuf: 
+		 hiwat:42080 lowat:1 mbcnt:0 mbmax:168320
+		 sb_flags: (WAIT|NOTIFY) 
+
+udp        0      0  *.14253                *.*                   
+
+	 so_options: (BROADCAST) 
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:9216 lowat:4096 mbcnt:0 mbmax:36864
+	 rcvbuf: 
+		 hiwat:42080 lowat:1 mbcnt:0 mbmax:168320
+		 sb_flags: (WAIT|NOTIFY) 
+
+udp6       0      0  ::1.14500                                     *.*                   
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:9216 lowat:4096 mbcnt:0 mbmax:36864
+	 rcvbuf: 
+		 hiwat:42080 lowat:1 mbcnt:0 mbmax:168320
+		 sb_flags: (SEL|NOTIFY) 
+
+udp        0      0  127.0.0.1.14500        *.*                   
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:9216 lowat:4096 mbcnt:0 mbmax:36864
+	 rcvbuf: 
+		 hiwat:42080 lowat:1 mbcnt:0 mbmax:168320
+		 sb_flags: (SEL|NOTIFY) 
+
+udp        0      0  10.51.229.218.14500    *.*                   
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|DISABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:9216 lowat:4096 mbcnt:0 mbmax:36864
+	 rcvbuf: 
+		 hiwat:42080 lowat:1 mbcnt:0 mbmax:168320
+		 sb_flags: (SEL|NOTIFY) 
+
+
+Active UNIX domain sockets
+SADR/PCB         Type   Recv-Q Send-Q      Inode            Conn             Refs           Nextref      Addr
+f1000e0000a2e408 stream      0      0 f1000a01552ec020                0                0                0 /var/perf/pcm/ipcso
+f1000e0000a24300
+
+	 so_options: (ACCEPTCONN) 
+	 q0len:0 qlen:0 qlimit:10 	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0000a27808 dgram       0      0 f1000a0155609c20                0                0                0 /dev/.SRC-unix/SRC0007995568yQ57aa
+f1000e0000a24700
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:8192 lowat:1 mbcnt:0 mbmax:32768
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0000f27408 dgram       0      0 f1000a01552fa820                0                0                0 /dev/.SRC-unix/SRC00079955688M57ac
+f1000e0000f23000
+	 so_state: (PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:8192 lowat:1 mbcnt:0 mbmax:32768
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0001426c08 dgram       0      0 f1000a0154c2bc20                0                0                0 /dev/.SRC-unix/SRC0007995568Ai57ad
+f1000e0001421c00
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:8192 lowat:1 mbcnt:0 mbmax:32768
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0001925008 dgram       0      0 f1000a015511d020                0                0                0 /dev/.SRC-unix/SRC0007995568BY57ag
+f1000e0001922500
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:8192 lowat:1 mbcnt:0 mbmax:32768
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0000a46808 stream      0      0                0 f1000e002dbec000                0                0 /dev/.tmd_isakmpd_sck
+f1000e002dbec100
+
+	 so_options: (REUSEADDR) 
+	 so_state: (ISCONNECTED|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:1048576 lowat:4096 mbcnt:0 mbmax:2097152
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e000192f008 stream      0      0                0                0                0                0
+f1000e0030f63b00
+	 so_state: (CANTSENDMORE|CANTRCVMORE|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0001937808 stream      0      0 f1000a015a561c20                0                0                0 /opt/freeware/cimom/pegasus/etc/cimxml.socket
+f1000e0001936300
+
+	 so_options: (ACCEPTCONN|REUSEADDR) 
+	 q0len:0 qlen:0 qlimit:15 	 so_state: (PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0021c90008 stream      0      0                0                0                0                0
+f1000e0021a79b80
+	 so_state: (CANTSENDMORE|CANTRCVMORE|PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|XPG1170) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0022889c08 dgram       0      0 f1000a0199bda020                0                0                0 /dev/.SRC-unix/SRC0007995568Ue57aA
+f1000e002dbec200
+	 so_state: (PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:8192 lowat:1 mbcnt:0 mbmax:32768
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0022889408 stream      0      0                0 f1000e002dbef900                0                0
+f1000e002dbefd80
+	 so_state: (ISCONNECTED|PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0021cf7808 stream      0      0                0                0                0                0
+f1000e0037cd2880
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0000a36808 stream      0      0                0                0                0                0
+f1000e002308f580
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0001432808 dgram       0      0                0 f1000e0000a24580                0 f1000e0000f23d80
+f1000e0001421600
+	 so_state: (ISCONNECTED|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0001925408 dgram       0      0 f1000a015507a020                0                0                0 /dev/.SRC-unix/SRC0007995568yY57ab
+f1000e0001922a00
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:8192 lowat:1 mbcnt:0 mbmax:32768
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0021c80008 stream      0      0 f1000a0154fbd020                0                0                0 /etc/cluster/clcomd_sec
+f1000e0021a79e00
+
+	 so_options: (ACCEPTCONN) 
+	 q0len:0 qlen:0 qlimit:1024 	 so_state: (PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0021c8d808 stream      0      0                0                0                0                0
+f1000e002b22ed80
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0021c95808 dgram       0      0                0 f1000e0000a24580                0 f1000e0000a24100
+f1000e0021a79b00
+	 so_state: (ISCONNECTED|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e000142d008 stream      0      0 f1000a0154c5dc20                0                0                0 /var/adm/lpm/apsock
+f1000e0001421400
+
+	 so_options: (ACCEPTCONN) 
+	 q0len:0 qlen:0 qlimit:5 	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|ACCEPT) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0000a29c08 dgram       0      0                0 f1000e0000a24580                0                0
+f1000e0000a24100
+	 so_state: (ISCONNECTED|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0001925808 dgram       0      0 f1000a0155079c20                0                0                0 /dev/SRC
+f1000e0001922d00
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:8192 lowat:4096 mbcnt:0 mbmax:32768
+	 rcvbuf: 
+		 hiwat:45000 lowat:1 mbcnt:0 mbmax:180000
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0000a27008 dgram       0      0 f1000a0155689c20                0 f1000e002b1e7600                0 /dev/log
+f1000e0000a24580
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0001929808 dgram       0      0 f1000a015504d020                0                0                0 /dev/.SRC-unix/SRC0007995568Bq57af
+f1000e0001922300
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:8192 lowat:1 mbcnt:0 mbmax:32768
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e000192b808 dgram       0      0                0 f1000e0000a24580                0 f1000e0021a79b00
+f1000e0001922c00
+	 so_state: (ISCONNECTED|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0001925c08 stream      0      0 f1000a01550fd020                0                0                0 /var/run/lldpdsock
+f1000e0001922580
+
+	 so_options: (ACCEPTCONN) 
+	 q0len:0 qlen:0 qlimit:16 	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0000f2a808 stream      0      0                0                0                0                0
+f1000e0000f23900
+	 so_state: (CANTSENDMORE|CANTRCVMORE|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0000f21c08 dgram       0      0                0 f1000e0000a24580                0 f1000e0001922c00
+f1000e0000f23d80
+	 so_state: (ISCONNECTED|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0000f2a008 stream      0      0                0                0                0                0
+f1000e0000f23c80
+	 so_state: (CANTSENDMORE|CANTRCVMORE|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0000f2a408 stream      0      0 f1000a01552ed020                0                0                0 /tmp/ecpvdpd_sock
+f1000e0000f23a00
+
+	 so_options: (ACCEPTCONN) 
+	 q0len:0 qlen:0 qlimit:10 	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e000193a408 stream      0      0                0                0                0                0
+f1000e0037cdca80
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e00270b0c08 stream      0      0                0 f1000e0027040780                0                0 /dev/.tmd_ike_sck
+f1000e0027040700
+
+	 so_options: (REUSEADDR) 
+	 so_state: (ISCONNECTED|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:1048576 lowat:4096 mbcnt:0 mbmax:2097152
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e00266b5008 stream      0      0 f1000a015a5a2c20                0                0                0 /tmp/dpi_socket
+f1000e0026627080
+
+	 so_options: (ACCEPTCONN) 
+	 q0len:0 qlen:0 qlimit:5 	 so_state: (PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0001438c08 dgram       0      0 f1000a0175e1f020                0                0                0 /dev/.SRC-unix/SRC00079955689357a2
+f1000e002c421300
+	 so_state: (PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:8192 lowat:1 mbcnt:0 mbmax:32768
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0000a46c08 dgram       0      0 f1000a015a5b2020                0                0                0 /dev/.SRC-unix/SRC00079955681I57ao
+f1000e0000a24600
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:8192 lowat:1 mbcnt:0 mbmax:32768
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0000f3bc08 dgram       0      0 f1000a01777f1020                0                0                0 /dev/.SRC-unix/SRC0007995568oQ57a7
+f1000e0033c8ab00
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:8192 lowat:1 mbcnt:0 mbmax:32768
+		 sb_flags: (WAIT|NOTIFY) 
+
+f1000e0001933008 stream      0      0                0                0                0                0
+f1000e0001922980
+	 so_state: (CANTSENDMORE|CANTRCVMORE|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0001423408 stream      0      0                0 f1000e002c421400                0                0 /var/ct/IW/soc/mc/RMIBM.HostRM.0
+f1000e002c421280
+	 so_state: (ISCONNECTED|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (WAIT|NOTIFY) 
+
+f1000e0001929408 stream      0      0                0                0                0                0
+f1000e0037cd2900
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e00266c0808 stream      0      0                0                0                0                0
+f1000e0026629b80
+	 so_state: (CANTSENDMORE|CANTRCVMORE|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0021c89408 stream      0      0 f1000a0175b8f420                0                0                0 /var/ct/IW/soc/mc/RMIBM.ServiceRM.0
+f1000e002b208c80
+
+	 so_options: (ACCEPTCONN) 
+	 q0len:0 qlen:0 qlimit:4 	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0000a2a008 stream      0      0                0                0                0                0
+f1000e002dbe2300
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0001432408 stream      0      0                0                0                0                0
+f1000e0001421880
+	 so_state: (CANTSENDMORE|CANTRCVMORE|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0021ca0408 stream      0      0                0                0                0                0
+f1000e002b1f2f00
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0029299408 stream      0      0                0                0                0                0
+f1000e002c417200
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e002acaa408 stream      0      0                0                0                0                0
+f1000e002b1d2f80
+	 so_state: (CANTSENDMORE|CANTRCVMORE|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0000f27008 stream      0      0                0                0                0                0
+f1000e0033c92480
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e002d731c08 stream      0      0                0                0                0                0
+f1000e002d60f600
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e00001bfc08 stream      0      0                0 f1000e00001ba600                0                0 /var/ct/IW/soc/mc/RMIBM.ServiceRM.0
+f1000e00001ba580
+	 so_state: (ISCONNECTED|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (WAIT|NOTIFY) 
+
+f1000e000142dc08 dgram       0      0                0 f1000e0000a24580                0 f1000e0026677b80
+f1000e00292ba580
+	 so_state: (ISCONNECTED|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0001436408 dgram       0      0 f1000a0175b2f020                0                0                0 /dev/.SRC-unix/SRC00079955687757az
+f1000e002c421a00
+	 so_state: (PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:8192 lowat:1 mbcnt:0 mbmax:32768
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0021c96c08 stream      0      0                0                0                0                0
+f1000e002b1f8d00
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0022e2e008 stream      0      0                0                0                0                0
+f1000e002666b180
+	 so_state: (CANTSENDMORE|CANTRCVMORE|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e00228dfc08 dgram       0      0 f1000a019a189c20                0                0                0 /dev/.SRC-unix/SRC0007995568TY57a9
+f1000e002dbec880
+	 so_state: (PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:8192 lowat:1 mbcnt:0 mbmax:32768
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0000f2c808 stream      0      0                0                0                0                0
+f1000e0026684300
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0000a2b408 stream      0      0                0                0                0                0
+f1000e002308f280
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0001938008 stream      0      0                0                0                0                0
+f1000e0037cdc600
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0001428408 stream      0      0 f1000a0175e2f020                0                0                0 /var/ct/IW/soc/mc/RMIBM.HostRM.0
+f1000e002c421380
+
+	 so_options: (ACCEPTCONN) 
+	 q0len:0 qlen:0 qlimit:4 	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0021c93008 stream      0      0                0                0                0                0
+f1000e002b1f7180
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e00301a6408 stream      0      0                0                0                0                0
+f1000e0033c87880
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e000192d008 stream      0      0 f1000a019a1b9c20                0                0                0 /dev/.tmd_isakmpd_sck
+f1000e0037ce3780
+
+	 so_options: (ACCEPTCONN|REUSEADDR) 
+	 q0len:0 qlen:0 qlimit:5 	 so_state: (PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:1048576 lowat:4096 mbcnt:0 mbmax:2097152
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0000a2ac08 stream      0      0                0                0                0                0
+f1000e002dbe4600
+	 so_state: (CANTSENDMORE|CANTRCVMORE|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0021ca0008 stream      0      0                0                0                0                0
+f1000e0022339800
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0025fb2408 stream      0      0                0 f1000e002667e800                0                0
+f1000e002667e900
+	 so_state: (ISCONNECTED|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e002d731408 stream      0      0                0                0                0                0
+f1000e002dbea380
+	 so_state: (CANTSENDMORE|CANTRCVMORE|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e00266bdc08 dgram       0      0 f1000a0175cdf020                0                0                0 /dev/.SRC-unix/SRC00079955689q57a1
+f1000e0026677880
+	 so_state: (PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:8192 lowat:1 mbcnt:0 mbmax:32768
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0000a36008 stream      0      0                0                0                0                0
+f1000e002308f380
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0000a2a408 stream      0      0                0                0                0                0
+f1000e002308f200
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0021cf7408 stream      0      0                0                0                0                0
+f1000e0001922780
+	 so_state: (CANTSENDMORE|CANTRCVMORE|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0000a30c08 stream      0      0                0                0                0                0
+f1000e002308f500
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0000a38408 stream      0      0                0                0                0                0
+f1000e002308f480
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0000a38c08 stream      0      0                0                0                0                0
+f1000e002308f300
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0000a2ec08 stream      0      0                0                0                0                0
+f1000e002308f400
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0000a2dc08 stream      0      0                0                0                0                0
+f1000e002dbe2580
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0001436808 stream      0      0                0 f1000e00292b3080                0                0 /var/ct/IW/soc/mc/RMIBM.DRM.0
+f1000e00292b3180
+	 so_state: (ISCONNECTED|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (WAIT|NOTIFY) 
+
+f1000e00301ac408 stream      0      0                0                0                0                0
+f1000e0033c5bc80
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0000a37c08 stream      0      0                0                0                0                0
+f1000e002dbebc00
+	 so_state: (CANTSENDMORE|CANTRCVMORE|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0030f71408 stream      0      0                0                0                0                0
+f1000e0030f5ae80
+	 so_state: (CANTSENDMORE|CANTRCVMORE|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0021ca2808 stream      0      0                0                0                0                0
+f1000e002b1d0080
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0001436c08 stream      0      0 f1000a0177831020                0                0                0 /home/ios/socks/api_eve_unix
+f1000e00292ba700
+
+	 so_options: (ACCEPTCONN) 
+	 q0len:0 qlen:0 qlimit:10 	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE|ACCEPT) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0001933c08 stream      0      0                0                0                0                0
+f1000e0037cded00
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0030f7d008 stream      0      0                0                0                0                0
+f1000e0030f63d00
+	 so_state: (CANTSENDMORE|CANTRCVMORE|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0001437c08 stream      0      0                0 f1000e002c421280                0                0
+f1000e002c421400
+	 so_state: (ISCONNECTED|PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e000192d408 dgram       0      0 f1000a0199f3a020                0                0                0 /dev/.SRC-unix/SRC0007995568Ui57aB
+f1000e0037ce3480
+	 so_state: (PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:8192 lowat:1 mbcnt:0 mbmax:32768
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0030203408 stream      0      0                0                0                0                0
+f1000e0033c94580
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0000f2d408 stream      0      0                0 f1000e0027040700                0                0
+f1000e0027040780
+	 so_state: (ISCONNECTED|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e00266b9c08 stream      0      0                0                0                0                0
+f1000e0026674580
+	 so_state: (CANTSENDMORE|CANTRCVMORE|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e00001bb408 stream      0      0                0 f1000e00001bac00                0                0
+f1000e00001bac80
+	 so_state: (ISCONNECTED|PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0021c8f008 stream      0      0                0                0                0                0
+f1000e002233c780
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e00270b1c08 stream      0      0                0                0                0                0
+f1000e0033cab400
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0000a38808 stream      0      0                0                0                0                0
+f1000e002dbe2480
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e00266b7008 stream      0      0                0                0                0                0
+f1000e0026674300
+	 so_state: (CANTSENDMORE|CANTRCVMORE|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0000a36c08 stream      0      0                0                0                0                0
+f1000e002dbe4280
+	 so_state: (CANTSENDMORE|CANTRCVMORE|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e00001bcc08 stream      0      0                0 f1000e00001bab00                0                0
+f1000e00001bab80
+	 so_state: (ISCONNECTED|PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e00266bf808 dgram       0      0                0 f1000e0000a24580                0 f1000e0001421600
+f1000e0026677b80
+	 so_state: (ISCONNECTED|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0028ddf408 stream      0      0                0                0                0                0
+f1000e00292af000
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0000a30808 stream      0      0                0                0                0                0
+f1000e002d60f680
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e002319fc08 stream      0      0                0                0                0                0
+f1000e0026627980
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0023f38808 stream      0      0                0 f1000e002667e900                0                0
+f1000e002667e800
+	 so_state: (ISCONNECTED|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0021c81008 stream      0      0                0                0                0                0
+f1000e002b1f8b00
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0025d81c08 dgram       0      0                0 f1000e0000a24580                0 f1000e0026629880
+f1000e002665f080
+	 so_state: (ISCONNECTED|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e002fa95408 stream      0      0                0                0                0                0
+f1000e0033cbb280
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0000a2d808 stream      0      0                0                0                0                0
+f1000e002dbe2380
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e00301a6808 stream      0      0                0                0                0                0
+f1000e0033c80000
+	 so_state: (CANTSENDMORE|CANTRCVMORE|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e00015a6408 dgram       0      0 f1000a0175e8f020                0                0                0 /dev/.SRC-unix/SRC00079955689E57a3
+f1000e00015a7f80
+	 so_state: (PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:8192 lowat:1 mbcnt:0 mbmax:32768
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0003466c08 dgram       0      0 f1000a0175b5f420                0                0                0 /dev/.SRC-unix/SRC00079955689U57a5
+f1000e0037ce5f80
+	 so_state: (PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:8192 lowat:1 mbcnt:0 mbmax:32768
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0022e2e408 dgram       0      0                0 f1000e0000a24580                0 f1000e002665f080
+f1000e002665f200
+	 so_state: (ISCONNECTED|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e000192dc08 stream      0      0                0                0                0                0
+f1000e0037cd2580
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0000f21408 stream      0      0 f1000a0175c5f020                0                0                0 /var/ct/IW/soc/mc/clsrv
+f1000e0033c84100
+
+	 so_options: (ACCEPTCONN) 
+	 q0len:0 qlen:0 qlimit:1024 	 so_state: (PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0021c9d008 stream      0      0                0                0                0                0
+f1000e002b1f5f00
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0021cf7008 stream      0      0 f1000a019a1c9c20                0                0                0 /dev/.tmd_app_sck
+f1000e0037ce3400
+
+	 so_options: (ACCEPTCONN|REUSEADDR) 
+	 q0len:0 qlen:0 qlimit:5 	 so_state: (PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0003466808 dgram       0      0                0 f1000e0000a24580                0 f1000e00292ba580
+f1000e0037ce3600
+	 so_state: (ISCONNECTED|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0001437408 stream      0      0                0 f1000e0033c8a880                0                0
+f1000e00292ba780
+	 so_state: (ISCONNECTED|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC|MSGWAITALL) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (WAIT|NOTIFY) 
+
+f1000e00244d4808 dgram       0      0 f1000a017a765420                0                0                0 /dev/.SRC-unix/SRC0007995568eq57aC
+f1000e002665e080
+	 so_state: (PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:8192 lowat:1 mbcnt:0 mbmax:32768
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e00270b1008 stream      0      0 f1000a0175c6f020                0                0                0 /var/ct/IW/soc/mc/rmsrv
+f1000e0033c84300
+
+	 so_options: (ACCEPTCONN) 
+	 q0len:0 qlen:0 qlimit:1024 	 so_state: (PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e00001be008 stream      0      0                0 f1000e00001ba580                0                0
+f1000e00001ba600
+	 so_state: (ISCONNECTED|PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0021c8a808 stream      0      0                0                0                0                0
+f1000e002b1f1000
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0000f3b008 stream      0      0                0                0                0                0
+f1000e0033cab500
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e00292a7c08 stream      0      0                0                0                0                0
+f1000e00292b4480
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0021c97008 stream      0      0                0                0                0                0
+f1000e002b1ddd80
+	 so_state: (CANTSENDMORE|CANTRCVMORE|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e00001bb008 stream      0      0                0 f1000e00001bac80                0                0 /var/ct/IW/soc/mc/RMIBM.MgmtDomainRM.0
+f1000e00001bac00
+	 so_state: (ISCONNECTED|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (WAIT|NOTIFY) 
+
+f1000e00001bc808 stream      0      0                0 f1000e00001bab80                0                0 /var/ct/IW/soc/mc/RMIBM.CSMAgentRM.0
+f1000e00001bab00
+	 so_state: (ISCONNECTED|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (WAIT|NOTIFY) 
+
+f1000e0021c8a008 stream      0      0                0                0                0                0
+f1000e002b1ddd00
+	 so_state: (CANTSENDMORE|CANTRCVMORE|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e000193b008 stream      0      0                0                0                0                0
+f1000e0030f5bf80
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0000f2dc08 stream      0      0                0 f1000e002667eb80                0                0
+f1000e0033c8a980
+	 so_state: (ISCONNECTED|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC|MSGWAITALL) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (WAIT|NOTIFY) 
+
+f1000e0003466408 stream      0      0                0                0                0                0
+f1000e0030f63b80
+	 so_state: (CANTSENDMORE|CANTRCVMORE|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0001425c08 stream      0      0                0 f1000e0030f5e500                0                0
+f1000e00292ba600
+	 so_state: (ISCONNECTED|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC|MSGWAITALL) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (WAIT|NOTIFY) 
+
+f1000e0000f30008 stream      0      0                0                0                0                0
+f1000e0033c94380
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0001437808 stream      0      0                0 f1000e00292b3180                0                0
+f1000e00292b3080
+	 so_state: (ISCONNECTED|PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0033c47c08 stream      0      0                0                0                0                0
+f1000e0033c5bd80
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0001436008 stream      0      0 f1000a0175e6f020                0                0                0 /var/ct/IW/soc/mc/RMIBM.DRM.0
+f1000e00292b3100
+
+	 so_options: (ACCEPTCONN) 
+	 q0len:0 qlen:0 qlimit:4 	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0021c89c08 stream      0      0 f1000a0175b2f420                0                0                0 /var/ct/IW/soc/mc/RMIBM.MgmtDomainRM.0
+f1000e002b208e80
+
+	 so_options: (ACCEPTCONN) 
+	 q0len:0 qlen:0 qlimit:4 	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0030f71808 stream      0      0 f1000a0175b4f420                0                0                0 /var/ct/IW/soc/mc/RMIBM.CSMAgentRM.0
+f1000e0037ce5f00
+
+	 so_options: (ACCEPTCONN) 
+	 q0len:0 qlen:0 qlimit:4 	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e002d731008 dgram       0      0 f1000a0175aef420                0                0                0 /dev/.SRC-unix/SRC00079955689I57a4
+f1000e002dba0980
+	 so_state: (PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:8192 lowat:1 mbcnt:0 mbmax:32768
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0030f7bc08 stream      0      0 f1000a019a1d9c20                0                0                0 /dev/.tmd_ike_sck
+f1000e0037ce3580
+
+	 so_options: (ACCEPTCONN|REUSEADDR) 
+	 q0len:0 qlen:0 qlimit:5 	 so_state: (PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:1048576 lowat:4096 mbcnt:0 mbmax:2097152
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0023077c08 dgram       0      0 f1000a019a1e9c20                0                0                0 /dev/.SRC-unix/SRC0007995568Ua57a0
+f1000e002dbec600
+	 so_state: (PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:8192 lowat:1 mbcnt:0 mbmax:32768
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0025fbdc08 stream      0      0                0                0                0                0
+f1000e0026627b00
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0001432c08 stream      0      0                0                0                0                0
+f1000e00292fe180
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e000192ec08 stream      0      0                0                0                0                0
+f1000e0030f5df80
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0028659408 stream      0      0                0                0                0                0
+f1000e00292bbc00
+	 so_state: (CANTSENDMORE|CANTRCVMORE|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0028874408 stream      0      0                0                0                0                0
+f1000e002c41a200
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e00266bd008 stream      0      0                0                0                0                0
+f1000e0026650e00
+	 so_state: (CANTSENDMORE|CANTRCVMORE|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e00301a6c08 stream      0      0                0                0                0                0
+f1000e00301fb380
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e00269e3408 stream      0      0                0                0                0                0
+f1000e0033c81c00
+	 so_state: (CANTSENDMORE|CANTRCVMORE|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0030f7c408 stream      0      0                0                0                0                0
+f1000e0030f5b680
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0021c80808 stream      0      0                0                0                0                0
+f1000e002b1f8c00
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e00266bf408 dgram       0      0                0 f1000e0000a24580                0 f1000e002dbec180
+f1000e0026629880
+	 so_state: (ISCONNECTED|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e002fa95008 stream      0      0                0                0                0                0
+f1000e0033c9dc80
+	 so_state: (CANTSENDMORE|CANTRCVMORE|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e00284a8808 stream      0      0                0                0                0                0
+f1000e002c413680
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0025d81008 stream      0      0                0                0                0                0
+f1000e002666f180
+	 so_state: (CANTSENDMORE|CANTRCVMORE|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0030f7ec08 stream      0      0                0                0                0                0
+f1000e0030f59a00
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0021c81c08 stream      0      0                0                0                0                0
+f1000e002b1f8f00
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e002857d808 stream      0      0                0                0                0                0
+f1000e00292bd480
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0021cf8808 stream      0      0                0                0                0                0
+f1000e0037cd2680
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e002b056008 stream      0      0                0                0                0                0
+f1000e002b1e5c00
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0021c82408 stream      0      0 f1000a0199f7a020                0                0                0 /dev/.isakmp_cert_sck
+f1000e002b22e780
+
+	 so_options: (ACCEPTCONN) 
+	 q0len:0 qlen:0 qlimit:5 	 so_state: (PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0028874008 stream      0      0                0                0                0                0
+f1000e00292ee200
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0021c9bc08 stream      0      0                0                0                0                0
+f1000e0021a79200
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0030f6c408 stream      0      0                0                0                0                0
+f1000e0037b2de00
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0021c8c808 stream      0      0                0                0                0                0
+f1000e002b1d0000
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0021a74008 stream      0      0                0                0                0                0
+f1000e002b1f8a00
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0021c82808 stream      0      0                0                0                0                0
+f1000e002b1f4000
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0001434408 stream      0      0 f1000a017a795420                0                0                0 /var/ct/IW/soc/mc/RMIBM.ConfigRM.0
+f1000e00292be480
+
+	 so_options: (ACCEPTCONN) 
+	 q0len:0 qlen:0 qlimit:4 	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0001426008 dgram       0      0 f1000a019a159c20                0                0                0 /dev/.SRC-unix/SRC0007995568TU57a8
+f1000e002c416a80
+	 so_state: (PRIV|NBIO) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:8192 lowat:1 mbcnt:0 mbmax:32768
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0028e52408 stream      0      0                0                0                0                0
+f1000e00292bbf00
+	 so_state: (CANTSENDMORE|CANTRCVMORE|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0021c84c08 stream      0      0                0                0                0                0
+f1000e002b1a6880
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e002d83f008 dgram       0      0                0 f1000e0000a24580                0 f1000e0037ce3600
+f1000e002dbec180
+	 so_state: (ISCONNECTED|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e002d704c08 stream      0      0                0 f1000e002dbec100                0                0
+f1000e002dbec000
+	 so_state: (ISCONNECTED|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0021c9d808 stream      0      0                0                0                0                0
+f1000e002b1a6600
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0028622008 stream      0      0                0                0                0                0
+f1000e00292b0f00
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0021c97808 stream      0      0                0                0                0                0
+f1000e002b1a5b80
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e002ff0d808 stream      0      0                0                0                0                0
+f1000e00301fb400
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e00269e3808 stream      0      0                0                0                0                0
+f1000e0033c87700
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0000a46408 stream      0      0                0 f1000e002dbefd80                0                0 /var/ct/IW/soc/mc/RMIBM.ConfigRM.0
+f1000e002dbef900
+	 so_state: (ISCONNECTED|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (WAIT|NOTIFY) 
+
+f1000e0021c8c408 stream      0      0                0                0                0                0
+f1000e002b1a8e80
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e00301acc08 stream      0      0                0                0                0                0
+f1000e0033c9b280
+	 so_state: (CANTSENDMORE|CANTRCVMORE|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0001932408 stream      0      0                0                0                0                0
+f1000e0030f5b080
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0003467c08 stream      0      0                0                0                0                0
+f1000e0030f58400
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0030f7dc08 stream      0      0                0                0                0                0
+f1000e0037cc9580
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0027b30008 stream      0      0                0                0                0                0
+f1000e00292ba980
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0030f69408 stream      0      0                0                0                0                0
+f1000e0037ce1800
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0030203c08 stream      0      0                0                0                0                0
+f1000e0033c9dc00
+	 so_state: (CANTSENDMORE|CANTRCVMORE|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0030f7d408 stream      0      0                0 f1000e0030f5b400                0                0
+f1000e0030f5a080
+	 so_state: (ISCONNECTED|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e002acaac08 stream      0      0                0                0                0                0
+f1000e0021ca3b00
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e00266bb408 stream      0      0                0                0                0                0
+f1000e002666f080
+	 so_state: (CANTSENDMORE|CANTRCVMORE|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0023e48c08 stream      0      0                0                0                0                0
+f1000e00292b9880
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0001938808 stream      0      0                0                0                0                0
+f1000e0037b2dd00
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e002916d408 stream      0      0                0                0                0                0
+f1000e00292c6500
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0030f69008 stream      0      0                0                0                0                0
+f1000e0037ce1900
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0030f7b808 stream      0      0                0                0                0                0
+f1000e0030f5de00
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0001428c08 stream      0      0                0                0                0                0
+f1000e00292c7d80
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0001434808 stream      0      0                0                0                0                0
+f1000e0037cda380
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0030f7b008 stream      0      0                0                0                0                0
+f1000e0037c9b980
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e00266bac08 stream      0      0                0                0                0                0
+f1000e0026660d80
+	 so_state: (CANTSENDMORE|CANTRCVMORE|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0023e66408 stream      0      0                0                0                0                0
+f1000e00292bd080
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0025fbd008 stream      0      0                0                0                0                0
+f1000e0026650c80
+	 so_state: (CANTSENDMORE|CANTRCVMORE|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0024b7fc08 stream      0      0                0                0                0                0
+f1000e0033c9d700
+	 so_state: (CANTSENDMORE|CANTRCVMORE|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0000f2e808 stream      0      0                0                0                0                0
+f1000e0033c9c680
+	 so_state: (CANTSENDMORE|CANTRCVMORE|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e000193c008 stream      0      0                0                0                0                0
+f1000e0030f65700
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0021cf8008 stream      0      0                0                0                0                0
+f1000e0030f5a700
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e00266b6c08 stream      0      0                0                0                0                0
+f1000e0026655280
+	 so_state: (CANTSENDMORE|CANTRCVMORE|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e002319f408 stream      0      0                0                0                0                0
+f1000e0026655780
+	 so_state: (CANTSENDMORE|CANTRCVMORE|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0030f72808 stream      0      0                0                0                0                0
+f1000e0030f65a00
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0030f6c808 stream      0      0                0                0                0                0
+f1000e0037cdbb80
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0030f6cc08 stream      0      0                0                0                0                0
+f1000e0030f5b100
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e000193a808 stream      0      0                0                0                0                0
+f1000e0037b28c00
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e00288edc08 stream      0      0                0                0                0                0
+f1000e00292b5b80
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e002862d408 stream      0      0                0                0                0                0
+f1000e00292b3600
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e00288ed808 stream      0      0                0                0                0                0
+f1000e00292f9980
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0030f6a008 stream      0      0                0                0                0                0
+f1000e0030f5b600
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0001423808 stream      0      0                0                0                0                0
+f1000e00292f9d00
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e002ff0d008 stream      0      0                0                0                0                0
+f1000e0033c9c000
+	 so_state: (CANTSENDMORE|CANTRCVMORE|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e002916d008 stream      0      0                0                0                0                0
+f1000e00292c6380
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0001932808 stream      0      0                0                0                0                0
+f1000e0037b14400
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0028a4dc08 stream      0      0                0                0                0                0
+f1000e0001435380
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0001937008 stream      0      0                0                0                0                0
+f1000e0037b14080
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0001933808 stream      0      0                0                0                0                0
+f1000e0030f59c80
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e00244d4008 stream      0      0                0                0                0                0
+f1000e0026660e80
+	 so_state: (CANTSENDMORE|CANTRCVMORE|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0030f6a408 stream      0      0                0                0                0                0
+f1000e0037cc9f00
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e00266ba808 stream      0      0                0                0                0                0
+f1000e0026655300
+	 so_state: (CANTSENDMORE|CANTRCVMORE|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0022348c08 stream      0      0                0                0                0                0
+f1000e002b1e5f80
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0022e2ec08 stream      0      0                0                0                0                0
+f1000e0026681e00
+	 so_state: (CANTSENDMORE|CANTRCVMORE|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0028a4d008 stream      0      0                0                0                0                0
+f1000e00292b3200
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0023e48008 stream      0      0                0                0                0                0
+f1000e002c41b380
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e000193c408 stream      0      0                0                0                0                0
+f1000e0030f5ad80
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e002fe73808 stream      0      0                0                0                0                0
+f1000e0033cbb180
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0023c3a808 stream      0      0                0                0                0                0
+f1000e00292c3c00
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0023e66c08 stream      0      0                0                0                0                0
+f1000e00292f9e00
+	 so_state: (CANTSENDMORE|CANTRCVMORE|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0029295008 stream      0      0                0                0                0                0
+f1000e00292bae00
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0028e52c08 stream      0      0                0                0                0                0
+f1000e00292ba200
+	 so_state: (CANTSENDMORE|CANTRCVMORE|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e002acaa808 stream      0      0                0                0                0                0
+f1000e002b1e8000
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0001935408 stream      0      0                0                0                0                0
+f1000e0037b23580
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e002761dc08 stream      0      0                0                0                0                0
+f1000e00292c4780
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0030f72008 stream      0      0                0                0                0                0
+f1000e0037b2db00
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0030f6b408 stream      0      0                0                0                0                0
+f1000e0037cc9800
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0028874c08 stream      0      0                0                0                0                0
+f1000e00292ba400
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0030f69c08 stream      0      0                0                0                0                0
+f1000e0030f5b000
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e000192d808 stream      0      0                0                0                0                0
+f1000e0037b2d980
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0021cf8408 stream      0      0                0                0                0                0
+f1000e0037b28700
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0001932008 stream      0      0                0                0                0                0
+f1000e0030f5a580
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0033be8408 stream      0      0                0 f1000e0033ca1200                0                0
+f1000e0033ca1700
+	 so_state: (ISCONNECTED|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0024b7f808 stream      0      0                0                0                0                0
+f1000e0033c9d880
+	 so_state: (CANTSENDMORE|CANTRCVMORE|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e000192b008 stream      0      0                0                0                0                0
+f1000e0037cc8900
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e000153c808 stream      0      0                0                0                0                0
+f1000e002c41db80
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e002b056408 stream      0      0                0                0                0                0
+f1000e0021ca3580
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e000192f408 stream      0      0                0                0                0                0
+f1000e0037c9b880
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e002b23ec08 stream      0      0                0                0                0                0
+f1000e002b1e9c00
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e00244d4408 stream      0      0                0                0                0                0
+f1000e0026650e80
+	 so_state: (CANTSENDMORE|CANTRCVMORE|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0030f7e008 stream      0      0                0                0                0                0
+f1000e0037b23c00
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0021c96808 stream      0      0                0                0                0                0
+f1000e002b1a7100
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e002d549408 stream      0      0                0                0                0                0
+f1000e002dbecc80
+	 so_state: (CANTSENDMORE|CANTRCVMORE|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e00269e3008 stream      0      0                0 f1000e0033ca1700                0                0
+f1000e0033ca1200
+	 so_state: (ISCONNECTED|PRIV) 
+	 timeo:0 uid:8
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0023e5e408 stream      0      0                0                0                0                0
+f1000e00292fa980
+	 so_state: (CANTSENDMORE|CANTRCVMORE|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e002878d008 stream      0      0                0                0                0                0
+f1000e00292adb00
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e00244d4c08 stream      0      0                0                0                0                0
+f1000e0026681e80
+	 so_state: (CANTSENDMORE|CANTRCVMORE|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e000153c008 stream      0      0                0                0                0                0
+f1000e00292ac500
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0028622c08 stream      0      0                0                0                0                0
+f1000e002c413d00
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e002761d408 stream      0      0                0                0                0                0
+f1000e002c41be80
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e002d1ad008 stream      0      0                0                0                0                0
+f1000e002dbe7b80
+	 so_state: (CANTSENDMORE|CANTRCVMORE|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0029295808 stream      0      0                0                0                0                0
+f1000e00292ae300
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0003467408 stream      0      0                0                0                0                0
+f1000e0037cdef00
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e002847c808 stream      0      0                0                0                0                0
+f1000e00292c6800
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0021c9f408 dgram       0      0                0 f1000e0000a24580                0 f1000e002665f200
+f1000e002b1e7600
+	 so_state: (ISCONNECTED|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0001939008 stream      0      0                0 f1000e0030f5a080                0                0
+f1000e0030f5b400
+	 so_state: (ISCONNECTED|PRIV) 
+	 timeo:0 uid:8
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0001428808 stream      0      0                0                0                0                0
+f1000e002c413800
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0028659008 stream      0      0                0                0                0                0
+f1000e002c418b00
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0028ddf808 stream      0      0                0                0                0                0
+f1000e00292aea00
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e000153c408 stream      0      0                0                0                0                0
+f1000e002c413580
+	 so_state: (CANTSENDMORE|CANTRCVMORE|PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+		 sb_flags: (SEL|NOTIFY) 
+
+f1000e0028659c08 stream      0      0                0                0                0                0
+f1000e002c413500
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+f1000e0001425008 stream      0      0                0                0                0                0
+f1000e00292ed580
+	 so_state: (PRIV) 
+	 timeo:0 uid:0
+	 so_special: (LOCKABLE) 
+	 so_special2: (PROC) 
+	 sndbuf: 
+		 hiwat:16384 lowat:4096 mbcnt:0 mbmax:65536
+	 rcvbuf: 
+		 hiwat:16384 lowat:1 mbcnt:0 mbmax:65536
+
+==== EXITED with rc 0 ====
+==== END netstat -ano Tue Jul  7 12:46:01 CDT 2015 ====

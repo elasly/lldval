@@ -1,0 +1,530 @@
+==== This output can be found in Systems/dx978/os/echo_output_of_ps-ef_ps-ef_echo_n_n_output_of_ps_a.txt ====
+==== START echo '#### output of: ps -ef ####';ps -ef;echo '\n\n#### output of: ps aux ####';ps auxw Mon Jul  6 23:29:54 GST 2015 ====
+#### output of: ps -ef ####
+     UID      PID     PPID   C    STIME    TTY  TIME CMD
+    root        1        0   1   Apr 23      -  0:16 /etc/init
+    root   720968        1   0   Apr 23      -  0:00 /usr/ccs/bin/shlap64
+    root  2818178  2163280   0   Apr 23      -  0:12 /usr/sbin/aixmibd
+    root  3014692        1   0   Apr 23      - 14:56 /usr/sbin/emcp_mond
+    root  3276820  2163280   0   Apr 23      -  0:00 /usr/sbin/portmap
+pconsole  3342430  2753180   0   Apr 23      -  0:00 /bin/ksh /pconsole/lwi/bin/lwistart_src.sh
+    root  3539050  2163280   0   Apr 23      -  0:00 /usr/sbin/inetd
+    root  3670184  3539050   0   Apr 23      -  7:51 xmtopas -p3
+    root  3932210  2163280   0   Apr 23      -  0:42 /usr/sbin/clconfd
+    root  3997760  3080780   0   Apr 23      -  3:35 /usr/lpp/OV/bin/ovbbccb -nodaemon
+    root  4128820  3080780   0   Apr 23      - 25:03 /usr/lpp/OV/lbin/perf/coda
+    root  4194344  2163280   0   Apr 23      -  0:00 /opt/freeware/cimom/pegasus/bin/cimssys cimsys
+    root  4259872  2163280   0   Apr 23      -  0:00 /usr/sbin/qdaemon
+    root  4325432  2163280   7   Apr 23      - 1833:21 /usr/sbin/snmpd
+    root  4390944  2163280   0   Apr 23      -  0:00 /usr/sbin/hrd
+    root  4522108  3080780   0   Apr 23      -  6:01 /usr/lpp/OV/lbin/eaagt/opcacta
+    root  4587670  2163280   0   Apr 23      -  0:00 /usr/sbin/sshd
+    root  4653154        1   0   Apr 23      -  0:00 /usr/sbin/uprintfd
+    root  4849820  3539326   0   Apr 23      -  0:20 bin/nonstop_aix @/var/opt/tivoli/ep/runtime/nonstop/config/nonstop.properties
+pconsole  4915358  3342430   0   Apr 23      -  7:18 /usr/java6/bin/java -Xmx512m -Xms20m -Xscmx10m -Xshareclasses -Xbootclasspath/p:/usr/java5/jre/lib/ibmjsseprovider2.jar -Dfile.encoding=UTF-8 -Xbootclasspath/a:/pconsole/lwi/runtime/core/eclipse/plugins/com.ibm.rcp.base_6.2.1.20091117-1800/rcpbootcp.jar:/pconsole/lwi/lib/ISCJaasModule.jar:/pconsole/lwi/lib/com.ibm.logging.icl_1.1.1.jar:/pconsole/lwi/lib/jaas2zos.jar:/pconsole/lwi/lib/jaasmodule.jar:/pconsole/lwi/lib/lwinative.jar:/pconsole/lwi/lib/lwinl.jar:/pconsole/lwi/lib/lwirolemap.jar:/pconsole/lwi/lib/lwisecurity.jar:/pconsole/lwi/lib/lwitools.jar:/pconsole/lwi/lib/passutils.jar -Xverify:none -cp eclipse/launch.jar:eclipse/startup.jar:/pconsole/lwi/runtime/core/eclipse/plugins/com.ibm.rcp.base_6.2.1.20091117-1800/launcher.jar com.ibm.lwi.LaunchLWI
+    root  5308424  2163280   0   Apr 23      -  0:00 /usr/sbin/rsct/bin/IBM.DRMd
+    root  5439740  2163280   0   Apr 23      - 28:05 /usr/es/sbin/cluster/clinfo
+    root  5767398        1   0   Jun 09      -  3:55 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=20:00:01,Jun09,2015
+    root  6357090        1   0   Jul 05      -  0:10 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=20:00:01,Jul05,2015
+    root  6422628 10223732   0   Apr 23      -  0:09 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f9ada100004c000000014c08687384 -v 0
+    root  6946868 11206886   0 23:29:53  pts/1  0:00 /usr/sbin/fcstat -e fcs9
+    root  7536892  7144140   0 23:29:53  pts/1  0:00 /bin/sh /tmp/pcat/pcat/./pcat-os.sh aa
+    root  7733382        1   0   Jun 20      -  2:15 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=08:00:00,Jun20,2015
+    root  7995620        1   0   Jul 04      -  0:18 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=20:00:00,Jul04,2015
+    root  8388806        1   0   Jun 15      -  2:56 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=08:00:00,Jun15,2015
+    root  8912944        1   0   Jun 10      -  3:15 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=08:00:00,Jun10,2015
+    root  9109604        1   0   May 26      -  5:08 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=08:00:01,May26,2015
+    root  9306250        1   0   Jul 02      -  0:40 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=08:00:01,Jul02,2015
+    root  9437348 14155808   0 23:29:53  pts/1  0:00 netstat -v
+    root  9633912  2163280   0   Apr 23      - 112:15 /usr/sbin/rsct/bin/IBM.HostRMd
+    root  9764960        1   0   May 21      -  5:21 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=20:00:01,May21,2015
+    root 10223732  2163280   0   Apr 23      -  0:09 /usr/sbin/gsclvmd
+    root 10289224        1   0   Jun 12      -  3:02 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=08:00:01,Jun12,2015
+    root 10354938 10223732   0   Apr 23      -  0:08 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f9ada100004c000000014c04acf767 -v 0
+    root 10879056 10223732   0   Apr 23      -  0:08 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f9ada100004c000000014bf94fea9b -v 0
+    root 11206886  9437348   0 23:29:53  pts/1  0:00 grep -vp FC SCSI
+    root 11337904        1   0   Jun 19      -  2:10 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=08:00:00,Jun19,2015
+    root 11599908        1   0   Jun 14      -  2:57 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=20:00:01,Jun14,2015
+    root 11665642        1   0   Jul 05      -  0:14 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=08:00:01,Jul05,2015
+    root 11862252 10223732   0   Apr 23      -  0:08 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f9ada100004c000000014c02bc1f84 -v 0
+    root 12583046        1   0   May 22      -  5:17 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=20:00:01,May22,2015
+    root 12648560        1   0   Jun 08      -  3:21 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=20:00:01,Jun08,2015
+    root 12845082  3473852   0 23:29:54  pts/1  0:00 ps -ef
+    root 12910728        1   0   May 22      -  5:14 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=08:00:01,May22,2015
+    root 12976314        1   0   Jun 16      -  2:33 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=20:00:01,Jun16,2015
+    root 13172986        1   0   May 27      -  4:38 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=08:00:01,May27,2015
+    root 13500476        1   0   May 21      -  5:52 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=08:00:01,May21,2015
+    root 13566084        1   0   Jun 22      -  1:52 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=20:00:01,Jun22,2015
+    root 13631534        1   0 20:00:02      -  0:01 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=20:00:01,Jul06,2015
+    root 13828332        1   0   May 28      -  4:18 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=20:00:01,May28,2015
+    root 13893798        1   0   Jul 03      -  0:25 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=20:00:01,Jul03,2015
+    root 13959222        1   0   Jun 17      -  2:25 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=08:00:01,Jun17,2015
+    root 14024888        1   0   May 25      -  4:43 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=08:00:01,May25,2015
+    root 14090464        1   0   Jun 01      -  4:10 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=08:00:01,Jun01,2015
+    root 14155808  7536892   0 23:29:53  pts/1  0:00 tail -512000
+    root 14221418        1   0   Jun 25      -  1:28 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=20:00:01,Jun25,2015
+    root 14286960        1   1   Jun 30      -  0:50 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=20:00:01,Jun30,2015
+    root 14549098        1   0   Jun 27      -  1:18 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=08:00:01,Jun27,2015
+    root 14942432        1   0   May 20      -  5:22 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=08:00:01,May20,2015
+    root 15007916        1   0   May 20      -  5:14 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=20:00:01,May20,2015
+    root 15269896        1   0   May 30      -  4:05 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=20:00:00,May30,2015
+    root 15466736        1   0   Jun 29      -  0:56 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=20:00:01,Jun29,2015
+    root 15597740        1   0   May 28      -  5:10 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=08:00:01,May28,2015
+    root 15794192        1   0   Jun 05      -  4:02 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=08:00:01,Jun05,2015
+    root 15990800        1   0   Jun 03      -  4:08 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=08:00:01,Jun03,2015
+    root 16122076        1   0   May 23      -  4:50 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=20:00:01,May23,2015
+    root 16187500 10223732   0   Jun 15      -  0:01 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f92eec00004c000000014df59358bf -v 0
+    root  1311010  2163280   0   Apr 23      -  0:01 /usr/sbin/snmpmibd
+    root  1376730        1   0   Apr 23      -  0:01 /usr/lib/errdemon
+    root  1966434        1   0   Apr 23      - 138:13 /usr/sbin/syncd 60
+    root  2097472  2163280   0   Apr 23      -  0:55 sendmail: accepting connections
+    root  2163018  2163280   0   Apr 23      -  0:00 /opt/freeware/cimom/pegasus/bin/cimssys platform_agent
+  daemon  2359604  2163280   0   Apr 23      -  0:00 /usr/sbin/rpc.statd -d 0 -t 50
+    root  2556288        1   0   Apr 23      -  0:52 ./slp_srvreg -D
+    root  2621810        1   0   Apr 23      -  0:33 /usr/sbin/cron
+    root  2687332        1   0   Apr 23      -  0:13 /opt/ibm/icc/cimom/bin/dirsnmpd
+    root  2818446  3080780   0   Apr 23      -  0:00 /usr/lpp/OV/lbin/eaagt/opcmsgi
+    root  2883936        1   0   Apr 23      -  0:02 [cimserve]
+    root  2949570  2163280   0   Apr 23      - 10:22 /usr/sbin/rsct/bin/hagsd cthags
+    root  3211634  2163280   0   Apr 23      -  8:24 /usr/sbin/clcomd -d
+    root  3277214  3080780   0   Apr 23      - 26:44 /usr/lpp/OV/lbin/eaagt/opcmona
+    root  3408248        1   0   Apr 23      - 49:21 /usr/bin/topasrec  -L -s 300 -R 1 -r 6 -o /var/perf/daily/ -ypersistent=1 -O type=bin -ystart_time=01:18:52,Apr23,2015
+    root  3473852  8061564   0 23:29:54  pts/1  0:00 /bin/sh /tmp/pcat/pcat/./pcat-os.sh aa
+    root  3539326  2163280   0   Apr 23      -  0:00 /bin/ksh /var/opt/tivoli/ep/runtime/nonstop/bin/cas_src.sh
+    root  3604884  4849820   0   Apr 23      - 32:17 /var/opt/tivoli/ep/_jvm/jre/bin/java -Xmx384m -Xminf0.01 -Xmaxf0.4 -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Xbootclasspath/a:/var/opt/tivoli/ep/runtime/core/eclipse/plugins/com.ibm.rcp.base_6.2.3.20110824-0615/rcpbootcp.jar:/var/opt/tivoli/ep/lib/com.ibm.logging.icl_1.1.1.jar:/var/opt/tivoli/ep/lib/jaas2zos.jar:/var/opt/tivoli/ep/lib/jaasmodule.jar:/var/opt/tivoli/ep/lib/lwidiag.jar:/var/opt/tivoli/ep/lib/lwinative.jar:/var/opt/tivoli/ep/lib/lwinl.jar:/var/opt/tivoli/ep/lib/lwirolemap.jar:/var/opt/tivoli/ep/lib/lwisecurity.jar:/var/opt/tivoli/ep/lib/lwitools.jar:/var/opt/tivoli/ep/lib/passutils.jar:../../runtime/agent/lib/cas-bootcp.jar -Xverify:none -cp eclipse/launch.jar:eclipse/startup.jar:/var/opt/tivoli/ep/runtime/core/eclipse/plugins/com.ibm.rcp.base_6.2.3.20110824-0615/launcher.jar com.ibm.lwi.LaunchLWI
+    root  3670486 10223732   0   Apr 23      -  0:09 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f9ada100004c000000014c04ac62c9 -v 0
+    root  3735982  2163280   0   Apr 23      -  7:53 /usr/sbin/rsct/bin/rmcd -a IBM.LPCommands -r -S 1500
+    root  3867082 10223732   0   Apr 23      -  0:09 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f9ada100004c000000014c04aae1c0 -v 0
+    root  3932570  2163280   0   Apr 23      -  0:00 /usr/sbin/rsct/bin/IBM.ServiceRMd
+    root  3998172  4063968   0                  0:00 <defunct>
+    root  4063566  2163280   0   Apr 23      - 69:42 /usr/es/sbin/cluster/clstrmgr
+    root  4325734        1   0   Apr 23      -  2:26 /usr/lpp/perf/bin/perfalarm
+    root  4391420 10223732   0   Apr 23      -  0:08 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f9ada100004c000000014c08662d11 -v 0
+    root  4456900        1   0   Apr 23      - 83:05 /usr/lpp/perf/bin/scopeux
+    root  4849974 11534832   0 23:29:27  pts/1  0:00 /bin/sh /tmp/pcat/pcat/./pcat-os.sh aa
+    root  5243216        1   0   Jul 01      -  0:48 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=20:00:01,Jul01,2015
+    root  5308760        1   0   Jul 04      -  0:24 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=08:00:01,Jul04,2015
+    root  5374316        1   0   Jul 02      -  0:36 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=20:00:00,Jul02,2015
+    root  5505312        1   0   Jun 30      -  0:58 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=08:00:01,Jun30,2015
+    root  5636592 10223732   0   Apr 23      -  0:09 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f9ada100004c000000014c04a3e9e1 -v 0
+    root  5701988        1   0   Jun 03      -  4:24 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=20:00:01,Jun03,2015
+    root  5833156        1   0   Jun 07      -  3:55 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=08:00:01,Jun07,2015
+    root  6095164        1   0   Jun 01      -  4:40 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=20:00:01,Jun01,2015
+    root  6160750        1   0   Jun 04      -  4:13 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=08:00:01,Jun04,2015
+    root  6291796  4063566   0   Apr 23      -  0:00 run_rcovcmd
+    root  7012748        1   0   Jun 15      -  3:01 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=20:00:01,Jun15,2015
+    root  7471390        1   1   May 19      -  5:52 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=08:00:01,May19,2015
+    root  7799288        1   0   Jun 24      -  1:39 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=20:00:01,Jun24,2015
+    root  7864616        1   0   Jun 18      -  2:23 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=20:00:01,Jun18,2015
+    root  7995788        1   0   Jun 26      -  1:33 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=08:00:01,Jun26,2015
+    root  8061382        1   1   Jun 06      -  3:56 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=08:00:01,Jun06,2015
+    root  8192406        1   0   Jun 29      -  1:06 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=08:00:01,Jun29,2015
+    root  8257940        1   0   Jun 04      -  4:20 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=20:00:01,Jun04,2015
+    root  8388970        1   0 08:00:01      -  0:06 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=08:00:01,Jul06,2015
+    root  8651102        1   1   Jun 23      -  1:57 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=08:00:00,Jun23,2015
+    root  8913230 10223732   0   Apr 23      -  0:08 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f9ada100004c000000014c08610fd5 -v 0
+    root  9109842        1   0   Jun 21      -  2:13 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=20:00:01,Jun21,2015
+    root  9240876        1   0   May 19      -  5:30 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=20:00:01,May19,2015
+    root  9437646        1   0   Jun 19      -  2:23 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=20:00:01,Jun19,2015
+    root  9568676        1   0   May 24      -  5:24 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=20:00:01,May24,2015
+    root  9699592        1   0   May 29      -  4:58 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=20:00:01,May29,2015
+    root  9765354        1   0   Jun 16      -  2:39 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=08:00:01,Jun16,2015
+    root  9830674        1   0   Jun 18      -  2:19 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=08:00:01,Jun18,2015
+    root 10093004        1   0   May 23      -  5:19 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=08:00:00,May23,2015
+    root 10158588        1   1   Jun 12      -  3:02 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=20:00:01,Jun12,2015
+    root 10289458        1   0   May 29      -  4:40 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=08:00:01,May29,2015
+    root 10354976        1   0   Jun 09      -  3:27 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=08:00:01,Jun09,2015
+    root 11010452        1   0   May 24      -  4:56 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=08:00:01,May24,2015
+    root 11076092        1   0   Jun 17      -  2:30 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=20:00:01,Jun17,2015
+    root 11534832  7602726   0 23:29:26  pts/1  0:00 /bin/sh ./pcat.sh --notsm --nohmc
+    root  1114634        1   0   Apr 23      -  2:04 /bin/nsrexecd
+    root  1835764  2163280   0   Apr 23      -  0:01 /usr/sbin/hostmibd
+    root  1966808  2163280   0   Apr 23      - 12:27 /usr/sbin/syslogd -R
+    root  2163280        1   0   Apr 23      -  0:00 /usr/sbin/srcmstr
+    root  2228978  2163280   0   Apr 23      -  0:00 /usr/sbin/writesrv
+    root  2490904  2163280   0   Apr 23      -  0:00 /usr/sbin/rpc.lockd -d 0
+    root  2556500        1   0   Apr 23      -  0:00 /opt/freeware/cimom/pegasus/bin/CIM_diagd
+    root  2621992        1   0   Apr 23      -  0:04 /opt/ibm/director/cimom/bin/tier1slp
+    root  2687536  2163280   0   Apr 23      -  1:14 /usr/sbin/aso
+    root  2753180  2163280   0   Apr 23      -  0:00 /bin/ksh /pconsole/lwi/bin/lwistart_src.sh
+    root  2884148  2163280   0   Apr 23      -  0:00 /usr/sbin/biod 6
+    root  3015254        1   0   Apr 23      -  0:30 /opt/freeware/cimom/pegasus/bin/cimprovagt 0 12 16 root SLPProviderModule
+    root  3080780        1   1   Apr 23      - 11:25 /usr/lpp/OV/bin/ovcd
+    root  3342916        1   0   Apr 23      - 371:36 perfd
+    root  3474020        1   0   Apr 23      -  0:04 /usr/bin/cimlistener
+    root  3539558  3080780   0   Apr 23      -  0:00 /usr/lpp/OV/lbin/conf/ovconfd
+    root  3605140  3080780   0   Apr 23      -  3:33 /usr/lpp/OV/lbin/eaagt/opcmsga
+    root  3867310        1   0   Apr 23      -  0:00 /usr/dt/bin/dtlogin -daemon
+    root  3932834  2163280   0   Apr 23      -  0:11 /usr/sbin/rsct/bin/IBM.ConfigRMd
+    root  4063968        1   0   Apr 23      -  5:26 lsdaemon 10000
+    root  4129488        1   0   Apr 23      -  0:00 /usr/lpp/perf/bin/ttd
+    root  4194816        1   0   Apr 23      -  0:06 /usr/lpp/perf/bin/midaemon
+    root  4522716  2163280   0   Apr 23      -  6:20 /usr/sbin/rsct/bin/IBM.StorageRMd
+    root  5243472        1   0   Jun 11      -  3:17 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=20:00:01,Jun11,2015
+    root  5309018        1   0   Jun 11      -  3:30 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=08:00:01,Jun11,2015
+    root  5767892 10223732   0   Apr 23      -  0:09 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f9ada100004c000000014c04a9cf61 -v 0
+    root  6816328        1   0   Jun 05      -  4:10 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=20:00:01,Jun05,2015
+    root  7144140  4849974   9 23:29:29  pts/1  0:00 /bin/sh /tmp/pcat/pcat/./pcat-os.sh aa
+    root  7275114  8323646   0 23:27:22  pts/1  0:00 bash
+    root  7406136        1   0   Jul 01      -  0:48 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=08:00:01,Jul01,2015
+    root  7602726  7275114   0 23:27:29  pts/1  0:00 bash
+    root  7733950  7930578   0   Jun 30  pts/0  0:00 ssh
+    root  7864848        1   0   Jun 13      -  3:00 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=08:00:01,Jun13,2015
+    root  7930578  8782504   0   Jun 30  pts/0  0:00 -ksh
+    root  8061564  7144140   0 23:29:54  pts/1  0:00 /bin/sh /tmp/pcat/pcat/./pcat-os.sh aa
+    root  8192658        1   0   Jun 24      -  1:42 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=08:00:01,Jun24,2015
+    root  8258204  4587670   0 23:27:05      -  0:00 sshd: root@pts/1
+    root  8323646  8258204   0 23:27:19  pts/1  0:00 -ksh
+    root  8585844        1   0   Jun 07      -  3:37 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=20:00:01,Jun07,2015
+    root  8716946        1   0   Jun 27      -  1:15 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=20:00:00,Jun27,2015
+    root  8782504  4587670   0   Jun 30      -  0:00 sshd: root@pts/0
+    root  8847916        1   0   Jun 08      -  3:37 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=08:00:01,Jun08,2015
+    root  9175602        1   0   Jun 13      -  3:00 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=20:00:00,Jun13,2015
+    root  9241210        1   0   Jun 22      -  1:58 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=08:00:01,Jun22,2015
+    root  9306868        1   0   Jun 26      -  1:22 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=20:00:01,Jun26,2015
+    root  9437754        1   0   Jun 10      -  3:17 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=20:00:01,Jun10,2015
+    root  9503368  2163280   0   Jun 15      -  0:01 /usr/es/sbin/cluster/clevmgrd
+    root  9568830        1   0   Jun 28      -  1:18 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=08:00:01,Jun28,2015
+    root  9699922        1   0   Jun 14      -  3:05 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=08:00:01,Jun14,2015
+    root  9896478        1   0   Jun 02      -  4:14 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=20:00:01,Jun02,2015
+    root 10027742        1   0   May 25      -  5:00 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=20:00:01,May25,2015
+    root 10093230 10223732   0   Apr 23      -  0:09 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f9ada100004c000000014c08764ba3 -v 0
+    root 10224360        1   0   May 18      -  8:33 /usr/sbin/getty /dev/console
+    root 10289778        1   0   Jun 25      -  1:38 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=08:00:01,Jun25,2015
+    root 10552054        1   0   Jun 21      -  2:08 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=08:00:01,Jun21,2015
+    root 10617440        1   0   May 31      -  4:30 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=08:00:01,May31,2015
+    root 10813962        1   0   May 30      -  4:31 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=08:00:01,May30,2015
+    root 10879516        1   0   Jun 23      -  1:44 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=20:00:01,Jun23,2015
+    root 11076272 10223732   0   Apr 23      -  0:08 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f9ada100004c000000014c087b6d73 -v 0
+    root 11207236  4849974   0 23:29:29  pts/1  0:00 tee Systems/dx978/pcat-os_sh-out.txt
+    root 11403796        1   0   May 31      -  4:26 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=20:00:00,May31,2015
+    root 11534948        1   0   Jun 06      -  3:50 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=20:00:01,Jun06,2015
+    root 11600402        1   0   Jul 03      -  0:33 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=08:00:00,Jul03,2015
+    root 11666168        1   0   Jun 28      -  1:12 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=20:00:01,Jun28,2015
+    root 11731706        1   0   Jun 20      -  2:21 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=20:00:01,Jun20,2015
+    root 11862658        1   0   May 27      -  4:54 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=20:00:00,May27,2015
+    root 11928124        1   0   Jun 02      -  4:16 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=08:00:01,Jun02,2015
+    root 12059152        1   0   May 26      -  5:23 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX978 -ystart_time=20:00:00,May26,2015
+
+
+#### output of: ps aux ####
+USER          PID %CPU %MEM   SZ  RSS    TTY STAT    STIME  TIME COMMAND
+root      4325432  0.0  0.0 1348 1528      - A      Apr 23 1833:21 /usr/sbin/snmpd 
+root      1179692  0.0  0.0  448  448      - A      Apr 23 1032:24 wait
+root      1114154  0.0  0.0  448  448      - A      Apr 23 1031:14 wait
+root      1048616  0.0  0.0  448  448      - A      Apr 23 1030:15 wait
+root       589850  0.0  0.0  640  640      - A      Apr 23 998:28 reaffin
+root      3342916  0.0  0.0 11500 11600      - A      Apr 23 371:36 perfd 
+root      2949364  0.0  0.0  448  448      - A      Apr 23 230:43 MpxPeriodicCallbackDaemon
+root      1966434  0.0  0.0  632  640      - A      Apr 23 138:13 /usr/sbin/syncd 60 
+root      9633912  0.0  0.0 4724 5112      - A      Apr 23 112:15 /usr/sbin/rsct/bin/IBM.HostRMd 
+root       197200  0.0  0.0  448  448      - A      Apr 23 107:18 wait
+root       131076  0.0  0.0  448  448      - A      Apr 23 107:11 wait
+root       328276  0.0  0.0  448  448      - A      Apr 23 106:36 wait
+root       262738  0.0  0.0  448  448      - A      Apr 23 104:33 wait
+root      4456900  0.0  0.0 8000 8164      - A      Apr 23 83:05 /usr/lpp/perf/bin/scopeux 
+root       328012  0.0  0.0  448  448      - A      Apr 23 71:14 wait
+root       196936  0.0  0.0  448  448      - A      Apr 23 71:13 wait
+root       262474  0.0  0.0  448  448      - A      Apr 23 70:08 wait
+root      4063566  0.0  0.0 43448 48640      - A      Apr 23 69:42 /usr/es/sbin/cluster/clstrmgr 
+root      3408248  0.0  0.0 12008 12192      - A      Apr 23 49:21 /usr/bin/topasrec  -L -s 300 -R 1 -r 6 -o /var/perf/daily/ -ypersi
+root      1572920  0.0  0.0  448  448      - A      Apr 23 32:21 wait
+root      3604884  0.0  0.0 90052 90264      - A      Apr 23 32:17 /var/opt/tivoli/ep/_jvm/jre/bin/java -Xmx384m -Xminf0.01 -Xmaxf0.4
+root      1703996  0.0  0.0  448  448      - A      Apr 23 32:07 wait
+root      1638458  0.0  0.0  448  448      - A      Apr 23 30:44 wait
+root      5439740  0.0  0.0 14948 15788      - A      Apr 23 28:05 /usr/es/sbin/cluster/clinfo 
+root       983078  0.0  0.0  448  448      - A      Apr 23 27:41 xmgc
+root            0  0.0  0.0  384  384      - A      Apr 23 27:17 swapper
+root      3277214  0.0  0.0 13912 14236      - A      Apr 23 26:44 /usr/lpp/OV/lbin/eaagt/opcmona 
+root      4128820  0.0  0.0 20884 20928      - A      Apr 23 25:03 /usr/lpp/OV/lbin/perf/coda 
+root          524  0.0  0.0  448  448      - A      Apr 23 24:29 swapper
+root          264  0.0  0.0  448  448      - A      Apr 23 20:36 swapper
+root      2818632  0.0  0.0  384  384      - A      Apr 23 17:10 lock_rcv
+root      3014692  0.0  0.0 8176 14104      - A      Apr 23 14:56 /usr/sbin/emcp_mond 
+root       983432  0.0  0.0  960  960      - A      Apr 23 14:27 gil
+root      3735600  0.0  0.0 1408 1408      - A      Apr 23 14:19 multisite_connection_monitor
+root       131662  0.0  0.0  448  448      - A      Apr 23 14:10 wait
+root     10224360  0.0  0.0  800  828      - A      May 18  8:33 /usr/sbin/getty /dev/console 
+root      2031874  0.0  0.0  448  448      - A      Apr 23 12:53 resv_minder
+root      1966808  0.0  0.0  948  968      - A      Apr 23 12:27 /usr/sbin/syslogd -R 
+root      5243216  0.0  0.0 4580 4792      - A      Jul 01  0:48 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root      8388970  0.0  0.0 4584 4796      - A    08:00:01  0:06 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root       131398  0.0  0.0  448  448      - A      Apr 23 11:28 wait
+root      3080780  0.0  0.0 9396 10444      - A      Apr 23 11:25 /usr/lpp/OV/bin/ovcd 
+root      5308760  0.0  0.0 4580 4792      - A      Jul 04  0:24 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root     11600402  0.0  0.0 4580 4792      - A      Jul 03  0:33 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root      9568830  0.0  0.0 4580 4792      - A      Jun 28  1:18 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root     11666168  0.0  0.0 4576 4788      - A      Jun 28  1:12 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root      9109842  0.0  0.0 4576 4788      - A      Jun 21  2:13 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root      7995788  0.0  0.0 4576 4788      - A      Jun 26  1:33 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root     11731706  0.0  0.0 4584 4796      - A      Jun 20  2:21 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root      6357090  0.0  0.0 4576 4788      - A      Jul 05  0:10 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root      5505312  0.0  0.0 4580 4792      - A      Jun 30  0:58 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root      5374316  0.0  0.0 4580 4792      - A      Jul 02  0:36 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root      5767398  0.0  0.0 4544 4756      - A      Jun 09  3:55 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root      8192406  0.0  0.0 4580 4792      - A      Jun 29  1:06 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root      9306250  0.0  0.0 4580 4792      - A      Jul 02  0:40 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root      8651102  0.0  0.0 4580 4792      - A      Jun 23  1:57 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root      7012748  0.0  0.0 7132 7344      - A      Jun 15  3:01 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root     11665642  0.0  0.0 4576 4788      - A      Jul 05  0:14 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root      7406136  0.0  0.0 4580 4792      - A      Jul 01  0:48 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root     10289778  0.0  0.0 4576 4788      - A      Jun 25  1:38 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root      7995620  0.0  0.0 4576 4788      - A      Jul 04  0:18 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root      9437646  0.0  0.0 4576 4788      - A      Jun 19  2:23 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root      2949570  0.0  0.0 19520 34900      - A      Apr 23 10:22 /usr/sbin/rsct/bin/hagsd cthags 
+root      8716946  0.0  0.0 4576 4788      - A      Jun 27  1:15 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root      5309018  0.0  0.0 4548 4760      - A      Jun 11  3:30 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root     10552054  0.0  0.0 4576 4788      - A      Jun 21  2:08 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root      9699922  0.0  0.0 4552 4764      - A      Jun 14  3:05 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root      7799288  0.0  0.0 4584 4796      - A      Jun 24  1:39 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root     14286960  0.0  0.0 4576 4788      - A      Jun 30  0:50 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root      8388806  0.0  0.0 4544 4756      - A      Jun 15  2:56 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root      7733382  0.0  0.0 4580 4792      - A      Jun 20  2:15 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root      8257940  0.0  0.0 4548 4760      - A      Jun 04  4:20 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root     14549098  0.0  0.0 4580 4792      - A      Jun 27  1:18 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root      9306868  0.0  0.0 4580 4792      - A      Jun 26  1:22 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root      8192658  0.0  0.0 4580 4792      - A      Jun 24  1:42 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root      9241210  0.0  0.0 4576 4788      - A      Jun 22  1:58 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root      6816328  0.0  0.0 4548 4760      - A      Jun 05  4:10 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root     11599908  0.0  0.0 4548 4760      - A      Jun 14  2:57 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root      6095164  0.0  0.0 4544 4756      - A      Jun 01  4:40 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root      5701988  0.0  0.0 4552 4764      - A      Jun 03  4:24 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root     13893798  0.0  0.0 4584 4796      - A      Jul 03  0:25 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root      5833156  0.0  0.0 4544 4756      - A      Jun 07  3:55 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root     13566084  0.0  0.0 4584 4796      - A      Jun 22  1:52 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root     10879516  0.0  0.0 4576 4788      - A      Jun 23  1:44 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root     14221418  0.0  0.0 4584 4796      - A      Jun 25  1:28 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root      7864616  0.0  0.0 4580 4792      - A      Jun 18  2:23 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root     12059152  0.0  0.0 4552 4764      - A      May 26  5:23 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root     15466736  0.0  0.0 4580 4792      - A      Jun 29  0:56 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root     11076092  0.0  0.0 4580 4792      - A      Jun 17  2:30 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root      5243472  0.0  0.0 4548 4760      - A      Jun 11  3:17 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root     15597740  0.0  0.0 4548 4760      - A      May 28  5:10 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root      9699592  0.0  0.0 4552 4764      - A      May 29  4:58 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root      9175602  0.0  0.0 4552 4764      - A      Jun 13  3:00 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root      6160750  0.0  0.0 4552 4764      - A      Jun 04  4:13 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root      9765354  0.0  0.0 4580 4792      - A      Jun 16  2:39 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root      8061382  0.0  0.0 4548 4760      - A      Jun 06  3:56 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root     15794192  0.0  0.0 4548 4760      - A      Jun 05  4:02 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root     11534948  0.0  0.0 4552 4764      - A      Jun 06  3:50 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root      7864848  0.0  0.0 4548 4760      - A      Jun 13  3:00 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root     12976314  0.0  0.0 4580 4792      - A      Jun 16  2:33 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root      8847916  0.0  0.0 4544 4756      - A      Jun 08  3:37 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root     13500476  0.0  0.0 4548 4760      - A      May 21  5:52 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root     10158588  0.0  0.0 4552 4764      - A      Jun 12  3:02 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root      9437754  0.0  0.0 4552 4764      - A      Jun 10  3:17 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root      9568676  0.0  0.0 4548 4760      - A      May 24  5:24 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root     10354976  0.0  0.0 4548 4760      - A      Jun 09  3:27 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root      9830674  0.0  0.0 4576 4788      - A      Jun 18  2:19 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root      8585844  0.0  0.0 4552 4764      - A      Jun 07  3:37 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root      9896478  0.0  0.0 4552 4764      - A      Jun 02  4:14 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root      9109604  0.0  0.0 4548 4760      - A      May 26  5:08 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root     11928124  0.0  0.0 4552 4764      - A      Jun 02  4:16 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root     10289224  0.0  0.0 4552 4764      - A      Jun 12  3:02 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root     13959222  0.0  0.0 4580 4792      - A      Jun 17  2:25 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root     15990800  0.0  0.0 4552 4764      - A      Jun 03  4:08 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root     10617440  0.0  0.0 4552 4764      - A      May 31  4:30 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root     11337904  0.0  0.0 4580 4792      - A      Jun 19  2:10 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root     11403796  0.0  0.0 4548 4760      - A      May 31  4:26 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root     11862658  0.0  0.0 4548 4760      - A      May 27  4:54 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root      8912944  0.0  0.0 4552 4764      - A      Jun 10  3:15 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root     10289458  0.0  0.0 4548 4760      - A      May 29  4:40 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root      7471390  0.0  0.0 4548 4760      - A      May 19  5:52 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root     10813962  0.0  0.0 4548 4760      - A      May 30  4:31 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root     10093004  0.0  0.0 4548 4760      - A      May 23  5:19 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root     12648560  0.0  0.0 4552 4764      - A      Jun 08  3:21 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root     10027742  0.0  0.0 4544 4756      - A      May 25  5:00 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root     12583046  0.0  0.0 4544 4756      - A      May 22  5:17 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root     14090464  0.0  0.0 4548 4760      - A      Jun 01  4:10 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root      9764960  0.0  0.0 4544 4756      - A      May 21  5:21 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root     12910728  0.0  0.0 4548 4760      - A      May 22  5:14 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root     13631534  0.0  0.0 4576 4788      - A    20:00:02  0:01 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root      9240876  0.0  0.0 4544 4756      - A      May 19  5:30 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root     13172986  0.0  0.0 4544 4756      - A      May 27  4:38 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root     11010452  0.0  0.0 4548 4760      - A      May 24  4:56 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root     14942432  0.0  0.0 4548 4760      - A      May 20  5:22 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root      3211634  0.0  0.0 2864 3704      - A      Apr 23  8:24 /usr/sbin/clcomd -d 
+root     15007916  0.0  0.0 4548 4760      - A      May 20  5:14 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root     14024888  0.0  0.0 4552 4764      - A      May 25  4:43 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root     15269896  0.0  0.0 4548 4760      - A      May 30  4:05 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root     13828332  0.0  0.0 4548 4760      - A      May 28  4:18 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root     16122076  0.0  0.0 4548 4760      - A      May 23  4:50 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+root      3735982  0.0  0.0 14524 17040      - A      Apr 23  7:53 /usr/sbin/rsct/bin/rmcd -a IBM.LPCommands -r -S 1500 
+root      3670184  0.0  0.0 2516 2572      - A      Apr 23  7:51 xmtopas -p3 
+root      1507382  0.0  0.0  448  448      - A      Apr 23  7:39 wait
+pconsole  4915358  0.0  0.0 61964 62016      - A      Apr 23  7:18 /usr/java6/bin/java -Xmx512m -Xms20m -Xscmx10m -Xshareclasses -Xbo
+root      4522716  0.0  0.0 9392 17892      - A      Apr 23  6:20 /usr/sbin/rsct/bin/IBM.StorageRMd 
+root      2359834  0.0  0.0  448  448      - A      Apr 23  6:20 DPKP
+root      4522108  0.0  0.0 5356 5484      - A      Apr 23  6:01 /usr/lpp/OV/lbin/eaagt/opcacta 
+root      4063968  0.0  0.0 1120 1164      - A      Apr 23  5:26 lsdaemon 10000 
+root      1441844  0.0  0.0  448  448      - A      Apr 23  4:20 wait
+root      1376306  0.0  0.0  448  448      - A      Apr 23  4:16 wait
+root      1310768  0.0  0.0  448  448      - A      Apr 23  4:07 wait
+root       524642  0.0  0.0  448  448      - A      Apr 23  3:53 wait
+root       459368  0.0  0.0  448  448      - A      Apr 23  3:46 wait
+root       590444  0.0  0.0  448  448      - A      Apr 23  3:43 wait
+root       590180  0.0  0.0  448  448      - A      Apr 23  3:42 wait
+root       459104  0.0  0.0  448  448      - A      Apr 23  3:42 wait
+root       524906  0.0  0.0  448  448      - A      Apr 23  3:38 wait
+root      3997760  0.0  0.0 5708 6796      - A      Apr 23  3:35 /usr/lpp/OV/bin/ovbbccb -nodaemon 
+root      3605140  0.0  0.0 7364 7528      - A      Apr 23  3:33 /usr/lpp/OV/lbin/eaagt/opcmsga 
+root       721536  0.0  0.0  448  448      - A      Apr 23  2:57 wait
+root       852612  0.0  0.0  448  448      - A      Apr 23  2:54 wait
+root       787074  0.0  0.0  448  448      - A      Apr 23  2:53 wait
+root      2294182  0.0  0.0  384  384      - A      Apr 23  2:49 sec_rcv
+root       852348  0.0  0.0  448  448      - A      Apr 23  2:34 wait
+root       786810  0.0  0.0  448  448      - A      Apr 23  2:34 wait
+root      2752860  0.0  0.0 1216 1216      - A      Apr 23  2:31 rpc.lockd
+root       721272  0.0  0.0  448  448      - A      Apr 23  2:27 wait
+root      4325734  0.0  0.0 15080 15460      - A      Apr 23  2:26 /usr/lpp/perf/bin/perfalarm 
+root      2228316  0.0  0.0  448  448      - A      Apr 23  2:24 wait
+root      2359408  0.0  0.0  448  448      - A      Apr 23  2:14 wait
+root      2162778  0.0  0.0  448  448      - A      Apr 23  2:13 wait
+root      2490484  0.0  0.0  448  448      - A      Apr 23  2:09 wait
+root      2424946  0.0  0.0  448  448      - A      Apr 23  2:07 wait
+root      2031702  0.0  0.0  448  448      - A      Apr 23  2:05 wait
+root      1114634  0.0  0.0 27640 28912      - A      Apr 23  2:04 /bin/nsrexecd 
+root       655734  0.0  0.0  448  448      - A      Apr 23  2:02 wait
+root      2097240  0.0  0.0  448  448      - A      Apr 23  2:02 wait
+root       393566  0.0  0.0  448  448      - A      Apr 23  2:01 wait
+root      1245230  0.0  0.0  448  448      - A      Apr 23  1:56 wait
+root      1966148  0.0  0.0  448  448      - A      Apr 23  1:56 wait
+root      1900610  0.0  0.0  448  448      - A      Apr 23  1:53 wait
+root       655998  0.0  0.0  448  448      - A      Apr 23  1:45 wait
+root      1769534  0.0  0.0  448  448      - A      Apr 23  1:40 wait
+root      1835072  0.0  0.0  448  448      - A      Apr 23  1:39 wait
+root      2293870  0.0  0.0  448  448      - A      Apr 23  1:38 wait
+root       393830  0.0  0.0  448  448      - A      Apr 23  1:25 wait
+root      2687536  0.0  0.0 1988 16356      - A      Apr 23  1:14 /usr/sbin/aso 
+root      2097472  0.0  0.0 2436 2716      - A      Apr 23  0:55 sendmail: accepting connections 
+root       786464  0.0  0.0 2624 2624      - A      Apr 23  0:53 vtiol
+root      2556288  0.0  0.0  492  508      - A      Apr 23  0:52 ./slp_srvreg -D 
+root       917894  0.0  0.0  448  448      - A      Apr 23  0:44 netm
+root      3932210  0.0  0.0  780  792      - A      Apr 23  0:42 /usr/sbin/clconfd 
+root      2621810  0.0  0.0 4708 4732      - A      Apr 23  0:33 /usr/sbin/cron 
+root      1770226  0.0  0.0  448  448      - A      Apr 23  0:31 pp2d
+root      3015254  0.0  0.0 12988 13020      - A      Apr 23  0:30 /opt/freeware/cimom/pegasus/bin/cimprovagt 0 12 16 root SLPProvide
+root      3866648  0.0  0.0  448  448      - A      Apr 23  0:27 clusterwide_rcv
+root      1639154  0.0  0.0 19072 19072      - A      Apr 23  0:27 j2pg
+root      4849820  0.0  0.0  516  588      - A      Apr 23  0:20 bin/nonstop_aix @/var/opt/tivoli/ep/runtime/nonstop/config/nonstop
+root            1  0.0  0.0  840  856      - A      Apr 23  0:16 /etc/init 
+root       917540  0.0  0.0  640  640      - A      Apr 23  0:16 pilegc
+root      2687332  0.0  0.0 9336 9428      - A      Apr 23  0:13 /opt/ibm/icc/cimom/bin/dirsnmpd 
+root      1704680  0.0  0.0  448  448      - A      Apr 23  0:13 MpxGrDaemon
+root      2818178  0.0  0.0 1888 2148      - A      Apr 23  0:12 /usr/sbin/aixmibd 
+root      3932834  0.0  0.0 25480 36732      - A      Apr 23  0:11 /usr/sbin/rsct/bin/IBM.ConfigRMd 
+root     10093230  0.0  0.0 1316 1388      - A      Apr 23  0:09 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f9ada100004c000000014c0
+root      5636592  0.0  0.0 1316 1388      - A      Apr 23  0:09 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f9ada100004c000000014c0
+root      3670486  0.0  0.0 1316 1388      - A      Apr 23  0:09 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f9ada100004c000000014c0
+root      6422628  0.0  0.0 1392 1464      - A      Apr 23  0:09 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f9ada100004c000000014c0
+root      3867082  0.0  0.0 1316 1388      - A      Apr 23  0:09 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f9ada100004c000000014c0
+root      5767892  0.0  0.0 1336 1408      - A      Apr 23  0:09 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f9ada100004c000000014c0
+root     10223732  0.0  0.0  876  948      - A      Apr 23  0:09 /usr/sbin/gsclvmd 
+root      8913230  0.0  0.0 1316 1388      - A      Apr 23  0:08 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f9ada100004c000000014c0
+root     10879056  0.0  0.0 1316 1388      - A      Apr 23  0:08 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f9ada100004c000000014bf
+root      4391420  0.0  0.0 1316 1388      - A      Apr 23  0:08 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f9ada100004c000000014c0
+root     11862252  0.0  0.0 1316 1388      - A      Apr 23  0:08 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f9ada100004c000000014c0
+root     11076272  0.0  0.0 1316 1388      - A      Apr 23  0:08 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f9ada100004c000000014c0
+root     10354938  0.0  0.0 1316 1388      - A      Apr 23  0:08 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f9ada100004c000000014c0
+root      4194816  0.0  0.0  956 1032      - A      Apr 23  0:06 /usr/lpp/perf/bin/midaemon 
+root      1377004  0.0  0.0 1216 1216      - A      Apr 23  0:06 nfssync_kproc
+root      1638894  0.0  0.0  448  448      - A      Apr 23  0:06 rgsr
+root        66062  0.0  0.0  448  448      - A      Apr 23  0:05 sched
+root       196614  0.0  0.0  448  448      - A      Apr 23  0:05 sched
+root        65802  0.0  0.0  448  448      - A      Apr 23  0:05 sched
+root      3474020  0.0  0.0 9616 9644      - A      Apr 23  0:04 /usr/bin/cimlistener 
+root      2621992  0.0  0.0 7100 7160      - A      Apr 23  0:04 /opt/ibm/director/cimom/bin/tier1slp 
+root      3604482  0.0  0.0  448  448      - A      Apr 23  0:04 n4bg
+root      9503368  0.0  0.0 4860 5236      - A      Jun 15  0:01 /usr/es/sbin/cluster/clevmgrd 
+root     16187500  0.0  0.0 4040 4112      - A      Jun 15  0:01 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f92eec00004c000000014df
+root      2883936  0.0  0.0 31588 31616      - A      Apr 23  0:02 [cimserve]
+root      2687190  0.0  0.0  448  448      - A      Apr 23  0:02 rdpgc
+root      1835764  0.0  0.0 1468 1508      - A      Apr 23  0:01 /usr/sbin/hostmibd 
+root      1311010  0.0  0.0 1740 2332      - A      Apr 23  0:01 /usr/sbin/snmpmibd 
+root      1376730  0.0  0.0 2012 2052      - A      Apr 23  0:01 /usr/lib/errdemon 
+root      8258204  0.0  0.0 1856 3632      - A    23:27:05  0:00 sshd: root@pts/1 
+root      5308424  0.0  0.0 1912 1960      - A      Apr 23  0:00 /usr/sbin/rsct/bin/IBM.DRMd 
+root      8323646  0.0  0.0  792  840  pts/1 A    23:27:19  0:00 -ksh 
+root      4390944  0.0  0.0 1172 1332      - A      Apr 23  0:00 /usr/sbin/hrd 
+root      7602726  0.0  0.0 2368 3188  pts/1 A    23:27:29  0:00 bash 
+root      7012982  0.0  0.0 1968 2000  pts/1 A    23:29:54  0:00 ps auxw 
+root      7144140  0.0  0.0  976  348  pts/1 A    23:29:29  0:00 /bin/sh /tmp/pcat/pcat/./pcat-os.sh aa 
+root      4653154  0.0  0.0   88   92      - A      Apr 23  0:00 /usr/sbin/uprintfd 
+root      7275114  0.0  0.0 2360 3180  pts/1 A    23:27:22  0:00 bash 
+root      7930578  0.0  0.0  792  840  pts/0 A      Jun 30  0:00 -ksh 
+root      8061564  0.0  0.0 1056  428  pts/1 A    23:29:54  0:00 /bin/sh /tmp/pcat/pcat/./pcat-os.sh aa 
+root      4587670  0.0  0.0 1380 3156      - A      Apr 23  0:00 /usr/sbin/sshd 
+root      7733950  0.0  0.0 1452 2772  pts/0 A      Jun 30  0:00 ssh 
+root      4784220  0.0  0.0  448  448      - A      Apr 23  0:00 ahaqueue
+root       852002  0.0  0.0  448  448      - A      Apr 23  0:00 devstatd
+root     11207236  0.0  0.0  116  124  pts/1 A    23:29:29  0:00 tee Systems/dx978/pcat-os_sh-out.txt 
+root       720968  0.0  0.0  428  448      - A      Apr 23  0:00 /usr/ccs/bin/shlap64 
+root      2752712  0.0  0.0  448  448      - A      Apr 23  0:00 memp_rbd
+root      2621662  0.0  0.0  448  448      - A      Apr 23  0:00 MpxTestDaemon
+root      2556116  0.0  0.0  448  448      - A      Apr 23  0:00 baseOpen
+root       393236  0.0  0.0 1216 1216      - A      Apr 23  0:00 psmd
+root       327698  0.0  0.0  448  448      - A      Apr 23  0:00 vmptacrt
+root       262160  0.0  0.0 1216 1216      - A      Apr 23  0:00 lrud
+root       655388  0.0  0.0  448  448      - A      Apr 23  0:00 memgrdd
+root       524312  0.0  0.0  448  448      - A      Apr 23  0:00 pvlist
+root       458774  0.0  0.0  832  832      - A      Apr 23  0:00 vmmd
+root      3539050  0.0  0.0  764  816      - A      Apr 23  0:00 /usr/sbin/inetd 
+root      3407946  0.0  0.0  448  448      - A      Apr 23  0:00 aioLpool
+pconsole  3342430  0.0  0.0  800  848      - A      Apr 23  0:00 /bin/ksh /pconsole/lwi/bin/lwistart_src.sh 
+root      4259872  0.0  0.0  316  340      - A      Apr 23  0:00 /usr/sbin/qdaemon 
+root      4194344  0.0  0.0  452  460      - A      Apr 23  0:00 /opt/freeware/cimom/pegasus/bin/cimssys cimsys 
+root      8782504  0.0  0.0 1920 3696      - A      Jun 30  0:00 sshd: root@pts/0 
+root      3080444  0.0  0.0  448  448      - A      Apr 23  0:00 MpxResumeIoDaemon
+root      2883754  0.0  0.0  512  512      - A      Apr 23  0:00 rtcmd
+root     10158616  0.0  0.0  448  448      - A      Apr 23  0:00 pkm_kern_proc
+root      3276820  0.0  0.0 1084 1104      - A      Apr 23  0:00 /usr/sbin/portmap 
+root      3211504  0.0  0.0 6592 6592      - A      Apr 23  0:00 dog
+root      3145978  0.0  0.0  448  448      - A      Apr 23  0:00 pp_filler
+root      1507834  0.0  0.0  448  448      - A      Apr 23  0:00 lvmbb
+root      1245638  0.0  0.0  448  448      - A      Apr 23  0:00 pp2xmfree
+root      1704340  0.0  0.0  448  448      - A      Apr 23  0:00 random
+root      1835504  0.0  0.0  448  448      - A      Apr 23  0:00 MpxAsyncIoDaemon
+root      1769736  0.0  0.0  448  448      - A      Apr 23  0:00 pp2log
+root       918156  0.0  0.0  448  448      - A      Apr 23  0:00 armtrace_kproc
+root      1442520  0.0  0.0  704  704      - A      Apr 23  0:00 ldmp_process
+root      1508046  0.0  0.0  448  448      - A      Apr 23  0:00 MpxProactiveDaemon
+root      1311258  0.0  0.0  448  448      - A      Apr 23  0:00 aioPpool
+root      1180098  0.0  0.0  448  448      - A      Apr 23  0:00 pp2def
+root      1245910  0.0  0.0  448  448      - A      Apr 23  0:00 MpxDispatchDaemon
+root      1901042  0.0  0.0  448  448      - A      Apr 23  0:00 MpxTestDaemon    000292603381
+root      3932570  0.0  0.0 2492 2568      - A      Apr 23  0:00 /usr/sbin/rsct/bin/IBM.ServiceRMd 
+root      3539326  0.0  0.0  820  868      - A      Apr 23  0:00 /bin/ksh /var/opt/tivoli/ep/runtime/nonstop/bin/cas_src.sh 
+root      3998172                            Z              0:00 <defunct>
+root      6291796  0.0  0.0  816 1220      - A      Apr 23  0:00 run_rcovcmd 
+root      4849974  0.0  0.0  832  412  pts/1 A    23:29:27  0:00 /bin/sh /tmp/pcat/pcat/./pcat-os.sh aa 
+root      3473852  0.0  0.0  172  180  pts/1 A    23:29:54  0:00 tail -512000 
+daemon    2359604  0.0  0.0 3136 3220      - A      Apr 23  0:00 /usr/sbin/rpc.statd -d 0 -t 50 
+root      2163018  0.0  0.0  452  460      - A      Apr 23  0:00 /opt/freeware/cimom/pegasus/bin/cimssys platform_agent 
+root      2425142  0.0  0.0  448  448      - A      Apr 23  0:00 aha_rcv
+root      2818446  0.0  0.0 4796 4904      - A      Apr 23  0:00 /usr/lpp/OV/lbin/eaagt/opcmsgi 
+root     11534832  0.0  0.0  956 1004  pts/1 A    23:29:26  0:00 /bin/sh ./pcat.sh --notsm --nohmc 
+root      3211856  0.0  0.0  448  448      - A      Apr 23  0:00 multisite_listener
+root      3539558  0.0  0.0 5808 5956      - A      Apr 23  0:00 /usr/lpp/OV/lbin/conf/ovconfd 
+root      2949694  0.0  0.0  448  448      - A      Apr 23  0:00 link_rcv
+root     11206886  0.0  0.0  236  248  pts/1 A    23:29:53  0:00 grep -vp FC SCSI 
+root      2884148  0.0  0.0  172  180      - A      Apr 23  0:00 /usr/sbin/biod 6 
+root      9437348  0.0  0.0  936 1132  pts/1 A    23:29:53  0:00 netstat -v 
+root      4129488  0.0  0.0 1236 1312      - A      Apr 23  0:00 /usr/lpp/perf/bin/ttd 
+root      6946868  0.0  0.0  360  432  pts/1 A    23:29:53  0:00 /usr/sbin/fcstat -e fcs9 
+root      7536892  0.0  0.0  968  432  pts/1 A    23:29:53  0:00 /bin/sh /tmp/pcat/pcat/./pcat-os.sh aa 
+root      3670694  0.0  0.0  448  448      - A      Apr 23  0:00 ahafs_kproc
+root      3867310  0.0  0.0  908  968      - A      Apr 23  0:00 /usr/dt/bin/dtlogin -daemon 
+root      2753180  0.0  0.0  800  848      - A      Apr 23  0:00 /bin/ksh /pconsole/lwi/bin/lwistart_src.sh 
+root      2032186  0.0  0.0 1216 1216      - A      Apr 23  0:00 kpkcs11
+root      2097804  0.0  0.0  512  512      - A      Apr 23  0:00 kbiod
+root      1901296  0.0  0.0  448  448      - A      Apr 23  0:00 pp_skimmer
+root      1573392  0.0  0.0  512  512      - A      Apr 23  0:00 nfsSM
+root      1048970  0.0  0.0  512  512      - A      Apr 23  0:00 wlmsched
+root      2163280  0.0  0.0 1040 1060      - A      Apr 23  0:00 /usr/sbin/srcmstr 
+root      2490904  0.0  0.0  384  388      - A      Apr 23  0:00 /usr/sbin/rpc.lockd -d 0 
+root      2556500  0.0  0.0  376  392      - A      Apr 23  0:00 /opt/freeware/cimom/pegasus/bin/CIM_diagd 
+root     14155808  0.0  0.0  172  180  pts/1 A    23:29:53  0:00 tail -512000 
+root      2228978  0.0  0.0  308  316      - A      Apr 23  0:00 /usr/sbin/writesrv 
+root      2294440  0.0  0.0  448  448      - A      Apr 23  0:00 clean_if
+==== EXITED with rc 0 ====
+==== END echo '#### output of: ps -ef ####';ps -ef;echo '\n\n#### output of: ps aux ####';ps auxw Mon Jul  6 23:29:54 GST 2015 ====

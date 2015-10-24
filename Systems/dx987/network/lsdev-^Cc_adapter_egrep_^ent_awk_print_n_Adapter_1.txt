@@ -1,0 +1,444 @@
+==== This output can be found in Systems/dx987/network/lsdev-^Cc_adapter_egrep_^ent_awk_print_n_Adapter_1.txt ====
+==== START lsdev -Cc adapter | egrep ^ent | awk '{print "\n#### Adapter: " $1" ####";system("entstat -d " $1)}' Tue Jul  7 00:01:05 GST 2015 ====
+
+#### Adapter: ent0 ####
+-------------------------------------------------------------
+ETHERNET STATISTICS (ent0) :
+Device Type: Virtual I/O Ethernet Adapter (l-lan)
+Hardware Address: 4a:64:d7:b1:13:04
+Elapsed Time: 60 days 3 hours 34 minutes 51 seconds
+
+Transmit Statistics:                          Receive Statistics:
+--------------------                          -------------------
+Packets: 26464728                             Packets: 50362795
+Bytes: 26912217245                            Bytes: 25495336384
+Interrupts: 0                                 Interrupts: 41570320
+Transmit Errors: 0                            Receive Errors: 0
+Packets Dropped: 0                            Packets Dropped: 0
+                                              Bad Packets: 0
+Max Packets on S/W Transmit Queue: 0         
+S/W Transmit Queue Overflow: 0
+Current S/W+H/W Transmit Queue Length: 0
+
+Broadcast Packets: 14742                      Broadcast Packets: 25003078
+Multicast Packets: 23111                      Multicast Packets: 69298
+No Carrier Sense: 0                           CRC Errors: 0
+DMA Underrun: 0                               DMA Overrun: 0
+Lost CTS Errors: 0                            Alignment Errors: 0
+Max Collision Errors: 0                       No Resource Errors: 0
+Late Collision Errors: 0                      Receive Collision Errors: 0
+Deferred: 0                                   Packet Too Short Errors: 0
+SQE Test: 0                                   Packet Too Long Errors: 0
+Timeout Errors: 0                             Packets Discarded by Adapter: 0
+Single Collision Count: 0                     Receiver Start Count: 0
+Multiple Collision Count: 0
+Current HW Transmit Queue Length: 0
+
+General Statistics:
+-------------------
+No mbuf Errors: 0
+Adapter Reset Count: 0
+Adapter Data Rate: 20000
+Driver Flags: Up Broadcast Running 
+	Simplex 64BitSupport ChecksumOffload 
+	DataRateSet VIOENT 
+
+Virtual I/O Ethernet Adapter (l-lan) Specific Statistics:
+---------------------------------------------------------
+RQ Length: 9505
+Trunk Adapter: False
+Filter MCast Mode: False
+Filters: 255
+  Enabled: 3  Queued: 0  Overflow: 0
+LAN State: Operational
+
+Hypervisor Send Failures: 0
+  Receiver Failures: 0
+  Send Errors: 0
+Hypervisor Receive Failures: 0
+
+Invalid VLAN ID Packets: 0
+
+ILLAN Attributes: 0000000000003002 [0000000000002000]
+
+Port VLAN ID:   226
+VLAN Tag IDs:  None
+
+
+Switch ID: ETHERNET0
+
+Hypervisor Information  
+  Virtual Memory        
+    Total (KB)                157
+  I/O Memory            
+    VRM Minimum (KB)          180
+    VRM Desired (KB)          180
+    DMA Max Min (KB)          256
+
+Transmit Information    
+  Transmit Buffers       
+    Buffer Size             65536
+    Buffers                    32
+    History             
+      No Buffers                0
+  Virtual Memory        
+    Total (KB)               2048
+  I/O Memory            
+    VRM Minimum (KB)         2176
+    VRM Desired (KB)        16384
+    DMA Max Min (KB)        16384
+
+Receive Information     
+  Receive Buffers        
+    Buffer Type              Tiny    Small   Medium    Large     Huge
+    Min Buffers              4096     4096     1024      128       96
+    Max Buffers              4096     4096     1024      128       96
+    Allocated                4096     4096     1024      128       96
+    Registered               4096     4096     1024      128       96
+    History             
+      Max Allocated          4096     4096     1024      128       96
+      Lowest Registered      4095     4068      989      111       87
+  Virtual Memory        
+    Minimum (KB)             2048     8192    16384     4096 6144
+    Maximum (KB)             2048     8192    16384     4096     6144
+  I/O Memory            
+    VRM Minimum (KB)        32768    32768    20480     4608     6528
+    VRM Desired (KB)        32768    32768    20480     4608     6528
+    DMA Max Min (KB)        32768    32768    32768     8192     8192
+
+I/O Memory Information  
+  Total VRM Minimum (KB)    99508
+  Total VRM Desired (KB)   113716
+  Total DMA Max Min (KB)   131328
+
+#### Adapter: ent1 ####
+-------------------------------------------------------------
+ETHERNET STATISTICS (ent1) :
+Device Type: Virtual I/O Ethernet Adapter (l-lan)
+Hardware Address: 4a:64:d7:b1:13:05
+Elapsed Time: 60 days 3 hours 34 minutes 51 seconds
+
+Transmit Statistics:                          Receive Statistics:
+--------------------                          -------------------
+Packets: 6027574                              Packets: 28865603
+Bytes: 3030002770                             Bytes: 2433416863
+Interrupts: 0                                 Interrupts: 27534302
+Transmit Errors: 0                            Receive Errors: 0
+Packets Dropped: 0                            Packets Dropped: 0
+                                              Bad Packets: 0
+Max Packets on S/W Transmit Queue: 0         
+S/W Transmit Queue Overflow: 0
+Current S/W+H/W Transmit Queue Length: 0
+
+Broadcast Packets: 18491                      Broadcast Packets: 23730858
+Multicast Packets: 11                         Multicast Packets: 23106
+No Carrier Sense: 0                           CRC Errors: 0
+DMA Underrun: 0                               DMA Overrun: 0
+Lost CTS Errors: 0                            Alignment Errors: 0
+Max Collision Errors: 0                       No Resource Errors: 0
+Late Collision Errors: 0                      Receive Collision Errors: 0
+Deferred: 0                                   Packet Too Short Errors: 0
+SQE Test: 0                                   Packet Too Long Errors: 0
+Timeout Errors: 0                             Packets Discarded by Adapter: 0
+Single Collision Count: 0                     Receiver Start Count: 0
+Multiple Collision Count: 0
+Current HW Transmit Queue Length: 0
+
+General Statistics:
+-------------------
+No mbuf Errors: 0
+Adapter Reset Count: 0
+Adapter Data Rate: 20000
+Driver Flags: Up Broadcast Running 
+	Simplex 64BitSupport ChecksumOffload 
+	DataRateSet VIOENT 
+
+Virtual I/O Ethernet Adapter (l-lan) Specific Statistics:
+---------------------------------------------------------
+RQ Length: 9505
+Trunk Adapter: False
+Filter MCast Mode: False
+Filters: 255
+  Enabled: 3  Queued: 0  Overflow: 0
+LAN State: Operational
+
+Hypervisor Send Failures: 0
+  Receiver Failures: 0
+  Send Errors: 0
+Hypervisor Receive Failures: 0
+
+Invalid VLAN ID Packets: 0
+
+ILLAN Attributes: 0000000000003002 [0000000000002000]
+
+Port VLAN ID:   227
+VLAN Tag IDs:  None
+
+
+Switch ID: ETHERNET0
+
+Hypervisor Information  
+  Virtual Memory        
+    Total (KB)                157
+  I/O Memory            
+    VRM Minimum (KB)          180
+    VRM Desired (KB)          180
+    DMA Max Min (KB)          256
+
+Transmit Information    
+  Transmit Buffers       
+    Buffer Size             65536
+    Buffers                    32
+    History             
+      No Buffers                0
+  Virtual Memory        
+    Total (KB)               2048
+  I/O Memory            
+    VRM Minimum (KB)         2176
+    VRM Desired (KB)        16384
+    DMA Max Min (KB)        16384
+
+Receive Information     
+  Receive Buffers        
+    Buffer Type              Tiny    Small   Medium    Large     Huge
+    Min Buffers              4096     4096     1024      128       96
+    Max Buffers              4096     4096     1024      128       96
+    Allocated                4096     4096     1024      128       96
+    Registered               4096     4096     1024      128       96
+    History             
+      Max Allocated          4096     4096     1024      128       96
+      Lowest Registered      4095     4091      990      118       96
+  Virtual Memory        
+    Minimum (KB)             2048     8192    16384     4096 6144
+    Maximum (KB)             2048     8192    16384     4096     6144
+  I/O Memory            
+    VRM Minimum (KB)        32768    32768    20480     4608     6528
+    VRM Desired (KB)        32768    32768    20480     4608     6528
+    DMA Max Min (KB)        32768    32768    32768     8192     8192
+
+I/O Memory Information  
+  Total VRM Minimum (KB)    99508
+  Total VRM Desired (KB)   113716
+  Total DMA Max Min (KB)   131328
+
+#### Adapter: ent2 ####
+-------------------------------------------------------------
+ETHERNET STATISTICS (ent2) :
+Device Type: Virtual I/O Ethernet Adapter (l-lan)
+Hardware Address: 4a:64:d7:b1:13:06
+Elapsed Time: 0 days 0 hours 0 minutes 0 seconds
+
+Transmit Statistics:                          Receive Statistics:
+--------------------                          -------------------
+Packets: 0                                    Packets: 0
+Bytes: 0                                      Bytes: 0
+Interrupts: 0                                 Interrupts: 0
+Transmit Errors: 0                            Receive Errors: 0
+Packets Dropped: 0                            Packets Dropped: 0
+                                              Bad Packets: 0
+Max Packets on S/W Transmit Queue: 0         
+S/W Transmit Queue Overflow: 0
+Current S/W+H/W Transmit Queue Length: 0
+
+Broadcast Packets: 0                          Broadcast Packets: 0
+Multicast Packets: 0                          Multicast Packets: 0
+No Carrier Sense: 0                           CRC Errors: 0
+DMA Underrun: 0                               DMA Overrun: 0
+Lost CTS Errors: 0                            Alignment Errors: 0
+Max Collision Errors: 0                       No Resource Errors: 0
+Late Collision Errors: 0                      Receive Collision Errors: 0
+Deferred: 0                                   Packet Too Short Errors: 0
+SQE Test: 0                                   Packet Too Long Errors: 0
+Timeout Errors: 0                             Packets Discarded by Adapter: 0
+Single Collision Count: 0                     Receiver Start Count: 0
+Multiple Collision Count: 0
+Current HW Transmit Queue Length: 0
+
+General Statistics:
+-------------------
+No mbuf Errors: 0
+Adapter Reset Count: 0
+Adapter Data Rate: 20000
+Driver Flags: Up Broadcast Running 
+	Simplex 64BitSupport ChecksumOffload 
+	DataRateSet VIOENT 
+
+Virtual I/O Ethernet Adapter (l-lan) Specific Statistics:
+---------------------------------------------------------
+RQ Length: 9505
+Trunk Adapter: False
+Filter MCast Mode: False
+Filters: 255
+  Enabled: 0  Queued: 0  Overflow: 0
+LAN State: Operational
+
+Hypervisor Send Failures: 0
+  Receiver Failures: 0
+  Send Errors: 0
+Hypervisor Receive Failures: 0
+
+Invalid VLAN ID Packets: 0
+
+ILLAN Attributes: 0000000000003002 [0000000000003002]
+
+Port VLAN ID:   302
+VLAN Tag IDs:  None
+
+
+Switch ID: ETHERNET0
+
+Hypervisor Information  
+  Virtual Memory        
+    Total (KB)                157
+  I/O Memory            
+    VRM Minimum (KB)          180
+    VRM Desired (KB)          180
+    DMA Max Min (KB)          256
+
+Transmit Information    
+  Transmit Buffers       
+    Buffer Size             65536
+    Buffers                    32
+    History             
+      No Buffers                0
+  Virtual Memory        
+    Total (KB)               2048
+  I/O Memory            
+    VRM Minimum (KB)         2176
+    VRM Desired (KB)        16384
+    DMA Max Min (KB)        16384
+
+Receive Information     
+  Receive Buffers        
+    Buffer Type              Tiny    Small   Medium    Large     Huge
+    Min Buffers              4096     4096     1024      128       96
+    Max Buffers              4096     4096     1024      128       96
+    Allocated                4096     4096     1024      128       96
+    Registered               4096     4096     1024      128       96
+    History             
+      Max Allocated          4096     4096     1024      128       96
+      Lowest Registered      4096     4096     1024      128       96
+  Virtual Memory        
+    Minimum (KB)             2048     8192    16384     4096 6144
+    Maximum (KB)             2048     8192    16384     4096     6144
+  I/O Memory            
+    VRM Minimum (KB)        32768    32768    20480     4608     6528
+    VRM Desired (KB)        32768    32768    20480     4608     6528
+    DMA Max Min (KB)        32768    32768    32768     8192     8192
+
+I/O Memory Information  
+  Total VRM Minimum (KB)    99508
+  Total VRM Desired (KB)   113716
+  Total DMA Max Min (KB)   131328
+
+#### Adapter: ent3 ####
+-------------------------------------------------------------
+ETHERNET STATISTICS (ent3) :
+Device Type: Virtual I/O Ethernet Adapter (l-lan)
+Hardware Address: 4a:64:d7:b1:13:07
+Elapsed Time: 60 days 3 hours 34 minutes 51 seconds
+
+Transmit Statistics:                          Receive Statistics:
+--------------------                          -------------------
+Packets: 2083812                              Packets: 4490940
+Bytes: 195653041                              Bytes: 417890290
+Interrupts: 0                                 Interrupts: 4128074
+Transmit Errors: 0                            Receive Errors: 0
+Packets Dropped: 0                            Packets Dropped: 0
+                                              Bad Packets: 0
+Max Packets on S/W Transmit Queue: 0         
+S/W Transmit Queue Overflow: 0
+Current S/W+H/W Transmit Queue Length: 0
+
+Broadcast Packets: 29683                      Broadcast Packets: 2736630
+Multicast Packets: 11                         Multicast Packets: 46210
+No Carrier Sense: 0                           CRC Errors: 0
+DMA Underrun: 0                               DMA Overrun: 0
+Lost CTS Errors: 0                            Alignment Errors: 0
+Max Collision Errors: 0                       No Resource Errors: 0
+Late Collision Errors: 0                      Receive Collision Errors: 0
+Deferred: 0                                   Packet Too Short Errors: 0
+SQE Test: 0                                   Packet Too Long Errors: 0
+Timeout Errors: 0                             Packets Discarded by Adapter: 0
+Single Collision Count: 0                     Receiver Start Count: 0
+Multiple Collision Count: 0
+Current HW Transmit Queue Length: 0
+
+General Statistics:
+-------------------
+No mbuf Errors: 0
+Adapter Reset Count: 0
+Adapter Data Rate: 20000
+Driver Flags: Up Broadcast Running 
+	Simplex 64BitSupport ChecksumOffload 
+	DataRateSet VIOENT 
+
+Virtual I/O Ethernet Adapter (l-lan) Specific Statistics:
+---------------------------------------------------------
+RQ Length: 9505
+Trunk Adapter: False
+Filter MCast Mode: False
+Filters: 255
+  Enabled: 3  Queued: 0  Overflow: 0
+LAN State: Operational
+
+Hypervisor Send Failures: 0
+  Receiver Failures: 0
+  Send Errors: 0
+Hypervisor Receive Failures: 0
+
+Invalid VLAN ID Packets: 0
+
+ILLAN Attributes: 0000000000003002 [0000000000002000]
+
+Port VLAN ID:   229
+VLAN Tag IDs:  None
+
+
+Switch ID: ETHERNET0
+
+Hypervisor Information  
+  Virtual Memory        
+    Total (KB)                157
+  I/O Memory            
+    VRM Minimum (KB)          180
+    VRM Desired (KB)          180
+    DMA Max Min (KB)          256
+
+Transmit Information    
+  Transmit Buffers       
+    Buffer Size             65536
+    Buffers                    32
+    History             
+      No Buffers                0
+  Virtual Memory        
+    Total (KB)               2048
+  I/O Memory            
+    VRM Minimum (KB)         2176
+    VRM Desired (KB)        16384
+    DMA Max Min (KB)        16384
+
+Receive Information     
+  Receive Buffers        
+    Buffer Type              Tiny    Small   Medium    Large     Huge
+    Min Buffers              4096     4096     1024      128       96
+    Max Buffers              4096     4096     1024      128       96
+    Allocated                4096     4096     1024      128       96
+    Registered               4096     4096     1024      128       96
+    History             
+      Max Allocated          4096     4096     1024      128       96
+      Lowest Registered      4095     4093      998      123       96
+  Virtual Memory        
+    Minimum (KB)             2048     8192    16384     4096 6144
+    Maximum (KB)             2048     8192    16384     4096     6144
+  I/O Memory            
+    VRM Minimum (KB)        32768    32768    20480     4608     6528
+    VRM Desired (KB)        32768    32768    20480     4608     6528
+    DMA Max Min (KB)        32768    32768    32768     8192     8192
+
+I/O Memory Information  
+  Total VRM Minimum (KB)    99508
+  Total VRM Desired (KB)   113716
+  Total DMA Max Min (KB)   131328
+==== EXITED with rc 0 ====
+==== END lsdev -Cc adapter | egrep ^ent | awk '{print "\n#### Adapter: " $1" ####";system("entstat -d " $1)}' Tue Jul  7 00:01:05 GST 2015 ====

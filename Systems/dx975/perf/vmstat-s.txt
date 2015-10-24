@@ -1,0 +1,30 @@
+==== This output can be found in Systems/dx975/perf/vmstat-s.txt ====
+==== START vmstat -s  Tue Jul  7 12:47:12 CDT 2015 ====
+           1500087790 total address trans. faults
+              2457135 page ins
+             13993611 page outs
+                    0 paging space page ins
+                    0 paging space page outs
+                    0 total reclaims
+           1713057926 zero filled pages faults
+              3833598 executable filled pages faults
+              3105566 pages examined by clock
+                    0 revolutions of the clock hand
+              1318602 pages freed by the clock
+             27600181 backtracks
+                    1 free frame waits
+                    0 extend XPT waits
+               302974 pending I/O waits
+             16450751 start I/Os
+              3624549 iodones
+         132276059638 cpu context switches
+          87283551414 device interrupts
+           6463875869 software interrupts
+           6127884434 decrementer interrupts
+              2759686 mpc-sent interrupts
+              2759679 mpc-received interrupts
+            159308965 phantom interrupts
+                    0 traps
+           4455975792 syscalls
+==== EXITED with rc 0 ====
+==== END vmstat -s  Tue Jul  7 12:47:12 CDT 2015 ====

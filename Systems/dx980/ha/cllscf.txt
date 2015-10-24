@@ -1,0 +1,85 @@
+==== This output can be found in Systems/dx980/ha/cllscf.txt ====
+==== START cllscf Mon Jul  6 23:23:10 GST 2015 ====
+Cluster Name:	 DX979_cluster
+Cluster Type:	 Standard
+Heartbeat Type:	 Unicast
+Repository Disk: hdiskpower1 (00f9ada1ece042b9)
+
+There were 3 networks defined: net_ether_01, net_ether_02, net_ether_03
+There are 2 nodes in this cluster
+
+NODE DX979:
+	This node has 1 service IP label(s):
+
+	Service IP Label DX979-VIP:
+		IP address:	10.51.226.229
+		Hardware Address: 	
+		Network:	net_ether_01
+		Attribute:	public
+		Aliased Address?:	Enable
+
+	Service IP Label DX979-VIP has 1 communication interfaces.
+		(Alternate Service) Communication Interface 1: DX979
+			IP Address:	10.51.226.226
+			Network:	net_ether_01
+			Attribute:	public
+
+			Alias address for heartbeat:	
+	Service IP Label DX979-VIP has no communication interfaces for recovery.
+
+
+
+
+NODE DX980:
+	This node has 1 service IP label(s):
+
+	Service IP Label DX979-VIP:
+		IP address:	10.51.226.229
+		Hardware Address: 	
+		Network:	net_ether_01
+		Attribute:	public
+		Aliased Address?:	Enable
+
+	Service IP Label DX979-VIP has 1 communication interfaces.
+		(Alternate Service) Communication Interface 1: DX980
+			IP Address:	10.51.226.227
+			Network:	net_ether_01
+			Attribute:	public
+
+			Alias address for heartbeat:	
+	Service IP Label DX979-VIP has no communication interfaces for recovery.
+
+
+
+
+
+
+Breakdown of network connections:
+
+Connections to network net_ether_01
+	Node DX979 is connected to network net_ether_01 by these interfaces:
+		DX979
+		DX979-VIP
+
+	Node DX980 is connected to network net_ether_01 by these interfaces:
+		DX980
+		DX979-VIP
+
+
+Connections to network net_ether_02
+	Node DX979 is connected to network net_ether_02 by these interfaces:
+		DX979_b
+
+	Node DX980 is connected to network net_ether_02 by these interfaces:
+		DX980_b
+
+
+Connections to network net_ether_03
+	Node DX979 is connected to network net_ether_03 by these interfaces:
+		DX979_sc0
+
+	Node DX980 is connected to network net_ether_03 by these interfaces:
+		DX980_sc0
+
+==== EXITED with rc 0 ====
+==== END cllscf Mon Jul  6 23:23:10 GST 2015 ====

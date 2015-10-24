@@ -1,0 +1,13 @@
+==== This output can be found in Systems/dx978/perf/vmstat-h_5_3.txt ====
+==== START vmstat -h 5 3  Mon Jul  6 23:33:15 GST 2015 ====
+
+System configuration: lcpu=48 mem=233472MB ent=6.00
+
+kthr    memory              page              faults              cpu                   hypv-page        
+----- ----------- ------------------------ ------------ ----------------------- -------------------------
+ r  b   avm   fre  re  pi  po  fr   sr  cy  in   sy  cs us sy id wa    pc    ec   hpi  hpit   pmem   loan
+ 4  0 3822328 51344904   0   0   0   0    0   0  51 1032900 10220 13  7 80  0  1.85  30.9     0     0 228.00   0.00
+ 7  0 3822198 51344953   0   0   0   0    0   0  29 1053706 9411 10  6 84  0  1.54  25.7     0     0 228.00   0.00
+10  0 3822112 51345035   0   0   0   0    0   0  29 957453 7695  7  5 89  0  1.08  18.0     0     0 228.00   0.00
+==== EXITED with rc 0 ====
+==== END vmstat -h 5 3  Mon Jul  6 23:33:30 GST 2015 ====

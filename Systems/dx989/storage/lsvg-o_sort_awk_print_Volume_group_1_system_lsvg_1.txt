@@ -1,0 +1,40 @@
+==== This output can be found in Systems/dx989/storage/lsvg-o_sort_awk_print_Volume_group_1_system_lsvg_1.txt ====
+==== START lsvg -o |sort|awk '{print "#### Volume group: " $1 " ####";system("lsvg " $1 ); print "\n"}' Thu Aug  6 11:28:07 GST 2015 ====
+#### Volume group: caavg_private ####
+VOLUME GROUP:       caavg_private            VG IDENTIFIER:  00f92eec00004c000000014f01bf95e1
+VG STATE:           active                   PP SIZE:        64 megabyte(s)
+VG PERMISSION:      read/write               TOTAL PPs:      79 (5056 megabytes)
+MAX LVs:            256                      FREE PPs:       72 (4608 megabytes)
+LVs:                4                        USED PPs:       7 (448 megabytes)
+OPEN LVs:           1                        QUORUM:         2 (Enabled)
+TOTAL PVs:          1                        VG DESCRIPTORS: 2
+STALE PVs:          0                        STALE PPs:      0
+ACTIVE PVs:         1                        AUTO ON:        yes
+MAX PPs per VG:     32512                                     
+MAX PPs per PV:     1016                     MAX PVs:        32
+LTG size (Dynamic): 256 kilobyte(s)          AUTO SYNC:      no
+HOT SPARE:          no                       BB POLICY:      relocatable 
+PV RESTRICTION:     none                     INFINITE RETRY: no
+DISK BLOCK SIZE:    512                      CRITICAL VG:    no
+
+
+#### Volume group: rootvg ####
+VOLUME GROUP:       rootvg                   VG IDENTIFIER:  00f9ada100004c000000014efdd9bb47
+VG STATE:           active                   PP SIZE:        512 megabyte(s)
+VG PERMISSION:      read/write               TOTAL PPs:      299 (153088 megabytes)
+MAX LVs:            256                      FREE PPs:       239 (122368 megabytes)
+LVs:                13                       USED PPs:       60 (30720 megabytes)
+OPEN LVs:           12                       QUORUM:         2 (Enabled)
+TOTAL PVs:          1                        VG DESCRIPTORS: 2
+STALE PVs:          0                        STALE PPs:      0
+ACTIVE PVs:         1                        AUTO ON:        yes
+MAX PPs per VG:     32512                                     
+MAX PPs per PV:     1016                     MAX PVs:        32
+LTG size (Dynamic): 256 kilobyte(s)          AUTO SYNC:      no
+HOT SPARE:          no                       BB POLICY:      relocatable 
+PV RESTRICTION:     none                     INFINITE RETRY: no
+DISK BLOCK SIZE:    512                      CRITICAL VG:    no
+
+
+==== EXITED with rc 0 ====
+==== END lsvg -o |sort|awk '{print "#### Volume group: " $1 " ####";system("lsvg " $1 ); print "\n"}' Thu Aug  6 11:28:07 GST 2015 ====

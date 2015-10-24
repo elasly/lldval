@@ -1,0 +1,16 @@
+==== This output can be found in Systems/dx988/ha/clmgr-v_query_repository.txt ====
+==== START clmgr -v query repository Thu Aug  6 11:20:15 GST 2015 ====
+NAME="hdisk1"
+NODE="DX988"
+PVID="00f92eec01bc8623"
+UUID="ec9d17e4-e0b6-98b4-af69-789e9065073f"
+BACKUP="0"
+TYPE="htcvspg1000mpio"
+DESCRIPTION="Hitachi MPIO Disk VSP G1000 (Fibre)"
+SIZE="5120"
+AVAILABLE="4608"
+CONCURRENT="true"
+ENHANCED_CONCURRENT_MODE="true"
+STATUS="UP"
+==== EXITED with rc 0 ====
+==== END clmgr -v query repository Thu Aug  6 11:20:16 GST 2015 ====

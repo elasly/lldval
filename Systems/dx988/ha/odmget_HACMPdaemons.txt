@@ -1,0 +1,53 @@
+==== This output can be found in Systems/dx988/ha/odmget_HACMPdaemons.txt ====
+==== START odmget HACMPdaemons Thu Aug  6 11:20:30 GST 2015 ====
+
+HACMPdaemons:
+	nodename = "DX988"
+	daemon = "clstrmgr"
+	type = "start"
+	object = "manage"
+	value = "auto"
+
+HACMPdaemons:
+	nodename = "DX988"
+	daemon = "clstrmgr"
+	type = "start"
+	object = "broadcast"
+	value = "false"
+
+HACMPdaemons:
+	nodename = "DX988"
+	daemon = "clinfo"
+	type = "start"
+	object = "time"
+	value = "false"
+
+HACMPdaemons:
+	nodename = "DX988"
+	daemon = "clstrmgr_scripts"
+	type = "resource_locator"
+	object = "DX988_RSG"
+	value = "UP"
+
+HACMPdaemons:
+	nodename = "DX988"
+	daemon = "clstrmgrES"
+	type = "stop"
+	object = "time"
+	value = "now"
+
+HACMPdaemons:
+	nodename = "DX988"
+	daemon = "clstrmgrES"
+	type = "stop"
+	object = "broadcast"
+	value = "true"
+
+HACMPdaemons:
+	nodename = "DX988"
+	daemon = "clstrmgrES"
+	type = "stop"
+	object = "mode"
+	value = "graceful"
+==== EXITED with rc 0 ====
+==== END odmget HACMPdaemons Thu Aug  6 11:20:30 GST 2015 ====

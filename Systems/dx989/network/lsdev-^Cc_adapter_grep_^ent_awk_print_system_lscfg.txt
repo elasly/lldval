@@ -1,0 +1,32 @@
+==== This output can be found in Systems/dx989/network/lsdev-^Cc_adapter_grep_^ent_awk_print_system_lscfg.txt ====
+==== START lsdev -Cc adapter | grep ^ent | awk '{print "";system("lscfg -vl " $1)}' Thu Aug  6 11:28:42 GST 2015 ====
+
+  ent0             U9179.MHD.21ADA1V-V27-C4-T1  Virtual I/O Ethernet Adapter (l-lan)
+
+        Network Address.............4A64DD8B1F04
+        Displayable Message.........Virtual I/O Ethernet Adapter (l-lan)
+        Hardware Location Code......U9179.MHD.21ADA1V-V27-C4-T1
+
+
+  ent1             U9179.MHD.21ADA1V-V27-C5-T1  Virtual I/O Ethernet Adapter (l-lan)
+
+        Network Address.............4A64DD8B1F05
+        Displayable Message.........Virtual I/O Ethernet Adapter (l-lan)
+        Hardware Location Code......U9179.MHD.21ADA1V-V27-C5-T1
+
+
+  ent2             U9179.MHD.21ADA1V-V27-C6-T1  Virtual I/O Ethernet Adapter (l-lan)
+
+        Network Address.............4A64DD8B1F06
+        Displayable Message.........Virtual I/O Ethernet Adapter (l-lan)
+        Hardware Location Code......U9179.MHD.21ADA1V-V27-C6-T1
+
+
+  ent3             U9179.MHD.21ADA1V-V27-C7-T1  Virtual I/O Ethernet Adapter (l-lan)
+
+        Network Address.............4A64DD8B1F07
+        Displayable Message.........Virtual I/O Ethernet Adapter (l-lan)
+        Hardware Location Code......U9179.MHD.21ADA1V-V27-C7-T1
+
+==== EXITED with rc 0 ====
+==== END lsdev -Cc adapter | grep ^ent | awk '{print "";system("lscfg -vl " $1)}' Thu Aug  6 11:28:42 GST 2015 ====

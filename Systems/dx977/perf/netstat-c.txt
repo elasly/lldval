@@ -1,0 +1,29 @@
+==== This output can be found in Systems/dx977/perf/netstat-c.txt ====
+==== START netstat -c Tue Jul  7 00:15:52 GST 2015 ====
+Network Buffer Cache Statistics:
+-------------------------------
+Current total cache buffer size: 0
+Maximum total cache buffer size: 0
+Current total cache data size: 0
+Maximum total cache data size: 0
+Current number of cache: 0
+Maximum number of cache: 0
+Number of cache with data: 0
+Number of searches in cache: 0
+Number of cache hit: 0
+Number of cache miss: 0
+Number of cache newly added: 0
+Number of cache updated: 0
+Number of cache removed: 0
+Number of successful cache accesses: 0
+Number of unsuccessful cache accesses: 0
+Number of cache validation: 0
+Current total cache data size in private segments: 0
+Maximum total cache data size in private segments: 0
+Current total number of private segments: 0
+Maximum total number of private segments: 0
+Current number of free private segments: 0
+Current total NBC_NAMED_FILE entries: 0
+Maximum total NBC_NAMED_FILE entries: 0
+==== EXITED with rc 0 ====
+==== END netstat -c Tue Jul  7 00:15:52 GST 2015 ====

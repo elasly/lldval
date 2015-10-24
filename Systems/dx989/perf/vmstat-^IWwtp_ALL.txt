@@ -1,0 +1,15 @@
+==== This output can be found in Systems/dx989/perf/vmstat-^IWwtp_ALL.txt ====
+==== START vmstat -IWwtp ALL  Thu Aug  6 11:25:09 GST 2015 ====
+
+System configuration: lcpu=24 mem=98304MB ent=4.00
+
+     kthr              memory                         page                       faults                 cpu             time  
+--------------- --------------------- ------------------------------------ ------------------ ----------------------- --------
+  r   b   p   w        avm        fre    fi    fo    pi    po    fr     sr    in     sy    cs us sy id wa    pc    ec hr mi se
+  1   1   0   0    1703535   21984370  1063    24     0     0     0      0   115  87084   635  0  0 99  0  0.00   0.0 11:25:09
+
+        psz        avm        fre    fi    fo    pi    po    fr     sr     siz hr mi se
+         4K    1104912   10398689  1063    24     0     0     0      0 12981520 11:25:09
+        64K      37414     724105     0     0     0     0     0      0  761519 11:25:09
+==== EXITED with rc 0 ====
+==== END vmstat -IWwtp ALL  Thu Aug  6 11:25:09 GST 2015 ====

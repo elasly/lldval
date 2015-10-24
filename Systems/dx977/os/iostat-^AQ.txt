@@ -1,0 +1,43 @@
+==== This output can be found in Systems/dx977/os/iostat-^AQ.txt ====
+==== START iostat -AQ Tue Jul  7 00:10:39 GST 2015 ====
+
+System configuration: lcpu=48 ent=6.00 maxserver=1440
+
+aio: avgc avfc maxgc maxfc maxreqs avg-cpu: % user % sys % idle % iowait physc % entc
+     39.3  0.0     0     0    131072            22.5   5.6   68.8      3.0   2.6   42.7
+
+Queue#         Count          Filesystems
+129            0              /
+130            0              /usr
+132            0              /var
+133            0              /tmp
+135            0              /home
+136            0              /admin
+137            0              /proc
+138            0              /opt
+139            0              /var/adm/ras/livedump
+140            0              /perfdata
+143            0              /aha
+144            0              /gsm_arclog1
+145            0              /gsm_arclog2
+146            0              /gsm_base
+148            0              /gsm_ctrl1
+149            0              /gsm_ctrl2
+150            0              /gsm_ctrl3
+151            0              /gsm_data1
+153            0              /gsm_flash
+154            0              /gsm_gg
+155            0              /gsm_index1
+156            0              /gsm_redo1
+157            0              /gsm_redo2
+158            0              /gsm_stage
+159            0              /gsm_sys
+160            0              /gsm_temp
+161            0              /gsm_undo
+166            0              /datacollect
+167            0              /gsm_bkp
+168            0              /gsm_exp
+169            0              /dd_GSM_Bkp
+170            0              /gsm_bct
+==== EXITED with rc 0 ====
+==== END iostat -AQ Tue Jul  7 00:10:39 GST 2015 ====

@@ -1,0 +1,42 @@
+==== This output can be found in Systems/dx977/ha/for_i_in_cllog-s_awk_print_1_do_ls-l_cllog-g_i_awk.txt ====
+==== START for i in $(cllog -s | awk '{print $1}'); do ls -l $(cllog -g $i | awk -F: '{print $4}' | grep -v value)/$i; done Tue Jul  7 00:28:00 GST 2015 ====
+/var/hacmp/adm/history/cluster.mmddyyyy not found
+-rw-r--r--    1 root     system       702086 Jul  7 00:27 /var/hacmp/log/clstrmgr.debug
+-rw-rw-r--    1 root     system       474423 Jul  1 14:18 /var/hacmp/adm/cluster.log
+-rw-r--r--    1 root     system       201222 Jul  7 00:27 /var/hacmp/log/cspoc.log
+-rw-r--r--    1 root     system            0 Mar  6 00:00 /var/hacmp/log/emuhacmp.out
+-rw-r--r--    1 root     system       846710 Jun 29 21:10 /var/hacmp/log/hacmp.out
+-rw-r--r--    1 root     system        55548 Jun 29 21:10 /var/hacmp/adm/clavan.log
+-rw-------    1 root     system       125584 Jul  7 00:00 /var/hacmp/clverify/clverify.log
+-rw-------    1 root     system       777788 Jul  7 00:27 /var/log/clcomd/clcomd.log
+-rw-------    1 root     system      2956049 Jul  7 00:28 /var/log/clcomd/clcomddiag.log
+-rw-r--r--    1 root     system            0 Mar  6 00:00 /var/hacmp/log/clconfigassist.log
+-rw-r--r--    1 root     system            0 Mar  6 00:00 /var/hacmp/log/cl2siteconfig_assist.log
+-rw-------    1 root     system       918349 Jul  7 00:28 /var/hacmp/log/clutils.log
+-rw-r--r--    1 root     system            0 Mar  6 00:00 /var/hacmp/log/cl_testtool.log
+-rw-r--r--    1 root     system       361359 Apr  1 22:49 /var/hacmp/log/autoverify.log
+-rw-r--r--    1 root     system            0 Mar  6 00:00 /var/hacmp/log/sa.log
+-rw-r--r--    1 root     system            0 Jul  7 00:00 /var/hacmp/log/clstrmgr.debug.long
+-rw-r--r--    1 root     system            0 Mar  6 00:00 /var/hacmp/log/cspoc.log.long
+-rw-r--r--    1 root     system            0 Mar  6 00:00 /var/hacmp/log/cspoc.log.remote
+-rw-r--r--    1 root     system            0 Jun 11 00:00 /var/hacmp/log/clinfo.log
+-rw-r--r--    1 root     system            0 Apr  1 22:47 /var/hacmp/log/migration.log
+-rw-r--r--    1 root     system            0 Mar  6 00:00 /var/hacmp/log/dnssa.log
+-rw-r--r--    1 root     system            0 Mar  6 00:00 /var/hacmp/log/dhcpsa.log
+-rw-r--r--    1 root     system            0 Mar  6 00:00 /var/hacmp/log/domino_server.log
+-rw-r--r--    1 root     system            0 Mar  6 00:00 /var/hacmp/log/sax.log
+-rw-r--r--    1 root     system            0 Mar  6 00:00 /var/hacmp/log/ihssa.log
+-rw-r--r--    1 root     system            0 Mar  6 00:00 /var/hacmp/log/maxdbsa.log
+-rw-r--r--    1 root     system        21747 Jul  7 00:00 /var/hacmp/log/clevents
+-rw-r--r--    1 root     system            0 Mar  6 00:00 /var/hacmp/log/hswizard.log
+-rw-r--r--    1 root     system            0 Mar  6 00:00 /var/hacmp/log/wmqsa.log
+-rw-r--r--    1 root     system            0 Mar  6 00:00 /var/hacmp/log/tsm_server.log
+-rw-r--r--    1 root     system            0 Mar  6 00:00 /var/hacmp/log/tsm_client.log
+-rw-r--r--    1 root     system            0 Mar  6 00:00 /var/hacmp/log/tsm_admin.log
+-rw-r--r--    1 root     system            0 Mar  6 00:00 /var/hacmp/log/sapsa.log
+-rw-r--r--    1 root     system            0 Mar  6 00:00 /var/hacmp/log/printServersa.log
+-rw-r--r--    1 root     system            0 Mar  6 00:00 /var/hacmp/log/oraclesa.log
+-rw-r--r--    1 root     system            0 Mar  6 00:00 /var/hacmp/log/oraappsa.log
+-rw-r--r--    1 root     system            0 Mar  6 00:00 /var/hacmp/log/filenetsa.log
+==== EXITED with rc 0 ====
+==== END for i in $(cllog -s | awk '{print $1}'); do ls -l $(cllog -g $i | awk -F: '{print $4}' | grep -v value)/$i; done Tue Jul  7 00:28:03 GST 2015 ====

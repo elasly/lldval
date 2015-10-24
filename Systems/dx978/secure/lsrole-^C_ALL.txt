@@ -1,0 +1,22 @@
+==== This output can be found in Systems/dx978/secure/lsrole-^C_ALL.txt ====
+==== START lsrole -C ALL Mon Jul  6 23:32:53 GST 2015 ====
+#name:authorizations:rolelist:groups:visibility:screens:dfltmsg:msgcat:msgnum:msgset:auth_mode:id:auditclasses:hostsenabledrole:hostsdisabledrole
+AccountAdmin:aix.security.group,aix.security.user:::1:*:User and Group Account Administration:role_desc.cat:4:1:INVOKER:4:::
+BackupRestore:aix.fs.manage.backup,aix.fs.manage.restore:::1:*:Backup and Restore Administration:role_desc.cat:5:1:INVOKER:5:::
+DomainAdmin:aix.security.kerberos,aix.security.ldap,aix.security.nis,aix.security.pki:::1:*:Remote Domain Administration:role_desc.cat:6:1:INVOKER:6:::
+FSAdmin:aix.fs.manage.change,aix.fs.manage.create,aix.fs.manage.debug,aix.fs.manage.defrag,aix.fs.manage.dump,aix.fs.manage.list,aix.fs.manage.mount,aix.fs.manage.quota,aix.fs.manage.recover,aix.fs.manage.remove,aix.fs.manage.snapshot,aix.fs.manage.unmount,aix.fs.object,aix.lvm:::1:*:File System Administration:role_desc.cat:7:1:INVOKER:7:::
+SecPolicy:aix.security.audit,aix.security.auth,aix.security.cmd,aix.security.config,aix.security.device,aix.security.file,aix.security.kst,aix.security.network,aix.security.proc,aix.security.role,aix.security.passwd,aix.security.su,aix.security.tcb,aix.security.tsd:::1:*:Security Policy Administration:role_desc.cat:8:1:INVOKER:8:::
+SysBoot:aix.system.boot.create,aix.system.boot.halt,aix.system.boot.info,aix.system.boot.reboot,aix.system.boot.shutdown:::1:*:System Boot Administration:role_desc.cat:9:1:INVOKER:9:::
+SysConfig:aix.system.boot.create,aix.system.config.bindintcpu,aix.system.config.console,aix.system.config.date,aix.system.config.diag,aix.system.config.dlpar,aix.system.config.inittab,aix.system.config.io,aix.system.config.kext,aix.system.config.mode,aix.system.config.perf,aix.system.config.rset,aix.system.config.uname,aix.system.config.write,aix.system.stat,aix.wpar:::1:*:System Configuration Administration:role_desc.cat:10:1:INVOKER:10:::
+auditadm:aix.security.audit,aix.security.user.audit,aix.security.role.audit:::1:*:Audit Administrator:role_desc.cat:15:1:INVOKER:15:::
+fsadm:aix.fs.manage:::1:*:File System Administrator:role_desc.cat:13:1:INVOKER:13:::
+isso:aix.device,aix.fs.chroot,aix.fs.manage.export,aix.fs.stat,aix.network,aix.proc.fuser,aix.proc.ipc,aix.proc.status,aix.proc.trace:DomainAdmin,SecPolicy,SysConfig::1:*:Information System Security Officer:role_desc.cat:1:1:INVOKER:1:::
+pkgadm:aix.system.install,aix.system.nim:::1:*:Software Package Administrator:role_desc.cat:16:1:INVOKER:16:::
+sa:aix.system.config.acct,aix.system.config.cron,aix.system.config.src,aix.system.install:FSAdmin,AccountAdmin::1:*:System Administrator:role_desc.cat:2:1:INVOKER:2:::
+secadm:aix.security.group.change,aix.security.role.assign,aix.security.domains.assign,aix.security.user.change,aix.security.role.change,aix.security.passwd.normal,aix.security.user.attr.acct_locked,aix.fs.object.acl,aix.fs.object.group,aix.fs.object.mode,aix.fs.object.owner,aix.security.cmd,aix.security.device,aix.security.file,aix.security.dobject:::1:*:Security Administrator:role_desc.cat:11:1:INVOKER:11:::
+so:aix.proc.kill,aix.ras,aix.system.config.init,aix.system.config.wlm:BackupRestore,SysBoot::1:*:System Operator:role_desc.cat:3:1:INVOKER:3:::
+svcadm:aix.system.config.cron,aix.system.config.init,aix.system.config.inittab,aix.system.config.src,aix.security.network,aix.network.config.route,aix.network.config.tcpip,aix.network.config.host,aix.network.daemon,aix.network.nfs:::1:*:Service Administrator:role_desc.cat:14:1:INVOKER:14:::
+sysop:aix.system.boot,aix.system.config.diag,aix.system.stat,aix.device.monitor,aix.device.config.printer,aix.device.stat.printer,aix.proc.status:::1:*:System Operator:role_desc.cat:17:1:INVOKER:17:::
+useradm:aix.security.user.create.normal,aix.security.user.remove.normal,aix.security.user.list,aix.security.user.change,aix.security.role.create,aix.security.role.list,aix.security.group.create.normal,aix.security.ldap,aix.security.nis,aix.security.kerberos,aix.security.pki:::1:*:User Administrator:role_desc.cat:12:1:INVOKER:12:::
+==== EXITED with rc 0 ====
+==== END lsrole -C ALL Mon Jul  6 23:32:53 GST 2015 ====

@@ -1,0 +1,386 @@
+==== This output can be found in Systems/dx1010/network/lsdev-^Cc_adapter_grep_^ent_awk_print_n_Adapter_1_.txt ====
+==== START lsdev -Cc adapter | grep ^ent | awk '{print "\n#### Adapter: " $1" ####";system("entstat " $1)}' Tue Jul  7 13:18:30 CDT 2015 ====
+
+entstat: 0909-003 Unable to connect to device ent0, errno = 19
+
+entstat: 0909-003 Unable to connect to device ent1, errno = 19
+
+entstat: 0909-003 Unable to connect to device ent4, errno = 19
+
+entstat: 0909-003 Unable to connect to device ent5, errno = 19
+
+entstat: 0909-003 Unable to connect to device ent8, errno = 19
+
+entstat: 0909-003 Unable to connect to device ent9, errno = 19
+
+entstat: 0909-003 Unable to connect to device ent10, errno = 19
+
+entstat: 0909-003 Unable to connect to device ent11, errno = 19
+
+entstat: 0909-003 Unable to connect to device ent12, errno = 19
+
+entstat: 0909-003 Unable to connect to device ent16, errno = 19
+
+
+#### Adapter: ent0 ####
+
+#### Adapter: ent1 ####
+
+#### Adapter: ent2 ####
+-------------------------------------------------------------
+ETHERNET STATISTICS (ent2) :
+Device Type: 100/1000 Base-TX PCIe2 Converged Network Adapter (df1020e214103c04)
+Hardware Address: 00:90:fa:02:dc:c0
+Elapsed Time: 0 days 0 hours 0 minutes 1 seconds
+
+Transmit Statistics:                          Receive Statistics:
+--------------------                          -------------------
+Packets: 0                                    Packets: 0
+Bytes: 0                                      Bytes: 0
+Interrupts: 0                                 Interrupts: 0
+Transmit Errors: 0                            Receive Errors: 0
+Packets Dropped: 0                            Packets Dropped: 0
+                                              Bad Packets: 0
+Max Packets on S/W Transmit Queue: 0         
+S/W Transmit Queue Overflow: 0
+Current S/W+H/W Transmit Queue Length: 0
+
+Broadcast Packets: 0                          Broadcast Packets: 0
+Multicast Packets: 0                          Multicast Packets: 0
+No Carrier Sense: 0                           CRC Errors: 0
+DMA Underrun: 0                               DMA Overrun: 0
+Lost CTS Errors: 0                            Alignment Errors: 0
+Max Collision Errors: 0                       No Resource Errors: 0
+Late Collision Errors: 0                      Receive Collision Errors: 0
+Deferred: 0                                   Packet Too Short Errors: 0
+SQE Test: 0                                   Packet Too Long Errors: 0
+Timeout Errors: 0                             Packets Discarded by Adapter: 0
+Single Collision Count: 0                     Receiver Start Count: 0
+Multiple Collision Count: 0
+Current HW Transmit Queue Length: 0
+
+General Statistics:
+-------------------
+No mbuf Errors: 0
+Adapter Reset Count: 9
+Adapter Data Rate: 2000
+Driver Flags: Up Broadcast Simplex 
+	Limbo 64BitSupport ChecksumOffload 
+	LargeSend DataRateSet IPV6_LSO 
+	IPV6_CSO LARGE_RECEIVE 
+
+#### Adapter: ent3 ####
+-------------------------------------------------------------
+ETHERNET STATISTICS (ent3) :
+Device Type: 100/1000 Base-TX PCIe2 Converged Network Adapter (df1020e214103c04)
+Hardware Address: 00:90:fa:02:dc:c1
+Elapsed Time: 0 days 0 hours 0 minutes 1 seconds
+
+Transmit Statistics:                          Receive Statistics:
+--------------------                          -------------------
+Packets: 0                                    Packets: 0
+Bytes: 0                                      Bytes: 0
+Interrupts: 0                                 Interrupts: 0
+Transmit Errors: 0                            Receive Errors: 0
+Packets Dropped: 0                            Packets Dropped: 0
+                                              Bad Packets: 0
+Max Packets on S/W Transmit Queue: 0         
+S/W Transmit Queue Overflow: 0
+Current S/W+H/W Transmit Queue Length: 0
+
+Broadcast Packets: 0                          Broadcast Packets: 0
+Multicast Packets: 0                          Multicast Packets: 0
+No Carrier Sense: 0                           CRC Errors: 0
+DMA Underrun: 0                               DMA Overrun: 0
+Lost CTS Errors: 0                            Alignment Errors: 0
+Max Collision Errors: 0                       No Resource Errors: 0
+Late Collision Errors: 0                      Receive Collision Errors: 0
+Deferred: 0                                   Packet Too Short Errors: 0
+SQE Test: 0                                   Packet Too Long Errors: 0
+Timeout Errors: 0                             Packets Discarded by Adapter: 0
+Single Collision Count: 0                     Receiver Start Count: 0
+Multiple Collision Count: 0
+Current HW Transmit Queue Length: 0
+
+General Statistics:
+-------------------
+No mbuf Errors: 0
+Adapter Reset Count: 9
+Adapter Data Rate: 2000
+Driver Flags: Up Broadcast Simplex 
+	Limbo 64BitSupport ChecksumOffload 
+	LargeSend DataRateSet IPV6_LSO 
+	IPV6_CSO LARGE_RECEIVE 
+
+#### Adapter: ent4 ####
+
+#### Adapter: ent5 ####
+
+#### Adapter: ent6 ####
+-------------------------------------------------------------
+ETHERNET STATISTICS (ent6) :
+Device Type: 100/1000 Base-TX PCIe2 Converged Network Adapter (df1020e214103c04)
+Hardware Address: 00:90:fa:02:de:e8
+Elapsed Time: 0 days 0 hours 0 minutes 1 seconds
+
+Transmit Statistics:                          Receive Statistics:
+--------------------                          -------------------
+Packets: 0                                    Packets: 0
+Bytes: 0                                      Bytes: 0
+Interrupts: 0                                 Interrupts: 0
+Transmit Errors: 0                            Receive Errors: 0
+Packets Dropped: 0                            Packets Dropped: 0
+                                              Bad Packets: 0
+Max Packets on S/W Transmit Queue: 0         
+S/W Transmit Queue Overflow: 0
+Current S/W+H/W Transmit Queue Length: 0
+
+Broadcast Packets: 0                          Broadcast Packets: 0
+Multicast Packets: 0                          Multicast Packets: 0
+No Carrier Sense: 0                           CRC Errors: 0
+DMA Underrun: 0                               DMA Overrun: 0
+Lost CTS Errors: 0                            Alignment Errors: 0
+Max Collision Errors: 0                       No Resource Errors: 0
+Late Collision Errors: 0                      Receive Collision Errors: 0
+Deferred: 0                                   Packet Too Short Errors: 0
+SQE Test: 0                                   Packet Too Long Errors: 0
+Timeout Errors: 0                             Packets Discarded by Adapter: 0
+Single Collision Count: 0                     Receiver Start Count: 0
+Multiple Collision Count: 0
+Current HW Transmit Queue Length: 0
+
+General Statistics:
+-------------------
+No mbuf Errors: 0
+Adapter Reset Count: 9
+Adapter Data Rate: 2000
+Driver Flags: Up Broadcast Simplex 
+	Limbo 64BitSupport ChecksumOffload 
+	LargeSend DataRateSet IPV6_LSO 
+	IPV6_CSO LARGE_RECEIVE 
+
+#### Adapter: ent7 ####
+-------------------------------------------------------------
+ETHERNET STATISTICS (ent7) :
+Device Type: 100/1000 Base-TX PCIe2 Converged Network Adapter (df1020e214103c04)
+Hardware Address: 00:90:fa:02:de:e9
+Elapsed Time: 0 days 0 hours 0 minutes 1 seconds
+
+Transmit Statistics:                          Receive Statistics:
+--------------------                          -------------------
+Packets: 0                                    Packets: 0
+Bytes: 0                                      Bytes: 0
+Interrupts: 0                                 Interrupts: 0
+Transmit Errors: 0                            Receive Errors: 0
+Packets Dropped: 0                            Packets Dropped: 0
+                                              Bad Packets: 0
+Max Packets on S/W Transmit Queue: 0         
+S/W Transmit Queue Overflow: 0
+Current S/W+H/W Transmit Queue Length: 0
+
+Broadcast Packets: 0                          Broadcast Packets: 0
+Multicast Packets: 0                          Multicast Packets: 0
+No Carrier Sense: 0                           CRC Errors: 0
+DMA Underrun: 0                               DMA Overrun: 0
+Lost CTS Errors: 0                            Alignment Errors: 0
+Max Collision Errors: 0                       No Resource Errors: 0
+Late Collision Errors: 0                      Receive Collision Errors: 0
+Deferred: 0                                   Packet Too Short Errors: 0
+SQE Test: 0                                   Packet Too Long Errors: 0
+Timeout Errors: 0                             Packets Discarded by Adapter: 0
+Single Collision Count: 0                     Receiver Start Count: 0
+Multiple Collision Count: 0
+Current HW Transmit Queue Length: 0
+
+General Statistics:
+-------------------
+No mbuf Errors: 0
+Adapter Reset Count: 9
+Adapter Data Rate: 2000
+Driver Flags: Up Broadcast Simplex 
+	Limbo 64BitSupport ChecksumOffload 
+	LargeSend DataRateSet IPV6_LSO 
+	IPV6_CSO LARGE_RECEIVE 
+
+#### Adapter: ent8 ####
+
+#### Adapter: ent9 ####
+
+#### Adapter: ent10 ####
+
+#### Adapter: ent11 ####
+
+#### Adapter: ent12 ####
+
+#### Adapter: ent13 ####
+-------------------------------------------------------------
+ETHERNET STATISTICS (ent13) :
+Device Type: Virtual I/O Ethernet Adapter (l-lan)
+Hardware Address: 6e:99:92:69:b7:09
+Elapsed Time: 0 days 0 hours 0 minutes 0 seconds
+
+Transmit Statistics:                          Receive Statistics:
+--------------------                          -------------------
+Packets: 0                                    Packets: 2
+Bytes: 0                                      Bytes: 124
+Interrupts: 0                                 Interrupts: 2
+Transmit Errors: 0                            Receive Errors: 0
+Packets Dropped: 0                            Packets Dropped: 0
+                                              Bad Packets: 0
+Max Packets on S/W Transmit Queue: 0         
+S/W Transmit Queue Overflow: 0
+Current S/W+H/W Transmit Queue Length: 0
+
+Broadcast Packets: 0                          Broadcast Packets: 0
+Multicast Packets: 0                          Multicast Packets: 2
+No Carrier Sense: 0                           CRC Errors: 0
+DMA Underrun: 0                               DMA Overrun: 0
+Lost CTS Errors: 0                            Alignment Errors: 0
+Max Collision Errors: 0                       No Resource Errors: 0
+Late Collision Errors: 0                      Receive Collision Errors: 0
+Deferred: 0                                   Packet Too Short Errors: 0
+SQE Test: 0                                   Packet Too Long Errors: 0
+Timeout Errors: 0                             Packets Discarded by Adapter: 0
+Single Collision Count: 0                     Receiver Start Count: 0
+Multiple Collision Count: 0
+Current HW Transmit Queue Length: 0
+
+General Statistics:
+-------------------
+No mbuf Errors: 0
+Adapter Reset Count: 0
+Adapter Data Rate: 20000
+Driver Flags: Up Broadcast Running 
+	Simplex 64BitSupport ChecksumOffload 
+	DataRateSet VIOENT 
+
+#### Adapter: ent14 ####
+-------------------------------------------------------------
+ETHERNET STATISTICS (ent14) :
+Device Type: Virtual I/O Ethernet Adapter (l-lan)
+Hardware Address: 6e:99:92:69:b7:0a
+Elapsed Time: 82 days 4 hours 18 minutes 6 seconds
+
+Transmit Statistics:                          Receive Statistics:
+--------------------                          -------------------
+Packets: 43901546                             Packets: 18130079
+Bytes: 52207927351                            Bytes: 2320107426
+Interrupts: 0                                 Interrupts: 16312038
+Transmit Errors: 0                            Receive Errors: 0
+Packets Dropped: 0                            Packets Dropped: 0
+                                              Bad Packets: 0
+Max Packets on S/W Transmit Queue: 0         
+S/W Transmit Queue Overflow: 0
+Current S/W+H/W Transmit Queue Length: 0
+
+Broadcast Packets: 38548                      Broadcast Packets: 3746362
+Multicast Packets: 31569                      Multicast Packets: 31615
+No Carrier Sense: 0                           CRC Errors: 0
+DMA Underrun: 0                               DMA Overrun: 0
+Lost CTS Errors: 0                            Alignment Errors: 0
+Max Collision Errors: 0                       No Resource Errors: 0
+Late Collision Errors: 0                      Receive Collision Errors: 0
+Deferred: 0                                   Packet Too Short Errors: 0
+SQE Test: 0                                   Packet Too Long Errors: 0
+Timeout Errors: 0                             Packets Discarded by Adapter: 0
+Single Collision Count: 0                     Receiver Start Count: 0
+Multiple Collision Count: 0
+Current HW Transmit Queue Length: 0
+
+General Statistics:
+-------------------
+No mbuf Errors: 0
+Adapter Reset Count: 0
+Adapter Data Rate: 20000
+Driver Flags: Up Broadcast Running 
+	Simplex 64BitSupport ChecksumOffload 
+	DataRateSet VIOENT 
+
+#### Adapter: ent15 ####
+-------------------------------------------------------------
+ETHERNET STATISTICS (ent15) :
+Device Type: Virtual I/O Ethernet Adapter (l-lan)
+Hardware Address: 6e:99:92:69:b7:0c
+Elapsed Time: 0 days 0 hours 0 minutes 0 seconds
+
+Transmit Statistics:                          Receive Statistics:
+--------------------                          -------------------
+Packets: 0                                    Packets: 0
+Bytes: 0                                      Bytes: 0
+Interrupts: 0                                 Interrupts: 0
+Transmit Errors: 0                            Receive Errors: 0
+Packets Dropped: 0                            Packets Dropped: 0
+                                              Bad Packets: 0
+Max Packets on S/W Transmit Queue: 0         
+S/W Transmit Queue Overflow: 0
+Current S/W+H/W Transmit Queue Length: 0
+
+Broadcast Packets: 0                          Broadcast Packets: 0
+Multicast Packets: 0                          Multicast Packets: 0
+No Carrier Sense: 0                           CRC Errors: 0
+DMA Underrun: 0                               DMA Overrun: 0
+Lost CTS Errors: 0                            Alignment Errors: 0
+Max Collision Errors: 0                       No Resource Errors: 0
+Late Collision Errors: 0                      Receive Collision Errors: 0
+Deferred: 0                                   Packet Too Short Errors: 0
+SQE Test: 0                                   Packet Too Long Errors: 0
+Timeout Errors: 0                             Packets Discarded by Adapter: 0
+Single Collision Count: 0                     Receiver Start Count: 0
+Multiple Collision Count: 0
+Current HW Transmit Queue Length: 0
+
+General Statistics:
+-------------------
+No mbuf Errors: 0
+Adapter Reset Count: 0
+Adapter Data Rate: 20000
+Driver Flags: Up Broadcast Running 
+	Simplex 64BitSupport ChecksumOffload 
+	DataRateSet VIOENT 
+
+#### Adapter: ent16 ####
+
+#### Adapter: ent17 ####
+-------------------------------------------------------------
+ETHERNET STATISTICS (ent17) :
+Device Type: Shared Ethernet Adapter
+Hardware Address: 00:90:fa:02:dc:be
+Elapsed Time: 82 days 4 hours 18 minutes 1 seconds
+
+Transmit Statistics:                          Receive Statistics:
+--------------------                          -------------------
+Packets: 117461092992                         Packets: 117476352420
+Bytes: 673493156352195                        Bytes: 673494819212754
+Interrupts: 691204205                         Interrupts: 81215898234
+Transmit Errors: 0                            Receive Errors: 71
+Packets Dropped: 0                            Packets Dropped: 100
+                                              Bad Packets: 0
+Max Packets on S/W Transmit Queue: 875       
+S/W Transmit Queue Overflow: 0
+Current S/W+H/W Transmit Queue Length: 279
+
+Elapsed Time: 0 days 0 hours 0 minutes 0 seconds
+Broadcast Packets: 66234286                   Broadcast Packets: 70121293
+Multicast Packets: 17740973                   Multicast Packets: 29016928
+No Carrier Sense: 0                           CRC Errors: 42650
+DMA Underrun: 0                               DMA Overrun: 0
+Lost CTS Errors: 0                            Alignment Errors: 0
+Max Collision Errors: 0                       No Resource Errors: 100
+Late Collision Errors: 0                      Receive Collision Errors: 0
+Deferred: 0                                   Packet Too Short Errors: 214
+SQE Test: 0                                   Packet Too Long Errors: 12122
+Timeout Errors: 0                             Packets Discarded by Adapter: 0
+Single Collision Count: 0                     Receiver Start Count: 0
+Multiple Collision Count: 0
+Current HW Transmit Queue Length: 279
+
+General Statistics:
+-------------------
+No mbuf Errors: 0
+Adapter Reset Count: 0
+Adapter Data Rate: 0
+Driver Flags: Up Broadcast Running 
+	Simplex 64BitSupport ChecksumOffload 
+	LargeSend DataRateSet 
+==== EXITED with rc 0 ====
+==== END lsdev -Cc adapter | grep ^ent | awk '{print "\n#### Adapter: " $1" ####";system("entstat " $1)}' Tue Jul  7 13:18:38 CDT 2015 ====

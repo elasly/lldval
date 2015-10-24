@@ -1,0 +1,18 @@
+==== This output can be found in Systems/dx1011/storage/lsfs.txt ====
+==== START lsfs Tue Jul  7 13:42:40 CDT 2015 ====
+Name            Nodename   Mount Pt               VFS   Size    Options    Auto Accounting
+/dev/hd4        --         /                      jfs2  1048576 rw         yes  no 
+/dev/hd1        --         /home                  jfs2  20971520 rw         yes  no 
+/dev/hd2        --         /usr                   jfs2  11534336 rw         yes  no 
+/dev/hd9var     --         /var                   jfs2  4194304 rw         yes  no 
+/dev/hd3        --         /tmp                   jfs2  16777216 rw         yes  no 
+/dev/hd11admin  --         /admin                 jfs2  1048576 rw         yes  no 
+/proc           --         /proc                  procfs --      rw         yes  no 
+/dev/hd10opt    --         /opt                   jfs2  2097152 rw         yes  no 
+/dev/livedump   --         /var/adm/ras/livedump  jfs2  1048576 rw         yes  no 
+/dev/VMLibrary  --         /var/vio/VMLibrary     jfs2  62914560 rw         yes  no 
+/dev/cd0        --         /cdrom                 cdrfs --      ro         no   no 
+/dev/vioupdatelv --         /vioupdate             jfs2  10485760 rw         no   no 
+/dev/perfdatalv --         /perfdata              jfs2  20971520 rw         yes  no 
+==== EXITED with rc 0 ====
+==== END lsfs Tue Jul  7 13:42:40 CDT 2015 ====

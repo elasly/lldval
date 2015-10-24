@@ -1,0 +1,58 @@
+==== This output can be found in Systems/dx989/storage/lsattr_disk.txt ====
+==== START lsattr_disk  Thu Aug  6 11:28:05 GST 2015 ====
+
+#### DISK: hdisk0 ####
+PCM             PCM/friend/Hitachi               Path Control Module              False
+PR_key_value    none                             Reserve Key                      True
+algorithm       fail_over                        Algorithm                        True
+clr_q           no                               Device CLEARS its Queue on error True
+dist_err_pcnt   0                                Distributed Error Percentage     True
+dist_tw_width   50                               Distributed Error Sample Time    True
+hcheck_cmd      inquiry                          Health Check Command             True
+hcheck_interval 60                               Health Check Interval            True
+hcheck_mode     nonactive                        Health Check Mode                True
+location                                         Location Label                   True
+lun_id          0x0                              Logical Unit Number ID           False
+lun_reset_spt   yes                              SCSI LUN reset                   True
+max_transfer    0x40000                          Maximum TRANSFER Size            True
+node_name       0x50060e8007e43a6a               Node Name                        False
+pvid            00f9ada1fdd9ba680000000000000000 Physical Volume ID               False
+q_err           yes                              Use QERR bit                     False
+q_type          simple                           Queue TYPE                       True
+queue_depth     2                                Queue DEPTH                      True
+reassign_to     120                              REASSIGN time out                True
+reserve_policy  single_path                      Reserve Policy                   True
+rw_timeout      60                               READ/WRITE time out              True
+scsi_id         0x25700                          SCSI ID                          False
+start_timeout   60                               START UNIT time out              True
+timeout_policy  retry_path                       Timeout Policy                   True
+ww_name         0x50060e8007e43a6a               FC World Wide Name               False
+
+#### DISK: hdisk1 ####
+PCM             PCM/friend/Hitachi               Path Control Module              False
+PR_key_value    none                             Reserve Key                      True
+algorithm       fail_over                        Algorithm                        True
+clr_q           no                               Device CLEARS its Queue on error True
+dist_err_pcnt   0                                Distributed Error Percentage     True
+dist_tw_width   50                               Distributed Error Sample Time    True
+hcheck_cmd      inquiry                          Health Check Command             True
+hcheck_interval 60                               Health Check Interval            True
+hcheck_mode     nonactive                        Health Check Mode                True
+location                                         Location Label                   True
+lun_id          0x1000000000000                  Logical Unit Number ID           False
+lun_reset_spt   yes                              SCSI LUN reset                   True
+max_transfer    0x40000                          Maximum TRANSFER Size            True
+node_name       0x50060e8007e43a7a               Node Name                        False
+pvid            00f92eec01bc86230000000000000000 Physical Volume ID               False
+q_err           yes                              Use QERR bit                     False
+q_type          simple                           Queue TYPE                       True
+queue_depth     32                               Queue DEPTH                      True
+reassign_to     120                              REASSIGN time out                True
+reserve_policy  no_reserve                       Reserve Policy                   True
+rw_timeout      60                               READ/WRITE time out              True
+scsi_id         0x25700                          SCSI ID                          False
+start_timeout   60                               START UNIT time out              True
+timeout_policy  retry_path                       Timeout Policy                   True
+ww_name         0x50060e8007e43a7a               FC World Wide Name               False
+==== EXITED with rc 0 ====
+==== END lsattr_disk  Thu Aug  6 11:28:05 GST 2015 ====

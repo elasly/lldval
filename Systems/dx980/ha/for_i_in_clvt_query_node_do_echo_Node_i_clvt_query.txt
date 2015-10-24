@@ -1,0 +1,54 @@
+==== This output can be found in Systems/dx980/ha/for_i_in_clvt_query_node_do_echo_Node_i_clvt_query.txt ====
+==== START for i in $(clvt query node); do  echo "### Node: $i ###"; clvt query node $i; echo ""; done Mon Jul  6 23:23:26 GST 2015 ====
+### Node: DX980 ###
+NAME="DX980"
+HOSTNAME="DX980"
+GID="15354269962"
+STATE="NORMAL"
+RAW_STATE="ST_STABLE"
+CAA_STATE="UP"
+COMMUNICATION="UP"
+COMMPATH="DX980"
+LOCALHOST="true"
+VERSION="7.1.3.2"
+VERSION_NUMBER="15"
+EDITION="STANDARD"
+AIX_LEVEL="7100-03-04-1441"
+UNSYNCED_CHANGES="false"
+START_ON_BOOT="false"
+BROADCAST_ON_START="false"
+CLINFO_ON_START="true"
+VERIFY_ON_START="true"
+
+IPLABEL="DX980"
+IPADDRESS="10.51.226.227"
+PERSISTENT="boot"
+NETWORK="net_ether_01"
+
+### Node: DX979 ###
+NAME="DX979"
+HOSTNAME="DX979"
+GID="15354269961"
+STATE="NORMAL"
+RAW_STATE="ST_STABLE"
+CAA_STATE="UP"
+COMMUNICATION="UP"
+COMMPATH="DX979"
+LOCALHOST="false"
+VERSION="7.1.3.2"
+VERSION_NUMBER="15"
+EDITION="STANDARD"
+AIX_LEVEL="7100-03-04-1441"
+UNSYNCED_CHANGES="false"
+START_ON_BOOT="false"
+BROADCAST_ON_START="false"
+CLINFO_ON_START="true"
+VERIFY_ON_START="true"
+
+IPLABEL="DX979"
+IPADDRESS="10.51.226.226"
+PERSISTENT="boot"
+NETWORK="net_ether_01"
+
+==== EXITED with rc 0 ====
+==== END for i in $(clvt query node); do  echo "### Node: $i ###"; clvt query node $i; echo ""; done Mon Jul  6 23:23:30 GST 2015 ====

@@ -1,0 +1,4 @@
+==== This output can be found in Systems/dx980/storage/lsdev-^C_awk_aio_print_Async_IO_1_system_lsattr-^E.txt ====
+==== START lsdev -C | awk '/aio/ { print "#### Async IO: " $1 " ####";system("lsattr -El " $1);print "\n"}' Mon Jul  6 23:20:00 GST 2015 ====
+==== EXITED with rc 0 ====
+==== END lsdev -C | awk '/aio/ { print "#### Async IO: " $1 " ####";system("lsattr -El " $1);print "\n"}' Mon Jul  6 23:20:00 GST 2015 ====

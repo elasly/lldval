@@ -1,0 +1,22 @@
+==== This output can be found in Systems/dx980/ha/cllsnode.txt ====
+==== START cllsnode Mon Jul  6 23:23:11 GST 2015 ====
+
+Node DX979
+	Interfaces to network net_ether_01
+		Communication Interface: Name DX979, Attribute public, IP address 10.51.226.226
+		Communication Interface: Name DX979-VIP, Attribute public, IP address 10.51.226.229
+	Interfaces to network net_ether_02
+		Communication Interface: Name DX979_b, Attribute public, IP address 10.51.227.231
+	Interfaces to network net_ether_03
+		Communication Interface: Name DX979_sc0, Attribute public, IP address 10.51.229.222
+
+Node DX980
+	Interfaces to network net_ether_01
+		Communication Interface: Name DX980, Attribute public, IP address 10.51.226.227
+		Communication Interface: Name DX979-VIP, Attribute public, IP address 10.51.226.229
+	Interfaces to network net_ether_02
+		Communication Interface: Name DX980_b, Attribute public, IP address 10.51.227.232
+	Interfaces to network net_ether_03
+		Communication Interface: Name DX980_sc0, Attribute public, IP address 10.51.229.223
+==== EXITED with rc 0 ====
+==== END cllsnode Mon Jul  6 23:23:11 GST 2015 ====

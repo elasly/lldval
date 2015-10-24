@@ -1,0 +1,13 @@
+==== This output can be found in Systems/dx989/perf/vmstat-l_5_3.txt ====
+==== START vmstat -l 5 3  Thu Aug  6 11:25:09 GST 2015 ====
+
+System configuration: lcpu=24 mem=98304MB ent=4.00
+
+kthr    memory              page              faults              cpu           large-page 
+----- ----------- ------------------------ ------------ ----------------------- -----------
+ r  b   avm   fre  re  pi  po  fr   sr  cy  in   sy  cs us sy id wa    pc    ec   alp   flp
+ 1  0 1741304 21946562   0   0   0   0    0   0  53 1107377 1092 12  9 79  0  1.31  32.8     0     0
+ 1  0 1741401 21946465   0   0   0   0    0   0  22 1072589 556 10  6 83  0  1.03  25.7     0     0
+ 1  0 1740522 21947344   0   0   0   0    0   0  28 991506 627 10  6 83  0  1.03  25.7     0     0
+==== EXITED with rc 0 ====
+==== END vmstat -l 5 3  Thu Aug  6 11:25:24 GST 2015 ====

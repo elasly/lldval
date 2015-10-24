@@ -1,0 +1,14 @@
+==== This output can be found in Systems/dx986/secure/ls-l_etc_ssh.txt ====
+==== START ls -l /etc/ssh Tue Jul  7 00:44:15 GST 2015 ====
+total 328
+-rw-------    1 root     system       132839 Mar  4 12:47 moduli
+-rw-r--r--    1 root     system         1555 Mar  4 12:47 ssh_config
+-rw-------    1 root     system          672 Apr 19 16:20 ssh_host_dsa_key
+-rw-r--r--    1 root     system          604 Apr 19 16:20 ssh_host_dsa_key.pub
+-rw-------    1 root     system          979 Apr 19 16:20 ssh_host_key
+-rw-r--r--    1 root     system          644 Apr 19 16:20 ssh_host_key.pub
+-rw-------    1 root     system         1675 Apr 19 16:20 ssh_host_rsa_key
+-rw-r--r--    1 root     system          396 Apr 19 16:20 ssh_host_rsa_key.pub
+-rw-r--r--    1 root     system         3180 Mar  4 12:47 sshd_config
+==== EXITED with rc 0 ====
+==== END ls -l /etc/ssh Tue Jul  7 00:44:15 GST 2015 ====

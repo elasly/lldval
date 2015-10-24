@@ -1,0 +1,128 @@
+==== This output can be found in Systems/dx978/caa/lscluster-i.txt ====
+==== START lscluster -i Mon Jul  6 23:43:24 GST 2015 ====
+Network/Storage Interface Query
+
+Cluster Name: DX977_cluster
+Cluster UUID: 8de2ff1e-d862-11e4-bbce-4a64d4904005
+Number of nodes reporting = 2
+Number of nodes stale = 0
+Number of nodes expected = 2
+
+Node DX978
+Node UUID = 8dddd41c-d862-11e4-bbce-4a64d4904005
+Number of interfaces discovered = 4
+	Interface number 1, en0
+		IFNET type = 6 (IFT_ETHER)
+		NDD type = 7 (NDD_ISO88023)
+		MAC address length = 6
+		MAC address = 4A:64:D4:90:40:04
+		Smoothed RTT across interface = 0
+		Mean deviation in network RTT across interface = 0
+		Probe interval for interface = 990 ms
+		IFNET flags for interface = 0x1E084863
+		NDD flags for interface = 0x0021081B
+		Interface state = UP
+		Number of regular addresses configured on interface = 1
+		IPv4 ADDRESS: 10.51.226.225 broadcast 10.51.226.255 netmask 255.255.255.0
+		Number of cluster multicast addresses configured on interface = 1
+		IPv4 MULTICAST ADDRESS: 228.51.226.225
+	Interface number 2, en1
+		IFNET type = 6 (IFT_ETHER)
+		NDD type = 7 (NDD_ISO88023)
+		MAC address length = 6
+		MAC address = 4A:64:D4:90:40:05
+		Smoothed RTT across interface = 0
+		Mean deviation in network RTT across interface = 0
+		Probe interval for interface = 990 ms
+		IFNET flags for interface = 0x1E084863
+		NDD flags for interface = 0x0021081B
+		Interface state = UP
+		Number of regular addresses configured on interface = 1
+		IPv4 ADDRESS: 10.51.227.230 broadcast 10.51.227.255 netmask 255.255.255.0
+		Number of cluster multicast addresses configured on interface = 1
+		IPv4 MULTICAST ADDRESS: 228.51.226.225
+	Interface number 3, en3
+		IFNET type = 6 (IFT_ETHER)
+		NDD type = 7 (NDD_ISO88023)
+		MAC address length = 6
+		MAC address = 4A:64:D4:90:40:07
+		Smoothed RTT across interface = 0
+		Mean deviation in network RTT across interface = 0
+		Probe interval for interface = 990 ms
+		IFNET flags for interface = 0x1E084863
+		NDD flags for interface = 0x0021081B
+		Interface state = UP
+		Number of regular addresses configured on interface = 1
+		IPv4 ADDRESS: 10.51.229.221 broadcast 10.51.229.255 netmask 255.255.255.0
+		Number of cluster multicast addresses configured on interface = 1
+		IPv4 MULTICAST ADDRESS: 228.51.226.225
+	Interface number 4, dpcom
+		IFNET type = 0 (none)
+		NDD type = 305 (NDD_PINGCOMM)
+		Smoothed RTT across interface = 669
+		Mean deviation in network RTT across interface = 1206
+		Probe interval for interface = 18750 ms
+		IFNET flags for interface = 0x00000000
+		NDD flags for interface = 0x00000009
+		Interface state = UP RESTRICTED AIX_CONTROLLED
+
+Node DX977
+Node UUID = 8dddd3cc-d862-11e4-bbce-4a64d4904005
+Number of interfaces discovered = 4
+	Interface number 1, en0
+		IFNET type = 6 (IFT_ETHER)
+		NDD type = 7 (NDD_ISO88023)
+		MAC address length = 6
+		MAC address = 4A:64:D8:A2:B1:04
+		Smoothed RTT across interface = 0
+		Mean deviation in network RTT across interface = 0
+		Probe interval for interface = 990 ms
+		IFNET flags for interface = 0x1E084863
+		NDD flags for interface = 0x0021081B
+		Interface state = UP
+		Number of regular addresses configured on interface = 2
+		IPv4 ADDRESS: 10.51.226.224 broadcast 10.51.226.255 netmask 255.255.255.0
+		IPv4 ADDRESS: 10.51.226.228 broadcast 10.51.226.255 netmask 255.255.255.0
+		Number of cluster multicast addresses configured on interface = 1
+		IPv4 MULTICAST ADDRESS: 228.51.226.225
+	Interface number 2, en1
+		IFNET type = 6 (IFT_ETHER)
+		NDD type = 7 (NDD_ISO88023)
+		MAC address length = 6
+		MAC address = 4A:64:D8:A2:B1:05
+		Smoothed RTT across interface = 0
+		Mean deviation in network RTT across interface = 0
+		Probe interval for interface = 990 ms
+		IFNET flags for interface = 0x1E084863
+		NDD flags for interface = 0x0021081B
+		Interface state = UP
+		Number of regular addresses configured on interface = 1
+		IPv4 ADDRESS: 10.51.227.229 broadcast 10.51.227.255 netmask 255.255.255.0
+		Number of cluster multicast addresses configured on interface = 1
+		IPv4 MULTICAST ADDRESS: 228.51.226.225
+	Interface number 3, en3
+		IFNET type = 6 (IFT_ETHER)
+		NDD type = 7 (NDD_ISO88023)
+		MAC address length = 6
+		MAC address = 4A:64:D8:A2:B1:07
+		Smoothed RTT across interface = 0
+		Mean deviation in network RTT across interface = 0
+		Probe interval for interface = 990 ms
+		IFNET flags for interface = 0x1E084863
+		NDD flags for interface = 0x0021081B
+		Interface state = UP
+		Number of regular addresses configured on interface = 1
+		IPv4 ADDRESS: 10.51.229.220 broadcast 10.51.229.255 netmask 255.255.255.0
+		Number of cluster multicast addresses configured on interface = 1
+		IPv4 MULTICAST ADDRESS: 228.51.226.225
+	Interface number 4, dpcom
+		IFNET type = 0 (none)
+		NDD type = 305 (NDD_PINGCOMM)
+		Smoothed RTT across interface = 979
+		Mean deviation in network RTT across interface = 760
+		Probe interval for interface = 17390 ms
+		IFNET flags for interface = 0x00000000
+		NDD flags for interface = 0x00000009
+		Interface state = UP RESTRICTED AIX_CONTROLLED
+==== EXITED with rc 0 ====
+==== END lscluster -i Mon Jul  6 23:43:24 GST 2015 ====

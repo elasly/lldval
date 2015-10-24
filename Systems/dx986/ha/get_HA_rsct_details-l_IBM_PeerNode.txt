@@ -1,0 +1,17 @@
+==== This output can be found in Systems/dx986/ha/get_HA_rsct_details-l_IBM_PeerNode.txt ====
+==== START get_HA_rsct_details -l IBM.PeerNode Tue Jul  7 00:57:09 GST 2015 ====
+Resource Persistent Attributes for IBM.PeerNode
+resource 1:
+	Name               = "DX986"
+	NodeList           = {1}
+	RSCTVersion        = "3.2.0.0"
+	ClassVersions      = {}
+	CritRsrcProtMethod = 0
+	IsQuorumNode       = 1
+	IsPreferredGSGL    = 1
+	NodeUUID           = "55e03ea6-e721-11e4-97bb-6e9994d59704"
+	HostName           = "DX986"
+	ActivePeerDomain   = "DX986_cluster"
+	NodeNameList       = {"DX986"}
+==== EXITED with rc 0 ====
+==== END get_HA_rsct_details -l IBM.PeerNode Tue Jul  7 00:57:09 GST 2015 ====

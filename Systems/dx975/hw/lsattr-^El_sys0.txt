@@ -1,0 +1,43 @@
+==== This output can be found in Systems/dx975/hw/lsattr-^El_sys0.txt ====
+==== START lsattr -El sys0 Tue Jul  7 12:49:34 CDT 2015 ====
+SW_dist_intr    false                                Enable SW distribution of interrupts                True
+autorestart     true                                 Automatically REBOOT OS after a crash               True
+boottype        disk                                 N/A                                                 False
+capacity_inc    0.01                                 Processor capacity increment                        False
+capped          false                                Partition is capped                                 False
+chown_restrict  true                                 Chown Restriction Mode                              True
+conslogin       enable                               System Console Login                                False
+cpuguard        enable                               CPU Guard                                           True
+dedicated       false                                Partition is dedicated                              False
+enhanced_RBAC   true                                 Enhanced RBAC Mode                                  True
+ent_capacity    2.00                                 Entitled processor capacity                         False
+frequency       6400000000                           System Bus Frequency                                False
+fullcore        false                                Enable full CORE dump                               True
+fwversion       IBM,AM780_068                        Firmware version and revision levels                False
+ghostdev        0                                    Recreate ODM devices on system change / modify PVID True
+id_to_partition 0X8000109BE2300001                   Partition ID                                        False
+id_to_system    0X8000109BE2300000                   System ID                                           False
+iostat          false                                Continuously maintain DISK I/O history              True
+keylock         normal                               State of system keylock at boot time                False
+log_pg_dealloc  true                                 Log predictive memory page deallocation events      True
+max_capacity    4.00                                 Maximum potential processor capacity                False
+max_logname     9                                    Maximum login name length at boot time              True
+maxbuf          20                                   Maximum number of pages in block I/O BUFFER CACHE   True
+maxmbuf         0                                    Maximum Kbytes of real memory allowed for MBUFS     True
+maxpout         8193                                 HIGH water mark for pending write I/Os per file     True
+maxuproc        128                                  Maximum number of PROCESSES allowed per user        True
+min_capacity    1.00                                 Minimum potential processor capacity                False
+minpout         4096                                 LOW water mark for pending write I/Os per file      True
+modelname       IBM,9179-MHD                         Machine name                                        False
+ncargs          256                                  ARG/ENV list size in 4K byte blocks                 True
+nfs4_acl_compat secure                               NFS4 ACL Compatibility Mode                         True
+os_uuid         566f11a0-6bc5-45fd-b273-cb3bb510c3a4 N/A                                                 True
+pre430core      false                                Use pre-430 style CORE dump                         True
+pre520tune      disable                              Pre-520 tuning compatibility mode                   True
+realmem         8388608                              Amount of usable physical memory in Kbytes          False
+rtasversion     1                                    Open Firmware RTAS version                          False
+sed_config      select                               Stack Execution Disable (SED) Mode                  True
+systemid        IBM,0221ADA1V                        Hardware system identifier                          False
+variable_weight 255                                  Variable processor capacity weight                  False
+==== EXITED with rc 0 ====
+==== END lsattr -El sys0 Tue Jul  7 12:49:34 CDT 2015 ====

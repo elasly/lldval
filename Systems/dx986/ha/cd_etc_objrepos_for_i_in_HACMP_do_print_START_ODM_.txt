@@ -1,0 +1,5317 @@
+==== This output can be found in Systems/dx986/ha/cd_etc_objrepos_for_i_in_HACMP_do_print_START_ODM_.txt ====
+==== START cd /etc/objrepos; for i in HACMP*;do print "
+
+#### START ODM class: $i ####"; odmget $i;print "#### END ODM class: $i ####";done  Tue Jul  7 00:56:33 GST 2015 ====
+
+
+#### START ODM class: HACMPLDAP ####
+#### END ODM class: HACMPLDAP ####
+
+
+#### START ODM class: HACMPadapter ####
+
+HACMPadapter:
+	type = "ether"
+	network = "net_ether_01"
+	nodename = ""
+	ip_label = "DX986-VIP"
+	function = "shared"
+	identifier = "10.51.226.233"
+	netmask = "255.255.255.0"
+	haddr = ""
+	interfacename = ""
+	hb_alias = ""
+	nodebound = 0
+	max_aliases = 0
+	sitename = "ignore"
+
+HACMPadapter:
+	type = "ether"
+	network = "net_ether_01"
+	nodename = "DX986"
+	ip_label = "DX986"
+	function = "boot"
+	identifier = "10.51.226.231"
+	netmask = "255.255.255.0"
+	haddr = ""
+	interfacename = "en0"
+	hb_alias = ""
+	nodebound = 0
+	max_aliases = 0
+	sitename = ""
+
+HACMPadapter:
+	type = "ether"
+	network = "net_ether_01"
+	nodename = "DX987"
+	ip_label = "DX987"
+	function = "boot"
+	identifier = "10.51.226.232"
+	netmask = "255.255.255.0"
+	haddr = ""
+	interfacename = "en0"
+	hb_alias = ""
+	nodebound = 0
+	max_aliases = 0
+	sitename = ""
+#### END ODM class: HACMPadapter ####
+
+
+#### START ODM class: HACMPcluster ####
+
+HACMPcluster:
+	id = 1522149262
+	name = "DX986_cluster"
+	nodename = "DX986"
+	sec_level = "Standard"
+	sec_level_msg = ""
+	sec_encryption = ""
+	sec_persistent = ""
+	last_node_ids = ""
+	highest_node_id = 0
+	last_network_ids = ""
+	highest_network_id = 0
+	last_site_ids = ""
+	highest_site_id = 0
+	handle = 1
+	cluster_version = 15
+	reserved1 = 0
+	reserved2 = 0
+	wlm_subdir = ""
+	settling_time = 0
+	rg_distribution_policy = "node"
+	noautoverification = 0
+	clvernodename = ""
+	clverhour = 0
+	clverstartupoptions = 0
+	node_down_delay = 10
+	node_timeout = 20
+	remote_HB_factor = 0
+	link_timeout = 0
+	multi_site_lc = -1
+	heartbeattype = "U"
+	single_node_swap = 0
+	honorTempHostNameChanges = 0
+#### END ODM class: HACMPcluster ####
+
+
+#### START ODM class: HACMPcsserver ####
+#### END ODM class: HACMPcsserver ####
+
+
+#### START ODM class: HACMPcustom ####
+#### END ODM class: HACMPcustom ####
+
+
+#### START ODM class: HACMPdaemons ####
+
+HACMPdaemons:
+	nodename = "DX986"
+	daemon = "clstrmgr"
+	type = "start"
+	object = "manage"
+	value = "auto"
+
+HACMPdaemons:
+	nodename = "DX986"
+	daemon = "clstrmgr"
+	type = "start"
+	object = "broadcast"
+	value = "false"
+
+HACMPdaemons:
+	nodename = "DX986"
+	daemon = "clinfo"
+	type = "start"
+	object = "time"
+	value = "false"
+
+HACMPdaemons:
+	nodename = "DX986"
+	daemon = "clstrmgr_scripts"
+	type = "resource_locator"
+	object = "DX986_RSG"
+	value = "UP"
+
+HACMPdaemons:
+	nodename = "DX986"
+	daemon = "clstrmgrES"
+	type = "stop"
+	object = "time"
+	value = "now"
+
+HACMPdaemons:
+	nodename = "DX986"
+	daemon = "clstrmgrES"
+	type = "stop"
+	object = "broadcast"
+	value = "false"
+
+HACMPdaemons:
+	nodename = "DX986"
+	daemon = "clstrmgrES"
+	type = "stop"
+	object = "mode"
+	value = "graceful"
+#### END ODM class: HACMPdaemons ####
+
+
+#### START ODM class: HACMPdisksubsys ####
+#### END ODM class: HACMPdisksubsys ####
+
+
+#### START ODM class: HACMPdisktype ####
+#### END ODM class: HACMPdisktype ####
+
+
+#### START ODM class: HACMPercmf ####
+#### END ODM class: HACMPercmf ####
+
+
+#### START ODM class: HACMPercmfglobals ####
+#### END ODM class: HACMPercmfglobals ####
+
+
+#### START ODM class: HACMPevent ####
+
+HACMPevent:
+	name = "swap_adapter"
+	desc = "Script run to swap IP Addresses between two network adapters."
+	setno = 101
+	msgno = 1
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/swap_adapter"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "swap_adapter_complete"
+	desc = "Script run after the swap_adapter script has successfully completed."
+	setno = 101
+	msgno = 2
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/swap_adapter_complete"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "network_up"
+	desc = "Script run after a network has become active."
+	setno = 101
+	msgno = 3
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/network_up"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "network_down"
+	desc = "Script run when a network has failed."
+	setno = 101
+	msgno = 4
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/network_down"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "network_up_complete"
+	desc = "Script run after the network_up script has successfully completed."
+	setno = 101
+	msgno = 5
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/network_up_complete"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "network_down_complete"
+	desc = "Script run after the network_down script has successfully completed."
+	setno = 101
+	msgno = 6
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/network_down_complete"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "node_up"
+	desc = "Script run when a node is attempting to join the cluster."
+	setno = 101
+	msgno = 7
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/node_up"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "node_down"
+	desc = "Script run when a node is attempting to leave the cluster."
+	setno = 101
+	msgno = 8
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/node_down"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "node_up_complete"
+	desc = "Script run after the node_up script has successfully completed."
+	setno = 101
+	msgno = 9
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/node_up_complete"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "node_down_complete"
+	desc = "Script run after the node_down script has successfully completed."
+	setno = 101
+	msgno = 10
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/node_down_complete"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "join_standby"
+	desc = "Script run after a standby adapter has become active."
+	setno = 101
+	msgno = 11
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/join_standby"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "fail_standby"
+	desc = "Script run after a standby adapter has failed."
+	setno = 101
+	msgno = 12
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/fail_standby"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "acquire_service_addr"
+	desc = "Script run to configure a service adapter with a service address."
+	setno = 101
+	msgno = 13
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/acquire_service_addr"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "acquire_takeover_addr"
+	desc = "Script run to configure a standby adapter with a service address."
+	setno = 101
+	msgno = 14
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/acquire_takeover_addr"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "get_disk_vg_fs"
+	desc = "Script run to acquire disks, varyon volume groups, and mount filesystems."
+	setno = 101
+	msgno = 15
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/get_disk_vg_fs"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "node_down_local"
+	desc = "Script run when it is the local node which is leaving the cluster."
+	setno = 101
+	msgno = 16
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/node_down_local"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "node_down_local_complete"
+	desc = "Script run after the node_down_local script has successfully completed."
+	setno = 101
+	msgno = 17
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/node_down_local_complete"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "node_down_remote"
+	desc = "Script run when it is a remote node which is leaving the cluster."
+	setno = 101
+	msgno = 18
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/node_down_remote"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "node_down_remote_complete"
+	desc = "Script run after the node_down_remote script has successfully completed."
+	setno = 101
+	msgno = 19
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/node_down_remote_complete"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "node_up_local"
+	desc = "Script run when it is the local node which is joining the cluster."
+	setno = 101
+	msgno = 20
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/node_up_local"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "node_up_local_complete"
+	desc = "Script run after the node_up_local script has successfully completed."
+	setno = 101
+	msgno = 21
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/node_up_local_complete"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "node_up_remote"
+	desc = "Script run when it is a remote node which is joining the cluster."
+	setno = 101
+	msgno = 22
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/node_up_remote"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "node_up_remote_complete"
+	desc = "Script run after the node_up_remote script has successfully completed."
+	setno = 101
+	msgno = 23
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/node_up_remote_complete"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "release_service_addr"
+	desc = "Script run to configure the boot address on the service adapter."
+	setno = 101
+	msgno = 24
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/release_service_addr"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "release_takeover_addr"
+	desc = "Script run to configure a standby address on a standby adapter."
+	setno = 101
+	msgno = 25
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/release_takeover_addr"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "release_vg_fs"
+	desc = "Script run to unmount filesystems and varyoff volume groups."
+	setno = 101
+	msgno = 26
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/release_vg_fs"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "start_server"
+	desc = "Script run to start application servers."
+	setno = 101
+	msgno = 27
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/start_server"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "stop_server"
+	desc = "Script run to stop application servers."
+	setno = 101
+	msgno = 28
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/stop_server"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "config_too_long"
+	desc = "Script run when the Cluster Manager has been in configuration for too long."
+	setno = 101
+	msgno = 29
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/config_too_long"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "event_error"
+	desc = "Script run when a previously executed script has failed to complete successfully."
+	setno = 101
+	msgno = 30
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/event_error"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "reconfig_topology_start"
+	desc = "Topology reconfiguration is starting."
+	setno = 101
+	msgno = 31
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/reconfig_topology_start"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "reconfig_topology_complete"
+	desc = "Topology reconfiguration is complete."
+	setno = 101
+	msgno = 32
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/reconfig_topology_complete"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "reconfig_resource_release"
+	desc = "Release old resources."
+	setno = 101
+	msgno = 33
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/reconfig_resource_release"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "reconfig_resource_release_primary"
+	desc = "Release old primary resources."
+	setno = 101
+	msgno = 33
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/reconfig_resource_release_primary"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "reconfig_resource_release_secondary"
+	desc = "Release old secondary resources."
+	setno = 101
+	msgno = 33
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/reconfig_resource_release_secondary"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "reconfig_resource_acquire_secondary"
+	desc = "Acquire secondary resources."
+	setno = 101
+	msgno = 34
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/reconfig_resource_acquire_secondary"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "reconfig_resource_complete_secondary"
+	desc = "Acquire complete for secondary resources."
+	setno = 101
+	msgno = 35
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/reconfig_resource_complete_secondary"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "reconfig_resource_release_fence"
+	desc = "Script to process disk fencing during DARE release."
+	setno = 101
+	msgno = 77
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/reconfig_resource_release_fence"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "reconfig_resource_acquire_fence"
+	desc = "Script to process disk fencing during DARE acquire."
+	setno = 101
+	msgno = 78
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/reconfig_resource_acquire_fence"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "reconfig_resource_acquire"
+	desc = "Acquire new resources."
+	setno = 101
+	msgno = 34
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/reconfig_resource_acquire"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "reconfig_resource_complete"
+	desc = "Resource reconfiguration is complete."
+	setno = 101
+	msgno = 35
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/reconfig_resource_complete"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "migrate"
+	desc = "Migrate cluster from PowerHA SystemMirror Classic to PowerHA SystemMirror/ES."
+	setno = 101
+	msgno = 36
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/migrate"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "migrate_complete"
+	desc = "Migration from PowerHA SystemMirror Classic is complete."
+	setno = 101
+	msgno = 37
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/migrate_complete"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "acquire_aconn_service"
+	desc = "Script run to move AIX Connections network protocols to service adapters."
+	setno = 101
+	msgno = 40
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/acquire_aconn_service"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "swap_aconn_protocols"
+	desc = "Script run to swap AIX Connections network protocols between two network adapters"
+	setno = 101
+	msgno = 41
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/swap_aconn_protocols"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "get_aconn_rs"
+	desc = "Script run to start AIX Connections services."
+	setno = 101
+	msgno = 42
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/get_aconn_rs"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "release_aconn_rs"
+	desc = "Script run to stop AIX Connections services."
+	setno = 101
+	msgno = 43
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/release_aconn_rs"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "server_restart"
+	desc = "Script to clean up failed application server before attempting restart"
+	setno = 101
+	msgno = 44
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/server_restart"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "server_restart_complete"
+	desc = "Script to complete restarting application server."
+	setno = 101
+	msgno = 45
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/server_restart_complete"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "server_down"
+	desc = "Script to signal the beginning of an application server shutdown."
+	setno = 101
+	msgno = 52
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/server_down"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "server_down_complete"
+	desc = "Script to signal the completion of an application server shutdown."
+	setno = 101
+	msgno = 53
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/server_down_complete"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "rg_move"
+	desc = "Script to move a resource group."
+	setno = 101
+	msgno = 54
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/rg_move"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "rg_move_release"
+	desc = "Script to release a resource group during rg_move."
+	setno = 101
+	msgno = 74
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/rg_move_release"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "rg_move_acquire"
+	desc = "Script to acquire a resource group during rg_move."
+	setno = 101
+	msgno = 78
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/rg_move_acquire"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "rg_move_fence"
+	desc = "Script to process disk fencing during rg_move."
+	setno = 101
+	msgno = 76
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/rg_move_fence"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "rg_move_complete"
+	desc = "Script to signal the completion of a resource group move."
+	setno = 101
+	msgno = 55
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/rg_move_complete"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "site_down"
+	desc = "Script run when a site is attempting to leave the cluster."
+	setno = 101
+	msgno = 57
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/site_down"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "site_down_complete"
+	desc = "Script run after the site_down script has successfully completed."
+	setno = 101
+	msgno = 59
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/site_down_complete"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "site_down_local"
+	desc = "Script run when it is the local site which is leaving the cluster."
+	setno = 101
+	msgno = 60
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/site_down_local"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "site_down_local_complete"
+	desc = "Script run after the site_down_local script has successfully completed."
+	setno = 101
+	msgno = 61
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/site_down_local_complete"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "site_down_remote"
+	desc = "Script run when it is a remote site which is leaving the cluster."
+	setno = 101
+	msgno = 62
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/site_down_remote"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "site_down_remote_complete"
+	desc = "Script run after the site_down_remote script has successfully completed."
+	setno = 101
+	msgno = 63
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/site_down_remote_complete"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "site_up"
+	desc = "Script run when a site is attempting to join the cluster."
+	setno = 101
+	msgno = 56
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/site_up"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "site_up_complete"
+	desc = "Script run after the site_up script has successfully completed."
+	setno = 101
+	msgno = 58
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/site_up_complete"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "site_up_local"
+	desc = "Script run when it is the local site which is joining the cluster."
+	setno = 101
+	msgno = 64
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/site_up_local"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "site_up_local_complete"
+	desc = "Script run after the site_up_local script has successfully completed."
+	setno = 101
+	msgno = 65
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/site_up_local_complete"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "site_up_remote"
+	desc = "Script run when it is a remote site which is joining the cluster."
+	setno = 101
+	msgno = 66
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/site_up_remote"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "site_up_remote_complete"
+	desc = "Script run after the site_up_remote script has successfully completed."
+	setno = 101
+	msgno = 67
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/site_up_remote_complete"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "site_merge"
+	desc = "Script run when first geo_primary network recovers."
+	setno = 101
+	msgno = 68
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/site_merge"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "site_merge_complete"
+	desc = "Script run when after site_merge completes."
+	setno = 101
+	msgno = 69
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/site_merge_complete"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "site_isolation"
+	desc = "Script run when all geo_primary networks at a site go down."
+	setno = 101
+	msgno = 70
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/site_isolation"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "site_isolation_complete"
+	desc = "Script run when after site_isolation completes."
+	setno = 101
+	msgno = 71
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/site_isolation_complete"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "fail_interface"
+	desc = "Script run after an interface has failed."
+	setno = 101
+	msgno = 72
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/fail_interface"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "join_interface"
+	desc = "Script run after an interface has recovered."
+	setno = 101
+	msgno = 73
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/join_interface"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "cluster_notify"
+	desc = "Script to process cluster notification event."
+	setno = 101
+	msgno = 79
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/cluster_notify"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "resource_add"
+	desc = "Add resources to the PowerHA SystemMirror cluster."
+	setno = 101
+	msgno = 80
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/resource_add"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "resource_modify"
+	desc = "Changes the configuration of resources in the PowerHA SystemMirror cluster."
+	setno = 101
+	msgno = 84
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/resource_modify"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "resource_delete"
+	desc = "Removes resources from the PowerHA SystemMirror cluster."
+	setno = 101
+	msgno = 81
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/resource_delete"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "resource_online"
+	desc = "Activates resources in the PowerHA SystemMirror cluster."
+	setno = 101
+	msgno = 82
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/resource_online"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "resource_offline"
+	desc = "De-activates resources in the PowerHA SystemMirror cluster."
+	setno = 101
+	msgno = 83
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/resource_offline"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "resource_state_change"
+	desc = "Trigger event to move resource groups."
+	setno = 101
+	msgno = 85
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/resource_state_change"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "resource_state_change_complete"
+	desc = "End of resource state change event."
+	setno = 101
+	msgno = 86
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/resource_state_change_complete"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "external_resource_state_change"
+	desc = "Event for user-requested resource group migration."
+	setno = 101
+	msgno = 87
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/external_resource_state_change"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "external_resource_state_change_complete"
+	desc = "Completion event for user-requested resource group migration."
+	setno = 101
+	msgno = 88
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/external_resource_state_change_complete"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "intersite_fallover_prevented"
+	desc = "Script to signal that intersite fallover was prevented."
+	setno = 101
+	msgno = 89
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/intersite_fallover_prevented"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "reconfig_configuration_complete"
+	desc = "Script to signal that end of reconfiguration."
+	setno = 101
+	msgno = 90
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/reconfig_configuration_complete"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "forced_down_too_long"
+	desc = "Script run when at least one of the nodes in the Cluster has been forced down for too long."
+	setno = 101
+	msgno = 91
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/forced_down_too_long"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "start_udresource"
+	desc = "Script run to start user defined resource."
+	setno = 101
+	msgno = 27
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/start_udresource"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "stop_udresource"
+	desc = "Script run to stop user defined resource."
+	setno = 101
+	msgno = 28
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/events/stop_udresource"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+
+HACMPevent:
+	name = "split_merge_prompt"
+	desc = "Script to prompt the operator for manual choice on split or merge"
+	setno = 101
+	msgno = 92
+	catalog = "events.cat"
+	cmd = "/usr/es/sbin/cluster/utilities/cl_sm_prompt"
+	notify = ""
+	pre = ""
+	post = ""
+	recv = ""
+	count = 0
+	event_duration = 0
+#### END ODM class: HACMPevent ####
+
+
+#### START ODM class: HACMPeventmgr ####
+
+HACMPeventmgr:
+	name = "ROOTVG"
+	action = "REBOOT"
+	active = 1
+#### END ODM class: HACMPeventmgr ####
+
+
+#### START ODM class: HACMPfcfile ####
+
+HACMPfcfile:
+	fc_name = "Configuration_Files"
+	name = "/etc/hosts"
+
+HACMPfcfile:
+	fc_name = "Configuration_Files"
+	name = "/etc/services"
+
+HACMPfcfile:
+	fc_name = "Configuration_Files"
+	name = "/etc/snmpd.conf"
+
+HACMPfcfile:
+	fc_name = "Configuration_Files"
+	name = "/etc/snmpdv3.conf"
+
+HACMPfcfile:
+	fc_name = "Configuration_Files"
+	name = "/etc/rc.net"
+
+HACMPfcfile:
+	fc_name = "Configuration_Files"
+	name = "/etc/inetd.conf"
+
+HACMPfcfile:
+	fc_name = "Configuration_Files"
+	name = "/usr/es/sbin/cluster/netmon.cf"
+
+HACMPfcfile:
+	fc_name = "Configuration_Files"
+	name = "/usr/es/sbin/cluster/etc/clhosts"
+
+HACMPfcfile:
+	fc_name = "Configuration_Files"
+	name = "/etc/cluster/rhosts"
+
+HACMPfcfile:
+	fc_name = "Configuration_Files"
+	name = "/usr/es/sbin/cluster/etc/clinfo.rc"
+#### END ODM class: HACMPfcfile ####
+
+
+#### START ODM class: HACMPfcmodtime ####
+#### END ODM class: HACMPfcmodtime ####
+
+
+#### START ODM class: HACMPfilecollection ####
+
+HACMPfilecollection:
+	name = "Configuration_Files"
+	description = "AIX and PowerHA SystemMirror configuration files"
+	prop_sync = 0
+	prop_auto = 0
+
+HACMPfilecollection:
+	name = "HACMP_Files"
+	description = "User-defined scripts configured to PowerHA SystemMirror"
+	prop_sync = 0
+	prop_auto = 0
+#### END ODM class: HACMPfilecollection ####
+
+
+#### START ODM class: HACMPgroup ####
+
+HACMPgroup:
+	group = "DX986_RSG"
+	type = ""
+	stype = "ignore"
+	nodes = "DX986 DX987"
+	id = 1
+	group_duration = 0
+	acq_order = 0
+	rel_order = 0
+	startup_pref = "OHN"
+	fallover_pref = "FNPN"
+	fallback_pref = "NFB"
+	sa_type = ""
+	sa_key = ""
+#### END ODM class: HACMPgroup ####
+
+
+#### START ODM class: HACMPlogs ####
+
+HACMPlogs:
+	name = "clstrmgr.debug"
+	description = "Generated by the clstrmgr daemon"
+	defaultdir = "/var/hacmp/log"
+	value = "/var/hacmp/log"
+	rfs = ""
+
+HACMPlogs:
+	name = "cluster.log"
+	description = "Generated by cluster scripts and daemons"
+	defaultdir = "/var/hacmp/adm"
+	value = "/var/hacmp/adm"
+	rfs = ""
+
+HACMPlogs:
+	name = "cluster.mmddyyyy"
+	description = "Cluster history files generated daily"
+	defaultdir = "/var/hacmp/adm/history"
+	value = "/var/hacmp/adm/history"
+	rfs = ""
+
+HACMPlogs:
+	name = "cspoc.log"
+	description = "Generated by CSPOC commands"
+	defaultdir = "/var/hacmp/log"
+	value = "/var/hacmp/log"
+	rfs = ""
+
+HACMPlogs:
+	name = "emuhacmp.out"
+	description = "Generated by the event emulator scripts"
+	defaultdir = "/var/hacmp/log"
+	value = "/var/hacmp/log"
+	rfs = ""
+
+HACMPlogs:
+	name = "hacmp.out"
+	description = "Generated by event scripts and utilities"
+	defaultdir = "/var/hacmp/log"
+	value = "/var/hacmp/log"
+	rfs = ""
+
+HACMPlogs:
+	name = "clavan.log"
+	description = "Generated by Application Availability Analysis tool"
+	defaultdir = "/var/hacmp/adm"
+	value = "/var/hacmp/adm"
+	rfs = ""
+
+HACMPlogs:
+	name = "clverify.log"
+	description = "Generated by Cluster Verification utility"
+	defaultdir = "/var/hacmp/clverify"
+	value = "/var/hacmp/clverify"
+	rfs = ""
+
+HACMPlogs:
+	name = "clcomd.log"
+	description = "Generated by clcomd daemon"
+	defaultdir = "/var/log/clcomd"
+	value = "/var/log/clcomd"
+	rfs = ""
+
+HACMPlogs:
+	name = "clcomddiag.log"
+	description = "Generated by clcomd daemon, debug information"
+	defaultdir = "/var/log/clcomd"
+	value = "/var/log/clcomd"
+	rfs = ""
+
+HACMPlogs:
+	name = "clconfigassist.log"
+	description = "Generated by Two-Node Cluster Configuration Assistant"
+	defaultdir = "/var/hacmp/log"
+	value = "/var/hacmp/log"
+	rfs = ""
+
+HACMPlogs:
+	name = "cl2siteconfig_assist.log"
+	description = "Generated by Two-Site Cluster Configuration Assistant"
+	defaultdir = "/var/hacmp/log"
+	value = "/var/hacmp/log"
+	rfs = ""
+
+HACMPlogs:
+	name = "clutils.log"
+	description = "Generated by cluster utilities and file propagation"
+	defaultdir = "/var/hacmp/log"
+	value = "/var/hacmp/log"
+	rfs = ""
+
+HACMPlogs:
+	name = "cl_testtool.log"
+	description = "Generated by the Cluster Test Tool"
+	defaultdir = "/var/hacmp/log"
+	value = "/var/hacmp/log"
+	rfs = ""
+
+HACMPlogs:
+	name = "autoverify.log"
+	description = "Generated by Auto Verify and Synchronize"
+	defaultdir = "/var/hacmp/log"
+	value = "/var/hacmp/log"
+	rfs = ""
+
+HACMPlogs:
+	name = "sa.log"
+	description = "Generated by Application Discovery"
+	defaultdir = "/var/hacmp/log"
+	value = "/var/hacmp/log"
+	rfs = ""
+
+HACMPlogs:
+	name = "clstrmgr.debug.long"
+	description = "Detail information from the clstrmgr daemon"
+	defaultdir = "/var/hacmp/log"
+	value = "/var/hacmp/log"
+	rfs = ""
+
+HACMPlogs:
+	name = "cspoc.log.long"
+	description = "Detail information from CSPOC commands"
+	defaultdir = "/var/hacmp/log"
+	value = "/var/hacmp/log"
+	rfs = ""
+
+HACMPlogs:
+	name = "cspoc.log.remote"
+	description = "Generated by remote node running CSPOC commands"
+	defaultdir = "/var/hacmp/log"
+	value = "/var/hacmp/log"
+	rfs = ""
+
+HACMPlogs:
+	name = "clinfo.log"
+	description = "Generated by client node running clinfo"
+	defaultdir = "/var/hacmp/log"
+	value = "/var/hacmp/log"
+	rfs = ""
+
+HACMPlogs:
+	name = "migration.log"
+	description = "Generated by cluster migration"
+	defaultdir = "/var/hacmp/log"
+	value = "/var/hacmp/log"
+	rfs = ""
+
+HACMPlogs:
+	name = "dnssa.log"
+	description = "DNS Smart Assist Log"
+	defaultdir = "/var/hacmp/log"
+	value = "/var/hacmp/log"
+	rfs = ""
+
+HACMPlogs:
+	name = "dhcpsa.log"
+	description = "DHCP Smart Assist Log"
+	defaultdir = "/var/hacmp/log"
+	value = "/var/hacmp/log"
+	rfs = ""
+
+HACMPlogs:
+	name = "domino_server.log"
+	description = "Domino server Log"
+	defaultdir = "/var/hacmp/log"
+	value = "/var/hacmp/log"
+	rfs = ""
+
+HACMPlogs:
+	name = "sax.log"
+	description = "Generated by utilities which serves director requests"
+	defaultdir = "/var/hacmp/log"
+	value = "/var/hacmp/log"
+	rfs = ""
+
+HACMPlogs:
+	name = "ihssa.log"
+	description = "Smart Assist for IBM HTTP Server Log"
+	defaultdir = "/var/hacmp/log"
+	value = "/var/hacmp/log"
+	rfs = ""
+
+HACMPlogs:
+	name = "maxdbsa.log"
+	description = "Smart Assist for MaxDB Log"
+	defaultdir = "/var/hacmp/log"
+	value = "/var/hacmp/log"
+	rfs = ""
+
+HACMPlogs:
+	name = "clevents"
+	description = "Events log for Director Interface"
+	defaultdir = "/var/hacmp/log"
+	value = "/var/hacmp/log"
+	rfs = ""
+
+HACMPlogs:
+	name = "hswizard.log"
+	description = "SAP liveCache Hot Standby Configiuration Wizard Log"
+	defaultdir = "/var/hacmp/log"
+	value = "/var/hacmp/log"
+	rfs = ""
+
+HACMPlogs:
+	name = "wmqsa.log"
+	description = "MQ Series Smart Assist log"
+	defaultdir = "/var/hacmp/log"
+	value = "/var/hacmp/log"
+	rfs = ""
+
+HACMPlogs:
+	name = "tsm_server.log"
+	description = "TSM server Log"
+	defaultdir = "/var/hacmp/log"
+	value = "/var/hacmp/log"
+	rfs = ""
+
+HACMPlogs:
+	name = "tsm_client.log"
+	description = "TSM client Log"
+	defaultdir = "/var/hacmp/log"
+	value = "/var/hacmp/log"
+	rfs = ""
+
+HACMPlogs:
+	name = "tsm_admin.log"
+	description = "TSM admin Log"
+	defaultdir = "/var/hacmp/log"
+	value = "/var/hacmp/log"
+	rfs = ""
+
+HACMPlogs:
+	name = "sapsa.log"
+	description = "SAP Smart Assistant Log"
+	defaultdir = "/var/hacmp/log"
+	value = "/var/hacmp/log"
+	rfs = ""
+
+HACMPlogs:
+	name = "printServersa.log"
+	description = "Print Subsystem Smart Assist Log"
+	defaultdir = "/var/hacmp/log"
+	value = "/var/hacmp/log"
+	rfs = ""
+
+HACMPlogs:
+	name = "oraclesa.log"
+	description = "Oracle Smart Assistant Log"
+	defaultdir = "/var/hacmp/log"
+	value = "/var/hacmp/log"
+	rfs = ""
+
+HACMPlogs:
+	name = "oraappsa.log"
+	description = "Oracle Smart Assistant Log"
+	defaultdir = "/var/hacmp/log"
+	value = "/var/hacmp/log"
+	rfs = ""
+
+HACMPlogs:
+	name = "filenetsa.log"
+	description = "FileNet P8 Smart Assist Log"
+	defaultdir = "/var/hacmp/log"
+	value = "/var/hacmp/log"
+	rfs = ""
+#### END ODM class: HACMPlogs ####
+
+
+#### START ODM class: HACMPmonitor ####
+#### END ODM class: HACMPmonitor ####
+
+
+#### START ODM class: HACMPnetwork ####
+
+HACMPnetwork:
+	name = "net_ether_01"
+	attr = "public"
+	network_id = 0
+	globalname = ""
+	nimname = "ether"
+	alias = "1"
+	pollInterval = 0
+	monitor_method = "default"
+	alias_hb_addr = ""
+	alias_hb_netmask = ""
+	netmask = "255.255.255.0"
+	net_family = 1
+#### END ODM class: HACMPnetwork ####
+
+
+#### START ODM class: HACMPnim ####
+
+HACMPnim:
+	name = "ether"
+	desc = "Ethernet Protocol"
+	addrtype = 0
+	path = "/usr/sbin/rsct/bin/hats_nim"
+	para = ""
+	grace = 60
+	hbrate = 1000000
+	cycle = 10
+	gratarp = 1
+	entry_type = "adapter_type"
+	next_generic_type = "transport"
+	next_generic_name = "Generic_UDP"
+	src_routing = 1
+
+HACMPnim:
+	name = "XD_ip"
+	desc = "Internet Protocol for Extended Distance Heartbeat"
+	addrtype = 0
+	path = "/usr/sbin/rsct/bin/hats_nim"
+	para = ""
+	grace = 30
+	hbrate = 2500000
+	cycle = 12
+	gratarp = 1
+	entry_type = "adapter_type"
+	next_generic_type = "transport"
+	next_generic_name = "Generic_UDP"
+	src_routing = 1
+
+HACMPnim:
+	name = "XD_data"
+	desc = "Internet Protocol for Extended Distance Data Mirroring"
+	addrtype = 0
+	path = "/usr/sbin/rsct/bin/hats_nim"
+	para = ""
+	grace = 30
+	hbrate = 2500000
+	cycle = 12
+	gratarp = 1
+	entry_type = "adapter_type"
+	next_generic_type = "transport"
+	next_generic_name = "Generic_UDP"
+	src_routing = 1
+#### END ODM class: HACMPnim ####
+
+
+#### START ODM class: HACMPnode ####
+
+HACMPnode:
+	name = "DX986"
+	object = "VERBOSE_LOGGING"
+	value = "high"
+	node_id = 1
+	node_handle = 1
+	version = 15
+
+HACMPnode:
+	name = "DX986"
+	object = "NAME_SERVER"
+	value = "FALSE"
+	node_id = 1
+	node_handle = 1
+	version = 15
+
+HACMPnode:
+	name = "DX986"
+	object = "DEBUG_LEVEL"
+	value = "Standard"
+	node_id = 1
+	node_handle = 1
+	version = 15
+
+HACMPnode:
+	name = "DX986"
+	object = "SYS_ADMIN_ID"
+	value = ""
+	node_id = 1
+	node_handle = 1
+	version = 15
+
+HACMPnode:
+	name = "DX986"
+	object = "MODEM_NUMBER"
+	value = ""
+	node_id = 1
+	node_handle = 1
+	version = 15
+
+HACMPnode:
+	name = "DX986"
+	object = "MAX_BLOCK_SIZE"
+	value = "8192"
+	node_id = 1
+	node_handle = 1
+	version = 15
+
+HACMPnode:
+	name = "DX986"
+	object = "COMMUNICATION_PATH"
+	value = "DX986"
+	node_id = 1
+	node_handle = 1
+	version = 15
+
+HACMPnode:
+	name = "DX986"
+	object = "MANAGED_SYSTEM"
+	value = ""
+	node_id = 1
+	node_handle = 1
+	version = 15
+
+HACMPnode:
+	name = "DX987"
+	object = "VERBOSE_LOGGING"
+	value = "high"
+	node_id = 2
+	node_handle = 2
+	version = 15
+
+HACMPnode:
+	name = "DX987"
+	object = "NAME_SERVER"
+	value = "FALSE"
+	node_id = 2
+	node_handle = 2
+	version = 15
+
+HACMPnode:
+	name = "DX987"
+	object = "DEBUG_LEVEL"
+	value = "Standard"
+	node_id = 2
+	node_handle = 2
+	version = 15
+
+HACMPnode:
+	name = "DX987"
+	object = "SYS_ADMIN_ID"
+	value = ""
+	node_id = 2
+	node_handle = 2
+	version = 15
+
+HACMPnode:
+	name = "DX987"
+	object = "MODEM_NUMBER"
+	value = ""
+	node_id = 2
+	node_handle = 2
+	version = 15
+
+HACMPnode:
+	name = "DX987"
+	object = "MAX_BLOCK_SIZE"
+	value = "8192"
+	node_id = 2
+	node_handle = 2
+	version = 15
+
+HACMPnode:
+	name = "DX987"
+	object = "COMMUNICATION_PATH"
+	value = "DX987"
+	node_id = 2
+	node_handle = 2
+	version = 15
+
+HACMPnode:
+	name = "DX987"
+	object = "MANAGED_SYSTEM"
+	value = ""
+	node_id = 2
+	node_handle = 2
+	version = 15
+#### END ODM class: HACMPnode ####
+
+
+#### START ODM class: HACMPnpp ####
+
+HACMPnpp:
+	name = "cl_highest_free_mem"
+	description = "Node Priority Policy based on highest percentage of free memory"
+	resource_variable = "IBM.Host.TotalPgSpFree"
+	condition = "largest"
+
+HACMPnpp:
+	name = "cl_lowest_disk_busy"
+	description = "Node Priority Policy based on lowest percentage of busy disk bandwidth"
+	resource_variable = "IBM.PhysicalVolume.PctBusy"
+	condition = "smallest"
+
+HACMPnpp:
+	name = "cl_highest_idle_cpu"
+	description = "Node Priority Policy based on highest percentage of CPU idle time"
+	resource_variable = "IBM.Host.PctTotalTimeIdle"
+	condition = "largest"
+
+HACMPnpp:
+	name = "cl_highest_udscript_rc"
+	description = "Node Priority Policy based on highest return value of user defined script"
+	resource_variable = "cl_highest_udscript_rc"
+	condition = "largest"
+
+HACMPnpp:
+	name = "cl_lowest_nonzero_udscript_rc"
+	description = "Node Priority Policy based on lowest nonzero return value of user defined script"
+	resource_variable = "cl_lowest_nonzero_udscript_rc"
+	condition = "smallest"
+#### END ODM class: HACMPnpp ####
+
+
+#### START ODM class: HACMPoemfilesystem ####
+#### END ODM class: HACMPoemfilesystem ####
+
+
+#### START ODM class: HACMPoemfsmethods ####
+
+HACMPoemfsmethods:
+	type = "VxFS40"
+	name = "LISTNAMES"
+	command = "/usr/es/sbin/cluster/OEM/VxFS40/cllsvxfsvg"
+
+HACMPoemfsmethods:
+	type = "VxFS40"
+	name = "ONLINE"
+	command = "/usr/es/sbin/cluster/OEM/VxFS40/cl_activate_vxfs"
+
+HACMPoemfsmethods:
+	type = "VxFS40"
+	name = "OFFLINE"
+	command = "/usr/es/sbin/cluster/OEM/VxFS40/cl_deactivate_vxfs"
+
+HACMPoemfsmethods:
+	type = "VxFS40"
+	name = "VERIFY"
+	command = "/usr/es/sbin/cluster/OEM/VxFS40/verify"
+
+HACMPoemfsmethods:
+	type = "VxFS40"
+	name = "LSVOLUMES"
+	command = "/usr/es/sbin/cluster/OEM/VxFS40/cllsvxfsvg"
+
+HACMPoemfsmethods:
+	type = "VxFS40"
+	name = "STATUS"
+	command = "/usr/es/sbin/cluster/OEM/VxFS40/cllsvxfsstat"
+#### END ODM class: HACMPoemfsmethods ####
+
+
+#### START ODM class: HACMPoemvgmethods ####
+
+HACMPoemvgmethods:
+	type = "VxVM40"
+	name = "LISTNAMES"
+	command = "/usr/es/sbin/cluster/OEM/VxVM40/cllsvxvmdg"
+
+HACMPoemvgmethods:
+	type = "VxVM40"
+	name = "LSHDISKS"
+	command = "/usr/es/sbin/cluster/OEM/VxVM40/cllsvxvmdisk"
+
+HACMPoemvgmethods:
+	type = "VxVM40"
+	name = "ONLINE"
+	command = "/usr/es/sbin/cluster/OEM/VxVM40/cl_activate_vxms"
+
+HACMPoemvgmethods:
+	type = "VxVM40"
+	name = "OFFLINE"
+	command = "/usr/es/sbin/cluster/OEM/VxVM40/cl_deactivate_vxms"
+
+HACMPoemvgmethods:
+	type = "VxVM40"
+	name = "VERIFY"
+	command = "/usr/es/sbin/cluster/OEM/VxVM40/verify"
+
+HACMPoemvgmethods:
+	type = "VxVM40"
+	name = "STATUS"
+	command = "/usr/es/sbin/cluster/OEM/VxVM40/cllsvxvmstat"
+#### END ODM class: HACMPoemvgmethods ####
+
+
+#### START ODM class: HACMPoemvolumegroup ####
+#### END ODM class: HACMPoemvolumegroup ####
+
+
+#### START ODM class: HACMPpager ####
+#### END ODM class: HACMPpager ####
+
+
+#### START ODM class: HACMPpairtasks ####
+#### END ODM class: HACMPpairtasks ####
+
+
+#### START ODM class: HACMPpathtasks ####
+#### END ODM class: HACMPpathtasks ####
+
+
+#### START ODM class: HACMPport ####
+#### END ODM class: HACMPport ####
+
+
+#### START ODM class: HACMPpprc ####
+#### END ODM class: HACMPpprc ####
+
+
+#### START ODM class: HACMPpprcconsistgrp ####
+#### END ODM class: HACMPpprcconsistgrp ####
+
+
+#### START ODM class: HACMPras ####
+
+HACMPras:
+	attribute = "trcDisk_cmdgrpdesc"
+	deflt = ""
+	value = "Disk"
+
+HACMPras:
+	attribute = "trcDisk_cmdgrptype"
+	deflt = ""
+	value = "reserved"
+
+HACMPras:
+	attribute = "trcDisk_cmdgrpIDs"
+	deflt = ""
+	value = "17B,221,232,233,3B9,3C4,47E,497,498,499,4AC,4AD,53E,59D,59F,63A,63B"
+
+HACMPras:
+	attribute = "trcDisk_cmdgrpevts"
+	deflt = ""
+	value = "diskdd"
+
+HACMPras:
+	attribute = "trcDLPAR_cmdgrpdesc"
+	deflt = ""
+	value = "DLPAR"
+
+HACMPras:
+	attribute = "trcDLPAR_cmdgrptype"
+	deflt = ""
+	value = "reserved"
+
+HACMPras:
+	attribute = "trcDLPAR_cmdgrpIDs"
+	deflt = ""
+	value = "112,113,419,492,62C"
+
+HACMPras:
+	attribute = "trcFS_cmdgrpdesc"
+	deflt = ""
+	value = "File System"
+
+HACMPras:
+	attribute = "trcFS_cmdgrptype"
+	deflt = ""
+	value = "reserved"
+
+HACMPras:
+	attribute = "trcFS_cmdgrpevts"
+	deflt = ""
+	value = "jfs2user"
+
+HACMPras:
+	attribute = "trcGen_cmdgrpdesc"
+	deflt = ""
+	value = "General"
+
+HACMPras:
+	attribute = "trcGen_cmdgrpevts"
+	deflt = ""
+	value = "fact,fop,gka,gkasc,ipcgen,ipcmmap,ipcmsem,ipcmsgs,ipcsem,ipcsm,procd,syscall,tidhk"
+
+HACMPras:
+	attribute = "trcGen_cmdgrpIDs"
+	deflt = ""
+	value = "252,61B"
+
+HACMPras:
+	attribute = "trcGen_cmdgrptype"
+	deflt = ""
+	value = "reserved"
+
+HACMPras:
+	attribute = "trcLVM_cmdgrpdesc"
+	deflt = ""
+	value = "LVM"
+
+HACMPras:
+	attribute = "trcLVM_cmdgrptype"
+	deflt = ""
+	value = "reserved"
+
+HACMPras:
+	attribute = "trcLVM_cmdgrpevts"
+	deflt = ""
+	value = "diskdd,filephys,inthands,lvm"
+
+HACMPras:
+	attribute = "trcTCP_cmdgrpdesc"
+	deflt = ""
+	value = "TCP/IP"
+
+HACMPras:
+	attribute = "trcTCP_cmdgrptype"
+	deflt = ""
+	value = "reserved"
+
+HACMPras:
+	attribute = "trcTCP_cmdgrpIDs"
+	deflt = ""
+	value = "252,3A5,615,617,619,61A,61B"
+
+HACMPras:
+	attribute = "trcWPAR_cmdgrpdesc"
+	deflt = ""
+	value = "WPAR"
+
+HACMPras:
+	attribute = "trcWPAR_cmdgrptype"
+	deflt = ""
+	value = "reserved"
+
+HACMPras:
+	attribute = "trcWPAR_cmdgrpevts"
+	deflt = ""
+	value = "wpar"
+
+HACMPras:
+	attribute = "trcWPAR_cmdgrpIDs"
+	deflt = ""
+	value = "20,21,4c9,4fc"
+#### END ODM class: HACMPras ####
+
+
+#### START ODM class: HACMPresource ####
+
+HACMPresource:
+	group = "DX986_RSG"
+	type = ""
+	name = "SERVICE_LABEL"
+	value = "DX986-VIP"
+	id = 1
+	monitor_method = ""
+
+HACMPresource:
+	group = "DX986_RSG"
+	type = ""
+	name = "APPLICATIONS"
+	value = "dbscript"
+	id = 2
+	monitor_method = ""
+
+HACMPresource:
+	group = "DX986_RSG"
+	type = ""
+	name = "VOLUME_GROUP"
+	value = "ctrl1vg"
+	id = 10
+	monitor_method = ""
+
+HACMPresource:
+	group = "DX986_RSG"
+	type = ""
+	name = "VOLUME_GROUP"
+	value = "data1vg"
+	id = 11
+	monitor_method = ""
+
+HACMPresource:
+	group = "DX986_RSG"
+	type = ""
+	name = "VOLUME_GROUP"
+	value = "indx1vg"
+	id = 12
+	monitor_method = ""
+
+HACMPresource:
+	group = "DX986_RSG"
+	type = ""
+	name = "VOLUME_GROUP"
+	value = "arch1vg"
+	id = 13
+	monitor_method = ""
+
+HACMPresource:
+	group = "DX986_RSG"
+	type = ""
+	name = "VOLUME_GROUP"
+	value = "temp1vg"
+	id = 14
+	monitor_method = ""
+
+HACMPresource:
+	group = "DX986_RSG"
+	type = ""
+	name = "VOLUME_GROUP"
+	value = "undo1vg"
+	id = 15
+	monitor_method = ""
+
+HACMPresource:
+	group = "DX986_RSG"
+	type = ""
+	name = "VOLUME_GROUP"
+	value = "flash1vg"
+	id = 16
+	monitor_method = ""
+
+HACMPresource:
+	group = "DX986_RSG"
+	type = ""
+	name = "VOLUME_GROUP"
+	value = "oravg"
+	id = 17
+	monitor_method = ""
+
+HACMPresource:
+	group = "DX986_RSG"
+	type = ""
+	name = "VOLUME_GROUP"
+	value = "redo1vg"
+	id = 18
+	monitor_method = ""
+
+HACMPresource:
+	group = "DX986_RSG"
+	type = ""
+	name = "VOLUME_GROUP"
+	value = "bkp1vg"
+	id = 19
+	monitor_method = ""
+
+HACMPresource:
+	group = "DX986_RSG"
+	type = ""
+	name = "VOLUME_GROUP"
+	value = "bkp2vg"
+	id = 21
+	monitor_method = ""
+
+HACMPresource:
+	group = "DX986_RSG"
+	type = ""
+	name = "FORCED_VARYON"
+	value = "false"
+	id = 3
+	monitor_method = ""
+
+HACMPresource:
+	group = "DX986_RSG"
+	type = ""
+	name = "VG_AUTO_IMPORT"
+	value = "false"
+	id = 4
+	monitor_method = ""
+
+HACMPresource:
+	group = "DX986_RSG"
+	type = ""
+	name = "FSCHECK_TOOL"
+	value = "fsck"
+	id = 5
+	monitor_method = ""
+
+HACMPresource:
+	group = "DX986_RSG"
+	type = ""
+	name = "RECOVERY_METHOD"
+	value = "sequential"
+	id = 6
+	monitor_method = ""
+
+HACMPresource:
+	group = "DX986_RSG"
+	type = ""
+	name = "FS_BEFORE_IPADDR"
+	value = "false"
+	id = 7
+	monitor_method = ""
+
+HACMPresource:
+	group = "DX986_RSG"
+	type = ""
+	name = "MANAGE_RDISK"
+	value = "no"
+	id = 8
+	monitor_method = ""
+
+HACMPresource:
+	group = "DX986_RSG"
+	type = ""
+	name = "FILESYSTEM"
+	value = "ALL"
+	id = 20
+	monitor_method = ""
+
+HACMPresource:
+	group = "DX986_RSG"
+	type = ""
+	name = "SSA_DISK_FENCING"
+	value = "false"
+	id = 9
+	monitor_method = ""
+
+HACMPresource:
+	group = "DX986_RSG"
+	type = ""
+	name = "VOLUME_GROUP"
+	value = "bctvg"
+	id = 22
+	monitor_method = ""
+#### END ODM class: HACMPresource ####
+
+
+#### START ODM class: HACMPresourcetype ####
+
+HACMPresourcetype:
+	type = "STANDARD_RESOURCE"
+	name = "WPAR"
+	weight = 0
+
+HACMPresourcetype:
+	type = "STANDARD_RESOURCE"
+	name = "VOLUME_GROUP"
+	weight = 1
+
+HACMPresourcetype:
+	type = "STANDARD_RESOURCE"
+	name = "FILE_SYSTEM"
+	weight = 2
+
+HACMPresourcetype:
+	type = "STANDARD_RESOURCE"
+	name = "SERVICEIP"
+	weight = 3
+
+HACMPresourcetype:
+	type = "STANDARD_RESOURCE"
+	name = "TAPE"
+	weight = 4
+
+HACMPresourcetype:
+	type = "STANDARD_RESOURCE"
+	name = "APPLICATION"
+	weight = 5
+#### END ODM class: HACMPresourcetype ####
+
+
+#### START ODM class: HACMPrg_loc_dependency ####
+#### END ODM class: HACMPrg_loc_dependency ####
+
+
+#### START ODM class: HACMPrgdependency ####
+#### END ODM class: HACMPrgdependency ####
+
+
+#### START ODM class: HACMPrresmethods ####
+#### END ODM class: HACMPrresmethods ####
+
+
+#### START ODM class: HACMPrules ####
+
+HACMPrules:
+	name = "TE_JOIN_NODE"
+	state = 0
+	recovery_prog_path = "/usr/es/sbin/cluster/events/node_up.rp"
+	recovery_type = 2
+	recovery_level = 0
+
+HACMPrules:
+	name = "TE_FAIL_NODE"
+	state = 0
+	recovery_prog_path = "/usr/es/sbin/cluster/events/node_down.rp"
+	recovery_type = 2
+	recovery_level = 0
+
+HACMPrules:
+	name = "TE_JOIN_NETWORK"
+	state = 0
+	recovery_prog_path = "/usr/es/sbin/cluster/events/network_up.rp"
+	recovery_type = 2
+	recovery_level = 0
+
+HACMPrules:
+	name = "TE_FAIL_NETWORK"
+	state = 0
+	recovery_prog_path = "/usr/es/sbin/cluster/events/network_down.rp"
+	recovery_type = 2
+	recovery_level = 0
+
+HACMPrules:
+	name = "TE_SWAP_ADAPTER"
+	state = 0
+	recovery_prog_path = "/usr/es/sbin/cluster/events/swap_adapter.rp"
+	recovery_type = 2
+	recovery_level = 0
+
+HACMPrules:
+	name = "TE_JOIN_STANDBY"
+	state = 0
+	recovery_prog_path = "/usr/es/sbin/cluster/events/join_standby.rp"
+	recovery_type = 2
+	recovery_level = 0
+
+HACMPrules:
+	name = "TE_FAIL_STANDBY"
+	state = 0
+	recovery_prog_path = "/usr/es/sbin/cluster/events/fail_standby.rp"
+	recovery_type = 2
+	recovery_level = 0
+
+HACMPrules:
+	name = "TE_MIGRATE"
+	state = 0
+	recovery_prog_path = "/usr/es/sbin/cluster/events/migrate.rp"
+	recovery_type = 2
+	recovery_level = 0
+
+HACMPrules:
+	name = "TE_DARE_CONFIGURATION"
+	state = 0
+	recovery_prog_path = "/usr/es/sbin/cluster/events/reconfig_configuration.rp"
+	recovery_type = 2
+	recovery_level = 0
+
+HACMPrules:
+	name = "TE_SERVER_RESTART"
+	state = 0
+	recovery_prog_path = "/usr/es/sbin/cluster/events/server_restart.rp"
+	recovery_type = 2
+	recovery_level = 0
+
+HACMPrules:
+	name = "TE_SERVER_DOWN"
+	state = 0
+	recovery_prog_path = "/usr/es/sbin/cluster/events/server_down.rp"
+	recovery_type = 2
+	recovery_level = 0
+
+HACMPrules:
+	name = "TE_RG_MOVE"
+	state = 0
+	recovery_prog_path = "/usr/es/sbin/cluster/events/rg_move.rp"
+	recovery_type = 2
+	recovery_level = 0
+
+HACMPrules:
+	name = "TE_JOIN_SITE"
+	state = 0
+	recovery_prog_path = "/usr/es/sbin/cluster/events/site_up.rp"
+	recovery_type = 2
+	recovery_level = 0
+
+HACMPrules:
+	name = "TE_FAIL_SITE"
+	state = 0
+	recovery_prog_path = "/usr/es/sbin/cluster/events/site_down.rp"
+	recovery_type = 2
+	recovery_level = 0
+
+HACMPrules:
+	name = "TE_SITE_MERGE"
+	state = 0
+	recovery_prog_path = "/usr/es/sbin/cluster/events/site_merge.rp"
+	recovery_type = 2
+	recovery_level = 0
+
+HACMPrules:
+	name = "TE_SITE_ISOLATION"
+	state = 0
+	recovery_prog_path = "/usr/es/sbin/cluster/events/site_isolation.rp"
+	recovery_type = 2
+	recovery_level = 0
+
+HACMPrules:
+	name = "TE_FAIL_ADAPTER"
+	state = 0
+	recovery_prog_path = "/usr/es/sbin/cluster/events/fail_interface.rp"
+	recovery_type = 2
+	recovery_level = 0
+
+HACMPrules:
+	name = "TE_JOIN_ADAPTER"
+	state = 0
+	recovery_prog_path = "/usr/es/sbin/cluster/events/join_interface.rp"
+	recovery_type = 2
+	recovery_level = 0
+
+HACMPrules:
+	name = "TE_JOIN_NODE_DEP"
+	state = 0
+	recovery_prog_path = "/usr/es/sbin/cluster/events/node_up_dependency.rp"
+	recovery_type = 2
+	recovery_level = 0
+
+HACMPrules:
+	name = "TE_JOIN_NODE_DEP_COMPLETE"
+	state = 0
+	recovery_prog_path = "/usr/es/sbin/cluster/events/node_up_dependency_complete.rp"
+	recovery_type = 2
+	recovery_level = 0
+
+HACMPrules:
+	name = "TE_FAIL_NODE_DEP"
+	state = 0
+	recovery_prog_path = "/usr/es/sbin/cluster/events/node_down_dependency.rp"
+	recovery_type = 2
+	recovery_level = 0
+
+HACMPrules:
+	name = "TE_FAIL_NODE_DEP_COMPLETE"
+	state = 0
+	recovery_prog_path = "/usr/es/sbin/cluster/events/node_down_dependency_complete.rp"
+	recovery_type = 2
+	recovery_level = 0
+
+HACMPrules:
+	name = "TE_RG_MOVE_RELEASE"
+	state = 0
+	recovery_prog_path = "/usr/es/sbin/cluster/events/rg_offline.rp"
+	recovery_type = 2
+	recovery_level = 0
+
+HACMPrules:
+	name = "TE_RG_MOVE_ACQUIRE"
+	state = 0
+	recovery_prog_path = "/usr/es/sbin/cluster/events/rg_online.rp"
+	recovery_type = 2
+	recovery_level = 0
+
+HACMPrules:
+	name = "TE_DARE_CONFIG_DEP_RELEASE"
+	state = 0
+	recovery_prog_path = "/usr/es/sbin/cluster/events/reconfig_configuration_dependency_release.rp"
+	recovery_type = 2
+	recovery_level = 0
+
+HACMPrules:
+	name = "TE_DARE_CONFIG_DEP_ACQUIRE"
+	state = 0
+	recovery_prog_path = "/usr/es/sbin/cluster/events/reconfig_configuration_dependency_acquire.rp"
+	recovery_type = 2
+	recovery_level = 0
+
+HACMPrules:
+	name = "TE_DARE_CONFIG_DEP_COMPLETE"
+	state = 0
+	recovery_prog_path = "/usr/es/sbin/cluster/events/reconfig_configuration_dependency_complete.rp"
+	recovery_type = 2
+	recovery_level = 0
+
+HACMPrules:
+	name = "TE_CLUSTER_NOTIFY"
+	state = 0
+	recovery_prog_path = "/usr/es/sbin/cluster/events/cluster_notify.rp"
+	recovery_type = 2
+	recovery_level = 0
+
+HACMPrules:
+	name = "TE_RESOURCE_STATE_CHANGE"
+	state = 0
+	recovery_prog_path = "/usr/es/sbin/cluster/events/resource_state_change.rp"
+	recovery_type = 2
+	recovery_level = 0
+
+HACMPrules:
+	name = "TE_RESOURCE_STATE_CHANGE_COMPLETE"
+	state = 0
+	recovery_prog_path = "/usr/es/sbin/cluster/events/resource_state_change_complete.rp"
+	recovery_type = 2
+	recovery_level = 0
+
+HACMPrules:
+	name = "TE_EXTERNAL_RESOURCE_STATE_CHANGE"
+	state = 0
+	recovery_prog_path = "/usr/es/sbin/cluster/events/external_resource_state_change.rp"
+	recovery_type = 2
+	recovery_level = 0
+
+HACMPrules:
+	name = "TE_EXTERNAL_RESOURCE_STATE_CHANGE_COMPLETE"
+	state = 0
+	recovery_prog_path = "/usr/es/sbin/cluster/events/external_resource_state_change_complete.rp"
+	recovery_type = 2
+	recovery_level = 0
+
+HACMPrules:
+	name = "TE_RG_MOVE_RELEASE_SECONDARY"
+	state = 0
+	recovery_prog_path = "/usr/es/sbin/cluster/events/rg_offline.rp"
+	recovery_type = 2
+	recovery_level = 0
+
+HACMPrules:
+	name = "TE_RG_MOVE_ACQUIRE_SECONDARY"
+	state = 0
+	recovery_prog_path = "/usr/es/sbin/cluster/events/rg_online.rp"
+	recovery_type = 2
+	recovery_level = 0
+#### END ODM class: HACMPrules ####
+
+
+#### START ODM class: HACMPsa ####
+
+HACMPsa:
+	sa_id = "zzOther"
+	component_id = "GASA"
+	name = "SMARTASSIST_VERSION"
+	value = "2.0"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "zzOther"
+	component_id = "GASA"
+	name = "SMIT_MODIFY_TYPE"
+	value = "d"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "zzOther"
+	component_id = "GASA"
+	name = "SMIT_ADD"
+	value = "clsa_gasa_add"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "zzOther"
+	component_id = "GASA"
+	name = "SMIT_MODIFY"
+	value = "clsa_gasa_modify"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "zzOther"
+	component_id = "GASA"
+	name = "DISCOVERY_COMMAND"
+	value = "/usr/es/sbin/cluster/sa/gasa/sbin/discovery"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "zzOther"
+	component_id = "GASA"
+	name = "SMIT_ADD_TYPE"
+	value = "d"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "zzOther"
+	component_id = "GASA"
+	name = "WARNING"
+	value = "Do not remove the zzOther Smart Assists"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "WMQ_7.0.1"
+	component_id = ""
+	name = "SMARTASSIST_NAME"
+	value = "WebSphere MQ Smart Assist"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "WMQ_7.0.1"
+	component_id = ""
+	name = "SMARTASSIST_CATALOG"
+	value = "wmq_sa.cat"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "WMQ_7.0.1"
+	component_id = ""
+	name = "SMARTASSIST_CATALOG_SET"
+	value = "10"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "WMQ_7.0.1"
+	component_id = ""
+	name = "SMARTASSIST_CATALOG_MSGNO"
+	value = "10"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "WMQ_7.0.1"
+	component_id = ""
+	name = "SMIT_MANUAL_ADD"
+	value = "/usr/es/sbin/cluster/sa/wmq/sbin/cl_wmq_manual -f"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "WMQ_7.0.1"
+	component_id = "WebSphere_MQ_SERVER"
+	name = "SMARTASSIST_ID"
+	value = "WMQ_7.0.1"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "WMQ_7.0.1"
+	component_id = "WebSphere_MQ_SERVER"
+	name = "SMARTASSIST_VERSION"
+	value = "1.0"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "WMQ_7.0.1"
+	component_id = "WebSphere_MQ_SERVER"
+	name = "COMPONENT_ID"
+	value = "WebSphere_MQ_SERVER"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "WMQ_7.0.1"
+	component_id = "WebSphere_MQ_SERVER"
+	name = "DISCOVERY_COMMAND"
+	value = "/usr/es/sbin/cluster/sa/wmq/sbin/cl_wmq_query -d"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "WMQ_7.0.1"
+	component_id = "WebSphere_MQ_SERVER"
+	name = "SMIT_MODIFY"
+	value = "cl_wmq_mod_dialog"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "WMQ_7.0.1"
+	component_id = "WebSphere_MQ_SERVER"
+	name = "SMIT_MODIFY_TYPE"
+	value = "d"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "WMQ_7.0.1"
+	component_id = "WebSphere_MQ_SERVER"
+	name = "SMIT_ADD"
+	value = "cl_wmq_add_select"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "WMQ_7.0.1"
+	component_id = "WebSphere_MQ_SERVER"
+	name = "SMIT_ADD_TYPE"
+	value = "n"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "WAS_6.0"
+	component_id = ""
+	name = "SMARTASSIST_NAME"
+	value = "WebSphere Smart Assist"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "WAS_6.0"
+	component_id = ""
+	name = "SMARTASSIST_CATALOG"
+	value = "wassa.cat"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "WAS_6.0"
+	component_id = ""
+	name = "SMARTASSIST_CATALOG_SET"
+	value = "10"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "WAS_6.0"
+	component_id = ""
+	name = "SMARTASSIST_CATALOG_MSGNO"
+	value = "10"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "WAS_6.0"
+	component_id = ""
+	name = "SMIT_MANUAL_ADD"
+	value = "/usr/es/sbin/cluster/sa/was/sbin/cl_wasimport -f "
+	reserved = 0
+
+HACMPsa:
+	sa_id = "WAS_6.0"
+	component_id = "WAS_6.0_APP_SERVER"
+	name = "SMARTASSIST_ID"
+	value = "WAS_6.0"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "WAS_6.0"
+	component_id = "WAS_6.0_APP_SERVER"
+	name = "SMARTASSIST_VERSION"
+	value = "2.0"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "WAS_6.0"
+	component_id = "WAS_6.0_APP_SERVER"
+	name = "COMPONENT_ID"
+	value = "WAS_6.0_APP_SERVER"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "WAS_6.0"
+	component_id = "WAS_6.0_APP_SERVER"
+	name = "DISCOVERY_COMMAND"
+	value = "/usr/es/sbin/cluster/sa/was/sbin/cl_wassaserverquery -n"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "WAS_6.0"
+	component_id = "WAS_6.0_APP_SERVER"
+	name = "SMIT_MODIFY"
+	value = "cl_wassamodnode_dialog"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "WAS_6.0"
+	component_id = "WAS_6.0_APP_SERVER"
+	name = "SMIT_MODIFY_TYPE"
+	value = "d"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "WAS_6.0"
+	component_id = "WAS_6.0_APP_SERVER"
+	name = "SMIT_ADD"
+	value = "cl_wassaaddnode_select"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "WAS_6.0"
+	component_id = "WAS_6.0_APP_SERVER"
+	name = "SMIT_ADD_TYPE"
+	value = "n"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "WAS_6.0"
+	component_id = "WAS_6.0_APP_SERVER"
+	name = "DEINSTALLATION_COMMAND"
+	value = "/usr/es/sbin/cluster/sa/was/sbin/cl_wasimport -r -t APPSERVER -A "
+	reserved = 0
+
+HACMPsa:
+	sa_id = "WAS_6.0"
+	component_id = "WAS_6.0_DEPLOYMENT_MANAGER"
+	name = "SMARTASSIST_ID"
+	value = "WAS_6.0"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "WAS_6.0"
+	component_id = "WAS_6.0_DEPLOYMENT_MANAGER"
+	name = "SMARTASSIST_VERSION"
+	value = "2.0"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "WAS_6.0"
+	component_id = "WAS_6.0_DEPLOYMENT_MANAGER"
+	name = "COMPONENT_ID"
+	value = "WAS_6.0_DEPLOYMENT_MANAGER"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "WAS_6.0"
+	component_id = "WAS_6.0_DEPLOYMENT_MANAGER"
+	name = "DISCOVERY_COMMAND"
+	value = "/usr/es/sbin/cluster/sa/was/sbin/cl_wassaserverquery -d"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "WAS_6.0"
+	component_id = "WAS_6.0_DEPLOYMENT_MANAGER"
+	name = "SMIT_MODIFY"
+	value = "cl_wassamoddm_dialog"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "WAS_6.0"
+	component_id = "WAS_6.0_DEPLOYMENT_MANAGER"
+	name = "SMIT_MODIFY_TYPE"
+	value = "d"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "WAS_6.0"
+	component_id = "WAS_6.0_DEPLOYMENT_MANAGER"
+	name = "SMIT_ADD"
+	value = "cl_wassaadddm_select"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "WAS_6.0"
+	component_id = "WAS_6.0_DEPLOYMENT_MANAGER"
+	name = "SMIT_ADD_TYPE"
+	value = "n"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "WAS_6.0"
+	component_id = "WAS_6.0_DEPLOYMENT_MANAGER"
+	name = "DEINSTALLATION_COMMAND"
+	value = "/usr/es/sbin/cluster/sa/was/sbin/cl_wasimport -r -t DMMANAGER -A "
+	reserved = 0
+
+HACMPsa:
+	sa_id = "WAS_6.0"
+	component_id = "WAS_6.0_TRANSACTION_LOG_RECOVERY"
+	name = "SMARTASSIST_ID"
+	value = "WAS_6.0"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "WAS_6.0"
+	component_id = "WAS_6.0_TRANSACTION_LOG_RECOVERY"
+	name = "SMARTASSIST_VERSION"
+	value = "2.0"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "WAS_6.0"
+	component_id = "WAS_6.0_TRANSACTION_LOG_RECOVERY"
+	name = "COMPONENT_ID"
+	value = "WAS_6.0_TRANSACTION_LOG_RECOVERY"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "WAS_6.0"
+	component_id = "WAS_6.0_TRANSACTION_LOG_RECOVERY"
+	name = "DISCOVERY_COMMAND"
+	value = "/usr/es/sbin/cluster/sa/was/sbin/cl_wassaclusquery"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "WAS_6.0"
+	component_id = "WAS_6.0_TRANSACTION_LOG_RECOVERY"
+	name = "SMIT_MODIFY"
+	value = "cl_wassamodclus_dialog"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "WAS_6.0"
+	component_id = "WAS_6.0_TRANSACTION_LOG_RECOVERY"
+	name = "SMIT_MODIFY_TYPE"
+	value = "d"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "WAS_6.0"
+	component_id = "WAS_6.0_TRANSACTION_LOG_RECOVERY"
+	name = "SMIT_ADD"
+	value = "cl_wassaaddclus_select"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "WAS_6.0"
+	component_id = "WAS_6.0_TRANSACTION_LOG_RECOVERY"
+	name = "SMIT_ADD_TYPE"
+	value = "n"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "WAS_6.0"
+	component_id = "WAS_6.0_TRANSACTION_LOG_RECOVERY"
+	name = "DEINSTALLATION_COMMAND"
+	value = "/usr/es/sbin/cluster/sa/was/sbin/cl_wasimportclus -r -A "
+	reserved = 0
+
+HACMPsa:
+	sa_id = "TSM_6.1_SERV"
+	component_id = ""
+	name = "SMARTASSIST_NAME"
+	value = "TSM server smart assist"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "TSM_6.1_SERV"
+	component_id = ""
+	name = "SMARTASSIST_CATALOG"
+	value = "tsmserversa.cat"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "TSM_6.1_SERV"
+	component_id = ""
+	name = "SMARTASSIST_CATALOG_SET"
+	value = ""
+	reserved = 0
+
+HACMPsa:
+	sa_id = "TSM_6.1_SERV"
+	component_id = ""
+	name = "SMARTASSIST_CATALOG_MSGNO"
+	value = ""
+	reserved = 0
+
+HACMPsa:
+	sa_id = "TSM_6.1_SERV"
+	component_id = ""
+	name = "SMIT_MANUAL_ADD"
+	value = "/usr/es/sbin/cluster/sa/tsmserver/sbin/cl_tsmservmanual -f "
+	reserved = 0
+
+HACMPsa:
+	sa_id = "TSM_6.1_SERV"
+	component_id = "TSM_6.1_SERVER"
+	name = "SMARTASSIST_ID"
+	value = "TSM_6.1_SERV"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "TSM_6.1_SERV"
+	component_id = "TSM_6.1_SERVER"
+	name = "SMARTASSIST_VERSION"
+	value = "1.0"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "TSM_6.1_SERV"
+	component_id = "TSM_6.1_SERVER"
+	name = "COMPONENT_ID"
+	value = "TSM_6.1_SERVER"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "TSM_6.1_SERV"
+	component_id = "TSM_6.1_SERVER"
+	name = "SMIT_MODIFY_TYPE"
+	value = "d"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "TSM_6.1_SERV"
+	component_id = "TSM_6.1_SERVER"
+	name = "SMIT_ADD"
+	value = "cl_tsm_add_server_instance"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "TSM_6.1_SERV"
+	component_id = "TSM_6.1_SERVER"
+	name = "DEINSTALLATION_COMMAND"
+	value = "/usr/es/sbin/cluster/sa/tsmserver/install/uninstall"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "TSM_6.1_SERV"
+	component_id = "TSM_6.1_SERVER"
+	name = "SMIT_MODIFY"
+	value = "cl_tsm_mod_server_instance"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "TSM_6.1_SERV"
+	component_id = "TSM_6.1_SERVER"
+	name = "DISCOVERY_COMMAND"
+	value = "/usr/es/sbin/cluster/sa/tsmserver/sbin/cl_tsmserverdiscovery"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "TSM_6.1_SERV"
+	component_id = "TSM_6.1_SERVER"
+	name = "SMIT_ADD_TYPE"
+	value = "n"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "TSM_6.1_CLIENT"
+	component_id = ""
+	name = "SMARTASSIST_NAME"
+	value = "TSM client smart assist"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "TSM_6.1_CLIENT"
+	component_id = ""
+	name = "SMARTASSIST_CATALOG"
+	value = "tsmclientsa.cat"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "TSM_6.1_CLIENT"
+	component_id = ""
+	name = "SMARTASSIST_CATALOG_SET"
+	value = ""
+	reserved = 0
+
+HACMPsa:
+	sa_id = "TSM_6.1_CLIENT"
+	component_id = ""
+	name = "SMARTASSIST_CATALOG_MSGNO"
+	value = ""
+	reserved = 0
+
+HACMPsa:
+	sa_id = "TSM_6.1_CLIENT"
+	component_id = ""
+	name = "SMIT_MANUAL_ADD"
+	value = "/usr/es/sbin/cluster/sa/tsmclient/sbin/cl_tsmclimanual -f "
+	reserved = 0
+
+HACMPsa:
+	sa_id = "TSM_6.1_CLIENT"
+	component_id = "TSM_6.1_BACLIENT"
+	name = "SMARTASSIST_ID"
+	value = "TSM_6.1_CLIENT"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "TSM_6.1_CLIENT"
+	component_id = "TSM_6.1_BACLIENT"
+	name = "SMARTASSIST_VERSION"
+	value = "1.0"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "TSM_6.1_CLIENT"
+	component_id = "TSM_6.1_BACLIENT"
+	name = "COMPONENT_ID"
+	value = "TSM_6.1_BACLIENT"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "TSM_6.1_CLIENT"
+	component_id = "TSM_6.1_BACLIENT"
+	name = "SMIT_MODIFY_TYPE"
+	value = "d"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "TSM_6.1_CLIENT"
+	component_id = "TSM_6.1_BACLIENT"
+	name = "SMIT_ADD"
+	value = "cl_tsm_add_client_instance"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "TSM_6.1_CLIENT"
+	component_id = "TSM_6.1_BACLIENT"
+	name = "DEINSTALLATION_COMMAND"
+	value = "/usr/es/sbin/cluster/sa/tsmclient/install/uninstall"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "TSM_6.1_CLIENT"
+	component_id = "TSM_6.1_BACLIENT"
+	name = "SMIT_MODIFY"
+	value = "cl_tsm_mod_client_instance"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "TSM_6.1_CLIENT"
+	component_id = "TSM_6.1_BACLIENT"
+	name = "DISCOVERY_COMMAND"
+	value = "/usr/es/sbin/cluster/sa/tsmclient/sbin/cl_tsmclientdiscovery"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "TSM_6.1_CLIENT"
+	component_id = "TSM_6.1_BACLIENT"
+	name = "SMIT_ADD_TYPE"
+	value = "n"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "TSM_6.1_AC"
+	component_id = ""
+	name = "SMARTASSIST_NAME"
+	value = "TSM admin smart assist"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "TSM_6.1_AC"
+	component_id = ""
+	name = "SMARTASSIST_CATALOG"
+	value = "tsmadminsa.cat"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "TSM_6.1_AC"
+	component_id = ""
+	name = "SMARTASSIST_CATALOG_SET"
+	value = ""
+	reserved = 0
+
+HACMPsa:
+	sa_id = "TSM_6.1_AC"
+	component_id = ""
+	name = "SMARTASSIST_CATALOG_MSGNO"
+	value = ""
+	reserved = 0
+
+HACMPsa:
+	sa_id = "TSM_6.1_AC"
+	component_id = ""
+	name = "SMIT_MANUAL_ADD"
+	value = "/usr/es/sbin/cluster/sa/tsmadmin/sbin/cl_tsm_adminmanual -f "
+	reserved = 0
+
+HACMPsa:
+	sa_id = "TSM_6.1_AC"
+	component_id = "TSM_6.1_ADMINCENTER"
+	name = "SMARTASSIST_ID"
+	value = "TSM_6.1_AC"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "TSM_6.1_AC"
+	component_id = "TSM_6.1_ADMINCENTER"
+	name = "SMARTASSIST_VERSION"
+	value = "1.0"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "TSM_6.1_AC"
+	component_id = "TSM_6.1_ADMINCENTER"
+	name = "COMPONENT_ID"
+	value = "TSM_6.1_ADMINCENTER"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "TSM_6.1_AC"
+	component_id = "TSM_6.1_ADMINCENTER"
+	name = "SMIT_MODIFY_TYPE"
+	value = "d"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "TSM_6.1_AC"
+	component_id = "TSM_6.1_ADMINCENTER"
+	name = "SMIT_ADD"
+	value = "cl_tsm_add_admin_instance"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "TSM_6.1_AC"
+	component_id = "TSM_6.1_ADMINCENTER"
+	name = "DEINSTALLATION_COMMAND"
+	value = "/usr/es/sbin/cluster/sa/tsmadmin/install/uninstall"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "TSM_6.1_AC"
+	component_id = "TSM_6.1_ADMINCENTER"
+	name = "SMIT_MODIFY"
+	value = "cl_tsm_mod_admin_instance"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "TSM_6.1_AC"
+	component_id = "TSM_6.1_ADMINCENTER"
+	name = "DISCOVERY_COMMAND"
+	value = "/usr/es/sbin/cluster/sa/tsmadmin/sbin/cl_tsmadmindiscovery"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "TSM_6.1_AC"
+	component_id = "TSM_6.1_ADMINCENTER"
+	name = "SMIT_ADD_TYPE"
+	value = "d"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "TDS_5.2"
+	component_id = ""
+	name = "SMARTASSIST_NAME"
+	value = "Tivoli Directory Server Smart Assist"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "TDS_5.2"
+	component_id = ""
+	name = "SMARTASSIST_CATALOG"
+	value = "tdssa.cat"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "TDS_5.2"
+	component_id = ""
+	name = "SMARTASSIST_CATALOG_SET"
+	value = "10"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "TDS_5.2"
+	component_id = ""
+	name = "SMARTASSIST_CATALOG_MSGNO"
+	value = "10"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "TDS_5.2"
+	component_id = ""
+	name = "SMIT_MANUAL_ADD"
+	value = "/usr/es/sbin/cluster/sa/tds/sbin/cl_importtds -f "
+	reserved = 0
+
+HACMPsa:
+	sa_id = "TDS_5.2"
+	component_id = "TIVOLI_LDAP_SERVER"
+	name = "SMARTASSIST_ID"
+	value = "TDS_5.2"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "TDS_5.2"
+	component_id = "TIVOLI_LDAP_SERVER"
+	name = "SMARTASSIST_VERSION"
+	value = "2.0"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "TDS_5.2"
+	component_id = "TIVOLI_LDAP_SERVER"
+	name = "COMPONENT_ID"
+	value = "TIVOLI_LDAP_SERVER"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "TDS_5.2"
+	component_id = "TIVOLI_LDAP_SERVER"
+	name = "DISCOVERY_COMMAND"
+	value = "/usr/es/sbin/cluster/sa/tds/sbin/cl_tdssaquery"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "TDS_5.2"
+	component_id = "TIVOLI_LDAP_SERVER"
+	name = "SMIT_MODIFY"
+	value = "cl_tdssamod_dialog"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "TDS_5.2"
+	component_id = "TIVOLI_LDAP_SERVER"
+	name = "SMIT_MODIFY_TYPE"
+	value = "d"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "TDS_5.2"
+	component_id = "TIVOLI_LDAP_SERVER"
+	name = "SMIT_ADD"
+	value = "cl_tdssaadd_dialog"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "TDS_5.2"
+	component_id = "TIVOLI_LDAP_SERVER"
+	name = "SMIT_ADD_TYPE"
+	value = "d"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "TDS_5.2"
+	component_id = "TIVOLI_LDAP_SERVER"
+	name = "DEINSTALLATION_COMMAND"
+	value = "/usr/es/sbin/cluster/sa/tds/sbin/cl_importtds -d"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "SAPNW_7.0"
+	component_id = ""
+	name = "SMARTASSIST_NAME"
+	value = "SAP Smart Assist"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "SAPNW_7.0"
+	component_id = ""
+	name = "SMARTASSIST_CATALOG"
+	value = "sapsa.cat"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "SAPNW_7.0"
+	component_id = ""
+	name = "SMARTASSIST_CATALOG_SET"
+	value = "20"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "SAPNW_7.0"
+	component_id = ""
+	name = "SMARTASSIST_CATALOG_MSGNO"
+	value = "1"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "SAPNW_7.0"
+	component_id = ""
+	name = "SMIT_MANUAL_ADD"
+	value = "/usr/es/sbin/cluster/sa/sap/sbin/cl_addsapinstance -f "
+	reserved = 0
+
+HACMPsa:
+	sa_id = "SAPNW_7.0"
+	component_id = "SAPNW_7.0_SAPGFS"
+	name = "SMARTASSIST_ID"
+	value = "SAPNW_7.0"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "SAPNW_7.0"
+	component_id = "SAPNW_7.0_SAPGFS"
+	name = "SMARTASSIST_VERSION"
+	value = "1.0"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "SAPNW_7.0"
+	component_id = "SAPNW_7.0_SAPGFS"
+	name = "COMPONENT_ID"
+	value = "SAPNW_7.0_SAPGFS"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "SAPNW_7.0"
+	component_id = "SAPNW_7.0_SAPGFS"
+	name = "SMIT_MODIFY_TYPE"
+	value = "d"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "SAPNW_7.0"
+	component_id = "SAPNW_7.0_SAPGFS"
+	name = "SMIT_ADD"
+	value = "cl_sapsa_add_gfs"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "SAPNW_7.0"
+	component_id = "SAPNW_7.0_SAPGFS"
+	name = "DEINSTALLATION_COMMAND"
+	value = "/usr/es/sbin/cluster/sa/sap/install/uninstall"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "SAPNW_7.0"
+	component_id = "SAPNW_7.0_SAPGFS"
+	name = "SMIT_MODIFY"
+	value = "cl_sapsa_mod_gfs"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "SAPNW_7.0"
+	component_id = "SAPNW_7.0_SAPGFS"
+	name = "SMIT_ADD_TYPE"
+	value = "d"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "SAPNW_7.0"
+	component_id = "SAPNW_7.0_ASINSTANCE"
+	name = "SMARTASSIST_ID"
+	value = "SAPNW_7.0"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "SAPNW_7.0"
+	component_id = "SAPNW_7.0_ASINSTANCE"
+	name = "SMARTASSIST_VERSION"
+	value = "1.0"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "SAPNW_7.0"
+	component_id = "SAPNW_7.0_ASINSTANCE"
+	name = "COMPONENT_ID"
+	value = "SAPNW_7.0_ASINSTANCE"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "SAPNW_7.0"
+	component_id = "SAPNW_7.0_ASINSTANCE"
+	name = "SMIT_MODIFY_TYPE"
+	value = "d"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "SAPNW_7.0"
+	component_id = "SAPNW_7.0_ASINSTANCE"
+	name = "SMIT_ADD"
+	value = "cl_sapsa_add_appinstance"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "SAPNW_7.0"
+	component_id = "SAPNW_7.0_ASINSTANCE"
+	name = "DEINSTALLATION_COMMAND"
+	value = "/usr/es/sbin/cluster/sa/sap/install/uninstall"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "SAPNW_7.0"
+	component_id = "SAPNW_7.0_ASINSTANCE"
+	name = "SMIT_MODIFY"
+	value = "cl_sapsa_modify_appinstance"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "SAPNW_7.0"
+	component_id = "SAPNW_7.0_ASINSTANCE"
+	name = "SMIT_ADD_TYPE"
+	value = "n"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "SAPNW_7.0"
+	component_id = "SAPNW_7.0_SCSINSTANCE"
+	name = "SMARTASSIST_ID"
+	value = "SAPNW_7.0"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "SAPNW_7.0"
+	component_id = "SAPNW_7.0_SCSINSTANCE"
+	name = "SMARTASSIST_VERSION"
+	value = "1.0"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "SAPNW_7.0"
+	component_id = "SAPNW_7.0_SCSINSTANCE"
+	name = "COMPONENT_ID"
+	value = "SAPNW_7.0_SCSINSTANCE"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "SAPNW_7.0"
+	component_id = "SAPNW_7.0_SCSINSTANCE"
+	name = "SMIT_MODIFY_TYPE"
+	value = "d"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "SAPNW_7.0"
+	component_id = "SAPNW_7.0_SCSINSTANCE"
+	name = "SMIT_ADD"
+	value = "cl_sapsa_add_scsinstance"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "SAPNW_7.0"
+	component_id = "SAPNW_7.0_SCSINSTANCE"
+	name = "DEINSTALLATION_COMMAND"
+	value = "/usr/es/sbin/cluster/sa/sap/install/uninstall"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "SAPNW_7.0"
+	component_id = "SAPNW_7.0_SCSINSTANCE"
+	name = "SMIT_MODIFY"
+	value = "cl_sapsa_modify_scsinstance"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "SAPNW_7.0"
+	component_id = "SAPNW_7.0_SCSINSTANCE"
+	name = "SMIT_ADD_TYPE"
+	value = "n"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "SAPNW_7.0"
+	component_id = "SAPNW_7.0_ERSINSTANCE"
+	name = "SMARTASSIST_ID"
+	value = "SAPNW_7.0"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "SAPNW_7.0"
+	component_id = "SAPNW_7.0_ERSINSTANCE"
+	name = "SMARTASSIST_VERSION"
+	value = "1.0"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "SAPNW_7.0"
+	component_id = "SAPNW_7.0_ERSINSTANCE"
+	name = "COMPONENT_ID"
+	value = "SAPNW_7.0_ERSINSTANCE"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "SAPNW_7.0"
+	component_id = "SAPNW_7.0_ERSINSTANCE"
+	name = "SMIT_MODIFY_TYPE"
+	value = "d"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "SAPNW_7.0"
+	component_id = "SAPNW_7.0_ERSINSTANCE"
+	name = "SMIT_ADD"
+	value = "cl_sapsa_add_ersinstance"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "SAPNW_7.0"
+	component_id = "SAPNW_7.0_ERSINSTANCE"
+	name = "DEINSTALLATION_COMMAND"
+	value = "/usr/es/sbin/cluster/sa/sap/install/uninstall"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "SAPNW_7.0"
+	component_id = "SAPNW_7.0_ERSINSTANCE"
+	name = "SMIT_MODIFY"
+	value = "cl_sapsa_modify_ersinstance"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "SAPNW_7.0"
+	component_id = "SAPNW_7.0_ERSINSTANCE"
+	name = "SMIT_ADD_TYPE"
+	value = "n"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "SAPNW_7.0"
+	component_id = "SAPNW_7.0_DBINSTANCE"
+	name = "SMARTASSIST_ID"
+	value = "SAPNW_7.0"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "SAPNW_7.0"
+	component_id = "SAPNW_7.0_DBINSTANCE"
+	name = "SMARTASSIST_VERSION"
+	value = "1.0"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "SAPNW_7.0"
+	component_id = "SAPNW_7.0_DBINSTANCE"
+	name = "COMPONENT_ID"
+	value = "SAPNW_7.0_DBINSTANCE"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "SAPNW_7.0"
+	component_id = "SAPNW_7.0_DBINSTANCE"
+	name = "SMIT_MODIFY_TYPE"
+	value = "d"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "SAPNW_7.0"
+	component_id = "SAPNW_7.0_DBINSTANCE"
+	name = "SMIT_ADD"
+	value = "cl_db2sa_add_single_instance"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "SAPNW_7.0"
+	component_id = "SAPNW_7.0_DBINSTANCE"
+	name = "DEINSTALLATION_COMMAND"
+	value = "/usr/es/sbin/cluster/sa/sap/install/uninstall"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "SAPNW_7.0"
+	component_id = "SAPNW_7.0_DBINSTANCE"
+	name = "SMIT_MODIFY"
+	value = "cl_db2sa_modify_single_instance"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "SAPNW_7.0"
+	component_id = "SAPNW_7.0_DBINSTANCE"
+	name = "SMIT_ADD_TYPE"
+	value = "n"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "SAPNW_7.0"
+	component_id = "SAPNW_7.0_SAPGFS"
+	name = "DISCOVERY_COMMAND"
+	value = "/usr/es/sbin/cluster/sa/sap/sbin/cl_sapdiscover -t GFS"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "SAPNW_7.0"
+	component_id = "SAPNW_7.0_ASINSTANCE"
+	name = "DISCOVERY_COMMAND"
+	value = "/usr/es/sbin/cluster/sa/sap/sbin/cl_sapdiscover -t AS"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "SAPNW_7.0"
+	component_id = "SAPNW_7.0_SCSINSTANCE"
+	name = "DISCOVERY_COMMAND"
+	value = "/usr/es/sbin/cluster/sa/sap/sbin/cl_sapdiscover -t SCS"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "SAPNW_7.0"
+	component_id = "SAPNW_7.0_ERSINSTANCE"
+	name = "DISCOVERY_COMMAND"
+	value = "/usr/es/sbin/cluster/sa/sap/sbin/cl_sapdiscover -t ERS"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "SAPNW_7.0"
+	component_id = "SAPNW_7.0_DBINSTANCE"
+	name = "DISCOVERY_COMMAND"
+	value = "/usr/es/sbin/cluster/sa/sap/sbin/cl_sapdiscover -t DB"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "PRINT_SERVER"
+	component_id = "PRINT_SERVER_SYSTEMV"
+	name = "SMARTASSIST_ID"
+	value = "PRINT_SERVER"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "PRINT_SERVER"
+	component_id = "PRINT_SERVER_POWERPC"
+	name = "COMPONENT_ID"
+	value = "PRINT_SERVER_POWERPC"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "PRINT_SERVER"
+	component_id = "PRINT_SERVER_POWERPC"
+	name = "SMARTASSIST_ID"
+	value = "PRINT_SERVER"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "PRINT_SERVER"
+	component_id = "PRINT_SERVER_SYSTEMV"
+	name = "COMPONENT_ID"
+	value = "PRINT_SERVER_SYSTEMV"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "PRINT_SERVER"
+	component_id = "PRINT_SERVER_POWERPC"
+	name = "SMIT_ADD"
+	value = "cl_print_server_sa_add_cmd"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "PRINT_SERVER"
+	component_id = "PRINT_SERVER_POWERPC"
+	name = "SMIT_ADD_TYPE"
+	value = "d"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "PRINT_SERVER"
+	component_id = "PRINT_SERVER_SYSTEMV"
+	name = "SMIT_ADD"
+	value = "cl_print_server_sa_add_cmd"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "PRINT_SERVER"
+	component_id = "PRINT_SERVER_SYSTEMV"
+	name = "SMIT_ADD_TYPE"
+	value = "d"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "PRINT_SERVER"
+	component_id = "PRINT_SERVER_POWERPC"
+	name = "SMIT_MODIFY"
+	value = "cl_print_server_sa_modify"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "PRINT_SERVER"
+	component_id = "PRINT_SERVER_POWERPC"
+	name = "SMIT_MODIFY_TYPE"
+	value = "d"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "PRINT_SERVER"
+	component_id = "PRINT_SERVER_SYSTEMV"
+	name = "SMIT_MODIFY_TYPE"
+	value = "d"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "PRINT_SERVER"
+	component_id = "PRINT_SERVER_SYSTEMV"
+	name = "SMIT_MODIFY"
+	value = "cl_print_server_sa_modify"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "PRINT_SERVER"
+	component_id = ""
+	name = "SMARTASSIST_NAME"
+	value = "Print Subsystem Smart Assist"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "PRINT_SERVER"
+	component_id = ""
+	name = "SMARTASSIST_CATALOG"
+	value = "print_server_sa.cat"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "PRINT_SERVER"
+	component_id = ""
+	name = "SMARTASSIST_CATALOG_SET"
+	value = "1"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "PRINT_SERVER"
+	component_id = ""
+	name = "SMARTASSIST_CATALOG_MSGNO"
+	value = "1"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "PRINT_SERVER"
+	component_id = ""
+	name = "SMIT_MANUAL_ADD"
+	value = "/usr/es/sbin/cluster/sa/printServer/sbin/cl_print_server_manual_config -f "
+	reserved = 0
+
+HACMPsa:
+	sa_id = "PRINT_SERVER"
+	component_id = "PRINT_SERVER_SYSTEMV"
+	name = "DISCOVERY_COMMAND"
+	value = "/usr/es/sbin/cluster/sa/printServer/sbin/cl_print_server_query -d SystemV"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "PRINT_SERVER"
+	component_id = "PRINT_SERVER_POWERPC"
+	name = "DISCOVERY_COMMAND"
+	value = "/usr/es/sbin/cluster/sa/printServer/sbin/cl_print_server_query -d PowerPC"
+	reserved = 0
+
+HACMPsa:
+	sa_id = ""
+	component_id = ""
+	name = ""
+	value = ""
+	reserved = 0
+
+HACMPsa:
+	sa_id = "Oracle_10G"
+	component_id = ""
+	name = "SMARTASSIST_NAME"
+	value = "Oracle Database Smart Assist"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "Oracle_10G"
+	component_id = ""
+	name = "SMARTASSIST_CATALOG"
+	value = "oraclesa.cat"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "Oracle_10G"
+	component_id = ""
+	name = "SMARTASSIST_CATALOG_SET"
+	value = "10"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "Oracle_10G"
+	component_id = ""
+	name = "SMARTASSIST_CATALOG_MSGNO"
+	value = "1"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "Oracle_10G"
+	component_id = ""
+	name = "SMIT_MANUAL_ADD"
+	value = "/usr/es/sbin/cluster/sa/oracle/sbin/cl_osa_addInstance -f "
+	reserved = 0
+
+HACMPsa:
+	sa_id = "Oracle_10G"
+	component_id = "Oracle_10G_RDBMS_CFC"
+	name = "SMARTASSIST_ID"
+	value = "Oracle_10G"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "Oracle_10G"
+	component_id = "Oracle_10G_RDBMS_CFC"
+	name = "SMARTASSIST_VERSION"
+	value = "2.0"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "Oracle_10G"
+	component_id = "Oracle_10G_RDBMS_CFC"
+	name = "COMPONENT_ID"
+	value = "Oracle_10G_RDBMS_CFC"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "Oracle_10G"
+	component_id = "Oracle_10G_RDBMS_CFC"
+	name = "SMIT_MODIFY_TYPE"
+	value = "d"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "Oracle_10G"
+	component_id = "Oracle_10G_RDBMS_CFC"
+	name = "SMIT_ADD"
+	value = "cl_oraclesa_add_db"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "Oracle_10G"
+	component_id = "Oracle_10G_RDBMS_CFC"
+	name = "DEINSTALLATION_COMMAND"
+	value = "/usr/es/sbin/cluster/sa/oracle/install/uninstall"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "Oracle_10G"
+	component_id = "Oracle_10G_RDBMS_CFC"
+	name = "SMIT_MODIFY"
+	value = "cl_oraclesa_modify_db"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "Oracle_10G"
+	component_id = "Oracle_10G_RDBMS_CFC"
+	name = "DISCOVERY_COMMAND"
+	value = "/usr/es/sbin/cluster/sa/oracle/sbin/cl_osa_discover -i -D"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "Oracle_10G"
+	component_id = "Oracle_10G_RDBMS_CFC"
+	name = "SMIT_ADD_TYPE"
+	value = "n"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "Oracle_AppSrv_10G"
+	component_id = ""
+	name = "SMARTASSIST_NAME"
+	value = "Oracle Application Server Smart Assist"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "Oracle_AppSrv_10G"
+	component_id = "Oracle Application Server Smart Assist"
+	name = "SMARTASSIST_CATALOG"
+	value = "oraappsa.cat"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "Oracle_AppSrv_10G"
+	component_id = ""
+	name = "SMARTASSIST_CATALOG_SET"
+	value = "10"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "Oracle_AppSrv_10G"
+	component_id = ""
+	name = "SMARTASSIST_CATALOG_MSGNO"
+	value = "1"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "Oracle_AppSrv_10G"
+	component_id = ""
+	name = "SMIT_MANUAL_ADD"
+	value = "/usr/es/sbin/cluster/sa/oraappsrv/sbin/cl_osa_addInstance -f "
+	reserved = 0
+
+HACMPsa:
+	sa_id = "Oracle_AppSrv_10G"
+	component_id = "Oracle_AppSrv_10G_CFC"
+	name = "SMARTASSIST_ID"
+	value = "Oracle_AppSrv_10G"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "Oracle_AppSrv_10G"
+	component_id = "Oracle_AppSrv_10G_CFC"
+	name = "SMARTASSIST_VERSION"
+	value = "2.0"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "Oracle_AppSrv_10G"
+	component_id = "Oracle_AppSrv_10G_CFC"
+	name = "COMPONENT_ID"
+	value = "Oracle_AppSrv_10G_CFC"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "Oracle_AppSrv_10G"
+	component_id = "Oracle_AppSrv_10G_CFC"
+	name = "SMIT_MODIFY_TYPE"
+	value = "d"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "Oracle_AppSrv_10G"
+	component_id = "Oracle_AppSrv_10G_CFC"
+	name = "SMIT_ADD"
+	value = "cl_oraappsa_add_as_cfc"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "Oracle_AppSrv_10G"
+	component_id = "Oracle_AppSrv_10G_CFC"
+	name = "DEINSTALLATION_COMMAND"
+	value = "/usr/es/sbin/cluster/sa/oraappsrv/install/uninstall"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "Oracle_AppSrv_10G"
+	component_id = "Oracle_AppSrv_10G_CFC"
+	name = "SMIT_MODIFY"
+	value = "cl_oraappsa_modify_as_cfc"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "Oracle_AppSrv_10G"
+	component_id = "Oracle_AppSrv_10G_CFC"
+	name = "DISCOVERY_COMMAND"
+	value = "/usr/es/sbin/cluster/sa/oraappsrv/sbin/cl_osa_discover -i -A CFC"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "Oracle_AppSrv_10G"
+	component_id = "Oracle_AppSrv_10G_CFC"
+	name = "SMIT_ADD_TYPE"
+	value = "n"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "Oracle_AppSrv_10G"
+	component_id = "Oracle_AppSrv_10G_AFC"
+	name = "SMARTASSIST_ID"
+	value = "Oracle_AppSrv_10G"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "Oracle_AppSrv_10G"
+	component_id = "Oracle_AppSrv_10G_AFC"
+	name = "SMARTASSIST_VERSION"
+	value = "2.0"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "Oracle_AppSrv_10G"
+	component_id = "Oracle_AppSrv_10G_AFC"
+	name = "COMPONENT_ID"
+	value = "Oracle_AppSrv_10G_AFC"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "Oracle_AppSrv_10G"
+	component_id = "Oracle_AppSrv_10G_AFC"
+	name = "SMIT_MODIFY_TYPE"
+	value = "d"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "Oracle_AppSrv_10G"
+	component_id = "Oracle_AppSrv_10G_AFC"
+	name = "SMIT_ADD"
+	value = "cl_oraappsa_add_as_afc"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "Oracle_AppSrv_10G"
+	component_id = "Oracle_AppSrv_10G_AFC"
+	name = "DEINSTALLATION_COMMAND"
+	value = "/usr/es/sbin/cluster/sa/oraappsrv/install/uninstall"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "Oracle_AppSrv_10G"
+	component_id = "Oracle_AppSrv_10G_AFC"
+	name = "SMIT_MODIFY"
+	value = "cl_oraappsa_modify_as_afc"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "Oracle_AppSrv_10G"
+	component_id = "Oracle_AppSrv_10G_AFC"
+	name = "DISCOVERY_COMMAND"
+	value = "/usr/es/sbin/cluster/sa/oraappsrv/sbin/cl_osa_discover -i -A AFC"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "Oracle_AppSrv_10G"
+	component_id = "Oracle_AppSrv_10G_AFC"
+	name = "SMIT_ADD_TYPE"
+	value = "n"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "MaxDB_7.6"
+	component_id = "MaxDB_Hot_Standby"
+	name = "SMARTASSIST_NAME"
+	value = "SAP MaxDB Smart Assist"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "MaxDB_7.6"
+	component_id = "MaxDB_Hot_Standby"
+	name = "SMARTASSIST_CATALOG"
+	value = "maxdbsa.cat"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "MaxDB_7.6"
+	component_id = "MaxDB_Hot_Standby"
+	name = "SMARTASSIST_CATALOG_SET"
+	value = "10"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "MaxDB_7.6"
+	component_id = "MaxDB_Hot_Standby"
+	name = "SMARTASSIST_CATALOG_MSGNO"
+	value = "1"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "MaxDB_7.6"
+	component_id = "MaxDB_Hot_Standby"
+	name = "SMIT_MANUAL_ADD"
+	value = "/usr/es/sbin/cluster/sa/maxdb/sbin/cl_maxdb_addInstance -f "
+	reserved = 0
+
+HACMPsa:
+	sa_id = "MaxDB_7.6"
+	component_id = "MaxDB_Hot_Standby"
+	name = "SMARTASSIST_ID"
+	value = "MaxDB_7.6"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "MaxDB_7.6"
+	component_id = "MaxDB_Hot_Standby"
+	name = "SMARTASSIST_VERSION"
+	value = "1.0"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "MaxDB_7.6"
+	component_id = "MaxDB_Hot_Standby"
+	name = "COMPONENT_ID"
+	value = "MaxDB_Hot_Standby"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "MaxDB_7.6"
+	component_id = "MaxDB_Hot_Standby"
+	name = "SMIT_MODIFY_TYPE"
+	value = "d"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "MaxDB_7.6"
+	component_id = "MaxDB_Hot_Standby"
+	name = "SMIT_ADD"
+	value = "cl_maxdbsa_hot_standby_add_db"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "MaxDB_7.6"
+	component_id = "MaxDB_Hot_Standby"
+	name = "DEINSTALLATION_COMMAND"
+	value = "/usr/es/sbin/cluster/sa/maxdb/install/uninstall"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "MaxDB_7.6"
+	component_id = "MaxDB_Hot_Standby"
+	name = "SMIT_MODIFY"
+	value = "cl_maxdbsa_hot_standby_modify_db"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "MaxDB_7.6"
+	component_id = "MaxDB_Hot_Standby"
+	name = "DISCOVERY_COMMAND"
+	value = "/usr/es/sbin/cluster/sa/maxdb/sbin/cl_maxdb_discover -H "
+	reserved = 0
+
+HACMPsa:
+	sa_id = "MaxDB_7.6"
+	component_id = "MaxDB_Hot_Standby"
+	name = "SMIT_ADD_TYPE"
+	value = "n"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "MaxDB_7.6"
+	component_id = "MaxDB_Standby"
+	name = "SMARTASSIST_NAME"
+	value = "SAP MaxDB Smart Assist"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "MaxDB_7.6"
+	component_id = "MaxDB_Standby"
+	name = "SMARTASSIST_CATALOG"
+	value = "maxdbsa.cat"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "MaxDB_7.6"
+	component_id = "MaxDB_Standby"
+	name = "SMARTASSIST_CATALOG_SET"
+	value = "10"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "MaxDB_7.6"
+	component_id = "MaxDB_Standby"
+	name = "SMARTASSIST_CATALOG_MSGNO"
+	value = "1"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "MaxDB_7.6"
+	component_id = "MaxDB_Standby"
+	name = "SMIT_MANUAL_ADD"
+	value = "/usr/es/sbin/cluster/sa/maxdb/sbin/cl_maxdb_addInstance -f "
+	reserved = 0
+
+HACMPsa:
+	sa_id = "MaxDB_7.6"
+	component_id = "MaxDB_Standby"
+	name = "SMARTASSIST_ID"
+	value = "MaxDB_7.6"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "MaxDB_7.6"
+	component_id = "MaxDB_Standby"
+	name = "SMARTASSIST_VERSION"
+	value = "1.0"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "MaxDB_7.6"
+	component_id = "MaxDB_Standby"
+	name = "COMPONENT_ID"
+	value = "MaxDB_Standby"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "MaxDB_7.6"
+	component_id = "MaxDB_Standby"
+	name = "SMIT_MODIFY_TYPE"
+	value = "d"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "MaxDB_7.6"
+	component_id = "MaxDB_Standby"
+	name = "SMIT_ADD"
+	value = "cl_maxdbsa_add_db"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "MaxDB_7.6"
+	component_id = "MaxDB_Standby"
+	name = "DEINSTALLATION_COMMAND"
+	value = "/usr/es/sbin/cluster/sa/maxdb/install/uninstall"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "MaxDB_7.6"
+	component_id = "MaxDB_Standby"
+	name = "SMIT_MODIFY"
+	value = "cl_maxdbsa_modify_db"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "MaxDB_7.6"
+	component_id = "MaxDB_Standby"
+	name = "DISCOVERY_COMMAND"
+	value = "/usr/es/sbin/cluster/sa/maxdb/sbin/cl_maxdb_discover -i "
+	reserved = 0
+
+HACMPsa:
+	sa_id = "MaxDB_7.6"
+	component_id = "MaxDB_Standby"
+	name = "SMIT_ADD_TYPE"
+	value = "n"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "IHS_6.0"
+	component_id = ""
+	name = "SMARTASSIST_NAME"
+	value = "IBM HTTP Server Smart Assist"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "IHS_6.0"
+	component_id = ""
+	name = "SMARTASSIST_CATALOG"
+	value = "ihssa.cat"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "IHS_6.0"
+	component_id = ""
+	name = "SMARTASSIST_CATALOG_SET"
+	value = "10"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "IHS_6.0"
+	component_id = ""
+	name = "SMARTASSIST_CATALOG_MSGNO"
+	value = "10"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "IHS_6.0"
+	component_id = ""
+	name = "SMIT_MANUAL_ADD"
+	value = "/usr/es/sbin/cluster/sa/ihs/sbin/cl_ihsimport -f "
+	reserved = 0
+
+HACMPsa:
+	sa_id = "IHS_6.0"
+	component_id = "IHS_SERVER"
+	name = "SMARTASSIST_ID"
+	value = "IHS_6.0"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "IHS_6.0"
+	component_id = "IHS_SERVER"
+	name = "SMARTASSIST_VERSION"
+	value = "2.0"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "IHS_6.0"
+	component_id = "IHS_SERVER"
+	name = "COMPONENT_ID"
+	value = "IHS_SERVER"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "IHS_6.0"
+	component_id = "IHS_SERVER"
+	name = "DISCOVERY_COMMAND"
+	value = "/usr/es/sbin/cluster/sa/ihs/sbin/cl_ihssaquery"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "IHS_6.0"
+	component_id = "IHS_SERVER"
+	name = "SMIT_MODIFY"
+	value = "cl_modihs_dialog"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "IHS_6.0"
+	component_id = "IHS_SERVER"
+	name = "SMIT_MODIFY_TYPE"
+	value = "d"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "IHS_6.0"
+	component_id = "IHS_SERVER"
+	name = "SMIT_ADD"
+	value = "cl_addihs_select"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "IHS_6.0"
+	component_id = "IHS_SERVER"
+	name = "SMIT_ADD_TYPE"
+	value = "n"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "IHS_6.0"
+	component_id = "IHS_SERVER"
+	name = "DEINSTALLATION_COMMAND"
+	value = "/usr/es/sbin/cluster/sa/ihs/sbin/cl_ihsimport -r -t HTTPSERVER -A "
+	reserved = 0
+
+HACMPsa:
+	sa_id = "DOMINO_8.5.1"
+	component_id = ""
+	name = "SMARTASSIST_NAME"
+	value = "Lotus Domino smart assist"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "DOMINO_8.5.1"
+	component_id = ""
+	name = "SMARTASSIST_CATALOG"
+	value = "lotusdominosa.cat"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "DOMINO_8.5.1"
+	component_id = ""
+	name = "SMARTASSIST_CATALOG_SET"
+	value = ""
+	reserved = 0
+
+HACMPsa:
+	sa_id = "DOMINO_8.5.1"
+	component_id = ""
+	name = "SMARTASSIST_CATALOG_MSGNO"
+	value = ""
+	reserved = 0
+
+HACMPsa:
+	sa_id = "DOMINO_8.5.1"
+	component_id = ""
+	name = "SMIT_MANUAL_ADD"
+	value = "/usr/es/sbin/cluster/sa/domino/sbin/cl_domino_manual -f "
+	reserved = 0
+
+HACMPsa:
+	sa_id = "DOMINO_8.5.1"
+	component_id = "DOMINO_SERVER"
+	name = "SMARTASSIST_ID"
+	value = "DOMINO_8.5.1"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "DOMINO_8.5.1"
+	component_id = "DOMINO_SERVER"
+	name = "SMARTASSIST_VERSION"
+	value = "1.0"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "DOMINO_8.5.1"
+	component_id = "DOMINO_SERVER"
+	name = "COMPONENT_ID"
+	value = "DOMINO_SERVER"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "DOMINO_8.5.1"
+	component_id = "DOMINO_SERVER"
+	name = "SMIT_MODIFY_TYPE"
+	value = "d"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "DOMINO_8.5.1"
+	component_id = "DOMINO_SERVER"
+	name = "SMIT_ADD"
+	value = "cl_domino_server_add"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "DOMINO_8.5.1"
+	component_id = "DOMINO_SERVER"
+	name = "DEINSTALLATION_COMMAND"
+	value = "/usr/es/sbin/cluster/sa/domino/install/uninstall"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "DOMINO_8.5.1"
+	component_id = "DOMINO_SERVER"
+	name = "SMIT_MODIFY"
+	value = "cl_domino_server_mod"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "DOMINO_8.5.1"
+	component_id = "DOMINO_SERVER"
+	name = "DISCOVERY_COMMAND"
+	value = "/usr/es/sbin/cluster/sa/domino/sbin/cl_domino_server_discovery"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "DOMINO_8.5.1"
+	component_id = "DOMINO_SERVER"
+	name = "SMIT_ADD_TYPE"
+	value = "d"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "DNS"
+	component_id = "DNS"
+	name = "SMARTASSIST_ID"
+	value = "DNS"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "DNS"
+	component_id = "DNS"
+	name = "COMPONENT_ID"
+	value = "DNS"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "DNS"
+	component_id = "DNS"
+	name = "SMIT_ADD"
+	value = "cl_dns_sa_add_cmd"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "DNS"
+	component_id = "DNS"
+	name = "SMIT_ADD_TYPE"
+	value = "d"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "DNS"
+	component_id = "DNS"
+	name = "SMIT_MODIFY"
+	value = "cl_dns_sa_modify"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "DNS"
+	component_id = "DNS"
+	name = "SMIT_MODIFY_TYPE"
+	value = "d"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "DNS"
+	component_id = "DNS"
+	name = "DISCOVERY_COMMAND"
+	value = "/usr/es/sbin/cluster/sa/dns/sbin/cl_dns_query -d"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "DNS"
+	component_id = ""
+	name = "SMARTASSIST_NAME"
+	value = "DNS Smart Assist"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "DNS"
+	component_id = ""
+	name = "SMARTASSIST_CATALOG"
+	value = "dnssa.cat"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "DNS"
+	component_id = ""
+	name = "SMARTASSIST_CATALOG_SET"
+	value = "1"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "DNS"
+	component_id = ""
+	name = "SMARTASSIST_CATALOG_MSGNO"
+	value = "1"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "DNS"
+	component_id = ""
+	name = "SMIT_MANUAL_ADD"
+	value = "/usr/es/sbin/cluster/sa/dns/sbin/cl_dns_import -f "
+	reserved = 0
+
+HACMPsa:
+	sa_id = "DHCP"
+	component_id = "DHCP"
+	name = "SMARTASSIST_ID"
+	value = "DHCP"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "DHCP"
+	component_id = "DHCP"
+	name = "COMPONENT_ID"
+	value = "DHCP"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "DHCP"
+	component_id = "DHCP"
+	name = "SMIT_ADD"
+	value = "cl_dhcp_sa_add_cmd"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "DHCP"
+	component_id = "DHCP"
+	name = "SMIT_ADD_TYPE"
+	value = "d"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "DHCP"
+	component_id = "DHCP"
+	name = "SMIT_MODIFY"
+	value = "cl_dhcp_sa_modify"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "DHCP"
+	component_id = "DHCP"
+	name = "SMIT_MODIFY_TYPE"
+	value = "d"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "DHCP"
+	component_id = "DHCP"
+	name = "DISCOVERY_COMMAND"
+	value = "/usr/es/sbin/cluster/sa/dhcp/sbin/cl_dhcp_query -d"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "DHCP"
+	component_id = ""
+	name = "SMARTASSIST_NAME"
+	value = "DHCP Smart Assist"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "DHCP"
+	component_id = ""
+	name = "SMARTASSIST_CATALOG"
+	value = "dhcpsa.cat"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "DHCP"
+	component_id = ""
+	name = "SMARTASSIST_CATALOG_SET"
+	value = "1"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "DHCP"
+	component_id = ""
+	name = "SMARTASSIST_CATALOG_MSGNO"
+	value = "1"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "DHCP"
+	component_id = ""
+	name = "SMIT_MANUAL_ADD"
+	value = "/usr/es/sbin/cluster/sa/dhcp/sbin/cl_dhcp_import -f "
+	reserved = 0
+
+HACMPsa:
+	sa_id = ""
+	component_id = ""
+	name = ""
+	value = ""
+	reserved = 0
+
+HACMPsa:
+	sa_id = "DB2_8.0"
+	component_id = ""
+	name = "SMARTASSIST_NAME"
+	value = "DB2 UDB non-DPF Smart Assist"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "DB2_8.0"
+	component_id = ""
+	name = "SMARTASSIST_CATALOG"
+	value = "db2sa.cat"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "DB2_8.0"
+	component_id = ""
+	name = "SMARTASSIST_CATALOG_SET"
+	value = "90"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "DB2_8.0"
+	component_id = ""
+	name = "SMARTASSIST_CATALOG_MSGNO"
+	value = "2"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "DB2_8.0"
+	component_id = ""
+	name = "SMIT_MANUAL_ADD"
+	value = "/usr/es/sbin/cluster/sa/db2/sbin/cl_db2preimport -f "
+	reserved = 0
+
+HACMPsa:
+	sa_id = "DB2_8.0"
+	component_id = "DB2_8.0_NON_DPF_SINGLE"
+	name = "SMARTASSIST_ID"
+	value = "DB2_8.0"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "DB2_8.0"
+	component_id = "DB2_8.0_NON_DPF_SINGLE"
+	name = "SMARTASSIST_VERSION"
+	value = "2.0"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "DB2_8.0"
+	component_id = "DB2_8.0_NON_DPF_SINGLE"
+	name = "COMPONENT_ID"
+	value = "DB2_8.0_NON_DPF_SINGLE"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "DB2_8.0"
+	component_id = "DB2_8.0_NON_DPF_SINGLE"
+	name = "SMIT_MODIFY_TYPE"
+	value = "d"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "DB2_8.0"
+	component_id = "DB2_8.0_NON_DPF_SINGLE"
+	name = "SMIT_ADD"
+	value = "cl_db2sa_add_single_instance"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "DB2_8.0"
+	component_id = "DB2_8.0_NON_DPF_SINGLE"
+	name = "DEINSTALLATION_COMMAND"
+	value = "/usr/es/sbin/cluster/sa/db2/install/uninstall"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "DB2_8.0"
+	component_id = "DB2_8.0_NON_DPF_SINGLE"
+	name = "SMIT_MODIFY"
+	value = "cl_db2sa_modify_single_instance"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "DB2_8.0"
+	component_id = "DB2_8.0_NON_DPF_SINGLE"
+	name = "DISCOVERY_COMMAND"
+	value = "/usr/es/sbin/cluster/sa/db2/sbin/cl_db2smquery -S"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "DB2_8.0"
+	component_id = "DB2_8.0_NON_DPF_SINGLE"
+	name = "SMIT_ADD_TYPE"
+	value = "n"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "FILENET"
+	component_id = "FILENET_APPLICATION_ENGINE"
+	name = "SMARTASSIST_ID"
+	value = "FILENET"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "FILENET"
+	component_id = "FILENET_APPLICATION_ENGINE"
+	name = "COMPONENT_ID"
+	value = "FILENET_APPLICATION_ENGINE"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "FILENET"
+	component_id = "FILENET_PROCESS_ENGINE"
+	name = "SMARTASSIST_ID"
+	value = "FILENET"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "FILENET"
+	component_id = "FILENET_PROCESS_ENGINE"
+	name = "COMPONENT_ID"
+	value = "FILENET_PROCESS_ENGINE"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "FILENET"
+	component_id = "FILENET_CONTENT_ENGINE"
+	name = "SMARTASSIST_ID"
+	value = "FILENET"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "FILENET"
+	component_id = "FILENET_CONTENT_ENGINE"
+	name = "COMPONENT_ID"
+	value = "FILENET_CONTENT_ENGINE"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "FILENET"
+	component_id = "FILENET_DB_CONTENT_ENGINE"
+	name = "SMARTASSIST_ID"
+	value = "FILENET"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "FILENET"
+	component_id = "FILENET_DB_PROCESS_ENGINE"
+	name = "COMPONENT_ID"
+	value = "FILENET_DB_PROCESS_ENGINE"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "FILENET"
+	component_id = "FILENET_DB_PROCESS_ENGINE"
+	name = "SMARTASSIST_ID"
+	value = "FILENET"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "FILENET"
+	component_id = "FILENET_DB_CONTENT_ENGINE"
+	name = "COMPONENT_ID"
+	value = "FILENET_DB_CONTENT_ENGINE"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "FILENET"
+	component_id = "FILENET_APPLICATION_ENGINE"
+	name = "SMIT_ADD"
+	value = "cl_filenet_ae_addnode_select"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "FILENET"
+	component_id = "FILENET_APPLICATION_ENGINE"
+	name = "SMIT_ADD_TYPE"
+	value = "n"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "FILENET"
+	component_id = "FILENET_CONTENT_ENGINE"
+	name = "SMIT_ADD"
+	value = "cl_filenet_ce_addnode_select"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "FILENET"
+	component_id = "FILENET_CONTENT_ENGINE"
+	name = "SMIT_ADD_TYPE"
+	value = "n"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "FILENET"
+	component_id = "FILENET_PROCESS_ENGINE"
+	name = "SMIT_ADD"
+	value = "cl_filenetsa_add_process_engine_select"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "FILENET"
+	component_id = "FILENET_PROCESS_ENGINE"
+	name = "SMIT_ADD_TYPE"
+	value = "n"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "FILENET"
+	component_id = "FILENET_PROCESS_ENGINE"
+	name = "SMIT_MODIFY"
+	value = "cl_filenetsa_modify_process_engine"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "FILENET"
+	component_id = "FILENET_PROCESS_ENGINE"
+	name = "SMIT_MODIFY_TYPE"
+	value = "d"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "FILENET"
+	component_id = "FILENET_DB_PROCESS_ENGINE"
+	name = "SMIT_ADD"
+	value = "cl_filenet_pe_db2sa_add_single_instance"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "FILENET"
+	component_id = "FILENET_DB_PROCESS_ENGINE"
+	name = "SMIT_ADD_TYPE"
+	value = "n"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "FILENET"
+	component_id = "FILENET_DB_PROCESS_ENGINE"
+	name = "SMIT_MODIFY_TYPE"
+	value = "d"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "FILENET"
+	component_id = "FILENET_DB_PROCESS_ENGINE"
+	name = "SMIT_MODIFY"
+	value = "cl_filenet_pe_db2sa_modify_single_instance_cmd"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "FILENET"
+	component_id = "FILENET_DB_CONTENT_ENGINE"
+	name = "SMIT_ADD"
+	value = "cl_filenet_ce_db2sa_add_single_instance"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "FILENET"
+	component_id = "FILENET_DB_CONTENT_ENGINE"
+	name = "SMIT_ADD_TYPE"
+	value = "n"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "FILENET"
+	component_id = "FILENET_DB_CONTENT_ENGINE"
+	name = "SMIT_MODIFY_TYPE"
+	value = "d"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "FILENET"
+	component_id = "FILENET_DB_CONTENT_ENGINE"
+	name = "SMIT_MODIFY"
+	value = "cl_filenet_ce_db2sa_modify_single_instance_cmd"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "FILENET"
+	component_id = "FILENET_CONTENT_ENGINE"
+	name = "SMIT_MODIFY_TYPE"
+	value = "d"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "FILENET"
+	component_id = "FILENET_CONTENT_ENGINE"
+	name = "SMIT_MODIFY"
+	value = "cl_filenet_ce_modnode_dialog"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "FILENET"
+	component_id = "FILENET_APPLICATION_ENGINE"
+	name = "SMIT_MODIFY_TYPE"
+	value = "d"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "FILENET"
+	component_id = "FILENET_APPLICATION_ENGINE"
+	name = "SMIT_MODIFY"
+	value = "cl_filenet_ae_modnode_dialog"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "FILENET"
+	component_id = "FILENET_CONTENT_ENGINE"
+	name = "DISCOVERY_COMMAND"
+	value = "/usr/es/sbin/cluster/sa/filenet/sbin/cl_filenet_pe_query -d CE"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "FILENET"
+	component_id = "FILENET_APPLICATION_ENGINE"
+	name = "DISCOVERY_COMMAND"
+	value = "/usr/es/sbin/cluster/sa/filenet/sbin/cl_filenet_pe_query -d AE"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "FILENET"
+	component_id = "FILENET_PROCESS_ENGINE"
+	name = "DISCOVERY_COMMAND"
+	value = "/usr/es/sbin/cluster/sa/filenet/sbin/cl_filenet_pe_query -d PE"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "FILENET"
+	component_id = "FILENET_DB_CONTENT_ENGINE"
+	name = "DISCOVERY_COMMAND"
+	value = "/usr/es/sbin/cluster/sa/filenet/sbin/cl_filenet_pe_query -d DB_PE"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "FILENET"
+	component_id = "FILENET_DB_PROCESS_ENGINE"
+	name = "DISCOVERY_COMMAND"
+	value = "/usr/es/sbin/cluster/sa/filenet/sbin/cl_filenet_pe_query -d DB_CE"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "FILENET"
+	component_id = ""
+	name = "SMARTASSIST_NAME"
+	value = "FileNet P8 Smart Assist"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "FILENET"
+	component_id = ""
+	name = "SMARTASSIST_CATALOG"
+	value = "filenetsa.cat"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "FILENET"
+	component_id = ""
+	name = "SMARTASSIST_CATALOG_SET"
+	value = "10"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "FILENET"
+	component_id = ""
+	name = "SMARTASSIST_CATALOG_MSGNO"
+	value = "1"
+	reserved = 0
+
+HACMPsa:
+	sa_id = "FILENET"
+	component_id = ""
+	name = "SMIT_MANUAL_ADD"
+	value = "/usr/es/sbin/cluster/sa/filenet/sbin/cl_filenet_manual_config -f "
+	reserved = 0
+#### END ODM class: HACMPsa ####
+
+
+#### START ODM class: HACMPsa_metadata ####
+#### END ODM class: HACMPsa_metadata ####
+
+
+#### START ODM class: HACMPsap_connector ####
+#### END ODM class: HACMPsap_connector ####
+
+
+#### START ODM class: HACMPsdisksubsys ####
+#### END ODM class: HACMPsdisksubsys ####
+
+
+#### START ODM class: HACMPserver ####
+
+HACMPserver:
+	name = "dbscript"
+	start = "/usr/es/sbin/cluster/scripts/dbstart.sh"
+	stop = "/usr/es/sbin/cluster/scripts/dbstop.sh"
+	min_cpu = 0
+	desired_cpu = 0
+	min_mem = 0
+	desired_mem = 0
+	use_cod = 0
+	min_procs = 0
+	min_procs_frac = 0
+	desired_procs = 0
+	desired_procs_frac = 0
+	start_mode = ""
+#### END ODM class: HACMPserver ####
+
+
+#### START ODM class: HACMPsircol ####
+
+HACMPsircol:
+	name = "DX986_cluster_sircol"
+	id = 0
+	uuid = "0"
+	ip_address = ""
+	repository = "00f92eecd24d900e"
+	backup_repository = ""
+#### END ODM class: HACMPsircol ####
+
+
+#### START ODM class: HACMPsite ####
+#### END ODM class: HACMPsite ####
+
+
+#### START ODM class: HACMPsiteinfo ####
+#### END ODM class: HACMPsiteinfo ####
+
+
+#### START ODM class: HACMPsplitmerge ####
+#### END ODM class: HACMPsplitmerge ####
+
+
+#### START ODM class: HACMPspprc ####
+#### END ODM class: HACMPspprc ####
+
+
+#### START ODM class: HACMPsr ####
+#### END ODM class: HACMPsr ####
+
+
+#### START ODM class: HACMPsvc ####
+#### END ODM class: HACMPsvc ####
+
+
+#### START ODM class: HACMPsvcpprc ####
+#### END ODM class: HACMPsvcpprc ####
+
+
+#### START ODM class: HACMPsvcrelationship ####
+#### END ODM class: HACMPsvcrelationship ####
+
+
+#### START ODM class: HACMPtape ####
+#### END ODM class: HACMPtape ####
+
+
+#### START ODM class: HACMPtc ####
+#### END ODM class: HACMPtc ####
+
+
+#### START ODM class: HACMPtimer ####
+#### END ODM class: HACMPtimer ####
+
+
+#### START ODM class: HACMPtimersvc ####
+
+HACMPtimersvc:
+	name = "file_collections_auto_prop"
+	period = 600
+	start_timeofday = ""
+	stop_timeofday = ""
+	command = "/usr/es/sbin/cluster/utilities/clfileprop"
+	args = "-a"
+
+HACMPtimersvc:
+	name = "autoclverify"
+	period = 0
+	start_timeofday = "00:00:00"
+	stop_timeofday = ""
+	command = "/usr/es/sbin/cluster/utilities/clautover"
+	args = "-D"
+#### END ODM class: HACMPtimersvc ####
+
+
+#### START ODM class: HACMPtopsvcs ####
+
+HACMPtopsvcs:
+	hbInterval = 1
+	fibrillateCount = 4
+	runFixedPri = 1
+	fixedPriLevel = 38
+	tsLogLength = 5000
+	gsLogLength = 5000
+	instanceNum = 0
+#### END ODM class: HACMPtopsvcs ####
+
+
+#### START ODM class: HACMPude ####
+#### END ODM class: HACMPude ####
+
+
+#### START ODM class: HACMPudres_def ####
+#### END ODM class: HACMPudres_def ####
+
+
+#### START ODM class: HACMPudresource ####
+#### END ODM class: HACMPudresource ####
+==== EXITED with rc 0 ====
+==== END cd /etc/objrepos; for i in HACMP*;do print "
+
+#### START ODM class: $i ####"; odmget $i;print "#### END ODM class: $i ####";done  Tue Jul  7 00:56:34 GST 2015 ====

@@ -1,0 +1,27 @@
+==== This output can be found in Systems/dx978/os/lssrc-ls_inetd.txt ====
+==== START lssrc -ls inetd Mon Jul  6 23:30:22 GST 2015 ====
+Subsystem         Group            PID          Status 
+ inetd            tcpip            3539050      active
+Debug         Not active 
+Signal        Purpose 
+ SIGALRM      Establishes socket connections for failed services. 
+ SIGHUP       Rereads the configuration database and reconfigures services. 
+ SIGCHLD      Restarts the service in case the service ends abnormally. 
+Service       Command                  Description              Status 
+ ttdbserver   /usr/dt/bin/rpc.ttdbserver rpc.ttdbserver 100083 1  active
+ cmsd         /usr/dt/bin/rpc.cmsd     cmsd 100068 2-5          active
+ dtspcd       /usr/dt/bin/dtspcd       /usr/dt/bin/dtspcd       active
+ xmquery      /usr/bin/xmtopas         xmtopas -p3              active
+ caa_cfg      /usr/sbin/clusterconf    clusterconf              active
+ time         internal                                          active
+ daytime      internal                                          active
+ time         internal                                          active
+ daytime      internal                                          active
+ ntalk        /usr/sbin/talkd          talkd                    active
+ exec         /usr/sbin/rexecd         rexecd                   active
+ login        /usr/sbin/rlogind        rlogind                  active
+ shell        /usr/sbin/rshd           rshd                     active
+ telnet       /usr/sbin/telnetd        telnetd -a               active
+ ftp          /usr/sbin/ftpd           ftpd                     active
+==== EXITED with rc 0 ====
+==== END lssrc -ls inetd Mon Jul  6 23:30:22 GST 2015 ====

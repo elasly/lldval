@@ -1,0 +1,53 @@
+==== This output can be found in Systems/dx986/ha/odmget_HACMPdaemons.txt ====
+==== START odmget HACMPdaemons Tue Jul  7 00:57:10 GST 2015 ====
+
+HACMPdaemons:
+	nodename = "DX986"
+	daemon = "clstrmgr"
+	type = "start"
+	object = "manage"
+	value = "auto"
+
+HACMPdaemons:
+	nodename = "DX986"
+	daemon = "clstrmgr"
+	type = "start"
+	object = "broadcast"
+	value = "false"
+
+HACMPdaemons:
+	nodename = "DX986"
+	daemon = "clinfo"
+	type = "start"
+	object = "time"
+	value = "false"
+
+HACMPdaemons:
+	nodename = "DX986"
+	daemon = "clstrmgr_scripts"
+	type = "resource_locator"
+	object = "DX986_RSG"
+	value = "UP"
+
+HACMPdaemons:
+	nodename = "DX986"
+	daemon = "clstrmgrES"
+	type = "stop"
+	object = "time"
+	value = "now"
+
+HACMPdaemons:
+	nodename = "DX986"
+	daemon = "clstrmgrES"
+	type = "stop"
+	object = "broadcast"
+	value = "false"
+
+HACMPdaemons:
+	nodename = "DX986"
+	daemon = "clstrmgrES"
+	type = "stop"
+	object = "mode"
+	value = "graceful"
+==== EXITED with rc 0 ====
+==== END odmget HACMPdaemons Tue Jul  7 00:57:10 GST 2015 ====

@@ -1,0 +1,22 @@
+==== This output can be found in Systems/dx976/perf/schedo-a.txt ====
+==== START schedo -a Tue Jul  7 13:05:35 CDT 2015 ====
+                 affinity_lim = 7
+                big_tick_size = 1
+        ded_cpu_donate_thresh = 80
+             fixed_pri_global = 0
+                    force_grq = 0
+                      maxspin = 16384
+                     pacefork = 10
+              proc_disk_stats = 1
+                      sched_D = 16
+                      sched_R = 16
+                tb_balance_S0 = 2
+                tb_balance_S1 = 2
+                 tb_threshold = 100
+                    timeslice = 1
+              vpm_fold_policy = 4
+vpm_throughput_core_threshold = 1
+          vpm_throughput_mode = 0
+                   vpm_xvcpus = 0
+==== EXITED with rc 0 ====
+==== END schedo -a Tue Jul  7 13:05:35 CDT 2015 ====

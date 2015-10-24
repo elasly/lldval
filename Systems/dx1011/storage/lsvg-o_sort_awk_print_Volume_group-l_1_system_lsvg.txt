@@ -1,0 +1,40 @@
+==== This output can be found in Systems/dx1011/storage/lsvg-o_sort_awk_print_Volume_group-l_1_system_lsvg.txt ====
+==== START lsvg -o |sort|awk '{print "#### Volume group -l: " $1 " ####";system("lsvg -l " $1 ); print "\n"}' Tue Jul  7 13:42:47 CDT 2015 ====
+#### Volume group -l: rootvg ####
+rootvg:
+LV NAME             TYPE       LPs     PPs     PVs  LV STATE      MOUNT POINT
+hd5                 boot       1       2       2    closed/syncd  N/A
+hd6                 paging     1       2       2    open/syncd    N/A
+paging00            paging     2       4       2    open/syncd    N/A
+hd8                 jfs2log    1       2       2    open/syncd    N/A
+hd4                 jfs2       1       2       2    open/syncd    /
+hd2                 jfs2       11      22      2    open/syncd    /usr
+hd9var              jfs2       4       8       2    open/syncd    /var
+hd3                 jfs2       16      32      2    open/syncd    /tmp
+hd1                 jfs2       20      40      2    open/syncd    /home
+hd10opt             jfs2       2       4       2    open/syncd    /opt
+hd11admin           jfs2       1       2       2    open/syncd    /admin
+livedump            jfs2       1       2       2    open/syncd    /var/adm/ras/livedump
+lg_dumplv           sysdump    2       2       1    open/syncd    N/A
+vioupdatelv         jfs2       10      10      1    closed/syncd  /vioupdate
+perfdatalv          jfs2       20      20      1    open/syncd    /perfdata
+
+
+#### Volume group -l: vg0 ####
+vg0:
+LV NAME             TYPE       LPs     PPs     PVs  LV STATE      MOUNT POINT
+vhdisk0             jfs        120     120     1    open/syncd    N/A
+vhdisk1             jfs        120     120     1    open/syncd    N/A
+vhdisk2             jfs        120     120     1    open/syncd    N/A
+vhdisk3             jfs        120     120     1    open/syncd    N/A
+vhdisk4             jfs        120     120     1    open/syncd    N/A
+vhdisk5             jfs        120     120     1    open/syncd    N/A
+vhdisk6             jfs        120     120     1    closed/syncd  N/A
+vhdisk7             jfs        120     120     1    closed/syncd  N/A
+vhdisk8             jfs        120     120     1    closed/syncd  N/A
+vhdisk9             jfs        120     120     1    closed/syncd  N/A
+VMLibrary           jfs2       120     120     1    open/syncd    /var/vio/VMLibrary
+
+
+==== EXITED with rc 0 ====
+==== END lsvg -o |sort|awk '{print "#### Volume group -l: " $1 " ####";system("lsvg -l " $1 ); print "\n"}' Tue Jul  7 13:42:48 CDT 2015 ====

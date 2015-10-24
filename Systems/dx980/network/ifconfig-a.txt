@@ -1,0 +1,17 @@
+==== This output can be found in Systems/dx980/network/ifconfig-a.txt ====
+==== START ifconfig -a Mon Jul  6 23:12:45 GST 2015 ====
+en0: flags=1e084863,4c0<UP,BROADCAST,NOTRAILERS,RUNNING,SIMPLEX,MULTICAST,GROUPRT,64BIT,CHECKSUM_OFFLOAD(ACTIVE),LARGESEND,CHAIN>
+	inet 10.51.226.227 netmask 0xffffff00 broadcast 10.51.226.255
+	 tcp_sendspace 262144 tcp_recvspace 262144 rfc1323 1
+en1: flags=1e084863,4c0<UP,BROADCAST,NOTRAILERS,RUNNING,SIMPLEX,MULTICAST,GROUPRT,64BIT,CHECKSUM_OFFLOAD(ACTIVE),LARGESEND,CHAIN>
+	inet 10.51.227.232 netmask 0xffffff00 broadcast 10.51.227.255
+	 tcp_sendspace 262144 tcp_recvspace 262144 rfc1323 1
+en3: flags=1e084863,4c0<UP,BROADCAST,NOTRAILERS,RUNNING,SIMPLEX,MULTICAST,GROUPRT,64BIT,CHECKSUM_OFFLOAD(ACTIVE),LARGESEND,CHAIN>
+	inet 10.51.229.223 netmask 0xffffff00 broadcast 10.51.229.255
+	 tcp_sendspace 262144 tcp_recvspace 262144 rfc1323 1
+lo0: flags=e08084b,c0<UP,BROADCAST,LOOPBACK,RUNNING,SIMPLEX,MULTICAST,GROUPRT,64BIT,LARGESEND,CHAIN>
+	inet 127.0.0.1 netmask 0xff000000 broadcast 127.255.255.255
+	inet6 ::1%1/0
+	 tcp_sendspace 131072 tcp_recvspace 131072 rfc1323 1
+==== EXITED with rc 0 ====
+==== END ifconfig -a Mon Jul  6 23:12:45 GST 2015 ====

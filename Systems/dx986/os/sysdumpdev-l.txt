@@ -1,0 +1,12 @@
+==== This output can be found in Systems/dx986/os/sysdumpdev-l.txt ====
+==== START sysdumpdev -l Tue Jul  7 00:46:17 GST 2015 ====
+primary              /dev/lg_dumplv
+secondary            /dev/sysdumpnull
+copy directory       /var/adm/ras
+forced copy flag     TRUE
+always allow dump    FALSE
+dump compression     ON
+type of dump         fw-assisted
+full memory dump     disallow
+==== EXITED with rc 0 ====
+==== END sysdumpdev -l Tue Jul  7 00:46:17 GST 2015 ====

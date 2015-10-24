@@ -1,0 +1,17 @@
+==== This output can be found in Systems/dx980/storage/mount.txt ====
+==== START mount Mon Jul  6 23:12:44 GST 2015 ====
+  node       mounted        mounted over    vfs       date        options      
+-------- ---------------  ---------------  ------ ------------ --------------- 
+         /dev/hd4         /                jfs2   Jun 12 01:16 rw,log=/dev/hd8 
+         /dev/hd2         /usr             jfs2   Jun 12 01:16 rw,log=/dev/hd8 
+         /dev/hd9var      /var             jfs2   Jun 12 01:16 rw,log=/dev/hd8 
+         /dev/hd3         /tmp             jfs2   Jun 12 01:16 rw,log=/dev/hd8 
+         /dev/hd1         /home            jfs2   Jun 12 01:21 rw,log=/dev/hd8 
+         /dev/hd11admin   /admin           jfs2   Jun 12 01:21 rw,log=/dev/hd8 
+         /proc            /proc            procfs Jun 12 01:21 rw              
+         /dev/hd10opt     /opt             jfs2   Jun 12 01:21 rw,log=/dev/hd8 
+         /dev/livedump    /var/adm/ras/livedump jfs2   Jun 12 01:21 rw,log=/dev/hd8 
+         /dev/perfdatalv  /perfdata        jfs2   Jun 12 01:21 rw,log=/dev/hd8 
+         /aha             /aha             ahafs  Jun 12 01:22 rw              
+==== EXITED with rc 0 ====
+==== END mount Mon Jul  6 23:12:44 GST 2015 ====

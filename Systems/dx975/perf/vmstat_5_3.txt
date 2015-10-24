@@ -1,0 +1,13 @@
+==== This output can be found in Systems/dx975/perf/vmstat_5_3.txt ====
+==== START vmstat 5 3  Tue Jul  7 12:47:12 CDT 2015 ====
+
+System configuration: lcpu=24 mem=8192MB ent=2.00
+
+kthr    memory              page              faults              cpu          
+----- ----------- ------------------------ ------------ -----------------------
+ r  b   avm   fre  re  pi  po  fr   sr  cy  in   sy  cs us sy id wa    pc    ec
+ 2  1 1243111 63023   0   0   0 523 1049   0 17774 983022 31520 28 30 42  0  2.20 110.0
+ 4  1 1245814 90459   0   0   0 6096 33011   0 15865 958510 27218 13 47 39  0  3.00 150.2
+ 5  0 1242832 117604   0   0   0 4978 6434   0 14541 937782 25126 14 47 39  0  2.82 140.9
+==== EXITED with rc 0 ====
+==== END vmstat 5 3  Tue Jul  7 12:47:27 CDT 2015 ====

@@ -1,0 +1,8 @@
+==== This output can be found in Systems/dx980/secure/grep_PATH_etc_environment.txt ====
+==== START grep PATH /etc/environment Mon Jul  6 23:12:43 GST 2015 ====
+# If /usr/ucb is at the beginning of the PATH the BSD version of commands will
+PATH=/usr/bin:/etc:/usr/sbin:/usr/ucb:/usr/bin/X11:/sbin:/usr/java5/jre/bin:/usr/java5/bin
+LOCPATH=/usr/lib/nls/loc
+NLSPATH=/usr/lib/nls/msg/%L/%N:/usr/lib/nls/msg/%L/%N.cat:/usr/lib/nls/msg/%l.%c/%N:/usr/lib/nls/msg/%l.%c/%N.cat
+==== EXITED with rc 0 ====
+==== END grep PATH /etc/environment Mon Jul  6 23:12:43 GST 2015 ====

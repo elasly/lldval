@@ -1,0 +1,15 @@
+==== This output can be found in Systems/dx1010/perf/svmon-^G.txt ====
+==== START svmon -G Tue Jul  7 13:15:53 CDT 2015 ====
+               size       inuse        free         pin     virtual   mmode
+memory      2097152     1992905      104246      917066     1195039     Ded
+pg space     393216        5838
+
+               work        pers        clnt       other
+pin          845141           0        2005       69920
+in use      1195038           0      797867
+
+PageSize   PoolSize       inuse        pgsp         pin     virtual
+s    4 KB         -     1058665        5838      164106      260799
+m   64 KB         -       58390           0       47060       58390
+==== EXITED with rc 0 ====
+==== END svmon -G Tue Jul  7 13:15:53 CDT 2015 ====

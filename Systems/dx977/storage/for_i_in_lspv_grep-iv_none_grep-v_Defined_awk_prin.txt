@@ -1,0 +1,931 @@
+==== This output can be found in Systems/dx977/storage/for_i_in_lspv_grep-iv_none_grep-v_Defined_awk_prin.txt ====
+==== START for i in $(lspv | grep -iv none | grep -v Defined | awk '{print $1}');do echo "### Disk: $i ### \n $(lspv -p $i | grep -wv $i) \n \n"; done Tue Jul  7 00:21:26 GST 2015 ====
+### Disk: hdiskpower1 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-16    free    outer edge                                   
+ 17-17    used    outer middle  caalv_private1      boot       N/A
+ 18-18    used    outer middle  caalv_private2      boot       N/A
+ 19-22    used    outer middle  caalv_private3                 N/A
+ 23-23    used    outer middle  powerha_crlv        boot       N/A
+ 24-32    free    outer middle                                 
+ 33-47    free    center                                       
+ 48-63    free    inner middle                                 
+ 64-79    free    inner edge                                    
+ 
+
+### Disk: hdiskpower3 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-135   used    outer edge    R5_baselv           jfs2       /gsm_base
+136-333   used    outer edge    R5_syslv            jfs2       /gsm_sys
+334-666   used    outer middle  R5_baselv           jfs2       /gsm_base
+667-998   used    center        R5_baselv           jfs2       /gsm_base
+999-1200  used    inner middle  R5_syslv            jfs2       /gsm_sys
+1201-1330  used    inner middle  R5_stagelv          jfs2       /gsm_stage
+1331-1600  used    inner edge    R5_stagelv          jfs2       /gsm_stage
+1601-1663  free    inner edge                                    
+ 
+
+### Disk: hdiskpower4 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-3277  used    outer edge    R1_data1lv          jfs2       /gsm_data1
+3278-6553  used    outer middle  R1_data1lv          jfs2       /gsm_data1
+6554-9829  used    center        R1_data1lv          jfs2       /gsm_data1
+9830-13105 used    inner middle  R1_data1lv          jfs2       /gsm_data1
+13106-16382 used    inner edge    R1_data1lv          jfs2       /gsm_data1 
+ 
+
+### Disk: hdiskpower5 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-3277  used    outer edge    R1_data1lv          jfs2       /gsm_data1
+3278-6553  used    outer middle  R1_data1lv          jfs2       /gsm_data1
+6554-9829  used    center        R1_data1lv          jfs2       /gsm_data1
+9830-13105 used    inner middle  R1_data1lv          jfs2       /gsm_data1
+13106-16382 used    inner edge    R1_data1lv          jfs2       /gsm_data1 
+ 
+
+### Disk: hdiskpower6 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-3277  used    outer edge    R1_data1lv          jfs2       /gsm_data1
+3278-6553  used    outer middle  R1_data1lv          jfs2       /gsm_data1
+6554-9829  used    center        R1_data1lv          jfs2       /gsm_data1
+9830-13105 used    inner middle  R1_data1lv          jfs2       /gsm_data1
+13106-16382 used    inner edge    R1_data1lv          jfs2       /gsm_data1 
+ 
+
+### Disk: hdiskpower7 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-3277  used    outer edge    R1_data1lv          jfs2       /gsm_data1
+3278-6553  used    outer middle  R1_data1lv          jfs2       /gsm_data1
+6554-9829  used    center        R1_data1lv          jfs2       /gsm_data1
+9830-13105 used    inner middle  R1_data1lv          jfs2       /gsm_data1
+13106-16382 used    inner edge    R1_data1lv          jfs2       /gsm_data1 
+ 
+
+### Disk: hdiskpower8 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-3277  used    outer edge    R1_data1lv          jfs2       /gsm_data1
+3278-6553  used    outer middle  R1_data1lv          jfs2       /gsm_data1
+6554-9829  used    center        R1_data1lv          jfs2       /gsm_data1
+9830-13105 used    inner middle  R1_data1lv          jfs2       /gsm_data1
+13106-16382 used    inner edge    R1_data1lv          jfs2       /gsm_data1 
+ 
+
+### Disk: hdiskpower9 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-3277  used    outer edge    R1_data1lv          jfs2       /gsm_data1
+3278-6553  used    outer middle  R1_data1lv          jfs2       /gsm_data1
+6554-9829  used    center        R1_data1lv          jfs2       /gsm_data1
+9830-13105 used    inner middle  R1_data1lv          jfs2       /gsm_data1
+13106-16382 used    inner edge    R1_data1lv          jfs2       /gsm_data1 
+ 
+
+### Disk: hdiskpower10 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-3277  used    outer edge    R1_data1lv          jfs2       /gsm_data1
+3278-6553  used    outer middle  R1_data1lv          jfs2       /gsm_data1
+6554-9829  used    center        R1_data1lv          jfs2       /gsm_data1
+9830-13105 used    inner middle  R1_data1lv          jfs2       /gsm_data1
+13106-16382 used    inner edge    R1_data1lv          jfs2       /gsm_data1 
+ 
+
+### Disk: hdiskpower11 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-3277  used    outer edge    R1_data1lv          jfs2       /gsm_data1
+3278-6553  used    outer middle  R1_data1lv          jfs2       /gsm_data1
+6554-9829  used    center        R1_data1lv          jfs2       /gsm_data1
+9830-13105 used    inner middle  R1_data1lv          jfs2       /gsm_data1
+13106-16382 used    inner edge    R1_data1lv          jfs2       /gsm_data1 
+ 
+
+### Disk: hdiskpower12 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-3277  used    outer edge    R1_data1lv          jfs2       /gsm_data1
+3278-6553  used    outer middle  R1_data1lv          jfs2       /gsm_data1
+6554-9829  used    center        R1_data1lv          jfs2       /gsm_data1
+9830-13105 used    inner middle  R1_data1lv          jfs2       /gsm_data1
+13106-16382 used    inner edge    R1_data1lv          jfs2       /gsm_data1 
+ 
+
+### Disk: hdiskpower13 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-3277  used    outer edge    R1_data1lv          jfs2       /gsm_data1
+3278-6553  used    outer middle  R1_data1lv          jfs2       /gsm_data1
+6554-9829  used    center        R1_data1lv          jfs2       /gsm_data1
+9830-13105 used    inner middle  R1_data1lv          jfs2       /gsm_data1
+13106-16382 used    inner edge    R1_data1lv          jfs2       /gsm_data1 
+ 
+
+### Disk: hdiskpower14 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-3277  used    outer edge    R1_data1lv          jfs2       /gsm_data1
+3278-6553  used    outer middle  R1_data1lv          jfs2       /gsm_data1
+6554-9829  used    center        R1_data1lv          jfs2       /gsm_data1
+9830-13105 used    inner middle  R1_data1lv          jfs2       /gsm_data1
+13106-16382 used    inner edge    R1_data1lv          jfs2       /gsm_data1 
+ 
+
+### Disk: hdiskpower15 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-3277  used    outer edge    R1_data1lv          jfs2       /gsm_data1
+3278-6553  used    outer middle  R1_data1lv          jfs2       /gsm_data1
+6554-9829  used    center        R1_data1lv          jfs2       /gsm_data1
+9830-13105 used    inner middle  R1_data1lv          jfs2       /gsm_data1
+13106-16382 used    inner edge    R1_data1lv          jfs2       /gsm_data1 
+ 
+
+### Disk: hdiskpower16 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-3277  used    outer edge    R1_data1lv          jfs2       /gsm_data1
+3278-6553  used    outer middle  R1_data1lv          jfs2       /gsm_data1
+6554-9829  used    center        R1_data1lv          jfs2       /gsm_data1
+9830-13105 used    inner middle  R1_data1lv          jfs2       /gsm_data1
+13106-16382 used    inner edge    R1_data1lv          jfs2       /gsm_data1 
+ 
+
+### Disk: hdiskpower17 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-3277  used    outer edge    R1_data1lv          jfs2       /gsm_data1
+3278-6553  used    outer middle  R1_data1lv          jfs2       /gsm_data1
+6554-9829  used    center        R1_data1lv          jfs2       /gsm_data1
+9830-13105 used    inner middle  R1_data1lv          jfs2       /gsm_data1
+13106-16382 used    inner edge    R1_data1lv          jfs2       /gsm_data1 
+ 
+
+### Disk: hdiskpower18 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-3277  used    outer edge    R1_data1lv          jfs2       /gsm_data1
+3278-6553  used    outer middle  R1_data1lv          jfs2       /gsm_data1
+6554-9829  used    center        R1_data1lv          jfs2       /gsm_data1
+9830-13105 used    inner middle  R1_data1lv          jfs2       /gsm_data1
+13106-16382 used    inner edge    R1_data1lv          jfs2       /gsm_data1 
+ 
+
+### Disk: hdiskpower19 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-3277  used    outer edge    R1_data1lv          jfs2       /gsm_data1
+3278-6553  used    outer middle  R1_data1lv          jfs2       /gsm_data1
+6554-9829  used    center        R1_data1lv          jfs2       /gsm_data1
+9830-13105 used    inner middle  R1_data1lv          jfs2       /gsm_data1
+13106-16382 used    inner edge    R1_data1lv          jfs2       /gsm_data1 
+ 
+
+### Disk: hdiskpower20 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-3277  used    outer edge    R1_data1lv          jfs2       /gsm_data1
+3278-6553  used    outer middle  R1_data1lv          jfs2       /gsm_data1
+6554-9829  used    center        R1_data1lv          jfs2       /gsm_data1
+9830-13105 used    inner middle  R1_data1lv          jfs2       /gsm_data1
+13106-16382 used    inner edge    R1_data1lv          jfs2       /gsm_data1 
+ 
+
+### Disk: hdiskpower21 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-3277  used    outer edge    R1_data1lv          jfs2       /gsm_data1
+3278-6553  used    outer middle  R1_data1lv          jfs2       /gsm_data1
+6554-9829  used    center        R1_data1lv          jfs2       /gsm_data1
+9830-13105 used    inner middle  R1_data1lv          jfs2       /gsm_data1
+13106-16382 used    inner edge    R1_data1lv          jfs2       /gsm_data1 
+ 
+
+### Disk: hdiskpower22 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-3277  used    outer edge    R1_data1lv          jfs2       /gsm_data1
+3278-6553  used    outer middle  R1_data1lv          jfs2       /gsm_data1
+6554-9829  used    center        R1_data1lv          jfs2       /gsm_data1
+9830-13105 used    inner middle  R1_data1lv          jfs2       /gsm_data1
+13106-16382 used    inner edge    R1_data1lv          jfs2       /gsm_data1 
+ 
+
+### Disk: hdiskpower23 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-3277  used    outer edge    R1_data1lv          jfs2       /gsm_data1
+3278-6553  used    outer middle  R1_data1lv          jfs2       /gsm_data1
+6554-9829  used    center        R1_data1lv          jfs2       /gsm_data1
+9830-13105 used    inner middle  R1_data1lv          jfs2       /gsm_data1
+13106-16382 used    inner edge    R1_data1lv          jfs2       /gsm_data1 
+ 
+
+### Disk: hdiskpower24 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-3277  used    outer edge    R1_data1lv          jfs2       /gsm_data1
+3278-6553  used    outer middle  R1_data1lv          jfs2       /gsm_data1
+6554-9829  used    center        R1_data1lv          jfs2       /gsm_data1
+9830-13105 used    inner middle  R1_data1lv          jfs2       /gsm_data1
+13106-16382 used    inner edge    R1_data1lv          jfs2       /gsm_data1 
+ 
+
+### Disk: hdiskpower25 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-3277  used    outer edge    R1_data1lv          jfs2       /gsm_data1
+3278-6553  used    outer middle  R1_data1lv          jfs2       /gsm_data1
+6554-9829  used    center        R1_data1lv          jfs2       /gsm_data1
+9830-13105 used    inner middle  R1_data1lv          jfs2       /gsm_data1
+13106-16382 used    inner edge    R1_data1lv          jfs2       /gsm_data1 
+ 
+
+### Disk: hdiskpower26 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-3277  used    outer edge    R1_data1lv          jfs2       /gsm_data1
+3278-6553  used    outer middle  R1_data1lv          jfs2       /gsm_data1
+6554-9829  used    center        R1_data1lv          jfs2       /gsm_data1
+9830-13105 used    inner middle  R1_data1lv          jfs2       /gsm_data1
+13106-16382 used    inner edge    R1_data1lv          jfs2       /gsm_data1 
+ 
+
+### Disk: hdiskpower27 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-3277  used    outer edge    R1_data1lv          jfs2       /gsm_data1
+3278-6553  used    outer middle  R1_data1lv          jfs2       /gsm_data1
+6554-9829  used    center        R1_data1lv          jfs2       /gsm_data1
+9830-13105 used    inner middle  R1_data1lv          jfs2       /gsm_data1
+13106-16382 used    inner edge    R1_data1lv          jfs2       /gsm_data1 
+ 
+
+### Disk: hdiskpower28 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-3277  used    outer edge    R1_data1lv          jfs2       /gsm_data1
+3278-6553  used    outer middle  R1_data1lv          jfs2       /gsm_data1
+6554-9829  used    center        R1_data1lv          jfs2       /gsm_data1
+9830-13105 used    inner middle  R1_data1lv          jfs2       /gsm_data1
+13106-16382 used    inner edge    R1_data1lv          jfs2       /gsm_data1 
+ 
+
+### Disk: hdiskpower29 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-3277  used    outer edge    R1_data1lv          jfs2       /gsm_data1
+3278-6553  used    outer middle  R1_data1lv          jfs2       /gsm_data1
+6554-9829  used    center        R1_data1lv          jfs2       /gsm_data1
+9830-13105 used    inner middle  R1_data1lv          jfs2       /gsm_data1
+13106-16382 used    inner edge    R1_data1lv          jfs2       /gsm_data1 
+ 
+
+### Disk: hdiskpower30 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-3277  used    outer edge    R1_data1lv          jfs2       /gsm_data1
+3278-6553  used    outer middle  R1_data1lv          jfs2       /gsm_data1
+6554-9829  used    center        R1_data1lv          jfs2       /gsm_data1
+9830-13105 used    inner middle  R1_data1lv          jfs2       /gsm_data1
+13106-16382 used    inner edge    R1_data1lv          jfs2       /gsm_data1 
+ 
+
+### Disk: hdiskpower31 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-3277  used    outer edge    R1_data1lv          jfs2       /gsm_data1
+3278-6553  used    outer middle  R1_data1lv          jfs2       /gsm_data1
+6554-9829  used    center        R1_data1lv          jfs2       /gsm_data1
+9830-13105 used    inner middle  R1_data1lv          jfs2       /gsm_data1
+13106-16382 used    inner edge    R1_data1lv          jfs2       /gsm_data1 
+ 
+
+### Disk: hdiskpower32 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-3277  used    outer edge    R1_data1lv          jfs2       /gsm_data1
+3278-6553  used    outer middle  R1_data1lv          jfs2       /gsm_data1
+6554-9829  used    center        R1_data1lv          jfs2       /gsm_data1
+9830-13105 used    inner middle  R1_data1lv          jfs2       /gsm_data1
+13106-16381 used    inner edge    R1_data1lv          jfs2       /gsm_data1
+16382-16382 free    inner edge                                    
+ 
+
+### Disk: hdiskpower33 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-3277  used    outer edge    R1_indx1lv          jfs2       /gsm_index1
+3278-6553  used    outer middle  R1_indx1lv          jfs2       /gsm_index1
+6554-9829  used    center        R1_indx1lv          jfs2       /gsm_index1
+9830-13105 used    inner middle  R1_indx1lv          jfs2       /gsm_index1
+13106-16382 used    inner edge    R1_indx1lv          jfs2       /gsm_index1 
+ 
+
+### Disk: hdiskpower34 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-3277  used    outer edge    R1_indx1lv          jfs2       /gsm_index1
+3278-6553  used    outer middle  R1_indx1lv          jfs2       /gsm_index1
+6554-9829  used    center        R1_indx1lv          jfs2       /gsm_index1
+9830-13105 used    inner middle  R1_indx1lv          jfs2       /gsm_index1
+13106-16382 used    inner edge    R1_indx1lv          jfs2       /gsm_index1 
+ 
+
+### Disk: hdiskpower35 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-3277  used    outer edge    R1_indx1lv          jfs2       /gsm_index1
+3278-6553  used    outer middle  R1_indx1lv          jfs2       /gsm_index1
+6554-9829  used    center        R1_indx1lv          jfs2       /gsm_index1
+9830-13105 used    inner middle  R1_indx1lv          jfs2       /gsm_index1
+13106-16382 used    inner edge    R1_indx1lv          jfs2       /gsm_index1 
+ 
+
+### Disk: hdiskpower36 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-3277  used    outer edge    R1_indx1lv          jfs2       /gsm_index1
+3278-6553  used    outer middle  R1_indx1lv          jfs2       /gsm_index1
+6554-9829  used    center        R1_indx1lv          jfs2       /gsm_index1
+9830-13105 used    inner middle  R1_indx1lv          jfs2       /gsm_index1
+13106-16382 used    inner edge    R1_indx1lv          jfs2       /gsm_index1 
+ 
+
+### Disk: hdiskpower37 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-3277  used    outer edge    R1_indx1lv          jfs2       /gsm_index1
+3278-6553  used    outer middle  R1_indx1lv          jfs2       /gsm_index1
+6554-9829  used    center        R1_indx1lv          jfs2       /gsm_index1
+9830-13105 used    inner middle  R1_indx1lv          jfs2       /gsm_index1
+13106-16382 used    inner edge    R1_indx1lv          jfs2       /gsm_index1 
+ 
+
+### Disk: hdiskpower38 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-3277  used    outer edge    R1_indx1lv          jfs2       /gsm_index1
+3278-6553  used    outer middle  R1_indx1lv          jfs2       /gsm_index1
+6554-9829  used    center        R1_indx1lv          jfs2       /gsm_index1
+9830-13105 used    inner middle  R1_indx1lv          jfs2       /gsm_index1
+13106-16381 used    inner edge    R1_indx1lv          jfs2       /gsm_index1
+16382-16382 free    inner edge                                    
+ 
+
+### Disk: hdiskpower39 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-103   used    outer edge    R1_arch1lv          jfs2       /gsm_arclog1
+104-205   used    outer edge    R1_arch2lv          jfs2       /gsm_arclog2
+206-410   used    outer middle  R1_arch1lv          jfs2       /gsm_arclog1
+411-614   used    center        R1_arch1lv          jfs2       /gsm_arclog1
+615-818   used    inner middle  R1_arch2lv          jfs2       /gsm_arclog2
+819-1023  used    inner edge    R1_arch2lv          jfs2       /gsm_arclog2 
+ 
+
+### Disk: hdiskpower40 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-103   used    outer edge    R1_arch1lv          jfs2       /gsm_arclog1
+104-205   used    outer edge    R1_arch2lv          jfs2       /gsm_arclog2
+206-410   used    outer middle  R1_arch1lv          jfs2       /gsm_arclog1
+411-614   used    center        R1_arch1lv          jfs2       /gsm_arclog1
+615-818   used    inner middle  R1_arch2lv          jfs2       /gsm_arclog2
+819-1023  used    inner edge    R1_arch2lv          jfs2       /gsm_arclog2 
+ 
+
+### Disk: hdiskpower41 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-103   used    outer edge    R1_arch1lv          jfs2       /gsm_arclog1
+104-205   used    outer edge    R1_arch2lv          jfs2       /gsm_arclog2
+206-410   used    outer middle  R1_arch1lv          jfs2       /gsm_arclog1
+411-614   used    center        R1_arch1lv          jfs2       /gsm_arclog1
+615-818   used    inner middle  R1_arch2lv          jfs2       /gsm_arclog2
+819-1023  used    inner edge    R1_arch2lv          jfs2       /gsm_arclog2 
+ 
+
+### Disk: hdiskpower42 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-103   used    outer edge    R1_arch1lv          jfs2       /gsm_arclog1
+104-205   used    outer edge    R1_arch2lv          jfs2       /gsm_arclog2
+206-410   used    outer middle  R1_arch1lv          jfs2       /gsm_arclog1
+411-614   used    center        R1_arch1lv          jfs2       /gsm_arclog1
+615-818   used    inner middle  R1_arch2lv          jfs2       /gsm_arclog2
+819-1023  used    inner edge    R1_arch2lv          jfs2       /gsm_arclog2 
+ 
+
+### Disk: hdiskpower43 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-103   used    outer edge    R1_arch1lv          jfs2       /gsm_arclog1
+104-205   used    outer edge    R1_arch2lv          jfs2       /gsm_arclog2
+206-410   used    outer middle  R1_arch1lv          jfs2       /gsm_arclog1
+411-614   used    center        R1_arch1lv          jfs2       /gsm_arclog1
+615-818   used    inner middle  R1_arch2lv          jfs2       /gsm_arclog2
+819-1023  used    inner edge    R1_arch2lv          jfs2       /gsm_arclog2 
+ 
+
+### Disk: hdiskpower44 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-103   used    outer edge    R1_arch1lv          jfs2       /gsm_arclog1
+104-205   used    outer edge    R1_arch2lv          jfs2       /gsm_arclog2
+206-410   used    outer middle  R1_arch1lv          jfs2       /gsm_arclog1
+411-614   used    center        R1_arch1lv          jfs2       /gsm_arclog1
+615-818   used    inner middle  R1_arch2lv          jfs2       /gsm_arclog2
+819-1023  used    inner edge    R1_arch2lv          jfs2       /gsm_arclog2 
+ 
+
+### Disk: hdiskpower45 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-103   used    outer edge    R1_arch1lv          jfs2       /gsm_arclog1
+104-205   used    outer edge    R1_arch2lv          jfs2       /gsm_arclog2
+206-410   used    outer middle  R1_arch1lv          jfs2       /gsm_arclog1
+411-614   used    center        R1_arch1lv          jfs2       /gsm_arclog1
+615-818   used    inner middle  R1_arch2lv          jfs2       /gsm_arclog2
+819-1023  used    inner edge    R1_arch2lv          jfs2       /gsm_arclog2 
+ 
+
+### Disk: hdiskpower46 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-103   used    outer edge    R1_arch1lv          jfs2       /gsm_arclog1
+104-205   used    outer edge    R1_arch2lv          jfs2       /gsm_arclog2
+206-410   used    outer middle  R1_arch1lv          jfs2       /gsm_arclog1
+411-614   used    center        R1_arch1lv          jfs2       /gsm_arclog1
+615-818   used    inner middle  R1_arch2lv          jfs2       /gsm_arclog2
+819-1023  used    inner edge    R1_arch2lv          jfs2       /gsm_arclog2 
+ 
+
+### Disk: hdiskpower47 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-103   used    outer edge    R1_arch1lv          jfs2       /gsm_arclog1
+104-205   used    outer edge    R1_arch2lv          jfs2       /gsm_arclog2
+206-410   used    outer middle  R1_arch1lv          jfs2       /gsm_arclog1
+411-614   used    center        R1_arch1lv          jfs2       /gsm_arclog1
+615-818   used    inner middle  R1_arch2lv          jfs2       /gsm_arclog2
+819-1023  used    inner edge    R1_arch2lv          jfs2       /gsm_arclog2 
+ 
+
+### Disk: hdiskpower48 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-102   used    outer edge    R1_arch1lv          jfs2       /gsm_arclog1
+103-205   used    outer edge    R1_arch2lv          jfs2       /gsm_arclog2
+206-410   used    outer middle  R1_arch1lv          jfs2       /gsm_arclog1
+411-614   used    center        R1_arch1lv          jfs2       /gsm_arclog1
+615-818   used    inner middle  R1_arch2lv          jfs2       /gsm_arclog2
+819-1023  used    inner edge    R1_arch2lv          jfs2       /gsm_arclog2 
+ 
+
+### Disk: hdiskpower49 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-102   used    outer edge    R1_arch1lv          jfs2       /gsm_arclog1
+103-205   used    outer edge    R1_arch2lv          jfs2       /gsm_arclog2
+206-410   used    outer middle  R1_arch1lv          jfs2       /gsm_arclog1
+411-614   used    center        R1_arch1lv          jfs2       /gsm_arclog1
+615-818   used    inner middle  R1_arch2lv          jfs2       /gsm_arclog2
+819-1023  used    inner edge    R1_arch2lv          jfs2       /gsm_arclog2 
+ 
+
+### Disk: hdiskpower50 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-102   used    outer edge    R1_arch1lv          jfs2       /gsm_arclog1
+103-205   used    outer edge    R1_arch2lv          jfs2       /gsm_arclog2
+206-410   used    outer middle  R1_arch1lv          jfs2       /gsm_arclog1
+411-614   used    center        R1_arch1lv          jfs2       /gsm_arclog1
+615-818   used    inner middle  R1_arch2lv          jfs2       /gsm_arclog2
+819-1023  used    inner edge    R1_arch2lv          jfs2       /gsm_arclog2 
+ 
+
+### Disk: hdiskpower51 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-102   used    outer edge    R1_arch1lv          jfs2       /gsm_arclog1
+103-205   used    outer edge    R1_arch2lv          jfs2       /gsm_arclog2
+206-410   used    outer middle  R1_arch1lv          jfs2       /gsm_arclog1
+411-614   used    center        R1_arch1lv          jfs2       /gsm_arclog1
+615-818   used    inner middle  R1_arch2lv          jfs2       /gsm_arclog2
+819-1023  used    inner edge    R1_arch2lv          jfs2       /gsm_arclog2 
+ 
+
+### Disk: hdiskpower52 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-102   used    outer edge    R1_arch1lv          jfs2       /gsm_arclog1
+103-205   used    outer edge    R1_arch2lv          jfs2       /gsm_arclog2
+206-410   used    outer middle  R1_arch1lv          jfs2       /gsm_arclog1
+411-614   used    center        R1_arch1lv          jfs2       /gsm_arclog1
+615-818   used    inner middle  R1_arch2lv          jfs2       /gsm_arclog2
+819-1023  used    inner edge    R1_arch2lv          jfs2       /gsm_arclog2 
+ 
+
+### Disk: hdiskpower53 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-102   used    outer edge    R1_arch1lv          jfs2       /gsm_arclog1
+103-205   used    outer edge    R1_arch2lv          jfs2       /gsm_arclog2
+206-410   used    outer middle  R1_arch1lv          jfs2       /gsm_arclog1
+411-614   used    center        R1_arch1lv          jfs2       /gsm_arclog1
+615-818   used    inner middle  R1_arch2lv          jfs2       /gsm_arclog2
+819-1023  used    inner edge    R1_arch2lv          jfs2       /gsm_arclog2 
+ 
+
+### Disk: hdiskpower54 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-102   used    outer edge    R1_arch1lv          jfs2       /gsm_arclog1
+103-205   used    outer edge    R1_arch2lv          jfs2       /gsm_arclog2
+206-410   used    outer middle  R1_arch1lv          jfs2       /gsm_arclog1
+411-614   used    center        R1_arch1lv          jfs2       /gsm_arclog1
+615-818   used    inner middle  R1_arch2lv          jfs2       /gsm_arclog2
+819-1023  used    inner edge    R1_arch2lv          jfs2       /gsm_arclog2 
+ 
+
+### Disk: hdiskpower55 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-102   used    outer edge    R1_arch1lv          jfs2       /gsm_arclog1
+103-205   used    outer edge    R1_arch2lv          jfs2       /gsm_arclog2
+206-410   used    outer middle  R1_arch1lv          jfs2       /gsm_arclog1
+411-614   used    center        R1_arch1lv          jfs2       /gsm_arclog1
+615-818   used    inner middle  R1_arch2lv          jfs2       /gsm_arclog2
+819-1023  used    inner edge    R1_arch2lv          jfs2       /gsm_arclog2 
+ 
+
+### Disk: hdiskpower56 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-102   used    outer edge    R1_arch1lv          jfs2       /gsm_arclog1
+103-205   used    outer edge    R1_arch2lv          jfs2       /gsm_arclog2
+206-410   used    outer middle  R1_arch1lv          jfs2       /gsm_arclog1
+411-614   used    center        R1_arch1lv          jfs2       /gsm_arclog1
+615-818   used    inner middle  R1_arch2lv          jfs2       /gsm_arclog2
+819-1023  used    inner edge    R1_arch2lv          jfs2       /gsm_arclog2 
+ 
+
+### Disk: hdiskpower57 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-102   used    outer edge    R1_arch1lv          jfs2       /gsm_arclog1
+103-205   used    outer edge    R1_arch2lv          jfs2       /gsm_arclog2
+206-410   used    outer middle  R1_arch1lv          jfs2       /gsm_arclog1
+411-614   used    center        R1_arch1lv          jfs2       /gsm_arclog1
+615-818   used    inner middle  R1_arch2lv          jfs2       /gsm_arclog2
+819-1022  used    inner edge    R1_arch2lv          jfs2       /gsm_arclog2
+1023-1023  free    inner edge                                    
+ 
+
+### Disk: hdiskpower58 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-102   used    outer edge    R1_arch1lv          jfs2       /gsm_arclog1
+103-205   used    outer edge    R1_arch2lv          jfs2       /gsm_arclog2
+206-410   used    outer middle  R1_arch1lv          jfs2       /gsm_arclog1
+411-614   used    center        R1_arch1lv          jfs2       /gsm_arclog1
+615-818   used    inner middle  R1_arch2lv          jfs2       /gsm_arclog2
+819-1022  used    inner edge    R1_arch2lv          jfs2       /gsm_arclog2
+1023-1023  free    inner edge                                    
+ 
+
+### Disk: hdiskpower59 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-205   used    outer edge    R5_explv            jfs2       /gsm_exp
+206-410   used    outer middle  R5_explv            jfs2       /gsm_exp
+411-614   used    center        R5_explv            jfs2       /gsm_exp
+615-818   used    inner middle  R5_explv            jfs2       /gsm_exp
+819-1023  used    inner edge    R5_explv            jfs2       /gsm_exp 
+ 
+
+### Disk: hdiskpower60 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-205   used    outer edge    R5_explv            jfs2       /gsm_exp
+206-410   used    outer middle  R5_explv            jfs2       /gsm_exp
+411-614   used    center        R5_explv            jfs2       /gsm_exp
+615-818   used    inner middle  R5_explv            jfs2       /gsm_exp
+819-1023  used    inner edge    R5_explv            jfs2       /gsm_exp 
+ 
+
+### Disk: hdiskpower61 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-205   used    outer edge    R5_explv            jfs2       /gsm_exp
+206-410   used    outer middle  R5_explv            jfs2       /gsm_exp
+411-614   used    center        R5_explv            jfs2       /gsm_exp
+615-818   used    inner middle  R5_explv            jfs2       /gsm_exp
+819-1023  used    inner edge    R5_explv            jfs2       /gsm_exp 
+ 
+
+### Disk: hdiskpower62 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-205   used    outer edge    R5_explv            jfs2       /gsm_exp
+206-410   used    outer middle  R5_explv            jfs2       /gsm_exp
+411-614   used    center        R5_explv            jfs2       /gsm_exp
+615-818   used    inner middle  R5_explv            jfs2       /gsm_exp
+819-1023  used    inner edge    R5_explv            jfs2       /gsm_exp 
+ 
+
+### Disk: hdiskpower63 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-205   used    outer edge    R5_explv            jfs2       /gsm_exp
+206-410   used    outer middle  R5_explv            jfs2       /gsm_exp
+411-614   used    center        R5_explv            jfs2       /gsm_exp
+615-818   used    inner middle  R5_explv            jfs2       /gsm_exp
+819-1023  used    inner edge    R5_explv            jfs2       /gsm_exp 
+ 
+
+### Disk: hdiskpower64 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-205   used    outer edge    R5_explv            jfs2       /gsm_exp
+206-410   used    outer middle  R5_explv            jfs2       /gsm_exp
+411-614   used    center        R5_explv            jfs2       /gsm_exp
+615-818   used    inner middle  R5_explv            jfs2       /gsm_exp
+819-1023  used    inner edge    R5_explv            jfs2       /gsm_exp 
+ 
+
+### Disk: hdiskpower65 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-205   used    outer edge    R5_explv            jfs2       /gsm_exp
+206-410   used    outer middle  R5_explv            jfs2       /gsm_exp
+411-614   used    center        R5_explv            jfs2       /gsm_exp
+615-818   used    inner middle  R5_explv            jfs2       /gsm_exp
+819-1023  used    inner edge    R5_explv            jfs2       /gsm_exp 
+ 
+
+### Disk: hdiskpower66 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-205   used    outer edge    R5_explv            jfs2       /gsm_exp
+206-410   used    outer middle  R5_explv            jfs2       /gsm_exp
+411-614   used    center        R5_explv            jfs2       /gsm_exp
+615-818   used    inner middle  R5_explv            jfs2       /gsm_exp
+819-1022  used    inner edge    R5_explv            jfs2       /gsm_exp
+1023-1023  free    inner edge                                    
+ 
+
+### Disk: hdiskpower68 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-1536  used    outer edge    R1_templv           jfs2       /gsm_temp
+1537-3071  used    outer middle  R1_templv           jfs2       /gsm_temp
+3072-4606  used    center        R1_templv           jfs2       /gsm_temp
+4607-6141  used    inner middle  R1_templv           jfs2       /gsm_temp
+6142-7467  used    inner edge    R1_templv           jfs2       /gsm_temp
+7468-7677  free    inner edge                                    
+ 
+
+### Disk: hdiskpower69 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-1536  used    outer edge    R1_templv           jfs2       /gsm_temp
+1537-3071  used    outer middle  R1_templv           jfs2       /gsm_temp
+3072-4606  used    center        R1_templv           jfs2       /gsm_temp
+4607-6141  used    inner middle  R1_templv           jfs2       /gsm_temp
+6142-7467  used    inner edge    R1_templv           jfs2       /gsm_temp
+7468-7677  free    inner edge                                    
+ 
+
+### Disk: hdiskpower70 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-1536  used    outer edge    R1_templv           jfs2       /gsm_temp
+1537-3071  used    outer middle  R1_templv           jfs2       /gsm_temp
+3072-4606  used    center        R1_templv           jfs2       /gsm_temp
+4607-6141  used    inner middle  R1_templv           jfs2       /gsm_temp
+6142-7466  used    inner edge    R1_templv           jfs2       /gsm_temp
+7467-7677  free    inner edge                                    
+ 
+
+### Disk: hdiskpower0 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-1     used    outer edge    hd5                 boot       N/A
+  2-17    used    outer edge    hd9var              jfs2       /var
+ 18-31    used    outer edge    hd2                 jfs2       /usr
+ 32-57    used    outer edge    hd3                 jfs2       /tmp
+ 58-61    used    outer edge    hd10opt             jfs2       /opt
+ 62-62    used    outer middle  hd6                 paging     N/A
+ 63-70    used    outer middle  lg_dumplv           sysdump    N/A
+ 71-71    used    outer middle  livedump            jfs2       /var/adm/ras/livedump
+ 72-81    used    outer middle  perfdatalv          jfs2       /perfdata
+ 82-88    used    outer middle  hd6                 paging     N/A
+ 89-122   used    outer middle  lg_dumplv           sysdump    N/A
+123-123   used    center        hd8                 jfs2log    N/A
+124-127   used    center        hd4                 jfs2       /
+128-143   used    center        hd2                 jfs2       /usr
+144-147   used    center        hd9var              jfs2       /var
+148-151   used    center        hd3                 jfs2       /tmp
+152-155   used    center        hd1                 jfs2       /home
+156-157   used    center        hd10opt             jfs2       /opt
+158-161   used    center        hd11admin           jfs2       /admin
+162-167   used    center        lg_dumplv           sysdump    N/A
+168-182   used    center        hd4                 jfs2       /
+183-183   used    inner middle  hd4                 jfs2       /
+184-199   used    inner middle  hd1                 jfs2       /home
+200-243   used    inner middle  hd10opt             jfs2       /opt
+244-263   used    inner edge    hd9var              jfs2       /var
+264-293   used    inner edge    hd6                 paging     N/A
+294-304   free    inner edge                                    
+ 
+
+### Disk: hdiskpower71 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-2035  used    outer edge    R1_ctrl2lv          jfs2       /gsm_ctrl2
+2036-4069  used    outer middle  R1_ctrl1lv          jfs2       /gsm_ctrl1
+4070-5425  used    center        R1_ctrl1lv          jfs2       /gsm_ctrl1
+5426-6103  used    center        R1_ctrl2lv          jfs2       /gsm_ctrl2
+6104-6780  used    inner middle  R1_ctrl2lv          jfs2       /gsm_ctrl2
+6781-8137  used    inner middle  R1_ctrl3lv          jfs2       /gsm_ctrl3
+8138-10170 used    inner edge    R1_ctrl3lv          jfs2       /gsm_ctrl3
+10171-10171 free    inner edge                                    
+ 
+
+### Disk: hdiskpower72 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-2035  used    outer edge    R1_ctrl2lv          jfs2       /gsm_ctrl2
+2036-4069  used    outer middle  R1_ctrl1lv          jfs2       /gsm_ctrl1
+4070-5425  used    center        R1_ctrl1lv          jfs2       /gsm_ctrl1
+5426-6103  used    center        R1_ctrl2lv          jfs2       /gsm_ctrl2
+6104-6780  used    inner middle  R1_ctrl2lv          jfs2       /gsm_ctrl2
+6781-8137  used    inner middle  R1_ctrl3lv          jfs2       /gsm_ctrl3
+8138-10170 used    inner edge    R1_ctrl3lv          jfs2       /gsm_ctrl3
+10171-10171 free    inner edge                                    
+ 
+
+### Disk: hdiskpower73 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-2035  used    outer edge    R1_ctrl2lv          jfs2       /gsm_ctrl2
+2036-4069  used    outer middle  R1_ctrl1lv          jfs2       /gsm_ctrl1
+4070-5425  used    center        R1_ctrl1lv          jfs2       /gsm_ctrl1
+5426-6103  used    center        R1_ctrl2lv          jfs2       /gsm_ctrl2
+6104-6780  used    inner middle  R1_ctrl2lv          jfs2       /gsm_ctrl2
+6781-8137  used    inner middle  R1_ctrl3lv          jfs2       /gsm_ctrl3
+8138-10170 used    inner edge    R1_ctrl3lv          jfs2       /gsm_ctrl3
+10171-10171 free    inner edge                                    
+ 
+
+### Disk: hdiskpower80 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-1280  used    outer edge    R5_undolv           jfs2       /gsm_undo
+1281-2559  used    outer middle  R5_undolv           jfs2       /gsm_undo
+2560-3838  used    center        R5_undolv           jfs2       /gsm_undo
+3839-5117  used    inner middle  R5_undolv           jfs2       /gsm_undo
+5118-6397  used    inner edge    R5_undolv           jfs2       /gsm_undo 
+ 
+
+### Disk: hdiskpower81 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-320   used    outer edge    R5_gglv             jfs2       /gsm_gg
+321-640   used    outer middle  R5_gglv             jfs2       /gsm_gg
+641-959   used    center        R5_gglv             jfs2       /gsm_gg
+960-1278  used    inner middle  R5_gglv             jfs2       /gsm_gg
+1279-1598  used    inner edge    R5_gglv             jfs2       /gsm_gg 
+ 
+
+### Disk: hdiskpower82 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-320   used    outer edge    R5_gglv             jfs2       /gsm_gg
+321-640   used    outer middle  R5_gglv             jfs2       /gsm_gg
+641-959   used    center        R5_gglv             jfs2       /gsm_gg
+960-1278  used    inner middle  R5_gglv             jfs2       /gsm_gg
+1279-1597  used    inner edge    R5_gglv             jfs2       /gsm_gg
+1598-1598  free    inner edge                                    
+ 
+
+### Disk: hdiskpower83 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-160   used    outer edge    R1_flashlv          jfs2       /gsm_flash
+161-319   used    outer middle  R1_flashlv          jfs2       /gsm_flash
+320-478   used    center        R1_flashlv          jfs2       /gsm_flash
+479-637   used    inner middle  R1_flashlv          jfs2       /gsm_flash
+638-797   used    inner edge    R1_flashlv          jfs2       /gsm_flash 
+ 
+
+### Disk: hdiskpower84 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-160   used    outer edge    R1_flashlv          jfs2       /gsm_flash
+161-319   used    outer middle  R1_flashlv          jfs2       /gsm_flash
+320-478   used    center        R1_flashlv          jfs2       /gsm_flash
+479-637   used    inner middle  R1_flashlv          jfs2       /gsm_flash
+638-796   used    inner edge    R1_flashlv          jfs2       /gsm_flash
+797-797   free    inner edge                                    
+ 
+
+### Disk: hdiskpower85 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-1280  used    outer edge    R5_undolv           jfs2       /gsm_undo
+1281-2559  used    outer middle  R5_undolv           jfs2       /gsm_undo
+2560-3838  used    center        R5_undolv           jfs2       /gsm_undo
+3839-5117  used    inner middle  R5_undolv           jfs2       /gsm_undo
+5118-6396  used    inner edge    R5_undolv           jfs2       /gsm_undo
+6397-6397  free    inner edge                                    
+ 
+
+### Disk: hdiskpower86 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-205   used    outer edge    R6_bkplv            jfs2       /gsm_bkp
+206-410   used    outer middle  R6_bkplv            jfs2       /gsm_bkp
+411-614   used    center        R6_bkplv            jfs2       /gsm_bkp
+615-818   used    inner middle  R6_bkplv            jfs2       /gsm_bkp
+819-1023  used    inner edge    R6_bkplv            jfs2       /gsm_bkp 
+ 
+
+### Disk: hdiskpower87 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-205   used    outer edge    R6_bkplv            jfs2       /gsm_bkp
+206-410   used    outer middle  R6_bkplv            jfs2       /gsm_bkp
+411-614   used    center        R6_bkplv            jfs2       /gsm_bkp
+615-818   used    inner middle  R6_bkplv            jfs2       /gsm_bkp
+819-1023  used    inner edge    R6_bkplv            jfs2       /gsm_bkp 
+ 
+
+### Disk: hdiskpower88 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-205   used    outer edge    R6_bkplv            jfs2       /gsm_bkp
+206-410   used    outer middle  R6_bkplv            jfs2       /gsm_bkp
+411-614   used    center        R6_bkplv            jfs2       /gsm_bkp
+615-818   used    inner middle  R6_bkplv            jfs2       /gsm_bkp
+819-1023  used    inner edge    R6_bkplv            jfs2       /gsm_bkp 
+ 
+
+### Disk: hdiskpower89 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-205   used    outer edge    R6_bkplv            jfs2       /gsm_bkp
+206-410   used    outer middle  R6_bkplv            jfs2       /gsm_bkp
+411-614   used    center        R6_bkplv            jfs2       /gsm_bkp
+615-818   used    inner middle  R6_bkplv            jfs2       /gsm_bkp
+819-1023  used    inner edge    R6_bkplv            jfs2       /gsm_bkp 
+ 
+
+### Disk: hdiskpower90 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-205   used    outer edge    R6_bkplv            jfs2       /gsm_bkp
+206-410   used    outer middle  R6_bkplv            jfs2       /gsm_bkp
+411-614   used    center        R6_bkplv            jfs2       /gsm_bkp
+615-818   used    inner middle  R6_bkplv            jfs2       /gsm_bkp
+819-1023  used    inner edge    R6_bkplv            jfs2       /gsm_bkp 
+ 
+
+### Disk: hdiskpower91 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-205   used    outer edge    R6_bkplv            jfs2       /gsm_bkp
+206-410   used    outer middle  R6_bkplv            jfs2       /gsm_bkp
+411-614   used    center        R6_bkplv            jfs2       /gsm_bkp
+615-818   used    inner middle  R6_bkplv            jfs2       /gsm_bkp
+819-1023  used    inner edge    R6_bkplv            jfs2       /gsm_bkp 
+ 
+
+### Disk: hdiskpower92 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-205   used    outer edge    R6_bkplv            jfs2       /gsm_bkp
+206-410   used    outer middle  R6_bkplv            jfs2       /gsm_bkp
+411-614   used    center        R6_bkplv            jfs2       /gsm_bkp
+615-818   used    inner middle  R6_bkplv            jfs2       /gsm_bkp
+819-1023  used    inner edge    R6_bkplv            jfs2       /gsm_bkp 
+ 
+
+### Disk: hdiskpower93 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-205   used    outer edge    R6_bkplv            jfs2       /gsm_bkp
+206-410   used    outer middle  R6_bkplv            jfs2       /gsm_bkp
+411-614   used    center        R6_bkplv            jfs2       /gsm_bkp
+615-818   used    inner middle  R6_bkplv            jfs2       /gsm_bkp
+819-1023  used    inner edge    R6_bkplv            jfs2       /gsm_bkp 
+ 
+
+### Disk: hdiskpower94 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-205   used    outer edge    R6_bkplv            jfs2       /gsm_bkp
+206-410   used    outer middle  R6_bkplv            jfs2       /gsm_bkp
+411-614   used    center        R6_bkplv            jfs2       /gsm_bkp
+615-818   used    inner middle  R6_bkplv            jfs2       /gsm_bkp
+819-1023  used    inner edge    R6_bkplv            jfs2       /gsm_bkp 
+ 
+
+### Disk: hdiskpower95 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-205   used    outer edge    R6_bkplv            jfs2       /gsm_bkp
+206-410   used    outer middle  R6_bkplv            jfs2       /gsm_bkp
+411-614   used    center        R6_bkplv            jfs2       /gsm_bkp
+615-818   used    inner middle  R6_bkplv            jfs2       /gsm_bkp
+819-1022  used    inner edge    R6_bkplv            jfs2       /gsm_bkp
+1023-1023  free    inner edge                                    
+ 
+
+### Disk: hdiskpower76 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-289   used    outer edge    R1_redo1lv          jfs2       /gsm_redo1
+290-816   used    outer edge    R1_redo2lv          jfs2       /gsm_redo2
+817-1632  used    outer middle  R1_redo1lv          jfs2       /gsm_redo1
+1633-2447  used    center        R1_redo1lv          jfs2       /gsm_redo1
+2448-3263  used    inner middle  R1_redo2lv          jfs2       /gsm_redo2
+3264-3840  used    inner edge    R1_redo2lv          jfs2       /gsm_redo2
+3841-4079  free    inner edge                                    
+ 
+
+### Disk: hdiskpower77 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-289   used    outer edge    R1_redo1lv          jfs2       /gsm_redo1
+290-816   used    outer edge    R1_redo2lv          jfs2       /gsm_redo2
+817-1632  used    outer middle  R1_redo1lv          jfs2       /gsm_redo1
+1633-2447  used    center        R1_redo1lv          jfs2       /gsm_redo1
+2448-3263  used    inner middle  R1_redo2lv          jfs2       /gsm_redo2
+3264-3840  used    inner edge    R1_redo2lv          jfs2       /gsm_redo2
+3841-4079  free    inner edge                                    
+ 
+
+### Disk: hdiskpower78 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-289   used    outer edge    R1_redo1lv          jfs2       /gsm_redo1
+290-816   used    outer edge    R1_redo2lv          jfs2       /gsm_redo2
+817-1632  used    outer middle  R1_redo1lv          jfs2       /gsm_redo1
+1633-2447  used    center        R1_redo1lv          jfs2       /gsm_redo1
+2448-3263  used    inner middle  R1_redo2lv          jfs2       /gsm_redo2
+3264-3840  used    inner edge    R1_redo2lv          jfs2       /gsm_redo2
+3841-4079  free    inner edge                                    
+ 
+
+### Disk: hdiskpower79 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-289   used    outer edge    R1_redo1lv          jfs2       /gsm_redo1
+290-816   used    outer edge    R1_redo2lv          jfs2       /gsm_redo2
+817-1632  used    outer middle  R1_redo1lv          jfs2       /gsm_redo1
+1633-2447  used    center        R1_redo1lv          jfs2       /gsm_redo1
+2448-3263  used    inner middle  R1_redo2lv          jfs2       /gsm_redo2
+3264-3840  used    inner edge    R1_redo2lv          jfs2       /gsm_redo2
+3841-4079  free    inner edge                                    
+ 
+
+### Disk: hdiskpower97 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-80    used    outer edge    datacollectlv       jfs2       /datacollect
+ 81-82    used    outer middle  datacollectlogl     jfs2log    N/A
+ 83-160   used    outer middle  datacollectlv       jfs2       /datacollect
+161-239   used    center        datacollectlv       jfs2       /datacollect
+240-319   used    inner middle  datacollectlv       jfs2       /datacollect
+320-398   used    inner edge    datacollectlv       jfs2       /datacollect
+399-399   free    inner edge                                    
+ 
+
+### Disk: hdiskpower98 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-8     used    outer edge    bctlv               jfs2       /gsm_bct
+  9-16    used    outer middle  bctlv               jfs2       /gsm_bct
+ 17-23    used    center        bctlv               jfs2       /gsm_bct
+ 24-31    used    inner middle  bctlv               jfs2       /gsm_bct
+ 32-38    used    inner edge    bctlv               jfs2       /gsm_bct
+ 39-39    used    inner edge    loglv01             jfs2log    N/A 
+ 
+
+==== EXITED with rc 0 ====
+==== END for i in $(lspv | grep -iv none | grep -v Defined | awk '{print $1}');do echo "### Disk: $i ### \n $(lspv -p $i | grep -wv $i) \n \n"; done Tue Jul  7 00:26:44 GST 2015 ====

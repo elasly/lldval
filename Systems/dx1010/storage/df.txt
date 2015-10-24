@@ -1,0 +1,17 @@
+==== This output can be found in Systems/dx1010/storage/df.txt ====
+==== START df Tue Jul  7 13:13:37 CDT 2015 ====
+Filesystem    512-blocks      Free %Used    Iused %Iused Mounted on
+/dev/hd4         1048576    659776   38%     8093    10% /
+/dev/hd2        11534336   1612232   87%    79758    28% /usr
+/dev/hd9var      4194304    788024   82%     9251     9% /var
+/dev/hd3        16777216  16449664    2%      132     1% /tmp
+/dev/VMLibrary   62914560  54315488   14%        5     1% /var/vio/VMLibrary
+/dev/hd1        20971520   9457520   55%     1389     1% /home
+/dev/hd11admin    1048576   1047696    1%        5     1% /admin
+/proc                  -         -    -         -     -  /proc
+/dev/hd10opt     2097152    881408   58%    13080    11% /opt
+/dev/livedump    1048576   1047760    1%        4     1% /var/adm/ras/livedump
+/dev/perfdatalv   20971520  19444160    8%      191     1% /perfdata
+/ahafs                 -         -    -        34     1% /aha
+==== EXITED with rc 0 ====
+==== END df Tue Jul  7 13:13:37 CDT 2015 ====

@@ -1,0 +1,87 @@
+==== This output can be found in Systems/dx980/ha/cldisp.txt ====
+==== START cldisp  Mon Jul  6 23:23:10 GST 2015 ====
+Cluster: DX979_cluster
+   Cluster services: active
+   State of cluster: up
+      Substate: stable
+
+#############
+APPLICATIONS
+#############
+   Cluster DX979_cluster provides the following applications: dbscripts 
+      Application: dbscripts
+         dbscripts is started by /usr/es/sbin/cluster/scripts/dbstart.sh
+         dbscripts is stopped by /usr/es/sbin/cluster/scripts/dbstop.sh
+         No application monitors are configured for dbscripts.
+         This application is part of resource group 'DX979_RSG'.
+            Resource group policies:
+               Startup: on home node only
+               Fallover: to next priority node in the list
+               Fallback: never
+            State of dbscripts: online
+            Nodes configured to provide dbscripts: DX979 {up}  DX980 {up}  
+               Node currently providing dbscripts: DX979 {up} 
+               The node that will provide dbscripts if DX979 fails is: DX980
+            Resources associated with dbscripts:
+               Service Labels
+                  DX979-VIP(10.51.226.229) {online}
+                     Interfaces configured to provide DX979-VIP:
+                        DX979 {up}
+                           with IP address: 10.51.226.226
+                           on interface: en0
+                           on node: DX979 {up}
+                           on network: net_ether_01 {up}
+                        DX980 {up}
+                           with IP address: 10.51.226.227
+                           on interface: en0
+                           on node: DX980 {up}
+                           on network: net_ether_01 {up}
+               Shared Volume Groups:
+                  oravg
+                  exp1vg
+                  data1vg
+                  indx1vg
+                  gg1vg
+                  flash1vg
+                  undo1vg
+                  redo1vg
+                  temp1vg
+                  bkp1vg
+                  ctrl1vg
+                  arch1vg
+                  bctvg
+
+#############
+TOPOLOGY
+#############
+   DX979_cluster consists of the following nodes: DX979 DX980 
+      DX979
+         Network interfaces:
+            DX979 {up}
+               with IP address: 10.51.226.226
+               on interface: en0
+               on network: net_ether_01 {up}
+            DX979_b {up}
+               with IP address: 10.51.227.231
+               on interface: en1
+               on network: net_ether_02 {up}
+            DX979_sc0 {up}
+               with IP address: 10.51.229.222
+               on interface: en3
+               on network: net_ether_03 {up}
+      DX980
+         Network interfaces:
+            DX980 {up}
+               with IP address: 10.51.226.227
+               on interface: en0
+               on network: net_ether_01 {up}
+            DX980_b {up}
+               with IP address: 10.51.227.232
+               on interface: en1
+               on network: net_ether_02 {up}
+            DX980_sc0 {up}
+               with IP address: 10.51.229.223
+               on interface: en3
+               on network: net_ether_03 {up}
+==== EXITED with rc 0 ====
+==== END cldisp  Mon Jul  6 23:23:25 GST 2015 ====

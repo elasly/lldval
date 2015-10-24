@@ -1,0 +1,965 @@
+==== This output can be found in Systems/dx988/hw/lsdev-^C_awk_print_n_Device_1_system_lsattr-^El_1.txt ====
+==== START lsdev -C | awk '{print "\n#### Device: " $1" ####";system("lsattr -El " $1)}' Thu Aug  6 11:20:32 GST 2015 ====
+
+#### Device: L2cache0 ####
+size 0 Size of L2 cache in Kbytes False
+
+#### Device: caalv_private1 ####
+copies       1                                  Number of physical partitions for each logical partition True
+inter        m                                  Policy for allocation over multiple physical volumes     True
+intra        m                                  Policy for allocation on physical volume                 True
+label        None                               Information label                                        True
+lvserial_id  00f92eec00004c000000014f01bf95e1.1 Volume group identifier . minor number                   False
+relocatable  y                                  Reorganization relocation policy                         True
+size         1                                  Number of logical partitions in logical volume           True
+strictness   y                                  Copies allocation policy                                 True
+stripe_size                                     Stripe Size                                              True
+stripe_width                                    Striping Width                                           True
+type         boot                               Type description                                         True
+upperbound   32                                 Number of physical volumes to allocate across            True
+
+#### Device: caalv_private2 ####
+copies       1                                  Number of physical partitions for each logical partition True
+inter        m                                  Policy for allocation over multiple physical volumes     True
+intra        m                                  Policy for allocation on physical volume                 True
+label        None                               Information label                                        True
+lvserial_id  00f92eec00004c000000014f01bf95e1.2 Volume group identifier . minor number                   False
+relocatable  y                                  Reorganization relocation policy                         True
+size         1                                  Number of logical partitions in logical volume           True
+strictness   y                                  Copies allocation policy                                 True
+stripe_size                                     Stripe Size                                              True
+stripe_width                                    Striping Width                                           True
+type         boot                               Type description                                         True
+upperbound   32                                 Number of physical volumes to allocate across            True
+
+#### Device: caalv_private3 ####
+copies       1                                  Number of physical partitions for each logical partition True
+inter        m                                  Policy for allocation over multiple physical volumes     True
+intra        m                                  Policy for allocation on physical volume                 True
+label                                           Information label                                        True
+lvserial_id  00f92eec00004c000000014f01bf95e1.3 Volume group identifier . minor number                   False
+relocatable  n                                  Reorganization relocation policy                         True
+size         4                                  Number of logical partitions in logical volume           True
+strictness   y                                  Copies allocation policy                                 True
+stripe_size                                     Stripe Size                                              True
+stripe_width                                    Striping Width                                           True
+type                                            Type description                                         True
+upperbound   32                                 Number of physical volumes to allocate across            True
+
+#### Device: caavg_private ####
+auto_on        y                                Auto varyon             True
+cache_pbuf_cnt 0                                N/A                     True
+conc_auto_on   n                                N/A                     True
+conc_capable   n                                N/A                     True
+gbl_pbufs_ppv  0                                N/A                     True
+gbl_pbufs_pvg  0                                N/A                     True
+timestamp      55c301f31631ac93                 N/A                     True
+vg_pbufs_ppv   0                                N/A                     True
+vgserial_id    00f92eec00004c000000014f01bf95e1 Volume group identifier False
+
+#### Device: cluster0 ####
+clvdisk   ec9d17e4-e0b6-98b4-af69-789e9065073f Cluster repository disk identifier True
+node_uuid 5f2bcf22-3c06-11e5-ae70-6e9992323805 OS image identifier                True
+
+#### Device: en0 ####
+alias4                      IPv4 Alias including Subnet Mask              True
+alias6                      IPv6 Alias including Prefix Length            True
+arp           on            Address Resolution Protocol (ARP)             True
+authority                   Authorized Users                              True
+broadcast                   Broadcast Address                             True
+monitor       off           Enable/Disable monitor for virtual Ethernet   True
+mtu           1500          Maximum IP Packet Size for This Device        True
+mtu_bypass    off           Enable/Disable largesend for virtual Ethernet True
+netaddr       10.51.226.234 Internet Address                              True
+netaddr6                    IPv6 Internet Address                         True
+netmask       255.255.255.0 Subnet Mask                                   True
+prefixlen                   Prefix Length for IPv6 Internet Address       True
+remmtu        576           Maximum IP Packet Size for REMOTE Networks    True
+rfc1323                     Enable/Disable TCP RFC 1323 Window Scaling    True
+security      none          Security Level                                True
+state         up            Current Interface Status                      True
+tcp_mssdflt                 Set TCP Maximum Segment Size                  True
+tcp_nodelay                 Enable/Disable TCP_NODELAY Option             True
+tcp_recvspace               Set Socket Buffer Space for Receiving         True
+tcp_sendspace               Set Socket Buffer Space for Sending           True
+thread        off           Enable/Disable thread attribute               True
+
+#### Device: en1 ####
+alias4                      IPv4 Alias including Subnet Mask              True
+alias6                      IPv6 Alias including Prefix Length            True
+arp           on            Address Resolution Protocol (ARP)             True
+authority                   Authorized Users                              True
+broadcast                   Broadcast Address                             True
+monitor       off           Enable/Disable monitor for virtual Ethernet   True
+mtu           1500          Maximum IP Packet Size for This Device        True
+mtu_bypass    off           Enable/Disable largesend for virtual Ethernet True
+netaddr       10.51.227.87  Internet Address                              True
+netaddr6                    IPv6 Internet Address                         True
+netmask       255.255.255.0 Subnet Mask                                   True
+prefixlen                   Prefix Length for IPv6 Internet Address       True
+remmtu        576           Maximum IP Packet Size for REMOTE Networks    True
+rfc1323                     Enable/Disable TCP RFC 1323 Window Scaling    True
+security      none          Security Level                                True
+state         up            Current Interface Status                      True
+tcp_mssdflt                 Set TCP Maximum Segment Size                  True
+tcp_nodelay                 Enable/Disable TCP_NODELAY Option             True
+tcp_recvspace               Set Socket Buffer Space for Receiving         True
+tcp_sendspace               Set Socket Buffer Space for Sending           True
+thread        off           Enable/Disable thread attribute               True
+
+#### Device: en2 ####
+alias4                      IPv4 Alias including Subnet Mask              True
+alias6                      IPv6 Alias including Prefix Length            True
+arp           on            Address Resolution Protocol (ARP)             True
+authority                   Authorized Users                              True
+broadcast                   Broadcast Address                             True
+monitor       off           Enable/Disable monitor for virtual Ethernet   True
+mtu           1500          Maximum IP Packet Size for This Device        True
+mtu_bypass    off           Enable/Disable largesend for virtual Ethernet True
+netaddr       10.51.229.234 Internet Address                              True
+netaddr6                    IPv6 Internet Address                         True
+netmask       255.255.255.0 Subnet Mask                                   True
+prefixlen                   Prefix Length for IPv6 Internet Address       True
+remmtu        576           Maximum IP Packet Size for REMOTE Networks    True
+rfc1323                     Enable/Disable TCP RFC 1323 Window Scaling    True
+security      none          Security Level                                True
+state         up            Current Interface Status                      True
+tcp_mssdflt                 Set TCP Maximum Segment Size                  True
+tcp_nodelay                 Enable/Disable TCP_NODELAY Option             True
+tcp_recvspace               Set Socket Buffer Space for Receiving         True
+tcp_sendspace               Set Socket Buffer Space for Sending           True
+thread        off           Enable/Disable thread attribute               True
+
+#### Device: en3 ####
+alias4             IPv4 Alias including Subnet Mask              True
+alias6             IPv6 Alias including Prefix Length            True
+arp           on   Address Resolution Protocol (ARP)             True
+authority          Authorized Users                              True
+broadcast          Broadcast Address                             True
+monitor       off  Enable/Disable monitor for virtual Ethernet   True
+mtu           1500 Maximum IP Packet Size for This Device        True
+mtu_bypass    off  Enable/Disable largesend for virtual Ethernet True
+netaddr            Internet Address                              True
+netaddr6           IPv6 Internet Address                         True
+netmask            Subnet Mask                                   True
+prefixlen          Prefix Length for IPv6 Internet Address       True
+remmtu        576  Maximum IP Packet Size for REMOTE Networks    True
+rfc1323            Enable/Disable TCP RFC 1323 Window Scaling    True
+security      none Security Level                                True
+state         down Current Interface Status                      True
+tcp_mssdflt        Set TCP Maximum Segment Size                  True
+tcp_nodelay        Enable/Disable TCP_NODELAY Option             True
+tcp_recvspace      Set Socket Buffer Space for Receiving         True
+tcp_sendspace      Set Socket Buffer Space for Sending           True
+thread        off  Enable/Disable thread attribute               True
+
+#### Device: ent0 ####
+alt_addr        0x000000000000 Alternate Ethernet Address                 True
+chksum_offload  yes            Checksum Offload Enable                    True
+copy_buffs      32             Transmit Copy Buffers                      True
+copy_bytes      65536          Transmit Copy Buffer Size                  True
+desired_mapmem  0              I/O memory entitlement reserved for device False
+max_buf_control 64             Maximum Control Buffers                    True
+max_buf_huge    96             Maximum Huge Buffers                       True
+max_buf_large   128            Maximum Large Buffers                      True
+max_buf_medium  1024           Maximum Medium Buffers                     True
+max_buf_small   4096           Maximum Small Buffers                      True
+max_buf_tiny    4096           Maximum Tiny Buffers                       True
+min_buf_control 24             Minimum Control Buffers                    True
+min_buf_huge    96             Minimum Huge Buffers                       True
+min_buf_large   128            Minimum Large Buffers                      True
+min_buf_medium  1024           Minimum Medium Buffers                     True
+min_buf_small   4096           Minimum Small Buffers                      True
+min_buf_tiny    4096           Minimum Tiny Buffers                       True
+poll_uplink     no             Enable Uplink Polling                      True
+poll_uplink_int 1000           Time interval for Uplink Polling           True
+trace_debug     no             Trace Debug Enable                         True
+use_alt_addr    no             Enable Alternate Ethernet Address          True
+
+#### Device: ent1 ####
+alt_addr        0x000000000000 Alternate Ethernet Address                 True
+chksum_offload  yes            Checksum Offload Enable                    True
+copy_buffs      32             Transmit Copy Buffers                      True
+copy_bytes      65536          Transmit Copy Buffer Size                  True
+desired_mapmem  0              I/O memory entitlement reserved for device False
+max_buf_control 64             Maximum Control Buffers                    True
+max_buf_huge    96             Maximum Huge Buffers                       True
+max_buf_large   128            Maximum Large Buffers                      True
+max_buf_medium  1024           Maximum Medium Buffers                     True
+max_buf_small   4096           Maximum Small Buffers                      True
+max_buf_tiny    4096           Maximum Tiny Buffers                       True
+min_buf_control 24             Minimum Control Buffers                    True
+min_buf_huge    96             Minimum Huge Buffers                       True
+min_buf_large   128            Minimum Large Buffers                      True
+min_buf_medium  1024           Minimum Medium Buffers                     True
+min_buf_small   4096           Minimum Small Buffers                      True
+min_buf_tiny    4096           Minimum Tiny Buffers                       True
+poll_uplink     no             Enable Uplink Polling                      True
+poll_uplink_int 1000           Time interval for Uplink Polling           True
+trace_debug     no             Trace Debug Enable                         True
+use_alt_addr    no             Enable Alternate Ethernet Address          True
+
+#### Device: ent2 ####
+alt_addr        0x000000000000 Alternate Ethernet Address                 True
+chksum_offload  yes            Checksum Offload Enable                    True
+copy_buffs      32             Transmit Copy Buffers                      True
+copy_bytes      65536          Transmit Copy Buffer Size                  True
+desired_mapmem  0              I/O memory entitlement reserved for device False
+max_buf_control 64             Maximum Control Buffers                    True
+max_buf_huge    96             Maximum Huge Buffers                       True
+max_buf_large   128            Maximum Large Buffers                      True
+max_buf_medium  1024           Maximum Medium Buffers                     True
+max_buf_small   4096           Maximum Small Buffers                      True
+max_buf_tiny    4096           Maximum Tiny Buffers                       True
+min_buf_control 24             Minimum Control Buffers                    True
+min_buf_huge    96             Minimum Huge Buffers                       True
+min_buf_large   128            Minimum Large Buffers                      True
+min_buf_medium  1024           Minimum Medium Buffers                     True
+min_buf_small   4096           Minimum Small Buffers                      True
+min_buf_tiny    4096           Minimum Tiny Buffers                       True
+poll_uplink     no             Enable Uplink Polling                      True
+poll_uplink_int 1000           Time interval for Uplink Polling           True
+trace_debug     no             Trace Debug Enable                         True
+use_alt_addr    no             Enable Alternate Ethernet Address          True
+
+#### Device: ent3 ####
+alt_addr        0x000000000000 Alternate Ethernet Address                 True
+chksum_offload  yes            Checksum Offload Enable                    True
+copy_buffs      32             Transmit Copy Buffers                      True
+copy_bytes      65536          Transmit Copy Buffer Size                  True
+desired_mapmem  0              I/O memory entitlement reserved for device False
+max_buf_control 64             Maximum Control Buffers                    True
+max_buf_huge    96             Maximum Huge Buffers                       True
+max_buf_large   128            Maximum Large Buffers                      True
+max_buf_medium  1024           Maximum Medium Buffers                     True
+max_buf_small   4096           Maximum Small Buffers                      True
+max_buf_tiny    4096           Maximum Tiny Buffers                       True
+min_buf_control 24             Minimum Control Buffers                    True
+min_buf_huge    96             Minimum Huge Buffers                       True
+min_buf_large   128            Minimum Large Buffers                      True
+min_buf_medium  1024           Minimum Medium Buffers                     True
+min_buf_small   4096           Minimum Small Buffers                      True
+min_buf_tiny    4096           Minimum Tiny Buffers                       True
+poll_uplink     no             Enable Uplink Polling                      True
+poll_uplink_int 1000           Time interval for Uplink Polling           True
+trace_debug     no             Trace Debug Enable                         True
+use_alt_addr    no             Enable Alternate Ethernet Address          True
+
+#### Device: et0 ####
+alias4             IPv4 Alias including Subnet Mask           True
+alias6             IPv6 Alias including Prefix Length         True
+arp           on   Address Resolution Protocol (ARP)          True
+authority          Authorized Users                           True
+broadcast          Broadcast Address                          True
+mtu           1492 Maximum IP Packet Size for This Device     True
+netaddr            Internet Address                           True
+netaddr6           IPv6 Internet Address                      True
+netmask            Subnet Mask                                True
+prefixlen          Prefix Length for IPv6 Internet Address    True
+remmtu        576  Maximum IP Packet Size for REMOTE Networks True
+rfc1323            Enable/Disable TCP RFC 1323 Window Scaling True
+security      none Security Level                             True
+state         down Current Interface Status                   True
+tcp_mssdflt        Set TCP Maximum Segment Size               True
+tcp_nodelay        Enable/Disable TCP_NODELAY Option          True
+tcp_recvspace      Set Socket Buffer Space for Receiving      True
+tcp_sendspace      Set Socket Buffer Space for Sending        True
+
+#### Device: et1 ####
+alias4             IPv4 Alias including Subnet Mask           True
+alias6             IPv6 Alias including Prefix Length         True
+arp           on   Address Resolution Protocol (ARP)          True
+authority          Authorized Users                           True
+broadcast          Broadcast Address                          True
+mtu           1492 Maximum IP Packet Size for This Device     True
+netaddr            Internet Address                           True
+netaddr6           IPv6 Internet Address                      True
+netmask            Subnet Mask                                True
+prefixlen          Prefix Length for IPv6 Internet Address    True
+remmtu        576  Maximum IP Packet Size for REMOTE Networks True
+rfc1323            Enable/Disable TCP RFC 1323 Window Scaling True
+security      none Security Level                             True
+state         down Current Interface Status                   True
+tcp_mssdflt        Set TCP Maximum Segment Size               True
+tcp_nodelay        Enable/Disable TCP_NODELAY Option          True
+tcp_recvspace      Set Socket Buffer Space for Receiving      True
+tcp_sendspace      Set Socket Buffer Space for Sending        True
+
+#### Device: et2 ####
+alias4             IPv4 Alias including Subnet Mask           True
+alias6             IPv6 Alias including Prefix Length         True
+arp           on   Address Resolution Protocol (ARP)          True
+authority          Authorized Users                           True
+broadcast          Broadcast Address                          True
+mtu           1492 Maximum IP Packet Size for This Device     True
+netaddr            Internet Address                           True
+netaddr6           IPv6 Internet Address                      True
+netmask            Subnet Mask                                True
+prefixlen          Prefix Length for IPv6 Internet Address    True
+remmtu        576  Maximum IP Packet Size for REMOTE Networks True
+rfc1323            Enable/Disable TCP RFC 1323 Window Scaling True
+security      none Security Level                             True
+state         down Current Interface Status                   True
+tcp_mssdflt        Set TCP Maximum Segment Size               True
+tcp_nodelay        Enable/Disable TCP_NODELAY Option          True
+tcp_recvspace      Set Socket Buffer Space for Receiving      True
+tcp_sendspace      Set Socket Buffer Space for Sending        True
+
+#### Device: et3 ####
+alias4             IPv4 Alias including Subnet Mask           True
+alias6             IPv6 Alias including Prefix Length         True
+arp           on   Address Resolution Protocol (ARP)          True
+authority          Authorized Users                           True
+broadcast          Broadcast Address                          True
+mtu           1492 Maximum IP Packet Size for This Device     True
+netaddr            Internet Address                           True
+netaddr6           IPv6 Internet Address                      True
+netmask            Subnet Mask                                True
+prefixlen          Prefix Length for IPv6 Internet Address    True
+remmtu        576  Maximum IP Packet Size for REMOTE Networks True
+rfc1323            Enable/Disable TCP RFC 1323 Window Scaling True
+security      none Security Level                             True
+state         down Current Interface Status                   True
+tcp_mssdflt        Set TCP Maximum Segment Size               True
+tcp_nodelay        Enable/Disable TCP_NODELAY Option          True
+tcp_recvspace      Set Socket Buffer Space for Receiving      True
+tcp_sendspace      Set Socket Buffer Space for Sending        True
+
+#### Device: fcs0 ####
+intr_priority 3        Interrupt priority                 False
+lg_term_dma   0x800000 Long term DMA                      True
+max_xfer_size 0x100000 Maximum Transfer Size              True
+num_cmd_elems 200      Maximum Number of COMMAND Elements True
+sw_fc_class   2        FC Class for Fabric                True
+
+#### Device: fcs1 ####
+intr_priority 3        Interrupt priority                 False
+lg_term_dma   0x800000 Long term DMA                      True
+max_xfer_size 0x100000 Maximum Transfer Size              True
+num_cmd_elems 200      Maximum Number of COMMAND Elements True
+sw_fc_class   2        FC Class for Fabric                True
+
+#### Device: fcs2 ####
+intr_priority 3        Interrupt priority                 False
+lg_term_dma   0x800000 Long term DMA                      True
+max_xfer_size 0x100000 Maximum Transfer Size              True
+num_cmd_elems 200      Maximum Number of COMMAND Elements True
+sw_fc_class   2        FC Class for Fabric                True
+
+#### Device: fcs3 ####
+intr_priority 3        Interrupt priority                 False
+lg_term_dma   0x800000 Long term DMA                      True
+max_xfer_size 0x100000 Maximum Transfer Size              True
+num_cmd_elems 200      Maximum Number of COMMAND Elements True
+sw_fc_class   2        FC Class for Fabric                True
+
+#### Device: fcs4 ####
+intr_priority 3        Interrupt priority                 False
+lg_term_dma   0x800000 Long term DMA                      True
+max_xfer_size 0x100000 Maximum Transfer Size              True
+num_cmd_elems 200      Maximum Number of COMMAND Elements True
+sw_fc_class   2        FC Class for Fabric                True
+
+#### Device: fcs5 ####
+intr_priority 3        Interrupt priority                 False
+lg_term_dma   0x800000 Long term DMA                      True
+max_xfer_size 0x100000 Maximum Transfer Size              True
+num_cmd_elems 200      Maximum Number of COMMAND Elements True
+sw_fc_class   2        FC Class for Fabric                True
+
+#### Device: fcs6 ####
+intr_priority 3        Interrupt priority                 False
+lg_term_dma   0x800000 Long term DMA                      True
+max_xfer_size 0x100000 Maximum Transfer Size              True
+num_cmd_elems 200      Maximum Number of COMMAND Elements True
+sw_fc_class   2        FC Class for Fabric                True
+
+#### Device: fcs7 ####
+intr_priority 3        Interrupt priority                 False
+lg_term_dma   0x800000 Long term DMA                      True
+max_xfer_size 0x100000 Maximum Transfer Size              True
+num_cmd_elems 200      Maximum Number of COMMAND Elements True
+sw_fc_class   2        FC Class for Fabric                True
+
+#### Device: fscsi0 ####
+attach       none      How this adapter is CONNECTED         False
+dyntrk       yes       Dynamic Tracking of FC Devices        True
+fc_err_recov fast_fail FC Fabric Event Error RECOVERY Policy True
+scsi_id                Adapter SCSI ID                       False
+sw_fc_class  3         FC Class for Fabric                   True
+
+#### Device: fscsi1 ####
+attach       none      How this adapter is CONNECTED         False
+dyntrk       yes       Dynamic Tracking of FC Devices        True
+fc_err_recov fast_fail FC Fabric Event Error RECOVERY Policy True
+scsi_id                Adapter SCSI ID                       False
+sw_fc_class  3         FC Class for Fabric                   True
+
+#### Device: fscsi2 ####
+attach       switch    How this adapter is CONNECTED         False
+dyntrk       yes       Dynamic Tracking of FC Devices        True
+fc_err_recov fast_fail FC Fabric Event Error RECOVERY Policy True
+scsi_id      0x2fc82   Adapter SCSI ID                       False
+sw_fc_class  3         FC Class for Fabric                   True
+
+#### Device: fscsi3 ####
+attach       switch    How this adapter is CONNECTED         False
+dyntrk       yes       Dynamic Tracking of FC Devices        True
+fc_err_recov fast_fail FC Fabric Event Error RECOVERY Policy True
+scsi_id      0x2fd82   Adapter SCSI ID                       False
+sw_fc_class  3         FC Class for Fabric                   True
+
+#### Device: fscsi4 ####
+attach       none      How this adapter is CONNECTED         False
+dyntrk       yes       Dynamic Tracking of FC Devices        True
+fc_err_recov fast_fail FC Fabric Event Error RECOVERY Policy True
+scsi_id                Adapter SCSI ID                       False
+sw_fc_class  3         FC Class for Fabric                   True
+
+#### Device: fscsi5 ####
+attach       none      How this adapter is CONNECTED         False
+dyntrk       yes       Dynamic Tracking of FC Devices        True
+fc_err_recov fast_fail FC Fabric Event Error RECOVERY Policy True
+scsi_id                Adapter SCSI ID                       False
+sw_fc_class  3         FC Class for Fabric                   True
+
+#### Device: fscsi6 ####
+attach       switch    How this adapter is CONNECTED         False
+dyntrk       yes       Dynamic Tracking of FC Devices        True
+fc_err_recov fast_fail FC Fabric Event Error RECOVERY Policy True
+scsi_id      0x2fe82   Adapter SCSI ID                       False
+sw_fc_class  3         FC Class for Fabric                   True
+
+#### Device: fscsi7 ####
+attach       switch    How this adapter is CONNECTED         False
+dyntrk       yes       Dynamic Tracking of FC Devices        True
+fc_err_recov fast_fail FC Fabric Event Error RECOVERY Policy True
+scsi_id      0x2ff82   Adapter SCSI ID                       False
+sw_fc_class  3         FC Class for Fabric                   True
+
+#### Device: hd1 ####
+copies       1                                  Number of physical partitions for each logical partition True
+inter        m                                  Policy for allocation over multiple physical volumes     True
+intra        c                                  Policy for allocation on physical volume                 True
+label        /home                              Information label                                        True
+lvserial_id  00f92eec00004c000000014efdd47283.8 Volume group identifier . minor number                   False
+relocatable  y                                  Reorganization relocation policy                         True
+size         4                                  Number of logical partitions in logical volume           True
+strictness   y                                  Copies allocation policy                                 True
+stripe_size                                     Stripe Size                                              True
+stripe_width                                    Striping Width                                           True
+type         jfs2                               Type description                                         True
+upperbound   32                                 Number of physical volumes to allocate across            True
+
+#### Device: hd2 ####
+copies       1                                  Number of physical partitions for each logical partition True
+inter        m                                  Policy for allocation over multiple physical volumes     True
+intra        c                                  Policy for allocation on physical volume                 True
+label        /usr                               Information label                                        True
+lvserial_id  00f92eec00004c000000014efdd47283.5 Volume group identifier . minor number                   False
+relocatable  y                                  Reorganization relocation policy                         True
+size         16                                 Number of logical partitions in logical volume           True
+strictness   y                                  Copies allocation policy                                 True
+stripe_size                                     Stripe Size                                              True
+stripe_width                                    Striping Width                                           True
+type         jfs2                               Type description                                         True
+upperbound   32                                 Number of physical volumes to allocate across            True
+
+#### Device: hd3 ####
+copies       1                                  Number of physical partitions for each logical partition True
+inter        m                                  Policy for allocation over multiple physical volumes     True
+intra        c                                  Policy for allocation on physical volume                 True
+label        /tmp                               Information label                                        True
+lvserial_id  00f92eec00004c000000014efdd47283.7 Volume group identifier . minor number                   False
+relocatable  y                                  Reorganization relocation policy                         True
+size         4                                  Number of logical partitions in logical volume           True
+strictness   y                                  Copies allocation policy                                 True
+stripe_size                                     Stripe Size                                              True
+stripe_width                                    Striping Width                                           True
+type         jfs2                               Type description                                         True
+upperbound   32                                 Number of physical volumes to allocate across            True
+
+#### Device: hd4 ####
+copies       1                                  Number of physical partitions for each logical partition True
+inter        m                                  Policy for allocation over multiple physical volumes     True
+intra        c                                  Policy for allocation on physical volume                 True
+label        /                                  Information label                                        True
+lvserial_id  00f92eec00004c000000014efdd47283.4 Volume group identifier . minor number                   False
+relocatable  y                                  Reorganization relocation policy                         True
+size         4                                  Number of logical partitions in logical volume           True
+strictness   y                                  Copies allocation policy                                 True
+stripe_size                                     Stripe Size                                              True
+stripe_width                                    Striping Width                                           True
+type         jfs2                               Type description                                         True
+upperbound   32                                 Number of physical volumes to allocate across            True
+
+#### Device: hd5 ####
+copies       1                                  Number of physical partitions for each logical partition True
+inter        m                                  Policy for allocation over multiple physical volumes     True
+intra        e                                  Policy for allocation on physical volume                 True
+label        primary_bootlv                     Information label                                        True
+lvserial_id  00f92eec00004c000000014efdd47283.1 Volume group identifier . minor number                   False
+relocatable  n                                  Reorganization relocation policy                         True
+size         1                                  Number of logical partitions in logical volume           True
+strictness   y                                  Copies allocation policy                                 True
+stripe_size                                     Stripe Size                                              True
+stripe_width                                    Striping Width                                           True
+type         boot                               Type description                                         True
+upperbound   32                                 Number of physical volumes to allocate across            True
+
+#### Device: hd6 ####
+copies       1                                  Number of physical partitions for each logical partition True
+inter        m                                  Policy for allocation over multiple physical volumes     True
+intra        m                                  Policy for allocation on physical volume                 True
+label        None                               Information label                                        True
+lvserial_id  00f92eec00004c000000014efdd47283.2 Volume group identifier . minor number                   False
+relocatable  y                                  Reorganization relocation policy                         True
+size         1                                  Number of logical partitions in logical volume           True
+strictness   y                                  Copies allocation policy                                 True
+stripe_size                                     Stripe Size                                              True
+stripe_width                                    Striping Width                                           True
+type         paging                             Type description                                         True
+upperbound   32                                 Number of physical volumes to allocate across            True
+
+#### Device: hd8 ####
+copies       1                                  Number of physical partitions for each logical partition True
+inter        m                                  Policy for allocation over multiple physical volumes     True
+intra        c                                  Policy for allocation on physical volume                 True
+label        None                               Information label                                        True
+lvserial_id  00f92eec00004c000000014efdd47283.3 Volume group identifier . minor number                   False
+relocatable  y                                  Reorganization relocation policy                         True
+size         1                                  Number of logical partitions in logical volume           True
+strictness   y                                  Copies allocation policy                                 True
+stripe_size                                     Stripe Size                                              True
+stripe_width                                    Striping Width                                           True
+type         jfs2log                            Type description                                         True
+upperbound   32                                 Number of physical volumes to allocate across            True
+
+#### Device: hd10opt ####
+copies       1                                  Number of physical partitions for each logical partition True
+inter        m                                  Policy for allocation over multiple physical volumes     True
+intra        c                                  Policy for allocation on physical volume                 True
+label        /opt                               Information label                                        True
+lvserial_id  00f92eec00004c000000014efdd47283.9 Volume group identifier . minor number                   False
+relocatable  y                                  Reorganization relocation policy                         True
+size         2                                  Number of logical partitions in logical volume           True
+strictness   y                                  Copies allocation policy                                 True
+stripe_size                                     Stripe Size                                              True
+stripe_width                                    Striping Width                                           True
+type         jfs2                               Type description                                         True
+upperbound   32                                 Number of physical volumes to allocate across            True
+
+#### Device: hd11admin ####
+copies       1                                   Number of physical partitions for each logical partition True
+inter        m                                   Policy for allocation over multiple physical volumes     True
+intra        c                                   Policy for allocation on physical volume                 True
+label        /admin                              Information label                                        True
+lvserial_id  00f92eec00004c000000014efdd47283.10 Volume group identifier . minor number                   False
+relocatable  y                                   Reorganization relocation policy                         True
+size         4                                   Number of logical partitions in logical volume           True
+strictness   y                                   Copies allocation policy                                 True
+stripe_size                                      Stripe Size                                              True
+stripe_width                                     Striping Width                                           True
+type         jfs2                                Type description                                         True
+upperbound   32                                  Number of physical volumes to allocate across            True
+
+#### Device: hd9var ####
+copies       1                                  Number of physical partitions for each logical partition True
+inter        m                                  Policy for allocation over multiple physical volumes     True
+intra        c                                  Policy for allocation on physical volume                 True
+label        /var                               Information label                                        True
+lvserial_id  00f92eec00004c000000014efdd47283.6 Volume group identifier . minor number                   False
+relocatable  y                                  Reorganization relocation policy                         True
+size         4                                  Number of logical partitions in logical volume           True
+strictness   y                                  Copies allocation policy                                 True
+stripe_size                                     Stripe Size                                              True
+stripe_width                                    Striping Width                                           True
+type         jfs2                               Type description                                         True
+upperbound   32                                 Number of physical volumes to allocate across            True
+
+#### Device: hdisk0 ####
+PCM             PCM/friend/Hitachi               Path Control Module              False
+PR_key_value    none                             Reserve Key                      True
+algorithm       fail_over                        Algorithm                        True
+clr_q           no                               Device CLEARS its Queue on error True
+dist_err_pcnt   0                                Distributed Error Percentage     True
+dist_tw_width   50                               Distributed Error Sample Time    True
+hcheck_cmd      inquiry                          Health Check Command             True
+hcheck_interval 60                               Health Check Interval            True
+hcheck_mode     nonactive                        Health Check Mode                True
+location                                         Location Label                   True
+lun_id          0x0                              Logical Unit Number ID           False
+lun_reset_spt   yes                              SCSI LUN reset                   True
+max_transfer    0x40000                          Maximum TRANSFER Size            True
+node_name       0x50060e8007e43a7a               Node Name                        False
+pvid            00f92eecfdd4717c0000000000000000 Physical Volume ID               False
+q_err           yes                              Use QERR bit                     False
+q_type          simple                           Queue TYPE                       True
+queue_depth     2                                Queue DEPTH                      True
+reassign_to     120                              REASSIGN time out                True
+reserve_policy  single_path                      Reserve Policy                   True
+rw_timeout      60                               READ/WRITE time out              True
+scsi_id         0x25700                          SCSI ID                          False
+start_timeout   60                               START UNIT time out              True
+timeout_policy  retry_path                       Timeout Policy                   True
+ww_name         0x50060e8007e43a7a               FC World Wide Name               False
+
+#### Device: hdisk1 ####
+PCM             PCM/friend/Hitachi               Path Control Module              False
+PR_key_value    none                             Reserve Key                      True
+algorithm       fail_over                        Algorithm                        True
+clr_q           no                               Device CLEARS its Queue on error True
+dist_err_pcnt   0                                Distributed Error Percentage     True
+dist_tw_width   50                               Distributed Error Sample Time    True
+hcheck_cmd      inquiry                          Health Check Command             True
+hcheck_interval 60                               Health Check Interval            True
+hcheck_mode     nonactive                        Health Check Mode                True
+location                                         Location Label                   True
+lun_id          0x1000000000000                  Logical Unit Number ID           False
+lun_reset_spt   yes                              SCSI LUN reset                   True
+max_transfer    0x40000                          Maximum TRANSFER Size            True
+node_name       0x50060e8007e43a6a               Node Name                        False
+pvid            00f92eec01bc86230000000000000000 Physical Volume ID               False
+q_err           yes                              Use QERR bit                     False
+q_type          simple                           Queue TYPE                       True
+queue_depth     32                               Queue DEPTH                      True
+reassign_to     120                              REASSIGN time out                True
+reserve_policy  no_reserve                       Reserve Policy                   True
+rw_timeout      60                               READ/WRITE time out              True
+scsi_id         0x25700                          SCSI ID                          False
+start_timeout   60                               START UNIT time out              True
+timeout_policy  retry_path                       Timeout Policy                   True
+ww_name         0x50060e8007e43a6a               FC World Wide Name               False
+
+#### Device: inet0 ####
+authm         65536                          Authentication Methods              True
+bootup_option no                             Use BSD-style Network Configuration True
+gateway                                      Gateway                             True
+hostname      DX988                          Host Name                           True
+rout6                                        IPv6 Route                          True
+route         net,-hopcount,0,,0,10.51.226.1 Route                               True
+
+#### Device: iocp0 ####
+autoconfig defined STATE to be configured at system restart True
+
+#### Device: iscsi0 ####
+disc_filename  /etc/iscsi/targets        Configuration file                            False
+disc_policy    file                      Discovery Policy                              True
+initiator_name iqn.DX988.hostid.0a33e2ea iSCSI Initiator Name                          True
+isns_srvnames  auto                      iSNS Servers IP Addresses                     True
+isns_srvports                            iSNS Servers Port Numbers                     True
+max_targets    16                        Maximum Targets Allowed                       True
+num_cmd_elems  200                       Maximum number of commands to queue to driver True
+
+#### Device: lg_dumplv ####
+copies       1                                   Number of physical partitions for each logical partition True
+inter        m                                   Policy for allocation over multiple physical volumes     True
+intra        m                                   Policy for allocation on physical volume                 True
+label        None                                Information label                                        True
+lvserial_id  00f92eec00004c000000014efdd47283.11 Volume group identifier . minor number                   False
+relocatable  y                                   Reorganization relocation policy                         True
+size         8                                   Number of logical partitions in logical volume           True
+strictness   y                                   Copies allocation policy                                 True
+stripe_size                                      Stripe Size                                              True
+stripe_width                                     Striping Width                                           True
+type         sysdump                             Type description                                         True
+upperbound   32                                  Number of physical volumes to allocate across            True
+
+#### Device: livedump ####
+copies       1                                   Number of physical partitions for each logical partition True
+inter        m                                   Policy for allocation over multiple physical volumes     True
+intra        m                                   Policy for allocation on physical volume                 True
+label        /var/adm/ras/livedump               Information label                                        True
+lvserial_id  00f92eec00004c000000014efdd47283.12 Volume group identifier . minor number                   False
+relocatable  y                                   Reorganization relocation policy                         True
+size         1                                   Number of logical partitions in logical volume           True
+strictness   y                                   Copies allocation policy                                 True
+stripe_size                                      Stripe Size                                              True
+stripe_width                                     Striping Width                                           True
+type         jfs2                                Type description                                         True
+upperbound   32                                  Number of physical volumes to allocate across            True
+
+#### Device: lo0 ####
+mtu           16896     Maximum IP Packet Size for This Device     True
+netaddr       127.0.0.1 Internet Address                           True
+netaddr6      ::1       IPv6 Internet Address                      True
+netmask                 Subnet Mask                                True
+prefixlen               IPv6 Alias including Prefix Length         True
+rfc1323                 Enable/Disable TCP RFC 1323 Window Scaling True
+state         up        Current Interface Status                   True
+tcp_mssdflt             Set TCP Maximum Segment Size               True
+tcp_nodelay             Enable/Disable TCP_NODELAY Option          True
+tcp_recvspace           Set Socket Buffer Space for Receiving      True
+tcp_sendspace           Set Socket Buffer Space for Sending        True
+
+#### Device: lvdd ####
+
+#### Device: mem0 ####
+ent_mem_cap          I/O memory entitlement in Kbytes           False
+goodsize       98304 Amount of usable physical memory in Mbytes False
+mem_exp_factor       Memory expansion factor                    False
+size           98304 Total amount of physical memory in Mbytes  False
+var_mem_weight       Variable memory capacity weight            False
+
+#### Device: nsmb0 ####
+
+#### Device: perfdatalv ####
+copies       1                                   Number of physical partitions for each logical partition True
+inter        m                                   Policy for allocation over multiple physical volumes     True
+intra        m                                   Policy for allocation on physical volume                 True
+label        /perfdata                           Information label                                        True
+lvserial_id  00f92eec00004c000000014efdd47283.13 Volume group identifier . minor number                   False
+relocatable  y                                   Reorganization relocation policy                         True
+size         10                                  Number of logical partitions in logical volume           True
+strictness   y                                   Copies allocation policy                                 True
+stripe_size                                      Stripe Size                                              True
+stripe_width                                     Striping Width                                           True
+type         jfs2                                Type description                                         True
+upperbound   32                                  Number of physical volumes to allocate across            True
+
+#### Device: pkcs11 ####
+comp_trace   no Trace Software Crypto    True
+io_threads   8  Trace Memory Allocations True
+proc_heap_sz 8  Trace Memory Allocations True
+trc_adm      no Trace Software Crypto    True
+trc_clic     no Trace Software Crypto    True
+trc_context  no Trace Software Crypto    True
+trc_dd       no Trace Software Crypto    True
+trc_hw       no Trace Software Crypto    True
+trc_io       no Trace Software Crypto    True
+trc_k_klib   no Trace Software Crypto    True
+trc_k_ulib   no Trace Software Crypto    True
+trc_malloc   no Trace Software Crypto    True
+trc_meta     no Trace Software Crypto    True
+trc_mmap     no Trace Software Crypto    True
+trc_obj      no Trace Software Crypto    True
+trc_req      no Trace Software Crypto    True
+trc_sess     no Trace Software Crypto    True
+trc_slot     no Trace Software Crypto    True
+trc_token    no Trace Software Crypto    True
+trc_u_lib    no Trace Software Crypto    True
+trc_util     no Trace Software Crypto    True
+y4_max_req   16 Trace Memory Allocations True
+
+#### Device: powerha_crlv ####
+copies       1                                  Number of physical partitions for each logical partition True
+inter        m                                  Policy for allocation over multiple physical volumes     True
+intra        m                                  Policy for allocation on physical volume                 True
+label        None                               Information label                                        True
+lvserial_id  00f92eec00004c000000014f01bf95e1.4 Volume group identifier . minor number                   False
+relocatable  y                                  Reorganization relocation policy                         True
+size         1                                  Number of logical partitions in logical volume           True
+strictness   y                                  Copies allocation policy                                 True
+stripe_size                                     Stripe Size                                              True
+stripe_width                                    Striping Width                                           True
+type         boot                               Type description                                         True
+upperbound   32                                 Number of physical volumes to allocate across            True
+
+#### Device: proc0 ####
+frequency   4424001000     Processor Speed       False
+smt_enabled true           Processor SMT enabled False
+smt_threads 4              Processor SMT threads False
+state       enable         Processor state       False
+type        PowerPC_POWER7 Processor type        False
+
+#### Device: proc4 ####
+frequency   4424001000     Processor Speed       False
+smt_enabled true           Processor SMT enabled False
+smt_threads 4              Processor SMT threads False
+state       enable         Processor state       False
+type        PowerPC_POWER7 Processor type        False
+
+#### Device: proc8 ####
+frequency   4424001000     Processor Speed       False
+smt_enabled true           Processor SMT enabled False
+smt_threads 4              Processor SMT threads False
+state       enable         Processor state       False
+type        PowerPC_POWER7 Processor type        False
+
+#### Device: proc12 ####
+frequency   4424001000     Processor Speed       False
+smt_enabled true           Processor SMT enabled False
+smt_threads 4              Processor SMT threads False
+state       enable         Processor state       False
+type        PowerPC_POWER7 Processor type        False
+
+#### Device: proc16 ####
+frequency   4424001000     Processor Speed       False
+smt_enabled true           Processor SMT enabled False
+smt_threads 4              Processor SMT threads False
+state       enable         Processor state       False
+type        PowerPC_POWER7 Processor type        False
+
+#### Device: proc20 ####
+frequency   4424001000     Processor Speed       False
+smt_enabled true           Processor SMT enabled False
+smt_threads 4              Processor SMT threads False
+state       enable         Processor state       False
+type        PowerPC_POWER7 Processor type        False
+
+#### Device: pty0 ####
+ATTnum     256       Maximum number of Pseudo-Terminals     True
+BSDnum     16        Maximum number of BSD Pseudo-Terminals True
+autoconfig available STATE to be configured at boot time    True
+csmap      sbcs      N/A                                    True
+
+#### Device: rcm0 ####
+
+#### Device: rootvg ####
+auto_on        y                                Auto varyon             True
+cache_pbuf_cnt 0                                N/A                     True
+conc_auto_on   n                                N/A                     True
+conc_capable   n                                N/A                     True
+gbl_pbufs_ppv  0                                N/A                     True
+gbl_pbufs_pvg  0                                N/A                     True
+timestamp      55c3057d26783dea                 N/A                     True
+vg_pbufs_ppv   0                                N/A                     True
+vgserial_id    00f92eec00004c000000014efdd47283 Volume group identifier False
+
+#### Device: sfw0 ####
+enable_sas no   Enable SAS adapters for SAN Communications True
+vltag      3358 vlan tag identifier                        True
+
+#### Device: sfwcomm0 ####
+
+#### Device: sfwcomm1 ####
+
+#### Device: sfwcomm2 ####
+
+#### Device: sfwcomm3 ####
+
+#### Device: sys0 ####
+SW_dist_intr    false                                Enable SW distribution of interrupts                True
+autorestart     true                                 Automatically REBOOT OS after a crash               True
+boottype        disk                                 N/A                                                 False
+capacity_inc    0.01                                 Processor capacity increment                        False
+capped          false                                Partition is capped                                 False
+chown_restrict  true                                 Chown Restriction Mode                              True
+conslogin       enable                               System Console Login                                False
+cpuguard        enable                               CPU Guard                                           True
+dedicated       false                                Partition is dedicated                              False
+enhanced_RBAC   true                                 Enhanced RBAC Mode                                  True
+ent_capacity    4.00                                 Entitled processor capacity                         False
+frequency       6400000000                           System Bus Frequency                                False
+fullcore        false                                Enable full CORE dump                               True
+fwversion       IBM,AM780_068                        Firmware version and revision levels                False
+ghostdev        0                                    Recreate ODM devices on system change / modify PVID True
+id_to_partition 0X800003D822F00024                   Partition ID                                        False
+id_to_system    0X800003D822F00000                   System ID                                           False
+iostat          false                                Continuously maintain DISK I/O history              True
+keylock         normal                               State of system keylock at boot time                False
+log_pg_dealloc  true                                 Log predictive memory page deallocation events      True
+max_capacity    6.00                                 Maximum potential processor capacity                False
+max_logname     9                                    Maximum login name length at boot time              True
+maxbuf          20                                   Maximum number of pages in block I/O BUFFER CACHE   True
+maxmbuf         0                                    Maximum Kbytes of real memory allowed for MBUFS     True
+maxpout         8193                                 HIGH water mark for pending write I/Os per file     True
+maxuproc        16384                                Maximum number of PROCESSES allowed per user        True
+min_capacity    2.00                                 Minimum potential processor capacity                False
+minpout         4096                                 LOW water mark for pending write I/Os per file      True
+modelname       IBM,9179-MHD                         Machine name                                        False
+ncargs          256                                  ARG/ENV list size in 4K byte blocks                 True
+nfs4_acl_compat secure                               NFS4 ACL Compatibility Mode                         True
+ngroups_allowed 128                                  Number of Groups Allowed                            True
+os_uuid         6b7fcfd2-57ad-4b47-a435-1916a889dd5f N/A                                                 True
+pre430core      false                                Use pre-430 style CORE dump                         True
+pre520tune      disable                              Pre-520 tuning compatibility mode                   True
+realmem         100663296                            Amount of usable physical memory in Kbytes          False
+rtasversion     1                                    Open Firmware RTAS version                          False
+sed_config      select                               Stack Execution Disable (SED) Mode                  True
+systemid        IBM,02212EECV                        Hardware system identifier                          False
+variable_weight 127                                  Variable processor capacity weight                  False
+
+#### Device: sysplanar0 ####
+
+#### Device: vio0 ####
+bus_id 0x90000340 Bus Identifier False
+
+#### Device: vsa0 ####
+desired_mapmem  I/O memory entitlement reserved for device, in bytes False
+
+#### Device: vscsi0 ####
+rw_timeout      0            Virtual SCSI Read/Write Command Timeout True
+vscsi_err_recov delayed_fail N/A                                     True
+vscsi_path_to   0            Virtual SCSI Path Timeout               True
+
+#### Device: vscsi1 ####
+rw_timeout      0            Virtual SCSI Read/Write Command Timeout True
+vscsi_err_recov delayed_fail N/A                                     True
+vscsi_path_to   0            Virtual SCSI Path Timeout               True
+
+#### Device: vscsi2 ####
+rw_timeout      0            Virtual SCSI Read/Write Command Timeout True
+vscsi_err_recov delayed_fail N/A                                     True
+vscsi_path_to   0            Virtual SCSI Path Timeout               True
+
+#### Device: vscsi3 ####
+rw_timeout      0            Virtual SCSI Read/Write Command Timeout True
+vscsi_err_recov delayed_fail N/A                                     True
+vscsi_path_to   0            Virtual SCSI Path Timeout               True
+
+#### Device: vscsi4 ####
+rw_timeout      0            Virtual SCSI Read/Write Command Timeout True
+vscsi_err_recov delayed_fail N/A                                     True
+vscsi_path_to   0            Virtual SCSI Path Timeout               True
+
+#### Device: vscsi5 ####
+rw_timeout      0            Virtual SCSI Read/Write Command Timeout True
+vscsi_err_recov delayed_fail N/A                                     True
+vscsi_path_to   0            Virtual SCSI Path Timeout               True
+
+#### Device: vscsi6 ####
+rw_timeout      0            Virtual SCSI Read/Write Command Timeout True
+vscsi_err_recov delayed_fail N/A                                     True
+vscsi_path_to   0            Virtual SCSI Path Timeout               True
+
+#### Device: vscsi7 ####
+rw_timeout      0            Virtual SCSI Read/Write Command Timeout True
+vscsi_err_recov delayed_fail N/A                                     True
+vscsi_path_to   0            Virtual SCSI Path Timeout               True
+
+#### Device: vscsi8 ####
+rw_timeout      0            Virtual SCSI Read/Write Command Timeout True
+vscsi_err_recov delayed_fail N/A                                     True
+vscsi_path_to   0            Virtual SCSI Path Timeout               True
+
+#### Device: vscsi9 ####
+rw_timeout      0            Virtual SCSI Read/Write Command Timeout True
+vscsi_err_recov delayed_fail N/A                                     True
+vscsi_path_to   0            Virtual SCSI Path Timeout               True
+
+#### Device: vty0 ####
+autoconfig available                                                                                            STATUS of device at BOOT time              True
+bpc        8                                                                                                    BITS per character                         True
+csmap      sbcs                                                                                                 CODESET map file                           True
+discard    ^o                                                                                                   DISCARD character                          True
+dsusp      ^y                                                                                                   DELAY SUSPEND PROCESS character            True
+eof        ^d                                                                                                   END OF FILE character                      True
+eol        ^@                                                                                                   END OF LINE character                      True
+eol2       ^?                                                                                                   2nd END OF LINE character                  True
+erase      ^h                                                                                                   ERASE character                            True
+flow_disp  xon                                                                                                  FLOW CONTROL to be used                    True
+imap       none                                                                                                 INPUT map file                             True
+intr       ^c                                                                                                   INTERRUPT character                        True
+kill       ^u                                                                                                   KILL character                             True
+lnext      ^v                                                                                                   LITERAL NEXT character                     True
+logger                                                                                                          LOGGER name                                True
+login      disable                                                                                              Enable LOGIN                               True
+logmodes   hupcl,cread,echoe,cs8                                                                                STTY attributes for LOGIN                  True
+modules    ldterm                                                                                               STREAMS modules to be pushed at OPEN time  True
+omap       none                                                                                                 OUTPUT map file                            True
+open_disp  dtropen                                                                                              OPEN DISCIPLINE to be used                 True
+parity     none                                                                                                 PARITY                                     True
+quit       ^\                                                                                                   QUIT character                             True
+reprint    ^r                                                                                                   REPRINT LINE character                     True
+runmodes   hupcl,cread,brkint,icrnl,opost,tab3,onlcr,isig,icanon,echo,echoe,echok,echoctl,echoke,imaxbel,iexten STTY attributes for RUN time               True
+speed      19200                                                                                                N/A                                        True
+start      ^q                                                                                                   START character                            True
+stop       ^s                                                                                                   STOP character                             True
+stops      1                                                                                                    Number of STOP BITS                        True
+susp       ^z                                                                                                   SUSPEND PROCESS character                  True
+term       vt220                                                                                                TERMINAL type                              True
+timeout    0                                                                                                    TIME before advancing to next port setting True
+werase     ^w                                                                                                   WORD ERASE character                       True
+==== EXITED with rc 0 ====
+==== END lsdev -C | awk '{print "\n#### Device: " $1" ####";system("lsattr -El " $1)}' Thu Aug  6 11:20:32 GST 2015 ====

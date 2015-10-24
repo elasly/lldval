@@ -1,0 +1,7 @@
+==== This output can be found in Systems/dx976/vio/lsfilt-v4-^O.txt ====
+==== START lsfilt -v4 -O Tue Jul  7 13:09:06 CDT 2015 ====
+1|permit|0.0.0.0|0.0.0.0|0.0.0.0|0.0.0.0|no|udp|eq|4001|eq|4001|both|both|no|all packets|0|all|0|||Default Rule
+2|*** Dynamic filter placement rule for IKE tunnels ***|no
+0|permit|0.0.0.0|0.0.0.0|0.0.0.0|0.0.0.0|yes|all|any|0|any|0|both|both|no|all packets|0|all|0|||Default Rule
+==== EXITED with rc 0 ====
+==== END lsfilt -v4 -O Tue Jul  7 13:09:06 CDT 2015 ====

@@ -1,0 +1,28 @@
+==== This output can be found in Systems/dx979/perf/lsdev-^Cc_adapter_grep_^fcs_awk_print_n_Adapter_1_.txt ====
+==== START lsdev -Cc adapter | grep ^fcs | awk '{print "\n#### Adapter: " $1" ####";system("lsattr -Ra num_cmd_elems -l " $1 )}' Tue Jul  7 00:32:52 GST 2015 ====
+
+#### Adapter: fcs0 ####
+20...256 (+1)
+
+#### Adapter: fcs8 ####
+20...256 (+1)
+
+#### Adapter: fcs9 ####
+20...256 (+1)
+
+#### Adapter: fcs10 ####
+20...256 (+1)
+
+#### Adapter: fcs11 ####
+20...256 (+1)
+
+#### Adapter: fcs12 ####
+20...256 (+1)
+
+#### Adapter: fcs13 ####
+20...256 (+1)
+
+#### Adapter: fcs14 ####
+20...256 (+1)
+==== EXITED with rc 0 ====
+==== END lsdev -Cc adapter | grep ^fcs | awk '{print "\n#### Adapter: " $1" ####";system("lsattr -Ra num_cmd_elems -l " $1 )}' Tue Jul  7 00:32:52 GST 2015 ====

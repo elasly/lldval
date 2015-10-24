@@ -1,0 +1,14 @@
+==== This output can be found in Systems/dx975/perf/lparstat-h_5_5.txt ====
+==== START lparstat -h 5 5  Tue Jul  7 12:46:52 CDT 2015 ====
+
+System configuration: type=Shared mode=Uncapped smt=4 lcpu=24 mem=8192MB psize=36 ent=2.00 
+
+%user  %sys  %wait  %idle physc %entc  lbusy  vcsw phint  %hypv hcalls
+----- ----- ------ ------ ----- ----- ------ ----- ----- ------ ------
+ 17.0  47.5    0.3   35.2  3.98 199.2   20.7 38884   164   55.3 1088283 
+ 18.3  47.2    0.6   33.9  3.05 152.5   21.3 25231    74   51.9 555503 
+ 22.9  34.0    0.9   42.2  2.20 109.8    9.9 36998    59   62.3 280786 
+ 23.4  35.4    0.5   40.8  2.37 118.3   12.6 32986    57   60.0 318290 
+ 27.7  31.8    0.0   40.5  2.29 114.6   11.9 28836    45   56.7 226548 
+==== EXITED with rc 0 ====
+==== END lparstat -h 5 5  Tue Jul  7 12:47:17 CDT 2015 ====

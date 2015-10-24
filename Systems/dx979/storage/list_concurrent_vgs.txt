@@ -1,0 +1,755 @@
+==== This output can be found in Systems/dx979/storage/list_concurrent_vgs.txt ====
+==== START list_concurrent_vgs Tue Jul  7 00:33:19 GST 2015 ====
+List content of concurrent VGs
+VG: arch1vg
+
+Using comand: lsvg arch1vg
+VOLUME GROUP:       arch1vg                  VG IDENTIFIER:  00f9ada100004c000000014c09523810
+VG STATE:           active                   PP SIZE:        512 megabyte(s)
+VG PERMISSION:      read/write               TOTAL PPs:      6138 (3142656 megabytes)
+MAX LVs:            256                      FREE PPs:       2 (1024 megabytes)
+LVs:                2                        USED PPs:       6136 (3141632 megabytes)
+OPEN LVs:           2                        QUORUM:         1 (Disabled)
+TOTAL PVs:          6                        VG DESCRIPTORS: 6
+STALE PVs:          0                        STALE PPs:      0
+ACTIVE PVs:         6                        AUTO ON:        no
+Concurrent:         Enhanced-Capable         Auto-Concurrent: Disabled
+VG Mode:            Concurrent                               
+Node ID:            1                        Active Nodes:       2 
+MAX PPs per VG:     32768                    MAX PVs:        1024
+LTG size (Dynamic): 1024 kilobyte(s)         AUTO SYNC:      no
+HOT SPARE:          no                       BB POLICY:      relocatable 
+MIRROR POOL STRICT: off                                       
+PV RESTRICTION:     none                     INFINITE RETRY: no
+DISK BLOCK SIZE:    512                      CRITICAL VG:    no
+
+=================================================================
+
+Using comand: lsvg -l arch1vg
+arch1vg:
+LV NAME             TYPE       LPs     PPs     PVs  LV STATE      MOUNT POINT
+R1_arch1lv          jfs2       3068    3068    6    open/syncd    /gprs_arclog1
+R1_arch2lv          jfs2       3068    3068    6    open/syncd    /gprs_arclog2
+
+=================================================================
+
+Using comand: lsvg -p arch1vg
+arch1vg:
+PV_NAME           PV STATE          TOTAL PPs   FREE PPs    FREE DISTRIBUTION
+hdiskpower28      active            1023        0           00..00..00..00..00
+hdiskpower29      active            1023        0           00..00..00..00..00
+hdiskpower30      active            1023        0           00..00..00..00..00
+hdiskpower31      active            1023        0           00..00..00..00..00
+hdiskpower32      active            1023        1           00..00..00..00..01
+hdiskpower33      active            1023        1           00..00..00..00..01
+
+=================================================================
+
+Using comand: lsvg -m arch1vg
+Logical Volume    Copy 1            Copy 2            Copy 3            
+R1_arch1lv        None              None              None              
+R1_arch2lv        None              None              None              
+
+=================================================================
+
+Using comand: lsvg -P arch1vg
+Physical Volume   Mirror Pool       
+hdiskpower28      None              
+hdiskpower29      None              
+hdiskpower30      None              
+hdiskpower31      None              
+hdiskpower32      None              
+hdiskpower33      None              
+
+=================================================================
+-----------------------------------------------------------------
+VG: bctvg
+
+Using comand: lsvg bctvg
+VOLUME GROUP:       bctvg                    VG IDENTIFIER:  00f9ada100004c000000014df5af0cba
+VG STATE:           active                   PP SIZE:        256 megabyte(s)
+VG PERMISSION:      read/write               TOTAL PPs:      39 (9984 megabytes)
+MAX LVs:            256                      FREE PPs:       0 (0 megabytes)
+LVs:                2                        USED PPs:       39 (9984 megabytes)
+OPEN LVs:           2                        QUORUM:         2 (Enabled)
+TOTAL PVs:          1                        VG DESCRIPTORS: 2
+STALE PVs:          0                        STALE PPs:      0
+ACTIVE PVs:         1                        AUTO ON:        no
+Concurrent:         Enhanced-Capable         Auto-Concurrent: Disabled
+VG Mode:            Concurrent                               
+Node ID:            1                        Active Nodes:       2 
+MAX PPs per VG:     32768                    MAX PVs:        1024
+LTG size (Dynamic): 1024 kilobyte(s)         AUTO SYNC:      no
+HOT SPARE:          no                       BB POLICY:      relocatable 
+MIRROR POOL STRICT: off                                       
+PV RESTRICTION:     none                     INFINITE RETRY: no
+DISK BLOCK SIZE:    512                      CRITICAL VG:    no
+
+=================================================================
+
+Using comand: lsvg -l bctvg
+bctvg:
+LV NAME             TYPE       LPs     PPs     PVs  LV STATE      MOUNT POINT
+bctlv               jfs2       38      38      1    open/syncd    /gprs_bct
+loglv01             jfs2log    1       1       1    open/syncd    N/A
+
+=================================================================
+
+Using comand: lsvg -p bctvg
+bctvg:
+PV_NAME           PV STATE          TOTAL PPs   FREE PPs    FREE DISTRIBUTION
+hdiskpower59      active            39          0           00..00..00..00..00
+
+=================================================================
+
+Using comand: lsvg -m bctvg
+Logical Volume    Copy 1            Copy 2            Copy 3            
+bctlv             None              None              None              
+loglv01           None              None              None              
+
+=================================================================
+
+Using comand: lsvg -P bctvg
+Physical Volume   Mirror Pool       
+hdiskpower59      None              
+
+=================================================================
+-----------------------------------------------------------------
+VG: bkp1vg
+
+Using comand: lsvg bkp1vg
+VOLUME GROUP:       bkp1vg                   VG IDENTIFIER:  00f9ada100004c000000014c09527420
+VG STATE:           active                   PP SIZE:        1024 megabyte(s)
+VG PERMISSION:      read/write               TOTAL PPs:      9207 (9427968 megabytes)
+MAX LVs:            256                      FREE PPs:       1 (1024 megabytes)
+LVs:                1                        USED PPs:       9206 (9426944 megabytes)
+OPEN LVs:           1                        QUORUM:         1 (Disabled)
+TOTAL PVs:          9                        VG DESCRIPTORS: 9
+STALE PVs:          0                        STALE PPs:      0
+ACTIVE PVs:         9                        AUTO ON:        no
+Concurrent:         Enhanced-Capable         Auto-Concurrent: Disabled
+VG Mode:            Concurrent                               
+Node ID:            1                        Active Nodes:       2 
+MAX PPs per VG:     32768                    MAX PVs:        1024
+LTG size (Dynamic): 1024 kilobyte(s)         AUTO SYNC:      no
+HOT SPARE:          no                       BB POLICY:      relocatable 
+MIRROR POOL STRICT: off                                       
+PV RESTRICTION:     none                     INFINITE RETRY: no
+DISK BLOCK SIZE:    512                      CRITICAL VG:    no
+
+=================================================================
+
+Using comand: lsvg -l bkp1vg
+bkp1vg:
+LV NAME             TYPE       LPs     PPs     PVs  LV STATE      MOUNT POINT
+R6_bkplv            jfs2       9206    9206    9    open/syncd    /gprs_bkp
+
+=================================================================
+
+Using comand: lsvg -p bkp1vg
+bkp1vg:
+PV_NAME           PV STATE          TOTAL PPs   FREE PPs    FREE DISTRIBUTION
+hdiskpower42      active            1023        0           00..00..00..00..00
+hdiskpower43      active            1023        0           00..00..00..00..00
+hdiskpower44      active            1023        0           00..00..00..00..00
+hdiskpower45      active            1023        0           00..00..00..00..00
+hdiskpower46      active            1023        0           00..00..00..00..00
+hdiskpower47      active            1023        0           00..00..00..00..00
+hdiskpower48      active            1023        0           00..00..00..00..00
+hdiskpower49      active            1023        0           00..00..00..00..00
+hdiskpower50      active            1023        1           00..00..00..00..01
+
+=================================================================
+
+Using comand: lsvg -m bkp1vg
+Logical Volume    Copy 1            Copy 2            Copy 3            
+R6_bkplv          None              None              None              
+
+=================================================================
+
+Using comand: lsvg -P bkp1vg
+Physical Volume   Mirror Pool       
+hdiskpower42      None              
+hdiskpower43      None              
+hdiskpower44      None              
+hdiskpower45      None              
+hdiskpower46      None              
+hdiskpower47      None              
+hdiskpower48      None              
+hdiskpower49      None              
+hdiskpower50      None              
+
+=================================================================
+-----------------------------------------------------------------
+VG: ctrl1vg
+
+Using comand: lsvg ctrl1vg
+VOLUME GROUP:       ctrl1vg                  VG IDENTIFIER:  00f9ada100004c000000014c0951cf79
+VG STATE:           active                   PP SIZE:        1 megabyte(s)
+VG PERMISSION:      read/write               TOTAL PPs:      30513 (30513 megabytes)
+MAX LVs:            256                      FREE PPs:       3 (3 megabytes)
+LVs:                3                        USED PPs:       30510 (30510 megabytes)
+OPEN LVs:           3                        QUORUM:         1 (Disabled)
+TOTAL PVs:          3                        VG DESCRIPTORS: 3
+STALE PVs:          0                        STALE PPs:      0
+ACTIVE PVs:         3                        AUTO ON:        no
+Concurrent:         Enhanced-Capable         Auto-Concurrent: Disabled
+VG Mode:            Concurrent                               
+Node ID:            1                        Active Nodes:       2 
+MAX PPs per VG:     32768                    MAX PVs:        1024
+LTG size (Dynamic): 1024 kilobyte(s)         AUTO SYNC:      no
+HOT SPARE:          no                       BB POLICY:      relocatable 
+MIRROR POOL STRICT: off                                       
+PV RESTRICTION:     none                     INFINITE RETRY: no
+DISK BLOCK SIZE:    512                      CRITICAL VG:    no
+
+=================================================================
+
+Using comand: lsvg -l ctrl1vg
+ctrl1vg:
+LV NAME             TYPE       LPs     PPs     PVs  LV STATE      MOUNT POINT
+R1_ctrl1lv          jfs2       10170   10170   3    open/syncd    /gprs_ctrl1
+R1_ctrl2lv          jfs2       10170   10170   3    open/syncd    /gprs_ctrl2
+R1_ctrl3lv          jfs2       10170   10170   3    open/syncd    /gprs_ctrl3
+
+=================================================================
+
+Using comand: lsvg -p ctrl1vg
+ctrl1vg:
+PV_NAME           PV STATE          TOTAL PPs   FREE PPs    FREE DISTRIBUTION
+hdiskpower55      active            10171       1           00..00..00..00..01
+hdiskpower56      active            10171       1           00..00..00..00..01
+hdiskpower57      active            10171       1           00..00..00..00..01
+
+=================================================================
+
+Using comand: lsvg -m ctrl1vg
+Logical Volume    Copy 1            Copy 2            Copy 3            
+R1_ctrl1lv        None              None              None              
+R1_ctrl2lv        None              None              None              
+R1_ctrl3lv        None              None              None              
+
+=================================================================
+
+Using comand: lsvg -P ctrl1vg
+Physical Volume   Mirror Pool       
+hdiskpower55      None              
+hdiskpower56      None              
+hdiskpower57      None              
+
+=================================================================
+-----------------------------------------------------------------
+VG: data1vg
+
+Using comand: lsvg data1vg
+VOLUME GROUP:       data1vg                  VG IDENTIFIER:  00f9ada100004c000000014c09520b0c
+VG STATE:           active                   PP SIZE:        32 megabyte(s)
+VG PERMISSION:      read/write               TOTAL PPs:      262112 (8387584 megabytes)
+MAX LVs:            256                      FREE PPs:       1 (32 megabytes)
+LVs:                1                        USED PPs:       262111 (8387552 megabytes)
+OPEN LVs:           1                        QUORUM:         1 (Disabled)
+TOTAL PVs:          16                       VG DESCRIPTORS: 16
+STALE PVs:          0                        STALE PPs:      0
+ACTIVE PVs:         16                       AUTO ON:        no
+Concurrent:         Enhanced-Capable         Auto-Concurrent: Disabled
+VG Mode:            Concurrent                               
+Node ID:            1                        Active Nodes:       2 
+MAX PPs per VG:     262144                   MAX PVs:        1024
+LTG size (Dynamic): 1024 kilobyte(s)         AUTO SYNC:      no
+HOT SPARE:          no                       BB POLICY:      relocatable 
+MIRROR POOL STRICT: off                                       
+PV RESTRICTION:     none                     INFINITE RETRY: no
+DISK BLOCK SIZE:    512                      CRITICAL VG:    no
+
+=================================================================
+
+Using comand: lsvg -l data1vg
+data1vg:
+LV NAME             TYPE       LPs     PPs     PVs  LV STATE      MOUNT POINT
+R1_data1lv          jfs2       262111  262111  16   open/syncd    /gprs_data1
+
+=================================================================
+
+Using comand: lsvg -p data1vg
+data1vg:
+PV_NAME           PV STATE          TOTAL PPs   FREE PPs    FREE DISTRIBUTION
+hdiskpower6       active            16382       0           00..00..00..00..00
+hdiskpower7       active            16382       0           00..00..00..00..00
+hdiskpower8       active            16382       0           00..00..00..00..00
+hdiskpower9       active            16382       0           00..00..00..00..00
+hdiskpower10      active            16382       0           00..00..00..00..00
+hdiskpower11      active            16382       0           00..00..00..00..00
+hdiskpower12      active            16382       0           00..00..00..00..00
+hdiskpower13      active            16382       0           00..00..00..00..00
+hdiskpower14      active            16382       0           00..00..00..00..00
+hdiskpower15      active            16382       0           00..00..00..00..00
+hdiskpower16      active            16382       0           00..00..00..00..00
+hdiskpower17      active            16382       0           00..00..00..00..00
+hdiskpower18      active            16382       0           00..00..00..00..00
+hdiskpower19      active            16382       0           00..00..00..00..00
+hdiskpower20      active            16382       0           00..00..00..00..00
+hdiskpower21      active            16382       1           00..00..00..00..01
+
+=================================================================
+
+Using comand: lsvg -m data1vg
+Logical Volume    Copy 1            Copy 2            Copy 3            
+R1_data1lv        None              None              None              
+
+=================================================================
+
+Using comand: lsvg -P data1vg
+Physical Volume   Mirror Pool       
+hdiskpower6       None              
+hdiskpower7       None              
+hdiskpower8       None              
+hdiskpower9       None              
+hdiskpower10      None              
+hdiskpower11      None              
+hdiskpower12      None              
+hdiskpower13      None              
+hdiskpower14      None              
+hdiskpower15      None              
+hdiskpower16      None              
+hdiskpower17      None              
+hdiskpower18      None              
+hdiskpower19      None              
+hdiskpower20      None              
+hdiskpower21      None              
+
+=================================================================
+-----------------------------------------------------------------
+VG: exp1vg
+
+Using comand: lsvg exp1vg
+VOLUME GROUP:       exp1vg                   VG IDENTIFIER:  00f9ada100004c000000014c02a5ec39
+VG STATE:           active                   PP SIZE:        512 megabyte(s)
+VG PERMISSION:      read/write               TOTAL PPs:      2046 (1047552 megabytes)
+MAX LVs:            256                      FREE PPs:       1 (512 megabytes)
+LVs:                1                        USED PPs:       2045 (1047040 megabytes)
+OPEN LVs:           1                        QUORUM:         1 (Disabled)
+TOTAL PVs:          2                        VG DESCRIPTORS: 3
+STALE PVs:          0                        STALE PPs:      0
+ACTIVE PVs:         2                        AUTO ON:        no
+Concurrent:         Enhanced-Capable         Auto-Concurrent: Disabled
+VG Mode:            Concurrent                               
+Node ID:            1                        Active Nodes:       2 
+MAX PPs per VG:     32768                    MAX PVs:        1024
+LTG size (Dynamic): 1024 kilobyte(s)         AUTO SYNC:      no
+HOT SPARE:          no                       BB POLICY:      relocatable 
+MIRROR POOL STRICT: off                                       
+PV RESTRICTION:     none                     INFINITE RETRY: no
+DISK BLOCK SIZE:    512                      CRITICAL VG:    no
+
+=================================================================
+
+Using comand: lsvg -l exp1vg
+exp1vg:
+LV NAME             TYPE       LPs     PPs     PVs  LV STATE      MOUNT POINT
+R5_explv            jfs2       2045    2045    2    open/syncd    /gprs_exp
+
+=================================================================
+
+Using comand: lsvg -p exp1vg
+exp1vg:
+PV_NAME           PV STATE          TOTAL PPs   FREE PPs    FREE DISTRIBUTION
+hdiskpower4       active            1023        0           00..00..00..00..00
+hdiskpower5       active            1023        1           00..00..00..00..01
+
+=================================================================
+
+Using comand: lsvg -m exp1vg
+Logical Volume    Copy 1            Copy 2            Copy 3            
+R5_explv          None              None              None              
+
+=================================================================
+
+Using comand: lsvg -P exp1vg
+Physical Volume   Mirror Pool       
+hdiskpower4       None              
+hdiskpower5       None              
+
+=================================================================
+-----------------------------------------------------------------
+VG: flash1vg
+
+Using comand: lsvg flash1vg
+VOLUME GROUP:       flash1vg                 VG IDENTIFIER:  00f9ada100004c000000014c09524832
+VG STATE:           active                   PP SIZE:        32 megabyte(s)
+VG PERMISSION:      read/write               TOTAL PPs:      1594 (51008 megabytes)
+MAX LVs:            256                      FREE PPs:       1 (32 megabytes)
+LVs:                1                        USED PPs:       1593 (50976 megabytes)
+OPEN LVs:           1                        QUORUM:         1 (Disabled)
+TOTAL PVs:          2                        VG DESCRIPTORS: 3
+STALE PVs:          0                        STALE PPs:      0
+ACTIVE PVs:         2                        AUTO ON:        no
+Concurrent:         Enhanced-Capable         Auto-Concurrent: Disabled
+VG Mode:            Concurrent                               
+Node ID:            1                        Active Nodes:       2 
+MAX PPs per VG:     32768                    MAX PVs:        1024
+LTG size (Dynamic): 1024 kilobyte(s)         AUTO SYNC:      no
+HOT SPARE:          no                       BB POLICY:      relocatable 
+MIRROR POOL STRICT: off                                       
+PV RESTRICTION:     none                     INFINITE RETRY: no
+DISK BLOCK SIZE:    512                      CRITICAL VG:    no
+
+=================================================================
+
+Using comand: lsvg -l flash1vg
+flash1vg:
+LV NAME             TYPE       LPs     PPs     PVs  LV STATE      MOUNT POINT
+R1_flashlv          jfs2       1593    1593    2    open/syncd    /gprs_flash
+
+=================================================================
+
+Using comand: lsvg -p flash1vg
+flash1vg:
+PV_NAME           PV STATE          TOTAL PPs   FREE PPs    FREE DISTRIBUTION
+hdiskpower36      active            797         0           00..00..00..00..00
+hdiskpower37      active            797         1           00..00..00..00..01
+
+=================================================================
+
+Using comand: lsvg -m flash1vg
+Logical Volume    Copy 1            Copy 2            Copy 3            
+R1_flashlv        None              None              None              
+
+=================================================================
+
+Using comand: lsvg -P flash1vg
+Physical Volume   Mirror Pool       
+hdiskpower36      None              
+hdiskpower37      None              
+
+=================================================================
+-----------------------------------------------------------------
+VG: gg1vg
+
+Using comand: lsvg gg1vg
+VOLUME GROUP:       gg1vg                    VG IDENTIFIER:  00f9ada100004c000000014c09525034
+VG STATE:           active                   PP SIZE:        64 megabyte(s)
+VG PERMISSION:      read/write               TOTAL PPs:      3198 (204672 megabytes)
+MAX LVs:            256                      FREE PPs:       1 (64 megabytes)
+LVs:                1                        USED PPs:       3197 (204608 megabytes)
+OPEN LVs:           1                        QUORUM:         1 (Disabled)
+TOTAL PVs:          2                        VG DESCRIPTORS: 3
+STALE PVs:          0                        STALE PPs:      0
+ACTIVE PVs:         2                        AUTO ON:        no
+Concurrent:         Enhanced-Capable         Auto-Concurrent: Disabled
+VG Mode:            Concurrent                               
+Node ID:            1                        Active Nodes:       2 
+MAX PPs per VG:     32768                    MAX PVs:        1024
+LTG size (Dynamic): 1024 kilobyte(s)         AUTO SYNC:      no
+HOT SPARE:          no                       BB POLICY:      relocatable 
+MIRROR POOL STRICT: off                                       
+PV RESTRICTION:     none                     INFINITE RETRY: no
+DISK BLOCK SIZE:    512                      CRITICAL VG:    no
+
+=================================================================
+
+Using comand: lsvg -l gg1vg
+gg1vg:
+LV NAME             TYPE       LPs     PPs     PVs  LV STATE      MOUNT POINT
+R5_gglv             jfs2       3197    3197    2    open/syncd    /gprs_gg
+
+=================================================================
+
+Using comand: lsvg -p gg1vg
+gg1vg:
+PV_NAME           PV STATE          TOTAL PPs   FREE PPs    FREE DISTRIBUTION
+hdiskpower34      active            1599        0           00..00..00..00..00
+hdiskpower35      active            1599        1           00..00..00..00..01
+
+=================================================================
+
+Using comand: lsvg -m gg1vg
+Logical Volume    Copy 1            Copy 2            Copy 3            
+R5_gglv           None              None              None              
+
+=================================================================
+
+Using comand: lsvg -P gg1vg
+Physical Volume   Mirror Pool       
+hdiskpower34      None              
+hdiskpower35      None              
+
+=================================================================
+-----------------------------------------------------------------
+VG: indx1vg
+
+Using comand: lsvg indx1vg
+VOLUME GROUP:       indx1vg                  VG IDENTIFIER:  00f9ada100004c000000014c095223e0
+VG STATE:           active                   PP SIZE:        32 megabyte(s)
+VG PERMISSION:      read/write               TOTAL PPs:      98292 (3145344 megabytes)
+MAX LVs:            256                      FREE PPs:       1 (32 megabytes)
+LVs:                1                        USED PPs:       98291 (3145312 megabytes)
+OPEN LVs:           1                        QUORUM:         1 (Disabled)
+TOTAL PVs:          6                        VG DESCRIPTORS: 6
+STALE PVs:          0                        STALE PPs:      0
+ACTIVE PVs:         6                        AUTO ON:        no
+Concurrent:         Enhanced-Capable         Auto-Concurrent: Disabled
+VG Mode:            Concurrent                               
+Node ID:            1                        Active Nodes:       2 
+MAX PPs per VG:     131072                   MAX PVs:        1024
+LTG size (Dynamic): 1024 kilobyte(s)         AUTO SYNC:      no
+HOT SPARE:          no                       BB POLICY:      relocatable 
+MIRROR POOL STRICT: off                                       
+PV RESTRICTION:     none                     INFINITE RETRY: no
+DISK BLOCK SIZE:    512                      CRITICAL VG:    no
+
+=================================================================
+
+Using comand: lsvg -l indx1vg
+indx1vg:
+LV NAME             TYPE       LPs     PPs     PVs  LV STATE      MOUNT POINT
+R1_indx1lv          jfs2       98291   98291   6    open/syncd    /gprs_index1
+
+=================================================================
+
+Using comand: lsvg -p indx1vg
+indx1vg:
+PV_NAME           PV STATE          TOTAL PPs   FREE PPs    FREE DISTRIBUTION
+hdiskpower22      active            16382       0           00..00..00..00..00
+hdiskpower23      active            16382       0           00..00..00..00..00
+hdiskpower24      active            16382       0           00..00..00..00..00
+hdiskpower25      active            16382       0           00..00..00..00..00
+hdiskpower26      active            16382       0           00..00..00..00..00
+hdiskpower27      active            16382       1           00..00..00..00..01
+
+=================================================================
+
+Using comand: lsvg -m indx1vg
+Logical Volume    Copy 1            Copy 2            Copy 3            
+R1_indx1lv        None              None              None              
+
+=================================================================
+
+Using comand: lsvg -P indx1vg
+Physical Volume   Mirror Pool       
+hdiskpower22      None              
+hdiskpower23      None              
+hdiskpower24      None              
+hdiskpower25      None              
+hdiskpower26      None              
+hdiskpower27      None              
+
+=================================================================
+-----------------------------------------------------------------
+VG: oravg
+
+Using comand: lsvg oravg
+VOLUME GROUP:       oravg                    VG IDENTIFIER:  00f9ada100004c000000014bf9574a93
+VG STATE:           active                   PP SIZE:        128 megabyte(s)
+VG PERMISSION:      read/write               TOTAL PPs:      1663 (212864 megabytes)
+MAX LVs:            256                      FREE PPs:       63 (8064 megabytes)
+LVs:                3                        USED PPs:       1600 (204800 megabytes)
+OPEN LVs:           3                        QUORUM:         1 (Disabled)
+TOTAL PVs:          1                        VG DESCRIPTORS: 2
+STALE PVs:          0                        STALE PPs:      0
+ACTIVE PVs:         1                        AUTO ON:        no
+Concurrent:         Enhanced-Capable         Auto-Concurrent: Disabled
+VG Mode:            Concurrent                               
+Node ID:            1                        Active Nodes:       2 
+MAX PPs per VG:     32768                    MAX PVs:        1024
+LTG size (Dynamic): 1024 kilobyte(s)         AUTO SYNC:      no
+HOT SPARE:          no                       BB POLICY:      relocatable 
+MIRROR POOL STRICT: off                                       
+PV RESTRICTION:     none                     INFINITE RETRY: no
+DISK BLOCK SIZE:    512                      CRITICAL VG:    no
+
+=================================================================
+
+Using comand: lsvg -l oravg
+oravg:
+LV NAME             TYPE       LPs     PPs     PVs  LV STATE      MOUNT POINT
+R5_baselv           jfs2       800     800     1    open/syncd    /gprs_base
+R5_syslv            jfs2       400     400     1    open/syncd    /gprs_sys
+R5_stagelv          jfs2       400     400     1    open/syncd    /gprs_stage
+
+=================================================================
+
+Using comand: lsvg -p oravg
+oravg:
+PV_NAME           PV STATE          TOTAL PPs   FREE PPs    FREE DISTRIBUTION
+hdiskpower3       active            1663        63          00..00..00..00..63
+
+=================================================================
+
+Using comand: lsvg -m oravg
+Logical Volume    Copy 1            Copy 2            Copy 3            
+R5_baselv         None              None              None              
+R5_syslv          None              None              None              
+R5_stagelv        None              None              None              
+
+=================================================================
+
+Using comand: lsvg -P oravg
+Physical Volume   Mirror Pool       
+hdiskpower3       None              
+
+=================================================================
+-----------------------------------------------------------------
+VG: redo1vg
+
+Using comand: lsvg redo1vg
+VOLUME GROUP:       redo1vg                  VG IDENTIFIER:  00f9ada100004c000000014c0951da28
+VG STATE:           active                   PP SIZE:        4 megabyte(s)
+VG PERMISSION:      read/write               TOTAL PPs:      12220 (48880 megabytes)
+MAX LVs:            256                      FREE PPs:       4540 (18160 megabytes)
+LVs:                2                        USED PPs:       7680 (30720 megabytes)
+OPEN LVs:           2                        QUORUM:         1 (Disabled)
+TOTAL PVs:          4                        VG DESCRIPTORS: 4
+STALE PVs:          0                        STALE PPs:      0
+ACTIVE PVs:         4                        AUTO ON:        no
+Concurrent:         Enhanced-Capable         Auto-Concurrent: Disabled
+VG Mode:            Concurrent                               
+Node ID:            1                        Active Nodes:       2 
+MAX PPs per VG:     32768                    MAX PVs:        1024
+LTG size (Dynamic): 1024 kilobyte(s)         AUTO SYNC:      no
+HOT SPARE:          no                       BB POLICY:      relocatable 
+MIRROR POOL STRICT: off                                       
+PV RESTRICTION:     none                     INFINITE RETRY: no
+DISK BLOCK SIZE:    512                      CRITICAL VG:    no
+
+=================================================================
+
+Using comand: lsvg -l redo1vg
+redo1vg:
+LV NAME             TYPE       LPs     PPs     PVs  LV STATE      MOUNT POINT
+R1_redo1lv          jfs2       3840    3840    4    open/syncd    /gprs_redo1
+R1_redo2lv          jfs2       3840    3840    4    open/syncd    /gprs_redo2
+
+=================================================================
+
+Using comand: lsvg -p redo1vg
+redo1vg:
+PV_NAME           PV STATE          TOTAL PPs   FREE PPs    FREE DISTRIBUTION
+hdiskpower51      active            3055        1135        00..00..00..524..611
+hdiskpower52      active            3055        1135        00..00..00..524..611
+hdiskpower53      active            3055        1135        00..00..00..524..611
+hdiskpower54      active            3055        1135        00..00..00..524..611
+
+=================================================================
+
+Using comand: lsvg -m redo1vg
+Logical Volume    Copy 1            Copy 2            Copy 3            
+R1_redo1lv        None              None              None              
+R1_redo2lv        None              None              None              
+
+=================================================================
+
+Using comand: lsvg -P redo1vg
+Physical Volume   Mirror Pool       
+hdiskpower51      None              
+hdiskpower52      None              
+hdiskpower53      None              
+hdiskpower54      None              
+
+=================================================================
+-----------------------------------------------------------------
+VG: temp1vg
+
+Using comand: lsvg temp1vg
+VOLUME GROUP:       temp1vg                  VG IDENTIFIER:  00f9ada100004c000000014c095240b8
+VG STATE:           active                   PP SIZE:        32 megabyte(s)
+VG PERMISSION:      read/write               TOTAL PPs:      16378 (524096 megabytes)
+MAX LVs:            256                      FREE PPs:       378 (12096 megabytes)
+LVs:                1                        USED PPs:       16000 (512000 megabytes)
+OPEN LVs:           1                        QUORUM:         1 (Disabled)
+TOTAL PVs:          2                        VG DESCRIPTORS: 3
+STALE PVs:          0                        STALE PPs:      0
+ACTIVE PVs:         2                        AUTO ON:        no
+Concurrent:         Enhanced-Capable         Auto-Concurrent: Disabled
+VG Mode:            Concurrent                               
+Node ID:            1                        Active Nodes:       2 
+MAX PPs per VG:     32768                    MAX PVs:        1024
+LTG size (Dynamic): 1024 kilobyte(s)         AUTO SYNC:      no
+HOT SPARE:          no                       BB POLICY:      relocatable 
+MIRROR POOL STRICT: off                                       
+PV RESTRICTION:     none                     INFINITE RETRY: no
+DISK BLOCK SIZE:    512                      CRITICAL VG:    no
+
+=================================================================
+
+Using comand: lsvg -l temp1vg
+temp1vg:
+LV NAME             TYPE       LPs     PPs     PVs  LV STATE      MOUNT POINT
+R1_templv           jfs2       16000   16000   2    open/syncd    /gprs_temp
+
+=================================================================
+
+Using comand: lsvg -p temp1vg
+temp1vg:
+PV_NAME           PV STATE          TOTAL PPs   FREE PPs    FREE DISTRIBUTION
+hdiskpower40      active            8189        189         00..00..00..00..189
+hdiskpower41      active            8189        189         00..00..00..00..189
+
+=================================================================
+
+Using comand: lsvg -m temp1vg
+Logical Volume    Copy 1            Copy 2            Copy 3            
+R1_templv         None              None              None              
+
+=================================================================
+
+Using comand: lsvg -P temp1vg
+Physical Volume   Mirror Pool       
+hdiskpower40      None              
+hdiskpower41      None              
+
+=================================================================
+-----------------------------------------------------------------
+VG: undo1vg
+
+Using comand: lsvg undo1vg
+VOLUME GROUP:       undo1vg                  VG IDENTIFIER:  00f9ada100004c000000014c09525811
+VG STATE:           active                   PP SIZE:        32 megabyte(s)
+VG PERMISSION:      read/write               TOTAL PPs:      6396 (204672 megabytes)
+MAX LVs:            256                      FREE PPs:       1 (32 megabytes)
+LVs:                1                        USED PPs:       6395 (204640 megabytes)
+OPEN LVs:           1                        QUORUM:         1 (Disabled)
+TOTAL PVs:          2                        VG DESCRIPTORS: 3
+STALE PVs:          0                        STALE PPs:      0
+ACTIVE PVs:         2                        AUTO ON:        no
+Concurrent:         Enhanced-Capable         Auto-Concurrent: Disabled
+VG Mode:            Concurrent                               
+Node ID:            1                        Active Nodes:       2 
+MAX PPs per VG:     32768                    MAX PVs:        1024
+LTG size (Dynamic): 1024 kilobyte(s)         AUTO SYNC:      no
+HOT SPARE:          no                       BB POLICY:      relocatable 
+MIRROR POOL STRICT: off                                       
+PV RESTRICTION:     none                     INFINITE RETRY: no
+DISK BLOCK SIZE:    512                      CRITICAL VG:    no
+
+=================================================================
+
+Using comand: lsvg -l undo1vg
+undo1vg:
+LV NAME             TYPE       LPs     PPs     PVs  LV STATE      MOUNT POINT
+R5_undolv           jfs2       6395    6395    2    open/syncd    /gprs_undo
+
+=================================================================
+
+Using comand: lsvg -p undo1vg
+undo1vg:
+PV_NAME           PV STATE          TOTAL PPs   FREE PPs    FREE DISTRIBUTION
+hdiskpower38      active            3198        0           00..00..00..00..00
+hdiskpower39      active            3198        1           00..00..00..00..01
+
+=================================================================
+
+Using comand: lsvg -m undo1vg
+Logical Volume    Copy 1            Copy 2            Copy 3            
+R5_undolv         None              None              None              
+
+=================================================================
+
+Using comand: lsvg -P undo1vg
+Physical Volume   Mirror Pool       
+hdiskpower38      None              
+hdiskpower39      None              
+
+=================================================================
+-----------------------------------------------------------------
+==== EXITED with rc 0 ====
+==== END list_concurrent_vgs Tue Jul  7 00:33:34 GST 2015 ====

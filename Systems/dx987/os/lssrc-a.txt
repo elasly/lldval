@@ -1,0 +1,101 @@
+==== This output can be found in Systems/dx987/os/lssrc-a.txt ====
+==== START lssrc -a Mon Jul  6 23:48:58 GST 2015 ====
+Subsystem         Group            PID          Status 
+ syslogd          ras              1901028      active
+ sendmail         mail             2097882      active
+ portmap          portmap          2163422      active
+ hostmibd         tcpip            2032344      active
+ inetd            tcpip            2752536      active
+ snmpmibd         tcpip            2228958      active
+ aixmibd          tcpip            1966558      active
+ hrd              hrd              2949180      active
+ platform_agent                    2491130      active
+ aso                               2294020      active
+ biod             nfs              2490632      active
+ cimsys                            2621706      active
+ rpc.statd        nfs              2294284      active
+ rpc.lockd        nfs              2359856      active
+ snmpd            tcpip            3014704      active
+ qdaemon          spooler          3342366      active
+ writesrv         spooler          2163192      active
+ sshd             ssh              3080200      active
+ clcomd           caa              3014952      active
+ pconsole         system           3604530      active
+ cas_agent                         2949688      active
+ ctrmc            rsct             2687530      active
+ IBM.ConfigRM     rsct_rm          3211872      active
+ IBM.ServiceRM    rsct_rm          2031926      active
+ IBM.HostRM       rsct_rm          4259904      active
+ IBM.DRM          rsct_rm          3277156      active
+ clstrmgrES       cluster          3211542      active
+ clconfd          caa              3867080      active
+ cthags           cthags           3473940      active
+ IBM.StorageRM    rsct_rm          5308588      inoperative
+ gsclvmd                           4260430      active
+ clevmgrdES       cluster          5046974      active
+ lpd              spooler                       inoperative
+ keyserv          keyserv                       inoperative
+ ypbind           yp                            inoperative
+ llbd             iforncs                       inoperative
+ glbd             iforncs                       inoperative
+ cdromd                                         inoperative
+ muxatmd          tcpip                         inoperative
+ rwhod            tcpip                         inoperative
+ xntpd            tcpip                         inoperative
+ dpid2            tcpip                         inoperative
+ dhcpcd           tcpip                         inoperative
+ dhcpcd6          tcpip                         inoperative
+ ndpd-host        tcpip                         inoperative
+ ndpd-router      tcpip                         inoperative
+ tftpd            tcpip                         inoperative
+ netcd            netcd                         inoperative
+ gated            tcpip                         inoperative
+ named            tcpip                         inoperative
+ routed           tcpip                         inoperative
+ iptrace          tcpip                         inoperative
+ timed            tcpip                         inoperative
+ dhcpsd           tcpip                         inoperative
+ dhcpsdv6         tcpip                         inoperative
+ dhcprd           tcpip                         inoperative
+ mrouted          tcpip                         inoperative
+ rsvpd            qos                           inoperative
+ policyd          qos                           inoperative
+ pxed             tcpip                         inoperative
+ binld            tcpip                         inoperative
+ dfpd             tcpip                         inoperative
+ nfsd             nfs                           inoperative
+ rpc.mountd       nfs                           inoperative
+ automountd       autofs                        inoperative
+ nfsrgyd          nfs                           inoperative
+ gssd             nfs                           inoperative
+ cpsd             ike                           inoperative
+ tmd              ike                           inoperative
+ isakmpd                                        inoperative
+ ikev2d                                         inoperative
+ iked             ike                           inoperative
+ pconsoleProxy    pconsole                      inoperative
+ pconsolePDA      pconsole                      inoperative
+ nimsh            nimclient                     inoperative
+ ctcas            rsct                          inoperative
+ IBM.ERRM         rsct_rm                       inoperative
+ IBM.AuditRM      rsct_rm                       inoperative
+ pppcontrold      uucp                          inoperative
+ nis_cachemgr     nisplus                       inoperative
+ rpc.nisd         nisplus                       inoperative
+ rpc.nispasswdd   nisplus                       inoperative
+ ypserv           yp                            inoperative
+ ypupdated        yp                            inoperative
+ yppasswdd        yp                            inoperative
+ mobip6reqd                                     inoperative
+ dtsrc                                          inoperative
+ nimesis          nim                           inoperative
+ nimd                                           inoperative
+ topsvcs          topsvcs                       inoperative
+ grpsvcs          grpsvcs                       inoperative
+ grpglsm          grpsvcs                       inoperative
+ emsvcs           emsvcs                        inoperative
+ emaixos          emsvcs                        inoperative
+ IBM.LPRM         rsct_rm                       inoperative
+ IBM.MgmtDomainRM rsct_rm                       inoperative
+==== EXITED with rc 0 ====
+==== END lssrc -a Mon Jul  6 23:48:58 GST 2015 ====

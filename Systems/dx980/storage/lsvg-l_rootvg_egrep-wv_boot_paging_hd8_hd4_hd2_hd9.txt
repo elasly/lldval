@@ -1,0 +1,9 @@
+==== This output can be found in Systems/dx980/storage/lsvg-l_rootvg_egrep-wv_boot_paging_hd8_hd4_hd2_hd9.txt ====
+==== START lsvg -l rootvg | egrep -wv "boot|paging|hd8|hd4|hd2|hd9var|hd3|hd1|hd10opt|hd11ad.*" Mon Jul  6 23:22:49 GST 2015 ====
+rootvg:
+LV NAME             TYPE       LPs     PPs     PVs  LV STATE      MOUNT POINT
+lg_dumplv           sysdump    8       8       1    open/syncd    N/A
+livedump            jfs2       1       1       1    open/syncd    /var/adm/ras/livedump
+perfdatalv          jfs2       10      10      1    open/syncd    /perfdata
+==== EXITED with rc 0 ====
+==== END lsvg -l rootvg | egrep -wv "boot|paging|hd8|hd4|hd2|hd9var|hd3|hd1|hd10opt|hd11ad.*" Mon Jul  6 23:22:49 GST 2015 ====

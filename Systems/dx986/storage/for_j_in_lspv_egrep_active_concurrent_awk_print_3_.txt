@@ -1,0 +1,112 @@
+==== This output can be found in Systems/dx986/storage/for_j_in_lspv_egrep_active_concurrent_awk_print_3_.txt ====
+==== START for j in $(lspv | egrep "active|concurrent" | awk '{print $3}' | sort -u | lsvg -il | egrep -v "LV NAME|:" | awk '{print $1}'); do echo "#### LV $j ####";lslv $j |grep COPIES | awk '{print $1 " " $2}' ; echo ""; done Tue Jul  7 00:52:27 GST 2015 ====
+#### LV R1_arch1lv ####
+COPIES: 1
+
+#### LV R1_arch2lv ####
+COPIES: 1
+
+#### LV bctlv ####
+COPIES: 1
+
+#### LV loglv01 ####
+COPIES: 1
+
+#### LV R6_bkplv ####
+COPIES: 1
+
+#### LV R6_bkp1lv ####
+COPIES: 1
+
+#### LV caalv_private1 ####
+COPIES: 1
+
+#### LV caalv_private2 ####
+COPIES: 1
+
+#### LV caalv_private3 ####
+COPIES: 1
+
+#### LV powerha_crlv ####
+COPIES: 1
+
+#### LV R1_ctrl1lv ####
+COPIES: 1
+
+#### LV R1_ctrl2lv ####
+COPIES: 1
+
+#### LV R1_ctrl3lv ####
+COPIES: 1
+
+#### LV R1_data1lv ####
+COPIES: 1
+
+#### LV R1_flashlv ####
+COPIES: 1
+
+#### LV R1_indx1lv ####
+COPIES: 1
+
+#### LV R5_baselv ####
+COPIES: 1
+
+#### LV R5_stagelv ####
+COPIES: 1
+
+#### LV R5_syslv ####
+COPIES: 1
+
+#### LV R1_redo1lv ####
+COPIES: 1
+
+#### LV R1_redo2lv ####
+COPIES: 1
+
+#### LV hd5 ####
+COPIES: 1
+
+#### LV hd6 ####
+COPIES: 1
+
+#### LV hd8 ####
+COPIES: 1
+
+#### LV hd4 ####
+COPIES: 1
+
+#### LV hd2 ####
+COPIES: 1
+
+#### LV hd9var ####
+COPIES: 1
+
+#### LV hd3 ####
+COPIES: 1
+
+#### LV hd1 ####
+COPIES: 1
+
+#### LV hd10opt ####
+COPIES: 1
+
+#### LV hd11admin ####
+COPIES: 1
+
+#### LV lg_dumplv ####
+COPIES: 1
+
+#### LV livedump ####
+COPIES: 1
+
+#### LV perfdatalv ####
+COPIES: 1
+
+#### LV R1_templv ####
+COPIES: 1
+
+#### LV R5_undolv ####
+COPIES: 1
+
+==== EXITED with rc 0 ====
+==== END for j in $(lspv | egrep "active|concurrent" | awk '{print $3}' | sort -u | lsvg -il | egrep -v "LV NAME|:" | awk '{print $1}'); do echo "#### LV $j ####";lslv $j |grep COPIES | awk '{print $1 " " $2}' ; echo ""; done Tue Jul  7 00:52:39 GST 2015 ====

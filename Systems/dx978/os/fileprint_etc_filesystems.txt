@@ -1,0 +1,364 @@
+==== This output can be found in Systems/dx978/os/fileprint_etc_filesystems.txt ====
+==== START fileprint /etc/filesystems Mon Jul  6 23:29:55 GST 2015 ====
+==== BEGIN Contents of /etc/filesystems ====
+* IBM_PROLOG_BEGIN_TAG 
+* This is an automatically generated prolog. 
+*  
+* bos61B src/bos/etc/filesystems/filesystems 1.23 
+*  
+* Licensed Materials - Property of IBM 
+*  
+* COPYRIGHT International Business Machines Corp. 1985,1993 
+* All Rights Reserved 
+*  
+* US Government Users Restricted Rights - Use, duplication or 
+* disclosure restricted by GSA ADP Schedule Contract with IBM Corp. 
+*  
+* @(#)filesystems @(#)29	1.23  src/bos/etc/filesystems/filesystems, cmdfs, bos61B, b2007_38A8 8/16/07 17:18:35
+* IBM_PROLOG_END_TAG 
+*
+* COMPONENT_NAME: CMDFS
+* 
+* FUNCTIONS: none 
+*
+* ORIGINS: 27 
+*
+* (C) COPYRIGHT International Business Machines Corp. 1985, 1993
+* All Rights Reserved
+* Licensed Materials - Property of IBM
+*
+* US Government Users Restricted Rights - Use, duplication or
+* disclosure restricted by GSA ADP Schedule Contract with IBM Corp.
+*
+*
+*
+* This version of /etc/filesystems assumes that only the root file system
+* is created and ready.  As new file systems are added, change the check,
+* mount, free, log, vol and vfs entries for the appropriate stanza.
+*
+
+/:
+	dev		= /dev/hd4
+	vfs		= jfs2
+	log		= /dev/hd8
+	mount		= automatic
+	check		= false
+	type		= bootfs
+	vol		= root
+	free		= true
+	quota		= no
+
+/home:
+	dev		= /dev/hd1
+	vfs		= jfs2
+	log		= /dev/hd8
+	mount		= true
+	check		= true
+	vol		= /home
+	free		= false
+	quota		= no
+
+/usr:
+	dev		= /dev/hd2
+	vfs		= jfs2
+	log		= /dev/hd8
+	mount		= automatic
+	check		= false
+	type		= bootfs
+	vol		= /usr
+	free		= false
+	quota		= no
+
+/var:
+	dev		= /dev/hd9var
+	vfs		= jfs2
+	log		= /dev/hd8
+	mount		= automatic
+	check		= false
+	type		= bootfs
+	vol		= /var
+	free		= false
+	quota		= no
+
+/tmp:
+	dev		= /dev/hd3
+	vfs		= jfs2
+	log		= /dev/hd8
+	mount		= automatic
+	check		= false
+	vol		= /tmp
+	free		= false
+	quota		= no
+
+/admin:
+	dev		= /dev/hd11admin
+	vfs		= jfs2
+	log		= /dev/hd8
+	mount		= true
+	check		= false
+	vol		= /admin
+	free		= false
+	quota		= no
+
+/proc:
+	dev	  = /proc
+	vol	  = "/proc"
+	mount	  = true
+	check	  = false
+	free	  = false
+	vfs	  = procfs
+
+/opt:
+	dev		= /dev/hd10opt
+	vfs		= jfs2
+	log		= /dev/hd8
+	mount		= true
+	check		= true
+	vol		= /opt
+	free		= false
+	quota		= no
+
+/var/adm/ras/livedump:
+	dev		= /dev/livedump
+	vfs		= jfs2
+	log		= /dev/hd8
+	mount		= true
+	account		= false
+	quota		= no
+
+/perfdata:
+	dev		= /dev/perfdatalv
+	vfs		= jfs2
+	log		= /dev/hd8
+	mount		= true
+	account		= false
+	quota		= no
+
+/export/nim:
+	dev		= /dev/fslv00
+	vfs		= jfs2
+	log		= /dev/hd8
+	mount		= true
+	options		= rw
+	account		= false
+
+/tftpboot:
+	dev		= /dev/fslv01
+	vfs		= jfs2
+	log		= /dev/hd8
+	mount		= true
+	options		= rw
+	account		= false
+
+/gsm_base:
+	dev		= /dev/R5_baselv
+	vfs		= jfs2
+	log		= INLINE
+	mount		= false
+	check		= false
+	options		= noatime,rw
+	account		= false
+	mountguard	= yes
+
+/gsm_sys:
+	dev		= /dev/R5_syslv
+	vfs		= jfs2
+	log		= INLINE
+	mount		= false
+	check		= false
+	options		= rw
+	account		= false
+	mountguard	= yes
+
+/gsm_stage:
+	dev		= /dev/R5_stagelv
+	vfs		= jfs2
+	log		= INLINE
+	mount		= false
+	check		= false
+	options		= rw
+	account		= false
+	mountguard	= yes
+
+/gsm_redo1:
+	dev		= /dev/R1_redo1lv
+	vfs		= jfs2
+	log		= INLINE
+	mount		= false
+	check		= false
+	type		= gsm
+	options		= noatime,rw
+	account		= false
+	mountguard	= yes
+
+/gsm_redo2:
+	dev		= /dev/R1_redo2lv
+	vfs		= jfs2
+	log		= INLINE
+	mount		= false
+	check		= false
+	type		= gsm
+	options		= noatime,rw
+	account		= false
+	mountguard	= yes
+
+/gsm_bkp:
+	dev		= /dev/R6_bkplv
+	vfs		= jfs2
+	log		= INLINE
+	mount		= false
+	check		= false
+	options		= rw
+	account		= false
+	mountguard	= yes
+
+/gsm_undo:
+	dev		= /dev/R5_undolv
+	vfs		= jfs2
+	log		= INLINE
+	mount		= false
+	check		= false
+	type		= gsm
+	options		= noatime,rw
+	account		= false
+	mountguard	= yes
+
+/gsm_temp:
+	dev		= /dev/R1_templv
+	vfs		= jfs2
+	log		= INLINE
+	mount		= false
+	check		= false
+	type		= gsm
+	options		= noatime,rw
+	account		= false
+	mountguard	= yes
+
+/gsm_arclog1:
+	dev		= /dev/R1_arch1lv
+	vfs		= jfs2
+	log		= INLINE
+	mount		= false
+	check		= false
+	type		= gsm
+	options		= noatime,rbrw,rw
+	account		= false
+	mountguard	= yes
+
+/gsm_flash:
+	dev		= /dev/R1_flashlv
+	vfs		= jfs2
+	log		= INLINE
+	mount		= false
+	check		= false
+	type		= gsm
+	options		= noatime,rw
+	account		= false
+	mountguard	= yes
+
+/gsm_arclog2:
+	dev		= /dev/R1_arch2lv
+	vfs		= jfs2
+	log		= INLINE
+	mount		= false
+	check		= false
+	type		= gsm
+	options		= noatime,rbrw,rw
+	account		= false
+	mountguard	= yes
+
+/gsm_gg:
+	dev		= /dev/R5_gglv
+	vfs		= jfs2
+	log		= INLINE
+	mount		= false
+	check		= false
+	options		= rw
+	account		= false
+	mountguard	= yes
+
+/gsm_ctrl1:
+	dev		= /dev/R1_ctrl1lv
+	vfs		= jfs2
+	log		= INLINE
+	mount		= false
+	check		= false
+	type		= gsm
+	options		= noatime,rw
+	account		= false
+	mountguard	= yes
+
+/gsm_ctrl2:
+	dev		= /dev/R1_ctrl2lv
+	vfs		= jfs2
+	log		= INLINE
+	mount		= false
+	check		= false
+	type		= gsm
+	options		= noatime,rw
+	account		= false
+	mountguard	= yes
+
+/gsm_ctrl3:
+	dev		= /dev/R1_ctrl3lv
+	vfs		= jfs2
+	log		= INLINE
+	mount		= false
+	check		= false
+	type		= gsm
+	options		= noatime,rw
+	account		= false
+	mountguard	= yes
+
+/gsm_exp:
+	dev		= /dev/R5_explv
+	vfs		= jfs2
+	log		= INLINE
+	mount		= false
+	check		= false
+	options		= noatime,rw
+	account		= false
+	mountguard	= yes
+
+/gsm_index1:
+	dev		= /dev/R1_indx1lv
+	vfs		= jfs2
+	log		= INLINE
+	mount		= false
+	check		= false
+	type		= gsm
+	options		= noatime,rw
+	account		= false
+	mountguard	= yes
+
+/gsm_data1:
+	dev		= /dev/R1_data1lv
+	vfs		= jfs2
+	log		= INLINE
+	mount		= false
+	check		= false
+	type		= gsm
+	options		= noatime,rw
+	account		= false
+	mountguard	= yes
+
+/dd_GSM_Bkp:
+    dev          = "/data/col1/dd_GSM_Bkp"
+    vfs          = nfs
+    nodename     = 10.51.227.239
+    mount        = true
+    options      = rw,intr,hard,rsize=65536,wsize=65536,proto=tcp,combehind,timeo=1200,numclust=128,biod=16,bg,llock,noacl
+    account      = false
+
+/gsm_bct:
+	dev		= /dev/bctlv
+	vfs		= jfs2
+	log		= /dev/loglv01
+	mount		= false
+	check		= false
+	options		= rw
+	account		= false
+	mountguard	= yes
+==== END Contents of /etc/filesystems ====
+==== EXITED with rc 0 ====
+==== END fileprint /etc/filesystems Mon Jul  6 23:29:55 GST 2015 ====

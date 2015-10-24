@@ -1,0 +1,56 @@
+==== This output can be found in Systems/dx976/os/rpm-qa_sort_awk_echo_software_package_1_system_rpm.txt ====
+==== START rpm -qa | sort | awk '{echo "#### software package: " $1 " ####";system("rpm -qi " $1);echo "\n"}' Tue Jul  7 13:03:56 CDT 2015 ====
+Name        : AIX-rpm                      Relocations: (not relocateable)
+Version     : 6.1.9.30                          Vendor: (none)
+Release     : 5                             Build Date: Mon Mar  2 05:29:17 2015
+Install date: Mon Mar  2 05:29:18 2015      Build Host: loopback
+Group       : System Environment/Libraries   Source RPM: AIX-rpm-6.1.9.30-5.src.rpm
+Size        : 0                                License: none
+Packager    : auto-generated
+Summary     : Virtual Package for libraries and shells installed on system
+Description :
+This package contains no files.  It is a package which contains
+information about shared libraries and shell interpreters installed
+on the operating system.
+Name        : cdrecord                     Relocations: /opt/freeware 
+Version     : 1.9                               Vendor: (none)
+Release     : 9                             Build Date: Thu Mar 31 05:41:05 2011
+Install date: Wed Oct 15 18:49:59 2014      Build Host: dennis01.in.ibm.com
+Group       : Applications/Archiving        Source RPM: cdrecord-1.9-9.src.rpm
+Size        : 816397                           License: GPL
+URL         : http://www.fokus.gmd.de/research/cc/glone/employees/joerg.schilling/private/cdrecord.html
+Summary     : A command line CD/DVD recording program.
+Description :
+Cdrecord is an application for creating audio and data CDs. Cdrecord
+works with many different brands of CD recorders, fully supports
+multi-sessions and provides human-readable error messages.
+Name        : mkisofs                      Relocations: /opt/freeware 
+Version     : 1.13                              Vendor: (none)
+Release     : 9                             Build Date: Thu Mar 31 05:41:05 2011
+Install date: Wed Oct 15 18:49:59 2014      Build Host: dennis01.in.ibm.com
+Group       : Applications/System           Source RPM: cdrecord-1.9-9.src.rpm
+Size        : 636680                           License: GPL
+URL         : http://www.fokus.gmd.de/research/cc/glone/employees/joerg.schilling/private/cdrecord.html
+Summary     : Creates an image of an ISO9660 filesystem.
+Description :
+The mkisofs program is used as a pre-mastering program; i.e., it
+generates the ISO9660 filesystem.  Mkisofs takes a snapshot of
+a given directory tree and generates a binary image of the tree
+which will correspond to an ISO9660 filesystem when written to
+a block device.  Mkisofs is used for writing CD-ROMs, and includes
+support for creating bootable El Torito CD-ROMs.
+
+Install the mkisofs package if you need a program for writing
+CD-ROMs.
+Name        : osinstall                    Relocations: (not relocateable)
+Version     : 1.6                               Vendor: IBM Corp.
+Release     : 1                             Build Date: Fri Aug 19 12:00:32 2011
+Install date: Mon Mar  2 05:29:19 2015      Build Host: ruby310.austin.ibm.com
+Group       : Applications/System           Source RPM: osinstall-1.6-1.nosrc.rpm
+Size        : 223118                           License: IBM - Normal Copyright
+Packager    : IBM Corp.
+Summary     : Cross-platform network installer of multiple operating systems.
+Description :
+Cross-platform network installer of multiple operating systems.
+==== EXITED with rc 0 ====
+==== END rpm -qa | sort | awk '{echo "#### software package: " $1 " ####";system("rpm -qi " $1);echo "\n"}' Tue Jul  7 13:03:57 CDT 2015 ====

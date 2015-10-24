@@ -1,0 +1,39 @@
+==== This output can be found in Systems/dx989/storage/for_i_in_lspv_grep-iv_none_grep-v_Defined_awk_prin.txt ====
+==== START for i in $(lspv | grep -iv none | grep -v Defined | awk '{print $1}');do echo "### Disk: $i ### \n $(lspv -p $i | grep -wv $i) \n \n"; done Thu Aug  6 11:28:07 GST 2015 ====
+### Disk: hdisk0 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-1     used    outer edge    hd5                 boot       N/A
+  2-60    free    outer edge                                   
+ 61-61    used    outer middle  hd6                 paging     N/A
+ 62-69    used    outer middle  lg_dumplv           sysdump    N/A
+ 70-70    used    outer middle  livedump            jfs2       /var/adm/ras/livedump
+ 71-80    used    outer middle  perfdatalv          jfs2       /perfdata
+ 81-120   free    outer middle                                 
+121-121   used    center        hd8                 jfs2log    N/A
+122-125   used    center        hd4                 jfs2       /
+126-141   used    center        hd2                 jfs2       /usr
+142-145   used    center        hd9var              jfs2       /var
+146-149   used    center        hd3                 jfs2       /tmp
+150-153   used    center        hd1                 jfs2       /home
+154-155   used    center        hd10opt             jfs2       /opt
+156-159   used    center        hd11admin           jfs2       /admin
+160-179   free    center                                       
+180-239   free    inner middle                                 
+240-299   free    inner edge                                    
+ 
+
+### Disk: hdisk1 ### 
+ PP RANGE  STATE   REGION        LV NAME             TYPE       MOUNT POINT
+  1-16    free    outer edge                                   
+ 17-17    used    outer middle  caalv_private1      boot       N/A
+ 18-18    used    outer middle  caalv_private2      boot       N/A
+ 19-22    used    outer middle  caalv_private3                 N/A
+ 23-23    used    outer middle  powerha_crlv        boot       N/A
+ 24-32    free    outer middle                                 
+ 33-47    free    center                                       
+ 48-63    free    inner middle                                 
+ 64-79    free    inner edge                                    
+ 
+
+==== EXITED with rc 0 ====
+==== END for i in $(lspv | grep -iv none | grep -v Defined | awk '{print $1}');do echo "### Disk: $i ### \n $(lspv -p $i | grep -wv $i) \n \n"; done Thu Aug  6 11:28:07 GST 2015 ====

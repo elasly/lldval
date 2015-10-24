@@ -1,0 +1,15 @@
+==== This output can be found in Systems/dx975/perf/for_i_in_lsvg-o_do_echo_lvmo-v_i_lvmo-v_i-a_echo_d.txt ====
+==== START for i in `lsvg -o`  ; do echo "#### lvmo -v $i ####"; lvmo -v $i -a; echo "########"; done Tue Jul  7 12:46:52 CDT 2015 ====
+#### lvmo -v rootvg ####
+vgname = rootvg
+pv_pbuf_count = 512
+total_vg_pbufs = 1024
+max_vg_pbufs = 16384
+pervg_blocked_io_count = 0
+pv_min_pbuf = 512
+max_vg_pbuf_count = 0
+global_blocked_io_count = 0
+aio_cache_pbuf_count = 0
+########
+==== EXITED with rc 0 ====
+==== END for i in `lsvg -o`  ; do echo "#### lvmo -v $i ####"; lvmo -v $i -a; echo "########"; done Tue Jul  7 12:46:52 CDT 2015 ====

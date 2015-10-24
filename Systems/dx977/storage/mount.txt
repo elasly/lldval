@@ -1,0 +1,38 @@
+==== This output can be found in Systems/dx977/storage/mount.txt ====
+==== START mount Tue Jul  7 00:09:54 GST 2015 ====
+  node       mounted        mounted over    vfs       date        options      
+-------- ---------------  ---------------  ------ ------------ --------------- 
+         /dev/hd4         /                jfs2   Apr 01 22:41 rw,log=/dev/hd8 
+         /dev/hd2         /usr             jfs2   Apr 01 22:41 rw,log=/dev/hd8 
+         /dev/hd9var      /var             jfs2   Apr 01 22:41 rw,log=/dev/hd8 
+         /dev/hd3         /tmp             jfs2   Apr 01 22:41 rw,log=/dev/hd8 
+         /dev/hd1         /home            jfs2   Apr 01 22:46 rw,log=/dev/hd8 
+         /dev/hd11admin   /admin           jfs2   Apr 01 22:46 rw,log=/dev/hd8 
+         /proc            /proc            procfs Apr 01 22:46 rw              
+         /dev/hd10opt     /opt             jfs2   Apr 01 22:46 rw,log=/dev/hd8 
+         /dev/livedump    /var/adm/ras/livedump jfs2   Apr 01 22:46 rw,log=/dev/hd8 
+         /dev/perfdatalv  /perfdata        jfs2   Apr 01 22:46 rw,log=/dev/hd8 
+         /aha             /aha             ahafs  Apr 01 22:46 rw              
+         /dev/R1_arch1lv  /gsm_arclog1     jfs2   Apr 01 23:06 rw,rbw,rbr,noatime,log=INLINE
+         /dev/R1_arch2lv  /gsm_arclog2     jfs2   Apr 01 23:06 rw,rbw,rbr,noatime,log=INLINE
+         /dev/R5_baselv   /gsm_base        jfs2   Apr 01 23:06 rw,noatime,log=INLINE
+         /dev/R1_ctrl1lv  /gsm_ctrl1       jfs2   Apr 01 23:06 rw,noatime,log=INLINE
+         /dev/R1_ctrl2lv  /gsm_ctrl2       jfs2   Apr 01 23:06 rw,noatime,log=INLINE
+         /dev/R1_ctrl3lv  /gsm_ctrl3       jfs2   Apr 01 23:06 rw,noatime,log=INLINE
+         /dev/R1_data1lv  /gsm_data1       jfs2   Apr 01 23:06 rw,noatime,log=INLINE
+         /dev/R1_flashlv  /gsm_flash       jfs2   Apr 01 23:06 rw,noatime,log=INLINE
+         /dev/R5_gglv     /gsm_gg          jfs2   Apr 01 23:06 rw,log=INLINE   
+         /dev/R1_indx1lv  /gsm_index1      jfs2   Apr 01 23:06 rw,noatime,log=INLINE
+         /dev/R1_redo1lv  /gsm_redo1       jfs2   Apr 01 23:06 rw,noatime,log=INLINE
+         /dev/R1_redo2lv  /gsm_redo2       jfs2   Apr 01 23:06 rw,noatime,log=INLINE
+         /dev/R5_stagelv  /gsm_stage       jfs2   Apr 01 23:06 rw,log=INLINE   
+         /dev/R5_syslv    /gsm_sys         jfs2   Apr 01 23:06 rw,log=INLINE   
+         /dev/R1_templv   /gsm_temp        jfs2   Apr 01 23:06 rw,noatime,log=INLINE
+         /dev/R5_undolv   /gsm_undo        jfs2   Apr 01 23:06 rw,noatime,log=INLINE
+         /dev/datacollectlv /datacollect     jfs2   Apr 21 21:08 rw,log=/dev/datacollectlogl
+         /dev/R6_bkplv    /gsm_bkp         jfs2   Apr 22 18:12 rw,rbw,rbr,noatime,log=INLINE
+         /dev/R5_explv    /gsm_exp         jfs2   Apr 22 19:46 rw,rbw,rbr,noatime,log=INLINE
+10.51.227.241 /data/col1/dd_GSM_Bkp /dd_GSM_Bkp      nfs3   May 12 16:05 rw,intr,hard,rsize=65536,wsize=65536,proto=tcp,combehind,timeo=1200,numclust=128,bg,llock,noacl
+         /dev/bctlv       /gsm_bct         jfs2   Jun 15 09:06 rw,log=/dev/loglv01
+==== EXITED with rc 0 ====
+==== END mount Tue Jul  7 00:09:54 GST 2015 ====

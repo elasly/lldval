@@ -1,0 +1,158 @@
+==== This output can be found in Systems/dx986/perf/for_i_in_lsvg-o_do_echo_lvmo-v_i_lvmo-v_i-a_echo_d.txt ====
+==== START for i in `lsvg -o`  ; do echo "#### lvmo -v $i ####"; lvmo -v $i -a; echo "########"; done Tue Jul  7 00:49:04 GST 2015 ====
+#### lvmo -v bctvg ####
+vgname = bctvg
+pv_pbuf_count = 512
+total_vg_pbufs = 512
+max_vg_pbufs = 524288
+pervg_blocked_io_count = 0
+pv_min_pbuf = 512
+max_vg_pbuf_count = 0
+global_blocked_io_count = 16279459
+aio_cache_pbuf_count = 0
+########
+#### lvmo -v undo1vg ####
+vgname = undo1vg
+pv_pbuf_count = 512
+total_vg_pbufs = 1024
+max_vg_pbufs = 524288
+pervg_blocked_io_count = 9438287
+pv_min_pbuf = 512
+max_vg_pbuf_count = 0
+global_blocked_io_count = 16279459
+aio_cache_pbuf_count = 0
+########
+#### lvmo -v temp1vg ####
+vgname = temp1vg
+pv_pbuf_count = 512
+total_vg_pbufs = 1024
+max_vg_pbufs = 524288
+pervg_blocked_io_count = 0
+pv_min_pbuf = 512
+max_vg_pbuf_count = 0
+global_blocked_io_count = 16279459
+aio_cache_pbuf_count = 0
+########
+#### lvmo -v redo1vg ####
+vgname = redo1vg
+pv_pbuf_count = 512
+total_vg_pbufs = 1024
+max_vg_pbufs = 524288
+pervg_blocked_io_count = 0
+pv_min_pbuf = 512
+max_vg_pbuf_count = 0
+global_blocked_io_count = 16279459
+aio_cache_pbuf_count = 0
+########
+#### lvmo -v oravg ####
+vgname = oravg
+pv_pbuf_count = 512
+total_vg_pbufs = 3072
+max_vg_pbufs = 524288
+pervg_blocked_io_count = 0
+pv_min_pbuf = 512
+max_vg_pbuf_count = 0
+global_blocked_io_count = 16279459
+aio_cache_pbuf_count = 0
+########
+#### lvmo -v indx1vg ####
+vgname = indx1vg
+pv_pbuf_count = 512
+total_vg_pbufs = 4096
+max_vg_pbufs = 524288
+pervg_blocked_io_count = 6636280
+pv_min_pbuf = 512
+max_vg_pbuf_count = 0
+global_blocked_io_count = 16279459
+aio_cache_pbuf_count = 0
+########
+#### lvmo -v flash1vg ####
+vgname = flash1vg
+pv_pbuf_count = 512
+total_vg_pbufs = 1024
+max_vg_pbufs = 524288
+pervg_blocked_io_count = 0
+pv_min_pbuf = 512
+max_vg_pbuf_count = 0
+global_blocked_io_count = 16279459
+aio_cache_pbuf_count = 0
+########
+#### lvmo -v data1vg ####
+vgname = data1vg
+pv_pbuf_count = 512
+total_vg_pbufs = 9216
+max_vg_pbufs = 524288
+pervg_blocked_io_count = 202801
+pv_min_pbuf = 512
+max_vg_pbuf_count = 0
+global_blocked_io_count = 16279459
+aio_cache_pbuf_count = 0
+########
+#### lvmo -v ctrl1vg ####
+vgname = ctrl1vg
+pv_pbuf_count = 512
+total_vg_pbufs = 1536
+max_vg_pbufs = 524288
+pervg_blocked_io_count = 0
+pv_min_pbuf = 512
+max_vg_pbuf_count = 0
+global_blocked_io_count = 16279459
+aio_cache_pbuf_count = 0
+########
+#### lvmo -v bkp2vg ####
+vgname = bkp2vg
+pv_pbuf_count = 512
+total_vg_pbufs = 5120
+max_vg_pbufs = 524288
+pervg_blocked_io_count = 0
+pv_min_pbuf = 512
+max_vg_pbuf_count = 0
+global_blocked_io_count = 16279459
+aio_cache_pbuf_count = 0
+########
+#### lvmo -v bkp1vg ####
+vgname = bkp1vg
+pv_pbuf_count = 512
+total_vg_pbufs = 9216
+max_vg_pbufs = 524288
+pervg_blocked_io_count = 0
+pv_min_pbuf = 512
+max_vg_pbuf_count = 0
+global_blocked_io_count = 16279459
+aio_cache_pbuf_count = 0
+########
+#### lvmo -v arch1vg ####
+vgname = arch1vg
+pv_pbuf_count = 512
+total_vg_pbufs = 4096
+max_vg_pbufs = 524288
+pervg_blocked_io_count = 161
+pv_min_pbuf = 512
+max_vg_pbuf_count = 0
+global_blocked_io_count = 16279459
+aio_cache_pbuf_count = 0
+########
+#### lvmo -v caavg_private ####
+vgname = caavg_private
+pv_pbuf_count = 512
+total_vg_pbufs = 512
+max_vg_pbufs = 16384
+pervg_blocked_io_count = 0
+pv_min_pbuf = 512
+max_vg_pbuf_count = 0
+global_blocked_io_count = 16279459
+aio_cache_pbuf_count = 0
+########
+#### lvmo -v rootvg ####
+vgname = rootvg
+pv_pbuf_count = 512
+total_vg_pbufs = 512
+max_vg_pbufs = 16384
+pervg_blocked_io_count = 2113
+pv_min_pbuf = 512
+max_vg_pbuf_count = 0
+global_blocked_io_count = 16279459
+aio_cache_pbuf_count = 0
+########
+==== EXITED with rc 0 ====
+==== END for i in `lsvg -o`  ; do echo "#### lvmo -v $i ####"; lvmo -v $i -a; echo "########"; done Tue Jul  7 00:49:04 GST 2015 ====

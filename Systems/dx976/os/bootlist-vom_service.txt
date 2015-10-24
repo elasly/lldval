@@ -1,0 +1,9 @@
+==== This output can be found in Systems/dx976/os/bootlist-vom_service.txt ====
+==== START bootlist -vom service Tue Jul  7 13:04:00 CDT 2015 ====
+'ibm,max-boot-devices' = 0x5
+NVRAM variable: (diag-device=/pci@800000020000248/pci1014,0339@0/sas/disk@ff0100:2)
+Path name: (/pci@800000020000248/pci1014,0339@0/sas/disk@ff0100:2)
+match_specific_info: ut=disk/sas/sisarray
+hdisk0 blv=hd5 pathid=0
+==== EXITED with rc 0 ====
+==== END bootlist -vom service Tue Jul  7 13:04:00 CDT 2015 ====

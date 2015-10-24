@@ -1,0 +1,17 @@
+==== This output can be found in Systems/dx975/storage/df-m.txt ====
+==== START df -m Tue Jul  7 12:46:01 CDT 2015 ====
+Filesystem    MB blocks      Free %Used    Iused %Iused Mounted on
+/dev/hd4         512.00    407.39   21%     5753     6% /
+/dev/hd2        4096.00    661.50   84%    66010    29% /usr
+/dev/hd9var     1024.00    379.50   63%     8977     9% /var
+/dev/hd3        5120.00   4594.68   11%     1554     1% /tmp
+/dev/hd1       10240.00   9979.54    3%     1011     1% /home
+/dev/hd11admin    512.00    511.59    1%        5     1% /admin
+/proc                 -         -    -         -     -  /proc
+/dev/hd10opt    1024.00    443.00   57%    13094    12% /opt
+/dev/livedump    512.00    505.84    2%       14     1% /var/adm/ras/livedump
+/dev/perfdatalv   5120.00   4099.19   20%      272     1% /perfdata
+/ahafs                -         -    -        34     1% /aha
+/dev/cd0         143.32      0.00  100%    73380   100% /cdrom
+==== EXITED with rc 0 ====
+==== END df -m Tue Jul  7 12:46:01 CDT 2015 ====

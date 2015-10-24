@@ -1,0 +1,17 @@
+==== This output can be found in Systems/dx975/network/netstat-rn.txt ====
+==== START netstat -rn Tue Jul  7 12:46:01 CDT 2015 ====
+Routing tables
+Destination        Gateway           Flags   Refs     Use  If   Exp  Groups
+
+Route tree for Protocol Family 2 (Internet):
+default            10.51.229.1       UG        2    138473 en14     -      -   
+0.51.229.0         10.51.229.218     UHSb      0         0 en14     -      -   =>
+0.51.229           10.51.229.218     U         2 291541668 en14     -      -   
+10.51.229.218      127.0.0.1         UGHS      0     21804 lo0      -      -   
+30.51.229.255      10.51.229.218     UHSb      2     39604 en14     -      -   
+127/8              127.0.0.1         U        28   9857822 lo0      -      -   
+
+Route tree for Protocol Family 24 (Internet v6):
+::1%1              ::1%1             UH        2   7378862 lo0      -      -   
+==== EXITED with rc 0 ====
+==== END netstat -rn Tue Jul  7 12:46:01 CDT 2015 ====

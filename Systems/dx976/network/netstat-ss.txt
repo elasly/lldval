@@ -1,0 +1,76 @@
+==== This output can be found in Systems/dx976/network/netstat-ss.txt ====
+==== START netstat -ss Tue Jul  7 13:08:09 CDT 2015 ====
+icmp:
+	750 calls to icmp_error
+	Output histogram:
+		echo reply: 28
+		destination unreachable: 750
+		echo: 8
+	Input histogram:
+		echo reply: 8
+		destination unreachable: 130
+		echo: 31
+	28 message responses generated
+igmp:
+	4 membership reports sent
+tcp:
+	12438850 packets sent
+		4796880 data packets (942538059 bytes)
+		6765 data packets (9843212 bytes) retransmitted
+		2256898 ack-only packets (19150 delayed)
+		3700683 window update packets
+		3355248 control packets
+	13474437 packets received
+		6189002 acks (for 944216083 bytes)
+		605224 duplicate acks
+		9415632 packets (41072457588 bytes) received in-sequence
+		1 completely duplicate packet (36 bytes)
+		560016 out-of-order packets (842312 bytes)
+		570692 window update packets
+		29262 ack packet headers correctly predicted
+		4988791 data packet headers correctly predicted
+	559099 connection requests
+	559473 connection accepts
+	1118535 connections established (including accepts)
+	1118813 connections closed (including 2 drops)
+	37 embryonic connections dropped
+	6695077 segments updated rtt (of 6689241 attempts)
+	4 retransmit timeouts
+	233 fast retransmits
+	6156 newreno retransmits
+	80 times avoided false fast retransmits
+	133 keepalive timeouts
+udp:
+	17883892 datagrams received
+	3837866 dropped due to no socket
+	2030482 broadcast/multicast datagrams dropped due to no socket
+	12015544 delivered
+	15536595 datagrams output
+ip:
+	34754862 total packets received
+	368 fragments received
+	12 packets reassembled ok
+	27521236 packets for this host
+	130 packets for unknown/unsupported protocol
+	37684 packets not forwardable
+	24065068 packets sent from this host
+	23 output datagrams fragmented
+	414 fragments created
+
+ipv6:
+	7195456 total packets received
+	Input histogram:
+		TCP: 14
+		UDP: 3837118
+		ICMP v6: 3358324
+	7195456 packets for this host
+	7195456 packets sent from this host
+	75388 output packets discarded due to no route
+icmpv6:
+	3837116 calls to icmp6_error
+	Output histogram:
+		unreachable: 3358324
+	Input histogram:
+		unreachable: 3358324
+==== EXITED with rc 0 ====
+==== END netstat -ss Tue Jul  7 13:08:09 CDT 2015 ====

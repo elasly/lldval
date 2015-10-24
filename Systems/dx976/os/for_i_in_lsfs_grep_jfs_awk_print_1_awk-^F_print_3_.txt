@@ -1,0 +1,77 @@
+==== This output can be found in Systems/dx976/os/for_i_in_lsfs_grep_jfs_awk_print_1_awk-^F_print_3_.txt ====
+==== START for i in `lsfs | grep jfs | awk '{print $1}'| awk -F "/" '{print $3}'` ; do lslv -m $i; done  Tue Jul  7 13:04:02 CDT 2015 ====
+hd4:/
+LP    PP1  PV1               PP2  PV2               PP3  PV3
+0001  0293 hdisk0            0293 hdisk1            
+hd1:/home
+LP    PP1  PV1               PP2  PV2               PP3  PV3
+0001  0314 hdisk0            0314 hdisk1            
+0002  0315 hdisk0            0315 hdisk1            
+0003  0316 hdisk0            0316 hdisk1            
+0004  0317 hdisk0            0317 hdisk1            
+0005  0318 hdisk0            0318 hdisk1            
+0006  0319 hdisk0            0319 hdisk1            
+0007  0320 hdisk0            0320 hdisk1            
+0008  0321 hdisk0            0321 hdisk1            
+0009  0322 hdisk0            0322 hdisk1            
+0010  0323 hdisk0            0323 hdisk1            
+0011  0324 hdisk0            0324 hdisk1            
+0012  0325 hdisk0            0325 hdisk1            
+0013  0326 hdisk0            0326 hdisk1            
+0014  0327 hdisk0            0327 hdisk1            
+0015  0328 hdisk0            0328 hdisk1            
+0016  0329 hdisk0            0329 hdisk1            
+0017  0330 hdisk0            0330 hdisk1            
+0018  0331 hdisk0            0331 hdisk1            
+0019  0332 hdisk0            0332 hdisk1            
+0020  0333 hdisk0            0333 hdisk1            
+hd2:/usr
+LP    PP1  PV1               PP2  PV2               PP3  PV3
+0001  0294 hdisk0            0294 hdisk1            
+0002  0295 hdisk0            0295 hdisk1            
+0003  0296 hdisk0            0296 hdisk1            
+0004  0297 hdisk0            0297 hdisk1            
+0005  0298 hdisk0            0298 hdisk1            
+0006  0299 hdisk0            0299 hdisk1            
+0007  0300 hdisk0            0300 hdisk1            
+0008  0301 hdisk0            0301 hdisk1            
+hd9var:/var
+LP    PP1  PV1               PP2  PV2               PP3  PV3
+0001  0302 hdisk0            0302 hdisk1            
+0002  0303 hdisk0            0303 hdisk1            
+hd3:/tmp
+LP    PP1  PV1               PP2  PV2               PP3  PV3
+0001  0304 hdisk0            0304 hdisk1            
+0002  0305 hdisk0            0305 hdisk1            
+0003  0306 hdisk0            0306 hdisk1            
+0004  0307 hdisk0            0307 hdisk1            
+0005  0308 hdisk0            0308 hdisk1            
+0006  0309 hdisk0            0309 hdisk1            
+0007  0310 hdisk0            0310 hdisk1            
+0008  0311 hdisk0            0311 hdisk1            
+0009  0312 hdisk0            0312 hdisk1            
+0010  0313 hdisk0            0313 hdisk1            
+hd11admin:/admin
+LP    PP1  PV1               PP2  PV2               PP3  PV3
+0001  0336 hdisk0            0336 hdisk1            
+hd10opt:/opt
+LP    PP1  PV1               PP2  PV2               PP3  PV3
+0001  0334 hdisk0            0334 hdisk1            
+0002  0335 hdisk0            0335 hdisk1            
+livedump:/var/adm/ras/livedump
+LP    PP1  PV1               PP2  PV2               PP3  PV3
+0001  0147 hdisk0            0147 hdisk1            
+perfdatalv:/perfdata
+LP    PP1  PV1               PP2  PV2               PP3  PV3
+0001  0148 hdisk1            
+0002  0149 hdisk1            
+0003  0150 hdisk1            
+0004  0151 hdisk1            
+0005  0152 hdisk1            
+0006  0153 hdisk1            
+0007  0154 hdisk1            
+0008  0155 hdisk1            
+0009  0156 hdisk1            
+0010  0157 hdisk1            
+==== EXITED with rc 0 ====
+==== END for i in `lsfs | grep jfs | awk '{print $1}'| awk -F "/" '{print $3}'` ; do lslv -m $i; done  Tue Jul  7 13:04:02 CDT 2015 ====

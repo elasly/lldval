@@ -1,0 +1,26 @@
+==== This output can be found in Systems/dx1010/perf/vmstat-v.txt ====
+==== START vmstat -v  Tue Jul  7 13:15:23 CDT 2015 ====
+              2097152 memory pages
+              2018800 lruable pages
+                76873 free pages
+                    3 memory pools
+               916390 pinned pages
+                 80.0 maxpin percentage
+                  3.0 minperm percentage
+                 90.0 maxperm percentage
+                 39.0 numperm percentage
+               788086 file pages
+                  0.0 compressed percentage
+                    0 compressed pages
+                 39.0 numclient percentage
+                 90.0 maxclient percentage
+               788086 client pages
+                    0 remote pageouts scheduled
+                    0 pending disk I/Os blocked with no pbuf
+                    0 paging space I/Os blocked with no psbuf
+                 2288 filesystem I/Os blocked with no fsbuf
+                 1773 client filesystem I/Os blocked with no fsbuf
+                   54 external pager filesystem I/Os blocked with no fsbuf
+                 58.8 percentage of memory used for computational pages
+==== EXITED with rc 0 ====
+==== END vmstat -v  Tue Jul  7 13:15:23 CDT 2015 ====

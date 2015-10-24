@@ -1,0 +1,21 @@
+==== This output can be found in Systems/dx987/ha/get_HA_rsct_details-c_IBM_PeerNode.txt ====
+==== START get_HA_rsct_details -c IBM.PeerNode Tue Jul  7 00:00:49 GST 2015 ====
+Resource Class Persistent Attributes for IBM.PeerNode
+resource 1:
+	CommittedRSCTVersion       = ""
+	ActiveVersionChanging      = 0
+	OpQuorumOverride           = 0
+	CritRsrcProtMethod         = 1
+	OpQuorumTieBreaker         = "Success"
+	QuorumType                 = 4
+	QuorumGroupName            = ""
+	Fanout                     = 32
+	OpFenceGroup               = ""
+	NodeCleanupCommand         = ""
+	NodeCleanupCriteria        = ""
+	QuorumLessStartupTimeout   = 120
+	CriticalMode               = 2
+	NotifyQuorumChangedCommand = ""
+	NamePolicy                 = 1
+==== EXITED with rc 0 ====
+==== END get_HA_rsct_details -c IBM.PeerNode Tue Jul  7 00:00:50 GST 2015 ====

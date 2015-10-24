@@ -1,0 +1,28 @@
+==== This output can be found in Systems/dx986/os/for_i_in_ls-d_usr_java_do_echo_cmd_i_bin_java-full.txt ====
+==== START for i in $(ls -d /usr/java*); do echo "cmd: $i/bin/java -fullversion"; $i/bin/java -fullversion;echo ""; done Tue Jul  7 00:44:48 GST 2015 ====
+java full version "J2RE 1.5.0 IBM AIX build pap32devifx-20140122 (SR16 FP5 )"
+java full version "J2RE 1.5.0 IBM AIX build pap64devifx-20140122 (SR16 FP5 )"
+java full version "JRE 1.6.0 IBM AIX build pap3260sr15fp1-20140110_01 (SR15 FP1)"
+java full version "JRE 1.6.0 IBM AIX build pap6460sr15fp1-20140110_01 (SR15 FP1)"
+java full version JRE 1.7.0 IBM AIX build pap3270sr6fp1-20140108_01(SR6 FP1)
+java full version JRE 1.7.0 IBM AIX build pap3270_27sr1-20140411_01(SR1)
+java full version JRE 1.7.0 IBM AIX build pap6470_27sr1-20140411_01(SR1)
+java full version JRE 1.7.0 IBM AIX build pap6470sr6fp1-20140108_01(SR6 FP1)
+cmd: /usr/java5/bin/java -fullversion
+
+cmd: /usr/java5_64/bin/java -fullversion
+
+cmd: /usr/java6/bin/java -fullversion
+
+cmd: /usr/java6_64/bin/java -fullversion
+
+cmd: /usr/java7/bin/java -fullversion
+
+cmd: /usr/java71/bin/java -fullversion
+
+cmd: /usr/java71_64/bin/java -fullversion
+
+cmd: /usr/java7_64/bin/java -fullversion
+
+==== EXITED with rc 0 ====
+==== END for i in $(ls -d /usr/java*); do echo "cmd: $i/bin/java -fullversion"; $i/bin/java -fullversion;echo ""; done Tue Jul  7 00:44:59 GST 2015 ====

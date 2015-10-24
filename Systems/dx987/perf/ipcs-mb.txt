@@ -1,0 +1,28 @@
+==== This output can be found in Systems/dx987/perf/ipcs-mb.txt ====
+==== START ipcs -mb Mon Jul  6 23:51:56 GST 2015 ====
+IPC status from /dev/mem as of Mon Jul  6 23:51:56 GST 2015
+T        ID     KEY        MODE       OWNER    GROUP     SEGSZ
+Shared Memory:
+m   1048576 0x78000460 --rw-rw-rw-     root   system 222696000
+m   2097153 0x6100005a --rw------- pconsole   system  10485760
+m   1048578 0xffffffff D-rw------- pconsole   system 536870912
+m         3 0x78000100 --rw-rw-rw-     root   system  33554432
+m         4 0x78100100 --rw-rw-rw-     root   system  33554432
+m         5 0x780003ff --rw-rw-rw-     root   system      2656
+m         6 0x0100718f --rw-------     root   system     12288
+m 994050055 0x01015375 --rw-rw-r--     root   system      4192
+m 580911112 0x0c6629c9 --rw-r-----     root   system   2994600
+m   1048585 0x01015379 --rw-rw-r--     root   system      4192
+m   5242890 0x06347849 --rw-rw-rw-     root   system     65544
+m        11 0x31015420 --rw-rw-rw-     root   system    131176
+m   5242892 0x010153d0 --rw-rw-r--     root   system      4192
+m   2097166 0x01015319 --rw-rw-r--     root   system      4192
+m        15 0x41061be7 --rw-------     root   system     53764
+m        16 0x43061be7 --rw-------     root   system       424
+m   1048593 0x0101539a --rw-rw-r--     root   system      4192
+m   1048594 0x010153de --rw-rw-r--     root   system      4192
+m   3145747 0x010153b7 --rw-rw-r--     root   system      4192
+m  13631508 0x0101538c --rw-rw-r--     root   system      4192
+m   5242902 0x010153bc --rw-rw-r--     root   system      4192
+==== EXITED with rc 0 ====
+==== END ipcs -mb Mon Jul  6 23:51:56 GST 2015 ====

@@ -1,0 +1,17 @@
+==== This output can be found in Systems/dx989/perf/svmon-^G.txt ====
+==== START svmon -G Thu Aug  6 11:25:26 GST 2015 ====
+               size       inuse        free         pin     virtual   mmode
+memory     25165824     3218284    21947540     1623426     1740322     Ded
+pg space     131072        3641
+
+               work        pers        clnt       other
+pin          812106           0        8936      802384
+in use      1740322           0     1477962
+
+PageSize   PoolSize       inuse        pgsp         pin     virtual
+s    4 KB         -     2582396        3641     1052290     1104434
+m   64 KB         -       39743           0       35696       39743
+L   16 MB         -           0           0           0           0
+S   16 GB         -           0           0           0           0
+==== EXITED with rc 0 ====
+==== END svmon -G Thu Aug  6 11:25:26 GST 2015 ====

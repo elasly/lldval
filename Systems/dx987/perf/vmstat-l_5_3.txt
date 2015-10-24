@@ -1,0 +1,13 @@
+==== This output can be found in Systems/dx987/perf/vmstat-l_5_3.txt ====
+==== START vmstat -l 5 3  Mon Jul  6 23:51:56 GST 2015 ====
+
+System configuration: lcpu=32 mem=99328MB ent=3.60
+
+kthr    memory              page              faults              cpu           large-page 
+----- ----------- ------------------------ ------------ ----------------------- -----------
+ r  b   avm   fre  re  pi  po  fr   sr  cy  in   sy  cs us sy id wa    pc    ec   alp   flp
+ 4  0 2019205 20338329   0   0   0   0    0   0  51 965496 1171 20 12 68  0  1.78  49.5     0     0
+ 2  0 2018886 20338582   0   0   0   0    0   0  12 1073417 611 15  9 75  0  1.39  38.6     0     0
+ 1  0 2017964 20339504   0   0   0   0    0   0  21 973183 631 11  8 82  0  1.04  28.8     0     0
+==== EXITED with rc 0 ====
+==== END vmstat -l 5 3  Mon Jul  6 23:52:11 GST 2015 ====

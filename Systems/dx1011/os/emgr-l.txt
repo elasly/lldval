@@ -1,0 +1,27 @@
+==== This output can be found in Systems/dx1011/os/emgr-l.txt ====
+==== START emgr -l Tue Jul  7 13:38:43 CDT 2015 ====
+
+ID  STATE LABEL      INSTALL TIME      UPDATED BY ABSTRACT
+=== ===== ========== ================= ========== ======================================
+1    S    rsctvios2  04/09/15 04:23:16            RSCT fixes for VIOS                   
+2    S    IV66758m4c 04/09/15 04:24:50            Multiple PowerVC fixes VIOS 2.2.3.4   
+3    S    IV67090s4a 04/15/15 14:19:29            viosbr fails with emc disks           
+
+STATE codes:
+ S = STABLE
+ M = MOUNTED
+ U = UNMOUNTED
+ Q = REBOOT REQUIRED
+ B = BROKEN
+ I = INSTALLING
+ R = REMOVING
+ T = TESTED
+ P = PATCHED
+ N = NOT PATCHED
+ SP = STABLE + PATCHED
+ SN = STABLE + NOT PATCHED
+ QP = BOOT IMAGE MODIFIED + PATCHED
+ QN = BOOT IMAGE MODIFIED + NOT PATCHED
+ RQ = REMOVING + REBOOT REQUIRED
+==== EXITED with rc 0 ====
+==== END emgr -l Tue Jul  7 13:38:43 CDT 2015 ====

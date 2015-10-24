@@ -1,0 +1,73 @@
+==== This output can be found in Systems/dx989/ha/cldisp.txt ====
+==== START cldisp  Thu Aug  6 11:28:17 GST 2015 ====
+Cluster: DX988_cluster
+   Cluster services: active
+   State of cluster: up
+      Substate: stable
+
+#############
+APPLICATIONS
+#############
+   Cluster DX988_cluster provides the following applications: dbscripts 
+      Application: dbscripts
+         dbscripts is started by /usr/es/sbin/cluster/scripts/dbstart.sh
+         dbscripts is stopped by /usr/es/sbin/cluster/scripts/dbstop.sh
+         No application monitors are configured for dbscripts.
+         This application is part of resource group 'DX988_RSG'.
+            Resource group policies:
+               Startup: on home node only
+               Fallover: to next priority node in the list
+               Fallback: never
+            State of dbscripts: online
+            Nodes configured to provide dbscripts: DX988 {up}  DX989 {up}  
+               Node currently providing dbscripts: DX988 {up} 
+               The node that will provide dbscripts if DX988 fails is: DX989
+            Resources associated with dbscripts:
+               Service Labels
+                  DX988-VIP(10.51.226.236) {online}
+                     Interfaces configured to provide DX988-VIP:
+                        DX988 {up}
+                           with IP address: 10.51.226.234
+                           on interface: en0
+                           on node: DX988 {up}
+                           on network: net_ether_01 {up}
+                        DX989 {up}
+                           with IP address: 10.51.226.235
+                           on interface: en0
+                           on node: DX989 {up}
+                           on network: net_ether_01 {up}
+
+#############
+TOPOLOGY
+#############
+   DX988_cluster consists of the following nodes: DX988 DX989 
+      DX988
+         Network interfaces:
+            DX988 {up}
+               with IP address: 10.51.226.234
+               on interface: en0
+               on network: net_ether_01 {up}
+            DX988_b {up}
+               with IP address: 10.51.227.87
+               on interface: en1
+               on network: net_ether_02 {up}
+            DX988_sc0 {up}
+               with IP address: 10.51.229.234
+               on interface: en2
+               on network: net_ether_03 {up}
+      DX989
+         Network interfaces:
+            DX989 {up}
+               with IP address: 10.51.226.235
+               on interface: en0
+               on network: net_ether_01 {up}
+            DX989_b {up}
+               with IP address: 10.51.227.88
+               on interface: en1
+               on network: net_ether_02 {up}
+            DX989_sc0 {up}
+               with IP address: 10.51.229.235
+               on interface: en2
+               on network: net_ether_03 {up}
+==== EXITED with rc 0 ====
+==== END cldisp  Thu Aug  6 11:28:26 GST 2015 ====

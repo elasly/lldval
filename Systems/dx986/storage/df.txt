@@ -1,0 +1,35 @@
+==== This output can be found in Systems/dx986/storage/df.txt ====
+==== START df Tue Jul  7 00:44:15 GST 2015 ====
+Filesystem    512-blocks      Free %Used    Iused %Iused Mounted on
+/dev/hd4        20971520  20546104    3%    12926     1% /
+/dev/hd2        31457280  17523536   45%    94688     5% /usr
+/dev/hd9var     41943040  35645432   16%     7788     1% /var
+/dev/hd3        31457280  29025848    8%     4015     1% /tmp
+/dev/hd1        20971520  20958504    1%       57     1% /home
+/dev/hd11admin    4194304   4192976    1%        5     1% /admin
+/proc                  -         -    -         -     -  /proc
+/dev/hd10opt    52428800  52026072    1%     8679     1% /opt
+/dev/livedump    1048576   1041368    1%       15     1% /var/adm/ras/livedump
+/dev/perfdatalv   10485760   1189456   89%     2899     3% /perfdata
+/aha                   -         -    -       130     1% /aha
+/dev/R1_arch1lv 4289724416 3545126072   18%      245     1% /nessdb_arclog1
+/dev/R1_arch2lv 4289724416 3545126056   18%      245     1% /nessdb_arclog2
+/dev/R5_baselv  209715200 179587952   15%    44165     1% /nessdb_base
+/dev/R6_bkplv 18468569088 15494069272   17%     2114     1% /nessdb_bkp
+/dev/R6_bkp1lv 10695475200 4297759504   60%      269     1% /nessdb_bkp1
+/dev/R1_ctrl1lv   20828160  20627464    1%        7     1% /nessdb_ctrl1
+/dev/R1_ctrl2lv   20828160  20627464    1%        7     1% /nessdb_ctrl2
+/dev/R1_ctrl3lv   20828160  20627464    1%        7     1% /nessdb_ctrl3
+/dev/R1_data1lv 18468372480 7806103192   58%      280     1% /nessdb_data1
+/dev/R1_flashlv  104398848 103972712    1%        4     1% /nessdb_flash
+/dev/R1_indx1lv 7730954240 1979381952   75%      179     1% /nessdb_index1
+/dev/R1_redo1lv   31301632  10168416   68%       11     1% /nessdb_redo1
+/dev/R1_redo2lv   31301632  10168416   68%       11     1% /nessdb_redo2
+/dev/R5_stagelv  104202240 103778184    1%        4     1% /nessdb_stage
+/dev/R5_syslv  104202240 100402560    4%     2415     1% /nessdb_sys
+/dev/R1_templv  524288000 403847832   23%       12     1% /nessdb_temp
+/dev/R5_undolv  524288000 145671280   73%       12     1% /nessdb_undo
+10.51.227.238:/data/col1/NESS_Bkp 543402316800 29068812288   95%    24313     1% /nessbkp_nfs
+/dev/bctlv      19922944  19200184    4%        7     1% /nessdb_bct
+==== EXITED with rc 0 ====
+==== END df Tue Jul  7 00:44:15 GST 2015 ====

@@ -1,0 +1,42 @@
+==== This output can be found in Systems/dx988/os/errpt.txt ====
+==== START errpt Thu Aug  6 11:13:41 GST 2015 ====
+IDENTIFIER TIMESTAMP  T C RESOURCE_NAME  DESCRIPTION
+EDFF8E9B   0806110015 I O StorageRM      IBM.StorageRM daemon has started. 
+3B16518D   0806110015 I S ConfigRM       The node is online in the domain indicat
+4BDDFBCC   0806110015 I S ConfigRM       The operational quorum state of the acti
+AFA89905   0806105915 I O cthags         Group Services daemon started
+DE84C4DB   0806105815 I O ConfigRM       IBM.ConfigRM daemon has started. 
+A6DF45AA   0806105815 I O RMCdaemon      The daemon is started.
+1BA7DF4E   0806105815 P S SRC            SOFTWARE PROGRAM ERROR
+CB4A951F   0806105815 I S SRC            SOFTWARE PROGRAM ERROR
+CB4A951F   0806105815 I S SRC            SOFTWARE PROGRAM ERROR
+2BFA76F6   0806105215 T S SYSPROC        SYSTEM SHUTDOWN BY USER
+9DBCFDEE   0806105815 T O errdemon       ERROR LOGGING TURNED ON
+192AC071   0806105015 T O errdemon       ERROR LOGGING TURNED OFF
+447D3237   0806105015 I O ConfigRM       IBM.ConfigRM daemon has been stopped.
+EDFF8E9B   0806105015 I O StorageRM      IBM.StorageRM daemon has started. 
+3B16518D   0806105015 I S ConfigRM       The node is online in the domain indicat
+4BDDFBCC   0806105015 I S ConfigRM       The operational quorum state of the acti
+AFA89905   0806105015 I O cthags         Group Services daemon started
+DE84C4DB   0806105015 I O ConfigRM       IBM.ConfigRM daemon has started. 
+447D3237   0806104915 I O ConfigRM       IBM.ConfigRM daemon has been stopped.
+2625C573   0806104915 I S ConfigRM       The node is offline.
+28854E81   0806104915 I O cthags         Group Services daemon stopped
+A8576C0D   0806104915 I O StorageRM      IBM.StorageRM daemon has been stopped.
+AA8AB241   0806104815 T O OPERATOR       OPERATOR NOTIFICATION
+BC3BE5A3   0806104815 P S SRC            SOFTWARE PROGRAM ERROR
+EDFF8E9B   0806104315 I O StorageRM      IBM.StorageRM daemon has started. 
+3B16518D   0806104315 I S ConfigRM       The node is online in the domain indicat
+4BDDFBCC   0806104315 I S ConfigRM       The operational quorum state of the acti
+AFA89905   0806104315 I O cthags         Group Services daemon started
+DE84C4DB   0806103815 I O ConfigRM       IBM.ConfigRM daemon has started. 
+A6DF45AA   0806103615 I O RMCdaemon      The daemon is started.
+1BA7DF4E   0806103615 P S SRC            SOFTWARE PROGRAM ERROR
+CB4A951F   0806103615 I S SRC            SOFTWARE PROGRAM ERROR
+CB4A951F   0806103615 I S SRC            SOFTWARE PROGRAM ERROR
+2BFA76F6   0806103015 T S SYSPROC        SYSTEM SHUTDOWN BY USER
+9DBCFDEE   0806103515 T O errdemon       ERROR LOGGING TURNED ON
+192AC071   0806102815 T O errdemon       ERROR LOGGING TURNED OFF
+DE84C4DB   0806102815 I O ConfigRM       IBM.ConfigRM daemon has started. 
+==== EXITED with rc 0 ====
+==== END errpt Thu Aug  6 11:13:41 GST 2015 ====

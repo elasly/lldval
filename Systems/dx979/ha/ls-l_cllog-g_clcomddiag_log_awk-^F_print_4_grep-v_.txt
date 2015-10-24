@@ -1,0 +1,5 @@
+==== This output can be found in Systems/dx979/ha/ls-l_cllog-g_clcomddiag_log_awk-^F_print_4_grep-v_.txt ====
+==== START ls -l $(cllog -g clcomddiag.log | awk -F: '{print $4}' | grep -v value)/clcomddiag.log Tue Jul  7 00:41:37 GST 2015 ====
+-rw-------    1 root     system      4069926 Jul  7 00:41 /var/log/clcomd/clcomddiag.log
+==== EXITED with rc 0 ====
+==== END ls -l $(cllog -g clcomddiag.log | awk -F: '{print $4}' | grep -v value)/clcomddiag.log Tue Jul  7 00:41:37 GST 2015 ====

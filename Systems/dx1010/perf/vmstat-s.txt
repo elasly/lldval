@@ -1,0 +1,30 @@
+==== This output can be found in Systems/dx1010/perf/vmstat-s.txt ====
+==== START vmstat -s  Tue Jul  7 13:15:23 CDT 2015 ====
+           1413326491 total address trans. faults
+              1449864 page ins
+             12850499 page outs
+                    0 paging space page ins
+                    0 paging space page outs
+                    0 total reclaims
+           1382937757 zero filled pages faults
+              2624984 executable filled pages faults
+              1046519 pages examined by clock
+                    0 revolutions of the clock hand
+               506249 pages freed by the clock
+             23417119 backtracks
+                    0 free frame waits
+                    0 extend XPT waits
+               125021 pending I/O waits
+             14300365 start I/Os
+              3081326 iodones
+         157443240678 cpu context switches
+         109877126701 device interrupts
+          11086590537 software interrupts
+           5744463821 decrementer interrupts
+               395819 mpc-sent interrupts
+               395817 mpc-received interrupts
+            389886987 phantom interrupts
+                    0 traps
+           3715580813 syscalls
+==== EXITED with rc 0 ====
+==== END vmstat -s  Tue Jul  7 13:15:23 CDT 2015 ====

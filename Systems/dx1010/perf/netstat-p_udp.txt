@@ -1,0 +1,14 @@
+==== This output can be found in Systems/dx1010/perf/netstat-p_udp.txt ====
+==== START netstat -p udp Tue Jul  7 13:15:37 CDT 2015 ====
+udp:
+	16398651 datagrams received
+	0 incomplete headers
+	0 bad data length fields
+	0 bad checksums
+	3425026 dropped due to no socket
+	1532665 broadcast/multicast datagrams dropped due to no socket
+	0 socket buffer overflows
+	11440960 delivered
+	17218484 datagrams output
+==== EXITED with rc 0 ====
+==== END netstat -p udp Tue Jul  7 13:15:37 CDT 2015 ====

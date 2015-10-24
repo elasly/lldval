@@ -1,0 +1,13 @@
+==== This output can be found in Systems/dx986/storage/lsdev-^Cc_driver_grep_iscsi_awk_print_n_1_system_l.txt ====
+==== START lsdev -Cc driver | grep iscsi | awk '{print "\n#### " $1" ####";system("lsattr -El " $1)}' Tue Jul  7 00:52:09 GST 2015 ====
+
+#### iscsi0 ####
+disc_filename  /etc/iscsi/targets        Configuration file                            False
+disc_policy    file                      Discovery Policy                              True
+initiator_name iqn.DX986.hostid.0a33e2e7 iSCSI Initiator Name                          True
+isns_srvnames  auto                      iSNS Servers IP Addresses                     True
+isns_srvports                            iSNS Servers Port Numbers                     True
+max_targets    16                        Maximum Targets Allowed                       True
+num_cmd_elems  200                       Maximum number of commands to queue to driver True
+==== EXITED with rc 0 ====
+==== END lsdev -Cc driver | grep iscsi | awk '{print "\n#### " $1" ####";system("lsattr -El " $1)}' Tue Jul  7 00:52:09 GST 2015 ====

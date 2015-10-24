@@ -1,0 +1,50 @@
+==== This output can be found in Systems/dx1011/os/lsgroup-c_ALL.txt ====
+==== START lsgroup -c ALL Tue Jul  7 13:39:21 CDT 2015 ====
+#name:id:admin:users:registry
+system:0:true:root:files
+#name:id:admin:users:registry
+staff:1:false:ipsec,padmin,sshd,daemon:files
+#name:id:admin:users:registry
+bin:2:true:root,bin:files
+#name:id:admin:users:registry
+sys:3:true:root,bin,sys:files
+#name:id:admin:users:registry
+adm:4:true:bin,adm:files
+#name:id:admin:users:registry
+uucp:5:true:uucp,nuucp:files
+#name:id:admin:registry
+mail:6:true:files
+#name:id:admin:users:registry
+security:7:true:root:files
+#name:id:admin:users:registry
+cron:8:true:root:files
+#name:id:admin:users:registry
+printq:9:true:lp:files
+#name:id:admin:users:registry
+audit:10:true:root:files
+#name:id:admin:registry
+ecs:28:true:files
+#name:id:admin:users:registry
+nobody:4294967294:false:nobody,lpd:files
+#name:id:admin:users:registry
+usr:100:false:guest:files
+#name:id:admin:registry
+perf:20:false:files
+#name:id:admin:registry
+shutdown:21:true:files
+#name:id:admin:users:registry
+lp:11:true:root,lp:files
+#name:id:admin:users:registry
+invscout:12:true:invscout:files
+#name:id:admin:users:registry
+snapp:13:true:snapp:files
+#name:id:admin:registry
+ipsec:200:false:files
+#name:id:admin:registry
+view:201:false:files
+#name:id:admin:registry
+lparmgr:711:false:files
+#name:id:admin:users:registry
+sshd:203:false:sshd:files
+==== EXITED with rc 0 ====
+==== END lsgroup -c ALL Tue Jul  7 13:39:21 CDT 2015 ====

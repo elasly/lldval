@@ -1,0 +1,58 @@
+==== This output can be found in Systems/dx979/os/lslpp-l_bos_net.txt ====
+==== START lslpp -l bos.net\* Tue Jul  7 00:29:34 GST 2015 ====
+  Fileset                      Level  State      Description         
+  ----------------------------------------------------------------------------
+Path: /usr/lib/objrepos
+  bos.net.ate                7.1.0.0  COMMITTED  Asynchronous Terminal Emulator
+  bos.net.ewlm.rte          7.1.3.15  COMMITTED  netWLM 
+  bos.net.ipsec.keymgt      7.1.3.30  COMMITTED  IP Security Key Management 
+  bos.net.ipsec.rte         7.1.3.30  COMMITTED  IP Security 
+  bos.net.mobip6.rte         7.1.3.0  COMMITTED  IPv6 Mobility 
+  bos.net.ncs               7.1.2.15  COMMITTED  Network Computing System 1.5.1
+  bos.net.nfs.adt           7.1.3.15  COMMITTED  Network File System
+                                                 Development Toolkit 
+  bos.net.nfs.cachefs       7.1.3.30  COMMITTED  CacheFS File System 
+  bos.net.nfs.client        7.1.3.30  COMMITTED  Network File System Client 
+  bos.net.nfs.server         7.1.0.0  COMMITTED  Network File System Server 
+  bos.net.nis.client         7.1.3.0  COMMITTED  Network Information Service
+                                                 Client 
+  bos.net.nis.server         7.1.3.0  COMMITTED  Network Information Service
+                                                 Server 
+  bos.net.nisplus           7.1.3.15  COMMITTED  Network Information Services
+                                                 Plus (NIS+) 
+  bos.net.ppp                7.1.3.0  COMMITTED  Async Point to Point Protocol 
+  bos.net.sctp              7.1.3.30  COMMITTED  Stream Control Transmission
+                                                 Protocol 
+  bos.net.snapp              7.1.3.0  COMMITTED  System Networking Analysis and
+                                                 Performance Pilot 
+  bos.net.tcp.adt           7.1.3.15  COMMITTED  TCP/IP Application Toolkit 
+  bos.net.tcp.client        7.1.3.30  COMMITTED  TCP/IP Client Support 
+  bos.net.tcp.server        7.1.3.30  COMMITTED  TCP/IP Server 
+  bos.net.tcp.smit           7.1.3.0  COMMITTED  TCP/IP SMIT Support 
+  bos.net.uucp               7.1.3.0  COMMITTED  Unix to Unix Copy Program 
+
+Path: /etc/objrepos
+  bos.net.ewlm.rte          7.1.3.15  COMMITTED  netWLM 
+  bos.net.ipsec.keymgt      7.1.3.30  COMMITTED  IP Security Key Management 
+  bos.net.ipsec.rte         7.1.3.30  COMMITTED  IP Security 
+  bos.net.mobip6.rte         7.1.3.0  COMMITTED  IPv6 Mobility 
+  bos.net.ncs               7.1.2.15  COMMITTED  Network Computing System 1.5.1
+  bos.net.nfs.cachefs       7.1.3.30  COMMITTED  CacheFS File System 
+  bos.net.nfs.client        7.1.3.30  COMMITTED  Network File System Client 
+  bos.net.nis.client         7.1.3.0  COMMITTED  Network Information Service
+                                                 Client 
+  bos.net.nis.server         7.1.3.0  COMMITTED  Network Information Service
+                                                 Server 
+  bos.net.nisplus           7.1.3.15  COMMITTED  Network Information Services
+                                                 Plus (NIS+) 
+  bos.net.ppp                7.1.3.0  COMMITTED  Async Point to Point Protocol 
+  bos.net.sctp              7.1.3.30  COMMITTED  Stream Control Transmission
+                                                 Protocol 
+  bos.net.snapp              7.1.3.0  COMMITTED  System Networking Analysis and
+                                                 Performance Pilot 
+  bos.net.tcp.client        7.1.3.30  COMMITTED  TCP/IP Client Support 
+  bos.net.tcp.server        7.1.3.30  COMMITTED  TCP/IP Server 
+  bos.net.tcp.smit           7.1.3.0  COMMITTED  TCP/IP SMIT Support 
+  bos.net.uucp               7.1.3.0  COMMITTED  Unix to Unix Copy Program 
+==== EXITED with rc 0 ====
+==== END lslpp -l bos.net\* Tue Jul  7 00:29:34 GST 2015 ====

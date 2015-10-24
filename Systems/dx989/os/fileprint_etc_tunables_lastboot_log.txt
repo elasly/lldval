@@ -1,0 +1,41 @@
+==== This output can be found in Systems/dx989/os/fileprint_etc_tunables_lastboot_log.txt ====
+==== START fileprint /etc/tunables/lastboot.log Thu Aug  6 11:22:16 GST 2015 ====
+==== BEGIN Contents of /etc/tunables/lastboot.log ====
+Warning: parameter vmm_klock_mode of type BOSBOOT should already be set to -1 but is actually set to 2
+
+Restoring schedo values
+=======================
+
+Restoring vmo values
+====================
+Setting vm_mmap_areload to -1
+Warning: a restricted tunable has been modified
+
+Restoring ioo values
+====================
+Setting j2_syncPageLimit to 16
+
+Restoring raso values
+=====================
+
+Restoring no values
+===================
+Setting ipqmaxlen to 512
+Setting rfc1323 to 1
+Setting sb_max to 1310720
+Setting tcp_recvspace to 262144
+Setting tcp_sendspace to 262144
+Setting udp_recvspace to 655360
+Setting udp_sendspace to 65536
+Warning: a restricted tunable has been modified
+Setting poolbuckets to 1
+
+Restoring nfso values
+=====================
+
+Restoring asoo values
+=====================
+
+==== END Contents of /etc/tunables/lastboot.log ====
+==== EXITED with rc 0 ====
+==== END fileprint /etc/tunables/lastboot.log Thu Aug  6 11:22:16 GST 2015 ====

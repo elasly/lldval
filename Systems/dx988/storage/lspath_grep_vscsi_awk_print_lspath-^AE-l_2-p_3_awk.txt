@@ -1,0 +1,4 @@
+==== This output can be found in Systems/dx988/storage/lspath_grep_vscsi_awk_print_lspath-^AE-l_2-p_3_awk.txt ====
+==== START lspath | grep vscsi | awk '{print "lspath -AE -l " $2" -p "$3 ";"}'| awk -F";" '{print $1 ;system($1); print "\n"}' Thu Aug  6 11:19:55 GST 2015 ====
+==== EXITED with rc 0 ====
+==== END lspath | grep vscsi | awk '{print "lspath -AE -l " $2" -p "$3 ";"}'| awk -F";" '{print $1 ;system($1); print "\n"}' Thu Aug  6 11:19:55 GST 2015 ====

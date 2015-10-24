@@ -1,0 +1,6 @@
+==== This output can be found in Systems/dx988/storage/for_i_in_lspv_awk_print_1_do_echo_i,_Disk_size_get.txt ====
+==== START for i in $(lspv | awk '{print $1}') ;do echo "$i, Disk size: $(getconf DISK_SIZE /dev/$i), Disk partition: $(getconf DISK_PARTITION /dev/$i), Disk location: $(getconf DISK_DEVNAME $i)"; done Thu Aug  6 11:17:14 GST 2015 ====
+hdisk0, Disk size: 153600, Disk partition: 256, Disk location: 33-T1-01
+hdisk1, Disk size: 5120, Disk partition: 8, Disk location: 37-T1-01
+==== EXITED with rc 0 ====
+==== END for i in $(lspv | awk '{print $1}') ;do echo "$i, Disk size: $(getconf DISK_SIZE /dev/$i), Disk partition: $(getconf DISK_PARTITION /dev/$i), Disk location: $(getconf DISK_DEVNAME $i)"; done Thu Aug  6 11:17:14 GST 2015 ====

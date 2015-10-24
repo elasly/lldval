@@ -1,0 +1,15 @@
+==== This output can be found in Systems/dx986/network/netstat-i.txt ====
+==== START netstat -i Tue Jul  7 00:44:36 GST 2015 ====
+Name  Mtu   Network     Address           Ipkts Ierrs    Opkts Oerrs  Coll
+en0   1500  link#2      6e.99.94.d5.97.4 2627343866     0 1241797186     0     0
+en0   1500  10.51.226   DX986-VIP        2627343866     0 1241797186     0     0
+en0   1500  10.51.226   DX986            2627343866     0 1241797186     0     0
+en1   1500  link#3      6e.99.94.d5.97.5 2714572284     0 2532668054     0     0
+en1   1500  10.51.227   DX986_b          2714572284     0 2532668054     0     0
+en2   1500  link#4      6e.99.94.d5.97.6  5929140     0  2180274     0     0
+en2   1500  10.51.229   DX986_sc0         5929140     0  2180274     0     0
+lo0   16896 link#1                       16813946     0 16813932     0     0
+lo0   16896 127         loopback         16813946     0 16813932     0     0
+lo0   16896 loopback                     16813946     0 16813932     0     0
+==== EXITED with rc 0 ====
+==== END netstat -i Tue Jul  7 00:44:36 GST 2015 ====

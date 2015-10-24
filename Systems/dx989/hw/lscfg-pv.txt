@@ -1,0 +1,2780 @@
+==== This output can be found in Systems/dx989/os/lscfg-pv.txt ====
+==== START lscfg -pv Thu Aug  6 11:22:32 GST 2015 ====
+INSTALLED RESOURCE LIST WITH VPD
+
+The following resources are installed on your machine.
+	
+  Model Architecture: chrp
+  Model Implementation: Multiple Processor, PCI bus
+
+  sys0                                                                             System Object
+  sysplanar0                                                                       System Planar
+  vio0                                                                             Virtual I/O Bus
+  vscsi9           U9179.MHD.21ADA1V-V27-C240-T1                                   Virtual SCSI Client Adapter
+
+        Hardware Location Code......U9179.MHD.21ADA1V-V27-C240-T1
+
+  vscsi8           U9179.MHD.21ADA1V-V27-C239-T1                                   Virtual SCSI Client Adapter
+
+        Hardware Location Code......U9179.MHD.21ADA1V-V27-C239-T1
+
+  vscsi7           U9179.MHD.21ADA1V-V27-C238-T1                                   Virtual SCSI Client Adapter
+
+        Hardware Location Code......U9179.MHD.21ADA1V-V27-C238-T1
+
+  vscsi6           U9179.MHD.21ADA1V-V27-C237-T1                                   Virtual SCSI Client Adapter
+
+        Hardware Location Code......U9179.MHD.21ADA1V-V27-C237-T1
+
+  vscsi5           U9179.MHD.21ADA1V-V27-C236-T1                                   Virtual SCSI Client Adapter
+
+        Hardware Location Code......U9179.MHD.21ADA1V-V27-C236-T1
+
+  vscsi4           U9179.MHD.21ADA1V-V27-C235-T1                                   Virtual SCSI Client Adapter
+
+        Hardware Location Code......U9179.MHD.21ADA1V-V27-C235-T1
+
+  vscsi3           U9179.MHD.21ADA1V-V27-C234-T1                                   Virtual SCSI Client Adapter
+
+        Hardware Location Code......U9179.MHD.21ADA1V-V27-C234-T1
+
+  vscsi2           U9179.MHD.21ADA1V-V27-C233-T1                                   Virtual SCSI Client Adapter
+
+        Hardware Location Code......U9179.MHD.21ADA1V-V27-C233-T1
+
+  vscsi1           U9179.MHD.21ADA1V-V27-C232-T1                                   Virtual SCSI Client Adapter
+
+        Hardware Location Code......U9179.MHD.21ADA1V-V27-C232-T1
+
+  vscsi0           U9179.MHD.21ADA1V-V27-C231-T1                                   Virtual SCSI Client Adapter
+
+        Hardware Location Code......U9179.MHD.21ADA1V-V27-C231-T1
+
+  ent3             U9179.MHD.21ADA1V-V27-C7-T1                                     Virtual I/O Ethernet Adapter (l-lan)
+
+        Network Address.............4A64DD8B1F07
+        Displayable Message.........Virtual I/O Ethernet Adapter (l-lan)
+        Hardware Location Code......U9179.MHD.21ADA1V-V27-C7-T1
+
+  ent2             U9179.MHD.21ADA1V-V27-C6-T1                                     Virtual I/O Ethernet Adapter (l-lan)
+
+        Network Address.............4A64DD8B1F06
+        Displayable Message.........Virtual I/O Ethernet Adapter (l-lan)
+        Hardware Location Code......U9179.MHD.21ADA1V-V27-C6-T1
+
+  ent1             U9179.MHD.21ADA1V-V27-C5-T1                                     Virtual I/O Ethernet Adapter (l-lan)
+
+        Network Address.............4A64DD8B1F05
+        Displayable Message.........Virtual I/O Ethernet Adapter (l-lan)
+        Hardware Location Code......U9179.MHD.21ADA1V-V27-C5-T1
+
+  ent0             U9179.MHD.21ADA1V-V27-C4-T1                                     Virtual I/O Ethernet Adapter (l-lan)
+
+        Network Address.............4A64DD8B1F04
+        Displayable Message.........Virtual I/O Ethernet Adapter (l-lan)
+        Hardware Location Code......U9179.MHD.21ADA1V-V27-C4-T1
+
+  vsa0             U9179.MHD.21ADA1V-V27-C0                                        LPAR Virtual Serial Adapter
+
+        Hardware Location Code......U9179.MHD.21ADA1V-V27-C0
+
+  vty0             U9179.MHD.21ADA1V-V27-C0-L0                                     Asynchronous Terminal
+  fcs0             U9179.MHD.21ADA1V-V27-C431-T1                                   Virtual Fibre Channel Client Adapter
+
+        Network Address.............C05076084490007E
+        ROS Level and ID............
+        Device Specific.(Z0)........
+        Device Specific.(Z1)........
+        Device Specific.(Z2)........
+        Device Specific.(Z3)........
+        Device Specific.(Z4)........
+        Device Specific.(Z5)........
+        Device Specific.(Z6)........
+        Device Specific.(Z7)........
+        Device Specific.(Z8)........C05076084490007E
+        Device Specific.(Z9)........
+        Hardware Location Code......U9179.MHD.21ADA1V-V27-C431-T1
+
+  fscsi0           U9179.MHD.21ADA1V-V27-C431-T1                                   FC SCSI I/O Controller Protocol Device
+  fcs1             U9179.MHD.21ADA1V-V27-C432-T1                                   Virtual Fibre Channel Client Adapter
+
+        Network Address.............C050760844900070
+        ROS Level and ID............
+        Device Specific.(Z0)........
+        Device Specific.(Z1)........
+        Device Specific.(Z2)........
+        Device Specific.(Z3)........
+        Device Specific.(Z4)........
+        Device Specific.(Z5)........
+        Device Specific.(Z6)........
+        Device Specific.(Z7)........
+        Device Specific.(Z8)........C050760844900070
+        Device Specific.(Z9)........
+        Hardware Location Code......U9179.MHD.21ADA1V-V27-C432-T1
+
+  fscsi1           U9179.MHD.21ADA1V-V27-C432-T1                                   FC SCSI I/O Controller Protocol Device
+  fcs2             U9179.MHD.21ADA1V-V27-C433-T1                                   Virtual Fibre Channel Client Adapter
+
+        Network Address.............C050760844900072
+        ROS Level and ID............
+        Device Specific.(Z0)........
+        Device Specific.(Z1)........
+        Device Specific.(Z2)........
+        Device Specific.(Z3)........
+        Device Specific.(Z4)........
+        Device Specific.(Z5)........
+        Device Specific.(Z6)........
+        Device Specific.(Z7)........
+        Device Specific.(Z8)........C050760844900072
+        Device Specific.(Z9)........
+        Hardware Location Code......U9179.MHD.21ADA1V-V27-C433-T1
+
+  fscsi2           U9179.MHD.21ADA1V-V27-C433-T1                                   FC SCSI I/O Controller Protocol Device
+  sfwcomm0         U9179.MHD.21ADA1V-V27-C433-T1-W0-L0                             Fibre Channel Storage Framework Comm
+  fcs3             U9179.MHD.21ADA1V-V27-C434-T1                                   Virtual Fibre Channel Client Adapter
+
+        Network Address.............C050760844900074
+        ROS Level and ID............
+        Device Specific.(Z0)........
+        Device Specific.(Z1)........
+        Device Specific.(Z2)........
+        Device Specific.(Z3)........
+        Device Specific.(Z4)........
+        Device Specific.(Z5)........
+        Device Specific.(Z6)........
+        Device Specific.(Z7)........
+        Device Specific.(Z8)........C050760844900074
+        Device Specific.(Z9)........
+        Hardware Location Code......U9179.MHD.21ADA1V-V27-C434-T1
+
+  fscsi3           U9179.MHD.21ADA1V-V27-C434-T1                                   FC SCSI I/O Controller Protocol Device
+  sfwcomm1         U9179.MHD.21ADA1V-V27-C434-T1-W0-L0                             Fibre Channel Storage Framework Comm
+  hdisk0           U9179.MHD.21ADA1V-V27-C434-T1-W50060E8007E43A6A-L0              Hitachi MPIO Disk VSP G1000 (Fibre)
+
+        Manufacturer................HITACHI 
+        Machine Type and Model......OPEN-V          
+        Part Number.................v.D.
+        ROS Level and ID............38303031
+        Serial Number...............5030E43A
+        EC Level....................
+        FRU Number..................
+        Device Specific.(Z0)........00000332EF000002
+        Device Specific.(Z1)........4001 8L ....
+        Device Specific.(Z2).........
+        Device Specific.(Z3).........
+        Device Specific.(Z4)........D.
+        Device Specific.(Z5).........P
+        Device Specific.(Z6)........
+
+  fcs4             U9179.MHD.21ADA1V-V27-C435-T1                                   Virtual Fibre Channel Client Adapter
+
+        Network Address.............C050760844900076
+        ROS Level and ID............
+        Device Specific.(Z0)........
+        Device Specific.(Z1)........
+        Device Specific.(Z2)........
+        Device Specific.(Z3)........
+        Device Specific.(Z4)........
+        Device Specific.(Z5)........
+        Device Specific.(Z6)........
+        Device Specific.(Z7)........
+        Device Specific.(Z8)........C050760844900076
+        Device Specific.(Z9)........
+        Hardware Location Code......U9179.MHD.21ADA1V-V27-C435-T1
+
+  fscsi4           U9179.MHD.21ADA1V-V27-C435-T1                                   FC SCSI I/O Controller Protocol Device
+  fcs5             U9179.MHD.21ADA1V-V27-C436-T1                                   Virtual Fibre Channel Client Adapter
+
+        Network Address.............C050760844900078
+        ROS Level and ID............
+        Device Specific.(Z0)........
+        Device Specific.(Z1)........
+        Device Specific.(Z2)........
+        Device Specific.(Z3)........
+        Device Specific.(Z4)........
+        Device Specific.(Z5)........
+        Device Specific.(Z6)........
+        Device Specific.(Z7)........
+        Device Specific.(Z8)........C050760844900078
+        Device Specific.(Z9)........
+        Hardware Location Code......U9179.MHD.21ADA1V-V27-C436-T1
+
+  fscsi5           U9179.MHD.21ADA1V-V27-C436-T1                                   FC SCSI I/O Controller Protocol Device
+  fcs6             U9179.MHD.21ADA1V-V27-C437-T1                                   Virtual Fibre Channel Client Adapter
+
+        Network Address.............C05076084490007A
+        ROS Level and ID............
+        Device Specific.(Z0)........
+        Device Specific.(Z1)........
+        Device Specific.(Z2)........
+        Device Specific.(Z3)........
+        Device Specific.(Z4)........
+        Device Specific.(Z5)........
+        Device Specific.(Z6)........
+        Device Specific.(Z7)........
+        Device Specific.(Z8)........C05076084490007A
+        Device Specific.(Z9)........
+        Hardware Location Code......U9179.MHD.21ADA1V-V27-C437-T1
+
+  fscsi6           U9179.MHD.21ADA1V-V27-C437-T1                                   FC SCSI I/O Controller Protocol Device
+  sfwcomm2         U9179.MHD.21ADA1V-V27-C437-T1-W0-L0                             Fibre Channel Storage Framework Comm
+  fcs7             U9179.MHD.21ADA1V-V27-C438-T1                                   Virtual Fibre Channel Client Adapter
+
+        Network Address.............C05076084490007C
+        ROS Level and ID............
+        Device Specific.(Z0)........
+        Device Specific.(Z1)........
+        Device Specific.(Z2)........
+        Device Specific.(Z3)........
+        Device Specific.(Z4)........
+        Device Specific.(Z5)........
+        Device Specific.(Z6)........
+        Device Specific.(Z7)........
+        Device Specific.(Z8)........C05076084490007C
+        Device Specific.(Z9)........
+        Hardware Location Code......U9179.MHD.21ADA1V-V27-C438-T1
+
+  fscsi7           U9179.MHD.21ADA1V-V27-C438-T1                                   FC SCSI I/O Controller Protocol Device
+  sfwcomm3         U9179.MHD.21ADA1V-V27-C438-T1-W0-L0                             Fibre Channel Storage Framework Comm
+  hdisk1           U9179.MHD.21ADA1V-V27-C438-T1-W50060E8007E43A7A-L1000000000000  Hitachi MPIO Disk VSP G1000 (Fibre)
+
+        Manufacturer................HITACHI 
+        Machine Type and Model......OPEN-V          
+        Part Number.................v.D.
+        ROS Level and ID............38303031
+        Serial Number...............5030E43A
+        EC Level....................
+        FRU Number..................
+        Device Specific.(Z0)........00000332EF000002
+        Device Specific.(Z1)........4002 8L ....
+        Device Specific.(Z2).........
+        Device Specific.(Z3).........
+        Device Specific.(Z4)........D.
+        Device Specific.(Z5).........P
+        Device Specific.(Z6)........
+
+  L2cache0                                                                         L2 Cache
+  mem0                                                                             Memory
+  proc0                                                                            Processor
+  proc4                                                                            Processor
+  proc8                                                                            Processor
+  proc12                                                                           Processor
+  proc16                                                                           Processor
+  proc20                                                                           Processor
+
+  PLATFORM SPECIFIC
+
+  Name:  IBM,9179-MHD
+    Model:  IBM,9179-MHD
+    Node:  /
+    Device Type:  chrp
+
+      System VPD:
+        Record Name.................VSYS
+        Flag Field..................XXSV
+        Brand.......................S0
+        Hardware Location Code......U9179.MHD.21ADA1V
+        Machine/Cabinet Serial No...21ADA1V
+        Machine Type and Model......9179-MHD
+        System Unique ID (SUID).....0004AC1B0D46
+        World Wide Port Name........C05076084490
+        Product Specific.(FV).......AM780_059
+        Version.....................ipzSeries
+      Physical Location: U9179.MHD.21ADA1V
+
+      CEC:
+        Record Name.................VCEN
+        Flag Field..................XXEV
+        Brand.......................S0
+        Hardware Location Code......U2C4E.001.DBJ0043
+        Machine/Cabinet Serial No...DBJ0043
+        Machine Type and Model......78C0-001
+        Controlling CEC ID..........9179-MHD 21ADA1V
+        Rack Serial Number..........0000000000000000
+        Feature Code/Marketing ID...78C0-001
+        Version.....................ipzSeries
+      Physical Location: U2C4E.001.DBJ0043
+
+      BP EXTENSION    :
+        Record Name.................VINI
+        Flag Field..................XXBP
+        Hardware Location Code......U2C4E.001.DBJ0043-P1
+        Customer Card ID Number.....2BBD
+        Serial Number...............YL11BG4AW03Z
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        FRU Number..................74Y2627
+        Part Number.................00E1018
+        Power.......................2300000000000000
+        Product Specific.(HE).......0001
+        Product Specific.(CT).......40F30016
+        Product Specific.(HW).......0001
+        Product Specific.(B3).......000000000001
+        Product Specific.(B4).......00
+        Product Specific.(B7).......000000000000000000000000
+        Version.....................ipzSeries
+      Physical Location: U2C4E.001.DBJ0043-P1
+
+      FSP             :
+        Record Name.................VINI
+        Flag Field..................XXCC
+        Hardware Location Code......U2C4E.001.DBJ0043-P1-C1
+        Customer Card ID Number.....2BBB
+        Serial Number...............YL10BG4AZ01C
+        CCIN Extender...............1
+        Product Specific.(VZ).......02
+        FRU Number..................00E3316
+        Part Number.................00E3317
+        Product Specific.(HE).......0001
+        Product Specific.(CT).......30B30005
+        Product Specific.(HW).......0004
+        Product Specific.(B3).......000000000001
+        Product Specific.(B4).......00
+        Product Specific.(B7).......000000000000000000000000
+        Version.....................ipzSeries
+      Physical Location: U2C4E.001.DBJ0043-P1-C1
+
+      I/O BACKPLANE   :
+        Record Name.................VINI
+        Flag Field..................XXCC
+        Hardware Location Code......U2C4E.001.DBJ0043-P2
+        Customer Card ID Number.....2B59
+        Serial Number...............YL10BG4AR01H
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        FRU Number..................00E2748
+        Part Number.................00E3436
+        Power.......................2900000000000000
+        Product Specific.(HE).......0001
+        Product Specific.(CT).......40F30025
+        Product Specific.(HW).......0100
+        Product Specific.(B3).......000000000001
+        Product Specific.(B4).......00
+        Product Specific.(B7).......000000000000000000000000
+        Version.....................ipzSeries
+      Physical Location: U2C4E.001.DBJ0043-P2
+
+      ANCHOR          :
+        Record Name.................VINI
+        Flag Field..................XXAV
+        Hardware Location Code......U2C4E.001.DBJ0043-P2-C7
+        Customer Card ID Number.....521C
+        Serial Number...............YL10124CP004
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        FRU Number..................00E1757
+        Part Number.................74Y3977
+        Power.......................8100300000000000
+        Product Specific.(HE).......0010
+        Product Specific.(CT).......40B40000
+        Product Specific.(HW).......0001
+        Product Specific.(B3).......000000000001
+        Product Specific.(B4).......00
+        Product Specific.(B7).......000000000000000000000000
+        Product Specific.(B9).......435343570117235E37A35350577835846F145F274D
+                                    313489699F019D52C24D325F81A2EC2842F7BF4D33
+                                    EEE9377B09CEB59A4D34CEC8C5253D7C4939
+        Version.....................ipzSeries
+      Physical Location: U2C4E.001.DBJ0043-P2-C7
+
+      DUAL 1&10GBO ETH:
+        Record Name.................VINI
+        Flag Field..................XXET
+        Hardware Location Code......U2C4E.001.DBJ0043-P2-C8
+        Customer Card ID Number.....2C4D
+        Serial Number...............YL10BG38T00G
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        FRU Number..................00E2913
+        Part Number.................00E2914
+        Product Specific.(HE).......0001
+        Product Specific.(CT).......30910008
+        Product Specific.(HW).......0001
+        Product Specific.(B3).......000000000001
+        Product Specific.(B4).......00
+        Product Specific.(B7).......000000000000000000000000
+        Version.....................ipzSeries
+      Physical Location: U2C4E.001.DBJ0043-P2-C8
+
+      PSBPD6MR  3GSAS :
+        Record Name.................VINI
+        Flag Field..................XXPR
+        Hardware Location Code......U2C4E.001.DBJ0043-P2-C9
+        Customer Card ID Number.....2BBE
+        Serial Number...............YL13D4325206
+        FRU Number.................. 00E7753
+        Part Number.................00E6221
+        CCIN Extender...............1
+        Product Specific.(VZ).......04
+        Product Specific.(B2).......5005076065E44F000000000000000100
+        Version.....................RS6K
+      Physical Location: U2C4E.001.DBJ0043-P2-C9
+
+      PROCESSOR BX    :
+        Record Name.................VINI
+        Flag Field..................XXBX
+        Hardware Location Code......U2C4E.001.DBJ0043-P3
+        Customer Card ID Number.....2C4E
+        Serial Number...............YL10BG47B028
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        FRU Number..................00E1330
+        Part Number.................00E3891
+        Power.......................A600000000000000
+        Product Specific.(HE).......0001
+        Product Specific.(CT).......40120020
+        Product Specific.(HW).......0400
+        Product Specific.(B3).......000000000001
+        Product Specific.(B4).......00
+        Product Specific.(B7).......000000000000000000000000
+        Version.....................ipzSeries
+      Physical Location: U2C4E.001.DBJ0043-P3
+
+      Memory DIMM:
+        Record Name.................VINI
+        Flag Field..................XXMS
+        Hardware Location Code......U2C4E.001.DBJ0043-P3-C1
+        Customer Card ID Number.....31DE
+        Serial Number...............YH10M14AS1F3
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        FRU Number..................41T8258
+        Part Number.................41T8258
+        Power.......................4900000000020000
+        Size........................32768
+        Product Specific.(HE).......0001
+        Product Specific.(CT).......12214320
+        Product Specific.(HW).......0093
+        Product Specific.(B3).......402400000001
+        Product Specific.(B4).......00
+        Product Specific.(B7).......000000000000000000000000
+        Product Specific.(OD).......
+        Product Specific.(HA).......
+        Version.....................ipzSeries
+      Physical Location: U2C4E.001.DBJ0043-P3-C1
+
+      Memory DIMM:
+        Record Name.................VINI
+        Flag Field..................XXMS
+        Hardware Location Code......U2C4E.001.DBJ0043-P3-C2
+        Customer Card ID Number.....31DE
+        Serial Number...............YH10M14AT12Y
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        FRU Number..................41T8258
+        Part Number.................41T8258
+        Power.......................4900000000020000
+        Size........................32768
+        Product Specific.(HE).......0001
+        Product Specific.(CT).......12214320
+        Product Specific.(HW).......0093
+        Product Specific.(B3).......402400000001
+        Product Specific.(B4).......00
+        Product Specific.(B7).......000000000000000000000000
+        Product Specific.(OD).......
+        Product Specific.(HA).......
+        Version.....................ipzSeries
+      Physical Location: U2C4E.001.DBJ0043-P3-C2
+
+      Memory DIMM:
+        Record Name.................VINI
+        Flag Field..................XXMS
+        Hardware Location Code......U2C4E.001.DBJ0043-P3-C3
+        Customer Card ID Number.....31DE
+        Serial Number...............YH10M14BD12S
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        FRU Number..................41T8258
+        Part Number.................41T8258
+        Power.......................4900000000020000
+        Size........................32768
+        Product Specific.(HE).......0001
+        Product Specific.(CT).......12214320
+        Product Specific.(HW).......0093
+        Product Specific.(B3).......402400000001
+        Product Specific.(B4).......00
+        Product Specific.(B7).......000000000000000000000000
+        Product Specific.(OD).......
+        Product Specific.(HA).......
+        Version.....................ipzSeries
+      Physical Location: U2C4E.001.DBJ0043-P3-C3
+
+      Memory DIMM:
+        Record Name.................VINI
+        Flag Field..................XXMS
+        Hardware Location Code......U2C4E.001.DBJ0043-P3-C4
+        Customer Card ID Number.....31DE
+        Serial Number...............YH10M14BD13B
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        FRU Number..................41T8258
+        Part Number.................41T8258
+        Power.......................4900000000020000
+        Size........................32768
+        Product Specific.(HE).......0001
+        Product Specific.(CT).......12214320
+        Product Specific.(HW).......0093
+        Product Specific.(B3).......402400000001
+        Product Specific.(B4).......00
+        Product Specific.(B7).......000000000000000000000000
+        Product Specific.(OD).......
+        Product Specific.(HA).......
+        Version.....................ipzSeries
+      Physical Location: U2C4E.001.DBJ0043-P3-C4
+
+      MEM2 REGULATOR  :
+        Record Name.................VINI
+        Flag Field..................XXRG
+        Hardware Location Code......U2C4E.001.DBJ0043-P3-C5
+        Customer Card ID Number.....2BC8
+        Serial Number...............YL1024920116
+        Part Number.................00E6369
+        FRU Number.................. 00E6369
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        Product Specific.(CR)......."...n@
+        Version.....................RS6K
+      Physical Location: U2C4E.001.DBJ0043-P3-C5
+
+      3OP REGULATOR   :
+        Record Name.................VINI
+        Flag Field..................XXRG
+        Hardware Location Code......U2C4E.001.DBJ0043-P3-C6
+        Customer Card ID Number.....2BF9
+        Serial Number...............YL10248S0056
+        Part Number.................00E6371
+        FRU Number.................. 00E6371
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        Product Specific.(CR)............s...<..........T...
+        Version.....................RS6K
+      Physical Location: U2C4E.001.DBJ0043-P3-C6
+
+      Memory DIMM:
+        Record Name.................VINI
+        Flag Field..................XXMS
+        Hardware Location Code......U2C4E.001.DBJ0043-P3-C7
+        Customer Card ID Number.....31DE
+        Serial Number...............YH10M14BD12L
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        FRU Number..................41T8258
+        Part Number.................41T8258
+        Power.......................4900000000020000
+        Size........................32768
+        Product Specific.(HE).......0001
+        Product Specific.(CT).......12214320
+        Product Specific.(HW).......0093
+        Product Specific.(B3).......402400000001
+        Product Specific.(B4).......00
+        Product Specific.(B7).......000000000000000000000000
+        Product Specific.(OD).......
+        Product Specific.(HA).......
+        Version.....................ipzSeries
+      Physical Location: U2C4E.001.DBJ0043-P3-C7
+
+      Memory DIMM:
+        Record Name.................VINI
+        Flag Field..................XXMS
+        Hardware Location Code......U2C4E.001.DBJ0043-P3-C8
+        Customer Card ID Number.....31DE
+        Serial Number...............YH10M13391LR
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        FRU Number..................41T8258
+        Part Number.................41T8258
+        Power.......................4900000000020000
+        Size........................32768
+        Product Specific.(HE).......0001
+        Product Specific.(CT).......12214320
+        Product Specific.(HW).......0093
+        Product Specific.(B3).......402400000001
+        Product Specific.(B4).......00
+        Product Specific.(B7).......000000000000000000000000
+        Product Specific.(OD).......
+        Product Specific.(HA).......
+        Version.....................ipzSeries
+      Physical Location: U2C4E.001.DBJ0043-P3-C8
+
+      Memory DIMM:
+        Record Name.................VINI
+        Flag Field..................XXMS
+        Hardware Location Code......U2C4E.001.DBJ0043-P3-C9
+        Customer Card ID Number.....31DE
+        Serial Number...............YH10M141T1JD
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        FRU Number..................41T8258
+        Part Number.................41T8258
+        Power.......................4900000000020000
+        Size........................32768
+        Product Specific.(HE).......0001
+        Product Specific.(CT).......12214320
+        Product Specific.(HW).......0093
+        Product Specific.(B3).......402400000001
+        Product Specific.(B4).......00
+        Product Specific.(B7).......000000000000000000000000
+        Product Specific.(OD).......
+        Product Specific.(HA).......
+        Version.....................ipzSeries
+      Physical Location: U2C4E.001.DBJ0043-P3-C9
+
+      Memory DIMM:
+        Record Name.................VINI
+        Flag Field..................XXMS
+        Hardware Location Code......U2C4E.001.DBJ0043-P3-C10
+        Customer Card ID Number.....31DE
+        Serial Number...............YH10M14AS18L
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        FRU Number..................41T8258
+        Part Number.................41T8258
+        Power.......................4900000000020000
+        Size........................32768
+        Product Specific.(HE).......0001
+        Product Specific.(CT).......12214320
+        Product Specific.(HW).......0093
+        Product Specific.(B3).......402400000001
+        Product Specific.(B4).......00
+        Product Specific.(B7).......000000000000000000000000
+        Product Specific.(OD).......
+        Product Specific.(HA).......
+        Version.....................ipzSeries
+      Physical Location: U2C4E.001.DBJ0043-P3-C10
+
+      Memory DIMM:
+        Record Name.................VINI
+        Flag Field..................XXMS
+        Hardware Location Code......U2C4E.001.DBJ0043-P3-C11
+        Customer Card ID Number.....31DE
+        Serial Number...............YH10M14AS1F8
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        FRU Number..................41T8258
+        Part Number.................41T8258
+        Power.......................4900000000020000
+        Size........................32768
+        Product Specific.(HE).......0001
+        Product Specific.(CT).......12214320
+        Product Specific.(HW).......0093
+        Product Specific.(B3).......402400000001
+        Product Specific.(B4).......00
+        Product Specific.(B7).......000000000000000000000000
+        Product Specific.(OD).......
+        Product Specific.(HA).......
+        Version.....................ipzSeries
+      Physical Location: U2C4E.001.DBJ0043-P3-C11
+
+      Memory DIMM:
+        Record Name.................VINI
+        Flag Field..................XXMS
+        Hardware Location Code......U2C4E.001.DBJ0043-P3-C12
+        Customer Card ID Number.....31DE
+        Serial Number...............YH10M14BC15Y
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        FRU Number..................41T8258
+        Part Number.................41T8258
+        Power.......................4900000000020000
+        Size........................32768
+        Product Specific.(HE).......0001
+        Product Specific.(CT).......12214320
+        Product Specific.(HW).......0093
+        Product Specific.(B3).......402400000001
+        Product Specific.(B4).......00
+        Product Specific.(B7).......000000000000000000000000
+        Product Specific.(OD).......
+        Product Specific.(HA).......
+        Version.....................ipzSeries
+      Physical Location: U2C4E.001.DBJ0043-P3-C12
+
+      Memory DIMM:
+        Record Name.................VINI
+        Flag Field..................XXMS
+        Hardware Location Code......U2C4E.001.DBJ0043-P3-C13
+        Customer Card ID Number.....31DE
+        Serial Number...............YH10M14BK1R2
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        FRU Number..................41T8258
+        Part Number.................41T8258
+        Power.......................4900000000020000
+        Size........................32768
+        Product Specific.(HE).......0001
+        Product Specific.(CT).......12214320
+        Product Specific.(HW).......0093
+        Product Specific.(B3).......402400000001
+        Product Specific.(B4).......00
+        Product Specific.(B7).......000000000000000000000000
+        Product Specific.(OD).......
+        Product Specific.(HA).......
+        Version.....................ipzSeries
+      Physical Location: U2C4E.001.DBJ0043-P3-C13
+
+      Memory DIMM:
+        Record Name.................VINI
+        Flag Field..................XXMS
+        Hardware Location Code......U2C4E.001.DBJ0043-P3-C14
+        Customer Card ID Number.....31DE
+        Serial Number...............YH10M14BK1NS
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        FRU Number..................41T8258
+        Part Number.................41T8258
+        Power.......................4900000000020000
+        Size........................32768
+        Product Specific.(HE).......0001
+        Product Specific.(CT).......12214320
+        Product Specific.(HW).......0093
+        Product Specific.(B3).......402400000001
+        Product Specific.(B4).......00
+        Product Specific.(B7).......000000000000000000000000
+        Product Specific.(OD).......
+        Product Specific.(HA).......
+        Version.....................ipzSeries
+      Physical Location: U2C4E.001.DBJ0043-P3-C14
+
+      3OP REGULATOR   :
+        Record Name.................VINI
+        Flag Field..................XXRG
+        Hardware Location Code......U2C4E.001.DBJ0043-P3-C15
+        Customer Card ID Number.....2BF9
+        Serial Number...............YL10248S0051
+        Part Number.................00E6371
+        FRU Number.................. 00E6371
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        Product Specific.(CR)............m...5f.........T...
+        Version.....................RS6K
+      Physical Location: U2C4E.001.DBJ0043-P3-C15
+
+      THERMAL PWR MGMT:
+        Record Name.................VINI
+        Flag Field..................XXTP
+        Hardware Location Code......U2C4E.001.DBJ0043-P3-C16
+        Customer Card ID Number.....2A14
+        Serial Number...............YL10UF4B409A
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        FRU Number..................74Y2876
+        Part Number.................74Y3920
+        Product Specific.(HE).......0001
+        Product Specific.(CT).......40B60004
+        Product Specific.(HW).......0001
+        Product Specific.(B3).......000000000001
+        Product Specific.(B4).......00
+        Product Specific.(B7).......000000000000000000000000
+        Version.....................ipzSeries
+      Physical Location: U2C4E.001.DBJ0043-P3-C16
+
+      MEM2 REGULATOR  :
+        Record Name.................VINI
+        Flag Field..................XXRG
+        Hardware Location Code......U2C4E.001.DBJ0043-P3-C17
+        Customer Card ID Number.....2BC8
+        Serial Number...............YL1024920122
+        Part Number.................00E6369
+        FRU Number.................. 00E6369
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        Product Specific.(CR)......."...&(............s..E!.
+        Version.....................RS6K
+      Physical Location: U2C4E.001.DBJ0043-P3-C17
+
+      Memory DIMM:
+        Record Name.................VINI
+        Flag Field..................XXMS
+        Hardware Location Code......U2C4E.001.DBJ0043-P3-C18
+        Customer Card ID Number.....31DE
+        Serial Number...............YH10M14BK1PP
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        FRU Number..................41T8258
+        Part Number.................41T8258
+        Power.......................4900000000020000
+        Size........................32768
+        Product Specific.(HE).......0001
+        Product Specific.(CT).......12214320
+        Product Specific.(HW).......0093
+        Product Specific.(B3).......402400000001
+        Product Specific.(B4).......00
+        Product Specific.(B7).......000000000000000000000000
+        Product Specific.(OD).......
+        Product Specific.(HA).......
+        Version.....................ipzSeries
+      Physical Location: U2C4E.001.DBJ0043-P3-C18
+
+      Memory DIMM:
+        Record Name.................VINI
+        Flag Field..................XXMS
+        Hardware Location Code......U2C4E.001.DBJ0043-P3-C19
+        Customer Card ID Number.....31DE
+        Serial Number...............YH10M14BK1RH
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        FRU Number..................41T8258
+        Part Number.................41T8258
+        Power.......................4900000000020000
+        Size........................32768
+        Product Specific.(HE).......0001
+        Product Specific.(CT).......12214320
+        Product Specific.(HW).......0093
+        Product Specific.(B3).......402400000001
+        Product Specific.(B4).......00
+        Product Specific.(B7).......000000000000000000000000
+        Product Specific.(OD).......
+        Product Specific.(HA).......
+        Version.....................ipzSeries
+      Physical Location: U2C4E.001.DBJ0043-P3-C19
+
+      Memory DIMM:
+        Record Name.................VINI
+        Flag Field..................XXMS
+        Hardware Location Code......U2C4E.001.DBJ0043-P3-C20
+        Customer Card ID Number.....31DE
+        Serial Number...............YH10M14BD13L
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        FRU Number..................41T8258
+        Part Number.................41T8258
+        Power.......................4900000000020000
+        Size........................32768
+        Product Specific.(HE).......0001
+        Product Specific.(CT).......12214320
+        Product Specific.(HW).......0093
+        Product Specific.(B3).......402400000001
+        Product Specific.(B4).......00
+        Product Specific.(B7).......000000000000000000000000
+        Product Specific.(OD).......
+        Product Specific.(HA).......
+        Version.....................ipzSeries
+      Physical Location: U2C4E.001.DBJ0043-P3-C20
+
+      Memory DIMM:
+        Record Name.................VINI
+        Flag Field..................XXMS
+        Hardware Location Code......U2C4E.001.DBJ0043-P3-C21
+        Customer Card ID Number.....31DE
+        Serial Number...............YH10M14BD12P
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        FRU Number..................41T8258
+        Part Number.................41T8258
+        Power.......................4900000000020000
+        Size........................32768
+        Product Specific.(HE).......0001
+        Product Specific.(CT).......12214320
+        Product Specific.(HW).......0093
+        Product Specific.(B3).......402400000001
+        Product Specific.(B4).......00
+        Product Specific.(B7).......000000000000000000000000
+        Product Specific.(OD).......
+        Product Specific.(HA).......
+        Version.....................ipzSeries
+      Physical Location: U2C4E.001.DBJ0043-P3-C21
+
+      PROC2 REGULATOR :
+        Record Name.................VINI
+        Flag Field..................XXRG
+        Hardware Location Code......U2C4E.001.DBJ0043-P3-C22
+        Customer Card ID Number.....2BF8
+        Serial Number...............YL1024AA0070
+        Part Number.................00E6367
+        FRU Number.................. 00E6367
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        Product Specific.(CR).........{......#....w...x.....
+        Version.....................RS6K
+      Physical Location: U2C4E.001.DBJ0043-P3-C22
+
+      4-WAY  PROC CUOD:
+        Record Name.................VINI
+        Flag Field..................XXPF
+        Hardware Location Code......U2C4E.001.DBJ0043-P3-C23
+        Customer Card ID Number.....54A8
+        Serial Number...............YA1932404880
+        FRU Number..................00E6818
+        Part Number.................00E6818
+        Product Specific.(HE).......0001
+        Product Specific.(CT).......40110004
+        Product Specific.(HW).......0001
+        Product Specific.(B3).......000000000000
+        Product Specific.(B4).......00
+        Product Specific.(B7).......000000000000000000000000
+        Power.......................3400400133038000
+        Product Specific.(VZ).......03
+        CCIN Extender...............1
+        Version.....................ipzSeries
+      Physical Location: U2C4E.001.DBJ0043-P3-C23
+
+      4-WAY  PROC CUOD:
+        Record Name.................VINI
+        Flag Field..................XXPF
+        Hardware Location Code......U2C4E.001.DBJ0043-P3-C24
+        Customer Card ID Number.....54A8
+        Serial Number...............YA1932404885
+        FRU Number..................00E6818
+        Part Number.................00E6818
+        Product Specific.(HE).......0001
+        Product Specific.(CT).......40110004
+        Product Specific.(HW).......0001
+        Product Specific.(B3).......000000000000
+        Product Specific.(B4).......00
+        Product Specific.(B7).......000000000000000000000000
+        Power.......................3400400133038000
+        Product Specific.(VZ).......03
+        CCIN Extender...............1
+        Version.....................ipzSeries
+      Physical Location: U2C4E.001.DBJ0043-P3-C24
+
+      PROC2 REGULATOR :
+        Record Name.................VINI
+        Flag Field..................XXRG
+        Hardware Location Code......U2C4E.001.DBJ0043-P3-C25
+        Customer Card ID Number.....2BF8
+        Serial Number...............YL1024AA0071
+        Part Number.................00E6367
+        FRU Number.................. 00E6367
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        Product Specific.(CR).............9......g....x.....
+        Version.....................RS6K
+      Physical Location: U2C4E.001.DBJ0043-P3-C25
+
+      PROC2 REGULATOR :
+        Record Name.................VINI
+        Flag Field..................XXRG
+        Hardware Location Code......U2C4E.001.DBJ0043-P3-C26
+        Customer Card ID Number.....2BF8
+        Serial Number...............YL1024AA0067
+        Part Number.................00E6367
+        FRU Number.................. 00E6367
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        Product Specific.(CR).........?..s....A.......F.+...
+        Version.....................RS6K
+      Physical Location: U2C4E.001.DBJ0043-P3-C26
+
+      4-WAY  PROC CUOD:
+        Record Name.................VINI
+        Flag Field..................XXPF
+        Hardware Location Code......U2C4E.001.DBJ0043-P3-C27
+        Customer Card ID Number.....54A8
+        Serial Number...............YA1932404884
+        FRU Number..................00E6818
+        Part Number.................00E6818
+        Product Specific.(HE).......0001
+        Product Specific.(CT).......40110004
+        Product Specific.(HW).......0001
+        Product Specific.(B3).......000000000000
+        Product Specific.(B4).......00
+        Product Specific.(B7).......000000000000000000000000
+        Power.......................3400400133038000
+        Product Specific.(VZ).......03
+        CCIN Extender...............1
+        Version.....................ipzSeries
+      Physical Location: U2C4E.001.DBJ0043-P3-C27
+
+      4-WAY  PROC CUOD:
+        Record Name.................VINI
+        Flag Field..................XXPF
+        Hardware Location Code......U2C4E.001.DBJ0043-P3-C28
+        Customer Card ID Number.....54A8
+        Serial Number...............YA1932404877
+        FRU Number..................00E6818
+        Part Number.................00E6818
+        Product Specific.(HE).......0001
+        Product Specific.(CT).......40110004
+        Product Specific.(HW).......0001
+        Product Specific.(B3).......000000000000
+        Product Specific.(B4).......00
+        Product Specific.(B7).......000000000000000000000000
+        Power.......................3400400133038000
+        Product Specific.(VZ).......03
+        CCIN Extender...............1
+        Version.....................ipzSeries
+      Physical Location: U2C4E.001.DBJ0043-P3-C28
+
+      PROC2 REGULATOR :
+        Record Name.................VINI
+        Flag Field..................XXRG
+        Hardware Location Code......U2C4E.001.DBJ0043-P3-C29
+        Customer Card ID Number.....2BF8
+        Serial Number...............YL1024AA0068
+        Part Number.................00E6367
+        FRU Number.................. 00E6367
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        Product Specific.(CR).........H.'........Q....\.*Z..
+        Version.....................RS6K
+      Physical Location: U2C4E.001.DBJ0043-P3-C29
+
+      CEC OP PANEL    :
+        Record Name.................VINI
+        Flag Field..................XXOP
+        Hardware Location Code......U2C4E.001.DBJ0043-D1
+        Customer Card ID Number.....2B01
+        Serial Number...............YL11UF49J05L
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        FRU Number..................00E1635
+        Part Number.................00E1898
+        Product Specific.(HE).......0001
+        Product Specific.(CT).......40B50002
+        Product Specific.(HW).......0200
+        Product Specific.(B3).......000000000000
+        Product Specific.(B4).......00
+        Product Specific.(B7).......000000000000000000000000
+        Version.....................ipzSeries
+      Physical Location: U2C4E.001.DBJ0043-D1
+
+      A IBM AC PS     :
+        Record Name.................VINI
+        Flag Field..................XXPS
+        Hardware Location Code......U2C4E.001.DBJ0043-E1
+        Customer Card ID Number.....2BED
+        Serial Number...............YL1024890577
+        Part Number.................00FW422
+        FRU Number.................. 00FW422
+        Version.....................RS6K
+      Physical Location: U2C4E.001.DBJ0043-E1
+
+      A IBM AC PS     :
+        Record Name.................VINI
+        Flag Field..................XXPS
+        Hardware Location Code......U2C4E.001.DBJ0043-E2
+        Customer Card ID Number.....2BED
+        Serial Number...............YL1024890552
+        Part Number.................00FW422
+        FRU Number.................. 00FW422
+        Version.....................RS6K
+      Physical Location: U2C4E.001.DBJ0043-E2
+
+      IBM Air Mover   :
+        Record Name.................VINI
+        Flag Field..................XXAM
+        Hardware Location Code......U2C4E.001.DBJ0043-A1
+        Customer Card ID Number.....6B1A
+        FRU Number.................. 46K4939
+        Version.....................RS6K
+      Physical Location: U2C4E.001.DBJ0043-A1
+
+      IBM Air Mover   :
+        Record Name.................VINI
+        Flag Field..................XXAM
+        Hardware Location Code......U2C4E.001.DBJ0043-A2
+        Customer Card ID Number.....6B1A
+        FRU Number.................. 46K4939
+        Version.....................RS6K
+      Physical Location: U2C4E.001.DBJ0043-A2
+
+      IBM Air Mover   :
+        Record Name.................VINI
+        Flag Field..................XXAM
+        Hardware Location Code......U2C4E.001.DBJ0043-A3
+        Customer Card ID Number.....6B1A
+        FRU Number.................. 46K4939
+        Version.....................RS6K
+      Physical Location: U2C4E.001.DBJ0043-A3
+
+      IBM Air Mover   :
+        Record Name.................VINI
+        Flag Field..................XXAM
+        Hardware Location Code......U2C4E.001.DBJ0043-A4
+        Customer Card ID Number.....6B1A
+        FRU Number.................. 46K4939
+        Version.....................RS6K
+      Physical Location: U2C4E.001.DBJ0043-A4
+
+      IBM Air Mover   :
+        Record Name.................VINI
+        Flag Field..................XXAM
+        Hardware Location Code......U2C4E.001.DBJ0043-A5
+        Customer Card ID Number.....6B1A
+        FRU Number.................. 46K4939
+        Version.....................RS6K
+      Physical Location: U2C4E.001.DBJ0043-A5
+
+      CEC:
+        Record Name.................VCEN
+        Flag Field..................XXEV
+        Brand.......................S0
+        Hardware Location Code......U2C4E.001.DBJZ836
+        Machine/Cabinet Serial No...DBJZ836
+        Machine Type and Model......78C0-001
+        Controlling CEC ID..........9179-MHD 21ADA1V
+        Rack Serial Number..........0000000000000000
+        Feature Code/Marketing ID...78C0-001
+        Version.....................ipzSeries
+      Physical Location: U2C4E.001.DBJZ836
+
+      BP EXTENSION    :
+        Record Name.................VINI
+        Flag Field..................XXBP
+        Hardware Location Code......U2C4E.001.DBJZ836-P1
+        Customer Card ID Number.....2BBD
+        Serial Number...............YL11BG4AW049
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        FRU Number..................74Y2627
+        Part Number.................00E1018
+        Power.......................2300000000000000
+        Product Specific.(HE).......0001
+        Product Specific.(CT).......40F30016
+        Product Specific.(HW).......0001
+        Product Specific.(B3).......000000000001
+        Product Specific.(B4).......00
+        Product Specific.(B7).......000000000000000000000000
+        Version.....................ipzSeries
+      Physical Location: U2C4E.001.DBJZ836-P1
+
+      FSP             :
+        Record Name.................VINI
+        Flag Field..................XXCC
+        Hardware Location Code......U2C4E.001.DBJZ836-P1-C1
+        Customer Card ID Number.....2BBB
+        Serial Number...............YL10BG4AZ030
+        CCIN Extender...............1
+        Product Specific.(VZ).......02
+        FRU Number..................00E3316
+        Part Number.................00E3317
+        Product Specific.(HE).......0001
+        Product Specific.(CT).......30B30005
+        Product Specific.(HW).......0004
+        Product Specific.(B3).......000000000001
+        Product Specific.(B4).......00
+        Product Specific.(B7).......000000000000000000000000
+        Version.....................ipzSeries
+      Physical Location: U2C4E.001.DBJZ836-P1-C1
+
+      I/O BACKPLANE   :
+        Record Name.................VINI
+        Flag Field..................XXCC
+        Hardware Location Code......U2C4E.001.DBJZ836-P2
+        Customer Card ID Number.....2B59
+        Serial Number...............YL10BG4AR03A
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        FRU Number..................00E2748
+        Part Number.................00E3436
+        Power.......................2900000000000000
+        Product Specific.(HE).......0001
+        Product Specific.(CT).......40F30025
+        Product Specific.(HW).......0100
+        Product Specific.(B3).......000000000001
+        Product Specific.(B4).......00
+        Product Specific.(B7).......000000000000000000000000
+        Version.....................ipzSeries
+      Physical Location: U2C4E.001.DBJZ836-P2
+
+      DUAL 1&10GBO ETH:
+        Record Name.................VINI
+        Flag Field..................XXET
+        Hardware Location Code......U2C4E.001.DBJZ836-P2-C8
+        Customer Card ID Number.....2C4D
+        Serial Number...............YL10BG44W02X
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        FRU Number..................00E2913
+        Part Number.................00E2914
+        Product Specific.(HE).......0001
+        Product Specific.(CT).......30910008
+        Product Specific.(HW).......0001
+        Product Specific.(B3).......000000000001
+        Product Specific.(B4).......00
+        Product Specific.(B7).......000000000000000000000000
+        Version.....................ipzSeries
+      Physical Location: U2C4E.001.DBJZ836-P2-C8
+
+      PSBPD6MR  3GSAS :
+        Record Name.................VINI
+        Flag Field..................XXPR
+        Hardware Location Code......U2C4E.001.DBJZ836-P2-C9
+        Customer Card ID Number.....2BBE
+        Serial Number...............YL13D4340064
+        FRU Number.................. 00E7753
+        Part Number.................00E6221
+        CCIN Extender...............1
+        Product Specific.(VZ).......04
+        Product Specific.(B2).......5005076065E51B000000000000000100
+        Version.....................RS6K
+      Physical Location: U2C4E.001.DBJZ836-P2-C9
+
+      PROCESSOR BX    :
+        Record Name.................VINI
+        Flag Field..................XXBX
+        Hardware Location Code......U2C4E.001.DBJZ836-P3
+        Customer Card ID Number.....2C4E
+        Serial Number...............YL11BG3BV05B
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        FRU Number..................00E1330
+        Part Number.................00E2557
+        Power.......................A600000000000000
+        Product Specific.(HE).......0001
+        Product Specific.(CT).......40120020
+        Product Specific.(HW).......0400
+        Product Specific.(B3).......000000000001
+        Product Specific.(B4).......00
+        Product Specific.(B7).......000000000000000000000000
+        Version.....................ipzSeries
+      Physical Location: U2C4E.001.DBJZ836-P3
+
+      Memory DIMM:
+        Record Name.................VINI
+        Flag Field..................XXMS
+        Hardware Location Code......U2C4E.001.DBJZ836-P3-C1
+        Customer Card ID Number.....31DE
+        Serial Number...............YH10MS43S043
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        FRU Number..................41T8258
+        Part Number.................41T8258
+        Power.......................4900000000020000
+        Size........................32768
+        Product Specific.(HE).......0001
+        Product Specific.(CT).......12214320
+        Product Specific.(HW).......0093
+        Product Specific.(B3).......402400000001
+        Product Specific.(B4).......00
+        Product Specific.(B7).......000000000000000000000000
+        Product Specific.(OD).......
+        Product Specific.(HA).......
+        Version.....................ipzSeries
+      Physical Location: U2C4E.001.DBJZ836-P3-C1
+
+      Memory DIMM:
+        Record Name.................VINI
+        Flag Field..................XXMS
+        Hardware Location Code......U2C4E.001.DBJZ836-P3-C2
+        Customer Card ID Number.....31DE
+        Serial Number...............YH10MS43S053
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        FRU Number..................41T8258
+        Part Number.................41T8258
+        Power.......................4900000000020000
+        Size........................32768
+        Product Specific.(HE).......0001
+        Product Specific.(CT).......12214320
+        Product Specific.(HW).......0093
+        Product Specific.(B3).......402400000001
+        Product Specific.(B4).......00
+        Product Specific.(B7).......000000000000000000000000
+        Product Specific.(OD).......
+        Product Specific.(HA).......
+        Version.....................ipzSeries
+      Physical Location: U2C4E.001.DBJZ836-P3-C2
+
+      Memory DIMM:
+        Record Name.................VINI
+        Flag Field..................XXMS
+        Hardware Location Code......U2C4E.001.DBJZ836-P3-C3
+        Customer Card ID Number.....31DE
+        Serial Number...............YH10MS48B01D
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        FRU Number..................41T8258
+        Part Number.................41T8258
+        Power.......................4900000000020000
+        Size........................32768
+        Product Specific.(HE).......0001
+        Product Specific.(CT).......12214320
+        Product Specific.(HW).......0093
+        Product Specific.(B3).......402400000001
+        Product Specific.(B4).......00
+        Product Specific.(B7).......000000000000000000000000
+        Product Specific.(OD).......
+        Product Specific.(HA).......
+        Version.....................ipzSeries
+      Physical Location: U2C4E.001.DBJZ836-P3-C3
+
+      Memory DIMM:
+        Record Name.................VINI
+        Flag Field..................XXMS
+        Hardware Location Code......U2C4E.001.DBJZ836-P3-C4
+        Customer Card ID Number.....31DE
+        Serial Number...............YH10MS48J0C5
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        FRU Number..................41T8258
+        Part Number.................41T8258
+        Power.......................4900000000020000
+        Size........................32768
+        Product Specific.(HE).......0001
+        Product Specific.(CT).......12214320
+        Product Specific.(HW).......0093
+        Product Specific.(B3).......402400000001
+        Product Specific.(B4).......00
+        Product Specific.(B7).......000000000000000000000000
+        Product Specific.(OD).......
+        Product Specific.(HA).......
+        Version.....................ipzSeries
+      Physical Location: U2C4E.001.DBJZ836-P3-C4
+
+      MEM2 REGULATOR  :
+        Record Name.................VINI
+        Flag Field..................XXRG
+        Hardware Location Code......U2C4E.001.DBJZ836-P3-C5
+        Customer Card ID Number.....2BC8
+        Serial Number...............YL1023AM0063
+        Part Number.................00E6369
+        FRU Number.................. 00E6369
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        Product Specific.(CR)......."...w....)........n...
+        Version.....................RS6K
+      Physical Location: U2C4E.001.DBJZ836-P3-C5
+
+      3OP REGULATOR   :
+        Record Name.................VINI
+        Flag Field..................XXRG
+        Hardware Location Code......U2C4E.001.DBJZ836-P3-C6
+        Customer Card ID Number.....2BF9
+        Serial Number...............YL1023AA0106
+        Part Number.................00E6371
+        FRU Number.................. 00E6371
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        Product Specific.(CR)................Z....v..
+        Version.....................RS6K
+      Physical Location: U2C4E.001.DBJZ836-P3-C6
+
+      Memory DIMM:
+        Record Name.................VINI
+        Flag Field..................XXMS
+        Hardware Location Code......U2C4E.001.DBJZ836-P3-C7
+        Customer Card ID Number.....31DE
+        Serial Number...............YH10MS48J0BF
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        FRU Number..................41T8258
+        Part Number.................41T8258
+        Power.......................4900000000020000
+        Size........................32768
+        Product Specific.(HE).......0001
+        Product Specific.(CT).......12214320
+        Product Specific.(HW).......0093
+        Product Specific.(B3).......402400000001
+        Product Specific.(B4).......00
+        Product Specific.(B7).......000000000000000000000000
+        Product Specific.(OD).......
+        Product Specific.(HA).......
+        Version.....................ipzSeries
+      Physical Location: U2C4E.001.DBJZ836-P3-C7
+
+      Memory DIMM:
+        Record Name.................VINI
+        Flag Field..................XXMS
+        Hardware Location Code......U2C4E.001.DBJZ836-P3-C8
+        Customer Card ID Number.....31DE
+        Serial Number...............YH10MS48J0CC
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        FRU Number..................41T8258
+        Part Number.................41T8258
+        Power.......................4900000000020000
+        Size........................32768
+        Product Specific.(HE).......0001
+        Product Specific.(CT).......12214320
+        Product Specific.(HW).......0093
+        Product Specific.(B3).......402400000001
+        Product Specific.(B4).......00
+        Product Specific.(B7).......000000000000000000000000
+        Product Specific.(OD).......
+        Product Specific.(HA).......
+        Version.....................ipzSeries
+      Physical Location: U2C4E.001.DBJZ836-P3-C8
+
+      Memory DIMM:
+        Record Name.................VINI
+        Flag Field..................XXMS
+        Hardware Location Code......U2C4E.001.DBJZ836-P3-C9
+        Customer Card ID Number.....31DE
+        Serial Number...............YH10MS4840E1
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        FRU Number..................41T8258
+        Part Number.................41T8258
+        Power.......................4900000000020000
+        Size........................32768
+        Product Specific.(HE).......0001
+        Product Specific.(CT).......12214320
+        Product Specific.(HW).......0093
+        Product Specific.(B3).......402400000001
+        Product Specific.(B4).......00
+        Product Specific.(B7).......000000000000000000000000
+        Product Specific.(OD).......
+        Product Specific.(HA).......
+        Version.....................ipzSeries
+      Physical Location: U2C4E.001.DBJZ836-P3-C9
+
+      Memory DIMM:
+        Record Name.................VINI
+        Flag Field..................XXMS
+        Hardware Location Code......U2C4E.001.DBJZ836-P3-C10
+        Customer Card ID Number.....31DE
+        Serial Number...............YH10MS49F2D0
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        FRU Number..................41T8258
+        Part Number.................41T8258
+        Power.......................4900000000020000
+        Size........................32768
+        Product Specific.(HE).......0001
+        Product Specific.(CT).......12214320
+        Product Specific.(HW).......0093
+        Product Specific.(B3).......402400000001
+        Product Specific.(B4).......00
+        Product Specific.(B7).......000000000000000000000000
+        Product Specific.(OD).......
+        Product Specific.(HA).......
+        Version.....................ipzSeries
+      Physical Location: U2C4E.001.DBJZ836-P3-C10
+
+      Memory DIMM:
+        Record Name.................VINI
+        Flag Field..................XXMS
+        Hardware Location Code......U2C4E.001.DBJZ836-P3-C11
+        Customer Card ID Number.....31DE
+        Serial Number...............YH10MS49F2CF
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        FRU Number..................41T8258
+        Part Number.................41T8258
+        Power.......................4900000000020000
+        Size........................32768
+        Product Specific.(HE).......0001
+        Product Specific.(CT).......12214320
+        Product Specific.(HW).......0093
+        Product Specific.(B3).......402400000001
+        Product Specific.(B4).......00
+        Product Specific.(B7).......000000000000000000000000
+        Product Specific.(OD).......
+        Product Specific.(HA).......
+        Version.....................ipzSeries
+      Physical Location: U2C4E.001.DBJZ836-P3-C11
+
+      Memory DIMM:
+        Record Name.................VINI
+        Flag Field..................XXMS
+        Hardware Location Code......U2C4E.001.DBJZ836-P3-C12
+        Customer Card ID Number.....31DE
+        Serial Number...............YH10MS43S051
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        FRU Number..................41T8258
+        Part Number.................41T8258
+        Power.......................4900000000020000
+        Size........................32768
+        Product Specific.(HE).......0001
+        Product Specific.(CT).......12214320
+        Product Specific.(HW).......0093
+        Product Specific.(B3).......402400000001
+        Product Specific.(B4).......00
+        Product Specific.(B7).......000000000000000000000000
+        Product Specific.(OD).......
+        Product Specific.(HA).......
+        Version.....................ipzSeries
+      Physical Location: U2C4E.001.DBJZ836-P3-C12
+
+      Memory DIMM:
+        Record Name.................VINI
+        Flag Field..................XXMS
+        Hardware Location Code......U2C4E.001.DBJZ836-P3-C13
+        Customer Card ID Number.....31DE
+        Serial Number...............YH10MS49F2B3
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        FRU Number..................41T8258
+        Part Number.................41T8258
+        Power.......................4900000000020000
+        Size........................32768
+        Product Specific.(HE).......0001
+        Product Specific.(CT).......12214320
+        Product Specific.(HW).......0093
+        Product Specific.(B3).......402400000001
+        Product Specific.(B4).......00
+        Product Specific.(B7).......000000000000000000000000
+        Product Specific.(OD).......
+        Product Specific.(HA).......
+        Version.....................ipzSeries
+      Physical Location: U2C4E.001.DBJZ836-P3-C13
+
+      Memory DIMM:
+        Record Name.................VINI
+        Flag Field..................XXMS
+        Hardware Location Code......U2C4E.001.DBJZ836-P3-C14
+        Customer Card ID Number.....31DE
+        Serial Number...............YH10MS43S04D
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        FRU Number..................41T8258
+        Part Number.................41T8258
+        Power.......................4900000000020000
+        Size........................32768
+        Product Specific.(HE).......0001
+        Product Specific.(CT).......12214320
+        Product Specific.(HW).......0093
+        Product Specific.(B3).......402400000001
+        Product Specific.(B4).......00
+        Product Specific.(B7).......000000000000000000000000
+        Product Specific.(OD).......
+        Product Specific.(HA).......
+        Version.....................ipzSeries
+      Physical Location: U2C4E.001.DBJZ836-P3-C14
+
+      3OP REGULATOR   :
+        Record Name.................VINI
+        Flag Field..................XXRG
+        Hardware Location Code......U2C4E.001.DBJZ836-P3-C15
+        Customer Card ID Number.....2BF9
+        Serial Number...............YL1023AA0101
+        Part Number.................00E6371
+        FRU Number.................. 00E6371
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        Product Specific.(CR)................he...i..
+        Version.....................RS6K
+      Physical Location: U2C4E.001.DBJZ836-P3-C15
+
+      THERMAL PWR MGMT:
+        Record Name.................VINI
+        Flag Field..................XXTP
+        Hardware Location Code......U2C4E.001.DBJZ836-P3-C16
+        Customer Card ID Number.....2A14
+        Serial Number...............YL10UF3AS09R
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        FRU Number..................74Y2876
+        Part Number.................74Y3920
+        Product Specific.(HE).......0001
+        Product Specific.(CT).......40B60004
+        Product Specific.(HW).......0001
+        Product Specific.(B3).......000000000001
+        Product Specific.(B4).......00
+        Product Specific.(B7).......000000000000000000000000
+        Version.....................ipzSeries
+      Physical Location: U2C4E.001.DBJZ836-P3-C16
+
+      MEM2 REGULATOR  :
+        Record Name.................VINI
+        Flag Field..................XXRG
+        Hardware Location Code......U2C4E.001.DBJZ836-P3-C17
+        Customer Card ID Number.....2BC8
+        Serial Number...............YL1023AM0053
+        Part Number.................00E6369
+        FRU Number.................. 00E6369
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        Product Specific.(CR).......".{..........Fx...s..E!.
+        Version.....................RS6K
+      Physical Location: U2C4E.001.DBJZ836-P3-C17
+
+      Memory DIMM:
+        Record Name.................VINI
+        Flag Field..................XXMS
+        Hardware Location Code......U2C4E.001.DBJZ836-P3-C18
+        Customer Card ID Number.....31DE
+        Serial Number...............YH10MS43S04E
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        FRU Number..................41T8258
+        Part Number.................41T8258
+        Power.......................4900000000020000
+        Size........................32768
+        Product Specific.(HE).......0001
+        Product Specific.(CT).......12214320
+        Product Specific.(HW).......0093
+        Product Specific.(B3).......402400000001
+        Product Specific.(B4).......00
+        Product Specific.(B7).......000000000000000000000000
+        Product Specific.(OD).......
+        Product Specific.(HA).......
+        Version.....................ipzSeries
+      Physical Location: U2C4E.001.DBJZ836-P3-C18
+
+      Memory DIMM:
+        Record Name.................VINI
+        Flag Field..................XXMS
+        Hardware Location Code......U2C4E.001.DBJZ836-P3-C19
+        Customer Card ID Number.....31DE
+        Serial Number...............YH10MS43S04F
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        FRU Number..................41T8258
+        Part Number.................41T8258
+        Power.......................4900000000020000
+        Size........................32768
+        Product Specific.(HE).......0001
+        Product Specific.(CT).......12214320
+        Product Specific.(HW).......0093
+        Product Specific.(B3).......402400000001
+        Product Specific.(B4).......00
+        Product Specific.(B7).......000000000000000000000000
+        Product Specific.(OD).......
+        Product Specific.(HA).......
+        Version.....................ipzSeries
+      Physical Location: U2C4E.001.DBJZ836-P3-C19
+
+      Memory DIMM:
+        Record Name.................VINI
+        Flag Field..................XXMS
+        Hardware Location Code......U2C4E.001.DBJZ836-P3-C20
+        Customer Card ID Number.....31DE
+        Serial Number...............YH10MS43S048
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        FRU Number..................41T8258
+        Part Number.................41T8258
+        Power.......................4900000000020000
+        Size........................32768
+        Product Specific.(HE).......0001
+        Product Specific.(CT).......12214320
+        Product Specific.(HW).......0093
+        Product Specific.(B3).......402400000001
+        Product Specific.(B4).......00
+        Product Specific.(B7).......000000000000000000000000
+        Product Specific.(OD).......
+        Product Specific.(HA).......
+        Version.....................ipzSeries
+      Physical Location: U2C4E.001.DBJZ836-P3-C20
+
+      Memory DIMM:
+        Record Name.................VINI
+        Flag Field..................XXMS
+        Hardware Location Code......U2C4E.001.DBJZ836-P3-C21
+        Customer Card ID Number.....31DE
+        Serial Number...............YH10MS43S04B
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        FRU Number..................41T8258
+        Part Number.................41T8258
+        Power.......................4900000000020000
+        Size........................32768
+        Product Specific.(HE).......0001
+        Product Specific.(CT).......12214320
+        Product Specific.(HW).......0093
+        Product Specific.(B3).......402400000001
+        Product Specific.(B4).......00
+        Product Specific.(B7).......000000000000000000000000
+        Product Specific.(OD).......
+        Product Specific.(HA).......
+        Version.....................ipzSeries
+      Physical Location: U2C4E.001.DBJZ836-P3-C21
+
+      PROC2 REGULATOR :
+        Record Name.................VINI
+        Flag Field..................XXRG
+        Hardware Location Code......U2C4E.001.DBJZ836-P3-C22
+        Customer Card ID Number.....2BF8
+        Serial Number...............YL1023BD0183
+        Part Number.................00E6367
+        FRU Number.................. 00E6367
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        Product Specific.(CR)...........'.3..B....;...x.....
+        Version.....................RS6K
+      Physical Location: U2C4E.001.DBJZ836-P3-C22
+
+      4-WAY  PROC CUOD:
+        Record Name.................VINI
+        Flag Field..................XXPF
+        Hardware Location Code......U2C4E.001.DBJZ836-P3-C23
+        Customer Card ID Number.....54A8
+        Serial Number...............YA1931884416
+        FRU Number..................00E6818
+        Part Number.................00E6818
+        Product Specific.(HE).......0001
+        Product Specific.(CT).......40110004
+        Product Specific.(HW).......0001
+        Product Specific.(B3).......000000000000
+        Product Specific.(B4).......00
+        Product Specific.(B7).......000000000000000000000000
+        Power.......................3400400133038000
+        Product Specific.(VZ).......03
+        CCIN Extender...............1
+        Version.....................ipzSeries
+      Physical Location: U2C4E.001.DBJZ836-P3-C23
+
+      4-WAY  PROC CUOD:
+        Record Name.................VINI
+        Flag Field..................XXPF
+        Hardware Location Code......U2C4E.001.DBJZ836-P3-C24
+        Customer Card ID Number.....54A8
+        Serial Number...............YA1931884411
+        FRU Number..................00E6818
+        Part Number.................00E6818
+        Product Specific.(HE).......0001
+        Product Specific.(CT).......40110004
+        Product Specific.(HW).......0001
+        Product Specific.(B3).......000000000000
+        Product Specific.(B4).......00
+        Product Specific.(B7).......000000000000000000000000
+        Power.......................3400400133038000
+        Product Specific.(VZ).......03
+        CCIN Extender...............1
+        Version.....................ipzSeries
+      Physical Location: U2C4E.001.DBJZ836-P3-C24
+
+      PROC2 REGULATOR :
+        Record Name.................VINI
+        Flag Field..................XXRG
+        Hardware Location Code......U2C4E.001.DBJZ836-P3-C25
+        Customer Card ID Number.....2BF8
+        Serial Number...............YL1023BD0188
+        Part Number.................00E6367
+        FRU Number.................. 00E6367
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        Product Specific.(CR)..........."L...*........\.*Z..
+        Version.....................RS6K
+      Physical Location: U2C4E.001.DBJZ836-P3-C25
+
+      PROC2 REGULATOR :
+        Record Name.................VINI
+        Flag Field..................XXRG
+        Hardware Location Code......U2C4E.001.DBJZ836-P3-C26
+        Customer Card ID Number.....2BF8
+        Serial Number...............YL1023BD0186
+        Part Number.................00E6367
+        FRU Number.................. 00E6367
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        Product Specific.(CR)........... ....I........x.....
+        Version.....................RS6K
+      Physical Location: U2C4E.001.DBJZ836-P3-C26
+
+      4-WAY  PROC CUOD:
+        Record Name.................VINI
+        Flag Field..................XXPF
+        Hardware Location Code......U2C4E.001.DBJZ836-P3-C27
+        Customer Card ID Number.....54A8
+        Serial Number...............YA1931884415
+        FRU Number..................00E6818
+        Part Number.................00E6818
+        Product Specific.(HE).......0001
+        Product Specific.(CT).......40110004
+        Product Specific.(HW).......0001
+        Product Specific.(B3).......000000000000
+        Product Specific.(B4).......00
+        Product Specific.(B7).......000000000000000000000000
+        Power.......................3400400133038000
+        Product Specific.(VZ).......03
+        CCIN Extender...............1
+        Version.....................ipzSeries
+      Physical Location: U2C4E.001.DBJZ836-P3-C27
+
+      4-WAY  PROC CUOD:
+        Record Name.................VINI
+        Flag Field..................XXPF
+        Hardware Location Code......U2C4E.001.DBJZ836-P3-C28
+        Customer Card ID Number.....54A8
+        Serial Number...............YA1931884410
+        FRU Number..................00E6818
+        Part Number.................00E6818
+        Product Specific.(HE).......0001
+        Product Specific.(CT).......40110004
+        Product Specific.(HW).......0001
+        Product Specific.(B3).......000000000000
+        Product Specific.(B4).......00
+        Product Specific.(B7).......000000000000000000000000
+        Power.......................3400400133038000
+        Product Specific.(VZ).......03
+        CCIN Extender...............1
+        Version.....................ipzSeries
+      Physical Location: U2C4E.001.DBJZ836-P3-C28
+
+      PROC2 REGULATOR :
+        Record Name.................VINI
+        Flag Field..................XXRG
+        Hardware Location Code......U2C4E.001.DBJZ836-P3-C29
+        Customer Card ID Number.....2BF8
+        Serial Number...............YL1023BD0184
+        Part Number.................00E6367
+        FRU Number.................. 00E6367
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        Product Specific.(CR)............R...;-... .....o.u.
+        Version.....................RS6K
+      Physical Location: U2C4E.001.DBJZ836-P3-C29
+
+      A IBM AC PS     :
+        Record Name.................VINI
+        Flag Field..................XXPS
+        Hardware Location Code......U2C4E.001.DBJZ836-E1
+        Customer Card ID Number.....2BED
+        Serial Number...............YL1024890571
+        Part Number.................00FW422
+        FRU Number.................. 00FW422
+        Version.....................RS6K
+      Physical Location: U2C4E.001.DBJZ836-E1
+
+      A IBM AC PS     :
+        Record Name.................VINI
+        Flag Field..................XXPS
+        Hardware Location Code......U2C4E.001.DBJZ836-E2
+        Customer Card ID Number.....2BED
+        Serial Number...............YL1024890576
+        Part Number.................00FW422
+        FRU Number.................. 00FW422
+        Version.....................RS6K
+      Physical Location: U2C4E.001.DBJZ836-E2
+
+      IBM Air Mover   :
+        Record Name.................VINI
+        Flag Field..................XXAM
+        Hardware Location Code......U2C4E.001.DBJZ836-A1
+        Customer Card ID Number.....6B1A
+        FRU Number.................. 46K4939
+        Version.....................RS6K
+      Physical Location: U2C4E.001.DBJZ836-A1
+
+      IBM Air Mover   :
+        Record Name.................VINI
+        Flag Field..................XXAM
+        Hardware Location Code......U2C4E.001.DBJZ836-A2
+        Customer Card ID Number.....6B1A
+        FRU Number.................. 46K4939
+        Version.....................RS6K
+      Physical Location: U2C4E.001.DBJZ836-A2
+
+      IBM Air Mover   :
+        Record Name.................VINI
+        Flag Field..................XXAM
+        Hardware Location Code......U2C4E.001.DBJZ836-A3
+        Customer Card ID Number.....6B1A
+        FRU Number.................. 46K4939
+        Version.....................RS6K
+      Physical Location: U2C4E.001.DBJZ836-A3
+
+      IBM Air Mover   :
+        Record Name.................VINI
+        Flag Field..................XXAM
+        Hardware Location Code......U2C4E.001.DBJZ836-A4
+        Customer Card ID Number.....6B1A
+        FRU Number.................. 46K4939
+        Version.....................RS6K
+      Physical Location: U2C4E.001.DBJZ836-A4
+
+      IBM Air Mover   :
+        Record Name.................VINI
+        Flag Field..................XXAM
+        Hardware Location Code......U2C4E.001.DBJZ836-A5
+        Customer Card ID Number.....6B1A
+        FRU Number.................. 46K4939
+        Version.....................RS6K
+      Physical Location: U2C4E.001.DBJZ836-A5
+
+      CEC:
+        Record Name.................VCEN
+        Flag Field..................XXEV
+        Brand.......................S0
+        Hardware Location Code......U2C4E.001.DBJ0041
+        Machine/Cabinet Serial No...DBJ0041
+        Machine Type and Model......78C0-001
+        Controlling CEC ID..........9179-MHD 21ADA1V
+        Rack Serial Number..........0000000000000000
+        Feature Code/Marketing ID...78C0-001
+        Version.....................ipzSeries
+      Physical Location: U2C4E.001.DBJ0041
+
+      BP EXTENSION    :
+        Record Name.................VINI
+        Flag Field..................XXBP
+        Hardware Location Code......U2C4E.001.DBJ0041-P1
+        Customer Card ID Number.....2BBD
+        Serial Number...............YL11BG4AW04A
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        FRU Number..................74Y2627
+        Part Number.................00E1018
+        Power.......................2300000000000000
+        Product Specific.(HE).......0001
+        Product Specific.(CT).......40F30016
+        Product Specific.(HW).......0001
+        Product Specific.(B3).......000000000001
+        Product Specific.(B4).......00
+        Product Specific.(B7).......000000000000000000000000
+        Version.....................ipzSeries
+      Physical Location: U2C4E.001.DBJ0041-P1
+
+      CLOCK PASSTHRU  :
+        Record Name.................VINI
+        Flag Field..................XXCC
+        Hardware Location Code......U2C4E.001.DBJ0041-P1-C1
+        Customer Card ID Number.....2BBC
+        Serial Number...............YL12BG4BM041
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        FRU Number..................74Y2861
+        Part Number.................74Y3878
+        Power.......................1300000000000000
+        Product Specific.(HE).......0001
+        Product Specific.(CT).......30B20003
+        Product Specific.(HW).......0003
+        Product Specific.(B3).......000000000001
+        Product Specific.(B4).......00
+        Product Specific.(B7).......000000000000000000000000
+        Version.....................ipzSeries
+      Physical Location: U2C4E.001.DBJ0041-P1-C1
+
+      I/O BACKPLANE   :
+        Record Name.................VINI
+        Flag Field..................XXCC
+        Hardware Location Code......U2C4E.001.DBJ0041-P2
+        Customer Card ID Number.....2B59
+        Serial Number...............YL10BG4AR04J
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        FRU Number..................00E2748
+        Part Number.................00E3436
+        Power.......................2900000000000000
+        Product Specific.(HE).......0001
+        Product Specific.(CT).......40F30025
+        Product Specific.(HW).......0100
+        Product Specific.(B3).......000000000001
+        Product Specific.(B4).......00
+        Product Specific.(B7).......000000000000000000000000
+        Version.....................ipzSeries
+      Physical Location: U2C4E.001.DBJ0041-P2
+
+      DUAL 1&10GBO ETH:
+        Record Name.................VINI
+        Flag Field..................XXET
+        Hardware Location Code......U2C4E.001.DBJ0041-P2-C8
+        Customer Card ID Number.....2C4D
+        Serial Number...............YL10BG38D00W
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        FRU Number..................00E2913
+        Part Number.................00E2914
+        Product Specific.(HE).......0001
+        Product Specific.(CT).......30910008
+        Product Specific.(HW).......0001
+        Product Specific.(B3).......000000000001
+        Product Specific.(B4).......00
+        Product Specific.(B7).......000000000000000000000000
+        Version.....................ipzSeries
+      Physical Location: U2C4E.001.DBJ0041-P2-C8
+
+      PSBPD6MR  3GSAS :
+        Record Name.................VINI
+        Flag Field..................XXPR
+        Hardware Location Code......U2C4E.001.DBJ0041-P2-C9
+        Customer Card ID Number.....2BBE
+        Serial Number...............YL13D4340098
+        FRU Number.................. 00E7753
+        Part Number.................00E6221
+        CCIN Extender...............1
+        Product Specific.(VZ).......04
+        Product Specific.(B2).......5005076065E53D000000000000000100
+        Version.....................RS6K
+      Physical Location: U2C4E.001.DBJ0041-P2-C9
+
+      PROCESSOR BX    :
+        Record Name.................VINI
+        Flag Field..................XXBX
+        Hardware Location Code......U2C4E.001.DBJ0041-P3
+        Customer Card ID Number.....2C4E
+        Serial Number...............YL10BG46P055
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        FRU Number..................00E1330
+        Part Number.................00E3891
+        Power.......................A600000000000000
+        Product Specific.(HE).......0001
+        Product Specific.(CT).......40120020
+        Product Specific.(HW).......0400
+        Product Specific.(B3).......000000000001
+        Product Specific.(B4).......00
+        Product Specific.(B7).......000000000000000000000000
+        Version.....................ipzSeries
+      Physical Location: U2C4E.001.DBJ0041-P3
+
+      Memory DIMM:
+        Record Name.................VINI
+        Flag Field..................XXMS
+        Hardware Location Code......U2C4E.001.DBJ0041-P3-C1
+        Customer Card ID Number.....31DE
+        Serial Number...............YH10M14B71DN
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        FRU Number..................41T8258
+        Part Number.................41T8258
+        Power.......................4900000000020000
+        Size........................32768
+        Product Specific.(HE).......0001
+        Product Specific.(CT).......12214320
+        Product Specific.(HW).......0093
+        Product Specific.(B3).......402400000001
+        Product Specific.(B4).......00
+        Product Specific.(B7).......000000000000000000000000
+        Product Specific.(OD).......
+        Product Specific.(HA).......
+        Version.....................ipzSeries
+      Physical Location: U2C4E.001.DBJ0041-P3-C1
+
+      Memory DIMM:
+        Record Name.................VINI
+        Flag Field..................XXMS
+        Hardware Location Code......U2C4E.001.DBJ0041-P3-C2
+        Customer Card ID Number.....31DE
+        Serial Number...............YH10M14BC1CC
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        FRU Number..................41T8258
+        Part Number.................41T8258
+        Power.......................4900000000020000
+        Size........................32768
+        Product Specific.(HE).......0001
+        Product Specific.(CT).......12214320
+        Product Specific.(HW).......0093
+        Product Specific.(B3).......402400000001
+        Product Specific.(B4).......00
+        Product Specific.(B7).......000000000000000000000000
+        Product Specific.(OD).......
+        Product Specific.(HA).......
+        Version.....................ipzSeries
+      Physical Location: U2C4E.001.DBJ0041-P3-C2
+
+      Memory DIMM:
+        Record Name.................VINI
+        Flag Field..................XXMS
+        Hardware Location Code......U2C4E.001.DBJ0041-P3-C3
+        Customer Card ID Number.....31DE
+        Serial Number...............YH10M14BC1C2
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        FRU Number..................41T8258
+        Part Number.................41T8258
+        Power.......................4900000000020000
+        Size........................32768
+        Product Specific.(HE).......0001
+        Product Specific.(CT).......12214320
+        Product Specific.(HW).......0093
+        Product Specific.(B3).......402400000001
+        Product Specific.(B4).......00
+        Product Specific.(B7).......000000000000000000000000
+        Product Specific.(OD).......
+        Product Specific.(HA).......
+        Version.....................ipzSeries
+      Physical Location: U2C4E.001.DBJ0041-P3-C3
+
+      Memory DIMM:
+        Record Name.................VINI
+        Flag Field..................XXMS
+        Hardware Location Code......U2C4E.001.DBJ0041-P3-C4
+        Customer Card ID Number.....31DE
+        Serial Number...............YH10M14BC178
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        FRU Number..................41T8258
+        Part Number.................41T8258
+        Power.......................4900000000020000
+        Size........................32768
+        Product Specific.(HE).......0001
+        Product Specific.(CT).......12214320
+        Product Specific.(HW).......0093
+        Product Specific.(B3).......402400000001
+        Product Specific.(B4).......00
+        Product Specific.(B7).......000000000000000000000000
+        Product Specific.(OD).......
+        Product Specific.(HA).......
+        Version.....................ipzSeries
+      Physical Location: U2C4E.001.DBJ0041-P3-C4
+
+      MEM2 REGULATOR  :
+        Record Name.................VINI
+        Flag Field..................XXRG
+        Hardware Location Code......U2C4E.001.DBJ0041-P3-C5
+        Customer Card ID Number.....2BC8
+        Serial Number...............YL10246H0083
+        Part Number.................00E6369
+        FRU Number.................. 00E6369
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        Product Specific.(CR)......."c..9.B.......Y......L).
+        Version.....................RS6K
+      Physical Location: U2C4E.001.DBJ0041-P3-C5
+
+      3OP REGULATOR   :
+        Record Name.................VINI
+        Flag Field..................XXRG
+        Hardware Location Code......U2C4E.001.DBJ0041-P3-C6
+        Customer Card ID Number.....2BF9
+        Serial Number...............YL1024580010
+        Part Number.................00E6371
+        FRU Number.................. 00E6371
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        Product Specific.(CR).............$..=....v..
+        Version.....................RS6K
+      Physical Location: U2C4E.001.DBJ0041-P3-C6
+
+      Memory DIMM:
+        Record Name.................VINI
+        Flag Field..................XXMS
+        Hardware Location Code......U2C4E.001.DBJ0041-P3-C7
+        Customer Card ID Number.....31DE
+        Serial Number...............YH10M14AS1F9
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        FRU Number..................41T8258
+        Part Number.................41T8258
+        Power.......................4900000000020000
+        Size........................32768
+        Product Specific.(HE).......0001
+        Product Specific.(CT).......12214320
+        Product Specific.(HW).......0093
+        Product Specific.(B3).......402400000001
+        Product Specific.(B4).......00
+        Product Specific.(B7).......000000000000000000000000
+        Product Specific.(OD).......
+        Product Specific.(HA).......
+        Version.....................ipzSeries
+      Physical Location: U2C4E.001.DBJ0041-P3-C7
+
+      Memory DIMM:
+        Record Name.................VINI
+        Flag Field..................XXMS
+        Hardware Location Code......U2C4E.001.DBJ0041-P3-C8
+        Customer Card ID Number.....31DE
+        Serial Number...............YH10M14BC16F
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        FRU Number..................41T8258
+        Part Number.................41T8258
+        Power.......................4900000000020000
+        Size........................32768
+        Product Specific.(HE).......0001
+        Product Specific.(CT).......12214320
+        Product Specific.(HW).......0093
+        Product Specific.(B3).......402400000001
+        Product Specific.(B4).......00
+        Product Specific.(B7).......000000000000000000000000
+        Product Specific.(OD).......
+        Product Specific.(HA).......
+        Version.....................ipzSeries
+      Physical Location: U2C4E.001.DBJ0041-P3-C8
+
+      Memory DIMM:
+        Record Name.................VINI
+        Flag Field..................XXMS
+        Hardware Location Code......U2C4E.001.DBJ0041-P3-C9
+        Customer Card ID Number.....31DE
+        Serial Number...............YH10M14BC172
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        FRU Number..................41T8258
+        Part Number.................41T8258
+        Power.......................4900000000020000
+        Size........................32768
+        Product Specific.(HE).......0001
+        Product Specific.(CT).......12214320
+        Product Specific.(HW).......0093
+        Product Specific.(B3).......402400000001
+        Product Specific.(B4).......00
+        Product Specific.(B7).......000000000000000000000000
+        Product Specific.(OD).......
+        Product Specific.(HA).......
+        Version.....................ipzSeries
+      Physical Location: U2C4E.001.DBJ0041-P3-C9
+
+      Memory DIMM:
+        Record Name.................VINI
+        Flag Field..................XXMS
+        Hardware Location Code......U2C4E.001.DBJ0041-P3-C10
+        Customer Card ID Number.....31DE
+        Serial Number...............YH10M14B71CY
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        FRU Number..................41T8258
+        Part Number.................41T8258
+        Power.......................4900000000020000
+        Size........................32768
+        Product Specific.(HE).......0001
+        Product Specific.(CT).......12214320
+        Product Specific.(HW).......0093
+        Product Specific.(B3).......402400000001
+        Product Specific.(B4).......00
+        Product Specific.(B7).......000000000000000000000000
+        Product Specific.(OD).......
+        Product Specific.(HA).......
+        Version.....................ipzSeries
+      Physical Location: U2C4E.001.DBJ0041-P3-C10
+
+      Memory DIMM:
+        Record Name.................VINI
+        Flag Field..................XXMS
+        Hardware Location Code......U2C4E.001.DBJ0041-P3-C11
+        Customer Card ID Number.....31DE
+        Serial Number...............YH10M14B71DF
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        FRU Number..................41T8258
+        Part Number.................41T8258
+        Power.......................4900000000020000
+        Size........................32768
+        Product Specific.(HE).......0001
+        Product Specific.(CT).......12214320
+        Product Specific.(HW).......0093
+        Product Specific.(B3).......402400000001
+        Product Specific.(B4).......00
+        Product Specific.(B7).......000000000000000000000000
+        Product Specific.(OD).......
+        Product Specific.(HA).......
+        Version.....................ipzSeries
+      Physical Location: U2C4E.001.DBJ0041-P3-C11
+
+      Memory DIMM:
+        Record Name.................VINI
+        Flag Field..................XXMS
+        Hardware Location Code......U2C4E.001.DBJ0041-P3-C12
+        Customer Card ID Number.....31DE
+        Serial Number...............YH10M14BC1AD
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        FRU Number..................41T8258
+        Part Number.................41T8258
+        Power.......................4900000000020000
+        Size........................32768
+        Product Specific.(HE).......0001
+        Product Specific.(CT).......12214320
+        Product Specific.(HW).......0093
+        Product Specific.(B3).......402400000001
+        Product Specific.(B4).......00
+        Product Specific.(B7).......000000000000000000000000
+        Product Specific.(OD).......
+        Product Specific.(HA).......
+        Version.....................ipzSeries
+      Physical Location: U2C4E.001.DBJ0041-P3-C12
+
+      Memory DIMM:
+        Record Name.................VINI
+        Flag Field..................XXMS
+        Hardware Location Code......U2C4E.001.DBJ0041-P3-C13
+        Customer Card ID Number.....31DE
+        Serial Number...............YH10M14BC1AZ
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        FRU Number..................41T8258
+        Part Number.................41T8258
+        Power.......................4900000000020000
+        Size........................32768
+        Product Specific.(HE).......0001
+        Product Specific.(CT).......12214320
+        Product Specific.(HW).......0093
+        Product Specific.(B3).......402400000001
+        Product Specific.(B4).......00
+        Product Specific.(B7).......000000000000000000000000
+        Product Specific.(OD).......
+        Product Specific.(HA).......
+        Version.....................ipzSeries
+      Physical Location: U2C4E.001.DBJ0041-P3-C13
+
+      Memory DIMM:
+        Record Name.................VINI
+        Flag Field..................XXMS
+        Hardware Location Code......U2C4E.001.DBJ0041-P3-C14
+        Customer Card ID Number.....31DE
+        Serial Number...............YH10M14BC1AP
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        FRU Number..................41T8258
+        Part Number.................41T8258
+        Power.......................4900000000020000
+        Size........................32768
+        Product Specific.(HE).......0001
+        Product Specific.(CT).......12214320
+        Product Specific.(HW).......0093
+        Product Specific.(B3).......402400000001
+        Product Specific.(B4).......00
+        Product Specific.(B7).......000000000000000000000000
+        Product Specific.(OD).......
+        Product Specific.(HA).......
+        Version.....................ipzSeries
+      Physical Location: U2C4E.001.DBJ0041-P3-C14
+
+      3OP REGULATOR   :
+        Record Name.................VINI
+        Flag Field..................XXRG
+        Hardware Location Code......U2C4E.001.DBJ0041-P3-C15
+        Customer Card ID Number.....2BF9
+        Serial Number...............YL1024580005
+        Part Number.................00E6371
+        FRU Number.................. 00E6371
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        Product Specific.(CR).........^...t..AV...........U.
+        Version.....................RS6K
+      Physical Location: U2C4E.001.DBJ0041-P3-C15
+
+      THERMAL PWR MGMT:
+        Record Name.................VINI
+        Flag Field..................XXTP
+        Hardware Location Code......U2C4E.001.DBJ0041-P3-C16
+        Customer Card ID Number.....2A14
+        Serial Number...............YL10UF46J06L
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        FRU Number..................74Y2876
+        Part Number.................74Y3920
+        Product Specific.(HE).......0001
+        Product Specific.(CT).......40B60004
+        Product Specific.(HW).......0001
+        Product Specific.(B3).......000000000001
+        Product Specific.(B4).......00
+        Product Specific.(B7).......000000000000000000000000
+        Version.....................ipzSeries
+      Physical Location: U2C4E.001.DBJ0041-P3-C16
+
+      MEM2 REGULATOR  :
+        Record Name.................VINI
+        Flag Field..................XXRG
+        Hardware Location Code......U2C4E.001.DBJ0041-P3-C17
+        Customer Card ID Number.....2BC8
+        Serial Number...............YL10246H0089
+        Part Number.................00E6369
+        FRU Number.................. 00E6369
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        Product Specific.(CR)......."[m...+.............(.d.
+        Version.....................RS6K
+      Physical Location: U2C4E.001.DBJ0041-P3-C17
+
+      Memory DIMM:
+        Record Name.................VINI
+        Flag Field..................XXMS
+        Hardware Location Code......U2C4E.001.DBJ0041-P3-C18
+        Customer Card ID Number.....31DE
+        Serial Number...............YH10M14BC1AG
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        FRU Number..................41T8258
+        Part Number.................41T8258
+        Power.......................4900000000020000
+        Size........................32768
+        Product Specific.(HE).......0001
+        Product Specific.(CT).......12214320
+        Product Specific.(HW).......0093
+        Product Specific.(B3).......402400000001
+        Product Specific.(B4).......00
+        Product Specific.(B7).......000000000000000000000000
+        Product Specific.(OD).......
+        Product Specific.(HA).......
+        Version.....................ipzSeries
+      Physical Location: U2C4E.001.DBJ0041-P3-C18
+
+      Memory DIMM:
+        Record Name.................VINI
+        Flag Field..................XXMS
+        Hardware Location Code......U2C4E.001.DBJ0041-P3-C19
+        Customer Card ID Number.....31DE
+        Serial Number...............YH10M14BC1AB
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        FRU Number..................41T8258
+        Part Number.................41T8258
+        Power.......................4900000000020000
+        Size........................32768
+        Product Specific.(HE).......0001
+        Product Specific.(CT).......12214320
+        Product Specific.(HW).......0093
+        Product Specific.(B3).......402400000001
+        Product Specific.(B4).......00
+        Product Specific.(B7).......000000000000000000000000
+        Product Specific.(OD).......
+        Product Specific.(HA).......
+        Version.....................ipzSeries
+      Physical Location: U2C4E.001.DBJ0041-P3-C19
+
+      Memory DIMM:
+        Record Name.................VINI
+        Flag Field..................XXMS
+        Hardware Location Code......U2C4E.001.DBJ0041-P3-C20
+        Customer Card ID Number.....31DE
+        Serial Number...............YH10M14BC1AF
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        FRU Number..................41T8258
+        Part Number.................41T8258
+        Power.......................4900000000020000
+        Size........................32768
+        Product Specific.(HE).......0001
+        Product Specific.(CT).......12214320
+        Product Specific.(HW).......0093
+        Product Specific.(B3).......402400000001
+        Product Specific.(B4).......00
+        Product Specific.(B7).......000000000000000000000000
+        Product Specific.(OD).......
+        Product Specific.(HA).......
+        Version.....................ipzSeries
+      Physical Location: U2C4E.001.DBJ0041-P3-C20
+
+      Memory DIMM:
+        Record Name.................VINI
+        Flag Field..................XXMS
+        Hardware Location Code......U2C4E.001.DBJ0041-P3-C21
+        Customer Card ID Number.....31DE
+        Serial Number...............YH10M14BC1AX
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        FRU Number..................41T8258
+        Part Number.................41T8258
+        Power.......................4900000000020000
+        Size........................32768
+        Product Specific.(HE).......0001
+        Product Specific.(CT).......12214320
+        Product Specific.(HW).......0093
+        Product Specific.(B3).......402400000001
+        Product Specific.(B4).......00
+        Product Specific.(B7).......000000000000000000000000
+        Product Specific.(OD).......
+        Product Specific.(HA).......
+        Version.....................ipzSeries
+      Physical Location: U2C4E.001.DBJ0041-P3-C21
+
+      PROC2 REGULATOR :
+        Record Name.................VINI
+        Flag Field..................XXRG
+        Hardware Location Code......U2C4E.001.DBJ0041-P3-C22
+        Customer Card ID Number.....2BF8
+        Serial Number...............YL10245C0177
+        Part Number.................00E6367
+        FRU Number.................. 00E6367
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        Product Specific.(CR)........h.......$....s...x.%...
+        Version.....................RS6K
+      Physical Location: U2C4E.001.DBJ0041-P3-C22
+
+      4-WAY  PROC CUOD:
+        Record Name.................VINI
+        Flag Field..................XXPF
+        Hardware Location Code......U2C4E.001.DBJ0041-P3-C23
+        Customer Card ID Number.....54A8
+        Serial Number...............YA1932217730
+        FRU Number..................00E6818
+        Part Number.................00E6818
+        Product Specific.(HE).......0001
+        Product Specific.(CT).......40110004
+        Product Specific.(HW).......0001
+        Product Specific.(B3).......000000000000
+        Product Specific.(B4).......00
+        Product Specific.(B7).......000000000000000000000000
+        Power.......................3400400133038000
+        Product Specific.(VZ).......03
+        CCIN Extender...............1
+        Version.....................ipzSeries
+      Physical Location: U2C4E.001.DBJ0041-P3-C23
+
+      4-WAY  PROC CUOD:
+        Record Name.................VINI
+        Flag Field..................XXPF
+        Hardware Location Code......U2C4E.001.DBJ0041-P3-C24
+        Customer Card ID Number.....54A8
+        Serial Number...............YA1932217699
+        FRU Number..................00E6818
+        Part Number.................00E6818
+        Product Specific.(HE).......0001
+        Product Specific.(CT).......40110004
+        Product Specific.(HW).......0001
+        Product Specific.(B3).......000000000000
+        Product Specific.(B4).......00
+        Product Specific.(B7).......000000000000000000000000
+        Power.......................3400400133038000
+        Product Specific.(VZ).......03
+        CCIN Extender...............1
+        Version.....................ipzSeries
+      Physical Location: U2C4E.001.DBJ0041-P3-C24
+
+      PROC2 REGULATOR :
+        Record Name.................VINI
+        Flag Field..................XXRG
+        Hardware Location Code......U2C4E.001.DBJ0041-P3-C25
+        Customer Card ID Number.....2BF8
+        Serial Number...............YL10245C0191
+        Part Number.................00E6367
+        FRU Number.................. 00E6367
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        Product Specific.(CR).........n.......>..o
+        Version.....................RS6K
+      Physical Location: U2C4E.001.DBJ0041-P3-C25
+
+      PROC2 REGULATOR :
+        Record Name.................VINI
+        Flag Field..................XXRG
+        Hardware Location Code......U2C4E.001.DBJ0041-P3-C26
+        Customer Card ID Number.....2BF8
+        Serial Number...............YL10245A0106
+        Part Number.................00E6367
+        FRU Number.................. 00E6367
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        Product Specific.(CR).........F..%...{....+..B@.....
+        Version.....................RS6K
+      Physical Location: U2C4E.001.DBJ0041-P3-C26
+
+      4-WAY  PROC CUOD:
+        Record Name.................VINI
+        Flag Field..................XXPF
+        Hardware Location Code......U2C4E.001.DBJ0041-P3-C27
+        Customer Card ID Number.....54A8
+        Serial Number...............YA1932217729
+        FRU Number..................00E6818
+        Part Number.................00E6818
+        Product Specific.(HE).......0001
+        Product Specific.(CT).......40110004
+        Product Specific.(HW).......0001
+        Product Specific.(B3).......000000000000
+        Product Specific.(B4).......00
+        Product Specific.(B7).......000000000000000000000000
+        Power.......................3400400133038000
+        Product Specific.(VZ).......03
+        CCIN Extender...............1
+        Version.....................ipzSeries
+      Physical Location: U2C4E.001.DBJ0041-P3-C27
+
+      4-WAY  PROC CUOD:
+        Record Name.................VINI
+        Flag Field..................XXPF
+        Hardware Location Code......U2C4E.001.DBJ0041-P3-C28
+        Customer Card ID Number.....54A8
+        Serial Number...............YA1932217692
+        FRU Number..................00E6818
+        Part Number.................00E6818
+        Product Specific.(HE).......0001
+        Product Specific.(CT).......40110004
+        Product Specific.(HW).......0001
+        Product Specific.(B3).......000000000000
+        Product Specific.(B4).......00
+        Product Specific.(B7).......000000000000000000000000
+        Power.......................3400400133038000
+        Product Specific.(VZ).......03
+        CCIN Extender...............1
+        Version.....................ipzSeries
+      Physical Location: U2C4E.001.DBJ0041-P3-C28
+
+      PROC2 REGULATOR :
+        Record Name.................VINI
+        Flag Field..................XXRG
+        Hardware Location Code......U2C4E.001.DBJ0041-P3-C29
+        Customer Card ID Number.....2BF8
+        Serial Number...............YL10245A0100
+        Part Number.................00E6367
+        FRU Number.................. 00E6367
+        CCIN Extender...............1
+        Product Specific.(VZ).......01
+        Product Specific.(CR)........l^.......S..&)...F.+...
+        Version.....................RS6K
+      Physical Location: U2C4E.001.DBJ0041-P3-C29
+
+      A IBM AC PS     :
+        Record Name.................VINI
+        Flag Field..................XXPS
+        Hardware Location Code......U2C4E.001.DBJ0041-E1
+        Customer Card ID Number.....2BED
+        Serial Number...............YL10247C0281
+        Part Number.................00FW422
+        FRU Number.................. 00FW422
+        Version.....................RS6K
+      Physical Location: U2C4E.001.DBJ0041-E1
+
+      A IBM AC PS     :
+        Record Name.................VINI
+        Flag Field..................XXPS
+        Hardware Location Code......U2C4E.001.DBJ0041-E2
+        Customer Card ID Number.....2BED
+        Serial Number...............YL1024890600
+        Part Number.................00FW422
+        FRU Number.................. 00FW422
+        Version.....................RS6K
+      Physical Location: U2C4E.001.DBJ0041-E2
+
+      IBM Air Mover   :
+        Record Name.................VINI
+        Flag Field..................XXAM
+        Hardware Location Code......U2C4E.001.DBJ0041-A1
+        Customer Card ID Number.....6B1A
+        FRU Number.................. 46K4939
+        Version.....................RS6K
+      Physical Location: U2C4E.001.DBJ0041-A1
+
+      IBM Air Mover   :
+        Record Name.................VINI
+        Flag Field..................XXAM
+        Hardware Location Code......U2C4E.001.DBJ0041-A2
+        Customer Card ID Number.....6B1A
+        FRU Number.................. 46K4939
+        Version.....................RS6K
+      Physical Location: U2C4E.001.DBJ0041-A2
+
+      IBM Air Mover   :
+        Record Name.................VINI
+        Flag Field..................XXAM
+        Hardware Location Code......U2C4E.001.DBJ0041-A3
+        Customer Card ID Number.....6B1A
+        FRU Number.................. 46K4939
+        Version.....................RS6K
+      Physical Location: U2C4E.001.DBJ0041-A3
+
+      IBM Air Mover   :
+        Record Name.................VINI
+        Flag Field..................XXAM
+        Hardware Location Code......U2C4E.001.DBJ0041-A4
+        Customer Card ID Number.....6B1A
+        FRU Number.................. 46K4939
+        Version.....................RS6K
+      Physical Location: U2C4E.001.DBJ0041-A4
+
+      IBM Air Mover   :
+        Record Name.................VINI
+        Flag Field..................XXAM
+        Hardware Location Code......U2C4E.001.DBJ0041-A5
+        Customer Card ID Number.....6B1A
+        FRU Number.................. 46K4939
+        Version.....................RS6K
+      Physical Location: U2C4E.001.DBJ0041-A5
+
+      System Firmware:
+        Code Level, LID Keyword.....Phyp_1 09532014102880A00701
+        Code Level, LID Keyword.....PFW 15112014100181CF0681
+        Code Level, LID Keyword.....FSP_Ker 09562014121181E00100
+        Code Level, LID Keyword.....FSP_Fil 10022014121181E00109
+        Code Level, LID Keyword.....FipS_BU 10022014121181E00208
+        Code Level, LID Keyword.....Phyp_2 09532014102885A00702
+        Code Level, LID Keyword.....SPCN3 124620060531A0E00A11
+        Code Level, LID Keyword.....SPCN1 183020070213A0E00D00
+        Code Level, LID Keyword.....SPCN2 183420070213A0E00D20
+        Microcode Image.............AM780_068 AM780_059 AM780_068
+        Microcode Level.............FW780.21 FW780.11 FW780.21
+        Hardware Location Code......U9179.MHD.21ADA1V-Y1
+      Physical Location: U9179.MHD.21ADA1V-Y1
+
+  Name:  openprom
+    Model:  IBM,AM780_068
+    Node:  openprom
+
+  Name:  interrupt-controller
+    Model:  IBM, Logical PowerPC-PIC, 00
+    Node:  interrupt-controller@0
+    Device Type:  PowerPC-External-Interrupt-Presentation
+
+  Name:  vty
+    Node:  vty@30000000
+    Device Type:  serial
+    Physical Location: U9179.MHD.21ADA1V-V27-C0
+
+  Name:  l-lan
+    Node:  l-lan@30000004
+    Device Type:  network
+    Physical Location: U9179.MHD.21ADA1V-V27-C4-T1
+
+  Name:  l-lan
+    Node:  l-lan@30000005
+    Device Type:  network
+    Physical Location: U9179.MHD.21ADA1V-V27-C5-T1
+
+  Name:  l-lan
+    Node:  l-lan@30000006
+    Device Type:  network
+    Physical Location: U9179.MHD.21ADA1V-V27-C6-T1
+
+  Name:  l-lan
+    Node:  l-lan@30000007
+    Device Type:  network
+    Physical Location: U9179.MHD.21ADA1V-V27-C7-T1
+
+  Name:  v-scsi
+    Node:  v-scsi@300000e7
+    Device Type:  vscsi
+    Physical Location: U9179.MHD.21ADA1V-V27-C231-T1
+
+  Name:  v-scsi
+    Node:  v-scsi@300000e8
+    Device Type:  vscsi
+    Physical Location: U9179.MHD.21ADA1V-V27-C232-T1
+
+  Name:  v-scsi
+    Node:  v-scsi@300000e9
+    Device Type:  vscsi
+    Physical Location: U9179.MHD.21ADA1V-V27-C233-T1
+
+  Name:  v-scsi
+    Node:  v-scsi@300000ea
+    Device Type:  vscsi
+    Physical Location: U9179.MHD.21ADA1V-V27-C234-T1
+
+  Name:  v-scsi
+    Node:  v-scsi@300000eb
+    Device Type:  vscsi
+    Physical Location: U9179.MHD.21ADA1V-V27-C235-T1
+
+  Name:  v-scsi
+    Node:  v-scsi@300000ec
+    Device Type:  vscsi
+    Physical Location: U9179.MHD.21ADA1V-V27-C236-T1
+
+  Name:  v-scsi
+    Node:  v-scsi@300000ed
+    Device Type:  vscsi
+    Physical Location: U9179.MHD.21ADA1V-V27-C237-T1
+
+  Name:  v-scsi
+    Node:  v-scsi@300000ee
+    Device Type:  vscsi
+    Physical Location: U9179.MHD.21ADA1V-V27-C238-T1
+
+  Name:  v-scsi
+    Node:  v-scsi@300000ef
+    Device Type:  vscsi
+    Physical Location: U9179.MHD.21ADA1V-V27-C239-T1
+
+  Name:  v-scsi
+    Node:  v-scsi@300000f0
+    Device Type:  vscsi
+    Physical Location: U9179.MHD.21ADA1V-V27-C240-T1
+
+  Name:  vfc-client
+    Node:  vfc-client@300001af
+    Device Type:  fcp
+    Physical Location: U9179.MHD.21ADA1V-V27-C431-T1
+
+  Name:  vfc-client
+    Node:  vfc-client@300001b0
+    Device Type:  fcp
+    Physical Location: U9179.MHD.21ADA1V-V27-C432-T1
+
+  Name:  vfc-client
+    Node:  vfc-client@300001b1
+    Device Type:  fcp
+    Physical Location: U9179.MHD.21ADA1V-V27-C433-T1
+
+  Name:  vfc-client
+    Node:  vfc-client@300001b2
+    Device Type:  fcp
+    Physical Location: U9179.MHD.21ADA1V-V27-C434-T1
+
+  Name:  vfc-client
+    Node:  vfc-client@300001b3
+    Device Type:  fcp
+    Physical Location: U9179.MHD.21ADA1V-V27-C435-T1
+
+  Name:  vfc-client
+    Node:  vfc-client@300001b4
+    Device Type:  fcp
+    Physical Location: U9179.MHD.21ADA1V-V27-C436-T1
+
+  Name:  vfc-client
+    Node:  vfc-client@300001b5
+    Device Type:  fcp
+    Physical Location: U9179.MHD.21ADA1V-V27-C437-T1
+
+  Name:  vfc-client
+    Node:  vfc-client@300001b6
+    Device Type:  fcp
+    Physical Location: U9179.MHD.21ADA1V-V27-C438-T1
+==== EXITED with rc 0 ====
+==== END lscfg -pv Thu Aug  6 11:22:32 GST 2015 ====

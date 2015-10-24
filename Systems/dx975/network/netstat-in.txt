@@ -1,0 +1,10 @@
+==== This output can be found in Systems/dx975/network/netstat-in.txt ====
+==== START netstat -in Tue Jul  7 12:46:01 CDT 2015 ====
+Name  Mtu   Network     Address           Ipkts Ierrs    Opkts Oerrs  Coll
+en14  1500  link#2      4a.64.d4.e8.ba.a 52347147     0 291965602     0     0
+en14  1500  0.51.229    10.51.229.218    52347147     0 291965602     0     0
+lo0   16896 link#1                       17337091     0 17337315     0     0
+lo0   16896 127         127.0.0.1        17337091     0 17337315     0     0
+lo0   16896 ::1%1                        17337091     0 17337315     0     0
+==== EXITED with rc 0 ====
+==== END netstat -in Tue Jul  7 12:46:01 CDT 2015 ====

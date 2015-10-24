@@ -1,0 +1,672 @@
+==== This output can be found in Systems/dx979/network/netstat-v.txt ====
+==== START netstat -v  Tue Jul  7 00:29:05 GST 2015 ====
+Error opening device: /dev/fscsi8
+errno: 00000005
+Error opening device: /dev/fscsi9
+errno: 00000005
+Error opening device: /dev/fscsi12
+errno: 00000005
+Error opening device: /dev/fscsi13
+errno: 00000005
+FIBRE CHANNEL STATISTICS REPORT: fcs10
+
+Device Type: FC Adapter (adapter/vdevice/IBM,vfc-client)
+Serial Number: UNKNOWN
+Option ROM Version: UNKNOWN
+ZA: UNKNOWN
+World Wide Node Name: 0xC0507608449000B4
+World Wide Port Name: 0xC0507608449000B4
+
+FC-4 TYPES:
+  Supported: 0x0000010000000000000000000000000000000000000000000000000000000000
+  Active:    0x0000010000000000000000000000000000000000000000000000000000000000
+
+FC-4 TYPES (ULP mappings):
+  Supported ULPs:   
+    	Small Computer System Interface (SCSI) Fibre Channel Protocol (FCP)
+  Active ULPs:   
+    	Small Computer System Interface (SCSI) Fibre Channel Protocol (FCP)
+Class of Service: 3
+Port Speed (supported): UNKNOWN
+Port Speed (running):   8 GBIT
+Port FC ID: 0x02FF36
+Port Type: Fabric
+Attention Type:   UNKNOWN
+Topology:  UNKNOWN 
+
+Seconds Since Last Reset: 2159457         
+
+	Transmit Statistics	Receive Statistics
+	-------------------	------------------
+Frames: -1              	-1              
+Words:  -1              	-1              
+
+LIP Count: -1              
+NOS Count: -1              
+Error Frames:  -1              
+Dumped Frames: -1              
+Link Failure Count: -1              
+Loss of Sync Count: -1              
+Loss of Signal: -1              
+Primitive Seq Protocol Error Count: -1              
+Invalid Tx Word Count: -1              
+Invalid CRC Count: -1              
+
+IP over FC Adapter Driver Information
+  No DMA Resource Count: 224117400       
+  No Adapter Elements Count: 0               
+
+IP over FC Traffic Statistics
+  Input Requests:   0               
+  Output Requests:  0               
+  Control Requests: 0               
+  Input Bytes:  0               
+  Output Bytes: 0               
+
+Adapter Effective max transfer value:   0x100000
+
+FIBRE CHANNEL STATISTICS REPORT: fcs11
+
+Device Type: FC Adapter (adapter/vdevice/IBM,vfc-client)
+Serial Number: UNKNOWN
+Option ROM Version: UNKNOWN
+ZA: UNKNOWN
+World Wide Node Name: 0xC0507608449000B6
+World Wide Port Name: 0xC0507608449000B6
+
+FC-4 TYPES:
+  Supported: 0x0000010000000000000000000000000000000000000000000000000000000000
+  Active:    0x0000010000000000000000000000000000000000000000000000000000000000
+
+FC-4 TYPES (ULP mappings):
+  Supported ULPs:   
+    	Small Computer System Interface (SCSI) Fibre Channel Protocol (FCP)
+  Active ULPs:   
+    	Small Computer System Interface (SCSI) Fibre Channel Protocol (FCP)
+Class of Service: 3
+Port Speed (supported): UNKNOWN
+Port Speed (running):   8 GBIT
+Port FC ID: 0x02FE2D
+Port Type: Fabric
+Attention Type:   UNKNOWN
+Topology:  UNKNOWN 
+
+Seconds Since Last Reset: 2159498         
+
+	Transmit Statistics	Receive Statistics
+	-------------------	------------------
+Frames: -1              	-1              
+Words:  -1              	-1              
+
+LIP Count: -1              
+NOS Count: -1              
+Error Frames:  -1              
+Dumped Frames: -1              
+Link Failure Count: -1              
+Loss of Sync Count: -1              
+Loss of Signal: -1              
+Primitive Seq Protocol Error Count: -1              
+Invalid Tx Word Count: -1              
+Invalid CRC Count: -1              
+
+IP over FC Adapter Driver Information
+  No DMA Resource Count: 221191597       
+  No Adapter Elements Count: 0               
+
+IP over FC Traffic Statistics
+  Input Requests:   0               
+  Output Requests:  0               
+  Control Requests: 0               
+  Input Bytes:  0               
+  Output Bytes: 0               
+
+Adapter Effective max transfer value:   0x100000
+
+FIBRE CHANNEL STATISTICS REPORT: fcs14
+
+Device Type: FC Adapter (adapter/vdevice/IBM,vfc-client)
+Serial Number: UNKNOWN
+Option ROM Version: UNKNOWN
+ZA: UNKNOWN
+World Wide Node Name: 0xC0507608449000BC
+World Wide Port Name: 0xC0507608449000BC
+
+FC-4 TYPES:
+  Supported: 0x0000010000000000000000000000000000000000000000000000000000000000
+  Active:    0x0000010000000000000000000000000000000000000000000000000000000000
+
+FC-4 TYPES (ULP mappings):
+  Supported ULPs:   
+    	Small Computer System Interface (SCSI) Fibre Channel Protocol (FCP)
+  Active ULPs:   
+    	Small Computer System Interface (SCSI) Fibre Channel Protocol (FCP)
+Class of Service: 3
+Port Speed (supported): UNKNOWN
+Port Speed (running):   8 GBIT
+Port FC ID: 0x02FBB8
+Port Type: Fabric
+Attention Type:   UNKNOWN
+Topology:  UNKNOWN 
+
+Seconds Since Last Reset: 2159538         
+
+	Transmit Statistics	Receive Statistics
+	-------------------	------------------
+Frames: -1              	-1              
+Words:  -1              	-1              
+
+LIP Count: -1              
+NOS Count: -1              
+Error Frames:  -1              
+Dumped Frames: -1              
+Link Failure Count: -1              
+Loss of Sync Count: -1              
+Loss of Signal: -1              
+Primitive Seq Protocol Error Count: -1              
+Invalid Tx Word Count: -1              
+Invalid CRC Count: -1              
+
+IP over FC Adapter Driver Information
+  No DMA Resource Count: 222047706       
+  No Adapter Elements Count: 0               
+
+IP over FC Traffic Statistics
+  Input Requests:   0               
+  Output Requests:  0               
+  Control Requests: 0               
+  Input Bytes:  0               
+  Output Bytes: 0               
+
+Adapter Effective max transfer value:   0x100000
+
+FIBRE CHANNEL STATISTICS REPORT: fcs0
+
+Device Type: FC Adapter (adapter/vdevice/IBM,vfc-client)
+Serial Number: UNKNOWN
+Option ROM Version: UNKNOWN
+ZA: UNKNOWN
+World Wide Node Name: 0xC0507608449000BE
+World Wide Port Name: 0xC0507608449000BE
+
+FC-4 TYPES:
+  Supported: 0x0000010000000000000000000000000000000000000000000000000000000000
+  Active:    0x0000010000000000000000000000000000000000000000000000000000000000
+
+FC-4 TYPES (ULP mappings):
+  Supported ULPs:   
+    	Small Computer System Interface (SCSI) Fibre Channel Protocol (FCP)
+  Active ULPs:   
+    	Small Computer System Interface (SCSI) Fibre Channel Protocol (FCP)
+Class of Service: 3
+Port Speed (supported): UNKNOWN
+Port Speed (running):   8 GBIT
+Port FC ID: 0x02FAC7
+Port Type: Fabric
+Attention Type:   UNKNOWN
+Topology:  UNKNOWN 
+
+Seconds Since Last Reset: 2159559         
+
+	Transmit Statistics	Receive Statistics
+	-------------------	------------------
+Frames: -1              	-1              
+Words:  -1              	-1              
+
+LIP Count: -1              
+NOS Count: -1              
+Error Frames:  -1              
+Dumped Frames: -1              
+Link Failure Count: -1              
+Loss of Sync Count: -1              
+Loss of Signal: -1              
+Primitive Seq Protocol Error Count: -1              
+Invalid Tx Word Count: -1              
+Invalid CRC Count: -1              
+
+IP over FC Adapter Driver Information
+  No DMA Resource Count: 220831757       
+  No Adapter Elements Count: 0               
+
+IP over FC Traffic Statistics
+  Input Requests:   0               
+  Output Requests:  0               
+  Control Requests: 0               
+  Input Bytes:  0               
+  Output Bytes: 0               
+
+Adapter Effective max transfer value:   0x100000
+
+-------------------------------------------------------------
+ETHERNET STATISTICS (ent3) :
+Device Type: Virtual I/O Ethernet Adapter (l-lan)
+Hardware Address: 4a:64:df:af:9e:07
+Elapsed Time: 24 days 23 hours 49 minutes 33 seconds
+
+Transmit Statistics:                          Receive Statistics:
+--------------------                          -------------------
+Packets: 10050905                             Packets: 9600244
+Bytes: 9319657340                             Bytes: 7351228883
+Interrupts: 0                                 Interrupts: 7278273
+Transmit Errors: 0                            Receive Errors: 0
+Packets Dropped: 0                            Packets Dropped: 0
+                                              Bad Packets: 0
+Max Packets on S/W Transmit Queue: 0         
+S/W Transmit Queue Overflow: 0
+Current S/W+H/W Transmit Queue Length: 0
+
+Broadcast Packets: 21029                      Broadcast Packets: 1126922
+Multicast Packets: 11                         Multicast Packets: 19195
+No Carrier Sense: 0                           CRC Errors: 0
+DMA Underrun: 0                               DMA Overrun: 0
+Lost CTS Errors: 0                            Alignment Errors: 0
+Max Collision Errors: 0                       No Resource Errors: 0
+Late Collision Errors: 0                      Receive Collision Errors: 0
+Deferred: 0                                   Packet Too Short Errors: 0
+SQE Test: 0                                   Packet Too Long Errors: 0
+Timeout Errors: 0                             Packets Discarded by Adapter: 0
+Single Collision Count: 0                     Receiver Start Count: 0
+Multiple Collision Count: 0
+Current HW Transmit Queue Length: 0
+
+General Statistics:
+-------------------
+No mbuf Errors: 0
+Adapter Reset Count: 0
+Adapter Data Rate: 20000
+Driver Flags: Up Broadcast Running 
+	Simplex 64BitSupport ChecksumOffload 
+	DataRateSet VIOENT 
+
+Virtual I/O Ethernet Adapter (l-lan) Specific Statistics:
+---------------------------------------------------------
+RQ Length: 7489
+Trunk Adapter: False
+Filter MCast Mode: False
+Filters: 255
+  Enabled: 3  Queued: 0  Overflow: 0
+LAN State: Operational
+
+Hypervisor Send Failures: 0
+  Receiver Failures: 0
+  Send Errors: 0
+Hypervisor Receive Failures: 0
+
+Invalid VLAN ID Packets: 0
+
+ILLAN Attributes: 0000000000003002 [0000000000002000]
+
+Port VLAN ID:   229
+VLAN Tag IDs:  None
+
+
+Switch ID: ETHERNET0
+
+Hypervisor Information  
+  Virtual Memory        
+    Total (KB)                126
+  I/O Memory            
+    VRM Minimum (KB)          148
+    VRM Desired (KB)          148
+    DMA Max Min (KB)          256
+
+Transmit Information    
+  Transmit Buffers       
+    Buffer Size             65536
+    Buffers                    32
+    History             
+      No Buffers                0
+  Virtual Memory        
+    Total (KB)               2048
+  I/O Memory            
+    VRM Minimum (KB)         2176
+    VRM Desired (KB)        16384
+    DMA Max Min (KB)        16384
+
+Receive Information     
+  Receive Buffers        
+    Buffer Type              Tiny    Small   Medium    Large     Huge
+    Min Buffers               512      512      128       24       24
+    Max Buffers              2048     4096     1024      128      128
+    Allocated                 512      512      128       24       24
+    Registered                512      512      128       24       24
+    History             
+      Max Allocated           512      512      148       24       24
+      Lowest Registered       511      505      123       20       24
+  Virtual Memory        
+    Minimum (KB)              256     1024     2048      768 1536
+    Maximum (KB)             1024     8192    16384     4096     8192
+  I/O Memory            
+    VRM Minimum (KB)         4096     4096     2560      864     1632
+    VRM Desired (KB)        16384    32768    20480     4608     8704
+    DMA Max Min (KB)        16384    32768    32768     8192    16384
+
+I/O Memory Information  
+  Total VRM Minimum (KB)    15572
+  Total VRM Desired (KB)    99476
+  Total DMA Max Min (KB)   123136
+-------------------------------------------------------------
+ETHERNET STATISTICS (ent0) :
+Device Type: Virtual I/O Ethernet Adapter (l-lan)
+Hardware Address: 4a:64:df:af:9e:04
+Elapsed Time: 24 days 23 hours 49 minutes 33 seconds
+
+Transmit Statistics:                          Receive Statistics:
+--------------------                          -------------------
+Packets: 6334524984                           Packets: 6841175335
+Bytes: 2731228864192                          Bytes: 8581607305123
+Interrupts: 0                                 Interrupts: 5004583935
+Transmit Errors: 0                            Receive Errors: 0
+Packets Dropped: 0                            Packets Dropped: 0
+                                              Bad Packets: 0
+Max Packets on S/W Transmit Queue: 0         
+S/W Transmit Queue Overflow: 0
+Current S/W+H/W Transmit Queue Length: 0
+
+Broadcast Packets: 18683                      Broadcast Packets: 10325849
+Multicast Packets: 9611                       Multicast Packets: 28792
+No Carrier Sense: 0                           CRC Errors: 0
+DMA Underrun: 0                               DMA Overrun: 0
+Lost CTS Errors: 0                            Alignment Errors: 0
+Max Collision Errors: 0                       No Resource Errors: 0
+Late Collision Errors: 0                      Receive Collision Errors: 0
+Deferred: 0                                   Packet Too Short Errors: 0
+SQE Test: 0                                   Packet Too Long Errors: 0
+Timeout Errors: 0                             Packets Discarded by Adapter: 0
+Single Collision Count: 0                     Receiver Start Count: 0
+Multiple Collision Count: 0
+Current HW Transmit Queue Length: 0
+
+General Statistics:
+-------------------
+No mbuf Errors: 0
+Adapter Reset Count: 0
+Adapter Data Rate: 20000
+Driver Flags: Up Broadcast Running 
+	Simplex 64BitSupport ChecksumOffload 
+	DataRateSet VIOENT 
+
+Virtual I/O Ethernet Adapter (l-lan) Specific Statistics:
+---------------------------------------------------------
+RQ Length: 9505
+Trunk Adapter: False
+Filter MCast Mode: False
+Filters: 255
+  Enabled: 3  Queued: 0  Overflow: 0
+LAN State: Operational
+
+Hypervisor Send Failures: 0
+  Receiver Failures: 0
+  Send Errors: 0
+Hypervisor Receive Failures: 0
+
+Invalid VLAN ID Packets: 0
+
+ILLAN Attributes: 0000000000003002 [0000000000002000]
+
+Port VLAN ID:   226
+VLAN Tag IDs:  None
+
+
+Switch ID: ETHERNET0
+
+Hypervisor Information  
+  Virtual Memory        
+    Total (KB)                157
+  I/O Memory            
+    VRM Minimum (KB)          180
+    VRM Desired (KB)          180
+    DMA Max Min (KB)          256
+
+Transmit Information    
+  Transmit Buffers       
+    Buffer Size             65536
+    Buffers                    32
+    History             
+      No Buffers                0
+  Virtual Memory        
+    Total (KB)               2048
+  I/O Memory            
+    VRM Minimum (KB)         2176
+    VRM Desired (KB)        16384
+    DMA Max Min (KB)        16384
+
+Receive Information     
+  Receive Buffers        
+    Buffer Type              Tiny    Small   Medium    Large     Huge
+    Min Buffers              4096     4096     1024      128       96
+    Max Buffers              4096     4096     1024      128       96
+    Allocated                4096     4096     1024      128       96
+    Registered               4094     4095     1024      128       96
+    History             
+      Max Allocated          4096     4096     1024      128       96
+      Lowest Registered      4093     2444      256       88       96
+  Virtual Memory        
+    Minimum (KB)             2048     8192    16384     4096 6144
+    Maximum (KB)             2048     8192    16384     4096     6144
+  I/O Memory            
+    VRM Minimum (KB)        32768    32768    20480     4608     6528
+    VRM Desired (KB)        32768    32768    20480     4608     6528
+    DMA Max Min (KB)        32768    32768    32768     8192     8192
+
+I/O Memory Information  
+  Total VRM Minimum (KB)    99508
+  Total VRM Desired (KB)   113716
+  Total DMA Max Min (KB)   131328
+-------------------------------------------------------------
+ETHERNET STATISTICS (ent1) :
+Device Type: Virtual I/O Ethernet Adapter (l-lan)
+Hardware Address: 4a:64:df:af:9e:05
+Elapsed Time: 24 days 23 hours 49 minutes 33 seconds
+
+Transmit Statistics:                          Receive Statistics:
+--------------------                          -------------------
+Packets: 979484880                            Packets: 897510921
+Bytes: 32515333331922                         Bytes: 171678337390
+Interrupts: 0                                 Interrupts: 762842730
+Transmit Errors: 0                            Receive Errors: 0
+Packets Dropped: 0                            Packets Dropped: 0
+                                              Bad Packets: 0
+Max Packets on S/W Transmit Queue: 0         
+S/W Transmit Queue Overflow: 0
+Current S/W+H/W Transmit Queue Length: 0
+
+Broadcast Packets: 17936                      Broadcast Packets: 9739412
+Multicast Packets: 11                         Multicast Packets: 9596
+No Carrier Sense: 0                           CRC Errors: 0
+DMA Underrun: 0                               DMA Overrun: 0
+Lost CTS Errors: 0                            Alignment Errors: 0
+Max Collision Errors: 0                       No Resource Errors: 0
+Late Collision Errors: 0                      Receive Collision Errors: 0
+Deferred: 0                                   Packet Too Short Errors: 0
+SQE Test: 0                                   Packet Too Long Errors: 0
+Timeout Errors: 0                             Packets Discarded by Adapter: 0
+Single Collision Count: 0                     Receiver Start Count: 0
+Multiple Collision Count: 0
+Current HW Transmit Queue Length: 0
+
+General Statistics:
+-------------------
+No mbuf Errors: 0
+Adapter Reset Count: 0
+Adapter Data Rate: 20000
+Driver Flags: Up Broadcast Running 
+	Simplex 64BitSupport ChecksumOffload 
+	DataRateSet VIOENT 
+
+Virtual I/O Ethernet Adapter (l-lan) Specific Statistics:
+---------------------------------------------------------
+RQ Length: 7489
+Trunk Adapter: False
+Filter MCast Mode: False
+Filters: 255
+  Enabled: 3  Queued: 0  Overflow: 0
+LAN State: Operational
+
+Hypervisor Send Failures: 0
+  Receiver Failures: 0
+  Send Errors: 0
+Hypervisor Receive Failures: 0
+
+Invalid VLAN ID Packets: 0
+
+ILLAN Attributes: 0000000000003002 [0000000000002000]
+
+Port VLAN ID:   227
+VLAN Tag IDs:  None
+
+
+Switch ID: ETHERNET0
+
+Hypervisor Information  
+  Virtual Memory        
+    Total (KB)                126
+  I/O Memory            
+    VRM Minimum (KB)          148
+    VRM Desired (KB)          148
+    DMA Max Min (KB)          256
+
+Transmit Information    
+  Transmit Buffers       
+    Buffer Size             65536
+    Buffers                    32
+    History             
+      No Buffers                0
+  Virtual Memory        
+    Total (KB)               2048
+  I/O Memory            
+    VRM Minimum (KB)         2176
+    VRM Desired (KB)        16384
+    DMA Max Min (KB)        16384
+
+Receive Information     
+  Receive Buffers        
+    Buffer Type              Tiny    Small   Medium    Large     Huge
+    Min Buffers               512      512      128       24       24
+    Max Buffers              2048     4096     1024      128      128
+    Allocated                 512      512      128       24       24
+    Registered                512      512      128       24       24
+    History             
+      Max Allocated           512      541      162       63       24
+      Lowest Registered       511      502      123       19       24
+  Virtual Memory        
+    Minimum (KB)              256     1024     2048      768 1536
+    Maximum (KB)             1024     8192    16384     4096     8192
+  I/O Memory            
+    VRM Minimum (KB)         4096     4096     2560      864     1632
+    VRM Desired (KB)        16384    32768    20480     4608     8704
+    DMA Max Min (KB)        16384    32768    32768     8192    16384
+
+I/O Memory Information  
+  Total VRM Minimum (KB)    15572
+  Total VRM Desired (KB)    99476
+  Total DMA Max Min (KB)   123136
+-------------------------------------------------------------
+ETHERNET STATISTICS (ent2) :
+Device Type: Virtual I/O Ethernet Adapter (l-lan)
+Hardware Address: 4a:64:df:af:9e:06
+Elapsed Time: 0 days 0 hours 0 minutes 0 seconds
+
+Transmit Statistics:                          Receive Statistics:
+--------------------                          -------------------
+Packets: 0                                    Packets: 0
+Bytes: 0                                      Bytes: 0
+Interrupts: 0                                 Interrupts: 0
+Transmit Errors: 0                            Receive Errors: 0
+Packets Dropped: 0                            Packets Dropped: 0
+                                              Bad Packets: 0
+Max Packets on S/W Transmit Queue: 0         
+S/W Transmit Queue Overflow: 0
+Current S/W+H/W Transmit Queue Length: 0
+
+Broadcast Packets: 0                          Broadcast Packets: 0
+Multicast Packets: 0                          Multicast Packets: 0
+No Carrier Sense: 0                           CRC Errors: 0
+DMA Underrun: 0                               DMA Overrun: 0
+Lost CTS Errors: 0                            Alignment Errors: 0
+Max Collision Errors: 0                       No Resource Errors: 0
+Late Collision Errors: 0                      Receive Collision Errors: 0
+Deferred: 0                                   Packet Too Short Errors: 0
+SQE Test: 0                                   Packet Too Long Errors: 0
+Timeout Errors: 0                             Packets Discarded by Adapter: 0
+Single Collision Count: 0                     Receiver Start Count: 0
+Multiple Collision Count: 0
+Current HW Transmit Queue Length: 0
+
+General Statistics:
+-------------------
+No mbuf Errors: 0
+Adapter Reset Count: 0
+Adapter Data Rate: 20000
+Driver Flags: Up Broadcast Running 
+	Simplex 64BitSupport ChecksumOffload 
+	DataRateSet VIOENT 
+
+Virtual I/O Ethernet Adapter (l-lan) Specific Statistics:
+---------------------------------------------------------
+RQ Length: 7489
+Trunk Adapter: False
+Filter MCast Mode: False
+Filters: 255
+  Enabled: 0  Queued: 0  Overflow: 0
+LAN State: Operational
+
+Hypervisor Send Failures: 0
+  Receiver Failures: 0
+  Send Errors: 0
+Hypervisor Receive Failures: 0
+
+Invalid VLAN ID Packets: 0
+
+ILLAN Attributes: 0000000000003002 [0000000000003002]
+
+Port VLAN ID:   302
+VLAN Tag IDs:  None
+
+
+Switch ID: ETHERNET0
+
+Hypervisor Information  
+  Virtual Memory        
+    Total (KB)                126
+  I/O Memory            
+    VRM Minimum (KB)          148
+    VRM Desired (KB)          148
+    DMA Max Min (KB)          256
+
+Transmit Information    
+  Transmit Buffers       
+    Buffer Size             65536
+    Buffers                    32
+    History             
+      No Buffers                0
+  Virtual Memory        
+    Total (KB)               2048
+  I/O Memory            
+    VRM Minimum (KB)         2176
+    VRM Desired (KB)        16384
+    DMA Max Min (KB)        16384
+
+Receive Information     
+  Receive Buffers        
+    Buffer Type              Tiny    Small   Medium    Large     Huge
+    Min Buffers               512      512      128       24       24
+    Max Buffers              2048     4096     1024      128      128
+    Allocated                 512      512      128       24       24
+    Registered                512      512      128       24       24
+    History             
+      Max Allocated           512      512      128       24       24
+      Lowest Registered       512      512      128       24       24
+  Virtual Memory        
+    Minimum (KB)              256     1024     2048      768 1536
+    Maximum (KB)             1024     8192    16384     4096     8192
+  I/O Memory            
+    VRM Minimum (KB)         4096     4096     2560      864     1632
+    VRM Desired (KB)        16384    32768    20480     4608     8704
+    DMA Max Min (KB)        16384    32768    32768     8192    16384
+
+I/O Memory Information  
+  Total VRM Minimum (KB)    15572
+  Total VRM Desired (KB)    99476
+  Total DMA Max Min (KB)   123136
+==== EXITED with rc 0 ====
+==== END netstat -v  Tue Jul  7 00:31:36 GST 2015 ====

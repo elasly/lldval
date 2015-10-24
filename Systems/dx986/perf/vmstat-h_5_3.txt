@@ -1,0 +1,13 @@
+==== This output can be found in Systems/dx986/perf/vmstat-h_5_3.txt ====
+==== START vmstat -h 5 3  Tue Jul  7 00:49:24 GST 2015 ====
+
+System configuration: lcpu=32 mem=99328MB ent=3.60
+
+kthr    memory              page              faults              cpu                   hypv-page        
+----- ----------- ------------------------ ------------ ----------------------- -------------------------
+ r  b   avm   fre  re  pi  po  fr   sr  cy  in   sy  cs us sy id wa    pc    ec   hpi  hpit   pmem   loan
+ 4  1 18105150 2142659   0   0   0   0    0   0 3779 1069943 6698 36 17 46  1  3.02  83.9     0     0  97.00   0.00
+ 6  1 18111953 2131532   0   0   0   0    0   0 1983 996472 4628 21 12 66  2  1.84  51.2     0     0  97.00   0.00
+ 5  1 18109350 2129146   0   0   0   0    0   0 2359 943405 5010 17 10 72  1  1.55  43.0     0     0  97.00   0.00
+==== EXITED with rc 0 ====
+==== END vmstat -h 5 3  Tue Jul  7 00:49:39 GST 2015 ====

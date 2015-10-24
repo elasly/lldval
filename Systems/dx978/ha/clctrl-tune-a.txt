@@ -1,0 +1,15 @@
+==== This output can be found in Systems/dx978/ha/clctrl-tune-a.txt ====
+==== START clctrl -tune -a Mon Jul  6 23:42:53 GST 2015 ====
+   DX977_cluster(8de2ff1e-d862-11e4-bbce-4a64d4904005).communication_mode = u
+       DX977_cluster(8de2ff1e-d862-11e4-bbce-4a64d4904005).config_timeout = 240
+         DX977_cluster(8de2ff1e-d862-11e4-bbce-4a64d4904005).deadman_mode = a
+         DX977_cluster(8de2ff1e-d862-11e4-bbce-4a64d4904005).link_timeout = 30000
+DX977_cluster(8de2ff1e-d862-11e4-bbce-4a64d4904005).no_if_traffic_monitor = 0
+      DX977_cluster(8de2ff1e-d862-11e4-bbce-4a64d4904005).node_down_delay = 10000
+         DX977_cluster(8de2ff1e-d862-11e4-bbce-4a64d4904005).node_timeout = 20000
+           DX977_cluster(8de2ff1e-d862-11e4-bbce-4a64d4904005).packet_ttl = 32
+     DX977_cluster(8de2ff1e-d862-11e4-bbce-4a64d4904005).remote_hb_factor = 10
+           DX977_cluster(8de2ff1e-d862-11e4-bbce-4a64d4904005).repos_mode = e
+    DX977_cluster(8de2ff1e-d862-11e4-bbce-4a64d4904005).site_merge_policy = h
+==== EXITED with rc 0 ====
+==== END clctrl -tune -a Mon Jul  6 23:42:53 GST 2015 ====

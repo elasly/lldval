@@ -1,0 +1,81 @@
+==== This output can be found in Systems/dx986/os/fileprint_etc_hosts.txt ====
+==== START fileprint /etc/hosts Tue Jul  7 00:44:11 GST 2015 ====
+==== BEGIN Contents of /etc/hosts ====
+# IBM_PROLOG_BEGIN_TAG 
+# This is an automatically generated prolog. 
+#  
+# bos61D src/bos/usr/sbin/netstart/hosts 1.2 
+#  
+# Licensed Materials - Property of IBM 
+#  
+# COPYRIGHT International Business Machines Corp. 1985,1989 
+# All Rights Reserved 
+#  
+# US Government Users Restricted Rights - Use, duplication or 
+# disclosure restricted by GSA ADP Schedule Contract with IBM Corp. 
+#  
+# @(#)47	1.2  src/bos/usr/sbin/netstart/hosts, cmdnet, bos61D, d2007_49A2 10/1/07 13:57:52
+# IBM_PROLOG_END_TAG 
+# 
+# COMPONENT_NAME: TCPIP hosts
+# 
+# FUNCTIONS: loopback 
+#
+# ORIGINS: 26  27 
+#
+# (C) COPYRIGHT International Business Machines Corp. 1985, 1989
+# All Rights Reserved
+# Licensed Materials - Property of IBM
+#
+# US Government Users Restricted Rights - Use, duplication or
+# disclosure restricted by GSA ADP Schedule Contract with IBM Corp.
+#
+#  /etc/hosts
+#
+# This file contains the hostnames and their address for hosts in the
+# network.  This file is used to resolve a hostname into an Internet
+# address.  
+#
+# At minimum, this file must contain the name and address for each
+# device defined for TCP in your /etc/net file.  It may also contain
+# entries for well-known (reserved) names such as timeserver
+# and printserver as well as any other host name and address.
+#
+# The format of this file is:
+# Internet Address	Hostname	# Comments
+# Internet Address can be either IPv4 or IPv6 address.
+# Items are separated by any number of blanks and/or tabs.  A '#'
+# indicates the beginning of a comment; characters up to the end of the
+# line are not interpreted by routines which search this file.  Blank
+# lines are allowed.
+
+# Internet Address	Hostname	# Comments
+# 192.9.200.1     	net0sample	# ethernet name/address
+# 128.100.0.1		token0sample	# token ring name/address
+# 10.2.0.2		x25sample	# x.25 name/address
+# 2000:1:1:1:209:6bff:feee:2b7f		ipv6sample	# ipv6 name/address
+127.0.0.1		loopback localhost	# loopback (lo0) name/address
+::1			loopback localhost	# IPv6 loopback (lo0) name/address
+
+#####Cluster IP Configuration#####
+10.116.53.15    DX986-boot
+10.51.226.231   DX986
+10.51.226.233   DX986-VIP
+10.116.53.16    DX987-boot
+10.51.226.232   DX987
+##################################
+
+
+10.51.229.218	DX975
+10.51.227.85	DX986_b
+10.51.229.232	DX986_sc0
+10.51.227.86	DX987_b
+10.51.229.233	DX987_sc0
+
+10.32.250.73 au308.etisalat.corp.ae au308
+10.32.250.74 omucit.etisalat.corp.ae omucit
+10.32.250.75 au309.etisalat.corp.ae au309
+10.37.240.189	arcsight
+==== END Contents of /etc/hosts ====
+==== EXITED with rc 0 ====
+==== END fileprint /etc/hosts Tue Jul  7 00:44:11 GST 2015 ====

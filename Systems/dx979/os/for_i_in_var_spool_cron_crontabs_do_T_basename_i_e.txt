@@ -1,0 +1,92 @@
+==== This output can be found in Systems/dx979/os/for_i_in_var_spool_cron_crontabs_do_T_basename_i_e.txt ====
+==== START for i in /var/spool/cron/crontabs/*;do T=`basename $i`;echo "#### cron for: $T ####";crontab -l $T;echo "########\n\n";done Tue Jul  7 00:28:54 GST 2015 ====
+crontab: you are not authorized to use cron.  Sorry.
+crontab: you are not authorized to use cron.  Sorry.
+crontab: you are not authorized to use cron.  Sorry.
+crontab: you are not authorized to use cron.  Sorry.
+#### cron for: adm ####
+########
+
+
+#### cron for: esaadmin ####
+########
+
+
+#### cron for: gprsgg ####
+00,15,30,45 * * * * /gprs_gg/goldengate/gg_mon/monit.sh
+00,15,30,45 * * * * /gprs_gg/goldengate/dba/misc/gg_lag.ksh
+00,15,30,45 * * * * /gprs_gg/goldengate/dba/misc/gg_agent_status.sh
+########
+
+
+#### cron for: oracle ####
+### RMAN Backup jobs
+
+00 20 * * 4 /gprs_sys/oracle/dba/bin/bkprman_level0.ksh GPRS >> /gprs_sys/oracle/dba/log/bkprman_level0.log 2>&1
+00 20 * * 0,1,2,3,6 /gprs_sys/oracle/dba/bin/bkprman_level2.ksh GPRS >> /gprs_sys/oracle/dba/log/bkprman_level2.log 2>&1
+
+###  Other maintanance scripts
+
+01 05 * * * /gprs_sys/oracle/dba/bin/listenerlogs.ksh >> /gprs_sys/oracle/dba/log/listenerlogs.log 2>&1
+55 * * * * /gprs_sys/oracle/dba/bin/chkunusableobjects.sh >> /gprs_sys/oracle/dba/log/chkunusable.out  2>&1
+55 6 * * * /gprs_sys/oracle/dba/bin/chkblockcorrup.sh >> /gprs_sys/oracle/dba/log/chkcblk.out  2>&1
+#00,05,10,15,20,25,30,35,40,45,50,55 * * * * /gprs_sys/oracle/dba/misc/db_mon.ksh > /gprs_sys/oracle/dba/log/db_mon.log
+01 15 * * * /gprs_sys/oracle/dba/bin/service_ac_login_chk.sh >> /gprs_sys/oracle/dba/log/service_ac_login_chk.log 2>&1
+########
+
+
+#### cron for: root ####
+# IBM_PROLOG_BEGIN_TAG 
+# This is an automatically generated prolog. 
+#  
+# bos610 src/bos/usr/sbin/cron/root 1.15.1.3 
+#  
+# Licensed Materials - Property of IBM 
+#  
+# COPYRIGHT International Business Machines Corp. 1989,1994 
+# All Rights Reserved 
+#  
+# US Government Users Restricted Rights - Use, duplication or 
+# disclosure restricted by GSA ADP Schedule Contract with IBM Corp. 
+#  
+# @(#)08	1.15.1.3  src/bos/usr/sbin/cron/root, cmdcntl, bos610 2/11/94 17:19:47
+# IBM_PROLOG_END_TAG 
+#
+# COMPONENT_NAME: (CMDCNTL) commands needed for basic system needs
+#
+# FUNCTIONS: 
+#
+# ORIGINS: 27
+#
+# (C) COPYRIGHT International Business Machines Corp. 1989,1994
+# All Rights Reserved
+# Licensed Materials - Property of IBM
+#
+# US Government Users Restricted Rights - Use, duplication or
+# disclosure restricted by GSA ADP Schedule Contract with IBM Corp.
+#
+#0 3 * * * /usr/sbin/skulker
+#45 2 * * 0 /usr/lib/spell/compress
+#45 23 * * * ulimit 5000; /usr/lib/smdemon.cleanu > /dev/null
+0 11 * * * /usr/bin/errclear -d S,O 30
+0 12 * * * /usr/bin/errclear -d H 90
+0,5,10,15,20,25,30,35,40,45,50,55 * * * * /usr/sbin/dumpctrl -k >/dev/null 2>/dev/null
+0 15 * * *  /usr/lib/ras/dumpcheck >/dev/null 2>&1
+55 23 * * * /var/perf/pm/bin/pmcfg  >/dev/null 2>&1     #Enable PM Data Collection
+##########NMON DATA COLLECTION#############
+0 8 * * * /perfdata/nmon/nmon.sh
+0 20 * * * /perfdata/nmon/nmon.sh
+0 0 * * * /usr/es/sbin/cluster/utilities/clcycle 1>/dev/null 2>/dev/null # PowerHA SystemMirror Logfile rotation
+########
+
+
+#### cron for: sys ####
+########
+
+
+#### cron for: uucp ####
+########
+
+
+==== EXITED with rc 0 ====
+==== END for i in /var/spool/cron/crontabs/*;do T=`basename $i`;echo "#### cron for: $T ####";crontab -l $T;echo "########\n\n";done Tue Jul  7 00:28:54 GST 2015 ====

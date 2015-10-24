@@ -1,0 +1,13 @@
+==== This output can be found in Systems/dx979/perf/vmstat-^I_5_3.txt ====
+==== START vmstat -I 5 3  Tue Jul  7 00:32:52 GST 2015 ====
+
+System configuration: lcpu=48 mem=225792MB ent=6.00
+
+  kthr     memory              page              faults              cpu          
+-------- ----------- ------------------------ ------------ -----------------------
+ r  b  p   avm   fre  fi  fo  pi  po  fr   sr  in   sy  cs us sy id wa    pc    ec
+ 6  0  0 22680792 13459363 501 249   0   0   0    0 2537 986207 4861 22 11 66  0  3.17  52.8
+ 4  0  0 22680427 13459648 400  15   0   0   0    0 2651 894493 4596 15  7 77  0  2.14  35.7
+ 5  0  0 22679807 13460227 300  87   0   0   0    0 2513 889772 3925 15  7 77  0  2.10  35.0
+==== EXITED with rc 0 ====
+==== END vmstat -I 5 3  Tue Jul  7 00:33:07 GST 2015 ====

@@ -1,0 +1,40 @@
+==== This output can be found in Systems/dx1010/storage/for_k_in_lspv_egrep_active_concurrent_awk_print_3_.txt ====
+==== START for k in $(lspv | egrep "active|concurrent" | awk '{print $3}' | sort -u | lsvg -il | egrep -v "LV NAME|:" | awk '{print $1}'); do echo "#### LV $k ####";lslv $k |grep COPIES | awk '{print $1 " " $2}'; echo ""; done | grep -vwp 1 Tue Jul  7 13:17:56 CDT 2015 ====
+#### LV hd5 ####
+COPIES: 2
+
+#### LV hd6 ####
+COPIES: 2
+
+#### LV paging00 ####
+COPIES: 2
+
+#### LV hd8 ####
+COPIES: 2
+
+#### LV hd4 ####
+COPIES: 2
+
+#### LV hd2 ####
+COPIES: 2
+
+#### LV hd9var ####
+COPIES: 2
+
+#### LV hd3 ####
+COPIES: 2
+
+#### LV hd1 ####
+COPIES: 2
+
+#### LV hd10opt ####
+COPIES: 2
+
+#### LV hd11admin ####
+COPIES: 2
+
+#### LV livedump ####
+COPIES: 2
+
+==== EXITED with rc 0 ====
+==== END for k in $(lspv | egrep "active|concurrent" | awk '{print $3}' | sort -u | lsvg -il | egrep -v "LV NAME|:" | awk '{print $1}'); do echo "#### LV $k ####";lslv $k |grep COPIES | awk '{print $1 " " $2}'; echo ""; done | grep -vwp 1 Tue Jul  7 13:17:58 CDT 2015 ====

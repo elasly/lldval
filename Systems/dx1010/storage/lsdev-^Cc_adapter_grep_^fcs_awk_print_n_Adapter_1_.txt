@@ -1,0 +1,776 @@
+==== This output can be found in Systems/dx1010/storage/lsdev-^Cc_adapter_grep_^fcs_awk_print_n_Adapter_1_.txt ====
+==== START lsdev -Cc adapter | grep ^fcs | awk '{print "\n#### Adapter: " $1" ####";system("fcstat " $1)}' Tue Jul  7 13:16:09 CDT 2015 ====
+Error opening device: /dev/fscsi0
+errno: 00000045
+Error opening device: /dev/fscsi1
+errno: 00000045
+Error opening device: /dev/fscsi2
+errno: 00000045
+Error opening device: /dev/fscsi3
+errno: 00000045
+
+#### Adapter: fcs0 ####
+
+#### Adapter: fcs1 ####
+
+#### Adapter: fcs2 ####
+
+#### Adapter: fcs3 ####
+
+#### Adapter: fcs4 ####
+
+FIBRE CHANNEL STATISTICS REPORT: fcs4
+
+Device Type: FC Adapter (adapter/pciex/df1000f11410010)
+Serial Number: 1C40308166
+Option ROM Version: 027820B7
+ZA: U2D2.02X7 
+World Wide Node Name: 0x20000120FA4851B6
+World Wide Port Name: 0x10000090FA4851B6
+
+FC-4 TYPES:
+  Supported: 0x0000012000000000000000000000000000000000000000000000000000000000
+  Active:    0x0000010000000000000000000000000000000000000000000000000000000000
+Class of Service: 3
+Port Speed (supported): 8 GBIT
+Port Speed (running):   8 GBIT
+Port FC ID: 0x010800
+Port Type: Fabric
+Attention Type:   Link Up
+Topology:  Point to Point or Fabric
+
+Seconds Since Last Reset: 7100215         
+
+	Transmit Statistics	Receive Statistics
+	-------------------	------------------
+Frames: 2308006138      	1158930662      
+Words:  682224193024    	501111291136    
+
+LIP Count: 0               
+NOS Count: 0               
+Error Frames:  0               
+Dumped Frames: 0               
+Link Failure Count: 0               
+Loss of Sync Count: 0               
+Loss of Signal: 0               
+Primitive Seq Protocol Error Count: 0               
+Invalid Tx Word Count: 35              
+Invalid CRC Count: 0               
+
+IP over FC Adapter Driver Information
+  No DMA Resource Count: 0               
+  No Adapter Elements Count: 0               
+
+FC SCSI Adapter Driver Information
+  No DMA Resource Count: 0               
+  No Adapter Elements Count: 0               
+  No Command Resource Count: 0               
+
+IP over FC Traffic Statistics
+  Input Requests:   0               
+  Output Requests:  0               
+  Control Requests: 0               
+  Input Bytes:  0               
+  Output Bytes: 0               
+
+FC SCSI Traffic Statistics
+  Input Requests:   913712759       
+  Output Requests:  64802306        
+  Control Requests: 30354196        
+  Input Bytes:  158425900592621 
+  Output Bytes: 2641241801504   
+
+#### Adapter: fcs5 ####
+
+FIBRE CHANNEL STATISTICS REPORT: fcs5
+
+Device Type: FC Adapter (adapter/pciex/df1000f11410010)
+Serial Number: 1C40308166
+Option ROM Version: 027820B7
+ZA: U2D2.02X7 
+World Wide Node Name: 0x20000120FA4851B7
+World Wide Port Name: 0x10000090FA4851B7
+
+FC-4 TYPES:
+  Supported: 0x0000012000000000000000000000000000000000000000000000000000000000
+  Active:    0x0000010000000000000000000000000000000000000000000000000000000000
+Class of Service: 3
+Port Speed (supported): 8 GBIT
+Port Speed (running):   8 GBIT
+Port FC ID: 0x010500
+Port Type: Fabric
+Attention Type:   Link Up
+Topology:  Point to Point or Fabric
+
+Seconds Since Last Reset: 7100215         
+
+	Transmit Statistics	Receive Statistics
+	-------------------	------------------
+Frames: 2301335509      	1145979376      
+Words:  682123585280    	501294617856    
+
+LIP Count: 0               
+NOS Count: 0               
+Error Frames:  0               
+Dumped Frames: 0               
+Link Failure Count: 0               
+Loss of Sync Count: 0               
+Loss of Signal: 0               
+Primitive Seq Protocol Error Count: 0               
+Invalid Tx Word Count: 30              
+Invalid CRC Count: 0               
+
+IP over FC Adapter Driver Information
+  No DMA Resource Count: 0               
+  No Adapter Elements Count: 0               
+
+FC SCSI Adapter Driver Information
+  No DMA Resource Count: 0               
+  No Adapter Elements Count: 0               
+  No Command Resource Count: 0               
+
+IP over FC Traffic Statistics
+  Input Requests:   0               
+  Output Requests:  0               
+  Control Requests: 0               
+  Input Bytes:  0               
+  Output Bytes: 0               
+
+FC SCSI Traffic Statistics
+  Input Requests:   906836622       
+  Output Requests:  64796643        
+  Control Requests: 30428049        
+  Input Bytes:  158427185528833 
+  Output Bytes: 2641213756416   
+
+#### Adapter: fcs6 ####
+
+FIBRE CHANNEL STATISTICS REPORT: fcs6
+
+Device Type: FC Adapter (adapter/pciex/df1000f11410010)
+Serial Number: 1C40308166
+Option ROM Version: 027820B7
+ZA: U2D2.02X7 
+World Wide Node Name: 0x20000120FA4851B8
+World Wide Port Name: 0x10000090FA4851B8
+
+FC-4 TYPES:
+  Supported: 0x0000012000000000000000000000000000000000000000000000000000000000
+  Active:    0x0000010000000000000000000000000000000000000000000000000000000000
+Class of Service: 3
+Port Speed (supported): 8 GBIT
+Port Speed (running):   8 GBIT
+Port FC ID: 0x022000
+Port Type: Fabric
+Attention Type:   Link Up
+Topology:  Point to Point or Fabric
+
+Seconds Since Last Reset: 7100215         
+
+	Transmit Statistics	Receive Statistics
+	-------------------	------------------
+Frames: 121635298       	39479979        
+Words:  57017358336     	8165584640      
+
+LIP Count: 0               
+NOS Count: 0               
+Error Frames:  0               
+Dumped Frames: 0               
+Link Failure Count: 0               
+Loss of Sync Count: 0               
+Loss of Signal: 0               
+Primitive Seq Protocol Error Count: 0               
+Invalid Tx Word Count: 33              
+Invalid CRC Count: 0               
+
+IP over FC Adapter Driver Information
+  No DMA Resource Count: 0               
+  No Adapter Elements Count: 0               
+
+FC SCSI Adapter Driver Information
+  No DMA Resource Count: 0               
+  No Adapter Elements Count: 0               
+  No Command Resource Count: 0               
+
+IP over FC Traffic Statistics
+  Input Requests:   0               
+  Output Requests:  0               
+  Control Requests: 0               
+  Input Bytes:  0               
+  Output Bytes: 0               
+
+FC SCSI Traffic Statistics
+  Input Requests:   8060227         
+  Output Requests:  3703584         
+  Control Requests: 107705          
+  Input Bytes:  31554705292     
+  Output Bytes: 224770167808    
+
+#### Adapter: fcs7 ####
+
+FIBRE CHANNEL STATISTICS REPORT: fcs7
+
+Device Type: FC Adapter (adapter/pciex/df1000f11410010)
+Serial Number: 1C40308166
+Option ROM Version: 027820B7
+ZA: U2D2.02X7 
+World Wide Node Name: 0x20000120FA4851B9
+World Wide Port Name: 0x10000090FA4851B9
+
+FC-4 TYPES:
+  Supported: 0x0000012000000000000000000000000000000000000000000000000000000000
+  Active:    0x0000010000000000000000000000000000000000000000000000000000000000
+Class of Service: 3
+Port Speed (supported): 8 GBIT
+Port Speed (running):   8 GBIT
+Port FC ID: 0x022100
+Port Type: Fabric
+Attention Type:   Link Up
+Topology:  Point to Point or Fabric
+
+Seconds Since Last Reset: 7100215         
+
+	Transmit Statistics	Receive Statistics
+	-------------------	------------------
+Frames: 124167041       	39722387        
+Words:  58336480256     	8296728832      
+
+LIP Count: 0               
+NOS Count: 0               
+Error Frames:  0               
+Dumped Frames: 0               
+Link Failure Count: 0               
+Loss of Sync Count: 0               
+Loss of Signal: 0               
+Primitive Seq Protocol Error Count: 0               
+Invalid Tx Word Count: 29              
+Invalid CRC Count: 0               
+
+IP over FC Adapter Driver Information
+  No DMA Resource Count: 0               
+  No Adapter Elements Count: 0               
+
+FC SCSI Adapter Driver Information
+  No DMA Resource Count: 0               
+  No Adapter Elements Count: 0               
+  No Command Resource Count: 0               
+
+IP over FC Traffic Statistics
+  Input Requests:   0               
+  Output Requests:  0               
+  Control Requests: 0               
+  Input Bytes:  0               
+  Output Bytes: 0               
+
+FC SCSI Traffic Statistics
+  Input Requests:   7924850         
+  Output Requests:  3823870         
+  Control Requests: 107779          
+  Input Bytes:  32047084411     
+  Output Bytes: 229986414080    
+
+#### Adapter: fcs8 ####
+
+FIBRE CHANNEL STATISTICS REPORT: fcs8
+
+Device Type: FC Adapter (adapter/pciex/df1000f11410010)
+Serial Number: 1C403081FE
+Option ROM Version: 027820B7
+ZA: U2D2.02X7 
+World Wide Node Name: 0x20000120FA485A16
+World Wide Port Name: 0x10000090FA485A16
+
+FC-4 TYPES:
+  Supported: 0x0000012000000000000000000000000000000000000000000000000000000000
+  Active:    0x0000010000000000000000000000000000000000000000000000000000000000
+Class of Service: 3
+Port Speed (supported): 8 GBIT
+Port Speed (running):   8 GBIT
+Port FC ID: 0x011100
+Port Type: Fabric
+Attention Type:   Link Up
+Topology:  Point to Point or Fabric
+
+Seconds Since Last Reset: 7100215         
+
+	Transmit Statistics	Receive Statistics
+	-------------------	------------------
+Frames: 2300466510      	1146229928      
+Words:  682028343040    	502011997952    
+
+LIP Count: 0               
+NOS Count: 0               
+Error Frames:  0               
+Dumped Frames: 0               
+Link Failure Count: 0               
+Loss of Sync Count: 0               
+Loss of Signal: 0               
+Primitive Seq Protocol Error Count: 0               
+Invalid Tx Word Count: 42              
+Invalid CRC Count: 0               
+
+IP over FC Adapter Driver Information
+  No DMA Resource Count: 0               
+  No Adapter Elements Count: 0               
+
+FC SCSI Adapter Driver Information
+  No DMA Resource Count: 0               
+  No Adapter Elements Count: 0               
+  No Command Resource Count: 0               
+
+IP over FC Traffic Statistics
+  Input Requests:   0               
+  Output Requests:  0               
+  Control Requests: 0               
+  Input Bytes:  0               
+  Output Bytes: 0               
+
+FC SCSI Traffic Statistics
+  Input Requests:   906346989       
+  Output Requests:  64807196        
+  Control Requests: 30353954        
+  Input Bytes:  158429984693918 
+  Output Bytes: 2640873086976   
+
+#### Adapter: fcs9 ####
+
+FIBRE CHANNEL STATISTICS REPORT: fcs9
+
+Device Type: FC Adapter (adapter/pciex/df1000f11410010)
+Serial Number: 1C403081FE
+Option ROM Version: 027820B7
+ZA: U2D2.02X7 
+World Wide Node Name: 0x20000120FA485A17
+World Wide Port Name: 0x10000090FA485A17
+
+FC-4 TYPES:
+  Supported: 0x0000012000000000000000000000000000000000000000000000000000000000
+  Active:    0x0000010000000000000000000000000000000000000000000000000000000000
+Class of Service: 3
+Port Speed (supported): 8 GBIT
+Port Speed (running):   8 GBIT
+Port FC ID: 0x010700
+Port Type: Fabric
+Attention Type:   Link Up
+Topology:  Point to Point or Fabric
+
+Seconds Since Last Reset: 7100215         
+
+	Transmit Statistics	Receive Statistics
+	-------------------	------------------
+Frames: 2301440525      	1144630288      
+Words:  682180975872    	500599965952    
+
+LIP Count: 0               
+NOS Count: 0               
+Error Frames:  0               
+Dumped Frames: 0               
+Link Failure Count: 0               
+Loss of Sync Count: 0               
+Loss of Signal: 0               
+Primitive Seq Protocol Error Count: 0               
+Invalid Tx Word Count: 26              
+Invalid CRC Count: 0               
+
+IP over FC Adapter Driver Information
+  No DMA Resource Count: 0               
+  No Adapter Elements Count: 0               
+
+FC SCSI Adapter Driver Information
+  No DMA Resource Count: 0               
+  No Adapter Elements Count: 0               
+  No Command Resource Count: 0               
+
+IP over FC Traffic Statistics
+  Input Requests:   0               
+  Output Requests:  0               
+  Control Requests: 0               
+  Input Bytes:  0               
+  Output Bytes: 0               
+
+FC SCSI Traffic Statistics
+  Input Requests:   906822266       
+  Output Requests:  64805226        
+  Control Requests: 30427627        
+  Input Bytes:  158424439400161 
+  Output Bytes: 2641439544320   
+
+#### Adapter: fcs10 ####
+
+FIBRE CHANNEL STATISTICS REPORT: fcs10
+
+Device Type: FC Adapter (adapter/pciex/df1000f11410010)
+Serial Number: 1C403081FE
+Option ROM Version: 027820B7
+ZA: U2D2.02X7 
+World Wide Node Name: 0x20000120FA485A18
+World Wide Port Name: 0x10000090FA485A18
+
+FC-4 TYPES:
+  Supported: 0x0000012000000000000000000000000000000000000000000000000000000000
+  Active:    0x0000010000000000000000000000000000000000000000000000000000000000
+Class of Service: 3
+Port Speed (supported): 8 GBIT
+Port Speed (running):   8 GBIT
+Port FC ID: 0x02FC80
+Port Type: Fabric
+Attention Type:   Link Up
+Topology:  Point to Point or Fabric
+
+Seconds Since Last Reset: 7100215         
+
+	Transmit Statistics	Receive Statistics
+	-------------------	------------------
+Frames: 686964247       	712948287       
+Words:  520369117696    	191587870464    
+
+LIP Count: 0               
+NOS Count: 0               
+Error Frames:  0               
+Dumped Frames: 0               
+Link Failure Count: 0               
+Loss of Sync Count: 0               
+Loss of Signal: 0               
+Primitive Seq Protocol Error Count: 0               
+Invalid Tx Word Count: 37              
+Invalid CRC Count: 0               
+
+IP over FC Adapter Driver Information
+  No DMA Resource Count: 0               
+  No Adapter Elements Count: 874             
+
+FC SCSI Adapter Driver Information
+  No DMA Resource Count: 0               
+  No Adapter Elements Count: 874             
+  No Command Resource Count: 0               
+
+IP over FC Traffic Statistics
+  Input Requests:   0               
+  Output Requests:  0               
+  Control Requests: 0               
+  Input Bytes:  0               
+  Output Bytes: 0               
+
+FC SCSI Traffic Statistics
+  Input Requests:   1556659283      
+  Output Requests:  599476797       
+  Control Requests: 1516201         
+  Input Bytes:  152784606185259 
+  Output Bytes: 58449022998016  
+
+#### Adapter: fcs11 ####
+
+FIBRE CHANNEL STATISTICS REPORT: fcs11
+
+Device Type: FC Adapter (adapter/pciex/df1000f11410010)
+Serial Number: 1C403081FE
+Option ROM Version: 027820B7
+ZA: U2D2.02X7 
+World Wide Node Name: 0x20000120FA485A19
+World Wide Port Name: 0x10000090FA485A19
+
+FC-4 TYPES:
+  Supported: 0x0000012000000000000000000000000000000000000000000000000000000000
+  Active:    0x0000010000000000000000000000000000000000000000000000000000000000
+Class of Service: 3
+Port Speed (supported): 8 GBIT
+Port Speed (running):   8 GBIT
+Port FC ID: 0x02FC80
+Port Type: Fabric
+Attention Type:   Link Up
+Topology:  Point to Point or Fabric
+
+Seconds Since Last Reset: 7100215         
+
+	Transmit Statistics	Receive Statistics
+	-------------------	------------------
+Frames: 1780100660      	530595175       
+Words:  596071939328    	44509987840     
+
+LIP Count: 0               
+NOS Count: 0               
+Error Frames:  0               
+Dumped Frames: 0               
+Link Failure Count: 0               
+Loss of Sync Count: 0               
+Loss of Signal: 0               
+Primitive Seq Protocol Error Count: 0               
+Invalid Tx Word Count: 33              
+Invalid CRC Count: 0               
+
+IP over FC Adapter Driver Information
+  No DMA Resource Count: 0               
+  No Adapter Elements Count: 27860           
+
+FC SCSI Adapter Driver Information
+  No DMA Resource Count: 0               
+  No Adapter Elements Count: 27860           
+  No Command Resource Count: 0               
+
+IP over FC Traffic Statistics
+  Input Requests:   0               
+  Output Requests:  0               
+  Control Requests: 0               
+  Input Bytes:  0               
+  Output Bytes: 0               
+
+FC SCSI Traffic Statistics
+  Input Requests:   998232752       
+  Output Requests:  2124957290      
+  Control Requests: 987641          
+  Input Bytes:  139082986955034 
+  Output Bytes: 50001631873192  
+
+#### Adapter: fcs12 ####
+
+FIBRE CHANNEL STATISTICS REPORT: fcs12
+
+Device Type: FC Adapter (adapter/pciex/df1000f11410010)
+Serial Number: 1A44600041
+Option ROM Version: 027820B7
+ZA: U2D2.02X7 
+World Wide Node Name: 0x20000120FA8AA01C
+World Wide Port Name: 0x10000090FA8AA01C
+
+FC-4 TYPES:
+  Supported: 0x0000012000000000000000000000000000000000000000000000000000000000
+  Active:    0x0000010000000000000000000000000000000000000000000000000000000000
+Class of Service: 3
+Port Speed (supported): 8 GBIT
+Port Speed (running):   8 GBIT
+Port FC ID: 0x022100
+Port Type: Fabric
+Attention Type:   Link Up
+Topology:  Point to Point or Fabric
+
+Seconds Since Last Reset: 7100215         
+
+	Transmit Statistics	Receive Statistics
+	-------------------	------------------
+Frames: 121999255       	39775702        
+Words:  57213755392     	8332238080      
+
+LIP Count: 0               
+NOS Count: 0               
+Error Frames:  0               
+Dumped Frames: 0               
+Link Failure Count: 0               
+Loss of Sync Count: 0               
+Loss of Signal: 0               
+Primitive Seq Protocol Error Count: 0               
+Invalid Tx Word Count: 30              
+Invalid CRC Count: 0               
+
+IP over FC Adapter Driver Information
+  No DMA Resource Count: 0               
+  No Adapter Elements Count: 0               
+
+FC SCSI Adapter Driver Information
+  No DMA Resource Count: 0               
+  No Adapter Elements Count: 0               
+  No Command Resource Count: 0               
+
+IP over FC Traffic Statistics
+  Input Requests:   0               
+  Output Requests:  0               
+  Control Requests: 0               
+  Input Bytes:  0               
+  Output Bytes: 0               
+
+FC SCSI Traffic Statistics
+  Input Requests:   7920840         
+  Output Requests:  3827482         
+  Control Requests: 107642          
+  Input Bytes:  32187943736     
+  Output Bytes: 225547525120    
+
+#### Adapter: fcs13 ####
+
+FIBRE CHANNEL STATISTICS REPORT: fcs13
+
+Device Type: FC Adapter (adapter/pciex/df1000f11410010)
+Serial Number: 1A44600041
+Option ROM Version: 027820B7
+ZA: U2D2.02X7 
+World Wide Node Name: 0x20000120FA8AA01D
+World Wide Port Name: 0x10000090FA8AA01D
+
+FC-4 TYPES:
+  Supported: 0x0000012000000000000000000000000000000000000000000000000000000000
+  Active:    0x0000010000000000000000000000000000000000000000000000000000000000
+Class of Service: 3
+Port Speed (supported): 8 GBIT
+Port Speed (running):   8 GBIT
+Port FC ID: 0x022000
+Port Type: Fabric
+Attention Type:   Link Up
+Topology:  Point to Point or Fabric
+
+Seconds Since Last Reset: 7100215         
+
+	Transmit Statistics	Receive Statistics
+	-------------------	------------------
+Frames: 124341112       	40017525        
+Words:  58375780352     	8345828352      
+
+LIP Count: 0               
+NOS Count: 0               
+Error Frames:  0               
+Dumped Frames: 0               
+Link Failure Count: 0               
+Loss of Sync Count: 0               
+Loss of Signal: 0               
+Primitive Seq Protocol Error Count: 0               
+Invalid Tx Word Count: 30              
+Invalid CRC Count: 0               
+
+IP over FC Adapter Driver Information
+  No DMA Resource Count: 0               
+  No Adapter Elements Count: 0               
+
+FC SCSI Adapter Driver Information
+  No DMA Resource Count: 0               
+  No Adapter Elements Count: 0               
+  No Command Resource Count: 0               
+
+IP over FC Traffic Statistics
+  Input Requests:   0               
+  Output Requests:  0               
+  Control Requests: 0               
+  Input Bytes:  0               
+  Output Bytes: 0               
+
+FC SCSI Traffic Statistics
+  Input Requests:   7923006         
+  Output Requests:  3927899         
+  Control Requests: 106504          
+  Input Bytes:  32233812334     
+  Output Bytes: 230136207872    
+
+#### Adapter: fcs14 ####
+
+FIBRE CHANNEL STATISTICS REPORT: fcs14
+
+Device Type: FC Adapter (adapter/pciex/df1000f11410010)
+Serial Number: 1A44600041
+Option ROM Version: 027820B7
+ZA: U2D2.02X7 
+World Wide Node Name: 0x20000120FA8AA01E
+World Wide Port Name: 0x10000090FA8AA01E
+
+FC-4 TYPES:
+  Supported: 0x0000012000000000000000000000000000000000000000000000000000000000
+  Active:    0x0000010000000000000000000000000000000000000000000000000000000000
+Class of Service: 3
+Port Speed (supported): 8 GBIT
+Port Speed (running):   8 GBIT
+Port FC ID: 0x02FD80
+Port Type: Fabric
+Attention Type:   Link Up
+Topology:  Point to Point or Fabric
+
+Seconds Since Last Reset: 7100216         
+
+	Transmit Statistics	Receive Statistics
+	-------------------	------------------
+Frames: 4165788231      	481444274       
+Words:  742813029376    	106794239232    
+
+LIP Count: 0               
+NOS Count: 0               
+Error Frames:  0               
+Dumped Frames: 0               
+Link Failure Count: 0               
+Loss of Sync Count: 0               
+Loss of Signal: 0               
+Primitive Seq Protocol Error Count: 0               
+Invalid Tx Word Count: 30              
+Invalid CRC Count: 0               
+
+IP over FC Adapter Driver Information
+  No DMA Resource Count: 0               
+  No Adapter Elements Count: 36317           
+
+FC SCSI Adapter Driver Information
+  No DMA Resource Count: 0               
+  No Adapter Elements Count: 36317           
+  No Command Resource Count: 0               
+
+IP over FC Traffic Statistics
+  Input Requests:   0               
+  Output Requests:  0               
+  Control Requests: 0               
+  Input Bytes:  0               
+  Output Bytes: 0               
+
+FC SCSI Traffic Statistics
+  Input Requests:   999409701       
+  Output Requests:  2051973577      
+  Control Requests: 929335          
+  Input Bytes:  139335368553176 
+  Output Bytes: 46238669324848  
+
+#### Adapter: fcs15 ####
+
+FIBRE CHANNEL STATISTICS REPORT: fcs15
+
+Device Type: FC Adapter (adapter/pciex/df1000f11410010)
+Serial Number: 1A44600041
+Option ROM Version: 027820B7
+ZA: U2D2.02X7 
+World Wide Node Name: 0x20000120FA8AA01F
+World Wide Port Name: 0x10000090FA8AA01F
+
+FC-4 TYPES:
+  Supported: 0x0000012000000000000000000000000000000000000000000000000000000000
+  Active:    0x0000010000000000000000000000000000000000000000000000000000000000
+Class of Service: 3
+Port Speed (supported): 8 GBIT
+Port Speed (running):   8 GBIT
+Port FC ID: 0x02FD80
+Port Type: Fabric
+Attention Type:   Link Up
+Topology:  Point to Point or Fabric
+
+Seconds Since Last Reset: 7100216         
+
+	Transmit Statistics	Receive Statistics
+	-------------------	------------------
+Frames: 569804195       	10594159        
+Words:  466413024000    	936514455552    
+
+LIP Count: 0               
+NOS Count: 0               
+Error Frames:  0               
+Dumped Frames: 0               
+Link Failure Count: 0               
+Loss of Sync Count: 0               
+Loss of Signal: 0               
+Primitive Seq Protocol Error Count: 0               
+Invalid Tx Word Count: 36              
+Invalid CRC Count: 0               
+
+IP over FC Adapter Driver Information
+  No DMA Resource Count: 0               
+  No Adapter Elements Count: 1353            
+
+FC SCSI Adapter Driver Information
+  No DMA Resource Count: 0               
+  No Adapter Elements Count: 1353            
+  No Command Resource Count: 0               
+
+IP over FC Traffic Statistics
+  Input Requests:   0               
+  Output Requests:  0               
+  Control Requests: 0               
+  Input Bytes:  0               
+  Output Bytes: 0               
+
+FC SCSI Traffic Statistics
+  Input Requests:   1546394904      
+  Output Requests:  596373698       
+  Control Requests: 1743052         
+  Input Bytes:  151383350562735 
+  Output Bytes: 58236408709632  
+==== EXITED with rc 0 ====
+==== END lsdev -Cc adapter | grep ^fcs | awk '{print "\n#### Adapter: " $1" ####";system("fcstat " $1)}' Tue Jul  7 13:17:00 CDT 2015 ====

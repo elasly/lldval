@@ -1,0 +1,64 @@
+==== This output can be found in Systems/dx979/network/nfsstat.txt ====
+==== START nfsstat Tue Jul  7 00:42:07 GST 2015 ====
+
+Server rpc:
+Connection oriented:
+calls      badcalls   nullrecv   badlen     xdrcall    dupchecks  dupreqs    
+5          0          0          0          0          0          0          
+Connectionless:
+calls      badcalls   nullrecv   badlen     xdrcall    dupchecks  dupreqs    
+0          0          0          0          0          0          0          
+
+Server nfs:
+calls      badcalls   public_v2  public_v3  
+0          0          0          0          
+Version 2: (0 calls)
+null       getattr    setattr    root       lookup     readlink   read       
+0 0%       0 0%       0 0%       0 0%       0 0%       0 0%       0 0%       
+wrcache    write      create     remove     rename     link       symlink    
+0 0%       0 0%       0 0%       0 0%       0 0%       0 0%       0 0%       
+mkdir      rmdir      readdir    statfs     
+0 0%       0 0%       0 0%       0 0%       
+Version 3: (0 calls)
+null       getattr    setattr    lookup     access     readlink   read       
+0 0%       0 0%       0 0%       0 0%       0 0%       0 0%       0 0%       
+write      create     mkdir      symlink    mknod      remove     rmdir      
+0 0%       0 0%       0 0%       0 0%       0 0%       0 0%       0 0%       
+rename     link       readdir    readdir+   fsstat     fsinfo     pathconf   
+0 0%       0 0%       0 0%       0 0%       0 0%       0 0%       0 0%       
+commit     
+0 0%       
+
+Client rpc:
+Connection oriented:
+calls      badcalls   badxids    timeouts   newcreds   badverfs   timers     
+443340553  0          0          0          0          0          0          
+nomem      cantconn   interrupts 
+0          0          0          
+Connectionless:
+calls      badcalls   retrans    badxids    timeouts   newcreds   badverfs   
+12         0          0          0          0          0          0          
+timers     nomem      cantsend   
+0          0          0          
+
+Client nfs:
+calls      badcalls   clgets     cltoomany  
+443239066  0          0          0          
+Version 2: (0 calls)
+null       getattr    setattr    root       lookup     readlink   read       
+0 0%       0 0%       0 0%       0 0%       0 0%       0 0%       0 0%       
+wrcache    write      create     remove     rename     link       symlink    
+0 0%       0 0%       0 0%       0 0%       0 0%       0 0%       0 0%       
+mkdir      rmdir      readdir    statfs     
+0 0%       0 0%       0 0%       0 0%       
+Version 3: (443164542 calls)
+null       getattr    setattr    lookup     access     readlink   read       
+0 0%       197416 0%  35287 0%   117760 0%  28079 0%   0 0%       136048 0%  
+write      create     mkdir      symlink    mknod      remove     rmdir      
+442536636 2% 11824 0% 0 0%       0 0%       0 0%       10146 0%   0 0%       
+rename     link       readdir    readdir+   fsstat     fsinfo     pathconf   
+19 0%      0 0%       1713 0%    793 0%     87135 0%   10 0%      0 0%       
+commit     
+1676 0%    
+==== EXITED with rc 0 ====
+==== END nfsstat Tue Jul  7 00:42:07 GST 2015 ====

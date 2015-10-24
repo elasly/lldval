@@ -1,0 +1,18 @@
+==== This output can be found in Systems/dx977/os/bootlist-vom_service.txt ====
+==== START bootlist -vom service Tue Jul  7 00:10:19 GST 2015 ====
+'ibm,max-boot-devices' = 0x5
+NVRAM variable: (diag-device=/vdevice/vfc-client@3000019d/disk@500009740834d508:2 /vdevice/vfc-client@3000019e/disk@500009740834d534:2 /vdevice/vfc-client@300001a1/disk@500009740834d534:2 /vdevice/vfc-client@300001a2/disk@500009740834d508:2)
+Path name: (/vdevice/vfc-client@3000019d/disk@500009740834d508:2)
+match_specific_info: ut=disk/fcp/SYMM_VRAID
+hdisk6 blv=hd5 
+Path name: (/vdevice/vfc-client@3000019e/disk@500009740834d534:2)
+match_specific_info: ut=disk/fcp/SYMM_VRAID
+hdisk0 blv=hd5 
+Path name: (/vdevice/vfc-client@300001a1/disk@500009740834d534:2)
+match_specific_info: ut=disk/fcp/SYMM_VRAID
+hdisk2 blv=hd5 
+Path name: (/vdevice/vfc-client@300001a2/disk@500009740834d508:2)
+match_specific_info: ut=disk/fcp/SYMM_VRAID
+hdisk4 blv=hd5 
+==== EXITED with rc 0 ====
+==== END bootlist -vom service Tue Jul  7 00:10:19 GST 2015 ====

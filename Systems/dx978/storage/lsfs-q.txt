@@ -1,0 +1,48 @@
+==== This output can be found in Systems/dx978/storage/lsfs-q.txt ====
+==== START lsfs -q Mon Jul  6 23:36:50 GST 2015 ====
+/dev/fslv00: No such file or directory
+/dev/fslv01: No such file or directory
+Name            Nodename   Mount Pt               VFS   Size    Options    Auto Accounting
+/dev/hd4        --         /                      jfs2  20971520 --         yes  no 
+  (lv size: 20971520, fs size: 20971520, block size: 4096, sparse files: yes, inline log: no, inline log size: 0, EAformat: v1, Quota: no, DMAPI: no, VIX: yes, EFS: no, ISNAPSHOT: no, MAXEXT: 0, MountGuard: no)
+/dev/hd1        --         /home                  jfs2  20971520 --         yes  no 
+  (lv size: 20971520, fs size: 20971520, block size: 4096, sparse files: yes, inline log: no, inline log size: 0, EAformat: v1, Quota: no, DMAPI: no, VIX: yes, EFS: no, ISNAPSHOT: no, MAXEXT: 0, MountGuard: no)
+/dev/hd2        --         /usr                   jfs2  31457280 --         yes  no 
+  (lv size: 31457280, fs size: 31457280, block size: 4096, sparse files: yes, inline log: no, inline log size: 0, EAformat: v1, Quota: no, DMAPI: no, VIX: yes, EFS: no, ISNAPSHOT: no, MAXEXT: 0, MountGuard: no)
+/dev/hd9var     --         /var                   jfs2  41943040 --         yes  no 
+  (lv size: 41943040, fs size: 41943040, block size: 4096, sparse files: yes, inline log: no, inline log size: 0, EAformat: v1, Quota: no, DMAPI: no, VIX: yes, EFS: no, ISNAPSHOT: no, MAXEXT: 0, MountGuard: no)
+/dev/hd3        --         /tmp                   jfs2  31457280 --         yes  no 
+  (lv size: 31457280, fs size: 31457280, block size: 4096, sparse files: yes, inline log: no, inline log size: 0, EAformat: v1, Quota: no, DMAPI: no, VIX: yes, EFS: no, ISNAPSHOT: no, MAXEXT: 0, MountGuard: no)
+/dev/hd11admin  --         /admin                 jfs2  4194304 --         yes  no 
+  (lv size: 4194304, fs size: 4194304, block size: 4096, sparse files: yes, inline log: no, inline log size: 0, EAformat: v1, Quota: no, DMAPI: no, VIX: yes, EFS: no, ISNAPSHOT: no, MAXEXT: 0, MountGuard: no)
+/proc           --         /proc                  procfs --      --         yes  no 
+/dev/hd10opt    --         /opt                   jfs2  52428800 --         yes  no 
+  (lv size: 52428800, fs size: 52428800, block size: 4096, sparse files: yes, inline log: no, inline log size: 0, EAformat: v1, Quota: no, DMAPI: no, VIX: yes, EFS: no, ISNAPSHOT: no, MAXEXT: 0, MountGuard: no)
+/dev/livedump   --         /var/adm/ras/livedump  jfs2  1048576 --         yes  no 
+  (lv size: 1048576, fs size: 1048576, block size: 4096, sparse files: yes, inline log: no, inline log size: 0, EAformat: v1, Quota: no, DMAPI: no, VIX: yes, EFS: no, ISNAPSHOT: no, MAXEXT: 0, MountGuard: no)
+/dev/perfdatalv --         /perfdata              jfs2  10485760 --         yes  no 
+  (lv size: 10485760, fs size: 10485760, block size: 4096, sparse files: yes, inline log: no, inline log size: 0, EAformat: v1, Quota: no, DMAPI: no, VIX: yes, EFS: no, ISNAPSHOT: no, MAXEXT: 0, MountGuard: no)
+/dev/fslv00     --         /export/nim            jfs2  --      rw         yes  no 
+/dev/fslv01     --         /tftpboot              jfs2  --      rw         yes  no 
+/dev/R5_baselv  --         /gsm_base              jfs2  --      noatime,rw no   no 
+/dev/R5_syslv   --         /gsm_sys               jfs2  --      rw         no   no 
+/dev/R5_stagelv --         /gsm_stage             jfs2  --      rw         no   no 
+/dev/R1_redo1lv --         /gsm_redo1             jfs2  --      noatime,rw no   no 
+/dev/R1_redo2lv --         /gsm_redo2             jfs2  --      noatime,rw no   no 
+/dev/R6_bkplv   --         /gsm_bkp               jfs2  --      rw         no   no 
+/dev/R5_undolv  --         /gsm_undo              jfs2  --      noatime,rw no   no 
+/dev/R1_templv  --         /gsm_temp              jfs2  --      noatime,rw no   no 
+/dev/R1_arch1lv --         /gsm_arclog1           jfs2  --      noatime,rbrw,rw no   no 
+/dev/R1_flashlv --         /gsm_flash             jfs2  --      noatime,rw no   no 
+/dev/R1_arch2lv --         /gsm_arclog2           jfs2  --      noatime,rbrw,rw no   no 
+/dev/R5_gglv    --         /gsm_gg                jfs2  --      rw         no   no 
+/dev/R1_ctrl1lv --         /gsm_ctrl1             jfs2  --      noatime,rw no   no 
+/dev/R1_ctrl2lv --         /gsm_ctrl2             jfs2  --      noatime,rw no   no 
+/dev/R1_ctrl3lv --         /gsm_ctrl3             jfs2  --      noatime,rw no   no 
+/dev/R5_explv   --         /gsm_exp               jfs2  --      noatime,rw no   no 
+/dev/R1_indx1lv --         /gsm_index1            jfs2  --      noatime,rw no   no 
+/dev/R1_data1lv --         /gsm_data1             jfs2  --      noatime,rw no   no 
+/data/col1/dd_GSM_Bkp 10.51.227.239 /dd_GSM_Bkp            nfs   --      rw,intr,hard,rsize=65536,wsize=65536,proto=tcp,combehind,timeo=1200,numclust=128,biod=16,bg,llock,noacl yes  no 
+/dev/bctlv      --         /gsm_bct               jfs2  --      rw         no   no 
+==== EXITED with rc 0 ====
+==== END lsfs -q Mon Jul  6 23:36:50 GST 2015 ====

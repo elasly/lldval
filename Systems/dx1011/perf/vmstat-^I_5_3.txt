@@ -1,0 +1,13 @@
+==== This output can be found in Systems/dx1011/perf/vmstat-^I_5_3.txt ====
+==== START vmstat -I 5 3  Tue Jul  7 13:40:09 CDT 2015 ====
+
+System configuration: lcpu=24 mem=8192MB ent=2.00
+
+  kthr     memory              page              faults              cpu          
+-------- ----------- ------------------------ ------------ -----------------------
+ r  b  p   avm   fre  fi  fo  pi  po  fr   sr  in   sy  cs us sy id wa    pc    ec
+ 2  0  0 1138885 87811 347 115   0   0 1307 1306 9396 943418 2534 30 32 38  0  2.50 125.0
+ 3  0  0 1140507 110760 390 126   0   0 5365 5375 4919 921367 2827 16 48 36  0  2.61 130.7
+ 3  0  0 1137950 119386  48  54   0   0 1034 1035 8853 873856 2814 12 52 36  0  3.34 167.1
+==== EXITED with rc 0 ====
+==== END vmstat -I 5 3  Tue Jul  7 13:40:24 CDT 2015 ====

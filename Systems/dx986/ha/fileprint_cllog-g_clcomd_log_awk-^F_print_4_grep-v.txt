@@ -1,0 +1,1341 @@
+==== This output can be found in Systems/dx986/ha/fileprint_cllog-g_clcomd_log_awk-^F_print_4_grep-v.txt ====
+==== START fileprint $(cllog -g clcomd.log | awk -F: '{print $4}' | grep -v value)/clcomd.log Tue Jul  7 00:56:55 GST 2015 ====
+==== BEGIN Contents of /var/log/clcomd/clcomd.log ====
+2015-07-06T20:41:26.958265: clcomd.c: connect_to_node: 5184: FINISH return = 0
+2015-07-06T20:41:57.710779: CONNECTION: CLOSED: <1,DX986>: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-06T20:41:57.711023: clcomd.c: remove_from_list: 1487: Connection to node <1,DX986> closed
+2015-07-06T20:41:57.711388: clcomd.c: remove_from_list: 1487: Connection to node <1,DX987> closed
+2015-07-06T20:49:12.157694: CONNECTION: ACCEPTED: DX987: ::ffff:10.51.226.232->::ffff:10.51.226.233
+2015-07-06T20:49:12.158037: COLLVER: ACCEPTED: DX987: ::ffff:10.51.226.232->::ffff:10.51.226.233
+2015-07-06T20:49:12.158050: clcomd.c: spawn_client: 5556: START type=9
+2015-07-06T20:49:12.159726: clcomd.c: spawn_client: 5635: FINISH
+2015-07-06T20:49:12.160858: clcomd.c: spawn_client: 5595: looking for service type = 9
+2015-07-06T20:49:42.873093: CONNECTION: CLOSED: <1,DX987>: ::ffff:10.51.226.232->::ffff:10.51.226.233
+2015-07-06T20:51:26.890811: clcomd.c: timer_thread: 7053: Activating timer = file_collections_auto_prop
+2015-07-06T20:51:26.904828: clcomd.c: connect_to_node: 4899: START Trying to establish connection to node <1,DX986>
+2015-07-06T20:51:26.905861: clcomd.c: connect_to_node: 5170: Connection to node <1,DX986>,success, ::ffff:10.51.226.233->::ffff:10.51.226.231, last_connect=5184777
+2015-07-06T20:51:26.905880: clcomd.c: connect_to_node: 5184: FINISH return = 0
+2015-07-06T20:51:26.906091: CONNECTION: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-06T20:51:26.906181: COLLVER: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-06T20:51:26.906193: clcomd.c: spawn_client: 5556: START type=9
+2015-07-06T20:51:26.907385: clcomd.c: spawn_client: 5635: FINISH
+2015-07-06T20:51:26.908466: clcomd.c: spawn_client: 5595: looking for service type = 9
+2015-07-06T20:51:27.139621: clcomd.c: connect_to_node: 4899: START Trying to establish connection to node <1,DX987>
+2015-07-06T20:51:27.142731: clcomd.c: get_peer_clcomd_proto_version: 502: START Trying to find the clcomd protocol version of the peer node '<1,DX987>'
+2015-07-06T20:51:27.143391: clcomd.c: get_peer_clcomd_proto_version: 549: FINISH return = 0, Peer node '<1,DX987>' is running clcomd protocol version 2. This node's version 2.
+2015-07-06T20:51:27.144496: clcomd.c: connect_to_node: 5170: Connection to node <1,DX987>,success, ::ffff:10.51.227.85->::ffff:10.51.227.86, last_connect=5184777
+2015-07-06T20:51:27.144513: clcomd.c: connect_to_node: 5184: FINISH return = 0
+2015-07-06T20:51:57.921531: CONNECTION: CLOSED: <1,DX986>: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-06T20:51:57.921702: clcomd.c: remove_from_list: 1487: Connection to node <1,DX986> closed
+2015-07-06T20:51:57.922326: clcomd.c: remove_from_list: 1487: Connection to node <1,DX987> closed
+2015-07-06T20:59:12.303626: CONNECTION: ACCEPTED: DX987: ::ffff:10.51.226.232->::ffff:10.51.226.231
+2015-07-06T20:59:12.304076: COLLVER: ACCEPTED: DX987: ::ffff:10.51.226.232->::ffff:10.51.226.231
+2015-07-06T20:59:12.304089: clcomd.c: spawn_client: 5556: START type=9
+2015-07-06T20:59:12.305679: clcomd.c: spawn_client: 5635: FINISH
+2015-07-06T20:59:12.306786: clcomd.c: spawn_client: 5595: looking for service type = 9
+2015-07-06T20:59:43.230277: CONNECTION: CLOSED: <1,DX987>: ::ffff:10.51.226.232->::ffff:10.51.226.231
+2015-07-06T21:01:26.270196: clcomd.c: timer_thread: 7053: Activating timer = file_collections_auto_prop
+2015-07-06T21:01:26.292148: clcomd.c: connect_to_node: 4899: START Trying to establish connection to node <1,DX986>
+2015-07-06T21:01:26.293284: CONNECTION: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-06T21:01:26.293375: clcomd.c: connect_to_node: 5170: Connection to node <1,DX986>,success, ::ffff:10.51.226.233->::ffff:10.51.226.231, last_connect=5185376
+2015-07-06T21:01:26.293394: clcomd.c: connect_to_node: 5184: FINISH return = 0
+2015-07-06T21:01:26.293584: COLLVER: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-06T21:01:26.293597: clcomd.c: spawn_client: 5556: START type=9
+2015-07-06T21:01:26.295365: clcomd.c: spawn_client: 5595: looking for service type = 9
+2015-07-06T21:01:26.298475: clcomd.c: spawn_client: 5635: FINISH
+2015-07-06T21:01:26.559876: clcomd.c: connect_to_node: 4899: START Trying to establish connection to node <1,DX987>
+2015-07-06T21:01:26.562800: clcomd.c: get_peer_clcomd_proto_version: 502: START Trying to find the clcomd protocol version of the peer node '<1,DX987>'
+2015-07-06T21:01:26.563567: clcomd.c: get_peer_clcomd_proto_version: 549: FINISH return = 0, Peer node '<1,DX987>' is running clcomd protocol version 2. This node's version 2.
+2015-07-06T21:01:26.564568: clcomd.c: connect_to_node: 5170: Connection to node <1,DX987>,success, ::ffff:10.51.226.233->::ffff:10.51.226.232, last_connect=5185376
+2015-07-06T21:01:26.564586: clcomd.c: connect_to_node: 5184: FINISH return = 0
+2015-07-06T21:01:57.292482: CONNECTION: CLOSED: <1,DX986>: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-06T21:01:57.292790: clcomd.c: remove_from_list: 1487: Connection to node <1,DX986> closed
+2015-07-06T21:01:57.293134: clcomd.c: remove_from_list: 1487: Connection to node <1,DX987> closed
+2015-07-06T21:09:12.443970: CONNECTION: ACCEPTED: DX987: ::ffff:10.51.226.232->::ffff:10.51.226.233
+2015-07-06T21:09:12.444348: COLLVER: ACCEPTED: DX987: ::ffff:10.51.226.232->::ffff:10.51.226.233
+2015-07-06T21:09:12.444361: clcomd.c: spawn_client: 5556: START type=9
+2015-07-06T21:09:12.445925: clcomd.c: spawn_client: 5635: FINISH
+2015-07-06T21:09:12.447076: clcomd.c: spawn_client: 5595: looking for service type = 9
+2015-07-06T21:09:43.421289: CONNECTION: CLOSED: <1,DX987>: ::ffff:10.51.226.232->::ffff:10.51.226.233
+2015-07-06T21:11:26.481448: clcomd.c: timer_thread: 7053: Activating timer = file_collections_auto_prop
+2015-07-06T21:11:26.496014: clcomd.c: connect_to_node: 4899: START Trying to establish connection to node <1,DX986>
+2015-07-06T21:11:26.497067: clcomd.c: connect_to_node: 5170: Connection to node <1,DX986>,success, ::ffff:10.51.226.233->::ffff:10.51.226.231, last_connect=5185976
+2015-07-06T21:11:26.497085: clcomd.c: connect_to_node: 5184: FINISH return = 0
+2015-07-06T21:11:26.497299: CONNECTION: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-06T21:11:26.497388: COLLVER: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-06T21:11:26.497400: clcomd.c: spawn_client: 5556: START type=9
+2015-07-06T21:11:26.499759: clcomd.c: spawn_client: 5595: looking for service type = 9
+2015-07-06T21:11:26.500375: clcomd.c: spawn_client: 5635: FINISH
+2015-07-06T21:11:26.807343: clcomd.c: connect_to_node: 4899: START Trying to establish connection to node <1,DX987>
+2015-07-06T21:11:26.810200: clcomd.c: get_peer_clcomd_proto_version: 502: START Trying to find the clcomd protocol version of the peer node '<1,DX987>'
+2015-07-06T21:11:26.811133: clcomd.c: get_peer_clcomd_proto_version: 549: FINISH return = 0, Peer node '<1,DX987>' is running clcomd protocol version 2. This node's version 2.
+2015-07-06T21:11:26.812437: clcomd.c: connect_to_node: 5170: Connection to node <1,DX987>,success, ::ffff:10.51.226.233->::ffff:10.51.226.232, last_connect=5185976
+2015-07-06T21:11:26.812462: clcomd.c: connect_to_node: 5184: FINISH return = 0
+2015-07-06T21:11:57.511463: CONNECTION: CLOSED: <1,DX986>: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-06T21:11:57.511714: clcomd.c: remove_from_list: 1487: Connection to node <1,DX986> closed
+2015-07-06T21:11:57.512198: clcomd.c: remove_from_list: 1487: Connection to node <1,DX987> closed
+2015-07-06T21:19:12.666417: CONNECTION: ACCEPTED: DX987: ::ffff:10.51.226.232->::ffff:10.51.226.231
+2015-07-06T21:19:12.666759: COLLVER: ACCEPTED: DX987: ::ffff:10.51.226.232->::ffff:10.51.226.231
+2015-07-06T21:19:12.666772: clcomd.c: spawn_client: 5556: START type=9
+2015-07-06T21:19:12.668927: clcomd.c: spawn_client: 5595: looking for service type = 9
+2015-07-06T21:19:12.670259: clcomd.c: spawn_client: 5635: FINISH
+2015-07-06T21:19:43.664641: CONNECTION: CLOSED: <1,DX987>: ::ffff:10.51.226.232->::ffff:10.51.226.231
+2015-07-06T21:21:26.749025: clcomd.c: timer_thread: 7053: Activating timer = file_collections_auto_prop
+2015-07-06T21:21:26.762427: clcomd.c: connect_to_node: 4899: START Trying to establish connection to node <1,DX986>
+2015-07-06T21:21:26.763462: clcomd.c: connect_to_node: 5170: Connection to node <1,DX986>,success, ::ffff:10.51.226.233->::ffff:10.51.226.231, last_connect=5186576
+2015-07-06T21:21:26.763480: clcomd.c: connect_to_node: 5184: FINISH return = 0
+2015-07-06T21:21:26.763683: CONNECTION: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-06T21:21:26.763772: COLLVER: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-06T21:21:26.763784: clcomd.c: spawn_client: 5556: START type=9
+2015-07-06T21:21:26.765423: clcomd.c: spawn_client: 5595: looking for service type = 9
+2015-07-06T21:21:26.769725: clcomd.c: spawn_client: 5635: FINISH
+2015-07-06T21:21:27.006290: clcomd.c: connect_to_node: 4899: START Trying to establish connection to node <1,DX987>
+2015-07-06T21:21:27.009131: clcomd.c: get_peer_clcomd_proto_version: 502: START Trying to find the clcomd protocol version of the peer node '<1,DX987>'
+2015-07-06T21:21:27.010352: clcomd.c: get_peer_clcomd_proto_version: 549: FINISH return = 0, Peer node '<1,DX987>' is running clcomd protocol version 2. This node's version 2.
+2015-07-06T21:21:27.013337: clcomd.c: connect_to_node: 5170: Connection to node <1,DX987>,success, ::ffff:10.51.227.85->::ffff:10.51.227.86, last_connect=5186576
+2015-07-06T21:21:27.013354: clcomd.c: connect_to_node: 5184: FINISH return = 0
+2015-07-06T21:21:57.721216: clcomd.c: remove_from_list: 1487: Connection to node <1,DX987> closed
+2015-07-06T21:21:57.800303: CONNECTION: CLOSED: <1,DX986>: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-06T21:21:57.800452: clcomd.c: remove_from_list: 1487: Connection to node <1,DX986> closed
+2015-07-06T21:29:12.830322: CONNECTION: ACCEPTED: DX987: ::ffff:10.51.226.232->::ffff:10.51.226.231
+2015-07-06T21:29:12.830432: COLLVER: ACCEPTED: DX987: ::ffff:10.51.226.232->::ffff:10.51.226.231
+2015-07-06T21:29:12.830445: clcomd.c: spawn_client: 5556: START type=9
+2015-07-06T21:29:12.832679: clcomd.c: spawn_client: 5595: looking for service type = 9
+2015-07-06T21:29:12.834151: clcomd.c: spawn_client: 5635: FINISH
+2015-07-06T21:29:43.825913: CONNECTION: CLOSED: <1,DX987>: ::ffff:10.51.226.232->::ffff:10.51.226.231
+2015-07-06T21:31:26.023552: clcomd.c: timer_thread: 7053: Activating timer = file_collections_auto_prop
+2015-07-06T21:31:26.051520: clcomd.c: connect_to_node: 4899: START Trying to establish connection to node <1,DX986>
+2015-07-06T21:31:26.053177: clcomd.c: connect_to_node: 5170: Connection to node <1,DX986>,success, ::ffff:10.51.226.233->::ffff:10.51.226.231, last_connect=5187175
+2015-07-06T21:31:26.053205: clcomd.c: connect_to_node: 5184: FINISH return = 0
+2015-07-06T21:31:26.053493: CONNECTION: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-06T21:31:26.053628: COLLVER: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-06T21:31:26.053645: clcomd.c: spawn_client: 5556: START type=9
+2015-07-06T21:31:26.056813: clcomd.c: spawn_client: 5635: FINISH
+2015-07-06T21:31:26.057010: clcomd.c: spawn_client: 5595: looking for service type = 9
+2015-07-06T21:31:26.532018: clcomd.c: connect_to_node: 4899: START Trying to establish connection to node <1,DX987>
+2015-07-06T21:31:26.534855: clcomd.c: get_peer_clcomd_proto_version: 502: START Trying to find the clcomd protocol version of the peer node '<1,DX987>'
+2015-07-06T21:31:26.535792: clcomd.c: get_peer_clcomd_proto_version: 549: FINISH return = 0, Peer node '<1,DX987>' is running clcomd protocol version 2. This node's version 2.
+2015-07-06T21:31:26.536673: clcomd.c: connect_to_node: 5170: Connection to node <1,DX987>,success, ::ffff:10.51.226.233->::ffff:10.51.226.232, last_connect=5187176
+2015-07-06T21:31:26.536690: clcomd.c: connect_to_node: 5184: FINISH return = 0
+2015-07-06T21:31:56.847575: clcomd.c: remove_from_list: 1487: Connection to node <1,DX987> closed
+2015-07-06T21:31:57.046271: CONNECTION: CLOSED: <1,DX986>: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-06T21:31:57.046405: clcomd.c: remove_from_list: 1487: Connection to node <1,DX986> closed
+2015-07-06T21:39:12.957205: CONNECTION: ACCEPTED: DX987: ::ffff:10.51.226.232->::ffff:10.51.226.231
+2015-07-06T21:39:12.957414: COLLVER: ACCEPTED: DX987: ::ffff:10.51.226.232->::ffff:10.51.226.231
+2015-07-06T21:39:12.957427: clcomd.c: spawn_client: 5556: START type=9
+2015-07-06T21:39:12.959704: clcomd.c: spawn_client: 5595: looking for service type = 9
+2015-07-06T21:39:12.963193: clcomd.c: spawn_client: 5635: FINISH
+2015-07-06T21:39:43.948203: CONNECTION: CLOSED: <1,DX987>: ::ffff:10.51.226.232->::ffff:10.51.226.231
+2015-07-06T21:41:26.226791: clcomd.c: timer_thread: 7053: Activating timer = file_collections_auto_prop
+2015-07-06T21:41:26.241512: clcomd.c: connect_to_node: 4899: START Trying to establish connection to node <1,DX986>
+2015-07-06T21:41:26.243143: CONNECTION: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-06T21:41:26.243581: clcomd.c: connect_to_node: 5170: Connection to node <1,DX986>,success, ::ffff:10.51.226.233->::ffff:10.51.226.231, last_connect=5187775
+2015-07-06T21:41:26.243606: clcomd.c: connect_to_node: 5184: FINISH return = 0
+2015-07-06T21:41:26.244372: COLLVER: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-06T21:41:26.244386: clcomd.c: spawn_client: 5556: START type=9
+2015-07-06T21:41:26.246657: clcomd.c: spawn_client: 5595: looking for service type = 9
+2015-07-06T21:41:26.248662: clcomd.c: spawn_client: 5635: FINISH
+2015-07-06T21:41:26.559268: clcomd.c: connect_to_node: 4899: START Trying to establish connection to node <1,DX987>
+2015-07-06T21:41:26.562260: clcomd.c: get_peer_clcomd_proto_version: 502: START Trying to find the clcomd protocol version of the peer node '<1,DX987>'
+2015-07-06T21:41:26.563239: clcomd.c: get_peer_clcomd_proto_version: 549: FINISH return = 0, Peer node '<1,DX987>' is running clcomd protocol version 2. This node's version 2.
+2015-07-06T21:41:26.564337: clcomd.c: connect_to_node: 5170: Connection to node <1,DX987>,success, ::ffff:10.51.226.233->::ffff:10.51.226.232, last_connect=5187775
+2015-07-06T21:41:26.564354: clcomd.c: connect_to_node: 5184: FINISH return = 0
+2015-07-06T21:41:56.966190: clcomd.c: remove_from_list: 1487: Connection to node <1,DX987> closed
+2015-07-06T21:41:57.252319: CONNECTION: CLOSED: <1,DX986>: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-06T21:41:57.252368: clcomd.c: remove_from_list: 1487: Connection to node <1,DX986> closed
+2015-07-06T21:49:13.093105: CONNECTION: ACCEPTED: DX987: ::ffff:10.51.226.232->::ffff:10.51.226.231
+2015-07-06T21:49:13.093207: COLLVER: ACCEPTED: DX987: ::ffff:10.51.226.232->::ffff:10.51.226.231
+2015-07-06T21:49:13.093220: clcomd.c: spawn_client: 5556: START type=9
+2015-07-06T21:49:13.096352: clcomd.c: spawn_client: 5595: looking for service type = 9
+2015-07-06T21:49:13.100946: clcomd.c: spawn_client: 5635: FINISH
+2015-07-06T21:49:44.093149: CONNECTION: CLOSED: <1,DX987>: ::ffff:10.51.226.232->::ffff:10.51.226.231
+2015-07-06T21:51:26.391806: clcomd.c: timer_thread: 7053: Activating timer = file_collections_auto_prop
+2015-07-06T21:51:26.417131: clcomd.c: connect_to_node: 4899: START Trying to establish connection to node <1,DX986>
+2015-07-06T21:51:26.419012: clcomd.c: connect_to_node: 5170: Connection to node <1,DX986>,success, ::ffff:10.51.226.233->::ffff:10.51.226.231, last_connect=5188375
+2015-07-06T21:51:26.419030: clcomd.c: connect_to_node: 5184: FINISH return = 0
+2015-07-06T21:51:26.419244: CONNECTION: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-06T21:51:26.420159: COLLVER: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-06T21:51:26.420174: clcomd.c: spawn_client: 5556: START type=9
+2015-07-06T21:51:26.422263: clcomd.c: spawn_client: 5635: FINISH
+2015-07-06T21:51:26.423244: clcomd.c: spawn_client: 5595: looking for service type = 9
+2015-07-06T21:51:26.789442: clcomd.c: connect_to_node: 4899: START Trying to establish connection to node <1,DX987>
+2015-07-06T21:51:26.792854: clcomd.c: get_peer_clcomd_proto_version: 502: START Trying to find the clcomd protocol version of the peer node '<1,DX987>'
+2015-07-06T21:51:26.793803: clcomd.c: get_peer_clcomd_proto_version: 549: FINISH return = 0, Peer node '<1,DX987>' is running clcomd protocol version 2. This node's version 2.
+2015-07-06T21:51:26.794940: clcomd.c: connect_to_node: 5170: Connection to node <1,DX987>,success, ::ffff:10.51.226.233->::ffff:10.51.226.232, last_connect=5188375
+2015-07-06T21:51:26.794956: clcomd.c: connect_to_node: 5184: FINISH return = 0
+2015-07-06T21:51:57.154444: clcomd.c: remove_from_list: 1487: Connection to node <1,DX987> closed
+2015-07-06T21:51:57.420074: CONNECTION: CLOSED: <1,DX986>: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-06T21:51:57.420162: clcomd.c: remove_from_list: 1487: Connection to node <1,DX986> closed
+2015-07-06T21:59:12.217837: CONNECTION: ACCEPTED: DX987: ::ffff:10.51.227.86->::ffff:10.51.227.85
+2015-07-06T21:59:12.218391: COLLVER: ACCEPTED: DX987: ::ffff:10.51.227.86->::ffff:10.51.227.85
+2015-07-06T21:59:12.218404: clcomd.c: spawn_client: 5556: START type=9
+2015-07-06T21:59:12.221629: clcomd.c: spawn_client: 5635: FINISH
+2015-07-06T21:59:12.221845: clcomd.c: spawn_client: 5595: looking for service type = 9
+2015-07-06T21:59:43.228306: CONNECTION: CLOSED: <1,DX987>: ::ffff:10.51.227.86->::ffff:10.51.227.85
+2015-07-06T22:01:26.534337: clcomd.c: timer_thread: 7053: Activating timer = file_collections_auto_prop
+2015-07-06T22:01:26.548243: clcomd.c: connect_to_node: 4899: START Trying to establish connection to node <1,DX986>
+2015-07-06T22:01:26.549512: clcomd.c: connect_to_node: 5170: Connection to node <1,DX986>,success, ::ffff:10.51.226.233->::ffff:10.51.226.231, last_connect=5188975
+2015-07-06T22:01:26.549531: clcomd.c: connect_to_node: 5184: FINISH return = 0
+2015-07-06T22:01:26.549741: CONNECTION: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-06T22:01:26.549841: COLLVER: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-06T22:01:26.549853: clcomd.c: spawn_client: 5556: START type=9
+2015-07-06T22:01:26.551365: clcomd.c: spawn_client: 5635: FINISH
+2015-07-06T22:01:26.551852: clcomd.c: spawn_client: 5595: looking for service type = 9
+2015-07-06T22:01:26.850599: clcomd.c: connect_to_node: 4899: START Trying to establish connection to node <1,DX987>
+2015-07-06T22:01:26.853325: clcomd.c: get_peer_clcomd_proto_version: 502: START Trying to find the clcomd protocol version of the peer node '<1,DX987>'
+2015-07-06T22:01:26.854198: clcomd.c: get_peer_clcomd_proto_version: 549: FINISH return = 0, Peer node '<1,DX987>' is running clcomd protocol version 2. This node's version 2.
+2015-07-06T22:01:26.855221: clcomd.c: connect_to_node: 5170: Connection to node <1,DX987>,success, ::ffff:10.51.226.233->::ffff:10.51.226.232, last_connect=5188975
+2015-07-06T22:01:26.855244: clcomd.c: connect_to_node: 5184: FINISH return = 0
+2015-07-06T22:01:57.273423: clcomd.c: remove_from_list: 1487: Connection to node <1,DX987> closed
+2015-07-06T22:01:57.551778: clcomd.c: remove_from_list: 1487: Connection to node <1,DX986> closed
+2015-07-06T22:01:57.552270: CONNECTION: CLOSED: <1,DX986>: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-06T22:09:12.423780: CONNECTION: ACCEPTED: DX987: ::ffff:10.51.226.232->::ffff:10.51.226.233
+2015-07-06T22:09:12.424240: COLLVER: ACCEPTED: DX987: ::ffff:10.51.226.232->::ffff:10.51.226.233
+2015-07-06T22:09:12.424258: clcomd.c: spawn_client: 5556: START type=9
+2015-07-06T22:09:12.426539: clcomd.c: spawn_client: 5635: FINISH
+2015-07-06T22:09:12.426803: clcomd.c: spawn_client: 5595: looking for service type = 9
+2015-07-06T22:09:43.419476: CONNECTION: CLOSED: <1,DX987>: ::ffff:10.51.226.232->::ffff:10.51.226.233
+2015-07-06T22:11:26.663551: clcomd.c: timer_thread: 7053: Activating timer = file_collections_auto_prop
+2015-07-06T22:11:26.678501: clcomd.c: connect_to_node: 4899: START Trying to establish connection to node <1,DX986>
+2015-07-06T22:11:26.679712: clcomd.c: connect_to_node: 5170: Connection to node <1,DX986>,success, ::ffff:10.51.226.233->::ffff:10.51.226.231, last_connect=5189575
+2015-07-06T22:11:26.679740: clcomd.c: connect_to_node: 5184: FINISH return = 0
+2015-07-06T22:11:26.679789: CONNECTION: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-06T22:11:26.679975: COLLVER: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-06T22:11:26.679988: clcomd.c: spawn_client: 5556: START type=9
+2015-07-06T22:11:26.681338: clcomd.c: spawn_client: 5635: FINISH
+2015-07-06T22:11:26.681893: clcomd.c: spawn_client: 5595: looking for service type = 9
+2015-07-06T22:11:26.913031: clcomd.c: connect_to_node: 4899: START Trying to establish connection to node <1,DX987>
+2015-07-06T22:11:26.917054: clcomd.c: get_peer_clcomd_proto_version: 502: START Trying to find the clcomd protocol version of the peer node '<1,DX987>'
+2015-07-06T22:11:26.917727: clcomd.c: get_peer_clcomd_proto_version: 549: FINISH return = 0, Peer node '<1,DX987>' is running clcomd protocol version 2. This node's version 2.
+2015-07-06T22:11:26.918692: clcomd.c: connect_to_node: 5170: Connection to node <1,DX987>,success, ::ffff:10.51.227.85->::ffff:10.51.227.86, last_connect=5189575
+2015-07-06T22:11:26.918719: clcomd.c: connect_to_node: 5184: FINISH return = 0
+2015-07-06T22:11:57.450264: clcomd.c: remove_from_list: 1487: Connection to node <1,DX987> closed
+2015-07-06T22:11:57.684297: CONNECTION: CLOSED: <1,DX986>: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-06T22:11:57.684524: clcomd.c: remove_from_list: 1487: Connection to node <1,DX986> closed
+2015-07-06T22:19:12.569643: CONNECTION: ACCEPTED: DX987: ::ffff:10.51.226.232->::ffff:10.51.226.231
+2015-07-06T22:19:12.570036: COLLVER: ACCEPTED: DX987: ::ffff:10.51.226.232->::ffff:10.51.226.231
+2015-07-06T22:19:12.570049: clcomd.c: spawn_client: 5556: START type=9
+2015-07-06T22:19:12.572342: clcomd.c: spawn_client: 5595: looking for service type = 9
+2015-07-06T22:19:12.579159: clcomd.c: spawn_client: 5635: FINISH
+2015-07-06T22:19:43.567748: CONNECTION: CLOSED: <1,DX987>: ::ffff:10.51.226.232->::ffff:10.51.226.231
+2015-07-06T22:21:26.818143: clcomd.c: timer_thread: 7053: Activating timer = file_collections_auto_prop
+2015-07-06T22:21:26.832684: clcomd.c: connect_to_node: 4899: START Trying to establish connection to node <1,DX986>
+2015-07-06T22:21:26.833748: clcomd.c: connect_to_node: 5170: Connection to node <1,DX986>,success, ::ffff:10.51.226.233->::ffff:10.51.226.231, last_connect=5190175
+2015-07-06T22:21:26.833776: clcomd.c: connect_to_node: 5184: FINISH return = 0
+2015-07-06T22:21:26.833795: CONNECTION: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-06T22:21:26.833999: COLLVER: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-06T22:21:26.834012: clcomd.c: spawn_client: 5556: START type=9
+2015-07-06T22:21:26.835313: clcomd.c: spawn_client: 5635: FINISH
+2015-07-06T22:21:26.835957: clcomd.c: spawn_client: 5595: looking for service type = 9
+2015-07-06T22:21:27.077073: clcomd.c: connect_to_node: 4899: START Trying to establish connection to node <1,DX987>
+2015-07-06T22:21:27.079904: clcomd.c: get_peer_clcomd_proto_version: 502: START Trying to find the clcomd protocol version of the peer node '<1,DX987>'
+2015-07-06T22:21:27.081150: clcomd.c: get_peer_clcomd_proto_version: 549: FINISH return = 0, Peer node '<1,DX987>' is running clcomd protocol version 2. This node's version 2.
+2015-07-06T22:21:27.082164: clcomd.c: connect_to_node: 5170: Connection to node <1,DX987>,success, ::ffff:10.51.227.85->::ffff:10.51.227.86, last_connect=5190175
+2015-07-06T22:21:27.082180: clcomd.c: connect_to_node: 5184: FINISH return = 0
+2015-07-06T22:21:57.606628: clcomd.c: remove_from_list: 1487: Connection to node <1,DX987> closed
+2015-07-06T22:21:57.832292: clcomd.c: remove_from_list: 1487: Connection to node <1,DX986> closed
+2015-07-06T22:21:57.832315: CONNECTION: CLOSED: <1,DX986>: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-06T22:29:12.727571: CONNECTION: ACCEPTED: DX987: ::ffff:10.51.226.232->::ffff:10.51.226.231
+2015-07-06T22:29:12.727824: COLLVER: ACCEPTED: DX987: ::ffff:10.51.226.232->::ffff:10.51.226.231
+2015-07-06T22:29:12.727837: clcomd.c: spawn_client: 5556: START type=9
+2015-07-06T22:29:12.729994: clcomd.c: spawn_client: 5595: looking for service type = 9
+2015-07-06T22:29:12.734741: clcomd.c: spawn_client: 5635: FINISH
+2015-07-06T22:29:43.719298: CONNECTION: CLOSED: <1,DX987>: ::ffff:10.51.226.232->::ffff:10.51.226.231
+2015-07-06T22:31:26.954215: clcomd.c: timer_thread: 7053: Activating timer = file_collections_auto_prop
+2015-07-06T22:31:26.968435: clcomd.c: connect_to_node: 4899: START Trying to establish connection to node <1,DX986>
+2015-07-06T22:31:26.969897: clcomd.c: connect_to_node: 5170: Connection to node <1,DX986>,success, ::ffff:10.51.226.233->::ffff:10.51.226.231, last_connect=5190775
+2015-07-06T22:31:26.969915: clcomd.c: connect_to_node: 5184: FINISH return = 0
+2015-07-06T22:31:26.970183: CONNECTION: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-06T22:31:26.970285: COLLVER: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-06T22:31:26.970298: clcomd.c: spawn_client: 5556: START type=9
+2015-07-06T22:31:26.971884: clcomd.c: spawn_client: 5635: FINISH
+2015-07-06T22:31:26.972499: clcomd.c: spawn_client: 5595: looking for service type = 9
+2015-07-06T22:31:27.266499: clcomd.c: connect_to_node: 4899: START Trying to establish connection to node <1,DX987>
+2015-07-06T22:31:27.269343: clcomd.c: get_peer_clcomd_proto_version: 502: START Trying to find the clcomd protocol version of the peer node '<1,DX987>'
+2015-07-06T22:31:27.270416: clcomd.c: get_peer_clcomd_proto_version: 549: FINISH return = 0, Peer node '<1,DX987>' is running clcomd protocol version 2. This node's version 2.
+2015-07-06T22:31:27.271437: clcomd.c: connect_to_node: 5170: Connection to node <1,DX987>,success, ::ffff:10.51.227.85->::ffff:10.51.227.86, last_connect=5190775
+2015-07-06T22:31:27.271453: clcomd.c: connect_to_node: 5184: FINISH return = 0
+2015-07-06T22:31:57.739713: clcomd.c: remove_from_list: 1487: Connection to node <1,DX987> closed
+2015-07-06T22:31:57.976265: CONNECTION: CLOSED: <1,DX986>: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-06T22:31:57.976509: clcomd.c: remove_from_list: 1487: Connection to node <1,DX986> closed
+2015-07-06T22:39:12.784956: CONNECTION: ACCEPTED: DX987: ::ffff:10.51.226.232->::ffff:10.51.226.233
+2015-07-06T22:39:12.785357: COLLVER: ACCEPTED: DX987: ::ffff:10.51.226.232->::ffff:10.51.226.233
+2015-07-06T22:39:12.785369: clcomd.c: spawn_client: 5556: START type=9
+2015-07-06T22:39:12.787022: clcomd.c: spawn_client: 5635: FINISH
+2015-07-06T22:39:12.787722: clcomd.c: spawn_client: 5595: looking for service type = 9
+2015-07-06T22:39:43.336140: CONNECTION: CLOSED: <1,DX987>: ::ffff:10.51.226.232->::ffff:10.51.226.233
+2015-07-06T22:41:26.340972: clcomd.c: timer_thread: 7053: Activating timer = file_collections_auto_prop
+2015-07-06T22:41:26.354403: clcomd.c: connect_to_node: 4899: START Trying to establish connection to node <1,DX986>
+2015-07-06T22:41:26.355764: clcomd.c: connect_to_node: 5170: Connection to node <1,DX986>,success, ::ffff:10.51.226.233->::ffff:10.51.226.231, last_connect=5191374
+2015-07-06T22:41:26.355789: clcomd.c: connect_to_node: 5184: FINISH return = 0
+2015-07-06T22:41:26.355853: CONNECTION: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-06T22:41:26.356103: COLLVER: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-06T22:41:26.356116: clcomd.c: spawn_client: 5556: START type=9
+2015-07-06T22:41:26.358324: clcomd.c: spawn_client: 5595: looking for service type = 9
+2015-07-06T22:41:26.359221: clcomd.c: spawn_client: 5635: FINISH
+2015-07-06T22:41:26.687618: clcomd.c: connect_to_node: 4899: START Trying to establish connection to node <1,DX987>
+2015-07-06T22:41:26.690594: clcomd.c: get_peer_clcomd_proto_version: 502: START Trying to find the clcomd protocol version of the peer node '<1,DX987>'
+2015-07-06T22:41:26.691456: clcomd.c: get_peer_clcomd_proto_version: 549: FINISH return = 0, Peer node '<1,DX987>' is running clcomd protocol version 2. This node's version 2.
+2015-07-06T22:41:26.692440: clcomd.c: connect_to_node: 5170: Connection to node <1,DX987>,success, ::ffff:10.51.226.233->::ffff:10.51.226.232, last_connect=5191375
+2015-07-06T22:41:26.692456: clcomd.c: connect_to_node: 5184: FINISH return = 0
+2015-07-06T22:41:57.366905: clcomd.c: remove_from_list: 1487: Connection to node <1,DX986> closed
+2015-07-06T22:41:57.366929: CONNECTION: CLOSED: <1,DX986>: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-06T22:41:57.367367: clcomd.c: remove_from_list: 1487: Connection to node <1,DX987> closed
+2015-07-06T22:49:12.873755: CONNECTION: ACCEPTED: DX987: ::ffff:10.51.226.232->::ffff:10.51.226.231
+2015-07-06T22:49:12.873855: COLLVER: ACCEPTED: DX987: ::ffff:10.51.226.232->::ffff:10.51.226.231
+2015-07-06T22:49:12.873867: clcomd.c: spawn_client: 5556: START type=9
+2015-07-06T22:49:12.876032: clcomd.c: spawn_client: 5595: looking for service type = 9
+2015-07-06T22:49:12.879138: clcomd.c: spawn_client: 5635: FINISH
+2015-07-06T22:49:43.437085: CONNECTION: CLOSED: <1,DX987>: ::ffff:10.51.226.232->::ffff:10.51.226.231
+2015-07-06T22:51:26.454781: clcomd.c: timer_thread: 7053: Activating timer = file_collections_auto_prop
+2015-07-06T22:51:26.468339: clcomd.c: connect_to_node: 4899: START Trying to establish connection to node <1,DX986>
+2015-07-06T22:51:26.469466: clcomd.c: connect_to_node: 5170: Connection to node <1,DX986>,success, ::ffff:10.51.226.233->::ffff:10.51.226.231, last_connect=5191974
+2015-07-06T22:51:26.469497: clcomd.c: connect_to_node: 5184: FINISH return = 0
+2015-07-06T22:51:26.469557: CONNECTION: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-06T22:51:26.469738: COLLVER: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-06T22:51:26.469751: clcomd.c: spawn_client: 5556: START type=9
+2015-07-06T22:51:26.471375: clcomd.c: spawn_client: 5635: FINISH
+2015-07-06T22:51:26.471807: clcomd.c: spawn_client: 5595: looking for service type = 9
+2015-07-06T22:51:26.739475: clcomd.c: connect_to_node: 4899: START Trying to establish connection to node <1,DX987>
+2015-07-06T22:51:26.742325: clcomd.c: get_peer_clcomd_proto_version: 502: START Trying to find the clcomd protocol version of the peer node '<1,DX987>'
+2015-07-06T22:51:26.743140: clcomd.c: get_peer_clcomd_proto_version: 549: FINISH return = 0, Peer node '<1,DX987>' is running clcomd protocol version 2. This node's version 2.
+2015-07-06T22:51:26.744095: clcomd.c: connect_to_node: 5170: Connection to node <1,DX987>,success, ::ffff:10.51.226.233->::ffff:10.51.226.232, last_connect=5191975
+2015-07-06T22:51:26.744111: clcomd.c: connect_to_node: 5184: FINISH return = 0
+2015-07-06T22:51:57.472881: CONNECTION: CLOSED: <1,DX986>: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-06T22:51:57.473141: clcomd.c: remove_from_list: 1487: Connection to node <1,DX986> closed
+2015-07-06T22:51:57.473485: clcomd.c: remove_from_list: 1487: Connection to node <1,DX987> closed
+2015-07-06T22:59:12.997127: CONNECTION: ACCEPTED: DX987: ::ffff:10.51.226.232->::ffff:10.51.226.231
+2015-07-06T22:59:12.997563: COLLVER: ACCEPTED: DX987: ::ffff:10.51.226.232->::ffff:10.51.226.231
+2015-07-06T22:59:12.997576: clcomd.c: spawn_client: 5556: START type=9
+2015-07-06T22:59:12.999966: clcomd.c: spawn_client: 5595: looking for service type = 9
+2015-07-06T22:59:13.003177: clcomd.c: spawn_client: 5635: FINISH
+2015-07-06T22:59:43.528941: CONNECTION: CLOSED: <1,DX987>: ::ffff:10.51.226.232->::ffff:10.51.226.231
+2015-07-06T23:01:26.558981: clcomd.c: timer_thread: 7053: Activating timer = file_collections_auto_prop
+2015-07-06T23:01:26.574973: clcomd.c: connect_to_node: 4899: START Trying to establish connection to node <1,DX986>
+2015-07-06T23:01:26.576445: clcomd.c: connect_to_node: 5170: Connection to node <1,DX986>,success, ::ffff:10.51.226.233->::ffff:10.51.226.231, last_connect=5192574
+2015-07-06T23:01:26.576468: clcomd.c: connect_to_node: 5184: FINISH return = 0
+2015-07-06T23:01:26.576688: CONNECTION: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-06T23:01:26.576778: COLLVER: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-06T23:01:26.576790: clcomd.c: spawn_client: 5556: START type=9
+2015-07-06T23:01:26.578181: clcomd.c: spawn_client: 5635: FINISH
+2015-07-06T23:01:26.578620: clcomd.c: spawn_client: 5595: looking for service type = 9
+2015-07-06T23:01:26.830212: clcomd.c: connect_to_node: 4899: START Trying to establish connection to node <1,DX987>
+2015-07-06T23:01:26.833137: clcomd.c: get_peer_clcomd_proto_version: 502: START Trying to find the clcomd protocol version of the peer node '<1,DX987>'
+2015-07-06T23:01:26.833934: clcomd.c: get_peer_clcomd_proto_version: 549: FINISH return = 0, Peer node '<1,DX987>' is running clcomd protocol version 2. This node's version 2.
+2015-07-06T23:01:26.837344: clcomd.c: connect_to_node: 5170: Connection to node <1,DX987>,success, ::ffff:10.51.226.233->::ffff:10.51.226.232, last_connect=5192575
+2015-07-06T23:01:26.837362: clcomd.c: connect_to_node: 5184: FINISH return = 0
+2015-07-06T23:01:57.580770: CONNECTION: CLOSED: <1,DX986>: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-06T23:01:57.581102: clcomd.c: remove_from_list: 1487: Connection to node <1,DX986> closed
+2015-07-06T23:01:57.581391: clcomd.c: remove_from_list: 1487: Connection to node <1,DX987> closed
+2015-07-06T23:09:13.130774: CONNECTION: ACCEPTED: DX987: ::ffff:10.51.226.232->::ffff:10.51.226.231
+2015-07-06T23:09:13.131151: COLLVER: ACCEPTED: DX987: ::ffff:10.51.226.232->::ffff:10.51.226.231
+2015-07-06T23:09:13.131164: clcomd.c: spawn_client: 5556: START type=9
+2015-07-06T23:09:13.133296: clcomd.c: spawn_client: 5595: looking for service type = 9
+2015-07-06T23:09:13.134280: clcomd.c: spawn_client: 5635: FINISH
+2015-07-06T23:09:43.687887: CONNECTION: CLOSED: <1,DX987>: ::ffff:10.51.226.232->::ffff:10.51.226.231
+2015-07-06T23:11:26.713740: clcomd.c: timer_thread: 7053: Activating timer = file_collections_auto_prop
+2015-07-06T23:11:26.730761: clcomd.c: connect_to_node: 4899: START Trying to establish connection to node <1,DX986>
+2015-07-06T23:11:26.731798: clcomd.c: connect_to_node: 5170: Connection to node <1,DX986>,success, ::ffff:10.51.226.233->::ffff:10.51.226.231, last_connect=5193174
+2015-07-06T23:11:26.731815: clcomd.c: connect_to_node: 5184: FINISH return = 0
+2015-07-06T23:11:26.732024: CONNECTION: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-06T23:11:26.732121: COLLVER: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-06T23:11:26.732134: clcomd.c: spawn_client: 5556: START type=9
+2015-07-06T23:11:26.733421: clcomd.c: spawn_client: 5635: FINISH
+2015-07-06T23:11:26.733952: clcomd.c: spawn_client: 5595: looking for service type = 9
+2015-07-06T23:11:27.050151: clcomd.c: connect_to_node: 4899: START Trying to establish connection to node <1,DX987>
+2015-07-06T23:11:27.053381: clcomd.c: get_peer_clcomd_proto_version: 502: START Trying to find the clcomd protocol version of the peer node '<1,DX987>'
+2015-07-06T23:11:27.055247: clcomd.c: get_peer_clcomd_proto_version: 549: FINISH return = 0, Peer node '<1,DX987>' is running clcomd protocol version 2. This node's version 2.
+2015-07-06T23:11:27.056125: clcomd.c: connect_to_node: 5170: Connection to node <1,DX987>,success, ::ffff:10.51.226.233->::ffff:10.51.226.232, last_connect=5193175
+2015-07-06T23:11:27.056141: clcomd.c: connect_to_node: 5184: FINISH return = 0
+2015-07-06T23:11:57.726010: CONNECTION: CLOSED: <1,DX986>: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-06T23:11:57.726331: clcomd.c: remove_from_list: 1487: Connection to node <1,DX986> closed
+2015-07-06T23:11:57.726696: clcomd.c: remove_from_list: 1487: Connection to node <1,DX987> closed
+2015-07-06T23:19:12.254046: CONNECTION: ACCEPTED: DX987: ::ffff:10.51.226.232->::ffff:10.51.226.231
+2015-07-06T23:19:12.254404: COLLVER: ACCEPTED: DX987: ::ffff:10.51.226.232->::ffff:10.51.226.231
+2015-07-06T23:19:12.254416: clcomd.c: spawn_client: 5556: START type=9
+2015-07-06T23:19:12.256120: clcomd.c: spawn_client: 5635: FINISH
+2015-07-06T23:19:12.256740: clcomd.c: spawn_client: 5595: looking for service type = 9
+2015-07-06T23:19:42.907101: CONNECTION: CLOSED: <1,DX987>: ::ffff:10.51.226.232->::ffff:10.51.226.231
+2015-07-06T23:21:26.947898: clcomd.c: timer_thread: 7053: Activating timer = file_collections_auto_prop
+2015-07-06T23:21:26.962007: clcomd.c: connect_to_node: 4899: START Trying to establish connection to node <1,DX986>
+2015-07-06T23:21:26.963049: clcomd.c: connect_to_node: 5170: Connection to node <1,DX986>,success, ::ffff:10.51.226.233->::ffff:10.51.226.231, last_connect=5193775
+2015-07-06T23:21:26.963067: clcomd.c: connect_to_node: 5184: FINISH return = 0
+2015-07-06T23:21:26.963268: CONNECTION: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-06T23:21:26.963357: COLLVER: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-06T23:21:26.963369: clcomd.c: spawn_client: 5556: START type=9
+2015-07-06T23:21:26.964558: clcomd.c: spawn_client: 5635: FINISH
+2015-07-06T23:21:26.965673: clcomd.c: spawn_client: 5595: looking for service type = 9
+2015-07-06T23:21:27.269100: clcomd.c: connect_to_node: 4899: START Trying to establish connection to node <1,DX987>
+2015-07-06T23:21:27.271647: clcomd.c: get_peer_clcomd_proto_version: 502: START Trying to find the clcomd protocol version of the peer node '<1,DX987>'
+2015-07-06T23:21:27.272348: clcomd.c: get_peer_clcomd_proto_version: 549: FINISH return = 0, Peer node '<1,DX987>' is running clcomd protocol version 2. This node's version 2.
+2015-07-06T23:21:27.273504: clcomd.c: connect_to_node: 5170: Connection to node <1,DX987>,success, ::ffff:10.51.226.233->::ffff:10.51.226.232, last_connect=5193775
+2015-07-06T23:21:27.273520: clcomd.c: connect_to_node: 5184: FINISH return = 0
+2015-07-06T23:21:57.983754: CONNECTION: CLOSED: <1,DX986>: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-06T23:21:57.983906: clcomd.c: remove_from_list: 1487: Connection to node <1,DX986> closed
+2015-07-06T23:21:57.984474: clcomd.c: remove_from_list: 1487: Connection to node <1,DX987> closed
+2015-07-06T23:29:12.333819: CONNECTION: ACCEPTED: DX987: ::ffff:10.51.226.232->::ffff:10.51.226.233
+2015-07-06T23:29:12.334158: COLLVER: ACCEPTED: DX987: ::ffff:10.51.226.232->::ffff:10.51.226.233
+2015-07-06T23:29:12.334170: clcomd.c: spawn_client: 5556: START type=9
+2015-07-06T23:29:12.335924: clcomd.c: spawn_client: 5635: FINISH
+2015-07-06T23:29:12.336542: clcomd.c: spawn_client: 5595: looking for service type = 9
+2015-07-06T23:29:43.148682: CONNECTION: CLOSED: <1,DX987>: ::ffff:10.51.226.232->::ffff:10.51.226.233
+2015-07-06T23:31:26.161031: clcomd.c: timer_thread: 7053: Activating timer = file_collections_auto_prop
+2015-07-06T23:31:26.177465: clcomd.c: connect_to_node: 4899: START Trying to establish connection to node <1,DX986>
+2015-07-06T23:31:26.178893: clcomd.c: connect_to_node: 5170: Connection to node <1,DX986>,success, ::ffff:10.51.226.233->::ffff:10.51.226.231, last_connect=5194374
+2015-07-06T23:31:26.178911: clcomd.c: connect_to_node: 5184: FINISH return = 0
+2015-07-06T23:31:26.179172: CONNECTION: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-06T23:31:26.179261: COLLVER: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-06T23:31:26.179273: clcomd.c: spawn_client: 5556: START type=9
+2015-07-06T23:31:26.180963: clcomd.c: spawn_client: 5595: looking for service type = 9
+2015-07-06T23:31:26.182176: clcomd.c: spawn_client: 5635: FINISH
+2015-07-06T23:31:26.421413: clcomd.c: connect_to_node: 4899: START Trying to establish connection to node <1,DX987>
+2015-07-06T23:31:26.423989: clcomd.c: get_peer_clcomd_proto_version: 502: START Trying to find the clcomd protocol version of the peer node '<1,DX987>'
+2015-07-06T23:31:26.424818: clcomd.c: get_peer_clcomd_proto_version: 549: FINISH return = 0, Peer node '<1,DX987>' is running clcomd protocol version 2. This node's version 2.
+2015-07-06T23:31:26.425998: clcomd.c: connect_to_node: 5170: Connection to node <1,DX987>,success, ::ffff:10.51.226.233->::ffff:10.51.226.232, last_connect=5194374
+2015-07-06T23:31:26.426017: clcomd.c: connect_to_node: 5184: FINISH return = 0
+2015-07-06T23:31:57.180972: CONNECTION: CLOSED: <1,DX986>: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-06T23:31:57.181216: clcomd.c: remove_from_list: 1487: Connection to node <1,DX986> closed
+2015-07-06T23:31:57.181518: clcomd.c: remove_from_list: 1487: Connection to node <1,DX987> closed
+2015-07-06T23:39:12.437899: CONNECTION: ACCEPTED: DX987: ::ffff:10.51.226.232->::ffff:10.51.226.231
+2015-07-06T23:39:12.438228: COLLVER: ACCEPTED: DX987: ::ffff:10.51.226.232->::ffff:10.51.226.231
+2015-07-06T23:39:12.438241: clcomd.c: spawn_client: 5556: START type=9
+2015-07-06T23:39:12.440076: clcomd.c: spawn_client: 5635: FINISH
+2015-07-06T23:39:12.440647: clcomd.c: spawn_client: 5595: looking for service type = 9
+2015-07-06T23:39:43.336528: CONNECTION: CLOSED: <1,DX987>: ::ffff:10.51.226.232->::ffff:10.51.226.231
+2015-07-06T23:41:26.351385: clcomd.c: timer_thread: 7053: Activating timer = file_collections_auto_prop
+2015-07-06T23:41:26.369598: clcomd.c: connect_to_node: 4899: START Trying to establish connection to node <1,DX986>
+2015-07-06T23:41:26.371247: clcomd.c: connect_to_node: 5170: Connection to node <1,DX986>,success, ::ffff:10.51.226.233->::ffff:10.51.226.231, last_connect=5194974
+2015-07-06T23:41:26.371267: clcomd.c: connect_to_node: 5184: FINISH return = 0
+2015-07-06T23:41:26.371489: CONNECTION: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-06T23:41:26.371578: COLLVER: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-06T23:41:26.371591: clcomd.c: spawn_client: 5556: START type=9
+2015-07-06T23:41:26.373396: clcomd.c: spawn_client: 5595: looking for service type = 9
+2015-07-06T23:41:26.377566: clcomd.c: spawn_client: 5635: FINISH
+2015-07-06T23:41:26.662099: clcomd.c: connect_to_node: 4899: START Trying to establish connection to node <1,DX987>
+2015-07-06T23:41:26.664750: clcomd.c: get_peer_clcomd_proto_version: 502: START Trying to find the clcomd protocol version of the peer node '<1,DX987>'
+2015-07-06T23:41:26.665761: clcomd.c: get_peer_clcomd_proto_version: 549: FINISH return = 0, Peer node '<1,DX987>' is running clcomd protocol version 2. This node's version 2.
+2015-07-06T23:41:26.666641: clcomd.c: connect_to_node: 5170: Connection to node <1,DX987>,success, ::ffff:10.51.226.233->::ffff:10.51.226.232, last_connect=5194974
+2015-07-06T23:41:26.666657: clcomd.c: connect_to_node: 5184: FINISH return = 0
+2015-07-06T23:41:57.369064: CONNECTION: CLOSED: <1,DX986>: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-06T23:41:57.369297: clcomd.c: remove_from_list: 1487: Connection to node <1,DX986> closed
+2015-07-06T23:41:57.370092: clcomd.c: remove_from_list: 1487: Connection to node <1,DX987> closed
+2015-07-06T23:48:06.779741: CONNECTION: ACCEPTED: DX987: ::ffff:10.51.226.232->::ffff:10.51.226.231
+2015-07-06T23:48:06.780220: RSH: ACCEPTED: DX987: ::ffff:10.51.226.232->::ffff:10.51.226.231
+2015-07-06T23:48:06.780233: clcomd.c: spawn_client: 5556: START type=1
+2015-07-06T23:48:06.782425: clcomd.c: spawn_client: 5595: looking for service type = 1
+2015-07-06T23:48:06.783021: clcomd.c: spawn_client: 5635: FINISH
+2015-07-06T23:48:06.784976: clcomd_services.c: rshd_func: 835: RSH: Command='/usr/es/sbin/cluster/utilities/clodmget -n -f handle HACMPcluster',pid=6357614
+2015-07-06T23:48:06.796602: clcomd_services.c: rshd_func: 1051: RSH:COMPLETED: exit code = 0, pid=6357614
+2015-07-06T23:48:07.202272: RSH: ACCEPTED: DX987: ::ffff:10.51.226.232->::ffff:10.51.226.231
+2015-07-06T23:48:07.202306: clcomd.c: spawn_client: 5556: START type=1
+2015-07-06T23:48:07.203975: clcomd.c: spawn_client: 5635: FINISH
+2015-07-06T23:48:07.204543: clcomd.c: spawn_client: 5595: looking for service type = 1
+2015-07-06T23:48:07.206031: clcomd_services.c: rshd_func: 835: RSH: Command='LANG=C LC_ALL=C /usr/bin/lssrc -ls clstrmgrES',pid=58589496
+2015-07-06T23:48:07.304435: clcomd_services.c: rshd_func: 1051: RSH:COMPLETED: exit code = 0, pid=58589496
+2015-07-06T23:48:37.549166: CONNECTION: CLOSED: <1,DX987>: ::ffff:10.51.226.232->::ffff:10.51.226.231
+2015-07-06T23:49:12.590838: CONNECTION: ACCEPTED: DX987: ::ffff:10.51.226.232->::ffff:10.51.226.233
+2015-07-06T23:49:12.591464: COLLVER: ACCEPTED: DX987: ::ffff:10.51.226.232->::ffff:10.51.226.233
+2015-07-06T23:49:12.591477: clcomd.c: spawn_client: 5556: START type=9
+2015-07-06T23:49:12.593546: clcomd.c: spawn_client: 5595: looking for service type = 9
+2015-07-06T23:49:12.594571: clcomd.c: spawn_client: 5635: FINISH
+2015-07-06T23:49:43.579271: CONNECTION: CLOSED: <1,DX987>: ::ffff:10.51.226.232->::ffff:10.51.226.233
+2015-07-06T23:51:26.609521: clcomd.c: timer_thread: 7053: Activating timer = file_collections_auto_prop
+2015-07-06T23:51:26.623595: clcomd.c: connect_to_node: 4899: START Trying to establish connection to node <1,DX986>
+2015-07-06T23:51:26.625137: clcomd.c: connect_to_node: 5170: Connection to node <1,DX986>,success, ::ffff:10.51.226.233->::ffff:10.51.226.231, last_connect=5195574
+2015-07-06T23:51:26.625155: clcomd.c: connect_to_node: 5184: FINISH return = 0
+2015-07-06T23:51:26.625375: CONNECTION: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-06T23:51:26.625465: COLLVER: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-06T23:51:26.625478: clcomd.c: spawn_client: 5556: START type=9
+2015-07-06T23:51:26.627137: clcomd.c: spawn_client: 5595: looking for service type = 9
+2015-07-06T23:51:26.629881: clcomd.c: spawn_client: 5635: FINISH
+2015-07-06T23:51:26.863388: clcomd.c: connect_to_node: 4899: START Trying to establish connection to node <1,DX987>
+2015-07-06T23:51:26.866413: clcomd.c: get_peer_clcomd_proto_version: 502: START Trying to find the clcomd protocol version of the peer node '<1,DX987>'
+2015-07-06T23:51:26.867352: clcomd.c: get_peer_clcomd_proto_version: 549: FINISH return = 0, Peer node '<1,DX987>' is running clcomd protocol version 2. This node's version 2.
+2015-07-06T23:51:26.868299: clcomd.c: connect_to_node: 5170: Connection to node <1,DX987>,success, ::ffff:10.51.227.85->::ffff:10.51.227.86, last_connect=5195574
+2015-07-06T23:51:26.868316: clcomd.c: connect_to_node: 5184: FINISH return = 0
+2015-07-06T23:51:57.644691: CONNECTION: CLOSED: <1,DX986>: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-06T23:51:57.644949: clcomd.c: remove_from_list: 1487: Connection to node <1,DX986> closed
+2015-07-06T23:51:57.646098: clcomd.c: remove_from_list: 1487: Connection to node <1,DX987> closed
+2015-07-06T23:59:12.782620: CONNECTION: ACCEPTED: DX987: ::ffff:10.51.226.232->::ffff:10.51.226.233
+2015-07-06T23:59:12.782994: COLLVER: ACCEPTED: DX987: ::ffff:10.51.226.232->::ffff:10.51.226.233
+2015-07-06T23:59:12.783007: clcomd.c: spawn_client: 5556: START type=9
+2015-07-06T23:59:12.784617: clcomd.c: spawn_client: 5635: FINISH
+2015-07-06T23:59:12.785741: clcomd.c: spawn_client: 5595: looking for service type = 9
+2015-07-06T23:59:43.750583: CONNECTION: CLOSED: <1,DX987>: ::ffff:10.51.226.232->::ffff:10.51.226.233
+2015-07-07T00:00:00.755299: clcomd.c: timer_thread: 6978: Day time moved back
+2015-07-07T00:00:00.755325: clcomd.c: timer_thread: 7053: Activating timer = autoclverify
+2015-07-07T00:00:00.809162: clcomd.c: connect_to_node: 4899: START Trying to establish connection to node <1,DX986>
+2015-07-07T00:00:00.810260: clcomd.c: connect_to_node: 5170: Connection to node <1,DX986>,success, ::ffff:10.51.226.233->::ffff:10.51.226.231, last_connect=5196088
+2015-07-07T00:00:00.810278: clcomd.c: connect_to_node: 5184: FINISH return = 0
+2015-07-07T00:00:00.810480: CONNECTION: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:00:00.810580: COLLVER: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:00:00.810592: clcomd.c: spawn_client: 5556: START type=9
+2015-07-07T00:00:00.812347: clcomd.c: spawn_client: 5595: looking for service type = 9
+2015-07-07T00:00:00.819095: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:01.141173: clcomd.c: connect_to_node: 4899: START Trying to establish connection to node <1,DX987>
+2015-07-07T00:00:01.144893: clcomd.c: get_peer_clcomd_proto_version: 502: START Trying to find the clcomd protocol version of the peer node '<1,DX987>'
+2015-07-07T00:00:01.145859: clcomd.c: get_peer_clcomd_proto_version: 549: FINISH return = 0, Peer node '<1,DX987>' is running clcomd protocol version 2. This node's version 2.
+2015-07-07T00:00:01.146907: clcomd.c: connect_to_node: 5170: Connection to node <1,DX987>,success, ::ffff:10.51.226.233->::ffff:10.51.226.232, last_connect=5196088
+2015-07-07T00:00:01.146947: clcomd.c: connect_to_node: 5184: FINISH return = 0
+2015-07-07T00:00:01.591699: GODM: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:00:01.591737: clcomd.c: spawn_client: 5556: START type=5
+2015-07-07T00:00:01.594011: clcomd.c: spawn_client: 5595: looking for service type = 5
+2015-07-07T00:00:01.792170: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:01.820097: GODM: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:00:01.820131: clcomd.c: spawn_client: 5556: START type=5
+2015-07-07T00:00:01.822073: clcomd.c: spawn_client: 5595: looking for service type = 5
+2015-07-07T00:00:02.020442: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:02.041868: GODM: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:00:02.041903: clcomd.c: spawn_client: 5556: START type=5
+2015-07-07T00:00:02.043996: clcomd.c: spawn_client: 5595: looking for service type = 5
+2015-07-07T00:00:02.242110: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:02.265430: GODM: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:00:02.265460: clcomd.c: spawn_client: 5556: START type=5
+2015-07-07T00:00:02.267517: clcomd.c: spawn_client: 5595: looking for service type = 5
+2015-07-07T00:00:02.465638: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:02.485177: GODM: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:00:02.485208: clcomd.c: spawn_client: 5556: START type=5
+2015-07-07T00:00:02.487169: clcomd.c: spawn_client: 5595: looking for service type = 5
+2015-07-07T00:00:02.685332: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:02.706691: GODM: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:00:02.706706: clcomd.c: spawn_client: 5556: START type=5
+2015-07-07T00:00:02.708180: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:02.708719: clcomd.c: spawn_client: 5595: looking for service type = 5
+2015-07-07T00:00:02.728104: GODM: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:00:02.728119: clcomd.c: spawn_client: 5556: START type=5
+2015-07-07T00:00:02.729425: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:02.729958: clcomd.c: spawn_client: 5595: looking for service type = 5
+2015-07-07T00:00:02.765268: GODM: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:00:02.765284: clcomd.c: spawn_client: 5556: START type=5
+2015-07-07T00:00:02.766806: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:02.767170: clcomd.c: spawn_client: 5595: looking for service type = 5
+2015-07-07T00:00:02.789454: GODM: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:00:02.789476: clcomd.c: spawn_client: 5556: START type=5
+2015-07-07T00:00:02.791314: clcomd.c: spawn_client: 5595: looking for service type = 5
+2015-07-07T00:00:02.990294: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:03.013408: GODM: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:00:03.013431: clcomd.c: spawn_client: 5556: START type=5
+2015-07-07T00:00:03.015472: clcomd.c: spawn_client: 5595: looking for service type = 5
+2015-07-07T00:00:03.213652: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:03.233850: GODM: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:00:03.233877: clcomd.c: spawn_client: 5556: START type=5
+2015-07-07T00:00:03.235883: clcomd.c: spawn_client: 5595: looking for service type = 5
+2015-07-07T00:00:03.435140: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:03.453433: GODM: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:00:03.453451: clcomd.c: spawn_client: 5556: START type=5
+2015-07-07T00:00:03.455411: clcomd.c: spawn_client: 5595: looking for service type = 5
+2015-07-07T00:00:03.653617: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:03.676116: GODM: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:00:03.676130: clcomd.c: spawn_client: 5556: START type=5
+2015-07-07T00:00:03.678070: clcomd.c: spawn_client: 5595: looking for service type = 5
+2015-07-07T00:00:03.679546: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:03.701907: GODM: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:00:03.701922: clcomd.c: spawn_client: 5556: START type=5
+2015-07-07T00:00:03.703870: clcomd.c: spawn_client: 5595: looking for service type = 5
+2015-07-07T00:00:03.903646: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:03.996435: GODM: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:00:03.996459: clcomd.c: spawn_client: 5556: START type=5
+2015-07-07T00:00:03.998497: clcomd.c: spawn_client: 5595: looking for service type = 5
+2015-07-07T00:00:04.198839: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:04.223232: GODM: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:00:04.223266: clcomd.c: spawn_client: 5556: START type=5
+2015-07-07T00:00:04.225278: clcomd.c: spawn_client: 5595: looking for service type = 5
+2015-07-07T00:00:04.423438: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:04.447664: GODM: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:00:04.447679: clcomd.c: spawn_client: 5556: START type=5
+2015-07-07T00:00:04.449720: clcomd.c: spawn_client: 5595: looking for service type = 5
+2015-07-07T00:00:04.452202: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:04.483656: GODM: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:00:04.483695: clcomd.c: spawn_client: 5556: START type=5
+2015-07-07T00:00:04.485662: clcomd.c: spawn_client: 5595: looking for service type = 5
+2015-07-07T00:00:04.684127: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:04.707304: GODM: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:00:04.707320: clcomd.c: spawn_client: 5556: START type=5
+2015-07-07T00:00:04.709645: clcomd.c: spawn_client: 5595: looking for service type = 5
+2015-07-07T00:00:04.909090: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:04.957725: GODM: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:00:04.957741: clcomd.c: spawn_client: 5556: START type=5
+2015-07-07T00:00:04.960056: clcomd.c: spawn_client: 5595: looking for service type = 5
+2015-07-07T00:00:05.159340: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:05.180147: GODM: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:00:05.180165: clcomd.c: spawn_client: 5556: START type=5
+2015-07-07T00:00:05.182236: clcomd.c: spawn_client: 5595: looking for service type = 5
+2015-07-07T00:00:05.381614: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:05.406313: GODM: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:00:05.406328: clcomd.c: spawn_client: 5556: START type=5
+2015-07-07T00:00:05.407946: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:05.408326: clcomd.c: spawn_client: 5595: looking for service type = 5
+2015-07-07T00:00:05.433656: GODM: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:00:05.433671: clcomd.c: spawn_client: 5556: START type=5
+2015-07-07T00:00:05.435145: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:05.435472: clcomd.c: spawn_client: 5595: looking for service type = 5
+2015-07-07T00:00:05.459608: GODM: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:00:05.459626: clcomd.c: spawn_client: 5556: START type=5
+2015-07-07T00:00:05.461547: clcomd.c: spawn_client: 5595: looking for service type = 5
+2015-07-07T00:00:05.659830: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:05.681473: GODM: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:00:05.681503: clcomd.c: spawn_client: 5556: START type=5
+2015-07-07T00:00:05.683424: clcomd.c: spawn_client: 5595: looking for service type = 5
+2015-07-07T00:00:05.881881: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:05.904054: GODM: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:00:05.904069: clcomd.c: spawn_client: 5556: START type=5
+2015-07-07T00:00:05.905745: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:05.906161: clcomd.c: spawn_client: 5595: looking for service type = 5
+2015-07-07T00:00:05.946748: GODM: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:00:05.946780: clcomd.c: spawn_client: 5556: START type=5
+2015-07-07T00:00:05.948709: clcomd.c: spawn_client: 5595: looking for service type = 5
+2015-07-07T00:00:06.148414: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:06.175557: GODM: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:00:06.175573: clcomd.c: spawn_client: 5556: START type=5
+2015-07-07T00:00:06.177596: clcomd.c: spawn_client: 5595: looking for service type = 5
+2015-07-07T00:00:06.179559: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:06.200740: GODM: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:00:06.200771: clcomd.c: spawn_client: 5556: START type=5
+2015-07-07T00:00:06.202569: clcomd.c: spawn_client: 5595: looking for service type = 5
+2015-07-07T00:00:06.401021: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:06.423392: GODM: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:00:06.423406: clcomd.c: spawn_client: 5556: START type=5
+2015-07-07T00:00:06.424894: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:06.425459: clcomd.c: spawn_client: 5595: looking for service type = 5
+2015-07-07T00:00:06.452070: GODM: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:00:06.452086: clcomd.c: spawn_client: 5556: START type=5
+2015-07-07T00:00:06.453909: clcomd.c: spawn_client: 5595: looking for service type = 5
+2015-07-07T00:00:06.652293: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:06.676407: GODM: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:00:06.676422: clcomd.c: spawn_client: 5556: START type=5
+2015-07-07T00:00:06.678507: clcomd.c: spawn_client: 5595: looking for service type = 5
+2015-07-07T00:00:06.877442: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:06.901321: GODM: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:00:06.901337: clcomd.c: spawn_client: 5556: START type=5
+2015-07-07T00:00:06.903328: clcomd.c: spawn_client: 5595: looking for service type = 5
+2015-07-07T00:00:06.905763: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:06.931479: GODM: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:00:06.931495: clcomd.c: spawn_client: 5556: START type=5
+2015-07-07T00:00:06.933189: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:06.933522: clcomd.c: spawn_client: 5595: looking for service type = 5
+2015-07-07T00:00:06.955885: GODM: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:00:06.955900: clcomd.c: spawn_client: 5556: START type=5
+2015-07-07T00:00:06.957424: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:06.957751: clcomd.c: spawn_client: 5595: looking for service type = 5
+2015-07-07T00:00:06.983098: GODM: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:00:06.983115: clcomd.c: spawn_client: 5556: START type=5
+2015-07-07T00:00:06.984970: clcomd.c: spawn_client: 5595: looking for service type = 5
+2015-07-07T00:00:07.184314: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:07.205442: GODM: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:00:07.205458: clcomd.c: spawn_client: 5556: START type=5
+2015-07-07T00:00:07.207429: clcomd.c: spawn_client: 5595: looking for service type = 5
+2015-07-07T00:00:07.209084: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:07.238930: GODM: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:00:07.238946: clcomd.c: spawn_client: 5556: START type=5
+2015-07-07T00:00:07.241009: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:07.241035: clcomd.c: spawn_client: 5595: looking for service type = 5
+2015-07-07T00:00:07.266246: GODM: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:00:07.266271: clcomd.c: spawn_client: 5556: START type=5
+2015-07-07T00:00:07.268248: clcomd.c: spawn_client: 5595: looking for service type = 5
+2015-07-07T00:00:07.466735: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:07.492238: GODM: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:00:07.492254: clcomd.c: spawn_client: 5556: START type=5
+2015-07-07T00:00:07.494425: clcomd.c: spawn_client: 5595: looking for service type = 5
+2015-07-07T00:00:07.494608: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:07.530340: GODM: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:00:07.530355: clcomd.c: spawn_client: 5556: START type=5
+2015-07-07T00:00:07.532309: clcomd.c: spawn_client: 5595: looking for service type = 5
+2015-07-07T00:00:07.534748: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:07.559703: GODM: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:00:07.559718: clcomd.c: spawn_client: 5556: START type=5
+2015-07-07T00:00:07.561564: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:07.562044: clcomd.c: spawn_client: 5595: looking for service type = 5
+2015-07-07T00:00:07.585388: GODM: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:00:07.585422: clcomd.c: spawn_client: 5556: START type=5
+2015-07-07T00:00:07.587293: clcomd.c: spawn_client: 5595: looking for service type = 5
+2015-07-07T00:00:07.786572: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:07.807237: GODM: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:00:07.807269: clcomd.c: spawn_client: 5556: START type=5
+2015-07-07T00:00:07.809474: clcomd.c: spawn_client: 5595: looking for service type = 5
+2015-07-07T00:00:08.007512: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:08.034986: GODM: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:00:08.035017: clcomd.c: spawn_client: 5556: START type=5
+2015-07-07T00:00:08.037168: clcomd.c: spawn_client: 5595: looking for service type = 5
+2015-07-07T00:00:08.236398: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:08.259469: GODM: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:00:08.259483: clcomd.c: spawn_client: 5556: START type=5
+2015-07-07T00:00:08.261213: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:08.261662: clcomd.c: spawn_client: 5595: looking for service type = 5
+2015-07-07T00:00:08.289963: GODM: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:00:08.289982: clcomd.c: spawn_client: 5556: START type=5
+2015-07-07T00:00:08.292364: clcomd.c: spawn_client: 5595: looking for service type = 5
+2015-07-07T00:00:08.295279: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:08.319851: GODM: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:00:08.319893: clcomd.c: spawn_client: 5556: START type=5
+2015-07-07T00:00:08.322137: clcomd.c: spawn_client: 5595: looking for service type = 5
+2015-07-07T00:00:08.525650: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:08.579333: GODM: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:00:08.579356: clcomd.c: spawn_client: 5556: START type=5
+2015-07-07T00:00:08.581971: clcomd.c: spawn_client: 5595: looking for service type = 5
+2015-07-07T00:00:08.585865: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:08.606261: GODM: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:00:08.606282: clcomd.c: spawn_client: 5556: START type=5
+2015-07-07T00:00:08.608186: clcomd.c: spawn_client: 5595: looking for service type = 5
+2015-07-07T00:00:08.609182: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:08.633064: GODM: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:00:08.633114: clcomd.c: spawn_client: 5556: START type=5
+2015-07-07T00:00:08.635261: clcomd.c: spawn_client: 5595: looking for service type = 5
+2015-07-07T00:00:08.834319: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:08.855037: GODM: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:00:08.855066: clcomd.c: spawn_client: 5556: START type=5
+2015-07-07T00:00:08.857235: clcomd.c: spawn_client: 5595: looking for service type = 5
+2015-07-07T00:00:09.055456: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:09.074928: GODM: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:00:09.074949: clcomd.c: spawn_client: 5556: START type=5
+2015-07-07T00:00:09.077026: clcomd.c: spawn_client: 5595: looking for service type = 5
+2015-07-07T00:00:09.275194: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:09.295737: GODM: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:00:09.295764: clcomd.c: spawn_client: 5556: START type=5
+2015-07-07T00:00:09.297686: clcomd.c: spawn_client: 5595: looking for service type = 5
+2015-07-07T00:00:09.495957: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:09.517744: GODM: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:00:09.517804: clcomd.c: spawn_client: 5556: START type=5
+2015-07-07T00:00:09.519866: clcomd.c: spawn_client: 5595: looking for service type = 5
+2015-07-07T00:00:09.718113: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:09.817381: RSH: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:00:09.817396: clcomd.c: spawn_client: 5556: START type=1
+2015-07-07T00:00:09.819196: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:09.819456: clcomd.c: spawn_client: 5595: looking for service type = 1
+2015-07-07T00:00:09.821061: clcomd_services.c: rshd_func: 835: RSH: Command='/usr/es/sbin/cluster/diag/clver -A',pid=48169316
+2015-07-07T00:00:09.847714: clcomd_services.c: rshd_func: 1051: RSH:COMPLETED: exit code = 255, pid=48169316
+2015-07-07T00:00:09.974172: CLVER: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:00:09.974188: clcomd.c: spawn_client: 5556: START type=8
+2015-07-07T00:00:09.975679: clcomd.c: spawn_client: 5595: looking for service type = 8
+2015-07-07T00:00:09.978195: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:09.979500: GODMGET: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:00:09.979513: clcomd.c: spawn_client: 5556: START type=6
+2015-07-07T00:00:09.980425: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:09.981036: clcomd.c: spawn_client: 5595: looking for service type = 6
+2015-07-07T00:00:10.477303: clcomd_services.c: godmget_func: 1084: GODMGET completed
+2015-07-07T00:00:12.810189: COLLVER: ACCEPTED: DX987: ::ffff:10.51.226.233->::ffff:10.51.226.232
+2015-07-07T00:00:12.810206: clcomd.c: spawn_client: 5556: START type=9
+2015-07-07T00:00:12.811924: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:12.812499: clcomd.c: spawn_client: 5595: looking for service type = 9
+2015-07-07T00:00:26.806980: GODMGET: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:00:26.806997: clcomd.c: spawn_client: 5556: START type=6
+2015-07-07T00:00:26.809031: clcomd.c: spawn_client: 5595: looking for service type = 6
+2015-07-07T00:00:26.809421: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:26.865139: clcomd_services.c: godmget_func: 1084: GODMGET completed
+2015-07-07T00:00:26.869249: GODMGET: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:00:26.869264: clcomd.c: spawn_client: 5556: START type=6
+2015-07-07T00:00:26.870709: clcomd.c: spawn_client: 5595: looking for service type = 6
+2015-07-07T00:00:26.871053: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:26.915720: clcomd_services.c: godmget_func: 1084: GODMGET completed
+2015-07-07T00:00:26.920388: GODMGET: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:00:26.920402: clcomd.c: spawn_client: 5556: START type=6
+2015-07-07T00:00:26.921346: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:26.921917: clcomd.c: spawn_client: 5595: looking for service type = 6
+2015-07-07T00:00:26.975129: clcomd_services.c: godmget_func: 1084: GODMGET completed
+2015-07-07T00:00:26.984945: GODMGET: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:00:26.984961: clcomd.c: spawn_client: 5556: START type=6
+2015-07-07T00:00:26.986448: clcomd.c: spawn_client: 5595: looking for service type = 6
+2015-07-07T00:00:26.987372: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:27.026965: clcomd_services.c: godmget_func: 1084: GODMGET completed
+2015-07-07T00:00:27.030805: GODMGET: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:00:27.030819: clcomd.c: spawn_client: 5556: START type=6
+2015-07-07T00:00:27.031779: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:27.032455: clcomd.c: spawn_client: 5595: looking for service type = 6
+2015-07-07T00:00:27.075787: clcomd_services.c: godmget_func: 1084: GODMGET completed
+2015-07-07T00:00:27.083255: GODMGET: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:00:27.083269: clcomd.c: spawn_client: 5556: START type=6
+2015-07-07T00:00:27.084172: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:27.084847: clcomd.c: spawn_client: 5595: looking for service type = 6
+2015-07-07T00:00:27.128886: clcomd_services.c: godmget_func: 1084: GODMGET completed
+2015-07-07T00:00:27.131966: GODMGET: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:00:27.131980: clcomd.c: spawn_client: 5556: START type=6
+2015-07-07T00:00:27.132903: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:27.133444: clcomd.c: spawn_client: 5595: looking for service type = 6
+2015-07-07T00:00:27.184592: clcomd_services.c: godmget_func: 1084: GODMGET completed
+2015-07-07T00:00:27.189399: GODMGET: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:00:27.189413: clcomd.c: spawn_client: 5556: START type=6
+2015-07-07T00:00:27.190795: clcomd.c: spawn_client: 5595: looking for service type = 6
+2015-07-07T00:00:27.191128: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:27.260877: clcomd_services.c: godmget_func: 1084: GODMGET completed
+2015-07-07T00:00:27.266079: GODMGET: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:00:27.266094: clcomd.c: spawn_client: 5556: START type=6
+2015-07-07T00:00:27.267051: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:27.267582: clcomd.c: spawn_client: 5595: looking for service type = 6
+2015-07-07T00:00:27.318348: clcomd_services.c: godmget_func: 1084: GODMGET completed
+2015-07-07T00:00:27.326035: GODMGET: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:00:27.326050: clcomd.c: spawn_client: 5556: START type=6
+2015-07-07T00:00:27.327064: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:27.327759: clcomd.c: spawn_client: 5595: looking for service type = 6
+2015-07-07T00:00:27.371095: clcomd_services.c: godmget_func: 1084: GODMGET completed
+2015-07-07T00:00:27.374136: GODMGET: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:00:27.374150: clcomd.c: spawn_client: 5556: START type=6
+2015-07-07T00:00:27.376071: clcomd.c: spawn_client: 5595: looking for service type = 6
+2015-07-07T00:00:27.376419: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:27.419739: clcomd_services.c: godmget_func: 1084: GODMGET completed
+2015-07-07T00:00:27.422381: GODMGET: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:00:27.422396: clcomd.c: spawn_client: 5556: START type=6
+2015-07-07T00:00:27.423949: clcomd.c: spawn_client: 5595: looking for service type = 6
+2015-07-07T00:00:27.424341: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:27.467897: clcomd_services.c: godmget_func: 1084: GODMGET completed
+2015-07-07T00:00:27.474957: GODMGET: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:00:27.474971: clcomd.c: spawn_client: 5556: START type=6
+2015-07-07T00:00:27.475877: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:27.476538: clcomd.c: spawn_client: 5595: looking for service type = 6
+2015-07-07T00:00:27.517904: clcomd_services.c: godmget_func: 1084: GODMGET completed
+2015-07-07T00:00:27.587019: RSH: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:00:27.587034: clcomd.c: spawn_client: 5556: START type=1
+2015-07-07T00:00:27.588044: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:27.588635: clcomd.c: spawn_client: 5595: looking for service type = 1
+2015-07-07T00:00:27.589945: clcomd_services.c: rshd_func: 835: RSH: Command='/usr/es/sbin/cluster/utilities/cl_get_rdisks',pid=48103424
+2015-07-07T00:00:27.616199: clcomd_services.c: rshd_func: 1051: RSH:COMPLETED: exit code = 0, pid=48103424
+2015-07-07T00:00:28.738977: REXEC: ACCEPTED: DX987: ::ffff:10.51.226.233->::ffff:10.51.226.232
+2015-07-07T00:00:28.738994: clcomd.c: spawn_client: 5556: START type=4
+2015-07-07T00:00:28.740673: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:28.741295: clcomd.c: spawn_client: 5595: looking for service type = 4
+2015-07-07T00:00:28.746048: clcomd_services.c: rshd_func: 835: RSH: Command='SNMPINFO -v 1.3.6.1.4.1.2.3.1.2.1.5.1',pid=47776232
+2015-07-07T00:00:29.350741: clcomd_services.c: rshd_func: 1051: RSH:COMPLETED: exit code = 0, pid=47776232
+2015-07-07T00:00:29.389261: REXEC: ACCEPTED: DX987: ::ffff:10.51.226.233->::ffff:10.51.226.232
+2015-07-07T00:00:29.389277: clcomd.c: spawn_client: 5556: START type=4
+2015-07-07T00:00:29.390245: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:29.390819: clcomd.c: spawn_client: 5595: looking for service type = 4
+2015-07-07T00:00:29.392202: clcomd_services.c: rshd_func: 835: RSH: Command='SNMPINFO -v 1.3.6.1.4.1.2.3.1.2.1.5.2.1.1',pid=29622950
+2015-07-07T00:00:29.712044: RSH: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:00:29.712060: clcomd.c: spawn_client: 5556: START type=1
+2015-07-07T00:00:29.713533: clcomd.c: spawn_client: 5595: looking for service type = 1
+2015-07-07T00:00:29.713891: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:29.715588: clcomd_services.c: rshd_func: 835: RSH: Command='/usr/es/sbin/cluster/utilities/clautover edgmhfhdhegfhccahggfhcgjgggjgdgbhegjgpgocagjhdcagdgpgnhagmgfhegfcagpgocagogpgegfcaeefidjdidgcahhgjhegicadacagfhchcgphchdcagegfhegfgdhegfgeco fehfgfcaekhfgmcadhcadadadkdadadkdcdjcaehfdfecadcdadbdf',pid=44826984
+2015-07-07T00:00:29.726775: clcomd_services.c: rshd_func: 1051: RSH:COMPLETED: exit code = 0, pid=29622950
+2015-07-07T00:00:29.740381: clcomd_services.c: rshd_func: 1051: RSH:COMPLETED: exit code = 0, pid=44826984
+2015-07-07T00:00:29.788863: REXEC: ACCEPTED: DX987: ::ffff:10.51.226.233->::ffff:10.51.226.232
+2015-07-07T00:00:29.788878: clcomd.c: spawn_client: 5556: START type=4
+2015-07-07T00:00:29.789874: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:29.790496: clcomd.c: spawn_client: 5595: looking for service type = 4
+2015-07-07T00:00:29.791886: clcomd_services.c: rshd_func: 835: RSH: Command='SNMPINFO -v 1.3.6.1.4.1.2.3.1.2.1.5.3.1.1',pid=47710698
+2015-07-07T00:00:30.737421: RSH: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:00:30.737437: clcomd.c: spawn_client: 5556: START type=1
+2015-07-07T00:00:30.738256: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:30.738866: clcomd.c: spawn_client: 5595: looking for service type = 1
+2015-07-07T00:00:30.740557: clcomd_services.c: rshd_func: 835: RSH: Command='LC_ALL=C lscluster -m DX986',pid=45941152
+2015-07-07T00:00:30.745716: clcomd_services.c: rshd_func: 1051: RSH:COMPLETED: exit code = 0, pid=45941152
+2015-07-07T00:00:30.876802: clcomd_services.c: rshd_func: 1051: RSH:COMPLETED: exit code = 0, pid=47710698
+2015-07-07T00:00:30.921608: REXEC: ACCEPTED: DX987: ::ffff:10.51.226.233->::ffff:10.51.226.232
+2015-07-07T00:00:30.921625: clcomd.c: spawn_client: 5556: START type=4
+2015-07-07T00:00:30.923245: clcomd.c: spawn_client: 5595: looking for service type = 4
+2015-07-07T00:00:30.925153: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:30.927120: clcomd_services.c: rshd_func: 835: RSH: Command='SNMPINFO -v 1.3.6.1.4.1.2.3.1.2.1.5.13.1.1',pid=50528506
+2015-07-07T00:00:31.110822: RSH: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:00:31.110839: clcomd.c: spawn_client: 5556: START type=1
+2015-07-07T00:00:31.111608: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:31.112322: clcomd.c: spawn_client: 5595: looking for service type = 1
+2015-07-07T00:00:31.113617: clcomd_services.c: rshd_func: 835: RSH: Command='/bin/true',pid=50462916
+2015-07-07T00:00:31.115574: clcomd_services.c: rshd_func: 1051: RSH:COMPLETED: exit code = 0, pid=50462916
+2015-07-07T00:00:31.160348: RSH: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:00:31.160364: clcomd.c: spawn_client: 5556: START type=1
+2015-07-07T00:00:31.161230: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:31.161857: clcomd.c: spawn_client: 5595: looking for service type = 1
+2015-07-07T00:00:31.163132: clcomd_services.c: rshd_func: 835: RSH: Command='/usr/es/sbin/cluster/utilities/cl_rsh DX986 /bin/true',pid=52363390
+2015-07-07T00:00:31.200040: RSH: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:00:31.200055: clcomd.c: spawn_client: 5556: START type=1
+2015-07-07T00:00:31.202727: clcomd.c: spawn_client: 5595: looking for service type = 1
+2015-07-07T00:00:31.405054: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:31.408950: clcomd_services.c: rshd_func: 835: RSH: Command='/bin/true',pid=29623008
+2015-07-07T00:00:31.411329: clcomd_services.c: rshd_func: 1051: RSH:COMPLETED: exit code = 0, pid=29623008
+2015-07-07T00:00:31.413762: clcomd_services.c: rshd_func: 1051: RSH:COMPLETED: exit code = 0, pid=52363390
+2015-07-07T00:00:32.445047: clcomd_services.c: rshd_func: 1051: RSH:COMPLETED: exit code = 0, pid=50528506
+2015-07-07T00:00:32.481968: REXEC: ACCEPTED: DX987: ::ffff:10.51.226.233->::ffff:10.51.226.232
+2015-07-07T00:00:32.481984: clcomd.c: spawn_client: 5556: START type=4
+2015-07-07T00:00:32.483066: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:32.483726: clcomd.c: spawn_client: 5595: looking for service type = 4
+2015-07-07T00:00:32.485014: clcomd_services.c: rshd_func: 835: RSH: Command='SNMPINFO -v 1.3.6.1.4.1.2.3.1.2.1.5.11.1.1',pid=46596508
+2015-07-07T00:00:32.785908: clcomd_services.c: rshd_func: 1051: RSH:COMPLETED: exit code = 0, pid=46596508
+2015-07-07T00:00:32.824616: REXEC: ACCEPTED: DX987: ::ffff:10.51.226.233->::ffff:10.51.226.232
+2015-07-07T00:00:32.824632: clcomd.c: spawn_client: 5556: START type=4
+2015-07-07T00:00:32.826201: clcomd.c: spawn_client: 5595: looking for service type = 4
+2015-07-07T00:00:32.826647: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:32.828369: clcomd_services.c: rshd_func: 835: RSH: Command='SNMPINFO -v 1.3.6.1.4.1.2.3.1.2.1.5.11.2.1',pid=48103484
+2015-07-07T00:00:34.799676: clcomd_services.c: rshd_func: 1051: RSH:COMPLETED: exit code = 0, pid=48103484
+2015-07-07T00:00:34.840449: REXEC: ACCEPTED: DX987: ::ffff:10.51.226.233->::ffff:10.51.226.232
+2015-07-07T00:00:34.840467: clcomd.c: spawn_client: 5556: START type=4
+2015-07-07T00:00:34.841631: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:34.842232: clcomd.c: spawn_client: 5595: looking for service type = 4
+2015-07-07T00:00:34.843661: clcomd_services.c: rshd_func: 835: RSH: Command='SNMPINFO -v 1.3.6.1.4.1.2.3.1.2.1.5.11.3.1',pid=44958078
+2015-07-07T00:00:35.090329: clcomd_services.c: rshd_func: 1051: RSH:COMPLETED: exit code = 0, pid=44958078
+2015-07-07T00:00:35.127031: REXEC: ACCEPTED: DX987: ::ffff:10.51.226.233->::ffff:10.51.226.232
+2015-07-07T00:00:35.127047: clcomd.c: spawn_client: 5556: START type=4
+2015-07-07T00:00:35.128610: clcomd.c: spawn_client: 5595: looking for service type = 4
+2015-07-07T00:00:35.129102: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:35.131221: clcomd_services.c: rshd_func: 835: RSH: Command='SNMPINFO -v 1.3.6.1.4.1.2.3.1.2.1.5.4.1.1',pid=49545596
+2015-07-07T00:00:35.657295: clcomd_services.c: rshd_func: 1051: RSH:COMPLETED: exit code = 0, pid=49545596
+2015-07-07T00:00:36.262251: COLLVER: ACCEPTED: DX987: ::ffff:10.51.226.233->::ffff:10.51.226.232
+2015-07-07T00:00:36.262268: clcomd.c: spawn_client: 5556: START type=9
+2015-07-07T00:00:36.263669: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:36.264302: clcomd.c: spawn_client: 5595: looking for service type = 9
+2015-07-07T00:00:36.567975: RSH: ACCEPTED: DX987: ::ffff:10.51.226.233->::ffff:10.51.226.232
+2015-07-07T00:00:36.567992: clcomd.c: spawn_client: 5556: START type=1
+2015-07-07T00:00:36.569548: clcomd.c: spawn_client: 5595: looking for service type = 1
+2015-07-07T00:00:36.569979: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:36.571967: clcomd_services.c: rshd_func: 835: RSH: Command='/usr/es/sbin/cluster/cspoc/cexec cl_errnotify -l',pid=44827044
+2015-07-07T00:00:36.628277: clcomd_services.c: rshd_func: 999: RETURN_CODE=0
+2015-07-07T00:00:36.628406: clcomd_services.c: rshd_func: 1051: RSH:COMPLETED: exit code = 0, pid=44827044
+2015-07-07T00:00:37.482527: GODMGET: ACCEPTED: DX987: ::ffff:10.51.226.233->::ffff:10.51.226.232
+2015-07-07T00:00:37.482543: clcomd.c: spawn_client: 5556: START type=6
+2015-07-07T00:00:37.483974: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:37.484945: clcomd.c: spawn_client: 5595: looking for service type = 6
+2015-07-07T00:00:37.595012: REXEC: ACCEPTED: DX987: ::ffff:10.51.226.233->::ffff:10.51.226.232
+2015-07-07T00:00:37.595028: clcomd.c: spawn_client: 5556: START type=4
+2015-07-07T00:00:37.596612: clcomd.c: spawn_client: 5595: looking for service type = 4
+2015-07-07T00:00:37.597002: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:37.599325: clcomd_services.c: rshd_func: 835: RSH: Command='SNMPINFO -v 1.3.6.1.4.1.2.3.1.2.1.5.1',pid=50397364
+2015-07-07T00:00:37.645853: clcomd_services.c: godmget_func: 1084: GODMGET completed
+2015-07-07T00:00:38.224913: clcomd_services.c: rshd_func: 1051: RSH:COMPLETED: exit code = 0, pid=50397364
+2015-07-07T00:00:38.266110: REXEC: ACCEPTED: DX987: ::ffff:10.51.226.233->::ffff:10.51.226.232
+2015-07-07T00:00:38.266125: clcomd.c: spawn_client: 5556: START type=4
+2015-07-07T00:00:38.267168: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:38.267789: clcomd.c: spawn_client: 5595: looking for service type = 4
+2015-07-07T00:00:38.269606: clcomd_services.c: rshd_func: 835: RSH: Command='SNMPINFO -v 1.3.6.1.4.1.2.3.1.2.1.5.2.1.1',pid=29622790
+2015-07-07T00:00:38.537965: clcomd_services.c: rshd_func: 1051: RSH:COMPLETED: exit code = 0, pid=29622790
+2015-07-07T00:00:38.583224: REXEC: ACCEPTED: DX987: ::ffff:10.51.226.233->::ffff:10.51.226.232
+2015-07-07T00:00:38.583244: clcomd.c: spawn_client: 5556: START type=4
+2015-07-07T00:00:38.584220: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:38.584804: clcomd.c: spawn_client: 5595: looking for service type = 4
+2015-07-07T00:00:38.586191: clcomd_services.c: rshd_func: 835: RSH: Command='SNMPINFO -v 1.3.6.1.4.1.2.3.1.2.1.5.3.1.1',pid=53936336
+2015-07-07T00:00:39.557943: clcomd_services.c: rshd_func: 1051: RSH:COMPLETED: exit code = 0, pid=53936336
+2015-07-07T00:00:39.611634: REXEC: ACCEPTED: DX987: ::ffff:10.51.226.233->::ffff:10.51.226.232
+2015-07-07T00:00:39.611651: clcomd.c: spawn_client: 5556: START type=4
+2015-07-07T00:00:39.612726: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:39.613388: clcomd.c: spawn_client: 5595: looking for service type = 4
+2015-07-07T00:00:39.615906: clcomd_services.c: rshd_func: 835: RSH: Command='SNMPINFO -v 1.3.6.1.4.1.2.3.1.2.1.5.13.1.1',pid=49348838
+2015-07-07T00:00:39.984215: RSH: ACCEPTED: DX987: ::ffff:10.51.226.233->::ffff:10.51.226.232
+2015-07-07T00:00:39.984232: clcomd.c: spawn_client: 5556: START type=1
+2015-07-07T00:00:39.985057: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:39.985737: clcomd.c: spawn_client: 5595: looking for service type = 1
+2015-07-07T00:00:39.987552: clcomd_services.c: rshd_func: 835: RSH: Command='/usr/es/sbin/cluster/utilities/clodmget -n -f handle HACMPcluster',pid=48103494
+2015-07-07T00:00:39.989949: clcomd_services.c: rshd_func: 1051: RSH:COMPLETED: exit code = 0, pid=48103494
+2015-07-07T00:00:40.324666: RSH: ACCEPTED: DX987: ::ffff:10.51.226.233->::ffff:10.51.226.232
+2015-07-07T00:00:40.324683: clcomd.c: spawn_client: 5556: START type=1
+2015-07-07T00:00:40.325571: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:40.326220: clcomd.c: spawn_client: 5595: looking for service type = 1
+2015-07-07T00:00:40.327516: clcomd_services.c: rshd_func: 835: RSH: Command='LANG=C LC_ALL=C /usr/bin/lssrc -ls clstrmgrES',pid=47710488
+2015-07-07T00:00:40.357913: clcomd_services.c: rshd_func: 1051: RSH:COMPLETED: exit code = 0, pid=47710488
+2015-07-07T00:00:41.166526: clcomd_services.c: rshd_func: 1051: RSH:COMPLETED: exit code = 0, pid=49348838
+2015-07-07T00:00:41.201379: REXEC: ACCEPTED: DX987: ::ffff:10.51.226.233->::ffff:10.51.226.232
+2015-07-07T00:00:41.201395: clcomd.c: spawn_client: 5556: START type=4
+2015-07-07T00:00:41.202463: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:41.203042: clcomd.c: spawn_client: 5595: looking for service type = 4
+2015-07-07T00:00:41.207247: clcomd_services.c: rshd_func: 835: RSH: Command='SNMPINFO -v 1.3.6.1.4.1.2.3.1.2.1.5.11.1.1',pid=49348840
+2015-07-07T00:00:41.544294: clcomd_services.c: rshd_func: 1051: RSH:COMPLETED: exit code = 0, pid=49348840
+2015-07-07T00:00:41.601362: REXEC: ACCEPTED: DX987: ::ffff:10.51.226.233->::ffff:10.51.226.232
+2015-07-07T00:00:41.601379: clcomd.c: spawn_client: 5556: START type=4
+2015-07-07T00:00:41.603140: clcomd.c: spawn_client: 5595: looking for service type = 4
+2015-07-07T00:00:41.603596: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:41.607621: clcomd_services.c: rshd_func: 835: RSH: Command='SNMPINFO -v 1.3.6.1.4.1.2.3.1.2.1.5.11.2.1',pid=44827064
+2015-07-07T00:00:43.699625: clcomd_services.c: rshd_func: 1051: RSH:COMPLETED: exit code = 0, pid=44827064
+2015-07-07T00:00:43.753540: REXEC: ACCEPTED: DX987: ::ffff:10.51.226.233->::ffff:10.51.226.232
+2015-07-07T00:00:43.753556: clcomd.c: spawn_client: 5556: START type=4
+2015-07-07T00:00:43.754559: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:43.755233: clcomd.c: spawn_client: 5595: looking for service type = 4
+2015-07-07T00:00:43.756695: clcomd_services.c: rshd_func: 835: RSH: Command='SNMPINFO -v 1.3.6.1.4.1.2.3.1.2.1.5.11.3.1',pid=54329572
+2015-07-07T00:00:43.971172: clcomd_services.c: rshd_func: 1051: RSH:COMPLETED: exit code = 0, pid=54329572
+2015-07-07T00:00:44.031375: REXEC: ACCEPTED: DX987: ::ffff:10.51.226.233->::ffff:10.51.226.232
+2015-07-07T00:00:44.031389: clcomd.c: spawn_client: 5556: START type=4
+2015-07-07T00:00:44.032333: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:44.032898: clcomd.c: spawn_client: 5595: looking for service type = 4
+2015-07-07T00:00:44.034226: clcomd_services.c: rshd_func: 835: RSH: Command='SNMPINFO -v 1.3.6.1.4.1.2.3.1.2.1.5.4.1.1',pid=47186404
+2015-07-07T00:00:44.596277: clcomd_services.c: rshd_func: 1051: RSH:COMPLETED: exit code = 0, pid=47186404
+2015-07-07T00:00:45.785972: RSH: ACCEPTED: DX987: ::ffff:10.51.226.233->::ffff:10.51.226.232
+2015-07-07T00:00:45.785989: clcomd.c: spawn_client: 5556: START type=1
+2015-07-07T00:00:45.788129: clcomd.c: spawn_client: 5595: looking for service type = 1
+2015-07-07T00:00:45.789109: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:45.793174: clcomd_services.c: rshd_func: 835: RSH: Command='LC_ALL=C lspv -L',pid=47710492
+2015-07-07T00:00:46.207742: clcomd_services.c: rshd_func: 1051: RSH:COMPLETED: exit code = 0, pid=47710492
+2015-07-07T00:00:46.276470: RSH: ACCEPTED: DX987: ::ffff:10.51.226.233->::ffff:10.51.226.232
+2015-07-07T00:00:46.276492: clcomd.c: spawn_client: 5556: START type=1
+2015-07-07T00:00:46.278161: clcomd.c: spawn_client: 5595: looking for service type = 1
+2015-07-07T00:00:46.278617: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:46.280848: clcomd_services.c: rshd_func: 835: RSH: Command='/usr/es/sbin/cluster/utilities/cl_get_rdisks',pid=47710494
+2015-07-07T00:00:46.299972: clcomd_services.c: rshd_func: 1051: RSH:COMPLETED: exit code = 0, pid=47710494
+2015-07-07T00:00:46.417631: RSH: ACCEPTED: DX987: ::ffff:10.51.226.233->::ffff:10.51.226.232
+2015-07-07T00:00:46.417649: clcomd.c: spawn_client: 5556: START type=1
+2015-07-07T00:00:46.418752: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:46.419598: clcomd.c: spawn_client: 5595: looking for service type = 1
+2015-07-07T00:00:46.421040: clcomd_services.c: rshd_func: 835: RSH: Command='LC_ALL=C lspv -L',pid=47710496
+2015-07-07T00:00:46.850211: clcomd_services.c: rshd_func: 1051: RSH:COMPLETED: exit code = 0, pid=47710496
+2015-07-07T00:00:46.925811: RSH: ACCEPTED: DX987: ::ffff:10.51.226.233->::ffff:10.51.226.232
+2015-07-07T00:00:46.925845: clcomd.c: spawn_client: 5556: START type=1
+2015-07-07T00:00:46.927480: clcomd.c: spawn_client: 5595: looking for service type = 1
+2015-07-07T00:00:46.927943: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:46.930123: clcomd_services.c: rshd_func: 835: RSH: Command='/usr/es/sbin/cluster/utilities/cl_get_rdisks',pid=47710498
+2015-07-07T00:00:46.947771: clcomd_services.c: rshd_func: 1051: RSH:COMPLETED: exit code = 0, pid=47710498
+2015-07-07T00:00:54.956040: RSH: ACCEPTED: DX987: ::ffff:10.51.226.233->::ffff:10.51.226.232
+2015-07-07T00:00:54.956058: clcomd.c: spawn_client: 5556: START type=1
+2015-07-07T00:00:54.957677: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:54.958962: clcomd.c: spawn_client: 5595: looking for service type = 1
+2015-07-07T00:00:54.966065: clcomd_services.c: rshd_func: 835: RSH: Command='/usr/bin/oslevel -s',pid=49545614
+2015-07-07T00:00:54.995618: RSH: ACCEPTED: DX987: ::ffff:10.51.226.233->::ffff:10.51.226.232
+2015-07-07T00:00:54.995635: clcomd.c: spawn_client: 5556: START type=1
+2015-07-07T00:00:54.996280: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:54.997624: clcomd.c: spawn_client: 5595: looking for service type = 1
+2015-07-07T00:00:55.009788: clcomd_services.c: rshd_func: 835: RSH: Command='LANG=C LC_ALL=C /usr/bin/lssrc -ls clstrmgrES',pid=52363408
+2015-07-07T00:00:55.090857: clcomd_services.c: rshd_func: 1051: RSH:COMPLETED: exit code = 0, pid=52363408
+2015-07-07T00:00:55.214605: RSH: ACCEPTED: DX987: ::ffff:10.51.226.233->::ffff:10.51.226.232
+2015-07-07T00:00:55.214628: clcomd.c: spawn_client: 5556: START type=1
+2015-07-07T00:00:55.215640: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:55.217443: clcomd.c: spawn_client: 5595: looking for service type = 1
+2015-07-07T00:00:55.219159: clcomd_services.c: rshd_func: 835: RSH: Command='/usr/bin/lslpp -Lcq cluster.es.server.rte',pid=56426664
+2015-07-07T00:00:55.477191: clcomd_services.c: rshd_func: 1051: RSH:COMPLETED: exit code = 0, pid=56426664
+2015-07-07T00:00:55.519194: RSH: ACCEPTED: DX987: ::ffff:10.51.226.233->::ffff:10.51.226.232
+2015-07-07T00:00:55.519210: clcomd.c: spawn_client: 5556: START type=1
+2015-07-07T00:00:55.520960: clcomd.c: spawn_client: 5595: looking for service type = 1
+2015-07-07T00:00:55.521371: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:55.523913: clcomd_services.c: rshd_func: 835: RSH: Command='/usr/es/sbin/cluster/utilities/clmixver',pid=9831290
+2015-07-07T00:00:55.527578: clcomd_services.c: rshd_func: 1051: RSH:COMPLETED: exit code = 0, pid=9831290
+2015-07-07T00:00:55.566786: RSH: ACCEPTED: DX987: ::ffff:10.51.226.233->::ffff:10.51.226.232
+2015-07-07T00:00:55.566802: clcomd.c: spawn_client: 5556: START type=1
+2015-07-07T00:00:55.568582: clcomd.c: spawn_client: 5595: looking for service type = 1
+2015-07-07T00:00:55.568994: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:55.571111: clcomd_services.c: rshd_func: 835: RSH: Command='/usr/es/sbin/cluster/utilities/clodmget -f handle HACMPcluster',pid=9831308
+2015-07-07T00:00:55.573199: clcomd_services.c: rshd_func: 1051: RSH:COMPLETED: exit code = 0, pid=9831308
+2015-07-07T00:00:55.618128: RSH: ACCEPTED: DX987: ::ffff:10.51.226.233->::ffff:10.51.226.232
+2015-07-07T00:00:55.618144: clcomd.c: spawn_client: 5556: START type=1
+2015-07-07T00:00:55.618853: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:55.619517: clcomd.c: spawn_client: 5595: looking for service type = 1
+2015-07-07T00:00:55.622246: clcomd_services.c: rshd_func: 835: RSH: Command='/usr/bin/lslpp -lc cluster.xd.*',pid=48693282
+2015-07-07T00:00:55.625612: clcomd_services.c: rshd_func: 999: /usr/bin/lslpp: Fileset cluster.xd.* not installed.
+2015-07-07T00:00:55.625791: clcomd_services.c: rshd_func: 1051: RSH:COMPLETED: exit code = 1, pid=48693282
+2015-07-07T00:00:55.668869: RSH: ACCEPTED: DX987: ::ffff:10.51.226.233->::ffff:10.51.226.232
+2015-07-07T00:00:55.668884: clcomd.c: spawn_client: 5556: START type=1
+2015-07-07T00:00:55.670326: clcomd.c: spawn_client: 5595: looking for service type = 1
+2015-07-07T00:00:55.670733: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:55.672780: clcomd_services.c: rshd_func: 835: RSH: Command='/usr/es/sbin/cluster/utilities/clodmget -q "nodename=DX986 and type=start and object=broadcast" -n -f value HACMPdaemons',pid=47054876
+2015-07-07T00:00:55.675106: clcomd_services.c: rshd_func: 1051: RSH:COMPLETED: exit code = 0, pid=47054876
+2015-07-07T00:00:55.712706: RSH: ACCEPTED: DX987: ::ffff:10.51.226.233->::ffff:10.51.226.232
+2015-07-07T00:00:55.712723: clcomd.c: spawn_client: 5556: START type=1
+2015-07-07T00:00:55.713462: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:55.714139: clcomd.c: spawn_client: 5595: looking for service type = 1
+2015-07-07T00:00:55.715812: clcomd_services.c: rshd_func: 835: RSH: Command='lsitab hacmp6000',pid=45613394
+2015-07-07T00:00:55.718369: clcomd_services.c: rshd_func: 1051: RSH:COMPLETED: exit code = 1, pid=45613394
+2015-07-07T00:00:55.913700: clcomd_services.c: rshd_func: 1051: RSH:COMPLETED: exit code = 0, pid=49545614
+2015-07-07T00:00:55.958767: RSH: ACCEPTED: DX987: ::ffff:10.51.226.233->::ffff:10.51.226.232
+2015-07-07T00:00:55.958784: clcomd.c: spawn_client: 5556: START type=1
+2015-07-07T00:00:55.959733: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:55.960319: clcomd.c: spawn_client: 5595: looking for service type = 1
+2015-07-07T00:00:56.010134: clcomd_services.c: rshd_func: 835: RSH: Command='/usr/es/sbin/cluster/utilities/clodmget -q "nodename=DX986 and daemon=clinfo and object=time" -n -f value HACMPdaemons',pid=45875454
+2015-07-07T00:00:56.012480: clcomd_services.c: rshd_func: 1051: RSH:COMPLETED: exit code = 0, pid=45875454
+2015-07-07T00:00:56.172482: RSH: ACCEPTED: DX987: ::ffff:10.51.226.233->::ffff:10.51.226.232
+2015-07-07T00:00:56.172498: clcomd.c: spawn_client: 5556: START type=1
+2015-07-07T00:00:56.173468: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:56.174082: clcomd.c: spawn_client: 5595: looking for service type = 1
+2015-07-07T00:00:56.225060: clcomd_services.c: rshd_func: 835: RSH: Command='odmget HACMPpprcconsistgrp',pid=45875200
+2015-07-07T00:00:56.228889: clcomd_services.c: rshd_func: 1051: RSH:COMPLETED: exit code = 0, pid=45875200
+2015-07-07T00:00:56.284029: RSH: ACCEPTED: DX987: ::ffff:10.51.226.233->::ffff:10.51.226.232
+2015-07-07T00:00:56.284045: clcomd.c: spawn_client: 5556: START type=1
+2015-07-07T00:00:56.285082: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:56.285666: clcomd.c: spawn_client: 5595: looking for service type = 1
+2015-07-07T00:00:56.287069: clcomd_services.c: rshd_func: 835: RSH: Command='lslpp -lc cluster.es.cgpprc.rte >/dev/null 2>&1',pid=45613418
+2015-07-07T00:00:56.290612: clcomd_services.c: rshd_func: 1051: RSH:COMPLETED: exit code = 1, pid=45613418
+2015-07-07T00:00:56.332988: RSH: ACCEPTED: DX987: ::ffff:10.51.226.233->::ffff:10.51.226.232
+2015-07-07T00:00:56.333004: clcomd.c: spawn_client: 5556: START type=1
+2015-07-07T00:00:56.333995: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:56.334596: clcomd.c: spawn_client: 5595: looking for service type = 1
+2015-07-07T00:00:56.335948: clcomd_services.c: rshd_func: 835: RSH: Command='/usr/es/sbin/cluster/utilities/clodmget -n -f clverstartupoptions HACMPcluster',pid=49545616
+2015-07-07T00:00:56.337987: clcomd_services.c: rshd_func: 1051: RSH:COMPLETED: exit code = 0, pid=49545616
+2015-07-07T00:00:56.391585: RSH: ACCEPTED: DX987: ::ffff:10.51.226.233->::ffff:10.51.226.232
+2015-07-07T00:00:56.391601: clcomd.c: spawn_client: 5556: START type=1
+2015-07-07T00:00:56.392638: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:56.393292: clcomd.c: spawn_client: 5595: looking for service type = 1
+2015-07-07T00:00:56.394679: clcomd_services.c: rshd_func: 835: RSH: Command='/bin/true',pid=45875202
+2015-07-07T00:00:56.396816: clcomd_services.c: rshd_func: 1051: RSH:COMPLETED: exit code = 0, pid=45875202
+2015-07-07T00:00:56.438767: RSH: ACCEPTED: DX987: ::ffff:10.51.226.233->::ffff:10.51.226.232
+2015-07-07T00:00:56.438782: clcomd.c: spawn_client: 5556: START type=1
+2015-07-07T00:00:56.439535: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:00:56.440718: clcomd.c: spawn_client: 5595: looking for service type = 1
+2015-07-07T00:00:56.441846: clcomd_services.c: rshd_func: 835: RSH: Command='/usr/es/sbin/cluster/utilities/cl_rsh DX987 /bin/true',pid=54329586
+2015-07-07T00:00:56.479385: clcomd_services.c: rshd_func: 1051: RSH:COMPLETED: exit code = 0, pid=54329586
+2015-07-07T00:01:02.427510: CONNECTION: CLOSED: <1,DX986>: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:01:02.427751: clcomd.c: remove_from_list: 1487: Connection to node <1,DX986> closed
+2015-07-07T00:01:26.430428: clcomd.c: timer_thread: 7053: Activating timer = file_collections_auto_prop
+2015-07-07T00:01:26.444174: clcomd.c: connect_to_node: 4899: START Trying to establish connection to node <1,DX986>
+2015-07-07T00:01:26.445287: clcomd.c: connect_to_node: 5170: Connection to node <1,DX986>,success, ::ffff:10.51.226.233->::ffff:10.51.226.231, last_connect=5196173
+2015-07-07T00:01:26.445306: clcomd.c: connect_to_node: 5184: FINISH return = 0
+2015-07-07T00:01:26.445517: CONNECTION: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:01:26.445605: COLLVER: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:01:26.445617: clcomd.c: spawn_client: 5556: START type=9
+2015-07-07T00:01:26.447179: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:01:26.447627: clcomd.c: spawn_client: 5595: looking for service type = 9
+2015-07-07T00:01:57.450982: CONNECTION: CLOSED: <1,DX986>: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:01:57.451006: clcomd.c: remove_from_list: 1487: Connection to node <1,DX986> closed
+2015-07-07T00:01:57.451245: clcomd.c: remove_from_list: 1487: Connection to node <1,DX987> closed
+2015-07-07T00:09:12.964756: CONNECTION: ACCEPTED: DX987: ::ffff:10.51.226.232->::ffff:10.51.226.231
+2015-07-07T00:09:12.965138: COLLVER: ACCEPTED: DX987: ::ffff:10.51.226.232->::ffff:10.51.226.231
+2015-07-07T00:09:12.965150: clcomd.c: spawn_client: 5556: START type=9
+2015-07-07T00:09:12.967348: clcomd.c: spawn_client: 5595: looking for service type = 9
+2015-07-07T00:09:12.979127: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:09:43.608976: CONNECTION: CLOSED: <1,DX987>: ::ffff:10.51.226.232->::ffff:10.51.226.231
+2015-07-07T00:11:26.617512: clcomd.c: timer_thread: 7053: Activating timer = file_collections_auto_prop
+2015-07-07T00:11:26.634344: clcomd.c: connect_to_node: 4899: START Trying to establish connection to node <1,DX986>
+2015-07-07T00:11:26.635386: clcomd.c: connect_to_node: 5170: Connection to node <1,DX986>,success, ::ffff:10.51.226.233->::ffff:10.51.226.231, last_connect=5196773
+2015-07-07T00:11:26.635403: clcomd.c: connect_to_node: 5184: FINISH return = 0
+2015-07-07T00:11:26.635613: CONNECTION: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:11:26.635701: COLLVER: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:11:26.635713: clcomd.c: spawn_client: 5556: START type=9
+2015-07-07T00:11:26.637010: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:11:26.638629: clcomd.c: spawn_client: 5595: looking for service type = 9
+2015-07-07T00:11:26.897027: clcomd.c: connect_to_node: 4899: START Trying to establish connection to node <1,DX987>
+2015-07-07T00:11:26.900818: clcomd.c: get_peer_clcomd_proto_version: 502: START Trying to find the clcomd protocol version of the peer node '<1,DX987>'
+2015-07-07T00:11:26.901463: clcomd.c: get_peer_clcomd_proto_version: 549: FINISH return = 0, Peer node '<1,DX987>' is running clcomd protocol version 2. This node's version 2.
+2015-07-07T00:11:26.902468: clcomd.c: connect_to_node: 5170: Connection to node <1,DX987>,success, ::ffff:10.51.226.233->::ffff:10.51.226.232, last_connect=5196774
+2015-07-07T00:11:26.902485: clcomd.c: connect_to_node: 5184: FINISH return = 0
+2015-07-07T00:11:57.644609: clcomd.c: remove_from_list: 1487: Connection to node <1,DX986> closed
+2015-07-07T00:11:57.644642: CONNECTION: CLOSED: <1,DX986>: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:11:57.644794: clcomd.c: remove_from_list: 1487: Connection to node <1,DX987> closed
+2015-07-07T00:19:13.041041: CONNECTION: ACCEPTED: DX987: ::ffff:10.51.226.232->::ffff:10.51.226.231
+2015-07-07T00:19:13.041472: COLLVER: ACCEPTED: DX987: ::ffff:10.51.226.232->::ffff:10.51.226.231
+2015-07-07T00:19:13.041485: clcomd.c: spawn_client: 5556: START type=9
+2015-07-07T00:19:13.043089: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:19:13.045211: clcomd.c: spawn_client: 5595: looking for service type = 9
+2015-07-07T00:19:43.744562: CONNECTION: CLOSED: <1,DX987>: ::ffff:10.51.226.232->::ffff:10.51.226.231
+2015-07-07T00:21:26.768926: clcomd.c: timer_thread: 7053: Activating timer = file_collections_auto_prop
+2015-07-07T00:21:26.789912: clcomd.c: connect_to_node: 4899: START Trying to establish connection to node <1,DX986>
+2015-07-07T00:21:26.791367: clcomd.c: connect_to_node: 5170: Connection to node <1,DX986>,success, ::ffff:10.51.226.233->::ffff:10.51.226.231, last_connect=5197373
+2015-07-07T00:21:26.791385: clcomd.c: connect_to_node: 5184: FINISH return = 0
+2015-07-07T00:21:26.791602: CONNECTION: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:21:26.791703: COLLVER: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:21:26.791716: clcomd.c: spawn_client: 5556: START type=9
+2015-07-07T00:21:26.793110: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:21:26.794146: clcomd.c: spawn_client: 5595: looking for service type = 9
+2015-07-07T00:21:27.093794: clcomd.c: connect_to_node: 4899: START Trying to establish connection to node <1,DX987>
+2015-07-07T00:21:27.096937: clcomd.c: get_peer_clcomd_proto_version: 502: START Trying to find the clcomd protocol version of the peer node '<1,DX987>'
+2015-07-07T00:21:27.097820: clcomd.c: get_peer_clcomd_proto_version: 549: FINISH return = 0, Peer node '<1,DX987>' is running clcomd protocol version 2. This node's version 2.
+2015-07-07T00:21:27.099051: clcomd.c: connect_to_node: 5170: Connection to node <1,DX987>,success, ::ffff:10.51.226.233->::ffff:10.51.226.232, last_connect=5197374
+2015-07-07T00:21:27.099072: clcomd.c: connect_to_node: 5184: FINISH return = 0
+2015-07-07T00:21:57.781680: CONNECTION: CLOSED: <1,DX986>: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:21:57.781937: clcomd.c: remove_from_list: 1487: Connection to node <1,DX986> closed
+2015-07-07T00:21:57.782340: clcomd.c: remove_from_list: 1487: Connection to node <1,DX987> closed
+2015-07-07T00:29:13.127612: CONNECTION: ACCEPTED: DX987: ::ffff:10.51.226.232->::ffff:10.51.226.231
+2015-07-07T00:29:13.127998: COLLVER: ACCEPTED: DX987: ::ffff:10.51.226.232->::ffff:10.51.226.231
+2015-07-07T00:29:13.128011: clcomd.c: spawn_client: 5556: START type=9
+2015-07-07T00:29:13.130341: clcomd.c: spawn_client: 5595: looking for service type = 9
+2015-07-07T00:29:13.131327: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:29:43.989432: CONNECTION: CLOSED: <1,DX987>: ::ffff:10.51.226.232->::ffff:10.51.226.231
+2015-07-07T00:31:26.000672: clcomd.c: timer_thread: 7053: Activating timer = file_collections_auto_prop
+2015-07-07T00:31:26.022673: clcomd.c: connect_to_node: 4899: START Trying to establish connection to node <1,DX986>
+2015-07-07T00:31:26.023778: clcomd.c: connect_to_node: 5170: Connection to node <1,DX986>,success, ::ffff:10.51.226.233->::ffff:10.51.226.231, last_connect=5197972
+2015-07-07T00:31:26.023797: clcomd.c: connect_to_node: 5184: FINISH return = 0
+2015-07-07T00:31:26.023999: CONNECTION: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:31:26.024099: COLLVER: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:31:26.024111: clcomd.c: spawn_client: 5556: START type=9
+2015-07-07T00:31:26.025728: clcomd.c: spawn_client: 5595: looking for service type = 9
+2015-07-07T00:31:26.029490: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:31:26.326169: clcomd.c: connect_to_node: 4899: START Trying to establish connection to node <1,DX987>
+2015-07-07T00:31:26.331520: clcomd.c: get_peer_clcomd_proto_version: 502: START Trying to find the clcomd protocol version of the peer node '<1,DX987>'
+2015-07-07T00:31:26.335034: clcomd.c: get_peer_clcomd_proto_version: 549: FINISH return = 0, Peer node '<1,DX987>' is running clcomd protocol version 2. This node's version 2.
+2015-07-07T00:31:26.336106: clcomd.c: connect_to_node: 5170: Connection to node <1,DX987>,success, ::ffff:10.51.226.233->::ffff:10.51.226.232, last_connect=5197973
+2015-07-07T00:31:26.336122: clcomd.c: connect_to_node: 5184: FINISH return = 0
+2015-07-07T00:31:57.085452: CONNECTION: CLOSED: <1,DX986>: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:31:57.085864: clcomd.c: remove_from_list: 1487: Connection to node <1,DX986> closed
+2015-07-07T00:31:57.087359: clcomd.c: remove_from_list: 1487: Connection to node <1,DX987> closed
+2015-07-07T00:39:12.239574: CONNECTION: ACCEPTED: DX987: ::ffff:10.51.226.232->::ffff:10.51.226.231
+2015-07-07T00:39:12.239980: COLLVER: ACCEPTED: DX987: ::ffff:10.51.226.232->::ffff:10.51.226.231
+2015-07-07T00:39:12.239994: clcomd.c: spawn_client: 5556: START type=9
+2015-07-07T00:39:12.242256: clcomd.c: spawn_client: 5595: looking for service type = 9
+2015-07-07T00:39:12.249135: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:39:43.249051: CONNECTION: CLOSED: <1,DX987>: ::ffff:10.51.226.232->::ffff:10.51.226.231
+2015-07-07T00:41:26.348898: clcomd.c: timer_thread: 7053: Activating timer = file_collections_auto_prop
+2015-07-07T00:41:26.380246: clcomd.c: connect_to_node: 4899: START Trying to establish connection to node <1,DX986>
+2015-07-07T00:41:26.381291: clcomd.c: connect_to_node: 5170: Connection to node <1,DX986>,success, ::ffff:10.51.226.233->::ffff:10.51.226.231, last_connect=5198572
+2015-07-07T00:41:26.381309: clcomd.c: connect_to_node: 5184: FINISH return = 0
+2015-07-07T00:41:26.381514: CONNECTION: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:41:26.381602: COLLVER: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:41:26.381615: clcomd.c: spawn_client: 5556: START type=9
+2015-07-07T00:41:26.383651: clcomd.c: spawn_client: 5595: looking for service type = 9
+2015-07-07T00:41:26.389511: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:41:26.666945: clcomd.c: connect_to_node: 4899: START Trying to establish connection to node <1,DX987>
+2015-07-07T00:41:26.670162: clcomd.c: get_peer_clcomd_proto_version: 502: START Trying to find the clcomd protocol version of the peer node '<1,DX987>'
+2015-07-07T00:41:26.671106: clcomd.c: get_peer_clcomd_proto_version: 549: FINISH return = 0, Peer node '<1,DX987>' is running clcomd protocol version 2. This node's version 2.
+2015-07-07T00:41:26.672245: clcomd.c: connect_to_node: 5170: Connection to node <1,DX987>,success, ::ffff:10.51.227.85->::ffff:10.51.227.86, last_connect=5198573
+2015-07-07T00:41:26.672264: clcomd.c: connect_to_node: 5184: FINISH return = 0
+2015-07-07T00:41:57.285588: clcomd.c: remove_from_list: 1487: Connection to node <1,DX987> closed
+2015-07-07T00:41:57.368498: CONNECTION: CLOSED: <1,DX986>: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:41:57.368642: clcomd.c: remove_from_list: 1487: Connection to node <1,DX986> closed
+2015-07-07T00:43:53.118380: clcomd.c: connect_to_node: 4899: START Trying to establish connection to node <1,DX987>
+2015-07-07T00:43:53.119238: clcomd.c: get_peer_clcomd_proto_version: 502: START Trying to find the clcomd protocol version of the peer node '<1,DX987>'
+2015-07-07T00:43:53.120056: clcomd.c: get_peer_clcomd_proto_version: 549: FINISH return = 0, Peer node '<1,DX987>' is running clcomd protocol version 2. This node's version 2.
+2015-07-07T00:43:53.123551: clcomd.c: connect_to_node: 5170: Connection to node <1,DX987>,success, ::ffff:10.51.226.233->::ffff:10.51.226.232, last_connect=5198719
+2015-07-07T00:43:53.123569: clcomd.c: connect_to_node: 5184: FINISH return = 0
+2015-07-07T00:44:24.297530: clcomd.c: remove_from_list: 1487: Connection to node <1,DX987> closed
+2015-07-07T00:49:12.347974: CONNECTION: ACCEPTED: DX987: ::ffff:10.51.226.232->::ffff:10.51.226.231
+2015-07-07T00:49:12.348400: COLLVER: ACCEPTED: DX987: ::ffff:10.51.226.232->::ffff:10.51.226.231
+2015-07-07T00:49:12.348413: clcomd.c: spawn_client: 5556: START type=9
+2015-07-07T00:49:12.350710: clcomd.c: spawn_client: 5595: looking for service type = 9
+2015-07-07T00:49:12.359148: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:49:43.340809: CONNECTION: CLOSED: <1,DX987>: ::ffff:10.51.226.232->::ffff:10.51.226.231
+2015-07-07T00:51:26.562393: clcomd.c: timer_thread: 7053: Activating timer = file_collections_auto_prop
+2015-07-07T00:51:26.577201: clcomd.c: connect_to_node: 4899: START Trying to establish connection to node <1,DX986>
+2015-07-07T00:51:26.578629: clcomd.c: connect_to_node: 5170: Connection to node <1,DX986>,success, ::ffff:10.51.226.233->::ffff:10.51.226.231, last_connect=5199172
+2015-07-07T00:51:26.578647: clcomd.c: connect_to_node: 5184: FINISH return = 0
+2015-07-07T00:51:26.579086: CONNECTION: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:51:26.579175: COLLVER: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:51:26.579188: clcomd.c: spawn_client: 5556: START type=9
+2015-07-07T00:51:26.580943: clcomd.c: spawn_client: 5595: looking for service type = 9
+2015-07-07T00:51:26.582089: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:51:26.831913: clcomd.c: connect_to_node: 4899: START Trying to establish connection to node <1,DX987>
+2015-07-07T00:51:26.835911: clcomd.c: get_peer_clcomd_proto_version: 502: START Trying to find the clcomd protocol version of the peer node '<1,DX987>'
+2015-07-07T00:51:26.836450: clcomd.c: get_peer_clcomd_proto_version: 549: FINISH return = 0, Peer node '<1,DX987>' is running clcomd protocol version 2. This node's version 2.
+2015-07-07T00:51:26.838876: clcomd.c: connect_to_node: 5170: Connection to node <1,DX987>,success, ::ffff:10.51.226.233->::ffff:10.51.226.232, last_connect=5199173
+2015-07-07T00:51:26.838892: clcomd.c: connect_to_node: 5184: FINISH return = 0
+2015-07-07T00:51:57.373051: clcomd.c: remove_from_list: 1487: Connection to node <1,DX987> closed
+2015-07-07T00:51:57.591255: clcomd.c: remove_from_list: 1487: Connection to node <1,DX986> closed
+2015-07-07T00:51:57.591334: CONNECTION: CLOSED: <1,DX986>: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:56:34.652187: clcomd.c: connect_to_node: 4899: START Trying to establish connection to node <1,DX986>
+2015-07-07T00:56:34.653396: clcomd.c: connect_to_node: 5170: Connection to node <1,DX986>,success, ::ffff:10.51.226.233->::ffff:10.51.226.231, last_connect=5199480
+2015-07-07T00:56:34.653415: clcomd.c: connect_to_node: 5184: FINISH return = 0
+2015-07-07T00:56:34.653605: CONNECTION: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:56:34.653701: REXEC: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:56:34.653714: clcomd.c: spawn_client: 5556: START type=4
+2015-07-07T00:56:34.655942: clcomd.c: spawn_client: 5595: looking for service type = 4
+2015-07-07T00:56:34.656381: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:56:34.658395: clcomd_services.c: rshd_func: 835: RSH: Command='SNMPINFO -v 1.3.6.1.4.1.2.3.1.2.1.5.1',pid=48496640
+2015-07-07T00:56:35.080371: clcomd_services.c: rshd_func: 1051: RSH:COMPLETED: exit code = 0, pid=48496640
+2015-07-07T00:56:35.121615: REXEC: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:56:35.121631: clcomd.c: spawn_client: 5556: START type=4
+2015-07-07T00:56:35.122757: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:56:35.123256: clcomd.c: spawn_client: 5595: looking for service type = 4
+2015-07-07T00:56:35.124435: clcomd_services.c: rshd_func: 835: RSH: Command='SNMPINFO -v 1.3.6.1.4.1.2.3.1.2.1.5.2.1.1',pid=48103554
+2015-07-07T00:56:35.392963: clcomd_services.c: rshd_func: 1051: RSH:COMPLETED: exit code = 0, pid=48103554
+2015-07-07T00:56:35.425042: REXEC: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:56:35.425057: clcomd.c: spawn_client: 5556: START type=4
+2015-07-07T00:56:35.426006: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:56:35.426575: clcomd.c: spawn_client: 5595: looking for service type = 4
+2015-07-07T00:56:35.427835: clcomd_services.c: rshd_func: 835: RSH: Command='SNMPINFO -v 1.3.6.1.4.1.2.3.1.2.1.5.3.1.1',pid=46268608
+2015-07-07T00:56:36.432256: clcomd_services.c: rshd_func: 1051: RSH:COMPLETED: exit code = 0, pid=46268608
+2015-07-07T00:56:36.465002: REXEC: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:56:36.465017: clcomd.c: spawn_client: 5556: START type=4
+2015-07-07T00:56:36.465988: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:56:36.466519: clcomd.c: spawn_client: 5595: looking for service type = 4
+2015-07-07T00:56:36.467662: clcomd_services.c: rshd_func: 835: RSH: Command='SNMPINFO -v 1.3.6.1.4.1.2.3.1.2.1.5.13.1.1',pid=46268616
+2015-07-07T00:56:37.905819: clcomd_services.c: rshd_func: 1051: RSH:COMPLETED: exit code = 0, pid=46268616
+2015-07-07T00:56:37.943880: REXEC: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:56:37.943896: clcomd.c: spawn_client: 5556: START type=4
+2015-07-07T00:56:37.944950: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:56:37.945482: clcomd.c: spawn_client: 5595: looking for service type = 4
+2015-07-07T00:56:37.947029: clcomd_services.c: rshd_func: 835: RSH: Command='SNMPINFO -v 1.3.6.1.4.1.2.3.1.2.1.5.11.1.1',pid=19792728
+2015-07-07T00:56:38.267253: clcomd_services.c: rshd_func: 1051: RSH:COMPLETED: exit code = 0, pid=19792728
+2015-07-07T00:56:38.304283: REXEC: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:56:38.304298: clcomd.c: spawn_client: 5556: START type=4
+2015-07-07T00:56:38.305318: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:56:38.305866: clcomd.c: spawn_client: 5595: looking for service type = 4
+2015-07-07T00:56:38.307344: clcomd_services.c: rshd_func: 835: RSH: Command='SNMPINFO -v 1.3.6.1.4.1.2.3.1.2.1.5.11.2.1',pid=49348646
+2015-07-07T00:56:40.292225: clcomd_services.c: rshd_func: 1051: RSH:COMPLETED: exit code = 0, pid=49348646
+2015-07-07T00:56:40.329320: REXEC: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:56:40.329336: clcomd.c: spawn_client: 5556: START type=4
+2015-07-07T00:56:40.330863: clcomd.c: spawn_client: 5595: looking for service type = 4
+2015-07-07T00:56:40.331310: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:56:40.332918: clcomd_services.c: rshd_func: 835: RSH: Command='SNMPINFO -v 1.3.6.1.4.1.2.3.1.2.1.5.11.3.1',pid=46727168
+2015-07-07T00:56:40.584711: clcomd_services.c: rshd_func: 1051: RSH:COMPLETED: exit code = 0, pid=46727168
+2015-07-07T00:56:40.623127: REXEC: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:56:40.623143: clcomd.c: spawn_client: 5556: START type=4
+2015-07-07T00:56:40.624173: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:56:40.624715: clcomd.c: spawn_client: 5595: looking for service type = 4
+2015-07-07T00:56:40.626140: clcomd_services.c: rshd_func: 835: RSH: Command='SNMPINFO -v 1.3.6.1.4.1.2.3.1.2.1.5.4.1.1',pid=46268620
+2015-07-07T00:56:41.281463: clcomd_services.c: rshd_func: 1051: RSH:COMPLETED: exit code = 0, pid=46268620
+2015-07-07T00:56:41.917782: clcomd.c: connect_to_node: 4899: START Trying to establish connection to node <1,DX987>
+2015-07-07T00:56:41.920619: clcomd.c: get_peer_clcomd_proto_version: 502: START Trying to find the clcomd protocol version of the peer node '<1,DX987>'
+2015-07-07T00:56:41.921406: clcomd.c: get_peer_clcomd_proto_version: 549: FINISH return = 0, Peer node '<1,DX987>' is running clcomd protocol version 2. This node's version 2.
+2015-07-07T00:56:41.921534: COLLVER: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:56:41.921552: clcomd.c: spawn_client: 5556: START type=9
+2015-07-07T00:56:41.923562: clcomd.c: spawn_client: 5595: looking for service type = 9
+2015-07-07T00:56:41.931977: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:56:41.932304: clcomd.c: connect_to_node: 5170: Connection to node <1,DX987>,success, ::ffff:10.51.226.233->::ffff:10.51.226.232, last_connect=5199488
+2015-07-07T00:56:41.932327: clcomd.c: connect_to_node: 5184: FINISH return = 0
+2015-07-07T00:56:42.271116: RSH: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:56:42.271143: clcomd.c: spawn_client: 5556: START type=1
+2015-07-07T00:56:42.272256: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:56:42.272840: clcomd.c: spawn_client: 5595: looking for service type = 1
+2015-07-07T00:56:42.274167: clcomd_services.c: rshd_func: 835: RSH: Command='/usr/es/sbin/cluster/cspoc/cexec cl_errnotify -l',pid=49414286
+2015-07-07T00:56:42.290607: clcomd_services.c: rshd_func: 999: RETURN_CODE=0
+2015-07-07T00:56:42.290636: clcomd_services.c: rshd_func: 1051: RSH:COMPLETED: exit code = 0, pid=49414286
+2015-07-07T00:56:43.321869: GODMGET: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:56:43.321885: clcomd.c: spawn_client: 5556: START type=6
+2015-07-07T00:56:43.323418: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:56:43.323923: clcomd.c: spawn_client: 5595: looking for service type = 6
+2015-07-07T00:56:43.339205: clcomd_services.c: godmget_func: 1084: GODMGET completed
+2015-07-07T00:56:43.444063: REXEC: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:56:43.444079: clcomd.c: spawn_client: 5556: START type=4
+2015-07-07T00:56:43.445181: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:56:43.445840: clcomd.c: spawn_client: 5595: looking for service type = 4
+2015-07-07T00:56:43.447105: clcomd_services.c: rshd_func: 835: RSH: Command='SNMPINFO -v 1.3.6.1.4.1.2.3.1.2.1.5.1',pid=17236796
+2015-07-07T00:56:43.865855: clcomd_services.c: rshd_func: 1051: RSH:COMPLETED: exit code = 0, pid=17236796
+2015-07-07T00:56:43.906238: REXEC: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:56:43.906253: clcomd.c: spawn_client: 5556: START type=4
+2015-07-07T00:56:43.908133: clcomd.c: spawn_client: 5595: looking for service type = 4
+2015-07-07T00:56:43.908580: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:56:43.910449: clcomd_services.c: rshd_func: 835: RSH: Command='SNMPINFO -v 1.3.6.1.4.1.2.3.1.2.1.5.2.1.1',pid=40108118
+2015-07-07T00:56:44.191243: clcomd_services.c: rshd_func: 1051: RSH:COMPLETED: exit code = 0, pid=40108118
+2015-07-07T00:56:44.226019: REXEC: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:56:44.226035: clcomd.c: spawn_client: 5556: START type=4
+2015-07-07T00:56:44.227072: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:56:44.227696: clcomd.c: spawn_client: 5595: looking for service type = 4
+2015-07-07T00:56:44.228940: clcomd_services.c: rshd_func: 835: RSH: Command='SNMPINFO -v 1.3.6.1.4.1.2.3.1.2.1.5.3.1.1',pid=44499136
+2015-07-07T00:56:45.207029: clcomd_services.c: rshd_func: 1051: RSH:COMPLETED: exit code = 0, pid=44499136
+2015-07-07T00:56:45.241464: REXEC: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:56:45.241480: clcomd.c: spawn_client: 5556: START type=4
+2015-07-07T00:56:45.242990: clcomd.c: spawn_client: 5595: looking for service type = 4
+2015-07-07T00:56:45.243428: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:56:45.245021: clcomd_services.c: rshd_func: 835: RSH: Command='SNMPINFO -v 1.3.6.1.4.1.2.3.1.2.1.5.13.1.1',pid=44499146
+2015-07-07T00:56:46.787016: clcomd_services.c: rshd_func: 1051: RSH:COMPLETED: exit code = 0, pid=44499146
+2015-07-07T00:56:46.823714: REXEC: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:56:46.823730: clcomd.c: spawn_client: 5556: START type=4
+2015-07-07T00:56:46.825445: clcomd.c: spawn_client: 5595: looking for service type = 4
+2015-07-07T00:56:46.825884: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:56:46.827568: clcomd_services.c: rshd_func: 835: RSH: Command='SNMPINFO -v 1.3.6.1.4.1.2.3.1.2.1.5.11.1.1',pid=17236814
+2015-07-07T00:56:47.175090: clcomd_services.c: rshd_func: 1051: RSH:COMPLETED: exit code = 0, pid=17236814
+2015-07-07T00:56:47.209114: REXEC: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:56:47.209128: clcomd.c: spawn_client: 5556: START type=4
+2015-07-07T00:56:47.210191: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:56:47.210680: clcomd.c: spawn_client: 5595: looking for service type = 4
+2015-07-07T00:56:47.212114: clcomd_services.c: rshd_func: 835: RSH: Command='SNMPINFO -v 1.3.6.1.4.1.2.3.1.2.1.5.11.2.1',pid=17236818
+2015-07-07T00:56:49.111007: clcomd_services.c: rshd_func: 1051: RSH:COMPLETED: exit code = 0, pid=17236818
+2015-07-07T00:56:49.148696: REXEC: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:56:49.148833: clcomd.c: spawn_client: 5556: START type=4
+2015-07-07T00:56:49.149919: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:56:49.150450: clcomd.c: spawn_client: 5595: looking for service type = 4
+2015-07-07T00:56:49.151871: clcomd_services.c: rshd_func: 835: RSH: Command='SNMPINFO -v 1.3.6.1.4.1.2.3.1.2.1.5.11.3.1',pid=15336344
+2015-07-07T00:56:49.380229: clcomd_services.c: rshd_func: 1051: RSH:COMPLETED: exit code = 0, pid=15336344
+2015-07-07T00:56:49.417984: REXEC: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:56:49.417999: clcomd.c: spawn_client: 5556: START type=4
+2015-07-07T00:56:49.419032: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:56:49.419638: clcomd.c: spawn_client: 5595: looking for service type = 4
+2015-07-07T00:56:49.420907: clcomd_services.c: rshd_func: 835: RSH: Command='SNMPINFO -v 1.3.6.1.4.1.2.3.1.2.1.5.4.1.1',pid=14484244
+2015-07-07T00:56:49.962797: clcomd_services.c: rshd_func: 1051: RSH:COMPLETED: exit code = 0, pid=14484244
+2015-07-07T00:56:51.857349: RSH: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:56:51.857366: clcomd.c: spawn_client: 5556: START type=1
+2015-07-07T00:56:51.858990: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:56:51.859494: clcomd.c: spawn_client: 5595: looking for service type = 1
+2015-07-07T00:56:51.860839: clcomd_services.c: rshd_func: 835: RSH: Command='LC_ALL=C lspv -L',pid=38076670
+2015-07-07T00:56:52.211216: clcomd_services.c: rshd_func: 1051: RSH:COMPLETED: exit code = 0, pid=38076670
+2015-07-07T00:56:52.360701: RSH: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:56:52.360718: clcomd.c: spawn_client: 5556: START type=1
+2015-07-07T00:56:52.361747: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:56:52.362326: clcomd.c: spawn_client: 5595: looking for service type = 1
+2015-07-07T00:56:52.363608: clcomd_services.c: rshd_func: 835: RSH: Command='/usr/es/sbin/cluster/utilities/cl_get_rdisks',pid=38731922
+2015-07-07T00:56:52.379264: clcomd_services.c: rshd_func: 1051: RSH:COMPLETED: exit code = 0, pid=38731922
+2015-07-07T00:56:52.512785: RSH: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:56:52.512801: clcomd.c: spawn_client: 5556: START type=1
+2015-07-07T00:56:52.513861: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:56:52.514459: clcomd.c: spawn_client: 5595: looking for service type = 1
+2015-07-07T00:56:52.515686: clcomd_services.c: rshd_func: 835: RSH: Command='LC_ALL=C lspv -L',pid=15664110
+2015-07-07T00:56:52.884237: clcomd_services.c: rshd_func: 1051: RSH:COMPLETED: exit code = 0, pid=15664110
+2015-07-07T00:56:52.945894: RSH: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:56:52.945909: clcomd.c: spawn_client: 5556: START type=1
+2015-07-07T00:56:52.946939: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:56:52.947487: clcomd.c: spawn_client: 5595: looking for service type = 1
+2015-07-07T00:56:52.948655: clcomd_services.c: rshd_func: 835: RSH: Command='/usr/es/sbin/cluster/utilities/cl_get_rdisks',pid=15336420
+2015-07-07T00:56:52.963586: clcomd_services.c: rshd_func: 1051: RSH:COMPLETED: exit code = 0, pid=15336420
+2015-07-07T00:56:55.076768: RSH: ACCEPTED: DX986: ::ffff:10.51.226.233->::ffff:10.51.226.231
+2015-07-07T00:56:55.076785: clcomd.c: spawn_client: 5556: START type=1
+2015-07-07T00:56:55.078651: clcomd.c: spawn_client: 5595: looking for service type = 1
+2015-07-07T00:56:55.079227: clcomd.c: spawn_client: 5635: FINISH
+2015-07-07T00:56:55.080897: clcomd_services.c: rshd_func: 835: RSH: Command='LC_ALL=C /usr/sbin/lscluster -d hdiskpower1',pid=14877564
+2015-07-07T00:56:55.084512: clcomd_services.c: rshd_func: 1051: RSH:COMPLETED: exit code = 0, pid=14877564
+==== END Contents of /var/log/clcomd/clcomd.log ====
+==== EXITED with rc 0 ====
+==== END fileprint $(cllog -g clcomd.log | awk -F: '{print $4}' | grep -v value)/clcomd.log Tue Jul  7 00:56:56 GST 2015 ====

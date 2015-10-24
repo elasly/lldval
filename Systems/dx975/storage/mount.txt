@@ -1,0 +1,18 @@
+==== This output can be found in Systems/dx975/storage/mount.txt ====
+==== START mount Tue Jul  7 12:46:01 CDT 2015 ====
+  node       mounted        mounted over    vfs       date        options      
+-------- ---------------  ---------------  ------ ------------ --------------- 
+         /dev/hd4         /                jfs2   Mar 26 09:46 rw,log=/dev/hd8 
+         /dev/hd2         /usr             jfs2   Mar 26 09:46 rw,log=/dev/hd8 
+         /dev/hd9var      /var             jfs2   Mar 26 09:46 rw,log=/dev/hd8 
+         /dev/hd3         /tmp             jfs2   Mar 26 09:46 rw,log=/dev/hd8 
+         /dev/hd1         /home            jfs2   Mar 26 09:47 rw,log=/dev/hd8 
+         /dev/hd11admin   /admin           jfs2   Mar 26 09:47 rw,log=/dev/hd8 
+         /proc            /proc            procfs Mar 26 09:47 rw              
+         /dev/hd10opt     /opt             jfs2   Mar 26 09:47 rw,log=/dev/hd8 
+         /dev/livedump    /var/adm/ras/livedump jfs2   Mar 26 09:47 rw,log=/dev/hd8 
+         /dev/perfdatalv  /perfdata        jfs2   Mar 26 09:47 rw,log=/dev/hd8 
+         /ahafs           /aha             ahafs  Mar 26 09:47 rw              
+         /dev/cd0         /cdrom           cdrfs  Apr 19 23:31 ro              
+==== EXITED with rc 0 ====
+==== END mount Tue Jul  7 12:46:01 CDT 2015 ====

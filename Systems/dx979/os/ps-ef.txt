@@ -1,0 +1,530 @@
+==== This output can be found in Systems/dx979/os/ps-ef.txt ====
+==== START ps -ef Tue Jul  7 00:28:54 GST 2015 ====
+     UID      PID     PPID   C    STIME    TTY  TIME CMD
+    root        1        0   0   Jun 12      -  0:24 /etc/init
+    root  2883624  3539172   0   Jun 12      -  0:00 /usr/sbin/rpc.lockd -d 0
+    root  2949314  3539172   0   Jun 12      -  0:05 /usr/sbin/aixmibd
+    root  3014680  3539172   0   Jun 12      -  0:00 /usr/sbin/snmpmibd
+    root  3342350        1   0   Jun 12      -  0:00 /usr/ccs/bin/shlap64
+    root  3473536        1   0   Jun 12      -  4:11 /usr/sbin/emcp_mond
+    root  3539172        1   0   Jun 12      -  0:00 /usr/sbin/srcmstr
+    root  3604512        1   0   Jun 12      -  0:00 /usr/lib/errdemon
+    root  3670268        1   0   Jun 12      - 50:40 /usr/sbin/syncd 60
+    root  4194322        1   0   Jun 12      -  0:06 /opt/ibm/icc/cimom/bin/dirsnmpd
+    root  4259914  3539172   0   Jun 12      -  0:00 /usr/sbin/qdaemon
+    root  4325400        1   0   Jun 12      -  0:24 ./slp_srvreg -D
+    root  4456476  3539172   0   Jun 12      -  0:00 /opt/freeware/cimom/pegasus/bin/cimssys platform_agent
+    root  4522210        1   0   Jun 12      -  0:10 /opt/freeware/cimom/pegasus/bin/cimprovagt 0 12 16 root SLPProviderModule
+    root  4587566  3539172   0   Jun 12      -  0:00 /usr/sbin/biod 6
+    root  4784230  2752896   0   Jun 12      -  4:05 xmtopas -p3
+    root  5046358        1   0   Jun 12      -  0:02 [cimserve]
+    root  5177474        1   0   Jun 12      -  8:21 /usr/sbin/getty /dev/console
+  oracle  5243022        1   0 02:35:13      -  0:00 oracleGPRS (LOCAL=NO)
+    root  5374092  3735898   0   Jun 12      -  0:22 /usr/lpp/OV/lbin/eaagt/opcle -std
+    root  5439608  3735898   0   Jun 12      -  0:01 /usr/lpp/OV/lbin/eaagt/opcmsgi
+    root  5505238  3539172   0   Jun 12      -  0:00 /usr/sbin/sshd
+pconsole  5570702  4325786   0   Jun 12      -  0:00 /bin/ksh /pconsole/lwi/bin/lwistart_src.sh
+    root  5701836        1   0   Jun 12      - 97:40 perfd
+    root  5832880        1   0   Jun 12      - 53:38 /usr/lpp/perf/bin/scopeux
+    root  5898438  3539172   0   Jun 12      -  0:00 /usr/sbin/rsct/bin/IBM.DRMd
+    root  5964008        1   0   Jun 12      -  0:56 /usr/lpp/perf/bin/perfalarm
+    root  6094912  2490880   0                  0:00 <defunct>
+    root  6160582        1   0   Jun 12      -  0:00 /usr/lpp/perf/bin/ttd
+  oracle  7209026        1   0 23:47:09      -  0:09 oracleGPRS (LOCAL=NO)
+    root  7667926  2753076   0   Jun 12      -  0:04 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f9ada100004c000000014bf9574a93 -v 0
+    root  7864330  2753076   0   Jun 12      -  0:04 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f9ada100004c000000014c095223e0 -v 0
+  oracle  7929886        1   0 19:45:14      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle  8257670        1   0 23:48:13      -  0:26 oracleGPRS (LOCAL=NO)
+    root  8585456  2753076   0   Jun 12      -  0:04 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f9ada100004c000000014c09525034 -v 0
+  oracle  8650760        1   0 23:47:51      -  0:08 oracleGPRS (LOCAL=NO)
+    root  8781910  3539172   0   Jun 12      - 15:10 /usr/es/sbin/cluster/clinfo
+    root  8847362  2753076   0   Jun 12      -  0:04 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f9ada100004c000000014c0951cf79 -v 0
+  oracle  9437328        1   0 13:27:26      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 11206708        1   0 23:48:02      -  0:08 oracleGPRS (LOCAL=NO)
+  oracle 11468820        1   0   Jul 03      -  0:04 oracleGPRS (LOCAL=NO)
+  oracle 11862130        1   0 12:00:08      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 12517512        1   0 18:09:10      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 12714154        1   0 13:38:06      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 12910756        1   0 15:52:51      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 13107452        1   0 23:47:49      -  0:08 oracleGPRS (LOCAL=NO)
+  oracle 13172890        1   0 23:47:33      -  0:08 oracleGPRS (LOCAL=NO)
+  oracle 13303842        1  34 21:17:46      - 15:45 oracleGPRS (LOCAL=NO)
+  oracle 14024874        1   0 12:08:07      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 14352588        1   0 09:48:30      -  0:00 oracleGPRS (LOCAL=NO)
+    root 15335656  2753076   0   Jun 15      -  0:03 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f9ada100004c000000014df5af0cba -v 0
+  oracle 15532204        1   0   Jul 03      -  0:04 oracleGPRS (LOCAL=NO)
+  oracle 15794374        1   0   Jul 03      -  0:04 oracleGPRS (LOCAL=NO)
+  oracle 16515292        1   0 23:48:11      -  0:27 oracleGPRS (LOCAL=NO)
+  oracle 16646388        1   0 04:32:19      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 16974076        1   0   Jun 29      -  6:57 ora_ctwr_GPRS
+  oracle 17170604        1   0   Jun 29      -  6:45 ora_ckpt_GPRS
+  oracle 17236138        1   0 23:48:30      -  0:01 oracleGPRS (LOCAL=NO)
+  oracle 17432642        1   0 03:07:37      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 17498160        1   0 23:47:31      -  0:09 oracleGPRS (LOCAL=NO)
+  oracle 17563868        1   0 23:48:15      -  0:26 oracleGPRS (LOCAL=NO)
+  oracle 17891466        1   0 11:23:18      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 18088156        1   0 22:03:07      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 18153666        1   0 23:48:04      -  0:07 oracleGPRS (LOCAL=NO)
+  oracle 18350250        1   0 23:48:27      -  0:02 oracleGPRS (LOCAL=NO)
+  oracle 18546882        1   0   Jun 29      - 29:14 ora_dbw5_GPRS
+  oracle 19136518        1   0 11:33:23      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 19791962        1   0 06:04:27      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 20250714        1   0 23:47:03      -  0:02 oracleGPRS (LOCAL=NO)
+  gprsgg 20512962 26476704   0   Jun 29      -  0:00 oracleGPRS (DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))
+  oracle 20643896        1   0 23:48:03      -  0:07 oracleGPRS (LOCAL=NO)
+  oracle 20906146        1   0 12:00:08      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 21102764        1   0 10:32:24      -  0:00 oracleGPRS (LOCAL=NO)
+    root 21299212 26411612   0 00:28:31  pts/3  0:00 tee Systems/dx979/pcat-os_sh-out.txt
+    root 21889248 37487224   0   Jun 30  pts/9  0:00 ssh
+  oracle 22020120        1   0 23:47:14      -  0:03 oracleGPRS (LOCAL=NO)
+  oracle 22282456        1   0 11:50:20      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 22413482        1   0 10:08:30      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 22478848        1   0 16:08:28      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 23265420        1   0 13:11:28      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 23396496        1   0   Jun 29      -  0:14 ora_smco_GPRS
+  oracle 23724198        1   0 23:47:32      -  0:09 oracleGPRS (LOCAL=NO)
+  oracle 23855114        1   0   Jun 29      -  0:08 ora_arc2_GPRS
+  oracle 24117436        1   0 15:51:18      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 24314092        1   0 18:09:10      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 24641754        1   0   Jul 03      -  0:04 oracleGPRS (LOCAL=NO)
+  oracle 24903682        1   0 12:30:00      -  0:00 oracleGPRS (LOCAL=NO)
+  gprsgg 25165832 30933230   0   Jun 29      -  2:06 oracleGPRS (DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))
+  gprsgg 25624676 30933230   0   Jun 29      -  0:00 oracleGPRS (DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))
+  oracle 25821412        1   0   Jul 03      -  1:28 oracleGPRS (LOCAL=NO)
+  gprsgg 25952326        1   0   Jun 29      -  0:00 oracleGPRS (DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))
+  oracle 26214628        1   0   Jun 29      -  5:29 ora_arc0_GPRS
+  oracle 26280070        1   0 23:48:32      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 26345726        1   0 02:36:58      -  0:00 oracleGPRS (LOCAL=NO)
+  gprsgg 26476704 14811566   0   Jun 29      - 10:29 /gprs_gg/goldengate/app/gprsgg/product/12.1.2/oggcore_1/extract PARAMFILE /gprs_gg/goldengate/app/gprsgg/product/12.1.2/oggcore_1/dirprm/gprsload.prm REPORTFILE /gprs_gg/goldengate/app/gprsgg/product/12.1.2/oggcore_1/dirrpt/GPRSLOAD.rpt PROCESSID GPRSLOAD USESUBDIRS
+  oracle 26673322        1   0   Jun 29      -  3:05 ora_mmon_GPRS
+  oracle 27066526        1   0   Jul 03      -  0:04 oracleGPRS (LOCAL=NO)
+  oracle 27131996        1   0 04:21:09      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 27590800        1   0 23:47:38      -  0:08 oracleGPRS (LOCAL=NO)
+  oracle 27656418        1   0   Jun 29      -  0:02 ora_qmnc_GPRS
+  oracle 27787384        1   0   Jul 03      -  0:04 oracleGPRS (LOCAL=NO)
+  oracle 27852842        1   0   Jun 29      - 29:39 ora_dbw1_GPRS
+  oracle 29098050        1   0 23:48:34      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 29425796        1   0 10:14:33      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 29687934        1   0   Jun 29      -  1:53 /gprs_base/app/oracle/product/11.2.0/dbhome_1/bin/tnslsnr LISTENER_GPRS -inherit
+  oracle 30146732        1   0 12:00:08      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 30212332        1   0 21:11:56      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 30277868        1   0 03:29:15      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 30343298        1   0   Jul 03      -  0:04 oracleGPRS (LOCAL=NO)
+  oracle 30474282        1   0 11:45:41      -  0:00 oracleGPRS (LOCAL=NO)
+  gprsgg 30933230 14811566   1   Jun 29      - 112:03 /gprs_gg/goldengate/app/gprsgg/product/12.1.2/oggcore_1/extract PARAMFILE /gprs_gg/goldengate/app/gprsgg/product/12.1.2/oggcore_1/dirprm/gprsex.prm REPORTFILE /gprs_gg/goldengate/app/gprsgg/product/12.1.2/oggcore_1/dirrpt/GPRSEX.rpt PROCESSID GPRSEX USESUBDIRS
+  oracle 31129734        1   0 23:47:29      -  0:08 oracleGPRS (LOCAL=NO)
+  oracle 31326216        1   0   Jul 03      -  0:04 oracleGPRS (LOCAL=NO)
+  oracle 31588448        1   0 10:17:45      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 31719624        1   0 23:48:05      -  0:08 oracleGPRS (LOCAL=NO)
+  oracle 31784982        1   0 23:48:19      -  0:01 oracleGPRS (LOCAL=NO)
+  oracle 32505932        1   0 08:05:35      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 32899280        1   0   Jun 29      -  0:52 ora_psp0_GPRS
+  oracle 34275344        1   0 04:09:04      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 34734108        1   0 12:44:46      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 35651808        1   0 23:47:14      -  0:09 oracleGPRS (LOCAL=NO)
+  oracle 36176044        1   0   Jun 30      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 36569122        1   0 00:24:52      -  0:00 ora_w001_GPRS
+  oracle 36634624        1   0   Jul 02      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 36765790        1   0 23:48:07      -  0:27 oracleGPRS (LOCAL=NO)
+  oracle 37290040        1   0 19:44:06      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 38731830        1   0 03:21:26      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 39125048        1   0 08:52:18      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 39387272        1   0 14:58:46      -  3:09 oracleGPRS (LOCAL=NO)
+  oracle 40894654        1   0 12:00:08      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 41549932        1   0 23:47:17      -  0:09 oracleGPRS (LOCAL=NO)
+  oracle 42139678        1   0 12:39:37      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 42991846        1   0 07:55:48      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 43516020        1   0 08:21:46      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 44105810        1   0   Jul 05      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 44302348        1   0 23:47:18      -  0:09 oracleGPRS (LOCAL=NO)
+  oracle 44630112        1   0 23:47:55      -  0:06 oracleGPRS (LOCAL=NO)
+  oracle 45875324        1   0   Jul 05      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 46203114        1   0 09:56:08      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 46268584        1   0   Jul 05      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 47055036        1   0 23:47:24      -  0:10 oracleGPRS (LOCAL=NO)
+  oracle 47251498        1   0 15:40:12      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 47644706        1   0 23:48:13      -  0:01 oracleGPRS (LOCAL=NO)
+  oracle 47710322        1   0 23:47:59      -  0:06 oracleGPRS (LOCAL=NO)
+  oracle 47775924        1   0 23:48:07      -  0:01 oracleGPRS (LOCAL=NO)
+  oracle 48103634        1   0 23:47:16      -  0:09 oracleGPRS (LOCAL=NO)
+  oracle 48234522        1   0 08:08:19      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 48365672        1   0 23:47:52      -  0:08 oracleGPRS (LOCAL=NO)
+  oracle 48496804        1   0 02:29:40      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 48627806        1   0 23:47:39      -  0:08 oracleGPRS (LOCAL=NO)
+  oracle 49676306        1   0 21:50:11      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 49807364        1   0 11:09:13      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 50135168        1   0 18:09:10      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 50266188        1   0   Jul 02      -  0:19 oracleGPRS (LOCAL=NO)
+  oracle 50987206        1   0 23:47:03      -  0:08 oracleGPRS (LOCAL=NO)
+  oracle 51183758        1   0 03:01:28      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 51445970        1   0 23:47:35      -  0:09 oracleGPRS (LOCAL=NO)
+  oracle 51970194        1   0 12:00:08      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 52560004        1   0   Jul 03      -  0:04 oracleGPRS (LOCAL=NO)
+  oracle 52690998        1   0 10:18:15      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 52756536        1   0 23:47:26      -  0:09 oracleGPRS (LOCAL=NO)
+  oracle 53346410        1   0 04:08:27      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 53542976        1   0   Jul 03      -  0:04 oracleGPRS (LOCAL=NO)
+  oracle 54198500        1   0 18:08:13      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 54329506        1   0   Jul 03      -  0:04 oracleGPRS (LOCAL=NO)
+  oracle 54460524        1   0 23:48:09      -  0:01 oracleGPRS (LOCAL=NO)
+  oracle 54526172        1   0 23:48:21      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 54788204        1   0 03:04:54      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 54853810        1   0 23:48:21      -  0:12 oracleGPRS (LOCAL=NO)
+  oracle 54919188        1   0   Jul 05      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 55509166        1   0 23:47:19      -  0:02 oracleGPRS (LOCAL=NO)
+  oracle 55574614        1   0   Jul 03      -  0:04 oracleGPRS (LOCAL=NO)
+  oracle 55640314        1   0 23:48:17      -  0:34 oracleGPRS (LOCAL=NO)
+  oracle 56033368        1   0 12:00:08      -  0:00 oracleGPRS (LOCAL=NO)
+    root 56099032  5505238   0   Jul 02      -  0:01 sshd: gprsgg [priv]
+  oracle 56688832  7274804   0   Jun 30      - 15:50 /gprs_base/app/oracle/product/11.2.0/dbhome_1/bin/emagent
+  oracle 56950956        1   0   Jul 05      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 57081892        1   0 23:46:50      -  0:08 oracleGPRS (LOCAL=NO)
+  oracle 57344138        1   0 12:00:08      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 57802932        1   0   Jun 30      -  1:36 oracleGPRS (LOCAL=NO)
+  oracle 58392616        1   0 23:47:48      -  0:03 oracleGPRS (LOCAL=NO)
+  oracle 58458124        1   0 23:47:53      -  0:08 oracleGPRS (LOCAL=NO)
+  oracle 58720438        1   0 06:01:19      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 59637982        1   0 23:48:11      -  0:01 oracleGPRS (LOCAL=NO)
+  gprsgg 59834402 21692782   0 10:10:55  pts/1  0:00 -ksh
+  oracle 59900136        1   0   Jun 30      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 60621040        1   0 12:00:08      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 61210826        1   0   Jun 30      -  6:16 oracleGPRS (LOCAL=NO)
+  oracle 61341812        1   0 23:47:21      -  0:11 oracleGPRS (LOCAL=NO)
+  oracle 61407414        1   0 02:36:58      -  0:00 oracleGPRS (LOCAL=NO)
+    root  1573326        1   0   Jun 12      -  0:00 /opt/freeware/cimom/pegasus/bin/CIM_diagd
+    root  1900846  3539172   0   Jun 12      -  0:00 /usr/sbin/hostmibd
+    root  2621930  3539172   0   Jun 12      -  0:22 sendmail: accepting connections
+    root  2752896  3539172   0   Jun 12      -  0:00 /usr/sbin/inetd
+  daemon  2883936  3539172   0   Jun 12      -  0:00 /usr/sbin/rpc.statd -d 0 -t 50
+    root  3015068  3539172   0   Jun 12      -  0:15 /usr/sbin/clconfd
+    root  3211550  3539172   0   Jun 12      -  0:00 /usr/sbin/hrd
+    root  3277078  3539172   0   Jun 12      -  0:26 /usr/sbin/aso
+    root  3342636        1   0   Jun 12      -  1:09 /bin/nsrexecd
+    root  3539282  3735898   0   Jun 12      -  0:00 /usr/lpp/OV/lbin/conf/ovconfd
+    root  3604786  3539172  10   Jun 12      - 1499:13 /usr/sbin/snmpd
+    root  3735898        1   0   Jun 12      -  5:12 /usr/lpp/OV/bin/ovcd
+  oracle  3867020        1   0 14:28:16      -  0:00 oracleGPRS (LOCAL=NO)
+    root  4063614        1   0   Jun 12      -  0:00 /usr/dt/bin/dtlogin -daemon
+    root  4129134  3735898   0   Jun 12      - 13:22 /usr/lpp/OV/lbin/eaagt/opcmona
+    root  4194686  3539172   0   Jun 12      -  4:09 /usr/sbin/clcomd -d
+    root  4260302        1   0   Jun 12      -  8:52 /usr/bin/topasrec  -L -s 300 -R 1 -r 6 -o /var/perf/daily/ -ypersistent=1 -O type=bin -ystart_time=00:44:25,Jun12,2015
+    root  4325786  3539172   0   Jun 12      -  0:00 /bin/ksh /pconsole/lwi/bin/lwistart_src.sh
+    root  4391312  2294396   0   Jun 12      -  0:08 bin/nonstop_aix @/var/opt/tivoli/ep/runtime/nonstop/config/nonstop.properties
+    root  4456854  3539172   0   Jun 12      -  7:54 /usr/sbin/rsct/bin/IBM.ConfigRMd
+pconsole  4522370  5570702   0   Jun 12      -  4:04 /usr/java6/bin/java -Xmx512m -Xms20m -Xscmx10m -Xshareclasses -Xbootclasspath/p:/usr/java5/jre/lib/ibmjsseprovider2.jar -Dfile.encoding=UTF-8 -Xbootclasspath/a:/pconsole/lwi/runtime/core/eclipse/plugins/com.ibm.rcp.base_6.2.1.20091117-1800/rcpbootcp.jar:/pconsole/lwi/lib/ISCJaasModule.jar:/pconsole/lwi/lib/com.ibm.logging.icl_1.1.1.jar:/pconsole/lwi/lib/jaas2zos.jar:/pconsole/lwi/lib/jaasmodule.jar:/pconsole/lwi/lib/lwinative.jar:/pconsole/lwi/lib/lwinl.jar:/pconsole/lwi/lib/lwirolemap.jar:/pconsole/lwi/lib/lwisecurity.jar:/pconsole/lwi/lib/lwitools.jar:/pconsole/lwi/lib/passutils.jar -Xverify:none -cp eclipse/launch.jar:eclipse/startup.jar:/pconsole/lwi/runtime/core/eclipse/plugins/com.ibm.rcp.base_6.2.1.20091117-1800/launcher.jar com.ibm.lwi.LaunchLWI
+    root  4587982  2753076   0   Jun 12      -  0:04 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f9ada100004c000000014c09527420 -v 0
+    root  4653448  3539172   0   Jun 12      -  2:32 /usr/sbin/rsct/bin/rmcd -a IBM.LPCommands -r -S 1500
+    root  4915624  3539172   0   Jun 12      - 12:56 /usr/sbin/rsct/bin/IBM.HostRMd
+    root  5308918  3539172   0   Jun 12      -  1:38 /usr/sbin/rsct/bin/IBM.StorageRMd
+  oracle  5505346        1   0 23:47:34      -  0:09 oracleGPRS (LOCAL=NO)
+  oracle  5701972        1   0   Jul 05      -  0:00 oracleGPRS (LOCAL=NO)
+    root  5833112  2556640   0   Jun 12      -  0:00 run_rcovcmd
+  oracle  6029736        1   0   Jul 06      -  0:00 oracleGPRS (LOCAL=NO)
+    root  6095260  2753076   0   Jun 12      -  0:04 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f9ada100004c000000014c09520b0c -v 0
+  oracle  6750478        1   0 12:00:08      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle  7274804        1   0   Jun 30      -  1:09 /gprs_base/app/oracle/product/11.2.0/dbhome_1/perl/bin/perl /gprs_base/app/oracle/product/11.2.0/dbhome_1/bin/emwd.pl dbconsole /gprs_base/app/oracle/product/11.2.0/dbhome_1/DX979-VIP_GPRS/sysman/log/emdb.nohup
+  oracle  7405840        1   0   Jul 01      -  2:08 oracleGPRS (LOCAL=NO)
+  oracle  8061196        1   0 12:08:07      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle  8126772        1   0 02:37:01      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle  8258026        1   0 23:47:43      -  0:03 oracleGPRS (LOCAL=NO)
+  oracle  8388900 56688832   6                  0:00 <defunct>
+  oracle  8585566        1   0 23:48:24      -  0:02 oracleGPRS (LOCAL=NO)
+  oracle  8847724        1   0   Jul 05      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle  8978932        1   0   Jul 03      -  0:04 oracleGPRS (LOCAL=NO)
+  oracle  9044232        1   0 11:56:16      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle  9241020        1   0   Jul 03      -  0:04 oracleGPRS (LOCAL=NO)
+  oracle  9503008        1   0 23:47:46      -  0:08 oracleGPRS (LOCAL=NO)
+  oracle  9568756        1   0 23:47:06      -  0:08 oracleGPRS (LOCAL=NO)
+  oracle 10027276        1   0 11:03:28      -  0:00 oracleGPRS (LOCAL=NO)
+  gprsgg 10486026        1   0   Jun 29      - 119:41 /usr/java71_64/bin/java -Djava.util.logging.config.class=oracle.core.ojdl.logging.LoggingConfiguration -Doracle.core.ojdl.logging.config.file=/gprs_gg/goldengate/app/gprsgg/product/12.1.2/agent12c/config/odl.xml -Dhome=/gprs_gg/goldengate/Oracle/Middleware/Oracle_Home/veridata/agent -DagentHome=/gprs_gg/goldengate/app/gprsgg/product/12.1.2/agent12c -Xmx1024M -Xms1024M -Dagent-manifest.jar=/gprs_gg/goldengate/Oracle/Middleware/Oracle_Home/veridata/agent/agent-manifest.jar -jar /gprs_gg/goldengate/Oracle/Middleware/Oracle_Home/veridata/agent/JavaAgent.jar
+  oracle 11141622        1   0 08:36:18      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 11534822        1   0   Jul 03      -  0:04 oracleGPRS (LOCAL=NO)
+  oracle 11665722        1   0 23:47:15      -  0:10 oracleGPRS (LOCAL=NO)
+  oracle 11731390        1   0 23:46:42      -  0:08 oracleGPRS (LOCAL=NO)
+  oracle 12124458        1   0 11:07:34      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 12255512        1   0 23:47:50      -  0:09 oracleGPRS (LOCAL=NO)
+  oracle 12779956        1   0 12:00:08      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 13107686        1   0 11:43:05      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 13238692        1   0 02:34:04      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 14549354        1   0   Jul 05      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 14745872        1   0 23:47:57      -  0:07 oracleGPRS (LOCAL=NO)
+  gprsgg 14811566        1   0   Jun 29      -  8:28 ./mgr PARAMFILE /gprs_gg/goldengate/app/gprsgg/product/12.1.2/oggcore_1/dirprm/mgr.prm REPORTFILE /gprs_gg/goldengate/app/gprsgg/product/12.1.2/oggcore_1/dirrpt/MGR.rpt PROCESSID MGR USESUBDIRS
+  oracle 15532464        1   0   Jul 02      -  0:07 oracleGPRS (LOCAL=NO)
+  oracle 15597936        1   0 23:46:57      -  0:02 oracleGPRS (LOCAL=NO)
+  oracle 15860212        1   0   Jun 30      -  0:09 oracleGPRS (LOCAL=NO)
+  oracle 16384434        1   0 23:48:33      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 16712072        1   0   Jun 29      -  0:03 ora_s000_GPRS
+  oracle 16908628        1   0 20:24:40      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 16974148        1   0 17:45:59      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 17170732        1   0 23:48:01      -  0:08 oracleGPRS (LOCAL=NO)
+  oracle 17563940        1   0 23:46:53      -  0:07 oracleGPRS (LOCAL=NO)
+  oracle 17760556        1   0 13:09:33      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 18153786        1   0   Jun 29      -  0:03 ora_d000_GPRS
+  oracle 18350538        1   0   Jun 30      -  0:08 oracleGPRS (LOCAL=NO)
+  oracle 18874678        1   0   Jul 05      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 19267870        1   0 18:09:10      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 19726844        1   0 23:46:49      -  0:09 oracleGPRS (LOCAL=NO)
+  oracle 20382198        1   0 17:45:57      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 20840920        1   0 04:21:04      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 21037538        1   0 23:48:24      -  0:06 oracleGPRS (LOCAL=NO)
+  gprsgg 21692782 25887024   0 10:10:55      -  0:00 sshd: gprsgg@pts/1
+  oracle 22151660        1   0 23:47:43      -  0:09 oracleGPRS (LOCAL=NO)
+  gprsgg 22217034 51053132   0   Jul 05  pts/0  0:04 /gprs_gg/goldengate/app/gprsgg/product/12.1.2/oggcore_1/ggsci
+  oracle 22806982        1   0 23:46:58      -  0:13 oracleGPRS (LOCAL=NO)
+  oracle 23396796        1   0 23:47:31      -  0:03 oracleGPRS (LOCAL=NO)
+  oracle 23527870        1  11 18:55:38      - 10:39 oracleGPRS (LOCAL=NO)
+  oracle 23855488        1   0   Jul 03      -  0:04 oracleGPRS (LOCAL=NO)
+  oracle 24117542        1   0 23:47:41      -  0:09 oracleGPRS (LOCAL=NO)
+  oracle 24248764        1   0 10:37:13      -  0:00 oracleGPRS (LOCAL=NO)
+    root 25166154 26411612  10 00:28:31  pts/3  0:00 /bin/sh /tmp/pcat/pcat/./pcat-os.sh aa
+  oracle 25624848        1   0   Jun 29      - 40:24 ora_mmnl_GPRS
+    root 25887024  5505238   0 10:10:54      -  0:00 sshd: gprsgg [priv]
+  oracle 26083672        1   0   Jul 03      -  0:04 oracleGPRS (LOCAL=NO)
+  oracle 27459966        1   0   Jul 02      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 27984262        1   0 14:22:50      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 28049894        1   0   Jul 03      -  0:04 oracleGPRS (LOCAL=NO)
+  oracle 28377434        1   0   Jul 03      -  0:04 oracleGPRS (LOCAL=NO)
+  oracle 28639504        1   0   Jul 05      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 28901870        1   0 23:47:22      -  0:11 oracleGPRS (LOCAL=NO)
+  oracle 28967374        1   0   Jun 29      - 49:53 ora_lgwr_GPRS
+  oracle 29163982        1   0 23:46:56      -  0:07 oracleGPRS (LOCAL=NO)
+  oracle 29229442        1   0   Jun 29      -  0:02 ora_reco_GPRS
+  oracle 29295018        1   0   Jul 03      -  0:04 oracleGPRS (LOCAL=NO)
+  oracle 29491634        1   0   Jun 29      - 29:35 ora_dbw2_GPRS
+  oracle 29688070        1   0   Jun 29      -  4:10 ora_vktm_GPRS
+    root 29753832 49873530   0 00:28:28  pts/3  0:00 /bin/sh ./pcat.sh --notsm --nohmc
+  oracle 29819168        1   0   Jul 06      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 30278092        1   0 23:46:45      -  0:08 oracleGPRS (LOCAL=NO)
+  oracle 30671278        1   0 23:47:45      -  0:08 oracleGPRS (LOCAL=NO)
+  oracle 30736722        1   0 23:47:30      -  0:09 oracleGPRS (LOCAL=NO)
+  oracle 30802272        1   0   Jun 29      -  1:58 ora_pmon_GPRS
+  oracle 30998964        1   0   Jun 29      -  0:03 ora_q002_GPRS
+  oracle 31064476        1   0   Jun 29      - 29:36 ora_dbw4_GPRS
+  oracle 31195552        1   0 02:51:10      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 31457536        1   0   Jul 03      -  0:04 oracleGPRS (LOCAL=NO)
+  oracle 31523250        1   0   Jun 29      - 30:55 ora_dbw0_GPRS
+  oracle 31654374        1   0 23:46:48      -  0:10 oracleGPRS (LOCAL=NO)
+  oracle 31916452        1   0 04:08:27      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 32178490        1   0   Jun 29      -  4:24 ora_dbrm_GPRS
+  oracle 32309756        1   0 12:00:08      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 33882400        1   0 15:53:30      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 34079118        1   0 23:48:00      -  0:03 oracleGPRS (LOCAL=NO)
+  oracle 34275802        1   0 09:14:47      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 34668898        1   0 09:30:52      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 34865500        1   0   Jun 30      -  0:08 oracleGPRS (LOCAL=NO)
+    root 34996554  5505238   0   Jun 30      -  0:00 sshd: root@pts/9
+  oracle 35193256        1   0   Jul 05      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 35324350        1   0 23:46:55      -  0:07 oracleGPRS (LOCAL=NO)
+  oracle 35389840        1   0 22:00:00      -  0:07 ora_vkrm_GPRS
+  oracle 36307414        1   0 23:48:17      -  0:01 oracleGPRS (LOCAL=NO)
+  oracle 38666700        1   0 16:01:32      -  0:01 oracleGPRS (LOCAL=NO)
+  oracle 38732190        1   0 23:47:28      -  0:09 oracleGPRS (LOCAL=NO)
+  oracle 40042976        1   0   Jun 30      -  0:50 oracleGPRS (LOCAL=NO)
+  oracle 40632600        1   0 23:47:10      -  0:09 oracleGPRS (LOCAL=NO)
+  oracle 40894884        1   0 13:34:51      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 41812470        1   0 10:19:55      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 41877912        1   0 23:47:40      -  0:09 oracleGPRS (LOCAL=NO)
+  oracle 42008920        1   0   Jul 05      -  0:02 oracleGPRS (LOCAL=NO)
+  oracle 42992008        1   0   Jul 03      -  0:04 oracleGPRS (LOCAL=NO)
+  oracle 43581882        1   0 23:47:23      -  0:11 oracleGPRS (LOCAL=NO)
+  oracle 45285720        1   0 09:59:54      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 46661990        1   0   Jul 03      -  0:04 oracleGPRS (LOCAL=NO)
+  oracle 46727562        1   0   Jun 30      -  0:01 oracleGPRS (LOCAL=NO)
+    root 47251744 25166154   0 00:28:54  pts/3  0:00 /bin/sh /tmp/pcat/pcat/./pcat-os.sh aa
+  oracle 47317414        1   0 23:47:56      -  0:06 oracleGPRS (LOCAL=NO)
+  oracle 47382800        1   0 01:54:51      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 47645148        1   0 10:31:01      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 47710550        1   0   Jun 30      -  0:43 oracleGPRS (LOCAL=NO)
+  oracle 47972844        1   0 04:04:58      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 48103810        1   0 21:56:42      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 48366022        1   0 23:47:27      -  0:09 oracleGPRS (LOCAL=NO)
+  oracle 48497124        1   0   Jul 03      -  0:04 oracleGPRS (LOCAL=NO)
+  oracle 49348924        1   0 23:48:30      -  0:01 oracleGPRS (LOCAL=NO)
+  oracle 49545534        1   0 23:46:41      -  0:02 oracleGPRS (LOCAL=NO)
+  oracle 49742170        1   0   Jul 03      -  0:04 oracleGPRS (LOCAL=NO)
+  oracle 49873360        1   0 09:49:07      -  0:00 oracleGPRS (LOCAL=NO)
+  gprsgg 49938934 50331954   0   Jul 02  pts/0  0:00 -ksh
+  oracle 50004410        1   0 23:46:54      -  0:07 oracleGPRS (LOCAL=NO)
+  gprsgg 50331954 56099032   0   Jul 02      -  0:05 sshd: gprsgg@pts/0
+  oracle 50528524        1   0   Jul 03      -  0:04 oracleGPRS (LOCAL=NO)
+  oracle 52232532        1   0 14:51:13      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 52298018        1   0 23:47:04      -  0:09 oracleGPRS (LOCAL=NO)
+  oracle 52429098        1   0   Jul 03      -  0:04 oracleGPRS (LOCAL=NO)
+  oracle 52887816        1   0 15:48:52      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 52953554        1   0 02:36:33      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 53019104        1   0 10:34:40      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 53346806        1   0   Jul 05      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 53543338        1   0   Jul 05      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 53608914        1   0 12:05:29      -  0:00 oracleGPRS (LOCAL=NO)
+    root 53936558 10027756   0 12:35:27  pts/2  0:00 bash
+  oracle 54002164        1   0 23:48:19      -  0:25 oracleGPRS (LOCAL=NO)
+  oracle 54133090        1   0   Jul 02      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 54264120        1   0 14:22:08      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 55181818        1   0 04:55:12      -  0:00 oracleGPRS (LOCAL=NO)
+    root 55247264 47251744   0 00:28:54  pts/3  0:00 tail -512000
+  oracle 55705860        1   0 06:02:55      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 55902694        1   0 03:07:38      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 56099268        1   0 23:48:32      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 56492418        1   0   Jun 30      -  0:20 oracleGPRS (LOCAL=NO)
+    root 56557970        1   1 20:00:02      -  0:03 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c 144 -m /perfdata/nmon/ -youtput_dir=/perfdata/nmon/DX979 -ystart_time=20:00:01,Jul06,2015
+  oracle 56820170        1   0 23:47:05      -  0:08 oracleGPRS (LOCAL=NO)
+  oracle 56885534        1   0   Jul 05      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 56951044        1   0 10:35:44      -  0:01 oracleGPRS (LOCAL=NO)
+  oracle 57344396        1   0   Jul 05      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 57737560        1   0 23:48:27      -  0:04 oracleGPRS (LOCAL=NO)
+  oracle 58196274        1   0 10:36:15      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 58261876        1   0 23:47:08      -  0:01 oracleGPRS (LOCAL=NO)
+  oracle 58327338        1   0 09:20:10      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 58458610        1   0   Jul 05      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 58524096        1   0   Jul 05      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 59244878        1   0   Jul 05      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 59638254        1   0 02:36:31      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 59834784        1   0   Jun 30      -  1:37 oracleGPRS (LOCAL=NO)
+  oracle 60227846        1   0 16:08:27      -  0:00 oracleGPRS (LOCAL=NO)
+    root 60621292  5505238   0 12:00:49      -  0:00 sshd: root@pts/2
+  oracle 60686840        1   0 02:39:07      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 60883426        1   0 23:47:37      -  0:03 oracleGPRS (LOCAL=NO)
+  oracle 61276420        1   0 23:47:25      -  0:03 oracleGPRS (LOCAL=NO)
+  oracle 61342120        1   0   Jul 05      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 61800930        1   0 23:47:54      -  0:02 oracleGPRS (LOCAL=NO)
+  oracle 62194048  7274804   0   Jun 30      - 12:10 /gprs_base/app/oracle/product/11.2.0/dbhome_1/jdk/bin/java -Xmx384M -DORACLE_HOME=/gprs_base/app/oracle/product/11.2.0/dbhome_1 -Doracle.home=/gprs_base/app/oracle/product/11.2.0/dbhome_1/oc4j -Doracle.oc4j.localhome=/gprs_base/app/oracle/product/11.2.0/dbhome_1/DX979-VIP_GPRS/sysman -DEMSTATE=/gprs_base/app/oracle/product/11.2.0/dbhome_1/DX979-VIP_GPRS -Doracle.j2ee.dont.use.memory.archive=true -Djava.protocol.handler.pkgs=HTTPClient -Doracle.security.jazn.config=/gprs_base/app/oracle/product/11.2.0/dbhome_1/oc4j/j2ee/OC4J_DBConsole_DX979-VIP_GPRS/config/jazn.xml -Djava.security.policy=/gprs_base/app/oracle/product/11.2.0/dbhome_1/oc4j/j2ee/OC4J_DBConsole_DX979-VIP_GPRS/config/java2.policy -Djavax.net.ssl.KeyStore=/gprs_base/app/oracle/product/11.2.0/dbhome_1/sysman/config/OCMTrustedCerts.txt-Djava.security.properties=/gprs_base/app/oracle/product/11.2.0/dbhome_1/oc4j/j2ee/home/config/jazn.security.props -DEMDROOT=/gprs_base/app/oracle/product/11.2.0/dbhome_1/DX979-VIP_GPRS -Dsysman.md5password=true -Drepapi.oracle.home=/gprs_base/app/oracle/product/11.2.0/dbhome_1 -Ddisable.checkForUpdate=true -Doracle.sysman.ccr.ocmSDK.websvc.keystore=/gprs_base/app/oracle/product/11.2.0/dbhome_1/jlib/emocmclnt.ks -Dice.pilots.html4.ignoreNonGenericFonts=true -Djava.awt.headless=true -jar /gprs_base/app/oracle/product/11.2.0/dbhome_1/oc4j/j2ee/home/oc4j.jar -config /gprs_base/app/oracle/product/11.2.0/dbhome_1/oc4j/j2ee/OC4J_DBConsole_DX979-VIP_GPRS/config/server.xml
+  oracle 62259618        1   0 03:06:36      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 62325072        1   0 03:36:49      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 62652692        1   0 23:47:01      -  0:13 oracleGPRS (LOCAL=NO)
+  oracle 63111616        1   0   Jul 05      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 63176976        1   0 23:47:07      -  0:08 oracleGPRS (LOCAL=NO)
+  oracle 63242736        1   0 02:44:14      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 63308206        1   0 23:46:52      -  0:07 oracleGPRS (LOCAL=NO)
+  oracle 63373804        1  79 16:34:28      - 172:46 oracleGPRS (LOCAL=NO)
+  oracle 63570252        1   0   Jul 05      -  0:00 oracleGPRS (LOCAL=NO)
+    root   459330  3539172   0   Jun 12      -  0:00 /usr/sbin/writesrv
+    root   524808  3539172   0   Jun 12      - 11:28 /usr/sbin/syslogd -R
+    root   656084  3539172   0   Jun 12      -  0:00 /usr/sbin/portmap
+    root   787082        1   0   Jun 12      -  0:00 /usr/sbin/uprintfd
+    root  1311296  4391312   0   Jun 12      - 20:21 /var/opt/tivoli/ep/_jvm/jre/bin/java -Xmx384m -Xminf0.01 -Xmaxf0.4 -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Xbootclasspath/a:/var/opt/tivoli/ep/runtime/core/eclipse/plugins/com.ibm.rcp.base_6.2.3.20110824-0615/rcpbootcp.jar:/var/opt/tivoli/ep/lib/com.ibm.logging.icl_1.1.1.jar:/var/opt/tivoli/ep/lib/jaas2zos.jar:/var/opt/tivoli/ep/lib/jaasmodule.jar:/var/opt/tivoli/ep/lib/lwidiag.jar:/var/opt/tivoli/ep/lib/lwinative.jar:/var/opt/tivoli/ep/lib/lwinl.jar:/var/opt/tivoli/ep/lib/lwirolemap.jar:/var/opt/tivoli/ep/lib/lwisecurity.jar:/var/opt/tivoli/ep/lib/lwitools.jar:/var/opt/tivoli/ep/lib/passutils.jar:../../runtime/agent/lib/cas-bootcp.jar -Xverify:none -cp eclipse/launch.jar:eclipse/startup.jar:/var/opt/tivoli/ep/runtime/core/eclipse/plugins/com.ibm.rcp.base_6.2.3.20110824-0615/launcher.jar com.ibm.lwi.LaunchLWI
+    root  1442340        1   0   Jun 12      -  0:30 /usr/sbin/cron
+    root  1507878        1   0   Jun 12      -  0:01 /opt/ibm/director/cimom/bin/tier1slp
+    root  1573434        1   0   Jun 12      -  0:01 /usr/bin/cimlistener
+    root  1638992  3735898   0   Jun 12      -  1:55 /usr/lpp/OV/bin/ovbbccb -nodaemon
+    root  1704550  3735898   0   Jun 12      -  9:28 /usr/lpp/OV/lbin/perf/coda
+    root  1770038  3539172   0   Jun 12      -  0:00 /opt/freeware/cimom/pegasus/bin/cimssys cimsys
+    root  1835642  3735898   0   Jun 12      -  2:41 /usr/lpp/OV/lbin/eaagt/opcacta
+    root  1901170  3735898   0   Jun 12      -  2:22 /usr/lpp/OV/lbin/eaagt/opcmsga
+    root  2097832  3539172   0   Jun 12      -  5:25 /usr/sbin/rsct/bin/hagsd cthags
+    root  2228738        1   0   Jun 12      -  0:02 /usr/lpp/perf/bin/midaemon
+    root  2294396  3539172   0   Jun 12      -  0:00 /bin/ksh /var/opt/tivoli/ep/runtime/nonstop/bin/cas_src.sh
+    root  2359982  3539172   0   Jun 12      -  0:00 /usr/sbin/rsct/bin/IBM.ServiceRMd
+  oracle  2425578        1   0   Jul 05      -  0:00 oracleGPRS (LOCAL=NO)
+    root  2490880        1   0   Jun 12      -  2:44 lsdaemon 10000
+    root  2556640  3539172   0   Jun 12      - 41:15 /usr/es/sbin/cluster/clstrmgr
+    root  2753076  3539172   0   Jun 12      -  0:04 /usr/sbin/gsclvmd
+    root  2884328  2753076   0   Jun 12      -  0:04 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f9ada100004c000000014c09524832 -v 0
+    root  3015180  2753076   0   Jun 12      -  0:04 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f9ada100004c000000014c09523810 -v 0
+    root  3080750  2753076   0   Jun 12      -  0:04 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f9ada100004c000000014c0951da28 -v 0
+    root  3146354  2753076   0   Jun 12      -  0:04 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f9ada100004c000000014c095240b8 -v 0
+    root  3211814  2753076   0   Jun 12      -  0:03 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f9ada100004c000000014c02a5ec39 -v 0
+    root  3539576  2753076   0   Jun 12      -  0:04 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f9ada100004c000000014c09525811 -v 0
+    root  3867274  3539172   0   Jun 15      -  0:02 /usr/es/sbin/cluster/clevmgrd
+  oracle  4195006        1   0 15:36:21      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle  5243396        1   0   Jun 29      - 30:23 ora_dbw3_GPRS
+  oracle  7144164        1   0 23:47:12      -  0:11 oracleGPRS (LOCAL=NO)
+  oracle  7668458        1   0 16:51:00      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle  9175586        1   0 23:47:00      -  0:13 oracleGPRS (LOCAL=NO)
+  oracle  9634332        1   0 12:00:08      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle  9699934        1   0 23:46:59      -  0:13 oracleGPRS (LOCAL=NO)
+    root 10027756 60621292   0 12:01:13  pts/2  0:00 -ksh
+  oracle 10093208        1   0 22:01:25      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 10813958        1   0 23:46:52      -  0:01 oracleGPRS (LOCAL=NO)
+  oracle 11338412        1   0 02:31:57      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 12386954        1   0 09:31:18      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 12780242        1   0 02:31:52      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 13894310        1   0 23:46:43      -  0:08 oracleGPRS (LOCAL=NO)
+  oracle 14483996        1   0 12:18:30      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 15204930        1   0 23:47:37      -  0:09 oracleGPRS (LOCAL=NO)
+  oracle 15401718        1   0   Jun 29      -  0:02 ora_q000_GPRS
+  oracle 15598124        1   0 23:48:15      -  0:01 oracleGPRS (LOCAL=NO)
+  oracle 15663736        1   0   Jun 30      -  1:40 ora_cjq0_GPRS
+  oracle 15729318        1   0   Jul 01      -  0:06 oracleGPRS (LOCAL=NO)
+  oracle 15925770        1   0 12:00:08      -  0:00 oracleGPRS (LOCAL=NO)
+    root 16712346        1   0                  0:00 <defunct>
+  oracle 17695382        1   0   Jul 05      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 18743986        1   0   Jun 29      -  5:34 ora_arc3_GPRS
+  oracle 18875134        1   0   Jul 05      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 20185816        1   0   Jun 30      -  0:02 oracleGPRS (LOCAL=NO)
+  oracle 20447902        1   0   Jun 29      -  1:14 ora_smon_GPRS
+  oracle 20513312        1   0 06:37:48      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 20578888        1   2   Jun 29      - 127:00 ora_dia0_GPRS
+  oracle 20906674        1   0   Jun 29      -  0:10 ora_diag_GPRS
+  oracle 21037654        1   0   Jun 29      -  0:01 oracleGPRS (LOCAL=NO)
+  oracle 21103184        1   0 16:08:26      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 21168640        1   0   Jun 29      -  0:06 ora_gen0_GPRS
+  oracle 21299904        1   0   Jun 29      -  1:00 ora_mman_GPRS
+  oracle 21496530        1   0   Jun 29      -  5:52 ora_arc1_GPRS
+  oracle 21627400        1   0 12:00:08      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 21824030        1   0   Jul 05      -  7:02 oracleGPRS (LOCAL=NO)
+  oracle 22741596        1   0 09:51:29      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 23462506        1   0   Jul 03      -  0:04 oracleGPRS (LOCAL=NO)
+  oracle 23659246        1   0 07:42:01      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 24707636        1   0 12:00:08      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 24773154        1   0 10:59:43      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 24969972        1   0 00:00:44      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 25363126        1   0 23:46:46      -  0:03 oracleGPRS (LOCAL=NO)
+  oracle 25756404        1   0 12:00:08      -  0:00 oracleGPRS (LOCAL=NO)
+    root 26411612 29753832   0 00:28:28  pts/3  0:00 /bin/sh /tmp/pcat/pcat/./pcat-os.sh aa
+  oracle 26608370        1   0 11:29:26      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 27263552        1   0   Jul 05      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 27329268        1   0 02:37:14      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 27984624        1   0 23:47:11      -  0:10 oracleGPRS (LOCAL=NO)
+  oracle 28115576        1   0 23:54:16      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 28770976        1   0 13:35:01      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 28967504        1   0 22:48:21      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 29688372        1   0   Jun 30      -  0:01 oracleGPRS (LOCAL=NO)
+  oracle 30605844        1   0 23:46:51      -  0:10 oracleGPRS (LOCAL=NO)
+  oracle 30999236        1   0 03:01:31      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 31326820        1   0 12:00:08      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 31654558        1   0 13:24:01      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 31916648        1   0 17:10:54      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 32637528        1   0 23:48:09      -  0:28 oracleGPRS (LOCAL=NO)
+  oracle 35390002        1   0 08:29:52      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 36110972        1   0 23:47:02      -  0:12 oracleGPRS (LOCAL=NO)
+  oracle 36242094        1   0   Jun 30      -  0:22 oracleGPRS (LOCAL=NO)
+  oracle 37094020        1   0   Jul 03      -  0:04 oracleGPRS (LOCAL=NO)
+    root 37487224 34996554   0   Jun 30  pts/9  0:00 -ksh
+  oracle 37618186        1   0 13:47:48      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 37814832        1   0 08:18:02      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 38077052        1   0 23:46:44      -  0:09 oracleGPRS (LOCAL=NO)
+  oracle 38273590        1   0 10:10:32      -  0:00 oracleGPRS (LOCAL=NO)
+    root 38994550 39650010   0 00:19:54  pts/3  0:00 -ksh
+    root 39650010  5505238   0 00:19:05      -  0:00 sshd: root@pts/3
+  oracle 39846422        1   0 16:03:21      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 40698470        1   0   Jul 03      -  0:04 oracleGPRS (LOCAL=NO)
+  oracle 41026104        1   0 12:00:08      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 41550470        1   0 11:23:58      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 41812586        1   0 23:47:13      -  0:10 oracleGPRS (LOCAL=NO)
+  oracle 42205718        1   0 23:47:47      -  0:08 oracleGPRS (LOCAL=NO)
+  oracle 42271384        1   0   Jun 30      -  0:07 oracleGPRS (LOCAL=NO)
+  oracle 42598996        1   0 07:07:08      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 44106320        1   0 04:59:34      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 44433966        1   0 23:46:47      -  0:10 oracleGPRS (LOCAL=NO)
+  oracle 44565240        1   0 04:08:42      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 44696260        1   0 08:30:38      -  0:00 oracleGPRS (LOCAL=NO)
+    root 45744686 55247264   2 00:28:54  pts/3  0:00 ps -ef
+  oracle 47383224        1   0 23:47:44      -  0:09 oracleGPRS (LOCAL=NO)
+  oracle 47514162        1   0 11:43:08      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 47907526        1   0 12:02:50      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 47972924        1   0 09:48:52      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 48235022        1   0 08:20:41      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 48759296        1   0 03:36:48      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 49414742        1   0   Jul 05      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 49480220        1   0 10:13:25      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 49545886        1   0 23:46:41      -  0:08 oracleGPRS (LOCAL=NO)
+    root 49873530 38994550   0 00:19:57  pts/3  0:00 bash
+  oracle 50004626        1   0 12:00:08      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 50135600        1   0 04:07:36      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 50332178        1   0 01:57:06      -  0:00 oracleGPRS (LOCAL=NO)
+  oracle 50463382        1   0 10:08:21      -  0:00 oracleGPRS (LOCAL=NO)
+  gprsgg 51053132 49938934   0   Jul 05  pts/0  0:00 bash
+  oracle 51446370        1   0 00:22:25      -  0:00 ora_w000_GPRS
+  oracle 51577392        1   0   Jul 02      -  0:01 oracleGPRS (LOCAL=NO)
+==== EXITED with rc 0 ====
+==== END ps -ef Tue Jul  7 00:28:54 GST 2015 ====

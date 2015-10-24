@@ -1,0 +1,11 @@
+==== This output can be found in Systems/dx975/storage/lsvg-o_sort_awk_print_Volume_group-p_1_system_lsvg.txt ====
+==== START lsvg -o |sort|awk '{print "#### Volume group -p: " $1 " ####";system("lsvg -p " $1 ); print "\n"}' Tue Jul  7 12:49:29 CDT 2015 ====
+#### Volume group -p: rootvg ####
+rootvg:
+PV_NAME           PV STATE          TOTAL PPs   FREE PPs    FREE DISTRIBUTION
+hdisk0            active            722         670         144..140..97..144..145
+hdisk1            active            722         662         144..132..97..144..145
+
+
+==== EXITED with rc 0 ====
+==== END lsvg -o |sort|awk '{print "#### Volume group -p: " $1 " ####";system("lsvg -p " $1 ); print "\n"}' Tue Jul  7 12:49:29 CDT 2015 ====

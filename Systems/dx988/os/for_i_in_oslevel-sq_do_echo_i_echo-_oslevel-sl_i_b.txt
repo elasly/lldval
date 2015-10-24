@@ -1,0 +1,8 @@
+==== This output can be found in Systems/dx988/os/for_i_in_oslevel-sq_do_echo_i_echo-_oslevel-sl_i_b.txt ====
+==== START for i in $(oslevel -sq); do echo $i; echo "-------------------"; oslevel -sl $i ; break ; done Thu Aug  6 11:14:07 GST 2015 ====
+Known Service Packs
+-------------------
+7100-03-04-1441
+-------------------
+==== EXITED with rc 0 ====
+==== END for i in $(oslevel -sq); do echo $i; echo "-------------------"; oslevel -sl $i ; break ; done Thu Aug  6 11:14:07 GST 2015 ====

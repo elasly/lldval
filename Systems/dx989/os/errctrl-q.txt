@@ -1,0 +1,220 @@
+==== This output can be found in Systems/dx989/os/errctrl-q.txt ====
+==== START errctrl -q Thu Aug  6 11:22:15 GST 2015 ====
+---------------------------------------------+-------+-------+-------+--------
+                                             | Have  |ErrChk |LowSev |MedSev 
+    Component name                           | alias | /level| Disp  | Disp 
+---------------------------------------------+-------+-------+-------+--------
+aixdiskpcmke                                 |  NO   | ON /1 |  64   |  96  
+     .pprc                                   |  NO   | ON /1 |  64   |  96  
+alloc                                        |  NO   | ON /3 |  48   |  64  
+     .heap0                                  |  NO   | OFF/0 |  48   |  64  
+     .xmdbg                                  |  NO   | ON /3 |  64   |  80  
+     .xmdbgdis                               |  NO   | ON /3 |  64   |  80  
+dpcom                                        |  NO   | ON /3 |  64   |  96  
+efscsidd
+     .fscsi0                                 |  NO   | ON /1 |  48   |  64  
+     .fscsi1                                 |  NO   | ON /1 |  48   |  64  
+     .fscsi2                                 |  NO   | ON /1 |  48   |  64  
+     .fscsi3                                 |  NO   | ON /1 |  48   |  64  
+     .fscsi4                                 |  NO   | ON /1 |  48   |  64  
+     .fscsi5                                 |  NO   | ON /1 |  48   |  64  
+     .fscsi6                                 |  NO   | ON /1 |  48   |  64  
+     .fscsi7                                 |  NO   | ON /1 |  48   |  64  
+if_en                                        |  NO   | ON /1 |  64   |  64  
+ipc
+     .msg                                    |  YES  | ON /3 |  48   |  64  
+     .sem                                    |  YES  | ON /3 |  48   |  64  
+     .shm                                    |  YES  | ON /3 |  48   |  64  
+iscsisw
+     .iscsi0                                 |  NO   | ON /1 |  64   |  64  
+jfs2                                         |  NO   | ON /3 |  48   |  64  
+     filesystem
+          __1
+               .metadata                     |  NO   | ON /3 |  48   |  64  
+               .userdata                     |  NO   | ON /3 |  48   |  64  
+          _admin_8
+               .metadata                     |  NO   | ON /3 |  48   |  64  
+               .userdata                     |  NO   | ON /3 |  48   |  64  
+          _home_7
+               .metadata                     |  NO   | ON /3 |  48   |  64  
+               .userdata                     |  NO   | ON /3 |  48   |  64  
+          _opt_10
+               .metadata                     |  NO   | ON /3 |  48   |  64  
+               .userdata                     |  NO   | ON /3 |  48   |  64  
+          _perfdata_12
+               .metadata                     |  NO   | ON /3 |  48   |  64  
+               .userdata                     |  NO   | ON /3 |  48   |  64  
+          _tmp_5
+               .metadata                     |  NO   | ON /3 |  48   |  64  
+               .userdata                     |  NO   | ON /3 |  48   |  64  
+          _usr_2
+               .metadata                     |  NO   | ON /3 |  48   |  64  
+               .userdata                     |  NO   | ON /3 |  48   |  64  
+          _var_4
+               .metadata                     |  NO   | ON /3 |  48   |  64  
+               .userdata                     |  NO   | ON /3 |  48   |  64  
+          _var_adm_ras_livedump_11
+               .metadata                     |  NO   | ON /3 |  48   |  64  
+               .userdata                     |  NO   | ON /3 |  48   |  64  
+     log
+          .A_3                               |  NO   | ON /3 |  48   |  64  
+ldr                                          |  YES  | ON /3 |  48   |  64  
+     .kernext                                |  YES  | ON /3 |  48   |  64  
+     .lib32                                  |  NO   | ON /3 |  48   |  64  
+     .lib64                                  |  NO   | ON /3 |  48   |  64  
+     .process32                              |  NO   | ON /3 |  48   |  64  
+     .process64                              |  NO   | ON /3 |  48   |  64  
+lfs                                          |  NO   | ON /3 |  48   |  64  
+mbuf                                         |  NO   | ON /3 |  64   |  64  
+     .mpool                                  |  NO   | ON /3 |  64   |  64  
+ml                                           |  NO   | ON /3 |  48   |  64  
+     .stack_overflow                         |  NO   | ON /3 |  48   |  64  
+net                                          |  NO   | ON /3 |  64   |  64  
+     .cdli                                   |  NO   | ON /3 |  64   |  64  
+     .loop                                   |  NO   | ON /3 |  64   |  64  
+     .netisr                                 |  NO   | ON /3 |  64   |  64  
+     .route                                  |  NO   | ON /3 |  64   |  64  
+netinet                                      |  NO   | ON /3 |  64   |  64  
+     .ipv4                                   |  NO   | ON /3 |  64   |  64  
+     .ipv6                                   |  NO   | ON /3 |  64   |  64  
+     .netinet_misc                           |  NO   | ON /3 |  64   |  64  
+     .tcp                                    |  NO   | ON /3 |  64   |  64  
+     .udp                                    |  NO   | ON /3 |  64   |  64  
+netmalloc                                    |  NO   | ON /3 |  64   |  64  
+     .police                                 |  NO   | ON /3 |  64   |  64  
+nfs
+     nfs4
+          .nfs4_client                       |  NO   | ON /3 |  48   |  64  
+          .nfs4_server                       |  NO   | ON /3 |  48   |  64  
+pile                                         |  NO   | ON /3 |  48   |  64  
+probemgr                                     |  NO   | ON /3 |  48   |  64  
+     .interval_pmgr                          |  NO   | ON /3 |  48   |  64  
+     .systrace_pmgr                          |  NO   | ON /3 |  48   |  64  
+probev                                       |  NO   | ON /3 |  48   |  64  
+     .etrace_evm                             |  NO   | ON /3 |  48   |  64  
+     .trcbuf_mgr                             |  NO   | ON /3 |  48   |  64  
+proc
+     .cprs                                   |  NO   | ON /3 |  48   |  64  
+     .disa                                   |  NO   | ON /3 |  48   |  64  
+     .dr                                     |  YES  | ON /3 |  48   |  64  
+     .lock                                   |  NO   | ON /3 |  48   |  64  
+     .pmzone                                 |  NO   | ON /3 |  48   |  64  
+     .rqi                                    |  NO   | ON /3 |  48   |  64  
+     .trb                                    |  NO   | ON /3 |  48   |  64  
+     .vpm                                    |  NO   | ON /3 |  48   |  64  
+     .watchdog                               |  NO   | ON /3 |  48   |  64  
+     .wlm                                    |  NO   | ON /3 |  48   |  64  
+     .wpar                                   |  NO   | ON /3 |  48   |  64  
+ras
+     .ct                                     |  YES  | ON /3 |  48   |  64  
+     .errorcheck                             |  NO   | ON /3 |  48   |  64  
+     .infra                                  |  YES  | ON /3 |  48   |  64  
+rbac                                         |  NO   | ON /3 |  48   |  64  
+     .kat                                    |  NO   | ON /3 |  48   |  64  
+     .kpcdt                                  |  NO   | ON /3 |  48   |  64  
+     .kprt                                   |  NO   | ON /3 |  48   |  64  
+     .krt                                    |  NO   | ON /3 |  48   |  64  
+     .kst                                    |  NO   | ON /3 |  48   |  64  
+     .wpar                                   |  NO   | ON /3 |  48   |  64  
+refmon                                       |  NO   | ON /3 |  48   |  64  
+     .dac                                    |  NO   | ON /3 |  48   |  64  
+     .fs                                     |  NO   | ON /3 |  48   |  64  
+     .fsf                                    |  NO   | ON /3 |  48   |  64  
+     .label                                  |  NO   | ON /3 |  48   |  64  
+     .mac                                    |  NO   | ON /3 |  48   |  64  
+     .objsec                                 |  NO   | ON /3 |  48   |  64  
+     .policy                                 |  NO   | ON /3 |  48   |  64  
+     .priv                                   |  NO   | ON /3 |  48   |  64  
+scsidiskdd                                   |  NO   | OFF/0 |  48   |  64  
+     .hdisk0                                 |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio0                             |  NO   | ON /1 |  48   |  64  
+               .pcm0                         |  NO   | ON /1 |  48   |  64  
+     .hdisk1                                 |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio1                             |  NO   | ON /1 |  48   |  64  
+               .pcm1                         |  NO   | ON /1 |  48   |  64  
+socket                                       |  NO   | ON /3 |  64   |  64  
+     .so_unix                                |  NO   | ON /3 |  64   |  64  
+storfwork                                    |  NO   | ON /1 |  48   |  64  
+vfcdd
+     .fcs0                                   |  YES  | ON /1 |  48   |  64  
+     .fcs1                                   |  YES  | ON /1 |  48   |  64  
+     .fcs2                                   |  YES  | ON /1 |  48   |  64  
+     .fcs3                                   |  YES  | ON /1 |  48   |  64  
+     .fcs4                                   |  YES  | ON /1 |  48   |  64  
+     .fcs5                                   |  YES  | ON /1 |  48   |  64  
+     .fcs6                                   |  YES  | ON /1 |  48   |  64  
+     .fcs7                                   |  YES  | ON /1 |  48   |  64  
+vioentdd
+     .dd                                     |  NO   | ON /3 |  48   |  64  
+          .ent0                              |  YES  | ON /3 |  48   |  64  
+          .ent1                              |  YES  | ON /3 |  48   |  64  
+          .ent2                              |  YES  | ON /3 |  48   |  64  
+          .ent3                              |  YES  | ON /3 |  48   |  64  
+vmm
+     .adsp                                   |  NO   | ON /3 |  48   |  64  
+     .chlmb                                  |  NO   | ON /3 |  48   |  64  
+     .cmem                                   |  NO   | ON /3 |  48   |  64  
+     .dr                                     |  NO   | ON /3 |  48   |  64  
+     .frs                                    |  YES  | ON /3 |  48   |  64  
+          .frs0                              |  YES  | ON /3 |  48   |  64  
+          .frs1                              |  YES  | ON /3 |  48   |  64  
+          .frs2                              |  YES  | ON /3 |  48   |  64  
+          .frs3                              |  YES  | ON /3 |  48   |  64  
+          .frs4                              |  YES  | ON /3 |  48   |  64  
+          .frs5                              |  YES  | ON /3 |  48   |  64  
+          .frs6                              |  YES  | ON /3 |  48   |  64  
+          .frs7                              |  YES  | ON /3 |  48   |  64  
+          .frs8                              |  YES  | ON /3 |  48   |  64  
+          .frs9                              |  YES  | ON /3 |  48   |  64  
+          .frsA                              |  YES  | ON /3 |  48   |  64  
+          .frsB                              |  YES  | ON /3 |  48   |  64  
+     .internal                               |  NO   | ON /3 |  48   |  64  
+     .loan                                   |  NO   | ON /3 |  48   |  64  
+     .memp                                   |  YES  | ON /3 |  48   |  64  
+          .memp0                             |  YES  | ON /3 |  48   |  64  
+          .memp1                             |  YES  | ON /3 |  48   |  64  
+          .memp2                             |  YES  | ON /3 |  48   |  64  
+          .mempLRU                           |  NO   | ON /3 |  48   |  64  
+               .mempLRU0                     |  YES  | ON /3 |  48   |  64  
+               .mempLRU1                     |  YES  | ON /3 |  48   |  64  
+               .mempLRU2                     |  YES  | ON /3 |  48   |  64  
+          .mempPSMD                          |  NO   | ON /3 |  48   |  64  
+               .mempPSMD0                    |  YES  | ON /3 |  48   |  64  
+               .mempPSMD1                    |  YES  | ON /3 |  48   |  64  
+               .mempPSMD2                    |  YES  | ON /3 |  48   |  64  
+     .pdt                                    |  YES  | ON /3 |  48   |  64  
+          .pdt0                              |  YES  | ON /3 |  48   |  64  
+          .pdt80                             |  YES  | ON /3 |  48   |  64  
+          .pdt81                             |  YES  | ON /3 |  48   |  64  
+          .pdt82                             |  YES  | ON /3 |  48   |  64  
+          .pdt83                             |  YES  | ON /3 |  48   |  64  
+          .pdt84                             |  YES  | ON /3 |  48   |  64  
+          .pdt85                             |  YES  | ON /3 |  48   |  64  
+          .pdt86                             |  YES  | ON /3 |  48   |  64  
+          .pdt87                             |  YES  | ON /3 |  48   |  64  
+          .pdt88                             |  YES  | ON /3 |  48   |  64  
+          .pdt89                             |  YES  | ON /3 |  48   |  64  
+          .pdtbufx                           |  NO   | ON /3 |  48   |  64  
+               .pdtbufx0                     |  YES  | ON /3 |  48   |  64  
+     .power                                  |  NO   | ON /3 |  48   |  64  
+     .services                               |  NO   | ON /3 |  48   |  64  
+     .vmpool                                 |  YES  | ON /3 |  48   |  64  
+          .vmpool0                           |  YES  | ON /3 |  48   |  64  
+     .vrme                                   |  NO   | ON /3 |  48   |  64  
+     .wlm                                    |  NO   | ON /3 |  48   |  64  
+     .xmem                                   |  NO   | ON /3 |  48   |  64  
+vscsi_initdd
+     .vscsi0                                 |  YES  | ON /1 |  48   |  64  
+     .vscsi1                                 |  YES  | ON /1 |  48   |  64  
+     .vscsi2                                 |  YES  | ON /1 |  48   |  64  
+     .vscsi3                                 |  YES  | ON /1 |  48   |  64  
+     .vscsi4                                 |  YES  | ON /1 |  48   |  64  
+     .vscsi5                                 |  YES  | ON /1 |  48   |  64  
+     .vscsi6                                 |  YES  | ON /1 |  48   |  64  
+     .vscsi7                                 |  YES  | ON /1 |  48   |  64  
+     .vscsi8                                 |  YES  | ON /1 |  48   |  64  
+     .vscsi9                                 |  YES  | ON /1 |  48   |  64  
+==== EXITED with rc 0 ====
+==== END errctrl -q Thu Aug  6 11:22:15 GST 2015 ====

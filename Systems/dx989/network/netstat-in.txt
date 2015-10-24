@@ -1,0 +1,14 @@
+==== This output can be found in Systems/dx989/network/netstat-in.txt ====
+==== START netstat -in Thu Aug  6 11:22:13 GST 2015 ====
+Name  Mtu   Network     Address           Ipkts Ierrs    Opkts Oerrs  Coll
+en0   1500  link#2      4a.64.dd.8b.1f.4    16537     0     9772     0     0
+en0   1500  10.51.226   10.51.226.235       16537     0     9772     0     0
+en1   1500  link#3      4a.64.dd.8b.1f.5    14143     0     7103     0     0
+en1   1500  10.51.227   10.51.227.88        14143     0     7103     0     0
+en2   1500  link#4      4a.64.dd.8b.1f.6     9892     0    10128     0     0
+en2   1500  10.51.229   10.51.229.235        9892     0    10128     0     0
+lo0   16896 link#1                           2838     0     2838     0     0
+lo0   16896 127         127.0.0.1            2838     0     2838     0     0
+lo0   16896 ::1%1                            2838     0     2838     0     0
+==== EXITED with rc 0 ====
+==== END netstat -in Thu Aug  6 11:22:13 GST 2015 ====

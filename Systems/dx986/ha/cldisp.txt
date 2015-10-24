@@ -1,0 +1,70 @@
+==== This output can be found in Systems/dx986/ha/cldisp.txt ====
+==== START cldisp  Tue Jul  7 00:56:42 GST 2015 ====
+Cluster: DX986_cluster
+   Cluster services: active
+   State of cluster: up
+      Substate: stable
+
+#############
+APPLICATIONS
+#############
+   Cluster DX986_cluster provides the following applications: dbscript 
+      Application: dbscript
+         dbscript is started by /usr/es/sbin/cluster/scripts/dbstart.sh
+         dbscript is stopped by /usr/es/sbin/cluster/scripts/dbstop.sh
+         No application monitors are configured for dbscript.
+         This application is part of resource group 'DX986_RSG'.
+            Resource group policies:
+               Startup: on home node only
+               Fallover: to next priority node in the list
+               Fallback: never
+            State of dbscript: online
+            Nodes configured to provide dbscript: DX986 {up}  DX987 {up}  
+               Node currently providing dbscript: DX986 {up} 
+               The node that will provide dbscript if DX986 fails is: DX987
+            Resources associated with dbscript:
+               Service Labels
+                  DX986-VIP(10.51.226.233) {online}
+                     Interfaces configured to provide DX986-VIP:
+                        DX986 {up}
+                           with IP address: 10.51.226.231
+                           on interface: en0
+                           on node: DX986 {up}
+                           on network: net_ether_01 {up}
+                        DX987 {up}
+                           with IP address: 10.51.226.232
+                           on interface: en0
+                           on node: DX987 {up}
+                           on network: net_ether_01 {up}
+               Shared Volume Groups:
+                  ctrl1vg
+                  data1vg
+                  indx1vg
+                  arch1vg
+                  temp1vg
+                  undo1vg
+                  flash1vg
+                  oravg
+                  redo1vg
+                  bkp1vg
+                  bkp2vg
+                  bctvg
+
+#############
+TOPOLOGY
+#############
+   DX986_cluster consists of the following nodes: DX986 DX987 
+      DX986
+         Network interfaces:
+            DX986 {up}
+               with IP address: 10.51.226.231
+               on interface: en0
+               on network: net_ether_01 {up}
+      DX987
+         Network interfaces:
+            DX987 {up}
+               with IP address: 10.51.226.232
+               on interface: en0
+               on network: net_ether_01 {up}
+==== EXITED with rc 0 ====
+==== END cldisp  Tue Jul  7 00:56:50 GST 2015 ====

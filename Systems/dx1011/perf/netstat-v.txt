@@ -1,0 +1,4001 @@
+==== This output can be found in Systems/dx1011/network/netstat-v.txt ====
+==== START netstat -v  Tue Jul  7 13:38:41 CDT 2015 ====
+Error opening device: /dev/fscsi2
+errno: 00000045
+Error opening device: /dev/fscsi3
+errno: 00000045
+Error opening device: /dev/fscsi0
+errno: 00000045
+Error opening device: /dev/fscsi1
+errno: 00000045
+
+
+FIBRE CHANNEL STATISTICS REPORT: fcs4
+
+Device Type: FC Adapter (adapter/pciex/df1000f11410010)
+Serial Number: 1C40308162
+Option ROM Version: 027820B7
+ZA: U2D2.02X7 
+World Wide Node Name: 0x20000120FA48534E
+World Wide Port Name: 0x10000090FA48534E
+
+FC-4 TYPES:
+  Supported: 0x0000012000000000000000000000000000000000000000000000000000000000
+  Active:    0x0000010000000000000000000000000000000000000000000000000000000000
+
+FC-4 TYPES (ULP mappings):
+  Supported ULPs:   
+    	Internet Protocol (IP) over Fibre Channel (IETF RFC2625) 
+    	Small Computer System Interface (SCSI) Fibre Channel Protocol (FCP)
+  Active ULPs:   
+    	Small Computer System Interface (SCSI) Fibre Channel Protocol (FCP)
+Class of Service: 3
+Port Speed (supported): 8 GBIT
+Port Speed (running):   8 GBIT
+Port FC ID: 0x010E00
+Port Type: Fabric
+Attention Type:   Link Up
+Topology:  Point to Point or Fabric
+
+Seconds Since Last Reset: 7101000         
+
+	Transmit Statistics	Receive Statistics
+	-------------------	------------------
+Frames: 1325278509      	651272232       
+Words:  512821731072    	276805083904    
+
+LIP Count: 0               
+NOS Count: 0               
+Error Frames:  0               
+Dumped Frames: 0               
+Link Failure Count: 0               
+Loss of Sync Count: 0               
+Loss of Signal: 0               
+Primitive Seq Protocol Error Count: 0               
+Invalid Tx Word Count: 41              
+Invalid CRC Count: 0               
+
+IP over FC Adapter Driver Information
+  No DMA Resource Count: 0               
+  No Adapter Elements Count: 0               
+
+IP over FC Traffic Statistics
+  Input Requests:   0               
+  Output Requests:  0               
+  Control Requests: 0               
+  Input Bytes:  0               
+  Output Bytes: 0               
+
+Adapter Effective max transfer value:   0x200000
+
+FIBRE CHANNEL STATISTICS REPORT: fcs5
+
+Device Type: FC Adapter (adapter/pciex/df1000f11410010)
+Serial Number: 1C40308162
+Option ROM Version: 027820B7
+ZA: U2D2.02X7 
+World Wide Node Name: 0x20000120FA48534F
+World Wide Port Name: 0x10000090FA48534F
+
+FC-4 TYPES:
+  Supported: 0x0000012000000000000000000000000000000000000000000000000000000000
+  Active:    0x0000010000000000000000000000000000000000000000000000000000000000
+
+FC-4 TYPES (ULP mappings):
+  Supported ULPs:   
+    	Internet Protocol (IP) over Fibre Channel (IETF RFC2625) 
+    	Small Computer System Interface (SCSI) Fibre Channel Protocol (FCP)
+  Active ULPs:   
+    	Small Computer System Interface (SCSI) Fibre Channel Protocol (FCP)
+Class of Service: 3
+Port Speed (supported): 8 GBIT
+Port Speed (running):   8 GBIT
+Port FC ID: 0x010D00
+Port Type: Fabric
+Attention Type:   Link Up
+Topology:  Point to Point or Fabric
+
+Seconds Since Last Reset: 7101000         
+
+	Transmit Statistics	Receive Statistics
+	-------------------	------------------
+Frames: 1318156206      	637364236       
+Words:  512552673280    	276625102336    
+
+LIP Count: 0               
+NOS Count: 0               
+Error Frames:  0               
+Dumped Frames: 0               
+Link Failure Count: 0               
+Loss of Sync Count: 0               
+Loss of Signal: 0               
+Primitive Seq Protocol Error Count: 0               
+Invalid Tx Word Count: 27              
+Invalid CRC Count: 0               
+
+IP over FC Adapter Driver Information
+  No DMA Resource Count: 0               
+  No Adapter Elements Count: 0               
+
+IP over FC Traffic Statistics
+  Input Requests:   0               
+  Output Requests:  0               
+  Control Requests: 0               
+  Input Bytes:  0               
+  Output Bytes: 0               
+
+Adapter Effective max transfer value:   0x200000
+
+FIBRE CHANNEL STATISTICS REPORT: fcs6
+
+Device Type: FC Adapter (adapter/pciex/df1000f11410010)
+Serial Number: 1C40308162
+Option ROM Version: 027820B7
+ZA: U2D2.02X7 
+World Wide Node Name: 0x20000120FA485350
+World Wide Port Name: 0x10000090FA485350
+
+FC-4 TYPES:
+  Supported: 0x0000012000000000000000000000000000000000000000000000000000000000
+  Active:    0x0000010000000000000000000000000000000000000000000000000000000000
+
+FC-4 TYPES (ULP mappings):
+  Supported ULPs:   
+    	Internet Protocol (IP) over Fibre Channel (IETF RFC2625) 
+    	Small Computer System Interface (SCSI) Fibre Channel Protocol (FCP)
+  Active ULPs:   
+    	Small Computer System Interface (SCSI) Fibre Channel Protocol (FCP)
+Class of Service: 3
+Port Speed (supported): 8 GBIT
+Port Speed (running):   8 GBIT
+Port FC ID: 0x022200
+Port Type: Fabric
+Attention Type:   Link Up
+Topology:  Point to Point or Fabric
+
+Seconds Since Last Reset: 7101000         
+
+	Transmit Statistics	Receive Statistics
+	-------------------	------------------
+Frames: 1090977463      	219778040       
+Words:  545993170688    	73470744576     
+
+LIP Count: 0               
+NOS Count: 0               
+Error Frames:  0               
+Dumped Frames: 0               
+Link Failure Count: 0               
+Loss of Sync Count: 0               
+Loss of Signal: 0               
+Primitive Seq Protocol Error Count: 0               
+Invalid Tx Word Count: 30              
+Invalid CRC Count: 0               
+
+IP over FC Adapter Driver Information
+  No DMA Resource Count: 0               
+  No Adapter Elements Count: 0               
+
+IP over FC Traffic Statistics
+  Input Requests:   0               
+  Output Requests:  0               
+  Control Requests: 0               
+  Input Bytes:  0               
+  Output Bytes: 0               
+
+Adapter Effective max transfer value:   0x200000
+
+FIBRE CHANNEL STATISTICS REPORT: fcs7
+
+Device Type: FC Adapter (adapter/pciex/df1000f11410010)
+Serial Number: 1C40308162
+Option ROM Version: 027820B7
+ZA: U2D2.02X7 
+World Wide Node Name: 0x20000120FA485351
+World Wide Port Name: 0x10000090FA485351
+
+FC-4 TYPES:
+  Supported: 0x0000012000000000000000000000000000000000000000000000000000000000
+  Active:    0x0000010000000000000000000000000000000000000000000000000000000000
+
+FC-4 TYPES (ULP mappings):
+  Supported ULPs:   
+    	Internet Protocol (IP) over Fibre Channel (IETF RFC2625) 
+    	Small Computer System Interface (SCSI) Fibre Channel Protocol (FCP)
+  Active ULPs:   
+    	Small Computer System Interface (SCSI) Fibre Channel Protocol (FCP)
+Class of Service: 3
+Port Speed (supported): 8 GBIT
+Port Speed (running):   8 GBIT
+Port FC ID: 0x022200
+Port Type: Fabric
+Attention Type:   Link Up
+Topology:  Point to Point or Fabric
+
+Seconds Since Last Reset: 7101000         
+
+	Transmit Statistics	Receive Statistics
+	-------------------	------------------
+Frames: 1135414240      	226236482       
+Words:  568518737152    	75684488704     
+
+LIP Count: 0               
+NOS Count: 0               
+Error Frames:  0               
+Dumped Frames: 0               
+Link Failure Count: 0               
+Loss of Sync Count: 0               
+Loss of Signal: 0               
+Primitive Seq Protocol Error Count: 0               
+Invalid Tx Word Count: 36              
+Invalid CRC Count: 0               
+
+IP over FC Adapter Driver Information
+  No DMA Resource Count: 0               
+  No Adapter Elements Count: 0               
+
+IP over FC Traffic Statistics
+  Input Requests:   0               
+  Output Requests:  0               
+  Control Requests: 0               
+  Input Bytes:  0               
+  Output Bytes: 0               
+
+Adapter Effective max transfer value:   0x200000
+
+FIBRE CHANNEL STATISTICS REPORT: fcs12
+
+Device Type: FC Adapter (adapter/pciex/df1000f11410010)
+Serial Number: 1A4460002E
+Option ROM Version: 027820B7
+ZA: U2D2.02X7 
+World Wide Node Name: 0x20000120FA80CF5C
+World Wide Port Name: 0x10000090FA80CF5C
+
+FC-4 TYPES:
+  Supported: 0x0000012000000000000000000000000000000000000000000000000000000000
+  Active:    0x0000010000000000000000000000000000000000000000000000000000000000
+
+FC-4 TYPES (ULP mappings):
+  Supported ULPs:   
+    	Internet Protocol (IP) over Fibre Channel (IETF RFC2625) 
+    	Small Computer System Interface (SCSI) Fibre Channel Protocol (FCP)
+  Active ULPs:   
+    	Small Computer System Interface (SCSI) Fibre Channel Protocol (FCP)
+Class of Service: 3
+Port Speed (supported): 8 GBIT
+Port Speed (running):   8 GBIT
+Port FC ID: 0x022300
+Port Type: Fabric
+Attention Type:   Link Up
+Topology:  Point to Point or Fabric
+
+Seconds Since Last Reset: 7101000         
+
+	Transmit Statistics	Receive Statistics
+	-------------------	------------------
+Frames: 1090361342      	222375323       
+Words:  545744320000    	74964542464     
+
+LIP Count: 0               
+NOS Count: 0               
+Error Frames:  0               
+Dumped Frames: 0               
+Link Failure Count: 0               
+Loss of Sync Count: 0               
+Loss of Signal: 0               
+Primitive Seq Protocol Error Count: 0               
+Invalid Tx Word Count: 29              
+Invalid CRC Count: 0               
+
+IP over FC Adapter Driver Information
+  No DMA Resource Count: 0               
+  No Adapter Elements Count: 0               
+
+IP over FC Traffic Statistics
+  Input Requests:   0               
+  Output Requests:  0               
+  Control Requests: 0               
+  Input Bytes:  0               
+  Output Bytes: 0               
+
+Adapter Effective max transfer value:   0x200000
+
+FIBRE CHANNEL STATISTICS REPORT: fcs13
+
+Device Type: FC Adapter (adapter/pciex/df1000f11410010)
+Serial Number: 1A4460002E
+Option ROM Version: 027820B7
+ZA: U2D2.02X7 
+World Wide Node Name: 0x20000120FA80CF5D
+World Wide Port Name: 0x10000090FA80CF5D
+
+FC-4 TYPES:
+  Supported: 0x0000012000000000000000000000000000000000000000000000000000000000
+  Active:    0x0000010000000000000000000000000000000000000000000000000000000000
+
+FC-4 TYPES (ULP mappings):
+  Supported ULPs:   
+    	Internet Protocol (IP) over Fibre Channel (IETF RFC2625) 
+    	Small Computer System Interface (SCSI) Fibre Channel Protocol (FCP)
+  Active ULPs:   
+    	Small Computer System Interface (SCSI) Fibre Channel Protocol (FCP)
+Class of Service: 3
+Port Speed (supported): 8 GBIT
+Port Speed (running):   8 GBIT
+Port FC ID: 0x022300
+Port Type: Fabric
+Attention Type:   Link Up
+Topology:  Point to Point or Fabric
+
+Seconds Since Last Reset: 7101000         
+
+	Transmit Statistics	Receive Statistics
+	-------------------	------------------
+Frames: 1135729119      	226141995       
+Words:  568678062592    	75625900288     
+
+LIP Count: 0               
+NOS Count: 0               
+Error Frames:  0               
+Dumped Frames: 0               
+Link Failure Count: 0               
+Loss of Sync Count: 0               
+Loss of Signal: 0               
+Primitive Seq Protocol Error Count: 0               
+Invalid Tx Word Count: 33              
+Invalid CRC Count: 0               
+
+IP over FC Adapter Driver Information
+  No DMA Resource Count: 0               
+  No Adapter Elements Count: 0               
+
+IP over FC Traffic Statistics
+  Input Requests:   0               
+  Output Requests:  0               
+  Control Requests: 0               
+  Input Bytes:  0               
+  Output Bytes: 0               
+
+Adapter Effective max transfer value:   0x200000
+
+FIBRE CHANNEL STATISTICS REPORT: fcs14
+
+Device Type: FC Adapter (adapter/pciex/df1000f11410010)
+Serial Number: 1A4460002E
+Option ROM Version: 027820B7
+ZA: U2D2.02X7 
+World Wide Node Name: 0x20000120FA80CF5E
+World Wide Port Name: 0x10000090FA80CF5E
+
+FC-4 TYPES:
+  Supported: 0x0000012000000000000000000000000000000000000000000000000000000000
+  Active:    0x0000010000000000000000000000000000000000000000000000000000000000
+
+FC-4 TYPES (ULP mappings):
+  Supported ULPs:   
+    	Internet Protocol (IP) over Fibre Channel (IETF RFC2625) 
+    	Small Computer System Interface (SCSI) Fibre Channel Protocol (FCP)
+  Active ULPs:   
+    	Small Computer System Interface (SCSI) Fibre Channel Protocol (FCP)
+Class of Service: 3
+Port Speed (supported): 8 GBIT
+Port Speed (running):   8 GBIT
+Port FC ID: 0x02FF80
+Port Type: Fabric
+Attention Type:   Link Up
+Topology:  Point to Point or Fabric
+
+Seconds Since Last Reset: 7101000         
+
+	Transmit Statistics	Receive Statistics
+	-------------------	------------------
+Frames: 539755238       	4175477099      
+Words:  451485198336    	870237609472    
+
+LIP Count: 0               
+NOS Count: 0               
+Error Frames:  0               
+Dumped Frames: 0               
+Link Failure Count: 0               
+Loss of Sync Count: 0               
+Loss of Signal: 0               
+Primitive Seq Protocol Error Count: 0               
+Invalid Tx Word Count: 38              
+Invalid CRC Count: 0               
+
+IP over FC Adapter Driver Information
+  No DMA Resource Count: 0               
+  No Adapter Elements Count: 1159            
+
+IP over FC Traffic Statistics
+  Input Requests:   0               
+  Output Requests:  0               
+  Control Requests: 0               
+  Input Bytes:  0               
+  Output Bytes: 0               
+
+Adapter Effective max transfer value:   0x200000
+
+FIBRE CHANNEL STATISTICS REPORT: fcs15
+
+Device Type: FC Adapter (adapter/pciex/df1000f11410010)
+Serial Number: 1A4460002E
+Option ROM Version: 027820B7
+ZA: U2D2.02X7 
+World Wide Node Name: 0x20000120FA80CF5F
+World Wide Port Name: 0x10000090FA80CF5F
+
+FC-4 TYPES:
+  Supported: 0x0000012000000000000000000000000000000000000000000000000000000000
+  Active:    0x0000010000000000000000000000000000000000000000000000000000000000
+
+FC-4 TYPES (ULP mappings):
+  Supported ULPs:   
+    	Internet Protocol (IP) over Fibre Channel (IETF RFC2625) 
+    	Small Computer System Interface (SCSI) Fibre Channel Protocol (FCP)
+  Active ULPs:   
+    	Small Computer System Interface (SCSI) Fibre Channel Protocol (FCP)
+Class of Service: 3
+Port Speed (supported): 8 GBIT
+Port Speed (running):   8 GBIT
+Port FC ID: 0x02FF80
+Port Type: Fabric
+Attention Type:   Link Up
+Topology:  Point to Point or Fabric
+
+Seconds Since Last Reset: 7101000         
+
+	Transmit Statistics	Receive Statistics
+	-------------------	------------------
+Frames: 1594809141      	624094727       
+Words:  518826876160    	133551996416    
+
+LIP Count: 0               
+NOS Count: 0               
+Error Frames:  0               
+Dumped Frames: 0               
+Link Failure Count: 0               
+Loss of Sync Count: 0               
+Loss of Signal: 0               
+Primitive Seq Protocol Error Count: 0               
+Invalid Tx Word Count: 33              
+Invalid CRC Count: 0               
+
+IP over FC Adapter Driver Information
+  No DMA Resource Count: 0               
+  No Adapter Elements Count: 41012           
+
+IP over FC Traffic Statistics
+  Input Requests:   0               
+  Output Requests:  0               
+  Control Requests: 0               
+  Input Bytes:  0               
+  Output Bytes: 0               
+
+Adapter Effective max transfer value:   0x200000
+
+FIBRE CHANNEL STATISTICS REPORT: fcs8
+
+Device Type: FC Adapter (adapter/pciex/df1000f11410010)
+Serial Number: 1C403081A1
+Option ROM Version: 027820B7
+ZA: U2D2.02X7 
+World Wide Node Name: 0x20000120FA4855AA
+World Wide Port Name: 0x10000090FA4855AA
+
+FC-4 TYPES:
+  Supported: 0x0000012000000000000000000000000000000000000000000000000000000000
+  Active:    0x0000010000000000000000000000000000000000000000000000000000000000
+
+FC-4 TYPES (ULP mappings):
+  Supported ULPs:   
+    	Internet Protocol (IP) over Fibre Channel (IETF RFC2625) 
+    	Small Computer System Interface (SCSI) Fibre Channel Protocol (FCP)
+  Active ULPs:   
+    	Small Computer System Interface (SCSI) Fibre Channel Protocol (FCP)
+Class of Service: 3
+Port Speed (supported): 8 GBIT
+Port Speed (running):   8 GBIT
+Port FC ID: 0x011700
+Port Type: Fabric
+Attention Type:   Link Up
+Topology:  Point to Point or Fabric
+
+Seconds Since Last Reset: 7101000         
+
+	Transmit Statistics	Receive Statistics
+	-------------------	------------------
+Frames: 1319596271      	637365535       
+Words:  513721116928    	277341912064    
+
+LIP Count: 0               
+NOS Count: 0               
+Error Frames:  0               
+Dumped Frames: 0               
+Link Failure Count: 0               
+Loss of Sync Count: 0               
+Loss of Signal: 0               
+Primitive Seq Protocol Error Count: 0               
+Invalid Tx Word Count: 35              
+Invalid CRC Count: 0               
+
+IP over FC Adapter Driver Information
+  No DMA Resource Count: 0               
+  No Adapter Elements Count: 0               
+
+IP over FC Traffic Statistics
+  Input Requests:   0               
+  Output Requests:  0               
+  Control Requests: 0               
+  Input Bytes:  0               
+  Output Bytes: 0               
+
+Adapter Effective max transfer value:   0x200000
+
+FIBRE CHANNEL STATISTICS REPORT: fcs9
+
+Device Type: FC Adapter (adapter/pciex/df1000f11410010)
+Serial Number: 1C403081A1
+Option ROM Version: 027820B7
+ZA: U2D2.02X7 
+World Wide Node Name: 0x20000120FA4855AB
+World Wide Port Name: 0x10000090FA4855AB
+
+FC-4 TYPES:
+  Supported: 0x0000012000000000000000000000000000000000000000000000000000000000
+  Active:    0x0000010000000000000000000000000000000000000000000000000000000000
+
+FC-4 TYPES (ULP mappings):
+  Supported ULPs:   
+    	Internet Protocol (IP) over Fibre Channel (IETF RFC2625) 
+    	Small Computer System Interface (SCSI) Fibre Channel Protocol (FCP)
+  Active ULPs:   
+    	Small Computer System Interface (SCSI) Fibre Channel Protocol (FCP)
+Class of Service: 3
+Port Speed (supported): 8 GBIT
+Port Speed (running):   8 GBIT
+Port FC ID: 0x010F00
+Port Type: Fabric
+Attention Type:   Link Up
+Topology:  Point to Point or Fabric
+
+Seconds Since Last Reset: 7101000         
+
+	Transmit Statistics	Receive Statistics
+	-------------------	------------------
+Frames: 1320212806      	639125387       
+Words:  513630364928    	277556188928    
+
+LIP Count: 0               
+NOS Count: 0               
+Error Frames:  0               
+Dumped Frames: 0               
+Link Failure Count: 0               
+Loss of Sync Count: 0               
+Loss of Signal: 0               
+Primitive Seq Protocol Error Count: 0               
+Invalid Tx Word Count: 30              
+Invalid CRC Count: 0               
+
+IP over FC Adapter Driver Information
+  No DMA Resource Count: 0               
+  No Adapter Elements Count: 0               
+
+IP over FC Traffic Statistics
+  Input Requests:   0               
+  Output Requests:  0               
+  Control Requests: 0               
+  Input Bytes:  0               
+  Output Bytes: 0               
+
+Adapter Effective max transfer value:   0x200000
+
+FIBRE CHANNEL STATISTICS REPORT: fcs10
+
+Device Type: FC Adapter (adapter/pciex/df1000f11410010)
+Serial Number: 1C403081A1
+Option ROM Version: 027820B7
+ZA: U2D2.02X7 
+World Wide Node Name: 0x20000120FA4855AC
+World Wide Port Name: 0x10000090FA4855AC
+
+FC-4 TYPES:
+  Supported: 0x0000012000000000000000000000000000000000000000000000000000000000
+  Active:    0x0000010000000000000000000000000000000000000000000000000000000000
+
+FC-4 TYPES (ULP mappings):
+  Supported ULPs:   
+    	Internet Protocol (IP) over Fibre Channel (IETF RFC2625) 
+    	Small Computer System Interface (SCSI) Fibre Channel Protocol (FCP)
+  Active ULPs:   
+    	Small Computer System Interface (SCSI) Fibre Channel Protocol (FCP)
+Class of Service: 3
+Port Speed (supported): 8 GBIT
+Port Speed (running):   8 GBIT
+Port FC ID: 0x02FE80
+Port Type: Fabric
+Attention Type:   Link Up
+Topology:  Point to Point or Fabric
+
+Seconds Since Last Reset: 7101000         
+
+	Transmit Statistics	Receive Statistics
+	-------------------	------------------
+Frames: 3788039354      	2877755930      
+Words:  557822843136    	239622361600    
+
+LIP Count: 0               
+NOS Count: 0               
+Error Frames:  0               
+Dumped Frames: 0               
+Link Failure Count: 0               
+Loss of Sync Count: 0               
+Loss of Signal: 0               
+Primitive Seq Protocol Error Count: 0               
+Invalid Tx Word Count: 30              
+Invalid CRC Count: 0               
+
+IP over FC Adapter Driver Information
+  No DMA Resource Count: 0               
+  No Adapter Elements Count: 32941           
+
+IP over FC Traffic Statistics
+  Input Requests:   0               
+  Output Requests:  0               
+  Control Requests: 0               
+  Input Bytes:  0               
+  Output Bytes: 0               
+
+Adapter Effective max transfer value:   0x200000
+
+FIBRE CHANNEL STATISTICS REPORT: fcs11
+
+Device Type: FC Adapter (adapter/pciex/df1000f11410010)
+Serial Number: 1C403081A1
+Option ROM Version: 027820B7
+ZA: U2D2.02X7 
+World Wide Node Name: 0x20000120FA4855AD
+World Wide Port Name: 0x10000090FA4855AD
+
+FC-4 TYPES:
+  Supported: 0x0000012000000000000000000000000000000000000000000000000000000000
+  Active:    0x0000010000000000000000000000000000000000000000000000000000000000
+
+FC-4 TYPES (ULP mappings):
+  Supported ULPs:   
+    	Internet Protocol (IP) over Fibre Channel (IETF RFC2625) 
+    	Small Computer System Interface (SCSI) Fibre Channel Protocol (FCP)
+  Active ULPs:   
+    	Small Computer System Interface (SCSI) Fibre Channel Protocol (FCP)
+Class of Service: 3
+Port Speed (supported): 8 GBIT
+Port Speed (running):   8 GBIT
+Port FC ID: 0x02FE80
+Port Type: Fabric
+Attention Type:   Link Up
+Topology:  Point to Point or Fabric
+
+Seconds Since Last Reset: 7101000         
+
+	Transmit Statistics	Receive Statistics
+	-------------------	------------------
+Frames: 701292367       	639061731       
+Words:  528579770112    	153772570368    
+
+LIP Count: 0               
+NOS Count: 0               
+Error Frames:  0               
+Dumped Frames: 0               
+Link Failure Count: 0               
+Loss of Sync Count: 0               
+Loss of Signal: 0               
+Primitive Seq Protocol Error Count: 0               
+Invalid Tx Word Count: 27              
+Invalid CRC Count: 0               
+
+IP over FC Adapter Driver Information
+  No DMA Resource Count: 0               
+  No Adapter Elements Count: 1553            
+
+IP over FC Traffic Statistics
+  Input Requests:   0               
+  Output Requests:  0               
+  Control Requests: 0               
+  Input Bytes:  0               
+  Output Bytes: 0               
+
+Adapter Effective max transfer value:   0x200000
+
+-------------------------------------------------------------
+ETHERNET STATISTICS (ent14) :
+Device Type: Virtual I/O Ethernet Adapter (l-lan)
+Hardware Address: 6e:99:9a:31:06:0a
+Elapsed Time: 82 days 4 hours 30 minutes 26 seconds
+
+Transmit Statistics:                          Receive Statistics:
+--------------------                          -------------------
+Packets: 70954979                             Packets: 294401076
+Bytes: 13416021285                            Bytes: 418042439554
+Interrupts: 0                                 Interrupts: 42817577
+Transmit Errors: 0                            Receive Errors: 0
+Packets Dropped: 0                            Packets Dropped: 0
+                                              Bad Packets: 0
+Max Packets on S/W Transmit Queue: 0         
+S/W Transmit Queue Overflow: 0
+Current S/W+H/W Transmit Queue Length: 0
+
+Broadcast Packets: 38486                      Broadcast Packets: 3746429
+Multicast Packets: 31569                      Multicast Packets: 31614
+No Carrier Sense: 0                           CRC Errors: 0
+DMA Underrun: 0                               DMA Overrun: 0
+Lost CTS Errors: 0                            Alignment Errors: 0
+Max Collision Errors: 0                       No Resource Errors: 0
+Late Collision Errors: 0                      Receive Collision Errors: 0
+Deferred: 0                                   Packet Too Short Errors: 0
+SQE Test: 0                                   Packet Too Long Errors: 0
+Timeout Errors: 0                             Packets Discarded by Adapter: 0
+Single Collision Count: 0                     Receiver Start Count: 0
+Multiple Collision Count: 0
+Current HW Transmit Queue Length: 0
+
+General Statistics:
+-------------------
+No mbuf Errors: 0
+Adapter Reset Count: 0
+Adapter Data Rate: 20000
+Driver Flags: Up Broadcast Running 
+	Simplex 64BitSupport ChecksumOffload 
+	DataRateSet VIOENT 
+
+Virtual I/O Ethernet Adapter (l-lan) Specific Statistics:
+---------------------------------------------------------
+RQ Length: 9505
+Trunk Adapter: False
+Filter MCast Mode: False
+Filters: 255
+  Enabled: 2  Queued: 0  Overflow: 0
+LAN State: Operational
+
+Hypervisor Send Failures: 0
+  Receiver Failures: 0
+  Send Errors: 0
+Hypervisor Receive Failures: 0
+
+Invalid VLAN ID Packets: 0
+
+ILLAN Attributes: 0000000000003002 [0000000000002000]
+
+Port VLAN ID:   229
+VLAN Tag IDs:  None
+
+
+Switch ID: ETHERNET0
+
+Hypervisor Information  
+  Virtual Memory        
+    Total (KB)                157
+  I/O Memory            
+    VRM Minimum (KB)          180
+    VRM Desired (KB)          180
+    DMA Max Min (KB)          256
+
+Transmit Information    
+  Transmit Buffers       
+    Buffer Size             65536
+    Buffers                    32
+    History             
+      No Buffers                0
+  Virtual Memory        
+    Total (KB)               2048
+  I/O Memory            
+    VRM Minimum (KB)         2176
+    VRM Desired (KB)        16384
+    DMA Max Min (KB)        16384
+
+Receive Information     
+  Receive Buffers        
+    Buffer Type              Tiny    Small   Medium    Large     Huge
+    Min Buffers              4096     4096     1024      128       96
+    Max Buffers              4096     4096     1024      128       96
+    Allocated                4096     4096     1024      128       96
+    Registered               4096     4096     1024      128       96
+    History             
+      Max Allocated          4096     4096     1024      128       96
+      Lowest Registered      4095     3694     1024      128       96
+  Virtual Memory        
+    Minimum (KB)             2048     8192    16384     4096 6144
+    Maximum (KB)             2048     8192    16384     4096     6144
+  I/O Memory            
+    VRM Minimum (KB)        32768    32768    20480     4608     6528
+    VRM Desired (KB)        32768    32768    20480     4608     6528
+    DMA Max Min (KB)        32768    32768    32768     8192     8192
+
+I/O Memory Information  
+  Total VRM Minimum (KB)    99508
+  Total VRM Desired (KB)   113716
+  Total DMA Max Min (KB)   131328
+-------------------------------------------------------------
+ETHERNET STATISTICS (ent13) :
+Device Type: Virtual I/O Ethernet Adapter (l-lan)
+Hardware Address: 6e:99:9a:31:06:09
+Elapsed Time: 0 days 0 hours 0 minutes 0 seconds
+
+Transmit Statistics:                          Receive Statistics:
+--------------------                          -------------------
+Packets: 0                                    Packets: 1
+Bytes: 0                                      Bytes: 60
+Interrupts: 0                                 Interrupts: 1
+Transmit Errors: 0                            Receive Errors: 0
+Packets Dropped: 0                            Packets Dropped: 0
+                                              Bad Packets: 0
+Max Packets on S/W Transmit Queue: 0         
+S/W Transmit Queue Overflow: 0
+Current S/W+H/W Transmit Queue Length: 0
+
+Broadcast Packets: 0                          Broadcast Packets: 1
+Multicast Packets: 0                          Multicast Packets: 0
+No Carrier Sense: 0                           CRC Errors: 0
+DMA Underrun: 0                               DMA Overrun: 0
+Lost CTS Errors: 0                            Alignment Errors: 0
+Max Collision Errors: 0                       No Resource Errors: 0
+Late Collision Errors: 0                      Receive Collision Errors: 0
+Deferred: 0                                   Packet Too Short Errors: 0
+SQE Test: 0                                   Packet Too Long Errors: 0
+Timeout Errors: 0                             Packets Discarded by Adapter: 0
+Single Collision Count: 0                     Receiver Start Count: 0
+Multiple Collision Count: 0
+Current HW Transmit Queue Length: 0
+
+General Statistics:
+-------------------
+No mbuf Errors: 0
+Adapter Reset Count: 0
+Adapter Data Rate: 20000
+Driver Flags: Up Broadcast Running 
+	Simplex 64BitSupport ChecksumOffload 
+	DataRateSet VIOENT 
+
+Virtual I/O Ethernet Adapter (l-lan) Specific Statistics:
+---------------------------------------------------------
+RQ Length: 9505
+Trunk Adapter: False
+Filter MCast Mode: False
+Filters: 255
+  Enabled: 0  Queued: 0  Overflow: 0
+LAN State: Operational
+
+Hypervisor Send Failures: 0
+  Receiver Failures: 0
+  Send Errors: 0
+Hypervisor Receive Failures: 0
+
+Invalid VLAN ID Packets: 0
+
+ILLAN Attributes: 0000000000003002 [0000000000003002]
+
+Port VLAN ID:   227
+VLAN Tag IDs:  None
+
+
+Switch ID: ETHERNET0
+
+Hypervisor Information  
+  Virtual Memory        
+    Total (KB)                157
+  I/O Memory            
+    VRM Minimum (KB)          180
+    VRM Desired (KB)          180
+    DMA Max Min (KB)          256
+
+Transmit Information    
+  Transmit Buffers       
+    Buffer Size             65536
+    Buffers                    32
+    History             
+      No Buffers                0
+  Virtual Memory        
+    Total (KB)               2048
+  I/O Memory            
+    VRM Minimum (KB)         2176
+    VRM Desired (KB)        16384
+    DMA Max Min (KB)        16384
+
+Receive Information     
+  Receive Buffers        
+    Buffer Type              Tiny    Small   Medium    Large     Huge
+    Min Buffers              4096     4096     1024      128       96
+    Max Buffers              4096     4096     1024      128       96
+    Allocated                4096     4096     1024      128       96
+    Registered               4096     4096     1024      128       96
+    History             
+      Max Allocated          4096     4096     1024      128       96
+      Lowest Registered      4096     4096     1024      128       96
+  Virtual Memory        
+    Minimum (KB)             2048     8192    16384     4096 6144
+    Maximum (KB)             2048     8192    16384     4096     6144
+  I/O Memory            
+    VRM Minimum (KB)        32768    32768    20480     4608     6528
+    VRM Desired (KB)        32768    32768    20480     4608     6528
+    DMA Max Min (KB)        32768    32768    32768     8192     8192
+
+I/O Memory Information  
+  Total VRM Minimum (KB)    99508
+  Total VRM Desired (KB)   113716
+  Total DMA Max Min (KB)   131328
+-------------------------------------------------------------
+ETHERNET STATISTICS (ent15) :
+Device Type: Virtual I/O Ethernet Adapter (l-lan)
+Hardware Address: 6e:99:9a:31:06:0c
+Elapsed Time: 0 days 0 hours 0 minutes 2 seconds
+
+Transmit Statistics:                          Receive Statistics:
+--------------------                          -------------------
+Packets: 0                                    Packets: 1
+Bytes: 0                                      Bytes: 64
+Interrupts: 0                                 Interrupts: 1
+Transmit Errors: 0                            Receive Errors: 0
+Packets Dropped: 0                            Packets Dropped: 0
+                                              Bad Packets: 0
+Max Packets on S/W Transmit Queue: 0         
+S/W Transmit Queue Overflow: 0
+Current S/W+H/W Transmit Queue Length: 0
+
+Elapsed Time: 0 days 0 hours 0 minutes 0 seconds
+Broadcast Packets: 0                          Broadcast Packets: 0
+Multicast Packets: 0                          Multicast Packets: 1
+No Carrier Sense: 0                           CRC Errors: 0
+DMA Underrun: 0                               DMA Overrun: 0
+Lost CTS Errors: 0                            Alignment Errors: 0
+Max Collision Errors: 0                       No Resource Errors: 0
+Late Collision Errors: 0                      Receive Collision Errors: 0
+Deferred: 0                                   Packet Too Short Errors: 0
+SQE Test: 0                                   Packet Too Long Errors: 0
+Timeout Errors: 0                             Packets Discarded by Adapter: 0
+Single Collision Count: 0                     Receiver Start Count: 0
+Multiple Collision Count: 0
+Current HW Transmit Queue Length: 0
+
+General Statistics:
+-------------------
+No mbuf Errors: 0
+Adapter Reset Count: 0
+Adapter Data Rate: 20000
+Driver Flags: Up Broadcast Running 
+	Simplex 64BitSupport ChecksumOffload 
+	DataRateSet VIOENT 
+
+Virtual I/O Ethernet Adapter (l-lan) Specific Statistics:
+---------------------------------------------------------
+RQ Length: 9505
+Trunk Adapter: False
+Filter MCast Mode: False
+Filters: 255
+  Enabled: 0  Queued: 0  Overflow: 0
+LAN State: Operational
+
+Hypervisor Send Failures: 0
+  Receiver Failures: 0
+  Send Errors: 0
+Hypervisor Receive Failures: 0
+
+Invalid VLAN ID Packets: 0
+
+ILLAN Attributes: 0000000000003002 [0000000000003002]
+
+Port VLAN ID:   302
+VLAN Tag IDs:  None
+
+
+Switch ID: ETHERNET0
+
+Hypervisor Information  
+  Virtual Memory        
+    Total (KB)                157
+  I/O Memory            
+    VRM Minimum (KB)          180
+    VRM Desired (KB)          180
+    DMA Max Min (KB)          256
+
+Transmit Information    
+  Transmit Buffers       
+    Buffer Size             65536
+    Buffers                    32
+    History             
+      No Buffers                0
+  Virtual Memory        
+    Total (KB)               2048
+  I/O Memory            
+    VRM Minimum (KB)         2176
+    VRM Desired (KB)        16384
+    DMA Max Min (KB)        16384
+
+Receive Information     
+  Receive Buffers        
+    Buffer Type              Tiny    Small   Medium    Large     Huge
+    Min Buffers              4096     4096     1024      128       96
+    Max Buffers              4096     4096     1024      128       96
+    Allocated                4096     4096     1024      128       96
+    Registered               4096     4096     1024      128       96
+    History             
+      Max Allocated          4096     4096     1024      128       96
+      Lowest Registered      4095     4096     1024      128       96
+  Virtual Memory        
+    Minimum (KB)             2048     8192    16384     4096 6144
+    Maximum (KB)             2048     8192    16384     4096     6144
+  I/O Memory            
+    VRM Minimum (KB)        32768    32768    20480     4608     6528
+    VRM Desired (KB)        32768    32768    20480     4608     6528
+    DMA Max Min (KB)        32768    32768    32768     8192     8192
+
+I/O Memory Information  
+  Total VRM Minimum (KB)    99508
+  Total VRM Desired (KB)   113716
+  Total DMA Max Min (KB)   131328
+-------------------------------------------------------------
+VASI STATISTICS (vasi0) :
+Elapsed Time: 82 days 4 hours 30 minutes 59 seconds
+
+Transmit to PHYP Statistics:         Receive from PHYP Statistics:
+----------------------------         -----------------------------
+Packets: 61775058                    Packets: 259858
+Bytes: 397460525620                  Bytes: 37419552
+No Buffers: 11596                    No Buffers: 0
+Transmit Errors: 0                   Receive Errors: 0
+Bad Packets: 0                       Bad Packets: 0
+Output Calls: 61786654               Interrupts: 56340388
+				     Maximum Buffers Per Interrupt: 76
+				     Average Buffers Per Interrupt: 0
+				     System Buffers: 0
+
+Interrupt Processing Exceeded: 0
+Offlevel Interrupt Scheduled: 0
+
+Average Time Spent in CRQ Send: 13 microseconds
+Maximum Time Spent in CRQ Send: 50490 microseconds
+Minimum Time Spent in CRQ Send: 0 microseconds
+
+Driver Flags: Up Running 64 Bit Support 
+
+Maximum Operations: 8
+Maximum Receive Pools: 3
+Active Operations: 0
+
+DMA Channel: 1001000000000044
+Bus ID: 90000340
+
+Local DMA Window:
+	Logical I/O Bus Number: 10010000
+	TCE Base: 0000000000000000
+	TCE Size: 0000000010000000
+
+Remote DMA Window:
+	Logical I/O Bus Number: 00000000
+	TCE Base: 0000000000000000
+	TCE Size: 0000000000000000
+
+Supported Operation Types: Migration 
+
+num of operations: 0
+-------------------------------------------------------------
+ETHERNET STATISTICS (ent2) :
+Device Type: 100/1000 Base-TX PCIe2 Converged Network Adapter (df1020e214103c04)
+Hardware Address: 00:90:fa:53:05:92
+Elapsed Time: 0 days 0 hours 0 minutes 1 seconds
+
+Transmit Statistics:                          Receive Statistics:
+--------------------                          -------------------
+Packets: 0                                    Packets: 0
+Bytes: 0                                      Bytes: 0
+Interrupts: 0                                 Interrupts: 0
+Transmit Errors: 0                            Receive Errors: 0
+Packets Dropped: 0                            Packets Dropped: 0
+                                              Bad Packets: 0
+Max Packets on S/W Transmit Queue: 0         
+S/W Transmit Queue Overflow: 0
+Current S/W+H/W Transmit Queue Length: 0
+
+Broadcast Packets: 0                          Broadcast Packets: 0
+Multicast Packets: 0                          Multicast Packets: 0
+No Carrier Sense: 0                           CRC Errors: 0
+DMA Underrun: 0                               DMA Overrun: 0
+Lost CTS Errors: 0                            Alignment Errors: 0
+Max Collision Errors: 0                       No Resource Errors: 0
+Late Collision Errors: 0                      Receive Collision Errors: 0
+Deferred: 0                                   Packet Too Short Errors: 0
+SQE Test: 0                                   Packet Too Long Errors: 0
+Timeout Errors: 0                             Packets Discarded by Adapter: 0
+Single Collision Count: 0                     Receiver Start Count: 0
+Multiple Collision Count: 0
+Current HW Transmit Queue Length: 0
+
+General Statistics:
+-------------------
+No mbuf Errors: 0
+Adapter Reset Count: 8
+Adapter Data Rate: 2000
+Driver Flags: Up Broadcast Simplex 
+	Limbo 64BitSupport ChecksumOffload 
+	LargeSend DataRateSet IPV6_LSO 
+	IPV6_CSO LARGE_RECEIVE 
+
+100/1000 Base-TX PCIe2 Converged Network Adapter 
+-------------------------------------------------------------
+Device ID: df1020e214103c04
+Version: 1
+Device State: Limbo
+Physical Port Link Status: Down
+Logical Port Link Status: Down
+Physical Port Speed: Unknown
+PCI Mode: PCI-Express X8
+	PCIe Link Speed: 5.0 GT/s
+	TLP Size: 512
+	MRR Size: 4096
+	Relaxed Ordering: Enabled
+Assigned Interrupt Source Numbers: 
+	258584	NIC
+	258585	NIC
+	258586	NIC
+External Loopback Changeable: No
+External Loopback: Disabled
+Internal Loopback: Disabled
+Physical Port Promiscuous Mode Changeable: Yes
+Physical Port Promiscuous Mode: Disabled
+Logical Port Promiscuous Mode: Disabled
+Physical Port All Multicast Mode Changeable: Yes
+Physical Port All Multicast Mode: Disabled
+Logical Port All Multicast Mode: Disabled
+Multicast Addresses Enabled: 0
+Maximum Exact Match Multicast Filters: 32
+Maximum Inxact Match Multicast Filters: 0
+Physical Port MTU Changeable: Yes
+Physical Port MTU: 1514
+Logical Port MTU: 1514
+Jumbo Frames: Disabled
+Transmit and receive flow control status: Enabled
+	Number of XOFF packets transmitted: 0
+	Number of XON packets transmitted: 0
+	Number of XOFF packets received: 0
+	Number of XON packets received: 0
+Receive TCP Segment Aggregation: Enabled
+	Receive TCP Segment Aggregation Large Packets Created: 0
+	Receive TCP Packets Aggregated into Large Packets: 0
+	Receive TCP Payload Bytes Aggregated into Large Packets: 0
+	Receive TCP Segment Aggregation Average Packets Aggregated: 0
+	Receive TCP Segment Aggregation Maximum Packets Aggregated: 0
+Transmit TCP Segmentation Offload: Enabled
+	Transmit TCP Segmentation Offload Packets Transmitted: 0
+	Transmit TCP Segmentation Offload Maximum Packet Size: 0
+Transmit Q0 Statistics:
+	Transmit Q Packets: 0
+	Transmit Q Multicast Packets: 0
+	Transmit Q Broadcast Packets: 0
+	Transmit Q Bytes: 0
+	Transmit Q No Buffers: 0
+	Transmit Q Dropped Packets: 0
+	Transmit SWQ Cur Packets: 0
+	Transmit SWQ Max Packets: 0
+	Transmit SWQ Dropped Packets: 0
+	Transmit OFQ Cur Packets: 0
+	Transmit OFQ Max Packets: 0
+Transmit Q1 Statistics:
+	Transmit Q Packets: 0
+	Transmit Q Multicast Packets: 0
+	Transmit Q Broadcast Packets: 0
+	Transmit Q Bytes: 0
+	Transmit Q No Buffers: 0
+	Transmit Q Dropped Packets: 0
+	Transmit SWQ Cur Packets: 0
+	Transmit SWQ Max Packets: 0
+	Transmit SWQ Dropped Packets: 0
+	Transmit OFQ Cur Packets: 0
+	Transmit OFQ Max Packets: 0
+Receive Q0 Statistics:
+	Receive Q Packets: 0
+	Receive Q Multicast Packets: 0
+	Receive Q Broadcast Packets: 0
+	Receive Q Bytes: 0
+	Receive Q No Buffers: 0
+	Receive Q No Private Buffers: 0
+	Receive Q Errors: 0
+	Receive Q Dropped Packets: 0
+Receive Q1 Statistics:
+	Receive Q Packets: 0
+	Receive Q Multicast Packets: 0
+	Receive Q Broadcast Packets: 0
+	Receive Q Bytes: 0
+	Receive Q No Buffers: 0
+	Receive Q No Private Buffers: 0
+	Receive Q Errors: 0
+	Receive Q Dropped Packets: 0
+Receive Q2 Statistics:
+	Receive Q Packets: 0
+	Receive Q Multicast Packets: 0
+	Receive Q Broadcast Packets: 0
+	Receive Q Bytes: 0
+	Receive Q No Buffers: 0
+	Receive Q No Private Buffers: 0
+	Receive Q Errors: 0
+	Receive Q Dropped Packets: 0
+SLI PORT Event Counters: 
+	Error Events: 0
+	Over-Temp Events: 0
+	Norm-Temp Events: 0
+	NVLOG Events: 0
+	Out of RQE Events: 0
+	Solicited Events: 0
+Adapter Physical Port Counters: 
+	Total Number of Packets Sent: 0
+	Number of Unicast Packets Sent: 0
+	Number of Multicast Packets Sent: 0
+	Number of Broadcast Packets Sent: 0
+	Total Bytes Sent: 0
+	Number of Unicast Bytes Sent: 0
+	Number of Multicast Bytes Sent: 0
+	Number of Broadcast Bytes Sent: 0
+	Number of TX Packets without Errors Discarded: 0
+	Number of TX Packets with Errors Dropped: 0
+	Number of Pause Frames Sent: 0
+	Number of Pause ON Frames Sent: 0
+	Number of Pause OFF Frames Sent: 0
+	Number of Frames Failed due to Internal MAC TX Error: 0
+	Number of MAC Control Frames Sent: 0
+	Number of 64-Byte Packets Sent: 0
+	Number of 65-127 Byte Packets Sent: 0
+	Number of 128-255 Byte Packets Sent: 0
+	Number of 256-511 Byte Packets Sent: 0
+	Number of 512-1023 Byte Packets Sent: 0
+	Number of 1024-1518 Byte Packets Sent: 0
+	Number of 1519-2047 Byte Packets Sent: 0
+	Number of 2048-4095 Byte Packets Sent: 0
+	Number of 4096-8191 Byte Packets Sent: 0
+	Number of 8192-9216 Byte Packets Sent: 0
+	Number of LSO Packets Sent: 0
+	Total Number of Packets Received: 0
+	Number of Unicast Packets Received: 0
+	Number of Multicast Packets Received: 0
+	Number of Broadcast Packets Received: 0
+	Total Bytes Received: 0
+	Number of Unicast Bytes Received: 0
+	Number of Multicast Bytes Received: 0
+	Number of Broadcast Bytes Received: 0
+	Number of Packets Received and Dropped due to Unknown Protocol: 0
+	Number of Received Packets without Errors Discarded: 0
+	Number of Received Packets with Errors Dropped: 0
+	Number of Packets Received with CRC/FCS Error: 0
+	Number of Frames Received with Alignment Error: 0
+	Number of Packets Received with Symbol Error: 0
+	Number of Pause Frames Received: 0
+	Number of Pause ON Frames Received: 0
+	Number of Pause OFF Frames Received: 0
+	Number of Frames Received that Exceed the Maximum Permitted Frame Size: 0
+	Number of Frames Failed due to Internal MAC RX Error: 0
+	Number of Packets Received That Were Less Than 64 Octets: 0
+	Number of Packets Received That Were Longer Than 1518 Octets: 0
+	Number of JABBER Packets Received: 0
+	Number of Fragment Packets Received: 0
+	Number of MAC Control Frames Received: 0
+	Number of MAC Control Frames Received with Unknown Opcode: 0
+	Number of Packets Received with Out of Range Errors: 0
+	Number of Packets Received with In Range Errors : 0
+	Number of Receive VLAN Mismatch Errors: 0
+	Number of Receive Address Match Errors: 0
+	Number of Received Packets Too Short and Dropped (IP Length < IP Header Len): 0
+	Number of Received Packets Too Small and Dropped (IP Length > Pkt Len): 0
+	Number of Received Packets Dropped due to Invalid TCP Length: 0
+	Number of Received Packets with Too Small Headers and Dropped: 0
+	Number of Received Packets with IP Checksum Errors: 0
+	Number of Received RUNT Packets Dropped: 0
+	Number of Received Packets with UDP Checksum Errors: 0
+	Number of Received Packets with TCP Checksum Errors: 0
+	Number of Non-RSS Packets Received: 0
+	Number of IPv4 Packets Received: 0
+	Number of IPv6 Packets Received: 0
+	Number of IPv4 Bytes Received: 0
+	Number of IPv6 Bytes Received: 0
+	Number of NIC-Only Packets Received: 0
+	Number of TCP Packets Received: 0
+	Number of iSCSI Packets Received: 0
+	Number of Management Packets Received: 0
+	Number of Unicast Packets Received and Switched: 0
+	Number of Multicast Packets Received and Switched: 0
+	Number of Broadcast Packets Received and Switched: 0
+	Number of Forwarded Packets: 0
+	Number of Times Receive FIFO Overflow Occurred: 0
+	Number of Received Packets Dropped due to Too Many Fragments: 0
+	Number of Received Packets Dropped due to Invalid Queue: 0
+	Number of Received Packets Dropped due to MTU limit Exceeded: 0
+	Number of 64 Byte Packets Received: 0
+	Number of 65-127 Byte Packets Received: 0
+	Number of 128-255 Byte Packets Received: 0
+	Number of 256-511 Byte Packets Received: 0
+	Number of 512-1023 Byte Packets Received: 0
+	Number of 1024-1518 Byte Packets Received: 0
+	Number of 1519-2047 Byte Packets Received: 0
+	Number of 2048-4095 Byte Packets Received: 0
+	Number of 4096-8191 Byte Packets Received: 0
+	Number of 8192-9216 Byte Packets Received: 0
+DCBX Status: Disabled
+MAC ACL Status: Disabled
+VLAN ACL Status: Disabled
+Controller Version: 00000B00
+-------------------------------------------------------------
+ETHERNET STATISTICS (ent3) :
+Device Type: 100/1000 Base-TX PCIe2 Converged Network Adapter (df1020e214103c04)
+Hardware Address: 00:90:fa:53:05:93
+Elapsed Time: 0 days 0 hours 0 minutes 1 seconds
+
+Transmit Statistics:                          Receive Statistics:
+--------------------                          -------------------
+Packets: 0                                    Packets: 0
+Bytes: 0                                      Bytes: 0
+Interrupts: 0                                 Interrupts: 0
+Transmit Errors: 0                            Receive Errors: 0
+Packets Dropped: 0                            Packets Dropped: 0
+                                              Bad Packets: 0
+Max Packets on S/W Transmit Queue: 0         
+S/W Transmit Queue Overflow: 0
+Current S/W+H/W Transmit Queue Length: 0
+
+Broadcast Packets: 0                          Broadcast Packets: 0
+Multicast Packets: 0                          Multicast Packets: 0
+No Carrier Sense: 0                           CRC Errors: 0
+DMA Underrun: 0                               DMA Overrun: 0
+Lost CTS Errors: 0                            Alignment Errors: 0
+Max Collision Errors: 0                       No Resource Errors: 0
+Late Collision Errors: 0                      Receive Collision Errors: 0
+Deferred: 0                                   Packet Too Short Errors: 0
+SQE Test: 0                                   Packet Too Long Errors: 0
+Timeout Errors: 0                             Packets Discarded by Adapter: 0
+Single Collision Count: 0                     Receiver Start Count: 0
+Multiple Collision Count: 0
+Current HW Transmit Queue Length: 0
+
+General Statistics:
+-------------------
+No mbuf Errors: 0
+Adapter Reset Count: 8
+Adapter Data Rate: 2000
+Driver Flags: Up Broadcast Simplex 
+	Limbo 64BitSupport ChecksumOffload 
+	LargeSend DataRateSet IPV6_LSO 
+	IPV6_CSO LARGE_RECEIVE 
+
+100/1000 Base-TX PCIe2 Converged Network Adapter 
+-------------------------------------------------------------
+Device ID: df1020e214103c04
+Version: 1
+Device State: Limbo
+Physical Port Link Status: Down
+Logical Port Link Status: Down
+Physical Port Speed: Unknown
+PCI Mode: PCI-Express X8
+	PCIe Link Speed: 5.0 GT/s
+	TLP Size: 512
+	MRR Size: 4096
+	Relaxed Ordering: Enabled
+Assigned Interrupt Source Numbers: 
+	258592	NIC
+	258593	NIC
+	258594	NIC
+External Loopback Changeable: No
+External Loopback: Disabled
+Internal Loopback: Disabled
+Physical Port Promiscuous Mode Changeable: Yes
+Physical Port Promiscuous Mode: Disabled
+Logical Port Promiscuous Mode: Disabled
+Physical Port All Multicast Mode Changeable: Yes
+Physical Port All Multicast Mode: Disabled
+Logical Port All Multicast Mode: Disabled
+Multicast Addresses Enabled: 0
+Maximum Exact Match Multicast Filters: 32
+Maximum Inxact Match Multicast Filters: 0
+Physical Port MTU Changeable: Yes
+Physical Port MTU: 1514
+Logical Port MTU: 1514
+Jumbo Frames: Disabled
+Transmit and receive flow control status: Enabled
+	Number of XOFF packets transmitted: 0
+	Number of XON packets transmitted: 0
+	Number of XOFF packets received: 0
+	Number of XON packets received: 0
+Receive TCP Segment Aggregation: Enabled
+	Receive TCP Segment Aggregation Large Packets Created: 0
+	Receive TCP Packets Aggregated into Large Packets: 0
+	Receive TCP Payload Bytes Aggregated into Large Packets: 0
+	Receive TCP Segment Aggregation Average Packets Aggregated: 0
+	Receive TCP Segment Aggregation Maximum Packets Aggregated: 0
+Transmit TCP Segmentation Offload: Enabled
+	Transmit TCP Segmentation Offload Packets Transmitted: 0
+	Transmit TCP Segmentation Offload Maximum Packet Size: 0
+Transmit Q0 Statistics:
+	Transmit Q Packets: 0
+	Transmit Q Multicast Packets: 0
+	Transmit Q Broadcast Packets: 0
+	Transmit Q Bytes: 0
+	Transmit Q No Buffers: 0
+	Transmit Q Dropped Packets: 0
+	Transmit SWQ Cur Packets: 0
+	Transmit SWQ Max Packets: 0
+	Transmit SWQ Dropped Packets: 0
+	Transmit OFQ Cur Packets: 0
+	Transmit OFQ Max Packets: 0
+Transmit Q1 Statistics:
+	Transmit Q Packets: 0
+	Transmit Q Multicast Packets: 0
+	Transmit Q Broadcast Packets: 0
+	Transmit Q Bytes: 0
+	Transmit Q No Buffers: 0
+	Transmit Q Dropped Packets: 0
+	Transmit SWQ Cur Packets: 0
+	Transmit SWQ Max Packets: 0
+	Transmit SWQ Dropped Packets: 0
+	Transmit OFQ Cur Packets: 0
+	Transmit OFQ Max Packets: 0
+Receive Q0 Statistics:
+	Receive Q Packets: 0
+	Receive Q Multicast Packets: 0
+	Receive Q Broadcast Packets: 0
+	Receive Q Bytes: 0
+	Receive Q No Buffers: 0
+	Receive Q No Private Buffers: 0
+	Receive Q Errors: 0
+	Receive Q Dropped Packets: 0
+Receive Q1 Statistics:
+	Receive Q Packets: 0
+	Receive Q Multicast Packets: 0
+	Receive Q Broadcast Packets: 0
+	Receive Q Bytes: 0
+	Receive Q No Buffers: 0
+	Receive Q No Private Buffers: 0
+	Receive Q Errors: 0
+	Receive Q Dropped Packets: 0
+Receive Q2 Statistics:
+	Receive Q Packets: 0
+	Receive Q Multicast Packets: 0
+	Receive Q Broadcast Packets: 0
+	Receive Q Bytes: 0
+	Receive Q No Buffers: 0
+	Receive Q No Private Buffers: 0
+	Receive Q Errors: 0
+	Receive Q Dropped Packets: 0
+SLI PORT Event Counters: 
+	Error Events: 0
+	Over-Temp Events: 0
+	Norm-Temp Events: 0
+	NVLOG Events: 0
+	Out of RQE Events: 0
+	Solicited Events: 0
+Adapter Physical Port Counters: 
+	Total Number of Packets Sent: 0
+	Number of Unicast Packets Sent: 0
+	Number of Multicast Packets Sent: 0
+	Number of Broadcast Packets Sent: 0
+	Total Bytes Sent: 0
+	Number of Unicast Bytes Sent: 0
+	Number of Multicast Bytes Sent: 0
+	Number of Broadcast Bytes Sent: 0
+	Number of TX Packets without Errors Discarded: 0
+	Number of TX Packets with Errors Dropped: 0
+	Number of Pause Frames Sent: 0
+	Number of Pause ON Frames Sent: 0
+	Number of Pause OFF Frames Sent: 0
+	Number of Frames Failed due to Internal MAC TX Error: 0
+	Number of MAC Control Frames Sent: 0
+	Number of 64-Byte Packets Sent: 0
+	Number of 65-127 Byte Packets Sent: 0
+	Number of 128-255 Byte Packets Sent: 0
+	Number of 256-511 Byte Packets Sent: 0
+	Number of 512-1023 Byte Packets Sent: 0
+	Number of 1024-1518 Byte Packets Sent: 0
+	Number of 1519-2047 Byte Packets Sent: 0
+	Number of 2048-4095 Byte Packets Sent: 0
+	Number of 4096-8191 Byte Packets Sent: 0
+	Number of 8192-9216 Byte Packets Sent: 0
+	Number of LSO Packets Sent: 0
+	Total Number of Packets Received: 0
+	Number of Unicast Packets Received: 0
+	Number of Multicast Packets Received: 0
+	Number of Broadcast Packets Received: 0
+	Total Bytes Received: 0
+	Number of Unicast Bytes Received: 0
+	Number of Multicast Bytes Received: 0
+	Number of Broadcast Bytes Received: 0
+	Number of Packets Received and Dropped due to Unknown Protocol: 0
+	Number of Received Packets without Errors Discarded: 0
+	Number of Received Packets with Errors Dropped: 0
+	Number of Packets Received with CRC/FCS Error: 0
+	Number of Frames Received with Alignment Error: 0
+	Number of Packets Received with Symbol Error: 0
+	Number of Pause Frames Received: 0
+	Number of Pause ON Frames Received: 0
+	Number of Pause OFF Frames Received: 0
+	Number of Frames Received that Exceed the Maximum Permitted Frame Size: 0
+	Number of Frames Failed due to Internal MAC RX Error: 0
+	Number of Packets Received That Were Less Than 64 Octets: 0
+	Number of Packets Received That Were Longer Than 1518 Octets: 0
+	Number of JABBER Packets Received: 0
+	Number of Fragment Packets Received: 0
+	Number of MAC Control Frames Received: 0
+	Number of MAC Control Frames Received with Unknown Opcode: 0
+	Number of Packets Received with Out of Range Errors: 0
+	Number of Packets Received with In Range Errors : 0
+	Number of Receive VLAN Mismatch Errors: 0
+	Number of Receive Address Match Errors: 0
+	Number of Received Packets Too Short and Dropped (IP Length < IP Header Len): 0
+	Number of Received Packets Too Small and Dropped (IP Length > Pkt Len): 0
+	Number of Received Packets Dropped due to Invalid TCP Length: 0
+	Number of Received Packets with Too Small Headers and Dropped: 0
+	Number of Received Packets with IP Checksum Errors: 0
+	Number of Received RUNT Packets Dropped: 0
+	Number of Received Packets with UDP Checksum Errors: 0
+	Number of Received Packets with TCP Checksum Errors: 0
+	Number of Non-RSS Packets Received: 0
+	Number of IPv4 Packets Received: 0
+	Number of IPv6 Packets Received: 0
+	Number of IPv4 Bytes Received: 0
+	Number of IPv6 Bytes Received: 0
+	Number of NIC-Only Packets Received: 0
+	Number of TCP Packets Received: 0
+	Number of iSCSI Packets Received: 0
+	Number of Management Packets Received: 0
+	Number of Unicast Packets Received and Switched: 0
+	Number of Multicast Packets Received and Switched: 0
+	Number of Broadcast Packets Received and Switched: 0
+	Number of Forwarded Packets: 0
+	Number of Times Receive FIFO Overflow Occurred: 0
+	Number of Received Packets Dropped due to Too Many Fragments: 0
+	Number of Received Packets Dropped due to Invalid Queue: 0
+	Number of Received Packets Dropped due to MTU limit Exceeded: 0
+	Number of 64 Byte Packets Received: 0
+	Number of 65-127 Byte Packets Received: 0
+	Number of 128-255 Byte Packets Received: 0
+	Number of 256-511 Byte Packets Received: 0
+	Number of 512-1023 Byte Packets Received: 0
+	Number of 1024-1518 Byte Packets Received: 0
+	Number of 1519-2047 Byte Packets Received: 0
+	Number of 2048-4095 Byte Packets Received: 0
+	Number of 4096-8191 Byte Packets Received: 0
+	Number of 8192-9216 Byte Packets Received: 0
+DCBX Status: Disabled
+MAC ACL Status: Disabled
+VLAN ACL Status: Disabled
+Controller Version: 00000B00
+-------------------------------------------------------------
+ETHERNET STATISTICS (ent7) :
+Device Type: 100/1000 Base-TX PCIe2 Converged Network Adapter (df1020e214103c04)
+Hardware Address: 00:90:fa:53:0e:5f
+Elapsed Time: 0 days 0 hours 0 minutes 1 seconds
+
+Transmit Statistics:                          Receive Statistics:
+--------------------                          -------------------
+Packets: 0                                    Packets: 0
+Bytes: 0                                      Bytes: 0
+Interrupts: 0                                 Interrupts: 0
+Transmit Errors: 0                            Receive Errors: 0
+Packets Dropped: 0                            Packets Dropped: 0
+                                              Bad Packets: 0
+Max Packets on S/W Transmit Queue: 0         
+S/W Transmit Queue Overflow: 0
+Current S/W+H/W Transmit Queue Length: 0
+
+Broadcast Packets: 0                          Broadcast Packets: 0
+Multicast Packets: 0                          Multicast Packets: 0
+No Carrier Sense: 0                           CRC Errors: 0
+DMA Underrun: 0                               DMA Overrun: 0
+Lost CTS Errors: 0                            Alignment Errors: 0
+Max Collision Errors: 0                       No Resource Errors: 0
+Late Collision Errors: 0                      Receive Collision Errors: 0
+Deferred: 0                                   Packet Too Short Errors: 0
+SQE Test: 0                                   Packet Too Long Errors: 0
+Timeout Errors: 0                             Packets Discarded by Adapter: 0
+Single Collision Count: 0                     Receiver Start Count: 0
+Multiple Collision Count: 0
+Current HW Transmit Queue Length: 0
+
+General Statistics:
+-------------------
+No mbuf Errors: 0
+Adapter Reset Count: 8
+Adapter Data Rate: 2000
+Driver Flags: Up Broadcast Simplex 
+	Limbo 64BitSupport ChecksumOffload 
+	LargeSend DataRateSet IPV6_LSO 
+	IPV6_CSO LARGE_RECEIVE 
+
+100/1000 Base-TX PCIe2 Converged Network Adapter 
+-------------------------------------------------------------
+Device ID: df1020e214103c04
+Version: 1
+Device State: Limbo
+Physical Port Link Status: Down
+Logical Port Link Status: Down
+Physical Port Speed: Unknown
+PCI Mode: PCI-Express X8
+	PCIe Link Speed: 5.0 GT/s
+	TLP Size: 512
+	MRR Size: 4096
+	Relaxed Ordering: Enabled
+Assigned Interrupt Source Numbers: 
+	153120	NIC
+	153121	NIC
+	153122	NIC
+External Loopback Changeable: No
+External Loopback: Disabled
+Internal Loopback: Disabled
+Physical Port Promiscuous Mode Changeable: Yes
+Physical Port Promiscuous Mode: Disabled
+Logical Port Promiscuous Mode: Disabled
+Physical Port All Multicast Mode Changeable: Yes
+Physical Port All Multicast Mode: Disabled
+Logical Port All Multicast Mode: Disabled
+Multicast Addresses Enabled: 0
+Maximum Exact Match Multicast Filters: 32
+Maximum Inxact Match Multicast Filters: 0
+Physical Port MTU Changeable: Yes
+Physical Port MTU: 1514
+Logical Port MTU: 1514
+Jumbo Frames: Disabled
+Transmit and receive flow control status: Enabled
+	Number of XOFF packets transmitted: 0
+	Number of XON packets transmitted: 0
+	Number of XOFF packets received: 0
+	Number of XON packets received: 0
+Receive TCP Segment Aggregation: Enabled
+	Receive TCP Segment Aggregation Large Packets Created: 0
+	Receive TCP Packets Aggregated into Large Packets: 0
+	Receive TCP Payload Bytes Aggregated into Large Packets: 0
+	Receive TCP Segment Aggregation Average Packets Aggregated: 0
+	Receive TCP Segment Aggregation Maximum Packets Aggregated: 0
+Transmit TCP Segmentation Offload: Enabled
+	Transmit TCP Segmentation Offload Packets Transmitted: 0
+	Transmit TCP Segmentation Offload Maximum Packet Size: 0
+Transmit Q0 Statistics:
+	Transmit Q Packets: 0
+	Transmit Q Multicast Packets: 0
+	Transmit Q Broadcast Packets: 0
+	Transmit Q Bytes: 0
+	Transmit Q No Buffers: 0
+	Transmit Q Dropped Packets: 0
+	Transmit SWQ Cur Packets: 0
+	Transmit SWQ Max Packets: 0
+	Transmit SWQ Dropped Packets: 0
+	Transmit OFQ Cur Packets: 0
+	Transmit OFQ Max Packets: 0
+Transmit Q1 Statistics:
+	Transmit Q Packets: 0
+	Transmit Q Multicast Packets: 0
+	Transmit Q Broadcast Packets: 0
+	Transmit Q Bytes: 0
+	Transmit Q No Buffers: 0
+	Transmit Q Dropped Packets: 0
+	Transmit SWQ Cur Packets: 0
+	Transmit SWQ Max Packets: 0
+	Transmit SWQ Dropped Packets: 0
+	Transmit OFQ Cur Packets: 0
+	Transmit OFQ Max Packets: 0
+Receive Q0 Statistics:
+	Receive Q Packets: 0
+	Receive Q Multicast Packets: 0
+	Receive Q Broadcast Packets: 0
+	Receive Q Bytes: 0
+	Receive Q No Buffers: 0
+	Receive Q No Private Buffers: 0
+	Receive Q Errors: 0
+	Receive Q Dropped Packets: 0
+Receive Q1 Statistics:
+	Receive Q Packets: 0
+	Receive Q Multicast Packets: 0
+	Receive Q Broadcast Packets: 0
+	Receive Q Bytes: 0
+	Receive Q No Buffers: 0
+	Receive Q No Private Buffers: 0
+	Receive Q Errors: 0
+	Receive Q Dropped Packets: 0
+Receive Q2 Statistics:
+	Receive Q Packets: 0
+	Receive Q Multicast Packets: 0
+	Receive Q Broadcast Packets: 0
+	Receive Q Bytes: 0
+	Receive Q No Buffers: 0
+	Receive Q No Private Buffers: 0
+	Receive Q Errors: 0
+	Receive Q Dropped Packets: 0
+SLI PORT Event Counters: 
+	Error Events: 0
+	Over-Temp Events: 0
+	Norm-Temp Events: 0
+	NVLOG Events: 0
+	Out of RQE Events: 0
+	Solicited Events: 0
+Adapter Physical Port Counters: 
+	Total Number of Packets Sent: 0
+	Number of Unicast Packets Sent: 0
+	Number of Multicast Packets Sent: 0
+	Number of Broadcast Packets Sent: 0
+	Total Bytes Sent: 0
+	Number of Unicast Bytes Sent: 0
+	Number of Multicast Bytes Sent: 0
+	Number of Broadcast Bytes Sent: 0
+	Number of TX Packets without Errors Discarded: 0
+	Number of TX Packets with Errors Dropped: 0
+	Number of Pause Frames Sent: 0
+	Number of Pause ON Frames Sent: 0
+	Number of Pause OFF Frames Sent: 0
+	Number of Frames Failed due to Internal MAC TX Error: 0
+	Number of MAC Control Frames Sent: 0
+	Number of 64-Byte Packets Sent: 0
+	Number of 65-127 Byte Packets Sent: 0
+	Number of 128-255 Byte Packets Sent: 0
+	Number of 256-511 Byte Packets Sent: 0
+	Number of 512-1023 Byte Packets Sent: 0
+	Number of 1024-1518 Byte Packets Sent: 0
+	Number of 1519-2047 Byte Packets Sent: 0
+	Number of 2048-4095 Byte Packets Sent: 0
+	Number of 4096-8191 Byte Packets Sent: 0
+	Number of 8192-9216 Byte Packets Sent: 0
+	Number of LSO Packets Sent: 0
+	Total Number of Packets Received: 0
+	Number of Unicast Packets Received: 0
+	Number of Multicast Packets Received: 0
+	Number of Broadcast Packets Received: 0
+	Total Bytes Received: 0
+	Number of Unicast Bytes Received: 0
+	Number of Multicast Bytes Received: 0
+	Number of Broadcast Bytes Received: 0
+	Number of Packets Received and Dropped due to Unknown Protocol: 0
+	Number of Received Packets without Errors Discarded: 0
+	Number of Received Packets with Errors Dropped: 0
+	Number of Packets Received with CRC/FCS Error: 0
+	Number of Frames Received with Alignment Error: 0
+	Number of Packets Received with Symbol Error: 0
+	Number of Pause Frames Received: 0
+	Number of Pause ON Frames Received: 0
+	Number of Pause OFF Frames Received: 0
+	Number of Frames Received that Exceed the Maximum Permitted Frame Size: 0
+	Number of Frames Failed due to Internal MAC RX Error: 0
+	Number of Packets Received That Were Less Than 64 Octets: 0
+	Number of Packets Received That Were Longer Than 1518 Octets: 0
+	Number of JABBER Packets Received: 0
+	Number of Fragment Packets Received: 0
+	Number of MAC Control Frames Received: 0
+	Number of MAC Control Frames Received with Unknown Opcode: 0
+	Number of Packets Received with Out of Range Errors: 0
+	Number of Packets Received with In Range Errors : 0
+	Number of Receive VLAN Mismatch Errors: 0
+	Number of Receive Address Match Errors: 0
+	Number of Received Packets Too Short and Dropped (IP Length < IP Header Len): 0
+	Number of Received Packets Too Small and Dropped (IP Length > Pkt Len): 0
+	Number of Received Packets Dropped due to Invalid TCP Length: 0
+	Number of Received Packets with Too Small Headers and Dropped: 0
+	Number of Received Packets with IP Checksum Errors: 0
+	Number of Received RUNT Packets Dropped: 0
+	Number of Received Packets with UDP Checksum Errors: 0
+	Number of Received Packets with TCP Checksum Errors: 0
+	Number of Non-RSS Packets Received: 0
+	Number of IPv4 Packets Received: 0
+	Number of IPv6 Packets Received: 0
+	Number of IPv4 Bytes Received: 0
+	Number of IPv6 Bytes Received: 0
+	Number of NIC-Only Packets Received: 0
+	Number of TCP Packets Received: 0
+	Number of iSCSI Packets Received: 0
+	Number of Management Packets Received: 0
+	Number of Unicast Packets Received and Switched: 0
+	Number of Multicast Packets Received and Switched: 0
+	Number of Broadcast Packets Received and Switched: 0
+	Number of Forwarded Packets: 0
+	Number of Times Receive FIFO Overflow Occurred: 0
+	Number of Received Packets Dropped due to Too Many Fragments: 0
+	Number of Received Packets Dropped due to Invalid Queue: 0
+	Number of Received Packets Dropped due to MTU limit Exceeded: 0
+	Number of 64 Byte Packets Received: 0
+	Number of 65-127 Byte Packets Received: 0
+	Number of 128-255 Byte Packets Received: 0
+	Number of 256-511 Byte Packets Received: 0
+	Number of 512-1023 Byte Packets Received: 0
+	Number of 1024-1518 Byte Packets Received: 0
+	Number of 1519-2047 Byte Packets Received: 0
+	Number of 2048-4095 Byte Packets Received: 0
+	Number of 4096-8191 Byte Packets Received: 0
+	Number of 8192-9216 Byte Packets Received: 0
+DCBX Status: Disabled
+MAC ACL Status: Disabled
+VLAN ACL Status: Disabled
+Controller Version: 00000B00
+-------------------------------------------------------------
+ETHERNET STATISTICS (ent6) :
+Device Type: 100/1000 Base-TX PCIe2 Converged Network Adapter (df1020e214103c04)
+Hardware Address: 00:90:fa:53:0e:5e
+Elapsed Time: 0 days 0 hours 0 minutes 1 seconds
+
+Transmit Statistics:                          Receive Statistics:
+--------------------                          -------------------
+Packets: 0                                    Packets: 0
+Bytes: 0                                      Bytes: 0
+Interrupts: 0                                 Interrupts: 0
+Transmit Errors: 0                            Receive Errors: 0
+Packets Dropped: 0                            Packets Dropped: 0
+                                              Bad Packets: 0
+Max Packets on S/W Transmit Queue: 0         
+S/W Transmit Queue Overflow: 0
+Current S/W+H/W Transmit Queue Length: 0
+
+Broadcast Packets: 0                          Broadcast Packets: 0
+Multicast Packets: 0                          Multicast Packets: 0
+No Carrier Sense: 0                           CRC Errors: 0
+DMA Underrun: 0                               DMA Overrun: 0
+Lost CTS Errors: 0                            Alignment Errors: 0
+Max Collision Errors: 0                       No Resource Errors: 0
+Late Collision Errors: 0                      Receive Collision Errors: 0
+Deferred: 0                                   Packet Too Short Errors: 0
+SQE Test: 0                                   Packet Too Long Errors: 0
+Timeout Errors: 0                             Packets Discarded by Adapter: 0
+Single Collision Count: 0                     Receiver Start Count: 0
+Multiple Collision Count: 0
+Current HW Transmit Queue Length: 0
+
+General Statistics:
+-------------------
+No mbuf Errors: 0
+Adapter Reset Count: 8
+Adapter Data Rate: 2000
+Driver Flags: Up Broadcast Simplex 
+	Limbo 64BitSupport ChecksumOffload 
+	LargeSend DataRateSet IPV6_LSO 
+	IPV6_CSO LARGE_RECEIVE 
+
+100/1000 Base-TX PCIe2 Converged Network Adapter 
+-------------------------------------------------------------
+Device ID: df1020e214103c04
+Version: 1
+Device State: Limbo
+Physical Port Link Status: Down
+Logical Port Link Status: Down
+Physical Port Speed: Unknown
+PCI Mode: PCI-Express X8
+	PCIe Link Speed: 5.0 GT/s
+	TLP Size: 512
+	MRR Size: 4096
+	Relaxed Ordering: Enabled
+Assigned Interrupt Source Numbers: 
+	153112	NIC
+	153113	NIC
+	153114	NIC
+External Loopback Changeable: No
+External Loopback: Disabled
+Internal Loopback: Disabled
+Physical Port Promiscuous Mode Changeable: Yes
+Physical Port Promiscuous Mode: Disabled
+Logical Port Promiscuous Mode: Disabled
+Physical Port All Multicast Mode Changeable: Yes
+Physical Port All Multicast Mode: Disabled
+Logical Port All Multicast Mode: Disabled
+Multicast Addresses Enabled: 0
+Maximum Exact Match Multicast Filters: 32
+Maximum Inxact Match Multicast Filters: 0
+Physical Port MTU Changeable: Yes
+Physical Port MTU: 1514
+Logical Port MTU: 1514
+Jumbo Frames: Disabled
+Transmit and receive flow control status: Enabled
+	Number of XOFF packets transmitted: 0
+	Number of XON packets transmitted: 0
+	Number of XOFF packets received: 0
+	Number of XON packets received: 0
+Receive TCP Segment Aggregation: Enabled
+	Receive TCP Segment Aggregation Large Packets Created: 0
+	Receive TCP Packets Aggregated into Large Packets: 0
+	Receive TCP Payload Bytes Aggregated into Large Packets: 0
+	Receive TCP Segment Aggregation Average Packets Aggregated: 0
+	Receive TCP Segment Aggregation Maximum Packets Aggregated: 0
+Transmit TCP Segmentation Offload: Enabled
+	Transmit TCP Segmentation Offload Packets Transmitted: 0
+	Transmit TCP Segmentation Offload Maximum Packet Size: 0
+Transmit Q0 Statistics:
+	Transmit Q Packets: 0
+	Transmit Q Multicast Packets: 0
+	Transmit Q Broadcast Packets: 0
+	Transmit Q Bytes: 0
+	Transmit Q No Buffers: 0
+	Transmit Q Dropped Packets: 0
+	Transmit SWQ Cur Packets: 0
+	Transmit SWQ Max Packets: 0
+	Transmit SWQ Dropped Packets: 0
+	Transmit OFQ Cur Packets: 0
+	Transmit OFQ Max Packets: 0
+Transmit Q1 Statistics:
+	Transmit Q Packets: 0
+	Transmit Q Multicast Packets: 0
+	Transmit Q Broadcast Packets: 0
+	Transmit Q Bytes: 0
+	Transmit Q No Buffers: 0
+	Transmit Q Dropped Packets: 0
+	Transmit SWQ Cur Packets: 0
+	Transmit SWQ Max Packets: 0
+	Transmit SWQ Dropped Packets: 0
+	Transmit OFQ Cur Packets: 0
+	Transmit OFQ Max Packets: 0
+Receive Q0 Statistics:
+	Receive Q Packets: 0
+	Receive Q Multicast Packets: 0
+	Receive Q Broadcast Packets: 0
+	Receive Q Bytes: 0
+	Receive Q No Buffers: 0
+	Receive Q No Private Buffers: 0
+	Receive Q Errors: 0
+	Receive Q Dropped Packets: 0
+Receive Q1 Statistics:
+	Receive Q Packets: 0
+	Receive Q Multicast Packets: 0
+	Receive Q Broadcast Packets: 0
+	Receive Q Bytes: 0
+	Receive Q No Buffers: 0
+	Receive Q No Private Buffers: 0
+	Receive Q Errors: 0
+	Receive Q Dropped Packets: 0
+Receive Q2 Statistics:
+	Receive Q Packets: 0
+	Receive Q Multicast Packets: 0
+	Receive Q Broadcast Packets: 0
+	Receive Q Bytes: 0
+	Receive Q No Buffers: 0
+	Receive Q No Private Buffers: 0
+	Receive Q Errors: 0
+	Receive Q Dropped Packets: 0
+SLI PORT Event Counters: 
+	Error Events: 0
+	Over-Temp Events: 0
+	Norm-Temp Events: 0
+	NVLOG Events: 0
+	Out of RQE Events: 0
+	Solicited Events: 0
+Adapter Physical Port Counters: 
+	Total Number of Packets Sent: 0
+	Number of Unicast Packets Sent: 0
+	Number of Multicast Packets Sent: 0
+	Number of Broadcast Packets Sent: 0
+	Total Bytes Sent: 0
+	Number of Unicast Bytes Sent: 0
+	Number of Multicast Bytes Sent: 0
+	Number of Broadcast Bytes Sent: 0
+	Number of TX Packets without Errors Discarded: 0
+	Number of TX Packets with Errors Dropped: 0
+	Number of Pause Frames Sent: 0
+	Number of Pause ON Frames Sent: 0
+	Number of Pause OFF Frames Sent: 0
+	Number of Frames Failed due to Internal MAC TX Error: 0
+	Number of MAC Control Frames Sent: 0
+	Number of 64-Byte Packets Sent: 0
+	Number of 65-127 Byte Packets Sent: 0
+	Number of 128-255 Byte Packets Sent: 0
+	Number of 256-511 Byte Packets Sent: 0
+	Number of 512-1023 Byte Packets Sent: 0
+	Number of 1024-1518 Byte Packets Sent: 0
+	Number of 1519-2047 Byte Packets Sent: 0
+	Number of 2048-4095 Byte Packets Sent: 0
+	Number of 4096-8191 Byte Packets Sent: 0
+	Number of 8192-9216 Byte Packets Sent: 0
+	Number of LSO Packets Sent: 0
+	Total Number of Packets Received: 0
+	Number of Unicast Packets Received: 0
+	Number of Multicast Packets Received: 0
+	Number of Broadcast Packets Received: 0
+	Total Bytes Received: 0
+	Number of Unicast Bytes Received: 0
+	Number of Multicast Bytes Received: 0
+	Number of Broadcast Bytes Received: 0
+	Number of Packets Received and Dropped due to Unknown Protocol: 0
+	Number of Received Packets without Errors Discarded: 0
+	Number of Received Packets with Errors Dropped: 0
+	Number of Packets Received with CRC/FCS Error: 0
+	Number of Frames Received with Alignment Error: 0
+	Number of Packets Received with Symbol Error: 0
+	Number of Pause Frames Received: 0
+	Number of Pause ON Frames Received: 0
+	Number of Pause OFF Frames Received: 0
+	Number of Frames Received that Exceed the Maximum Permitted Frame Size: 0
+	Number of Frames Failed due to Internal MAC RX Error: 0
+	Number of Packets Received That Were Less Than 64 Octets: 0
+	Number of Packets Received That Were Longer Than 1518 Octets: 0
+	Number of JABBER Packets Received: 0
+	Number of Fragment Packets Received: 0
+	Number of MAC Control Frames Received: 0
+	Number of MAC Control Frames Received with Unknown Opcode: 0
+	Number of Packets Received with Out of Range Errors: 0
+	Number of Packets Received with In Range Errors : 0
+	Number of Receive VLAN Mismatch Errors: 0
+	Number of Receive Address Match Errors: 0
+	Number of Received Packets Too Short and Dropped (IP Length < IP Header Len): 0
+	Number of Received Packets Too Small and Dropped (IP Length > Pkt Len): 0
+	Number of Received Packets Dropped due to Invalid TCP Length: 0
+	Number of Received Packets with Too Small Headers and Dropped: 0
+	Number of Received Packets with IP Checksum Errors: 0
+	Number of Received RUNT Packets Dropped: 0
+	Number of Received Packets with UDP Checksum Errors: 0
+	Number of Received Packets with TCP Checksum Errors: 0
+	Number of Non-RSS Packets Received: 0
+	Number of IPv4 Packets Received: 0
+	Number of IPv6 Packets Received: 0
+	Number of IPv4 Bytes Received: 0
+	Number of IPv6 Bytes Received: 0
+	Number of NIC-Only Packets Received: 0
+	Number of TCP Packets Received: 0
+	Number of iSCSI Packets Received: 0
+	Number of Management Packets Received: 0
+	Number of Unicast Packets Received and Switched: 0
+	Number of Multicast Packets Received and Switched: 0
+	Number of Broadcast Packets Received and Switched: 0
+	Number of Forwarded Packets: 0
+	Number of Times Receive FIFO Overflow Occurred: 0
+	Number of Received Packets Dropped due to Too Many Fragments: 0
+	Number of Received Packets Dropped due to Invalid Queue: 0
+	Number of Received Packets Dropped due to MTU limit Exceeded: 0
+	Number of 64 Byte Packets Received: 0
+	Number of 65-127 Byte Packets Received: 0
+	Number of 128-255 Byte Packets Received: 0
+	Number of 256-511 Byte Packets Received: 0
+	Number of 512-1023 Byte Packets Received: 0
+	Number of 1024-1518 Byte Packets Received: 0
+	Number of 1519-2047 Byte Packets Received: 0
+	Number of 2048-4095 Byte Packets Received: 0
+	Number of 4096-8191 Byte Packets Received: 0
+	Number of 8192-9216 Byte Packets Received: 0
+DCBX Status: Disabled
+MAC ACL Status: Disabled
+VLAN ACL Status: Disabled
+Controller Version: 00000B00
+-------------------------------------------------------------
+ETHERNET STATISTICS (ent17) :
+Device Type: Shared Ethernet Adapter
+Hardware Address: 00:90:fa:53:05:90
+Elapsed Time: 82 days 4 hours 30 minutes 35 seconds
+
+Transmit Statistics:                          Receive Statistics:
+--------------------                          -------------------
+Packets: 11116364856                          Packets: 11495817520
+Bytes: 8209499717757                          Bytes: 8300464798721
+Interrupts: 90727282                          Interrupts: 7179396960
+Transmit Errors: 0                            Receive Errors: 0
+Packets Dropped: 0                            Packets Dropped: 3030
+                                              Bad Packets: 0
+Max Packets on S/W Transmit Queue: 250       
+S/W Transmit Queue Overflow: 0
+Current S/W+H/W Transmit Queue Length: 198
+
+Elapsed Time: 0 days 0 hours 0 minutes 0 seconds
+Broadcast Packets: 3887519                    Broadcast Packets: 70128036
+Multicast Packets: 10888350                   Multicast Packets: 28021553
+No Carrier Sense: 0                           CRC Errors: 26621
+DMA Underrun: 0                               DMA Overrun: 0
+Lost CTS Errors: 0                            Alignment Errors: 0
+Max Collision Errors: 0                       No Resource Errors: 3030
+Late Collision Errors: 0                      Receive Collision Errors: 0
+Deferred: 0                                   Packet Too Short Errors: 6
+SQE Test: 0                                   Packet Too Long Errors: 1820
+Timeout Errors: 0                             Packets Discarded by Adapter: 0
+Single Collision Count: 0                     Receiver Start Count: 0
+Multiple Collision Count: 0
+Current HW Transmit Queue Length: 198
+
+General Statistics:
+-------------------
+No mbuf Errors: 0
+Adapter Reset Count: 0
+Adapter Data Rate: 0
+Driver Flags: Up Broadcast Running 
+	Simplex 64BitSupport ChecksumOffload 
+	LargeSend DataRateSet 
+
+--------------------------------------------------------------
+Statistics for adapters in the Shared Ethernet Adapter ent17
+--------------------------------------------------------------
+Number of adapters: 5
+SEA Flags: 00000183
+    < THREAD >
+    < LARGESEND >
+VLAN Ids :
+    ent11: 7 229
+    ent10: 6 302
+    ent9: 5 227
+    ent8: 4 226
+Real Side Statistics:
+    Packets received: 5690065292
+    Packets bridged: 5309675131
+    Packets consumed: 97609708
+    Packets fragmented: 0
+    Packets transmitted: 5805753196
+    Packets dropped: 473396
+    Packets filtered(VlanId): 378970049
+    Packets filtered(Reserved address): 1420032
+Virtual Side Statistics:
+    Packets received: 5805753196
+    Packets bridged: 5805753196
+    Packets consumed: 20119
+    Packets fragmented: 0
+    Packets transmitted: 5309675131
+    Packets dropped: 20119
+    Packets filtered(VlanId): 0
+Other Statistics:
+    Output packets generated: 0
+    Output packets dropped: 0
+    Device output failures: 0
+    Memory allocation failures: 0
+    ICMP error packets sent: 0
+    Non IP packets larger than MTU: 0
+    Thread queue overflow packets: 44
+
+
+	SEA THREADS INFORMATION
+
+	Thread .............. #0
+    SEA Default Queue #8 
+    Queue full dropped packets: 0
+    Queue packets queued: 1
+    Queue average packets queued: 1
+    Queue packets count: 949441996
+    Queue max packets queued: 2053
+
+	Thread .............. #1
+    SEA Default Queue #8 
+    Queue full dropped packets: 44
+    Queue packets queued: 0
+    Queue average packets queued: 1
+    Queue packets count: 1018402153
+    Queue max packets queued: 8191
+
+	Thread .............. #2
+    SEA Default Queue #8 
+    Queue full dropped packets: 0
+    Queue packets queued: 0
+    Queue average packets queued: 4
+    Queue packets count: 3073921517
+    Queue max packets queued: 2371
+
+	Thread .............. #3
+    SEA Default Queue #8 
+    Queue full dropped packets: 0
+    Queue packets queued: 0
+    Queue average packets queued: 1
+    Queue packets count: 1157145985
+    Queue max packets queued: 2586
+
+	Thread .............. #4
+    SEA Default Queue #8 
+    Queue full dropped packets: 0
+    Queue packets queued: 0
+    Queue average packets queued: 2
+    Queue packets count: 3354640330
+    Queue max packets queued: 3718
+
+	Thread .............. #5
+    SEA Default Queue #8 
+    Queue full dropped packets: 0
+    Queue packets queued: 1
+    Queue average packets queued: 1
+    Queue packets count: 933060413
+    Queue max packets queued: 1471
+
+	Thread .............. #6
+    SEA Default Queue #8 
+    Queue full dropped packets: 0
+    Queue packets queued: 0
+    Queue average packets queued: 1
+    Queue packets count: 1009206096
+    Queue max packets queued: 760
+High Availability Statistics:
+    Control Channel PVID: 8
+    Control Packets in: 23876919
+    Control Packets out: 24958882
+Type of Packets Received:
+    Keep-Alive Packets: 16
+    Keep-alive-shared Packets: 23096776
+    Recovery Packets: 0
+    Notify Packets: 0
+    Limbo Packets: 0
+    State: BACKUP_SH
+    Bridge Mode: Partial
+    VID shared: 6 7 229 302 
+    Number of Times Server became Backup: 1
+    Number of Times Server became Primary: 0
+    High Availability Mode: Sharing
+    Priority: 2
+--------------------------------------------------------------
+Real Adapter: ent16
+
+ETHERNET STATISTICS (ent16) :
+Device Type: IEEE 802.3ad Link Aggregation
+Hardware Address: 00:90:fa:53:05:90
+
+Transmit Statistics:                          Receive Statistics:
+--------------------                          -------------------
+Packets: 5806690970                           Packets: 5690065593
+Bytes: 4323042401107                          Bytes: 3977539542305
+Interrupts: 90727292                          Interrupts: 3978581220
+Transmit Errors: 0                            Receive Errors: 0
+Packets Dropped: 0                            Packets Dropped: 0
+                                              Bad Packets: 0
+
+Max Packets on S/W Transmit Queue: 250       
+S/W Transmit Queue Overflow: 0
+Current S/W+H/W Transmit Queue Length: 260
+
+Broadcast Packets: 472306                     Broadcast Packets: 69655789
+Multicast Packets: 1005044                    Multicast Packets: 27954107
+No Carrier Sense: 0                           CRC Errors: 26621
+DMA Underrun: 0                               DMA Overrun: 0
+Lost CTS Errors: 0                            Alignment Errors: 0
+Max Collision Errors: 0                       No Resource Errors: 0
+Late Collision Errors: 0                      Receive Collision Errors: 0
+Deferred: 0                                   Packet Too Short Errors: 6
+SQE Test: 0                                   Packet Too Long Errors: 1820
+Timeout Errors: 0                             Packets Discarded by Adapter: 0
+Single Collision Count: 0                     Receiver Start Count: 0
+Multiple Collision Count: 0
+Current HW Transmit Queue Length: 260
+
+General Statistics:
+-------------------
+No mbuf Errors: 0
+Adapter Reset Count: 0
+Adapter Data Rate: 20000
+Driver Flags: Up Broadcast Running 
+	Simplex Promiscuous 64BitSupport 
+	ChecksumOffload LargeSend DataRateSet 
+
+=============================================================
+=============================================================
+
+Statistics for every adapter in the IEEE 802.3ad Link Aggregation:
+------------------------------------------------------------------
+
+Number of adapters: 4
+Operating mode: Standard mode (IEEE 802.3ad)
+IEEE 802.3ad Link Aggregation Statistics:
+	Aggregation status: Aggregated
+	LACPDU Interval: Long
+	Received LACPDUs: 946699
+	Transmitted LACPDUs: 937597
+	Received marker PDUs: 0
+	Transmitted marker PDUs: 0
+	Received marker response PDUs: 0
+	Transmitted marker response PDUs: 0
+	Received unknown PDUs: 0
+	Received illegal PDUs: 0
+Hash mode: Source and destination TCP/UDP ports
+
+-------------------------------------------------------------
+
+ETHERNET STATISTICS (ent0) :
+Device Type: 10GbE SFP+ SR PCIe2 Converged Network Adapter (df1020e214100f04)
+
+Transmit Statistics:                          Receive Statistics:
+--------------------                          -------------------
+Packets: 996932606                            Packets: 1179710874
+Bytes: 338757247836                           Bytes: 571707308414
+Interrupts: 15577065                          Interrupts: 1026719469
+Transmit Errors: 0                            Receive Errors: 0
+Packets Dropped: 0                            Packets Dropped: 0
+                                              Bad Packets: 0
+Max Packets on S/W Transmit Queue: 29        
+S/W Transmit Queue Overflow: 0
+Current S/W+H/W Transmit Queue Length: 59
+
+Broadcast Packets: 93765                      Broadcast Packets: 23861722
+Multicast Packets: 265972                     Multicast Packets: 18880972
+No Carrier Sense: 0                           CRC Errors: 0
+DMA Underrun: 0                               DMA Overrun: 0
+Lost CTS Errors: 0                            Alignment Errors: 0
+Max Collision Errors: 0                       No Resource Errors: 0
+Late Collision Errors: 0                      Receive Collision Errors: 0
+Deferred: 0                                   Packet Too Short Errors: 0
+SQE Test: 0                                   Packet Too Long Errors: 0
+Timeout Errors: 0                             Packets Discarded by Adapter: 0
+Single Collision Count: 0                     Receiver Start Count: 0
+Multiple Collision Count: 0
+Current HW Transmit Queue Length: 59
+
+General Statistics:
+-------------------
+No mbuf Errors: 0
+Adapter Reset Count: 3
+Adapter Data Rate: 20000
+Driver Flags: Up Broadcast Running 
+	Simplex Promiscuous AlternateAddress 
+	64BitSupport ChecksumOffload LargeSend 
+	DataRateSet 
+
+10GbE SFP+ SR PCIe2 Converged Network Adapter 
+-------------------------------------------------------------
+Device ID: df1020e214100f04
+Version: 1
+Device State: Open
+Physical Port Link Status: Up
+Logical Port Link Status: Up
+Physical Port Speed: 10 Gbps Full Duplex
+PCI Mode: PCI-Express X8
+	PCIe Link Speed: 5.0 GT/s
+	TLP Size: 512
+	MRR Size: 4096
+	Relaxed Ordering: Enabled
+Assigned Interrupt Source Numbers: 
+	258576	NIC
+	258577	NIC
+	258578	NIC
+External Loopback Changeable: No
+External Loopback: Disabled
+Internal Loopback: Disabled
+Physical Port Promiscuous Mode Changeable: Yes
+Physical Port Promiscuous Mode: Enabled
+Logical Port Promiscuous Mode: Enabled
+Physical Port All Multicast Mode Changeable: Yes
+Physical Port All Multicast Mode: Disabled
+Logical Port All Multicast Mode: Disabled
+Multicast Addresses Enabled: 1
+Maximum Exact Match Multicast Filters: 32
+Maximum Inxact Match Multicast Filters: 0
+Physical Port MTU Changeable: Yes
+Physical Port MTU: 1514
+Logical Port MTU: 1514
+Jumbo Frames: Disabled
+Transmit and receive flow control status: Disabled
+Receive TCP Segment Aggregation: Disabled
+Transmit TCP Segmentation Offload: Enabled
+	Transmit TCP Segmentation Offload Packets Transmitted: 9209656
+	Transmit TCP Segmentation Offload Maximum Packet Size: 10206
+Transmit Q0 Statistics:
+	Transmit Q Packets: 347364886
+	Transmit Q Multicast Packets: 250184
+	Transmit Q Broadcast Packets: 31518
+	Transmit Q Bytes: 117829849983
+	Transmit Q No Buffers: 0
+	Transmit Q Dropped Packets: 0
+	Transmit SWQ Cur Packets: 0
+	Transmit SWQ Max Packets: 17
+	Transmit SWQ Dropped Packets: 0
+	Transmit OFQ Cur Packets: 0
+	Transmit OFQ Max Packets: 0
+Transmit Q1 Statistics:
+	Transmit Q Packets: 649567757
+	Transmit Q Multicast Packets: 15788
+	Transmit Q Broadcast Packets: 62247
+	Transmit Q Bytes: 220927408419
+	Transmit Q No Buffers: 0
+	Transmit Q Dropped Packets: 0
+	Transmit SWQ Cur Packets: 0
+	Transmit SWQ Max Packets: 12
+	Transmit SWQ Dropped Packets: 0
+	Transmit OFQ Cur Packets: 0
+	Transmit OFQ Max Packets: 0
+Receive Q0 Statistics:
+	Receive Q Packets: 42937986
+	Receive Q Multicast Packets: 18880973
+	Receive Q Broadcast Packets: 23861724
+	Receive Q Bytes: 3080605334
+	Receive Q No Buffers: 0
+	Receive Q No Private Buffers: 0
+	Receive Q Errors: 0
+	Receive Q Dropped Packets: 0
+Receive Q1 Statistics:
+	Receive Q Packets: 526661717
+	Receive Q Multicast Packets: 0
+	Receive Q Broadcast Packets: 0
+	Receive Q Bytes: 203019419543
+	Receive Q No Buffers: 0
+	Receive Q No Private Buffers: 2
+	Receive Q Errors: 0
+	Receive Q Dropped Packets: 0
+Receive Q2 Statistics:
+	Receive Q Packets: 610111244
+	Receive Q Multicast Packets: 0
+	Receive Q Broadcast Packets: 0
+	Receive Q Bytes: 365607320680
+	Receive Q No Buffers: 0
+	Receive Q No Private Buffers: 61
+	Receive Q Errors: 0
+	Receive Q Dropped Packets: 0
+SLI PORT Event Counters: 
+	Error Events: 0
+	Over-Temp Events: 0
+	Norm-Temp Events: 0
+	NVLOG Events: 0
+	Out of RQE Events: 0
+	Solicited Events: 0
+Adapter Physical Port Counters: 
+	Total Number of Packets Sent: 1006320377
+	Number of Unicast Packets Sent: 1005960640
+	Number of Multicast Packets Sent: 265972
+	Number of Broadcast Packets Sent: 93765
+	Total Bytes Sent: 345143627459
+	Number of Unicast Bytes Sent: 4107825561
+	Number of Multicast Bytes Sent: 33349940
+	Number of Broadcast Bytes Sent: 9939842
+	Number of TX Packets without Errors Discarded: 0
+	Number of TX Packets with Errors Dropped: 0
+	Number of Pause Frames Sent: 0
+	Number of Pause ON Frames Sent: 0
+	Number of Pause OFF Frames Sent: 0
+	Number of Frames Failed due to Internal MAC TX Error: 0
+	Number of MAC Control Frames Sent: 0
+	Number of 64-Byte Packets Sent: 1573
+	Number of 65-127 Byte Packets Sent: 39659150
+	Number of 128-255 Byte Packets Sent: 613846044
+	Number of 256-511 Byte Packets Sent: 156680411
+	Number of 512-1023 Byte Packets Sent: 202934001
+	Number of 1024-1518 Byte Packets Sent: 8687345
+	Number of 1519-2047 Byte Packets Sent: 9366202
+	Number of 2048-4095 Byte Packets Sent: 0
+	Number of 4096-8191 Byte Packets Sent: 0
+	Number of 8192-9216 Byte Packets Sent: 0
+	Number of LSO Packets Sent: 9209656
+	Total Number of Packets Received: 1180050186
+	Number of Unicast Packets Received: 1137037228
+	Number of Multicast Packets Received: 19151243
+	Number of Broadcast Packets Received: 23861715
+	Total Bytes Received: 576605841685
+	Number of Unicast Bytes Received: 573286849425
+	Number of Multicast Bytes Received: 1493708749
+	Number of Broadcast Bytes Received: 1825283511
+	Number of Packets Received and Dropped due to Unknown Protocol: 0
+	Number of Received Packets without Errors Discarded: 68527
+	Number of Received Packets with Errors Dropped: 0
+	Number of Packets Received with CRC/FCS Error: 0
+	Number of Frames Received with Alignment Error: 0
+	Number of Packets Received with Symbol Error: 0
+	Number of Pause Frames Received: 0
+	Number of Pause ON Frames Received: 0
+	Number of Pause OFF Frames Received: 0
+	Number of Frames Received that Exceed the Maximum Permitted Frame Size: 0
+	Number of Frames Failed due to Internal MAC RX Error: 0
+	Number of Packets Received That Were Less Than 64 Octets: 0
+	Number of Packets Received That Were Longer Than 1518 Octets: 120619342
+	Number of JABBER Packets Received: 0
+	Number of Fragment Packets Received: 0
+	Number of MAC Control Frames Received: 0
+	Number of MAC Control Frames Received with Unknown Opcode: 0
+	Number of Packets Received with Out of Range Errors: 0
+	Number of Packets Received with In Range Errors : 0
+	Number of Receive VLAN Mismatch Errors: 0
+	Number of Receive Address Match Errors: 1137037228
+	Number of Received Packets Too Short and Dropped (IP Length < IP Header Len): 0
+	Number of Received Packets Too Small and Dropped (IP Length > Pkt Len): 0
+	Number of Received Packets Dropped due to Invalid TCP Length: 0
+	Number of Received Packets with Too Small Headers and Dropped: 0
+	Number of Received Packets with IP Checksum Errors: 0
+	Number of Received RUNT Packets Dropped: 0
+	Number of Received Packets with UDP Checksum Errors: 0
+	Number of Received Packets with TCP Checksum Errors: 0
+	Number of Non-RSS Packets Received: 43016774
+	Number of IPv4 Packets Received: 1142186338
+	Number of IPv6 Packets Received: 258639
+	Number of IPv4 Bytes Received: 573849223709
+	Number of IPv6 Bytes Received: 35529784
+	Number of NIC-Only Packets Received: 1179981659
+	Number of TCP Packets Received: 0
+	Number of iSCSI Packets Received: 0
+	Number of Management Packets Received: 0
+	Number of Unicast Packets Received and Switched: 0
+	Number of Multicast Packets Received and Switched: 0
+	Number of Broadcast Packets Received and Switched: 0
+	Number of Forwarded Packets: 0
+	Number of Times Receive FIFO Overflow Occurred: 0
+	Number of Received Packets Dropped due to Too Many Fragments: 0
+	Number of Received Packets Dropped due to Invalid Queue: 0
+	Number of Received Packets Dropped due to MTU limit Exceeded: 0
+	Number of 64 Byte Packets Received: 388405
+	Number of 65-127 Byte Packets Received: 88892123
+	Number of 128-255 Byte Packets Received: 330864019
+	Number of 256-511 Byte Packets Received: 371030933
+	Number of 512-1023 Byte Packets Received: 247537674
+	Number of 1024-1518 Byte Packets Received: 20717690
+	Number of 1519-2047 Byte Packets Received: 120619342
+	Number of 2048-4095 Byte Packets Received: 0
+	Number of 4096-8191 Byte Packets Received: 0
+	Number of 8192-9216 Byte Packets Received: 0
+DCBX Status: Enabled
+	TLV Exchange Complete
+	TC State   [0x00000009] Enabled
+	PFC State  [0x80000000] Error
+	QCN State  [0x00000000] Disabled
+	APPL State [0x00000009] Enabled
+	Priority Flow Control: Disabled
+	Traffic Class	Bandwidth	Priority
+	-------------	---------	--------
+	   0		   100%		0 1 2 3 4 5 6 7 
+	   1		   0%		
+	   2		   0%		
+	   3		   0%		
+	   4		   0%		
+	   5		   0%		
+	   6		   0%		
+	   7		   0%		
+	Application	Priority
+	-----------	--------
+	   0x8906	3 
+MAC ACL Status: Disabled
+VLAN ACL Status: Disabled
+Controller Version: 00000B00
+
+IEEE 802.3ad Port Statistics:
+-----------------------------
+	Actor System Priority: 0x8000
+	Actor System: 00-90-FA-53-05-90
+	Actor Operational Key: 0xBEEF
+	Actor Port Priority: 0x0080
+	Actor Port: 0x0001
+	Actor State: 
+		LACP activity: Active
+		LACP timeout: Long
+		Aggregation: Aggregatable
+		Synchronization: IN_SYNC
+		Collecting: Enabled
+		Distributing: Enabled
+		Defaulted: False
+		Expired: False
+
+	Partner System Priority: 0x8000
+	Partner System: 54-7F-EE-9A-47-BC
+	Partner Operational Key: 0x000D
+	Partner Port Priority: 0x8000
+	Partner Port: 0x010E
+	Partner State: 
+		LACP activity: Active
+		LACP timeout: Long
+		Aggregation: Aggregatable
+		Synchronization: IN_SYNC
+		Collecting: Enabled
+		Distributing: Enabled
+		Defaulted: False
+		Expired: False
+
+	Received LACPDUs: 236674
+	Transmitted LACPDUs: 234400
+	Received marker PDUs: 0
+	Transmitted marker PDUs: 0
+	Received marker response PDUs: 0
+	Transmitted marker response PDUs: 0
+	Received unknown PDUs: 0
+	Received illegal PDUs: 0
+
+-------------------------------------------------------------
+
+ETHERNET STATISTICS (ent1) :
+Device Type: 10GbE SFP+ SR PCIe2 Converged Network Adapter (df1020e214100f04)
+
+Transmit Statistics:                          Receive Statistics:
+--------------------                          -------------------
+Packets: 919938229                            Packets: 887888388
+Bytes: 288025758380                           Bytes: 442656560465
+Interrupts: 14373967                          Interrupts: 752334731
+Transmit Errors: 0                            Receive Errors: 0
+Packets Dropped: 0                            Packets Dropped: 0
+                                              Bad Packets: 0
+Max Packets on S/W Transmit Queue: 23        
+S/W Transmit Queue Overflow: 0
+Current S/W+H/W Transmit Queue Length: 50
+
+Broadcast Packets: 64228                      Broadcast Packets: 12333313
+Multicast Packets: 238616                     Multicast Packets: 2950985
+No Carrier Sense: 0                           CRC Errors: 21296
+DMA Underrun: 0                               DMA Overrun: 0
+Lost CTS Errors: 0                            Alignment Errors: 0
+Max Collision Errors: 0                       No Resource Errors: 0
+Late Collision Errors: 0                      Receive Collision Errors: 0
+Deferred: 0                                   Packet Too Short Errors: 5
+SQE Test: 0                                   Packet Too Long Errors: 1545
+Timeout Errors: 0                             Packets Discarded by Adapter: 0
+Single Collision Count: 0                     Receiver Start Count: 0
+Multiple Collision Count: 0
+Current HW Transmit Queue Length: 50
+
+General Statistics:
+-------------------
+No mbuf Errors: 0
+Adapter Reset Count: 3
+Adapter Data Rate: 20000
+Driver Flags: Up Broadcast Running 
+	Simplex Promiscuous AlternateAddress 
+	64BitSupport ChecksumOffload LargeSend 
+	DataRateSet 
+
+10GbE SFP+ SR PCIe2 Converged Network Adapter 
+-------------------------------------------------------------
+Device ID: df1020e214100f04
+Version: 1
+Device State: Open
+Physical Port Link Status: Up
+Logical Port Link Status: Up
+Physical Port Speed: 10 Gbps Full Duplex
+PCI Mode: PCI-Express X8
+	PCIe Link Speed: 5.0 GT/s
+	TLP Size: 512
+	MRR Size: 4096
+	Relaxed Ordering: Enabled
+Assigned Interrupt Source Numbers: 
+	258568	NIC
+	258569	NIC
+	258570	NIC
+External Loopback Changeable: No
+External Loopback: Disabled
+Internal Loopback: Disabled
+Physical Port Promiscuous Mode Changeable: Yes
+Physical Port Promiscuous Mode: Enabled
+Logical Port Promiscuous Mode: Enabled
+Physical Port All Multicast Mode Changeable: Yes
+Physical Port All Multicast Mode: Disabled
+Logical Port All Multicast Mode: Disabled
+Multicast Addresses Enabled: 1
+Maximum Exact Match Multicast Filters: 32
+Maximum Inxact Match Multicast Filters: 0
+Physical Port MTU Changeable: Yes
+Physical Port MTU: 1514
+Logical Port MTU: 1514
+Jumbo Frames: Disabled
+Transmit and receive flow control status: Disabled
+Receive TCP Segment Aggregation: Disabled
+Transmit TCP Segmentation Offload: Enabled
+	Transmit TCP Segmentation Offload Packets Transmitted: 5605059
+	Transmit TCP Segmentation Offload Maximum Packet Size: 65230
+Transmit Q0 Statistics:
+	Transmit Q Packets: 416906918
+	Transmit Q Multicast Packets: 236512
+	Transmit Q Broadcast Packets: 42819
+	Transmit Q Bytes: 142004985082
+	Transmit Q No Buffers: 173
+	Transmit Q Dropped Packets: 0
+	Transmit SWQ Cur Packets: 0
+	Transmit SWQ Max Packets: 11
+	Transmit SWQ Dropped Packets: 0
+	Transmit OFQ Cur Packets: 0
+	Transmit OFQ Max Packets: 76
+Transmit Q1 Statistics:
+	Transmit Q Packets: 503032337
+	Transmit Q Multicast Packets: 2104
+	Transmit Q Broadcast Packets: 21409
+	Transmit Q Bytes: 146021141377
+	Transmit Q No Buffers: 82
+	Transmit Q Dropped Packets: 0
+	Transmit SWQ Cur Packets: 0
+	Transmit SWQ Max Packets: 12
+	Transmit SWQ Dropped Packets: 0
+	Transmit OFQ Cur Packets: 0
+	Transmit OFQ Max Packets: 69
+Receive Q0 Statistics:
+	Receive Q Packets: 15664407
+	Receive Q Multicast Packets: 2950985
+	Receive Q Broadcast Packets: 12333318
+	Receive Q Bytes: 1132316900
+	Receive Q No Buffers: 0
+	Receive Q No Private Buffers: 0
+	Receive Q Errors: 0
+	Receive Q Dropped Packets: 0
+Receive Q1 Statistics:
+	Receive Q Packets: 359921936
+	Receive Q Multicast Packets: 0
+	Receive Q Broadcast Packets: 0
+	Receive Q Bytes: 132652599035
+	Receive Q No Buffers: 0
+	Receive Q No Private Buffers: 35
+	Receive Q Errors: 0
+	Receive Q Dropped Packets: 0
+Receive Q2 Statistics:
+	Receive Q Packets: 512302992
+	Receive Q Multicast Packets: 0
+	Receive Q Broadcast Packets: 0
+	Receive Q Bytes: 308871930742
+	Receive Q No Buffers: 0
+	Receive Q No Private Buffers: 31
+	Receive Q Errors: 0
+	Receive Q Dropped Packets: 0
+SLI PORT Event Counters: 
+	Error Events: 0
+	Over-Temp Events: 0
+	Norm-Temp Events: 0
+	NVLOG Events: 0
+	Out of RQE Events: 0
+	Solicited Events: 0
+Adapter Physical Port Counters: 
+	Total Number of Packets Sent: 926438548
+	Number of Unicast Packets Sent: 926135704
+	Number of Multicast Packets Sent: 238616
+	Number of Broadcast Packets Sent: 64228
+	Total Bytes Sent: 293890780929
+	Number of Unicast Bytes Sent: 102709395
+	Number of Multicast Bytes Sent: 31079278
+	Number of Broadcast Bytes Sent: 9120396
+	Number of TX Packets without Errors Discarded: 0
+	Number of TX Packets with Errors Dropped: 0
+	Number of Pause Frames Sent: 0
+	Number of Pause ON Frames Sent: 0
+	Number of Pause OFF Frames Sent: 0
+	Number of Frames Failed due to Internal MAC TX Error: 0
+	Number of MAC Control Frames Sent: 0
+	Number of 64-Byte Packets Sent: 3372
+	Number of 65-127 Byte Packets Sent: 85367410
+	Number of 128-255 Byte Packets Sent: 563355954
+	Number of 256-511 Byte Packets Sent: 124082309
+	Number of 512-1023 Byte Packets Sent: 167787751
+	Number of 1024-1518 Byte Packets Sent: 2388230
+	Number of 1519-2047 Byte Packets Sent: 8307871
+	Number of 2048-4095 Byte Packets Sent: 0
+	Number of 4096-8191 Byte Packets Sent: 0
+	Number of 8192-9216 Byte Packets Sent: 0
+	Number of LSO Packets Sent: 5605059
+	Total Number of Packets Received: 914143793
+	Number of Unicast Packets Received: 872606848
+	Number of Multicast Packets Received: 29182332
+	Number of Broadcast Packets Received: 12333317
+	Total Bytes Received: 448059849884
+	Number of Unicast Bytes Received: 445041357488
+	Number of Multicast Bytes Received: 2110457997
+	Number of Broadcast Bytes Received: 903937877
+	Number of Packets Received and Dropped due to Unknown Protocol: 0
+	Number of Received Packets without Errors Discarded: 1775
+	Number of Received Packets with Errors Dropped: 0
+	Number of Packets Received with CRC/FCS Error: 21296
+	Number of Frames Received with Alignment Error: 0
+	Number of Packets Received with Symbol Error: 0
+	Number of Pause Frames Received: 0
+	Number of Pause ON Frames Received: 0
+	Number of Pause OFF Frames Received: 0
+	Number of Frames Received that Exceed the Maximum Permitted Frame Size: 0
+	Number of Frames Failed due to Internal MAC RX Error: 0
+	Number of Packets Received That Were Less Than 64 Octets: 0
+	Number of Packets Received That Were Longer Than 1518 Octets: 127241710
+	Number of JABBER Packets Received: 1545
+	Number of Fragment Packets Received: 0
+	Number of MAC Control Frames Received: 0
+	Number of MAC Control Frames Received with Unknown Opcode: 0
+	Number of Packets Received with Out of Range Errors: 0
+	Number of Packets Received with In Range Errors : 0
+	Number of Receive VLAN Mismatch Errors: 0
+	Number of Receive Address Match Errors: 872627462
+	Number of Received Packets Too Short and Dropped (IP Length < IP Header Len): 4
+	Number of Received Packets Too Small and Dropped (IP Length > Pkt Len): 1
+	Number of Received Packets Dropped due to Invalid TCP Length: 0
+	Number of Received Packets with Too Small Headers and Dropped: 0
+	Number of Received Packets with IP Checksum Errors: 24
+	Number of Received RUNT Packets Dropped: 0
+	Number of Received Packets with UDP Checksum Errors: 71
+	Number of Received Packets with TCP Checksum Errors: 17
+	Number of Non-RSS Packets Received: 15725254
+	Number of IPv4 Packets Received: 875744652
+	Number of IPv6 Packets Received: 213983
+	Number of IPv4 Bytes Received: 445330541829
+	Number of IPv6 Bytes Received: 31168578
+	Number of NIC-Only Packets Received: 914142018
+	Number of TCP Packets Received: 0
+	Number of iSCSI Packets Received: 0
+	Number of Management Packets Received: 0
+	Number of Unicast Packets Received and Switched: 0
+	Number of Multicast Packets Received and Switched: 0
+	Number of Broadcast Packets Received and Switched: 0
+	Number of Forwarded Packets: 0
+	Number of Times Receive FIFO Overflow Occurred: 0
+	Number of Received Packets Dropped due to Too Many Fragments: 0
+	Number of Received Packets Dropped due to Invalid Queue: 0
+	Number of Received Packets Dropped due to MTU limit Exceeded: 0
+	Number of 64 Byte Packets Received: 443
+	Number of 65-127 Byte Packets Received: 99421752
+	Number of 128-255 Byte Packets Received: 342168553
+	Number of 256-511 Byte Packets Received: 187437139
+	Number of 512-1023 Byte Packets Received: 152173568
+	Number of 1024-1518 Byte Packets Received: 5679332
+	Number of 1519-2047 Byte Packets Received: 127241710
+	Number of 2048-4095 Byte Packets Received: 0
+	Number of 4096-8191 Byte Packets Received: 0
+	Number of 8192-9216 Byte Packets Received: 0
+DCBX Status: Enabled
+	TLV Exchange Complete
+	TC State   [0x00000009] Enabled
+	PFC State  [0x80000000] Error
+	QCN State  [0x00000000] Disabled
+	APPL State [0x00000009] Enabled
+	Priority Flow Control: Disabled
+	Traffic Class	Bandwidth	Priority
+	-------------	---------	--------
+	   0		   100%		0 1 2 3 4 5 6 7 
+	   1		   0%		
+	   2		   0%		
+	   3		   0%		
+	   4		   0%		
+	   5		   0%		
+	   6		   0%		
+	   7		   0%		
+	Application	Priority
+	-----------	--------
+	   0x8906	3 
+MAC ACL Status: Disabled
+VLAN ACL Status: Disabled
+Controller Version: 00000B00
+
+IEEE 802.3ad Port Statistics:
+-----------------------------
+	Actor System Priority: 0x8000
+	Actor System: 00-90-FA-53-05-90
+	Actor Operational Key: 0xBEEF
+	Actor Port Priority: 0x0080
+	Actor Port: 0x0002
+	Actor State: 
+		LACP activity: Active
+		LACP timeout: Long
+		Aggregation: Aggregatable
+		Synchronization: IN_SYNC
+		Collecting: Enabled
+		Distributing: Enabled
+		Defaulted: False
+		Expired: False
+
+	Partner System Priority: 0x8000
+	Partner System: 54-7F-EE-9A-47-BC
+	Partner Operational Key: 0x000D
+	Partner Port Priority: 0x8000
+	Partner Port: 0x020C
+	Partner State: 
+		LACP activity: Active
+		LACP timeout: Long
+		Aggregation: Aggregatable
+		Synchronization: IN_SYNC
+		Collecting: Enabled
+		Distributing: Enabled
+		Defaulted: False
+		Expired: False
+
+	Received LACPDUs: 236675
+	Transmitted LACPDUs: 234399
+	Received marker PDUs: 0
+	Transmitted marker PDUs: 0
+	Received marker response PDUs: 0
+	Transmitted marker response PDUs: 0
+	Received unknown PDUs: 0
+	Received illegal PDUs: 0
+
+-------------------------------------------------------------
+
+ETHERNET STATISTICS (ent4) :
+Device Type: 10GbE SFP+ SR PCIe2 Converged Network Adapter (df1020e214100f04)
+
+Transmit Statistics:                          Receive Statistics:
+--------------------                          -------------------
+Packets: 773778132                            Packets: 2369921270
+Bytes: 283942484937                           Bytes: 2540229972093
+Interrupts: 12090280                          Interrupts: 1004433492
+Transmit Errors: 0                            Receive Errors: 0
+Packets Dropped: 0                            Packets Dropped: 0
+                                              Bad Packets: 0
+Max Packets on S/W Transmit Queue: 22        
+S/W Transmit Queue Overflow: 0
+Current S/W+H/W Transmit Queue Length: 80
+
+Broadcast Packets: 38874                      Broadcast Packets: 12425620
+Multicast Packets: 234484                     Multicast Packets: 2937016
+No Carrier Sense: 0                           CRC Errors: 5284
+DMA Underrun: 0                               DMA Overrun: 0
+Lost CTS Errors: 0                            Alignment Errors: 0
+Max Collision Errors: 0                       No Resource Errors: 0
+Late Collision Errors: 0                      Receive Collision Errors: 0
+Deferred: 0                                   Packet Too Short Errors: 1
+SQE Test: 0                                   Packet Too Long Errors: 274
+Timeout Errors: 0                             Packets Discarded by Adapter: 0
+Single Collision Count: 0                     Receiver Start Count: 0
+Multiple Collision Count: 0
+Current HW Transmit Queue Length: 80
+
+General Statistics:
+-------------------
+No mbuf Errors: 0
+Adapter Reset Count: 3
+Adapter Data Rate: 20000
+Driver Flags: Up Broadcast Running 
+	Simplex Promiscuous AlternateAddress 
+	64BitSupport ChecksumOffload LargeSend 
+	DataRateSet 
+
+10GbE SFP+ SR PCIe2 Converged Network Adapter 
+-------------------------------------------------------------
+Device ID: df1020e214100f04
+Version: 1
+Device State: Open
+Physical Port Link Status: Up
+Logical Port Link Status: Up
+Physical Port Speed: 10 Gbps Full Duplex
+PCI Mode: PCI-Express X8
+	PCIe Link Speed: 5.0 GT/s
+	TLP Size: 512
+	MRR Size: 4096
+	Relaxed Ordering: Enabled
+Assigned Interrupt Source Numbers: 
+	153096	NIC
+	153097	NIC
+	153098	NIC
+External Loopback Changeable: No
+External Loopback: Disabled
+Internal Loopback: Disabled
+Physical Port Promiscuous Mode Changeable: Yes
+Physical Port Promiscuous Mode: Enabled
+Logical Port Promiscuous Mode: Enabled
+Physical Port All Multicast Mode Changeable: Yes
+Physical Port All Multicast Mode: Disabled
+Logical Port All Multicast Mode: Disabled
+Multicast Addresses Enabled: 1
+Maximum Exact Match Multicast Filters: 32
+Maximum Inxact Match Multicast Filters: 0
+Physical Port MTU Changeable: Yes
+Physical Port MTU: 1514
+Logical Port MTU: 1514
+Jumbo Frames: Disabled
+Transmit and receive flow control status: Disabled
+Receive TCP Segment Aggregation: Disabled
+Transmit TCP Segmentation Offload: Enabled
+	Transmit TCP Segmentation Offload Packets Transmitted: 11599962
+	Transmit TCP Segmentation Offload Maximum Packet Size: 65230
+Transmit Q0 Statistics:
+	Transmit Q Packets: 277309957
+	Transmit Q Multicast Packets: 234466
+	Transmit Q Broadcast Packets: 16047
+	Transmit Q Bytes: 90963947402
+	Transmit Q No Buffers: 0
+	Transmit Q Dropped Packets: 0
+	Transmit SWQ Cur Packets: 0
+	Transmit SWQ Max Packets: 11
+	Transmit SWQ Dropped Packets: 0
+	Transmit OFQ Cur Packets: 0
+	Transmit OFQ Max Packets: 0
+Transmit Q1 Statistics:
+	Transmit Q Packets: 496469339
+	Transmit Q Multicast Packets: 18
+	Transmit Q Broadcast Packets: 22827
+	Transmit Q Bytes: 192978988609
+	Transmit Q No Buffers: 0
+	Transmit Q Dropped Packets: 0
+	Transmit SWQ Cur Packets: 0
+	Transmit SWQ Max Packets: 11
+	Transmit SWQ Dropped Packets: 0
+	Transmit OFQ Cur Packets: 0
+	Transmit OFQ Max Packets: 0
+Receive Q0 Statistics:
+	Receive Q Packets: 15926342
+	Receive Q Multicast Packets: 2937016
+	Receive Q Broadcast Packets: 12425622
+	Receive Q Bytes: 1175872703
+	Receive Q No Buffers: 0
+	Receive Q No Private Buffers: 0
+	Receive Q Errors: 0
+	Receive Q Dropped Packets: 0
+Receive Q1 Statistics:
+	Receive Q Packets: 2034081590
+	Receive Q Multicast Packets: 0
+	Receive Q Broadcast Packets: 0
+	Receive Q Bytes: 2426831320553
+	Receive Q No Buffers: 0
+	Receive Q No Private Buffers: 113
+	Receive Q Errors: 0
+	Receive Q Dropped Packets: 0
+Receive Q2 Statistics:
+	Receive Q Packets: 319916486
+	Receive Q Multicast Packets: 0
+	Receive Q Broadcast Packets: 0
+	Receive Q Bytes: 112226235105
+	Receive Q No Buffers: 0
+	Receive Q No Private Buffers: 119
+	Receive Q Errors: 0
+	Receive Q Dropped Packets: 0
+SLI PORT Event Counters: 
+	Error Events: 0
+	Over-Temp Events: 0
+	Norm-Temp Events: 0
+	NVLOG Events: 0
+	Out of RQE Events: 0
+	Solicited Events: 0
+Adapter Physical Port Counters: 
+	Total Number of Packets Sent: 787207956
+	Number of Unicast Packets Sent: 786934598
+	Number of Multicast Packets Sent: 234484
+	Number of Broadcast Packets Sent: 38874
+	Total Bytes Sent: 289735724714
+	Number of Unicast Bytes Sent: 247288206
+	Number of Multicast Bytes Sent: 30009396
+	Number of Broadcast Bytes Sent: 5520168
+	Number of TX Packets without Errors Discarded: 0
+	Number of TX Packets with Errors Dropped: 0
+	Number of Pause Frames Sent: 0
+	Number of Pause ON Frames Sent: 0
+	Number of Pause OFF Frames Sent: 0
+	Number of Frames Failed due to Internal MAC TX Error: 0
+	Number of MAC Control Frames Sent: 0
+	Number of 64-Byte Packets Sent: 2570
+	Number of 65-127 Byte Packets Sent: 42156951
+	Number of 128-255 Byte Packets Sent: 423081420
+	Number of 256-511 Byte Packets Sent: 149393490
+	Number of 512-1023 Byte Packets Sent: 170672110
+	Number of 1024-1518 Byte Packets Sent: 7725245
+	Number of 1519-2047 Byte Packets Sent: 19030554
+	Number of 2048-4095 Byte Packets Sent: 0
+	Number of 4096-8191 Byte Packets Sent: 0
+	Number of 8192-9216 Byte Packets Sent: 0
+	Number of LSO Packets Sent: 11599962
+	Total Number of Packets Received: 2371013436
+	Number of Unicast Packets Received: 2354574775
+	Number of Multicast Packets Received: 4007756
+	Number of Broadcast Packets Received: 12425621
+	Total Bytes Received: 2549864706897
+	Number of Unicast Bytes Received: 2548528232874
+	Number of Multicast Bytes Received: 396928268
+	Number of Broadcast Bytes Received: 938665321
+	Number of Packets Received and Dropped due to Unknown Protocol: 0
+	Number of Received Packets without Errors Discarded: 12559
+	Number of Received Packets with Errors Dropped: 0
+	Number of Packets Received with CRC/FCS Error: 5284
+	Number of Frames Received with Alignment Error: 0
+	Number of Packets Received with Symbol Error: 0
+	Number of Pause Frames Received: 0
+	Number of Pause ON Frames Received: 0
+	Number of Pause OFF Frames Received: 0
+	Number of Frames Received that Exceed the Maximum Permitted Frame Size: 0
+	Number of Frames Failed due to Internal MAC RX Error: 0
+	Number of Packets Received That Were Less Than 64 Octets: 0
+	Number of Packets Received That Were Longer Than 1518 Octets: 1377990425
+	Number of JABBER Packets Received: 274
+	Number of Fragment Packets Received: 0
+	Number of MAC Control Frames Received: 0
+	Number of MAC Control Frames Received with Unknown Opcode: 0
+	Number of Packets Received with Out of Range Errors: 0
+	Number of Packets Received with In Range Errors : 0
+	Number of Receive VLAN Mismatch Errors: 0
+	Number of Receive Address Match Errors: 2354579629
+	Number of Received Packets Too Short and Dropped (IP Length < IP Header Len): 1
+	Number of Received Packets Too Small and Dropped (IP Length > Pkt Len): 0
+	Number of Received Packets Dropped due to Invalid TCP Length: 0
+	Number of Received Packets with Too Small Headers and Dropped: 0
+	Number of Received Packets with IP Checksum Errors: 4
+	Number of Received RUNT Packets Dropped: 0
+	Number of Received Packets with UDP Checksum Errors: 7
+	Number of Received Packets with TCP Checksum Errors: 3
+	Number of Non-RSS Packets Received: 15980090
+	Number of IPv4 Packets Received: 2357909733
+	Number of IPv6 Packets Received: 197097
+	Number of IPv4 Bytes Received: 2548857524738
+	Number of IPv6 Bytes Received: 28375093
+	Number of NIC-Only Packets Received: 2371000877
+	Number of TCP Packets Received: 0
+	Number of iSCSI Packets Received: 0
+	Number of Management Packets Received: 0
+	Number of Unicast Packets Received and Switched: 0
+	Number of Multicast Packets Received and Switched: 0
+	Number of Broadcast Packets Received and Switched: 0
+	Number of Forwarded Packets: 0
+	Number of Times Receive FIFO Overflow Occurred: 0
+	Number of Received Packets Dropped due to Too Many Fragments: 0
+	Number of Received Packets Dropped due to Invalid Queue: 0
+	Number of Received Packets Dropped due to MTU limit Exceeded: 0
+	Number of 64 Byte Packets Received: 159
+	Number of 65-127 Byte Packets Received: 52164406
+	Number of 128-255 Byte Packets Received: 382427689
+	Number of 256-511 Byte Packets Received: 208734832
+	Number of 512-1023 Byte Packets Received: 319938503
+	Number of 1024-1518 Byte Packets Received: 29752138
+	Number of 1519-2047 Byte Packets Received: 1377990425
+	Number of 2048-4095 Byte Packets Received: 0
+	Number of 4096-8191 Byte Packets Received: 0
+	Number of 8192-9216 Byte Packets Received: 0
+DCBX Status: Enabled
+	TLV Exchange Complete
+	TC State   [0x00000009] Enabled
+	PFC State  [0x80000000] Error
+	QCN State  [0x00000000] Disabled
+	APPL State [0x00000009] Enabled
+	Priority Flow Control: Disabled
+	Traffic Class	Bandwidth	Priority
+	-------------	---------	--------
+	   0		   100%		0 1 2 3 4 5 6 7 
+	   1		   0%		
+	   2		   0%		
+	   3		   0%		
+	   4		   0%		
+	   5		   0%		
+	   6		   0%		
+	   7		   0%		
+	Application	Priority
+	-----------	--------
+	   0x8906	3 
+MAC ACL Status: Disabled
+VLAN ACL Status: Disabled
+Controller Version: 00000B00
+
+IEEE 802.3ad Port Statistics:
+-----------------------------
+	Actor System Priority: 0x8000
+	Actor System: 00-90-FA-53-05-90
+	Actor Operational Key: 0xBEEF
+	Actor Port Priority: 0x0080
+	Actor Port: 0x0005
+	Actor State: 
+		LACP activity: Active
+		LACP timeout: Long
+		Aggregation: Aggregatable
+		Synchronization: IN_SYNC
+		Collecting: Enabled
+		Distributing: Enabled
+		Defaulted: False
+		Expired: False
+
+	Partner System Priority: 0x8000
+	Partner System: 54-7F-EE-9A-47-BC
+	Partner Operational Key: 0x000D
+	Partner Port Priority: 0x8000
+	Partner Port: 0x010F
+	Partner State: 
+		LACP activity: Active
+		LACP timeout: Long
+		Aggregation: Aggregatable
+		Synchronization: IN_SYNC
+		Collecting: Enabled
+		Distributing: Enabled
+		Defaulted: False
+		Expired: False
+
+	Received LACPDUs: 236675
+	Transmitted LACPDUs: 234399
+	Received marker PDUs: 0
+	Transmitted marker PDUs: 0
+	Received marker response PDUs: 0
+	Transmitted marker response PDUs: 0
+	Received unknown PDUs: 0
+	Received illegal PDUs: 0
+
+-------------------------------------------------------------
+
+ETHERNET STATISTICS (ent5) :
+Device Type: 10GbE SFP+ SR PCIe2 Converged Network Adapter (df1020e214100f04)
+
+Transmit Statistics:                          Receive Statistics:
+--------------------                          -------------------
+Packets: 3116042615                           Packets: 1252545852
+Bytes: 3412317197609                          Bytes: 422946068736
+Interrupts: 48685990                          Interrupts: 1195094009
+Transmit Errors: 0                            Receive Errors: 0
+Packets Dropped: 0                            Packets Dropped: 0
+                                              Bad Packets: 0
+Max Packets on S/W Transmit Queue: 176       
+S/W Transmit Queue Overflow: 0
+Current S/W+H/W Transmit Queue Length: 43
+
+Broadcast Packets: 275439                     Broadcast Packets: 21035139
+Multicast Packets: 265972                     Multicast Packets: 3185139
+No Carrier Sense: 0                           CRC Errors: 41
+DMA Underrun: 0                               DMA Overrun: 0
+Lost CTS Errors: 0                            Alignment Errors: 0
+Max Collision Errors: 0                       No Resource Errors: 0
+Late Collision Errors: 0                      Receive Collision Errors: 0
+Deferred: 0                                   Packet Too Short Errors: 0
+SQE Test: 0                                   Packet Too Long Errors: 1
+Timeout Errors: 0                             Packets Discarded by Adapter: 0
+Single Collision Count: 0                     Receiver Start Count: 0
+Multiple Collision Count: 0
+Current HW Transmit Queue Length: 43
+
+General Statistics:
+-------------------
+No mbuf Errors: 0
+Adapter Reset Count: 3
+Adapter Data Rate: 20000
+Driver Flags: Up Broadcast Running 
+	Simplex Promiscuous AlternateAddress 
+	64BitSupport ChecksumOffload LargeSend 
+	DataRateSet 
+
+10GbE SFP+ SR PCIe2 Converged Network Adapter 
+-------------------------------------------------------------
+Device ID: df1020e214100f04
+Version: 1
+Device State: Open
+Physical Port Link Status: Up
+Logical Port Link Status: Up
+Physical Port Speed: 10 Gbps Full Duplex
+PCI Mode: PCI-Express X8
+	PCIe Link Speed: 5.0 GT/s
+	TLP Size: 512
+	MRR Size: 4096
+	Relaxed Ordering: Enabled
+Assigned Interrupt Source Numbers: 
+	153104	NIC
+	153105	NIC
+	153106	NIC
+External Loopback Changeable: No
+External Loopback: Disabled
+Internal Loopback: Disabled
+Physical Port Promiscuous Mode Changeable: Yes
+Physical Port Promiscuous Mode: Enabled
+Logical Port Promiscuous Mode: Enabled
+Physical Port All Multicast Mode Changeable: Yes
+Physical Port All Multicast Mode: Disabled
+Logical Port All Multicast Mode: Disabled
+Multicast Addresses Enabled: 1
+Maximum Exact Match Multicast Filters: 32
+Maximum Inxact Match Multicast Filters: 0
+Physical Port MTU Changeable: Yes
+Physical Port MTU: 1514
+Logical Port MTU: 1514
+Jumbo Frames: Disabled
+Transmit and receive flow control status: Disabled
+Receive TCP Segment Aggregation: Disabled
+Transmit TCP Segmentation Offload: Enabled
+	Transmit TCP Segmentation Offload Packets Transmitted: 1614
+	Transmit TCP Segmentation Offload Maximum Packet Size: 65230
+Transmit Q0 Statistics:
+	Transmit Q Packets: 1626449248
+	Transmit Q Multicast Packets: 250189
+	Transmit Q Broadcast Packets: 177892
+	Transmit Q Bytes: 1879053003024
+	Transmit Q No Buffers: 583
+	Transmit Q Dropped Packets: 0
+	Transmit SWQ Cur Packets: 0
+	Transmit SWQ Max Packets: 113
+	Transmit SWQ Dropped Packets: 0
+	Transmit OFQ Cur Packets: 0
+	Transmit OFQ Max Packets: 109
+Transmit Q1 Statistics:
+	Transmit Q Packets: 1489595796
+	Transmit Q Multicast Packets: 15783
+	Transmit Q Broadcast Packets: 97547
+	Transmit Q Bytes: 1533266336119
+	Transmit Q No Buffers: 454
+	Transmit Q Dropped Packets: 0
+	Transmit SWQ Cur Packets: 0
+	Transmit SWQ Max Packets: 63
+	Transmit SWQ Dropped Packets: 0
+	Transmit OFQ Cur Packets: 0
+	Transmit OFQ Max Packets: 373
+Receive Q0 Statistics:
+	Receive Q Packets: 24229500
+	Receive Q Multicast Packets: 3185139
+	Receive Q Broadcast Packets: 21035143
+	Receive Q Bytes: 1762484069
+	Receive Q No Buffers: 0
+	Receive Q No Private Buffers: 0
+	Receive Q Errors: 0
+	Receive Q Dropped Packets: 0
+Receive Q1 Statistics:
+	Receive Q Packets: 601938200
+	Receive Q Multicast Packets: 0
+	Receive Q Broadcast Packets: 0
+	Receive Q Bytes: 233508958322
+	Receive Q No Buffers: 0
+	Receive Q No Private Buffers: 1
+	Receive Q Errors: 0
+	Receive Q Dropped Packets: 0
+Receive Q2 Statistics:
+	Receive Q Packets: 626379735
+	Receive Q Multicast Packets: 0
+	Receive Q Broadcast Packets: 0
+	Receive Q Bytes: 187675169269
+	Receive Q No Buffers: 0
+	Receive Q No Private Buffers: 194
+	Receive Q Errors: 0
+	Receive Q Dropped Packets: 0
+SLI PORT Event Counters: 
+	Error Events: 0
+	Over-Temp Events: 0
+	Norm-Temp Events: 0
+	NVLOG Events: 0
+	Out of RQE Events: 0
+	Solicited Events: 0
+Adapter Physical Port Counters: 
+	Total Number of Packets Sent: 3116240227
+	Number of Unicast Packets Sent: 3115698816
+	Number of Multicast Packets Sent: 265972
+	Number of Broadcast Packets Sent: 275439
+	Total Bytes Sent: 3426530943303
+	Number of Unicast Bytes Sent: 1695268766
+	Number of Multicast Bytes Sent: 33349940
+	Number of Broadcast Bytes Sent: 23291709
+	Number of TX Packets without Errors Discarded: 0
+	Number of TX Packets with Errors Dropped: 0
+	Number of Pause Frames Sent: 0
+	Number of Pause ON Frames Sent: 0
+	Number of Pause OFF Frames Sent: 0
+	Number of Frames Failed due to Internal MAC TX Error: 0
+	Number of MAC Control Frames Sent: 0
+	Number of 64-Byte Packets Sent: 2102153
+	Number of 65-127 Byte Packets Sent: 41785353
+	Number of 128-255 Byte Packets Sent: 575376732
+	Number of 256-511 Byte Packets Sent: 198686911
+	Number of 512-1023 Byte Packets Sent: 418480948
+	Number of 1024-1518 Byte Packets Sent: 35313117
+	Number of 1519-2047 Byte Packets Sent: 1869349395
+	Number of 2048-4095 Byte Packets Sent: 0
+	Number of 4096-8191 Byte Packets Sent: 0
+	Number of 8192-9216 Byte Packets Sent: 0
+	Number of LSO Packets Sent: 1614
+	Total Number of Packets Received: 1275639002
+	Number of Unicast Packets Received: 1228337719
+	Number of Multicast Packets Received: 26266080
+	Number of Broadcast Packets Received: 21035162
+	Total Bytes Received: 429601092103
+	Number of Unicast Bytes Received: 426111270800
+	Number of Multicast Bytes Received: 1914634988
+	Number of Broadcast Bytes Received: 1575181835
+	Number of Packets Received and Dropped due to Unknown Protocol: 0
+	Number of Received Packets without Errors Discarded: 10387
+	Number of Received Packets with Errors Dropped: 0
+	Number of Packets Received with CRC/FCS Error: 41
+	Number of Frames Received with Alignment Error: 0
+	Number of Packets Received with Symbol Error: 0
+	Number of Pause Frames Received: 0
+	Number of Pause ON Frames Received: 0
+	Number of Pause OFF Frames Received: 0
+	Number of Frames Received that Exceed the Maximum Permitted Frame Size: 0
+	Number of Frames Failed due to Internal MAC RX Error: 0
+	Number of Packets Received That Were Less Than 64 Octets: 0
+	Number of Packets Received That Were Longer Than 1518 Octets: 26518766
+	Number of JABBER Packets Received: 1
+	Number of Fragment Packets Received: 0
+	Number of MAC Control Frames Received: 0
+	Number of MAC Control Frames Received with Unknown Opcode: 0
+	Number of Packets Received with Out of Range Errors: 0
+	Number of Packets Received with In Range Errors : 0
+	Number of Receive VLAN Mismatch Errors: 0
+	Number of Receive Address Match Errors: 1228337760
+	Number of Received Packets Too Short and Dropped (IP Length < IP Header Len): 0
+	Number of Received Packets Too Small and Dropped (IP Length > Pkt Len): 0
+	Number of Received Packets Dropped due to Invalid TCP Length: 0
+	Number of Received Packets with Too Small Headers and Dropped: 0
+	Number of Received Packets with IP Checksum Errors: 0
+	Number of Received RUNT Packets Dropped: 0
+	Number of Received Packets with UDP Checksum Errors: 0
+	Number of Received Packets with TCP Checksum Errors: 0
+	Number of Non-RSS Packets Received: 24263556
+	Number of IPv4 Packets Received: 1233234952
+	Number of IPv6 Packets Received: 280492
+	Number of IPv4 Bytes Received: 426597904081
+	Number of IPv6 Bytes Received: 38341158
+	Number of NIC-Only Packets Received: 1275628615
+	Number of TCP Packets Received: 0
+	Number of iSCSI Packets Received: 0
+	Number of Management Packets Received: 0
+	Number of Unicast Packets Received and Switched: 0
+	Number of Multicast Packets Received and Switched: 0
+	Number of Broadcast Packets Received and Switched: 0
+	Number of Forwarded Packets: 0
+	Number of Times Receive FIFO Overflow Occurred: 0
+	Number of Received Packets Dropped due to Too Many Fragments: 0
+	Number of Received Packets Dropped due to Invalid Queue: 0
+	Number of Received Packets Dropped due to MTU limit Exceeded: 0
+	Number of 64 Byte Packets Received: 225467
+	Number of 65-127 Byte Packets Received: 74125626
+	Number of 128-255 Byte Packets Received: 758153773
+	Number of 256-511 Byte Packets Received: 220134286
+	Number of 512-1023 Byte Packets Received: 184773781
+	Number of 1024-1518 Byte Packets Received: 11707262
+	Number of 1519-2047 Byte Packets Received: 26518766
+	Number of 2048-4095 Byte Packets Received: 0
+	Number of 4096-8191 Byte Packets Received: 0
+	Number of 8192-9216 Byte Packets Received: 0
+DCBX Status: Enabled
+	TLV Exchange Complete
+	TC State   [0x00000009] Enabled
+	PFC State  [0x80000000] Error
+	QCN State  [0x00000000] Disabled
+	APPL State [0x00000009] Enabled
+	Priority Flow Control: Disabled
+	Traffic Class	Bandwidth	Priority
+	-------------	---------	--------
+	   0		   100%		0 1 2 3 4 5 6 7 
+	   1		   0%		
+	   2		   0%		
+	   3		   0%		
+	   4		   0%		
+	   5		   0%		
+	   6		   0%		
+	   7		   0%		
+	Application	Priority
+	-----------	--------
+	   0x8906	3 
+MAC ACL Status: Disabled
+VLAN ACL Status: Disabled
+Controller Version: 00000B00
+
+IEEE 802.3ad Port Statistics:
+-----------------------------
+	Actor System Priority: 0x8000
+	Actor System: 00-90-FA-53-05-90
+	Actor Operational Key: 0xBEEF
+	Actor Port Priority: 0x0080
+	Actor Port: 0x0006
+	Actor State: 
+		LACP activity: Active
+		LACP timeout: Long
+		Aggregation: Aggregatable
+		Synchronization: IN_SYNC
+		Collecting: Enabled
+		Distributing: Enabled
+		Defaulted: False
+		Expired: False
+
+	Partner System Priority: 0x8000
+	Partner System: 54-7F-EE-9A-47-BC
+	Partner Operational Key: 0x000D
+	Partner Port Priority: 0x8000
+	Partner Port: 0x020D
+	Partner State: 
+		LACP activity: Active
+		LACP timeout: Long
+		Aggregation: Aggregatable
+		Synchronization: IN_SYNC
+		Collecting: Enabled
+		Distributing: Enabled
+		Defaulted: False
+		Expired: False
+
+	Received LACPDUs: 236675
+	Transmitted LACPDUs: 234399
+	Received marker PDUs: 0
+	Transmitted marker PDUs: 0
+	Received marker response PDUs: 0
+	Transmitted marker response PDUs: 0
+	Received unknown PDUs: 0
+	Received illegal PDUs: 0
+
+--------------------------------------------------------------
+Virtual Adapter: ent11
+
+ETHERNET STATISTICS (ent11) :
+Device Type: Virtual I/O Ethernet Adapter (l-lan)
+Hardware Address: 6e:99:9a:31:06:07
+
+Transmit Statistics:                          Receive Statistics:
+--------------------                          -------------------
+Packets: 388742183                            Packets: 176743246
+Bytes: 465543449926                           Bytes: 118593571343
+Interrupts: 0                                 Interrupts: 120254367
+Transmit Errors: 0                            Receive Errors: 0
+Packets Dropped: 0                            Packets Dropped: 0
+                                              Bad Packets: 0
+
+Max Packets on S/W Transmit Queue: 0         
+S/W Transmit Queue Overflow: 0
+Current S/W+H/W Transmit Queue Length: 0
+
+Broadcast Packets: 3361256                    Broadcast Packets: 423655
+Multicast Packets: 4481044                    Multicast Packets: 65348
+No Carrier Sense: 0                           CRC Errors: 0
+DMA Underrun: 0                               DMA Overrun: 0
+Lost CTS Errors: 0                            Alignment Errors: 0
+Max Collision Errors: 0                       No Resource Errors: 0
+Late Collision Errors: 0                      Receive Collision Errors: 0
+Deferred: 0                                   Packet Too Short Errors: 0
+SQE Test: 0                                   Packet Too Long Errors: 0
+Timeout Errors: 0                             Packets Discarded by Adapter: 0
+Single Collision Count: 0                     Receiver Start Count: 0
+Multiple Collision Count: 0
+Current HW Transmit Queue Length: 0
+
+General Statistics:
+-------------------
+No mbuf Errors: 0
+Adapter Reset Count: 0
+Adapter Data Rate: 20000
+Driver Flags: Up Broadcast Running 
+	Simplex Promiscuous AllMulticast 
+	64BitSupport ChecksumOffload DataRateSet 
+
+Virtual I/O Ethernet Adapter (l-lan) Specific Statistics:
+---------------------------------------------------------
+RQ Length: 9505
+Trunk Adapter: True
+  Priority: 2  Active: True
+Filter MCast Mode: False
+Filters: 255
+  Enabled: 0  Queued: 0  Overflow: 0
+LAN State: Operational
+
+Hypervisor Send Failures: 6986
+  Receiver Failures: 6986
+  Send Errors: 0
+Hypervisor Receive Failures: 0
+
+Invalid VLAN ID Packets: 0
+
+ILLAN Attributes: 0000000000003203 [0000000000002200]
+
+Port VLAN ID:     7
+VLAN Tag IDs:   229
+
+Switch ID: ETHERNET0
+Switch Mode: VEB
+Management VLAN: Disabled
+
+Hypervisor Information  
+  Virtual Memory        
+    Total (KB)                157
+  I/O Memory            
+    VRM Minimum (KB)          180
+    VRM Desired (KB)          180
+    DMA Max Min (KB)          256
+
+Transmit Information    
+  Transmit Buffers       
+    Buffer Size             65536
+    Buffers                    32
+    History             
+      No Buffers                0
+  Virtual Memory        
+    Total (KB)               2048
+  I/O Memory            
+    VRM Minimum (KB)         2176
+    VRM Desired (KB)        16384
+    DMA Max Min (KB)        16384
+
+Receive Information     
+  Receive Buffers        
+    Buffer Type              Tiny    Small   Medium    Large     Huge
+    Min Buffers              4096     4096     1024      128       96
+    Max Buffers              4096     4096     1024      128       96
+    Allocated                4096     4096     1024      128       96
+    Registered               4096     4096     1024      128       96
+    History             
+      Max Allocated          4096     4096     1024      128       96
+      Lowest Registered      4095     3722     1020      124       91
+  Virtual Memory        
+    Minimum (KB)             2048     8192    16384     4096 6144
+    Maximum (KB)             2048     8192    16384     4096     6144
+  I/O Memory            
+    VRM Minimum (KB)        32768    32768    20480     4608     6528
+    VRM Desired (KB)        32768    32768    20480     4608     6528
+    DMA Max Min (KB)        32768    32768    32768     8192     8192
+
+I/O Memory Information  
+  Total VRM Minimum (KB)    99508
+  Total VRM Desired (KB)   113716
+  Total DMA Max Min (KB)   131328
+
+--------------------------------------------------------------
+Virtual Adapter: ent10
+
+ETHERNET STATISTICS (ent10) :
+Device Type: Virtual I/O Ethernet Adapter (l-lan)
+Hardware Address: 6e:99:9a:31:06:06
+
+Transmit Statistics:                          Receive Statistics:
+--------------------                          -------------------
+Packets: 4920933119                           Packets: 5629010161
+Bytes: 3420914731698                          Bytes: 4204332611372
+Interrupts: 0                                 Interrupts: 3080562089
+Transmit Errors: 0                            Receive Errors: 0
+Packets Dropped: 0                            Packets Dropped: 3030
+                                              Bad Packets: 0
+
+Max Packets on S/W Transmit Queue: 0         
+S/W Transmit Queue Overflow: 0
+Current S/W+H/W Transmit Queue Length: 0
+
+Broadcast Packets: 53957                      Broadcast Packets: 48599
+Multicast Packets: 5402263                    Multicast Packets: 2101
+No Carrier Sense: 0                           CRC Errors: 0
+DMA Underrun: 0                               DMA Overrun: 0
+Lost CTS Errors: 0                            Alignment Errors: 0
+Max Collision Errors: 0                       No Resource Errors: 3030
+Late Collision Errors: 0                      Receive Collision Errors: 0
+Deferred: 0                                   Packet Too Short Errors: 0
+SQE Test: 0                                   Packet Too Long Errors: 0
+Timeout Errors: 0                             Packets Discarded by Adapter: 0
+Single Collision Count: 0                     Receiver Start Count: 0
+Multiple Collision Count: 0
+Current HW Transmit Queue Length: 0
+
+General Statistics:
+-------------------
+No mbuf Errors: 0
+Adapter Reset Count: 0
+Adapter Data Rate: 20000
+Driver Flags: Up Broadcast Running 
+	Simplex Promiscuous AllMulticast 
+	64BitSupport ChecksumOffload DataRateSet 
+
+Virtual I/O Ethernet Adapter (l-lan) Specific Statistics:
+---------------------------------------------------------
+RQ Length: 9505
+Trunk Adapter: True
+  Priority: 2  Active: True
+Filter MCast Mode: False
+Filters: 255
+  Enabled: 0  Queued: 0  Overflow: 0
+LAN State: Operational
+
+Hypervisor Send Failures: 282088
+  Receiver Failures: 282088
+  Send Errors: 0
+Hypervisor Receive Failures: 3030
+
+Invalid VLAN ID Packets: 0
+
+ILLAN Attributes: 0000000000003203 [0000000000002200]
+
+Port VLAN ID:     6
+VLAN Tag IDs:   302
+
+Switch ID: ETHERNET0
+Switch Mode: VEB
+Management VLAN: Disabled
+
+Hypervisor Information  
+  Virtual Memory        
+    Total (KB)                157
+  I/O Memory            
+    VRM Minimum (KB)          180
+    VRM Desired (KB)          180
+    DMA Max Min (KB)          256
+
+Transmit Information    
+  Transmit Buffers       
+    Buffer Size             65536
+    Buffers                    32
+    History             
+      No Buffers                0
+  Virtual Memory        
+    Total (KB)               2048
+  I/O Memory            
+    VRM Minimum (KB)         2176
+    VRM Desired (KB)        16384
+    DMA Max Min (KB)        16384
+
+Receive Information     
+  Receive Buffers        
+    Buffer Type              Tiny    Small   Medium    Large     Huge
+    Min Buffers              4096     4096     1024      128       96
+    Max Buffers              4096     4096     1024      128       96
+    Allocated                4096     4096     1024      128       96
+    Registered               4095     4090     1024      128       96
+    History             
+      Max Allocated          4096     4096     1024      128       96
+      Lowest Registered      4093     2131     1021      128       96
+  Virtual Memory        
+    Minimum (KB)             2048     8192    16384     4096 6144
+    Maximum (KB)             2048     8192    16384     4096     6144
+  I/O Memory            
+    VRM Minimum (KB)        32768    32768    20480     4608     6528
+    VRM Desired (KB)        32768    32768    20480     4608     6528
+    DMA Max Min (KB)        32768    32768    32768     8192     8192
+
+I/O Memory Information  
+  Total VRM Minimum (KB)    99508
+  Total VRM Desired (KB)   113716
+  Total DMA Max Min (KB)   131328
+
+--------------------------------------------------------------
+Virtual Adapter: ent9
+
+ETHERNET STATISTICS (ent9) :
+Device Type: Virtual I/O Ethernet Adapter (l-lan)
+Hardware Address: 6e:99:9a:31:06:05
+
+Transmit Statistics:                          Receive Statistics:
+--------------------                          -------------------
+Packets: 0                                    Packets: 0
+Bytes: 0                                      Bytes: 0
+Interrupts: 0                                 Interrupts: 0
+Transmit Errors: 0                            Receive Errors: 0
+Packets Dropped: 0                            Packets Dropped: 0
+                                              Bad Packets: 0
+
+Max Packets on S/W Transmit Queue: 0         
+S/W Transmit Queue Overflow: 0
+Current S/W+H/W Transmit Queue Length: 0
+
+Broadcast Packets: 0                          Broadcast Packets: 0
+Multicast Packets: 0                          Multicast Packets: 0
+No Carrier Sense: 0                           CRC Errors: 0
+DMA Underrun: 0                               DMA Overrun: 0
+Lost CTS Errors: 0                            Alignment Errors: 0
+Max Collision Errors: 0                       No Resource Errors: 0
+Late Collision Errors: 0                      Receive Collision Errors: 0
+Deferred: 0                                   Packet Too Short Errors: 0
+SQE Test: 0                                   Packet Too Long Errors: 0
+Timeout Errors: 0                             Packets Discarded by Adapter: 0
+Single Collision Count: 0                     Receiver Start Count: 0
+Multiple Collision Count: 0
+Current HW Transmit Queue Length: 0
+
+General Statistics:
+-------------------
+No mbuf Errors: 0
+Adapter Reset Count: 0
+Adapter Data Rate: 20000
+Driver Flags: Up Broadcast Running 
+	Simplex Promiscuous AllMulticast 
+	64BitSupport ChecksumOffload DataRateSet 
+
+Virtual I/O Ethernet Adapter (l-lan) Specific Statistics:
+---------------------------------------------------------
+RQ Length: 9505
+Trunk Adapter: True
+  Priority: 2  Active: False
+Filter MCast Mode: False
+Filters: 255
+  Enabled: 0  Queued: 0  Overflow: 0
+LAN State: Operational
+
+Hypervisor Send Failures: 0
+  Receiver Failures: 0
+  Send Errors: 0
+Hypervisor Receive Failures: 0
+
+Invalid VLAN ID Packets: 0
+
+ILLAN Attributes: 0000000000003202 [0000000000002200]
+
+Port VLAN ID:     5
+VLAN Tag IDs:   227
+
+Switch ID: ETHERNET0
+Switch Mode: VEB
+Management VLAN: Disabled
+
+Hypervisor Information  
+  Virtual Memory        
+    Total (KB)                157
+  I/O Memory            
+    VRM Minimum (KB)          180
+    VRM Desired (KB)          180
+    DMA Max Min (KB)          256
+
+Transmit Information    
+  Transmit Buffers       
+    Buffer Size             65536
+    Buffers                    32
+    History             
+      No Buffers                0
+  Virtual Memory        
+    Total (KB)               2048
+  I/O Memory            
+    VRM Minimum (KB)         2176
+    VRM Desired (KB)        16384
+    DMA Max Min (KB)        16384
+
+Receive Information     
+  Receive Buffers        
+    Buffer Type              Tiny    Small   Medium    Large     Huge
+    Min Buffers              4096     4096     1024      128       96
+    Max Buffers              4096     4096     1024      128       96
+    Allocated                4096     4096     1024      128       96
+    Registered               4096     4096     1024      128       96
+    History             
+      Max Allocated          4096     4096     1024      128       96
+      Lowest Registered      4096     4096     1024      128       96
+  Virtual Memory        
+    Minimum (KB)             2048     8192    16384     4096 6144
+    Maximum (KB)             2048     8192    16384     4096     6144
+  I/O Memory            
+    VRM Minimum (KB)        32768    32768    20480     4608     6528
+    VRM Desired (KB)        32768    32768    20480     4608     6528
+    DMA Max Min (KB)        32768    32768    32768     8192     8192
+
+I/O Memory Information  
+  Total VRM Minimum (KB)    99508
+  Total VRM Desired (KB)   113716
+  Total DMA Max Min (KB)   131328
+
+--------------------------------------------------------------
+Virtual Adapter: ent8
+
+ETHERNET STATISTICS (ent8) :
+Device Type: Virtual I/O Ethernet Adapter (l-lan)
+Hardware Address: 6e:99:9a:31:06:04
+
+Transmit Statistics:                          Receive Statistics:
+--------------------                          -------------------
+Packets: 0                                    Packets: 0
+Bytes: 0                                      Bytes: 0
+Interrupts: 0                                 Interrupts: 0
+Transmit Errors: 0                            Receive Errors: 0
+Packets Dropped: 0                            Packets Dropped: 0
+                                              Bad Packets: 0
+
+Max Packets on S/W Transmit Queue: 0         
+S/W Transmit Queue Overflow: 0
+Current S/W+H/W Transmit Queue Length: 0
+
+Broadcast Packets: 0                          Broadcast Packets: 0
+Multicast Packets: 0                          Multicast Packets: 0
+No Carrier Sense: 0                           CRC Errors: 0
+DMA Underrun: 0                               DMA Overrun: 0
+Lost CTS Errors: 0                            Alignment Errors: 0
+Max Collision Errors: 0                       No Resource Errors: 0
+Late Collision Errors: 0                      Receive Collision Errors: 0
+Deferred: 0                                   Packet Too Short Errors: 0
+SQE Test: 0                                   Packet Too Long Errors: 0
+Timeout Errors: 0                             Packets Discarded by Adapter: 0
+Single Collision Count: 0                     Receiver Start Count: 0
+Multiple Collision Count: 0
+Current HW Transmit Queue Length: 0
+
+General Statistics:
+-------------------
+No mbuf Errors: 0
+Adapter Reset Count: 0
+Adapter Data Rate: 20000
+Driver Flags: Up Broadcast Running 
+	Simplex Promiscuous AllMulticast 
+	64BitSupport ChecksumOffload DataRateSet 
+
+Virtual I/O Ethernet Adapter (l-lan) Specific Statistics:
+---------------------------------------------------------
+RQ Length: 9505
+Trunk Adapter: True
+  Priority: 2  Active: False
+Filter MCast Mode: False
+Filters: 255
+  Enabled: 0  Queued: 0  Overflow: 0
+LAN State: Operational
+
+Hypervisor Send Failures: 0
+  Receiver Failures: 0
+  Send Errors: 0
+Hypervisor Receive Failures: 0
+
+Invalid VLAN ID Packets: 0
+
+ILLAN Attributes: 0000000000003202 [0000000000002200]
+
+Port VLAN ID:     4
+VLAN Tag IDs:   226
+
+Switch ID: ETHERNET0
+Switch Mode: VEB
+Management VLAN: Disabled
+
+Hypervisor Information  
+  Virtual Memory        
+    Total (KB)                157
+  I/O Memory            
+    VRM Minimum (KB)          180
+    VRM Desired (KB)          180
+    DMA Max Min (KB)          256
+
+Transmit Information    
+  Transmit Buffers       
+    Buffer Size             65536
+    Buffers                    32
+    History             
+      No Buffers                0
+  Virtual Memory        
+    Total (KB)               2048
+  I/O Memory            
+    VRM Minimum (KB)         2176
+    VRM Desired (KB)        16384
+    DMA Max Min (KB)        16384
+
+Receive Information     
+  Receive Buffers        
+    Buffer Type              Tiny    Small   Medium    Large     Huge
+    Min Buffers              4096     4096     1024      128       96
+    Max Buffers              4096     4096     1024      128       96
+    Allocated                4096     4096     1024      128       96
+    Registered               4096     4096     1024      128       96
+    History             
+      Max Allocated          4096     4096     1024      128       96
+      Lowest Registered      4096     4096     1024      128       96
+  Virtual Memory        
+    Minimum (KB)             2048     8192    16384     4096 6144
+    Maximum (KB)             2048     8192    16384     4096     6144
+  I/O Memory            
+    VRM Minimum (KB)        32768    32768    20480     4608     6528
+    VRM Desired (KB)        32768    32768    20480     4608     6528
+    DMA Max Min (KB)        32768    32768    32768     8192     8192
+
+I/O Memory Information  
+  Total VRM Minimum (KB)    99508
+  Total VRM Desired (KB)   113716
+  Total DMA Max Min (KB)   131328
+
+--------------------------------------------------------------
+Control Adapter: ent12
+
+ETHERNET STATISTICS (ent12) :
+Device Type: Virtual I/O Ethernet Adapter (l-lan)
+Hardware Address: 6e:99:9a:31:06:08
+
+Transmit Statistics:                          Receive Statistics:
+--------------------                          -------------------
+Packets: 24958883                             Packets: 23876920
+Bytes: 8935280114                             Bytes: 8547937360
+Interrupts: 0                                 Interrupts: 23866529
+Transmit Errors: 0                            Receive Errors: 0
+Packets Dropped: 0                            Packets Dropped: 0
+                                              Bad Packets: 0
+
+Max Packets on S/W Transmit Queue: 0         
+S/W Transmit Queue Overflow: 0
+Current S/W+H/W Transmit Queue Length: 0
+
+Broadcast Packets: 24958883                   Broadcast Packets: 23876920
+Multicast Packets: 0                          Multicast Packets: 0
+No Carrier Sense: 0                           CRC Errors: 0
+DMA Underrun: 0                               DMA Overrun: 0
+Lost CTS Errors: 0                            Alignment Errors: 0
+Max Collision Errors: 0                       No Resource Errors: 0
+Late Collision Errors: 0                      Receive Collision Errors: 0
+Deferred: 0                                   Packet Too Short Errors: 0
+SQE Test: 0                                   Packet Too Long Errors: 0
+Timeout Errors: 0                             Packets Discarded by Adapter: 0
+Single Collision Count: 0                     Receiver Start Count: 0
+Multiple Collision Count: 0
+Current HW Transmit Queue Length: 0
+
+General Statistics:
+-------------------
+No mbuf Errors: 0
+Adapter Reset Count: 0
+Adapter Data Rate: 20000
+Driver Flags: Up Broadcast Running 
+	Simplex 64BitSupport ChecksumOffload DataRateSet 
+
+Virtual I/O Ethernet Adapter (l-lan) Specific Statistics:
+---------------------------------------------------------
+RQ Length: 9505
+Trunk Adapter: False
+Filter MCast Mode: False
+Filters: 255
+  Enabled: 0  Queued: 0  Overflow: 0
+LAN State: Operational
+
+Hypervisor Send Failures: 0
+  Receiver Failures: 0
+  Send Errors: 0
+Hypervisor Receive Failures: 0
+
+Invalid VLAN ID Packets: 0
+
+ILLAN Attributes: 0000000000003002 [0000000000002000]
+
+Port VLAN ID:     8
+VLAN Tag IDs:  None
+
+
+Switch ID: ETHERNET0
+
+Hypervisor Information  
+  Virtual Memory        
+    Total (KB)                157
+  I/O Memory            
+    VRM Minimum (KB)          180
+    VRM Desired (KB)          180
+    DMA Max Min (KB)          256
+
+Transmit Information    
+  Transmit Buffers       
+    Buffer Size             65536
+    Buffers                    32
+    History             
+      No Buffers                0
+  Virtual Memory        
+    Total (KB)               2048
+  I/O Memory            
+    VRM Minimum (KB)         2176
+    VRM Desired (KB)        16384
+    DMA Max Min (KB)        16384
+
+Receive Information     
+  Receive Buffers        
+    Buffer Type              Tiny    Small   Medium    Large     Huge
+    Min Buffers              4096     4096     1024      128       96
+    Max Buffers              4096     4096     1024      128       96
+    Allocated                4096     4096     1024      128       96
+    Registered               4096     4096     1024      128       96
+    History             
+      Max Allocated          4096     4096     1024      128       96
+      Lowest Registered      4095     4096     1024      128       96
+  Virtual Memory        
+    Minimum (KB)             2048     8192    16384     4096 6144
+    Maximum (KB)             2048     8192    16384     4096     6144
+  I/O Memory            
+    VRM Minimum (KB)        32768    32768    20480     4608     6528
+    VRM Desired (KB)        32768    32768    20480     4608     6528
+    DMA Max Min (KB)        32768    32768    32768     8192     8192
+
+I/O Memory Information  
+  Total VRM Minimum (KB)    99508
+  Total VRM Desired (KB)   113716
+  Total DMA Max Min (KB)   131328
+
+==== EXITED with rc 0 ====
+==== END netstat -v  Tue Jul  7 13:39:52 CDT 2015 ====

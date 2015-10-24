@@ -1,0 +1,60 @@
+==== This output can be found in Systems/dx989/storage/lsdev-^C_grep_^fc_awk_print_n_Adapter_1_system_lsa.txt ====
+==== START lsdev -C | grep ^fc | awk '{print "\n#### Adapter: " $1" ####";system("lsattr -El " $1)}' Thu Aug  6 11:28:05 GST 2015 ====
+
+#### Adapter: fcs0 ####
+intr_priority 3        Interrupt priority                 False
+lg_term_dma   0x800000 Long term DMA                      True
+max_xfer_size 0x100000 Maximum Transfer Size              True
+num_cmd_elems 200      Maximum Number of COMMAND Elements True
+sw_fc_class   2        FC Class for Fabric                True
+
+#### Adapter: fcs1 ####
+intr_priority 3        Interrupt priority                 False
+lg_term_dma   0x800000 Long term DMA                      True
+max_xfer_size 0x100000 Maximum Transfer Size              True
+num_cmd_elems 200      Maximum Number of COMMAND Elements True
+sw_fc_class   2        FC Class for Fabric                True
+
+#### Adapter: fcs2 ####
+intr_priority 3        Interrupt priority                 False
+lg_term_dma   0x800000 Long term DMA                      True
+max_xfer_size 0x100000 Maximum Transfer Size              True
+num_cmd_elems 200      Maximum Number of COMMAND Elements True
+sw_fc_class   2        FC Class for Fabric                True
+
+#### Adapter: fcs3 ####
+intr_priority 3        Interrupt priority                 False
+lg_term_dma   0x800000 Long term DMA                      True
+max_xfer_size 0x100000 Maximum Transfer Size              True
+num_cmd_elems 200      Maximum Number of COMMAND Elements True
+sw_fc_class   2        FC Class for Fabric                True
+
+#### Adapter: fcs4 ####
+intr_priority 3        Interrupt priority                 False
+lg_term_dma   0x800000 Long term DMA                      True
+max_xfer_size 0x100000 Maximum Transfer Size              True
+num_cmd_elems 200      Maximum Number of COMMAND Elements True
+sw_fc_class   2        FC Class for Fabric                True
+
+#### Adapter: fcs5 ####
+intr_priority 3        Interrupt priority                 False
+lg_term_dma   0x800000 Long term DMA                      True
+max_xfer_size 0x100000 Maximum Transfer Size              True
+num_cmd_elems 200      Maximum Number of COMMAND Elements True
+sw_fc_class   2        FC Class for Fabric                True
+
+#### Adapter: fcs6 ####
+intr_priority 3        Interrupt priority                 False
+lg_term_dma   0x800000 Long term DMA                      True
+max_xfer_size 0x100000 Maximum Transfer Size              True
+num_cmd_elems 200      Maximum Number of COMMAND Elements True
+sw_fc_class   2        FC Class for Fabric                True
+
+#### Adapter: fcs7 ####
+intr_priority 3        Interrupt priority                 False
+lg_term_dma   0x800000 Long term DMA                      True
+max_xfer_size 0x100000 Maximum Transfer Size              True
+num_cmd_elems 200      Maximum Number of COMMAND Elements True
+sw_fc_class   2        FC Class for Fabric                True
+==== EXITED with rc 0 ====
+==== END lsdev -C | grep ^fc | awk '{print "\n#### Adapter: " $1" ####";system("lsattr -El " $1)}' Thu Aug  6 11:28:05 GST 2015 ====

@@ -1,0 +1,11 @@
+==== This output can be found in Systems/dx978/os/bootlist-vom_service.txt ====
+==== START bootlist -vom service Mon Jul  6 23:29:54 GST 2015 ====
+'ibm,max-boot-devices' = 0x5
+NVRAM variable: (diag-device=/pci@800000020000280/pci1014,0339@0/sata/disk@0 /vdevice/l-lan@30000004:speed=auto,duplex=auto,10.51.226.230,,10.51.226.225,10.51.226.1,5,5,255.255.255.0,512)
+Path name: (/pci@800000020000280/pci1014,0339@0/sata/disk@0)
+-
+Path name: (/vdevice/l-lan@30000004:speed=auto,duplex=auto,10.51.226.230,,10.51.226.225,10.51.226.1,5,5,255.255.255.0,512)
+match_specific_info: ut=adapter/vdevice/IBM,l-lan
+ent0 speed=auto duplex=auto bserver=10.51.226.230 client=10.51.226.225 gateway=10.51.226.1 vlan_tag=5
+==== EXITED with rc 0 ====
+==== END bootlist -vom service Mon Jul  6 23:29:54 GST 2015 ====

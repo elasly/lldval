@@ -1,0 +1,48 @@
+==== This output can be found in Systems/dx978/hw/lsdev-^Cc_adapter.txt ====
+==== START lsdev -Cc adapter Mon Jul  6 23:43:32 GST 2015 ====
+ent0    Available       Virtual I/O Ethernet Adapter (l-lan)
+ent1    Available       Virtual I/O Ethernet Adapter (l-lan)
+ent2    Available       Virtual I/O Ethernet Adapter (l-lan)
+ent3    Available       Virtual I/O Ethernet Adapter (l-lan)
+fcs0    Defined   11-T1 Virtual Fibre Channel Client Adapter
+fcs1    Defined   12-T1 Virtual Fibre Channel Client Adapter
+fcs2    Defined   13-T1 Virtual Fibre Channel Client Adapter
+fcs3    Defined   14-T1 Virtual Fibre Channel Client Adapter
+fcs4    Defined   15-T1 Virtual Fibre Channel Client Adapter
+fcs5    Defined   16-T1 Virtual Fibre Channel Client Adapter
+fcs6    Defined   17-T1 Virtual Fibre Channel Client Adapter
+fcs7    Defined   18-T1 Virtual Fibre Channel Client Adapter
+fcs8    Available 11-T1 Virtual Fibre Channel Client Adapter
+fcs9    Available 12-T1 Virtual Fibre Channel Client Adapter
+fcs10   Available 13-T1 Virtual Fibre Channel Client Adapter
+fcs11   Available 14-T1 Virtual Fibre Channel Client Adapter
+fcs12   Available 15-T1 Virtual Fibre Channel Client Adapter
+fcs13   Available 16-T1 Virtual Fibre Channel Client Adapter
+fcs14   Available 17-T1 Virtual Fibre Channel Client Adapter
+fcs15   Available 18-T1 Virtual Fibre Channel Client Adapter
+pkcs11  Available       ACF/PKCS#11 Device
+sissas0 Defined   00-00 PCI Express x1 Planar 3Gb SAS Adapter
+sissas1 Defined   01-00 PCI Express x1 Planar 3Gb SAS Adapter
+vsa0    Available       LPAR Virtual Serial Adapter
+vscsi0  Defined         Virtual SCSI Client Adapter
+vscsi1  Defined         Virtual SCSI Client Adapter
+vscsi2  Defined         Virtual SCSI Client Adapter
+vscsi3  Defined         Virtual SCSI Client Adapter
+vscsi4  Defined         Virtual SCSI Client Adapter
+vscsi5  Defined         Virtual SCSI Client Adapter
+vscsi6  Defined         Virtual SCSI Client Adapter
+vscsi7  Defined         Virtual SCSI Client Adapter
+vscsi8  Defined         Virtual SCSI Client Adapter
+vscsi9  Defined         Virtual SCSI Client Adapter
+vscsi10 Available       Virtual SCSI Client Adapter
+vscsi11 Available       Virtual SCSI Client Adapter
+vscsi12 Available       Virtual SCSI Client Adapter
+vscsi13 Available       Virtual SCSI Client Adapter
+vscsi14 Available       Virtual SCSI Client Adapter
+vscsi15 Available       Virtual SCSI Client Adapter
+vscsi16 Available       Virtual SCSI Client Adapter
+vscsi17 Available       Virtual SCSI Client Adapter
+vscsi18 Available       Virtual SCSI Client Adapter
+vscsi19 Available       Virtual SCSI Client Adapter
+==== EXITED with rc 0 ====
+==== END lsdev -Cc adapter Mon Jul  6 23:43:32 GST 2015 ====

@@ -1,0 +1,37 @@
+==== This output can be found in Systems/dx977/ha/lssrc-ls_clstrmgrES.txt ====
+==== START lssrc -ls clstrmgrES Tue Jul  7 00:28:07 GST 2015 ====
+Current state: ST_STABLE
+sccsid = "@(#)36 1.135.1.118 src/43haes/usr/sbin/cluster/hacmprd/main.C,hacmp.pe,61haes_r713,1343A_hacmp713 10/21/"
+build = "Oct 27 2014 16:03:01 1433C_hacmp713"
+i_local_nodeid 0, i_local_siteid -1, my_handle 1
+ml_idx[1]=0	ml_idx[2]=1	
+There are 0 events on the Ibcast queue
+There are 0 events on the RM Ibcast queue
+CLversion: 15
+local node vrmf is 7132
+cluster fix level is "2"
+The following timer(s) are currently active:
+Current DNP values
+DNP Values for NodeId - 1  NodeName - DX977
+    PgSpFree = 2591930  PvPctBusy = 0  PctTotalTimeIdle = 69.910282
+DNP Values for NodeId - 2  NodeName - DX978
+    PgSpFree = 1563178  PvPctBusy = 0  PctTotalTimeIdle = 99.319023
+CAA Cluster Capabilities
+CAA Cluster services are active
+There are 4 capabilities
+Capability 0
+  id: 3  version: 1  flag: 1 
+  Hostname Change capability is defined and globally available
+Capability 1
+  id: 2  version: 1  flag: 1 
+  Unicast capability is defined and globally available
+Capability 2
+  id: 0  version: 1  flag: 1 
+  IPV6 capability is defined and globally available
+Capability 3
+  id: 1  version: 1  flag: 1 
+  Site capability is defined and globally available
+trcOn 0, kTraceOn 0, stopTraceOnExit 0, cdNodeOn 0
+Last event run was JOIN_NETWORK  on node 2
+==== EXITED with rc 0 ====
+==== END lssrc -ls clstrmgrES Tue Jul  7 00:28:07 GST 2015 ====

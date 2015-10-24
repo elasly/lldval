@@ -1,0 +1,5 @@
+==== This output can be found in Systems/dx980/ha/ls-l_cllog-g_clverify_log_awk-^F_print_4_grep-v_va.txt ====
+==== START ls -l $(cllog -g clverify.log | awk -F: '{print $4}' | grep -v value)/clverify.log Mon Jul  6 23:23:21 GST 2015 ====
+-rw-------    1 root     system       120762 Jun 12 01:24 /var/hacmp/clverify/clverify.log
+==== EXITED with rc 0 ====
+==== END ls -l $(cllog -g clverify.log | awk -F: '{print $4}' | grep -v value)/clverify.log Mon Jul  6 23:23:22 GST 2015 ====

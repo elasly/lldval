@@ -1,0 +1,1313 @@
+==== This output can be found in Systems/dx977/caa/fileprint_var_adm_ras_syslog_caa.txt ====
+==== START fileprint /var/adm/ras/syslog.caa Tue Jul  7 00:28:09 GST 2015 ====
+==== BEGIN Contents of /var/adm/ras/syslog.caa ====
+Jul  6 20:56:28 DX977 caa:info cluster[3146378]: clconfd.c	clconfd	192	1	START 
+Jul  6 20:56:28 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_run_log_method	11125	1	START '/usr/sbin/lsvg caavg_private' 
+Jul  6 20:56:28 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_run_log_method	11156	1	FINISH return = 0 
+Jul  6 20:56:28 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  6 20:56:28 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  6 20:56:28 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  6 20:56:28 DX977 caa:info cluster[3146378]: clusterconf_lib.c	read_restricted_interfaces	1900	1	FINISH return=0 
+Jul  6 20:56:28 DX977 caa:info cluster[3146378]: clusterconf_lib.c	_find_and_load_repos	1397	1	got hdiskpower1 from ODM 
+Jul  6 20:56:28 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  6 20:56:28 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  6 20:56:28 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  6 20:56:28 DX977 caa:info cluster[3146378]: clconfd.c	clconfd	377	1	Found self in repos by name (DX977) 
+Jul  6 20:56:28 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  6 20:56:28 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  6 20:56:28 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  6 20:56:28 DX977 caa:info cluster[3146378]: clusterconf_lib.c	_find_and_load_repos	1397	1	got hdiskpower1 from ODM 
+Jul  6 20:56:28 DX977 caa:info cluster[3146378]: clconfd.c	clconfd_prod_others	62	1	START 
+Jul  6 20:56:28 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  6 20:56:28 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  6 20:56:28 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  6 20:56:28 DX977 caa:info cluster[3146378]: clconfd.c	clconfd	526	1	FINISH clconfd 
+Jul  6 21:06:28 DX977 caa:info cluster[3146378]: clconfd.c	clconfd	192	1	START 
+Jul  6 21:06:28 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_run_log_method	11125	1	START '/usr/sbin/lsvg caavg_private' 
+Jul  6 21:06:28 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_run_log_method	11156	1	FINISH return = 0 
+Jul  6 21:06:28 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  6 21:06:28 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  6 21:06:28 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  6 21:06:28 DX977 caa:info cluster[3146378]: clusterconf_lib.c	read_restricted_interfaces	1900	1	FINISH return=0 
+Jul  6 21:06:28 DX977 caa:info cluster[3146378]: clusterconf_lib.c	_find_and_load_repos	1397	1	got hdiskpower1 from ODM 
+Jul  6 21:06:28 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  6 21:06:28 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  6 21:06:28 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  6 21:06:28 DX977 caa:info cluster[3146378]: clconfd.c	clconfd	377	1	Found self in repos by name (DX977) 
+Jul  6 21:06:28 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  6 21:06:28 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  6 21:06:28 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  6 21:06:28 DX977 caa:info cluster[3146378]: clusterconf_lib.c	_find_and_load_repos	1397	1	got hdiskpower1 from ODM 
+Jul  6 21:06:28 DX977 caa:info cluster[3146378]: clconfd.c	clconfd_prod_others	62	1	START 
+Jul  6 21:06:28 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  6 21:06:28 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  6 21:06:28 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  6 21:06:28 DX977 caa:info cluster[3146378]: clconfd.c	clconfd	526	1	FINISH clconfd 
+Jul  6 21:16:28 DX977 caa:info cluster[3146378]: clconfd.c	clconfd	192	1	START 
+Jul  6 21:16:28 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_run_log_method	11125	1	START '/usr/sbin/lsvg caavg_private' 
+Jul  6 21:16:28 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_run_log_method	11156	1	FINISH return = 0 
+Jul  6 21:16:28 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  6 21:16:28 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  6 21:16:28 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  6 21:16:28 DX977 caa:info cluster[3146378]: clusterconf_lib.c	read_restricted_interfaces	1900	1	FINISH return=0 
+Jul  6 21:16:28 DX977 caa:info cluster[3146378]: clusterconf_lib.c	_find_and_load_repos	1397	1	got hdiskpower1 from ODM 
+Jul  6 21:16:28 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  6 21:16:28 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  6 21:16:28 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  6 21:16:28 DX977 caa:info cluster[3146378]: clconfd.c	clconfd	377	1	Found self in repos by name (DX977) 
+Jul  6 21:16:28 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  6 21:16:28 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  6 21:16:28 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  6 21:16:28 DX977 caa:info cluster[3146378]: clusterconf_lib.c	_find_and_load_repos	1397	1	got hdiskpower1 from ODM 
+Jul  6 21:16:28 DX977 caa:info cluster[3146378]: clconfd.c	clconfd_prod_others	62	1	START 
+Jul  6 21:16:28 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  6 21:16:28 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  6 21:16:28 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  6 21:16:28 DX977 caa:info cluster[3146378]: clconfd.c	clconfd	526	1	FINISH clconfd 
+Jul  6 21:26:28 DX977 caa:info cluster[3146378]: clconfd.c	clconfd	192	1	START 
+Jul  6 21:26:28 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_run_log_method	11125	1	START '/usr/sbin/lsvg caavg_private' 
+Jul  6 21:26:28 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_run_log_method	11156	1	FINISH return = 0 
+Jul  6 21:26:28 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  6 21:26:28 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  6 21:26:28 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  6 21:26:28 DX977 caa:info cluster[3146378]: clusterconf_lib.c	read_restricted_interfaces	1900	1	FINISH return=0 
+Jul  6 21:26:28 DX977 caa:info cluster[3146378]: clusterconf_lib.c	_find_and_load_repos	1397	1	got hdiskpower1 from ODM 
+Jul  6 21:26:28 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  6 21:26:28 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  6 21:26:28 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  6 21:26:28 DX977 caa:info cluster[3146378]: clconfd.c	clconfd	377	1	Found self in repos by name (DX977) 
+Jul  6 21:26:28 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  6 21:26:28 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  6 21:26:28 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  6 21:26:28 DX977 caa:info cluster[3146378]: clusterconf_lib.c	_find_and_load_repos	1397	1	got hdiskpower1 from ODM 
+Jul  6 21:26:28 DX977 caa:info cluster[3146378]: clconfd.c	clconfd_prod_others	62	1	START 
+Jul  6 21:26:28 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  6 21:26:28 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  6 21:26:28 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  6 21:26:28 DX977 caa:info cluster[3146378]: clconfd.c	clconfd	526	1	FINISH clconfd 
+Jul  6 21:36:28 DX977 caa:info cluster[3146378]: clconfd.c	clconfd	192	1	START 
+Jul  6 21:36:28 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_run_log_method	11125	1	START '/usr/sbin/lsvg caavg_private' 
+Jul  6 21:36:29 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_run_log_method	11156	1	FINISH return = 0 
+Jul  6 21:36:29 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  6 21:36:29 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  6 21:36:29 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  6 21:36:29 DX977 caa:info cluster[3146378]: clusterconf_lib.c	read_restricted_interfaces	1900	1	FINISH return=0 
+Jul  6 21:36:29 DX977 caa:info cluster[3146378]: clusterconf_lib.c	_find_and_load_repos	1397	1	got hdiskpower1 from ODM 
+Jul  6 21:36:29 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  6 21:36:29 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  6 21:36:29 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  6 21:36:29 DX977 caa:info cluster[3146378]: clconfd.c	clconfd	377	1	Found self in repos by name (DX977) 
+Jul  6 21:36:29 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  6 21:36:29 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  6 21:36:29 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  6 21:36:29 DX977 caa:info cluster[3146378]: clusterconf_lib.c	_find_and_load_repos	1397	1	got hdiskpower1 from ODM 
+Jul  6 21:36:29 DX977 caa:info cluster[3146378]: clconfd.c	clconfd_prod_others	62	1	START 
+Jul  6 21:36:29 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  6 21:36:29 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  6 21:36:29 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  6 21:36:29 DX977 caa:info cluster[3146378]: clconfd.c	clconfd	526	1	FINISH clconfd 
+Jul  6 21:46:29 DX977 caa:info cluster[3146378]: clconfd.c	clconfd	192	1	START 
+Jul  6 21:46:29 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_run_log_method	11125	1	START '/usr/sbin/lsvg caavg_private' 
+Jul  6 21:46:29 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_run_log_method	11156	1	FINISH return = 0 
+Jul  6 21:46:29 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  6 21:46:29 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  6 21:46:29 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  6 21:46:29 DX977 caa:info cluster[3146378]: clusterconf_lib.c	read_restricted_interfaces	1900	1	FINISH return=0 
+Jul  6 21:46:29 DX977 caa:info cluster[3146378]: clusterconf_lib.c	_find_and_load_repos	1397	1	got hdiskpower1 from ODM 
+Jul  6 21:46:29 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  6 21:46:29 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  6 21:46:29 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  6 21:46:29 DX977 caa:info cluster[3146378]: clconfd.c	clconfd	377	1	Found self in repos by name (DX977) 
+Jul  6 21:46:29 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  6 21:46:29 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  6 21:46:29 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  6 21:46:29 DX977 caa:info cluster[3146378]: clusterconf_lib.c	_find_and_load_repos	1397	1	got hdiskpower1 from ODM 
+Jul  6 21:46:29 DX977 caa:info cluster[3146378]: clconfd.c	clconfd_prod_others	62	1	START 
+Jul  6 21:46:29 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  6 21:46:29 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  6 21:46:29 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  6 21:46:29 DX977 caa:info cluster[3146378]: clconfd.c	clconfd	526	1	FINISH clconfd 
+Jul  6 21:56:29 DX977 caa:info cluster[3146378]: clconfd.c	clconfd	192	1	START 
+Jul  6 21:56:29 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_run_log_method	11125	1	START '/usr/sbin/lsvg caavg_private' 
+Jul  6 21:56:29 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_run_log_method	11156	1	FINISH return = 0 
+Jul  6 21:56:29 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  6 21:56:29 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  6 21:56:29 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  6 21:56:29 DX977 caa:info cluster[3146378]: clusterconf_lib.c	read_restricted_interfaces	1900	1	FINISH return=0 
+Jul  6 21:56:29 DX977 caa:info cluster[3146378]: clusterconf_lib.c	_find_and_load_repos	1397	1	got hdiskpower1 from ODM 
+Jul  6 21:56:29 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  6 21:56:29 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  6 21:56:29 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  6 21:56:29 DX977 caa:info cluster[3146378]: clconfd.c	clconfd	377	1	Found self in repos by name (DX977) 
+Jul  6 21:56:29 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  6 21:56:29 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  6 21:56:29 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  6 21:56:29 DX977 caa:info cluster[3146378]: clusterconf_lib.c	_find_and_load_repos	1397	1	got hdiskpower1 from ODM 
+Jul  6 21:56:29 DX977 caa:info cluster[3146378]: clconfd.c	clconfd_prod_others	62	1	START 
+Jul  6 21:56:29 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  6 21:56:29 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  6 21:56:29 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  6 21:56:29 DX977 caa:info cluster[3146378]: clconfd.c	clconfd	526	1	FINISH clconfd 
+Jul  6 22:06:29 DX977 caa:info cluster[3146378]: clconfd.c	clconfd	192	1	START 
+Jul  6 22:06:29 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_run_log_method	11125	1	START '/usr/sbin/lsvg caavg_private' 
+Jul  6 22:06:29 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_run_log_method	11156	1	FINISH return = 0 
+Jul  6 22:06:29 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  6 22:06:29 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  6 22:06:29 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  6 22:06:29 DX977 caa:info cluster[3146378]: clusterconf_lib.c	read_restricted_interfaces	1900	1	FINISH return=0 
+Jul  6 22:06:29 DX977 caa:info cluster[3146378]: clusterconf_lib.c	_find_and_load_repos	1397	1	got hdiskpower1 from ODM 
+Jul  6 22:06:29 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  6 22:06:29 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  6 22:06:29 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  6 22:06:29 DX977 caa:info cluster[3146378]: clconfd.c	clconfd	377	1	Found self in repos by name (DX977) 
+Jul  6 22:06:29 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  6 22:06:29 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  6 22:06:29 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  6 22:06:29 DX977 caa:info cluster[3146378]: clusterconf_lib.c	_find_and_load_repos	1397	1	got hdiskpower1 from ODM 
+Jul  6 22:06:29 DX977 caa:info cluster[3146378]: clconfd.c	clconfd_prod_others	62	1	START 
+Jul  6 22:06:29 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  6 22:06:29 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  6 22:06:29 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  6 22:06:29 DX977 caa:info cluster[3146378]: clconfd.c	clconfd	526	1	FINISH clconfd 
+Jul  6 22:16:29 DX977 caa:info cluster[3146378]: clconfd.c	clconfd	192	1	START 
+Jul  6 22:16:29 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_run_log_method	11125	1	START '/usr/sbin/lsvg caavg_private' 
+Jul  6 22:16:29 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_run_log_method	11156	1	FINISH return = 0 
+Jul  6 22:16:29 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  6 22:16:29 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  6 22:16:29 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  6 22:16:29 DX977 caa:info cluster[3146378]: clusterconf_lib.c	read_restricted_interfaces	1900	1	FINISH return=0 
+Jul  6 22:16:29 DX977 caa:info cluster[3146378]: clusterconf_lib.c	_find_and_load_repos	1397	1	got hdiskpower1 from ODM 
+Jul  6 22:16:29 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  6 22:16:29 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  6 22:16:29 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  6 22:16:29 DX977 caa:info cluster[3146378]: clconfd.c	clconfd	377	1	Found self in repos by name (DX977) 
+Jul  6 22:16:29 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  6 22:16:29 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  6 22:16:29 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  6 22:16:29 DX977 caa:info cluster[3146378]: clusterconf_lib.c	_find_and_load_repos	1397	1	got hdiskpower1 from ODM 
+Jul  6 22:16:29 DX977 caa:info cluster[3146378]: clconfd.c	clconfd_prod_others	62	1	START 
+Jul  6 22:16:29 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  6 22:16:29 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  6 22:16:29 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  6 22:16:29 DX977 caa:info cluster[3146378]: clconfd.c	clconfd	526	1	FINISH clconfd 
+Jul  6 22:26:29 DX977 caa:info cluster[3146378]: clconfd.c	clconfd	192	1	START 
+Jul  6 22:26:29 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_run_log_method	11125	1	START '/usr/sbin/lsvg caavg_private' 
+Jul  6 22:26:29 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_run_log_method	11156	1	FINISH return = 0 
+Jul  6 22:26:29 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  6 22:26:29 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  6 22:26:29 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  6 22:26:29 DX977 caa:info cluster[3146378]: clusterconf_lib.c	read_restricted_interfaces	1900	1	FINISH return=0 
+Jul  6 22:26:29 DX977 caa:info cluster[3146378]: clusterconf_lib.c	_find_and_load_repos	1397	1	got hdiskpower1 from ODM 
+Jul  6 22:26:29 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  6 22:26:29 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  6 22:26:29 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  6 22:26:29 DX977 caa:info cluster[3146378]: clconfd.c	clconfd	377	1	Found self in repos by name (DX977) 
+Jul  6 22:26:29 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  6 22:26:29 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  6 22:26:29 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  6 22:26:29 DX977 caa:info cluster[3146378]: clusterconf_lib.c	_find_and_load_repos	1397	1	got hdiskpower1 from ODM 
+Jul  6 22:26:29 DX977 caa:info cluster[3146378]: clconfd.c	clconfd_prod_others	62	1	START 
+Jul  6 22:26:29 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  6 22:26:29 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  6 22:26:29 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  6 22:26:29 DX977 caa:info cluster[3146378]: clconfd.c	clconfd	526	1	FINISH clconfd 
+Jul  6 22:36:29 DX977 caa:info cluster[3146378]: clconfd.c	clconfd	192	1	START 
+Jul  6 22:36:29 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_run_log_method	11125	1	START '/usr/sbin/lsvg caavg_private' 
+Jul  6 22:36:29 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_run_log_method	11156	1	FINISH return = 0 
+Jul  6 22:36:29 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  6 22:36:29 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  6 22:36:29 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  6 22:36:29 DX977 caa:info cluster[3146378]: clusterconf_lib.c	read_restricted_interfaces	1900	1	FINISH return=0 
+Jul  6 22:36:29 DX977 caa:info cluster[3146378]: clusterconf_lib.c	_find_and_load_repos	1397	1	got hdiskpower1 from ODM 
+Jul  6 22:36:29 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  6 22:36:29 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  6 22:36:29 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  6 22:36:29 DX977 caa:info cluster[3146378]: clconfd.c	clconfd	377	1	Found self in repos by name (DX977) 
+Jul  6 22:36:29 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  6 22:36:29 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  6 22:36:29 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  6 22:36:29 DX977 caa:info cluster[3146378]: clusterconf_lib.c	_find_and_load_repos	1397	1	got hdiskpower1 from ODM 
+Jul  6 22:36:30 DX977 caa:info cluster[3146378]: clconfd.c	clconfd_prod_others	62	1	START 
+Jul  6 22:36:30 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  6 22:36:30 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  6 22:36:30 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  6 22:36:30 DX977 caa:info cluster[3146378]: clconfd.c	clconfd	526	1	FINISH clconfd 
+Jul  6 22:46:30 DX977 caa:info cluster[3146378]: clconfd.c	clconfd	192	1	START 
+Jul  6 22:46:30 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_run_log_method	11125	1	START '/usr/sbin/lsvg caavg_private' 
+Jul  6 22:46:30 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_run_log_method	11156	1	FINISH return = 0 
+Jul  6 22:46:30 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  6 22:46:30 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  6 22:46:30 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  6 22:46:30 DX977 caa:info cluster[3146378]: clusterconf_lib.c	read_restricted_interfaces	1900	1	FINISH return=0 
+Jul  6 22:46:30 DX977 caa:info cluster[3146378]: clusterconf_lib.c	_find_and_load_repos	1397	1	got hdiskpower1 from ODM 
+Jul  6 22:46:30 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  6 22:46:30 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  6 22:46:30 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  6 22:46:30 DX977 caa:info cluster[3146378]: clconfd.c	clconfd	377	1	Found self in repos by name (DX977) 
+Jul  6 22:46:30 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  6 22:46:30 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  6 22:46:30 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  6 22:46:30 DX977 caa:info cluster[3146378]: clusterconf_lib.c	_find_and_load_repos	1397	1	got hdiskpower1 from ODM 
+Jul  6 22:46:30 DX977 caa:info cluster[3146378]: clconfd.c	clconfd_prod_others	62	1	START 
+Jul  6 22:46:30 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  6 22:46:30 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  6 22:46:30 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  6 22:46:30 DX977 caa:info cluster[3146378]: clconfd.c	clconfd	526	1	FINISH clconfd 
+Jul  6 22:56:30 DX977 caa:info cluster[3146378]: clconfd.c	clconfd	192	1	START 
+Jul  6 22:56:30 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_run_log_method	11125	1	START '/usr/sbin/lsvg caavg_private' 
+Jul  6 22:56:30 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_run_log_method	11156	1	FINISH return = 0 
+Jul  6 22:56:30 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  6 22:56:30 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  6 22:56:30 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  6 22:56:30 DX977 caa:info cluster[3146378]: clusterconf_lib.c	read_restricted_interfaces	1900	1	FINISH return=0 
+Jul  6 22:56:30 DX977 caa:info cluster[3146378]: clusterconf_lib.c	_find_and_load_repos	1397	1	got hdiskpower1 from ODM 
+Jul  6 22:56:30 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  6 22:56:30 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  6 22:56:30 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  6 22:56:30 DX977 caa:info cluster[3146378]: clconfd.c	clconfd	377	1	Found self in repos by name (DX977) 
+Jul  6 22:56:30 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  6 22:56:30 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  6 22:56:30 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  6 22:56:30 DX977 caa:info cluster[3146378]: clusterconf_lib.c	_find_and_load_repos	1397	1	got hdiskpower1 from ODM 
+Jul  6 22:56:30 DX977 caa:info cluster[3146378]: clconfd.c	clconfd_prod_others	62	1	START 
+Jul  6 22:56:30 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  6 22:56:30 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  6 22:56:30 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  6 22:56:30 DX977 caa:info cluster[3146378]: clconfd.c	clconfd	526	1	FINISH clconfd 
+Jul  6 23:06:30 DX977 caa:info cluster[3146378]: clconfd.c	clconfd	192	1	START 
+Jul  6 23:06:30 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_run_log_method	11125	1	START '/usr/sbin/lsvg caavg_private' 
+Jul  6 23:06:30 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_run_log_method	11156	1	FINISH return = 0 
+Jul  6 23:06:30 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  6 23:06:30 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  6 23:06:30 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  6 23:06:30 DX977 caa:info cluster[3146378]: clusterconf_lib.c	read_restricted_interfaces	1900	1	FINISH return=0 
+Jul  6 23:06:30 DX977 caa:info cluster[3146378]: clusterconf_lib.c	_find_and_load_repos	1397	1	got hdiskpower1 from ODM 
+Jul  6 23:06:30 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  6 23:06:30 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  6 23:06:30 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  6 23:06:30 DX977 caa:info cluster[3146378]: clconfd.c	clconfd	377	1	Found self in repos by name (DX977) 
+Jul  6 23:06:30 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  6 23:06:30 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  6 23:06:30 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  6 23:06:30 DX977 caa:info cluster[3146378]: clusterconf_lib.c	_find_and_load_repos	1397	1	got hdiskpower1 from ODM 
+Jul  6 23:06:30 DX977 caa:info cluster[3146378]: clconfd.c	clconfd_prod_others	62	1	START 
+Jul  6 23:06:30 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  6 23:06:30 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  6 23:06:30 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  6 23:06:30 DX977 caa:info cluster[3146378]: clconfd.c	clconfd	526	1	FINISH clconfd 
+Jul  6 23:16:30 DX977 caa:info cluster[3146378]: clconfd.c	clconfd	192	1	START 
+Jul  6 23:16:30 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_run_log_method	11125	1	START '/usr/sbin/lsvg caavg_private' 
+Jul  6 23:16:30 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_run_log_method	11156	1	FINISH return = 0 
+Jul  6 23:16:30 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  6 23:16:30 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  6 23:16:30 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  6 23:16:30 DX977 caa:info cluster[3146378]: clusterconf_lib.c	read_restricted_interfaces	1900	1	FINISH return=0 
+Jul  6 23:16:30 DX977 caa:info cluster[3146378]: clusterconf_lib.c	_find_and_load_repos	1397	1	got hdiskpower1 from ODM 
+Jul  6 23:16:30 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  6 23:16:30 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  6 23:16:30 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  6 23:16:30 DX977 caa:info cluster[3146378]: clconfd.c	clconfd	377	1	Found self in repos by name (DX977) 
+Jul  6 23:16:30 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  6 23:16:30 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  6 23:16:30 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  6 23:16:30 DX977 caa:info cluster[3146378]: clusterconf_lib.c	_find_and_load_repos	1397	1	got hdiskpower1 from ODM 
+Jul  6 23:16:30 DX977 caa:info cluster[3146378]: clconfd.c	clconfd_prod_others	62	1	START 
+Jul  6 23:16:30 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  6 23:16:30 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  6 23:16:30 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  6 23:16:30 DX977 caa:info cluster[3146378]: clconfd.c	clconfd	526	1	FINISH clconfd 
+Jul  6 23:26:30 DX977 caa:info cluster[3146378]: clconfd.c	clconfd	192	1	START 
+Jul  6 23:26:30 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_run_log_method	11125	1	START '/usr/sbin/lsvg caavg_private' 
+Jul  6 23:26:30 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_run_log_method	11156	1	FINISH return = 0 
+Jul  6 23:26:30 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  6 23:26:30 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  6 23:26:30 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  6 23:26:30 DX977 caa:info cluster[3146378]: clusterconf_lib.c	read_restricted_interfaces	1900	1	FINISH return=0 
+Jul  6 23:26:30 DX977 caa:info cluster[3146378]: clusterconf_lib.c	_find_and_load_repos	1397	1	got hdiskpower1 from ODM 
+Jul  6 23:26:30 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  6 23:26:30 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  6 23:26:30 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  6 23:26:30 DX977 caa:info cluster[3146378]: clconfd.c	clconfd	377	1	Found self in repos by name (DX977) 
+Jul  6 23:26:30 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  6 23:26:30 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  6 23:26:30 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  6 23:26:30 DX977 caa:info cluster[3146378]: clusterconf_lib.c	_find_and_load_repos	1397	1	got hdiskpower1 from ODM 
+Jul  6 23:26:30 DX977 caa:info cluster[3146378]: clconfd.c	clconfd_prod_others	62	1	START 
+Jul  6 23:26:30 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  6 23:26:30 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  6 23:26:30 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  6 23:26:30 DX977 caa:info cluster[3146378]: clconfd.c	clconfd	526	1	FINISH clconfd 
+Jul  6 23:36:30 DX977 caa:info cluster[3146378]: clconfd.c	clconfd	192	1	START 
+Jul  6 23:36:30 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_run_log_method	11125	1	START '/usr/sbin/lsvg caavg_private' 
+Jul  6 23:36:30 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_run_log_method	11156	1	FINISH return = 0 
+Jul  6 23:36:30 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  6 23:36:30 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  6 23:36:30 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  6 23:36:30 DX977 caa:info cluster[3146378]: clusterconf_lib.c	read_restricted_interfaces	1900	1	FINISH return=0 
+Jul  6 23:36:30 DX977 caa:info cluster[3146378]: clusterconf_lib.c	_find_and_load_repos	1397	1	got hdiskpower1 from ODM 
+Jul  6 23:36:30 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  6 23:36:30 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  6 23:36:30 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  6 23:36:30 DX977 caa:info cluster[3146378]: clconfd.c	clconfd	377	1	Found self in repos by name (DX977) 
+Jul  6 23:36:30 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  6 23:36:30 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  6 23:36:30 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  6 23:36:30 DX977 caa:info cluster[3146378]: clusterconf_lib.c	_find_and_load_repos	1397	1	got hdiskpower1 from ODM 
+Jul  6 23:36:30 DX977 caa:info cluster[3146378]: clconfd.c	clconfd_prod_others	62	1	START 
+Jul  6 23:36:30 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  6 23:36:30 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  6 23:36:30 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  6 23:36:30 DX977 caa:info cluster[3146378]: clconfd.c	clconfd	526	1	FINISH clconfd 
+Jul  6 23:46:30 DX977 caa:info cluster[3146378]: clconfd.c	clconfd	192	1	START 
+Jul  6 23:46:30 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_run_log_method	11125	1	START '/usr/sbin/lsvg caavg_private' 
+Jul  6 23:46:30 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_run_log_method	11156	1	FINISH return = 0 
+Jul  6 23:46:30 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  6 23:46:30 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  6 23:46:30 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  6 23:46:30 DX977 caa:info cluster[3146378]: clusterconf_lib.c	read_restricted_interfaces	1900	1	FINISH return=0 
+Jul  6 23:46:30 DX977 caa:info cluster[3146378]: clusterconf_lib.c	_find_and_load_repos	1397	1	got hdiskpower1 from ODM 
+Jul  6 23:46:30 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  6 23:46:30 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  6 23:46:30 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  6 23:46:30 DX977 caa:info cluster[3146378]: clconfd.c	clconfd	377	1	Found self in repos by name (DX977) 
+Jul  6 23:46:30 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  6 23:46:30 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  6 23:46:30 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  6 23:46:30 DX977 caa:info cluster[3146378]: clusterconf_lib.c	_find_and_load_repos	1397	1	got hdiskpower1 from ODM 
+Jul  6 23:46:30 DX977 caa:info cluster[3146378]: clconfd.c	clconfd_prod_others	62	1	START 
+Jul  6 23:46:30 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  6 23:46:30 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  6 23:46:30 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  6 23:46:30 DX977 caa:info cluster[3146378]: clconfd.c	clconfd	526	1	FINISH clconfd 
+Jul  6 23:56:30 DX977 caa:info cluster[3146378]: clconfd.c	clconfd	192	1	START 
+Jul  6 23:56:30 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_run_log_method	11125	1	START '/usr/sbin/lsvg caavg_private' 
+Jul  6 23:56:30 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_run_log_method	11156	1	FINISH return = 0 
+Jul  6 23:56:30 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  6 23:56:30 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  6 23:56:30 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  6 23:56:30 DX977 caa:info cluster[3146378]: clusterconf_lib.c	read_restricted_interfaces	1900	1	FINISH return=0 
+Jul  6 23:56:30 DX977 caa:info cluster[3146378]: clusterconf_lib.c	_find_and_load_repos	1397	1	got hdiskpower1 from ODM 
+Jul  6 23:56:30 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  6 23:56:30 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  6 23:56:30 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  6 23:56:30 DX977 caa:info cluster[3146378]: clconfd.c	clconfd	377	1	Found self in repos by name (DX977) 
+Jul  6 23:56:30 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  6 23:56:30 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  6 23:56:30 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  6 23:56:30 DX977 caa:info cluster[3146378]: clusterconf_lib.c	_find_and_load_repos	1397	1	got hdiskpower1 from ODM 
+Jul  6 23:56:30 DX977 caa:info cluster[3146378]: clconfd.c	clconfd_prod_others	62	1	START 
+Jul  6 23:56:30 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  6 23:56:30 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  6 23:56:30 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  6 23:56:30 DX977 caa:info cluster[3146378]: clconfd.c	clconfd	526	1	FINISH clconfd 
+Jul  7 00:00:37 DX977 caa:info cluster[38863270]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  7 00:00:37 DX977 caa:info cluster[38863270]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  7 00:00:37 DX977 caa:info cluster[38863270]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  7 00:06:30 DX977 caa:info cluster[3146378]: clconfd.c	clconfd	192	1	START 
+Jul  7 00:06:30 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_run_log_method	11125	1	START '/usr/sbin/lsvg caavg_private' 
+Jul  7 00:06:30 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_run_log_method	11156	1	FINISH return = 0 
+Jul  7 00:06:30 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  7 00:06:30 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  7 00:06:30 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  7 00:06:30 DX977 caa:info cluster[3146378]: clusterconf_lib.c	read_restricted_interfaces	1900	1	FINISH return=0 
+Jul  7 00:06:30 DX977 caa:info cluster[3146378]: clusterconf_lib.c	_find_and_load_repos	1397	1	got hdiskpower1 from ODM 
+Jul  7 00:06:30 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  7 00:06:30 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  7 00:06:30 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  7 00:06:30 DX977 caa:info cluster[3146378]: clconfd.c	clconfd	377	1	Found self in repos by name (DX977) 
+Jul  7 00:06:30 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  7 00:06:30 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  7 00:06:30 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  7 00:06:30 DX977 caa:info cluster[3146378]: clusterconf_lib.c	_find_and_load_repos	1397	1	got hdiskpower1 from ODM 
+Jul  7 00:06:30 DX977 caa:info cluster[3146378]: clconfd.c	clconfd_prod_others	62	1	START 
+Jul  7 00:06:30 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  7 00:06:30 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  7 00:06:30 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  7 00:06:30 DX977 caa:info cluster[3146378]: clconfd.c	clconfd	526	1	FINISH clconfd 
+Jul  7 00:09:24 DX977 caa:info cluster[34734710]: clusterconf_lib.c	_find_and_load_repos	1397	1	got hdiskpower1 from ODM 
+Jul  7 00:16:30 DX977 caa:info cluster[3146378]: clconfd.c	clconfd	192	1	START 
+Jul  7 00:16:30 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_run_log_method	11125	1	START '/usr/sbin/lsvg caavg_private' 
+Jul  7 00:16:31 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_run_log_method	11156	1	FINISH return = 0 
+Jul  7 00:16:31 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  7 00:16:31 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  7 00:16:31 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  7 00:16:31 DX977 caa:info cluster[3146378]: clusterconf_lib.c	read_restricted_interfaces	1900	1	FINISH return=0 
+Jul  7 00:16:31 DX977 caa:info cluster[3146378]: clusterconf_lib.c	_find_and_load_repos	1397	1	got hdiskpower1 from ODM 
+Jul  7 00:16:31 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  7 00:16:31 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  7 00:16:31 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  7 00:16:31 DX977 caa:info cluster[3146378]: clconfd.c	clconfd	377	1	Found self in repos by name (DX977) 
+Jul  7 00:16:31 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  7 00:16:31 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  7 00:16:31 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  7 00:16:31 DX977 caa:info cluster[3146378]: clusterconf_lib.c	_find_and_load_repos	1397	1	got hdiskpower1 from ODM 
+Jul  7 00:16:31 DX977 caa:info cluster[3146378]: clconfd.c	clconfd_prod_others	62	1	START 
+Jul  7 00:16:31 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  7 00:16:31 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  7 00:16:31 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  7 00:16:31 DX977 caa:info cluster[3146378]: clconfd.c	clconfd	526	1	FINISH clconfd 
+Jul  7 00:26:31 DX977 caa:info cluster[3146378]: clconfd.c	clconfd	192	1	START 
+Jul  7 00:26:31 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_run_log_method	11125	1	START '/usr/sbin/lsvg caavg_private' 
+Jul  7 00:26:31 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_run_log_method	11156	1	FINISH return = 0 
+Jul  7 00:26:31 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  7 00:26:31 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  7 00:26:31 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  7 00:26:31 DX977 caa:info cluster[3146378]: clusterconf_lib.c	read_restricted_interfaces	1900	1	FINISH return=0 
+Jul  7 00:26:31 DX977 caa:info cluster[3146378]: clusterconf_lib.c	_find_and_load_repos	1397	1	got hdiskpower1 from ODM 
+Jul  7 00:26:31 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  7 00:26:31 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  7 00:26:31 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  7 00:26:31 DX977 caa:info cluster[3146378]: clconfd.c	clconfd	377	1	Found self in repos by name (DX977) 
+Jul  7 00:26:31 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  7 00:26:31 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  7 00:26:31 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  7 00:26:31 DX977 caa:info cluster[3146378]: clusterconf_lib.c	_find_and_load_repos	1397	1	got hdiskpower1 from ODM 
+Jul  7 00:26:31 DX977 caa:info cluster[3146378]: clconfd.c	clconfd_prod_others	62	1	START 
+Jul  7 00:26:31 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  7 00:26:31 DX977 caa:info cluster[3146378]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  7 00:26:31 DX977 caa:info cluster[3146378]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  7 00:26:31 DX977 caa:info cluster[3146378]: clconfd.c	clconfd	526	1	FINISH clconfd 
+Jul  7 00:27:37 DX977 caa:info cluster[29820442]: clusterconf_lib.c	_find_and_load_repos	1397	1	got hdiskpower1 from ODM 
+Jul  7 00:27:56 DX977 caa:info cluster[11338188]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  7 00:27:56 DX977 caa:info cluster[11338188]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  7 00:27:56 DX977 caa:info cluster[11338188]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX978 
+Jul  7 00:27:58 DX977 caa:info cluster[10094010]: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  7 00:27:58 DX977 caa:info cluster[10094010]: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  7 00:27:58 DX977 caa:info cluster[10094010]: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_utils.c	am_i_a_powerha	11180	1	START 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_utils.c	am_i_a_powerha	11228	1	FINISH return = 1 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_utils.c	cl_canonical_nodename	11705	1	nodename = DX977 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk6: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk12: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk16: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk17: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	414	1	return = 0, hdisk741: Disk is not a boot record. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk18: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk19: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk20: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk21: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	414	1	return = 0, hdisk742: Disk is not a boot record. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	414	1	return = 0, hdisk743: Disk is not a boot record. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	414	1	return = 0, hdisk744: Disk is not a boot record. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	414	1	return = 0, hdisk745: Disk is not a boot record. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	414	1	return = 0, hdisk746: Disk is not a boot record. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk22: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk23: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk24: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk25: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk26: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk27: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk28: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk29: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk30: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk31: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk32: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk33: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk34: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk35: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk36: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk37: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk38: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk39: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk40: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk41: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk42: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk43: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk44: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk45: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk46: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk47: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk48: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk49: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk50: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk51: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk52: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk53: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk54: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk55: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk56: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk57: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk58: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk59: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk60: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk61: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk62: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk63: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk64: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk65: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk66: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk67: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk68: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk69: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk70: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk71: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk72: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk73: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk74: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk75: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk76: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk77: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk78: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk79: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk80: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk81: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk82: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk354: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk356: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk357: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk358: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk359: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk360: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk361: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk362: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk363: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk364: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk365: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk366: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk367: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk368: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk369: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk370: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk371: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk372: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk373: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk374: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk375: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk376: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk377: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk378: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk379: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk380: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk381: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk382: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk383: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk384: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk385: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk386: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk387: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk388: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk389: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk390: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk391: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk392: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk393: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk394: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk395: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk396: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk397: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk398: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk399: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk400: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk401: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk402: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk403: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk404: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk405: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk406: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk407: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk408: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk409: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk410: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk411: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk412: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk413: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk414: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk415: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk416: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk417: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk418: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk419: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk420: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk421: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk422: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk423: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk564: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk565: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk566: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk569: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk570: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk571: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk606: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk607: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk612: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk613: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk620: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk621: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk622: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk623: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk624: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk625: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk626: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk627: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk628: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk629: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk660: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk661: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk662: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk663: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk664: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk665: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk666: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk667: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk668: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk669: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk670: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk671: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk672: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk673: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk674: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk675: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk676: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk677: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk678: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk679: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk0: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk13: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk83: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk84: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk85: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk86: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk87: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk88: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk89: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk90: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk91: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk92: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk93: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk94: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk95: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk96: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk97: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk98: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk99: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk100: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk101: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk102: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk103: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk104: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk105: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk106: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk107: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk108: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk109: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk110: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk111: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk112: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk113: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk114: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk115: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk116: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk117: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk118: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk119: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk120: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk121: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk122: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk123: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk124: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk125: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk126: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk127: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk128: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk129: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk130: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk131: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk132: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk133: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk134: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk135: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk136: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk137: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk138: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk139: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk140: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk141: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk142: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk143: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk144: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk145: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk146: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk147: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk148: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk149: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk424: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk426: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk427: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk428: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk429: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk430: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk431: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk432: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk433: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk434: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk435: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk436: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk437: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk438: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk439: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk440: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk441: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk442: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk443: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk444: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk445: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk446: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk447: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk448: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk449: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk450: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk451: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk452: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk453: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk454: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk455: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk456: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk457: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk458: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk459: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk460: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk461: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk462: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk463: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk464: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk465: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk466: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk467: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk468: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk469: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk470: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk471: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk472: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk473: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk474: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk475: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk476: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk477: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk478: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk479: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk480: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk481: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk482: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk483: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk484: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk485: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk486: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk487: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk488: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk489: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk490: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk491: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk492: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk493: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk574: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk575: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk576: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk579: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk580: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk581: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk608: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk609: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk614: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk615: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk630: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk631: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk632: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk633: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk634: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk635: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk636: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk637: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk638: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk639: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk680: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk681: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk682: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk683: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk684: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk685: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk686: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk687: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk688: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk689: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk690: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk691: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk692: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk693: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk694: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk695: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk696: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk697: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk698: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk699: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk2: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk14: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk150: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk151: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk152: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk153: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk154: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk155: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk156: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk157: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk158: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk159: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk160: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk161: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk162: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk163: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk164: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk165: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk166: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk167: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk168: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk169: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk170: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk171: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk172: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk173: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk174: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk175: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk176: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk177: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk178: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk179: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk180: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk181: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk182: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk183: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk184: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk185: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk186: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk187: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk188: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk189: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk190: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk191: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk192: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk193: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk194: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk195: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk196: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk197: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk198: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk199: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk200: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk201: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk202: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk203: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk204: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk205: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk206: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk207: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk208: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk209: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk210: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk211: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk212: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk213: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk214: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk215: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk216: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk494: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk496: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk497: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk498: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk499: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk500: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk501: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk502: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk503: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk504: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk505: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk506: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk507: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk508: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk509: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk510: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk511: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk512: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk513: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk514: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk515: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk516: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk517: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk518: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk519: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk520: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk521: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk522: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk523: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk524: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk525: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk526: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk527: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk528: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk529: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk530: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk531: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk532: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk533: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk534: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk535: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk536: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk537: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk538: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk539: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk540: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk541: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk542: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk543: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk544: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk545: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk546: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk547: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk548: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk549: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk550: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk551: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk552: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk553: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk554: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk555: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk556: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk557: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk558: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk559: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk560: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk561: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk562: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk563: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk584: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk585: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk586: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk589: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk590: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk591: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk610: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk611: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk616: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk617: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk640: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk641: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk642: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk643: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk644: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk645: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk646: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk647: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk648: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk649: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk700: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk701: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk702: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk703: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk704: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk705: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk706: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk707: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk708: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk709: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk710: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk711: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk712: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk713: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk714: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk715: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk716: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk717: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk718: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk719: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk284: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk4: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk15: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk217: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk218: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk219: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk220: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk221: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk222: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk223: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk224: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk225: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk226: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk227: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk228: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk229: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk230: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk231: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk232: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk233: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk234: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk235: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk236: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk237: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk238: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk239: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk240: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk241: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk242: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk243: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk244: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk245: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk246: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk247: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk248: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk249: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk250: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk251: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk252: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk253: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk254: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk255: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk256: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk257: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk258: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk259: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk260: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk261: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk262: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk263: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk264: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk265: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk266: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk267: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk268: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk269: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk270: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk271: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk272: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk273: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk274: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk275: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk276: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk277: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk278: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk279: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk280: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk281: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk282: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk283: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk286: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk287: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk288: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk289: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk290: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk291: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk292: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk293: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk294: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk295: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk296: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk297: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk298: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk299: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk300: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk301: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk302: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk303: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk304: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk305: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk306: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk307: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk308: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk309: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk310: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk311: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk312: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk313: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk314: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk315: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk316: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk317: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk318: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk319: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk320: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk321: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk322: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk323: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk324: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk325: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk326: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk327: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk328: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk329: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk330: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk331: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk332: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk333: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk334: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk335: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk336: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk337: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk338: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk339: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk340: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk341: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk342: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk343: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk344: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk345: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk346: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk347: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk348: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk349: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk350: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk351: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk352: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk353: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk594: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk595: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk596: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk597: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk598: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk601: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk602: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk603: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk618: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk619: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk650: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk651: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk652: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk653: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk654: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk655: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk656: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk657: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk658: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk659: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk720: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk721: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk722: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk723: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk724: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk725: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk726: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk727: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk728: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk729: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk730: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk731: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk732: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk733: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk734: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk735: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk736: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk737: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk738: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk739: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower3: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower4: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower5: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower6: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower7: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower8: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower9: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower10: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower11: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower12: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower13: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower14: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower15: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower16: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower17: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower18: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower19: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower20: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower21: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower22: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower23: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower24: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower25: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower26: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower27: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower28: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower29: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower30: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower31: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower32: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower33: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower34: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower35: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower36: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower37: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower38: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower39: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower40: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower41: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower42: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower43: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower44: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower45: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower46: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower47: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower48: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower49: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower50: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower51: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower52: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower53: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower54: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower55: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower56: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower57: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower58: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower59: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower60: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower61: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower62: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower63: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower64: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower65: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower66: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower68: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower69: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower70: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower0: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower71: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower72: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower73: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower80: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower81: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower82: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower83: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower84: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower85: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower86: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower87: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower88: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower89: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower90: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower91: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower92: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower93: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower94: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower95: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower76: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower77: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower78: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower79: Disk does not have a cluster repository. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	414	1	return = 0, hdisk747: Disk is not a boot record. 
+Jul  7 00:28:08 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	414	1	return = 0, hdisk748: Disk is not a boot record. 
+Jul  7 00:28:09 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	414	1	return = 0, hdiskpower96: Disk is not a boot record. 
+Jul  7 00:28:09 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk749: Disk does not have a cluster repository. 
+Jul  7 00:28:09 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk750: Disk does not have a cluster repository. 
+Jul  7 00:28:09 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk751: Disk does not have a cluster repository. 
+Jul  7 00:28:09 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk752: Disk does not have a cluster repository. 
+Jul  7 00:28:09 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk753: Disk does not have a cluster repository. 
+Jul  7 00:28:09 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk754: Disk does not have a cluster repository. 
+Jul  7 00:28:09 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk755: Disk does not have a cluster repository. 
+Jul  7 00:28:09 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk756: Disk does not have a cluster repository. 
+Jul  7 00:28:09 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower97: Disk does not have a cluster repository. 
+Jul  7 00:28:09 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk757: Disk does not have a cluster repository. 
+Jul  7 00:28:09 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk758: Disk does not have a cluster repository. 
+Jul  7 00:28:09 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk759: Disk does not have a cluster repository. 
+Jul  7 00:28:09 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk760: Disk does not have a cluster repository. 
+Jul  7 00:28:09 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk761: Disk does not have a cluster repository. 
+Jul  7 00:28:09 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk762: Disk does not have a cluster repository. 
+Jul  7 00:28:09 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk763: Disk does not have a cluster repository. 
+Jul  7 00:28:09 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdisk764: Disk does not have a cluster repository. 
+Jul  7 00:28:09 DX977 caa:info syslog: cluster_bootutils.c	is_clvdisk	425	1	return = 0, hdiskpower98: Disk does not have a cluster repository. 
+Jul  7 00:28:09 DX977 caa:info unix: kcluster_syscalls.c	xcluster_ctrl	7251	xcluster_ctrl(): cmd = 8, rc = 19, code = 6600, nargs = 1, u_target_size = 9368
+==== END Contents of /var/adm/ras/syslog.caa ====
+==== EXITED with rc 0 ====
+==== END fileprint /var/adm/ras/syslog.caa Tue Jul  7 00:28:09 GST 2015 ====

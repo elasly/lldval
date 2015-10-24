@@ -1,0 +1,31 @@
+==== This output can be found in Systems/dx987/storage/lsvg-o_sort_awk_print_Volume_group-l_1_system_lsvg.txt ====
+==== START lsvg -o |sort|awk '{print "#### Volume group -l: " $1 " ####";system("lsvg -l " $1 ); print "\n"}' Tue Jul  7 00:00:00 GST 2015 ====
+#### Volume group -l: caavg_private ####
+caavg_private:
+LV NAME             TYPE       LPs     PPs     PVs  LV STATE      MOUNT POINT
+caalv_private1      boot       1       1       1    closed/syncd  N/A
+caalv_private2      boot       1       1       1    closed/syncd  N/A
+caalv_private3                 4       4       1    open/syncd    N/A
+powerha_crlv        boot       1       1       1    closed/syncd  N/A
+
+
+#### Volume group -l: rootvg ####
+rootvg:
+LV NAME             TYPE       LPs     PPs     PVs  LV STATE      MOUNT POINT
+hd5                 boot       1       1       1    closed/syncd  N/A
+hd6                 paging     12      12      1    open/syncd    N/A
+hd8                 jfs2log    1       1       1    open/syncd    N/A
+hd4                 jfs2       20      20      1    open/syncd    /
+hd2                 jfs2       30      30      1    open/syncd    /usr
+hd9var              jfs2       40      40      1    open/syncd    /var
+hd3                 jfs2       30      30      1    open/syncd    /tmp
+hd1                 jfs2       20      20      1    open/syncd    /home
+hd10opt             jfs2       50      50      1    open/syncd    /opt
+hd11admin           jfs2       4       4       1    open/syncd    /admin
+lg_dumplv           sysdump    8       8       1    open/syncd    N/A
+livedump            jfs2       1       1       1    open/syncd    /var/adm/ras/livedump
+perfdatalv          jfs2       10      10      1    open/syncd    /perfdata
+
+
+==== EXITED with rc 0 ====
+==== END lsvg -o |sort|awk '{print "#### Volume group -l: " $1 " ####";system("lsvg -l " $1 ); print "\n"}' Tue Jul  7 00:00:01 GST 2015 ====

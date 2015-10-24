@@ -1,0 +1,48 @@
+==== This output can be found in Systems/dx987/os/lssrc-ls_cthags.txt ====
+==== START lssrc -ls cthags Mon Jul  6 23:48:58 GST 2015 ====
+Subsystem         Group            PID          Status 
+ cthags           cthags           3473940      active
+16 locally-connected clients.  Their PIDs:
+3211872(IBM.ConfigRMd) 2687530(rmcd) 9830806(gsclvmd) 3211542(clstrmgr) 5243344(gsclvmd) 5832916(gsclvmd) 
+5439788(gsclvmd) 4390944(gsclvmd) 5570834(gsclvmd) 2425208(gsclvmd) 4456800(gsclvmd) 5898446(gsclvmd) 
+4980796(gsclvmd) 3735700(gsclvmd) 5833126(gsclvmd) 9044402(IBM.StorageRMd) 
+HA Group Services domain information:
+Domain established by node 1
+Number of groups known locally: 29
+                   Number of   Number of local
+Group name         providers   providers/subscribers
+rmc_peers                2           1           0
+s00V4NEO0009G0000019KHJ8V4P       2           1           0
+s00V4NEO0009G0000019JC8QJ4N       2           1           0
+s00V4NEO0009G0000019JR9T64B       2           1           0
+s00V4NEO0009G0000019KI5EA1M       2           1           0
+s00V4NEO0009G0000019KHJ8K14       2           1           0
+s00V4NEO0009G0000019KI5EG6H       2           1           0
+s00V4NEO0009G0000019KHJ8Q74       2           1           0
+s00V4NEO0009G0000019JC9HKN7       2           1           0
+s00V4NEO0009G0000019KI5EC7E       2           1           0
+s00V4NEO0009G0000019KI5EE95       2           1           0
+s00V4NEO0009G0000019KI5EI3F       2           1           0
+s00V4NEO0009G0000019NQU678T       2           1           0
+IBM.ConfigRM             2           1           0
+CLRESMGRD_1522149262       2           1           0
+CLRESMGRDNPD_1522149262       2           1           0
+CLSTRMGR_1522149262       2           1           0
+d00V4NEO0009G0000019KHJ8V4P       2           1           0
+d00V4NEO0009G0000019JC8QJ4N       2           1           0
+d00V4NEO0009G0000019JR9T64B       2           1           0
+d00V4NEO0009G0000019KI5EA1M       2           1           0
+d00V4NEO0009G0000019KHJ8K14       2           1           0
+d00V4NEO0009G0000019KI5EG6H       2           1           0
+d00V4NEO0009G0000019KHJ8Q74       2           1           0
+d00V4NEO0009G0000019JC9HKN7       2           1           0
+d00V4NEO0009G0000019KI5EC7E       2           1           0
+d00V4NEO0009G0000019KI5EE95       2           1           0
+d00V4NEO0009G0000019KI5EI3F       2           1           0
+d00V4NEO0009G0000019NQU678T       2           1           0
+
+Critical clients will be terminated if unresponsive
+
+Dead Man Switch Disabled
+==== EXITED with rc 0 ====
+==== END lssrc -ls cthags Mon Jul  6 23:48:58 GST 2015 ====

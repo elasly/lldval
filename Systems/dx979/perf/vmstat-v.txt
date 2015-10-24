@@ -1,0 +1,26 @@
+==== This output can be found in Systems/dx979/perf/vmstat-v.txt ====
+==== START vmstat -v  Tue Jul  7 00:32:52 GST 2015 ====
+             57802752 memory pages
+             56060864 lruable pages
+             13490406 free pages
+                    7 memory pools
+              3526103 pinned pages
+                 90.0 maxpin percentage
+                  3.0 minperm percentage
+                 90.0 maxperm percentage
+                 38.3 numperm percentage
+             21522040 file pages
+                  0.0 compressed percentage
+                    0 compressed pages
+                 38.3 numclient percentage
+                 90.0 maxclient percentage
+             21522040 client pages
+                    0 remote pageouts scheduled
+              4722978 pending disk I/Os blocked with no pbuf
+                    0 paging space I/Os blocked with no psbuf
+                 2032 filesystem I/Os blocked with no fsbuf
+                 5572 client filesystem I/Os blocked with no fsbuf
+               131007 external pager filesystem I/Os blocked with no fsbuf
+                 39.4 percentage of memory used for computational pages
+==== EXITED with rc 0 ====
+==== END vmstat -v  Tue Jul  7 00:32:52 GST 2015 ====

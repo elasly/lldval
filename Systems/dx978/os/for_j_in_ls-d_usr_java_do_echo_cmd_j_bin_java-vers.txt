@@ -1,0 +1,80 @@
+==== This output can be found in Systems/dx978/os/for_j_in_ls-d_usr_java_do_echo_cmd_j_bin_java-vers.txt ====
+==== START for j in $(ls -d /usr/java*); do echo "cmd: $j/bin/java -version"; $j/bin/java -version;echo ""; done Mon Jul  6 23:29:59 GST 2015 ====
+java version "1.5.0"
+Java(TM) 2 Runtime Environment, Standard Edition (build pap32devifx-20140122 (SR16 FP5 ))
+IBM J9 VM (build 2.3, J2RE 1.5.0 IBM J9 2.3 AIX ppc-32 j9vmap3223ifx-20131230 (JIT enabled)
+J9VM - 20131213_178553_bHdSMr
+JIT  - 20130920_46470ifx1_r8
+GC   - 20120911_AA)
+JCL  - 20140122
+java version "1.5.0"
+Java(TM) 2 Runtime Environment, Standard Edition (build pap64devifx-20140122 (SR16 FP5 ))
+IBM J9 VM (build 2.3, J2RE 1.5.0 IBM J9 2.3 AIX ppc64-64 j9vmap6423ifx-20131230 (JIT enabled)
+J9VM - 20131213_178553_BHdSMr
+JIT  - 20130920_46470ifx1_r8
+GC   - 20120911_AA)
+JCL  - 20140122
+java version "1.6.0"
+Java(TM) SE Runtime Environment (build pap3260sr15fp1-20140110_01(SR15 FP1))
+IBM J9 VM (build 2.4, JRE 1.6.0 IBM J9 2.4 AIX ppc-32 jvmap3260sr15-20131231_180656 (JIT enabled, AOT enabled)
+J9VM - 20131231_180656
+JIT  - r9_20130920_46510ifx3
+GC   - GA24_Java6_SR15_20131231_1152_B180656)
+JCL  - 20140107_01
+java version "1.6.0"
+Java(TM) SE Runtime Environment (build pap6460sr15fp1-20140110_01(SR15 FP1))
+IBM J9 VM (build 2.4, JRE 1.6.0 IBM J9 2.4 AIX ppc64-64 jvmap6460sr15-20131231_180656 (JIT enabled, AOT enabled)
+J9VM - 20131231_180656
+JIT  - r9_20130920_46510ifx3
+GC   - GA24_Java6_SR15_20131231_1152_B180656)
+JCL  - 20140107_01
+java version "1.7.0"
+Java(TM) SE Runtime Environment (build pap3270sr6fp1-20140108_01(SR6 FP1))
+IBM J9 VM (build 2.6, JRE 1.7.0 AIX ppc-32 20140106_181350 (JIT enabled, AOT enabled)
+J9VM - R26_Java726_SR6_20140106_1601_B181350
+JIT  - r11.b05_20131003_47443.02
+GC   - R26_Java726_SR6_20140106_1601_B181350
+J9CL - 20140106_181350)
+JCL - 20140103_01 based on Oracle 7u51-b11
+java version "1.7.0"
+Java(TM) SE Runtime Environment (build pap3270_27sr1-20140411_01(SR1))
+IBM J9 VM (build 2.7, JRE 1.7.0 AIX ppc-32 20140410_195893 (JIT enabled, AOT enabled)
+J9VM - R27_Java727_SR1_20140410_1931_B195893
+JIT  - tr.r13.java_20140410_61421
+GC   - R27_Java727_SR1_20140410_1931_B195893
+J9CL - 20140410_195893)
+JCL - 20140409_01 based on Oracle 7u55-b13
+java version "1.7.0"
+Java(TM) SE Runtime Environment (build pap6470_27sr1-20140411_01(SR1))
+IBM J9 VM (build 2.7, JRE 1.7.0 AIX ppc64-64 Compressed References 20140410_195893 (JIT enabled, AOT enabled)
+J9VM - R27_Java727_SR1_20140410_1931_B195893
+JIT  - tr.r13.java_20140410_61421
+GC   - R27_Java727_SR1_20140410_1931_B195893_CMPRSS
+J9CL - 20140410_195893)
+JCL - 20140409_01 based on Oracle 7u55-b13
+java version "1.7.0"
+Java(TM) SE Runtime Environment (build pap6470sr6fp1-20140108_01(SR6 FP1))
+IBM J9 VM (build 2.6, JRE 1.7.0 AIX ppc64-64 Compressed References 20140106_181350 (JIT enabled, AOT enabled)
+J9VM - R26_Java726_SR6_20140106_1601_B181350
+JIT  - r11.b05_20131003_47443.02
+GC   - R26_Java726_SR6_20140106_1601_B181350_CMPRSS
+J9CL - 20140106_181350)
+JCL - 20140103_01 based on Oracle 7u51-b11
+cmd: /usr/java5/bin/java -version
+
+cmd: /usr/java5_64/bin/java -version
+
+cmd: /usr/java6/bin/java -version
+
+cmd: /usr/java6_64/bin/java -version
+
+cmd: /usr/java7/bin/java -version
+
+cmd: /usr/java71/bin/java -version
+
+cmd: /usr/java71_64/bin/java -version
+
+cmd: /usr/java7_64/bin/java -version
+
+==== EXITED with rc 0 ====
+==== END for j in $(ls -d /usr/java*); do echo "cmd: $j/bin/java -version"; $j/bin/java -version;echo ""; done Mon Jul  6 23:30:01 GST 2015 ====

@@ -1,0 +1,13 @@
+==== This output can be found in Systems/dx979/storage/powermt_display.txt ====
+==== START powermt display Tue Jul  7 00:41:00 GST 2015 ====
+Symmetrix logical device count=60
+==============================================================================
+----- Host Bus Adapters ---------  ------ I/O Paths -----  ------ Stats ------
+###  HW Path                       Summary   Total   Dead  IO/Sec Q-IOs Errors
+==============================================================================
+   4 fscsi11                       optimal     116      0       -     7      0
+   5 fscsi14                       optimal     116      0       -     9      0
+   6 fscsi10                       optimal     116      0       -     7      0
+   7 fscsi0                        optimal     116      0       -     7      0
+==== EXITED with rc 0 ====
+==== END powermt display Tue Jul  7 00:41:00 GST 2015 ====

@@ -1,0 +1,10 @@
+==== This output can be found in Systems/dx986/ha/cllsif.txt ====
+==== START cllsif Tue Jul  7 00:56:43 GST 2015 ====
+Adapter              Type       Network    Net Type   Attribute  Node       IP Address       Hardware Address Interface Name   Global Name      Netmask          Alias for HB Prefix Length
+
+DX986                boot       net_ether_01 ether      public     DX986      10.51.226.231                     en0                         255.255.255.0               24
+DX986-VIP            service    net_ether_01 ether      public     DX986      10.51.226.233                                                 255.255.255.0               24
+DX987                boot       net_ether_01 ether      public     DX987      10.51.226.232                     en0                         255.255.255.0               24
+DX986-VIP            service    net_ether_01 ether      public     DX987      10.51.226.233                                                 255.255.255.0               24
+==== EXITED with rc 0 ====
+==== END cllsif Tue Jul  7 00:56:43 GST 2015 ====

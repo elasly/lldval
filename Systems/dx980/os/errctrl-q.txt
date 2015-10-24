@@ -1,0 +1,1631 @@
+==== This output can be found in Systems/dx980/os/errctrl-q.txt ====
+==== START errctrl -q Mon Jul  6 23:12:47 GST 2015 ====
+---------------------------------------------+-------+-------+-------+--------
+                                             | Have  |ErrChk |LowSev |MedSev 
+    Component name                           | alias | /level| Disp  | Disp 
+---------------------------------------------+-------+-------+-------+--------
+alloc                                        |  NO   | ON /3 |  48   |  64  
+     .heap0                                  |  NO   | OFF/0 |  48   |  64  
+     .xmdbg                                  |  NO   | ON /3 |  64   |  80  
+     .xmdbgdis                               |  NO   | ON /3 |  64   |  80  
+dpcom                                        |  NO   | ON /3 |  64   |  96  
+efscsidd
+     .fscsi10                                |  NO   | ON /1 |  48   |  64  
+     .fscsi11                                |  NO   | ON /1 |  48   |  64  
+     .fscsi12                                |  NO   | ON /1 |  48   |  64  
+     .fscsi13                                |  NO   | ON /1 |  48   |  64  
+     .fscsi14                                |  NO   | ON /1 |  48   |  64  
+     .fscsi15                                |  NO   | ON /1 |  48   |  64  
+     .fscsi8                                 |  NO   | ON /1 |  48   |  64  
+     .fscsi9                                 |  NO   | ON /1 |  48   |  64  
+if_en                                        |  NO   | ON /1 |  64   |  64  
+ipc
+     .msg                                    |  YES  | ON /3 |  48   |  64  
+     .sem                                    |  YES  | ON /3 |  48   |  64  
+     .shm                                    |  YES  | ON /3 |  48   |  64  
+iscsisw
+     .iscsi0                                 |  NO   | ON /1 |  64   |  64  
+jfs2                                         |  NO   | ON /3 |  48   |  64  
+     filesystem
+          __1
+               .metadata                     |  NO   | ON /3 |  48   |  64  
+               .userdata                     |  NO   | ON /3 |  48   |  64  
+          _admin_8
+               .metadata                     |  NO   | ON /3 |  48   |  64  
+               .userdata                     |  NO   | ON /3 |  48   |  64  
+          _home_7
+               .metadata                     |  NO   | ON /3 |  48   |  64  
+               .userdata                     |  NO   | ON /3 |  48   |  64  
+          _opt_10
+               .metadata                     |  NO   | ON /3 |  48   |  64  
+               .userdata                     |  NO   | ON /3 |  48   |  64  
+          _perfdata_12
+               .metadata                     |  NO   | ON /3 |  48   |  64  
+               .userdata                     |  NO   | ON /3 |  48   |  64  
+          _tmp_5
+               .metadata                     |  NO   | ON /3 |  48   |  64  
+               .userdata                     |  NO   | ON /3 |  48   |  64  
+          _usr_2
+               .metadata                     |  NO   | ON /3 |  48   |  64  
+               .userdata                     |  NO   | ON /3 |  48   |  64  
+          _var_4
+               .metadata                     |  NO   | ON /3 |  48   |  64  
+               .userdata                     |  NO   | ON /3 |  48   |  64  
+          _var_adm_ras_livedump_11
+               .metadata                     |  NO   | ON /3 |  48   |  64  
+               .userdata                     |  NO   | ON /3 |  48   |  64  
+     log
+          .A_3                               |  NO   | ON /3 |  48   |  64  
+ldr                                          |  YES  | ON /3 |  48   |  64  
+     .kernext                                |  YES  | ON /3 |  48   |  64  
+     .lib32                                  |  NO   | ON /3 |  48   |  64  
+     .lib64                                  |  NO   | ON /3 |  48   |  64  
+     .process32                              |  NO   | ON /3 |  48   |  64  
+     .process64                              |  NO   | ON /3 |  48   |  64  
+lfs                                          |  NO   | ON /3 |  48   |  64  
+mbuf                                         |  NO   | ON /3 |  64   |  64  
+     .mpool                                  |  NO   | ON /3 |  64   |  64  
+ml                                           |  NO   | ON /3 |  48   |  64  
+     .stack_overflow                         |  NO   | ON /3 |  48   |  64  
+net                                          |  NO   | ON /3 |  64   |  64  
+     .cdli                                   |  NO   | ON /3 |  64   |  64  
+     .loop                                   |  NO   | ON /3 |  64   |  64  
+     .netisr                                 |  NO   | ON /3 |  64   |  64  
+     .route                                  |  NO   | ON /3 |  64   |  64  
+netinet                                      |  NO   | ON /3 |  64   |  64  
+     .ipv4                                   |  NO   | ON /3 |  64   |  64  
+     .ipv6                                   |  NO   | ON /3 |  64   |  64  
+     .netinet_misc                           |  NO   | ON /3 |  64   |  64  
+     .tcp                                    |  NO   | ON /3 |  64   |  64  
+     .udp                                    |  NO   | ON /3 |  64   |  64  
+netmalloc                                    |  NO   | ON /3 |  64   |  64  
+     .police                                 |  NO   | ON /3 |  64   |  64  
+nfs
+     nfs4
+          .nfs4_client                       |  NO   | ON /3 |  48   |  64  
+          .nfs4_server                       |  NO   | ON /3 |  48   |  64  
+pile                                         |  NO   | ON /3 |  48   |  64  
+probemgr                                     |  NO   | ON /3 |  48   |  64  
+     .interval_pmgr                          |  NO   | ON /3 |  48   |  64  
+     .systrace_pmgr                          |  NO   | ON /3 |  48   |  64  
+probev                                       |  NO   | ON /3 |  48   |  64  
+     .etrace_evm                             |  NO   | ON /3 |  48   |  64  
+     .trcbuf_mgr                             |  NO   | ON /3 |  48   |  64  
+proc
+     .cprs                                   |  NO   | ON /3 |  48   |  64  
+     .disa                                   |  NO   | ON /3 |  48   |  64  
+     .dr                                     |  YES  | ON /3 |  48   |  64  
+     .lock                                   |  NO   | ON /3 |  48   |  64  
+     .pmzone                                 |  NO   | ON /3 |  48   |  64  
+     .rqi                                    |  NO   | ON /3 |  48   |  64  
+     .trb                                    |  NO   | ON /3 |  48   |  64  
+     .vpm                                    |  NO   | ON /3 |  48   |  64  
+     .watchdog                               |  NO   | ON /3 |  48   |  64  
+     .wlm                                    |  NO   | ON /3 |  48   |  64  
+     .wpar                                   |  NO   | ON /3 |  48   |  64  
+ras
+     .ct                                     |  YES  | ON /3 |  48   |  64  
+     .errorcheck                             |  NO   | ON /3 |  48   |  64  
+     .infra                                  |  YES  | ON /3 |  48   |  64  
+rbac                                         |  NO   | ON /3 |  48   |  64  
+     .kat                                    |  NO   | ON /3 |  48   |  64  
+     .kpcdt                                  |  NO   | ON /3 |  48   |  64  
+     .kprt                                   |  NO   | ON /3 |  48   |  64  
+     .krt                                    |  NO   | ON /3 |  48   |  64  
+     .kst                                    |  NO   | ON /3 |  48   |  64  
+     .wpar                                   |  NO   | ON /3 |  48   |  64  
+refmon                                       |  NO   | ON /3 |  48   |  64  
+     .dac                                    |  NO   | ON /3 |  48   |  64  
+     .fs                                     |  NO   | ON /3 |  48   |  64  
+     .fsf                                    |  NO   | ON /3 |  48   |  64  
+     .label                                  |  NO   | ON /3 |  48   |  64  
+     .mac                                    |  NO   | ON /3 |  48   |  64  
+     .objsec                                 |  NO   | ON /3 |  48   |  64  
+     .policy                                 |  NO   | ON /3 |  48   |  64  
+     .priv                                   |  NO   | ON /3 |  48   |  64  
+scsidiskdd                                   |  NO   | OFF/0 |  48   |  64  
+     .hdisk0                                 |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio0                             |  NO   | ON /1 |  48   |  64  
+     .hdisk1                                 |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio1                             |  NO   | ON /1 |  48   |  64  
+     .hdisk10                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio10                            |  NO   | ON /1 |  48   |  64  
+     .hdisk100                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio100                           |  NO   | ON /1 |  48   |  64  
+     .hdisk101                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio101                           |  NO   | ON /1 |  48   |  64  
+     .hdisk102                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio102                           |  NO   | ON /1 |  48   |  64  
+     .hdisk103                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio103                           |  NO   | ON /1 |  48   |  64  
+     .hdisk104                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio104                           |  NO   | ON /1 |  48   |  64  
+     .hdisk105                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio105                           |  NO   | ON /1 |  48   |  64  
+     .hdisk106                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio106                           |  NO   | ON /1 |  48   |  64  
+     .hdisk107                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio107                           |  NO   | ON /1 |  48   |  64  
+     .hdisk108                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio108                           |  NO   | ON /1 |  48   |  64  
+     .hdisk109                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio109                           |  NO   | ON /1 |  48   |  64  
+     .hdisk11                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio11                            |  NO   | ON /1 |  48   |  64  
+     .hdisk110                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio110                           |  NO   | ON /1 |  48   |  64  
+     .hdisk111                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio111                           |  NO   | ON /1 |  48   |  64  
+     .hdisk112                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio112                           |  NO   | ON /1 |  48   |  64  
+     .hdisk113                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio113                           |  NO   | ON /1 |  48   |  64  
+     .hdisk114                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio114                           |  NO   | ON /1 |  48   |  64  
+     .hdisk115                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio115                           |  NO   | ON /1 |  48   |  64  
+     .hdisk116                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio116                           |  NO   | ON /1 |  48   |  64  
+     .hdisk117                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio117                           |  NO   | ON /1 |  48   |  64  
+     .hdisk118                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio118                           |  NO   | ON /1 |  48   |  64  
+     .hdisk119                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio119                           |  NO   | ON /1 |  48   |  64  
+     .hdisk12                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio12                            |  NO   | ON /1 |  48   |  64  
+     .hdisk120                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio120                           |  NO   | ON /1 |  48   |  64  
+     .hdisk121                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio121                           |  NO   | ON /1 |  48   |  64  
+     .hdisk122                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio122                           |  NO   | ON /1 |  48   |  64  
+     .hdisk123                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio123                           |  NO   | ON /1 |  48   |  64  
+     .hdisk124                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio124                           |  NO   | ON /1 |  48   |  64  
+     .hdisk125                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio125                           |  NO   | ON /1 |  48   |  64  
+     .hdisk126                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio126                           |  NO   | ON /1 |  48   |  64  
+     .hdisk127                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio127                           |  NO   | ON /1 |  48   |  64  
+     .hdisk128                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio128                           |  NO   | ON /1 |  48   |  64  
+     .hdisk129                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio129                           |  NO   | ON /1 |  48   |  64  
+     .hdisk13                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio13                            |  NO   | ON /1 |  48   |  64  
+     .hdisk130                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio130                           |  NO   | ON /1 |  48   |  64  
+     .hdisk131                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio131                           |  NO   | ON /1 |  48   |  64  
+     .hdisk132                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio132                           |  NO   | ON /1 |  48   |  64  
+     .hdisk133                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio133                           |  NO   | ON /1 |  48   |  64  
+     .hdisk134                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio134                           |  NO   | ON /1 |  48   |  64  
+     .hdisk135                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio135                           |  NO   | ON /1 |  48   |  64  
+     .hdisk136                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio136                           |  NO   | ON /1 |  48   |  64  
+     .hdisk137                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio137                           |  NO   | ON /1 |  48   |  64  
+     .hdisk138                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio138                           |  NO   | ON /1 |  48   |  64  
+     .hdisk139                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio139                           |  NO   | ON /1 |  48   |  64  
+     .hdisk14                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio14                            |  NO   | ON /1 |  48   |  64  
+     .hdisk140                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio140                           |  NO   | ON /1 |  48   |  64  
+     .hdisk141                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio141                           |  NO   | ON /1 |  48   |  64  
+     .hdisk142                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio142                           |  NO   | ON /1 |  48   |  64  
+     .hdisk143                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio143                           |  NO   | ON /1 |  48   |  64  
+     .hdisk144                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio144                           |  NO   | ON /1 |  48   |  64  
+     .hdisk145                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio145                           |  NO   | ON /1 |  48   |  64  
+     .hdisk146                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio146                           |  NO   | ON /1 |  48   |  64  
+     .hdisk147                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio147                           |  NO   | ON /1 |  48   |  64  
+     .hdisk148                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio148                           |  NO   | ON /1 |  48   |  64  
+     .hdisk149                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio149                           |  NO   | ON /1 |  48   |  64  
+     .hdisk15                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio15                            |  NO   | ON /1 |  48   |  64  
+     .hdisk150                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio150                           |  NO   | ON /1 |  48   |  64  
+     .hdisk151                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio151                           |  NO   | ON /1 |  48   |  64  
+     .hdisk152                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio152                           |  NO   | ON /1 |  48   |  64  
+     .hdisk153                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio153                           |  NO   | ON /1 |  48   |  64  
+     .hdisk154                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio154                           |  NO   | ON /1 |  48   |  64  
+     .hdisk155                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio155                           |  NO   | ON /1 |  48   |  64  
+     .hdisk156                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio156                           |  NO   | ON /1 |  48   |  64  
+     .hdisk157                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio157                           |  NO   | ON /1 |  48   |  64  
+     .hdisk158                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio158                           |  NO   | ON /1 |  48   |  64  
+     .hdisk159                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio159                           |  NO   | ON /1 |  48   |  64  
+     .hdisk16                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio16                            |  NO   | ON /1 |  48   |  64  
+     .hdisk160                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio160                           |  NO   | ON /1 |  48   |  64  
+     .hdisk161                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio161                           |  NO   | ON /1 |  48   |  64  
+     .hdisk162                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio162                           |  NO   | ON /1 |  48   |  64  
+     .hdisk163                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio163                           |  NO   | ON /1 |  48   |  64  
+     .hdisk164                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio164                           |  NO   | ON /1 |  48   |  64  
+     .hdisk165                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio165                           |  NO   | ON /1 |  48   |  64  
+     .hdisk166                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio166                           |  NO   | ON /1 |  48   |  64  
+     .hdisk167                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio167                           |  NO   | ON /1 |  48   |  64  
+     .hdisk168                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio168                           |  NO   | ON /1 |  48   |  64  
+     .hdisk169                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio169                           |  NO   | ON /1 |  48   |  64  
+     .hdisk17                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio17                            |  NO   | ON /1 |  48   |  64  
+     .hdisk170                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio170                           |  NO   | ON /1 |  48   |  64  
+     .hdisk171                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio171                           |  NO   | ON /1 |  48   |  64  
+     .hdisk172                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio172                           |  NO   | ON /1 |  48   |  64  
+     .hdisk173                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio173                           |  NO   | ON /1 |  48   |  64  
+     .hdisk174                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio174                           |  NO   | ON /1 |  48   |  64  
+     .hdisk175                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio175                           |  NO   | ON /1 |  48   |  64  
+     .hdisk176                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio176                           |  NO   | ON /1 |  48   |  64  
+     .hdisk177                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio177                           |  NO   | ON /1 |  48   |  64  
+     .hdisk178                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio178                           |  NO   | ON /1 |  48   |  64  
+     .hdisk179                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio179                           |  NO   | ON /1 |  48   |  64  
+     .hdisk18                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio18                            |  NO   | ON /1 |  48   |  64  
+     .hdisk180                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio180                           |  NO   | ON /1 |  48   |  64  
+     .hdisk181                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio181                           |  NO   | ON /1 |  48   |  64  
+     .hdisk182                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio182                           |  NO   | ON /1 |  48   |  64  
+     .hdisk183                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio183                           |  NO   | ON /1 |  48   |  64  
+     .hdisk184                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio184                           |  NO   | ON /1 |  48   |  64  
+     .hdisk185                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio185                           |  NO   | ON /1 |  48   |  64  
+     .hdisk186                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio186                           |  NO   | ON /1 |  48   |  64  
+     .hdisk187                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio187                           |  NO   | ON /1 |  48   |  64  
+     .hdisk188                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio188                           |  NO   | ON /1 |  48   |  64  
+     .hdisk189                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio189                           |  NO   | ON /1 |  48   |  64  
+     .hdisk19                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio19                            |  NO   | ON /1 |  48   |  64  
+     .hdisk190                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio190                           |  NO   | ON /1 |  48   |  64  
+     .hdisk191                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio191                           |  NO   | ON /1 |  48   |  64  
+     .hdisk192                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio192                           |  NO   | ON /1 |  48   |  64  
+     .hdisk193                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio193                           |  NO   | ON /1 |  48   |  64  
+     .hdisk194                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio194                           |  NO   | ON /1 |  48   |  64  
+     .hdisk195                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio195                           |  NO   | ON /1 |  48   |  64  
+     .hdisk196                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio196                           |  NO   | ON /1 |  48   |  64  
+     .hdisk197                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio197                           |  NO   | ON /1 |  48   |  64  
+     .hdisk198                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio198                           |  NO   | ON /1 |  48   |  64  
+     .hdisk199                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio199                           |  NO   | ON /1 |  48   |  64  
+     .hdisk2                                 |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio2                             |  NO   | ON /1 |  48   |  64  
+     .hdisk20                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio20                            |  NO   | ON /1 |  48   |  64  
+     .hdisk200                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio200                           |  NO   | ON /1 |  48   |  64  
+     .hdisk201                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio201                           |  NO   | ON /1 |  48   |  64  
+     .hdisk202                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio202                           |  NO   | ON /1 |  48   |  64  
+     .hdisk203                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio203                           |  NO   | ON /1 |  48   |  64  
+     .hdisk204                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio204                           |  NO   | ON /1 |  48   |  64  
+     .hdisk205                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio205                           |  NO   | ON /1 |  48   |  64  
+     .hdisk206                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio206                           |  NO   | ON /1 |  48   |  64  
+     .hdisk207                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio207                           |  NO   | ON /1 |  48   |  64  
+     .hdisk208                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio208                           |  NO   | ON /1 |  48   |  64  
+     .hdisk209                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio209                           |  NO   | ON /1 |  48   |  64  
+     .hdisk21                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio21                            |  NO   | ON /1 |  48   |  64  
+     .hdisk210                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio210                           |  NO   | ON /1 |  48   |  64  
+     .hdisk211                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio211                           |  NO   | ON /1 |  48   |  64  
+     .hdisk212                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio212                           |  NO   | ON /1 |  48   |  64  
+     .hdisk213                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio213                           |  NO   | ON /1 |  48   |  64  
+     .hdisk214                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio214                           |  NO   | ON /1 |  48   |  64  
+     .hdisk215                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio215                           |  NO   | ON /1 |  48   |  64  
+     .hdisk216                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio216                           |  NO   | ON /1 |  48   |  64  
+     .hdisk217                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio217                           |  NO   | ON /1 |  48   |  64  
+     .hdisk218                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio218                           |  NO   | ON /1 |  48   |  64  
+     .hdisk219                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio219                           |  NO   | ON /1 |  48   |  64  
+     .hdisk22                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio22                            |  NO   | ON /1 |  48   |  64  
+     .hdisk220                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio220                           |  NO   | ON /1 |  48   |  64  
+     .hdisk221                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio221                           |  NO   | ON /1 |  48   |  64  
+     .hdisk222                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio222                           |  NO   | ON /1 |  48   |  64  
+     .hdisk223                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio223                           |  NO   | ON /1 |  48   |  64  
+     .hdisk224                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio224                           |  NO   | ON /1 |  48   |  64  
+     .hdisk225                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio225                           |  NO   | ON /1 |  48   |  64  
+     .hdisk226                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio226                           |  NO   | ON /1 |  48   |  64  
+     .hdisk227                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio227                           |  NO   | ON /1 |  48   |  64  
+     .hdisk228                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio228                           |  NO   | ON /1 |  48   |  64  
+     .hdisk229                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio229                           |  NO   | ON /1 |  48   |  64  
+     .hdisk23                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio23                            |  NO   | ON /1 |  48   |  64  
+     .hdisk230                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio230                           |  NO   | ON /1 |  48   |  64  
+     .hdisk231                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio231                           |  NO   | ON /1 |  48   |  64  
+     .hdisk232                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio232                           |  NO   | ON /1 |  48   |  64  
+     .hdisk233                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio233                           |  NO   | ON /1 |  48   |  64  
+     .hdisk234                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio234                           |  NO   | ON /1 |  48   |  64  
+     .hdisk235                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio235                           |  NO   | ON /1 |  48   |  64  
+     .hdisk236                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio236                           |  NO   | ON /1 |  48   |  64  
+     .hdisk237                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio237                           |  NO   | ON /1 |  48   |  64  
+     .hdisk238                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio238                           |  NO   | ON /1 |  48   |  64  
+     .hdisk239                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio239                           |  NO   | ON /1 |  48   |  64  
+     .hdisk24                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio24                            |  NO   | ON /1 |  48   |  64  
+     .hdisk240                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio240                           |  NO   | ON /1 |  48   |  64  
+     .hdisk241                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio241                           |  NO   | ON /1 |  48   |  64  
+     .hdisk242                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio242                           |  NO   | ON /1 |  48   |  64  
+     .hdisk243                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio243                           |  NO   | ON /1 |  48   |  64  
+     .hdisk244                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio244                           |  NO   | ON /1 |  48   |  64  
+     .hdisk245                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio245                           |  NO   | ON /1 |  48   |  64  
+     .hdisk246                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio246                           |  NO   | ON /1 |  48   |  64  
+     .hdisk247                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio247                           |  NO   | ON /1 |  48   |  64  
+     .hdisk248                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio248                           |  NO   | ON /1 |  48   |  64  
+     .hdisk249                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio249                           |  NO   | ON /1 |  48   |  64  
+     .hdisk25                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio25                            |  NO   | ON /1 |  48   |  64  
+     .hdisk250                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio250                           |  NO   | ON /1 |  48   |  64  
+     .hdisk251                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio251                           |  NO   | ON /1 |  48   |  64  
+     .hdisk252                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio252                           |  NO   | ON /1 |  48   |  64  
+     .hdisk253                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio253                           |  NO   | ON /1 |  48   |  64  
+     .hdisk254                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio254                           |  NO   | ON /1 |  48   |  64  
+     .hdisk255                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio255                           |  NO   | ON /1 |  48   |  64  
+     .hdisk256                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio256                           |  NO   | ON /1 |  48   |  64  
+     .hdisk257                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio257                           |  NO   | ON /1 |  48   |  64  
+     .hdisk258                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio258                           |  NO   | ON /1 |  48   |  64  
+     .hdisk259                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio259                           |  NO   | ON /1 |  48   |  64  
+     .hdisk26                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio26                            |  NO   | ON /1 |  48   |  64  
+     .hdisk260                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio260                           |  NO   | ON /1 |  48   |  64  
+     .hdisk261                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio261                           |  NO   | ON /1 |  48   |  64  
+     .hdisk262                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio262                           |  NO   | ON /1 |  48   |  64  
+     .hdisk263                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio263                           |  NO   | ON /1 |  48   |  64  
+     .hdisk264                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio264                           |  NO   | ON /1 |  48   |  64  
+     .hdisk265                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio265                           |  NO   | ON /1 |  48   |  64  
+     .hdisk266                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio266                           |  NO   | ON /1 |  48   |  64  
+     .hdisk267                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio267                           |  NO   | ON /1 |  48   |  64  
+     .hdisk268                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio268                           |  NO   | ON /1 |  48   |  64  
+     .hdisk269                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio269                           |  NO   | ON /1 |  48   |  64  
+     .hdisk27                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio27                            |  NO   | ON /1 |  48   |  64  
+     .hdisk270                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio270                           |  NO   | ON /1 |  48   |  64  
+     .hdisk271                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio271                           |  NO   | ON /1 |  48   |  64  
+     .hdisk272                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio272                           |  NO   | ON /1 |  48   |  64  
+     .hdisk273                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio273                           |  NO   | ON /1 |  48   |  64  
+     .hdisk274                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio274                           |  NO   | ON /1 |  48   |  64  
+     .hdisk275                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio275                           |  NO   | ON /1 |  48   |  64  
+     .hdisk276                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio276                           |  NO   | ON /1 |  48   |  64  
+     .hdisk277                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio277                           |  NO   | ON /1 |  48   |  64  
+     .hdisk278                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio278                           |  NO   | ON /1 |  48   |  64  
+     .hdisk279                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio279                           |  NO   | ON /1 |  48   |  64  
+     .hdisk28                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio28                            |  NO   | ON /1 |  48   |  64  
+     .hdisk280                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio280                           |  NO   | ON /1 |  48   |  64  
+     .hdisk281                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio281                           |  NO   | ON /1 |  48   |  64  
+     .hdisk282                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio282                           |  NO   | ON /1 |  48   |  64  
+     .hdisk283                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio283                           |  NO   | ON /1 |  48   |  64  
+     .hdisk284                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio284                           |  NO   | ON /1 |  48   |  64  
+     .hdisk285                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio285                           |  NO   | ON /1 |  48   |  64  
+     .hdisk286                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio286                           |  NO   | ON /1 |  48   |  64  
+     .hdisk287                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio287                           |  NO   | ON /1 |  48   |  64  
+     .hdisk288                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio288                           |  NO   | ON /1 |  48   |  64  
+     .hdisk289                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio289                           |  NO   | ON /1 |  48   |  64  
+     .hdisk29                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio29                            |  NO   | ON /1 |  48   |  64  
+     .hdisk290                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio290                           |  NO   | ON /1 |  48   |  64  
+     .hdisk291                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio291                           |  NO   | ON /1 |  48   |  64  
+     .hdisk292                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio292                           |  NO   | ON /1 |  48   |  64  
+     .hdisk293                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio293                           |  NO   | ON /1 |  48   |  64  
+     .hdisk294                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio294                           |  NO   | ON /1 |  48   |  64  
+     .hdisk295                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio295                           |  NO   | ON /1 |  48   |  64  
+     .hdisk296                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio296                           |  NO   | ON /1 |  48   |  64  
+     .hdisk297                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio297                           |  NO   | ON /1 |  48   |  64  
+     .hdisk298                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio298                           |  NO   | ON /1 |  48   |  64  
+     .hdisk299                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio299                           |  NO   | ON /1 |  48   |  64  
+     .hdisk3                                 |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio3                             |  NO   | ON /1 |  48   |  64  
+     .hdisk30                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio30                            |  NO   | ON /1 |  48   |  64  
+     .hdisk300                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio300                           |  NO   | ON /1 |  48   |  64  
+     .hdisk301                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio301                           |  NO   | ON /1 |  48   |  64  
+     .hdisk302                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio302                           |  NO   | ON /1 |  48   |  64  
+     .hdisk303                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio303                           |  NO   | ON /1 |  48   |  64  
+     .hdisk304                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio304                           |  NO   | ON /1 |  48   |  64  
+     .hdisk305                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio305                           |  NO   | ON /1 |  48   |  64  
+     .hdisk306                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio306                           |  NO   | ON /1 |  48   |  64  
+     .hdisk307                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio307                           |  NO   | ON /1 |  48   |  64  
+     .hdisk308                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio308                           |  NO   | ON /1 |  48   |  64  
+     .hdisk309                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio309                           |  NO   | ON /1 |  48   |  64  
+     .hdisk31                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio31                            |  NO   | ON /1 |  48   |  64  
+     .hdisk310                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio310                           |  NO   | ON /1 |  48   |  64  
+     .hdisk311                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio311                           |  NO   | ON /1 |  48   |  64  
+     .hdisk312                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio312                           |  NO   | ON /1 |  48   |  64  
+     .hdisk313                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio313                           |  NO   | ON /1 |  48   |  64  
+     .hdisk314                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio314                           |  NO   | ON /1 |  48   |  64  
+     .hdisk315                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio315                           |  NO   | ON /1 |  48   |  64  
+     .hdisk316                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio316                           |  NO   | ON /1 |  48   |  64  
+     .hdisk317                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio317                           |  NO   | ON /1 |  48   |  64  
+     .hdisk318                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio318                           |  NO   | ON /1 |  48   |  64  
+     .hdisk319                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio319                           |  NO   | ON /1 |  48   |  64  
+     .hdisk32                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio32                            |  NO   | ON /1 |  48   |  64  
+     .hdisk320                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio320                           |  NO   | ON /1 |  48   |  64  
+     .hdisk321                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio321                           |  NO   | ON /1 |  48   |  64  
+     .hdisk322                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio322                           |  NO   | ON /1 |  48   |  64  
+     .hdisk323                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio323                           |  NO   | ON /1 |  48   |  64  
+     .hdisk324                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio324                           |  NO   | ON /1 |  48   |  64  
+     .hdisk325                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio325                           |  NO   | ON /1 |  48   |  64  
+     .hdisk326                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio326                           |  NO   | ON /1 |  48   |  64  
+     .hdisk327                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio327                           |  NO   | ON /1 |  48   |  64  
+     .hdisk328                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio328                           |  NO   | ON /1 |  48   |  64  
+     .hdisk329                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio329                           |  NO   | ON /1 |  48   |  64  
+     .hdisk33                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio33                            |  NO   | ON /1 |  48   |  64  
+     .hdisk330                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio330                           |  NO   | ON /1 |  48   |  64  
+     .hdisk331                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio331                           |  NO   | ON /1 |  48   |  64  
+     .hdisk332                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio332                           |  NO   | ON /1 |  48   |  64  
+     .hdisk333                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio333                           |  NO   | ON /1 |  48   |  64  
+     .hdisk334                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio334                           |  NO   | ON /1 |  48   |  64  
+     .hdisk335                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio335                           |  NO   | ON /1 |  48   |  64  
+     .hdisk336                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio336                           |  NO   | ON /1 |  48   |  64  
+     .hdisk337                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio337                           |  NO   | ON /1 |  48   |  64  
+     .hdisk338                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio338                           |  NO   | ON /1 |  48   |  64  
+     .hdisk339                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio339                           |  NO   | ON /1 |  48   |  64  
+     .hdisk34                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio34                            |  NO   | ON /1 |  48   |  64  
+     .hdisk340                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio340                           |  NO   | ON /1 |  48   |  64  
+     .hdisk341                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio341                           |  NO   | ON /1 |  48   |  64  
+     .hdisk342                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio342                           |  NO   | ON /1 |  48   |  64  
+     .hdisk343                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio343                           |  NO   | ON /1 |  48   |  64  
+     .hdisk344                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio344                           |  NO   | ON /1 |  48   |  64  
+     .hdisk345                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio345                           |  NO   | ON /1 |  48   |  64  
+     .hdisk346                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio346                           |  NO   | ON /1 |  48   |  64  
+     .hdisk347                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio347                           |  NO   | ON /1 |  48   |  64  
+     .hdisk348                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio348                           |  NO   | ON /1 |  48   |  64  
+     .hdisk349                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio349                           |  NO   | ON /1 |  48   |  64  
+     .hdisk35                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio35                            |  NO   | ON /1 |  48   |  64  
+     .hdisk350                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio350                           |  NO   | ON /1 |  48   |  64  
+     .hdisk351                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio351                           |  NO   | ON /1 |  48   |  64  
+     .hdisk352                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio352                           |  NO   | ON /1 |  48   |  64  
+     .hdisk353                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio353                           |  NO   | ON /1 |  48   |  64  
+     .hdisk354                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio354                           |  NO   | ON /1 |  48   |  64  
+     .hdisk355                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio355                           |  NO   | ON /1 |  48   |  64  
+     .hdisk356                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio356                           |  NO   | ON /1 |  48   |  64  
+     .hdisk357                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio357                           |  NO   | ON /1 |  48   |  64  
+     .hdisk358                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio358                           |  NO   | ON /1 |  48   |  64  
+     .hdisk359                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio359                           |  NO   | ON /1 |  48   |  64  
+     .hdisk36                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio36                            |  NO   | ON /1 |  48   |  64  
+     .hdisk360                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio360                           |  NO   | ON /1 |  48   |  64  
+     .hdisk361                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio361                           |  NO   | ON /1 |  48   |  64  
+     .hdisk362                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio362                           |  NO   | ON /1 |  48   |  64  
+     .hdisk363                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio363                           |  NO   | ON /1 |  48   |  64  
+     .hdisk364                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio364                           |  NO   | ON /1 |  48   |  64  
+     .hdisk365                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio365                           |  NO   | ON /1 |  48   |  64  
+     .hdisk366                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio366                           |  NO   | ON /1 |  48   |  64  
+     .hdisk367                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio367                           |  NO   | ON /1 |  48   |  64  
+     .hdisk368                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio368                           |  NO   | ON /1 |  48   |  64  
+     .hdisk369                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio369                           |  NO   | ON /1 |  48   |  64  
+     .hdisk37                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio37                            |  NO   | ON /1 |  48   |  64  
+     .hdisk370                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio370                           |  NO   | ON /1 |  48   |  64  
+     .hdisk371                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio371                           |  NO   | ON /1 |  48   |  64  
+     .hdisk372                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio372                           |  NO   | ON /1 |  48   |  64  
+     .hdisk373                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio373                           |  NO   | ON /1 |  48   |  64  
+     .hdisk374                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio374                           |  NO   | ON /1 |  48   |  64  
+     .hdisk375                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio375                           |  NO   | ON /1 |  48   |  64  
+     .hdisk376                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio376                           |  NO   | ON /1 |  48   |  64  
+     .hdisk377                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio377                           |  NO   | ON /1 |  48   |  64  
+     .hdisk378                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio378                           |  NO   | ON /1 |  48   |  64  
+     .hdisk379                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio379                           |  NO   | ON /1 |  48   |  64  
+     .hdisk38                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio38                            |  NO   | ON /1 |  48   |  64  
+     .hdisk380                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio380                           |  NO   | ON /1 |  48   |  64  
+     .hdisk381                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio381                           |  NO   | ON /1 |  48   |  64  
+     .hdisk382                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio382                           |  NO   | ON /1 |  48   |  64  
+     .hdisk383                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio383                           |  NO   | ON /1 |  48   |  64  
+     .hdisk384                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio384                           |  NO   | ON /1 |  48   |  64  
+     .hdisk385                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio385                           |  NO   | ON /1 |  48   |  64  
+     .hdisk386                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio386                           |  NO   | ON /1 |  48   |  64  
+     .hdisk387                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio387                           |  NO   | ON /1 |  48   |  64  
+     .hdisk388                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio388                           |  NO   | ON /1 |  48   |  64  
+     .hdisk389                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio389                           |  NO   | ON /1 |  48   |  64  
+     .hdisk39                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio39                            |  NO   | ON /1 |  48   |  64  
+     .hdisk390                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio390                           |  NO   | ON /1 |  48   |  64  
+     .hdisk391                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio391                           |  NO   | ON /1 |  48   |  64  
+     .hdisk392                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio392                           |  NO   | ON /1 |  48   |  64  
+     .hdisk393                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio393                           |  NO   | ON /1 |  48   |  64  
+     .hdisk394                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio394                           |  NO   | ON /1 |  48   |  64  
+     .hdisk395                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio395                           |  NO   | ON /1 |  48   |  64  
+     .hdisk396                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio396                           |  NO   | ON /1 |  48   |  64  
+     .hdisk397                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio397                           |  NO   | ON /1 |  48   |  64  
+     .hdisk398                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio398                           |  NO   | ON /1 |  48   |  64  
+     .hdisk399                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio399                           |  NO   | ON /1 |  48   |  64  
+     .hdisk4                                 |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio4                             |  NO   | ON /1 |  48   |  64  
+     .hdisk40                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio40                            |  NO   | ON /1 |  48   |  64  
+     .hdisk400                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio400                           |  NO   | ON /1 |  48   |  64  
+     .hdisk401                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio401                           |  NO   | ON /1 |  48   |  64  
+     .hdisk402                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio402                           |  NO   | ON /1 |  48   |  64  
+     .hdisk403                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio403                           |  NO   | ON /1 |  48   |  64  
+     .hdisk404                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio404                           |  NO   | ON /1 |  48   |  64  
+     .hdisk405                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio405                           |  NO   | ON /1 |  48   |  64  
+     .hdisk406                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio406                           |  NO   | ON /1 |  48   |  64  
+     .hdisk407                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio407                           |  NO   | ON /1 |  48   |  64  
+     .hdisk408                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio408                           |  NO   | ON /1 |  48   |  64  
+     .hdisk409                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio409                           |  NO   | ON /1 |  48   |  64  
+     .hdisk41                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio41                            |  NO   | ON /1 |  48   |  64  
+     .hdisk410                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio410                           |  NO   | ON /1 |  48   |  64  
+     .hdisk411                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio411                           |  NO   | ON /1 |  48   |  64  
+     .hdisk412                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio412                           |  NO   | ON /1 |  48   |  64  
+     .hdisk413                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio413                           |  NO   | ON /1 |  48   |  64  
+     .hdisk414                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio414                           |  NO   | ON /1 |  48   |  64  
+     .hdisk415                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio415                           |  NO   | ON /1 |  48   |  64  
+     .hdisk416                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio416                           |  NO   | ON /1 |  48   |  64  
+     .hdisk417                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio417                           |  NO   | ON /1 |  48   |  64  
+     .hdisk418                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio418                           |  NO   | ON /1 |  48   |  64  
+     .hdisk419                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio419                           |  NO   | ON /1 |  48   |  64  
+     .hdisk42                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio42                            |  NO   | ON /1 |  48   |  64  
+     .hdisk420                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio420                           |  NO   | ON /1 |  48   |  64  
+     .hdisk421                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio421                           |  NO   | ON /1 |  48   |  64  
+     .hdisk422                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio422                           |  NO   | ON /1 |  48   |  64  
+     .hdisk423                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio423                           |  NO   | ON /1 |  48   |  64  
+     .hdisk424                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio424                           |  NO   | ON /1 |  48   |  64  
+     .hdisk425                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio425                           |  NO   | ON /1 |  48   |  64  
+     .hdisk426                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio426                           |  NO   | ON /1 |  48   |  64  
+     .hdisk427                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio427                           |  NO   | ON /1 |  48   |  64  
+     .hdisk428                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio428                           |  NO   | ON /1 |  48   |  64  
+     .hdisk429                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio429                           |  NO   | ON /1 |  48   |  64  
+     .hdisk43                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio43                            |  NO   | ON /1 |  48   |  64  
+     .hdisk430                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio430                           |  NO   | ON /1 |  48   |  64  
+     .hdisk431                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio431                           |  NO   | ON /1 |  48   |  64  
+     .hdisk432                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio432                           |  NO   | ON /1 |  48   |  64  
+     .hdisk433                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio433                           |  NO   | ON /1 |  48   |  64  
+     .hdisk434                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio434                           |  NO   | ON /1 |  48   |  64  
+     .hdisk435                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio435                           |  NO   | ON /1 |  48   |  64  
+     .hdisk436                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio436                           |  NO   | ON /1 |  48   |  64  
+     .hdisk437                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio437                           |  NO   | ON /1 |  48   |  64  
+     .hdisk438                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio438                           |  NO   | ON /1 |  48   |  64  
+     .hdisk439                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio439                           |  NO   | ON /1 |  48   |  64  
+     .hdisk44                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio44                            |  NO   | ON /1 |  48   |  64  
+     .hdisk440                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio440                           |  NO   | ON /1 |  48   |  64  
+     .hdisk441                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio441                           |  NO   | ON /1 |  48   |  64  
+     .hdisk442                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio442                           |  NO   | ON /1 |  48   |  64  
+     .hdisk443                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio443                           |  NO   | ON /1 |  48   |  64  
+     .hdisk444                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio444                           |  NO   | ON /1 |  48   |  64  
+     .hdisk445                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio445                           |  NO   | ON /1 |  48   |  64  
+     .hdisk446                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio446                           |  NO   | ON /1 |  48   |  64  
+     .hdisk447                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio447                           |  NO   | ON /1 |  48   |  64  
+     .hdisk449                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio449                           |  NO   | ON /1 |  48   |  64  
+     .hdisk45                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio45                            |  NO   | ON /1 |  48   |  64  
+     .hdisk450                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio450                           |  NO   | ON /1 |  48   |  64  
+     .hdisk451                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio451                           |  NO   | ON /1 |  48   |  64  
+     .hdisk452                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio452                           |  NO   | ON /1 |  48   |  64  
+     .hdisk453                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio453                           |  NO   | ON /1 |  48   |  64  
+     .hdisk454                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio454                           |  NO   | ON /1 |  48   |  64  
+     .hdisk455                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio455                           |  NO   | ON /1 |  48   |  64  
+     .hdisk456                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio456                           |  NO   | ON /1 |  48   |  64  
+     .hdisk457                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio457                           |  NO   | ON /1 |  48   |  64  
+     .hdisk458                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio458                           |  NO   | ON /1 |  48   |  64  
+     .hdisk459                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio459                           |  NO   | ON /1 |  48   |  64  
+     .hdisk46                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio46                            |  NO   | ON /1 |  48   |  64  
+     .hdisk460                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio460                           |  NO   | ON /1 |  48   |  64  
+     .hdisk461                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio461                           |  NO   | ON /1 |  48   |  64  
+     .hdisk462                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio462                           |  NO   | ON /1 |  48   |  64  
+     .hdisk463                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio463                           |  NO   | ON /1 |  48   |  64  
+     .hdisk464                               |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio464                           |  NO   | ON /1 |  48   |  64  
+     .hdisk47                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio47                            |  NO   | ON /1 |  48   |  64  
+     .hdisk48                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio48                            |  NO   | ON /1 |  48   |  64  
+     .hdisk49                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio49                            |  NO   | ON /1 |  48   |  64  
+     .hdisk5                                 |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio5                             |  NO   | ON /1 |  48   |  64  
+     .hdisk50                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio50                            |  NO   | ON /1 |  48   |  64  
+     .hdisk51                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio51                            |  NO   | ON /1 |  48   |  64  
+     .hdisk52                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio52                            |  NO   | ON /1 |  48   |  64  
+     .hdisk53                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio53                            |  NO   | ON /1 |  48   |  64  
+     .hdisk54                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio54                            |  NO   | ON /1 |  48   |  64  
+     .hdisk55                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio55                            |  NO   | ON /1 |  48   |  64  
+     .hdisk56                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio56                            |  NO   | ON /1 |  48   |  64  
+     .hdisk57                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio57                            |  NO   | ON /1 |  48   |  64  
+     .hdisk58                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio58                            |  NO   | ON /1 |  48   |  64  
+     .hdisk59                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio59                            |  NO   | ON /1 |  48   |  64  
+     .hdisk6                                 |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio6                             |  NO   | ON /1 |  48   |  64  
+     .hdisk60                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio60                            |  NO   | ON /1 |  48   |  64  
+     .hdisk61                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio61                            |  NO   | ON /1 |  48   |  64  
+     .hdisk62                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio62                            |  NO   | ON /1 |  48   |  64  
+     .hdisk63                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio63                            |  NO   | ON /1 |  48   |  64  
+     .hdisk64                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio64                            |  NO   | ON /1 |  48   |  64  
+     .hdisk65                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio65                            |  NO   | ON /1 |  48   |  64  
+     .hdisk66                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio66                            |  NO   | ON /1 |  48   |  64  
+     .hdisk67                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio67                            |  NO   | ON /1 |  48   |  64  
+     .hdisk68                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio68                            |  NO   | ON /1 |  48   |  64  
+     .hdisk69                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio69                            |  NO   | ON /1 |  48   |  64  
+     .hdisk7                                 |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio7                             |  NO   | ON /1 |  48   |  64  
+     .hdisk70                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio70                            |  NO   | ON /1 |  48   |  64  
+     .hdisk71                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio71                            |  NO   | ON /1 |  48   |  64  
+     .hdisk72                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio72                            |  NO   | ON /1 |  48   |  64  
+     .hdisk73                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio73                            |  NO   | ON /1 |  48   |  64  
+     .hdisk74                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio74                            |  NO   | ON /1 |  48   |  64  
+     .hdisk75                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio75                            |  NO   | ON /1 |  48   |  64  
+     .hdisk76                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio76                            |  NO   | ON /1 |  48   |  64  
+     .hdisk77                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio77                            |  NO   | ON /1 |  48   |  64  
+     .hdisk78                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio78                            |  NO   | ON /1 |  48   |  64  
+     .hdisk79                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio79                            |  NO   | ON /1 |  48   |  64  
+     .hdisk8                                 |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio8                             |  NO   | ON /1 |  48   |  64  
+     .hdisk80                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio80                            |  NO   | ON /1 |  48   |  64  
+     .hdisk81                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio81                            |  NO   | ON /1 |  48   |  64  
+     .hdisk82                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio82                            |  NO   | ON /1 |  48   |  64  
+     .hdisk83                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio83                            |  NO   | ON /1 |  48   |  64  
+     .hdisk84                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio84                            |  NO   | ON /1 |  48   |  64  
+     .hdisk85                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio85                            |  NO   | ON /1 |  48   |  64  
+     .hdisk86                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio86                            |  NO   | ON /1 |  48   |  64  
+     .hdisk87                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio87                            |  NO   | ON /1 |  48   |  64  
+     .hdisk88                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio88                            |  NO   | ON /1 |  48   |  64  
+     .hdisk89                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio89                            |  NO   | ON /1 |  48   |  64  
+     .hdisk9                                 |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio9                             |  NO   | ON /1 |  48   |  64  
+     .hdisk90                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio90                            |  NO   | ON /1 |  48   |  64  
+     .hdisk91                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio91                            |  NO   | ON /1 |  48   |  64  
+     .hdisk92                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio92                            |  NO   | ON /1 |  48   |  64  
+     .hdisk93                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio93                            |  NO   | ON /1 |  48   |  64  
+     .hdisk94                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio94                            |  NO   | ON /1 |  48   |  64  
+     .hdisk95                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio95                            |  NO   | ON /1 |  48   |  64  
+     .hdisk96                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio96                            |  NO   | ON /1 |  48   |  64  
+     .hdisk97                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio97                            |  NO   | ON /1 |  48   |  64  
+     .hdisk98                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio98                            |  NO   | ON /1 |  48   |  64  
+     .hdisk99                                |  YES  | ON /1 |  48   |  64  
+          .bufx                              |  NO   | OFF/0 |  48   |  64  
+          .mpio99                            |  NO   | ON /1 |  48   |  64  
+socket                                       |  NO   | ON /3 |  64   |  64  
+     .so_unix                                |  NO   | ON /3 |  64   |  64  
+storfwork                                    |  NO   | ON /1 |  48   |  64  
+vfcdd
+     .fcs10                                  |  YES  | ON /1 |  48   |  64  
+     .fcs11                                  |  YES  | ON /1 |  48   |  64  
+     .fcs12                                  |  YES  | ON /1 |  48   |  64  
+     .fcs13                                  |  YES  | ON /1 |  48   |  64  
+     .fcs14                                  |  YES  | ON /1 |  48   |  64  
+     .fcs15                                  |  YES  | ON /1 |  48   |  64  
+     .fcs8                                   |  YES  | ON /1 |  48   |  64  
+     .fcs9                                   |  YES  | ON /1 |  48   |  64  
+vioentdd
+     .dd                                     |  NO   | ON /3 |  48   |  64  
+          .ent0                              |  YES  | ON /3 |  48   |  64  
+          .ent1                              |  YES  | ON /3 |  48   |  64  
+          .ent2                              |  YES  | ON /3 |  48   |  64  
+          .ent3                              |  YES  | ON /3 |  48   |  64  
+vmm
+     .adsp                                   |  NO   | ON /3 |  48   |  64  
+     .chlmb                                  |  NO   | ON /3 |  48   |  64  
+     .cmem                                   |  NO   | ON /3 |  48   |  64  
+     .dr                                     |  NO   | ON /3 |  48   |  64  
+     .frs                                    |  YES  | ON /3 |  48   |  64  
+          .frs0                              |  YES  | ON /3 |  48   |  64  
+          .frs1                              |  YES  | ON /3 |  48   |  64  
+          .frs10                             |  YES  | ON /3 |  48   |  64  
+          .frs11                             |  YES  | ON /3 |  48   |  64  
+          .frs12                             |  YES  | ON /3 |  48   |  64  
+          .frs13                             |  YES  | ON /3 |  48   |  64  
+          .frs14                             |  YES  | ON /3 |  48   |  64  
+          .frs15                             |  YES  | ON /3 |  48   |  64  
+          .frs16                             |  YES  | ON /3 |  48   |  64  
+          .frs17                             |  YES  | ON /3 |  48   |  64  
+          .frs18                             |  YES  | ON /3 |  48   |  64  
+          .frs19                             |  YES  | ON /3 |  48   |  64  
+          .frs1A                             |  YES  | ON /3 |  48   |  64  
+          .frs1B                             |  YES  | ON /3 |  48   |  64  
+          .frs2                              |  YES  | ON /3 |  48   |  64  
+          .frs3                              |  YES  | ON /3 |  48   |  64  
+          .frs4                              |  YES  | ON /3 |  48   |  64  
+          .frs5                              |  YES  | ON /3 |  48   |  64  
+          .frs6                              |  YES  | ON /3 |  48   |  64  
+          .frs7                              |  YES  | ON /3 |  48   |  64  
+          .frs8                              |  YES  | ON /3 |  48   |  64  
+          .frs9                              |  YES  | ON /3 |  48   |  64  
+          .frsA                              |  YES  | ON /3 |  48   |  64  
+          .frsB                              |  YES  | ON /3 |  48   |  64  
+          .frsC                              |  YES  | ON /3 |  48   |  64  
+          .frsD                              |  YES  | ON /3 |  48   |  64  
+          .frsE                              |  YES  | ON /3 |  48   |  64  
+          .frsF                              |  YES  | ON /3 |  48   |  64  
+     .internal                               |  NO   | ON /3 |  48   |  64  
+     .loan                                   |  NO   | ON /3 |  48   |  64  
+     .memp                                   |  YES  | ON /3 |  48   |  64  
+          .memp0                             |  YES  | ON /3 |  48   |  64  
+          .memp1                             |  YES  | ON /3 |  48   |  64  
+          .memp2                             |  YES  | ON /3 |  48   |  64  
+          .memp3                             |  YES  | ON /3 |  48   |  64  
+          .memp4                             |  YES  | ON /3 |  48   |  64  
+          .memp5                             |  YES  | ON /3 |  48   |  64  
+          .memp6                             |  YES  | ON /3 |  48   |  64  
+          .mempLRU                           |  NO   | ON /3 |  48   |  64  
+               .mempLRU0                     |  YES  | ON /3 |  48   |  64  
+               .mempLRU1                     |  YES  | ON /3 |  48   |  64  
+               .mempLRU2                     |  YES  | ON /3 |  48   |  64  
+               .mempLRU3                     |  YES  | ON /3 |  48   |  64  
+               .mempLRU4                     |  YES  | ON /3 |  48   |  64  
+               .mempLRU5                     |  YES  | ON /3 |  48   |  64  
+               .mempLRU6                     |  YES  | ON /3 |  48   |  64  
+          .mempPSMD                          |  NO   | ON /3 |  48   |  64  
+               .mempPSMD0                    |  YES  | ON /3 |  48   |  64  
+               .mempPSMD1                    |  YES  | ON /3 |  48   |  64  
+               .mempPSMD2                    |  YES  | ON /3 |  48   |  64  
+               .mempPSMD3                    |  YES  | ON /3 |  48   |  64  
+               .mempPSMD4                    |  YES  | ON /3 |  48   |  64  
+               .mempPSMD5                    |  YES  | ON /3 |  48   |  64  
+               .mempPSMD6                    |  YES  | ON /3 |  48   |  64  
+     .pdt                                    |  YES  | ON /3 |  48   |  64  
+          .pdt0                              |  YES  | ON /3 |  48   |  64  
+          .pdt80                             |  YES  | ON /3 |  48   |  64  
+          .pdt81                             |  YES  | ON /3 |  48   |  64  
+          .pdt82                             |  YES  | ON /3 |  48   |  64  
+          .pdt83                             |  YES  | ON /3 |  48   |  64  
+          .pdt84                             |  YES  | ON /3 |  48   |  64  
+          .pdt85                             |  YES  | ON /3 |  48   |  64  
+          .pdt86                             |  YES  | ON /3 |  48   |  64  
+          .pdt87                             |  YES  | ON /3 |  48   |  64  
+          .pdt88                             |  YES  | ON /3 |  48   |  64  
+          .pdt89                             |  YES  | ON /3 |  48   |  64  
+          .pdtbufx                           |  NO   | ON /3 |  48   |  64  
+               .pdtbufx0                     |  YES  | ON /3 |  48   |  64  
+     .power                                  |  NO   | ON /3 |  48   |  64  
+     .services                               |  NO   | ON /3 |  48   |  64  
+     .vmpool                                 |  YES  | ON /3 |  48   |  64  
+          .vmpool0                           |  YES  | ON /3 |  48   |  64  
+          .vmpool1                           |  YES  | ON /3 |  48   |  64  
+     .vrme                                   |  NO   | ON /3 |  48   |  64  
+     .wlm                                    |  NO   | ON /3 |  48   |  64  
+     .xmem                                   |  NO   | ON /3 |  48   |  64  
+vscsi_initdd
+     .vscsi10                                |  YES  | ON /1 |  48   |  64  
+     .vscsi11                                |  YES  | ON /1 |  48   |  64  
+     .vscsi12                                |  YES  | ON /1 |  48   |  64  
+     .vscsi13                                |  YES  | ON /1 |  48   |  64  
+     .vscsi14                                |  YES  | ON /1 |  48   |  64  
+     .vscsi15                                |  YES  | ON /1 |  48   |  64  
+     .vscsi16                                |  YES  | ON /1 |  48   |  64  
+     .vscsi17                                |  YES  | ON /1 |  48   |  64  
+     .vscsi18                                |  YES  | ON /1 |  48   |  64  
+     .vscsi19                                |  YES  | ON /1 |  48   |  64  
+==== EXITED with rc 0 ====
+==== END errctrl -q Mon Jul  6 23:12:47 GST 2015 ====

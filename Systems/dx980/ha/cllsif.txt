@@ -1,0 +1,14 @@
+==== This output can be found in Systems/dx980/ha/cllsif.txt ====
+==== START cllsif Mon Jul  6 23:23:11 GST 2015 ====
+Adapter              Type       Network    Net Type   Attribute  Node       IP Address       Hardware Address Interface Name   Global Name      Netmask          Alias for HB Prefix Length
+
+DX979                boot       net_ether_01 ether      public     DX979      10.51.226.226                     en0                         255.255.255.0               24
+DX979-VIP            service    net_ether_01 ether      public     DX979      10.51.226.229                                                 255.255.255.0               24
+DX979_b              boot       net_ether_02 ether      public     DX979      10.51.227.231                     en1                         255.255.255.0               24
+DX979_sc0            boot       net_ether_03 ether      public     DX979      10.51.229.222                     en3                         255.255.255.0               24
+DX980                boot       net_ether_01 ether      public     DX980      10.51.226.227                     en0                         255.255.255.0               24
+DX979-VIP            service    net_ether_01 ether      public     DX980      10.51.226.229                                                 255.255.255.0               24
+DX980_b              boot       net_ether_02 ether      public     DX980      10.51.227.232                     en1                         255.255.255.0               24
+DX980_sc0            boot       net_ether_03 ether      public     DX980      10.51.229.223                     en3                         255.255.255.0               24
+==== EXITED with rc 0 ====
+==== END cllsif Mon Jul  6 23:23:11 GST 2015 ====

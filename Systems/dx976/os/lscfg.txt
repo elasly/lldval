@@ -1,0 +1,483 @@
+==== This output can be found in Systems/dx976/os/lscfg.txt ====
+==== START lscfg Tue Jul  7 13:04:20 CDT 2015 ====
+INSTALLED RESOURCE LIST
+
+The following resources are installed on the machine.
++/- = Added or deleted from Resource List.
+*   = Diagnostic support not available.
+	
+  Model Architecture: chrp
+  Model Implementation: Multiple Processor, PCI bus
+	
++ sys0                                                                           System Object
++ sysplanar0                                                                     System Planar
+* vio0                                                                           Virtual I/O Bus
+* vhost43          U9179.MHD.21ADA1V-V2-C26                                      Virtual SCSI Server Adapter
+* vtscsi133        U9179.MHD.21ADA1V-V2-C26-L56                                  Virtual Target Device - Disk
+* vtscsi120        U9179.MHD.21ADA1V-V2-C26-L39                                  Virtual Target Device - Disk
+* vtscsi119        U9179.MHD.21ADA1V-V2-C26-L38                                  Virtual Target Device - Disk
+* vtscsi118        U9179.MHD.21ADA1V-V2-C26-L37                                  Virtual Target Device - Disk
+* vtscsi117        U9179.MHD.21ADA1V-V2-C26-L36                                  Virtual Target Device - Disk
+* vtscsi116        U9179.MHD.21ADA1V-V2-C26-L35                                  Virtual Target Device - Disk
+* vtscsi115        U9179.MHD.21ADA1V-V2-C26-L34                                  Virtual Target Device - Disk
+* vtscsi114        U9179.MHD.21ADA1V-V2-C26-L33                                  Virtual Target Device - Disk
+* vtscsi113        U9179.MHD.21ADA1V-V2-C26-L32                                  Virtual Target Device - Disk
+* vtscsi112        U9179.MHD.21ADA1V-V2-C26-L31                                  Virtual Target Device - Disk
+* vtscsi111        U9179.MHD.21ADA1V-V2-C26-L30                                  Virtual Target Device - Disk
+* vtscsi110        U9179.MHD.21ADA1V-V2-C26-L29                                  Virtual Target Device - Disk
+* vtscsi109        U9179.MHD.21ADA1V-V2-C26-L28                                  Virtual Target Device - Disk
+* vtscsi108        U9179.MHD.21ADA1V-V2-C26-L27                                  Virtual Target Device - Disk
+* vtscsi107        U9179.MHD.21ADA1V-V2-C26-L26                                  Virtual Target Device - Disk
+* vtscsi106        U9179.MHD.21ADA1V-V2-C26-L25                                  Virtual Target Device - Disk
+* vtscsi105        U9179.MHD.21ADA1V-V2-C26-L24                                  Virtual Target Device - Disk
+* vtscsi104        U9179.MHD.21ADA1V-V2-C26-L23                                  Virtual Target Device - Disk
+* vtscsi103        U9179.MHD.21ADA1V-V2-C26-L22                                  Virtual Target Device - Disk
+* vtscsi102        U9179.MHD.21ADA1V-V2-C26-L21                                  Virtual Target Device - Disk
+* vtscsi101        U9179.MHD.21ADA1V-V2-C26-L20                                  Virtual Target Device - Disk
+* vtscsi100        U9179.MHD.21ADA1V-V2-C26-L19                                  Virtual Target Device - Disk
+* vtscsi99         U9179.MHD.21ADA1V-V2-C26-L18                                  Virtual Target Device - Disk
+* vtscsi98         U9179.MHD.21ADA1V-V2-C26-L17                                  Virtual Target Device - Disk
+* vtscsi97         U9179.MHD.21ADA1V-V2-C26-L16                                  Virtual Target Device - Disk
+* vtscsi96         U9179.MHD.21ADA1V-V2-C26-L15                                  Virtual Target Device - Disk
+* vtscsi95         U9179.MHD.21ADA1V-V2-C26-L14                                  Virtual Target Device - Disk
+* vtscsi94         U9179.MHD.21ADA1V-V2-C26-L13                                  Virtual Target Device - Disk
+* vtscsi93         U9179.MHD.21ADA1V-V2-C26-L12                                  Virtual Target Device - Disk
+* vtscsi92         U9179.MHD.21ADA1V-V2-C26-L11                                  Virtual Target Device - Disk
+* vtscsi91         U9179.MHD.21ADA1V-V2-C26-L10                                  Virtual Target Device - Disk
+* vtscsi90         U9179.MHD.21ADA1V-V2-C26-L9                                   Virtual Target Device - Disk
+* vtscsi89         U9179.MHD.21ADA1V-V2-C26-L8                                   Virtual Target Device - Disk
+* vtscsi88         U9179.MHD.21ADA1V-V2-C26-L7                                   Virtual Target Device - Disk
+* vtscsi87         U9179.MHD.21ADA1V-V2-C26-L6                                   Virtual Target Device - Disk
+* vtscsi86         U9179.MHD.21ADA1V-V2-C26-L5                                   Virtual Target Device - Disk
+* vtscsi85         U9179.MHD.21ADA1V-V2-C26-L4                                   Virtual Target Device - Disk
+* vtscsi84         U9179.MHD.21ADA1V-V2-C26-L3                                   Virtual Target Device - Disk
+* vtscsi83         U9179.MHD.21ADA1V-V2-C26-L2                                   Virtual Target Device - Disk
+* vtscsi82         U9179.MHD.21ADA1V-V2-C26-L55                                  Virtual Target Device - Disk
+* vtscsi81         U9179.MHD.21ADA1V-V2-C26-L1                                   Virtual Target Device - Disk
+* vtscsi80         U9179.MHD.21ADA1V-V2-C26-L54                                  Virtual Target Device - Disk
+* vtscsi79         U9179.MHD.21ADA1V-V2-C26-L53                                  Virtual Target Device - Disk
+* vtscsi78         U9179.MHD.21ADA1V-V2-C26-L52                                  Virtual Target Device - Disk
+* vtscsi77         U9179.MHD.21ADA1V-V2-C26-L51                                  Virtual Target Device - Disk
+* vtscsi76         U9179.MHD.21ADA1V-V2-C26-L50                                  Virtual Target Device - Disk
+* vtscsi75         U9179.MHD.21ADA1V-V2-C26-L49                                  Virtual Target Device - Disk
+* vtscsi74         U9179.MHD.21ADA1V-V2-C26-L48                                  Virtual Target Device - Disk
+* vtscsi73         U9179.MHD.21ADA1V-V2-C26-L47                                  Virtual Target Device - Disk
+* vtscsi72         U9179.MHD.21ADA1V-V2-C26-L46                                  Virtual Target Device - Disk
+* vtscsi71         U9179.MHD.21ADA1V-V2-C26-L45                                  Virtual Target Device - Disk
+* vtscsi70         U9179.MHD.21ADA1V-V2-C26-L44                                  Virtual Target Device - Disk
+* vtscsi69         U9179.MHD.21ADA1V-V2-C26-L43                                  Virtual Target Device - Disk
+* vtscsi68         U9179.MHD.21ADA1V-V2-C26-L42                                  Virtual Target Device - Disk
+* vtscsi67         U9179.MHD.21ADA1V-V2-C26-L41                                  Virtual Target Device - Disk
+* vtscsi66         U9179.MHD.21ADA1V-V2-C26-L40                                  Virtual Target Device - Disk
+* vtscsi17         U9179.MHD.21ADA1V-V2-C26-L65                                  Virtual Target Device - Disk
+* vtscsi16         U9179.MHD.21ADA1V-V2-C26-L64                                  Virtual Target Device - Disk
+* vtscsi15         U9179.MHD.21ADA1V-V2-C26-L63                                  Virtual Target Device - Disk
+* vtscsi14         U9179.MHD.21ADA1V-V2-C26-L62                                  Virtual Target Device - Disk
+* vtscsi13         U9179.MHD.21ADA1V-V2-C26-L61                                  Virtual Target Device - Disk
+* vtscsi12         U9179.MHD.21ADA1V-V2-C26-L60                                  Virtual Target Device - Disk
+* vtscsi11         U9179.MHD.21ADA1V-V2-C26-L59                                  Virtual Target Device - Disk
+* vtscsi10         U9179.MHD.21ADA1V-V2-C26-L58                                  Virtual Target Device - Disk
+* vtscsi9          U9179.MHD.21ADA1V-V2-C26-L57                                  Virtual Target Device - Disk
+* vhost42          U9179.MHD.21ADA1V-V2-C20                                      Virtual SCSI Server Adapter
+* vtscsi65         U9179.MHD.21ADA1V-V2-C20-L39                                  Virtual Target Device - Disk
+* vtscsi64         U9179.MHD.21ADA1V-V2-C20-L38                                  Virtual Target Device - Disk
+* vtscsi63         U9179.MHD.21ADA1V-V2-C20-L37                                  Virtual Target Device - Disk
+* vtscsi62         U9179.MHD.21ADA1V-V2-C20-L36                                  Virtual Target Device - Disk
+* vtscsi61         U9179.MHD.21ADA1V-V2-C20-L35                                  Virtual Target Device - Disk
+* vtscsi60         U9179.MHD.21ADA1V-V2-C20-L34                                  Virtual Target Device - Disk
+* vtscsi59         U9179.MHD.21ADA1V-V2-C20-L33                                  Virtual Target Device - Disk
+* vtscsi58         U9179.MHD.21ADA1V-V2-C20-L32                                  Virtual Target Device - Disk
+* vtscsi57         U9179.MHD.21ADA1V-V2-C20-L31                                  Virtual Target Device - Disk
+* vtscsi56         U9179.MHD.21ADA1V-V2-C20-L30                                  Virtual Target Device - Disk
+* vtscsi55         U9179.MHD.21ADA1V-V2-C20-L29                                  Virtual Target Device - Disk
+* vtscsi8          U9179.MHD.21ADA1V-V2-C20-L9                                   Virtual Target Device - Disk
+* vtscsi7          U9179.MHD.21ADA1V-V2-C20-L8                                   Virtual Target Device - Disk
+* vtscsi6          U9179.MHD.21ADA1V-V2-C20-L7                                   Virtual Target Device - Disk
+* vtscsi5          U9179.MHD.21ADA1V-V2-C20-L6                                   Virtual Target Device - Disk
+* vtscsi4          U9179.MHD.21ADA1V-V2-C20-L5                                   Virtual Target Device - Disk
+* vtscsi3          U9179.MHD.21ADA1V-V2-C20-L4                                   Virtual Target Device - Disk
+* vtscsi2          U9179.MHD.21ADA1V-V2-C20-L3                                   Virtual Target Device - Disk
+* vtscsi1          U9179.MHD.21ADA1V-V2-C20-L2                                   Virtual Target Device - Disk
+* vtscsi0          U9179.MHD.21ADA1V-V2-C20-L1                                   Virtual Target Device - Disk
+* ent17            U9179.MHD.21ADA1V-V2-C12-T1                                   Virtual I/O Ethernet Adapter (l-lan)
+* vasi0            U9179.MHD.21ADA1V-V2-C32769                                   Virtual Asynchronous Services Interface (VASI)
+* vbsd0            U9179.MHD.21ADA1V-V2-C32769-L0                                Virtual Block Storage Device (VBSD)
+* pager0           U9179.MHD.21ADA1V-V2-C32769-L0-L0                             Pager Kernel Extension
+* vfchost31        U9179.MHD.21ADA1V-V2-C458                                     Virtual FC Server Adapter
+* vfchost30        U9179.MHD.21ADA1V-V2-C457                                     Virtual FC Server Adapter
+* vfchost29        U9179.MHD.21ADA1V-V2-C456                                     Virtual FC Server Adapter
+* vfchost28        U9179.MHD.21ADA1V-V2-C455                                     Virtual FC Server Adapter
+* vfchost27        U9179.MHD.21ADA1V-V2-C448                                     Virtual FC Server Adapter
+* vfchost26        U9179.MHD.21ADA1V-V2-C447                                     Virtual FC Server Adapter
+* vfchost25        U9179.MHD.21ADA1V-V2-C446                                     Virtual FC Server Adapter
+* vfchost24        U9179.MHD.21ADA1V-V2-C445                                     Virtual FC Server Adapter
+* vfchost23        U9179.MHD.21ADA1V-V2-C438                                     Virtual FC Server Adapter
+* vfchost22        U9179.MHD.21ADA1V-V2-C437                                     Virtual FC Server Adapter
+* vfchost21        U9179.MHD.21ADA1V-V2-C436                                     Virtual FC Server Adapter
+* vfchost20        U9179.MHD.21ADA1V-V2-C435                                     Virtual FC Server Adapter
+* vfchost11        U9179.MHD.21ADA1V-V2-C408                                     Virtual FC Server Adapter
+* vfchost10        U9179.MHD.21ADA1V-V2-C407                                     Virtual FC Server Adapter
+* vfchost9         U9179.MHD.21ADA1V-V2-C406                                     Virtual FC Server Adapter
+* vfchost8         U9179.MHD.21ADA1V-V2-C405                                     Virtual FC Server Adapter
+* vfchost7         U9179.MHD.21ADA1V-V2-C328                                     Virtual FC Server Adapter
+* vfchost6         U9179.MHD.21ADA1V-V2-C327                                     Virtual FC Server Adapter
+* vfchost5         U9179.MHD.21ADA1V-V2-C326                                     Virtual FC Server Adapter
+* vfchost4         U9179.MHD.21ADA1V-V2-C325                                     Virtual FC Server Adapter
+* vhost39          U9179.MHD.21ADA1V-V2-C260                                     Virtual SCSI Server Adapter
+* vhost38          U9179.MHD.21ADA1V-V2-C259                                     Virtual SCSI Server Adapter
+* vhost37          U9179.MHD.21ADA1V-V2-C258                                     Virtual SCSI Server Adapter
+* vhost36          U9179.MHD.21ADA1V-V2-C257                                     Virtual SCSI Server Adapter
+* vhost35          U9179.MHD.21ADA1V-V2-C256                                     Virtual SCSI Server Adapter
+* vhost34          U9179.MHD.21ADA1V-V2-C250                                     Virtual SCSI Server Adapter
+* vhost33          U9179.MHD.21ADA1V-V2-C249                                     Virtual SCSI Server Adapter
+* vhost32          U9179.MHD.21ADA1V-V2-C248                                     Virtual SCSI Server Adapter
+* vhost31          U9179.MHD.21ADA1V-V2-C247                                     Virtual SCSI Server Adapter
+* vhost30          U9179.MHD.21ADA1V-V2-C246                                     Virtual SCSI Server Adapter
+* vhost29          U9179.MHD.21ADA1V-V2-C240                                     Virtual SCSI Server Adapter
+* vhost28          U9179.MHD.21ADA1V-V2-C239                                     Virtual SCSI Server Adapter
+* vhost27          U9179.MHD.21ADA1V-V2-C238                                     Virtual SCSI Server Adapter
+* vhost26          U9179.MHD.21ADA1V-V2-C237                                     Virtual SCSI Server Adapter
+* vhost25          U9179.MHD.21ADA1V-V2-C236                                     Virtual SCSI Server Adapter
+* vfchost3         U9179.MHD.21ADA1V-V2-C315                                     Virtual FC Server Adapter
+* vfchost2         U9179.MHD.21ADA1V-V2-C316                                     Virtual FC Server Adapter
+* vhost4           U9179.MHD.21ADA1V-V2-C116                                     Virtual SCSI Server Adapter
+* vhost3           U9179.MHD.21ADA1V-V2-C117                                     Virtual SCSI Server Adapter
+* vhost14          U9179.MHD.21ADA1V-V2-C210                                     Virtual SCSI Server Adapter
+* vhost13          U9179.MHD.21ADA1V-V2-C209                                     Virtual SCSI Server Adapter
+* vhost12          U9179.MHD.21ADA1V-V2-C208                                     Virtual SCSI Server Adapter
+* vhost11          U9179.MHD.21ADA1V-V2-C207                                     Virtual SCSI Server Adapter
+* vhost10          U9179.MHD.21ADA1V-V2-C206                                     Virtual SCSI Server Adapter
+* vhost9           U9179.MHD.21ADA1V-V2-C130                                     Virtual SCSI Server Adapter
+* vhost8           U9179.MHD.21ADA1V-V2-C129                                     Virtual SCSI Server Adapter
+* vhost7           U9179.MHD.21ADA1V-V2-C128                                     Virtual SCSI Server Adapter
+* vhost6           U9179.MHD.21ADA1V-V2-C127                                     Virtual SCSI Server Adapter
+* vhost5           U9179.MHD.21ADA1V-V2-C126                                     Virtual SCSI Server Adapter
+* ent14            U9179.MHD.21ADA1V-V2-C10-T1                                   Virtual I/O Ethernet Adapter (l-lan)
+* ent13            U9179.MHD.21ADA1V-V2-C9-T1                                    Virtual I/O Ethernet Adapter (l-lan)
+* ent12            U9179.MHD.21ADA1V-V2-C8-T1                                    Virtual I/O Ethernet Adapter (l-lan)
+* ent11            U9179.MHD.21ADA1V-V2-C7-T1                                    Virtual I/O Ethernet Adapter (l-lan)
+* ent10            U9179.MHD.21ADA1V-V2-C6-T1                                    Virtual I/O Ethernet Adapter (l-lan)
+* ent9             U9179.MHD.21ADA1V-V2-C5-T1                                    Virtual I/O Ethernet Adapter (l-lan)
+* ent8             U9179.MHD.21ADA1V-V2-C4-T1                                    Virtual I/O Ethernet Adapter (l-lan)
+* vhost2           U9179.MHD.21ADA1V-V2-C118                                     Virtual SCSI Server Adapter
+* vhost1           U9179.MHD.21ADA1V-V2-C119                                     Virtual SCSI Server Adapter
+* vhost0           U9179.MHD.21ADA1V-V2-C120                                     Virtual SCSI Server Adapter
+* vfchost1         U9179.MHD.21ADA1V-V2-C317                                     Virtual FC Server Adapter
+* vfchost0         U9179.MHD.21ADA1V-V2-C318                                     Virtual FC Server Adapter
+* vsa0             U9179.MHD.21ADA1V-V2-C0                                       LPAR Virtual Serial Adapter
+* vty0             U9179.MHD.21ADA1V-V2-C0-L0                                    Asynchronous Terminal
+* pci7             U2C4E.001.DBJZ836-P2                                          PCI Express Bus
+* pci16            U2C4E.001.DBJZ836-P2-C5                                       PCI Express Bus
+* pci17            U2C4E.001.DBJZ836-P2-C5                                       PCI Express Bus
+* pci18            U2C4E.001.DBJZ836-P2-C5                                       PCI Express Bus
++ fcs12            U2C4E.001.DBJZ836-P2-C5-T1                                    PCIe2 4-Port 8Gb FC Adapter (df1000f114100104)
+* fcnet8           U2C4E.001.DBJZ836-P2-C5-T1                                    Fibre Channel Network Protocol Device
++ fscsi12          U2C4E.001.DBJZ836-P2-C5-T1                                    FC SCSI I/O Controller Protocol Device
+* hdisk168         U2C4E.001.DBJZ836-P2-C5-T1-W500009740834D530-L0               EMC Symmetrix FCP VRAID
+* hdisk169         U2C4E.001.DBJZ836-P2-C5-T1-W500009740834D530-L1000000000000   EMC Symmetrix FCP VRAID
+* hdisk170         U2C4E.001.DBJZ836-P2-C5-T1-W500009740834D530-L2000000000000   EMC Symmetrix FCP VRAID
+* hdisk171         U2C4E.001.DBJZ836-P2-C5-T1-W500009740834D530-L3000000000000   EMC Symmetrix FCP VRAID
+* hdiskpower12     U2C4E.001.DBJZ836-P2-C5-T1-L2                                 PowerPath Device
+* hdiskpower13     U2C4E.001.DBJZ836-P2-C5-T1-L3                                 PowerPath Device
+* hdiskpower14     U2C4E.001.DBJZ836-P2-C5-T1-L4                                 PowerPath Device
+* hdiskpower15     U2C4E.001.DBJZ836-P2-C5-T1-L5                                 PowerPath Device
+* sfwcomm12        U2C4E.001.DBJZ836-P2-C5-T1-W0-L0                              Fibre Channel Storage Framework Comm
++ fcs13            U2C4E.001.DBJZ836-P2-C5-T2                                    PCIe2 4-Port 8Gb FC Adapter (df1000f114100104)
+* fcnet9           U2C4E.001.DBJZ836-P2-C5-T2                                    Fibre Channel Network Protocol Device
++ fscsi13          U2C4E.001.DBJZ836-P2-C5-T2                                    FC SCSI I/O Controller Protocol Device
+* sfwcomm13        U2C4E.001.DBJZ836-P2-C5-T2-W0-L0                              Fibre Channel Storage Framework Comm
+* pci19            U2C4E.001.DBJZ836-P2-C5                                       PCI Express Bus
++ fcs14            U2C4E.001.DBJZ836-P2-C5-T3                                    PCIe2 4-Port 8Gb FC Adapter (df1000f114100104)
+* fcnet10          U2C4E.001.DBJZ836-P2-C5-T3                                    Fibre Channel Network Protocol Device
++ fscsi14          U2C4E.001.DBJZ836-P2-C5-T3                                    FC SCSI I/O Controller Protocol Device
+* sfwcomm14        U2C4E.001.DBJZ836-P2-C5-T3-W0-L0                              Fibre Channel Storage Framework Comm
++ fcs15            U2C4E.001.DBJZ836-P2-C5-T4                                    PCIe2 4-Port 8Gb FC Adapter (df1000f114100104)
+* fcnet11          U2C4E.001.DBJZ836-P2-C5-T4                                    Fibre Channel Network Protocol Device
++ fscsi15          U2C4E.001.DBJZ836-P2-C5-T4                                    FC SCSI I/O Controller Protocol Device
+* sfwcomm15        U2C4E.001.DBJZ836-P2-C5-T4-W0-L0                              Fibre Channel Storage Framework Comm
+* pci6             U2C4E.001.DBJZ836-P2                                          PCI Express Bus
++ ent4             U2C4E.001.DBJZ836-P2-C6-T1                                    PCIe2 10GbE SFP+ SR 4-port Converged Network Adapter (df1020e214100f04)
++ ent5             U2C4E.001.DBJZ836-P2-C6-T2                                    PCIe2 10GbE SFP+ SR 4-port Converged Network Adapter (df1020e214100f04)
++ ent6             U2C4E.001.DBJZ836-P2-C6-T3                                    PCIe2 100/1000 Base-TX 4-port Converged Network Adapter (df1020e214103c04)
++ ent7             U2C4E.001.DBJZ836-P2-C6-T4                                    PCIe2 100/1000 Base-TX 4-port Converged Network Adapter (df1020e214103c04)
++ fcs10            U2C4E.001.DBJZ836-P2-C6-T1                                    PCIe2 10Gb 4-Port FCoE Adapter (df1060e214101004)
+* fscsi10          U2C4E.001.DBJZ836-P2-C6-T1                                    FC SCSI I/O Controller Protocol Device
+* sfwcomm10        U2C4E.001.DBJZ836-P2-C6-T1-W0-L0                              Fibre Channel Storage Framework Comm
++ fcs11            U2C4E.001.DBJZ836-P2-C6-T2                                    PCIe2 10Gb 4-Port FCoE Adapter (df1060e214101004)
+* fscsi11          U2C4E.001.DBJZ836-P2-C6-T2                                    FC SCSI I/O Controller Protocol Device
+* sfwcomm11        U2C4E.001.DBJZ836-P2-C6-T2-W0-L0                              Fibre Channel Storage Framework Comm
+* pci5             U2C4E.001.DBJZ836-P2                                          PCI Express Bus
++ sissas2          U2C4E.001.DBJZ836-P2-C9-T2                                    PCI Express x8 Planar 3Gb SAS Adapter
+* sas2             U2C4E.001.DBJZ836-P2-C9-T2                                    Controller SAS Protocol
+* sfwcomm18                                                                      SAS Storage Framework Comm
++ ses3             U2C4E.001.DBJZ836-P2-C9-Y2                                    SAS Enclosure Services Device
++ ses4             U2C4E.001.DBJZ836-P2-C9-Y1                                    SAS Enclosure Services Device
++ pdisk1           U2C4E.001.DBJZ836-P2-C9-D4                                    Physical SAS Solid State Drive
+* hdisk1           U2C4E.001.DBJZ836-P2-C9-T2-LFF0000-L0                         SAS RAID 0 SSD Array
+* sata2            U2C4E.001.DBJZ836-P2-C9-T2                                    Controller SATA Protocol
+* pci4             U2C4E.001.DBJZ836-P2                                          PCI Express Bus
++ sissas1          U2C4E.001.DBJZ836-P2-C9-T1                                    PCI Express x8 Planar 3Gb SAS Adapter
+* sas1             U2C4E.001.DBJZ836-P2-C9-T1                                    Controller SAS Protocol
+* sfwcomm17                                                                      SAS Storage Framework Comm
++ ses1             U2C4E.001.DBJZ836-P2-C9-Y2                                    SAS Enclosure Services Device
++ ses2             U2C4E.001.DBJZ836-P2-C9-Y1                                    SAS Enclosure Services Device
++ pdisk0           U2C4E.001.DBJZ836-P2-C9-D1                                    Physical SAS Solid State Drive
+* hdisk0           U2C4E.001.DBJZ836-P2-C9-T1-LFF0100-L0                         SAS RAID 0 SSD Array
+* sata1            U2C4E.001.DBJZ836-P2-C9-T1                                    Controller SATA Protocol
+* pci3             U2C4E.001.DBJZ836-P2                                          PCI Express Bus
+* pci12            U2C4E.001.DBJZ836-P2-C1                                       PCI Express Bus
+* pci13            U2C4E.001.DBJZ836-P2-C1                                       PCI Express Bus
+* pci14            U2C4E.001.DBJZ836-P2-C1                                       PCI Express Bus
++ fcs6             U2C4E.001.DBJZ836-P2-C1-T1                                    PCIe2 4-Port 8Gb FC Adapter (df1000f114100104)
+* fcnet4           U2C4E.001.DBJZ836-P2-C1-T1                                    Fibre Channel Network Protocol Device
++ fscsi6           U2C4E.001.DBJZ836-P2-C1-T1                                    FC SCSI I/O Controller Protocol Device
+* hdisk115         U2C4E.001.DBJZ836-P2-C1-T1-W500009740834D550-L0               EMC Symmetrix FCP VRAID
+* hdisk116         U2C4E.001.DBJZ836-P2-C1-T1-W500009740834D550-L1000000000000   EMC Symmetrix FCP VRAID
+* hdisk117         U2C4E.001.DBJZ836-P2-C1-T1-W500009740834D550-L2000000000000   EMC Symmetrix FCP VRAID
+* hdisk118         U2C4E.001.DBJZ836-P2-C1-T1-W500009740834D550-L3000000000000   EMC Symmetrix FCP VRAID
+* hdisk119         U2C4E.001.DBJZ836-P2-C1-T1-W500009740834D550-L4000000000000   EMC Symmetrix FCP VRAID
+* hdisk120         U2C4E.001.DBJZ836-P2-C1-T1-W500009740834D550-L5000000000000   EMC Symmetrix FCP VRAID
+* hdisk121         U2C4E.001.DBJZ836-P2-C1-T1-W500009740834D550-L6000000000000   EMC Symmetrix FCP VRAID
+* hdisk122         U2C4E.001.DBJZ836-P2-C1-T1-W500009740834D550-L7000000000000   EMC Symmetrix FCP VRAID
+* hdisk123         U2C4E.001.DBJZ836-P2-C1-T1-W500009740834D550-L8000000000000   EMC Symmetrix FCP VRAID
+* hdisk124         U2C4E.001.DBJZ836-P2-C1-T1-W500009740834D550-L9000000000000   EMC Symmetrix FCP VRAID
+* hdisk125         U2C4E.001.DBJZ836-P2-C1-T1-W500009740834D550-LA000000000000   EMC Symmetrix FCP VRAID
+* hdisk126         U2C4E.001.DBJZ836-P2-C1-T1-W500009740834D550-LB000000000000   EMC Symmetrix FCP VRAID
+* hdisk127         U2C4E.001.DBJZ836-P2-C1-T1-W500009740834D528-L0               EMC Symmetrix FCP VRAID
+* hdisk128         U2C4E.001.DBJZ836-P2-C1-T1-W500009740834D528-L1000000000000   EMC Symmetrix FCP VRAID
+* hdisk129         U2C4E.001.DBJZ836-P2-C1-T1-W500009740834D528-L2000000000000   EMC Symmetrix FCP VRAID
+* hdisk130         U2C4E.001.DBJZ836-P2-C1-T1-W500009740834D528-L3000000000000   EMC Symmetrix FCP VRAID
+* hdisk131         U2C4E.001.DBJZ836-P2-C1-T1-W500009740834D528-L4000000000000   EMC Symmetrix FCP VRAID
+* hdisk132         U2C4E.001.DBJZ836-P2-C1-T1-W500009740834D528-L5000000000000   EMC Symmetrix FCP VRAID
+* hdisk133         U2C4E.001.DBJZ836-P2-C1-T1-W500009740834D528-L6000000000000   EMC Symmetrix FCP VRAID
+* hdisk134         U2C4E.001.DBJZ836-P2-C1-T1-W500009740834D528-L7000000000000   EMC Symmetrix FCP VRAID
+* hdisk135         U2C4E.001.DBJZ836-P2-C1-T1-W500009740834D528-L8000000000000   EMC Symmetrix FCP VRAID
+* hdisk136         U2C4E.001.DBJZ836-P2-C1-T1-W500009740834D528-L9000000000000   EMC Symmetrix FCP VRAID
+* hdisk137         U2C4E.001.DBJZ836-P2-C1-T1-W500009740834D528-LA000000000000   EMC Symmetrix FCP VRAID
+* hdisk138         U2C4E.001.DBJZ836-P2-C1-T1-W500009740834D528-LB000000000000   EMC Symmetrix FCP VRAID
+* sfwcomm6         U2C4E.001.DBJZ836-P2-C1-T1-W0-L0                              Fibre Channel Storage Framework Comm
++ fcs7             U2C4E.001.DBJZ836-P2-C1-T2                                    PCIe2 4-Port 8Gb FC Adapter (df1000f114100104)
+* fcnet5           U2C4E.001.DBJZ836-P2-C1-T2                                    Fibre Channel Network Protocol Device
++ fscsi7           U2C4E.001.DBJZ836-P2-C1-T2                                    FC SCSI I/O Controller Protocol Device
+* hdisk139         U2C4E.001.DBJZ836-P2-C1-T2-W500009740834D514-L0               EMC Symmetrix FCP VRAID
+* hdisk140         U2C4E.001.DBJZ836-P2-C1-T2-W500009740834D514-L1000000000000   EMC Symmetrix FCP VRAID
+* hdisk141         U2C4E.001.DBJZ836-P2-C1-T2-W500009740834D514-L2000000000000   EMC Symmetrix FCP VRAID
+* hdisk142         U2C4E.001.DBJZ836-P2-C1-T2-W500009740834D514-L3000000000000   EMC Symmetrix FCP VRAID
+* hdisk143         U2C4E.001.DBJZ836-P2-C1-T2-W500009740834D514-L4000000000000   EMC Symmetrix FCP VRAID
+* hdisk144         U2C4E.001.DBJZ836-P2-C1-T2-W500009740834D514-L5000000000000   EMC Symmetrix FCP VRAID
+* hdisk145         U2C4E.001.DBJZ836-P2-C1-T2-W500009740834D514-L6000000000000   EMC Symmetrix FCP VRAID
+* hdisk146         U2C4E.001.DBJZ836-P2-C1-T2-W500009740834D514-L7000000000000   EMC Symmetrix FCP VRAID
+* hdisk147         U2C4E.001.DBJZ836-P2-C1-T2-W500009740834D514-L8000000000000   EMC Symmetrix FCP VRAID
+* hdisk148         U2C4E.001.DBJZ836-P2-C1-T2-W500009740834D514-L9000000000000   EMC Symmetrix FCP VRAID
+* hdisk149         U2C4E.001.DBJZ836-P2-C1-T2-W500009740834D514-LA000000000000   EMC Symmetrix FCP VRAID
+* hdisk150         U2C4E.001.DBJZ836-P2-C1-T2-W500009740834D514-LB000000000000   EMC Symmetrix FCP VRAID
+* hdisk151         U2C4E.001.DBJZ836-P2-C1-T2-W500009740834D56C-L0               EMC Symmetrix FCP VRAID
+* hdisk152         U2C4E.001.DBJZ836-P2-C1-T2-W500009740834D56C-L1000000000000   EMC Symmetrix FCP VRAID
+* hdisk153         U2C4E.001.DBJZ836-P2-C1-T2-W500009740834D56C-L2000000000000   EMC Symmetrix FCP VRAID
+* hdisk154         U2C4E.001.DBJZ836-P2-C1-T2-W500009740834D56C-L3000000000000   EMC Symmetrix FCP VRAID
+* hdisk155         U2C4E.001.DBJZ836-P2-C1-T2-W500009740834D56C-L4000000000000   EMC Symmetrix FCP VRAID
+* hdisk156         U2C4E.001.DBJZ836-P2-C1-T2-W500009740834D56C-L5000000000000   EMC Symmetrix FCP VRAID
+* hdisk157         U2C4E.001.DBJZ836-P2-C1-T2-W500009740834D56C-L6000000000000   EMC Symmetrix FCP VRAID
+* hdisk158         U2C4E.001.DBJZ836-P2-C1-T2-W500009740834D56C-L7000000000000   EMC Symmetrix FCP VRAID
+* hdisk159         U2C4E.001.DBJZ836-P2-C1-T2-W500009740834D56C-L8000000000000   EMC Symmetrix FCP VRAID
+* hdisk160         U2C4E.001.DBJZ836-P2-C1-T2-W500009740834D56C-L9000000000000   EMC Symmetrix FCP VRAID
+* hdisk161         U2C4E.001.DBJZ836-P2-C1-T2-W500009740834D56C-LA000000000000   EMC Symmetrix FCP VRAID
+* hdisk162         U2C4E.001.DBJZ836-P2-C1-T2-W500009740834D56C-LB000000000000   EMC Symmetrix FCP VRAID
+* hdiskpower0      U2C4E.001.DBJZ836-P2-C1-T2-L14                                PowerPath Device
+* hdiskpower1      U2C4E.001.DBJZ836-P2-C1-T2-L15                                PowerPath Device
+* hdiskpower2      U2C4E.001.DBJZ836-P2-C1-T2-L16                                PowerPath Device
+* hdiskpower3      U2C4E.001.DBJZ836-P2-C1-T2-L17                                PowerPath Device
+* hdiskpower4      U2C4E.001.DBJZ836-P2-C1-T2-L18                                PowerPath Device
+* hdiskpower5      U2C4E.001.DBJZ836-P2-C1-T2-L19                                PowerPath Device
+* hdiskpower6      U2C4E.001.DBJZ836-P2-C1-T2-L20                                PowerPath Device
+* hdiskpower7      U2C4E.001.DBJZ836-P2-C1-T2-L21                                PowerPath Device
+* hdiskpower8      U2C4E.001.DBJZ836-P2-C1-T2-L22                                PowerPath Device
+* hdiskpower9      U2C4E.001.DBJZ836-P2-C1-T2-L23                                PowerPath Device
+* hdiskpower10     U2C4E.001.DBJZ836-P2-C1-T2-L24                                PowerPath Device
+* hdiskpower11     U2C4E.001.DBJZ836-P2-C1-T2-L25                                PowerPath Device
+* sfwcomm7         U2C4E.001.DBJZ836-P2-C1-T2-W0-L0                              Fibre Channel Storage Framework Comm
+* pci15            U2C4E.001.DBJZ836-P2-C1                                       PCI Express Bus
++ fcs8             U2C4E.001.DBJZ836-P2-C1-T3                                    PCIe2 4-Port 8Gb FC Adapter (df1000f114100104)
+* fcnet6           U2C4E.001.DBJZ836-P2-C1-T3                                    Fibre Channel Network Protocol Device
++ fscsi8           U2C4E.001.DBJZ836-P2-C1-T3                                    FC SCSI I/O Controller Protocol Device
+* sfwcomm8         U2C4E.001.DBJZ836-P2-C1-T3-W0-L0                              Fibre Channel Storage Framework Comm
++ fcs9             U2C4E.001.DBJZ836-P2-C1-T4                                    PCIe2 4-Port 8Gb FC Adapter (df1000f114100104)
+* fcnet7           U2C4E.001.DBJZ836-P2-C1-T4                                    Fibre Channel Network Protocol Device
++ fscsi9           U2C4E.001.DBJZ836-P2-C1-T4                                    FC SCSI I/O Controller Protocol Device
+* hdisk164         U2C4E.001.DBJZ836-P2-C1-T4-W500009740834D534-L0               EMC Symmetrix FCP VRAID
+* hdisk165         U2C4E.001.DBJZ836-P2-C1-T4-W500009740834D534-L1000000000000   EMC Symmetrix FCP VRAID
+* hdisk166         U2C4E.001.DBJZ836-P2-C1-T4-W500009740834D534-L2000000000000   EMC Symmetrix FCP VRAID
+* hdisk167         U2C4E.001.DBJZ836-P2-C1-T4-W500009740834D534-L3000000000000   EMC Symmetrix FCP VRAID
+* sfwcomm9         U2C4E.001.DBJZ836-P2-C1-T4-W0-L0                              Fibre Channel Storage Framework Comm
+* pci2             U2C4E.001.DBJZ836-P2                                          PCI Express Bus
+* pci8             U2C4E.001.DBJZ836-P2-C2                                       PCI Express Bus
+* pci9             U2C4E.001.DBJZ836-P2-C2                                       PCI Express Bus
+* pci10            U2C4E.001.DBJZ836-P2-C2                                       PCI Express Bus
++ fcs2             U2C4E.001.DBJZ836-P2-C2-T1                                    PCIe2 4-Port 8Gb FC Adapter (df1000f114100104)
+* fcnet0           U2C4E.001.DBJZ836-P2-C2-T1                                    Fibre Channel Network Protocol Device
++ fscsi2           U2C4E.001.DBJZ836-P2-C2-T1                                    FC SCSI I/O Controller Protocol Device
+* hdisk2           U2C4E.001.DBJZ836-P2-C2-T1-W500009740834D550-L0               EMC Symmetrix FCP VRAID
+* hdisk3           U2C4E.001.DBJZ836-P2-C2-T1-W500009740834D550-L1000000000000   EMC Symmetrix FCP VRAID
+* hdisk4           U2C4E.001.DBJZ836-P2-C2-T1-W500009740834D550-L2000000000000   EMC Symmetrix FCP VRAID
+* hdisk5           U2C4E.001.DBJZ836-P2-C2-T1-W500009740834D550-L3000000000000   EMC Symmetrix FCP VRAID
+* hdisk6           U2C4E.001.DBJZ836-P2-C2-T1-W500009740834D550-L4000000000000   EMC Symmetrix FCP VRAID
+* hdisk7           U2C4E.001.DBJZ836-P2-C2-T1-W500009740834D550-L5000000000000   EMC Symmetrix FCP VRAID
+* hdisk8           U2C4E.001.DBJZ836-P2-C2-T1-W500009740834D550-L6000000000000   EMC Symmetrix FCP VRAID
+* hdisk9           U2C4E.001.DBJZ836-P2-C2-T1-W500009740834D550-L7000000000000   EMC Symmetrix FCP VRAID
+* hdisk10          U2C4E.001.DBJZ836-P2-C2-T1-W500009740834D550-L8000000000000   EMC Symmetrix FCP VRAID
+* hdisk11          U2C4E.001.DBJZ836-P2-C2-T1-W500009740834D550-L9000000000000   EMC Symmetrix FCP VRAID
+* hdisk12          U2C4E.001.DBJZ836-P2-C2-T1-W500009740834D550-LA000000000000   EMC Symmetrix FCP VRAID
+* hdisk13          U2C4E.001.DBJZ836-P2-C2-T1-W500009740834D550-LB000000000000   EMC Symmetrix FCP VRAID
+* hdisk14          U2C4E.001.DBJZ836-P2-C2-T1-W500009740834D528-L0               EMC Symmetrix FCP VRAID
+* hdisk15          U2C4E.001.DBJZ836-P2-C2-T1-W500009740834D528-L1000000000000   EMC Symmetrix FCP VRAID
+* hdisk16          U2C4E.001.DBJZ836-P2-C2-T1-W500009740834D528-L2000000000000   EMC Symmetrix FCP VRAID
+* hdisk17          U2C4E.001.DBJZ836-P2-C2-T1-W500009740834D528-L3000000000000   EMC Symmetrix FCP VRAID
+* hdisk18          U2C4E.001.DBJZ836-P2-C2-T1-W500009740834D528-L4000000000000   EMC Symmetrix FCP VRAID
+* hdisk19          U2C4E.001.DBJZ836-P2-C2-T1-W500009740834D528-L5000000000000   EMC Symmetrix FCP VRAID
+* hdisk20          U2C4E.001.DBJZ836-P2-C2-T1-W500009740834D528-L6000000000000   EMC Symmetrix FCP VRAID
+* hdisk21          U2C4E.001.DBJZ836-P2-C2-T1-W500009740834D528-L7000000000000   EMC Symmetrix FCP VRAID
+* hdisk22          U2C4E.001.DBJZ836-P2-C2-T1-W500009740834D528-L8000000000000   EMC Symmetrix FCP VRAID
+* hdisk23          U2C4E.001.DBJZ836-P2-C2-T1-W500009740834D528-L9000000000000   EMC Symmetrix FCP VRAID
+* hdisk24          U2C4E.001.DBJZ836-P2-C2-T1-W500009740834D528-LA000000000000   EMC Symmetrix FCP VRAID
+* hdisk25          U2C4E.001.DBJZ836-P2-C2-T1-W500009740834D528-LB000000000000   EMC Symmetrix FCP VRAID
+* sfwcomm2         U2C4E.001.DBJZ836-P2-C2-T1-W0-L0                              Fibre Channel Storage Framework Comm
++ fcs3             U2C4E.001.DBJZ836-P2-C2-T2                                    PCIe2 4-Port 8Gb FC Adapter (df1000f114100104)
+* fcnet1           U2C4E.001.DBJZ836-P2-C2-T2                                    Fibre Channel Network Protocol Device
++ fscsi3           U2C4E.001.DBJZ836-P2-C2-T2                                    FC SCSI I/O Controller Protocol Device
+* hdisk26          U2C4E.001.DBJZ836-P2-C2-T2-W500009740834D514-L0               EMC Symmetrix FCP VRAID
+* hdisk27          U2C4E.001.DBJZ836-P2-C2-T2-W500009740834D514-L1000000000000   EMC Symmetrix FCP VRAID
+* hdisk28          U2C4E.001.DBJZ836-P2-C2-T2-W500009740834D514-L2000000000000   EMC Symmetrix FCP VRAID
+* hdisk29          U2C4E.001.DBJZ836-P2-C2-T2-W500009740834D514-L3000000000000   EMC Symmetrix FCP VRAID
+* hdisk30          U2C4E.001.DBJZ836-P2-C2-T2-W500009740834D514-L4000000000000   EMC Symmetrix FCP VRAID
+* hdisk31          U2C4E.001.DBJZ836-P2-C2-T2-W500009740834D514-L5000000000000   EMC Symmetrix FCP VRAID
+* hdisk32          U2C4E.001.DBJZ836-P2-C2-T2-W500009740834D514-L6000000000000   EMC Symmetrix FCP VRAID
+* hdisk33          U2C4E.001.DBJZ836-P2-C2-T2-W500009740834D514-L7000000000000   EMC Symmetrix FCP VRAID
+* hdisk34          U2C4E.001.DBJZ836-P2-C2-T2-W500009740834D514-L8000000000000   EMC Symmetrix FCP VRAID
+* hdisk35          U2C4E.001.DBJZ836-P2-C2-T2-W500009740834D514-L9000000000000   EMC Symmetrix FCP VRAID
+* hdisk36          U2C4E.001.DBJZ836-P2-C2-T2-W500009740834D514-LA000000000000   EMC Symmetrix FCP VRAID
+* hdisk37          U2C4E.001.DBJZ836-P2-C2-T2-W500009740834D514-LB000000000000   EMC Symmetrix FCP VRAID
+* hdisk38          U2C4E.001.DBJZ836-P2-C2-T2-W500009740834D56C-L0               EMC Symmetrix FCP VRAID
+* hdisk39          U2C4E.001.DBJZ836-P2-C2-T2-W500009740834D56C-L1000000000000   EMC Symmetrix FCP VRAID
+* hdisk40          U2C4E.001.DBJZ836-P2-C2-T2-W500009740834D56C-L2000000000000   EMC Symmetrix FCP VRAID
+* hdisk41          U2C4E.001.DBJZ836-P2-C2-T2-W500009740834D56C-L3000000000000   EMC Symmetrix FCP VRAID
+* hdisk42          U2C4E.001.DBJZ836-P2-C2-T2-W500009740834D56C-L4000000000000   EMC Symmetrix FCP VRAID
+* hdisk43          U2C4E.001.DBJZ836-P2-C2-T2-W500009740834D56C-L5000000000000   EMC Symmetrix FCP VRAID
+* hdisk44          U2C4E.001.DBJZ836-P2-C2-T2-W500009740834D56C-L6000000000000   EMC Symmetrix FCP VRAID
+* hdisk45          U2C4E.001.DBJZ836-P2-C2-T2-W500009740834D56C-L7000000000000   EMC Symmetrix FCP VRAID
+* hdisk46          U2C4E.001.DBJZ836-P2-C2-T2-W500009740834D56C-L8000000000000   EMC Symmetrix FCP VRAID
+* hdisk47          U2C4E.001.DBJZ836-P2-C2-T2-W500009740834D56C-L9000000000000   EMC Symmetrix FCP VRAID
+* hdisk48          U2C4E.001.DBJZ836-P2-C2-T2-W500009740834D56C-LA000000000000   EMC Symmetrix FCP VRAID
+* hdisk49          U2C4E.001.DBJZ836-P2-C2-T2-W500009740834D56C-LB000000000000   EMC Symmetrix FCP VRAID
+* sfwcomm3         U2C4E.001.DBJZ836-P2-C2-T2-W0-L0                              Fibre Channel Storage Framework Comm
+* pci11            U2C4E.001.DBJZ836-P2-C2                                       PCI Express Bus
++ fcs4             U2C4E.001.DBJZ836-P2-C2-T3                                    PCIe2 4-Port 8Gb FC Adapter (df1000f114100104)
+* fcnet2           U2C4E.001.DBJZ836-P2-C2-T3                                    Fibre Channel Network Protocol Device
++ fscsi4           U2C4E.001.DBJZ836-P2-C2-T3                                    FC SCSI I/O Controller Protocol Device
+* hdisk172         U2C4E.001.DBJZ836-P2-C2-T3-W500507605E82FB42-L42000000000000  MPIO IBM FlashSystem Disk
+* hdisk173         U2C4E.001.DBJZ836-P2-C2-T3-W500507605E82FB42-L43000000000000  MPIO IBM FlashSystem Disk
+* hdisk174         U2C4E.001.DBJZ836-P2-C2-T3-W500507605E82FB42-L44000000000000  MPIO IBM FlashSystem Disk
+* hdisk175         U2C4E.001.DBJZ836-P2-C2-T3-W500507605E82FB42-L45000000000000  MPIO IBM FlashSystem Disk
+* hdisk176         U2C4E.001.DBJZ836-P2-C2-T3-W500507605E82FB42-L46000000000000  MPIO IBM FlashSystem Disk
+* hdisk177         U2C4E.001.DBJZ836-P2-C2-T3-W500507605E82FB42-L47000000000000  MPIO IBM FlashSystem Disk
+* hdisk178         U2C4E.001.DBJZ836-P2-C2-T3-W500507605E82FB42-L48000000000000  MPIO IBM FlashSystem Disk
+* hdisk179         U2C4E.001.DBJZ836-P2-C2-T3-W500507605E82FB42-L49000000000000  MPIO IBM FlashSystem Disk
+* hdisk180         U2C4E.001.DBJZ836-P2-C2-T3-W500507605E82FB42-L4A000000000000  MPIO IBM FlashSystem Disk
+* hdisk50          U2C4E.001.DBJZ836-P2-C2-T3-W500507605E82FB42-L0               MPIO IBM FlashSystem Disk
+* hdisk51          U2C4E.001.DBJZ836-P2-C2-T3-W500507605E82FB42-L1000000000000   MPIO IBM FlashSystem Disk
+* hdisk52          U2C4E.001.DBJZ836-P2-C2-T3-W500507605E82FB42-L2000000000000   MPIO IBM FlashSystem Disk
+* hdisk53          U2C4E.001.DBJZ836-P2-C2-T3-W500507605E82FB42-L3000000000000   MPIO IBM FlashSystem Disk
+* hdisk54          U2C4E.001.DBJZ836-P2-C2-T3-W500507605E82FB42-L4000000000000   MPIO IBM FlashSystem Disk
+* hdisk55          U2C4E.001.DBJZ836-P2-C2-T3-W500507605E82FB42-L5000000000000   MPIO IBM FlashSystem Disk
+* hdisk56          U2C4E.001.DBJZ836-P2-C2-T3-W500507605E82FB42-L6000000000000   MPIO IBM FlashSystem Disk
+* hdisk57          U2C4E.001.DBJZ836-P2-C2-T3-W500507605E82FB42-L7000000000000   MPIO IBM FlashSystem Disk
+* hdisk58          U2C4E.001.DBJZ836-P2-C2-T3-W500507605E82FB42-L8000000000000   MPIO IBM FlashSystem Disk
+* hdisk59          U2C4E.001.DBJZ836-P2-C2-T3-W500507605E82FB42-L9000000000000   MPIO IBM FlashSystem Disk
+* hdisk60          U2C4E.001.DBJZ836-P2-C2-T3-W500507605E82FB42-LA000000000000   MPIO IBM FlashSystem Disk
+* hdisk61          U2C4E.001.DBJZ836-P2-C2-T3-W500507605E82FB42-LB000000000000   MPIO IBM FlashSystem Disk
+* hdisk62          U2C4E.001.DBJZ836-P2-C2-T3-W500507605E82FB42-LC000000000000   MPIO IBM FlashSystem Disk
+* hdisk63          U2C4E.001.DBJZ836-P2-C2-T3-W500507605E82FB42-LD000000000000   MPIO IBM FlashSystem Disk
+* hdisk64          U2C4E.001.DBJZ836-P2-C2-T3-W500507605E82FB42-LE000000000000   MPIO IBM FlashSystem Disk
+* hdisk65          U2C4E.001.DBJZ836-P2-C2-T3-W500507605E82FB42-LF000000000000   MPIO IBM FlashSystem Disk
+* hdisk66          U2C4E.001.DBJZ836-P2-C2-T3-W500507605E82FB42-L10000000000000  MPIO IBM FlashSystem Disk
+* hdisk67          U2C4E.001.DBJZ836-P2-C2-T3-W500507605E82FB42-L11000000000000  MPIO IBM FlashSystem Disk
+* hdisk68          U2C4E.001.DBJZ836-P2-C2-T3-W500507605E82FB42-L12000000000000  MPIO IBM FlashSystem Disk
+* hdisk69          U2C4E.001.DBJZ836-P2-C2-T3-W500507605E82FB42-L13000000000000  MPIO IBM FlashSystem Disk
+* hdisk70          U2C4E.001.DBJZ836-P2-C2-T3-W500507605E82FB42-L14000000000000  MPIO IBM FlashSystem Disk
+* hdisk71          U2C4E.001.DBJZ836-P2-C2-T3-W500507605E82FB42-L15000000000000  MPIO IBM FlashSystem Disk
+* hdisk72          U2C4E.001.DBJZ836-P2-C2-T3-W500507605E82FB42-L16000000000000  MPIO IBM FlashSystem Disk
+* hdisk73          U2C4E.001.DBJZ836-P2-C2-T3-W500507605E82FB42-L17000000000000  MPIO IBM FlashSystem Disk
+* hdisk74          U2C4E.001.DBJZ836-P2-C2-T3-W500507605E82FB42-L18000000000000  MPIO IBM FlashSystem Disk
+* hdisk75          U2C4E.001.DBJZ836-P2-C2-T3-W500507605E82FB42-L19000000000000  MPIO IBM FlashSystem Disk
+* hdisk76          U2C4E.001.DBJZ836-P2-C2-T3-W500507605E82FB42-L1A000000000000  MPIO IBM FlashSystem Disk
+* hdisk77          U2C4E.001.DBJZ836-P2-C2-T3-W500507605E82FB42-L1B000000000000  MPIO IBM FlashSystem Disk
+* hdisk78          U2C4E.001.DBJZ836-P2-C2-T3-W500507605E82FB42-L1C000000000000  MPIO IBM FlashSystem Disk
+* hdisk79          U2C4E.001.DBJZ836-P2-C2-T3-W500507605E82FB42-L1D000000000000  MPIO IBM FlashSystem Disk
+* hdisk80          U2C4E.001.DBJZ836-P2-C2-T3-W500507605E82FB42-L1E000000000000  MPIO IBM FlashSystem Disk
+* hdisk81          U2C4E.001.DBJZ836-P2-C2-T3-W500507605E82FB42-L1F000000000000  MPIO IBM FlashSystem Disk
+* hdisk82          U2C4E.001.DBJZ836-P2-C2-T3-W500507605E82FB42-L20000000000000  MPIO IBM FlashSystem Disk
+* hdisk83          U2C4E.001.DBJZ836-P2-C2-T3-W500507605E82FB42-L21000000000000  MPIO IBM FlashSystem Disk
+* hdisk84          U2C4E.001.DBJZ836-P2-C2-T3-W500507605E82FB42-L22000000000000  MPIO IBM FlashSystem Disk
+* hdisk85          U2C4E.001.DBJZ836-P2-C2-T3-W500507605E82FB42-L23000000000000  MPIO IBM FlashSystem Disk
+* hdisk86          U2C4E.001.DBJZ836-P2-C2-T3-W500507605E82FB42-L24000000000000  MPIO IBM FlashSystem Disk
+* hdisk87          U2C4E.001.DBJZ836-P2-C2-T3-W500507605E82FB42-L25000000000000  MPIO IBM FlashSystem Disk
+* hdisk88          U2C4E.001.DBJZ836-P2-C2-T3-W500507605E82FB42-L26000000000000  MPIO IBM FlashSystem Disk
+* hdisk89          U2C4E.001.DBJZ836-P2-C2-T3-W500507605E82FB42-L27000000000000  MPIO IBM FlashSystem Disk
+* hdisk90          U2C4E.001.DBJZ836-P2-C2-T3-W500507605E82FB42-L28000000000000  MPIO IBM FlashSystem Disk
+* hdisk91          U2C4E.001.DBJZ836-P2-C2-T3-W500507605E82FB42-L29000000000000  MPIO IBM FlashSystem Disk
+* hdisk92          U2C4E.001.DBJZ836-P2-C2-T3-W500507605E82FB42-L2A000000000000  MPIO IBM FlashSystem Disk
+* hdisk93          U2C4E.001.DBJZ836-P2-C2-T3-W500507605E82FB42-L2B000000000000  MPIO IBM FlashSystem Disk
+* hdisk94          U2C4E.001.DBJZ836-P2-C2-T3-W500507605E82FB42-L2C000000000000  MPIO IBM FlashSystem Disk
+* hdisk95          U2C4E.001.DBJZ836-P2-C2-T3-W500507605E82FB42-L2D000000000000  MPIO IBM FlashSystem Disk
+* hdisk96          U2C4E.001.DBJZ836-P2-C2-T3-W500507605E82FB42-L2E000000000000  MPIO IBM FlashSystem Disk
+* hdisk97          U2C4E.001.DBJZ836-P2-C2-T3-W500507605E82FB42-L2F000000000000  MPIO IBM FlashSystem Disk
+* hdisk98          U2C4E.001.DBJZ836-P2-C2-T3-W500507605E82FB42-L30000000000000  MPIO IBM FlashSystem Disk
+* hdisk99          U2C4E.001.DBJZ836-P2-C2-T3-W500507605E82FB42-L31000000000000  MPIO IBM FlashSystem Disk
+* hdisk100         U2C4E.001.DBJZ836-P2-C2-T3-W500507605E82FB42-L32000000000000  MPIO IBM FlashSystem Disk
+* hdisk101         U2C4E.001.DBJZ836-P2-C2-T3-W500507605E82FB42-L33000000000000  MPIO IBM FlashSystem Disk
+* hdisk102         U2C4E.001.DBJZ836-P2-C2-T3-W500507605E82FB42-L34000000000000  MPIO IBM FlashSystem Disk
+* hdisk103         U2C4E.001.DBJZ836-P2-C2-T3-W500507605E82FB42-L35000000000000  MPIO IBM FlashSystem Disk
+* hdisk104         U2C4E.001.DBJZ836-P2-C2-T3-W500507605E82FB42-L36000000000000  MPIO IBM FlashSystem Disk
+* hdisk105         U2C4E.001.DBJZ836-P2-C2-T3-W500507605E82FB42-L37000000000000  MPIO IBM FlashSystem Disk
+* hdisk106         U2C4E.001.DBJZ836-P2-C2-T3-W500507605E82FB42-L38000000000000  MPIO IBM FlashSystem Disk
+* hdisk107         U2C4E.001.DBJZ836-P2-C2-T3-W500507605E82FB42-L39000000000000  MPIO IBM FlashSystem Disk
+* hdisk108         U2C4E.001.DBJZ836-P2-C2-T3-W500507605E82FB42-L3A000000000000  MPIO IBM FlashSystem Disk
+* hdisk109         U2C4E.001.DBJZ836-P2-C2-T3-W500507605E82FB42-L3B000000000000  MPIO IBM FlashSystem Disk
+* hdisk110         U2C4E.001.DBJZ836-P2-C2-T3-W500507605E82FB42-L3C000000000000  MPIO IBM FlashSystem Disk
+* hdisk111         U2C4E.001.DBJZ836-P2-C2-T3-W500507605E82FB42-L3D000000000000  MPIO IBM FlashSystem Disk
+* hdisk112         U2C4E.001.DBJZ836-P2-C2-T3-W500507605E82FB42-L3E000000000000  MPIO IBM FlashSystem Disk
+* hdisk113         U2C4E.001.DBJZ836-P2-C2-T3-W500507605E82FB42-L3F000000000000  MPIO IBM FlashSystem Disk
+* hdisk114         U2C4E.001.DBJZ836-P2-C2-T3-W500507605E82FB42-L40000000000000  MPIO IBM FlashSystem Disk
+* hdisk163         U2C4E.001.DBJZ836-P2-C2-T3-W500507605E82FB42-L41000000000000  MPIO IBM FlashSystem Disk
+* sfwcomm4         U2C4E.001.DBJZ836-P2-C2-T3-W0-L0                              Fibre Channel Storage Framework Comm
++ fcs5             U2C4E.001.DBJZ836-P2-C2-T4                                    PCIe2 4-Port 8Gb FC Adapter (df1000f114100104)
+* fcnet3           U2C4E.001.DBJZ836-P2-C2-T4                                    Fibre Channel Network Protocol Device
++ fscsi5           U2C4E.001.DBJZ836-P2-C2-T4                                    FC SCSI I/O Controller Protocol Device
+* sfwcomm5         U2C4E.001.DBJZ836-P2-C2-T4-W0-L0                              Fibre Channel Storage Framework Comm
+* pci1             U2C4E.001.DBJZ836-P2                                          PCI Express Bus
++ ent0             U2C4E.001.DBJZ836-P2-C3-T1                                    PCIe2 10GbE SFP+ SR 4-port Converged Network Adapter (df1020e214100f04)
++ ent1             U2C4E.001.DBJZ836-P2-C3-T2                                    PCIe2 10GbE SFP+ SR 4-port Converged Network Adapter (df1020e214100f04)
++ ent2             U2C4E.001.DBJZ836-P2-C3-T3                                    PCIe2 100/1000 Base-TX 4-port Converged Network Adapter (df1020e214103c04)
++ ent3             U2C4E.001.DBJZ836-P2-C3-T4                                    PCIe2 100/1000 Base-TX 4-port Converged Network Adapter (df1020e214103c04)
++ fcs0             U2C4E.001.DBJZ836-P2-C3-T1                                    PCIe2 10Gb 4-Port FCoE Adapter (df1060e214101004)
+* fscsi0           U2C4E.001.DBJZ836-P2-C3-T1                                    FC SCSI I/O Controller Protocol Device
+* sfwcomm0         U2C4E.001.DBJZ836-P2-C3-T1-W0-L0                              Fibre Channel Storage Framework Comm
++ fcs1             U2C4E.001.DBJZ836-P2-C3-T2                                    PCIe2 10Gb 4-Port FCoE Adapter (df1060e214101004)
+* fscsi1           U2C4E.001.DBJZ836-P2-C3-T2                                    FC SCSI I/O Controller Protocol Device
+* sfwcomm1         U2C4E.001.DBJZ836-P2-C3-T2-W0-L0                              Fibre Channel Storage Framework Comm
+* pci0             U2C4E.001.DBJZ836-P2                                          PCI Express Bus
++ sissas0          U2C4E.001.DBJZ836-P2-T3                                       PCI Express x1 Planar 3Gb SAS Adapter
+* sas0             U2C4E.001.DBJZ836-P2-T3                                       Controller SAS Protocol
+* sfwcomm16                                                                      SAS Storage Framework Comm
++ ses0             U2C4E.001.DBJZ836-P2-C9-Y1                                    SAS Enclosure Services Device
+* sata0            U2C4E.001.DBJZ836-P2-T3                                       Controller SATA Protocol
++ cd0              U2C4E.001.DBJZ836-P2-C9-D7                                    SATA DVD-RAM Drive
++ L2cache0                                                                       L2 Cache
++ mem0                                                                           Memory
++ proc0                                                                          Processor
++ proc4                                                                          Processor
++ proc8                                                                          Processor
++ proc12                                                                         Processor
++ proc16                                                                         Processor
++ proc20                                                                         Processor
+==== EXITED with rc 0 ====
+==== END lscfg Tue Jul  7 13:04:21 CDT 2015 ====

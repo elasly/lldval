@@ -1,0 +1,87 @@
+==== This output can be found in Systems/dx978/ha/cldisp.txt ====
+==== START cldisp  Mon Jul  6 23:42:53 GST 2015 ====
+Cluster: DX977_cluster
+   Cluster services: active
+   State of cluster: up
+      Substate: stable
+
+#############
+APPLICATIONS
+#############
+   Cluster DX977_cluster provides the following applications: dbscripts 
+      Application: dbscripts
+         dbscripts is started by /usr/es/sbin/cluster/scripts/dbstart.sh
+         dbscripts is stopped by /usr/es/sbin/cluster/scripts/dbstop.sh
+         No application monitors are configured for dbscripts.
+         This application is part of resource group 'DX977_RSG'.
+            Resource group policies:
+               Startup: on home node only
+               Fallover: to next priority node in the list
+               Fallback: never
+            State of dbscripts: online
+            Nodes configured to provide dbscripts: DX977 {up}  DX978 {up}  
+               Node currently providing dbscripts: DX977 {up} 
+               The node that will provide dbscripts if DX977 fails is: DX978
+            Resources associated with dbscripts:
+               Service Labels
+                  DX977-VIP(10.51.226.228) {online}
+                     Interfaces configured to provide DX977-VIP:
+                        DX977 {up}
+                           with IP address: 10.51.226.224
+                           on interface: en0
+                           on node: DX977 {up}
+                           on network: net_ether_02 {up}
+                        DX978 {up}
+                           with IP address: 10.51.226.225
+                           on interface: en0
+                           on node: DX978 {up}
+                           on network: net_ether_02 {up}
+               Shared Volume Groups:
+                  oravg
+                  data1vg
+                  indx1vg
+                  arch1vg
+                  exp1vg
+                  temp1vg
+                  redo1vg
+                  ctrl1vg
+                  undo1vg
+                  gg1vg
+                  flash1vg
+                  bkp1vg
+                  bctvg
+
+#############
+TOPOLOGY
+#############
+   DX977_cluster consists of the following nodes: DX977 DX978 
+      DX977
+         Network interfaces:
+            DX977_sc0 {up}
+               with IP address: 10.51.229.220
+               on interface: en3
+               on network: net_ether_01 {up}
+            DX977 {up}
+               with IP address: 10.51.226.224
+               on interface: en0
+               on network: net_ether_02 {up}
+            DX977_b {up}
+               with IP address: 10.51.227.229
+               on interface: en1
+               on network: net_ether_03 {up}
+      DX978
+         Network interfaces:
+            DX978_sc0 {up}
+               with IP address: 10.51.229.221
+               on interface: en3
+               on network: net_ether_01 {up}
+            DX978 {up}
+               with IP address: 10.51.226.225
+               on interface: en0
+               on network: net_ether_02 {up}
+            DX978_b {up}
+               with IP address: 10.51.227.230
+               on interface: en1
+               on network: net_ether_03 {up}
+==== EXITED with rc 0 ====
+==== END cldisp  Mon Jul  6 23:43:08 GST 2015 ====

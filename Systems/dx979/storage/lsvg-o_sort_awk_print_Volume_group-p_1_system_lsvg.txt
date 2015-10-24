@@ -1,0 +1,137 @@
+==== This output can be found in Systems/dx979/storage/lsvg-o_sort_awk_print_Volume_group-p_1_system_lsvg.txt ====
+==== START lsvg -o |sort|awk '{print "#### Volume group -p: " $1 " ####";system("lsvg -p " $1 ); print "\n"}' Tue Jul  7 00:40:56 GST 2015 ====
+#### Volume group -p: arch1vg ####
+arch1vg:
+PV_NAME           PV STATE          TOTAL PPs   FREE PPs    FREE DISTRIBUTION
+hdiskpower28      active            1023        0           00..00..00..00..00
+hdiskpower29      active            1023        0           00..00..00..00..00
+hdiskpower30      active            1023        0           00..00..00..00..00
+hdiskpower31      active            1023        0           00..00..00..00..00
+hdiskpower32      active            1023        1           00..00..00..00..01
+hdiskpower33      active            1023        1           00..00..00..00..01
+
+
+#### Volume group -p: bctvg ####
+bctvg:
+PV_NAME           PV STATE          TOTAL PPs   FREE PPs    FREE DISTRIBUTION
+hdiskpower59      active            39          0           00..00..00..00..00
+
+
+#### Volume group -p: bkp1vg ####
+bkp1vg:
+PV_NAME           PV STATE          TOTAL PPs   FREE PPs    FREE DISTRIBUTION
+hdiskpower42      active            1023        0           00..00..00..00..00
+hdiskpower43      active            1023        0           00..00..00..00..00
+hdiskpower44      active            1023        0           00..00..00..00..00
+hdiskpower45      active            1023        0           00..00..00..00..00
+hdiskpower46      active            1023        0           00..00..00..00..00
+hdiskpower47      active            1023        0           00..00..00..00..00
+hdiskpower48      active            1023        0           00..00..00..00..00
+hdiskpower49      active            1023        0           00..00..00..00..00
+hdiskpower50      active            1023        1           00..00..00..00..01
+
+
+#### Volume group -p: caavg_private ####
+caavg_private:
+PV_NAME           PV STATE          TOTAL PPs   FREE PPs    FREE DISTRIBUTION
+hdiskpower1       active            79          72          16..09..15..16..16
+
+
+#### Volume group -p: ctrl1vg ####
+ctrl1vg:
+PV_NAME           PV STATE          TOTAL PPs   FREE PPs    FREE DISTRIBUTION
+hdiskpower55      active            10171       1           00..00..00..00..01
+hdiskpower56      active            10171       1           00..00..00..00..01
+hdiskpower57      active            10171       1           00..00..00..00..01
+
+
+#### Volume group -p: data1vg ####
+data1vg:
+PV_NAME           PV STATE          TOTAL PPs   FREE PPs    FREE DISTRIBUTION
+hdiskpower6       active            16382       0           00..00..00..00..00
+hdiskpower7       active            16382       0           00..00..00..00..00
+hdiskpower8       active            16382       0           00..00..00..00..00
+hdiskpower9       active            16382       0           00..00..00..00..00
+hdiskpower10      active            16382       0           00..00..00..00..00
+hdiskpower11      active            16382       0           00..00..00..00..00
+hdiskpower12      active            16382       0           00..00..00..00..00
+hdiskpower13      active            16382       0           00..00..00..00..00
+hdiskpower14      active            16382       0           00..00..00..00..00
+hdiskpower15      active            16382       0           00..00..00..00..00
+hdiskpower16      active            16382       0           00..00..00..00..00
+hdiskpower17      active            16382       0           00..00..00..00..00
+hdiskpower18      active            16382       0           00..00..00..00..00
+hdiskpower19      active            16382       0           00..00..00..00..00
+hdiskpower20      active            16382       0           00..00..00..00..00
+hdiskpower21      active            16382       1           00..00..00..00..01
+
+
+#### Volume group -p: exp1vg ####
+exp1vg:
+PV_NAME           PV STATE          TOTAL PPs   FREE PPs    FREE DISTRIBUTION
+hdiskpower4       active            1023        0           00..00..00..00..00
+hdiskpower5       active            1023        1           00..00..00..00..01
+
+
+#### Volume group -p: flash1vg ####
+flash1vg:
+PV_NAME           PV STATE          TOTAL PPs   FREE PPs    FREE DISTRIBUTION
+hdiskpower36      active            797         0           00..00..00..00..00
+hdiskpower37      active            797         1           00..00..00..00..01
+
+
+#### Volume group -p: gg1vg ####
+gg1vg:
+PV_NAME           PV STATE          TOTAL PPs   FREE PPs    FREE DISTRIBUTION
+hdiskpower34      active            1599        0           00..00..00..00..00
+hdiskpower35      active            1599        1           00..00..00..00..01
+
+
+#### Volume group -p: indx1vg ####
+indx1vg:
+PV_NAME           PV STATE          TOTAL PPs   FREE PPs    FREE DISTRIBUTION
+hdiskpower22      active            16382       0           00..00..00..00..00
+hdiskpower23      active            16382       0           00..00..00..00..00
+hdiskpower24      active            16382       0           00..00..00..00..00
+hdiskpower25      active            16382       0           00..00..00..00..00
+hdiskpower26      active            16382       0           00..00..00..00..00
+hdiskpower27      active            16382       1           00..00..00..00..01
+
+
+#### Volume group -p: oravg ####
+oravg:
+PV_NAME           PV STATE          TOTAL PPs   FREE PPs    FREE DISTRIBUTION
+hdiskpower3       active            1663        63          00..00..00..00..63
+
+
+#### Volume group -p: redo1vg ####
+redo1vg:
+PV_NAME           PV STATE          TOTAL PPs   FREE PPs    FREE DISTRIBUTION
+hdiskpower51      active            3055        1135        00..00..00..524..611
+hdiskpower52      active            3055        1135        00..00..00..524..611
+hdiskpower53      active            3055        1135        00..00..00..524..611
+hdiskpower54      active            3055        1135        00..00..00..524..611
+
+
+#### Volume group -p: rootvg ####
+rootvg:
+PV_NAME           PV STATE          TOTAL PPs   FREE PPs    FREE DISTRIBUTION
+hdiskpower2       active            304         61          00..00..00..00..61
+
+
+#### Volume group -p: temp1vg ####
+temp1vg:
+PV_NAME           PV STATE          TOTAL PPs   FREE PPs    FREE DISTRIBUTION
+hdiskpower40      active            8189        189         00..00..00..00..189
+hdiskpower41      active            8189        189         00..00..00..00..189
+
+
+#### Volume group -p: undo1vg ####
+undo1vg:
+PV_NAME           PV STATE          TOTAL PPs   FREE PPs    FREE DISTRIBUTION
+hdiskpower38      active            3198        0           00..00..00..00..00
+hdiskpower39      active            3198        1           00..00..00..00..01
+
+
+==== EXITED with rc 0 ====
+==== END lsvg -o |sort|awk '{print "#### Volume group -p: " $1 " ####";system("lsvg -p " $1 ); print "\n"}' Tue Jul  7 00:40:59 GST 2015 ====

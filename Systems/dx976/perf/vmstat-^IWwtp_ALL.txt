@@ -1,0 +1,15 @@
+==== This output can be found in Systems/dx976/perf/vmstat-^IWwtp_ALL.txt ====
+==== START vmstat -IWwtp ALL  Tue Jul  7 13:05:06 CDT 2015 ====
+
+System configuration: lcpu=24 mem=8192MB ent=2.00
+
+     kthr              memory                         page                       faults                 cpu             time  
+--------------- --------------------- ------------------------------------ ------------------ ----------------------- --------
+  r   b   p   w        avm        fre    fi    fo    pi    po    fr     sr    in     sy    cs us sy id wa    pc    ec hr mi se
+  1   1   0   0    1184824      93500     0     1     0     0     0      0  2475    469  2056  0  4 96  0  0.14   7.0 13:05:06
+
+        psz        avm        fre    fi    fo    pi    po    fr     sr     siz hr mi se
+         4K     255564       7206     0     1     0     0     0      0 1081600 13:05:06
+        64K      58079       5393     0     0     0     0     0      0   63472 13:05:06
+==== EXITED with rc 0 ====
+==== END vmstat -IWwtp ALL  Tue Jul  7 13:05:06 CDT 2015 ====

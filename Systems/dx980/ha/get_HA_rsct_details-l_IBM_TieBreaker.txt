@@ -1,0 +1,38 @@
+==== This output can be found in Systems/dx980/ha/get_HA_rsct_details-l_IBM_TieBreaker.txt ====
+==== START get_HA_rsct_details -l IBM.TieBreaker Mon Jul  6 23:23:35 GST 2015 ====
+Resource Persistent Attributes for IBM.TieBreaker
+resource 1:
+	Name                = "Success"
+	Type                = "Success"
+	DeviceInfo          = ""
+	ReprobeData         = ""
+	ReleaseRetryPeriod  = 0
+	HeartbeatPeriod     = 0
+	PreReserveWaitTime  = 0
+	PostReserveWaitTime = 0
+	NodeInfo            = {}
+	ActivePeerDomain    = "DX979_cluster"
+resource 2:
+	Name                = "Fail"
+	Type                = "Fail"
+	DeviceInfo          = ""
+	ReprobeData         = ""
+	ReleaseRetryPeriod  = 0
+	HeartbeatPeriod     = 0
+	PreReserveWaitTime  = 0
+	PostReserveWaitTime = 0
+	NodeInfo            = {}
+	ActivePeerDomain    = "DX979_cluster"
+resource 3:
+	Name                = "Operator"
+	Type                = "Operator"
+	DeviceInfo          = ""
+	ReprobeData         = ""
+	ReleaseRetryPeriod  = 0
+	HeartbeatPeriod     = 0
+	PreReserveWaitTime  = 0
+	PostReserveWaitTime = 0
+	NodeInfo            = {}
+	ActivePeerDomain    = "DX979_cluster"
+==== EXITED with rc 0 ====
+==== END get_HA_rsct_details -l IBM.TieBreaker Mon Jul  6 23:23:35 GST 2015 ====

@@ -1,0 +1,9 @@
+==== This output can be found in Systems/dx977/os/bootlist-vom_normal.txt ====
+==== START bootlist -vom normal Tue Jul  7 00:10:19 GST 2015 ====
+'ibm,max-boot-devices' = 0x5
+NVRAM variable: (boot-device=/vdevice/vfc-client@3000019d/disk@500009740834d530:2)
+Path name: (/vdevice/vfc-client@3000019d/disk@500009740834d530:2)
+match_specific_info: ut=disk/fcp/SYMM_VRAID
+hdisk354 blv=hd5 
+==== EXITED with rc 0 ====
+==== END bootlist -vom normal Tue Jul  7 00:10:19 GST 2015 ====

@@ -1,0 +1,27 @@
+==== This output can be found in Systems/dx976/os/lssrc-^T.txt ====
+==== START lssrc -T Tue Jul  7 13:04:28 CDT 2015 ====
+#sub_type:subsysname:sub_code:
+ftp:inetd:21:
+uucp:inetd:540:
+telnet:inetd:23:
+shell:inetd:514:
+login:inetd:513:
+exec:inetd:512:
+finger:inetd:79:
+tftp:inetd:69:
+ntalk:inetd:518:
+echo:inetd:7:
+discard:inetd:9:
+chargen:inetd:19:
+daytime:inetd:13:
+time:inetd:37:
+comsat:inetd:1512:
+bootps:inetd:67:
+systat:inetd:11:
+netstat:inetd:15:
+klogin:inetd:543:
+kshell:inetd:544:
+imapd:inetd:143:
+pop3d:inetd:110:
+==== EXITED with rc 0 ====
+==== END lssrc -T Tue Jul  7 13:04:28 CDT 2015 ====

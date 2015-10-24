@@ -1,0 +1,12 @@
+==== This output can be found in Systems/dx978/os/usr_lib_ras_dumpcheck-p.txt ====
+==== START /usr/lib/ras/dumpcheck -p Mon Jul  6 23:30:40 GST 2015 ====
+The largest dump device is too small.
+
+Largest dump device
+	 lg_dumplv
+Largest dump device size in kb
+	 4194304
+Current estimated dump size in kb
+	 4494561
+==== EXITED with rc 0 ====
+==== END /usr/lib/ras/dumpcheck -p Mon Jul  6 23:30:40 GST 2015 ====

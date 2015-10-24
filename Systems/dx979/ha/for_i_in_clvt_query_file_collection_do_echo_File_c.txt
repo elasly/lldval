@@ -1,0 +1,18 @@
+==== This output can be found in Systems/dx979/ha/for_i_in_clvt_query_file_collection_do_echo_File_c.txt ====
+==== START for i in $(clvt query file_collection); do  echo "### File_collection Name: $i ###"; clvt query file_collection $i; echo ""; done Tue Jul  7 00:41:40 GST 2015 ====
+### File_collection Name: Configuration_Files ###
+NAME="Configuration_Files"
+DESCRIPTION="AIX and PowerHA SystemMirror configuration files"
+SYNC_WITH_CLUSTER="false"
+SYNC_WHEN_CHANGED="false"
+FILES="/etc/hosts /etc/services /etc/snmpd.conf /etc/snmpdv3.conf /etc/rc.net /etc/inetd.conf /usr/es/sbin/cluster/netmon.cf /usr/es/sbin/cluster/etc/clhosts /etc/cluster/rhosts /usr/es/sbin/cluster/etc/clinfo.rc"
+
+### File_collection Name: HACMP_Files ###
+NAME="HACMP_Files"
+DESCRIPTION="User-defined scripts configured to PowerHA SystemMirror"
+SYNC_WITH_CLUSTER="false"
+SYNC_WHEN_CHANGED="false"
+FILES="/usr/es/sbin/cluster/scripts/dbstart.sh /usr/es/sbin/cluster/scripts/dbstop.sh"
+
+==== EXITED with rc 0 ====
+==== END for i in $(clvt query file_collection); do  echo "### File_collection Name: $i ###"; clvt query file_collection $i; echo ""; done Tue Jul  7 00:41:42 GST 2015 ====

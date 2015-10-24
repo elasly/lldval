@@ -1,0 +1,107 @@
+==== This output can be found in Systems/dx988/os/prtconf.txt ====
+==== START prtconf Thu Aug  6 11:14:07 GST 2015 ====
+System Model: IBM,9179-MHD
+Machine Serial Number: 212EECV
+Processor Type: PowerPC_POWER7
+Processor Implementation Mode: POWER 7
+Processor Version: PV_7_Compat
+Number Of Processors: 6
+Processor Clock Speed: 4424 MHz
+CPU Type: 64-bit
+Kernel Type: 64-bit
+LPAR Info: 36 INTEL-A
+Memory Size: 98304 MB
+Good Memory Size: 98304 MB
+Platform Firmware level: AM780_068
+Firmware Version: IBM,AM780_068
+Console Login: enable
+Auto Restart: true
+Full Core: false
+NX Crypto Acceleration: Capable and Enabled
+ 
+Network Information
+	Host Name: DX988
+	IP Address: 10.51.226.234
+	Sub Netmask: 255.255.255.0
+	Gateway: 10.51.226.1
+	Name Server: 10.36.153.13
+	Domain Name: etisalat.corp.ae
+ 
+Paging Space Information
+	Total Paging Space: 512MB
+	Percent Used: 3%
+ 
+Volume Groups Information
+============================================================================== 
+Active VGs
+============================================================================== 
+caavg_private:
+PV_NAME           PV STATE          TOTAL PPs   FREE PPs    FREE DISTRIBUTION
+hdisk1            active            79          72          16..09..15..16..16
+============================================================================== 
+ 
+rootvg:
+PV_NAME           PV STATE          TOTAL PPs   FREE PPs    FREE DISTRIBUTION
+hdisk0            active            299         239         59..40..20..60..60
+============================================================================== 
+ 
+INSTALLED RESOURCE LIST
+
+The following resources are installed on the machine.
++/- = Added or deleted from Resource List.
+*   = Diagnostic support not available.
+	
+  Model Architecture: chrp
+  Model Implementation: Multiple Processor, PCI bus
+	
++ sys0                                                                             System Object
++ sysplanar0                                                                       System Planar
+* vio0                                                                             Virtual I/O Bus
+* vscsi9           U9179.MHD.212EECV-V36-C140-T1                                   Virtual SCSI Client Adapter
+* vscsi8           U9179.MHD.212EECV-V36-C139-T1                                   Virtual SCSI Client Adapter
+* vscsi7           U9179.MHD.212EECV-V36-C138-T1                                   Virtual SCSI Client Adapter
+* vscsi6           U9179.MHD.212EECV-V36-C137-T1                                   Virtual SCSI Client Adapter
+* vscsi5           U9179.MHD.212EECV-V36-C136-T1                                   Virtual SCSI Client Adapter
+* vscsi4           U9179.MHD.212EECV-V36-C135-T1                                   Virtual SCSI Client Adapter
+* vscsi3           U9179.MHD.212EECV-V36-C134-T1                                   Virtual SCSI Client Adapter
+* vscsi2           U9179.MHD.212EECV-V36-C133-T1                                   Virtual SCSI Client Adapter
+* vscsi1           U9179.MHD.212EECV-V36-C132-T1                                   Virtual SCSI Client Adapter
+* vscsi0           U9179.MHD.212EECV-V36-C131-T1                                   Virtual SCSI Client Adapter
+* ent3             U9179.MHD.212EECV-V36-C7-T1                                     Virtual I/O Ethernet Adapter (l-lan)
+* ent2             U9179.MHD.212EECV-V36-C6-T1                                     Virtual I/O Ethernet Adapter (l-lan)
+* ent1             U9179.MHD.212EECV-V36-C5-T1                                     Virtual I/O Ethernet Adapter (l-lan)
+* ent0             U9179.MHD.212EECV-V36-C4-T1                                     Virtual I/O Ethernet Adapter (l-lan)
+* vsa0             U9179.MHD.212EECV-V36-C0                                        LPAR Virtual Serial Adapter
+* vty0             U9179.MHD.212EECV-V36-C0-L0                                     Asynchronous Terminal
++ fcs0             U9179.MHD.212EECV-V36-C331-T1                                   Virtual Fibre Channel Client Adapter
++ fscsi0           U9179.MHD.212EECV-V36-C331-T1                                   FC SCSI I/O Controller Protocol Device
++ fcs1             U9179.MHD.212EECV-V36-C332-T1                                   Virtual Fibre Channel Client Adapter
++ fscsi1           U9179.MHD.212EECV-V36-C332-T1                                   FC SCSI I/O Controller Protocol Device
++ fcs2             U9179.MHD.212EECV-V36-C333-T1                                   Virtual Fibre Channel Client Adapter
++ fscsi2           U9179.MHD.212EECV-V36-C333-T1                                   FC SCSI I/O Controller Protocol Device
+* sfwcomm0         U9179.MHD.212EECV-V36-C333-T1-W0-L0                             Fibre Channel Storage Framework Comm
+* hdisk0           U9179.MHD.212EECV-V36-C333-T1-W50060E8007E43A7A-L0              Hitachi MPIO Disk VSP G1000 (Fibre)
++ fcs3             U9179.MHD.212EECV-V36-C334-T1                                   Virtual Fibre Channel Client Adapter
++ fscsi3           U9179.MHD.212EECV-V36-C334-T1                                   FC SCSI I/O Controller Protocol Device
+* sfwcomm1         U9179.MHD.212EECV-V36-C334-T1-W0-L0                             Fibre Channel Storage Framework Comm
++ fcs4             U9179.MHD.212EECV-V36-C335-T1                                   Virtual Fibre Channel Client Adapter
++ fscsi4           U9179.MHD.212EECV-V36-C335-T1                                   FC SCSI I/O Controller Protocol Device
++ fcs5             U9179.MHD.212EECV-V36-C336-T1                                   Virtual Fibre Channel Client Adapter
++ fscsi5           U9179.MHD.212EECV-V36-C336-T1                                   FC SCSI I/O Controller Protocol Device
++ fcs6             U9179.MHD.212EECV-V36-C337-T1                                   Virtual Fibre Channel Client Adapter
++ fscsi6           U9179.MHD.212EECV-V36-C337-T1                                   FC SCSI I/O Controller Protocol Device
+* sfwcomm2         U9179.MHD.212EECV-V36-C337-T1-W0-L0                             Fibre Channel Storage Framework Comm
+* hdisk1           U9179.MHD.212EECV-V36-C337-T1-W50060E8007E43A6A-L1000000000000  Hitachi MPIO Disk VSP G1000 (Fibre)
++ fcs7             U9179.MHD.212EECV-V36-C338-T1                                   Virtual Fibre Channel Client Adapter
++ fscsi7           U9179.MHD.212EECV-V36-C338-T1                                   FC SCSI I/O Controller Protocol Device
+* sfwcomm3         U9179.MHD.212EECV-V36-C338-T1-W0-L0                             Fibre Channel Storage Framework Comm
++ L2cache0                                                                         L2 Cache
++ mem0                                                                             Memory
++ proc0                                                                            Processor
++ proc4                                                                            Processor
++ proc8                                                                            Processor
++ proc12                                                                           Processor
++ proc16                                                                           Processor
++ proc20                                                                           Processor
+==== EXITED with rc 0 ====
+==== END prtconf Thu Aug  6 11:14:09 GST 2015 ====

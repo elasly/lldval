@@ -1,0 +1,1566 @@
+==== This output can be found in Systems/dx1010/vio/vio_virt_phys_map.txt ====
+==== START vio_virt_phys_map Tue Jul  7 13:21:12 CDT 2015 ====
+Virtual optical device mappings
+
+Virtual file device mappings
+SVSA            Physloc                                      Client Partition ID
+--------------- -------------------------------------------- ------------------
+vhost2          U9179.MHD.212EECV-V2-C22                     0x00000007
+
+VTD                   vtopt0
+Status                Available
+LUN                   0x8200000000000000
+Backing device        /var/vio/VMLibrary/dx915_cd1
+Physloc               
+Mirrored              N/A
+
+
+Virtual file_disk device mappings
+
+Virtual file_opt device mappings
+SVSA            Physloc                                      Client Partition ID
+--------------- -------------------------------------------- ------------------
+vhost2          U9179.MHD.212EECV-V2-C22                     0x00000007
+
+VTD                   vtopt0
+Status                Available
+LUN                   0x8200000000000000
+Backing device        /var/vio/VMLibrary/dx915_cd1
+Physloc               
+Mirrored              N/A
+
+
+Virtual disk device mappings
+SVSA            Physloc                                      Client Partition ID
+--------------- -------------------------------------------- ------------------
+vhost2          U9179.MHD.212EECV-V2-C22                     0x00000007
+
+VTD                   vtscsi95
+Status                Available
+LUN                   0x8100000000000000
+Backing device        hdiskpower67
+Physloc               U2C4E.001.DBJU911-P2-C2-T3-L141
+Mirrored              false
+
+VTD                   vtscsi109
+Status                Available
+LUN                   0x8300000000000000
+Backing device        hdiskpower70
+Physloc               U2C4E.001.DBJU911-P2-C2-T3-L144
+Mirrored              false
+
+VTD                   vtscsi110
+Status                Available
+LUN                   0x8400000000000000
+Backing device        hdiskpower71
+Physloc               U2C4E.001.DBJU911-P2-C2-T3-L145
+Mirrored              false
+
+VTD                   vtscsi111
+Status                Available
+LUN                   0x8500000000000000
+Backing device        hdiskpower68
+Physloc               U2C4E.001.DBJU911-P2-C2-T3-L142
+Mirrored              false
+
+VTD                   vtscsi112
+Status                Available
+LUN                   0x8600000000000000
+Backing device        hdiskpower69
+Physloc               U2C4E.001.DBJU911-P2-C2-T3-L143
+Mirrored              false
+
+VTD                   vtscsi113
+Status                Available
+LUN                   0x8700000000000000
+Backing device        hdiskpower60
+Physloc               U2C4E.001.DBJU911-P2-C2-T3-L134
+Mirrored              false
+
+VTD                   vtscsi114
+Status                Available
+LUN                   0x8800000000000000
+Backing device        hdiskpower61
+Physloc               U2C4E.001.DBJU911-P2-C2-T3-L135
+Mirrored              false
+
+VTD                   vtscsi115
+Status                Available
+LUN                   0x8900000000000000
+Backing device        hdiskpower62
+Physloc               U2C4E.001.DBJU911-P2-C2-T3-L136
+Mirrored              false
+
+VTD                   vtscsi116
+Status                Available
+LUN                   0x8a00000000000000
+Backing device        hdiskpower63
+Physloc               U2C4E.001.DBJU911-P2-C2-T3-L137
+Mirrored              false
+
+VTD                   vtscsi117
+Status                Available
+LUN                   0x8b00000000000000
+Backing device        hdiskpower64
+Physloc               U2C4E.001.DBJU911-P2-C2-T3-L138
+Mirrored              false
+
+VTD                   vtscsi118
+Status                Available
+LUN                   0x8c00000000000000
+Backing device        hdiskpower65
+Physloc               U2C4E.001.DBJU911-P2-C2-T3-L139
+Mirrored              false
+
+VTD                   vtscsi119
+Status                Available
+LUN                   0x8d00000000000000
+Backing device        hdiskpower66
+Physloc               U2C4E.001.DBJU911-P2-C2-T3-L140
+Mirrored              false
+
+VTD                   vtscsi120
+Status                Available
+LUN                   0x8e00000000000000
+Backing device        hdiskpower53
+Physloc               U2C4E.001.DBJU911-P2-C2-T3-L127
+Mirrored              false
+
+VTD                   vtscsi121
+Status                Available
+LUN                   0x8f00000000000000
+Backing device        hdiskpower54
+Physloc               U2C4E.001.DBJU911-P2-C2-T3-L128
+Mirrored              false
+
+VTD                   vtscsi122
+Status                Available
+LUN                   0x9000000000000000
+Backing device        hdiskpower55
+Physloc               U2C4E.001.DBJU911-P2-C2-T3-L129
+Mirrored              false
+
+VTD                   vtscsi123
+Status                Available
+LUN                   0x9100000000000000
+Backing device        hdiskpower56
+Physloc               U2C4E.001.DBJU911-P2-C2-T3-L130
+Mirrored              false
+
+VTD                   vtscsi124
+Status                Available
+LUN                   0x9200000000000000
+Backing device        hdiskpower57
+Physloc               U2C4E.001.DBJU911-P2-C2-T3-L131
+Mirrored              false
+
+VTD                   vtscsi125
+Status                Available
+LUN                   0x9300000000000000
+Backing device        hdiskpower58
+Physloc               U2C4E.001.DBJU911-P2-C2-T3-L132
+Mirrored              false
+
+VTD                   vtscsi126
+Status                Available
+LUN                   0x9400000000000000
+Backing device        hdiskpower59
+Physloc               U2C4E.001.DBJU911-P2-C2-T3-L133
+Mirrored              false
+
+VTD                   vtscsi127
+Status                Available
+LUN                   0x9500000000000000
+Backing device        hdiskpower51
+Physloc               U2C4E.001.DBJU911-P2-C2-T3-L125
+Mirrored              false
+
+VTD                   vtscsi128
+Status                Available
+LUN                   0x9600000000000000
+Backing device        hdiskpower52
+Physloc               U2C4E.001.DBJU911-P2-C2-T3-L126
+Mirrored              false
+
+SVSA            Physloc                                      Client Partition ID
+--------------- -------------------------------------------- ------------------
+vhost6          U9179.MHD.212EECV-V2-C26                     0x00000000
+
+VTD                   vtscsi6
+Status                Available
+LUN                   0xa800000000000000
+Backing device        hdisk670
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L2D000000000000
+Mirrored              false
+
+VTD                   vtscsi59
+Status                Available
+LUN                   0xa900000000000000
+Backing device        hdisk362
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L34000000000000
+Mirrored              false
+
+VTD                   vtscsi60
+Status                Available
+LUN                   0xaa00000000000000
+Backing device        hdisk363
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L35000000000000
+Mirrored              false
+
+VTD                   vtscsi61
+Status                Available
+LUN                   0xab00000000000000
+Backing device        hdisk364
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L36000000000000
+Mirrored              false
+
+VTD                   vtscsi63
+Status                Available
+LUN                   0xac00000000000000
+Backing device        hdisk365
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L37000000000000
+Mirrored              false
+
+VTD                   vtscsi74
+Status                Available
+LUN                   0xad00000000000000
+Backing device        hdisk366
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L38000000000000
+Mirrored              false
+
+VTD                   vtscsi75
+Status                Available
+LUN                   0xae00000000000000
+Backing device        hdisk367
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L39000000000000
+Mirrored              false
+
+VTD                   vtscsi76
+Status                Available
+LUN                   0xaf00000000000000
+Backing device        hdisk368
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L3A000000000000
+Mirrored              false
+
+VTD                   vtscsi84
+Status                Available
+LUN                   0xb000000000000000
+Backing device        hdisk360
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L32000000000000
+Mirrored              false
+
+VTD                   vtscsi86
+Status                Available
+LUN                   0xb100000000000000
+Backing device        hdisk361
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L33000000000000
+Mirrored              false
+
+VTD                   vtscsi88
+Status                Available
+LUN                   0xb200000000000000
+Backing device        hdisk369
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L3B000000000000
+Mirrored              false
+
+VTD                   vtscsi90
+Status                Available
+LUN                   0xb300000000000000
+Backing device        hdisk370
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L3C000000000000
+Mirrored              false
+
+VTD                   vtscsi92
+Status                Available
+LUN                   0xb400000000000000
+Backing device        hdisk675
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L3D000000000000
+Mirrored              false
+
+VTD                   vtscsi94
+Status                Available
+LUN                   0xb500000000000000
+Backing device        hdisk676
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L3E000000000000
+Mirrored              false
+
+VTD                   vtscsi97
+Status                Available
+LUN                   0xb600000000000000
+Backing device        hdisk677
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L3F000000000000
+Mirrored              false
+
+VTD                   vtscsi99
+Status                Available
+LUN                   0xb700000000000000
+Backing device        hdisk678
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L40000000000000
+Mirrored              false
+
+VTD                   vtscsi129
+Status                Available
+LUN                   0x8100000000000000
+Backing device        hdisk636
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-LB000000000000
+Mirrored              false
+
+VTD                   vtscsi141
+Status                Available
+LUN                   0x8200000000000000
+Backing device        hdisk637
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-LC000000000000
+Mirrored              false
+
+VTD                   vtscsi143
+Status                Available
+LUN                   0x8300000000000000
+Backing device        hdisk638
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-LD000000000000
+Mirrored              false
+
+VTD                   vtscsi145
+Status                Available
+LUN                   0x8400000000000000
+Backing device        hdisk639
+Physloc               U2C4E.001.DBJU911-P2-C5-T2-W500507605E82FB71-LE000000000000
+Mirrored              false
+
+VTD                   vtscsi147
+Status                Available
+LUN                   0x8500000000000000
+Backing device        hdisk640
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-LF000000000000
+Mirrored              false
+
+VTD                   vtscsi149
+Status                Available
+LUN                   0x8600000000000000
+Backing device        hdisk641
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L10000000000000
+Mirrored              false
+
+VTD                   vtscsi151
+Status                Available
+LUN                   0x8700000000000000
+Backing device        hdisk642
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L11000000000000
+Mirrored              false
+
+VTD                   vtscsi153
+Status                Available
+LUN                   0x8800000000000000
+Backing device        hdisk643
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L12000000000000
+Mirrored              false
+
+VTD                   vtscsi155
+Status                Available
+LUN                   0x8900000000000000
+Backing device        hdisk644
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L13000000000000
+Mirrored              false
+
+VTD                   vtscsi157
+Status                Available
+LUN                   0x8a00000000000000
+Backing device        hdisk645
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L14000000000000
+Mirrored              false
+
+VTD                   vtscsi159
+Status                Available
+LUN                   0x8b00000000000000
+Backing device        hdisk646
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L15000000000000
+Mirrored              false
+
+VTD                   vtscsi161
+Status                Available
+LUN                   0x8c00000000000000
+Backing device        hdisk650
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L19000000000000
+Mirrored              false
+
+VTD                   vtscsi163
+Status                Available
+LUN                   0x8d00000000000000
+Backing device        hdisk651
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L1A000000000000
+Mirrored              false
+
+VTD                   vtscsi165
+Status                Available
+LUN                   0x8e00000000000000
+Backing device        hdisk652
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L1B000000000000
+Mirrored              false
+
+VTD                   vtscsi167
+Status                Available
+LUN                   0x8f00000000000000
+Backing device        hdisk653
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L1C000000000000
+Mirrored              false
+
+VTD                   vtscsi169
+Status                Available
+LUN                   0x9000000000000000
+Backing device        hdisk654
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L1D000000000000
+Mirrored              false
+
+VTD                   vtscsi171
+Status                Available
+LUN                   0x9100000000000000
+Backing device        hdisk625
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L0
+Mirrored              false
+
+VTD                   vtscsi173
+Status                Available
+LUN                   0x9200000000000000
+Backing device        hdisk626
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L1000000000000
+Mirrored              false
+
+VTD                   vtscsi175
+Status                Available
+LUN                   0x9300000000000000
+Backing device        hdisk627
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L2000000000000
+Mirrored              false
+
+VTD                   vtscsi177
+Status                Available
+LUN                   0x9400000000000000
+Backing device        hdisk628
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L3000000000000
+Mirrored              false
+
+VTD                   vtscsi179
+Status                Available
+LUN                   0x9500000000000000
+Backing device        hdisk629
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L4000000000000
+Mirrored              false
+
+VTD                   vtscsi181
+Status                Available
+LUN                   0x9600000000000000
+Backing device        hdisk630
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L5000000000000
+Mirrored              false
+
+VTD                   vtscsi183
+Status                Available
+LUN                   0x9700000000000000
+Backing device        hdisk631
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L6000000000000
+Mirrored              false
+
+VTD                   vtscsi185
+Status                Available
+LUN                   0x9800000000000000
+Backing device        hdisk632
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L7000000000000
+Mirrored              false
+
+VTD                   vtscsi187
+Status                Available
+LUN                   0x9900000000000000
+Backing device        hdisk633
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L8000000000000
+Mirrored              false
+
+VTD                   vtscsi189
+Status                Available
+LUN                   0x9a00000000000000
+Backing device        hdisk647
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L16000000000000
+Mirrored              false
+
+VTD                   vtscsi191
+Status                Available
+LUN                   0x9b00000000000000
+Backing device        hdisk634
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L9000000000000
+Mirrored              false
+
+VTD                   vtscsi193
+Status                Available
+LUN                   0x9c00000000000000
+Backing device        hdisk648
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L17000000000000
+Mirrored              false
+
+VTD                   vtscsi195
+Status                Available
+LUN                   0x9d00000000000000
+Backing device        hdisk649
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L18000000000000
+Mirrored              false
+
+VTD                   vtscsi197
+Status                Available
+LUN                   0x9e00000000000000
+Backing device        hdisk657
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L20000000000000
+Mirrored              false
+
+VTD                   vtscsi199
+Status                Available
+LUN                   0x9f00000000000000
+Backing device        hdisk658
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L21000000000000
+Mirrored              false
+
+VTD                   vtscsi201
+Status                Available
+LUN                   0xa000000000000000
+Backing device        hdisk659
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L22000000000000
+Mirrored              false
+
+VTD                   vtscsi203
+Status                Available
+LUN                   0xa100000000000000
+Backing device        hdisk663
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L26000000000000
+Mirrored              false
+
+VTD                   vtscsi205
+Status                Available
+LUN                   0xa200000000000000
+Backing device        hdisk664
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L27000000000000
+Mirrored              false
+
+VTD                   vtscsi207
+Status                Available
+LUN                   0xa300000000000000
+Backing device        hdisk662
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L25000000000000
+Mirrored              false
+
+VTD                   vtscsi209
+Status                Available
+LUN                   0xa400000000000000
+Backing device        hdisk665
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L28000000000000
+Mirrored              false
+
+VTD                   vtscsi211
+Status                Available
+LUN                   0xa500000000000000
+Backing device        hdisk668
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L2B000000000000
+Mirrored              false
+
+VTD                   vtscsi213
+Status                Available
+LUN                   0xa600000000000000
+Backing device        hdisk635
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-LA000000000000
+Mirrored              false
+
+VTD                   vtscsi215
+Status                Available
+LUN                   0xa700000000000000
+Backing device        hdisk655
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L1E000000000000
+Mirrored              false
+
+SVSA            Physloc                                      Client Partition ID
+--------------- -------------------------------------------- ------------------
+vhost7          U9179.MHD.212EECV-V2-C27                     0x00000000
+
+VTD                   vtscsi7
+Status                Available
+LUN                   0xa800000000000000
+Backing device        hdisk671
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L2E000000000000
+Mirrored              false
+
+VTD                   vtscsi130
+Status                Available
+LUN                   0x8100000000000000
+Backing device        hdisk636
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-LB000000000000
+Mirrored              false
+
+VTD                   vtscsi142
+Status                Available
+LUN                   0x8200000000000000
+Backing device        hdisk637
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-LC000000000000
+Mirrored              false
+
+VTD                   vtscsi144
+Status                Available
+LUN                   0x8300000000000000
+Backing device        hdisk638
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-LD000000000000
+Mirrored              false
+
+VTD                   vtscsi146
+Status                Available
+LUN                   0x8400000000000000
+Backing device        hdisk639
+Physloc               U2C4E.001.DBJU911-P2-C5-T2-W500507605E82FB71-LE000000000000
+Mirrored              false
+
+VTD                   vtscsi148
+Status                Available
+LUN                   0x8500000000000000
+Backing device        hdisk640
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-LF000000000000
+Mirrored              false
+
+VTD                   vtscsi150
+Status                Available
+LUN                   0x8600000000000000
+Backing device        hdisk641
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L10000000000000
+Mirrored              false
+
+VTD                   vtscsi152
+Status                Available
+LUN                   0x8700000000000000
+Backing device        hdisk642
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L11000000000000
+Mirrored              false
+
+VTD                   vtscsi154
+Status                Available
+LUN                   0x8800000000000000
+Backing device        hdisk643
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L12000000000000
+Mirrored              false
+
+VTD                   vtscsi156
+Status                Available
+LUN                   0x8900000000000000
+Backing device        hdisk644
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L13000000000000
+Mirrored              false
+
+VTD                   vtscsi158
+Status                Available
+LUN                   0x8a00000000000000
+Backing device        hdisk645
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L14000000000000
+Mirrored              false
+
+VTD                   vtscsi160
+Status                Available
+LUN                   0x8b00000000000000
+Backing device        hdisk646
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L15000000000000
+Mirrored              false
+
+VTD                   vtscsi162
+Status                Available
+LUN                   0x8c00000000000000
+Backing device        hdisk650
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L19000000000000
+Mirrored              false
+
+VTD                   vtscsi164
+Status                Available
+LUN                   0x8d00000000000000
+Backing device        hdisk651
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L1A000000000000
+Mirrored              false
+
+VTD                   vtscsi166
+Status                Available
+LUN                   0x8e00000000000000
+Backing device        hdisk652
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L1B000000000000
+Mirrored              false
+
+VTD                   vtscsi168
+Status                Available
+LUN                   0x8f00000000000000
+Backing device        hdisk653
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L1C000000000000
+Mirrored              false
+
+VTD                   vtscsi170
+Status                Available
+LUN                   0x9000000000000000
+Backing device        hdisk654
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L1D000000000000
+Mirrored              false
+
+VTD                   vtscsi172
+Status                Available
+LUN                   0x9100000000000000
+Backing device        hdisk625
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L0
+Mirrored              false
+
+VTD                   vtscsi174
+Status                Available
+LUN                   0x9200000000000000
+Backing device        hdisk626
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L1000000000000
+Mirrored              false
+
+VTD                   vtscsi176
+Status                Available
+LUN                   0x9300000000000000
+Backing device        hdisk627
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L2000000000000
+Mirrored              false
+
+VTD                   vtscsi178
+Status                Available
+LUN                   0x9400000000000000
+Backing device        hdisk628
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L3000000000000
+Mirrored              false
+
+VTD                   vtscsi180
+Status                Available
+LUN                   0x9500000000000000
+Backing device        hdisk629
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L4000000000000
+Mirrored              false
+
+VTD                   vtscsi182
+Status                Available
+LUN                   0x9600000000000000
+Backing device        hdisk630
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L5000000000000
+Mirrored              false
+
+VTD                   vtscsi184
+Status                Available
+LUN                   0x9700000000000000
+Backing device        hdisk631
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L6000000000000
+Mirrored              false
+
+VTD                   vtscsi186
+Status                Available
+LUN                   0x9800000000000000
+Backing device        hdisk632
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L7000000000000
+Mirrored              false
+
+VTD                   vtscsi188
+Status                Available
+LUN                   0x9900000000000000
+Backing device        hdisk633
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L8000000000000
+Mirrored              false
+
+VTD                   vtscsi190
+Status                Available
+LUN                   0x9a00000000000000
+Backing device        hdisk647
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L16000000000000
+Mirrored              false
+
+VTD                   vtscsi192
+Status                Available
+LUN                   0x9b00000000000000
+Backing device        hdisk634
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L9000000000000
+Mirrored              false
+
+VTD                   vtscsi194
+Status                Available
+LUN                   0x9c00000000000000
+Backing device        hdisk648
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L17000000000000
+Mirrored              false
+
+VTD                   vtscsi196
+Status                Available
+LUN                   0x9d00000000000000
+Backing device        hdisk649
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L18000000000000
+Mirrored              false
+
+VTD                   vtscsi198
+Status                Available
+LUN                   0x9e00000000000000
+Backing device        hdisk657
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L20000000000000
+Mirrored              false
+
+VTD                   vtscsi200
+Status                Available
+LUN                   0x9f00000000000000
+Backing device        hdisk658
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L21000000000000
+Mirrored              false
+
+VTD                   vtscsi202
+Status                Available
+LUN                   0xa000000000000000
+Backing device        hdisk659
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L22000000000000
+Mirrored              false
+
+VTD                   vtscsi204
+Status                Available
+LUN                   0xa100000000000000
+Backing device        hdisk663
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L26000000000000
+Mirrored              false
+
+VTD                   vtscsi206
+Status                Available
+LUN                   0xa200000000000000
+Backing device        hdisk664
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L27000000000000
+Mirrored              false
+
+VTD                   vtscsi208
+Status                Available
+LUN                   0xa300000000000000
+Backing device        hdisk662
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L25000000000000
+Mirrored              false
+
+VTD                   vtscsi210
+Status                Available
+LUN                   0xa400000000000000
+Backing device        hdisk665
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L28000000000000
+Mirrored              false
+
+VTD                   vtscsi212
+Status                Available
+LUN                   0xa500000000000000
+Backing device        hdisk668
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L2B000000000000
+Mirrored              false
+
+VTD                   vtscsi214
+Status                Available
+LUN                   0xa600000000000000
+Backing device        hdisk635
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-LA000000000000
+Mirrored              false
+
+VTD                   vtscsi216
+Status                Available
+LUN                   0xa700000000000000
+Backing device        hdisk655
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L1E000000000000
+Mirrored              false
+
+SVSA            Physloc                                      Client Partition ID
+--------------- -------------------------------------------- ------------------
+vhost23         U9179.MHD.212EECV-V2-C2                      0x00000005
+
+VTD                   vtscsi68
+Status                Available
+LUN                   0x8100000000000000
+Backing device        hdiskpower40
+Physloc               U2C4E.001.DBJU911-P2-C2-T3-L83
+Mirrored              false
+
+VTD                   vtscsi69
+Status                Available
+LUN                   0x8200000000000000
+Backing device        hdiskpower41
+Physloc               U2C4E.001.DBJU911-P2-C2-T3-L115
+Mirrored              false
+
+VTD                   vtscsi70
+Status                Available
+LUN                   0x8300000000000000
+Backing device        hdiskpower42
+Physloc               U2C4E.001.DBJU911-P2-C2-T3-L116
+Mirrored              false
+
+VTD                   vtscsi71
+Status                Available
+LUN                   0x8400000000000000
+Backing device        hdiskpower43
+Physloc               U2C4E.001.DBJU911-P2-C2-T3-L117
+Mirrored              false
+
+VTD                   vtscsi72
+Status                Available
+LUN                   0x8500000000000000
+Backing device        hdiskpower44
+Physloc               U2C4E.001.DBJU911-P2-C2-T3-L118
+Mirrored              false
+
+VTD                   vtscsi73
+Status                Available
+LUN                   0x8600000000000000
+Backing device        hdiskpower45
+Physloc               U2C4E.001.DBJU911-P2-C2-T3-L119
+Mirrored              false
+
+VTD                   vtscsi77
+Status                Available
+LUN                   0x8700000000000000
+Backing device        hdiskpower46
+Physloc               U2C4E.001.DBJU911-P2-C2-T3-L120
+Mirrored              false
+
+VTD                   vtscsi78
+Status                Available
+LUN                   0x8800000000000000
+Backing device        hdiskpower47
+Physloc               U2C4E.001.DBJU911-P2-C2-T3-L121
+Mirrored              false
+
+VTD                   vtscsi79
+Status                Available
+LUN                   0x8900000000000000
+Backing device        hdiskpower48
+Physloc               U2C4E.001.DBJU911-P2-C2-T3-L122
+Mirrored              false
+
+VTD                   vtscsi80
+Status                Available
+LUN                   0x8a00000000000000
+Backing device        hdiskpower49
+Physloc               U2C4E.001.DBJU911-P2-C2-T3-L123
+Mirrored              false
+
+VTD                   vtscsi81
+Status                Available
+LUN                   0x8b00000000000000
+Backing device        hdiskpower50
+Physloc               U2C4E.001.DBJU911-P2-C2-T3-L124
+Mirrored              false
+
+VTD                   vtscsi82
+Status                Available
+LUN                   0x8c00000000000000
+Backing device        hdisk4
+Physloc               U2C4E.001.DBJU911-P2-C2-T1-W500507605E82FB42-L42000000000000
+Mirrored              false
+
+VTD                   vtscsi83
+Status                Available
+LUN                   0x8d00000000000000
+Backing device        hdisk5
+Physloc               U2C4E.001.DBJU911-P2-C2-T1-W500507605E82FB42-L43000000000000
+Mirrored              false
+
+VTD                   vtscsi85
+Status                Available
+LUN                   0x8e00000000000000
+Backing device        hdisk6
+Physloc               U2C4E.001.DBJU911-P2-C2-T1-W500507605E82FB42-L44000000000000
+Mirrored              false
+
+VTD                   vtscsi87
+Status                Available
+LUN                   0x8f00000000000000
+Backing device        hdisk7
+Physloc               U2C4E.001.DBJU911-P2-C2-T1-W500507605E82FB42-L45000000000000
+Mirrored              false
+
+VTD                   vtscsi89
+Status                Available
+LUN                   0x9000000000000000
+Backing device        hdisk8
+Physloc               U2C4E.001.DBJU911-P2-C2-T1-W500507605E82FB42-L46000000000000
+Mirrored              false
+
+VTD                   vtscsi91
+Status                Available
+LUN                   0x9100000000000000
+Backing device        hdisk9
+Physloc               U2C4E.001.DBJU911-P2-C2-T1-W500507605E82FB42-L47000000000000
+Mirrored              false
+
+VTD                   vtscsi93
+Status                Available
+LUN                   0x9200000000000000
+Backing device        hdisk10
+Physloc               U2C4E.001.DBJU911-P2-C2-T1-W500507605E82FB42-L48000000000000
+Mirrored              false
+
+VTD                   vtscsi96
+Status                Available
+LUN                   0x9300000000000000
+Backing device        hdisk11
+Physloc               U2C4E.001.DBJU911-P2-C2-T1-W500507605E82FB42-L49000000000000
+Mirrored              false
+
+VTD                   vtscsi107
+Status                Available
+LUN                   0x9400000000000000
+Backing device        hdisk12
+Physloc               U2C4E.001.DBJU911-P2-C2-T1-W500507605E82FB42-L4A000000000000
+Mirrored              false
+
+SVSA            Physloc                                      Client Partition ID
+--------------- -------------------------------------------- ------------------
+vhost24         U9179.MHD.212EECV-V2-C3                      0x00000005
+
+VTD                   vtscsi8
+Status                Available
+LUN                   0xa800000000000000
+Backing device        hdisk671
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L2E000000000000
+Mirrored              false
+
+VTD                   vtscsi9
+Status                Available
+LUN                   0x8100000000000000
+Backing device        hdisk636
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-LB000000000000
+Mirrored              false
+
+VTD                   vtscsi10
+Status                Available
+LUN                   0x8200000000000000
+Backing device        hdisk637
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-LC000000000000
+Mirrored              false
+
+VTD                   vtscsi11
+Status                Available
+LUN                   0x8300000000000000
+Backing device        hdisk638
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-LD000000000000
+Mirrored              false
+
+VTD                   vtscsi12
+Status                Available
+LUN                   0x8400000000000000
+Backing device        hdisk639
+Physloc               U2C4E.001.DBJU911-P2-C5-T2-W500507605E82FB71-LE000000000000
+Mirrored              false
+
+VTD                   vtscsi13
+Status                Available
+LUN                   0x8500000000000000
+Backing device        hdisk640
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-LF000000000000
+Mirrored              false
+
+VTD                   vtscsi14
+Status                Available
+LUN                   0x8600000000000000
+Backing device        hdisk641
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L10000000000000
+Mirrored              false
+
+VTD                   vtscsi15
+Status                Available
+LUN                   0x8700000000000000
+Backing device        hdisk642
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L11000000000000
+Mirrored              false
+
+VTD                   vtscsi16
+Status                Available
+LUN                   0x8800000000000000
+Backing device        hdisk643
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L12000000000000
+Mirrored              false
+
+VTD                   vtscsi17
+Status                Available
+LUN                   0x8900000000000000
+Backing device        hdisk644
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L13000000000000
+Mirrored              false
+
+VTD                   vtscsi18
+Status                Available
+LUN                   0x8a00000000000000
+Backing device        hdisk645
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L14000000000000
+Mirrored              false
+
+VTD                   vtscsi19
+Status                Available
+LUN                   0x8b00000000000000
+Backing device        hdisk646
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L15000000000000
+Mirrored              false
+
+VTD                   vtscsi20
+Status                Available
+LUN                   0x8c00000000000000
+Backing device        hdisk650
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L19000000000000
+Mirrored              false
+
+VTD                   vtscsi21
+Status                Available
+LUN                   0x8d00000000000000
+Backing device        hdisk651
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L1A000000000000
+Mirrored              false
+
+VTD                   vtscsi22
+Status                Available
+LUN                   0x8e00000000000000
+Backing device        hdisk652
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L1B000000000000
+Mirrored              false
+
+VTD                   vtscsi23
+Status                Available
+LUN                   0x8f00000000000000
+Backing device        hdisk653
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L1C000000000000
+Mirrored              false
+
+VTD                   vtscsi24
+Status                Available
+LUN                   0x9000000000000000
+Backing device        hdisk654
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L1D000000000000
+Mirrored              false
+
+VTD                   vtscsi25
+Status                Available
+LUN                   0x9100000000000000
+Backing device        hdisk625
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L0
+Mirrored              false
+
+VTD                   vtscsi26
+Status                Available
+LUN                   0x9200000000000000
+Backing device        hdisk626
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L1000000000000
+Mirrored              false
+
+VTD                   vtscsi27
+Status                Available
+LUN                   0x9300000000000000
+Backing device        hdisk627
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L2000000000000
+Mirrored              false
+
+VTD                   vtscsi28
+Status                Available
+LUN                   0x9400000000000000
+Backing device        hdisk628
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L3000000000000
+Mirrored              false
+
+VTD                   vtscsi29
+Status                Available
+LUN                   0x9500000000000000
+Backing device        hdisk629
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L4000000000000
+Mirrored              false
+
+VTD                   vtscsi30
+Status                Available
+LUN                   0x9600000000000000
+Backing device        hdisk630
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L5000000000000
+Mirrored              false
+
+VTD                   vtscsi31
+Status                Available
+LUN                   0x9700000000000000
+Backing device        hdisk631
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L6000000000000
+Mirrored              false
+
+VTD                   vtscsi32
+Status                Available
+LUN                   0x9800000000000000
+Backing device        hdisk632
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L7000000000000
+Mirrored              false
+
+VTD                   vtscsi33
+Status                Available
+LUN                   0x9900000000000000
+Backing device        hdisk633
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L8000000000000
+Mirrored              false
+
+VTD                   vtscsi34
+Status                Available
+LUN                   0x9a00000000000000
+Backing device        hdisk647
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L16000000000000
+Mirrored              false
+
+VTD                   vtscsi35
+Status                Available
+LUN                   0x9b00000000000000
+Backing device        hdisk634
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L9000000000000
+Mirrored              false
+
+VTD                   vtscsi36
+Status                Available
+LUN                   0x9c00000000000000
+Backing device        hdisk648
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L17000000000000
+Mirrored              false
+
+VTD                   vtscsi37
+Status                Available
+LUN                   0x9d00000000000000
+Backing device        hdisk649
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L18000000000000
+Mirrored              false
+
+VTD                   vtscsi38
+Status                Available
+LUN                   0x9e00000000000000
+Backing device        hdisk657
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L20000000000000
+Mirrored              false
+
+VTD                   vtscsi39
+Status                Available
+LUN                   0x9f00000000000000
+Backing device        hdisk658
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L21000000000000
+Mirrored              false
+
+VTD                   vtscsi40
+Status                Available
+LUN                   0xa000000000000000
+Backing device        hdisk659
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L22000000000000
+Mirrored              false
+
+VTD                   vtscsi41
+Status                Available
+LUN                   0xa100000000000000
+Backing device        hdisk663
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L26000000000000
+Mirrored              false
+
+VTD                   vtscsi42
+Status                Available
+LUN                   0xa200000000000000
+Backing device        hdisk664
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L27000000000000
+Mirrored              false
+
+VTD                   vtscsi43
+Status                Available
+LUN                   0xa300000000000000
+Backing device        hdisk662
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L25000000000000
+Mirrored              false
+
+VTD                   vtscsi44
+Status                Available
+LUN                   0xa400000000000000
+Backing device        hdisk665
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L28000000000000
+Mirrored              false
+
+VTD                   vtscsi45
+Status                Available
+LUN                   0xa500000000000000
+Backing device        hdisk668
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L2B000000000000
+Mirrored              false
+
+VTD                   vtscsi46
+Status                Available
+LUN                   0xa600000000000000
+Backing device        hdisk635
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-LA000000000000
+Mirrored              false
+
+VTD                   vtscsi47
+Status                Available
+LUN                   0xa700000000000000
+Backing device        hdisk655
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L1E000000000000
+Mirrored              false
+
+VTD                   vtscsi48
+Status                Available
+LUN                   0xa900000000000000
+Backing device        hdisk362
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L34000000000000
+Mirrored              false
+
+VTD                   vtscsi49
+Status                Available
+LUN                   0xaa00000000000000
+Backing device        hdisk363
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L35000000000000
+Mirrored              false
+
+VTD                   vtscsi50
+Status                Available
+LUN                   0xab00000000000000
+Backing device        hdisk364
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L36000000000000
+Mirrored              false
+
+VTD                   vtscsi51
+Status                Available
+LUN                   0xac00000000000000
+Backing device        hdisk365
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L37000000000000
+Mirrored              false
+
+VTD                   vtscsi52
+Status                Available
+LUN                   0xad00000000000000
+Backing device        hdisk366
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L38000000000000
+Mirrored              false
+
+VTD                   vtscsi53
+Status                Available
+LUN                   0xae00000000000000
+Backing device        hdisk367
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L39000000000000
+Mirrored              false
+
+VTD                   vtscsi54
+Status                Available
+LUN                   0xaf00000000000000
+Backing device        hdisk368
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L3A000000000000
+Mirrored              false
+
+VTD                   vtscsi55
+Status                Available
+LUN                   0xb000000000000000
+Backing device        hdisk360
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L32000000000000
+Mirrored              false
+
+VTD                   vtscsi56
+Status                Available
+LUN                   0xb100000000000000
+Backing device        hdisk361
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L33000000000000
+Mirrored              false
+
+VTD                   vtscsi57
+Status                Available
+LUN                   0xb200000000000000
+Backing device        hdisk369
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L3B000000000000
+Mirrored              false
+
+VTD                   vtscsi58
+Status                Available
+LUN                   0xb300000000000000
+Backing device        hdisk370
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L3C000000000000
+Mirrored              false
+
+VTD                   vtscsi62
+Status                Available
+LUN                   0xb400000000000000
+Backing device        hdisk675
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L3D000000000000
+Mirrored              false
+
+VTD                   vtscsi64
+Status                Available
+LUN                   0xb500000000000000
+Backing device        hdisk676
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L3E000000000000
+Mirrored              false
+
+VTD                   vtscsi65
+Status                Available
+LUN                   0xb600000000000000
+Backing device        hdisk677
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L3F000000000000
+Mirrored              false
+
+VTD                   vtscsi66
+Status                Available
+LUN                   0xb700000000000000
+Backing device        hdisk678
+Physloc               U2C4E.001.DBJU911-P2-C2-T2-W500507605E82FB41-L40000000000000
+Mirrored              false
+
+VTD                   vtscsi67
+Status                Available
+LUN                   0xb800000000000000
+Backing device        hdisk3
+Physloc               U2C4E.001.DBJU911-P2-C2-T1-W500507605E82FB42-L41000000000000
+Mirrored              false
+
+VTD                   vtscsi98
+Status                Available
+LUN                   0xb900000000000000
+Backing device        hdisk5
+Physloc               U2C4E.001.DBJU911-P2-C2-T1-W500507605E82FB42-L43000000000000
+Mirrored              false
+
+VTD                   vtscsi100
+Status                Available
+LUN                   0xba00000000000000
+Backing device        hdisk6
+Physloc               U2C4E.001.DBJU911-P2-C2-T1-W500507605E82FB42-L44000000000000
+Mirrored              false
+
+VTD                   vtscsi101
+Status                Available
+LUN                   0xbb00000000000000
+Backing device        hdisk7
+Physloc               U2C4E.001.DBJU911-P2-C2-T1-W500507605E82FB42-L45000000000000
+Mirrored              false
+
+VTD                   vtscsi102
+Status                Available
+LUN                   0xbc00000000000000
+Backing device        hdisk8
+Physloc               U2C4E.001.DBJU911-P2-C2-T1-W500507605E82FB42-L46000000000000
+Mirrored              false
+
+VTD                   vtscsi103
+Status                Available
+LUN                   0xbd00000000000000
+Backing device        hdisk9
+Physloc               U2C4E.001.DBJU911-P2-C2-T1-W500507605E82FB42-L47000000000000
+Mirrored              false
+
+VTD                   vtscsi104
+Status                Available
+LUN                   0xbe00000000000000
+Backing device        hdisk10
+Physloc               U2C4E.001.DBJU911-P2-C2-T1-W500507605E82FB42-L48000000000000
+Mirrored              false
+
+VTD                   vtscsi105
+Status                Available
+LUN                   0xbf00000000000000
+Backing device        hdisk11
+Physloc               U2C4E.001.DBJU911-P2-C2-T1-W500507605E82FB42-L49000000000000
+Mirrored              false
+
+VTD                   vtscsi106
+Status                Available
+LUN                   0x8120000000000000
+Backing device        hdisk12
+Physloc               U2C4E.001.DBJU911-P2-C2-T1-W500507605E82FB42-L4A000000000000
+Mirrored              false
+
+
+Virtual lv device mappings
+SVSA            Physloc                                      Client Partition ID
+--------------- -------------------------------------------- ------------------
+vhost5          U9179.MHD.212EECV-V2-C25                     0x00000000
+
+VTD                   vtscsi0
+Status                Available
+LUN                   0x8100000000000000
+Backing device        vhdisk0
+Physloc               
+Mirrored              N/A
+
+VTD                   vtscsi1
+Status                Available
+LUN                   0x8200000000000000
+Backing device        vhdisk1
+Physloc               
+Mirrored              N/A
+
+VTD                   vtscsi2
+Status                Available
+LUN                   0x8300000000000000
+Backing device        vhdisk2
+Physloc               
+Mirrored              N/A
+
+VTD                   vtscsi3
+Status                Available
+LUN                   0x8400000000000000
+Backing device        vhdisk3
+Physloc               
+Mirrored              N/A
+
+VTD                   vtscsi4
+Status                Available
+LUN                   0x8500000000000000
+Backing device        vhdisk4
+Physloc               
+Mirrored              N/A
+
+VTD                   vtscsi5
+Status                Available
+LUN                   0x8600000000000000
+Backing device        vhdisk5
+Physloc               
+Mirrored              N/A
+
+
+Virtual net device mappings
+SVEA   Physloc
+------ --------------------------------------------
+ent8   U9179.MHD.212EECV-V2-C4-T1
+
+SEA                   ent17
+Backing device        ent16
+Status                Available
+Physloc               
+
+SVEA   Physloc
+------ --------------------------------------------
+ent9   U9179.MHD.212EECV-V2-C5-T1
+
+SEA                   ent17
+Backing device        ent16
+Status                Available
+Physloc               
+
+SVEA   Physloc
+------ --------------------------------------------
+ent10  U9179.MHD.212EECV-V2-C6-T1
+
+SEA                   ent17
+Backing device        ent16
+Status                Available
+Physloc               
+
+SVEA   Physloc
+------ --------------------------------------------
+ent11  U9179.MHD.212EECV-V2-C7-T1
+
+SEA                   ent17
+Backing device        ent16
+Status                Available
+Physloc               
+
+SVEA   Physloc
+------ --------------------------------------------
+ent12  U9179.MHD.212EECV-V2-C8-T1
+
+SEA                 NO SHARED ETHERNET ADAPTER FOUND
+
+SVEA   Physloc
+------ --------------------------------------------
+ent13  U9179.MHD.212EECV-V2-C9-T1
+
+SEA                 NO SHARED ETHERNET ADAPTER FOUND
+
+SVEA   Physloc
+------ --------------------------------------------
+ent14  U9179.MHD.212EECV-V2-C10-T1
+
+SEA                 NO SHARED ETHERNET ADAPTER FOUND
+
+SVEA   Physloc
+------ --------------------------------------------
+ent15  U9179.MHD.212EECV-V2-C12-T1
+
+SEA                 NO SHARED ETHERNET ADAPTER FOUND
+
+
+==== EXITED with rc 0 ====
+==== END vio_virt_phys_map Tue Jul  7 13:22:11 CDT 2015 ====

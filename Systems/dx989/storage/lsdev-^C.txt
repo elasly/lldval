@@ -1,0 +1,91 @@
+==== This output can be found in Systems/dx989/os/lsdev-^C.txt ====
+==== START lsdev -C Thu Aug  6 11:22:33 GST 2015 ====
+L2cache0       Available             L2 Cache
+caalv_private1 Defined               Logical volume
+caalv_private2 Defined               Logical volume
+caalv_private3 Defined               Logical volume
+caavg_private  Defined               Volume group
+cluster0       Available             Cluster Node
+en0            Available             Standard Ethernet Network Interface
+en1            Available             Standard Ethernet Network Interface
+en2            Available             Standard Ethernet Network Interface
+en3            Defined               Standard Ethernet Network Interface
+ent0           Available             Virtual I/O Ethernet Adapter (l-lan)
+ent1           Available             Virtual I/O Ethernet Adapter (l-lan)
+ent2           Available             Virtual I/O Ethernet Adapter (l-lan)
+ent3           Available             Virtual I/O Ethernet Adapter (l-lan)
+et0            Defined               IEEE 802.3 Ethernet Network Interface
+et1            Defined               IEEE 802.3 Ethernet Network Interface
+et2            Defined               IEEE 802.3 Ethernet Network Interface
+et3            Defined               IEEE 802.3 Ethernet Network Interface
+fcs0           Available 31-T1       Virtual Fibre Channel Client Adapter
+fcs1           Available 32-T1       Virtual Fibre Channel Client Adapter
+fcs2           Available 33-T1       Virtual Fibre Channel Client Adapter
+fcs3           Available 34-T1       Virtual Fibre Channel Client Adapter
+fcs4           Available 35-T1       Virtual Fibre Channel Client Adapter
+fcs5           Available 36-T1       Virtual Fibre Channel Client Adapter
+fcs6           Available 37-T1       Virtual Fibre Channel Client Adapter
+fcs7           Available 38-T1       Virtual Fibre Channel Client Adapter
+fscsi0         Available 31-T1-01    FC SCSI I/O Controller Protocol Device
+fscsi1         Available 32-T1-01    FC SCSI I/O Controller Protocol Device
+fscsi2         Available 33-T1-01    FC SCSI I/O Controller Protocol Device
+fscsi3         Available 34-T1-01    FC SCSI I/O Controller Protocol Device
+fscsi4         Available 35-T1-01    FC SCSI I/O Controller Protocol Device
+fscsi5         Available 36-T1-01    FC SCSI I/O Controller Protocol Device
+fscsi6         Available 37-T1-01    FC SCSI I/O Controller Protocol Device
+fscsi7         Available 38-T1-01    FC SCSI I/O Controller Protocol Device
+hd1            Defined               Logical volume
+hd2            Defined               Logical volume
+hd3            Defined               Logical volume
+hd4            Defined               Logical volume
+hd5            Defined               Logical volume
+hd6            Defined               Logical volume
+hd8            Defined               Logical volume
+hd10opt        Defined               Logical volume
+hd11admin      Defined               Logical volume
+hd9var         Defined               Logical volume
+hdisk0         Available 34-T1-01    Hitachi MPIO Disk VSP G1000 (Fibre)
+hdisk1         Available 38-T1-01    Hitachi MPIO Disk VSP G1000 (Fibre)
+inet0          Available             Internet Network Extension
+iocp0          Defined               I/O Completion Ports
+iscsi0         Available             iSCSI Protocol Device
+lg_dumplv      Defined               Logical volume
+livedump       Defined               Logical volume
+lo0            Available             Loopback Network Interface
+lvdd           Available             LVM Device Driver
+mem0           Available             Memory
+nsmb0          Available             N/A
+perfdatalv     Defined               Logical volume
+pkcs11         Available             ACF/PKCS#11 Device
+powerha_crlv   Defined               Logical volume
+proc0          Available 00-00       Processor
+proc4          Available 00-04       Processor
+proc8          Available 00-08       Processor
+proc12         Available 00-12       Processor
+proc16         Available 00-16       Processor
+proc20         Available 00-20       Processor
+pty0           Available             Asynchronous Pseudo-Terminal
+rcm0           Defined               Rendering Context Manager Subsystem
+rootvg         Defined               Volume group
+sfw0           Available             Storage Framework Module
+sfwcomm0       Available 33-T1-01-FF Fibre Channel Storage Framework Comm
+sfwcomm1       Available 34-T1-01-FF Fibre Channel Storage Framework Comm
+sfwcomm2       Available 37-T1-01-FF Fibre Channel Storage Framework Comm
+sfwcomm3       Available 38-T1-01-FF Fibre Channel Storage Framework Comm
+sys0           Available             System Object
+sysplanar0     Available             System Planar
+vio0           Available             Virtual I/O Bus
+vsa0           Available             LPAR Virtual Serial Adapter
+vscsi0         Available             Virtual SCSI Client Adapter
+vscsi1         Available             Virtual SCSI Client Adapter
+vscsi2         Available             Virtual SCSI Client Adapter
+vscsi3         Available             Virtual SCSI Client Adapter
+vscsi4         Available             Virtual SCSI Client Adapter
+vscsi5         Available             Virtual SCSI Client Adapter
+vscsi6         Available             Virtual SCSI Client Adapter
+vscsi7         Available             Virtual SCSI Client Adapter
+vscsi8         Available             Virtual SCSI Client Adapter
+vscsi9         Available             Virtual SCSI Client Adapter
+vty0           Available             Asynchronous Terminal
+==== EXITED with rc 0 ====
+==== END lsdev -C Thu Aug  6 11:22:33 GST 2015 ====

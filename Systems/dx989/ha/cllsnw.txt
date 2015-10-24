@@ -1,0 +1,15 @@
+==== This output can be found in Systems/dx989/ha/cllsnw.txt ====
+==== START cllsnw Thu Aug  6 11:28:18 GST 2015 ====
+Network         Attribute  Alias      Monitor method  Node       Adapter(s)
+
+net_ether_01    public     Enable     Default monitoring DX988      DX988 DX988-VIP 
+                                      DX989      DX989 DX988-VIP 
+                                     
+net_ether_02    public     Enable     Default monitoring DX988      DX988_b 
+                                      DX989      DX989_b 
+                                     
+net_ether_03    public     Enable     Default monitoring DX988      DX988_sc0 
+                                      DX989      DX989_sc0 
+                                     
+==== EXITED with rc 0 ====
+==== END cllsnw Thu Aug  6 11:28:18 GST 2015 ====

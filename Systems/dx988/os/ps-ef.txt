@@ -1,0 +1,78 @@
+==== This output can be found in Systems/dx988/os/ps-ef.txt ====
+==== START ps -ef Thu Aug  6 11:13:35 GST 2015 ====
+     UID     PID    PPID   C    STIME    TTY  TIME CMD
+    root       1       0   0 10:53:50      -  0:00 /etc/init
+    root 1835164       1   0 10:58:03      -  0:00 /usr/lib/errdemon
+    root 1900686       1   0 10:58:03      -  0:00 /usr/sbin/syncd 60
+    root 2031778       1   0 10:53:53      -  0:00 /usr/ccs/bin/shlap64
+    root 2425052 1769940   0 10:58:11      -  0:00 /usr/sbin/aixmibd
+    root 2621472 1769940   0 10:59:44      -  0:00 /usr/sbin/rsct/bin/hagsd cthags
+    root 2687014 1769940   0 10:58:13      -  0:00 /usr/sbin/qdaemon
+    root 2752708       1   0 10:58:12      -  0:00 /opt/ibm/icc/cimom/bin/dirsnmpd
+    root 2818280 1769940   0 10:58:11      -  0:00 /usr/sbin/snmpmibd
+    root 2883616 1769940   0 10:58:12      -  0:00 /opt/freeware/cimom/pegasus/bin/cimssys cimsys
+    root 2949128 1769940   0 10:58:14      -  0:00 /bin/ksh /pconsole/lwi/bin/lwistart_src.sh
+    root 3014882 1769940   0 10:58:12      -  0:00 /usr/sbin/snmpd
+    root 3080406       1   0 10:58:13      -  0:00 /usr/sbin/uprintfd
+    root 3145932 1769940   0 10:58:12      -  0:00 /usr/sbin/biod 6
+  daemon 3211296 1769940   0 10:58:13      -  0:00 /usr/sbin/rpc.statd -d 0 -t 50
+    root 3342560 1769940   0 10:58:12      -  0:00 /opt/freeware/cimom/pegasus/bin/cimssys platform_agent
+    root 3407896       1   0 11:00:41   vty0  0:00 -ksh
+    root 3473656       1   0 10:58:12      -  0:00 ./slp_srvreg -D
+    root 3670052       1   0 10:58:22      -  0:00 /opt/freeware/cimom/pegasus/bin/cimprovagt 0 16 21 root AIX_DynMetricsModule
+    root 3801104 1769940   0 10:58:13      -  0:00 /usr/sbin/writesrv
+    root 3866660 1704214   0 10:58:19      -  0:07 /var/opt/tivoli/ep/_jvm/jre/bin/java -Xmx384m -Xminf0.01 -Xmaxf0.4 -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Xbootclasspath/a:/var/opt/tivoli/ep/runtime/core/eclipse/plugins/com.ibm.rcp.base_6.2.3.20110824-0615/rcpbootcp.jar:/var/opt/tivoli/ep/lib/com.ibm.logging.icl_1.1.1.jar:/var/opt/tivoli/ep/lib/jaas2zos.jar:/var/opt/tivoli/ep/lib/jaasmodule.jar:/var/opt/tivoli/ep/lib/lwidiag.jar:/var/opt/tivoli/ep/lib/lwinative.jar:/var/opt/tivoli/ep/lib/lwinl.jar:/var/opt/tivoli/ep/lib/lwirolemap.jar:/var/opt/tivoli/ep/lib/lwisecurity.jar:/var/opt/tivoli/ep/lib/lwitools.jar:/var/opt/tivoli/ep/lib/passutils.jar:../../runtime/agent/lib/cas-bootcp.jar -Xverify:none -cp eclipse/launch.jar:eclipse/startup.jar:/var/opt/tivoli/ep/runtime/core/eclipse/plugins/com.ibm.rcp.base_6.2.3.20110824-0615/launcher.jar com.ibm.lwi.LaunchLWI
+    root 3997734 1769940   0 10:58:14      -  0:00 /usr/sbin/rsct/bin/IBM.ConfigRMd
+    root 4128830       1   0 10:58:30      -  0:00 /opt/freeware/cimom/pegasus/bin/cimprovagt 0 49 52 root Director|Agent|AgentProvider
+    root 4194406 1769940   0 10:58:26      -  0:00 /usr/es/sbin/cluster/clstrmgr
+    root 4259886 1769940   0 10:58:14      -  0:00 /usr/sbin/rsct/bin/IBM.ServiceRMd
+    root 4325560       1   0 10:58:22      -  0:00 /opt/freeware/cimom/pegasus/bin/cimprovagt 0 27 30 root AIX_StorageVirtualizerModule
+    root 4522100 4587528   8 11:13:18   vty0  0:00 /bin/sh /perfdata/Eti/pcat/pcat/./pcat-os.sh aa
+    root 4587528 2556496   0 11:13:16   vty0  0:00 /bin/sh /perfdata/Eti/pcat/pcat/./pcat-os.sh aa
+    root 4653222 4587528   0 11:13:18   vty0  0:00 tee Systems/dx988/pcat-os_sh-out.txt
+    root 6881512 1769940   0 11:02:11      -  0:00 /usr/sbin/gsclvmd
+    root 7209024 4522100   0 11:13:35   vty0  0:00 /bin/sh /perfdata/Eti/pcat/pcat/./pcat-os.sh aa
+    root 1180110 1769940   0 10:58:11      -  0:00 /usr/sbin/portmap
+    root 1507808       1   0 10:58:12      -  0:00 /opt/ibm/director/cimom/bin/tier1slp
+    root 1573174       1   0 10:58:14      -  0:00 /usr/bin/topasrec  -L -s 300 -R 1 -r 6 -o /var/perf/daily/ -ypersistent=1 -O type=bin -ystart_time=10:58:14,Aug06,2015
+    root 1638870 1769940   0 10:58:12      -  0:00 /usr/sbin/hrd
+    root 1704214 2490630   0 10:58:15      -  0:00 bin/nonstop_aix @/var/opt/tivoli/ep/runtime/nonstop/config/nonstop.properties
+    root 1769940       1   0 10:58:06      -  0:00 /usr/sbin/srcmstr
+    root 1835490 1769940   0 10:58:11      -  0:00 /usr/sbin/inetd
+    root 1901016 1769940   0 10:58:11      -  0:00 /usr/sbin/syslogd -R
+    root 2032096 1769940   0 10:58:12      -  0:00 /usr/sbin/aso
+    root 2097420 1769940   0 10:58:13      -  0:00 /usr/sbin/rpc.lockd -d 0
+pconsole 2163074 2556172   0 10:58:14      -  0:04 /usr/java6/bin/java -Xmx512m -Xms20m -Xscmx10m -Xshareclasses -Xbootclasspath/p:/usr/java5/jre/lib/ibmjsseprovider2.jar -Dfile.encoding=UTF-8 -Xbootclasspath/a:/pconsole/lwi/runtime/core/eclipse/plugins/com.ibm.rcp.base_6.2.1.20091117-1800/rcpbootcp.jar:/pconsole/lwi/lib/ISCJaasModule.jar:/pconsole/lwi/lib/com.ibm.logging.icl_1.1.1.jar:/pconsole/lwi/lib/jaas2zos.jar:/pconsole/lwi/lib/jaasmodule.jar:/pconsole/lwi/lib/lwinative.jar:/pconsole/lwi/lib/lwinl.jar:/pconsole/lwi/lib/lwirolemap.jar:/pconsole/lwi/lib/lwisecurity.jar:/pconsole/lwi/lib/lwitools.jar:/pconsole/lwi/lib/passutils.jar -Xverify:none -cp eclipse/launch.jar:eclipse/startup.jar:/pconsole/lwi/runtime/core/eclipse/plugins/com.ibm.rcp.base_6.2.1.20091117-1800/launcher.jar com.ibm.lwi.LaunchLWI
+    root 2228522 1769940   0 10:58:14      -  0:00 /usr/sbin/clcomd -d
+    root 2294022       1   0 10:58:13      -  0:00 /opt/freeware/cimom/pegasus/bin/CIM_diagd
+    root 2425098       1   0 10:58:14      -  0:00 /usr/dt/bin/dtlogin -daemon
+    root 2490630 1769940   0 10:58:14      -  0:00 /bin/ksh /var/opt/tivoli/ep/runtime/nonstop/bin/cas_src.sh
+pconsole 2556172 2949128   0 10:58:14      -  0:00 /bin/ksh /pconsole/lwi/bin/lwistart_src.sh
+    root 2621732       1   0 10:58:22      -  0:00 /opt/freeware/cimom/pegasus/bin/cimprovagt 0 21 24 root AIX_RegisteredProfileProviderModule
+    root 2687278       1   0 10:58:23      -  0:00 /opt/freeware/cimom/pegasus/bin/cimprovagt 0 46 49 root AIX_ReferencedProfileProviderModule
+    root 2818342 1769940   0 10:58:14      -  0:00 /usr/sbin/rsct/bin/IBM.DRMd
+    root 2883900       1   0 10:58:22      -  0:00 /opt/freeware/cimom/pegasus/bin/cimprovagt 0 36 41 root AIX_PGSubProfileRequiresProfileProviderModule
+    root 3014982       1   0 10:58:21      -  0:00 /opt/freeware/cimom/pegasus/bin/cimprovagt 0 11 16 root SLPProviderModule
+    root 3080528       1   0 10:58:22      -  0:00 /opt/freeware/cimom/pegasus/bin/cimprovagt 0 36 39 root AIX_SubProfileRequiresProfileProviderModule
+    root 3211744       1   0 10:58:23      -  0:00 /usr/bin/cimlistener
+    root 3277154       1   0 10:58:20      -  0:01 [cimserve]
+    root 3342664 1835490   0 10:58:16      -  0:00 xmtopas -p3
+    root 3408278 1769940   0 10:59:44      -  0:00 /usr/sbin/clconfd
+    root 3932626 1769940   0 11:02:10      -  0:00 /usr/es/sbin/cluster/clevmgrd
+    root 3998024       1   0                  0:00 <defunct>
+    root 4260134 7209024   0 11:13:35   vty0  0:00 tail -512000
+    root 4456946 4260134   0 11:13:35   vty0  0:00 ps -ef
+    root  852568 1769940   0 10:58:14      -  0:00 /usr/sbin/rsct/bin/rmcd -a IBM.LPCommands -r -S 1500
+    root 1114844 1769940   0 10:58:11      -  0:00 sendmail: accepting connections
+    root 1180414 1769940   0 10:58:11      -  0:00 /usr/sbin/hostmibd
+    root 1442366       1   0 10:58:22      -  0:00 /opt/freeware/cimom/pegasus/bin/cimprovagt 0 41 44 root AIX_SubProfileRequiresPGProfileProviderModule
+    root 1508032 1769940   0 11:00:14      -  0:00 /usr/sbin/rsct/bin/IBM.StorageRMd
+    root 1573606       1   0 10:58:13      -  0:00 /usr/sbin/cron
+    root 1770238 1769940   0 10:58:14      -  0:00 /usr/sbin/sshd
+    root 1966632 1769940   0 10:58:14      -  0:00 /usr/sbin/rsct/bin/IBM.HostRMd
+    root 2163326       1   0 10:58:22      -  0:00 /opt/freeware/cimom/pegasus/bin/cimprovagt 0 24 27 root AIX_SMISRegisteredProfileProviderModule
+    root 2228798       1   0 10:58:22      -  0:00 /opt/freeware/cimom/pegasus/bin/cimprovagt 0 16 19 root AIX_RegisteredSubProfileProviderModule
+    root 2491130 4194406   0 11:02:22      -  0:00 run_rcovcmd
+    root 2556496 3407896   0 11:13:16   vty0  0:00 /bin/sh ./pcat.sh --notsm --nohmc
+==== EXITED with rc 0 ====
+==== END ps -ef Thu Aug  6 11:13:35 GST 2015 ====

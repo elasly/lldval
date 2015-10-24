@@ -1,0 +1,15 @@
+==== This output can be found in Systems/dx976/storage/powermt_display.txt ====
+==== START powermt display Tue Jul  7 13:07:20 CDT 2015 ====
+Symmetrix logical device count=16
+==============================================================================
+----- Host Bus Adapters ---------  ------ I/O Paths -----  ------ Stats ------
+###  HW Path                       Summary   Total   Dead  IO/Sec Q-IOs Errors
+==============================================================================
+   0 fscsi2                        optimal      24      0       -     0     24
+   1 fscsi3                        optimal      24      0       -     0     24
+   2 fscsi6                        optimal      24      0       -     0     24
+   3 fscsi7                        optimal      24      0       -     0     24
+   4 fscsi9                        optimal       4      0       -     0      4
+   5 fscsi12                       optimal       4      0       -     0      4
+==== EXITED with rc 0 ====
+==== END powermt display Tue Jul  7 13:07:20 CDT 2015 ====

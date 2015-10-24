@@ -1,0 +1,15 @@
+==== This output can be found in Systems/dx977/network/netstat-i.txt ====
+==== START netstat -i Tue Jul  7 00:10:18 GST 2015 ====
+Name  Mtu   Network     Address           Ipkts Ierrs    Opkts Oerrs  Coll
+en0   1500  link#2      4a.64.d8.a2.b1.4 4167948673     0 1124639710     0     0
+en0   1500  10.51.226   DX977-VIP        4167948673     0 1124639710     0     0
+en0   1500  10.51.226   DX977            4167948673     0 1124639710     0     0
+en1   1500  link#3      4a.64.d8.a2.b1.5 3508951050     0 2738396421     0     0
+en1   1500  10.51.227   DX977_b          3508951050     0 2738396421     0     0
+en3   1500  link#4      4a.64.d8.a2.b1.7 33040923     0 31486523     0     0
+en3   1500  10.51.229   DX977_sc0        33040923     0 31486523     0     0
+lo0   16896 link#1                       52698116     0 52697856     0     0
+lo0   16896 127         loopback         52698116     0 52697856     0     0
+lo0   16896 loopback                     52698116     0 52697856     0     0
+==== EXITED with rc 0 ====
+==== END netstat -i Tue Jul  7 00:10:18 GST 2015 ====

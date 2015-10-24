@@ -1,0 +1,25 @@
+==== This output can be found in Systems/dx980/network/netstat-rn.txt ====
+==== START netstat -rn Mon Jul  6 23:12:45 GST 2015 ====
+Routing tables
+Destination        Gateway           Flags   Refs     Use  If   Exp  Groups
+
+Route tree for Protocol Family 2 (Internet):
+default            10.51.226.1       UG        8    290134 en0      -      -   
+10.51.226.0        10.51.226.227     UHSb      0         0 en0      -      -   =>
+10.51.226/24       10.51.226.227     U         9   2661761 en0      -      -   
+10.51.226.227      127.0.0.1         UGHS      4    930476 lo0      -      -   
+10.51.226.255      10.51.226.227     UHSb      0      7014 en0      -      -   
+10.51.227.0        10.51.227.232     UHSb      0         0 en1      -      -   =>
+10.51.227/24       10.51.227.232     U         5  10619499 en1      -      -   
+10.51.227.232      127.0.0.1         UGHS      0     26305 lo0      -      -   
+10.51.227.255      10.51.227.232     UHSb      0      7008 en1      -      -   
+10.51.229.0        10.51.229.223     UHSb      0         0 en3      -      -   =>
+10.51.229/24       10.51.229.223     U         4   8590443 en3      -      -   
+10.51.229.223      127.0.0.1         UGHS      1     31141 lo0      -      -   
+10.51.229.255      10.51.229.223     UHSb      2     16576 en3      -      -   
+127/8              127.0.0.1         U         6   1517522 lo0      -      -   
+
+Route tree for Protocol Family 24 (Internet v6):
+::1%1              ::1%1             UH       12   3012038 lo0      -      -   
+==== EXITED with rc 0 ====
+==== END netstat -rn Mon Jul  6 23:12:45 GST 2015 ====

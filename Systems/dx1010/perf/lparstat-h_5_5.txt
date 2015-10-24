@@ -1,0 +1,14 @@
+==== This output can be found in Systems/dx1010/perf/lparstat-h_5_5.txt ====
+==== START lparstat -h 5 5  Tue Jul  7 13:15:03 CDT 2015 ====
+
+System configuration: type=Shared mode=Uncapped smt=4 lcpu=24 mem=8192MB psize=34 ent=2.00 
+
+%user  %sys  %wait  %idle physc %entc  lbusy   app  vcsw phint  %hypv hcalls
+----- ----- ------ ------ ----- ----- ------   --- ----- ----- ------ ------
+ 14.3  49.0    0.4   36.2  3.72 186.0   21.9 13.90 47468   412   79.3 919215 
+ 11.3  49.0    0.1   39.6  3.11 155.3   17.1 14.12 51589   373   85.3 746752 
+ 12.2  48.2    0.0   39.6  2.99 149.6   19.4 15.31 48747   292   84.2 693721 
+ 10.6  50.9    0.0   38.4  3.03 151.6   20.8 15.42 45752   346   84.6 683347 
+ 18.0  45.1    0.0   36.9  3.76 188.1   21.1 13.80 48133   414   78.0 807947 
+==== EXITED with rc 0 ====
+==== END lparstat -h 5 5  Tue Jul  7 13:15:28 CDT 2015 ====

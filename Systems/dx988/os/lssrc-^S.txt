@@ -1,0 +1,102 @@
+==== This output can be found in Systems/dx988/os/lssrc-^S.txt ====
+==== START lssrc -S Thu Aug  6 11:14:02 GST 2015 ====
+#subsysname:synonym:cmdargs:path:uid:auditid:standin:standout:standerr:action:multi:contact:svrkey:svrmtype:priority:signorm:sigforce:display:waittime:grpname:
+qdaemon:::/usr/sbin/qdaemon:0:0:/dev/console:/dev/console:/dev/console:-R:-Q:-S:0:0:20:30:15:-d:20:spooler:
+writesrv:::/usr/sbin/writesrv:0:0:/dev/console:/dev/console:/dev/console:-R:-Q:-S:0:0:20:30:31:-d:20:spooler:
+lpd:::/usr/sbin/lpd:0:0:/dev/console:/dev/console:/dev/console:-R:-Q:-K:0:0:20:0:0:-d:20:spooler:
+keyserv:::/usr/sbin/keyserv:0:0:/dev/null:/dev/console:/dev/console:-O:-Q:-S:0:0:20:30:31:-d:20:keyserv:
+ypbind:::/usr/lib/netsvc/yp/ypbind:0:0:/dev/null:/dev/console:/dev/console:-R:-Q:-S:0:0:20:30:31:-d:20:yp:
+llbd:::/etc/ncs/llbd:0:0:/dev/console:/var/ncs/llbd.out:/var/ncs/llbd.err:-O:-Q:-S:0:0:20:15:9:-d:20:iforncs:
+glbd:::/etc/ncs/glbd:0:0:/dev/console:/var/ncs/glbd.out:/var/ncs/glbd.err:-O:-Q:-S:0:0:20:15:9:-d:20:iforncs:
+gsclvmd:::/usr/sbin/gsclvmd:0:0:/dev/console:/dev/console:/dev/console:-R:-Q:-K:0:0:20:0:0:-d:20::
+cdromd:::/usr/sbin/cdromd:0:0:/dev/console:/dev/console:/dev/console:-O:-Q:-K:0:0:20:0:0:-d:20::
+cimsys::cimsys:/opt/freeware/cimom/pegasus/bin/cimssys:0:0:/dev/console:/dev/console:/dev/console:-R:-Q:-K:0:0:20:0:0:-d:20::
+muxatmd:::/usr/sbin/muxatmd:0:0:/dev/console:/dev/console:/dev/console:-O:-Q:-K:0:0:20:0:0:-d:20:tcpip:
+inetd:::/usr/sbin/inetd:0:0:/dev/console:/dev/console:/dev/console:-O:-Q:-K:0:0:20:0:0:-d:20:tcpip:
+rwhod:::/usr/sbin/rwhod:0:0:/dev/console:/dev/console:/dev/console:-O:-Q:-K:0:0:20:0:0:-d:20:tcpip:
+syslogd:::/usr/sbin/syslogd:0:0:/dev/console:/dev/console:/dev/console:-R:-Q:-K:0:0:20:0:0:-d:20:ras:
+xntpd:::/usr/sbin/xntpd:0:0:/dev/console:/dev/console:/dev/console:-O:-Q:-K:0:0:20:0:0:-d:20:tcpip:
+sendmail:::/usr/lib/sendmail:0:0:/dev/console:/dev/console:/dev/console:-R:-Q:-K:0:0:20:0:0:-d:20:mail:
+snmpd:::/usr/sbin/snmpd:0:0:/dev/console:/dev/console:/dev/console:-O:-Q:-K:0:0:20:0:0:-d:20:tcpip:
+aixmibd:::/usr/sbin/aixmibd:0:0:/dev/console:/dev/console:/dev/console:-O:-Q:-K:0:0:20:0:0:-d:20:tcpip:
+hostmibd:::/usr/sbin/hostmibd:0:0:/dev/console:/dev/console:/dev/console:-O:-Q:-K:0:0:20:0:0:-d:20:tcpip:
+snmpmibd:::/usr/sbin/snmpmibd:0:0:/dev/console:/dev/console:/dev/console:-O:-Q:-K:0:0:20:0:0:-d:20:tcpip:
+dpid2:::/usr/sbin/dpid2:0:0:/dev/console:/dev/console:/dev/console:-O:-Q:-K:0:0:20:0:0:-d:20:tcpip:
+portmap:::/usr/sbin/portmap:0:0:/dev/null:/dev/console:/dev/console:-R:-Q:-S:0:0:20:30:31:-d:20:portmap:
+dhcpcd:::/usr/sbin/dhcpcd:0:0:/dev/console:/dev/console:/dev/console:-O:-Q:-K:0:0:20:0:0:-d:20:tcpip:
+dhcpcd6:::/usr/sbin/dhcpcd6:0:0:/dev/console:/dev/console:/dev/console:-O:-Q:-K:0:0:20:0:0:-d:20:tcpip:
+ndpd-host:::/usr/sbin/ndpd-host:0:0:/dev/console:/dev/console:/dev/console:-O:-Q:-K:0:0:20:0:0:-d:20:tcpip:
+ndpd-router:::/usr/sbin/ndpd-router:0:0:/dev/console:/dev/console:/dev/console:-O:-Q:-K:0:0:20:0:0:-d:20:tcpip:
+tftpd:::/usr/sbin/tftpd:0:0:/dev/console:/dev/console:/dev/console:-O:-Q:-K:0:0:20:0:0:-d:20:tcpip:
+netcd:::/usr/sbin/netcd:0:0:/dev/console:/dev/console:/dev/console:-O:-Q:-K:0:0:20:0:0:-d:20:netcd:
+gated:::/usr/sbin/gated:0:0:/dev/console:/dev/console:/dev/console:-O:-Q:-K:0:0:20:0:0:-d:20:tcpip:
+named:::/usr/sbin/named:0:0:/dev/console:/dev/console:/dev/console:-O:-Q:-K:0:0:20:0:0:-d:20:tcpip:
+routed:::/usr/sbin/routed:0:0:/dev/console:/dev/console:/dev/console:-O:-Q:-K:0:0:20:0:0:-d:20:tcpip:
+iptrace:::/usr/sbin/iptrace:0:0:/dev/console:/dev/console:/dev/console:-O:-Q:-K:0:0:20:0:0:-d:20:tcpip:
+timed::-S:/usr/sbin/timed:0:0:/dev/console:/dev/console:/dev/console:-O:-Q:-S:0:0:20:1:2:-d:20:tcpip:
+dhcpsd:::/usr/sbin/dhcpsd:0:0:/dev/console:/dev/console:/dev/console:-O:-Q:-K:0:0:20:0:0:-d:20:tcpip:
+dhcpsdv6:::/usr/sbin/dhcpsdv6:0:0:/dev/console:/dev/console:/dev/console:-O:-Q:-K:0:0:20:0:0:-d:20:tcpip:
+dhcprd:::/usr/sbin/dhcprd:0:0:/dev/console:/dev/console:/dev/console:-O:-Q:-K:0:0:20:0:0:-d:20:tcpip:
+mrouted:::/usr/sbin/mrouted:0:0:/dev/console:/dev/console:/dev/console:-O:-Q:-K:0:0:20:0:0:-d:20:tcpip:
+rsvpd:::/usr/sbin/rsvpd:0:0:/dev/null:/dev/console:/dev/console:-O:-Q:-S:0:0:20:30:31:-d:20:qos:
+policyd:::/usr/sbin/policyd:0:0:/dev/null:/dev/console:/dev/console:-O:-Q:-S:0:0:20:30:31:-d:20:qos:
+pxed:::/usr/sbin/pxed:0:0:/dev/console:/dev/console:/dev/console:-O:-Q:-K:0:0:20:0:0:-d:20:tcpip:
+binld:::/usr/sbin/binld:0:0:/dev/console:/dev/console:/dev/console:-O:-Q:-K:0:0:20:0:0:-d:20:tcpip:
+dfpd:::/usr/sbin/dfpd:0:0:/dev/console:/dev/console:/dev/console:-O:-Q:-K:0:0:20:0:0:-d:20:tcpip:
+biod::6:/usr/sbin/biod:0:0:/dev/null:/dev/console:/dev/console:-R:-Q:-S:0:0:20:30:31:-d:20:nfs:
+nfsd::3891:/usr/sbin/nfsd:0:0:/dev/null:/dev/console:/dev/console:-R:-Q:-S:0:0:20:30:31:-d:20:nfs:
+rpc.statd:statd:-d 0 -t 50:/usr/sbin/rpc.statd:0:0:/dev/null:/dev/console:/dev/console:-R:-Q:-S:0:0:20:30:31:-d:20:nfs:
+rpc.lockd:lockd:-d 0:/usr/sbin/rpc.lockd:0:0:/dev/null:/dev/console:/dev/console:-R:-Q:-S:0:0:20:30:31:-d:20:nfs:
+rpc.mountd:mountd::/usr/sbin/rpc.mountd:0:0:/dev/null:/dev/console:/dev/console:-R:-Q:-S:0:0:20:30:31:-d:20:nfs:
+automountd:autod::/usr/sbin/automountd:0:0:/dev/null:/dev/console:/dev/console:-R:-Q:-S:0:0:20:30:31:-d:20:autofs:
+nfsrgyd:::/usr/sbin/nfsrgyd:0:0:/dev/null:/dev/console:/dev/console:-R:-Q:-S:0:0:20:30:31:-d:20:nfs:
+gssd:::/usr/sbin/gssd:0:0:/dev/null:/dev/console:/dev/console:-R:-Q:-S:0:0:20:30:31:-d:20:nfs:
+cpsd:::/usr/sbin/cpsd:0:0:/dev/console:/dev/console:/dev/console:-O:-Q:-K:0:0:20:0:0:-d:20:ike:
+tmd:::/usr/sbin/tmd:0:0:/dev/console:/dev/console:/dev/console:-O:-Q:-K:0:0:20:0:0:-d:20:ike:
+isakmpd:::/usr/sbin/isakmpd:0:0:/dev/console:/dev/console:/dev/console:-O:-Q:-K:0:0:20:0:0:-d:20::
+ikev2d:::/usr/sbin/ikev2d:0:0:/dev/console:/dev/console:/dev/console:-O:-Q:-K:0:0:20:0:0:-d:20::
+iked:::/usr/sbin/iked:0:0:/dev/console:/dev/console:/dev/console:-O:-Q:-K:0:0:20:0:0:-d:20:ike:
+clcomd::-d:/usr/sbin/clcomd:0:0:/dev/null:/dev/null:/dev/null:-R:-Q:-K:0:0:20:0:0:-d:20:caa:
+clconfd:::/usr/sbin/clconfd:0:0:/dev/null:/dev/null:/dev/null:-R:-Q:-S:0:0:20:2:9:-d:20:caa:
+aso:::/usr/sbin/aso:0:0:/dev/console:/dev/console:/dev/console:-O:-Q:-S:0:0:20:23:15:-d:20::
+pconsole:::/pconsole/lwi/bin/lwistart_src.sh:0:0:/dev/console:/dev/null:/dev/null:-R:-Q:-S:0:0:20:1:9:-d:70:system:
+pconsoleProxy::5335:5337 5336:5338:/opt/pconsole/bin/proxyServer:0:0:/dev/console:/dev/null:/dev/null:-R:-Q:-S:0:0:20:1:9:-d:20:pconsole:
+pconsolePDA:::/opt/pconsole/bin/pda_daemon:0:0:/dev/console:/dev/null:/dev/null:-R:-Q:-S:0:0:20:1:9:-d:20:pconsole:
+nimsh::-s:/usr/sbin/nimsh:0:0:/dev/null:/dev/console:/dev/console:-R:-Q:-S:0:0:20:15:3:-d:20:nimclient:
+platform_agent::platform_agent:/opt/freeware/cimom/pegasus/bin/cimssys:0:0:/dev/console:/dev/console:/dev/console:-R:-Q:-K:0:0:20:0:0:-d:20::
+ctcas:::/usr/sbin/rsct/bin/ctcasd_start:0:0:/dev/null:/dev/null:/tmp/.sec.2359518:-R:-Q:-K:0:0:20:0:0:-d:30:rsct:
+ctrmc:::/usr/sbin/rsct/bin/rmcd_start:0:0:/dev/null:/dev/null:/dev/null:-R:-Q:-K:0:0:20:0:0:-d:30:rsct:
+cas_agent:::/var/opt/tivoli/ep/runtime/nonstop/bin/cas_src.sh:0:0:/dev/console:/dev/console:/dev/console:-O:-Q:-S:0:0:20:15:9:-d:20::
+hrd:::/usr/sbin/hrd:0:0:/dev/console:/var/adm/hfi/hrd.stdout:/var/adm/hfi/hrd.stderr:-R:-Q:-K:0:0:20:0:0:-d:20:hrd:
+IBM.DRM:::/usr/sbin/rsct/bin/IBM.DRMd:0:0:/dev/console:/var/ct/IBM.DRM.stdout:/var/ct/IBM.DRM.stderr:-R:-Q:-K:0:0:20:0:0:-d:20:rsct_rm:
+IBM.HostRM:::/usr/sbin/rsct/bin/IBM.HostRMd:0:0:/dev/console:/var/ct/IBM.HostRM.stdout:/var/ct/IBM.HostRM.stderr:-R:-Q:-K:0:0:20:0:0:-d:20:rsct_rm:
+IBM.ServiceRM:::/usr/sbin/rsct/bin/IBM.ServiceRMd:0:0:/dev/console:/var/ct/IBM.ServiceRM.stdout:/var/ct/IBM.ServiceRM.stderr:-R:-Q:-K:0:0:20:0:0:-d:20:rsct_rm:
+IBM.ERRM:::/usr/sbin/rsct/bin/IBM.ERrmd:0:0:/dev/console:/var/ct/IBM.ERRM.stdout:/var/ct/IBM.ERRM.stderr:-R:-Q:-K:0:0:20:0:0:-d:20:rsct_rm:
+IBM.AuditRM:::/usr/sbin/rsct/bin/IBM.AuditRMd:0:0:/dev/console:/var/ct/IBM.AuditRM.stdout:/var/ct/IBM.AuditRM.stderr:-R:-Q:-K:0:0:20:0:0:-d:20:rsct_rm:
+sshd::-D:/usr/sbin/sshd:0:0:/dev/console:/dev/console:/dev/console:-R:-Q:-S:0:0:20:15:9:-d:20:ssh:
+pppcontrold:::/usr/sbin/pppcontrold:0:0:/dev/console:/dev/console:/dev/console:-O:-Q:-K:0:0:20:0:0:-d:20:uucp:
+nis_cachemgr:::/usr/sbin/nis_cachemgr:0:0:/dev/null:/dev/console:/dev/console:-R:-Q:-S:0:0:20:30:31:-d:20:nisplus:
+rpc.nisd:rpc.nisd::/usr/sbin/rpc.nisd:0:0:/dev/null:/dev/console:/dev/console:-R:-Q:-S:0:0:20:30:31:-d:20:nisplus:
+rpc.nispasswdd:rpc.nispasswdd::/usr/sbin/rpc.nispasswdd:0:0:/dev/null:/dev/console:/dev/console:-R:-Q:-S:0:0:20:30:31:-d:20:nisplus:
+ypserv:::/usr/lib/netsvc/yp/ypserv:0:0:/dev/null:/dev/console:/dev/console:-R:-Q:-S:0:0:20:30:31:-d:20:yp:
+ypupdated:rpc.ypupdated::/usr/lib/netsvc/yp/rpc.ypupdated:0:0:/dev/null:/dev/console:/dev/console:-R:-Q:-S:0:0:20:30:31:-d:20:yp:
+yppasswdd:rpc.yppasswdd:/etc/passwd -m:/usr/lib/netsvc/yp/rpc.yppasswdd:0:0:/dev/null:/dev/console:/dev/console:-R:-Q:-S:0:0:20:30:31:-d:20:yp:
+mobip6reqd::-S:/usr/sbin/mobip6reqd:0:0:/dev/console:/dev/console:/dev/console:-O:-Q:-S:0:0:20:1:2:-d:20::
+dtsrc:::/usr/dt/bin/dtlogin:0:0:/dev/console:/dev/console:/dev/console:-O:-Q:-S:0:0:20:15:9:-d:20::
+IBM.MgmtDomainRM:::/usr/sbin/rsct/bin/IBM.MgmtDomainRMd:0:0:/dev/console:/var/ct/IBM.MgmtDomainRM.stdout:/var/ct/IBM.MgmtDomainRM.stderr:-R:-Q:-K:0:0:20:0:0:-d:20:rsct_rm:
+nimesis::-s:/usr/sbin/nimesis:0:0:/dev/null:/dev/console:/dev/console:-R:-Q:-S:0:0:20:15:3:-d:20:nim:
+nimd::-sd:/usr/sbin/nimesis:0:0:/dev/null:/dev/console:/dev/console:-R:-Q:-S:0:0:20:15:3:-d:20::
+clinfoES:::/usr/es/sbin/cluster/clinfo:0:0:/dev/null:/dev/null:/dev/null:-R:-Q:-K:0:0:20:0:0:-D:15:cluster:
+clstrmgrES:::/usr/es/sbin/cluster/clstrmgr:0:0:/dev/null:/dev/null:/dev/null:-O:-Q:-K:0:0:20:0:0:-D:15:cluster:
+clevmgrdES:::/usr/es/sbin/cluster/clevmgrd:0:0:/dev/null:/dev/null:/dev/null:-R:-Q:-S:0:0:20:30:31:-D:20:cluster:
+topsvcs:::/usr/sbin/rsct/bin/topsvcs:0:0:/dev/console:/var/ha/log/topsvcs.default:/var/ha/log/topsvcs.default:-O:-Q:-K:0:0:20:0:0:-d:30:topsvcs:
+grpsvcs::HAES -d /var/ha/log/grpsvcs.default:/usr/sbin/rsct/bin/hags:0:0:/dev/console:/var/ha/log/grpsvcs.default:/var/ha/log/grpsvcs.default:-O:-Q:-K:0:0:20:0:0:-d:30:grpsvcs:
+grpglsm::HAES -d /var/ha/log/grpglsm.default:/usr/sbin/rsct/bin/hagsglsm:0:0:/dev/console:/var/ha/log/grpglsm.default:/var/ha/log/grpglsm.default:-R:-Q:-K:0:0:20:0:0:-d:30:grpsvcs:
+emsvcs:::/usr/sbin/rsct/bin/haemd_HACMP:0:0:/dev/null:/dev/null:/dev/null:-R:-Q:-K:0:0:20:0:0:-d:120:emsvcs:
+emaixos:::/usr/sbin/rsct/bin/haemRM/harmad_HACMP:0:0:/dev/null:/dev/null:/dev/null:-R:-Q:-K:0:0:20:0:0:-d:20:emsvcs:
+IBM.ConfigRM:::/usr/sbin/rsct/bin/IBM.ConfigRMd:0:0:/dev/console:/var/ct/IBM.ConfigRM.stdout:/var/ct/IBM.ConfigRM.stderr:-R:-Q:-K:0:0:20:0:0:-d:20:rsct_rm:
+cthags:::/usr/sbin/rsct/bin/cthags:0:0:/dev/console:/var/ct/1VC0TKF0OHvQvmRfcICZW5/log/cthags/cthags.default:/var/ct/1VC0TKF0OHvQvmRfcICZW5/log/cthags/cthags.default:-R:-Q:-K:0:0:20:0:0:-d:30:cthags:
+IBM.LPRM:::/usr/sbin/rsct/bin/IBM.LPRMd:0:0:/dev/console:/var/ct/IBM.LPRM.stdout:/var/ct/IBM.LPRM.stderr:-R:-Q:-K:0:0:20:0:0:-d:20:rsct_rm:
+IBM.StorageRM:::/usr/sbin/rsct/bin/IBM.StorageRMd:0:0:/dev/console:/var/ct/IBM.StorageRM.stdout:/var/ct/IBM.StorageRM.stderr:-R:-Q:-K:0:0:20:0:0:-d:20:rsct_rm:
+==== EXITED with rc 0 ====
+==== END lssrc -S Thu Aug  6 11:14:02 GST 2015 ====

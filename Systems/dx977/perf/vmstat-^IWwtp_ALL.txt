@@ -1,0 +1,15 @@
+==== This output can be found in Systems/dx977/perf/vmstat-^IWwtp_ALL.txt ====
+==== START vmstat -IWwtp ALL  Tue Jul  7 00:15:47 GST 2015 ====
+
+System configuration: lcpu=48 mem=393215MB ent=6.00
+
+     kthr              memory                         page                       faults                 cpu             time  
+--------------- --------------------- ------------------------------------ ------------------ ----------------------- --------
+  r   b   p   w        avm        fre    fi    fo    pi    po    fr     sr    in     sy    cs us sy id wa    pc    ec hr mi se
+  6  23   0   0   35400534   45697854  9382  5736     0     0   379    761  4982  18844  9763 23  6 69  3  2.56  42.7 00:15:47
+
+        psz        avm        fre    fi    fo    pi    po    fr     sr     siz hr mi se
+         4K    4294876   39127111  9382  5736     0     0   379    760 63266864 00:15:47
+        64K    1944104     410671     0     0     0     0     0      0 2337276 00:15:47
+==== EXITED with rc 0 ====
+==== END vmstat -IWwtp ALL  Tue Jul  7 00:15:47 GST 2015 ====

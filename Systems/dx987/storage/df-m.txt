@@ -1,0 +1,17 @@
+==== This output can be found in Systems/dx987/storage/df-m.txt ====
+==== START df -m Mon Jul  6 23:48:25 GST 2015 ====
+Filesystem    MB blocks      Free %Used    Iused %Iused Mounted on
+/dev/hd4       10240.00  10033.72    3%    12879     1% /
+/dev/hd2       15360.00   8562.32   45%    94875     5% /usr
+/dev/hd9var    20480.00  19393.00    6%     7314     1% /var
+/dev/hd3       15360.00  12992.36   16%      478     1% /tmp
+/dev/hd1       10240.00  10237.96    1%       14     1% /home
+/dev/hd11admin   2048.00   2047.35    1%        5     1% /admin
+/proc                 -         -    -         -     -  /proc
+/dev/hd10opt   25600.00  25404.65    1%     8662     1% /opt
+/dev/livedump    512.00    511.60    1%        4     1% /var/adm/ras/livedump
+/dev/perfdatalv   5120.00   3782.12   27%      263     1% /perfdata
+/aha                  -         -    -       128     1% /aha
+10.51.227.238:/data/col1/NESS_Bkp 265333162.50 14352201.00   95%    24313     1% /nessbkp_nfs
+==== EXITED with rc 0 ====
+==== END df -m Mon Jul  6 23:48:25 GST 2015 ====

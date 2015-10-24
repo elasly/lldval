@@ -1,0 +1,5 @@
+==== This output can be found in Systems/dx986/hmc/for_i_in_echo_lsrsrc-l_IBM_ManagementServer_grep-i.txt ====
+==== START for i in `echo \`lsrsrc -l "IBM.ManagementServer" | grep -iw hostname\` | awk -F= '{print $2}' | awk -F\" '{print $2}'`;do host $i; done Tue Jul  7 00:57:11 GST 2015 ====
+/usr/sbin/rsct/bin/lsrsrc-api: 2612-010 Resource class IBM.ManagementServer is not defined.
+==== EXITED with rc 0 ====
+==== END for i in `echo \`lsrsrc -l "IBM.ManagementServer" | grep -iw hostname\` | awk -F= '{print $2}' | awk -F\" '{print $2}'`;do host $i; done Tue Jul  7 00:57:11 GST 2015 ====

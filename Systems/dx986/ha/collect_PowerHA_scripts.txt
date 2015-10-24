@@ -1,0 +1,9 @@
+==== This output can be found in Systems/dx986/ha/collect_PowerHA_scripts.txt ====
+==== START collect_PowerHA_scripts Tue Jul  7 00:56:33 GST 2015 ====
+Creating output directory /tmp/pcat/pcat/./Systems/dx986/ha/dbscript.d
+
+Start collecting Start and Stop scripts for defined resource groups
+311330 -rwxrwxrwx-    1 root     system          110 Apr 26 22:18 /usr/es/sbin/cluster/scripts/dbstart.sh
+311329 -rwxrwxrwx-    1 root     system          109 Apr 26 22:19 /usr/es/sbin/cluster/scripts/dbstop.sh
+==== EXITED with rc 0 ====
+==== END collect_PowerHA_scripts Tue Jul  7 00:56:41 GST 2015 ====

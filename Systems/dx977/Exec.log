@@ -1,0 +1,489 @@
+Start of OS data collection PCAT version 4.2.2 Tue Jul  7 00:09:48 GST 2015
+-------------------------------------------------------------------------------
+2015/07/07 00:09:48 : Command : crontab -l
+2015/07/07 00:09:48 : Command : du -s /var/log/* | sort -rn
+2015/07/07 00:09:49 : Command : env
+2015/07/07 00:09:49 : Command : fileprint /etc/at.allow
+2015/07/07 00:09:49 : Command : fileprint /etc/at.deny
+2015/07/07 00:09:49 : Command : fileprint /etc/cron.allow
+2015/07/07 00:09:49 : Command : fileprint /etc/cron.deny
+2015/07/07 00:09:49 : Command : fileprint /etc/hosts
+2015/07/07 00:09:49 : Command : fileprint /etc/inetd.conf
+2015/07/07 00:09:49 : Command : fileprint /etc/inittab
+2015/07/07 00:09:49 : Command : fileprint /etc/resolv.conf
+2015/07/07 00:09:49 : Command : fileprint /etc/services
+2015/07/07 00:09:49 : Command : for i in /var/spool/cron/atjobs/*;do echo "#### at job: $i ####";cat $i;echo "########
+
+";done
+2015/07/07 00:09:49 : Command : for i in /var/spool/cron/crontabs/*;do T=`basename $i`;echo "#### cron for: $T ####";crontab -l $T;echo "########
+
+";done
+2015/07/07 00:09:49 : Command : hostname
+2015/07/07 00:09:49 : Command : ps -ef
+2015/07/07 00:09:50 : Command : ps auxw
+2015/07/07 00:09:50 : Command : rpm -qa | sort
+2015/07/07 00:09:50 : Command : rpm -qa | sort | awk '{echo "#### software package: " $1 " ####";system("rpm -qi " $1);echo "
+"}'
+2015/07/07 00:09:53 : Command : uname -a
+2015/07/07 00:09:53 : Command : uname -o
+2015/07/07 00:09:53 : Command : ulimit -a
+2015/07/07 00:09:53 : Command : atq
+2015/07/07 00:09:53 : Command : netstat -tn
+2015/07/07 00:09:53 : Command : fileprint /etc/group
+2015/07/07 00:09:53 : Command : fileprint /etc/passwd
+2015/07/07 00:09:53 : Command : fileprint /etc/ssh/sshd_config
+2015/07/07 00:09:54 : Command : fileprint /etc/sudoers
+2015/07/07 00:09:54 : Command : for j in /etc/pam.d/*; do fileprint $j; done
+2015/07/07 00:09:54 : Command : grep PATH ~/.profile
+2015/07/07 00:09:54 : Command : grep PATH /etc/environment
+2015/07/07 00:09:54 : Command : grep PATH /etc/profile
+2015/07/07 00:09:54 : Command : ls -l /etc/ssh
+2015/07/07 00:09:54 : Command : ls -l /usr/bin/passwd
+2015/07/07 00:09:54 : Command : umask
+2015/07/07 00:09:54 : Command : env x='() { :;}; echo vulnerable' bash -c "echo this is a test"
+2015/07/07 00:09:54 : Command : df
+2015/07/07 00:09:54 : Command : df -m
+2015/07/07 00:09:54 : Command : df /tmp
+2015/07/07 00:09:54 : Command : df /var
+2015/07/07 00:09:54 : Command : mount
+2015/07/07 00:09:55 : Command : arp -a
+2015/07/07 00:09:55 : Command : ifconfig -a
+2015/07/07 00:09:55 : Command : netstat
+2015/07/07 00:10:17 : Command : netstat -an
+2015/07/07 00:10:17 : Command : netstat -ano
+2015/07/07 00:10:18 : Command : netstat -i
+2015/07/07 00:10:18 : Command : netstat -in
+2015/07/07 00:10:18 : Command : netstat -in | grep ml | grep -v link
+2015/07/07 00:10:18 : Command : netstat -in | grep sn | grep -v link
+2015/07/07 00:10:18 : Command : netstat -rn
+2015/07/07 00:10:18 : Command : netstat -s
+2015/07/07 00:10:18 : Command : netstat -v &
+2015/07/07 00:10:18 : Command : showmount -a
+2015/07/07 00:10:18 : Command : showmount -e
+2015/07/07 00:10:19 : Command : audit query &
+2015/07/07 00:10:19 : Command : bindprocessor -q
+2015/07/07 00:10:19 : Command : bootinfo -K
+2015/07/07 00:10:19 : Command : bootinfo -b
+2015/07/07 00:10:19 : Command : bootlist -vom normal
+2015/07/07 00:10:19 : Command : bootlist -vom service
+2015/07/07 00:10:19 : Command : chswnm -q
+2015/07/07 00:10:19 : Command : csmstat
+2015/07/07 00:10:19 : Command : ctctrl -q -c all
+2015/07/07 00:10:19 : Command : drmgr -l
+2015/07/07 00:10:19 : Command : echo '#### output of: ps -ef ####';ps -ef;echo '
+
+#### output of: ps aux ####';ps auxw
+2015/07/07 00:10:20 : Command : echo $TZ
+2015/07/07 00:10:20 : Command : emgr -l
+2015/07/07 00:10:20 : Command : emgr -lv3
+2015/07/07 00:10:20 : Command : emgr -P
+2015/07/07 00:10:20 : Command : errctrl -q
+2015/07/07 00:10:21 : Command : errpt
+2015/07/07 00:10:21 : Command : errpt -a
+2015/07/07 00:10:21 : Command : errpt -d H
+2015/07/07 00:10:21 : Command : errpt -d H -T PERM
+2015/07/07 00:10:21 : Command : fileprint /etc/cronlog.conf
+2015/07/07 00:10:21 : Command : fileprint /etc/environment
+2015/07/07 00:10:21 : Command : fileprint /etc/filesystems
+2015/07/07 00:10:21 : Command : ls -l /etc/netsvc.conf
+2015/07/07 00:10:21 : Command : fileprint /etc/netsvc.conf
+2015/07/07 00:10:21 : Command : fileprint /etc/qconfig
+2015/07/07 00:10:21 : Command : ls-l /etc/niminfo
+2015/07/07 00:10:21 : Command : fileprint /etc/niminfo
+2015/07/07 00:10:22 : Command : fileprint /etc/ntp.conf
+2015/07/07 00:10:22 : Command : fileprint /etc/syslog.conf
+2015/07/07 00:10:22 : Command : fileprint /etc/tunables/lastboot
+2015/07/07 00:10:22 : Command : fileprint /etc/tunables/lastboot.log
+2015/07/07 00:10:22 : Command : fileprint /etc/tunables/nextboot
+2015/07/07 00:10:22 : Command : fileprint /proc/sys/fs/jfs2/memory_usage
+2015/07/07 00:10:22 : Command : fileprint /proc/sys/fs/jfs2/statistics
+2015/07/07 00:10:22 : Command : fileprint /var/adm/sulog
+2015/07/07 00:10:22 : Command : for i in /audit/*;do echo "#### audit file: $i ####"; auditpr -i $i;echo "########";done
+2015/07/07 00:10:22 : Command : for i in `ls /etc/objrepos/* | egrep  -v '\.vc|HACMP|lock'`;do ODMCLASS=`basename $i`;print "#### START ODM Class: $ODMCLASS ####";odmget $ODMCLASS;print "#### END ODM Class: $ODMCLASS ####
+
+";done
+2015/07/07 00:10:24 : Command : for i in `lsfs | grep jfs | awk '{print $1}'| awk -F "/" '{print $3}'` ; do lslv -m $i; done &
+2015/07/07 00:10:24 : Command : for i in `lsps -a | cut -d' ' -f1 | (line>/dev/null; cat) | sort`;do echo "#### Paging space info: lsps $i ####";lsps $i;echo "
+";done
+2015/07/07 00:10:29 : Command : for i in $(ls -d /usr/java*); do echo "cmd: $i/bin/java -fullversion"; $i/bin/java -fullversion;echo ""; done
+2015/07/07 00:10:31 : Command : for j in $(ls -d /usr/java*); do echo "cmd: $j/bin/java -version"; $j/bin/java -version;echo ""; done
+2015/07/07 00:10:33 : Command : getconf -a
+2015/07/07 00:10:33 : Command : grpck -n ALL
+2015/07/07 00:10:33 : Command : instfix -i
+2015/07/07 00:10:35 : Command : instfix -i | grep -E "ML|TL"
+2015/07/07 00:10:36 : Command : instfix -ic
+2015/07/07 00:10:38 : Command : instfix -ic | grep ":-:" &
+2015/07/07 00:10:38 : Command : ioo -L
+2015/07/07 00:10:39 : Command : ioo -FL
+2015/07/07 00:10:39 : Command : iostat -aDRTl
+2015/07/07 00:10:39 : Command : iostat -A
+2015/07/07 00:10:39 : Command : iostat -AQ
+2015/07/07 00:10:39 : Command : lppchk -c &
+2015/07/07 00:10:39 : Command : lppchk -v &
+2015/07/07 00:10:39 : Command : ls -il /var
+2015/07/07 00:10:39 : Command : ls -l /var/adm/invscout/microcode/catalog.mic
+2015/07/07 00:10:39 : Command : wc -l /var/adm/invscout/microcode/catalog.mic
+2015/07/07 00:10:39 : Command : lscfg
+2015/07/07 00:10:42 : Command : lscfg -pv
+2015/07/07 00:10:46 : Command : lscfg | sort | grep -v "Diagnostic support" | awk '/[*+] / {print "#### system device: " $2 " ####";system("/usr/sbin/lsattr -El " $2);print ""}'
+2015/07/07 00:10:58 : Command : lsdev -C
+2015/07/07 00:10:58 : Command : lsdev -Cc processor
+2015/07/07 00:10:58 : Command : lsdev -Cc processor  | awk '{print "
+#### Processor: " $1" ####";system("lsattr -El " $1)}'
+2015/07/07 00:10:58 : Command : lsgroup -a ALL
+2015/07/07 00:10:58 : Command : lsgroup ALL
+2015/07/07 00:10:59 : Command : lsgroup -c ALL
+2015/07/07 00:10:59 : Command : lsgroup -f ALL
+2015/07/07 00:10:59 : Command : lslicense -A
+2015/07/07 00:10:59 : Command : lslpp -ha
+2015/07/07 00:10:59 : Command : lslpp -l
+2015/07/07 00:10:59 : Command : lslpp -l bos.net\*
+2015/07/07 00:10:59 : Command : lslv hd6
+2015/07/07 00:10:59 : Command : lsps -a
+2015/07/07 00:10:59 : Command : lsrsrc
+2015/07/07 00:11:00 : Command : lssrc -a
+2015/07/07 00:11:00 : Command : lssrc -a | grep rsct
+2015/07/07 00:11:00 : Command : lssrc -ls cthags
+2015/07/07 00:11:00 : Command : lssrc -ls cthats | grep CG
+2015/07/07 00:11:00 : Command : lssrc -ls inetd
+2015/07/07 00:11:00 : Command : lssrc -ls xntpd
+2015/07/07 00:11:00 : Command : lssrc -ls xntpd | grep "Reference Id"
+2015/07/07 00:11:00 : Command : lssrc -s xntpd
+2015/07/07 00:11:00 : Command : lssrc -N
+2015/07/07 00:11:00 : Command : lssrc -S
+2015/07/07 00:11:00 : Command : lssrc -T
+2015/07/07 00:11:00 : Command : lsuser -a account_locked ALL | sort| grep false
+2015/07/07 00:11:00 : Command : lsuser -a ALL &
+2015/07/07 00:11:00 : Command : lsuser ALL
+2015/07/07 00:11:01 : Command : lsuser -a su ALL | sort
+2015/07/07 00:11:01 : Command : lsuser -a time_last_login ALL
+2015/07/07 00:11:01 : Command : lsuser -c ALL
+2015/07/07 00:11:01 : Command : lsuser -f ALL
+2015/07/07 00:11:01 : Command : lsvpd
+2015/07/07 00:11:03 : Command : odmget CuAt
+2015/07/07 00:11:03 : Command : odmget errnotify
+2015/07/07 00:11:03 : Command : oslevel -r
+2015/07/07 00:11:04 : Command : oslevel -rq
+2015/07/07 00:11:04 : Command : oslevel -s
+2015/07/07 00:11:06 : Command : oslevel -sq
+2015/07/07 00:11:07 : Command : oslevel -s -g `oslevel -s`
+2015/07/07 00:11:08 : Command : for i in $(oslevel -sq); do echo $i; echo "-------------------"; oslevel -sl $i ; break ; done
+2015/07/07 00:11:09 : Command : prtconf
+2015/07/07 00:12:28 : Command : pwdck -n ALL
+2015/07/07 00:12:28 : Command : raso -L
+2015/07/07 00:12:29 : Command : raso -FL
+2015/07/07 00:12:29 : Command : schedo -L
+2015/07/07 00:12:29 : Command : schedo -FL
+2015/07/07 00:12:29 : Command : schedo -o vpm_xvcpus
+2015/07/07 00:12:29 : Command : set
+2015/07/07 00:12:29 : Command : smtctl
+2015/07/07 00:12:29 : Command : sysdumpdev -e
+2015/07/07 00:12:29 : Command : sysdumpdev -l
+2015/07/07 00:12:29 : Command : /usr/lib/ras/dumpcheck -p
+2015/07/07 00:12:29 : Command : /usr/sbin/rsct/bin/rmcdomainstatus -s ctrmc
+2015/07/07 00:12:29 : Command : /usr/symcli/bin/syminq
+2015/07/07 00:12:29 : Command : uname
+2015/07/07 00:12:29 : Command : uname -n
+2015/07/07 00:12:30 : Command : uname -aM
+2015/07/07 00:12:30 : Command : uptime
+2015/07/07 00:12:30 : Command : vmo -a
+2015/07/07 00:12:30 : Command : vmo -a -F
+2015/07/07 00:12:30 : Command : vmo -a | grep lgpg
+2015/07/07 00:12:30 : Command : vmo -L
+2015/07/07 00:12:30 : Command : vmo -FL
+2015/07/07 00:12:30 : Command : who /var/adm/wtmp
+2015/07/07 00:12:30 : Command : who /etc/security/failedlogin
+2015/07/07 00:12:30 : Command : ls -l /var/ct/cfg/netmon.cf
+2015/07/07 00:12:30 : Command : if [ -s /var/ct/cfg/netmon.cf ];then fileprint /var/ct/cfg/netmon.cf; fi
+2015/07/07 00:12:30 : Command : aixpert -c -ls
+2015/07/07 00:15:24 : Command : fileprint /etc/security/aixpert/check_report.txt
+2015/07/07 00:15:24 : Command : trustchk -p
+2015/07/07 00:15:24 : Command : trustchk -n ALL &
+2015/07/07 00:15:24 : Command : ls-l /etc/pam.conf
+2015/07/07 00:15:24 : Command : fileprint /etc/pam.conf
+2015/07/07 00:15:24 : Command : fileprint /etc/security/aixpert/core/appliedaixpert.xml
+2015/07/07 00:15:24 : Command : fileprint /etc/security/login.cfg
+2015/07/07 00:15:24 : Command : fileprint /etc/security/limits
+2015/07/07 00:15:24 : Command : fileprint /etc/security/user
+2015/07/07 00:15:24 : Command : fileprint /usr/lib/security/methods.cfg
+2015/07/07 00:15:25 : Command : fpm -s
+2015/07/07 00:15:25 : Command : getsecconf
+2015/07/07 00:15:25 : Command : ls -al /etc/security/aixpert/core/appliedaixpert.xml
+2015/07/07 00:15:25 : Command : lsattr -El sys0 -a enhanced_RBAC
+2015/07/07 00:15:25 : Command : ls /etc/security/aixpert/core/appliedaixpert.xml
+2015/07/07 00:15:25 : Command : ls -l /var/efs
+2015/07/07 00:15:25 : Command : lsrole -C ALL
+2015/07/07 00:15:25 : Command : lssec -f /etc/security/user -s default -a histexpire
+2015/07/07 00:15:25 : Command : lssec -f /etc/security/user -s default -a histsize
+2015/07/07 00:15:25 : Command : lssec -f /etc/security/user -s default -a maxage
+2015/07/07 00:15:25 : Command : lssec -f /etc/security/user -s default -a maxexpired
+2015/07/07 00:15:25 : Command : lssec -f /etc/security/user -s default -a maxrepeats
+2015/07/07 00:15:25 : Command : lssec -f /etc/security/user -s default -a minage
+2015/07/07 00:15:26 : Command : lssec -f /etc/security/user -s default -a minalpha
+2015/07/07 00:15:26 : Command : lssec -f /etc/security/user -s default -a mindiff
+2015/07/07 00:15:26 : Command : lssec -f /etc/security/user -s default -a minlen
+2015/07/07 00:15:26 : Command : lssec -f /etc/security/user -s default -a minother
+2015/07/07 00:15:26 : Command : odmget -q attribute=SbD_STATE PdAt
+2015/07/07 00:15:26 : Command : sedmgr
+2015/07/07 00:15:26 : Command : showfile /var/efs
+2015/07/07 00:15:26 : Command : tcbck
+2015/07/07 00:15:26 : Command : bosdebug -L
+2015/07/07 00:15:26 : Command : for i in `lsvg -o`  ; do echo "#### lvmo -v $i ####"; lvmo -v $i -a; echo "########"; done
+2015/07/07 00:15:26 : Command : get_nmon_data
+2015/07/07 00:15:26 : Command : lparstat 1 10 &
+2015/07/07 00:15:26 : Command : lparstat -c 1 10 &
+2015/07/07 00:15:26 : Command : lparstat -em &
+2015/07/07 00:15:26 : Command : lparstat -h 5 5 &
+2015/07/07 00:15:26 : Command : lparstat -i &
+2015/07/07 00:15:27 : Command : lparstat -H 10 1 &
+2015/07/07 00:15:27 : Command : mpstat 5 2
+2015/07/07 00:15:37 : Command : mpstat -a
+2015/07/07 00:15:37 : Command : mpstat -d
+2015/07/07 00:15:37 : Command : mpstat -d 5 2
+2015/07/07 00:15:47 : Command : mpstat -i
+2015/07/07 00:15:47 : Command : vmstat 5 3 &
+2015/07/07 00:15:47 : Command : vmstat -h 5 3 &
+2015/07/07 00:15:47 : Command : vmstat -I 5 3 &
+2015/07/07 00:15:47 : Command : vmstat -IWwtp ALL &
+2015/07/07 00:15:47 : Command : vmstat -l 5 3 &
+2015/07/07 00:15:47 : Command : vmstat -s &
+2015/07/07 00:15:47 : Command : vmstat -v &
+2015/07/07 00:15:47 : Command : ipcs -mb
+2015/07/07 00:15:47 : Command : locktrace -l
+2015/07/07 00:15:47 : Command : lsdev -Cc adapter | grep ^fcs | awk '{print "
+#### Adapter: " $1" ####";system("lsattr -Ra num_cmd_elems -l " $1 )}'
+2015/07/07 00:15:47 : Command : lspv | egrep "active|concurrent" | awk '{print $3}' | sort -u |  awk '{print "
+#### VolumeGroup: " $1" ####";system("lvmo -av " $1)}'
+2015/07/07 00:15:48 : Command : for i in $(lspv | egrep "active|concurrent" | awk '{print $3}' | sort -u ); do echo "
+#### VolumeGroup: " $i" ####"; lvmo -v $i -L; done
+2015/07/07 00:15:48 : Command : lsrset -av
+2015/07/07 00:15:48 : Command : lssrad -a
+2015/07/07 00:15:48 : Command : lssrad -va
+2015/07/07 00:15:49 : Command : lsvpd -m
+2015/07/07 00:15:52 : Command : lsvpd -mv &
+2015/07/07 00:15:52 : Command : netstat -c
+2015/07/07 00:15:52 : Command : netstat -D
+2015/07/07 00:16:41 : Command : netstat -p tcp
+2015/07/07 00:16:41 : Command : netstat -p udp
+2015/07/07 00:16:42 : Command : nfso -a
+2015/07/07 00:16:42 : Command : nfso -FL
+2015/07/07 00:16:42 : Command : odmget CuAt | grep -p dcbflush_local
+2015/07/07 00:16:42 : Command : sar -P ALL 5 3
+2015/07/07 00:16:57 : Command : schedo -a
+2015/07/07 00:16:57 : Command : schedo -aF
+2015/07/07 00:16:57 : Command : svmon -G
+2015/07/07 00:16:57 : Command : datapath query adapter
+2015/07/07 00:16:57 : Command : datapath query device
+2015/07/07 00:16:57 : Command : dsh -av date
+2015/07/07 00:16:58 : Command : echo "cvai" | kdb
+2015/07/07 00:16:58 : Command : echo "vfcs" | kdb
+2015/07/07 00:16:58 : Command : for i in $(lspv | awk '{print $1}') ;do echo "$i, Disk size: $(getconf DISK_SIZE /dev/$i), Disk partition: $(getconf DISK_PARTITION /dev/$i), Disk location: $(getconf DISK_DEVNAME $i)"; done
+2015/07/07 00:17:10 : Command : ls -l /etc/iscsi/targets
+2015/07/07 00:17:10 : Command : fileprint /etc/iscsi/targets
+2015/07/07 00:17:10 : Command : list_active_vgs
+2015/07/07 00:17:11 : Command : list_concurrent_vgs
+2015/07/07 00:17:36 : Command : list_varyoff_vgs
+2015/07/07 00:17:37 : Command : lsdev -Cc adapter | grep ^fcs | awk '{print "
+#### Adapter: " $1" ####";system("fcstat " $1)}'
+2015/07/07 00:18:56 : Command : lsdev -Cc adapter | egrep ^fcs | awk '{print "
+#### Adapter: " $1" ####";system("fcstat -D " $1)}'
+2015/07/07 00:20:16 : Command : lsdev -Cc disk &
+2015/07/07 00:20:16 : Command : lsdev -Cc driver | grep iscsi | awk '{print "
+#### " $1" ####";system("lsattr -El " $1)}'
+2015/07/07 00:20:16 : Command : lsdev -C | awk '/aio/ { print "#### Async IO: " $1 " ####";system("lsattr -El " $1);print "
+"}'
+2015/07/07 00:20:16 : Command : lsdev -C | grep ^fc | awk '{print "
+#### Adapter: " $1" ####";system("lsattr -El " $1)}'
+2015/07/07 00:20:16 : Command : lsattr_disk &
+2015/07/07 00:20:16 : Command : lscfg_disk &
+2015/07/07 00:20:17 : Command : lsfs
+2015/07/07 00:20:17 : Command : lsfs -q
+2015/07/07 00:20:17 : Command : lsiscsi
+2015/07/07 00:20:17 : Command : lspath -H
+2015/07/07 00:20:17 : Command : lspath -F"name:connection:parent:path_status:status"
+2015/07/07 00:20:17 : Command : lspath | grep vscsi | awk '{print "lspath -AE -l " $2" -p "$3 ";"}'| awk -F";" '{print $1 ;system($1); print "
+"}'
+2015/07/07 00:20:17 : Command : lspv
+2015/07/07 00:20:18 : Command : lspv -u
+2015/07/07 00:20:18 : Command : lspv | grep power
+2015/07/07 00:20:19 : Command : for i in $(lspv | egrep "active|concurrent" | awk '{print $3}' | sort -u | lsvg -i -l | egrep -v "LV NAME|:" | awk '{print $1}'); do echo "#### LV $i ####";lslv $i; echo ""; done
+2015/07/07 00:20:41 : Command : for l in $(lspv | egrep "active|concurrent" | awk '{print $3}' | sort -u | lsvg -i -l | egrep -v "LV NAME|:" | awk '{print $1}'); do echo "#### LV $i ####";lslv -l $i; echo ""; done
+2015/07/07 00:20:46 : Command : for j in $(lspv | egrep "active|concurrent" | awk '{print $3}' | sort -u | lsvg -il | egrep -v "LV NAME|:" | awk '{print $1}'); do echo "#### LV $j ####";lslv $j |grep COPIES | awk '{print $1 " " $2}' ; echo ""; done
+2015/07/07 00:21:07 : Command : for k in $(lspv | egrep "active|concurrent" | awk '{print $3}' | sort -u | lsvg -il | egrep -v "LV NAME|:" | awk '{print $1}'); do echo "#### LV $k ####";lslv $k |grep COPIES | awk '{print $1 " " $2}'; echo ""; done | grep -vwp 1
+2015/07/07 00:21:26 : Command : for i in $(lspv | grep -iv none | grep -v Defined | awk '{print $1}');do echo "### Disk: $i ### 
+ $(lspv -p $i | grep -wv $i) 
+ 
+"; done
+2015/07/07 00:26:44 : Command : lsvg
+2015/07/07 00:26:44 : Command : lsvg -l rootvg | egrep -wv "boot|paging|hd8|hd4|hd2|hd9var|hd3|hd1|hd10opt|hd11ad.*"
+2015/07/07 00:26:44 : Command : lsvg |sort|awk '{print "";system("ls -l /dev/"$1 )}'
+2015/07/07 00:26:44 : Command : lsvg -o |sort|awk '{print "#### Volume group: " $1 " ####";system("lsvg " $1 ); print "
+"}'
+2015/07/07 00:26:49 : Command : lsvg -o |sort|awk '{print "#### Volume group -l: " $1 " ####";system("lsvg -l " $1 ); print "
+"}'
+2015/07/07 00:26:53 : Command : lsvg -o |sort|awk '{print "#### Volume group -p: " $1 " ####";system("lsvg -p " $1 ); print "
+"}'
+2015/07/07 00:26:58 : Command : lsvpcfg
+2015/07/07 00:26:58 : Command : lvlstmajor
+2015/07/07 00:26:58 : Command : pcmpath query device
+2015/07/07 00:26:58 : Command : pcmpath query essmap
+2015/07/07 00:26:58 : Command : powermt display
+2015/07/07 00:26:58 : Command : mpio_get_config -Av
+2015/07/07 00:26:58 : Command : powermt display
+2015/07/07 00:26:59 : Command : powermt display dev=all
+2015/07/07 00:26:59 : Command : powermt version
+2015/07/07 00:26:59 : Command : powermt version format=verbose
+2015/07/07 00:26:59 : Command : for i in $(lsdev -Cc disk | grep hdiskpower | awk '{print $1}'); do echo "### Power-Disk: $i ### "; powermt display dev=$i; echo ""; done
+2015/07/07 00:27:16 : Command : cd /etc/objrepos; for i in HACMP*;do print "
+
+#### START ODM class: $i ####"; odmget $i;print "#### END ODM class: $i ####";done &
+2015/07/07 00:27:16 : Command : collect_PowerHA_scripts
+2015/07/07 00:27:31 : Command : collect_Custom_scripts
+2015/07/07 00:27:31 : Command : cl_errnot -l
+2015/07/07 00:27:32 : Command : clchsyncd
+2015/07/07 00:27:32 : Command : clctrl -tune -a
+2015/07/07 00:27:32 : Command : cldisp &
+2015/07/07 00:27:32 : Command : cllog -s
+2015/07/07 00:27:33 : Command : cllscf
+2015/07/07 00:27:33 : Command : cllsclstr
+2015/07/07 00:27:33 : Command : cllscustom
+2015/07/07 00:27:33 : Command : cllscustom -c
+2015/07/07 00:27:33 : Command : cllsgrp | sort | awk '{print "#### RG: " $1 " ####";system("/usr/es/sbin/cluster/utilities/cllsdisk -g " $1);print ""}'
+2015/07/07 00:27:33 : Command : cllsif
+2015/07/07 00:27:33 : Command : cllsnim -g
+2015/07/07 00:27:33 : Command : cllsnim -g | grep -p Failure | grep -vp "(Normal)"
+2015/07/07 00:27:33 : Command : cllsnode
+2015/07/07 00:27:33 : Command : cllsnw
+2015/07/07 00:27:34 : Command : cllsserv
+2015/07/07 00:27:34 : Command : cllssite
+2015/07/07 00:27:34 : Command : clRGinfo -p
+2015/07/07 00:27:34 : Command : clshowres
+2015/07/07 00:27:34 : Command : cltopinfo
+2015/07/07 00:27:34 : Command : cltopinfo -c
+2015/07/07 00:27:34 : Command : cltopinfo -m
+2015/07/07 00:27:34 : Command : clvt query application_controller
+2015/07/07 00:27:35 : Command : clvt query application_monitor
+2015/07/07 00:27:35 : Command : clvt query cluster
+2015/07/07 00:27:38 : Command : clvt query dependency
+2015/07/07 00:27:39 : Command : clvt query file_collection
+2015/07/07 00:27:39 : Command : clvt query network
+2015/07/07 00:27:40 : Command : clvt query node
+2015/07/07 00:27:41 : Command : clvt query persistent_ip
+2015/07/07 00:27:42 : Command : clvt query resource_group
+2015/07/07 00:27:43 : Command : clmgr -v query repository
+2015/07/07 00:27:48 : Command : ls -l /etc/cluster/
+2015/07/07 00:27:48 : Command : fileprint /etc/cluster/rhosts
+2015/07/07 00:27:48 : Command : fileprint /etc/exports
+2015/07/07 00:27:48 : Command : fileprint /etc/snmpdv3.conf
+2015/07/07 00:27:48 : Command : ls -l /usr/es/sbin/cluster/etc/exports
+2015/07/07 00:27:48 : Command : fileprint /usr/es/sbin/cluster/etc/exports
+2015/07/07 00:27:49 : Command : ls -l /var/ct/cfg/netmon.cf
+2015/07/07 00:27:49 : Command : ls -l /usr/es/sbin/cluster/netmon.cf
+2015/07/07 00:27:49 : Command : fileprint /usr/es/sbin/cluster/netmon.cf
+2015/07/07 00:27:49 : Command : ls -l $(cllog -g clcomd.log | awk -F: '{print $4}' | grep -v value)/clcomd.log
+2015/07/07 00:27:49 : Command : fileprint $(cllog -g clcomd.log | awk -F: '{print $4}' | grep -v value)/clcomd.log
+2015/07/07 00:27:49 : Command : ls -l $(cllog -g clcomddiag.log | awk -F: '{print $4}' | grep -v value)/clcomddiag.log
+2015/07/07 00:27:49 : Command : fileprint $(cllog -g clcomddiag.log | awk -F: '{print $4}' | grep -v value)/clcomddiag.log
+2015/07/07 00:27:49 : Command : ls -l $(cllog -g clverify.log | awk -F: '{print $4}' | grep -v value)/clverify.log
+2015/07/07 00:27:49 : Command : fileprint $(cllog -g clverify.log | awk -F: '{print $4}' | grep -v value)/clverify.log
+2015/07/07 00:27:49 : Command : for i in $(cllog -s | awk '{print $1}'); do cllog -g $i; done | sort -u
+2015/07/07 00:27:52 : Command : for i in $(clvt query file_collection); do  echo "### File_collection Name: $i ###"; clvt query file_collection $i; echo ""; done
+2015/07/07 00:27:54 : Command : for i in $(clvt query node); do  echo "### Node: $i ###"; clvt query node $i; echo ""; done
+2015/07/07 00:28:00 : Command : for i in $(cllog -s | awk '{print $1}'); do ls -l $(cllog -g $i | awk -F: '{print $4}' | grep -v value)/$i; done
+2015/07/07 00:28:03 : Command : for i in $(clvt query network); do  echo "### Networks: $i ###"; clvt query network $i; echo ""; done
+2015/07/07 00:28:06 : Command : grep -i "Late in" /var/ha/log/top*
+2015/07/07 00:28:06 : Command : halevel
+2015/07/07 00:28:06 : Command : halevel -s
+2015/07/07 00:28:06 : Command : get_HA_rsct_details -c IBM.PeerNode
+2015/07/07 00:28:06 : Command : get_HA_rsct_details -c IBM.TieBreaker
+2015/07/07 00:28:07 : Command : get_HA_rsct_details -l IBM.PeerNode
+2015/07/07 00:28:07 : Command : get_HA_rsct_details -l IBM.TieBreaker
+2015/07/07 00:28:07 : Command : lsrpnode -i
+2015/07/07 00:28:07 : Command : lssrc -ls clstrmgrES
+2015/07/07 00:28:07 : Command : lssrc -ls grpsvcs
+2015/07/07 00:28:07 : Command : lssrc -ls topsvcs
+2015/07/07 00:28:07 : Command : odmget -q "function=persistent" HACMPadapter
+2015/07/07 00:28:08 : Command : odmget -q "object=COMMUNICATION_PATH" HACMPnode
+2015/07/07 00:28:08 : Command : odmget HACMPdaemons
+2015/07/07 00:28:08 : Command : clras dpcomm_status
+2015/07/07 00:28:08 : Command : clras hostname
+2015/07/07 00:28:08 : Command : clras lsrepos
+2015/07/07 00:28:09 : Command : clras sancomm_status
+2015/07/07 00:28:09 : Command : fileprint /etc/cluster/ifrestrict
+2015/07/07 00:28:09 : Command : fileprint /var/adm/ras/syslog.caa
+2015/07/07 00:28:09 : Command : lscluster -c
+2015/07/07 00:28:09 : Command : lscluster -d
+2015/07/07 00:28:09 : Command : lscluster -i
+2015/07/07 00:28:09 : Command : lscluster -m
+2015/07/07 00:28:09 : Command : lscluster -s
+2015/07/07 00:28:09 : Command : lsrsrc -l "IBM.ManagementServer"
+2015/07/07 00:28:10 : Command : for i in `echo \`lsrsrc -l "IBM.ManagementServer" | grep -iw hostname\` | awk -F= '{print $2}' | awk -F\" '{print $2}'`;do host $i; done
+2015/07/07 00:28:10 : Command : lsrsrc -l "IBM.MCP"
+2015/07/07 00:28:10 : Command : for i in `echo \`lsrsrc -l "IBM.MCP" | grep -iw IPAddresses | awk -F\" '{print $2}'`;do host $i; done
+2015/07/07 00:28:10 : Command : get_invscout &
+2015/07/07 00:28:10 : Command : lsattr -El sni0
+2015/07/07 00:28:10 : Command : lsattr -El sni1
+2015/07/07 00:28:11 : Command : lsattr -El sys0
+2015/07/07 00:28:11 : Command : lsattr -El sys0 | grep cpuguard
+2015/07/07 00:28:11 : Command : lsdev -C | awk '{print "
+#### Device: " $1" ####";system("lsattr -El " $1)}'
+2015/07/07 00:28:20 : Command : lsdev -Cc adapter
+2015/07/07 00:28:20 : Command : lsdev -Cc adapter | awk '{print "
+#### Adapter: " $1" ####";system("lsattr -El " $1)}'
+2015/07/07 00:28:21 : Command : lsdev -Cc adapter | grep -i hea | awk -F ' ' '{print "lscfg -vl " $1}' | /usr/bin/ksh
+2015/07/07 00:28:21 : Command : lsdev -Cc memory | awk '{print "
+#### Memory: " $1" ####";system("lsattr -El " $1)}'
+2015/07/07 00:28:21 : Command : lsdev -Cc tty
+2015/07/07 00:28:21 : Command : lsdevinfo
+2015/07/07 00:28:22 : Command : lsmcode
+2015/07/07 00:28:23 : Command : lsmcode -A
+2015/07/07 00:28:23 : Command : lparstat -W
+2015/07/07 00:28:23 : Command : lsslot -c slot
+2015/07/07 00:28:23 : Command : powermt display
+2015/07/07 00:28:24 : Command : powermt display dev=all
+2015/07/07 00:28:24 : Command : uname -L
+2015/07/07 00:28:24 : Command : echo "RES_TIMEOUT:$RES_TIMEOUT"; echo "RES_RETRY:$RES_RETRY"
+2015/07/07 00:28:24 : Command : ls -l /etc/exports
+2015/07/07 00:28:24 : Command : fileprint /etc/exports
+2015/07/07 00:28:24 : Command : fileprint /etc/rc.net
+2015/07/07 00:28:24 : Command : hostid
+2015/07/07 00:28:24 : Command : host $(hostid)
+2015/07/07 00:28:24 : Command : lsattr -El ent0 | grep media_speed
+2015/07/07 00:28:24 : Command : lsdev -C | egrep "en[0-9]|tr[0-9]|fi[0-9]" | awk '{print "#### Network interface: " $1 " ####";system("lsattr -El " $1);print "############
+"}'
+2015/07/07 00:28:25 : Command : lsdev -C | egrep "ent[0-9]|tok[0-9]|fddi[0-9]" | awk '{print "#### Network adapter: " $1 " ####";system("lsattr -El " $1);print "############
+"}'
+2015/07/07 00:28:25 : Command : lsdev -Cc adapter | grep ^ent | awk '{print "
+#### Adapter: " $1" ####";system("entstat " $1)}'
+2015/07/07 00:28:25 : Command : lsdev -Cc adapter | egrep ^ent | awk '{print "
+#### Adapter: " $1" ####";system("entstat -d " $1)}'
+2015/07/07 00:28:25 : Command : lsdev -Cc adapter | grep ^ent | awk '{print "";system("lscfg -vl " $1)}'
+2015/07/07 00:28:27 : Command : lsdev -Cc if
+2015/07/07 00:28:28 : Command : lsdev -Cc if | grep ^en | awk '{print "
+#### Interface: " $1" ####";system("entstat -d " $1)}'
+2015/07/07 00:28:28 : Command : lsnamsv -C
+2015/07/07 00:28:28 : Command : netstat -g
+2015/07/07 00:28:28 : Command : netstat -gs
+2015/07/07 00:28:28 : Command : netstat -m
+2015/07/07 00:28:28 : Command : netstat -ss
+2015/07/07 00:28:28 : Command : nfsstat
+2015/07/07 00:28:28 : Command : nfsstat -b
+2015/07/07 00:28:28 : Command : no -a
+2015/07/07 00:28:28 : Command : no -a | grep arp
+2015/07/07 00:28:28 : Command : no -a | grep -E "send|recv"
+2015/07/07 00:28:29 : Command : no -aF
+2015/07/07 00:28:29 : Command : no -L
+2015/07/07 00:28:29 : Command : no -LF
+2015/07/07 00:28:29 : Command : tcptr -show
+2015/07/07 00:28:29 : Copy : netstat-v.txt to Systems/dx977/perf
+2015/07/07 00:28:29 : Copy : audit_query.txt to Systems/dx977/secure
+2015/07/07 00:28:29 : Copy : ls-l_etc_niminfo.txt to Systems/dx977/network
+2015/07/07 00:28:30 : Copy : fileprint_etc_niminfo.txt to Systems/dx977/network
+2015/07/07 00:28:30 : Copy : ls-l_var_adm_invscout_microcode_catalog_mic.txt to Systems/dx977/hw
+2015/07/07 00:28:30 : Copy : lscfg-pv.txt to Systems/dx977/hw
+2015/07/07 00:28:30 : Copy : lsdev-^C.txt to Systems/dx977/storage
+2015/07/07 00:28:30 : Copy : who_var_adm_wtmp.txt to Systems/dx977/secure
+2015/07/07 00:28:30 : Copy : who_etc_security_failedlogin.txt to Systems/dx977/secure
+2015/07/07 00:28:30 : Copy : lparstat-i.txt to Systems/dx977/hw
+Check if there are still background jobs running and wait for them
+2015/07/07 00:28:30 data collection finished

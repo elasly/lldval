@@ -1,0 +1,10 @@
+==== This output can be found in Systems/dx1011/storage/lsvg_sort_awk_print_system_ls-l_dev_1.txt ====
+==== START lsvg |sort|awk '{print "";system("ls -l /dev/"$1 )}' Tue Jul  7 13:42:47 CDT 2015 ====
+
+crw-rw----    1 root     staff        50,  0 Mar 31 01:45 /dev/altinst_rootvg
+
+crw-rw----    1 root     system       10,  0 May 15 2014  /dev/rootvg
+
+crw-rw----    1 root     staff        44,  0 May 18 2014  /dev/vg0
+==== EXITED with rc 0 ====
+==== END lsvg |sort|awk '{print "";system("ls -l /dev/"$1 )}' Tue Jul  7 13:42:47 CDT 2015 ====

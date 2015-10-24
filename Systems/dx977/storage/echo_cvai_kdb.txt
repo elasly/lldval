@@ -1,0 +1,25 @@
+==== This output can be found in Systems/dx977/storage/echo_cvai_kdb.txt ====
+==== START echo "cvai" | kdb Tue Jul  7 00:16:58 GST 2015 ====
+           START              END <name>
+0000000000001000 0000000005840000 start+000FD8
+F00000002FF47600 F00000002FFDF9C8 __ublock+000000
+000000002FF22FF4 000000002FF22FF8 environ+000000
+000000002FF22FF8 000000002FF22FFC errno+000000
+F1000F0A00000000 F1000F0A10000000 pvproc+000000
+F1000F0A10000000 F1000F0A18000000 pvthread+000000
+read vscsi_scsi_ptrs OK, ptr = 0xF1000000C020BE20
+(0)> cvai
+NAME       STATE    CMDS_ACTIVE  ACTIVE_QUEUE       HOST
+vscsi0     0x000007 0x0000000000 0x0                VIO1->vhost34
+vscsi1     0x000007 0x0000000000 0x0                VIO1->vhost33
+vscsi2     0x000007 0x0000000000 0x0                VIO1->vhost32
+vscsi3     0x000007 0x0000000000 0x0                VIO1->vhost31
+vscsi4     0x000007 0x0000000000 0x0                VIO1->vhost30
+vscsi5     0x000007 0x0000000000 0x0                VIO2->vhost34
+vscsi6     0x000007 0x0000000000 0x0                VIO2->vhost33
+vscsi7     0x000007 0x0000000000 0x0                VIO2->vhost32
+vscsi8     0x000007 0x0000000000 0x0                VIO2->vhost31
+vscsi9     0x000007 0x0000000000 0x0                VIO2->vhost30
+
+(0)> ==== EXITED with rc 0 ====
+==== END echo "cvai" | kdb Tue Jul  7 00:16:58 GST 2015 ====

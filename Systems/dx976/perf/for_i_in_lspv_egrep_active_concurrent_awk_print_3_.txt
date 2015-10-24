@@ -1,0 +1,65 @@
+==== This output can be found in Systems/dx976/perf/for_i_in_lspv_egrep_active_concurrent_awk_print_3_.txt ====
+==== START for i in $(lspv | egrep "active|concurrent" | awk '{print $3}' | sort -u ); do echo "\n#### VolumeGroup: " $i" ####"; lvmo -v $i -L; done Tue Jul  7 13:05:06 CDT 2015 ====
+
+#### VolumeGroup:  rootvg ####
+NAME                      CUR    DEF    BOOT   MIN    MAX    UNIT           TYPE
+     DEPENDENCIES
+--------------------------------------------------------------------------------
+global_blocked_io_count   4      0      n/a    0      0                     S
+     pervg_blocked_io_count
+--------------------------------------------------------------------------------
+max_vg_pbufs              16384  n/a    n/a    16384  none                  S
+     max_vg_pbuf_count
+     pv_min_pbuf
+     pv_pbuf_count
+     total_vg_pbufs
+--------------------------------------------------------------------------------
+max_vg_pbuf_count         0      0      n/a    0      none                  M
+     max_vg_pbufs
+     pv_min_pbuf
+     pv_pbuf_count
+     total_vg_pbufs
+--------------------------------------------------------------------------------
+pervg_blocked_io_count    4      0      n/a    0      0                     S
+     global_blocked_io_count
+--------------------------------------------------------------------------------
+pv_min_pbuf               512    512    n/a    0      none                  D
+     max_vg_pbufs
+     max_vg_pbuf_count
+     pv_pbuf_count
+     total_vg_pbufs
+--------------------------------------------------------------------------------
+pv_pbuf_count             512    512    n/a    1      16384                 D
+     max_vg_pbufs
+     max_vg_pbuf_count
+     pv_min_pbuf
+     total_vg_pbufs
+--------------------------------------------------------------------------------
+total_vg_pbufs            1024   n/a    n/a    0      0                     S
+     max_vg_pbufs
+     max_vg_pbuf_count
+     pv_min_pbuf
+     pv_pbuf_count
+--------------------------------------------------------------------------------
+aio_cache_pbuf_count      0      0      n/a    0      16384                 D
+     max_vg_pbufs
+     max_vg_pbuf_count
+--------------------------------------------------------------------------------
+
+n/a means parameter not supported by the current platform or kernel
+
+Parameter types:
+    S = Static: cannot be changed
+    D = Dynamic: can be freely changed
+    B = Bosboot: can only be changed using bosboot and reboot
+    R = Reboot: can only be changed during reboot
+    C = Connect: changes are only effective for future socket connections
+    M = Mount: changes are only effective for future mountings
+    I = Incremental: can only be incremented
+    d = deprecated: deprecated and cannot be changed
+
+Value conventions:
+    K = Kilo: 2^10       G = Giga: 2^30       P = Peta: 2^50      
+    M = Mega: 2^20       T = Tera: 2^40       E = Exa: 2^60       
+==== EXITED with rc 0 ====
+==== END for i in $(lspv | egrep "active|concurrent" | awk '{print $3}' | sort -u ); do echo "\n#### VolumeGroup: " $i" ####"; lvmo -v $i -L; done Tue Jul  7 13:05:06 CDT 2015 ====

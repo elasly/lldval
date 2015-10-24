@@ -1,0 +1,17 @@
+==== This output can be found in Systems/dx977/ha/ls-l_etc_cluster.txt ====
+==== START ls -l /etc/cluster/ Tue Jul  7 00:27:48 GST 2015 ====
+total 64
+-r-xrw----    1 root     system            0 Jun 15 09:29 ahafs
+srw-------    1 root     system            0 Apr  1 22:46 clcomd_sec
+-rw-------    1 root     system         4608 Apr 23 01:18 clrepos_cache
+-rw-r--r--    1 root     system         1613 Mar  5 22:47 disktype.lst
+lrwxrwxrwx    1 root     system           36 Mar  5 22:47 hacmp.clean -> /usr/es/sbin/cluster/etc/hacmp.clean
+lrwxrwxrwx    1 root     system           35 Mar  5 22:47 hacmp.term -> /usr/es/sbin/cluster/etc/hacmp.term
+drwx------    2 root     system          256 Jul  7 00:26 locks
+-rw-r--r--    1 root     system         2044 Mar  5 22:47 lunreset.lst
+-rw-r--r--    1 bin      bin            3480 Mar  2 15:32 name_rules
+-rw-------    1 root     system           28 Mar  7 19:28 rhosts
+-rw-------    1 root     system            1 Mar  2 15:32 sync.0
+-rw-------    1 root     system            1 Mar  2 15:32 sync.1
+==== EXITED with rc 0 ====
+==== END ls -l /etc/cluster/ Tue Jul  7 00:27:48 GST 2015 ====

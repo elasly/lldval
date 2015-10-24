@@ -1,0 +1,40 @@
+==== This output can be found in Systems/dx977/caa/lscluster-m.txt ====
+==== START lscluster -m Tue Jul  7 00:28:09 GST 2015 ====
+Calling node query for all nodes...
+Node query number of nodes examined: 2
+
+	Node name: DX977
+	Cluster shorthand id for node: 1
+	UUID for node: 8dddd3cc-d862-11e4-bbce-4a64d4904005
+	State of node: UP  NODE_LOCAL 
+	Smoothed rtt to node: 0
+	Mean Deviation in network rtt to node: 0
+	Number of clusters node is a member in: 1
+	CLUSTER NAME       SHID         UUID                                
+	DX977_cluster      0            8de2ff1e-d862-11e4-bbce-4a64d4904005
+	SITE NAME          SHID         UUID                                
+	LOCAL              1            51735173-5173-5173-5173-517351735173
+
+	Points of contact for node: 0
+
+----------------------------------------------------------------------------
+
+	Node name: DX978
+	Cluster shorthand id for node: 2
+	UUID for node: 8dddd41c-d862-11e4-bbce-4a64d4904005
+	State of node: UP 
+	Smoothed rtt to node: 7
+	Mean Deviation in network rtt to node: 3
+	Number of clusters node is a member in: 1
+	CLUSTER NAME       SHID         UUID                                
+	DX977_cluster      0            8de2ff1e-d862-11e4-bbce-4a64d4904005
+	SITE NAME          SHID         UUID                                
+	LOCAL              1            51735173-5173-5173-5173-517351735173
+
+	Points of contact for node: 1
+	-----------------------------------------------------------------------
+	Interface     State  Protocol    Status     SRC_IP->DST_IP
+	-----------------------------------------------------------------------
+	tcpsock->02   UP     IPv4         none   10.51.226.224->10.51.226.225
+==== EXITED with rc 0 ====
+==== END lscluster -m Tue Jul  7 00:28:09 GST 2015 ====

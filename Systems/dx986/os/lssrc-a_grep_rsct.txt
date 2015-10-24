@@ -1,0 +1,15 @@
+==== This output can be found in Systems/dx986/os/lssrc-a_grep_rsct.txt ====
+==== START lssrc -a | grep rsct Tue Jul  7 00:45:28 GST 2015 ====
+ ctrmc            rsct             1507802      active
+ IBM.ConfigRM     rsct_rm          5832774      active
+ IBM.DRM          rsct_rm          2687212      active
+ IBM.ServiceRM    rsct_rm          5636234      active
+ IBM.StorageRM    rsct_rm          61735222     active
+ IBM.HostRM       rsct_rm          8650800      active
+ ctcas            rsct                          inoperative
+ IBM.ERRM         rsct_rm                       inoperative
+ IBM.AuditRM      rsct_rm                       inoperative
+ IBM.LPRM         rsct_rm                       inoperative
+ IBM.MgmtDomainRM rsct_rm                       inoperative
+==== EXITED with rc 0 ====
+==== END lssrc -a | grep rsct Tue Jul  7 00:45:28 GST 2015 ====

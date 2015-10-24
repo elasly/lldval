@@ -1,0 +1,75 @@
+==== This output can be found in Systems/dx988/os/for_i_in_lsfs_grep_jfs_awk_print_1_awk-^F_print_3_.txt ====
+==== START for i in `lsfs | grep jfs | awk '{print $1}'| awk -F "/" '{print $3}'` ; do lslv -m $i; done  Thu Aug  6 11:13:43 GST 2015 ====
+0516-306 lslv: Unable to find  fslv00 in the Device
+	Configuration Database.
+0516-306 lslv: Unable to find  fslv01 in the Device
+	Configuration Database.
+hd4:/
+LP    PP1  PV1               PP2  PV2               PP3  PV3
+0001  0122 hdisk0            
+0002  0123 hdisk0            
+0003  0124 hdisk0            
+0004  0125 hdisk0            
+hd1:/home
+LP    PP1  PV1               PP2  PV2               PP3  PV3
+0001  0150 hdisk0            
+0002  0151 hdisk0            
+0003  0152 hdisk0            
+0004  0153 hdisk0            
+hd2:/usr
+LP    PP1  PV1               PP2  PV2               PP3  PV3
+0001  0126 hdisk0            
+0002  0127 hdisk0            
+0003  0128 hdisk0            
+0004  0129 hdisk0            
+0005  0130 hdisk0            
+0006  0131 hdisk0            
+0007  0132 hdisk0            
+0008  0133 hdisk0            
+0009  0134 hdisk0            
+0010  0135 hdisk0            
+0011  0136 hdisk0            
+0012  0137 hdisk0            
+0013  0138 hdisk0            
+0014  0139 hdisk0            
+0015  0140 hdisk0            
+0016  0141 hdisk0            
+hd9var:/var
+LP    PP1  PV1               PP2  PV2               PP3  PV3
+0001  0142 hdisk0            
+0002  0143 hdisk0            
+0003  0144 hdisk0            
+0004  0145 hdisk0            
+hd3:/tmp
+LP    PP1  PV1               PP2  PV2               PP3  PV3
+0001  0146 hdisk0            
+0002  0147 hdisk0            
+0003  0148 hdisk0            
+0004  0149 hdisk0            
+hd11admin:/admin
+LP    PP1  PV1               PP2  PV2               PP3  PV3
+0001  0156 hdisk0            
+0002  0157 hdisk0            
+0003  0158 hdisk0            
+0004  0159 hdisk0            
+hd10opt:/opt
+LP    PP1  PV1               PP2  PV2               PP3  PV3
+0001  0154 hdisk0            
+0002  0155 hdisk0            
+livedump:/var/adm/ras/livedump
+LP    PP1  PV1               PP2  PV2               PP3  PV3
+0001  0070 hdisk0            
+perfdatalv:/perfdata
+LP    PP1  PV1               PP2  PV2               PP3  PV3
+0001  0071 hdisk0            
+0002  0072 hdisk0            
+0003  0073 hdisk0            
+0004  0074 hdisk0            
+0005  0075 hdisk0            
+0006  0076 hdisk0            
+0007  0077 hdisk0            
+0008  0078 hdisk0            
+0009  0079 hdisk0            
+0010  0080 hdisk0            
+==== EXITED with rc 0 ====
+==== END for i in `lsfs | grep jfs | awk '{print $1}'| awk -F "/" '{print $3}'` ; do lslv -m $i; done  Thu Aug  6 11:13:43 GST 2015 ====

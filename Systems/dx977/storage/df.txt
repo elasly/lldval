@@ -1,0 +1,37 @@
+==== This output can be found in Systems/dx977/storage/df.txt ====
+==== START df Tue Jul  7 00:09:54 GST 2015 ====
+Filesystem    512-blocks      Free %Used    Iused %Iused Mounted on
+/dev/hd4        20971520  20537112    3%    13156     1% /
+/dev/hd2        31457280  17534424   45%    94892     5% /usr
+/dev/hd9var     41943040  38987976    8%     8365     1% /var
+/dev/hd3        31457280  20057840   37%     2792     1% /tmp
+/dev/hd1        20971520  20845696    1%      548     1% /home
+/dev/hd11admin    4194304   4192976    1%        5     1% /admin
+/proc                  -         -    -         -     -  /proc
+/dev/hd10opt    52428800  52026072    1%     8678     1% /opt
+/dev/livedump    1048576   1036360    2%       23     1% /var/adm/ras/livedump
+/dev/perfdatalv   10485760   1112704   90%     2945     3% /perfdata
+/aha                   -         -    -       141     1% /aha
+/dev/R1_arch1lv 10725883904 9122033136   15%      232     1% /gsm_arclog1
+/dev/R1_arch2lv 10725883904 9122033160   15%      232     1% /gsm_arclog2
+/dev/R5_baselv  209715200 187529480   11%    61206     1% /gsm_base
+/dev/R1_ctrl1lv   20828160  20593480    2%        7     1% /gsm_ctrl1
+/dev/R1_ctrl2lv   20828160  20593480    2%        7     1% /gsm_ctrl2
+/dev/R1_ctrl3lv   20828160  20593480    2%        7     1% /gsm_ctrl3
+/dev/R1_data1lv 31134646272 23967509544   24%      147     1% /gsm_data1
+/dev/R1_flashlv  104398848 103972712    1%        4     1% /gsm_flash
+/dev/R5_gglv   418775040 417662016    1%        4     1% /gsm_gg
+/dev/R1_indx1lv 6441598976 4283417696   34%       66     1% /gsm_index1
+/dev/R1_redo1lv   62914560  37425664   41%        9     1% /gsm_redo1
+/dev/R1_redo2lv   62914560  37425672   41%        9     1% /gsm_redo2
+/dev/R5_stagelv  104857600 104431392    1%        4     1% /gsm_stage
+/dev/R5_syslv  104857600 102933376    2%      878     1% /gsm_sys
+/dev/R1_templv 1468006400 1404749312    5%       29     1% /gsm_temp
+/dev/R5_undolv  838402048  99942296   89%       18     1% /gsm_undo
+/dev/datacollectlv  207618048 185042136   11%     2082     1% /datacollect
+/dev/R6_bkplv 21451767808 17699842080   18%     1266     1% /gsm_bkp
+/dev/R5_explv 8580497408 7421492664   14%     1535     1% /gsm_exp
+10.51.227.241:/data/col1/dd_GSM_Bkp 543402316800 29338168320   95%    22109     1% /dd_GSM_Bkp
+/dev/bctlv      19922944  19486912    3%        7     1% /gsm_bct
+==== EXITED with rc 0 ====
+==== END df Tue Jul  7 00:09:54 GST 2015 ====

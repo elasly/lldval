@@ -1,0 +1,17 @@
+==== This output can be found in Systems/dx987/storage/df.txt ====
+==== START df Mon Jul  6 23:48:25 GST 2015 ====
+Filesystem    512-blocks      Free %Used    Iused %Iused Mounted on
+/dev/hd4        20971520  20549056    3%    12879     1% /
+/dev/hd2        31457280  17535632   45%    94875     5% /usr
+/dev/hd9var     41943040  39716856    6%     7314     1% /var
+/dev/hd3        31457280  26608352   16%      477     1% /tmp
+/dev/hd1        20971520  20967336    1%       14     1% /home
+/dev/hd11admin    4194304   4192976    1%        5     1% /admin
+/proc                  -         -    -         -     -  /proc
+/dev/hd10opt    52428800  52028728    1%     8662     1% /opt
+/dev/livedump    1048576   1047760    1%        4     1% /var/adm/ras/livedump
+/dev/perfdatalv   10485760   7745784   27%      263     1% /perfdata
+/aha                   -         -    -       128     1% /aha
+10.51.227.238:/data/col1/NESS_Bkp 543402316800 29393307648   95%    24313     1% /nessbkp_nfs
+==== EXITED with rc 0 ====
+==== END df Mon Jul  6 23:48:25 GST 2015 ====

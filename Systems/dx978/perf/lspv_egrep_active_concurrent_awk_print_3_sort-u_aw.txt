@@ -1,0 +1,169 @@
+==== This output can be found in Systems/dx978/perf/lspv_egrep_active_concurrent_awk_print_3_sort-u_aw.txt ====
+==== START lspv | egrep "active|concurrent" | awk '{print $3}' | sort -u |  awk '{print "\n#### VolumeGroup: " $1" ####";system("lvmo -av " $1)}' Mon Jul  6 23:33:15 GST 2015 ====
+
+#### VolumeGroup: arch1vg ####
+vgname = arch1vg
+pv_pbuf_count = 512
+total_vg_pbufs = 10240
+max_vg_pbufs = 524288
+pervg_blocked_io_count = 0
+pv_min_pbuf = 512
+max_vg_pbuf_count = 0
+global_blocked_io_count = 1983
+aio_cache_pbuf_count = 0
+
+#### VolumeGroup: bctvg ####
+vgname = bctvg
+pv_pbuf_count = 512
+total_vg_pbufs = 512
+max_vg_pbufs = 524288
+pervg_blocked_io_count = 0
+pv_min_pbuf = 512
+max_vg_pbuf_count = 0
+global_blocked_io_count = 1983
+aio_cache_pbuf_count = 0
+
+#### VolumeGroup: bkp1vg ####
+vgname = bkp1vg
+pv_pbuf_count = 512
+total_vg_pbufs = 5120
+max_vg_pbufs = 524288
+pervg_blocked_io_count = 0
+pv_min_pbuf = 512
+max_vg_pbuf_count = 0
+global_blocked_io_count = 1983
+aio_cache_pbuf_count = 0
+
+#### VolumeGroup: caavg_private ####
+vgname = caavg_private
+pv_pbuf_count = 512
+total_vg_pbufs = 512
+max_vg_pbufs = 16384
+pervg_blocked_io_count = 0
+pv_min_pbuf = 512
+max_vg_pbuf_count = 0
+global_blocked_io_count = 1983
+aio_cache_pbuf_count = 0
+
+#### VolumeGroup: ctrl1vg ####
+vgname = ctrl1vg
+pv_pbuf_count = 512
+total_vg_pbufs = 1536
+max_vg_pbufs = 524288
+pervg_blocked_io_count = 0
+pv_min_pbuf = 512
+max_vg_pbuf_count = 0
+global_blocked_io_count = 1983
+aio_cache_pbuf_count = 0
+
+#### VolumeGroup: data1vg ####
+vgname = data1vg
+pv_pbuf_count = 512
+total_vg_pbufs = 14848
+max_vg_pbufs = 524288
+pervg_blocked_io_count = 0
+pv_min_pbuf = 512
+max_vg_pbuf_count = 0
+global_blocked_io_count = 1983
+aio_cache_pbuf_count = 0
+
+#### VolumeGroup: exp1vg ####
+vgname = exp1vg
+pv_pbuf_count = 512
+total_vg_pbufs = 4096
+max_vg_pbufs = 524288
+pervg_blocked_io_count = 0
+pv_min_pbuf = 512
+max_vg_pbuf_count = 0
+global_blocked_io_count = 1983
+aio_cache_pbuf_count = 0
+
+#### VolumeGroup: flash1vg ####
+vgname = flash1vg
+pv_pbuf_count = 512
+total_vg_pbufs = 1024
+max_vg_pbufs = 524288
+pervg_blocked_io_count = 0
+pv_min_pbuf = 512
+max_vg_pbuf_count = 0
+global_blocked_io_count = 1983
+aio_cache_pbuf_count = 0
+
+#### VolumeGroup: gg1vg ####
+vgname = gg1vg
+pv_pbuf_count = 512
+total_vg_pbufs = 1024
+max_vg_pbufs = 524288
+pervg_blocked_io_count = 0
+pv_min_pbuf = 512
+max_vg_pbuf_count = 0
+global_blocked_io_count = 1983
+aio_cache_pbuf_count = 0
+
+#### VolumeGroup: indx1vg ####
+vgname = indx1vg
+pv_pbuf_count = 512
+total_vg_pbufs = 3072
+max_vg_pbufs = 524288
+pervg_blocked_io_count = 0
+pv_min_pbuf = 512
+max_vg_pbuf_count = 0
+global_blocked_io_count = 1983
+aio_cache_pbuf_count = 0
+
+#### VolumeGroup: oravg ####
+vgname = oravg
+pv_pbuf_count = 512
+total_vg_pbufs = 512
+max_vg_pbufs = 524288
+pervg_blocked_io_count = 0
+pv_min_pbuf = 512
+max_vg_pbuf_count = 0
+global_blocked_io_count = 1983
+aio_cache_pbuf_count = 0
+
+#### VolumeGroup: redo1vg ####
+vgname = redo1vg
+pv_pbuf_count = 512
+total_vg_pbufs = 2048
+max_vg_pbufs = 524288
+pervg_blocked_io_count = 0
+pv_min_pbuf = 512
+max_vg_pbuf_count = 0
+global_blocked_io_count = 1983
+aio_cache_pbuf_count = 0
+
+#### VolumeGroup: rootvg ####
+vgname = rootvg
+pv_pbuf_count = 512
+total_vg_pbufs = 512
+max_vg_pbufs = 16384
+pervg_blocked_io_count = 1983
+pv_min_pbuf = 512
+max_vg_pbuf_count = 0
+global_blocked_io_count = 1983
+aio_cache_pbuf_count = 0
+
+#### VolumeGroup: temp1vg ####
+vgname = temp1vg
+pv_pbuf_count = 512
+total_vg_pbufs = 1536
+max_vg_pbufs = 524288
+pervg_blocked_io_count = 0
+pv_min_pbuf = 512
+max_vg_pbuf_count = 0
+global_blocked_io_count = 1983
+aio_cache_pbuf_count = 0
+
+#### VolumeGroup: undo1vg ####
+vgname = undo1vg
+pv_pbuf_count = 512
+total_vg_pbufs = 1024
+max_vg_pbufs = 524288
+pervg_blocked_io_count = 0
+pv_min_pbuf = 512
+max_vg_pbuf_count = 0
+global_blocked_io_count = 1983
+aio_cache_pbuf_count = 0
+==== EXITED with rc 0 ====
+==== END lspv | egrep "active|concurrent" | awk '{print $3}' | sort -u |  awk '{print "\n#### VolumeGroup: " $1" ####";system("lvmo -av " $1)}' Mon Jul  6 23:33:16 GST 2015 ====

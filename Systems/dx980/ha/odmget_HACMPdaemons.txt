@@ -1,0 +1,53 @@
+==== This output can be found in Systems/dx980/ha/odmget_HACMPdaemons.txt ====
+==== START odmget HACMPdaemons Mon Jul  6 23:23:35 GST 2015 ====
+
+HACMPdaemons:
+	nodename = "DX980"
+	daemon = "clstrmgr"
+	type = "start"
+	object = "manage"
+	value = "auto"
+
+HACMPdaemons:
+	nodename = "DX980"
+	daemon = "clstrmgr"
+	type = "start"
+	object = "broadcast"
+	value = "false"
+
+HACMPdaemons:
+	nodename = "DX980"
+	daemon = "clinfo"
+	type = "start"
+	object = "time"
+	value = "true"
+
+HACMPdaemons:
+	nodename = "DX980"
+	daemon = "clstrmgrES"
+	type = "stop"
+	object = "time"
+	value = "now"
+
+HACMPdaemons:
+	nodename = "DX980"
+	daemon = "clstrmgrES"
+	type = "stop"
+	object = "broadcast"
+	value = "false"
+
+HACMPdaemons:
+	nodename = "DX980"
+	daemon = "clstrmgrES"
+	type = "stop"
+	object = "mode"
+	value = "forced"
+
+HACMPdaemons:
+	nodename = "DX980"
+	daemon = "clstrmgr_scripts"
+	type = "resource_locator"
+	object = "DX979_RSG"
+	value = "RELEASING"
+==== EXITED with rc 0 ====
+==== END odmget HACMPdaemons Mon Jul  6 23:23:35 GST 2015 ====

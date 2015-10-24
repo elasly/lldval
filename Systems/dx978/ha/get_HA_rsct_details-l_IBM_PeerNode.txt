@@ -1,0 +1,17 @@
+==== This output can be found in Systems/dx978/ha/get_HA_rsct_details-l_IBM_PeerNode.txt ====
+==== START get_HA_rsct_details -l IBM.PeerNode Mon Jul  6 23:43:21 GST 2015 ====
+Resource Persistent Attributes for IBM.PeerNode
+resource 1:
+	Name               = "DX978"
+	NodeList           = {2}
+	RSCTVersion        = "3.2.0.0"
+	ClassVersions      = {}
+	CritRsrcProtMethod = 0
+	IsQuorumNode       = 1
+	IsPreferredGSGL    = 1
+	NodeUUID           = "8dddd41c-d862-11e4-bbce-4a64d4904005"
+	HostName           = "DX978"
+	ActivePeerDomain   = "DX977_cluster"
+	NodeNameList       = {"DX978"}
+==== EXITED with rc 0 ====
+==== END get_HA_rsct_details -l IBM.PeerNode Mon Jul  6 23:43:21 GST 2015 ====

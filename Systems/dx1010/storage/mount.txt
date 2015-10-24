@@ -1,0 +1,18 @@
+==== This output can be found in Systems/dx1010/storage/mount.txt ====
+==== START mount Tue Jul  7 13:13:38 CDT 2015 ====
+  node       mounted        mounted over    vfs       date        options      
+-------- ---------------  ---------------  ------ ------------ --------------- 
+         /dev/hd4         /                jfs2   Apr 16 08:59 rw,log=/dev/hd8 
+         /dev/hd2         /usr             jfs2   Apr 16 08:59 rw,log=/dev/hd8 
+         /dev/hd9var      /var             jfs2   Apr 16 08:59 rw,log=/dev/hd8 
+         /dev/hd3         /tmp             jfs2   Apr 16 09:00 rw,log=/dev/hd8 
+         /dev/VMLibrary   /var/vio/VMLibrary jfs2   Apr 16 09:00 rw,log=INLINE   
+         /dev/hd1         /home            jfs2   Apr 16 09:01 rw,log=/dev/hd8 
+         /dev/hd11admin   /admin           jfs2   Apr 16 09:01 rw,log=/dev/hd8 
+         /proc            /proc            procfs Apr 16 09:01 rw              
+         /dev/hd10opt     /opt             jfs2   Apr 16 09:01 rw,log=/dev/hd8 
+         /dev/livedump    /var/adm/ras/livedump jfs2   Apr 16 09:01 rw,log=/dev/hd8 
+         /dev/perfdatalv  /perfdata        jfs2   Apr 16 09:01 rw,log=/dev/hd8 
+         /ahafs           /aha             ahafs  Apr 16 09:01 rw              
+==== EXITED with rc 0 ====
+==== END mount Tue Jul  7 13:13:38 CDT 2015 ====

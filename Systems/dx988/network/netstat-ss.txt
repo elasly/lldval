@@ -1,0 +1,71 @@
+==== This output can be found in Systems/dx988/network/netstat-ss.txt ====
+==== START netstat -ss Thu Aug  6 11:20:36 GST 2015 ====
+icmp:
+	113 calls to icmp_error
+	Output histogram:
+		echo reply: 74
+		destination unreachable: 113
+		echo: 1132
+	Input histogram:
+		echo reply: 1216
+		destination unreachable: 12
+		echo: 77
+	74 message responses generated
+igmp:
+	18 membership reports sent
+tcp:
+	33360 packets sent
+		28081 data packets (24372185 bytes)
+		2987 ack-only packets (2003 delayed)
+		2024 window update packets
+		536 control packets
+	25619 packets received
+		14248 acks (for 24372138 bytes)
+		87 duplicate acks
+		13912 packets (12061942 bytes) received in-sequence
+		1 completely duplicate packet (0 bytes)
+		77 out-of-order packets (0 bytes)
+		185 window update packets
+		13 packets received after close
+		1 discarded by listeners
+		8337 ack packet headers correctly predicted
+		10318 data packet headers correctly predicted
+	102 connection requests
+	93 connection accepts
+	189 connections established (including accepts)
+	651 connections closed (including 7 drops)
+	5 embryonic connections dropped
+	14344 segments updated rtt (of 14201 attempts)
+	1 retransmit timeout
+	1 connection in timewait reused
+udp:
+	6499 datagrams received
+	158 dropped due to no socket
+	1019 broadcast/multicast datagrams dropped due to no socket
+	5322 delivered
+	5424 datagrams output
+ip:
+	33528 total packets received
+	33350 packets for this host
+	14 packets for unknown/unsupported protocol
+	60 packets not forwardable
+	40062 packets sent from this host
+	99 packets dropped due to the full socket receive buffer
+
+ipv6:
+	104 total packets received
+	Input histogram:
+		TCP: 14
+		UDP: 45
+		ICMP v6: 45
+	104 packets for this host
+	104 packets sent from this host
+	26 output packets discarded due to no route
+icmpv6:
+	45 calls to icmp6_error
+	Output histogram:
+		unreachable: 45
+	Input histogram:
+		unreachable: 45
+==== EXITED with rc 0 ====
+==== END netstat -ss Thu Aug  6 11:20:36 GST 2015 ====

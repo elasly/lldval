@@ -1,0 +1,13 @@
+==== This output can be found in Systems/dx979/network/no-a_grep-^E_send_recv.txt ====
+==== START no -a | grep -E "send|recv" Tue Jul  7 00:42:07 GST 2015 ====
+          ipsendredirects = 1
+           ipsrcrouterecv = 0
+           ipsrcroutesend = 1
+       send_file_duration = 300
+            tcp_recvspace = 262144
+            tcp_sendspace = 262144
+            udp_recv_perf = 0
+            udp_recvspace = 655360
+            udp_sendspace = 65536
+==== EXITED with rc 0 ====
+==== END no -a | grep -E "send|recv" Tue Jul  7 00:42:07 GST 2015 ====

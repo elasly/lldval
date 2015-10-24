@@ -1,0 +1,9 @@
+==== This output can be found in Systems/dx975/os/iostat-^AQ.txt ====
+==== START iostat -AQ Tue Jul  7 12:46:25 CDT 2015 ====
+iostat: 0551-157 Asynchronous I/O not configured on the system.
+
+System configuration: lcpu=24 ent=2.00 maxserver=720
+
+aio: avgc avfc maxgc maxfc maxreqs avg-cpu: % user % sys % idle % iowait physc % entc
+==== EXITED with rc 0 ====
+==== END iostat -AQ Tue Jul  7 12:46:25 CDT 2015 ====

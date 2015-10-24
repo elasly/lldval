@@ -1,0 +1,82 @@
+==== This output can be found in Systems/dx1011/storage/for_j_in_lspv_egrep_active_concurrent_awk_print_3_.txt ====
+==== START for j in $(lspv | egrep "active|concurrent" | awk '{print $3}' | sort -u | lsvg -il | egrep -v "LV NAME|:" | awk '{print $1}'); do echo "#### LV $j ####";lslv $j |grep COPIES | awk '{print $1 " " $2}' ; echo ""; done Tue Jul  7 13:42:43 CDT 2015 ====
+#### LV hd5 ####
+COPIES: 2
+
+#### LV hd6 ####
+COPIES: 2
+
+#### LV paging00 ####
+COPIES: 2
+
+#### LV hd8 ####
+COPIES: 2
+
+#### LV hd4 ####
+COPIES: 2
+
+#### LV hd2 ####
+COPIES: 2
+
+#### LV hd9var ####
+COPIES: 2
+
+#### LV hd3 ####
+COPIES: 2
+
+#### LV hd1 ####
+COPIES: 2
+
+#### LV hd10opt ####
+COPIES: 2
+
+#### LV hd11admin ####
+COPIES: 2
+
+#### LV livedump ####
+COPIES: 2
+
+#### LV lg_dumplv ####
+COPIES: 1
+
+#### LV vioupdatelv ####
+COPIES: 1
+
+#### LV perfdatalv ####
+COPIES: 1
+
+#### LV vhdisk0 ####
+COPIES: 1
+
+#### LV vhdisk1 ####
+COPIES: 1
+
+#### LV vhdisk2 ####
+COPIES: 1
+
+#### LV vhdisk3 ####
+COPIES: 1
+
+#### LV vhdisk4 ####
+COPIES: 1
+
+#### LV vhdisk5 ####
+COPIES: 1
+
+#### LV vhdisk6 ####
+COPIES: 1
+
+#### LV vhdisk7 ####
+COPIES: 1
+
+#### LV vhdisk8 ####
+COPIES: 1
+
+#### LV vhdisk9 ####
+COPIES: 1
+
+#### LV VMLibrary ####
+COPIES: 1
+
+==== EXITED with rc 0 ====
+==== END for j in $(lspv | egrep "active|concurrent" | awk '{print $3}' | sort -u | lsvg -il | egrep -v "LV NAME|:" | awk '{print $1}'); do echo "#### LV $j ####";lslv $j |grep COPIES | awk '{print $1 " " $2}' ; echo ""; done Tue Jul  7 13:42:45 CDT 2015 ====

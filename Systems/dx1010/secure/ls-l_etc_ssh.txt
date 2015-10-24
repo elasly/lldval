@@ -1,0 +1,14 @@
+==== This output can be found in Systems/dx1010/secure/ls-l_etc_ssh.txt ====
+==== START ls -l /etc/ssh Tue Jul  7 13:13:37 CDT 2015 ====
+total 328
+-rw-------    1 root     system       132839 Oct 28 2013  moduli
+-rw-r--r--    1 root     system         1555 Oct 28 2013  ssh_config
+-rw-------    1 root     system          668 May 15 2014  ssh_host_dsa_key
+-rw-r--r--    1 root     system          604 May 15 2014  ssh_host_dsa_key.pub
+-rw-------    1 root     system          979 May 15 2014  ssh_host_key
+-rw-r--r--    1 root     system          644 May 15 2014  ssh_host_key.pub
+-rw-------    1 root     system         1679 May 15 2014  ssh_host_rsa_key
+-rw-r--r--    1 root     system          396 May 15 2014  ssh_host_rsa_key.pub
+-rw-r--r--    1 root     system         3177 May 15 2014  sshd_config
+==== EXITED with rc 0 ====
+==== END ls -l /etc/ssh Tue Jul  7 13:13:37 CDT 2015 ====

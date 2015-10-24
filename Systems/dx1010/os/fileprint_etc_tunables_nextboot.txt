@@ -1,0 +1,25 @@
+==== This output can be found in Systems/dx1010/os/fileprint_etc_tunables_nextboot.txt ====
+==== START fileprint /etc/tunables/nextboot Tue Jul  7 13:13:45 CDT 2015 ====
+==== BEGIN Contents of /etc/tunables/nextboot ====
+# IBM_PROLOG_BEGIN_TAG 
+# This is an automatically generated prolog. 
+#  
+# bos610 src/bos/usr/sbin/perf/tune/nextboot 1.1 
+#  
+# Licensed Materials - Property of IBM 
+#  
+# COPYRIGHT International Business Machines Corp. 2002 
+# All Rights Reserved 
+#  
+# US Government Users Restricted Rights - Use, duplication or 
+# disclosure restricted by GSA ADP Schedule Contract with IBM Corp. 
+#  
+# IBM_PROLOG_END_TAG 
+
+vmo:
+
+schedo:
+	vpm_fold_policy = "4"
+==== END Contents of /etc/tunables/nextboot ====
+==== EXITED with rc 0 ====
+==== END fileprint /etc/tunables/nextboot Tue Jul  7 13:13:45 CDT 2015 ====

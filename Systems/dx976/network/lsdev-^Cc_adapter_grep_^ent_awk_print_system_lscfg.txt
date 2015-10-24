@@ -1,0 +1,160 @@
+==== This output can be found in Systems/dx976/network/lsdev-^Cc_adapter_grep_^ent_awk_print_system_lscfg.txt ====
+==== START lsdev -Cc adapter | grep ^ent | awk '{print "";system("lscfg -vl " $1)}' Tue Jul  7 13:07:56 CDT 2015 ====
+lscfg: device ent15 not found.
+lscfg: device ent16 not found.
+
+  ent0             U2C4E.001.DBJZ836-P2-C3-T1  PCIe2 10GbE SFP+ SR 4-port Converged Network Adapter (df1020e214100f04)
+
+      PCIe2 4-port (2 10GbE+2 1GbE) FCoE+NIC SRIOV Adapter, NIC PF:
+        Part Number.................00E3497
+        Serial Number...............1A439005CA
+        EC Level....................D77535
+        Customer Card ID Number.....2B93
+        Network Address.............0090FA7E977B
+        ROM Level.(alterable).......10.2.252.9
+        Hardware Location Code......U2C4E.001.DBJZ836-P2-C3-T1
+
+
+  ent1             U2C4E.001.DBJZ836-P2-C3-T2  PCIe2 10GbE SFP+ SR 4-port Converged Network Adapter (df1020e214100f04)
+
+      PCIe2 4-port (2 10GbE+2 1GbE) FCoE+NIC SRIOV Adapter, NIC PF:
+        Part Number.................00E3497
+        Serial Number...............1A439005CA
+        EC Level....................D77535
+        Customer Card ID Number.....2B93
+        Network Address.............0090FA7E977C
+        ROM Level.(alterable).......10.2.252.9
+        Hardware Location Code......U2C4E.001.DBJZ836-P2-C3-T2
+
+
+  ent2             U2C4E.001.DBJZ836-P2-C3-T3  PCIe2 100/1000 Base-TX 4-port Converged Network Adapter (df1020e214103c04)
+
+      PCIe2 4-port (2 10GbE+2 1GbE) FCoE+NIC SRIOV Adapter, NIC PF:
+        Part Number.................00E3497
+        Serial Number...............1A439005CA
+        EC Level....................D77535
+        Customer Card ID Number.....2B93
+        Network Address.............0090FA7E977D
+        ROM Level.(alterable).......10.2.252.9
+        Hardware Location Code......U2C4E.001.DBJZ836-P2-C3-T3
+
+
+  ent3             U2C4E.001.DBJZ836-P2-C3-T4  PCIe2 100/1000 Base-TX 4-port Converged Network Adapter (df1020e214103c04)
+
+      PCIe2 4-port (2 10GbE+2 1GbE) FCoE+NIC SRIOV Adapter, NIC PF:
+        Part Number.................00E3497
+        Serial Number...............1A439005CA
+        EC Level....................D77535
+        Customer Card ID Number.....2B93
+        Network Address.............0090FA7E977E
+        ROM Level.(alterable).......10.2.252.9
+        Hardware Location Code......U2C4E.001.DBJZ836-P2-C3-T4
+
+
+  ent4             U2C4E.001.DBJZ836-P2-C6-T1  PCIe2 10GbE SFP+ SR 4-port Converged Network Adapter (df1020e214100f04)
+
+      PCIe2 4-port (2 10GbE+2 1GbE) FCoE+NIC SRIOV Adapter, NIC PF:
+        Part Number.................00E3497
+        Serial Number...............1A43900018
+        EC Level....................D77535
+        Customer Card ID Number.....2B93
+        Network Address.............0090FA7E9893
+        ROM Level.(alterable).......10.2.252.9
+        Hardware Location Code......U2C4E.001.DBJZ836-P2-C6-T1
+
+
+  ent5             U2C4E.001.DBJZ836-P2-C6-T2  PCIe2 10GbE SFP+ SR 4-port Converged Network Adapter (df1020e214100f04)
+
+      PCIe2 4-port (2 10GbE+2 1GbE) FCoE+NIC SRIOV Adapter, NIC PF:
+        Part Number.................00E3497
+        Serial Number...............1A43900018
+        EC Level....................D77535
+        Customer Card ID Number.....2B93
+        Network Address.............0090FA7E9894
+        ROM Level.(alterable).......10.2.252.9
+        Hardware Location Code......U2C4E.001.DBJZ836-P2-C6-T2
+
+
+  ent6             U2C4E.001.DBJZ836-P2-C6-T3  PCIe2 100/1000 Base-TX 4-port Converged Network Adapter (df1020e214103c04)
+
+      PCIe2 4-port (2 10GbE+2 1GbE) FCoE+NIC SRIOV Adapter, NIC PF:
+        Part Number.................00E3497
+        Serial Number...............1A43900018
+        EC Level....................D77535
+        Customer Card ID Number.....2B93
+        Network Address.............0090FA7E9895
+        ROM Level.(alterable).......10.2.252.9
+        Hardware Location Code......U2C4E.001.DBJZ836-P2-C6-T3
+
+
+  ent7             U2C4E.001.DBJZ836-P2-C6-T4  PCIe2 100/1000 Base-TX 4-port Converged Network Adapter (df1020e214103c04)
+
+      PCIe2 4-port (2 10GbE+2 1GbE) FCoE+NIC SRIOV Adapter, NIC PF:
+        Part Number.................00E3497
+        Serial Number...............1A43900018
+        EC Level....................D77535
+        Customer Card ID Number.....2B93
+        Network Address.............0090FA7E9896
+        ROM Level.(alterable).......10.2.252.9
+        Hardware Location Code......U2C4E.001.DBJZ836-P2-C6-T4
+
+
+  ent8             U9179.MHD.21ADA1V-V2-C4-T1  Virtual I/O Ethernet Adapter (l-lan)
+
+        Network Address.............4A64D5806D04
+        Displayable Message.........Virtual I/O Ethernet Adapter (l-lan)
+        Hardware Location Code......U9179.MHD.21ADA1V-V2-C4-T1
+
+
+  ent9             U9179.MHD.21ADA1V-V2-C5-T1  Virtual I/O Ethernet Adapter (l-lan)
+
+        Network Address.............4A64D5806D05
+        Displayable Message.........Virtual I/O Ethernet Adapter (l-lan)
+        Hardware Location Code......U9179.MHD.21ADA1V-V2-C5-T1
+
+
+  ent10            U9179.MHD.21ADA1V-V2-C6-T1  Virtual I/O Ethernet Adapter (l-lan)
+
+        Network Address.............4A64D5806D06
+        Displayable Message.........Virtual I/O Ethernet Adapter (l-lan)
+        Hardware Location Code......U9179.MHD.21ADA1V-V2-C6-T1
+
+
+  ent11            U9179.MHD.21ADA1V-V2-C7-T1  Virtual I/O Ethernet Adapter (l-lan)
+
+        Network Address.............4A64D5806D07
+        Displayable Message.........Virtual I/O Ethernet Adapter (l-lan)
+        Hardware Location Code......U9179.MHD.21ADA1V-V2-C7-T1
+
+
+  ent12            U9179.MHD.21ADA1V-V2-C8-T1  Virtual I/O Ethernet Adapter (l-lan)
+
+        Network Address.............4A64D5806D08
+        Displayable Message.........Virtual I/O Ethernet Adapter (l-lan)
+        Hardware Location Code......U9179.MHD.21ADA1V-V2-C8-T1
+
+
+  ent13            U9179.MHD.21ADA1V-V2-C9-T1  Virtual I/O Ethernet Adapter (l-lan)
+
+        Network Address.............4A64D5806D09
+        Displayable Message.........Virtual I/O Ethernet Adapter (l-lan)
+        Hardware Location Code......U9179.MHD.21ADA1V-V2-C9-T1
+
+
+  ent14            U9179.MHD.21ADA1V-V2-C10-T1  Virtual I/O Ethernet Adapter (l-lan)
+
+        Network Address.............4A64D5806D0A
+        Displayable Message.........Virtual I/O Ethernet Adapter (l-lan)
+        Hardware Location Code......U9179.MHD.21ADA1V-V2-C10-T1
+
+
+
+
+  ent17            U9179.MHD.21ADA1V-V2-C12-T1  Virtual I/O Ethernet Adapter (l-lan)
+
+        Network Address.............4A64D5806D0C
+        Displayable Message.........Virtual I/O Ethernet Adapter (l-lan)
+        Hardware Location Code......U9179.MHD.21ADA1V-V2-C12-T1
+
+==== EXITED with rc 0 ====
+==== END lsdev -Cc adapter | grep ^ent | awk '{print "";system("lscfg -vl " $1)}' Tue Jul  7 13:07:59 CDT 2015 ====

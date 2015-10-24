@@ -1,0 +1,52 @@
+==== This output can be found in Systems/dx979/perf/ipcs-mb.txt ====
+==== START ipcs -mb Tue Jul  7 00:32:52 GST 2015 ====
+IPC status from /dev/mem as of Tue Jul  7 00:32:52 GST 2015
+T        ID     KEY        MODE       OWNER    GROUP     SEGSZ
+Shared Memory:
+m         0 0x78000460 --rw-rw-rw-     root   system 222696000
+m         1 0x78000100 --rw-rw-rw-     root   system  33554432
+m         2 0x78100100 --rw-rw-rw-     root   system  33554432
+m         3 0x780003ff --rw-rw-rw-     root   system      2656
+m  54525956 0xffffffff D-rw------- pconsole   system 536870912
+m         5 0x0100d341 --rw-rw-r--     root   system      4192
+m         6 0x0100d2bb --rw-rw-r--     root   system      4192
+m         7 0x0100d34d --rw-rw-r--     root   system      4192
+m   1048584 0x0100d361 --rw-rw-r--     root   system      4192
+m   1048585 0x0100d366 --rw-rw-r--     root   system      4192
+m   2097162 0x0100d36c --rw-rw-r--     root   system      4192
+m   5242891 0x0100d26e --rw-rw-r--     root   system      4192
+m   3145740 0x0100d270 --rw-rw-r--     root   system      4192
+m   1048589 0x0100d272 --rw-rw-r--     root   system      4192
+m   3145742 0x6100005a --rw------- pconsole   system  10485760
+m   1048591 0x06347849 --rw-rw-rw-     root   system     65544
+m   6291472 0x0c6629c9 --rw-r-----     root   system   2994600
+m        17 0x3100d380 --rw-rw-rw-     root   system    131176
+m   1048594 0x0100d378 --rw-rw-r--     root   system      4192
+m        19 0x41061b56 --rw-------     root   system     53764
+m        20 0x43061b56 --rw-------     root   system       424
+m        21 0x010086e9 --rw-------     root   system     12288
+m  14680086 0xffffffff D-rw-------   gprsgg oinstall     65536
+m 874512409 0x0100d276 --rw-rw-r--     root   system      4192
+m 326107166 0x00006e71 --rw-rw----   gprsgg oinstall   2596864
+m   3145759 0xffffffff D-rw-------   gprsgg oinstall 1073741824
+m  20971553 0xffffffff D-rw-------   gprsgg oinstall     65536
+m   3145762 0xffffffff D-rw-------   gprsgg oinstall 268435456
+m  25165860   00000000 --rw-r-----   oracle oinstall 536870912
+m 200278053 0xffffffff D-rw-------   gprsgg oinstall     65536
+m   8388647   00000000 --rw-r-----   oracle oinstall 75161927680
+m  16777259 0xffffffff D-rw-------   gprsgg oinstall     65536
+m  16777262 0xffffffff D-rw-------   gprsgg oinstall     65536
+m  15728688 0xffffffff D-rw-------   gprsgg oinstall 268435456
+m 501219386 0xffffffff D-rw-rw----   gprsgg oinstall   2596864
+m  88080445 0x00006e70 --rw-rw----   gprsgg oinstall   3137536
+m  32505919 0x00006e72 --rw-rw----   gprsgg oinstall    270336
+m   3145793 0x40a480e0 --rw-r-----   oracle oinstall     12288
+m  34603078 0xffffffff D-rw-------   gprsgg oinstall     65536
+m 942669901 0xffffffff D-rw-------   gprsgg oinstall     65536
+m   7340117 0xffffffff D-rw-------   gprsgg oinstall     65536
+m 711983192 0xffffffff D-rw-rw----   gprsgg oinstall    270336
+m 522190941 0xffffffff D-rw-rw----   gprsgg oinstall   3137536
+m   9437286 0xffffffff D-rw-------   gprsgg oinstall     65536
+m   1048680 0xffffffff D-rw-------   gprsgg oinstall     65536
+==== EXITED with rc 0 ====
+==== END ipcs -mb Tue Jul  7 00:32:52 GST 2015 ====

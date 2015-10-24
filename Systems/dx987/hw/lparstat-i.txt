@@ -1,0 +1,48 @@
+==== This output can be found in Systems/dx987/perf/lparstat-i.txt ====
+==== START lparstat -i  Mon Jul  6 23:51:35 GST 2015 ====
+Node Name                                  : DX987
+Partition Name                             : NESS-P
+Partition Number                           : 24
+Type                                       : Shared-SMT-4
+Mode                                       : Uncapped
+Entitled Capacity                          : 3.60
+Partition Group-ID                         : 32792
+Shared Pool ID                             : 0
+Online Virtual CPUs                        : 8
+Maximum Virtual CPUs                       : 16
+Minimum Virtual CPUs                       : 4
+Online Memory                              : 99328 MB
+Maximum Memory                             : 131072 MB
+Minimum Memory                             : 33792 MB
+Variable Capacity Weight                   : 127
+Minimum Capacity                           : 2.00
+Maximum Capacity                           : 8.00
+Capacity Increment                         : 0.01
+Maximum Physical CPUs in system            : 64
+Active Physical CPUs in system             : 36
+Active CPUs in Pool                        : 36
+Shared Physical CPUs in system             : 36
+Maximum Capacity of Pool                   : 3600
+Entitled Capacity of Pool                  : 1980
+Unallocated Capacity                       : 0.00
+Physical CPU Percentage                    : 45.00%
+Unallocated Weight                         : 0
+Memory Mode                                : Dedicated
+Total I/O Memory Entitlement               : -
+Variable Memory Capacity Weight            : -
+Memory Pool ID                             : -
+Physical Memory in the Pool                : -
+Hypervisor Page Size                       : -
+Unallocated Variable Memory Capacity Weight: -
+Unallocated I/O Memory entitlement         : -
+Memory Group ID of LPAR                    : -
+Desired Virtual CPUs                       : 8
+Desired Memory                             : 99328 MB
+Desired Variable Capacity Weight           : 127
+Desired Capacity                           : 3.60
+Target Memory Expansion Factor             : -
+Target Memory Expansion Size               : -
+Power Saving Mode                          : Dynamic Power Savings (Favor Performance)
+Sub Processor Mode                         : -
+==== EXITED with rc 0 ====
+==== END lparstat -i  Mon Jul  6 23:51:35 GST 2015 ====

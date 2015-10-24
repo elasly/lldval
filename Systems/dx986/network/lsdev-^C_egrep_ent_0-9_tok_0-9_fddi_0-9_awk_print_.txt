@@ -1,0 +1,100 @@
+==== This output can be found in Systems/dx986/network/lsdev-^C_egrep_ent_0-9_tok_0-9_fddi_0-9_awk_print_.txt ====
+==== START lsdev -C | egrep "ent[0-9]|tok[0-9]|fddi[0-9]" | awk '{print "#### Network adapter: " $1 " ####";system("lsattr -El " $1);print "############\n"}' Tue Jul  7 00:57:23 GST 2015 ====
+#### Network adapter: ent0 ####
+alt_addr        0x000000000000 Alternate Ethernet Address                 True
+chksum_offload  yes            Checksum Offload Enable                    True
+copy_buffs      32             Transmit Copy Buffers                      True
+copy_bytes      65536          Transmit Copy Buffer Size                  True
+desired_mapmem  0              I/O memory entitlement reserved for device False
+max_buf_control 64             Maximum Control Buffers                    True
+max_buf_huge    96             Maximum Huge Buffers                       True
+max_buf_large   128            Maximum Large Buffers                      True
+max_buf_medium  1024           Maximum Medium Buffers                     True
+max_buf_small   4096           Maximum Small Buffers                      True
+max_buf_tiny    4096           Maximum Tiny Buffers                       True
+min_buf_control 24             Minimum Control Buffers                    True
+min_buf_huge    96             Minimum Huge Buffers                       True
+min_buf_large   128            Minimum Large Buffers                      True
+min_buf_medium  1024           Minimum Medium Buffers                     True
+min_buf_small   4096           Minimum Small Buffers                      True
+min_buf_tiny    4096           Minimum Tiny Buffers                       True
+poll_uplink     no             Enable Uplink Polling                      True
+poll_uplink_int 1000           Time interval for Uplink Polling           True
+trace_debug     no             Trace Debug Enable                         True
+use_alt_addr    no             Enable Alternate Ethernet Address          True
+############
+
+#### Network adapter: ent1 ####
+alt_addr        0x000000000000 Alternate Ethernet Address                 True
+chksum_offload  yes            Checksum Offload Enable                    True
+copy_buffs      32             Transmit Copy Buffers                      True
+copy_bytes      65536          Transmit Copy Buffer Size                  True
+desired_mapmem  0              I/O memory entitlement reserved for device False
+max_buf_control 64             Maximum Control Buffers                    True
+max_buf_huge    96             Maximum Huge Buffers                       True
+max_buf_large   128            Maximum Large Buffers                      True
+max_buf_medium  1024           Maximum Medium Buffers                     True
+max_buf_small   4096           Maximum Small Buffers                      True
+max_buf_tiny    4096           Maximum Tiny Buffers                       True
+min_buf_control 24             Minimum Control Buffers                    True
+min_buf_huge    96             Minimum Huge Buffers                       True
+min_buf_large   128            Minimum Large Buffers                      True
+min_buf_medium  1024           Minimum Medium Buffers                     True
+min_buf_small   4096           Minimum Small Buffers                      True
+min_buf_tiny    4096           Minimum Tiny Buffers                       True
+poll_uplink     no             Enable Uplink Polling                      True
+poll_uplink_int 1000           Time interval for Uplink Polling           True
+trace_debug     no             Trace Debug Enable                         True
+use_alt_addr    no             Enable Alternate Ethernet Address          True
+############
+
+#### Network adapter: ent2 ####
+alt_addr        0x000000000000 Alternate Ethernet Address                 True
+chksum_offload  yes            Checksum Offload Enable                    True
+copy_buffs      32             Transmit Copy Buffers                      True
+copy_bytes      65536          Transmit Copy Buffer Size                  True
+desired_mapmem  0              I/O memory entitlement reserved for device False
+max_buf_control 64             Maximum Control Buffers                    True
+max_buf_huge    96             Maximum Huge Buffers                       True
+max_buf_large   128            Maximum Large Buffers                      True
+max_buf_medium  1024           Maximum Medium Buffers                     True
+max_buf_small   4096           Maximum Small Buffers                      True
+max_buf_tiny    4096           Maximum Tiny Buffers                       True
+min_buf_control 24             Minimum Control Buffers                    True
+min_buf_huge    96             Minimum Huge Buffers                       True
+min_buf_large   128            Minimum Large Buffers                      True
+min_buf_medium  1024           Minimum Medium Buffers                     True
+min_buf_small   4096           Minimum Small Buffers                      True
+min_buf_tiny    4096           Minimum Tiny Buffers                       True
+poll_uplink     no             Enable Uplink Polling                      True
+poll_uplink_int 1000           Time interval for Uplink Polling           True
+trace_debug     no             Trace Debug Enable                         True
+use_alt_addr    no             Enable Alternate Ethernet Address          True
+############
+
+#### Network adapter: ent3 ####
+alt_addr        0x000000000000 Alternate Ethernet Address                 True
+chksum_offload  yes            Checksum Offload Enable                    True
+copy_buffs      32             Transmit Copy Buffers                      True
+copy_bytes      65536          Transmit Copy Buffer Size                  True
+desired_mapmem  0              I/O memory entitlement reserved for device False
+max_buf_control 64             Maximum Control Buffers                    True
+max_buf_huge    96             Maximum Huge Buffers                       True
+max_buf_large   128            Maximum Large Buffers                      True
+max_buf_medium  1024           Maximum Medium Buffers                     True
+max_buf_small   4096           Maximum Small Buffers                      True
+max_buf_tiny    4096           Maximum Tiny Buffers                       True
+min_buf_control 24             Minimum Control Buffers                    True
+min_buf_huge    96             Minimum Huge Buffers                       True
+min_buf_large   128            Minimum Large Buffers                      True
+min_buf_medium  1024           Minimum Medium Buffers                     True
+min_buf_small   4096           Minimum Small Buffers                      True
+min_buf_tiny    4096           Minimum Tiny Buffers                       True
+poll_uplink     no             Enable Uplink Polling                      True
+poll_uplink_int 1000           Time interval for Uplink Polling           True
+trace_debug     no             Trace Debug Enable                         True
+use_alt_addr    no             Enable Alternate Ethernet Address          True
+############
+
+==== EXITED with rc 0 ====
+==== END lsdev -C | egrep "ent[0-9]|tok[0-9]|fddi[0-9]" | awk '{print "#### Network adapter: " $1 " ####";system("lsattr -El " $1);print "############\n"}' Tue Jul  7 00:57:23 GST 2015 ====

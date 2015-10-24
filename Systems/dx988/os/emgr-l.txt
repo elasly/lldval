@@ -1,0 +1,25 @@
+==== This output can be found in Systems/dx988/os/emgr-l.txt ====
+==== START emgr -l Thu Aug  6 11:13:41 GST 2015 ====
+
+ID  STATE LABEL      INSTALL TIME      UPDATED BY ABSTRACT
+=== ===== ========== ================= ========== ======================================
+1    S    IV69760    08/06/15 10:49:59            Efix for IV69760 & IV69674            
+
+STATE codes:
+ S = STABLE
+ M = MOUNTED
+ U = UNMOUNTED
+ Q = REBOOT REQUIRED
+ B = BROKEN
+ I = INSTALLING
+ R = REMOVING
+ T = TESTED
+ P = PATCHED
+ N = NOT PATCHED
+ SP = STABLE + PATCHED
+ SN = STABLE + NOT PATCHED
+ QP = BOOT IMAGE MODIFIED + PATCHED
+ QN = BOOT IMAGE MODIFIED + NOT PATCHED
+ RQ = REMOVING + REBOOT REQUIRED
+==== EXITED with rc 0 ====
+==== END emgr -l Thu Aug  6 11:13:41 GST 2015 ====

@@ -1,0 +1,98 @@
+==== This output can be found in Systems/dx980/os/fileprint_etc_cronlog_conf.txt ====
+==== START fileprint /etc/cronlog.conf Mon Jul  6 23:12:47 GST 2015 ====
+==== BEGIN Contents of /etc/cronlog.conf ====
+# IBM_PROLOG_BEGIN_TAG 
+# This is an automatically generated prolog. 
+#  
+# bos610 src/bos/etc/cron/cronlog.conf 1.2 
+#  
+# Licensed Materials - Property of IBM 
+#  
+# Restricted Materials of IBM 
+#  
+# COPYRIGHT International Business Machines Corp. 2004,2006 
+# All Rights Reserved 
+#  
+# US Government Users Restricted Rights - Use, duplication or 
+# disclosure restricted by GSA ADP Schedule Contract with IBM Corp. 
+#  
+# @(#)90        1.2  src/bos/etc/cron/cronlog.conf, cmdcntl, bos610 11/3/06 01:08:26
+# IBM_PROLOG_END_TAG 
+
+# The configuration file informs the cron daemon where and how to log the information. 
+# If you do not use the -f flag, the cron daemon reads the default "/etc/cronlog.conf" 
+# configuration file. 
+# If cron fails to open the configuration file it continues with "/var/adm/cron/log". 
+
+# The cron daemon ignores blank lines and lines beginning with a # (pound sign).
+
+# Format 
+
+# logfile Full path name of the log file. File is created with permission 664 if it doesn't exist.
+# Log file should not be created in "/" file system. If cron is not able to create
+# the logfile name, it creates a log of its activities in /var/adm/cron/log file 
+# and all the below features will be turned off.
+
+# size This keyword limits the size of a logfile. It is followed by a number and either
+# a k (kilobytes) or m(megabytes). The default and minimum size is 30K. If the size
+# value is invalid then rotation feature is turned off. 
+
+# rotate This keyword specifies the total number of rotated files. It is followed by a number.
+# if a number is not specified then there are unlimited number of rotated files.
+# If keyword is not present then no rotation is done.
+# If specified, then minimum of number of rotated files is 2. 
+
+# compress This keyword specifies that the saved rotated files will be compressed.
+# If keyword is not present then no compression is done. 
+
+# archive This keyword specifies that the saved rotated files will be copied to a directory.
+# It is followed by the directory name. If archive is not specified and rotation is
+# valid then files are rotated in the directory of logfile. 
+
+# quiet This keyword specifies that cron logging will be disabled. 
+
+# Examples 
+
+# 1. To log information in directory /home/user, log file cron.out, size of 2M ,
+# total number of rotated files = 4, archive in /usr/home, compress archive files,
+# create the configuration file as follows: 
+
+# logfile=/home/user/cron.out 
+# size=2m 
+# rotate=4 
+# archive=/usr/home 
+# compress 
+
+# 2. To log information in directory /home/user, log file cron.out, size of 50k ,
+# unlimited log files, archive in /usr/home, compress archive files,
+# create the configuration file as follows: 
+
+# logfile=/home/user/cron.out 
+# size=50k 
+# rotate 
+# archive=/usr/home 
+# compress 
+
+# 3. To log information in directory /home/user, log file cron.out, size of 50k ,
+# total number of rotated files = 4, create the configuration file as follows: 
+
+# logfile=/home/user/cron.out 
+# size=50K 
+# rotate=4 
+# As archive is not specified the files will be rotated in "/home/user". 
+
+# 4. To log information in directory /home/user, log file cron.out, size of 50k ,
+# total number of rotated files = 4, archive in /usr/home, archive files without 
+# compression,  no logging of cron jobs, create the configuration file as follows: 
+
+# logfile=/home/user/cron.out 
+# size=50K 
+# rotate=4 
+# archive=/usr/home 
+# quiet 
+# In this case cron.out will contain only debug or error messages. 
+
+# For better performance the increase the size parameter and reduce the rotate parameter.
+==== END Contents of /etc/cronlog.conf ====
+==== EXITED with rc 0 ====
+==== END fileprint /etc/cronlog.conf Mon Jul  6 23:12:47 GST 2015 ====

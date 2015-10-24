@@ -1,0 +1,30 @@
+==== This output can be found in Systems/dx978/perf/vmstat-s.txt ====
+==== START vmstat -s  Mon Jul  6 23:33:15 GST 2015 ====
+           2334698618 total address trans. faults
+              5165831 page ins
+             34825695 page outs
+                    0 paging space page ins
+                    0 paging space page outs
+                    0 total reclaims
+            707953683 zero filled pages faults
+              4078098 executable filled pages faults
+                    0 pages examined by clock
+                    0 revolutions of the clock hand
+                    0 pages freed by the clock
+             27973793 backtracks
+                    0 free frame waits
+                    0 extend XPT waits
+               203966 pending I/O waits
+             39991681 start I/Os
+              7391911 iodones
+          13561553242 cpu context switches
+            157001690 device interrupts
+            426080870 software interrupts
+           2643302760 decrementer interrupts
+               983692 mpc-sent interrupts
+               967961 mpc-received interrupts
+             34510345 phantom interrupts
+                    0 traps
+          59487808275 syscalls
+==== EXITED with rc 0 ====
+==== END vmstat -s  Mon Jul  6 23:33:15 GST 2015 ====

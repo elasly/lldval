@@ -1,0 +1,293 @@
+==== This output can be found in Systems/dx988/storage/for_i_in_lspv_egrep_active_concurrent_awk_print_3_.txt ====
+==== START for i in $(lspv | egrep "active|concurrent" | awk '{print $3}' | sort -u | lsvg -i -l | egrep -v "LV NAME|:" | awk '{print $1}'); do echo "#### LV $i ####";lslv $i; echo ""; done Thu Aug  6 11:19:55 GST 2015 ====
+#### LV caalv_private1 ####
+LOGICAL VOLUME:     caalv_private1         VOLUME GROUP:   caavg_private
+LV IDENTIFIER:      00f92eec00004c000000014f01bf95e1.1 PERMISSION:     read/write
+VG STATE:           active/complete        LV STATE:       closed/syncd
+TYPE:               boot                   WRITE VERIFY:   off
+MAX LPs:            512                    PP SIZE:        64 megabyte(s)
+COPIES:             1                      SCHED POLICY:   parallel
+LPs:                1                      PPs:            1
+STALE PPs:          0                      BB POLICY:      relocatable
+INTER-POLICY:       minimum                RELOCATABLE:    yes
+INTRA-POLICY:       middle                 UPPER BOUND:    32
+MOUNT POINT:        N/A                    LABEL:          None
+MIRROR WRITE CONSISTENCY: on/ACTIVE                              
+EACH LP COPY ON A SEPARATE PV ?: yes                                    
+Serialize IO ?:     NO                                     
+INFINITE RETRY:     no                     PREFERRED READ: 0
+
+#### LV caalv_private2 ####
+LOGICAL VOLUME:     caalv_private2         VOLUME GROUP:   caavg_private
+LV IDENTIFIER:      00f92eec00004c000000014f01bf95e1.2 PERMISSION:     read/write
+VG STATE:           active/complete        LV STATE:       closed/syncd
+TYPE:               boot                   WRITE VERIFY:   off
+MAX LPs:            512                    PP SIZE:        64 megabyte(s)
+COPIES:             1                      SCHED POLICY:   parallel
+LPs:                1                      PPs:            1
+STALE PPs:          0                      BB POLICY:      relocatable
+INTER-POLICY:       minimum                RELOCATABLE:    yes
+INTRA-POLICY:       middle                 UPPER BOUND:    32
+MOUNT POINT:        N/A                    LABEL:          None
+MIRROR WRITE CONSISTENCY: on/ACTIVE                              
+EACH LP COPY ON A SEPARATE PV ?: yes                                    
+Serialize IO ?:     NO                                     
+INFINITE RETRY:     no                     PREFERRED READ: 0
+
+#### LV caalv_private3 ####
+LOGICAL VOLUME:     caalv_private3         VOLUME GROUP:   caavg_private
+LV IDENTIFIER:      00f92eec00004c000000014f01bf95e1.3 PERMISSION:     read/write
+VG STATE:           active/complete        LV STATE:       opened/syncd
+TYPE:                                      WRITE VERIFY:   off
+MAX LPs:            512                    PP SIZE:        64 megabyte(s)
+COPIES:             1                      SCHED POLICY:   parallel
+LPs:                4                      PPs:            4
+STALE PPs:          0                      BB POLICY:      relocatable
+INTER-POLICY:       minimum                RELOCATABLE:    no
+INTRA-POLICY:       middle                 UPPER BOUND:    32
+MOUNT POINT:        N/A                    LABEL:          
+MIRROR WRITE CONSISTENCY: on/ACTIVE                              
+EACH LP COPY ON A SEPARATE PV ?: yes                                    
+Serialize IO ?:     NO                                     
+INFINITE RETRY:     no                     PREFERRED READ: 0
+
+#### LV powerha_crlv ####
+LOGICAL VOLUME:     powerha_crlv           VOLUME GROUP:   caavg_private
+LV IDENTIFIER:      00f92eec00004c000000014f01bf95e1.4 PERMISSION:     read/write
+VG STATE:           active/complete        LV STATE:       closed/syncd
+TYPE:               boot                   WRITE VERIFY:   off
+MAX LPs:            512                    PP SIZE:        64 megabyte(s)
+COPIES:             1                      SCHED POLICY:   parallel
+LPs:                1                      PPs:            1
+STALE PPs:          0                      BB POLICY:      relocatable
+INTER-POLICY:       minimum                RELOCATABLE:    yes
+INTRA-POLICY:       middle                 UPPER BOUND:    32
+MOUNT POINT:        N/A                    LABEL:          None
+MIRROR WRITE CONSISTENCY: on/ACTIVE                              
+EACH LP COPY ON A SEPARATE PV ?: yes                                    
+Serialize IO ?:     NO                                     
+INFINITE RETRY:     no                     PREFERRED READ: 0
+
+#### LV hd5 ####
+LOGICAL VOLUME:     hd5                    VOLUME GROUP:   rootvg
+LV IDENTIFIER:      00f92eec00004c000000014efdd47283.1 PERMISSION:     read/write
+VG STATE:           active/complete        LV STATE:       closed/syncd
+TYPE:               boot                   WRITE VERIFY:   off
+MAX LPs:            512                    PP SIZE:        512 megabyte(s)
+COPIES:             1                      SCHED POLICY:   parallel
+LPs:                1                      PPs:            1
+STALE PPs:          0                      BB POLICY:      non-relocatable
+INTER-POLICY:       minimum                RELOCATABLE:    no
+INTRA-POLICY:       edge                   UPPER BOUND:    32
+MOUNT POINT:        N/A                    LABEL:          primary_bootlv
+MIRROR WRITE CONSISTENCY: on/ACTIVE                              
+EACH LP COPY ON A SEPARATE PV ?: yes                                    
+Serialize IO ?:     NO                                     
+INFINITE RETRY:     no                     PREFERRED READ: 0
+
+#### LV hd6 ####
+LOGICAL VOLUME:     hd6                    VOLUME GROUP:   rootvg
+LV IDENTIFIER:      00f92eec00004c000000014efdd47283.2 PERMISSION:     read/write
+VG STATE:           active/complete        LV STATE:       opened/syncd
+TYPE:               paging                 WRITE VERIFY:   off
+MAX LPs:            512                    PP SIZE:        512 megabyte(s)
+COPIES:             1                      SCHED POLICY:   parallel
+LPs:                1                      PPs:            1
+STALE PPs:          0                      BB POLICY:      non-relocatable
+INTER-POLICY:       minimum                RELOCATABLE:    yes
+INTRA-POLICY:       middle                 UPPER BOUND:    32
+MOUNT POINT:        N/A                    LABEL:          None
+MIRROR WRITE CONSISTENCY: off                                    
+EACH LP COPY ON A SEPARATE PV ?: yes                                    
+Serialize IO ?:     NO                                     
+INFINITE RETRY:     no                     PREFERRED READ: 0
+
+#### LV hd8 ####
+LOGICAL VOLUME:     hd8                    VOLUME GROUP:   rootvg
+LV IDENTIFIER:      00f92eec00004c000000014efdd47283.3 PERMISSION:     read/write
+VG STATE:           active/complete        LV STATE:       opened/syncd
+TYPE:               jfs2log                WRITE VERIFY:   off
+MAX LPs:            512                    PP SIZE:        512 megabyte(s)
+COPIES:             1                      SCHED POLICY:   parallel
+LPs:                1                      PPs:            1
+STALE PPs:          0                      BB POLICY:      relocatable
+INTER-POLICY:       minimum                RELOCATABLE:    yes
+INTRA-POLICY:       center                 UPPER BOUND:    32
+MOUNT POINT:        N/A                    LABEL:          None
+MIRROR WRITE CONSISTENCY: off                                    
+EACH LP COPY ON A SEPARATE PV ?: yes                                    
+Serialize IO ?:     NO                                     
+INFINITE RETRY:     no                     PREFERRED READ: 0
+
+#### LV hd4 ####
+LOGICAL VOLUME:     hd4                    VOLUME GROUP:   rootvg
+LV IDENTIFIER:      00f92eec00004c000000014efdd47283.4 PERMISSION:     read/write
+VG STATE:           active/complete        LV STATE:       opened/syncd
+TYPE:               jfs2                   WRITE VERIFY:   off
+MAX LPs:            512                    PP SIZE:        512 megabyte(s)
+COPIES:             1                      SCHED POLICY:   parallel
+LPs:                4                      PPs:            4
+STALE PPs:          0                      BB POLICY:      relocatable
+INTER-POLICY:       minimum                RELOCATABLE:    yes
+INTRA-POLICY:       center                 UPPER BOUND:    32
+MOUNT POINT:        /                      LABEL:          /
+MIRROR WRITE CONSISTENCY: on/ACTIVE                              
+EACH LP COPY ON A SEPARATE PV ?: yes                                    
+Serialize IO ?:     NO                                     
+INFINITE RETRY:     no                     PREFERRED READ: 0
+
+#### LV hd2 ####
+LOGICAL VOLUME:     hd2                    VOLUME GROUP:   rootvg
+LV IDENTIFIER:      00f92eec00004c000000014efdd47283.5 PERMISSION:     read/write
+VG STATE:           active/complete        LV STATE:       opened/syncd
+TYPE:               jfs2                   WRITE VERIFY:   off
+MAX LPs:            32512                  PP SIZE:        512 megabyte(s)
+COPIES:             1                      SCHED POLICY:   parallel
+LPs:                16                     PPs:            16
+STALE PPs:          0                      BB POLICY:      relocatable
+INTER-POLICY:       minimum                RELOCATABLE:    yes
+INTRA-POLICY:       center                 UPPER BOUND:    32
+MOUNT POINT:        /usr                   LABEL:          /usr
+MIRROR WRITE CONSISTENCY: on/ACTIVE                              
+EACH LP COPY ON A SEPARATE PV ?: yes                                    
+Serialize IO ?:     NO                                     
+INFINITE RETRY:     no                     PREFERRED READ: 0
+
+#### LV hd9var ####
+LOGICAL VOLUME:     hd9var                 VOLUME GROUP:   rootvg
+LV IDENTIFIER:      00f92eec00004c000000014efdd47283.6 PERMISSION:     read/write
+VG STATE:           active/complete        LV STATE:       opened/syncd
+TYPE:               jfs2                   WRITE VERIFY:   off
+MAX LPs:            512                    PP SIZE:        512 megabyte(s)
+COPIES:             1                      SCHED POLICY:   parallel
+LPs:                4                      PPs:            4
+STALE PPs:          0                      BB POLICY:      relocatable
+INTER-POLICY:       minimum                RELOCATABLE:    yes
+INTRA-POLICY:       center                 UPPER BOUND:    32
+MOUNT POINT:        /var                   LABEL:          /var
+MIRROR WRITE CONSISTENCY: on/ACTIVE                              
+EACH LP COPY ON A SEPARATE PV ?: yes                                    
+Serialize IO ?:     NO                                     
+INFINITE RETRY:     no                     PREFERRED READ: 0
+
+#### LV hd3 ####
+LOGICAL VOLUME:     hd3                    VOLUME GROUP:   rootvg
+LV IDENTIFIER:      00f92eec00004c000000014efdd47283.7 PERMISSION:     read/write
+VG STATE:           active/complete        LV STATE:       opened/syncd
+TYPE:               jfs2                   WRITE VERIFY:   off
+MAX LPs:            512                    PP SIZE:        512 megabyte(s)
+COPIES:             1                      SCHED POLICY:   parallel
+LPs:                4                      PPs:            4
+STALE PPs:          0                      BB POLICY:      relocatable
+INTER-POLICY:       minimum                RELOCATABLE:    yes
+INTRA-POLICY:       center                 UPPER BOUND:    32
+MOUNT POINT:        /tmp                   LABEL:          /tmp
+MIRROR WRITE CONSISTENCY: on/ACTIVE                              
+EACH LP COPY ON A SEPARATE PV ?: yes                                    
+Serialize IO ?:     NO                                     
+INFINITE RETRY:     no                     PREFERRED READ: 0
+
+#### LV hd1 ####
+LOGICAL VOLUME:     hd1                    VOLUME GROUP:   rootvg
+LV IDENTIFIER:      00f92eec00004c000000014efdd47283.8 PERMISSION:     read/write
+VG STATE:           active/complete        LV STATE:       opened/syncd
+TYPE:               jfs2                   WRITE VERIFY:   off
+MAX LPs:            512                    PP SIZE:        512 megabyte(s)
+COPIES:             1                      SCHED POLICY:   parallel
+LPs:                4                      PPs:            4
+STALE PPs:          0                      BB POLICY:      relocatable
+INTER-POLICY:       minimum                RELOCATABLE:    yes
+INTRA-POLICY:       center                 UPPER BOUND:    32
+MOUNT POINT:        /home                  LABEL:          /home
+MIRROR WRITE CONSISTENCY: on/ACTIVE                              
+EACH LP COPY ON A SEPARATE PV ?: yes                                    
+Serialize IO ?:     NO                                     
+INFINITE RETRY:     no                     PREFERRED READ: 0
+
+#### LV hd10opt ####
+LOGICAL VOLUME:     hd10opt                VOLUME GROUP:   rootvg
+LV IDENTIFIER:      00f92eec00004c000000014efdd47283.9 PERMISSION:     read/write
+VG STATE:           active/complete        LV STATE:       opened/syncd
+TYPE:               jfs2                   WRITE VERIFY:   off
+MAX LPs:            512                    PP SIZE:        512 megabyte(s)
+COPIES:             1                      SCHED POLICY:   parallel
+LPs:                2                      PPs:            2
+STALE PPs:          0                      BB POLICY:      relocatable
+INTER-POLICY:       minimum                RELOCATABLE:    yes
+INTRA-POLICY:       center                 UPPER BOUND:    32
+MOUNT POINT:        /opt                   LABEL:          /opt
+MIRROR WRITE CONSISTENCY: on/ACTIVE                              
+EACH LP COPY ON A SEPARATE PV ?: yes                                    
+Serialize IO ?:     NO                                     
+INFINITE RETRY:     no                     PREFERRED READ: 0
+
+#### LV hd11admin ####
+LOGICAL VOLUME:     hd11admin              VOLUME GROUP:   rootvg
+LV IDENTIFIER:      00f92eec00004c000000014efdd47283.10 PERMISSION:     read/write
+VG STATE:           active/complete        LV STATE:       opened/syncd
+TYPE:               jfs2                   WRITE VERIFY:   off
+MAX LPs:            512                    PP SIZE:        512 megabyte(s)
+COPIES:             1                      SCHED POLICY:   parallel
+LPs:                4                      PPs:            4
+STALE PPs:          0                      BB POLICY:      relocatable
+INTER-POLICY:       minimum                RELOCATABLE:    yes
+INTRA-POLICY:       center                 UPPER BOUND:    32
+MOUNT POINT:        /admin                 LABEL:          /admin
+MIRROR WRITE CONSISTENCY: on/ACTIVE                              
+EACH LP COPY ON A SEPARATE PV ?: yes                                    
+Serialize IO ?:     NO                                     
+INFINITE RETRY:     no                     PREFERRED READ: 0
+
+#### LV lg_dumplv ####
+LOGICAL VOLUME:     lg_dumplv              VOLUME GROUP:   rootvg
+LV IDENTIFIER:      00f92eec00004c000000014efdd47283.11 PERMISSION:     read/write
+VG STATE:           active/complete        LV STATE:       opened/syncd
+TYPE:               sysdump                WRITE VERIFY:   off
+MAX LPs:            512                    PP SIZE:        512 megabyte(s)
+COPIES:             1                      SCHED POLICY:   parallel
+LPs:                8                      PPs:            8
+STALE PPs:          0                      BB POLICY:      relocatable
+INTER-POLICY:       minimum                RELOCATABLE:    yes
+INTRA-POLICY:       middle                 UPPER BOUND:    32
+MOUNT POINT:        N/A                    LABEL:          None
+MIRROR WRITE CONSISTENCY: on/ACTIVE                              
+EACH LP COPY ON A SEPARATE PV ?: yes                                    
+Serialize IO ?:     NO                                     
+INFINITE RETRY:     no                     PREFERRED READ: 0
+
+#### LV livedump ####
+LOGICAL VOLUME:     livedump               VOLUME GROUP:   rootvg
+LV IDENTIFIER:      00f92eec00004c000000014efdd47283.12 PERMISSION:     read/write
+VG STATE:           active/complete        LV STATE:       opened/syncd
+TYPE:               jfs2                   WRITE VERIFY:   off
+MAX LPs:            512                    PP SIZE:        512 megabyte(s)
+COPIES:             1                      SCHED POLICY:   parallel
+LPs:                1                      PPs:            1
+STALE PPs:          0                      BB POLICY:      relocatable
+INTER-POLICY:       minimum                RELOCATABLE:    yes
+INTRA-POLICY:       middle                 UPPER BOUND:    32
+MOUNT POINT:        /var/adm/ras/livedump  LABEL:          /var/adm/ras/livedump
+MIRROR WRITE CONSISTENCY: on/ACTIVE                              
+EACH LP COPY ON A SEPARATE PV ?: yes                                    
+Serialize IO ?:     NO                                     
+INFINITE RETRY:     no                     PREFERRED READ: 0
+
+#### LV perfdatalv ####
+LOGICAL VOLUME:     perfdatalv             VOLUME GROUP:   rootvg
+LV IDENTIFIER:      00f92eec00004c000000014efdd47283.13 PERMISSION:     read/write
+VG STATE:           active/complete        LV STATE:       opened/syncd
+TYPE:               jfs2                   WRITE VERIFY:   off
+MAX LPs:            512                    PP SIZE:        512 megabyte(s)
+COPIES:             1                      SCHED POLICY:   parallel
+LPs:                10                     PPs:            10
+STALE PPs:          0                      BB POLICY:      relocatable
+INTER-POLICY:       minimum                RELOCATABLE:    yes
+INTRA-POLICY:       middle                 UPPER BOUND:    32
+MOUNT POINT:        /perfdata              LABEL:          /perfdata
+MIRROR WRITE CONSISTENCY: on/ACTIVE                              
+EACH LP COPY ON A SEPARATE PV ?: yes                                    
+Serialize IO ?:     NO                                     
+INFINITE RETRY:     no                     PREFERRED READ: 0
+
+==== EXITED with rc 0 ====
+==== END for i in $(lspv | egrep "active|concurrent" | awk '{print $3}' | sort -u | lsvg -i -l | egrep -v "LV NAME|:" | awk '{print $1}'); do echo "#### LV $i ####";lslv $i; echo ""; done Thu Aug  6 11:19:56 GST 2015 ====

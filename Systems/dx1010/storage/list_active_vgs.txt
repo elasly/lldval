@@ -1,0 +1,153 @@
+==== This output can be found in Systems/dx1010/storage/list_active_vgs.txt ====
+==== START list_active_vgs Tue Jul  7 13:16:08 CDT 2015 ====
+List content of active VGs
+VG: rootvg
+
+
+Using comand: lsvg rootvg
+VOLUME GROUP:       rootvg                   VG IDENTIFIER:  00f92eec00004c0000000145feccdfcc
+VG STATE:           active                   PP SIZE:        512 megabyte(s)
+VG PERMISSION:      read/write               TOTAL PPs:      1444 (739328 megabytes)
+MAX LVs:            256                      FREE PPs:       1290 (660480 megabytes)
+LVs:                15                       USED PPs:       154 (78848 megabytes)
+OPEN LVs:           13                       QUORUM:         1 (Disabled)
+TOTAL PVs:          2                        VG DESCRIPTORS: 3
+STALE PVs:          0                        STALE PPs:      0
+ACTIVE PVs:         2                        AUTO ON:        yes
+MAX PPs per VG:     32512                                     
+MAX PPs per PV:     1016                     MAX PVs:        32
+LTG size (Dynamic): 256 kilobyte(s)          AUTO SYNC:      no
+HOT SPARE:          no                       BB POLICY:      relocatable 
+PV RESTRICTION:     none                     INFINITE RETRY: no
+DISK BLOCK SIZE:    512                      CRITICAL VG:    no
+
+=================================================================
+
+Using comand: lsvg -l rootvg
+rootvg:
+LV NAME             TYPE       LPs     PPs     PVs  LV STATE      MOUNT POINT
+hd5                 boot       1       2       2    closed/syncd  N/A
+hd6                 paging     1       2       2    open/syncd    N/A
+paging00            paging     2       4       2    open/syncd    N/A
+hd8                 jfs2log    1       2       2    open/syncd    N/A
+hd4                 jfs2       1       2       2    open/syncd    /
+hd2                 jfs2       11      22      2    open/syncd    /usr
+hd9var              jfs2       4       8       2    open/syncd    /var
+hd3                 jfs2       16      32      2    open/syncd    /tmp
+hd1                 jfs2       20      40      2    open/syncd    /home
+hd10opt             jfs2       2       4       2    open/syncd    /opt
+hd11admin           jfs2       1       2       2    open/syncd    /admin
+livedump            jfs2       1       2       2    open/syncd    /var/adm/ras/livedump
+lg_dumplv           sysdump    2       2       1    open/syncd    N/A
+vioupdatelv         jfs2       10      10      1    closed/syncd  /vioupdate
+perfdatalv          jfs2       20      20      1    open/syncd    /perfdata
+
+=================================================================
+
+Using comand: lsvg -p rootvg
+rootvg:
+PV_NAME           PV STATE          TOTAL PPs   FREE PPs    FREE DISTRIBUTION
+hdisk0            active            722         649         144..130..86..144..145
+hdisk2            active            722         641         144..122..86..144..145
+
+=================================================================
+
+Using comand: lsvg -m rootvg
+Logical Volume    Copy 1            Copy 2            Copy 3            
+hd5               None              None              None              
+hd6               None              None              None              
+paging00          None              None              None              
+hd8               None              None              None              
+hd4               None              None              None              
+hd2               None              None              None              
+hd9var            None              None              None              
+hd3               None              None              None              
+hd1               None              None              None              
+hd10opt           None              None              None              
+hd11admin         None              None              None              
+livedump          None              None              None              
+lg_dumplv         None              None              None              
+vioupdatelv       None              None              None              
+perfdatalv        None              None              None              
+
+=================================================================
+
+Using comand: lsvg -P rootvg
+Physical Volume   Mirror Pool       
+hdisk0            None              
+hdisk2            None              
+
+=================================================================
+-----------------------------------------------------------------
+VG: vg0
+
+
+Using comand: lsvg vg0
+VOLUME GROUP:       vg0                      VG IDENTIFIER:  00f92eec00004c00000001460f62f0b0
+VG STATE:           active                   PP SIZE:        256 megabyte(s)
+VG PERMISSION:      read/write               TOTAL PPs:      1444 (369664 megabytes)
+MAX LVs:            256                      FREE PPs:       4 (1024 megabytes)
+LVs:                12                       USED PPs:       1440 (368640 megabytes)
+OPEN LVs:           7                        QUORUM:         2 (Enabled)
+TOTAL PVs:          1                        VG DESCRIPTORS: 2
+STALE PVs:          0                        STALE PPs:      0
+ACTIVE PVs:         1                        AUTO ON:        yes
+MAX PPs per VG:     32768                    MAX PVs:        1024
+LTG size (Dynamic): 256 kilobyte(s)          AUTO SYNC:      no
+HOT SPARE:          no                       BB POLICY:      relocatable 
+MIRROR POOL STRICT: off                                       
+PV RESTRICTION:     none                     INFINITE RETRY: no
+DISK BLOCK SIZE:    512                      CRITICAL VG:    no
+
+=================================================================
+
+Using comand: lsvg -l vg0
+vg0:
+LV NAME             TYPE       LPs     PPs     PVs  LV STATE      MOUNT POINT
+vhdisk0             jfs        120     120     1    open/syncd    N/A
+vhdisk1             jfs        120     120     1    open/syncd    N/A
+vhdisk2             jfs        120     120     1    open/syncd    N/A
+vhdisk3             jfs        120     120     1    open/syncd    N/A
+vhdisk4             jfs        120     120     1    open/syncd    N/A
+vhdisk5             jfs        120     120     1    open/syncd    N/A
+vhdisk6             jfs        120     120     1    closed/syncd  N/A
+vhdisk7             jfs        120     120     1    closed/syncd  N/A
+vhdisk8             jfs        120     120     1    closed/syncd  N/A
+vhdisk9             jfs        120     120     1    closed/syncd  N/A
+lparid07_hdisk0     jfs2       120     120     1    closed/syncd  N/A
+VMLibrary           jfs2       120     120     1    open/syncd    /var/vio/VMLibrary
+
+=================================================================
+
+Using comand: lsvg -p vg0
+vg0:
+PV_NAME           PV STATE          TOTAL PPs   FREE PPs    FREE DISTRIBUTION
+hdisk1            active            1444        4           00..00..00..00..04
+
+=================================================================
+
+Using comand: lsvg -m vg0
+Logical Volume    Copy 1            Copy 2            Copy 3            
+vhdisk0           None              None              None              
+vhdisk1           None              None              None              
+vhdisk2           None              None              None              
+vhdisk3           None              None              None              
+vhdisk4           None              None              None              
+vhdisk5           None              None              None              
+vhdisk6           None              None              None              
+vhdisk7           None              None              None              
+vhdisk8           None              None              None              
+vhdisk9           None              None              None              
+lparid07_hdisk0   None              None              None              
+VMLibrary         None              None              None              
+
+=================================================================
+
+Using comand: lsvg -P vg0
+Physical Volume   Mirror Pool       
+hdisk1            None              
+
+=================================================================
+-----------------------------------------------------------------
+==== EXITED with rc 0 ====
+==== END list_active_vgs Tue Jul  7 13:16:09 CDT 2015 ====

@@ -1,0 +1,15 @@
+==== This output can be found in Systems/dx1010/perf/vmstat-^IWwtp_ALL.txt ====
+==== START vmstat -IWwtp ALL  Tue Jul  7 13:15:23 CDT 2015 ====
+
+System configuration: lcpu=24 mem=8192MB ent=2.00
+
+     kthr              memory                         page                       faults                 cpu             time  
+--------------- --------------------- ------------------------------------ ------------------ ----------------------- --------
+  r   b   p   w        avm        fre    fi    fo    pi    po    fr     sr    in     sy    cs us sy id wa    pc    ec hr mi se
+  1   1   0   0    1194930      75909     0     1     0     0     0      0 15443    522 22129  0 18 82  0  0.77  38.7 13:15:23
+
+        psz        avm        fre    fi    fo    pi    po    fr     sr     siz hr mi se
+         4K     261479       6808     0     1     0     0     0      0 1094576 13:15:23
+        64K      58341       4320     0     0     0     0     0      0   62661 13:15:23
+==== EXITED with rc 0 ====
+==== END vmstat -IWwtp ALL  Tue Jul  7 13:15:23 CDT 2015 ====

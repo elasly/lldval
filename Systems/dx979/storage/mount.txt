@@ -1,0 +1,37 @@
+==== This output can be found in Systems/dx979/storage/mount.txt ====
+==== START mount Tue Jul  7 00:28:58 GST 2015 ====
+  node       mounted        mounted over    vfs       date        options      
+-------- ---------------  ---------------  ------ ------------ --------------- 
+         /dev/hd4         /                jfs2   Jun 12 00:39 rw,log=/dev/hd8 
+         /dev/hd2         /usr             jfs2   Jun 12 00:39 rw,log=/dev/hd8 
+         /dev/hd9var      /var             jfs2   Jun 12 00:39 rw,log=/dev/hd8 
+         /dev/hd3         /tmp             jfs2   Jun 12 00:39 rw,log=/dev/hd8 
+         /dev/hd1         /home            jfs2   Jun 12 00:43 rw,log=/dev/hd8 
+         /dev/hd11admin   /admin           jfs2   Jun 12 00:43 rw,log=/dev/hd8 
+         /proc            /proc            procfs Jun 12 00:43 rw              
+         /dev/hd10opt     /opt             jfs2   Jun 12 00:43 rw,log=/dev/hd8 
+         /dev/livedump    /var/adm/ras/livedump jfs2   Jun 12 00:43 rw,log=/dev/hd8 
+         /dev/perfdatalv  /perfdata        jfs2   Jun 12 00:43 rw,log=/dev/hd8 
+         /aha             /aha             ahafs  Jun 12 00:44 rw              
+10.51.227.242 /data/col1/dd_GPRS_Bkp /dd_GPRS_Bkp     nfs3   Jun 12 01:54 rw,intr,hard,rsize=65536,wsize=65536,proto=tcp,combehind,timeo=1200,numclust=128,bg,llock,noacl
+         /dev/R1_arch1lv  /gprs_arclog1    jfs2   Jun 29 21:47 rw,rbw,rbr,noatime,log=INLINE
+         /dev/R1_arch2lv  /gprs_arclog2    jfs2   Jun 29 21:47 rw,rbw,rbr,noatime,log=INLINE
+         /dev/R5_baselv   /gprs_base       jfs2   Jun 29 21:47 rw,noatime,log=INLINE
+         /dev/bctlv       /gprs_bct        jfs2   Jun 29 21:47 rw,log=/dev/loglv01
+         /dev/R6_bkplv    /gprs_bkp        jfs2   Jun 29 21:47 rw,rbw,rbr,noatime,log=INLINE
+         /dev/R1_ctrl1lv  /gprs_ctrl1      jfs2   Jun 29 21:47 rw,noatime,log=INLINE
+         /dev/R1_ctrl2lv  /gprs_ctrl2      jfs2   Jun 29 21:47 rw,noatime,log=INLINE
+         /dev/R1_ctrl3lv  /gprs_ctrl3      jfs2   Jun 29 21:47 rw,noatime,log=INLINE
+         /dev/R1_data1lv  /gprs_data1      jfs2   Jun 29 21:47 rw,noatime,log=INLINE
+         /dev/R5_explv    /gprs_exp        jfs2   Jun 29 21:47 rw,rbw,rbr,noatime,log=INLINE
+         /dev/R1_flashlv  /gprs_flash      jfs2   Jun 29 21:47 rw,noatime,log=INLINE
+         /dev/R5_gglv     /gprs_gg         jfs2   Jun 29 21:47 rw,log=INLINE   
+         /dev/R1_indx1lv  /gprs_index1     jfs2   Jun 29 21:47 rw,noatime,log=INLINE
+         /dev/R1_redo1lv  /gprs_redo1      jfs2   Jun 29 21:47 rw,noatime,log=INLINE
+         /dev/R1_redo2lv  /gprs_redo2      jfs2   Jun 29 21:47 rw,noatime,log=INLINE
+         /dev/R5_stagelv  /gprs_stage      jfs2   Jun 29 21:47 rw,log=INLINE   
+         /dev/R5_syslv    /gprs_sys        jfs2   Jun 29 21:47 rw,log=INLINE   
+         /dev/R1_templv   /gprs_temp       jfs2   Jun 29 21:47 rw,noatime,log=INLINE
+         /dev/R5_undolv   /gprs_undo       jfs2   Jun 29 21:47 rw,noatime,log=INLINE
+==== EXITED with rc 0 ====
+==== END mount Tue Jul  7 00:28:58 GST 2015 ====

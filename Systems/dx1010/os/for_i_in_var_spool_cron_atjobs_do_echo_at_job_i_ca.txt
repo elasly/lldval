@@ -1,0 +1,9 @@
+==== This output can be found in Systems/dx1010/os/for_i_in_var_spool_cron_atjobs_do_echo_at_job_i_ca.txt ====
+==== START for i in /var/spool/cron/atjobs/*;do echo "#### at job: $i ####";cat $i;echo "########\n\n";done Tue Jul  7 13:13:34 CDT 2015 ====
+cat: cannot open /var/spool/cron/atjobs/*
+#### at job: /var/spool/cron/atjobs/* ####
+########
+
+
+==== EXITED with rc 0 ====
+==== END for i in /var/spool/cron/atjobs/*;do echo "#### at job: $i ####";cat $i;echo "########\n\n";done Tue Jul  7 13:13:34 CDT 2015 ====

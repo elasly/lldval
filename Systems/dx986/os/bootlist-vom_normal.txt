@@ -1,0 +1,17 @@
+==== This output can be found in Systems/dx986/os/bootlist-vom_normal.txt ====
+==== START bootlist -vom normal Tue Jul  7 00:44:37 GST 2015 ====
+'ibm,max-boot-devices' = 0x5
+NVRAM variable: (boot-device=/vdevice/vfc-client@3000012d/disk@500009740834d574:2 /vdevice/vfc-client@30000130/disk@500009740834d548:2 /vdevice/vfc-client@30000133/disk@500009740834d570:2 /vdevice/vfc-client@30000133/disk@500009740834d548:2)
+Path name: (/vdevice/vfc-client@3000012d/disk@500009740834d574:2)
+match_specific_info: ut=disk/fcp/SYMM_VRAID
+hdisk1 blv=hd5 
+Path name: (/vdevice/vfc-client@30000130/disk@500009740834d548:2)
+match_specific_info: ut=disk/fcp/SYMM_VRAID
+hdisk2 
+Path name: (/vdevice/vfc-client@30000133/disk@500009740834d570:2)
+-
+Path name: (/vdevice/vfc-client@30000133/disk@500009740834d548:2)
+match_specific_info: ut=disk/fcp/SYMM_VRAID
+hdisk4 
+==== EXITED with rc 0 ====
+==== END bootlist -vom normal Tue Jul  7 00:44:37 GST 2015 ====

@@ -1,0 +1,130 @@
+==== This output can be found in Systems/dx989/os/emgr-lv3.txt ====
+==== START emgr -lv3 Thu Aug  6 11:22:14 GST 2015 ====
++-----------------------------------------------------------------------------+
+EFIX ID: 1
+EFIX LABEL: IV69760
++-----------------------------------------------------------------------------+
+LABEL:                  IV69760
+STATE:                  STABLE
+UPDATED BY:             
+ABSTRACT:               Efix for IV69760 & IV69674
+VUID:                   00008EED4C00031917033515
+PACKAGER VERSION:       7
+INSTALL DATE:           08/06/15 10:51:14
+EPKG VERSION:           7
+REBOOT REQUIRED:        no
+BUILD BOOT IMAGE:       no
+PACKAGE LOCKS:          no
+SUPERSEDE:              no
+INSTALLP PREREQUISITES: yes
+E2E PREREQUISITES:      no
+FIX TESTED:             no
+FILES:                  6
+
+Install Scripts
+===============
+PRE_INSTALL:            yes
+POST_INSTALL:           yes
+PRE_REMOVE:             yes
+POST_REMOVE:            yes
+
+FILE NUMBER:      1
+   LOCATION:      /usr/sbin/rsct/samples/IBM.ConfigRM.do_when_down
+   FILE TYPE:     Standard (file or executable)
+   INSTALLER:     None
+   SIZE:          32
+   CKSUM:         05116
+   ACL:           bin:bin:550
+   PACKAGE:       None or Unknown
+   MOUNT INST:    no
+
+FILE NUMBER:      2
+   LOCATION:      /usr/sbin/rsct/bin/IBM.ConfigRMd
+   FILE TYPE:     Standard (file or executable)
+   INSTALLER:     installp
+   SIZE:          27872
+   CKSUM:         13222
+   ACL:           DEFAULT
+   PACKAGE:       rsct.core.rmc
+   MOUNT INST:    no
+
+FILE NUMBER:      3
+   LOCATION:      /usr/sbin/rsct/bin/RMstart
+   FILE TYPE:     Standard (file or executable)
+   INSTALLER:     installp
+   SIZE:          32
+   CKSUM:         24381
+   ACL:           DEFAULT
+   PACKAGE:       rsct.core.rmc
+   MOUNT INST:    no
+
+FILE NUMBER:      4
+   LOCATION:      /usr/sbin/rsct/samples/ct_run_op_tiebreaker
+   FILE TYPE:     Standard (file or executable)
+   INSTALLER:     None
+   SIZE:          32
+   CKSUM:         25676
+   ACL:           bin:bin:550
+   PACKAGE:       None or Unknown
+   MOUNT INST:    no
+
+FILE NUMBER:      5
+   LOCATION:      /usr/sbin/rsct/samples/Kcluster
+   FILE TYPE:     Standard (file or executable)
+   INSTALLER:     None
+   SIZE:          32
+   CKSUM:         10713
+   ACL:           root:system:544
+   PACKAGE:       None or Unknown
+   MOUNT INST:    no
+
+FILE NUMBER:      6
+   LOCATION:      /usr/sbin/rsct/trctmplts/_CFD.tpl
+   FILE TYPE:     Standard (file or executable)
+   INSTALLER:     installp
+   SIZE:          224
+   CKSUM:         32611
+   ACL:           DEFAULT
+   PACKAGE:       rsct.core.rmc
+   MOUNT INST:    no
+
+Installp Prerequisite Information:
+==================================
+PREREQUISITE NUM:      1
+   FILESET:            rsct.core.rmc
+   MINIMAL LEVEL:      3.2.0.0
+   MAXIMUM LEVEL:      3.2.0.4
+   TYPE:               PREREQ
+   LEVEL AT INSTALL:   3.2.0.0
+
+Efix to Efix Prerequisite Information:
+======================================
+No efix to efix prerequisites data.
+
+Description:
+============
+Efix for IV69760 "NODE DOWN IN CAA CLUSTER DUE TO CONFIGRM MEMORY LEAK"
+     and IV69674 "NODES REBOOT AFTER FAILING TO ACQUIRE THE TIEBREAKER"
+
+Built for rsct.core.rmc 3.2.0.0 - 3.2.0.4
+
+
+Delivery objects:
+/usr/sbin/rsct/bin/IBM.ConfigRM.do_when_down
+/usr/sbin/rsct/bin/IBM.ConfigRMd
+/usr/sbin/rsct/bin/RMstart
+/usr/sbin/rsct/bin/ct_run_op_tiebreaker
+/usr/sbin/rsct/samples/Kcluster
+/usr/sbin/rsct/trctmplts/_CFD.tpl
+
+
+sum:
+05116     3 IBM.ConfigRM.do_when_down
+13222 13934 IBM.ConfigRMd
+24381    16 RMstart
+25676     5 ct_run_op_tiebreaker
+10713     2 Kcluster
+32611    97 _CFD.tpl
+
+==== EXITED with rc 0 ====
+==== END emgr -lv3 Thu Aug  6 11:22:15 GST 2015 ====

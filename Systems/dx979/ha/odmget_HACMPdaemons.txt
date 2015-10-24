@@ -1,0 +1,53 @@
+==== This output can be found in Systems/dx979/ha/odmget_HACMPdaemons.txt ====
+==== START odmget HACMPdaemons Tue Jul  7 00:41:54 GST 2015 ====
+
+HACMPdaemons:
+	nodename = "DX979"
+	daemon = "clstrmgr"
+	type = "start"
+	object = "manage"
+	value = "auto"
+
+HACMPdaemons:
+	nodename = "DX979"
+	daemon = "clstrmgr"
+	type = "start"
+	object = "broadcast"
+	value = "false"
+
+HACMPdaemons:
+	nodename = "DX979"
+	daemon = "clinfo"
+	type = "start"
+	object = "time"
+	value = "true"
+
+HACMPdaemons:
+	nodename = "DX979"
+	daemon = "clstrmgr_scripts"
+	type = "resource_locator"
+	object = "DX979_RSG"
+	value = "UP"
+
+HACMPdaemons:
+	nodename = "DX979"
+	daemon = "clstrmgrES"
+	type = "stop"
+	object = "time"
+	value = "now"
+
+HACMPdaemons:
+	nodename = "DX979"
+	daemon = "clstrmgrES"
+	type = "stop"
+	object = "broadcast"
+	value = "true"
+
+HACMPdaemons:
+	nodename = "DX979"
+	daemon = "clstrmgrES"
+	type = "stop"
+	object = "mode"
+	value = "graceful"
+==== EXITED with rc 0 ====
+==== END odmget HACMPdaemons Tue Jul  7 00:41:54 GST 2015 ====

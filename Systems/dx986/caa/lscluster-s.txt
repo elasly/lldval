@@ -1,0 +1,46 @@
+==== This output can be found in Systems/dx986/caa/lscluster-s.txt ====
+==== START lscluster -s Tue Jul  7 00:57:11 GST 2015 ====
+Cluster Network Statistics:
+
+pkts seen: 5347745119                 passed: 5348091531
+IP pkts: 5302623045                   UDP pkts: 16217430
+gossip pkts sent: 5200903             gossip pkts recv: 5199864
+cluster address pkts: 0               CP pkts: 15965151
+bad transmits: 8                      bad posts: 0
+Bad transmit (overflow - disk ): 0
+Bad transmit (overflow - tcpsock): 0
+Bad transmit (host unreachable): 0
+Bad transmit (net unreachable): 0
+Bad transmit (network down): 0
+Bad transmit (no connection): 0
+short pkts: 0                         multicast pkts: 428
+cluster wide errors: 0                bad pkts: 0
+dup pkts: 5                           dropped pkts: 0
+pkt fragments: 135871                 fragments queued: 0
+fragments freed: 0
+pkts pulled: 0                        no memory: 0
+rxmit requests recv: 3                requests found: 3
+requests missed: 0                    ooo pkts: 1
+requests reset sent: 0                reset recv: 1
+remote tcpsock send: 13949343         tcpsock recv: 29778319
+rxmit requests sent: 9               
+alive pkts sent: 0                    alive pkts recv: 0
+ahafs pkts sent: 8                    ahafs pkts recv: 3
+nodedown pkts sent: 0                 nodedown pkts recv: 0
+socket pkts sent: 261093              socket pkts recv: 261085
+cwide pkts sent: 2113095              cwide pkts recv: 2113102
+socket pkts no space: 0               pkts recv notforhere: 0
+Pseudo socket pkts sent: 0            Pseudo socket pkts recv: 0
+Pseudo socket pkts dropped: 0
+arp pkts sent: 1                      arp pkts recv: 1
+stale pkts recv: 4                    other cluster pkts: 2
+storage pkts sent: 0                  storage pkts recv: 0
+disk pkts sent: 2671                  disk pkts recv: 428
+unicast pkts sent: 416839             unicast pkts recv: 4505510
+out-of-range pkts recv: 0            
+IPv6 pkts sent: 0                     IPv6 pkts recv: 0
+IPv6 frags sent: 0                    IPv6 frags recv: 0
+Unhandled large pkts: 0               
+mrxmit overflow     : 0               urxmit overflow: 0
+==== EXITED with rc 0 ====
+==== END lscluster -s Tue Jul  7 00:57:11 GST 2015 ====

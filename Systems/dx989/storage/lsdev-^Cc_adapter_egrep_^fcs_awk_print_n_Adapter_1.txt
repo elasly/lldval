@@ -1,0 +1,448 @@
+==== This output can be found in Systems/dx989/storage/lsdev-^Cc_adapter_egrep_^fcs_awk_print_n_Adapter_1.txt ====
+==== START lsdev -Cc adapter | egrep ^fcs | awk '{print "\n#### Adapter: " $1" ####";system("fcstat -D " $1)}' Thu Aug  6 11:26:45 GST 2015 ====
+Error opening device: /dev/fscsi0
+errno: 00000005
+Error opening device: /dev/fscsi1
+errno: 00000005
+Error opening device: /dev/fscsi4
+errno: 00000005
+Error opening device: /dev/fscsi5
+errno: 00000005
+
+#### Adapter: fcs0 ####
+
+#### Adapter: fcs1 ####
+
+#### Adapter: fcs2 ####
+
+FIBRE CHANNEL STATISTICS REPORT: fcs2
+
+Device Type: FC Adapter (adapter/vdevice/IBM,vfc-client)
+Serial Number: UNKNOWN
+Option ROM Version: UNKNOWN
+ZA: UNKNOWN
+World Wide Node Name: 0xC050760844900072
+World Wide Port Name: 0xC050760844900072
+
+FC-4 TYPES:
+  Supported: 0x0000010000000000000000000000000000000000000000000000000000000000
+  Active:    0x0000010000000000000000000000000000000000000000000000000000000000
+
+FC-4 TYPES (ULP mappings):
+  Supported ULPs:   
+    	Small Computer System Interface (SCSI) Fibre Channel Protocol (FCP)
+  Active ULPs:   
+    	Small Computer System Interface (SCSI) Fibre Channel Protocol (FCP)
+Class of Service: 3
+Port Speed (supported): UNKNOWN
+Port Speed (running):   8 GBIT
+Port FC ID: 0x02FF2D
+Port Type: Fabric
+Attention Type:   UNKNOWN
+Topology:  UNKNOWN 
+
+Seconds Since Last Reset: 1947            
+
+	Transmit Statistics	Receive Statistics
+	-------------------	------------------
+Frames: -1              	-1              
+Words:  -1              	-1              
+
+LIP Count: -1              
+NOS Count: -1              
+Error Frames:  -1              
+Dumped Frames: -1              
+Link Failure Count: -1              
+Loss of Sync Count: -1              
+Loss of Signal: -1              
+Primitive Seq Protocol Error Count: -1              
+Invalid Tx Word Count: -1              
+Invalid CRC Count: -1              
+AL_PA Address Granted:   0xffffffff
+Loop Source Physical Address:   0xffffffff
+LIP Type:   UNKNOWN 
+Link Down N_Port State: UNKNOWN 
+Link Down N_Port Transmitter State: UNKNOWN 
+Link Down N_Port Receiver State: UNKNOWN 
+Link Down Link Speed:   -1 GBIT
+Link Down Transmitter Fault:   -1
+Link Down Unusable:   -1
+Current N_Port State: UNKNOWN 
+Current N_Port Transmitter State: UNKNOWN 
+Current N_Port Receiver State: UNKNOWN 
+Current Link Speed:   -1 GBIT
+Current Link Transmitter Fault:   -1
+Current Link Unusable:   -1
+Elastic buffer overrun count:   -1
+
+Driver Statistics
+  Number of interrupts:   0               
+  Number of spurious interrupts:   0               
+  Long term DMA pool size:   0
+  I/O DMA pool size:   0
+
+  FC SCSI Adapter Driver Queue Statistics
+    Number of active commands:   0               
+    High water mark  of active commands:   7               
+    Number of pending commands:   0               
+    High water mark of pending commands:   1               
+    Number of commands in the Adapter Driver Held off queue:  0               
+    High water mark of number of commands in the Adapter Driver Held off queue:  0               
+
+  FC SCSI Protocol Driver Queue Statistics
+    Number of active commands:   0               
+    High water mark  of active commands:   7               
+    Number of pending commands:   0               
+    High water mark of pending commands:   1               
+
+  IP over FC Adapter Driver Information
+    No DMA Resource Count: 0               
+    No Adapter Elements Count: 0               
+
+  FC SCSI Adapter Driver Information
+    No DMA Resource Count: 0               
+    No Adapter Elements Count: 0               
+    No Command Resource Count: 0               
+
+IP over FC Traffic Statistics
+  Input Requests:   0               
+  Output Requests:  0               
+  Control Requests: 0               
+  Input Bytes:  0               
+  Output Bytes: 0               
+
+FC SCSI Traffic Statistics
+  Input Requests:   162887          
+  Output Requests:  28525           
+  Control Requests: 45              
+  Input Bytes:  6118139735      
+  Output Bytes: 386177024       
+
+Adapter Effective max transfer value:   0x100000
+
+#### Adapter: fcs3 ####
+
+FIBRE CHANNEL STATISTICS REPORT: fcs3
+
+Device Type: FC Adapter (adapter/vdevice/IBM,vfc-client)
+Serial Number: UNKNOWN
+Option ROM Version: UNKNOWN
+ZA: UNKNOWN
+World Wide Node Name: 0xC050760844900074
+World Wide Port Name: 0xC050760844900074
+
+FC-4 TYPES:
+  Supported: 0x0000010000000000000000000000000000000000000000000000000000000000
+  Active:    0x0000010000000000000000000000000000000000000000000000000000000000
+
+FC-4 TYPES (ULP mappings):
+  Supported ULPs:   
+    	Small Computer System Interface (SCSI) Fibre Channel Protocol (FCP)
+  Active ULPs:   
+    	Small Computer System Interface (SCSI) Fibre Channel Protocol (FCP)
+Class of Service: 3
+Port Speed (supported): UNKNOWN
+Port Speed (running):   8 GBIT
+Port FC ID: 0x02FE18
+Port Type: Fabric
+Attention Type:   UNKNOWN
+Topology:  UNKNOWN 
+
+Seconds Since Last Reset: 1947            
+
+	Transmit Statistics	Receive Statistics
+	-------------------	------------------
+Frames: -1              	-1              
+Words:  -1              	-1              
+
+LIP Count: -1              
+NOS Count: -1              
+Error Frames:  -1              
+Dumped Frames: -1              
+Link Failure Count: -1              
+Loss of Sync Count: -1              
+Loss of Signal: -1              
+Primitive Seq Protocol Error Count: -1              
+Invalid Tx Word Count: -1              
+Invalid CRC Count: -1              
+AL_PA Address Granted:   0xffffffff
+Loop Source Physical Address:   0xffffffff
+LIP Type:   UNKNOWN 
+Link Down N_Port State: UNKNOWN 
+Link Down N_Port Transmitter State: UNKNOWN 
+Link Down N_Port Receiver State: UNKNOWN 
+Link Down Link Speed:   -1 GBIT
+Link Down Transmitter Fault:   -1
+Link Down Unusable:   -1
+Current N_Port State: UNKNOWN 
+Current N_Port Transmitter State: UNKNOWN 
+Current N_Port Receiver State: UNKNOWN 
+Current Link Speed:   -1 GBIT
+Current Link Transmitter Fault:   -1
+Current Link Unusable:   -1
+Elastic buffer overrun count:   -1
+
+Driver Statistics
+  Number of interrupts:   0               
+  Number of spurious interrupts:   0               
+  Long term DMA pool size:   0
+  I/O DMA pool size:   0
+
+  FC SCSI Adapter Driver Queue Statistics
+    Number of active commands:   0               
+    High water mark  of active commands:   2               
+    Number of pending commands:   0               
+    High water mark of pending commands:   1               
+    Number of commands in the Adapter Driver Held off queue:  0               
+    High water mark of number of commands in the Adapter Driver Held off queue:  0               
+
+  FC SCSI Protocol Driver Queue Statistics
+    Number of active commands:   0               
+    High water mark  of active commands:   2               
+    Number of pending commands:   0               
+    High water mark of pending commands:   1               
+
+  IP over FC Adapter Driver Information
+    No DMA Resource Count: 0               
+    No Adapter Elements Count: 0               
+
+  FC SCSI Adapter Driver Information
+    No DMA Resource Count: 0               
+    No Adapter Elements Count: 0               
+    No Command Resource Count: 0               
+
+IP over FC Traffic Statistics
+  Input Requests:   0               
+  Output Requests:  0               
+  Control Requests: 0               
+  Input Bytes:  0               
+  Output Bytes: 0               
+
+FC SCSI Traffic Statistics
+  Input Requests:   246             
+  Output Requests:  0               
+  Control Requests: 34              
+  Input Bytes:  59838           
+  Output Bytes: 0               
+
+Adapter Effective max transfer value:   0x100000
+
+#### Adapter: fcs4 ####
+
+#### Adapter: fcs5 ####
+
+#### Adapter: fcs6 ####
+
+FIBRE CHANNEL STATISTICS REPORT: fcs6
+
+Device Type: FC Adapter (adapter/vdevice/IBM,vfc-client)
+Serial Number: UNKNOWN
+Option ROM Version: UNKNOWN
+ZA: UNKNOWN
+World Wide Node Name: 0xC05076084490007A
+World Wide Port Name: 0xC05076084490007A
+
+FC-4 TYPES:
+  Supported: 0x0000010000000000000000000000000000000000000000000000000000000000
+  Active:    0x0000010000000000000000000000000000000000000000000000000000000000
+
+FC-4 TYPES (ULP mappings):
+  Supported ULPs:   
+    	Small Computer System Interface (SCSI) Fibre Channel Protocol (FCP)
+  Active ULPs:   
+    	Small Computer System Interface (SCSI) Fibre Channel Protocol (FCP)
+Class of Service: 3
+Port Speed (supported): UNKNOWN
+Port Speed (running):   8 GBIT
+Port FC ID: 0x02FB82
+Port Type: Fabric
+Attention Type:   UNKNOWN
+Topology:  UNKNOWN 
+
+Seconds Since Last Reset: 1986            
+
+	Transmit Statistics	Receive Statistics
+	-------------------	------------------
+Frames: -1              	-1              
+Words:  -1              	-1              
+
+LIP Count: -1              
+NOS Count: -1              
+Error Frames:  -1              
+Dumped Frames: -1              
+Link Failure Count: -1              
+Loss of Sync Count: -1              
+Loss of Signal: -1              
+Primitive Seq Protocol Error Count: -1              
+Invalid Tx Word Count: -1              
+Invalid CRC Count: -1              
+AL_PA Address Granted:   0xffffffff
+Loop Source Physical Address:   0xffffffff
+LIP Type:   UNKNOWN 
+Link Down N_Port State: UNKNOWN 
+Link Down N_Port Transmitter State: UNKNOWN 
+Link Down N_Port Receiver State: UNKNOWN 
+Link Down Link Speed:   -1 GBIT
+Link Down Transmitter Fault:   -1
+Link Down Unusable:   -1
+Current N_Port State: UNKNOWN 
+Current N_Port Transmitter State: UNKNOWN 
+Current N_Port Receiver State: UNKNOWN 
+Current Link Speed:   -1 GBIT
+Current Link Transmitter Fault:   -1
+Current Link Unusable:   -1
+Elastic buffer overrun count:   -1
+
+Driver Statistics
+  Number of interrupts:   0               
+  Number of spurious interrupts:   0               
+  Long term DMA pool size:   0
+  I/O DMA pool size:   0
+
+  FC SCSI Adapter Driver Queue Statistics
+    Number of active commands:   0               
+    High water mark  of active commands:   2               
+    Number of pending commands:   0               
+    High water mark of pending commands:   1               
+    Number of commands in the Adapter Driver Held off queue:  0               
+    High water mark of number of commands in the Adapter Driver Held off queue:  0               
+
+  FC SCSI Protocol Driver Queue Statistics
+    Number of active commands:   0               
+    High water mark  of active commands:   2               
+    Number of pending commands:   0               
+    High water mark of pending commands:   1               
+
+  IP over FC Adapter Driver Information
+    No DMA Resource Count: 0               
+    No Adapter Elements Count: 0               
+
+  FC SCSI Adapter Driver Information
+    No DMA Resource Count: 0               
+    No Adapter Elements Count: 0               
+    No Command Resource Count: 0               
+
+IP over FC Traffic Statistics
+  Input Requests:   0               
+  Output Requests:  0               
+  Control Requests: 0               
+  Input Bytes:  0               
+  Output Bytes: 0               
+
+FC SCSI Traffic Statistics
+  Input Requests:   248             
+  Output Requests:  0               
+  Control Requests: 34              
+  Input Bytes:  60348           
+  Output Bytes: 0               
+
+Adapter Effective max transfer value:   0x100000
+
+#### Adapter: fcs7 ####
+
+FIBRE CHANNEL STATISTICS REPORT: fcs7
+
+Device Type: FC Adapter (adapter/vdevice/IBM,vfc-client)
+Serial Number: UNKNOWN
+Option ROM Version: UNKNOWN
+ZA: UNKNOWN
+World Wide Node Name: 0xC05076084490007C
+World Wide Port Name: 0xC05076084490007C
+
+FC-4 TYPES:
+  Supported: 0x0000010000000000000000000000000000000000000000000000000000000000
+  Active:    0x0000010000000000000000000000000000000000000000000000000000000000
+
+FC-4 TYPES (ULP mappings):
+  Supported ULPs:   
+    	Small Computer System Interface (SCSI) Fibre Channel Protocol (FCP)
+  Active ULPs:   
+    	Small Computer System Interface (SCSI) Fibre Channel Protocol (FCP)
+Class of Service: 3
+Port Speed (supported): UNKNOWN
+Port Speed (running):   8 GBIT
+Port FC ID: 0x02FA82
+Port Type: Fabric
+Attention Type:   UNKNOWN
+Topology:  UNKNOWN 
+
+Seconds Since Last Reset: 1986            
+
+	Transmit Statistics	Receive Statistics
+	-------------------	------------------
+Frames: -1              	-1              
+Words:  -1              	-1              
+
+LIP Count: -1              
+NOS Count: -1              
+Error Frames:  -1              
+Dumped Frames: -1              
+Link Failure Count: -1              
+Loss of Sync Count: -1              
+Loss of Signal: -1              
+Primitive Seq Protocol Error Count: -1              
+Invalid Tx Word Count: -1              
+Invalid CRC Count: -1              
+AL_PA Address Granted:   0xffffffff
+Loop Source Physical Address:   0xffffffff
+LIP Type:   UNKNOWN 
+Link Down N_Port State: UNKNOWN 
+Link Down N_Port Transmitter State: UNKNOWN 
+Link Down N_Port Receiver State: UNKNOWN 
+Link Down Link Speed:   -1 GBIT
+Link Down Transmitter Fault:   -1
+Link Down Unusable:   -1
+Current N_Port State: UNKNOWN 
+Current N_Port Transmitter State: UNKNOWN 
+Current N_Port Receiver State: UNKNOWN 
+Current Link Speed:   -1 GBIT
+Current Link Transmitter Fault:   -1
+Current Link Unusable:   -1
+Elastic buffer overrun count:   -1
+
+Driver Statistics
+  Number of interrupts:   0               
+  Number of spurious interrupts:   0               
+  Long term DMA pool size:   0
+  I/O DMA pool size:   0
+
+  FC SCSI Adapter Driver Queue Statistics
+    Number of active commands:   0               
+    High water mark  of active commands:   2               
+    Number of pending commands:   0               
+    High water mark of pending commands:   1               
+    Number of commands in the Adapter Driver Held off queue:  0               
+    High water mark of number of commands in the Adapter Driver Held off queue:  0               
+
+  FC SCSI Protocol Driver Queue Statistics
+    Number of active commands:   0               
+    High water mark  of active commands:   2               
+    Number of pending commands:   0               
+    High water mark of pending commands:   1               
+
+  IP over FC Adapter Driver Information
+    No DMA Resource Count: 0               
+    No Adapter Elements Count: 0               
+
+  FC SCSI Adapter Driver Information
+    No DMA Resource Count: 0               
+    No Adapter Elements Count: 0               
+    No Command Resource Count: 0               
+
+IP over FC Traffic Statistics
+  Input Requests:   0               
+  Output Requests:  0               
+  Control Requests: 0               
+  Input Bytes:  0               
+  Output Bytes: 0               
+
+FC SCSI Traffic Statistics
+  Input Requests:   250             
+  Output Requests:  0               
+  Control Requests: 34              
+  Input Bytes:  60858           
+  Output Bytes: 0               
+
+Adapter Effective max transfer value:   0x100000
+==== EXITED with rc 0 ====
+==== END lsdev -Cc adapter | egrep ^fcs | awk '{print "\n#### Adapter: " $1" ####";system("fcstat -D " $1)}' Thu Aug  6 11:28:04 GST 2015 ====

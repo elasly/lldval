@@ -1,0 +1,50 @@
+==== This output can be found in Systems/dx1011/secure/trustchk-n_ALL.txt ====
+==== START trustchk -n ALL  Tue Jul  7 13:39:46 CDT 2015 ====
+trustchk: /var/perf/pm/bin/pmcfg: Verification of attributes failed: accessauths 
+trustchk: File or directory or device not existing: /dev/alt_paging00
+trustchk: File or directory or device not existing: /dev/ralt_hd10opt
+trustchk: /etc/security/lastlog: Verification of attributes failed: group mode 
+trustchk: File or directory or device not existing: /dev/alt_hd1
+trustchk: File or directory or device not existing: /dev/alt_hd2
+trustchk: File or directory or device not existing: /dev/alt_hd3
+trustchk: File or directory or device not existing: /dev/alt_hd4
+trustchk: File or directory or device not existing: /dev/alt_hd5
+trustchk: File or directory or device not existing: /dev/alt_hd6
+trustchk: File or directory or device not existing: /dev/alt_hd8
+trustchk: /var/perf/pm/bin/config_pm_ext.sh: Verification of attributes failed: accessauths 
+trustchk: File or directory or device not existing: /dev/alt_hd11admin
+trustchk: File or directory or device not existing: /dev/ralt_paging00
+trustchk: /usr/sbin/chrepos: Verification of attributes failed: accessauths 
+trustchk: File or directory or device not existing: /dev/alt_livedump
+trustchk: File or directory or device not existing: /dev/ralt_hd1
+trustchk: File or directory or device not existing: /dev/ralt_hd2
+trustchk: File or directory or device not existing: /dev/ralt_hd3
+trustchk: File or directory or device not existing: /dev/ralt_hd4
+trustchk: File or directory or device not existing: /dev/ralt_hd5
+trustchk: File or directory or device not existing: /dev/ralt_hd6
+trustchk: /var/perf/pm/bin/config_pm.sh: Verification of attributes failed: accessauths 
+trustchk: File or directory or device not existing: /dev/ralt_hd8
+trustchk: /etc/security/login.cfg: Verification of attributes failed: mode 
+trustchk: /var/perf/pm/bin/amsinfo: Verification of attributes failed: accessauths 
+trustchk: File or directory or device not existing: /dev/ralt_hd11admin
+trustchk: /etc/security/user: Verification of attributes failed: group mode 
+trustchk: File or directory or device not existing: /dev/alt_lg_dumplv
+trustchk: /usr/lib/cluster/clstartstop: Verification of attributes failed: accessauths 
+trustchk: File or directory or device not existing: /dev/ralt_livedump
+trustchk: File or directory or device not existing: /etc/motd
+trustchk: Invalid Mode
+trustchk: /usr/ios/lpm/bin/migrlpar: Verification of attributes failed: mode 
+trustchk: /usr/sbin/lscluster: Verification of attributes failed: accessauths 
+trustchk: /usr/sbin/rmcluster: Verification of attributes failed: accessauths 
+trustchk: File or directory or device not existing: /dev/ralt_lg_dumplv
+trustchk: /etc/inetd.conf: Verification of attributes failed: mode 
+trustchk: File or directory or device not existing: /dev/alt_hd9var
+trustchk: /usr/lib/cluster/clo: Verification of attributes failed: accessauths 
+trustchk: /etc/snmpd.conf: Verification of attributes failed: mode 
+trustchk: File or directory or device not existing: /dev/alt_hd10opt
+trustchk: /etc/hosts: Verification of attributes failed: mode 
+trustchk: /etc/security/passwd: Verification of attributes failed: group 
+trustchk: /usr/lib/boot/bootinfo.txt: Verification of attributes failed: size hashvalue signature 
+trustchk: File or directory or device not existing: /dev/ralt_hd9var
+==== EXITED with rc 0 ====
+==== END trustchk -n ALL  Tue Jul  7 13:42:19 CDT 2015 ====

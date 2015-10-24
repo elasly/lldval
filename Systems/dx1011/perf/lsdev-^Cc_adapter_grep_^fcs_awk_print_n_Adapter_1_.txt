@@ -1,0 +1,52 @@
+==== This output can be found in Systems/dx1011/perf/lsdev-^Cc_adapter_grep_^fcs_awk_print_n_Adapter_1_.txt ====
+==== START lsdev -Cc adapter | grep ^fcs | awk '{print "\n#### Adapter: " $1" ####";system("lsattr -Ra num_cmd_elems -l " $1 )}' Tue Jul  7 13:40:09 CDT 2015 ====
+
+#### Adapter: fcs0 ####
+20...4096 (+1)
+
+#### Adapter: fcs1 ####
+20...4096 (+1)
+
+#### Adapter: fcs2 ####
+20...4096 (+1)
+
+#### Adapter: fcs3 ####
+20...4096 (+1)
+
+#### Adapter: fcs4 ####
+20...4096 (+1)
+
+#### Adapter: fcs5 ####
+20...4096 (+1)
+
+#### Adapter: fcs6 ####
+20...4096 (+1)
+
+#### Adapter: fcs7 ####
+20...4096 (+1)
+
+#### Adapter: fcs8 ####
+20...4096 (+1)
+
+#### Adapter: fcs9 ####
+20...4096 (+1)
+
+#### Adapter: fcs10 ####
+20...4096 (+1)
+
+#### Adapter: fcs11 ####
+20...4096 (+1)
+
+#### Adapter: fcs12 ####
+20...4096 (+1)
+
+#### Adapter: fcs13 ####
+20...4096 (+1)
+
+#### Adapter: fcs14 ####
+20...4096 (+1)
+
+#### Adapter: fcs15 ####
+20...4096 (+1)
+==== EXITED with rc 0 ====
+==== END lsdev -Cc adapter | grep ^fcs | awk '{print "\n#### Adapter: " $1" ####";system("lsattr -Ra num_cmd_elems -l " $1 )}' Tue Jul  7 13:40:09 CDT 2015 ====

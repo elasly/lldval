@@ -1,0 +1,292 @@
+==== This output can be found in Systems/dx986/storage/lsvg-o_sort_awk_print_Volume_group_1_system_lsvg_1.txt ====
+==== START lsvg -o |sort|awk '{print "#### Volume group: " $1 " ####";system("lsvg " $1 ); print "\n"}' Tue Jul  7 00:56:09 GST 2015 ====
+#### Volume group: arch1vg ####
+VOLUME GROUP:       arch1vg                  VG IDENTIFIER:  00f92eec00004c000000014d23347c99
+VG STATE:           active                   PP SIZE:        512 megabyte(s)
+VG PERMISSION:      read/write               TOTAL PPs:      8184 (4190208 megabytes)
+MAX LVs:            256                      FREE PPs:       2 (1024 megabytes)
+LVs:                2                        USED PPs:       8182 (4189184 megabytes)
+OPEN LVs:           2                        QUORUM:         5 (Enabled)
+TOTAL PVs:          8                        VG DESCRIPTORS: 8
+STALE PVs:          0                        STALE PPs:      0
+ACTIVE PVs:         8                        AUTO ON:        no
+Concurrent:         Enhanced-Capable         Auto-Concurrent: Disabled
+VG Mode:            Concurrent                               
+Node ID:            1                        Active Nodes:       2 
+MAX PPs per VG:     32768                    MAX PVs:        1024
+LTG size (Dynamic): 1024 kilobyte(s)         AUTO SYNC:      no
+HOT SPARE:          no                       BB POLICY:      relocatable 
+MIRROR POOL STRICT: off                                       
+PV RESTRICTION:     none                     INFINITE RETRY: no
+DISK BLOCK SIZE:    512                      CRITICAL VG:    no
+
+
+#### Volume group: bctvg ####
+VOLUME GROUP:       bctvg                    VG IDENTIFIER:  00f92eec00004c000000014df5e31d1d
+VG STATE:           active                   PP SIZE:        256 megabyte(s)
+VG PERMISSION:      read/write               TOTAL PPs:      39 (9984 megabytes)
+MAX LVs:            256                      FREE PPs:       0 (0 megabytes)
+LVs:                2                        USED PPs:       39 (9984 megabytes)
+OPEN LVs:           2                        QUORUM:         2 (Enabled)
+TOTAL PVs:          1                        VG DESCRIPTORS: 2
+STALE PVs:          0                        STALE PPs:      0
+ACTIVE PVs:         1                        AUTO ON:        no
+Concurrent:         Enhanced-Capable         Auto-Concurrent: Disabled
+VG Mode:            Concurrent                               
+Node ID:            1                        Active Nodes:       2 
+MAX PPs per VG:     32768                    MAX PVs:        1024
+LTG size (Dynamic): 1024 kilobyte(s)         AUTO SYNC:      no
+HOT SPARE:          no                       BB POLICY:      relocatable 
+MIRROR POOL STRICT: off                                       
+PV RESTRICTION:     none                     INFINITE RETRY: no
+DISK BLOCK SIZE:    512                      CRITICAL VG:    no
+
+
+#### Volume group: bkp1vg ####
+VOLUME GROUP:       bkp1vg                   VG IDENTIFIER:  00f92eec00004c000000014cd88d4c97
+VG STATE:           active                   PP SIZE:        512 megabyte(s)
+VG PERMISSION:      read/write               TOTAL PPs:      18414 (9427968 megabytes)
+MAX LVs:            256                      FREE PPs:       801 (410112 megabytes)
+LVs:                1                        USED PPs:       17613 (9017856 megabytes)
+OPEN LVs:           1                        QUORUM:         10 (Enabled)
+TOTAL PVs:          18                       VG DESCRIPTORS: 18
+STALE PVs:          0                        STALE PPs:      0
+ACTIVE PVs:         18                       AUTO ON:        no
+Concurrent:         Enhanced-Capable         Auto-Concurrent: Disabled
+VG Mode:            Concurrent                               
+Node ID:            1                        Active Nodes:       2 
+MAX PPs per VG:     32768                    MAX PVs:        1024
+LTG size (Dynamic): 1024 kilobyte(s)         AUTO SYNC:      no
+HOT SPARE:          no                       BB POLICY:      relocatable 
+MIRROR POOL STRICT: off                                       
+PV RESTRICTION:     none                     INFINITE RETRY: no
+DISK BLOCK SIZE:    512                      CRITICAL VG:    no
+
+
+#### Volume group: bkp2vg ####
+VOLUME GROUP:       bkp2vg                   VG IDENTIFIER:  00f92eec00004c000000014cf69e988b
+VG STATE:           active                   PP SIZE:        512 megabyte(s)
+VG PERMISSION:      read/write               TOTAL PPs:      10230 (5237760 megabytes)
+MAX LVs:            256                      FREE PPs:       30 (15360 megabytes)
+LVs:                1                        USED PPs:       10200 (5222400 megabytes)
+OPEN LVs:           1                        QUORUM:         6 (Enabled)
+TOTAL PVs:          10                       VG DESCRIPTORS: 10
+STALE PVs:          0                        STALE PPs:      0
+ACTIVE PVs:         10                       AUTO ON:        no
+Concurrent:         Enhanced-Capable         Auto-Concurrent: Disabled
+VG Mode:            Concurrent                               
+Node ID:            1                        Active Nodes:       2 
+MAX PPs per VG:     32768                    MAX PVs:        1024
+LTG size (Dynamic): 1024 kilobyte(s)         AUTO SYNC:      no
+HOT SPARE:          no                       BB POLICY:      relocatable 
+MIRROR POOL STRICT: off                                       
+PV RESTRICTION:     none                     INFINITE RETRY: no
+DISK BLOCK SIZE:    512                      CRITICAL VG:    no
+
+
+#### Volume group: caavg_private ####
+VOLUME GROUP:       caavg_private            VG IDENTIFIER:  00f92eec00004c000000014cd561f9b2
+VG STATE:           active                   PP SIZE:        64 megabyte(s)
+VG PERMISSION:      read/write               TOTAL PPs:      79 (5056 megabytes)
+MAX LVs:            256                      FREE PPs:       72 (4608 megabytes)
+LVs:                4                        USED PPs:       7 (448 megabytes)
+OPEN LVs:           1                        QUORUM:         2 (Enabled)
+TOTAL PVs:          1                        VG DESCRIPTORS: 2
+STALE PVs:          0                        STALE PPs:      0
+ACTIVE PVs:         1                        AUTO ON:        yes
+MAX PPs per VG:     32512                                     
+MAX PPs per PV:     1016                     MAX PVs:        32
+LTG size (Dynamic): 1024 kilobyte(s)         AUTO SYNC:      no
+HOT SPARE:          no                       BB POLICY:      relocatable 
+PV RESTRICTION:     none                     INFINITE RETRY: no
+DISK BLOCK SIZE:    512                      CRITICAL VG:    no
+
+
+#### Volume group: ctrl1vg ####
+VOLUME GROUP:       ctrl1vg                  VG IDENTIFIER:  00f92eec00004c000000014d24572836
+VG STATE:           active                   PP SIZE:        1 megabyte(s)
+VG PERMISSION:      read/write               TOTAL PPs:      30513 (30513 megabytes)
+MAX LVs:            256                      FREE PPs:       3 (3 megabytes)
+LVs:                3                        USED PPs:       30510 (30510 megabytes)
+OPEN LVs:           3                        QUORUM:         2 (Enabled)
+TOTAL PVs:          3                        VG DESCRIPTORS: 3
+STALE PVs:          0                        STALE PPs:      0
+ACTIVE PVs:         3                        AUTO ON:        no
+Concurrent:         Enhanced-Capable         Auto-Concurrent: Disabled
+VG Mode:            Concurrent                               
+Node ID:            1                        Active Nodes:       2 
+MAX PPs per VG:     32768                    MAX PVs:        1024
+LTG size (Dynamic): 1024 kilobyte(s)         AUTO SYNC:      no
+HOT SPARE:          no                       BB POLICY:      relocatable 
+MIRROR POOL STRICT: off                                       
+PV RESTRICTION:     none                     INFINITE RETRY: no
+DISK BLOCK SIZE:    512                      CRITICAL VG:    no
+
+
+#### Volume group: data1vg ####
+VOLUME GROUP:       data1vg                  VG IDENTIFIER:  00f92eec00004c000000014d23345024
+VG STATE:           active                   PP SIZE:        32 megabyte(s)
+VG PERMISSION:      read/write               TOTAL PPs:      294876 (9436032 megabytes)
+MAX LVs:            256                      FREE PPs:       13071 (418272 megabytes)
+LVs:                1                        USED PPs:       281805 (9017760 megabytes)
+OPEN LVs:           1                        QUORUM:         10 (Enabled)
+TOTAL PVs:          18                       VG DESCRIPTORS: 18
+STALE PVs:          0                        STALE PPs:      0
+ACTIVE PVs:         18                       AUTO ON:        no
+Concurrent:         Enhanced-Capable         Auto-Concurrent: Disabled
+VG Mode:            Concurrent                               
+Node ID:            1                        Active Nodes:       2 
+MAX PPs per VG:     524288                   MAX PVs:        1024
+LTG size (Dynamic): 1024 kilobyte(s)         AUTO SYNC:      no
+HOT SPARE:          no                       BB POLICY:      relocatable 
+MIRROR POOL STRICT: off                                       
+PV RESTRICTION:     none                     INFINITE RETRY: no
+DISK BLOCK SIZE:    512                      CRITICAL VG:    no
+
+
+#### Volume group: flash1vg ####
+VOLUME GROUP:       flash1vg                 VG IDENTIFIER:  00f92eec00004c000000014d245740d1
+VG STATE:           active                   PP SIZE:        32 megabyte(s)
+VG PERMISSION:      read/write               TOTAL PPs:      1594 (51008 megabytes)
+MAX LVs:            256                      FREE PPs:       1 (32 megabytes)
+LVs:                1                        USED PPs:       1593 (50976 megabytes)
+OPEN LVs:           1                        QUORUM:         2 (Enabled)
+TOTAL PVs:          2                        VG DESCRIPTORS: 3
+STALE PVs:          0                        STALE PPs:      0
+ACTIVE PVs:         2                        AUTO ON:        no
+Concurrent:         Enhanced-Capable         Auto-Concurrent: Disabled
+VG Mode:            Concurrent                               
+Node ID:            1                        Active Nodes:       2 
+MAX PPs per VG:     32768                    MAX PVs:        1024
+LTG size (Dynamic): 1024 kilobyte(s)         AUTO SYNC:      no
+HOT SPARE:          no                       BB POLICY:      relocatable 
+MIRROR POOL STRICT: off                                       
+PV RESTRICTION:     none                     INFINITE RETRY: no
+DISK BLOCK SIZE:    512                      CRITICAL VG:    no
+
+
+#### Volume group: indx1vg ####
+VOLUME GROUP:       indx1vg                  VG IDENTIFIER:  00f92eec00004c000000014d233468e4
+VG STATE:           active                   PP SIZE:        32 megabyte(s)
+VG PERMISSION:      read/write               TOTAL PPs:      131056 (4193792 megabytes)
+MAX LVs:            256                      FREE PPs:       13091 (418912 megabytes)
+LVs:                1                        USED PPs:       117965 (3774880 megabytes)
+OPEN LVs:           1                        QUORUM:         5 (Enabled)
+TOTAL PVs:          8                        VG DESCRIPTORS: 8
+STALE PVs:          0                        STALE PPs:      0
+ACTIVE PVs:         8                        AUTO ON:        no
+Concurrent:         Enhanced-Capable         Auto-Concurrent: Disabled
+VG Mode:            Concurrent                               
+Node ID:            1                        Active Nodes:       2 
+MAX PPs per VG:     131072                   MAX PVs:        1024
+LTG size (Dynamic): 1024 kilobyte(s)         AUTO SYNC:      no
+HOT SPARE:          no                       BB POLICY:      relocatable 
+MIRROR POOL STRICT: off                                       
+PV RESTRICTION:     none                     INFINITE RETRY: no
+DISK BLOCK SIZE:    512                      CRITICAL VG:    no
+
+
+#### Volume group: oravg ####
+VOLUME GROUP:       oravg                    VG IDENTIFIER:  00f92eec00004c000000014cd898d2e7
+VG STATE:           active                   PP SIZE:        32 megabyte(s)
+VG PERMISSION:      read/write               TOTAL PPs:      6382 (204224 megabytes)
+MAX LVs:            256                      FREE PPs:       2 (64 megabytes)
+LVs:                3                        USED PPs:       6380 (204160 megabytes)
+OPEN LVs:           3                        QUORUM:         4 (Enabled)
+TOTAL PVs:          6                        VG DESCRIPTORS: 6
+STALE PVs:          0                        STALE PPs:      0
+ACTIVE PVs:         6                        AUTO ON:        no
+Concurrent:         Enhanced-Capable         Auto-Concurrent: Disabled
+VG Mode:            Concurrent                               
+Node ID:            1                        Active Nodes:       2 
+MAX PPs per VG:     32768                    MAX PVs:        1024
+LTG size (Dynamic): 1024 kilobyte(s)         AUTO SYNC:      no
+HOT SPARE:          no                       BB POLICY:      relocatable 
+MIRROR POOL STRICT: off                                       
+PV RESTRICTION:     none                     INFINITE RETRY: no
+DISK BLOCK SIZE:    512                      CRITICAL VG:    no
+
+
+#### Volume group: redo1vg ####
+VOLUME GROUP:       redo1vg                  VG IDENTIFIER:  00f92eec00004c000000014d245730ee
+VG STATE:           active                   PP SIZE:        4 megabyte(s)
+VG PERMISSION:      read/write               TOTAL PPs:      7644 (30576 megabytes)
+MAX LVs:            256                      FREE PPs:       2 (8 megabytes)
+LVs:                2                        USED PPs:       7642 (30568 megabytes)
+OPEN LVs:           2                        QUORUM:         2 (Enabled)
+TOTAL PVs:          2                        VG DESCRIPTORS: 3
+STALE PVs:          0                        STALE PPs:      0
+ACTIVE PVs:         2                        AUTO ON:        no
+Concurrent:         Enhanced-Capable         Auto-Concurrent: Disabled
+VG Mode:            Concurrent                               
+Node ID:            1                        Active Nodes:       2 
+MAX PPs per VG:     32768                    MAX PVs:        1024
+LTG size (Dynamic): 1024 kilobyte(s)         AUTO SYNC:      no
+HOT SPARE:          no                       BB POLICY:      relocatable 
+MIRROR POOL STRICT: off                                       
+PV RESTRICTION:     none                     INFINITE RETRY: no
+DISK BLOCK SIZE:    512                      CRITICAL VG:    no
+
+
+#### Volume group: rootvg ####
+VOLUME GROUP:       rootvg                   VG IDENTIFIER:  00f92eec00004c000000014cd18b092b
+VG STATE:           active                   PP SIZE:        512 megabyte(s)
+VG PERMISSION:      read/write               TOTAL PPs:      304 (155648 megabytes)
+MAX LVs:            256                      FREE PPs:       77 (39424 megabytes)
+LVs:                13                       USED PPs:       227 (116224 megabytes)
+OPEN LVs:           12                       QUORUM:         2 (Enabled)
+TOTAL PVs:          1                        VG DESCRIPTORS: 2
+STALE PVs:          0                        STALE PPs:      0
+ACTIVE PVs:         1                        AUTO ON:        yes
+MAX PPs per VG:     32512                                     
+MAX PPs per PV:     1016                     MAX PVs:        32
+LTG size (Dynamic): 1024 kilobyte(s)         AUTO SYNC:      no
+HOT SPARE:          no                       BB POLICY:      relocatable 
+PV RESTRICTION:     none                     INFINITE RETRY: no
+DISK BLOCK SIZE:    512                      CRITICAL VG:    no
+
+
+#### Volume group: temp1vg ####
+VOLUME GROUP:       temp1vg                  VG IDENTIFIER:  00f92eec00004c000000014d24573925
+VG STATE:           active                   PP SIZE:        32 megabyte(s)
+VG PERMISSION:      read/write               TOTAL PPs:      8188 (262016 megabytes)
+MAX LVs:            256                      FREE PPs:       188 (6016 megabytes)
+LVs:                1                        USED PPs:       8000 (256000 megabytes)
+OPEN LVs:           1                        QUORUM:         2 (Enabled)
+TOTAL PVs:          2                        VG DESCRIPTORS: 3
+STALE PVs:          0                        STALE PPs:      0
+ACTIVE PVs:         2                        AUTO ON:        no
+Concurrent:         Enhanced-Capable         Auto-Concurrent: Disabled
+VG Mode:            Concurrent                               
+Node ID:            1                        Active Nodes:       2 
+MAX PPs per VG:     32768                    MAX PVs:        1024
+LTG size (Dynamic): 1024 kilobyte(s)         AUTO SYNC:      no
+HOT SPARE:          no                       BB POLICY:      relocatable 
+MIRROR POOL STRICT: off                                       
+PV RESTRICTION:     none                     INFINITE RETRY: no
+DISK BLOCK SIZE:    512                      CRITICAL VG:    no
+
+
+#### Volume group: undo1vg ####
+VOLUME GROUP:       undo1vg                  VG IDENTIFIER:  00f92eec00004c000000014d2457486f
+VG STATE:           active                   PP SIZE:        32 megabyte(s)
+VG PERMISSION:      read/write               TOTAL PPs:      8188 (262016 megabytes)
+MAX LVs:            256                      FREE PPs:       188 (6016 megabytes)
+LVs:                1                        USED PPs:       8000 (256000 megabytes)
+OPEN LVs:           1                        QUORUM:         2 (Enabled)
+TOTAL PVs:          2                        VG DESCRIPTORS: 3
+STALE PVs:          0                        STALE PPs:      0
+ACTIVE PVs:         2                        AUTO ON:        no
+Concurrent:         Enhanced-Capable         Auto-Concurrent: Disabled
+VG Mode:            Concurrent                               
+Node ID:            1                        Active Nodes:       2 
+MAX PPs per VG:     32768                    MAX PVs:        1024
+LTG size (Dynamic): 1024 kilobyte(s)         AUTO SYNC:      no
+HOT SPARE:          no                       BB POLICY:      relocatable 
+MIRROR POOL STRICT: off                                       
+PV RESTRICTION:     none                     INFINITE RETRY: no
+DISK BLOCK SIZE:    512                      CRITICAL VG:    no
+
+
+==== EXITED with rc 0 ====
+==== END lsvg -o |sort|awk '{print "#### Volume group: " $1 " ####";system("lsvg " $1 ); print "\n"}' Tue Jul  7 00:56:13 GST 2015 ====

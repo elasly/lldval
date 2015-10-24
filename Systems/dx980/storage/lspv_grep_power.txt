@@ -1,0 +1,64 @@
+==== This output can be found in Systems/dx980/storage/lspv_grep_power.txt ====
+==== START lspv | grep power Mon Jul  6 23:20:02 GST 2015 ====
+hdiskpower0     00f9ada1e6755d17                    None                        
+hdiskpower2     00f9ada1eacaeb74                    rootvg          active      
+hdiskpower3     00f9ada1f102ab02                    oravg           concurrent  
+hdiskpower4     00f9ada1fa87b2f1                    exp1vg          concurrent  
+hdiskpower5     00f9ada1fa8d0522                    exp1vg          concurrent  
+hdiskpower10    00f9ada10166516c                    data1vg         concurrent  
+hdiskpower11    00f9ada10162112e                    data1vg         concurrent  
+hdiskpower12    00f9ada1015db611                    data1vg         concurrent  
+hdiskpower13    00f9ada10168694e                    data1vg         concurrent  
+hdiskpower14    00f9ada10164b4c2                    data1vg         concurrent  
+hdiskpower15    00f9ada101609b08                    data1vg         concurrent  
+hdiskpower16    00f9ada1015cf530                    data1vg         concurrent  
+hdiskpower17    00f9ada1016875b7                    data1vg         concurrent  
+hdiskpower18    00f9ada10164803e                    data1vg         concurrent  
+hdiskpower19    00f9ada101620761                    data1vg         concurrent  
+hdiskpower20    00f9ada1015e0b66                    data1vg         concurrent  
+hdiskpower21    00f9ada1015a6b75                    data1vg         concurrent  
+hdiskpower22    00f9ada10164e991                    data1vg         concurrent  
+hdiskpower23    00f9ada1016098d3                    data1vg         concurrent  
+hdiskpower24    00f9ada1015bdc8c                    data1vg         concurrent  
+hdiskpower25    00f9ada101667f90                    data1vg         concurrent  
+hdiskpower26    00f9ada101621cd3                    indx1vg         concurrent  
+hdiskpower27    00f9ada1015e3119                    indx1vg         concurrent  
+hdiskpower28    00f9ada101696887                    indx1vg         concurrent  
+hdiskpower29    00f9ada10165c9f4                    indx1vg         concurrent  
+hdiskpower30    00f9ada101613cfa                    indx1vg         concurrent  
+hdiskpower31    00f9ada1015c8c6d                    indx1vg         concurrent  
+hdiskpower32    00f9ada101667e23                    arch1vg         concurrent  
+hdiskpower33    00f9ada10162a3a5                    arch1vg         concurrent  
+hdiskpower34    00f9ada1015e41c9                    arch1vg         concurrent  
+hdiskpower35    00f9ada10169383f                    arch1vg         concurrent  
+hdiskpower36    00f9ada101646c4a                    arch1vg         concurrent  
+hdiskpower37    00f9ada1015f9ed4                    arch1vg         concurrent  
+hdiskpower38    00f9ada10166c10d                    gg1vg           concurrent  
+hdiskpower39    00f9ada101626558                    gg1vg           concurrent  
+hdiskpower40    00f9ada101662af4                    flash1vg        concurrent  
+hdiskpower41    00f9ada101616df2                    flash1vg        concurrent  
+hdiskpower42    00f9ada101672510                    undo1vg         concurrent  
+hdiskpower43    00f9ada10162bc70                    undo1vg         concurrent  
+hdiskpower44    00f9ada10166a0e2                    temp1vg         concurrent  
+hdiskpower45    00f9ada10162c00f                    temp1vg         concurrent  
+hdiskpower46    00f9ada101684e84                    bkp1vg          concurrent  
+hdiskpower47    00f9ada101641323                    bkp1vg          concurrent  
+hdiskpower48    00f9ada1015fad2a                    bkp1vg          concurrent  
+hdiskpower49    00f9ada1015b9ae9                    bkp1vg          concurrent  
+hdiskpower50    00f9ada10166bd55                    bkp1vg          concurrent  
+hdiskpower51    00f9ada101629952                    bkp1vg          concurrent  
+hdiskpower52    00f9ada1015e92b4                    bkp1vg          concurrent  
+hdiskpower53    00f9ada1015a9227                    bkp1vg          concurrent  
+hdiskpower54    00f9ada101658310                    bkp1vg          concurrent  
+hdiskpower55    00f9ada1015c3c18                    ctrl1vg         concurrent  
+hdiskpower56    00f9ada101668a07                    ctrl1vg         concurrent  
+hdiskpower57    00f9ada101624044                    ctrl1vg         concurrent  
+hdiskpower1     00f9ada1ece042b9                    caavg_private   active      
+hdiskpower6     00f9ada101672e1c                    redo1vg         concurrent  
+hdiskpower7     00f9ada1015ff413                    redo1vg         concurrent  
+hdiskpower8     00f9ada101671f38                    redo1vg         concurrent  
+hdiskpower9     00f9ada1015f431d                    redo1vg         concurrent  
+hdiskpower58    none                                None                        
+hdiskpower59    00f9ada1f98a0333                    bctvg           concurrent  
+==== EXITED with rc 0 ====
+==== END lspv | grep power Mon Jul  6 23:20:02 GST 2015 ====

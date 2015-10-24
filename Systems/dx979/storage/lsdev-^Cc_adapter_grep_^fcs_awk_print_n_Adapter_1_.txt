@@ -1,0 +1,272 @@
+==== This output can be found in Systems/dx979/storage/lsdev-^Cc_adapter_grep_^fcs_awk_print_n_Adapter_1_.txt ====
+==== START lsdev -Cc adapter | grep ^fcs | awk '{print "\n#### Adapter: " $1" ####";system("fcstat " $1)}' Tue Jul  7 00:33:34 GST 2015 ====
+Error opening device: /dev/fscsi8
+errno: 00000005
+Error opening device: /dev/fscsi9
+errno: 00000005
+Error opening device: /dev/fscsi12
+errno: 00000005
+Error opening device: /dev/fscsi13
+errno: 00000005
+
+#### Adapter: fcs0 ####
+
+FIBRE CHANNEL STATISTICS REPORT: fcs0
+
+Device Type: FC Adapter (adapter/vdevice/IBM,vfc-client)
+Serial Number: UNKNOWN
+Option ROM Version: UNKNOWN
+ZA: UNKNOWN
+World Wide Node Name: 0xC0507608449000BE
+World Wide Port Name: 0xC0507608449000BE
+
+FC-4 TYPES:
+  Supported: 0x0000010000000000000000000000000000000000000000000000000000000000
+  Active:    0x0000010000000000000000000000000000000000000000000000000000000000
+Class of Service: 3
+Port Speed (supported): UNKNOWN
+Port Speed (running):   8 GBIT
+Port FC ID: 0x02FAC7
+Port Type: Fabric
+Attention Type:   UNKNOWN
+Topology:  UNKNOWN 
+
+Seconds Since Last Reset: 2159677         
+
+	Transmit Statistics	Receive Statistics
+	-------------------	------------------
+Frames: -1              	-1              
+Words:  -1              	-1              
+
+LIP Count: -1              
+NOS Count: -1              
+Error Frames:  -1              
+Dumped Frames: -1              
+Link Failure Count: -1              
+Loss of Sync Count: -1              
+Loss of Signal: -1              
+Primitive Seq Protocol Error Count: -1              
+Invalid Tx Word Count: -1              
+Invalid CRC Count: -1              
+
+IP over FC Adapter Driver Information
+  No DMA Resource Count: 220831757       
+  No Adapter Elements Count: 0               
+
+FC SCSI Adapter Driver Information
+  No DMA Resource Count: 220831757       
+  No Adapter Elements Count: 0               
+  No Command Resource Count: 14622668        
+
+IP over FC Traffic Statistics
+  Input Requests:   0               
+  Output Requests:  0               
+  Control Requests: 0               
+  Input Bytes:  0               
+  Output Bytes: 0               
+
+FC SCSI Traffic Statistics
+  Input Requests:   375775342       
+  Output Requests:  229758944       
+  Control Requests: 386586          
+  Input Bytes:  140238952111146 
+  Output Bytes: 6969195721728   
+
+#### Adapter: fcs8 ####
+
+#### Adapter: fcs9 ####
+
+#### Adapter: fcs10 ####
+
+FIBRE CHANNEL STATISTICS REPORT: fcs10
+
+Device Type: FC Adapter (adapter/vdevice/IBM,vfc-client)
+Serial Number: UNKNOWN
+Option ROM Version: UNKNOWN
+ZA: UNKNOWN
+World Wide Node Name: 0xC0507608449000B4
+World Wide Port Name: 0xC0507608449000B4
+
+FC-4 TYPES:
+  Supported: 0x0000010000000000000000000000000000000000000000000000000000000000
+  Active:    0x0000010000000000000000000000000000000000000000000000000000000000
+Class of Service: 3
+Port Speed (supported): UNKNOWN
+Port Speed (running):   8 GBIT
+Port FC ID: 0x02FF36
+Port Type: Fabric
+Attention Type:   UNKNOWN
+Topology:  UNKNOWN 
+
+Seconds Since Last Reset: 2159738         
+
+	Transmit Statistics	Receive Statistics
+	-------------------	------------------
+Frames: -1              	-1              
+Words:  -1              	-1              
+
+LIP Count: -1              
+NOS Count: -1              
+Error Frames:  -1              
+Dumped Frames: -1              
+Link Failure Count: -1              
+Loss of Sync Count: -1              
+Loss of Signal: -1              
+Primitive Seq Protocol Error Count: -1              
+Invalid Tx Word Count: -1              
+Invalid CRC Count: -1              
+
+IP over FC Adapter Driver Information
+  No DMA Resource Count: 224117400       
+  No Adapter Elements Count: 0               
+
+FC SCSI Adapter Driver Information
+  No DMA Resource Count: 224117400       
+  No Adapter Elements Count: 0               
+  No Command Resource Count: 14629331        
+
+IP over FC Traffic Statistics
+  Input Requests:   0               
+  Output Requests:  0               
+  Control Requests: 0               
+  Input Bytes:  0               
+  Output Bytes: 0               
+
+FC SCSI Traffic Statistics
+  Input Requests:   378689056       
+  Output Requests:  231632662       
+  Control Requests: 172893          
+  Input Bytes:  141590158918713 
+  Output Bytes: 7036244578816   
+
+#### Adapter: fcs11 ####
+
+FIBRE CHANNEL STATISTICS REPORT: fcs11
+
+Device Type: FC Adapter (adapter/vdevice/IBM,vfc-client)
+Serial Number: UNKNOWN
+Option ROM Version: UNKNOWN
+ZA: UNKNOWN
+World Wide Node Name: 0xC0507608449000B6
+World Wide Port Name: 0xC0507608449000B6
+
+FC-4 TYPES:
+  Supported: 0x0000010000000000000000000000000000000000000000000000000000000000
+  Active:    0x0000010000000000000000000000000000000000000000000000000000000000
+Class of Service: 3
+Port Speed (supported): UNKNOWN
+Port Speed (running):   8 GBIT
+Port FC ID: 0x02FE2D
+Port Type: Fabric
+Attention Type:   UNKNOWN
+Topology:  UNKNOWN 
+
+Seconds Since Last Reset: 2159738         
+
+	Transmit Statistics	Receive Statistics
+	-------------------	------------------
+Frames: -1              	-1              
+Words:  -1              	-1              
+
+LIP Count: -1              
+NOS Count: -1              
+Error Frames:  -1              
+Dumped Frames: -1              
+Link Failure Count: -1              
+Loss of Sync Count: -1              
+Loss of Signal: -1              
+Primitive Seq Protocol Error Count: -1              
+Invalid Tx Word Count: -1              
+Invalid CRC Count: -1              
+
+IP over FC Adapter Driver Information
+  No DMA Resource Count: 221191597       
+  No Adapter Elements Count: 0               
+
+FC SCSI Adapter Driver Information
+  No DMA Resource Count: 221191597       
+  No Adapter Elements Count: 0               
+  No Command Resource Count: 14575637        
+
+IP over FC Traffic Statistics
+  Input Requests:   0               
+  Output Requests:  0               
+  Control Requests: 0               
+  Input Bytes:  0               
+  Output Bytes: 0               
+
+FC SCSI Traffic Statistics
+  Input Requests:   376479109       
+  Output Requests:  230087677       
+  Control Requests: 172792          
+  Input Bytes:  140560219297445 
+  Output Bytes: 6987186472448   
+
+#### Adapter: fcs12 ####
+
+#### Adapter: fcs13 ####
+
+#### Adapter: fcs14 ####
+
+FIBRE CHANNEL STATISTICS REPORT: fcs14
+
+Device Type: FC Adapter (adapter/vdevice/IBM,vfc-client)
+Serial Number: UNKNOWN
+Option ROM Version: UNKNOWN
+ZA: UNKNOWN
+World Wide Node Name: 0xC0507608449000BC
+World Wide Port Name: 0xC0507608449000BC
+
+FC-4 TYPES:
+  Supported: 0x0000010000000000000000000000000000000000000000000000000000000000
+  Active:    0x0000010000000000000000000000000000000000000000000000000000000000
+Class of Service: 3
+Port Speed (supported): UNKNOWN
+Port Speed (running):   8 GBIT
+Port FC ID: 0x02FBB8
+Port Type: Fabric
+Attention Type:   UNKNOWN
+Topology:  UNKNOWN 
+
+Seconds Since Last Reset: 2159797         
+
+	Transmit Statistics	Receive Statistics
+	-------------------	------------------
+Frames: -1              	-1              
+Words:  -1              	-1              
+
+LIP Count: -1              
+NOS Count: -1              
+Error Frames:  -1              
+Dumped Frames: -1              
+Link Failure Count: -1              
+Loss of Sync Count: -1              
+Loss of Signal: -1              
+Primitive Seq Protocol Error Count: -1              
+Invalid Tx Word Count: -1              
+Invalid CRC Count: -1              
+
+IP over FC Adapter Driver Information
+  No DMA Resource Count: 222047706       
+  No Adapter Elements Count: 0               
+
+FC SCSI Adapter Driver Information
+  No DMA Resource Count: 222047706       
+  No Adapter Elements Count: 0               
+  No Command Resource Count: 14530616        
+
+IP over FC Traffic Statistics
+  Input Requests:   0               
+  Output Requests:  0               
+  Control Requests: 0               
+  Input Bytes:  0               
+  Output Bytes: 0               
+
+FC SCSI Traffic Statistics
+  Input Requests:   377956543       
+  Output Requests:  231089179       
+  Control Requests: 172725          
+  Input Bytes:  141068590513176 
+  Output Bytes: 7038059236864   
+==== EXITED with rc 0 ====
+==== END lsdev -Cc adapter | grep ^fcs | awk '{print "\n#### Adapter: " $1" ####";system("fcstat " $1)}' Tue Jul  7 00:35:35 GST 2015 ====

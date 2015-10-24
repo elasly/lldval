@@ -1,0 +1,17 @@
+==== This output can be found in Systems/dx989/storage/mount.txt ====
+==== START mount Thu Aug  6 11:22:12 GST 2015 ====
+  node       mounted        mounted over    vfs       date        options      
+-------- ---------------  ---------------  ------ ------------ --------------- 
+         /dev/hd4         /                jfs2   Aug 06 10:54 rw,log=/dev/hd8 
+         /dev/hd2         /usr             jfs2   Aug 06 10:54 rw,log=/dev/hd8 
+         /dev/hd9var      /var             jfs2   Aug 06 10:54 rw,log=/dev/hd8 
+         /dev/hd3         /tmp             jfs2   Aug 06 10:55 rw,log=/dev/hd8 
+         /dev/hd1         /home            jfs2   Aug 06 10:59 rw,log=/dev/hd8 
+         /dev/hd11admin   /admin           jfs2   Aug 06 10:59 rw,log=/dev/hd8 
+         /proc            /proc            procfs Aug 06 10:59 rw              
+         /dev/hd10opt     /opt             jfs2   Aug 06 10:59 rw,log=/dev/hd8 
+         /dev/livedump    /var/adm/ras/livedump jfs2   Aug 06 10:59 rw,log=/dev/hd8 
+         /dev/perfdatalv  /perfdata        jfs2   Aug 06 10:59 rw,log=/dev/hd8 
+         /aha             /aha             ahafs  Aug 06 10:59 rw              
+==== EXITED with rc 0 ====
+==== END mount Thu Aug  6 11:22:12 GST 2015 ====

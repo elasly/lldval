@@ -1,0 +1,65 @@
+==== This output can be found in Systems/dx1011/os/fileprint_etc_environment.txt ====
+==== START fileprint /etc/environment Tue Jul  7 13:38:45 CDT 2015 ====
+==== BEGIN Contents of /etc/environment ====
+# @(#)18      1.26  src/bos/etc/environment/environment, cmdsh, bos61B, b2007_34A0 7/23/07 09:46:21
+# IBM_PROLOG_BEGIN_TAG 
+# This is an automatically generated prolog. 
+#  
+# bos61B src/bos/etc/environment/environment 1.26 
+#  
+# Licensed Materials - Property of IBM 
+#  
+# COPYRIGHT International Business Machines Corp. 1989,1994 
+# All Rights Reserved 
+#  
+# US Government Users Restricted Rights - Use, duplication or 
+# disclosure restricted by GSA ADP Schedule Contract with IBM Corp. 
+#  
+# IBM_PROLOG_END_TAG 
+#
+# COMPONENT_NAME: (CMDSH) Shell related commands 
+#
+# ORIGINS: 27
+#
+# (C) COPYRIGHT International Business Machines Corp. 1989, 1994
+# All Rights Reserved
+# Licensed Materials - Property of IBM
+#
+# US Government Users Restricted Rights - Use, duplication or
+# disclosure restricted by GSA ADP Schedule Contract with IBM Corp.
+#
+################################################################
+# System wide environment file.  This file should only contain
+#     1.  comment lines which have a # in the first column,
+#     2.  blank lines, and
+#     3.  Lines in the form name=value.
+#
+# WARNING: This file is only for establishing environment variables.
+#          Execution of commands from this file or any lines other
+#          than specified above may cause failure of the initialization 
+#	   process.
+#
+# Searching the current directory last is usually a BIG time saver.
+# If /usr/ucb is at the beginning of the PATH the BSD version of commands will
+# be found. 
+#
+PATH=/usr/bin:/etc:/usr/sbin:/usr/ucb:/usr/bin/X11:/sbin:/usr/java5/jre/bin:/usr/java5/bin
+TZ=CST6CDT
+LANG=en_US
+LOCPATH=/usr/lib/nls/loc
+NLSPATH=/usr/lib/nls/msg/%L/%N:/usr/lib/nls/msg/%L/%N.cat
+LC__FASTMSG=true
+
+# ODM routines use ODMDIR to determine which objects to operate on
+# the default is /etc/objrepos - this is where the device objects
+# reside, which are required for hardware configuration
+
+ODMDIR=/etc/objrepos
+# Clustering variable to allow commands to bypass clcmd checks.
+CLCMD_PASSTHRU=1
+ 
+# disable smit F9 ( exit to shell )
+SMIT_SHELL=n
+==== END Contents of /etc/environment ====
+==== EXITED with rc 0 ====
+==== END fileprint /etc/environment Tue Jul  7 13:38:45 CDT 2015 ====

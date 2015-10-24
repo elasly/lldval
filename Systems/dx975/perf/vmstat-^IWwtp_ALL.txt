@@ -1,0 +1,15 @@
+==== This output can be found in Systems/dx975/perf/vmstat-^IWwtp_ALL.txt ====
+==== START vmstat -IWwtp ALL  Tue Jul  7 12:47:12 CDT 2015 ====
+
+System configuration: lcpu=24 mem=8192MB ent=2.00
+
+     kthr              memory                         page                       faults                 cpu             time  
+--------------- --------------------- ------------------------------------ ------------------ ----------------------- --------
+  r   b   p   w        avm        fre    fi    fo    pi    po    fr     sr    in     sy    cs us sy id wa    pc    ec hr mi se
+  1  23   0   0    1242959      61904     0     1     0     0     0      0  9775    499 14813  0  8 92  0  0.37  18.7 12:47:12
+
+        psz        avm        fre    fi    fo    pi    po    fr     sr     siz hr mi se
+         4K     274087       4443     0     1     0     0     0      0 1068256 12:47:12
+        64K      60554       3592     0     0     0     0     0      0   64146 12:47:12
+==== EXITED with rc 0 ====
+==== END vmstat -IWwtp ALL  Tue Jul  7 12:47:12 CDT 2015 ====

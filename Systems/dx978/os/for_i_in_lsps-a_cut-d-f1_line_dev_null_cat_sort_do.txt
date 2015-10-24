@@ -1,0 +1,9 @@
+==== This output can be found in Systems/dx978/os/for_i_in_lsps-a_cut-d-f1_line_dev_null_cat_sort_do.txt ====
+==== START for i in `lsps -a | cut -d' ' -f1 | (line>/dev/null; cat) | sort`;do echo "#### Paging space info: lsps $i ####";lsps $i;echo "\n";done Mon Jul  6 23:29:57 GST 2015 ====
+#### Paging space info: lsps hd6 ####
+Page Space      Physical Volume   Volume Group    Size %Used Active Auto  Type Chksum
+hd6             hdiskpower2       rootvg        6144MB     1   yes   yes    lv     0
+
+
+==== EXITED with rc 0 ====
+==== END for i in `lsps -a | cut -d' ' -f1 | (line>/dev/null; cat) | sort`;do echo "#### Paging space info: lsps $i ####";lsps $i;echo "\n";done Mon Jul  6 23:29:57 GST 2015 ====

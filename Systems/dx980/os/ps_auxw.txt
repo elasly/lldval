@@ -1,0 +1,363 @@
+==== This output can be found in Systems/dx980/os/ps_auxw.txt ====
+==== START ps auxw Mon Jul  6 23:12:40 GST 2015 ====
+USER          PID %CPU %MEM   SZ  RSS    TTY STAT    STIME  TIME COMMAND
+root       589846  0.0  0.0  640  640      - A      Jun 12 288:45 reaffin
+root      5374010  0.0  0.0 1348 1528      - A      Jun 12 236:31 /usr/sbin/snmpd 
+root      1048612  0.0  0.0  448  448      - A      Jun 12 207:13 wait
+root      1179688  0.0  0.0  448  448      - A      Jun 12 206:56 wait
+root      1114150  0.0  0.0  448  448      - A      Jun 12 206:26 wait
+root      6488334  0.0  0.0 20432 20532      - A      Jun 12 74:44 perfd 
+root      3866708  0.0  0.0  632  640      - A      Jun 12 44:40 /usr/sbin/syncd 60 
+root       196932  0.0  0.0  448  448      - A      Jun 12 31:46 wait
+root       328008  0.0  0.0  448  448      - A      Jun 12 31:35 wait
+root       131076  0.0  0.0  448  448      - A      Jun 12 31:17 wait
+root       262470  0.0  0.0  448  448      - A      Jun 12 30:59 wait
+root      5898690  0.0  0.0 12112 12276      - A      Jun 12 23:24 /usr/lpp/perf/bin/scopeux 
+root      1966530  0.0  0.0  448  448      - A      Jun 12 22:03 MpxPeriodicCallbackDaemon
+root      3735846  0.0  0.0  384  384      - A      Jun 12 14:33 lock_rcv
+root          264  0.0  0.0  448  448      - A      Jun 12 11:31 swapper
+root      7012516  0.0  0.0 8736 13928      - A      Jun 12 11:22 /usr/es/sbin/cluster/clstrmgr 
+root      5570960  0.0  0.0 92080 92292      - A      Jun 12 11:20 /var/opt/tivoli/ep/_jvm/jre/bin/java -Xmx384m -Xminf0.01 -Xmaxf0.4
+root      2883708  0.0  0.0  448  448      - A      Jun 12 11:08 wait
+root      3014784  0.0  0.0  448  448      - A      Jun 12 11:02 wait
+root            0  0.0  0.0  384  384      - A      Jun 12 11:02 swapper
+root      2949246  0.0  0.0  448  448      - A      Jun 12 10:37 wait
+root      4981174  0.0  0.0 14948 15788      - A      Jun 12  8:30 /usr/es/sbin/cluster/clinfo 
+root       983074  0.0  0.0  448  448      - A      Jun 12  7:21 xmgc
+root      5767636  0.0  0.0 4080 4468      - A      Jun 12  7:19 /usr/sbin/rsct/bin/IBM.HostRMd 
+root      5177706  0.0  0.0 9876 10060      - A      Jun 12  6:58 /usr/bin/topasrec  -L -s 300 -R 1 -r 6 -o /var/perf/daily/ -ypersi
+root      5177392  0.0  0.0 12624 12668      - A      Jun 12  5:19 /usr/lpp/OV/lbin/perf/coda 
+root      6226056  0.0  0.0 11076 11400      - A      Jun 12  5:16 /usr/lpp/OV/lbin/eaagt/opcmona 
+root      1245572  0.0  0.0  960  960      - A      Jun 12  4:44 gil
+root       131394  0.0  0.0  448  448      - A      Jun 12  4:43 wait
+root      5439556  0.0  0.0 1216 1216      - A      Jun 12  4:27 multisite_connection_monitor
+root      9240664  0.0  0.0  800  828      - A      Jun 12  3:46 /usr/sbin/getty /dev/console 
+root      3539240  0.0  0.0 9404 10452      - A      Jun 12  3:28 /usr/lpp/OV/bin/ovcd 
+root      2818170  0.0  0.0  448  448      - A      Jun 12  3:17 wait
+root      5243282  0.0  0.0 19520 34900      - A      Jun 12  3:15 /usr/sbin/rsct/bin/hagsd cthags 
+root      3015164  0.0  0.0 7896 13824      - A      Jun 12  3:03 /usr/sbin/emcp_mond 
+root      3473918  0.0  0.0 2288 2344      - A      Jun 12  3:01 xmtopas -p3 
+root      3408096  0.0  0.0  448  448      - A      Jun 12  2:45 resv_minder
+root      4129076  0.0  0.0 2976 3816      - A      Jun 12  2:44 /usr/sbin/clcomd -d 
+pconsole  6750320  0.0  0.0 62732 62784      - A      Jun 12  2:07 /usr/java6/bin/java -Xmx512m -Xms20m -Xscmx10m -Xshareclasses -Xbo
+root      1441840  0.0  0.0  448  448      - A      Jun 12  2:03 wait
+root      1310764  0.0  0.0  448  448      - A      Jun 12  2:02 wait
+root      1376302  0.0  0.0  448  448      - A      Jun 12  2:02 wait
+root      5111888  0.0  0.0 5288 5416      - A      Jun 12  1:55 /usr/lpp/OV/lbin/eaagt/opcacta 
+root      5308538  0.0  0.0  448  448      - A      Jun 12  1:55 DPKP
+root      7077892  0.0  0.0 1152 1196      - A      Jun 12  1:47 lsdaemon 10000 
+root       524630  0.0  0.0  448  448      - A      Jun 12  1:46 wait
+root       590168  0.0  0.0  448  448      - A      Jun 12  1:46 wait
+root       459092  0.0  0.0  448  448      - A      Jun 12  1:44 wait
+root      5702022  0.0  0.0 14460 16976      - A      Jun 12  1:40 /usr/sbin/rsct/bin/rmcd -a IBM.LPCommands -r -S 1500 
+root      4653298  0.0  0.0  948  968      - A      Jun 12  1:35 /usr/sbin/syslogd -R 
+root      5833120  0.0  0.0 8408 16908      - A      Jun 12  1:24 /usr/sbin/rsct/bin/IBM.StorageRMd 
+root      1703992  0.0  0.0  448  448      - A      Jun 12  1:20 wait
+root      1572916  0.0  0.0  448  448      - A      Jun 12  1:20 wait
+root      1638454  0.0  0.0  448  448      - A      Jun 12  1:18 wait
+root      3408224  0.0  0.0 7968 8132      - A      Jun 12  1:07 /usr/lpp/OV/lbin/eaagt/opcmsga 
+root      5701748  0.0  0.0 5616 6704      - A      Jun 12  1:05 /usr/lpp/OV/bin/ovbbccb -nodaemon 
+root       852328  0.0  0.0  448  448      - A      Jun 12  1:01 wait
+root       786790  0.0  0.0  448  448      - A      Jun 12  1:00 wait
+root       721252  0.0  0.0  448  448      - A      Jun 12  0:58 wait
+root      2097228  0.0  0.0  448  448      - A      Jun 12  0:53 wait
+root      2228304  0.0  0.0  448  448      - A      Jun 12  0:53 wait
+root      2162766  0.0  0.0  448  448      - A      Jun 12  0:52 wait
+root      2752624  0.0  0.0  448  448      - A      Jun 12  0:50 wait
+root      5112278  0.0  0.0 11664 12044      - A      Jun 12  0:47 /usr/lpp/perf/bin/perfalarm 
+root      2621548  0.0  0.0  448  448      - A      Jun 12  0:45 wait
+root      4587636  0.0  0.0  384  384      - A      Jun 12  0:43 sec_rcv
+root      1966144  0.0  0.0  448  448      - A      Jun 12  0:43 wait
+root      2687086  0.0  0.0  448  448      - A      Jun 12  0:43 wait
+root      1900606  0.0  0.0  448  448      - A      Jun 12  0:42 wait
+root      1048950  0.0  0.0  448  448      - A      Jun 12  0:42 wait
+root      1114488  0.0  0.0  448  448      - A      Jun 12  0:42 wait
+root      3211554  0.0  0.0 1216 1216      - A      Jun 12  0:41 rpc.lockd
+root      2359388  0.0  0.0  448  448      - A      Jun 12  0:41 wait
+root      2490464  0.0  0.0  448  448      - A      Jun 12  0:41 wait
+root       983412  0.0  0.0  448  448      - A      Jun 12  0:41 wait
+root      3801382  0.0  0.0 26260 27532      - A      Jun 12  0:40 /bin/nsrexecd 
+root      2424926  0.0  0.0  448  448      - A      Jun 12  0:40 wait
+root      1835068  0.0  0.0  448  448      - A      Jun 12  0:40 wait
+root      2031690  0.0  0.0  448  448      - A      Jun 12  0:38 wait
+root      2556010  0.0  0.0  448  448      - A      Jun 12  0:38 wait
+root       655714  0.0  0.0  448  448      - A      Jun 12  0:36 wait
+root       917874  0.0  0.0  448  448      - A      Jun 12  0:35 wait
+root       393554  0.0  0.0  448  448      - A      Jun 12  0:34 wait
+root      2293850  0.0  0.0  448  448      - A      Jun 12  0:34 wait
+root      1245226  0.0  0.0  448  448      - A      Jun 12  0:33 wait
+root      1507378  0.0  0.0  448  448      - A      Jun 12  0:31 wait
+root      1769530  0.0  0.0  448  448      - A      Jun 12  0:30 wait
+root      4194590  0.0  0.0 1988 16356      - A      Jun 12  0:22 /usr/sbin/aso 
+root      2228504  0.0  0.0 2436 2716      - A      Jun 12  0:17 sendmail: accepting connections 
+root      3997998  0.0  0.0  492  508      - A      Jun 12  0:16 ./slp_srvreg -D 
+root      1180034  0.0  0.0  448  448      - A      Jun 12  0:15 netm
+root       786460  0.0  0.0 2624 2624      - A      Jun 12  0:15 vtiol
+root      6422654  0.0  0.0  780  792      - A      Jun 12  0:12 /usr/sbin/clconfd 
+root      3080628  0.0  0.0 12996 13028      - A      Jun 12  0:10 /opt/freeware/cimom/pegasus/bin/cimprovagt 0 12 16 root SLPProvide
+root      3670302  0.0  0.0 4708 4732      - A      Jun 12  0:09 /usr/sbin/cron 
+root      2359580  0.0  0.0 19072 19072      - A      Jun 12  0:09 j2pg
+root      3866902  0.0  0.0  448  448      - A      Jun 12  0:08 clusterwide_rcv
+root      3801300  0.0  0.0  448  448      - A      Jun 12  0:08 pp2d
+root       917536  0.0  0.0  640  640      - A      Jun 12  0:06 pilegc
+root      4915670  0.0  0.0  516  588      - A      Jun 12  0:05 bin/nonstop_aix @/var/opt/tivoli/ep/runtime/nonstop/config/nonstop
+root      6619284  0.0  0.0 25032 36284      - A      Jun 12  0:04 /usr/sbin/rsct/bin/IBM.ConfigRMd 
+root      3604888  0.0  0.0 9336 9428      - A      Jun 12  0:04 /opt/ibm/icc/cimom/bin/dirsnmpd 
+root      3342838  0.0  0.0 1888 2148      - A      Jun 12  0:04 /usr/sbin/aixmibd 
+root            1  0.0  0.0  828  844      - A      Jun 12  0:04 /etc/init 
+root      3145910  0.0  0.0  448  448      - A      Jun 12  0:03 MpxGrDaemon
+root       196614  0.0  0.0  448  448      - A      Jun 12  0:03 sched
+root        65802  0.0  0.0  448  448      - A      Jun 12  0:03 sched
+root      8519792  0.0  0.0 1328 1400      - A      Jun 12  0:02 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f9ada100004c000000014c0
+root      6750624  0.0  0.0 1396 1468      - A      Jun 12  0:02 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f9ada100004c000000014c0
+root      9372092  0.0  0.0 1340 1412      - A      Jun 12  0:02 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f9ada100004c000000014bf
+root     20906142  0.0  0.0 1344 1416      - A      Jun 12  0:02 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f9ada100004c000000014c0
+root     15401106  0.0  0.0 1344 1416      - A      Jun 12  0:02 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f9ada100004c000000014c0
+root     16187616  0.0  0.0 1344 1416      - A      Jun 12  0:02 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f9ada100004c000000014c0
+root      7995496  0.0  0.0 1344 1416      - A      Jun 12  0:02 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f9ada100004c000000014c0
+root      9437506  0.0  0.0 1384 1456      - A      Jun 12  0:02 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f9ada100004c000000014c0
+root      1638728  0.0  0.0  448  448      - A      Jun 12  0:02 rgsr
+root     19398820  0.0  0.0 4044 4116      - A      Jun 15  0:01 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f9ada100004c000000014df
+root      9568344  0.0  0.0 1348 1420      - A      Jun 12  0:01 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f9ada100004c000000014c0
+root     13435000  0.0  0.0 1344 1416      - A      Jun 12  0:01 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f9ada100004c000000014c0
+root      9896120  0.0  0.0 1340 1412      - A      Jun 12  0:01 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f9ada100004c000000014c0
+root     16449706  0.0  0.0 1328 1400      - A      Jun 12  0:01 /usr/sbin/gsclvmd -r 30 -i 300 -t 300 -c 00f9ada100004c000000014c0
+root     20119584  0.0  0.0  924  996      - A      Jun 12  0:01 /usr/sbin/gsclvmd 
+root      6029802  0.0  0.0  956 1032      - A      Jun 12  0:01 /usr/lpp/perf/bin/midaemon 
+root      5046492  0.0  0.0 30272 30300      - A      Jun 12  0:01 [cimserve]
+root      4456748  0.0  0.0 7100 7160      - A      Jun 12  0:01 /opt/ibm/director/cimom/bin/tier1slp 
+root      4063272  0.0  0.0 1024 1024      - A      Jun 12  0:01 nfssync_kproc
+root      2752992  0.0  0.0  448  448      - A      Jun 12  0:01 n4bg
+root       458770  0.0  0.0  832  832      - A      Jun 12  0:01 vmmd
+oracle   27853278  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+root      6423002  0.0  0.0 1236 1312      - A      Jun 12  0:00 /usr/lpp/perf/bin/ttd 
+root      6226238                            Z              0:00 <defunct>
+root      4325668  0.0  0.0 1172 1332      - A      Jun 12  0:00 /usr/sbin/hrd 
+root      6095260  0.0  0.0 1916 1964      - A      Jun 12  0:00 /usr/sbin/rsct/bin/IBM.DRMd 
+oracle   10945006  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+root      2818524  0.0  0.0  448  448      - A      Jun 12  0:00 MpxResumeIoDaemon
+oracle   26018248  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+root      2884082  0.0  0.0  448  448      - A      Jun 12  0:00 pp2log
+root      4063534  0.0  0.0  448  448      - A      Jun 12  0:00 ahaqueue
+root      4522314  0.0  0.0  448  448      - A      Jun 12  0:00 multisite_listener
+root      2687472  0.0  0.0  448  448      - A      Jun 12  0:00 pp2xmfree
+root      4850070  0.0  0.0 1368 3144      - A      Jun 12  0:00 /usr/sbin/sshd 
+root      4587896  0.0  0.0  800  848      - A      Jun 12  0:00 /bin/ksh /pconsole/lwi/bin/lwistart_src.sh 
+root      4718928  0.0  0.0 5260 5408      - A      Jun 12  0:00 /usr/lpp/OV/lbin/conf/ovconfd 
+root      3277300  0.0  0.0 1740 2332      - A      Jun 12  0:00 /usr/sbin/snmpmibd 
+root      3146224  0.0  0.0  764  816      - A      Jun 12  0:00 /usr/sbin/inetd 
+root      2949394  0.0  0.0 4772 4880      - A      Jun 12  0:00 /usr/lpp/OV/lbin/eaagt/opcmsgi 
+root      2556410  0.0  0.0  512  512      - A      Jun 12  0:00 kbiod
+root      5308846  0.0  0.0  908  968      - A      Jun 12  0:00 /usr/dt/bin/dtlogin -daemon 
+root      2621716  0.0  0.0  448  448      - A      Jun 12  0:00 aioLpool
+oracle   28115430  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+root     46727456  0.0  0.0  792  840  pts/2 A    23:08:44  0:00 -ksh 
+oracle   47382896  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+root     46530942  0.0  0.0  956 1004  pts/2 A    23:12:19  0:00 /bin/sh ./pcat.sh --notsm --nohmc 
+oracle   46661956  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   47448434  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   48103822  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   48169368  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   47579510  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   47645050  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   46465330  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   45154804  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   45220342  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   44433864  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   45023730  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   45285882  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   46006556  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   46268714  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   45678856  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   45941018  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   50987334  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   51052874  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   50659622  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   50856242  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   51118414  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   51577188  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   52167048  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   51183954  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   51511650  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   50594084  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   49086922  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   49218014  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   48300446  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   49021380  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   49283558  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   50331934  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   50528546  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+root     49348986  0.0  0.0 1860 3636      - A    23:08:28  0:00 sshd: root@pts/2 
+oracle   49414646  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   44302812  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   33489200  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   34341220  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+root     32309714  0.0  0.0 1452 2772  pts/1 A      Jun 30  0:00 ssh 
+oracle   33161496  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   34406760  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   35324332  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   35652028  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+root     34800024  0.0  0.0  840  420  pts/2 A    23:12:19  0:00 /bin/sh /tmp/pcat/pcat/./pcat-os.sh aa 
+oracle   35127710  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   32113118  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   28836110  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   29032736  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   28180970  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   28573956  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   29294894  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   31457724  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   32047580  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   29622596  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   30736792  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+root     41615772  0.0  0.0 2116 2148  pts/2 A    23:12:40  0:00 ps auxw 
+oracle   42402136  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   40501752  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   41091352  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   42467676  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   43057538  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   44171730  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+root     42664308  0.0  0.0  920  348  pts/2 A    23:12:22  0:00 /bin/sh /tmp/pcat/pcat/./pcat-os.sh aa 
+oracle   42860920  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   40370670  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   36766206  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   36897026  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   35914190  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   36307428  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   38469994  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   39911890  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   40174048  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   39584178  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   39846348  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   30212350  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   30474262  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   28246262  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+root     29229140  0.0  0.0  172  180  pts/2 A    23:12:40  0:00 tail -512000 
+oracle   31850594  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   32571526  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   31326280  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+root     31523004  0.0  0.0  996  424  pts/2 A    23:12:40  0:00 /bin/sh /tmp/pcat/pcat/./pcat-os.sh aa 
+root      7143582  0.0  0.0 2072 2148      - A      Jun 12  0:00 /usr/sbin/rsct/bin/IBM.ServiceRMd 
+oracle    7864488  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+pconsole  6488248  0.0  0.0  796  844      - A      Jun 12  0:00 /bin/ksh /pconsole/lwi/bin/lwistart_src.sh 
+root      6684810  0.0  0.0  816  864      - A      Jun 12  0:00 /bin/ksh /var/opt/tivoli/ep/runtime/nonstop/bin/cas_src.sh 
+root     10682478  0.0  0.0 4848 5224      - A      Jun 15  0:00 /usr/es/sbin/cluster/clevmgrd 
+root     16580844  0.0  0.0  448  448      - A      Jun 12  0:00 pkm_kern_proc
+oracle    9175278  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+root     10551354  0.0  0.0  812 1216      - A      Jun 12  0:00 run_rcovcmd 
+oracle   38469874  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   38928402  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   37093530  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   37486772  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   39911482  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+root     40435800  0.0  0.0  792  840  pts/1 A      Jun 30  0:00 -ksh 
+oracle   39256098  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   39452714  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   33751250  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   35127342  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   32637066  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   33554630  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   36896916  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   36962454  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   35258420  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   35651656  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+root      6357092  0.0  0.0  448  448      - A      Jun 12  0:00 ahafs_kproc
+root      3342398  0.0  0.0  428  448      - A      Jun 12  0:00 /usr/ccs/bin/shlap64 
+root      3473610  0.0  0.0  448  448      - A      Jun 12  0:00 pp_filler
+root      3211448  0.0  0.0  448  448      - A      Jun 12  0:00 MpxAsyncIoDaemon
+root      3276996  0.0  0.0  448  448      - A      Jun 12  0:00 MpxProactiveDaemon
+root      3735762  0.0  0.0  448  448      - A      Jun 12  0:00 MpxDispatchDaemon
+root      3932194  0.0  0.0 1468 1508      - A      Jun 12  0:00 /usr/sbin/hostmibd 
+root      3539184  0.0  0.0  172  180      - A      Jun 12  0:00 /usr/sbin/biod 6 
+root      3670212  0.0  0.0  640  640      - A      Jun 12  0:00 ldmp_process
+root       393232  0.0  0.0 1088 1088      - A      Jun 12  0:00 psmd
+root       524308  0.0  0.0  448  448      - A      Jun 12  0:00 pvlist
+root       262156  0.0  0.0 1088 1088      - A      Jun 12  0:00 lrud
+root       327694  0.0  0.0  448  448      - A      Jun 12  0:00 vmptacrt
+root       851998  0.0  0.0  448  448      - A      Jun 12  0:00 devstatd
+root      3080376  0.0  0.0  448  448      - A      Jun 12  0:00 baseOpen
+root       655384  0.0  0.0  448  448      - A      Jun 12  0:00 memgrdd
+root       721104  0.0  0.0  448  448      - A      Jun 12  0:00 aha_rcv
+root      5242928  0.0  0.0  452  460      - A      Jun 12  0:00 /opt/freeware/cimom/pegasus/bin/cimssys cimsys 
+root      5505084  0.0  0.0  308  316      - A      Jun 12  0:00 /usr/sbin/writesrv 
+root      4915224  0.0  0.0  452  460      - A      Jun 12  0:00 /opt/freeware/cimom/pegasus/bin/cimssys platform_agent 
+root      4980790  0.0  0.0  384  388      - A      Jun 12  0:00 /usr/sbin/rpc.lockd -d 0 
+root      5832816  0.0  0.0  316  340      - A      Jun 12  0:00 /usr/sbin/qdaemon 
+root      6160466  0.0  0.0 9620 9648      - A      Jun 12  0:00 /usr/bin/cimlistener 
+root      5570630  0.0  0.0  448  448      - A      Jun 12  0:00 clean_if
+root      5767258  0.0  0.0   88   92      - A      Jun 12  0:00 /usr/sbin/uprintfd 
+root      4194550  0.0  0.0  512  512      - A      Jun 12  0:00 nfsSM
+root      4260066  0.0  0.0 6592 6592      - A      Jun 12  0:00 dog
+root      3997930  0.0  0.0  448  448      - A      Jun 12  0:00 pp2def
+root      4128922  0.0  0.0  448  448      - A      Jun 12  0:00 random
+root      4718758  0.0  0.0  340  356      - A      Jun 12  0:00 /opt/freeware/cimom/pegasus/bin/CIM_diagd 
+daemon    4784242  0.0  0.0 3132 3216      - A      Jun 12  0:00 /usr/sbin/rpc.statd -d 0 -t 50 
+root      4390986  0.0  0.0 1044 1064      - A      Jun 12  0:00 /usr/sbin/srcmstr 
+root      4456580  0.0  0.0  448  448      - A      Jun 12  0:00 link_rcv
+oracle   40501360  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   51511350  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   51904580  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   50724870  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   51118106  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   52363368  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   53018766  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+root     52101236  0.0  0.0  792  840  pts/0 A    12:34:28  0:00 -ksh 
+root     52166768  0.0  0.0 2376 3196  pts/2 A    23:09:44  0:00 bash 
+oracle   49873102  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   50004178  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   49676486  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   49742024  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   50397414  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   50528494  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   50069716  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   50135254  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+root      2032064  0.0  0.0  448  448      - A      Jun 12  0:00 MpxTestDaemon    000292603381
+root      2097652  0.0  0.0  448  448      - A      Jun 12  0:00 aioPpool
+root      1835442  0.0  0.0  448  448      - A      Jun 12  0:00 MpxTestDaemon
+root      1900998  0.0  0.0  448  448      - A      Jun 12  0:00 pp_skimmer
+root      2425306  0.0  0.0  448  448      - A      Jun 12  0:00 lvmbb
+root      2490870  0.0  0.0 1216 1216      - A      Jun 12  0:00 kpkcs11
+root      2163170  0.0  0.0  512  512      - A      Jun 12  0:00 rtcmd
+root      2294034  0.0  0.0 1156 1196      - A      Jun 12  0:00 /usr/lib/errdemon 
+oracle   53608618  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+root      1311110  0.0  0.0  512  512      - A      Jun 12  0:00 wlmsched
+oracle   53280922  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   53543076  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+root      1704386  0.0  0.0  448  448      - A      Jun 12  0:00 memp_rbd
+root      1769846  0.0  0.0 1080 1100      - A      Jun 12  0:00 /usr/sbin/portmap 
+root      1376648  0.0  0.0  448  448      - A      Jun 12  0:00 armtrace_kproc
+root      1573308  0.0  0.0  448  448      - A      Jun 12  0:00 rdpgc
+oracle   49610942  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   45088900  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   45613244  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   44367962  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   44761200  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   46268638  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   46334178  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   45809860  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   46006476  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   41222292  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+root     41681104  0.0  0.0 1928 3704      - A      Jun 30  0:00 sshd: root@pts/1 
+oracle   41025670  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   41156748  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   43384848  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   43581466  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   41877688  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   42402000  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   47972428  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+root     48365774  0.0  0.0 2488 4264      - A    12:34:17  0:00 sshd: root@pts/0 
+oracle   47644734  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   47710272  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   49348780  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+root     49545418  0.0  0.0 8528 8740      - A    20:00:01  0:00 /usr/bin/topas_nmon  -f -t -d -A -L -M -N -P -V -T -O -^ -s 300 -c
+oracle   48627836  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   49152160  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   46923788  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+root     47055000  0.0  0.0  116  124  pts/2 A    23:12:22  0:00 tee Systems/dx980/pcat-os_sh-out.txt 
+oracle   46792710  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   46858250  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   47317030  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   47448118  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   47120404  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+oracle   47251488  0.0  0.0  448  448      - A      Jun 29  0:00 aioserver
+==== EXITED with rc 0 ====
+==== END ps auxw Mon Jul  6 23:12:40 GST 2015 ====

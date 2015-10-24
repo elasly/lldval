@@ -1,0 +1,30 @@
+==== This output can be found in Systems/dx989/caa/lscluster-d.txt ====
+==== START lscluster -d Thu Aug  6 11:28:38 GST 2015 ====
+Storage Interface Query
+
+Cluster Name: DX988_cluster
+Cluster UUID: 5f300754-3c06-11e5-ae70-6e9992323805
+Number of nodes reporting = 2
+Number of nodes expected = 2
+
+Node DX989
+Node UUID = 5f2bcf72-3c06-11e5-ae70-6e9992323805
+Number of disks discovered = 1
+	hdisk1:
+	      State : UP
+	       uDid : 240C5030E43A400206OPEN-V07HITACHIfcp
+	       uUid : ec9d17e4-e0b6-98b4-af69-789e9065073f
+	  Site uUid : 51735173-5173-5173-5173-517351735173
+	       Type : REPDISK
+
+Node DX988
+Node UUID = 5f2bcf22-3c06-11e5-ae70-6e9992323805
+Number of disks discovered = 1
+	hdisk1:
+	      State : UP
+	       uDid : 240C5030E43A400206OPEN-V07HITACHIfcp
+	       uUid : ec9d17e4-e0b6-98b4-af69-789e9065073f
+	  Site uUid : 51735173-5173-5173-5173-517351735173
+	       Type : REPDISK
+==== EXITED with rc 0 ====
+==== END lscluster -d Thu Aug  6 11:28:38 GST 2015 ====

@@ -1,0 +1,46 @@
+==== This output can be found in Systems/dx989/ha/odmget_HACMPdaemons.txt ====
+==== START odmget HACMPdaemons Thu Aug  6 11:28:38 GST 2015 ====
+
+HACMPdaemons:
+	nodename = "DX989"
+	daemon = "clstrmgr"
+	type = "start"
+	object = "manage"
+	value = "auto"
+
+HACMPdaemons:
+	nodename = "DX989"
+	daemon = "clstrmgr"
+	type = "start"
+	object = "broadcast"
+	value = "false"
+
+HACMPdaemons:
+	nodename = "DX989"
+	daemon = "clinfo"
+	type = "start"
+	object = "time"
+	value = "false"
+
+HACMPdaemons:
+	nodename = "DX989"
+	daemon = "clstrmgrES"
+	type = "stop"
+	object = "time"
+	value = "now"
+
+HACMPdaemons:
+	nodename = "DX989"
+	daemon = "clstrmgrES"
+	type = "stop"
+	object = "broadcast"
+	value = "true"
+
+HACMPdaemons:
+	nodename = "DX989"
+	daemon = "clstrmgrES"
+	type = "stop"
+	object = "mode"
+	value = "graceful"
+==== EXITED with rc 0 ====
+==== END odmget HACMPdaemons Thu Aug  6 11:28:38 GST 2015 ====

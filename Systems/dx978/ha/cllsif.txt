@@ -1,0 +1,14 @@
+==== This output can be found in Systems/dx978/ha/cllsif.txt ====
+==== START cllsif Mon Jul  6 23:42:54 GST 2015 ====
+Adapter              Type       Network    Net Type   Attribute  Node       IP Address       Hardware Address Interface Name   Global Name      Netmask          Alias for HB Prefix Length
+
+DX977_sc0            boot       net_ether_01 ether      public     DX977      10.51.229.220                     en3                         255.255.255.0               24
+DX977                boot       net_ether_02 ether      public     DX977      10.51.226.224                     en0                         255.255.255.0               24
+DX977-VIP            service    net_ether_02 ether      public     DX977      10.51.226.228                                                 255.255.255.0               24
+DX977_b              boot       net_ether_03 ether      public     DX977      10.51.227.229                     en1                         255.255.255.0               24
+DX978_sc0            boot       net_ether_01 ether      public     DX978      10.51.229.221                     en3                         255.255.255.0               24
+DX978                boot       net_ether_02 ether      public     DX978      10.51.226.225                     en0                         255.255.255.0               24
+DX977-VIP            service    net_ether_02 ether      public     DX978      10.51.226.228                                                 255.255.255.0               24
+DX978_b              boot       net_ether_03 ether      public     DX978      10.51.227.230                     en1                         255.255.255.0               24
+==== EXITED with rc 0 ====
+==== END cllsif Mon Jul  6 23:42:54 GST 2015 ====

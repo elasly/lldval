@@ -1,0 +1,735 @@
+==== This output can be found in Systems/dx988/os/odmget_errnotify.txt ====
+==== START odmget errnotify Thu Aug  6 11:14:03 GST 2015 ====
+
+errnotify:
+	en_pid = 0
+	en_name = ""
+	en_persistenceflg = 1
+	en_label = "SCANOUT"
+	en_crcid = 0
+	en_class = ""
+	en_type = ""
+	en_alertflg = ""
+	en_resource = ""
+	en_rtype = ""
+	en_rclass = ""
+	en_symptom = ""
+	en_err64 = ""
+	en_dup = ""
+	en_method = "/usr/lib/ras/notifymeth -l $1 -t SCANOUT"
+
+errnotify:
+	en_pid = 0
+	en_name = ""
+	en_persistenceflg = 1
+	en_label = "TAPE_ERR3"
+	en_crcid = 0
+	en_class = ""
+	en_type = ""
+	en_alertflg = ""
+	en_resource = ""
+	en_rtype = ""
+	en_rclass = ""
+	en_symptom = ""
+	en_err64 = ""
+	en_dup = ""
+	en_method = "/usr/lib/ras/notifymeth -l $1 -r $6 -t TAPE_ERR3"
+
+errnotify:
+	en_pid = 0
+	en_name = ""
+	en_persistenceflg = 1
+	en_label = "TAPE_ERR6"
+	en_crcid = 0
+	en_class = ""
+	en_type = ""
+	en_alertflg = ""
+	en_resource = ""
+	en_rtype = ""
+	en_rclass = ""
+	en_symptom = ""
+	en_err64 = ""
+	en_dup = ""
+	en_method = "/usr/lib/ras/notifymeth -l $1 -r $6 -t TAPE_ERR6"
+
+errnotify:
+	en_pid = 0
+	en_name = ""
+	en_persistenceflg = 1
+	en_label = "SCSI_ARRAY_ERR6"
+	en_crcid = 0
+	en_class = ""
+	en_type = ""
+	en_alertflg = ""
+	en_resource = ""
+	en_rtype = ""
+	en_rclass = ""
+	en_symptom = ""
+	en_err64 = ""
+	en_dup = ""
+	en_method = "/usr/lib/ras/notifymeth -l $1 -r $6 -t SCSI_ARRAY_ERR6"
+
+errnotify:
+	en_pid = 0
+	en_name = ""
+	en_persistenceflg = 1
+	en_label = "SCSI_ARRAY_ERR7"
+	en_crcid = 0
+	en_class = ""
+	en_type = ""
+	en_alertflg = ""
+	en_resource = ""
+	en_rtype = ""
+	en_rclass = ""
+	en_symptom = ""
+	en_err64 = ""
+	en_dup = ""
+	en_method = "/usr/lib/ras/notifymeth -l $1 -r $6 -t SCSI_ARRAY_ERR7"
+
+errnotify:
+	en_pid = 0
+	en_name = ""
+	en_persistenceflg = 1
+	en_label = "LVM_SA_PVMISS"
+	en_crcid = 0
+	en_class = ""
+	en_type = ""
+	en_alertflg = ""
+	en_resource = ""
+	en_rtype = ""
+	en_rclass = ""
+	en_symptom = ""
+	en_err64 = ""
+	en_dup = ""
+	en_method = "/usr/sbin/hotspare $1 $9"
+
+errnotify:
+	en_pid = 0
+	en_name = ""
+	en_persistenceflg = 1
+	en_label = "LVM_SA_STALEPP"
+	en_crcid = 0
+	en_class = ""
+	en_type = ""
+	en_alertflg = ""
+	en_resource = ""
+	en_rtype = ""
+	en_rclass = ""
+	en_symptom = ""
+	en_err64 = ""
+	en_dup = ""
+	en_method = "/usr/sbin/hotspare $1 $9"
+
+errnotify:
+	en_pid = 0
+	en_name = "plat_dump_w_id"
+	en_persistenceflg = 1
+	en_label = ""
+	en_crcid = 689792195
+	en_class = ""
+	en_type = ""
+	en_alertflg = ""
+	en_resource = ""
+	en_rtype = ""
+	en_rclass = ""
+	en_symptom = ""
+	en_err64 = ""
+	en_dup = ""
+	en_method = "/usr/sbin/platform_dump -Ls $1"
+
+errnotify:
+	en_pid = 0
+	en_name = ""
+	en_persistenceflg = 1
+	en_label = "RECOVERY_NOTIFY"
+	en_crcid = 0
+	en_class = ""
+	en_type = ""
+	en_alertflg = ""
+	en_resource = ""
+	en_rtype = ""
+	en_rclass = ""
+	en_symptom = ""
+	en_err64 = ""
+	en_dup = ""
+	en_method = "/usr/lib/ras/notifymeth -l $1 -r $6 -t RECOVERY_NOTIFY"
+
+errnotify:
+	en_pid = 0
+	en_name = "MDLOG"
+	en_persistenceflg = 1
+	en_label = "MINIDUMP_LOG"
+	en_crcid = 0
+	en_class = ""
+	en_type = ""
+	en_alertflg = ""
+	en_resource = ""
+	en_rtype = ""
+	en_rclass = ""
+	en_symptom = ""
+	en_err64 = ""
+	en_dup = ""
+	en_method = "/usr/lib/ras/minidump_method -l $1"
+
+errnotify:
+	en_pid = 0
+	en_name = ""
+	en_persistenceflg = 1
+	en_label = "LVM_CLV_FAIL_DONE"
+	en_crcid = 0
+	en_class = ""
+	en_type = ""
+	en_alertflg = ""
+	en_resource = ""
+	en_rtype = ""
+	en_rclass = ""
+	en_symptom = ""
+	en_err64 = ""
+	en_dup = ""
+	en_method = "/usr/sbin/lfailaiocachelv -s $1"
+
+errnotify:
+	en_pid = 0
+	en_name = "fcs_err10"
+	en_persistenceflg = 1
+	en_label = "FCS_ERR10"
+	en_crcid = 0
+	en_class = ""
+	en_type = ""
+	en_alertflg = ""
+	en_resource = ""
+	en_rtype = ""
+	en_rclass = ""
+	en_symptom = ""
+	en_err64 = ""
+	en_dup = ""
+	en_method = "/usr/lib/ras/resume_logging"
+
+errnotify:
+	en_pid = 0
+	en_name = "fcparray_err"
+	en_persistenceflg = 1
+	en_label = "FCP_ARRAY_ERR6"
+	en_crcid = 0
+	en_class = ""
+	en_type = ""
+	en_alertflg = ""
+	en_resource = ""
+	en_rtype = ""
+	en_rclass = ""
+	en_symptom = ""
+	en_err64 = ""
+	en_dup = ""
+	en_method = "/usr/lib/ras/notifymethfcparray -l $1 -r $6 -t $9"
+
+errnotify:
+	en_pid = 0
+	en_name = "fcparray_err"
+	en_persistenceflg = 1
+	en_label = "FCP_ARRAY_ERR7"
+	en_crcid = 0
+	en_class = ""
+	en_type = ""
+	en_alertflg = ""
+	en_resource = ""
+	en_rtype = ""
+	en_rclass = ""
+	en_symptom = ""
+	en_err64 = ""
+	en_dup = ""
+	en_method = "/usr/lib/ras/notifymethfcparray -l $1 -r $6 -t $9"
+
+errnotify:
+	en_pid = 0
+	en_name = "fcparray_err"
+	en_persistenceflg = 1
+	en_label = "FCP_ARRAY_ERR8"
+	en_crcid = 0
+	en_class = ""
+	en_type = ""
+	en_alertflg = ""
+	en_resource = ""
+	en_rtype = ""
+	en_rclass = ""
+	en_symptom = ""
+	en_err64 = ""
+	en_dup = ""
+	en_method = "/usr/lib/ras/notifymethfcparray -l $1 -r $6 -t $9"
+
+errnotify:
+	en_pid = 0
+	en_name = "fcparray_err"
+	en_persistenceflg = 1
+	en_label = "FCP_ARRAY_ERR9"
+	en_crcid = 0
+	en_class = ""
+	en_type = ""
+	en_alertflg = ""
+	en_resource = ""
+	en_rtype = ""
+	en_rclass = ""
+	en_symptom = ""
+	en_err64 = ""
+	en_dup = ""
+	en_method = "/usr/lib/ras/notifymethfcparray -l $1 -r $6 -t $9"
+
+errnotify:
+	en_pid = 0
+	en_name = "fcparray_err"
+	en_persistenceflg = 1
+	en_label = "FCP_ARRAY_ERR10"
+	en_crcid = 0
+	en_class = ""
+	en_type = ""
+	en_alertflg = ""
+	en_resource = ""
+	en_rtype = ""
+	en_rclass = ""
+	en_symptom = ""
+	en_err64 = ""
+	en_dup = ""
+	en_method = "/usr/lib/ras/notifymethfcparray -l $1 -r $6 -t $9"
+
+errnotify:
+	en_pid = 0
+	en_name = "fcparray_err"
+	en_persistenceflg = 1
+	en_label = "FCP_ARRAY_ERR11"
+	en_crcid = 0
+	en_class = ""
+	en_type = ""
+	en_alertflg = ""
+	en_resource = ""
+	en_rtype = ""
+	en_rclass = ""
+	en_symptom = ""
+	en_err64 = ""
+	en_dup = ""
+	en_method = "/usr/lib/ras/notifymethfcparray -l $1 -r $6 -t $9"
+
+errnotify:
+	en_pid = 0
+	en_name = "fcparray_err"
+	en_persistenceflg = 1
+	en_label = "FCP_ARRAY_ERR13"
+	en_crcid = 0
+	en_class = ""
+	en_type = ""
+	en_alertflg = ""
+	en_resource = ""
+	en_rtype = ""
+	en_rclass = ""
+	en_symptom = ""
+	en_err64 = ""
+	en_dup = ""
+	en_method = "/usr/lib/ras/notifymethfcparray -l $1 -r $6 -t $9"
+
+errnotify:
+	en_pid = 0
+	en_name = "fcparray_err"
+	en_persistenceflg = 1
+	en_label = "FCP_ARRAY_ERR14"
+	en_crcid = 0
+	en_class = ""
+	en_type = ""
+	en_alertflg = ""
+	en_resource = ""
+	en_rtype = ""
+	en_rclass = ""
+	en_symptom = ""
+	en_err64 = ""
+	en_dup = ""
+	en_method = "/usr/lib/ras/notifymethfcparray -l $1 -r $6 -t $9"
+
+errnotify:
+	en_pid = 0
+	en_name = "fcparray_err"
+	en_persistenceflg = 1
+	en_label = "FCP_ARRAY_ERR15"
+	en_crcid = 0
+	en_class = ""
+	en_type = ""
+	en_alertflg = ""
+	en_resource = ""
+	en_rtype = ""
+	en_rclass = ""
+	en_symptom = ""
+	en_err64 = ""
+	en_dup = ""
+	en_method = "/usr/lib/ras/notifymethfcparray -l $1 -r $6 -t $9"
+
+errnotify:
+	en_pid = 0
+	en_name = "fcparray_err"
+	en_persistenceflg = 1
+	en_label = "FCP_ARRAY_ERR17"
+	en_crcid = 0
+	en_class = ""
+	en_type = ""
+	en_alertflg = ""
+	en_resource = ""
+	en_rtype = ""
+	en_rclass = ""
+	en_symptom = ""
+	en_err64 = ""
+	en_dup = ""
+	en_method = "/usr/lib/ras/notifymethfcparray -l $1 -r $6 -t $9"
+
+errnotify:
+	en_pid = 0
+	en_name = "fcparray_err"
+	en_persistenceflg = 1
+	en_label = "FCP_ARRAY_ERR19"
+	en_crcid = 0
+	en_class = ""
+	en_type = ""
+	en_alertflg = ""
+	en_resource = ""
+	en_rtype = ""
+	en_rclass = ""
+	en_symptom = ""
+	en_err64 = ""
+	en_dup = ""
+	en_method = "/usr/lib/ras/notifymethfcparray -l $1 -r $6"
+
+errnotify:
+	en_pid = 0
+	en_name = "fcparray_err"
+	en_persistenceflg = 1
+	en_label = "FCP_ARRAY_ERR20"
+	en_crcid = 0
+	en_class = ""
+	en_type = ""
+	en_alertflg = ""
+	en_resource = ""
+	en_rtype = ""
+	en_rclass = ""
+	en_symptom = ""
+	en_err64 = ""
+	en_dup = ""
+	en_method = "/usr/lib/ras/notifymethfcparray -l $1 -r $6"
+
+errnotify:
+	en_pid = 0
+	en_name = "fcparray_err"
+	en_persistenceflg = 1
+	en_label = "FCP_ARRAY_ERR21"
+	en_crcid = 0
+	en_class = ""
+	en_type = ""
+	en_alertflg = ""
+	en_resource = ""
+	en_rtype = ""
+	en_rclass = ""
+	en_symptom = ""
+	en_err64 = ""
+	en_dup = ""
+	en_method = "/usr/lib/ras/notifymethfcparray -l $1 -r $6"
+
+errnotify:
+	en_pid = 0
+	en_name = "fcparray_err"
+	en_persistenceflg = 1
+	en_label = "FCP_ARRAY_ERR23"
+	en_crcid = 0
+	en_class = ""
+	en_type = ""
+	en_alertflg = ""
+	en_resource = ""
+	en_rtype = ""
+	en_rclass = ""
+	en_symptom = ""
+	en_err64 = ""
+	en_dup = ""
+	en_method = "/usr/lib/ras/notifymethfcparray -l $1 -r $6"
+
+errnotify:
+	en_pid = 0
+	en_name = "fcparray_err"
+	en_persistenceflg = 1
+	en_label = "FCP_ARRAY_ERR24"
+	en_crcid = 0
+	en_class = ""
+	en_type = ""
+	en_alertflg = ""
+	en_resource = ""
+	en_rtype = ""
+	en_rclass = ""
+	en_symptom = ""
+	en_err64 = ""
+	en_dup = ""
+	en_method = "/usr/lib/ras/notifymethfcparray -l $1 -r $6"
+
+errnotify:
+	en_pid = 0
+	en_name = "diagela"
+	en_persistenceflg = 1
+	en_label = ""
+	en_crcid = 0
+	en_class = "H"
+	en_type = "PERM"
+	en_alertflg = ""
+	en_resource = ""
+	en_rtype = ""
+	en_rclass = ""
+	en_symptom = ""
+	en_err64 = ""
+	en_dup = ""
+	en_method = "/usr/lpp/diagnostics/bin/diagela $6 $9"
+
+errnotify:
+	en_pid = 0
+	en_name = "diagela"
+	en_persistenceflg = 1
+	en_label = "EPOW_RES_CHRP"
+	en_crcid = 0
+	en_class = "H"
+	en_type = "INFO"
+	en_alertflg = ""
+	en_resource = ""
+	en_rtype = ""
+	en_rclass = ""
+	en_symptom = ""
+	en_err64 = ""
+	en_dup = ""
+	en_method = "/usr/lpp/diagnostics/bin/diagela $6 $9"
+
+errnotify:
+	en_pid = 0
+	en_name = "diagela_PEND"
+	en_persistenceflg = 1
+	en_label = ""
+	en_crcid = 0
+	en_class = "H"
+	en_type = "PEND"
+	en_alertflg = ""
+	en_resource = ""
+	en_rtype = ""
+	en_rclass = ""
+	en_symptom = ""
+	en_err64 = ""
+	en_dup = ""
+	en_method = "/usr/lpp/diagnostics/bin/diagela $6 $9"
+
+errnotify:
+	en_pid = 0
+	en_name = "diagela_TEMP"
+	en_persistenceflg = 1
+	en_label = ""
+	en_crcid = 0
+	en_class = "H"
+	en_type = "TEMP"
+	en_alertflg = ""
+	en_resource = ""
+	en_rtype = ""
+	en_rclass = ""
+	en_symptom = ""
+	en_err64 = ""
+	en_dup = ""
+	en_method = "/usr/lpp/diagnostics/bin/diagela $6 $9"
+
+errnotify:
+	en_pid = 0
+	en_name = "diagela_FIRM"
+	en_persistenceflg = 1
+	en_label = "FIRMWARE_EVENT"
+	en_crcid = 0
+	en_class = ""
+	en_type = ""
+	en_alertflg = ""
+	en_resource = ""
+	en_rtype = ""
+	en_rclass = ""
+	en_symptom = ""
+	en_err64 = ""
+	en_dup = ""
+	en_method = "/usr/lpp/diagnostics/bin/diagela sysplanar0 $9"
+
+errnotify:
+	en_pid = 0
+	en_name = "diagela_PDE"
+	en_persistenceflg = 1
+	en_label = "PLAT_DUMP_ERR"
+	en_crcid = 0
+	en_class = ""
+	en_type = ""
+	en_alertflg = ""
+	en_resource = ""
+	en_rtype = ""
+	en_rclass = ""
+	en_symptom = ""
+	en_err64 = ""
+	en_dup = ""
+	en_method = "/usr/lpp/diagnostics/bin/diagela sysplanar0 $9"
+
+errnotify:
+	en_pid = 0
+	en_name = "diagela_SPUR"
+	en_persistenceflg = 1
+	en_label = "INTRPPC_ERR"
+	en_crcid = 0
+	en_class = ""
+	en_type = ""
+	en_alertflg = ""
+	en_resource = ""
+	en_rtype = ""
+	en_rclass = ""
+	en_symptom = ""
+	en_err64 = ""
+	en_dup = ""
+	en_method = "/usr/lpp/diagnostics/bin/diagela sysplanar0 $9"
+
+errnotify:
+	en_pid = 0
+	en_name = "CIM_ERR1"
+	en_persistenceflg = 1
+	en_label = "REPLACED_FRU"
+	en_crcid = 0
+	en_class = "H"
+	en_type = "INFO"
+	en_alertflg = ""
+	en_resource = ""
+	en_rtype = ""
+	en_rclass = ""
+	en_symptom = ""
+	en_err64 = ""
+	en_dup = ""
+	en_method = "/opt/freeware/cimom/pegasus/bin/CIMErrlogListener.sh $1"
+
+errnotify:
+	en_pid = 0
+	en_name = "CIM_Err_VDisk"
+	en_persistenceflg = 1
+	en_label = ""
+	en_crcid = 0
+	en_class = "H"
+	en_type = ""
+	en_alertflg = ""
+	en_resource = ""
+	en_rtype = "vdisk"
+	en_rclass = ""
+	en_symptom = ""
+	en_err64 = ""
+	en_dup = ""
+	en_method = "/opt/freeware/cimom/pegasus/bin/CIMErrlogListener.sh $1"
+
+errnotify:
+	en_pid = 0
+	en_name = "diagela_SE"
+	en_persistenceflg = 1
+	en_label = "SERVICE_EVENT"
+	en_crcid = 0
+	en_class = "S"
+	en_type = "INFO"
+	en_alertflg = ""
+	en_resource = ""
+	en_rtype = ""
+	en_rclass = ""
+	en_symptom = ""
+	en_err64 = ""
+	en_dup = ""
+	en_method = "/usr/lpp/diagnostics/bin/diagela $9 $6 $1"
+
+errnotify:
+	en_pid = 0
+	en_name = "NIM_DUMP_STATS"
+	en_persistenceflg = 1
+	en_label = "DUMP_STATS"
+	en_crcid = 0
+	en_class = ""
+	en_type = ""
+	en_alertflg = ""
+	en_resource = ""
+	en_rtype = ""
+	en_rclass = ""
+	en_symptom = ""
+	en_err64 = ""
+	en_dup = ""
+	en_method = "/usr/lpp/bos.sysmgt/nim/methods/dump_errlog_notify $1 $2 $3 $4 $4 $6 $7 $8 $9"
+
+errnotify:
+	en_pid = 0
+	en_name = "NIM_DMPCHK_SMAL"
+	en_persistenceflg = 1
+	en_label = "DMPCHK_SMALL"
+	en_crcid = 0
+	en_class = ""
+	en_type = ""
+	en_alertflg = ""
+	en_resource = ""
+	en_rtype = ""
+	en_rclass = ""
+	en_symptom = ""
+	en_err64 = ""
+	en_dup = ""
+	en_method = "/usr/lpp/bos.sysmgt/nim/methods/dump_errlog_notify $1 $2 $3 $4 $4 $6 $7 $8 $9"
+
+errnotify:
+	en_pid = 0
+	en_name = "NIM_FWADUMP_ERR"
+	en_persistenceflg = 1
+	en_label = "FWADUMP_ERR"
+	en_crcid = 0
+	en_class = ""
+	en_type = ""
+	en_alertflg = ""
+	en_resource = ""
+	en_rtype = ""
+	en_rclass = ""
+	en_symptom = ""
+	en_err64 = ""
+	en_dup = ""
+	en_method = "/usr/lpp/bos.sysmgt/nim/methods/dump_errlog_notify $1 $2 $3 $4 $4 $6 $7 $8 $9"
+
+errnotify:
+	en_pid = 0
+	en_name = "NIM_FWDMP_IFAIL"
+	en_persistenceflg = 1
+	en_label = "FWDMP_IFAIL"
+	en_crcid = 0
+	en_class = ""
+	en_type = ""
+	en_alertflg = ""
+	en_resource = ""
+	en_rtype = ""
+	en_rclass = ""
+	en_symptom = ""
+	en_err64 = ""
+	en_dup = ""
+	en_method = "/usr/lpp/bos.sysmgt/nim/methods/dump_errlog_notify $1 $2 $3 $4 $4 $6 $7 $8 $9"
+
+errnotify:
+	en_pid = 0
+	en_name = "NIM_FWDMP_LMEM"
+	en_persistenceflg = 1
+	en_label = "FWDMP_LMEM"
+	en_crcid = 0
+	en_class = ""
+	en_type = ""
+	en_alertflg = ""
+	en_resource = ""
+	en_rtype = ""
+	en_rclass = ""
+	en_symptom = ""
+	en_err64 = ""
+	en_dup = ""
+	en_method = "/usr/lpp/bos.sysmgt/nim/methods/dump_errlog_notify $1 $2 $3 $4 $4 $6 $7 $8 $9"
+
+errnotify:
+	en_pid = 0
+	en_name = "hacmp.174C3CD0"
+	en_persistenceflg = 1
+	en_label = "SM4_LOCK_DOWN"
+	en_crcid = 0
+	en_class = "S"
+	en_type = ""
+	en_alertflg = ""
+	en_resource = ""
+	en_rtype = ""
+	en_rclass = ""
+	en_symptom = ""
+	en_err64 = ""
+	en_dup = ""
+	en_method = "/usr/es/sbin/cluster/apps/clam_nfsv4/monitor -errnotify  "
+==== EXITED with rc 0 ====
+==== END odmget errnotify Thu Aug  6 11:14:03 GST 2015 ====

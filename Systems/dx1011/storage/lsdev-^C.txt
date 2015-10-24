@@ -1,0 +1,890 @@
+==== This output can be found in Systems/dx1011/os/lsdev-^C.txt ====
+==== START lsdev -C Tue Jul  7 13:39:20 CDT 2015 ====
+L2cache0       Available             L2 Cache
+VMLibrary      Defined               Logical volume
+altinst_rootvg Defined               Volume group
+cd0            Available 03-00-00    SATA DVD-RAM Drive
+cluster0       Available             Cluster Node
+en0            Defined   00-00       Standard Ethernet Network Interface
+en1            Defined   00-01       Standard Ethernet Network Interface
+en2            Defined   00-02       Standard Ethernet Network Interface
+en3            Defined   00-03       Standard Ethernet Network Interface
+en4            Defined   04-00       Standard Ethernet Network Interface
+en5            Defined   04-01       Standard Ethernet Network Interface
+en6            Defined   04-02       Standard Ethernet Network Interface
+en7            Defined   04-03       Standard Ethernet Network Interface
+en8            Defined               Standard Ethernet Network Interface
+en9            Defined               Standard Ethernet Network Interface
+en10           Defined               Standard Ethernet Network Interface
+en11           Defined               Standard Ethernet Network Interface
+en12           Defined               Standard Ethernet Network Interface
+en13           Defined               Standard Ethernet Network Interface
+en14           Available             Standard Ethernet Network Interface
+en15           Defined               Standard Ethernet Network Interface
+en16           Defined               Standard Ethernet Network Interface
+en17           Defined               Standard Ethernet Network Interface
+ent0           Available 00-00       PCIe2 10GbE SFP+ SR 4-port Converged Network Adapter (df1020e214100f04)
+ent1           Available 00-01       PCIe2 10GbE SFP+ SR 4-port Converged Network Adapter (df1020e214100f04)
+ent2           Available 00-02       PCIe2 100/1000 Base-TX 4-port Converged Network Adapter (df1020e214103c04)
+ent3           Available 00-03       PCIe2 100/1000 Base-TX 4-port Converged Network Adapter (df1020e214103c04)
+ent4           Available 04-00       PCIe2 10GbE SFP+ SR 4-port Converged Network Adapter (df1020e214100f04)
+ent5           Available 04-01       PCIe2 10GbE SFP+ SR 4-port Converged Network Adapter (df1020e214100f04)
+ent6           Available 04-02       PCIe2 100/1000 Base-TX 4-port Converged Network Adapter (df1020e214103c04)
+ent7           Available 04-03       PCIe2 100/1000 Base-TX 4-port Converged Network Adapter (df1020e214103c04)
+ent8           Available             Virtual I/O Ethernet Adapter (l-lan)
+ent9           Available             Virtual I/O Ethernet Adapter (l-lan)
+ent10          Available             Virtual I/O Ethernet Adapter (l-lan)
+ent11          Available             Virtual I/O Ethernet Adapter (l-lan)
+ent12          Available             Virtual I/O Ethernet Adapter (l-lan)
+ent13          Available             Virtual I/O Ethernet Adapter (l-lan)
+ent14          Available             Virtual I/O Ethernet Adapter (l-lan)
+ent15          Available             Virtual I/O Ethernet Adapter (l-lan)
+ent16          Available             EtherChannel / IEEE 802.3ad Link Aggregation
+ent17          Available             Shared Ethernet Adapter
+et0            Defined   00-00       IEEE 802.3 Ethernet Network Interface
+et1            Defined   00-01       IEEE 802.3 Ethernet Network Interface
+et2            Defined   00-02       IEEE 802.3 Ethernet Network Interface
+et3            Defined   00-03       IEEE 802.3 Ethernet Network Interface
+et4            Defined   04-00       IEEE 802.3 Ethernet Network Interface
+et5            Defined   04-01       IEEE 802.3 Ethernet Network Interface
+et6            Defined   04-02       IEEE 802.3 Ethernet Network Interface
+et7            Defined   04-03       IEEE 802.3 Ethernet Network Interface
+et8            Defined               IEEE 802.3 Ethernet Network Interface
+et9            Defined               IEEE 802.3 Ethernet Network Interface
+et10           Defined               IEEE 802.3 Ethernet Network Interface
+et11           Defined               IEEE 802.3 Ethernet Network Interface
+et12           Defined               IEEE 802.3 Ethernet Network Interface
+et13           Defined               IEEE 802.3 Ethernet Network Interface
+et14           Defined               IEEE 802.3 Ethernet Network Interface
+et15           Defined               IEEE 802.3 Ethernet Network Interface
+et16           Defined               IEEE 802.3 Ethernet Network Interface
+et17           Defined               IEEE 802.3 Ethernet Network Interface
+fcnet0         Defined   08-00-01    Fibre Channel Network Protocol Device
+fcnet1         Defined   08-01-01    Fibre Channel Network Protocol Device
+fcnet2         Defined   09-00-01    Fibre Channel Network Protocol Device
+fcnet3         Defined   09-01-01    Fibre Channel Network Protocol Device
+fcnet4         Defined   0C-00-01    Fibre Channel Network Protocol Device
+fcnet5         Defined   0C-01-01    Fibre Channel Network Protocol Device
+fcnet6         Defined   0D-00-01    Fibre Channel Network Protocol Device
+fcnet7         Defined   0D-01-01    Fibre Channel Network Protocol Device
+fcnet8         Defined   0I-00-01    Fibre Channel Network Protocol Device
+fcnet9         Defined   0I-01-01    Fibre Channel Network Protocol Device
+fcnet10        Defined   0J-00-01    Fibre Channel Network Protocol Device
+fcnet11        Defined   0J-01-01    Fibre Channel Network Protocol Device
+fcs0           Available 00-04       PCIe2 10Gb 4-Port FCoE Adapter (df1060e214101004)
+fcs1           Available 00-05       PCIe2 10Gb 4-Port FCoE Adapter (df1060e214101004)
+fcs2           Available 04-04       PCIe2 10Gb 4-Port FCoE Adapter (df1060e214101004)
+fcs3           Available 04-05       PCIe2 10Gb 4-Port FCoE Adapter (df1060e214101004)
+fcs4           Available 08-00       PCIe2 4-Port 8Gb FC Adapter (df1000f114100104)
+fcs5           Available 08-01       PCIe2 4-Port 8Gb FC Adapter (df1000f114100104)
+fcs6           Available 09-00       PCIe2 4-Port 8Gb FC Adapter (df1000f114100104)
+fcs7           Available 09-01       PCIe2 4-Port 8Gb FC Adapter (df1000f114100104)
+fcs8           Available 0C-00       PCIe2 4-Port 8Gb FC Adapter (df1000f114100104)
+fcs9           Available 0C-01       PCIe2 4-Port 8Gb FC Adapter (df1000f114100104)
+fcs10          Available 0D-00       PCIe2 4-Port 8Gb FC Adapter (df1000f114100104)
+fcs11          Available 0D-01       PCIe2 4-Port 8Gb FC Adapter (df1000f114100104)
+fcs12          Available 0I-00       PCIe2 4-Port 8Gb FC Adapter (df1000f114100104)
+fcs13          Available 0I-01       PCIe2 4-Port 8Gb FC Adapter (df1000f114100104)
+fcs14          Available 0J-00       PCIe2 4-Port 8Gb FC Adapter (df1000f114100104)
+fcs15          Available 0J-01       PCIe2 4-Port 8Gb FC Adapter (df1000f114100104)
+fscsi0         Available 00-04-01    FC SCSI I/O Controller Protocol Device
+fscsi1         Available 00-05-01    FC SCSI I/O Controller Protocol Device
+fscsi2         Available 04-04-01    FC SCSI I/O Controller Protocol Device
+fscsi3         Available 04-05-01    FC SCSI I/O Controller Protocol Device
+fscsi4         Available 08-00-02    FC SCSI I/O Controller Protocol Device
+fscsi5         Available 08-01-02    FC SCSI I/O Controller Protocol Device
+fscsi6         Available 09-00-02    FC SCSI I/O Controller Protocol Device
+fscsi7         Available 09-01-02    FC SCSI I/O Controller Protocol Device
+fscsi8         Available 0C-00-02    FC SCSI I/O Controller Protocol Device
+fscsi9         Available 0C-01-02    FC SCSI I/O Controller Protocol Device
+fscsi10        Available 0D-00-02    FC SCSI I/O Controller Protocol Device
+fscsi11        Available 0D-01-02    FC SCSI I/O Controller Protocol Device
+fscsi12        Available 0I-00-02    FC SCSI I/O Controller Protocol Device
+fscsi13        Available 0I-01-02    FC SCSI I/O Controller Protocol Device
+fscsi14        Available 0J-00-02    FC SCSI I/O Controller Protocol Device
+fscsi15        Available 0J-01-02    FC SCSI I/O Controller Protocol Device
+hd1            Defined               Logical volume
+hd2            Defined               Logical volume
+hd3            Defined               Logical volume
+hd4            Defined               Logical volume
+hd5            Defined               Logical volume
+hd6            Defined               Logical volume
+hd8            Defined               Logical volume
+hd10opt        Defined               Logical volume
+hd11admin      Defined               Logical volume
+hd9var         Defined               Logical volume
+hdisk0         Available 02-00-00    SAS RAID 0 SSD Array
+hdisk1         Available 02-00-00    SAS RAID 0 SSD Array
+hdisk2         Available 02-00-00    SAS RAID 0 SSD Array
+hdisk3         Available 08-00-02    MPIO IBM FlashSystem Disk
+hdisk4         Available 08-00-02    MPIO IBM FlashSystem Disk
+hdisk5         Available 08-00-02    MPIO IBM FlashSystem Disk
+hdisk6         Available 08-00-02    MPIO IBM FlashSystem Disk
+hdisk7         Available 08-00-02    MPIO IBM FlashSystem Disk
+hdisk8         Available 08-00-02    MPIO IBM FlashSystem Disk
+hdisk9         Available 08-00-02    MPIO IBM FlashSystem Disk
+hdisk10        Available 08-00-02    MPIO IBM FlashSystem Disk
+hdisk11        Available 08-00-02    MPIO IBM FlashSystem Disk
+hdisk12        Available 08-00-02    MPIO IBM FlashSystem Disk
+hdisk13        Available 09-00-02    EMC Symmetrix FCP VRAID
+hdisk14        Available 09-00-02    EMC Symmetrix FCP VRAID
+hdisk53        Available 09-00-02    EMC Symmetrix FCP VRAID
+hdisk54        Available 09-00-02    EMC Symmetrix FCP VRAID
+hdisk229       Available 08-00-02    MPIO IBM FlashSystem Disk
+hdisk283       Available 0C-00-02    MPIO IBM FlashSystem Disk
+hdisk284       Available 0C-00-02    MPIO IBM FlashSystem Disk
+hdisk285       Available 0C-00-02    MPIO IBM FlashSystem Disk
+hdisk286       Available 0C-00-02    MPIO IBM FlashSystem Disk
+hdisk287       Available 0C-00-02    MPIO IBM FlashSystem Disk
+hdisk288       Available 0C-00-02    MPIO IBM FlashSystem Disk
+hdisk289       Available 0C-00-02    MPIO IBM FlashSystem Disk
+hdisk290       Available 0C-00-02    MPIO IBM FlashSystem Disk
+hdisk291       Available 0C-00-02    MPIO IBM FlashSystem Disk
+hdisk292       Available 0C-01-02    MPIO IBM FlashSystem Disk
+hdisk293       Available 0C-01-02    MPIO IBM FlashSystem Disk
+hdisk294       Available 08-00-02    MPIO IBM FlashSystem Disk
+hdisk295       Available 08-00-02    MPIO IBM FlashSystem Disk
+hdisk296       Available 08-00-02    MPIO IBM FlashSystem Disk
+hdisk297       Available 08-00-02    MPIO IBM FlashSystem Disk
+hdisk298       Available 08-00-02    MPIO IBM FlashSystem Disk
+hdisk299       Available 08-00-02    MPIO IBM FlashSystem Disk
+hdisk301       Available 08-00-02    MPIO IBM FlashSystem Disk
+hdisk302       Available 08-00-02    MPIO IBM FlashSystem Disk
+hdisk303       Available 08-00-02    MPIO IBM FlashSystem Disk
+hdisk304       Available 08-00-02    MPIO IBM FlashSystem Disk
+hdisk305       Available 08-00-02    MPIO IBM FlashSystem Disk
+hdisk306       Available 08-00-02    MPIO IBM FlashSystem Disk
+hdisk307       Available 08-00-02    MPIO IBM FlashSystem Disk
+hdisk308       Available 08-00-02    MPIO IBM FlashSystem Disk
+hdisk309       Available 08-00-02    MPIO IBM FlashSystem Disk
+hdisk310       Available 08-00-02    MPIO IBM FlashSystem Disk
+hdisk311       Available 08-00-02    MPIO IBM FlashSystem Disk
+hdisk312       Available 09-00-02    EMC Symmetrix FCP VRAID
+hdisk313       Available 09-00-02    EMC Symmetrix FCP VRAID
+hdisk351       Available 08-01-02    MPIO IBM FlashSystem Disk
+hdisk352       Available 08-01-02    MPIO IBM FlashSystem Disk
+hdisk353       Available 08-01-02    MPIO IBM FlashSystem Disk
+hdisk354       Available 08-01-02    MPIO IBM FlashSystem Disk
+hdisk355       Available 08-01-02    MPIO IBM FlashSystem Disk
+hdisk356       Available 08-01-02    MPIO IBM FlashSystem Disk
+hdisk357       Available 08-01-02    MPIO IBM FlashSystem Disk
+hdisk358       Available 08-01-02    MPIO IBM FlashSystem Disk
+hdisk359       Available 08-01-02    MPIO IBM FlashSystem Disk
+hdisk360       Available 08-01-02    MPIO IBM FlashSystem Disk
+hdisk361       Available 08-01-02    MPIO IBM FlashSystem Disk
+hdisk362       Available 09-00-02    EMC Symmetrix FCP VRAID
+hdisk363       Available 09-00-02    EMC Symmetrix FCP VRAID
+hdisk364       Available 09-00-02    EMC Symmetrix FCP VRAID
+hdisk365       Available 09-00-02    EMC Symmetrix FCP VRAID
+hdisk366       Available 09-00-02    EMC Symmetrix FCP VRAID
+hdisk367       Available 09-00-02    EMC Symmetrix FCP VRAID
+hdisk368       Available 09-00-02    EMC Symmetrix FCP VRAID
+hdisk369       Available 09-00-02    EMC Symmetrix FCP VRAID
+hdisk370       Available 09-00-02    EMC Symmetrix FCP VRAID
+hdisk371       Available 09-00-02    EMC Symmetrix FCP VRAID
+hdisk372       Available 09-00-02    EMC Symmetrix FCP VRAID
+hdisk373       Available 09-00-02    EMC Symmetrix FCP VRAID
+hdisk374       Available 09-00-02    EMC Symmetrix FCP VRAID
+hdisk375       Available 09-00-02    EMC Symmetrix FCP VRAID
+hdisk376       Available 09-00-02    EMC Symmetrix FCP VRAID
+hdisk377       Available 09-00-02    EMC Symmetrix FCP VRAID
+hdisk378       Available 09-00-02    EMC Symmetrix FCP VRAID
+hdisk379       Available 09-00-02    EMC Symmetrix FCP VRAID
+hdisk380       Available 09-00-02    EMC Symmetrix FCP VRAID
+hdisk381       Available 09-00-02    EMC Symmetrix FCP VRAID
+hdisk382       Available 09-00-02    EMC Symmetrix FCP VRAID
+hdisk383       Available 09-00-02    EMC Symmetrix FCP VRAID
+hdisk384       Available 09-00-02    EMC Symmetrix FCP VRAID
+hdisk385       Available 09-00-02    EMC Symmetrix FCP VRAID
+hdisk386       Available 09-00-02    EMC Symmetrix FCP VRAID
+hdisk387       Available 09-00-02    EMC Symmetrix FCP VRAID
+hdisk388       Available 09-00-02    EMC Symmetrix FCP VRAID
+hdisk389       Available 09-00-02    EMC Symmetrix FCP VRAID
+hdisk390       Available 09-00-02    EMC Symmetrix FCP VRAID
+hdisk391       Available 09-00-02    EMC Symmetrix FCP VRAID
+hdisk392       Available 09-00-02    EMC Symmetrix FCP VRAID
+hdisk393       Available 09-00-02    EMC Symmetrix FCP VRAID
+hdisk394       Available 09-00-02    EMC Symmetrix FCP VRAID
+hdisk395       Available 09-00-02    EMC Symmetrix FCP VRAID
+hdisk396       Available 09-00-02    EMC Symmetrix FCP VRAID
+hdisk397       Available 09-00-02    EMC Symmetrix FCP VRAID
+hdisk398       Available 09-00-02    EMC Symmetrix FCP VRAID
+hdisk399       Available 09-00-02    EMC Symmetrix FCP VRAID
+hdisk400       Available 09-00-02    EMC Symmetrix FCP VRAID
+hdisk401       Available 09-00-02    EMC Symmetrix FCP VRAID
+hdisk402       Available 09-00-02    EMC Symmetrix FCP VRAID
+hdisk403       Available 09-00-02    EMC Symmetrix FCP VRAID
+hdisk404       Available 09-00-02    EMC Symmetrix FCP VRAID
+hdisk405       Available 09-00-02    EMC Symmetrix FCP VRAID
+hdisk406       Available 09-00-02    EMC Symmetrix FCP VRAID
+hdisk407       Available 09-00-02    EMC Symmetrix FCP VRAID
+hdisk408       Available 09-00-02    EMC Symmetrix FCP VRAID
+hdisk409       Available 09-00-02    EMC Symmetrix FCP VRAID
+hdisk410       Available 09-00-02    EMC Symmetrix FCP VRAID
+hdisk411       Available 09-00-02    EMC Symmetrix FCP VRAID
+hdisk412       Available 09-00-02    EMC Symmetrix FCP VRAID
+hdisk413       Available 09-00-02    EMC Symmetrix FCP VRAID
+hdisk414       Available 09-00-02    EMC Symmetrix FCP VRAID
+hdisk415       Available 09-00-02    EMC Symmetrix FCP VRAID
+hdisk416       Available 09-00-02    EMC Symmetrix FCP VRAID
+hdisk417       Available 09-00-02    EMC Symmetrix FCP VRAID
+hdisk418       Available 09-00-02    EMC Symmetrix FCP VRAID
+hdisk419       Available 09-00-02    EMC Symmetrix FCP VRAID
+hdisk565       Available 08-00-02    MPIO IBM FlashSystem Disk
+hdisk566       Available 08-00-02    MPIO IBM FlashSystem Disk
+hdisk567       Available 08-00-02    MPIO IBM FlashSystem Disk
+hdisk568       Available 08-00-02    MPIO IBM FlashSystem Disk
+hdisk569       Available 08-00-02    MPIO IBM FlashSystem Disk
+hdisk570       Available 08-01-02    MPIO IBM FlashSystem Disk
+hdisk571       Available 08-01-02    MPIO IBM FlashSystem Disk
+hdisk572       Available 08-01-02    MPIO IBM FlashSystem Disk
+hdisk573       Available 08-01-02    MPIO IBM FlashSystem Disk
+hdisk574       Available 08-01-02    MPIO IBM FlashSystem Disk
+hdisk575       Available 08-01-02    MPIO IBM FlashSystem Disk
+hdisk576       Available 08-01-02    MPIO IBM FlashSystem Disk
+hdisk577       Available 08-01-02    MPIO IBM FlashSystem Disk
+hdisk578       Available 08-01-02    MPIO IBM FlashSystem Disk
+hdisk579       Available 08-01-02    MPIO IBM FlashSystem Disk
+hdisk580       Available 08-01-02    MPIO IBM FlashSystem Disk
+hdisk581       Available 08-01-02    MPIO IBM FlashSystem Disk
+hdisk582       Available 08-01-02    MPIO IBM FlashSystem Disk
+hdisk583       Available 08-01-02    MPIO IBM FlashSystem Disk
+hdisk584       Available 08-01-02    MPIO IBM FlashSystem Disk
+hdisk585       Available 08-01-02    MPIO IBM FlashSystem Disk
+hdisk586       Available 08-01-02    MPIO IBM FlashSystem Disk
+hdisk587       Available 08-01-02    MPIO IBM FlashSystem Disk
+hdisk588       Available 08-01-02    MPIO IBM FlashSystem Disk
+hdisk589       Available 08-01-02    MPIO IBM FlashSystem Disk
+hdisk590       Available 08-01-02    MPIO IBM FlashSystem Disk
+hdisk591       Available 08-01-02    MPIO IBM FlashSystem Disk
+hdisk592       Available 08-01-02    MPIO IBM FlashSystem Disk
+hdisk593       Available 08-01-02    MPIO IBM FlashSystem Disk
+hdisk594       Available 08-01-02    MPIO IBM FlashSystem Disk
+hdisk595       Available 08-01-02    MPIO IBM FlashSystem Disk
+hdisk596       Available 08-01-02    MPIO IBM FlashSystem Disk
+hdisk597       Available 08-01-02    MPIO IBM FlashSystem Disk
+hdisk598       Available 08-01-02    MPIO IBM FlashSystem Disk
+hdisk599       Available 08-01-02    MPIO IBM FlashSystem Disk
+hdisk600       Available 08-01-02    MPIO IBM FlashSystem Disk
+hdisk601       Available 08-01-02    MPIO IBM FlashSystem Disk
+hdisk602       Available 08-01-02    MPIO IBM FlashSystem Disk
+hdisk603       Available 08-01-02    MPIO IBM FlashSystem Disk
+hdisk604       Available 08-01-02    MPIO IBM FlashSystem Disk
+hdisk605       Available 08-01-02    MPIO IBM FlashSystem Disk
+hdisk606       Available 08-01-02    MPIO IBM FlashSystem Disk
+hdisk607       Available 08-01-02    MPIO IBM FlashSystem Disk
+hdisk608       Available 08-01-02    MPIO IBM FlashSystem Disk
+hdisk609       Available 08-01-02    MPIO IBM FlashSystem Disk
+hdisk610       Available 08-01-02    MPIO IBM FlashSystem Disk
+hdisk611       Available 08-01-02    MPIO IBM FlashSystem Disk
+hdisk612       Available 08-01-02    MPIO IBM FlashSystem Disk
+hdisk613       Available 08-01-02    MPIO IBM FlashSystem Disk
+hdisk614       Available 08-01-02    MPIO IBM FlashSystem Disk
+hdisk615       Available 08-01-02    MPIO IBM FlashSystem Disk
+hdisk616       Available 08-01-02    MPIO IBM FlashSystem Disk
+hdisk617       Available 08-01-02    MPIO IBM FlashSystem Disk
+hdisk618       Available 08-01-02    MPIO IBM FlashSystem Disk
+hdisk619       Available 08-01-02    MPIO IBM FlashSystem Disk
+hdisk620       Available 08-01-02    MPIO IBM FlashSystem Disk
+hdisk621       Available 08-01-02    MPIO IBM FlashSystem Disk
+hdisk622       Available 08-01-02    MPIO IBM FlashSystem Disk
+hdisk623       Available 08-01-02    MPIO IBM FlashSystem Disk
+hdisk626       Available 09-01-02    EMC Symmetrix FCP VRAID
+hdisk627       Available 09-01-02    EMC Symmetrix FCP VRAID
+hdisk628       Available 09-01-02    EMC Symmetrix FCP VRAID
+hdisk629       Available 09-01-02    EMC Symmetrix FCP VRAID
+hdisk630       Available 09-01-02    EMC Symmetrix FCP VRAID
+hdisk631       Available 09-01-02    EMC Symmetrix FCP VRAID
+hdisk632       Available 09-01-02    EMC Symmetrix FCP VRAID
+hdisk633       Available 09-01-02    EMC Symmetrix FCP VRAID
+hdisk634       Available 09-01-02    EMC Symmetrix FCP VRAID
+hdisk635       Available 09-01-02    EMC Symmetrix FCP VRAID
+hdisk636       Available 09-01-02    EMC Symmetrix FCP VRAID
+hdisk637       Available 09-01-02    EMC Symmetrix FCP VRAID
+hdisk638       Available 09-01-02    EMC Symmetrix FCP VRAID
+hdisk639       Available 09-01-02    EMC Symmetrix FCP VRAID
+hdisk640       Available 09-01-02    EMC Symmetrix FCP VRAID
+hdisk641       Available 09-01-02    EMC Symmetrix FCP VRAID
+hdisk642       Available 09-01-02    EMC Symmetrix FCP VRAID
+hdisk643       Available 09-01-02    EMC Symmetrix FCP VRAID
+hdisk644       Available 09-01-02    EMC Symmetrix FCP VRAID
+hdisk645       Available 09-01-02    EMC Symmetrix FCP VRAID
+hdisk646       Available 09-01-02    EMC Symmetrix FCP VRAID
+hdisk647       Available 09-01-02    EMC Symmetrix FCP VRAID
+hdisk648       Available 09-01-02    EMC Symmetrix FCP VRAID
+hdisk649       Available 09-01-02    EMC Symmetrix FCP VRAID
+hdisk650       Available 09-01-02    EMC Symmetrix FCP VRAID
+hdisk651       Available 09-01-02    EMC Symmetrix FCP VRAID
+hdisk652       Available 09-01-02    EMC Symmetrix FCP VRAID
+hdisk653       Available 09-01-02    EMC Symmetrix FCP VRAID
+hdisk654       Available 09-01-02    EMC Symmetrix FCP VRAID
+hdisk655       Available 09-01-02    EMC Symmetrix FCP VRAID
+hdisk656       Available 09-01-02    EMC Symmetrix FCP VRAID
+hdisk657       Available 09-01-02    EMC Symmetrix FCP VRAID
+hdisk658       Available 09-01-02    EMC Symmetrix FCP VRAID
+hdisk659       Available 09-01-02    EMC Symmetrix FCP VRAID
+hdisk660       Available 09-01-02    EMC Symmetrix FCP VRAID
+hdisk661       Available 09-01-02    EMC Symmetrix FCP VRAID
+hdisk662       Available 09-01-02    EMC Symmetrix FCP VRAID
+hdisk663       Available 09-01-02    EMC Symmetrix FCP VRAID
+hdisk664       Available 09-01-02    EMC Symmetrix FCP VRAID
+hdisk665       Available 09-01-02    EMC Symmetrix FCP VRAID
+hdisk666       Available 09-01-02    EMC Symmetrix FCP VRAID
+hdisk667       Available 09-01-02    EMC Symmetrix FCP VRAID
+hdisk668       Available 09-01-02    EMC Symmetrix FCP VRAID
+hdisk669       Available 09-01-02    EMC Symmetrix FCP VRAID
+hdisk670       Available 09-01-02    EMC Symmetrix FCP VRAID
+hdisk671       Available 09-01-02    EMC Symmetrix FCP VRAID
+hdisk672       Available 09-01-02    EMC Symmetrix FCP VRAID
+hdisk673       Available 09-01-02    EMC Symmetrix FCP VRAID
+hdisk674       Available 09-01-02    EMC Symmetrix FCP VRAID
+hdisk675       Available 09-01-02    EMC Symmetrix FCP VRAID
+hdisk676       Available 09-01-02    EMC Symmetrix FCP VRAID
+hdisk677       Available 09-01-02    EMC Symmetrix FCP VRAID
+hdisk678       Available 09-01-02    EMC Symmetrix FCP VRAID
+hdisk679       Available 09-01-02    EMC Symmetrix FCP VRAID
+hdisk680       Available 09-01-02    EMC Symmetrix FCP VRAID
+hdisk681       Available 09-01-02    EMC Symmetrix FCP VRAID
+hdisk682       Available 09-01-02    EMC Symmetrix FCP VRAID
+hdisk683       Available 09-01-02    EMC Symmetrix FCP VRAID
+hdisk684       Available 09-01-02    EMC Symmetrix FCP VRAID
+hdisk685       Available 09-01-02    EMC Symmetrix FCP VRAID
+hdisk686       Available 09-01-02    EMC Symmetrix FCP VRAID
+hdisk687       Available 09-01-02    EMC Symmetrix FCP VRAID
+hdisk688       Available 09-01-02    EMC Symmetrix FCP VRAID
+hdisk689       Available 09-01-02    EMC Symmetrix FCP VRAID
+hdisk690       Available 0I-00-02    EMC Symmetrix FCP VRAID
+hdisk691       Available 0I-00-02    EMC Symmetrix FCP VRAID
+hdisk692       Available 0I-00-02    EMC Symmetrix FCP VRAID
+hdisk693       Available 0I-00-02    EMC Symmetrix FCP VRAID
+hdisk694       Available 0I-00-02    EMC Symmetrix FCP VRAID
+hdisk695       Available 0I-00-02    EMC Symmetrix FCP VRAID
+hdisk696       Available 0I-00-02    EMC Symmetrix FCP VRAID
+hdisk697       Available 0I-00-02    EMC Symmetrix FCP VRAID
+hdisk698       Available 0I-00-02    EMC Symmetrix FCP VRAID
+hdisk699       Available 0I-00-02    EMC Symmetrix FCP VRAID
+hdisk700       Available 0I-00-02    EMC Symmetrix FCP VRAID
+hdisk701       Available 0I-00-02    EMC Symmetrix FCP VRAID
+hdisk702       Available 0I-00-02    EMC Symmetrix FCP VRAID
+hdisk703       Available 0I-00-02    EMC Symmetrix FCP VRAID
+hdisk704       Available 0I-00-02    EMC Symmetrix FCP VRAID
+hdisk705       Available 0I-00-02    EMC Symmetrix FCP VRAID
+hdisk706       Available 0I-00-02    EMC Symmetrix FCP VRAID
+hdisk707       Available 0I-00-02    EMC Symmetrix FCP VRAID
+hdisk708       Available 0I-00-02    EMC Symmetrix FCP VRAID
+hdisk709       Available 0I-00-02    EMC Symmetrix FCP VRAID
+hdisk710       Available 0I-00-02    EMC Symmetrix FCP VRAID
+hdisk711       Available 0I-00-02    EMC Symmetrix FCP VRAID
+hdisk712       Available 0I-00-02    EMC Symmetrix FCP VRAID
+hdisk713       Available 0I-00-02    EMC Symmetrix FCP VRAID
+hdisk714       Available 0I-00-02    EMC Symmetrix FCP VRAID
+hdisk715       Available 0I-00-02    EMC Symmetrix FCP VRAID
+hdisk716       Available 0I-00-02    EMC Symmetrix FCP VRAID
+hdisk717       Available 0I-00-02    EMC Symmetrix FCP VRAID
+hdisk718       Available 0I-00-02    EMC Symmetrix FCP VRAID
+hdisk719       Available 0I-00-02    EMC Symmetrix FCP VRAID
+hdisk720       Available 0I-00-02    EMC Symmetrix FCP VRAID
+hdisk721       Available 0I-00-02    EMC Symmetrix FCP VRAID
+hdisk722       Available 0I-00-02    EMC Symmetrix FCP VRAID
+hdisk723       Available 0I-00-02    EMC Symmetrix FCP VRAID
+hdisk724       Available 0I-00-02    EMC Symmetrix FCP VRAID
+hdisk725       Available 0I-00-02    EMC Symmetrix FCP VRAID
+hdisk726       Available 0I-00-02    EMC Symmetrix FCP VRAID
+hdisk727       Available 0I-00-02    EMC Symmetrix FCP VRAID
+hdisk728       Available 0I-00-02    EMC Symmetrix FCP VRAID
+hdisk729       Available 0I-00-02    EMC Symmetrix FCP VRAID
+hdisk730       Available 0I-00-02    EMC Symmetrix FCP VRAID
+hdisk731       Available 0I-00-02    EMC Symmetrix FCP VRAID
+hdisk732       Available 0I-00-02    EMC Symmetrix FCP VRAID
+hdisk733       Available 0I-00-02    EMC Symmetrix FCP VRAID
+hdisk734       Available 0I-00-02    EMC Symmetrix FCP VRAID
+hdisk735       Available 0I-00-02    EMC Symmetrix FCP VRAID
+hdisk736       Available 0I-00-02    EMC Symmetrix FCP VRAID
+hdisk737       Available 0I-00-02    EMC Symmetrix FCP VRAID
+hdisk738       Available 0I-00-02    EMC Symmetrix FCP VRAID
+hdisk739       Available 0I-00-02    EMC Symmetrix FCP VRAID
+hdisk740       Available 0I-00-02    EMC Symmetrix FCP VRAID
+hdisk741       Available 0I-00-02    EMC Symmetrix FCP VRAID
+hdisk742       Available 0I-00-02    EMC Symmetrix FCP VRAID
+hdisk743       Available 0I-00-02    EMC Symmetrix FCP VRAID
+hdisk744       Available 0I-00-02    EMC Symmetrix FCP VRAID
+hdisk745       Available 0I-00-02    EMC Symmetrix FCP VRAID
+hdisk746       Available 0I-00-02    EMC Symmetrix FCP VRAID
+hdisk747       Available 0I-00-02    EMC Symmetrix FCP VRAID
+hdisk748       Available 0I-00-02    EMC Symmetrix FCP VRAID
+hdisk749       Available 0I-00-02    EMC Symmetrix FCP VRAID
+hdisk750       Available 0I-00-02    EMC Symmetrix FCP VRAID
+hdisk751       Available 0I-00-02    EMC Symmetrix FCP VRAID
+hdisk752       Available 0I-00-02    EMC Symmetrix FCP VRAID
+hdisk753       Available 0I-00-02    EMC Symmetrix FCP VRAID
+hdisk754       Available 0I-01-02    EMC Symmetrix FCP VRAID
+hdisk755       Available 0I-01-02    EMC Symmetrix FCP VRAID
+hdisk756       Available 0I-01-02    EMC Symmetrix FCP VRAID
+hdisk757       Available 0I-01-02    EMC Symmetrix FCP VRAID
+hdisk758       Available 0I-01-02    EMC Symmetrix FCP VRAID
+hdisk759       Available 0I-01-02    EMC Symmetrix FCP VRAID
+hdisk760       Available 0I-01-02    EMC Symmetrix FCP VRAID
+hdisk761       Available 0I-01-02    EMC Symmetrix FCP VRAID
+hdisk762       Available 0I-01-02    EMC Symmetrix FCP VRAID
+hdisk763       Available 0I-01-02    EMC Symmetrix FCP VRAID
+hdisk764       Available 0I-01-02    EMC Symmetrix FCP VRAID
+hdisk765       Available 0I-01-02    EMC Symmetrix FCP VRAID
+hdisk766       Available 0I-01-02    EMC Symmetrix FCP VRAID
+hdisk767       Available 0I-01-02    EMC Symmetrix FCP VRAID
+hdisk768       Available 0I-01-02    EMC Symmetrix FCP VRAID
+hdisk769       Available 0I-01-02    EMC Symmetrix FCP VRAID
+hdisk770       Available 0I-01-02    EMC Symmetrix FCP VRAID
+hdisk771       Available 0I-01-02    EMC Symmetrix FCP VRAID
+hdisk772       Available 0I-01-02    EMC Symmetrix FCP VRAID
+hdisk773       Available 0I-01-02    EMC Symmetrix FCP VRAID
+hdisk774       Available 0I-01-02    EMC Symmetrix FCP VRAID
+hdisk775       Available 0I-01-02    EMC Symmetrix FCP VRAID
+hdisk776       Available 0I-01-02    EMC Symmetrix FCP VRAID
+hdisk777       Available 0I-01-02    EMC Symmetrix FCP VRAID
+hdisk778       Available 0I-01-02    EMC Symmetrix FCP VRAID
+hdisk779       Available 0I-01-02    EMC Symmetrix FCP VRAID
+hdisk780       Available 0I-01-02    EMC Symmetrix FCP VRAID
+hdisk781       Available 0I-01-02    EMC Symmetrix FCP VRAID
+hdisk782       Available 0I-01-02    EMC Symmetrix FCP VRAID
+hdisk783       Available 0I-01-02    EMC Symmetrix FCP VRAID
+hdisk784       Available 0I-01-02    EMC Symmetrix FCP VRAID
+hdisk785       Available 0I-01-02    EMC Symmetrix FCP VRAID
+hdisk786       Available 0I-01-02    EMC Symmetrix FCP VRAID
+hdisk787       Available 0I-01-02    EMC Symmetrix FCP VRAID
+hdisk788       Available 0I-01-02    EMC Symmetrix FCP VRAID
+hdisk789       Available 0I-01-02    EMC Symmetrix FCP VRAID
+hdisk790       Available 0I-01-02    EMC Symmetrix FCP VRAID
+hdisk791       Available 0I-01-02    EMC Symmetrix FCP VRAID
+hdisk792       Available 0I-01-02    EMC Symmetrix FCP VRAID
+hdisk793       Available 0I-01-02    EMC Symmetrix FCP VRAID
+hdisk794       Available 0I-01-02    EMC Symmetrix FCP VRAID
+hdisk795       Available 0I-01-02    EMC Symmetrix FCP VRAID
+hdisk796       Available 0I-01-02    EMC Symmetrix FCP VRAID
+hdisk797       Available 0I-01-02    EMC Symmetrix FCP VRAID
+hdisk798       Available 0I-01-02    EMC Symmetrix FCP VRAID
+hdisk799       Available 0I-01-02    EMC Symmetrix FCP VRAID
+hdisk800       Available 0I-01-02    EMC Symmetrix FCP VRAID
+hdisk801       Available 0I-01-02    EMC Symmetrix FCP VRAID
+hdisk802       Available 0I-01-02    EMC Symmetrix FCP VRAID
+hdisk803       Available 0I-01-02    EMC Symmetrix FCP VRAID
+hdisk804       Available 0I-01-02    EMC Symmetrix FCP VRAID
+hdisk805       Available 0I-01-02    EMC Symmetrix FCP VRAID
+hdisk806       Available 0I-01-02    EMC Symmetrix FCP VRAID
+hdisk807       Available 0I-01-02    EMC Symmetrix FCP VRAID
+hdisk808       Available 0I-01-02    EMC Symmetrix FCP VRAID
+hdisk809       Available 0I-01-02    EMC Symmetrix FCP VRAID
+hdisk810       Available 0I-01-02    EMC Symmetrix FCP VRAID
+hdisk811       Available 0I-01-02    EMC Symmetrix FCP VRAID
+hdisk812       Available 0I-01-02    EMC Symmetrix FCP VRAID
+hdisk813       Available 0I-01-02    EMC Symmetrix FCP VRAID
+hdisk814       Available 0I-01-02    EMC Symmetrix FCP VRAID
+hdisk815       Available 0I-01-02    EMC Symmetrix FCP VRAID
+hdisk816       Available 0I-01-02    EMC Symmetrix FCP VRAID
+hdisk817       Available 0I-01-02    EMC Symmetrix FCP VRAID
+hdiskpower10   Defined   09-00-02    PowerPath Device
+hdiskpower11   Defined   09-00-02    PowerPath Device
+hdiskpower40   Available 09-00-02    PowerPath Device
+hdiskpower41   Available 09-00-02    PowerPath Device
+hdiskpower42   Available 09-00-02    PowerPath Device
+hdiskpower43   Available 09-00-02    PowerPath Device
+hdiskpower44   Available 09-00-02    PowerPath Device
+hdiskpower45   Available 09-00-02    PowerPath Device
+hdiskpower46   Available 09-00-02    PowerPath Device
+hdiskpower47   Available 09-00-02    PowerPath Device
+hdiskpower48   Available 09-00-02    PowerPath Device
+hdiskpower49   Available 09-00-02    PowerPath Device
+hdiskpower50   Available 09-00-02    PowerPath Device
+hdiskpower51   Available 09-00-02    PowerPath Device
+hdiskpower52   Available 09-00-02    PowerPath Device
+hdiskpower53   Available 09-00-02    PowerPath Device
+hdiskpower54   Available 09-00-02    PowerPath Device
+hdiskpower55   Available 09-00-02    PowerPath Device
+hdiskpower56   Available 09-00-02    PowerPath Device
+hdiskpower57   Available 09-00-02    PowerPath Device
+hdiskpower58   Available 09-00-02    PowerPath Device
+hdiskpower59   Available 09-00-02    PowerPath Device
+hdiskpower60   Available 09-00-02    PowerPath Device
+hdiskpower61   Available 09-00-02    PowerPath Device
+hdiskpower62   Available 09-00-02    PowerPath Device
+hdiskpower63   Available 09-00-02    PowerPath Device
+hdiskpower64   Available 09-00-02    PowerPath Device
+hdiskpower65   Available 09-00-02    PowerPath Device
+hdiskpower66   Available 09-00-02    PowerPath Device
+hdiskpower67   Available 09-00-02    PowerPath Device
+hdiskpower68   Available 09-00-02    PowerPath Device
+hdiskpower69   Available 09-00-02    PowerPath Device
+hdiskpower72   Available 09-00-02    PowerPath Device
+hdiskpower73   Available 09-00-02    PowerPath Device
+inet0          Available             Internet Network Extension
+iocp0          Defined               I/O Completion Ports
+iscsi0         Available             iSCSI Protocol Device
+lg_dumplv      Defined               Logical volume
+livedump       Defined               Logical volume
+lo0            Available             Loopback Network Interface
+lvdd           Available             LVM Device Driver
+mem0           Available             Memory
+mover0         Available             Mover Kernel Extension
+pager0         Available             Pager Kernel Extension
+paging00       Defined               Logical volume
+pci0           Available             PCI Express Bus
+pci1           Available             PCI Express Bus
+pci2           Available             PCI Express Bus
+pci3           Available             PCI Express Bus
+pci4           Available             PCI Express Bus
+pci5           Available             PCI Express Bus
+pci6           Available 01-00       PCI Express Bus
+pci7           Defined   06-20       PCI Express Bus
+pci8           Available 06-28       PCI Express Bus
+pci9           Available 06-30       PCI Express Bus
+pci10          Available 05-00       PCI Express Bus
+pci11          Defined   0A-20       PCI Express Bus
+pci12          Available 0A-28       PCI Express Bus
+pci13          Available 0A-30       PCI Express Bus
+pci14          Defined               PCI Express Bus
+pci15          Available             PCI Express Bus
+pci16          Available 0F-00       PCI Express Bus
+pci17          Defined   0G-20       PCI Express Bus
+pci18          Available 0G-28       PCI Express Bus
+pci19          Available 0G-30       PCI Express Bus
+pdisk0         Available 02-00-00    Physical SAS Solid State Drive
+pdisk1         Available 02-00-00    Physical SAS Solid State Drive
+pdisk2         Available 02-00-00    Physical SAS Solid State Drive
+pdisk3         Defined   0E-00-00    Physical SAS Solid State Drive
+pdisk4         Defined   0E-00-00    Physical SAS Solid State Drive
+perfdatalv     Defined               Logical volume
+pkcs11         Available             ACF/PKCS#11 Device
+powerpath0     Available             PowerPath Control Device
+proc0          Available 00-00       Processor
+proc4          Available 00-04       Processor
+proc8          Available 00-08       Processor
+proc12         Available 00-12       Processor
+proc16         Available 00-16       Processor
+proc20         Available 00-20       Processor
+pty0           Available             Asynchronous Pseudo-Terminal
+rcm0           Defined               Rendering Context Manager Subsystem
+rootvg         Defined               Volume group
+sas0           Available 03-00-00    Controller SAS Protocol
+sas1           Available 02-00-00    Controller SAS Protocol
+sas2           Defined   0E-00-00    Controller SAS Protocol
+sata0          Available 03-00-00    Controller SATA Protocol
+sata1          Available 02-00-00    Controller SATA Protocol
+sata2          Defined   0E-00-00    Controller SATA Protocol
+ses0           Available 03-00-00    SAS Enclosure Services Device
+ses1           Available 02-00-00    SAS Enclosure Services Device
+ses2           Available 02-00-00    SAS Enclosure Services Device
+ses3           Defined   0E-00-00    SAS Enclosure Services Device
+ses4           Defined   0E-00-00    SAS Enclosure Services Device
+sfw0           Available             Storage Framework Module
+sfwcomm0       Available 00-04-01-FF Fibre Channel Storage Framework Comm
+sfwcomm1       Available 00-05-01-FF Fibre Channel Storage Framework Comm
+sfwcomm2       Available 04-04-01-FF Fibre Channel Storage Framework Comm
+sfwcomm3       Available 04-05-01-FF Fibre Channel Storage Framework Comm
+sfwcomm4       Available 08-00-02-FF Fibre Channel Storage Framework Comm
+sfwcomm5       Available 08-01-02-FF Fibre Channel Storage Framework Comm
+sfwcomm6       Available 09-00-02-FF Fibre Channel Storage Framework Comm
+sfwcomm7       Available 09-01-02-FF Fibre Channel Storage Framework Comm
+sfwcomm8       Available 0C-00-02-FF Fibre Channel Storage Framework Comm
+sfwcomm9       Available 0C-01-02-FF Fibre Channel Storage Framework Comm
+sfwcomm10      Available 0D-00-02-FF Fibre Channel Storage Framework Comm
+sfwcomm11      Available 0D-01-02-FF Fibre Channel Storage Framework Comm
+sfwcomm12      Available 03-00-00-FF SAS Storage Framework Comm
+sfwcomm13      Available 02-00-00-FF SAS Storage Framework Comm
+sfwcomm14      Defined   0E-00-00-FF SAS Storage Framework Comm
+sfwcomm15      Available 0I-00-02-FF Fibre Channel Storage Framework Comm
+sfwcomm16      Available 0I-01-02-FF Fibre Channel Storage Framework Comm
+sfwcomm17      Available 0J-00-02-FF Fibre Channel Storage Framework Comm
+sfwcomm18      Available 0J-01-02-FF Fibre Channel Storage Framework Comm
+sissas0        Available 03-00       PCI Express x1 Planar 3Gb SAS Adapter
+sissas1        Available 02-00       PCI Express x8 Planar 3Gb SAS Adapter
+sissas2        Defined   0E-00       PCI Express x8 Planar 3Gb SAS Adapter
+suspended0     Available             VIOS Suspend Device
+sys0           Available             System Object
+sysplanar0     Available             System Planar
+vasi0          Available             Virtual Asynchronous Services Interface (VASI)
+vbsd0          Available             Virtual Block Storage Device (VBSD)
+vfchost0       Available             Virtual FC Server Adapter
+vfchost1       Available             Virtual FC Server Adapter
+vfchost2       Available             Virtual FC Server Adapter
+vfchost3       Available             Virtual FC Server Adapter
+vfchost4       Available             Virtual FC Server Adapter
+vfchost5       Available             Virtual FC Server Adapter
+vfchost6       Available             Virtual FC Server Adapter
+vfchost7       Available             Virtual FC Server Adapter
+vfchost8       Available             Virtual FC Server Adapter
+vfchost9       Available             Virtual FC Server Adapter
+vfchost10      Available             Virtual FC Server Adapter
+vfchost11      Available             Virtual FC Server Adapter
+vfchost12      Available             Virtual FC Server Adapter
+vfchost13      Available             Virtual FC Server Adapter
+vfchost14      Available             Virtual FC Server Adapter
+vfchost15      Available             Virtual FC Server Adapter
+vfchost16      Available             Virtual FC Server Adapter
+vfchost17      Available             Virtual FC Server Adapter
+vfchost18      Available             Virtual FC Server Adapter
+vfchost19      Available             Virtual FC Server Adapter
+vg0            Defined               Volume group
+vhdisk0        Defined               Logical volume
+vhdisk1        Defined               Logical volume
+vhdisk2        Defined               Logical volume
+vhdisk3        Defined               Logical volume
+vhdisk4        Defined               Logical volume
+vhdisk5        Defined               Logical volume
+vhdisk6        Defined               Logical volume
+vhdisk7        Defined               Logical volume
+vhdisk8        Defined               Logical volume
+vhdisk9        Defined               Logical volume
+vhost0         Available             Virtual SCSI Server Adapter
+vhost1         Available             Virtual SCSI Server Adapter
+vhost2         Available             Virtual SCSI Server Adapter
+vhost3         Available             Virtual SCSI Server Adapter
+vhost4         Available             Virtual SCSI Server Adapter
+vhost5         Available             Virtual SCSI Server Adapter
+vhost6         Available             Virtual SCSI Server Adapter
+vhost7         Available             Virtual SCSI Server Adapter
+vhost8         Available             Virtual SCSI Server Adapter
+vhost9         Available             Virtual SCSI Server Adapter
+vhost10        Available             Virtual SCSI Server Adapter
+vhost11        Available             Virtual SCSI Server Adapter
+vhost12        Available             Virtual SCSI Server Adapter
+vhost13        Available             Virtual SCSI Server Adapter
+vhost14        Available             Virtual SCSI Server Adapter
+vhost15        Available             Virtual SCSI Server Adapter
+vhost16        Available             Virtual SCSI Server Adapter
+vhost17        Available             Virtual SCSI Server Adapter
+vhost18        Available             Virtual SCSI Server Adapter
+vhost19        Available             Virtual SCSI Server Adapter
+vhost20        Available             Virtual SCSI Server Adapter
+vhost21        Available             Virtual SCSI Server Adapter
+vhost22        Available             Virtual SCSI Server Adapter
+vhost23        Available             Virtual SCSI Server Adapter
+vhost24        Available             Virtual SCSI Server Adapter
+vhost25        Available             Virtual SCSI Server Adapter
+vhost26        Available             Virtual SCSI Server Adapter
+vhost27        Available             Virtual SCSI Server Adapter
+vhost28        Available             Virtual SCSI Server Adapter
+vhost29        Available             Virtual SCSI Server Adapter
+vhost30        Available             Virtual SCSI Server Adapter
+vhost31        Available             Virtual SCSI Server Adapter
+vhost32        Available             Virtual SCSI Server Adapter
+vhost33        Available             Virtual SCSI Server Adapter
+vhost34        Available             Virtual SCSI Server Adapter
+vio0           Available             Virtual I/O Bus
+vios0          Available             VIO Server
+vioscm0        Available             VIOS Change Manager
+vioslpm0       Available             VIOS LPM Adapter
+viosrules0     Available             VIOS Vendor Rules
+vioupdatelv    Defined               Logical volume
+vlogrepo0      Available             VIOS Virtual Log Repository
+vsa0           Available             LPAR Virtual Serial Adapter
+vtscsi0        Available             Virtual Target Device - Logical Volume
+vtscsi1        Available             Virtual Target Device - Logical Volume
+vtscsi2        Available             Virtual Target Device - Logical Volume
+vtscsi3        Available             Virtual Target Device - Logical Volume
+vtscsi4        Available             Virtual Target Device - Logical Volume
+vtscsi5        Available             Virtual Target Device - Logical Volume
+vtscsi6        Available             Virtual Target Device - Disk
+vtscsi7        Available             Virtual Target Device - Disk
+vtscsi8        Available             Virtual Target Device - Disk
+vtscsi9        Available             Virtual Target Device - Disk
+vtscsi10       Available             Virtual Target Device - Disk
+vtscsi11       Available             Virtual Target Device - Disk
+vtscsi12       Available             Virtual Target Device - Disk
+vtscsi13       Available             Virtual Target Device - Disk
+vtscsi14       Available             Virtual Target Device - Disk
+vtscsi15       Available             Virtual Target Device - Disk
+vtscsi16       Available             Virtual Target Device - Disk
+vtscsi17       Available             Virtual Target Device - Disk
+vtscsi18       Available             Virtual Target Device - Disk
+vtscsi19       Available             Virtual Target Device - Disk
+vtscsi20       Available             Virtual Target Device - Disk
+vtscsi21       Available             Virtual Target Device - Disk
+vtscsi22       Available             Virtual Target Device - Disk
+vtscsi23       Available             Virtual Target Device - Disk
+vtscsi24       Available             Virtual Target Device - Disk
+vtscsi25       Available             Virtual Target Device - Disk
+vtscsi26       Available             Virtual Target Device - Disk
+vtscsi27       Available             Virtual Target Device - Disk
+vtscsi28       Available             Virtual Target Device - Disk
+vtscsi29       Available             Virtual Target Device - Disk
+vtscsi30       Available             Virtual Target Device - Disk
+vtscsi31       Available             Virtual Target Device - Disk
+vtscsi32       Available             Virtual Target Device - Disk
+vtscsi33       Available             Virtual Target Device - Disk
+vtscsi34       Available             Virtual Target Device - Disk
+vtscsi35       Available             Virtual Target Device - Disk
+vtscsi36       Available             Virtual Target Device - Disk
+vtscsi37       Available             Virtual Target Device - Disk
+vtscsi38       Available             Virtual Target Device - Disk
+vtscsi39       Available             Virtual Target Device - Disk
+vtscsi40       Available             Virtual Target Device - Disk
+vtscsi41       Available             Virtual Target Device - Disk
+vtscsi42       Available             Virtual Target Device - Disk
+vtscsi43       Available             Virtual Target Device - Disk
+vtscsi44       Available             Virtual Target Device - Disk
+vtscsi45       Available             Virtual Target Device - Disk
+vtscsi46       Available             Virtual Target Device - Disk
+vtscsi47       Available             Virtual Target Device - Disk
+vtscsi48       Available             Virtual Target Device - Disk
+vtscsi49       Available             Virtual Target Device - Disk
+vtscsi50       Available             Virtual Target Device - Disk
+vtscsi51       Available             Virtual Target Device - Disk
+vtscsi52       Available             Virtual Target Device - Disk
+vtscsi53       Available             Virtual Target Device - Disk
+vtscsi54       Available             Virtual Target Device - Disk
+vtscsi55       Available             Virtual Target Device - Disk
+vtscsi56       Available             Virtual Target Device - Disk
+vtscsi57       Available             Virtual Target Device - Disk
+vtscsi58       Available             Virtual Target Device - Disk
+vtscsi59       Available             Virtual Target Device - Disk
+vtscsi60       Available             Virtual Target Device - Disk
+vtscsi61       Available             Virtual Target Device - Disk
+vtscsi62       Defined               Virtual Target Device - Disk
+vtscsi63       Defined               Virtual Target Device - Disk
+vtscsi64       Available             Virtual Target Device - Disk
+vtscsi65       Available             Virtual Target Device - Disk
+vtscsi66       Available             Virtual Target Device - Disk
+vtscsi67       Available             Virtual Target Device - Disk
+vtscsi68       Available             Virtual Target Device - Disk
+vtscsi69       Available             Virtual Target Device - Disk
+vtscsi70       Available             Virtual Target Device - Disk
+vtscsi71       Available             Virtual Target Device - Disk
+vtscsi72       Available             Virtual Target Device - Disk
+vtscsi73       Available             Virtual Target Device - Disk
+vtscsi74       Available             Virtual Target Device - Disk
+vtscsi75       Available             Virtual Target Device - Disk
+vtscsi76       Available             Virtual Target Device - Disk
+vtscsi77       Available             Virtual Target Device - Disk
+vtscsi78       Available             Virtual Target Device - Disk
+vtscsi79       Available             Virtual Target Device - Disk
+vtscsi80       Available             Virtual Target Device - Disk
+vtscsi81       Available             Virtual Target Device - Disk
+vtscsi82       Available             Virtual Target Device - Disk
+vtscsi83       Available             Virtual Target Device - Disk
+vtscsi84       Available             Virtual Target Device - Disk
+vtscsi85       Available             Virtual Target Device - Disk
+vtscsi86       Available             Virtual Target Device - Disk
+vtscsi87       Available             Virtual Target Device - Disk
+vtscsi88       Available             Virtual Target Device - Disk
+vtscsi89       Available             Virtual Target Device - Disk
+vtscsi90       Available             Virtual Target Device - Disk
+vtscsi91       Available             Virtual Target Device - Disk
+vtscsi92       Available             Virtual Target Device - Disk
+vtscsi93       Available             Virtual Target Device - Disk
+vtscsi94       Available             Virtual Target Device - Disk
+vtscsi95       Available             Virtual Target Device - Disk
+vtscsi96       Available             Virtual Target Device - Disk
+vtscsi97       Available             Virtual Target Device - Disk
+vtscsi98       Available             Virtual Target Device - Disk
+vtscsi99       Available             Virtual Target Device - Disk
+vtscsi100      Available             Virtual Target Device - Disk
+vtscsi101      Available             Virtual Target Device - Disk
+vtscsi102      Available             Virtual Target Device - Disk
+vtscsi103      Available             Virtual Target Device - Disk
+vtscsi104      Available             Virtual Target Device - Disk
+vtscsi105      Available             Virtual Target Device - Disk
+vtscsi106      Available             Virtual Target Device - Disk
+vtscsi107      Available             Virtual Target Device - Disk
+vtscsi108      Available             Virtual Target Device - Disk
+vtscsi109      Available             Virtual Target Device - Disk
+vtscsi110      Available             Virtual Target Device - Disk
+vtscsi111      Available             Virtual Target Device - Disk
+vtscsi112      Available             Virtual Target Device - Disk
+vtscsi113      Available             Virtual Target Device - Disk
+vtscsi114      Available             Virtual Target Device - Disk
+vtscsi115      Available             Virtual Target Device - Disk
+vtscsi116      Available             Virtual Target Device - Disk
+vtscsi117      Available             Virtual Target Device - Disk
+vtscsi118      Available             Virtual Target Device - Disk
+vtscsi119      Available             Virtual Target Device - Disk
+vtscsi120      Available             Virtual Target Device - Disk
+vtscsi121      Available             Virtual Target Device - Disk
+vtscsi122      Available             Virtual Target Device - Disk
+vtscsi123      Available             Virtual Target Device - Disk
+vtscsi124      Available             Virtual Target Device - Disk
+vtscsi125      Available             Virtual Target Device - Disk
+vtscsi126      Available             Virtual Target Device - Disk
+vtscsi127      Available             Virtual Target Device - Disk
+vtscsi128      Available             Virtual Target Device - Disk
+vtscsi129      Available             Virtual Target Device - Disk
+vtscsi130      Available             Virtual Target Device - Disk
+vtscsi131      Available             Virtual Target Device - Disk
+vtscsi132      Available             Virtual Target Device - Disk
+vtscsi143      Available             Virtual Target Device - Disk
+vtscsi144      Available             Virtual Target Device - Disk
+vtscsi145      Available             Virtual Target Device - Disk
+vtscsi146      Available             Virtual Target Device - Disk
+vtscsi147      Available             Virtual Target Device - Disk
+vtscsi148      Available             Virtual Target Device - Disk
+vtscsi149      Available             Virtual Target Device - Disk
+vtscsi150      Available             Virtual Target Device - Disk
+vtscsi151      Available             Virtual Target Device - Disk
+vtscsi152      Available             Virtual Target Device - Disk
+vtscsi153      Available             Virtual Target Device - Disk
+vtscsi154      Available             Virtual Target Device - Disk
+vtscsi155      Available             Virtual Target Device - Disk
+vtscsi156      Available             Virtual Target Device - Disk
+vtscsi157      Available             Virtual Target Device - Disk
+vtscsi158      Available             Virtual Target Device - Disk
+vtscsi159      Available             Virtual Target Device - Disk
+vtscsi160      Available             Virtual Target Device - Disk
+vtscsi161      Available             Virtual Target Device - Disk
+vtscsi162      Available             Virtual Target Device - Disk
+vtscsi163      Available             Virtual Target Device - Disk
+vtscsi164      Available             Virtual Target Device - Disk
+vtscsi165      Available             Virtual Target Device - Disk
+vtscsi166      Available             Virtual Target Device - Disk
+vtscsi167      Available             Virtual Target Device - Disk
+vtscsi168      Available             Virtual Target Device - Disk
+vtscsi169      Available             Virtual Target Device - Disk
+vtscsi170      Available             Virtual Target Device - Disk
+vtscsi171      Available             Virtual Target Device - Disk
+vtscsi172      Available             Virtual Target Device - Disk
+vtscsi173      Available             Virtual Target Device - Disk
+vtscsi174      Available             Virtual Target Device - Disk
+vtscsi175      Available             Virtual Target Device - Disk
+vtscsi176      Available             Virtual Target Device - Disk
+vtscsi177      Available             Virtual Target Device - Disk
+vtscsi178      Available             Virtual Target Device - Disk
+vtscsi179      Available             Virtual Target Device - Disk
+vtscsi180      Available             Virtual Target Device - Disk
+vtscsi181      Available             Virtual Target Device - Disk
+vtscsi182      Available             Virtual Target Device - Disk
+vtscsi183      Available             Virtual Target Device - Disk
+vtscsi184      Available             Virtual Target Device - Disk
+vtscsi185      Available             Virtual Target Device - Disk
+vtscsi186      Available             Virtual Target Device - Disk
+vtscsi187      Available             Virtual Target Device - Disk
+vtscsi188      Available             Virtual Target Device - Disk
+vtscsi189      Available             Virtual Target Device - Disk
+vtscsi190      Available             Virtual Target Device - Disk
+vtscsi191      Available             Virtual Target Device - Disk
+vtscsi192      Available             Virtual Target Device - Disk
+vtscsi193      Available             Virtual Target Device - Disk
+vtscsi194      Available             Virtual Target Device - Disk
+vtscsi195      Available             Virtual Target Device - Disk
+vtscsi196      Available             Virtual Target Device - Disk
+vtscsi197      Available             Virtual Target Device - Disk
+vtscsi198      Available             Virtual Target Device - Disk
+vtscsi199      Available             Virtual Target Device - Disk
+vtscsi200      Available             Virtual Target Device - Disk
+vtscsi201      Available             Virtual Target Device - Disk
+vtscsi202      Available             Virtual Target Device - Disk
+vtscsi203      Available             Virtual Target Device - Disk
+vtscsi204      Available             Virtual Target Device - Disk
+vtscsi205      Available             Virtual Target Device - Disk
+vtscsi206      Available             Virtual Target Device - Disk
+vtscsi207      Available             Virtual Target Device - Disk
+vtscsi208      Available             Virtual Target Device - Disk
+vtscsi209      Available             Virtual Target Device - Disk
+vtscsi210      Available             Virtual Target Device - Disk
+vtscsi211      Available             Virtual Target Device - Disk
+vtscsi212      Available             Virtual Target Device - Disk
+vtscsi213      Available             Virtual Target Device - Disk
+vtscsi214      Available             Virtual Target Device - Disk
+vtscsi215      Available             Virtual Target Device - Disk
+vtscsi216      Available             Virtual Target Device - Disk
+vtscsi217      Available             Virtual Target Device - Disk
+vtscsi218      Available             Virtual Target Device - Disk
+vty0           Available             Asynchronous Terminal
+==== EXITED with rc 0 ====
+==== END lsdev -C Tue Jul  7 13:39:20 CDT 2015 ====

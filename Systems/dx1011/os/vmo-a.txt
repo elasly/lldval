@@ -1,0 +1,48 @@
+==== This output can be found in Systems/dx1011/os/vmo-a.txt ====
+==== START vmo -a Tue Jul  7 13:39:45 CDT 2015 ====
+             ame_cpus_per_pool = n/a
+               ame_maxfree_mem = n/a
+           ame_min_ucpool_size = n/a
+               ame_minfree_mem = n/a
+               ams_loan_policy = n/a
+  enhanced_affinity_affin_time = 1
+enhanced_affinity_vmpool_limit = 10
+                esid_allocator = 0
+           force_relalias_lite = 0
+             kernel_heap_psize = 65536
+                  lgpg_regions = 0
+                     lgpg_size = 0
+               low_ps_handling = 1
+                       maxfree = 1088
+                       maxperm = 1816919
+                        maxpin = 1692477
+                       maxpin% = 80
+                 memory_frames = 2097152
+                 memplace_data = 0
+          memplace_mapped_file = 0
+        memplace_shm_anonymous = 0
+            memplace_shm_named = 0
+                memplace_stack = 0
+                 memplace_text = 0
+        memplace_unmapped_file = 0
+                       minfree = 960
+                       minperm = 60562
+                      minperm% = 3
+                   msem_nlocks = 0
+                     nokilluid = 0
+                       npskill = 3072
+                       npswarn = 12288
+           num_locks_per_semid = 1
+                     numpsblks = 393216
+               pinnable_frames = 1171988
+           relalias_percentage = 0
+                         scrub = 0
+                 thrpgio_inval = 1024
+                thrpgio_npages = 1024
+                      v_pinshm = 0
+                  vm_mmap_bmap = 1
+              vmm_default_pspa = 0
+                vmm_klock_mode = 0
+            wlm_memlimit_nonpg = 1
+==== EXITED with rc 0 ====
+==== END vmo -a Tue Jul  7 13:39:45 CDT 2015 ====

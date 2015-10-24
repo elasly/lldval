@@ -1,0 +1,15 @@
+==== This output can be found in Systems/dx987/ha/clctrl-tune-a.txt ====
+==== START clctrl -tune -a Tue Jul  7 00:00:24 GST 2015 ====
+   DX986_cluster(55e6bd08-e721-11e4-97bb-6e9994d59704).communication_mode = u
+       DX986_cluster(55e6bd08-e721-11e4-97bb-6e9994d59704).config_timeout = 240
+         DX986_cluster(55e6bd08-e721-11e4-97bb-6e9994d59704).deadman_mode = a
+         DX986_cluster(55e6bd08-e721-11e4-97bb-6e9994d59704).link_timeout = 30000
+DX986_cluster(55e6bd08-e721-11e4-97bb-6e9994d59704).no_if_traffic_monitor = 0
+      DX986_cluster(55e6bd08-e721-11e4-97bb-6e9994d59704).node_down_delay = 10000
+         DX986_cluster(55e6bd08-e721-11e4-97bb-6e9994d59704).node_timeout = 20000
+           DX986_cluster(55e6bd08-e721-11e4-97bb-6e9994d59704).packet_ttl = 32
+     DX986_cluster(55e6bd08-e721-11e4-97bb-6e9994d59704).remote_hb_factor = 10
+           DX986_cluster(55e6bd08-e721-11e4-97bb-6e9994d59704).repos_mode = e
+    DX986_cluster(55e6bd08-e721-11e4-97bb-6e9994d59704).site_merge_policy = h
+==== EXITED with rc 0 ====
+==== END clctrl -tune -a Tue Jul  7 00:00:24 GST 2015 ====

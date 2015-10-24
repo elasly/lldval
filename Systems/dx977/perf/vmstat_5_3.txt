@@ -1,0 +1,13 @@
+==== This output can be found in Systems/dx977/perf/vmstat_5_3.txt ====
+==== START vmstat 5 3  Tue Jul  7 00:15:47 GST 2015 ====
+
+System configuration: lcpu=48 mem=393215MB ent=6.00
+
+kthr    memory              page              faults              cpu          
+----- ----------- ------------------------ ------------ -----------------------
+ r  b   avm   fre  re  pi  po  fr   sr  cy  in   sy  cs us sy id wa    pc    ec
+ 7  0 35400792 45697559   0   0   0   0    0   0 2034 970643 3936 24  9 66  1  3.16  52.7
+ 6  0 35403257 45694757   0   0   0   0    0   0 2928 749367 4814 21  8 70  1  2.74  45.6
+ 4  0 35398389 45699611   0   0   0   0    0   0 1523 801060 2659 14  5 80  1  1.79  29.9
+==== EXITED with rc 0 ====
+==== END vmstat 5 3  Tue Jul  7 00:16:02 GST 2015 ====

@@ -1,0 +1,102 @@
+==== This output can be found in Systems/dx975/hw/lsdev-^Cc_adapter.txt ====
+==== START lsdev -Cc adapter Tue Jul  7 12:49:37 CDT 2015 ====
+ent0      Available 01-00 PCIe2 10GbE SFP+ SR 4-port Converged Network Adapter (df1020e214100f04)
+ent1      Available 01-01 PCIe2 10GbE SFP+ SR 4-port Converged Network Adapter (df1020e214100f04)
+ent2      Available 01-02 PCIe2 100/1000 Base-TX 4-port Converged Network Adapter (df1020e214103c04)
+ent3      Available 01-03 PCIe2 100/1000 Base-TX 4-port Converged Network Adapter (df1020e214103c04)
+ent4      Available 06-00 PCIe2 10GbE SFP+ SR 4-port Converged Network Adapter (df1020e214100f04)
+ent5      Available 06-01 PCIe2 10GbE SFP+ SR 4-port Converged Network Adapter (df1020e214100f04)
+ent6      Available 06-02 PCIe2 100/1000 Base-TX 4-port Converged Network Adapter (df1020e214103c04)
+ent7      Available 06-03 PCIe2 100/1000 Base-TX 4-port Converged Network Adapter (df1020e214103c04)
+ent8      Available       Virtual I/O Ethernet Adapter (l-lan)
+ent9      Available       Virtual I/O Ethernet Adapter (l-lan)
+ent10     Available       Virtual I/O Ethernet Adapter (l-lan)
+ent11     Available       Virtual I/O Ethernet Adapter (l-lan)
+ent12     Available       Virtual I/O Ethernet Adapter (l-lan)
+ent13     Available       Virtual I/O Ethernet Adapter (l-lan)
+ent14     Available       Virtual I/O Ethernet Adapter (l-lan)
+ent15     Available       EtherChannel / IEEE 802.3ad Link Aggregation
+ent16     Available       Shared Ethernet Adapter
+ent17     Available       Virtual I/O Ethernet Adapter (l-lan)
+fcs0      Available 01-04 PCIe2 10Gb 4-Port FCoE Adapter (df1060e214101004)
+fcs1      Available 01-05 PCIe2 10Gb 4-Port FCoE Adapter (df1060e214101004)
+fcs2      Available 0A-00 PCIe2 4-Port 8Gb FC Adapter (df1000f114100104)
+fcs3      Available 0A-01 PCIe2 4-Port 8Gb FC Adapter (df1000f114100104)
+fcs4      Available 0B-00 PCIe2 4-Port 8Gb FC Adapter (df1000f114100104)
+fcs5      Available 0B-01 PCIe2 4-Port 8Gb FC Adapter (df1000f114100104)
+fcs6      Available 0E-00 PCIe2 4-Port 8Gb FC Adapter (df1000f114100104)
+fcs7      Available 0E-01 PCIe2 4-Port 8Gb FC Adapter (df1000f114100104)
+fcs8      Available 0F-00 PCIe2 4-Port 8Gb FC Adapter (df1000f114100104)
+fcs9      Available 0F-01 PCIe2 4-Port 8Gb FC Adapter (df1000f114100104)
+fcs10     Available 06-04 PCIe2 10Gb 4-Port FCoE Adapter (df1060e214101004)
+fcs11     Available 06-05 PCIe2 10Gb 4-Port FCoE Adapter (df1060e214101004)
+fcs12     Available 0I-00 PCIe2 4-Port 8Gb FC Adapter (df1000f114100104)
+fcs13     Available 0I-01 PCIe2 4-Port 8Gb FC Adapter (df1000f114100104)
+fcs14     Available 0J-00 PCIe2 4-Port 8Gb FC Adapter (df1000f114100104)
+fcs15     Available 0J-01 PCIe2 4-Port 8Gb FC Adapter (df1000f114100104)
+pager0    Available       Pager Kernel Extension
+pkcs11    Available       ACF/PKCS#11 Device
+sissas0   Available 00-00 PCI Express x1 Planar 3Gb SAS Adapter
+sissas1   Available 04-00 PCI Express x8 Planar 3Gb SAS Adapter
+sissas2   Available 05-00 PCI Express x8 Planar 3Gb SAS Adapter
+vasi0     Available       Virtual Asynchronous Services Interface (VASI)
+vbsd0     Available       Virtual Block Storage Device (VBSD)
+vfchost0  Available       Virtual FC Server Adapter
+vfchost1  Available       Virtual FC Server Adapter
+vfchost2  Available       Virtual FC Server Adapter
+vfchost3  Available       Virtual FC Server Adapter
+vfchost4  Available       Virtual FC Server Adapter
+vfchost5  Available       Virtual FC Server Adapter
+vfchost6  Available       Virtual FC Server Adapter
+vfchost7  Available       Virtual FC Server Adapter
+vfchost8  Available       Virtual FC Server Adapter
+vfchost9  Available       Virtual FC Server Adapter
+vfchost10 Available       Virtual FC Server Adapter
+vfchost11 Available       Virtual FC Server Adapter
+vfchost20 Available       Virtual FC Server Adapter
+vfchost21 Available       Virtual FC Server Adapter
+vfchost22 Available       Virtual FC Server Adapter
+vfchost23 Available       Virtual FC Server Adapter
+vfchost24 Available       Virtual FC Server Adapter
+vfchost25 Available       Virtual FC Server Adapter
+vfchost26 Available       Virtual FC Server Adapter
+vfchost27 Available       Virtual FC Server Adapter
+vfchost28 Available       Virtual FC Server Adapter
+vfchost29 Available       Virtual FC Server Adapter
+vfchost30 Available       Virtual FC Server Adapter
+vfchost31 Available       Virtual FC Server Adapter
+vhost0    Available       Virtual SCSI Server Adapter
+vhost1    Available       Virtual SCSI Server Adapter
+vhost2    Available       Virtual SCSI Server Adapter
+vhost3    Available       Virtual SCSI Server Adapter
+vhost4    Available       Virtual SCSI Server Adapter
+vhost5    Available       Virtual SCSI Server Adapter
+vhost6    Available       Virtual SCSI Server Adapter
+vhost7    Available       Virtual SCSI Server Adapter
+vhost8    Available       Virtual SCSI Server Adapter
+vhost9    Available       Virtual SCSI Server Adapter
+vhost10   Available       Virtual SCSI Server Adapter
+vhost11   Available       Virtual SCSI Server Adapter
+vhost12   Available       Virtual SCSI Server Adapter
+vhost13   Available       Virtual SCSI Server Adapter
+vhost14   Available       Virtual SCSI Server Adapter
+vhost25   Available       Virtual SCSI Server Adapter
+vhost26   Available       Virtual SCSI Server Adapter
+vhost27   Available       Virtual SCSI Server Adapter
+vhost28   Available       Virtual SCSI Server Adapter
+vhost29   Available       Virtual SCSI Server Adapter
+vhost30   Available       Virtual SCSI Server Adapter
+vhost31   Available       Virtual SCSI Server Adapter
+vhost32   Available       Virtual SCSI Server Adapter
+vhost33   Available       Virtual SCSI Server Adapter
+vhost34   Available       Virtual SCSI Server Adapter
+vhost35   Available       Virtual SCSI Server Adapter
+vhost36   Available       Virtual SCSI Server Adapter
+vhost37   Available       Virtual SCSI Server Adapter
+vhost38   Available       Virtual SCSI Server Adapter
+vhost39   Available       Virtual SCSI Server Adapter
+vhost42   Available       Virtual SCSI Server Adapter
+vhost43   Available       Virtual SCSI Server Adapter
+vsa0      Available       LPAR Virtual Serial Adapter
+==== EXITED with rc 0 ====
+==== END lsdev -Cc adapter Tue Jul  7 12:49:37 CDT 2015 ====

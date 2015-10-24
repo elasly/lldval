@@ -1,0 +1,28 @@
+==== This output can be found in Systems/dx980/hw/lsdev-^Cc_adapter.txt ====
+==== START lsdev -Cc adapter Mon Jul  6 23:23:41 GST 2015 ====
+ent0    Available       Virtual I/O Ethernet Adapter (l-lan)
+ent1    Available       Virtual I/O Ethernet Adapter (l-lan)
+ent2    Available       Virtual I/O Ethernet Adapter (l-lan)
+ent3    Available       Virtual I/O Ethernet Adapter (l-lan)
+fcs8    Available 21-T1 Virtual Fibre Channel Client Adapter
+fcs9    Available 22-T1 Virtual Fibre Channel Client Adapter
+fcs10   Available 23-T1 Virtual Fibre Channel Client Adapter
+fcs11   Available 24-T1 Virtual Fibre Channel Client Adapter
+fcs12   Available 25-T1 Virtual Fibre Channel Client Adapter
+fcs13   Available 26-T1 Virtual Fibre Channel Client Adapter
+fcs14   Available 27-T1 Virtual Fibre Channel Client Adapter
+fcs15   Available 28-T1 Virtual Fibre Channel Client Adapter
+pkcs11  Available       ACF/PKCS#11 Device
+vsa0    Available       LPAR Virtual Serial Adapter
+vscsi10 Available       Virtual SCSI Client Adapter
+vscsi11 Available       Virtual SCSI Client Adapter
+vscsi12 Available       Virtual SCSI Client Adapter
+vscsi13 Available       Virtual SCSI Client Adapter
+vscsi14 Available       Virtual SCSI Client Adapter
+vscsi15 Available       Virtual SCSI Client Adapter
+vscsi16 Available       Virtual SCSI Client Adapter
+vscsi17 Available       Virtual SCSI Client Adapter
+vscsi18 Available       Virtual SCSI Client Adapter
+vscsi19 Available       Virtual SCSI Client Adapter
+==== EXITED with rc 0 ====
+==== END lsdev -Cc adapter Mon Jul  6 23:23:41 GST 2015 ====

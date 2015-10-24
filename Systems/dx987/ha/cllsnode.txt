@@ -1,0 +1,14 @@
+==== This output can be found in Systems/dx987/ha/cllsnode.txt ====
+==== START cllsnode Tue Jul  7 00:00:25 GST 2015 ====
+
+Node DX986
+	Interfaces to network net_ether_01
+		Communication Interface: Name DX986, Attribute public, IP address 10.51.226.231
+		Communication Interface: Name DX986-VIP, Attribute public, IP address 10.51.226.233
+
+Node DX987
+	Interfaces to network net_ether_01
+		Communication Interface: Name DX987, Attribute public, IP address 10.51.226.232
+		Communication Interface: Name DX986-VIP, Attribute public, IP address 10.51.226.233
+==== EXITED with rc 0 ====
+==== END cllsnode Tue Jul  7 00:00:25 GST 2015 ====

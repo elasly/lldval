@@ -1,0 +1,7 @@
+==== This output can be found in Systems/dx989/secure/for_j_in_etc_pam_d_do_fileprint_j_done.txt ====
+==== START for j in /etc/pam.d/*; do fileprint $j; done Thu Aug  6 11:22:12 GST 2015 ====
+cat: cannot open /etc/pam.d/*
+==== BEGIN Contents of /etc/pam.d/* ====
+==== END Contents of /etc/pam.d/* ====
+==== EXITED with rc 0 ====
+==== END for j in /etc/pam.d/*; do fileprint $j; done Thu Aug  6 11:22:12 GST 2015 ====

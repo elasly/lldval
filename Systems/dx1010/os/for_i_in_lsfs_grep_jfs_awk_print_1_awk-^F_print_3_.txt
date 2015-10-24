@@ -1,0 +1,232 @@
+==== This output can be found in Systems/dx1010/os/for_i_in_lsfs_grep_jfs_awk_print_1_awk-^F_print_3_.txt ====
+==== START for i in `lsfs | grep jfs | awk '{print $1}'| awk -F "/" '{print $3}'` ; do lslv -m $i; done  Tue Jul  7 13:13:46 CDT 2015 ====
+hd4:/
+LP    PP1  PV1               PP2  PV2               PP3  PV3
+0001  0293 hdisk0            0293 hdisk2            
+hd1:/home
+LP    PP1  PV1               PP2  PV2               PP3  PV3
+0001  0314 hdisk0            0314 hdisk2            
+0002  0315 hdisk0            0315 hdisk2            
+0003  0316 hdisk0            0316 hdisk2            
+0004  0317 hdisk0            0317 hdisk2            
+0005  0318 hdisk0            0318 hdisk2            
+0006  0319 hdisk0            0319 hdisk2            
+0007  0320 hdisk0            0320 hdisk2            
+0008  0321 hdisk0            0321 hdisk2            
+0009  0322 hdisk0            0322 hdisk2            
+0010  0323 hdisk0            0323 hdisk2            
+0011  0324 hdisk0            0324 hdisk2            
+0012  0325 hdisk0            0325 hdisk2            
+0013  0326 hdisk0            0326 hdisk2            
+0014  0327 hdisk0            0327 hdisk2            
+0015  0328 hdisk0            0328 hdisk2            
+0016  0329 hdisk0            0329 hdisk2            
+0017  0330 hdisk0            0330 hdisk2            
+0018  0331 hdisk0            0331 hdisk2            
+0019  0332 hdisk0            0332 hdisk2            
+0020  0333 hdisk0            0333 hdisk2            
+hd2:/usr
+LP    PP1  PV1               PP2  PV2               PP3  PV3
+0001  0294 hdisk0            0294 hdisk2            
+0002  0295 hdisk0            0295 hdisk2            
+0003  0296 hdisk0            0296 hdisk2            
+0004  0297 hdisk0            0297 hdisk2            
+0005  0298 hdisk0            0298 hdisk2            
+0006  0299 hdisk0            0299 hdisk2            
+0007  0300 hdisk0            0300 hdisk2            
+0008  0301 hdisk0            0301 hdisk2            
+0009  0345 hdisk0            0345 hdisk2            
+0010  0346 hdisk0            0346 hdisk2            
+0011  0347 hdisk0            0347 hdisk2            
+hd9var:/var
+LP    PP1  PV1               PP2  PV2               PP3  PV3
+0001  0302 hdisk0            0302 hdisk2            
+0002  0303 hdisk0            0303 hdisk2            
+0003  0343 hdisk0            0343 hdisk2            
+0004  0344 hdisk0            0344 hdisk2            
+hd3:/tmp
+LP    PP1  PV1               PP2  PV2               PP3  PV3
+0001  0304 hdisk0            0304 hdisk2            
+0002  0305 hdisk0            0305 hdisk2            
+0003  0306 hdisk0            0306 hdisk2            
+0004  0307 hdisk0            0307 hdisk2            
+0005  0308 hdisk0            0308 hdisk2            
+0006  0309 hdisk0            0309 hdisk2            
+0007  0310 hdisk0            0310 hdisk2            
+0008  0311 hdisk0            0311 hdisk2            
+0009  0312 hdisk0            0312 hdisk2            
+0010  0313 hdisk0            0313 hdisk2            
+0011  0337 hdisk0            0337 hdisk2            
+0012  0338 hdisk0            0338 hdisk2            
+0013  0339 hdisk0            0339 hdisk2            
+0014  0340 hdisk0            0340 hdisk2            
+0015  0341 hdisk0            0341 hdisk2            
+0016  0342 hdisk0            0342 hdisk2            
+hd11admin:/admin
+LP    PP1  PV1               PP2  PV2               PP3  PV3
+0001  0336 hdisk0            0336 hdisk2            
+hd10opt:/opt
+LP    PP1  PV1               PP2  PV2               PP3  PV3
+0001  0334 hdisk0            0334 hdisk2            
+0002  0335 hdisk0            0335 hdisk2            
+livedump:/var/adm/ras/livedump
+LP    PP1  PV1               PP2  PV2               PP3  PV3
+0001  0147 hdisk0            0147 hdisk2            
+VMLibrary:/var/vio/VMLibrary
+LP    PP1  PV1               PP2  PV2               PP3  PV3
+0001  0001 hdisk1            
+0002  0002 hdisk1            
+0003  0003 hdisk1            
+0004  0004 hdisk1            
+0005  0005 hdisk1            
+0006  0006 hdisk1            
+0007  0007 hdisk1            
+0008  0008 hdisk1            
+0009  0009 hdisk1            
+0010  0010 hdisk1            
+0011  0011 hdisk1            
+0012  0012 hdisk1            
+0013  0013 hdisk1            
+0014  0014 hdisk1            
+0015  0015 hdisk1            
+0016  0016 hdisk1            
+0017  0017 hdisk1            
+0018  0018 hdisk1            
+0019  0019 hdisk1            
+0020  0020 hdisk1            
+0021  0021 hdisk1            
+0022  0022 hdisk1            
+0023  0023 hdisk1            
+0024  0024 hdisk1            
+0025  0025 hdisk1            
+0026  0026 hdisk1            
+0027  0027 hdisk1            
+0028  0028 hdisk1            
+0029  0029 hdisk1            
+0030  0030 hdisk1            
+0031  0031 hdisk1            
+0032  0032 hdisk1            
+0033  0033 hdisk1            
+0034  0034 hdisk1            
+0035  0035 hdisk1            
+0036  0036 hdisk1            
+0037  0037 hdisk1            
+0038  0038 hdisk1            
+0039  0039 hdisk1            
+0040  0040 hdisk1            
+0041  0041 hdisk1            
+0042  0042 hdisk1            
+0043  0043 hdisk1            
+0044  0044 hdisk1            
+0045  0045 hdisk1            
+0046  0046 hdisk1            
+0047  0047 hdisk1            
+0048  0048 hdisk1            
+0049  0049 hdisk1            
+0050  1370 hdisk1            
+0051  1371 hdisk1            
+0052  1372 hdisk1            
+0053  1373 hdisk1            
+0054  1374 hdisk1            
+0055  1375 hdisk1            
+0056  1376 hdisk1            
+0057  1377 hdisk1            
+0058  1378 hdisk1            
+0059  1379 hdisk1            
+0060  1380 hdisk1            
+0061  1381 hdisk1            
+0062  1382 hdisk1            
+0063  1383 hdisk1            
+0064  1384 hdisk1            
+0065  1385 hdisk1            
+0066  1386 hdisk1            
+0067  1387 hdisk1            
+0068  1388 hdisk1            
+0069  1389 hdisk1            
+0070  1390 hdisk1            
+0071  1391 hdisk1            
+0072  1392 hdisk1            
+0073  1393 hdisk1            
+0074  1394 hdisk1            
+0075  1395 hdisk1            
+0076  1396 hdisk1            
+0077  1397 hdisk1            
+0078  1398 hdisk1            
+0079  1399 hdisk1            
+0080  1400 hdisk1            
+0081  1401 hdisk1            
+0082  1402 hdisk1            
+0083  1403 hdisk1            
+0084  1404 hdisk1            
+0085  1405 hdisk1            
+0086  1406 hdisk1            
+0087  1407 hdisk1            
+0088  1408 hdisk1            
+0089  1409 hdisk1            
+0090  1410 hdisk1            
+0091  1411 hdisk1            
+0092  1412 hdisk1            
+0093  1413 hdisk1            
+0094  1414 hdisk1            
+0095  1415 hdisk1            
+0096  1416 hdisk1            
+0097  1417 hdisk1            
+0098  1418 hdisk1            
+0099  1419 hdisk1            
+0100  1420 hdisk1            
+0101  1421 hdisk1            
+0102  1422 hdisk1            
+0103  1423 hdisk1            
+0104  1424 hdisk1            
+0105  1425 hdisk1            
+0106  1426 hdisk1            
+0107  1427 hdisk1            
+0108  1428 hdisk1            
+0109  1429 hdisk1            
+0110  1430 hdisk1            
+0111  1431 hdisk1            
+0112  1432 hdisk1            
+0113  1433 hdisk1            
+0114  1434 hdisk1            
+0115  1435 hdisk1            
+0116  1436 hdisk1            
+0117  1437 hdisk1            
+0118  1438 hdisk1            
+0119  1439 hdisk1            
+0120  1440 hdisk1            
+vioupdatelv:/vioupdate
+LP    PP1  PV1               PP2  PV2               PP3  PV3
+0001  0150 hdisk0            
+0002  0151 hdisk0            
+0003  0152 hdisk0            
+0004  0153 hdisk0            
+0005  0154 hdisk0            
+0006  0155 hdisk0            
+0007  0156 hdisk0            
+0008  0157 hdisk0            
+0009  0158 hdisk0            
+0010  0159 hdisk0            
+perfdatalv:/perfdata
+LP    PP1  PV1               PP2  PV2               PP3  PV3
+0001  0148 hdisk2            
+0002  0149 hdisk2            
+0003  0150 hdisk2            
+0004  0151 hdisk2            
+0005  0152 hdisk2            
+0006  0153 hdisk2            
+0007  0154 hdisk2            
+0008  0155 hdisk2            
+0009  0156 hdisk2            
+0010  0157 hdisk2            
+0011  0158 hdisk2            
+0012  0159 hdisk2            
+0013  0160 hdisk2            
+0014  0161 hdisk2            
+0015  0162 hdisk2            
+0016  0163 hdisk2            
+0017  0164 hdisk2            
+0018  0165 hdisk2            
+0019  0166 hdisk2            
+0020  0167 hdisk2            
+==== EXITED with rc 0 ====
+==== END for i in `lsfs | grep jfs | awk '{print $1}'| awk -F "/" '{print $3}'` ; do lslv -m $i; done  Tue Jul  7 13:13:47 CDT 2015 ====

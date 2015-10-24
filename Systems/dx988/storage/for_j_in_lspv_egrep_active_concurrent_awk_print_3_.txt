@@ -1,0 +1,55 @@
+==== This output can be found in Systems/dx988/storage/for_j_in_lspv_egrep_active_concurrent_awk_print_3_.txt ====
+==== START for j in $(lspv | egrep "active|concurrent" | awk '{print $3}' | sort -u | lsvg -il | egrep -v "LV NAME|:" | awk '{print $1}'); do echo "#### LV $j ####";lslv $j |grep COPIES | awk '{print $1 " " $2}' ; echo ""; done Thu Aug  6 11:19:56 GST 2015 ====
+#### LV caalv_private1 ####
+COPIES: 1
+
+#### LV caalv_private2 ####
+COPIES: 1
+
+#### LV caalv_private3 ####
+COPIES: 1
+
+#### LV powerha_crlv ####
+COPIES: 1
+
+#### LV hd5 ####
+COPIES: 1
+
+#### LV hd6 ####
+COPIES: 1
+
+#### LV hd8 ####
+COPIES: 1
+
+#### LV hd4 ####
+COPIES: 1
+
+#### LV hd2 ####
+COPIES: 1
+
+#### LV hd9var ####
+COPIES: 1
+
+#### LV hd3 ####
+COPIES: 1
+
+#### LV hd1 ####
+COPIES: 1
+
+#### LV hd10opt ####
+COPIES: 1
+
+#### LV hd11admin ####
+COPIES: 1
+
+#### LV lg_dumplv ####
+COPIES: 1
+
+#### LV livedump ####
+COPIES: 1
+
+#### LV perfdatalv ####
+COPIES: 1
+
+==== EXITED with rc 0 ====
+==== END for j in $(lspv | egrep "active|concurrent" | awk '{print $3}' | sort -u | lsvg -il | egrep -v "LV NAME|:" | awk '{print $1}'); do echo "#### LV $j ####";lslv $j |grep COPIES | awk '{print $1 " " $2}' ; echo ""; done Thu Aug  6 11:19:56 GST 2015 ====

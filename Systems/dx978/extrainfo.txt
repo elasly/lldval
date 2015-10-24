@@ -1,0 +1,14 @@
+#
+#	This is the extrainfo.txt file - you need to update it by hand.
+#	Things you put in here are used by the analysis tool to tell it things you'd
+#	like for the tool use in reports.  Anything you put in here will go in the
+#	server table for the report.
+#	Things you might want to put in here include:
+#	RAID=RAID level
+#	Role=Web Server
+#	Site=Mexico
+#	Cluster=SAP Cluster
+#		Cluster is special to the analysis tool
+#		and will be used for doing consistency checking.
+#		If this machine belongs to a cluster you should indicate that in this file.
+Cluster=DX977_cluster

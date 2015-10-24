@@ -1,0 +1,23 @@
+==== This output can be found in Systems/dx988/os/lssrc-ls_cthags.txt ====
+==== START lssrc -ls cthags Thu Aug  6 11:14:02 GST 2015 ====
+Subsystem         Group            PID          Status 
+ cthags           cthags           2621472      active
+4 locally-connected clients.  Their PIDs:
+3997734(IBM.ConfigRMd) 852568(rmcd) 1508032(IBM.StorageRMd) 4194406(clstrmgr) 
+HA Group Services domain information:
+Domain established by node 1
+Number of groups known locally: 6
+                   Number of   Number of local
+Group name         providers   providers/subscribers
+rmc_peers                2           1           0
+IBM.ConfigRM             2           1           0
+IBM.StorageRM.v1         2           1           0
+CLRESMGRD_1515018638       2           1           0
+CLRESMGRDNPD_1515018638       2           1           0
+CLSTRMGR_1515018638       2           1           0
+
+Critical clients will be terminated if unresponsive
+
+Dead Man Switch Enabled
+==== EXITED with rc 0 ====
+==== END lssrc -ls cthags Thu Aug  6 11:14:02 GST 2015 ====

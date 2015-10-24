@@ -1,0 +1,292 @@
+==== This output can be found in Systems/dx1011/storage/lsdev-^C_grep_^fc_awk_print_n_Adapter_1_system_lsa.txt ====
+==== START lsdev -C | grep ^fc | awk '{print "\n#### Adapter: " $1" ####";system("lsattr -El " $1)}' Tue Jul  7 13:42:40 CDT 2015 ====
+
+#### Adapter: fcnet0 ####
+enable_farp yes Use Fiber Channel Address Resolution Protocol      True
+num_q_bufs  75  Maximum Number of HOST buffers to queue to adapter True
+sw_fc_class 3   FC Class for Fabric                                True
+
+#### Adapter: fcnet1 ####
+enable_farp yes Use Fiber Channel Address Resolution Protocol      True
+num_q_bufs  75  Maximum Number of HOST buffers to queue to adapter True
+sw_fc_class 3   FC Class for Fabric                                True
+
+#### Adapter: fcnet2 ####
+enable_farp yes Use Fiber Channel Address Resolution Protocol      True
+num_q_bufs  75  Maximum Number of HOST buffers to queue to adapter True
+sw_fc_class 3   FC Class for Fabric                                True
+
+#### Adapter: fcnet3 ####
+enable_farp yes Use Fiber Channel Address Resolution Protocol      True
+num_q_bufs  75  Maximum Number of HOST buffers to queue to adapter True
+sw_fc_class 3   FC Class for Fabric                                True
+
+#### Adapter: fcnet4 ####
+enable_farp yes Use Fiber Channel Address Resolution Protocol      True
+num_q_bufs  75  Maximum Number of HOST buffers to queue to adapter True
+sw_fc_class 3   FC Class for Fabric                                True
+
+#### Adapter: fcnet5 ####
+enable_farp yes Use Fiber Channel Address Resolution Protocol      True
+num_q_bufs  75  Maximum Number of HOST buffers to queue to adapter True
+sw_fc_class 3   FC Class for Fabric                                True
+
+#### Adapter: fcnet6 ####
+enable_farp yes Use Fiber Channel Address Resolution Protocol      True
+num_q_bufs  75  Maximum Number of HOST buffers to queue to adapter True
+sw_fc_class 3   FC Class for Fabric                                True
+
+#### Adapter: fcnet7 ####
+enable_farp yes Use Fiber Channel Address Resolution Protocol      True
+num_q_bufs  75  Maximum Number of HOST buffers to queue to adapter True
+sw_fc_class 3   FC Class for Fabric                                True
+
+#### Adapter: fcnet8 ####
+enable_farp yes Use Fiber Channel Address Resolution Protocol      True
+num_q_bufs  75  Maximum Number of HOST buffers to queue to adapter True
+sw_fc_class 3   FC Class for Fabric                                True
+
+#### Adapter: fcnet9 ####
+enable_farp yes Use Fiber Channel Address Resolution Protocol      True
+num_q_bufs  75  Maximum Number of HOST buffers to queue to adapter True
+sw_fc_class 3   FC Class for Fabric                                True
+
+#### Adapter: fcnet10 ####
+enable_farp yes Use Fiber Channel Address Resolution Protocol      True
+num_q_bufs  75  Maximum Number of HOST buffers to queue to adapter True
+sw_fc_class 3   FC Class for Fabric                                True
+
+#### Adapter: fcnet11 ####
+enable_farp yes Use Fiber Channel Address Resolution Protocol      True
+num_q_bufs  75  Maximum Number of HOST buffers to queue to adapter True
+sw_fc_class 3   FC Class for Fabric                                True
+
+#### Adapter: fcs0 ####
+DIF_enabled   no         DIF (T10 protection) enabled                       True
+bus_mem_addr  0xffbf0000 Bus memory address                                 False
+init_link     auto       INIT Link flags                                    False
+intr_msi_1    258564     Bus interrupt level                                False
+intr_priority 3          Interrupt priority                                 False
+io_dma        64         IO_DMA                                             True
+lg_term_dma   0x800000   Long term DMA                                      True
+max_xfer_size 0x200000   Maximum Transfer Size                              True
+msi_type      msix       MSI Interrupt type                                 False
+num_cmd_elems 2048       Maximum number of COMMANDS to queue to the adapter True
+
+#### Adapter: fcs1 ####
+DIF_enabled   no         DIF (T10 protection) enabled                       True
+bus_mem_addr  0xffbf8000 Bus memory address                                 False
+init_link     auto       INIT Link flags                                    False
+intr_msi_1    258565     Bus interrupt level                                False
+intr_priority 3          Interrupt priority                                 False
+io_dma        64         IO_DMA                                             True
+lg_term_dma   0x800000   Long term DMA                                      True
+max_xfer_size 0x200000   Maximum Transfer Size                              True
+msi_type      msix       MSI Interrupt type                                 False
+num_cmd_elems 2048       Maximum number of COMMANDS to queue to the adapter True
+
+#### Adapter: fcs2 ####
+DIF_enabled   no         DIF (T10 protection) enabled                       True
+bus_mem_addr  0xffbf0000 Bus memory address                                 False
+init_link     auto       INIT Link flags                                    False
+intr_msi_1    153092     Bus interrupt level                                False
+intr_priority 3          Interrupt priority                                 False
+io_dma        64         IO_DMA                                             True
+lg_term_dma   0x800000   Long term DMA                                      True
+max_xfer_size 0x200000   Maximum Transfer Size                              True
+msi_type      msix       MSI Interrupt type                                 False
+num_cmd_elems 2048       Maximum number of COMMANDS to queue to the adapter True
+
+#### Adapter: fcs3 ####
+DIF_enabled   no         DIF (T10 protection) enabled                       True
+bus_mem_addr  0xffbf8000 Bus memory address                                 False
+init_link     auto       INIT Link flags                                    False
+intr_msi_1    153093     Bus interrupt level                                False
+intr_priority 3          Interrupt priority                                 False
+io_dma        64         IO_DMA                                             True
+lg_term_dma   0x800000   Long term DMA                                      True
+max_xfer_size 0x200000   Maximum Transfer Size                              True
+msi_type      msix       MSI Interrupt type                                 False
+num_cmd_elems 2048       Maximum number of COMMANDS to queue to the adapter True
+
+#### Adapter: fcs4 ####
+DIF_enabled   no         DIF (T10 protection) enabled                       True
+bus_intr_lvl             Bus interrupt level                                False
+bus_mem_addr  0xffc3b000 Bus memory address                                 False
+bus_mem_addr2 0xffc3c000 Bus memory address                                 False
+init_link     auto       INIT Link flags                                    False
+intr_msi_1    259584     Bus interrupt level                                False
+intr_priority 3          Interrupt priority                                 False
+lg_term_dma   0x800000   Long term DMA                                      True
+max_xfer_size 0x200000   Maximum Transfer Size                              True
+num_cmd_elems 2048       Maximum number of COMMANDS to queue to the adapter True
+pref_alpa     0x1        Preferred AL_PA                                    True
+sw_fc_class   2          FC Class for Fabric                                True
+tme           no         Target Mode Enabled                                True
+
+#### Adapter: fcs5 ####
+DIF_enabled   no         DIF (T10 protection) enabled                       True
+bus_intr_lvl             Bus interrupt level                                False
+bus_mem_addr  0xffcbb000 Bus memory address                                 False
+bus_mem_addr2 0xffcbc000 Bus memory address                                 False
+init_link     auto       INIT Link flags                                    False
+intr_msi_1    259585     Bus interrupt level                                False
+intr_priority 3          Interrupt priority                                 False
+lg_term_dma   0x800000   Long term DMA                                      True
+max_xfer_size 0x200000   Maximum Transfer Size                              True
+num_cmd_elems 2048       Maximum number of COMMANDS to queue to the adapter True
+pref_alpa     0x1        Preferred AL_PA                                    True
+sw_fc_class   2          FC Class for Fabric                                True
+tme           no         Target Mode Enabled                                True
+
+#### Adapter: fcs6 ####
+DIF_enabled   no         DIF (T10 protection) enabled                       True
+bus_intr_lvl             Bus interrupt level                                False
+bus_mem_addr  0xffd76000 Bus memory address                                 False
+bus_mem_addr2 0xffd78000 Bus memory address                                 False
+init_link     auto       INIT Link flags                                    False
+intr_msi_1    259586     Bus interrupt level                                False
+intr_priority 3          Interrupt priority                                 False
+lg_term_dma   0x800000   Long term DMA                                      True
+max_xfer_size 0x200000   Maximum Transfer Size                              True
+num_cmd_elems 2048       Maximum number of COMMANDS to queue to the adapter True
+pref_alpa     0x1        Preferred AL_PA                                    True
+sw_fc_class   2          FC Class for Fabric                                True
+tme           no         Target Mode Enabled                                True
+
+#### Adapter: fcs7 ####
+DIF_enabled   no         DIF (T10 protection) enabled                       True
+bus_intr_lvl             Bus interrupt level                                False
+bus_mem_addr  0xffd77000 Bus memory address                                 False
+bus_mem_addr2 0xffd7c000 Bus memory address                                 False
+init_link     auto       INIT Link flags                                    False
+intr_msi_1    259587     Bus interrupt level                                False
+intr_priority 3          Interrupt priority                                 False
+lg_term_dma   0x800000   Long term DMA                                      True
+max_xfer_size 0x200000   Maximum Transfer Size                              True
+num_cmd_elems 2048       Maximum number of COMMANDS to queue to the adapter True
+pref_alpa     0x1        Preferred AL_PA                                    True
+sw_fc_class   2          FC Class for Fabric                                True
+tme           no         Target Mode Enabled                                True
+
+#### Adapter: fcs8 ####
+DIF_enabled   no         DIF (T10 protection) enabled                       True
+bus_intr_lvl             Bus interrupt level                                False
+bus_mem_addr  0xffc3b000 Bus memory address                                 False
+bus_mem_addr2 0xffc3c000 Bus memory address                                 False
+init_link     auto       INIT Link flags                                    False
+intr_msi_1    154112     Bus interrupt level                                False
+intr_priority 3          Interrupt priority                                 False
+lg_term_dma   0x800000   Long term DMA                                      True
+max_xfer_size 0x200000   Maximum Transfer Size                              True
+num_cmd_elems 2048       Maximum number of COMMANDS to queue to the adapter True
+pref_alpa     0x1        Preferred AL_PA                                    True
+sw_fc_class   2          FC Class for Fabric                                True
+tme           no         Target Mode Enabled                                True
+
+#### Adapter: fcs9 ####
+DIF_enabled   no         DIF (T10 protection) enabled                       True
+bus_intr_lvl             Bus interrupt level                                False
+bus_mem_addr  0xffcbb000 Bus memory address                                 False
+bus_mem_addr2 0xffcbc000 Bus memory address                                 False
+init_link     auto       INIT Link flags                                    False
+intr_msi_1    154113     Bus interrupt level                                False
+intr_priority 3          Interrupt priority                                 False
+lg_term_dma   0x800000   Long term DMA                                      True
+max_xfer_size 0x200000   Maximum Transfer Size                              True
+num_cmd_elems 2048       Maximum number of COMMANDS to queue to the adapter True
+pref_alpa     0x1        Preferred AL_PA                                    True
+sw_fc_class   2          FC Class for Fabric                                True
+tme           no         Target Mode Enabled                                True
+
+#### Adapter: fcs10 ####
+DIF_enabled   no         DIF (T10 protection) enabled                       True
+bus_intr_lvl             Bus interrupt level                                False
+bus_mem_addr  0xffd76000 Bus memory address                                 False
+bus_mem_addr2 0xffd78000 Bus memory address                                 False
+init_link     auto       INIT Link flags                                    False
+intr_msi_1    154114     Bus interrupt level                                False
+intr_priority 3          Interrupt priority                                 False
+lg_term_dma   0x800000   Long term DMA                                      True
+max_xfer_size 0x200000   Maximum Transfer Size                              True
+num_cmd_elems 2048       Maximum number of COMMANDS to queue to the adapter True
+pref_alpa     0x1        Preferred AL_PA                                    True
+sw_fc_class   2          FC Class for Fabric                                True
+tme           no         Target Mode Enabled                                True
+
+#### Adapter: fcs11 ####
+DIF_enabled   no         DIF (T10 protection) enabled                       True
+bus_intr_lvl             Bus interrupt level                                False
+bus_mem_addr  0xffd77000 Bus memory address                                 False
+bus_mem_addr2 0xffd7c000 Bus memory address                                 False
+init_link     auto       INIT Link flags                                    False
+intr_msi_1    154115     Bus interrupt level                                False
+intr_priority 3          Interrupt priority                                 False
+lg_term_dma   0x800000   Long term DMA                                      True
+max_xfer_size 0x200000   Maximum Transfer Size                              True
+num_cmd_elems 2048       Maximum number of COMMANDS to queue to the adapter True
+pref_alpa     0x1        Preferred AL_PA                                    True
+sw_fc_class   2          FC Class for Fabric                                True
+tme           no         Target Mode Enabled                                True
+
+#### Adapter: fcs12 ####
+DIF_enabled   no         DIF (T10 protection) enabled                       True
+bus_intr_lvl             Bus interrupt level                                False
+bus_mem_addr  0xffc3b000 Bus memory address                                 False
+bus_mem_addr2 0xffc3c000 Bus memory address                                 False
+init_link     auto       INIT Link flags                                    False
+intr_msi_1    260608     Bus interrupt level                                False
+intr_priority 3          Interrupt priority                                 False
+lg_term_dma   0x800000   Long term DMA                                      True
+max_xfer_size 0x200000   Maximum Transfer Size                              True
+num_cmd_elems 2048       Maximum number of COMMANDS to queue to the adapter True
+pref_alpa     0x1        Preferred AL_PA                                    True
+sw_fc_class   2          FC Class for Fabric                                True
+tme           no         Target Mode Enabled                                True
+
+#### Adapter: fcs13 ####
+DIF_enabled   no         DIF (T10 protection) enabled                       True
+bus_intr_lvl             Bus interrupt level                                False
+bus_mem_addr  0xffcbb000 Bus memory address                                 False
+bus_mem_addr2 0xffcbc000 Bus memory address                                 False
+init_link     auto       INIT Link flags                                    False
+intr_msi_1    260609     Bus interrupt level                                False
+intr_priority 3          Interrupt priority                                 False
+lg_term_dma   0x800000   Long term DMA                                      True
+max_xfer_size 0x200000   Maximum Transfer Size                              True
+num_cmd_elems 2048       Maximum number of COMMANDS to queue to the adapter True
+pref_alpa     0x1        Preferred AL_PA                                    True
+sw_fc_class   2          FC Class for Fabric                                True
+tme           no         Target Mode Enabled                                True
+
+#### Adapter: fcs14 ####
+DIF_enabled   no         DIF (T10 protection) enabled                       True
+bus_intr_lvl             Bus interrupt level                                False
+bus_mem_addr  0xffd76000 Bus memory address                                 False
+bus_mem_addr2 0xffd78000 Bus memory address                                 False
+init_link     auto       INIT Link flags                                    False
+intr_msi_1    260610     Bus interrupt level                                False
+intr_priority 3          Interrupt priority                                 False
+lg_term_dma   0x800000   Long term DMA                                      True
+max_xfer_size 0x200000   Maximum Transfer Size                              True
+num_cmd_elems 2048       Maximum number of COMMANDS to queue to the adapter True
+pref_alpa     0x1        Preferred AL_PA                                    True
+sw_fc_class   2          FC Class for Fabric                                True
+tme           no         Target Mode Enabled                                True
+
+#### Adapter: fcs15 ####
+DIF_enabled   no         DIF (T10 protection) enabled                       True
+bus_intr_lvl             Bus interrupt level                                False
+bus_mem_addr  0xffd77000 Bus memory address                                 False
+bus_mem_addr2 0xffd7c000 Bus memory address                                 False
+init_link     auto       INIT Link flags                                    False
+intr_msi_1    260611     Bus interrupt level                                False
+intr_priority 3          Interrupt priority                                 False
+lg_term_dma   0x800000   Long term DMA                                      True
+max_xfer_size 0x200000   Maximum Transfer Size                              True
+num_cmd_elems 2048       Maximum number of COMMANDS to queue to the adapter True
+pref_alpa     0x1        Preferred AL_PA                                    True
+sw_fc_class   2          FC Class for Fabric                                True
+tme           no         Target Mode Enabled                                True
+==== EXITED with rc 0 ====
+==== END lsdev -C | grep ^fc | awk '{print "\n#### Adapter: " $1" ####";system("lsattr -El " $1)}' Tue Jul  7 13:42:40 CDT 2015 ====

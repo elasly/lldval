@@ -1,0 +1,14 @@
+==== This output can be found in Systems/dx978/perf/lparstat-h_5_5.txt ====
+==== START lparstat -h 5 5  Mon Jul  6 23:32:54 GST 2015 ====
+
+System configuration: type=Shared mode=Uncapped smt=4 lcpu=48 mem=233472MB psize=36 ent=6.00 
+
+%user  %sys  %wait  %idle physc %entc  lbusy   app  vcsw phint  %hypv hcalls
+----- ----- ------ ------ ----- ----- ------   --- ----- ----- ------ ------
+  7.0   5.2    0.0   87.8  1.16  19.3    5.6 24.91  1880    56    7.9  51093 
+  6.7   4.7    0.0   88.5  1.08  17.9    8.3 25.21   661    55    7.7  42581 
+  6.8   4.8    0.0   88.3  1.10  18.3    5.7 25.15   640    44    7.5  47377 
+  6.7   4.8    0.0   88.5  1.07  17.9    8.4 24.94   650    54    7.3  34378 
+ 12.1   7.0    0.0   80.9  1.78  29.7    7.0 24.46  2058    91   14.9  86907 
+==== EXITED with rc 0 ====
+==== END lparstat -h 5 5  Mon Jul  6 23:33:19 GST 2015 ====

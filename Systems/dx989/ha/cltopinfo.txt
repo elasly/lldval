@@ -1,0 +1,33 @@
+==== This output can be found in Systems/dx989/ha/cltopinfo.txt ====
+==== START cltopinfo Thu Aug  6 11:28:18 GST 2015 ====
+Cluster Name:	 DX988_cluster
+Cluster Type:	 Standard
+Heartbeat Type:	 Unicast
+Repository Disk: hdisk1 (00f92eec01bc8623)
+
+There are 2 node(s) and 3 network(s) defined
+NODE DX988:
+	Network net_ether_01
+		DX988-VIP	10.51.226.236
+		DX988	10.51.226.234
+	Network net_ether_02
+		DX988_b	10.51.227.87
+	Network net_ether_03
+		DX988_sc0	10.51.229.234
+NODE DX989:
+	Network net_ether_01
+		DX988-VIP	10.51.226.236
+		DX989	10.51.226.235
+	Network net_ether_02
+		DX989_b	10.51.227.88
+	Network net_ether_03
+		DX989_sc0	10.51.229.235
+
+Resource Group DX988_RSG
+	Startup Policy	 Online On Home Node Only
+	Fallover Policy	 Fallover To Next Priority Node In The List
+	Fallback Policy	 Never Fallback
+	Participating Nodes	 DX988 DX989
+	Service IP Label		 DX988-VIP
+==== EXITED with rc 0 ====
+==== END cltopinfo Thu Aug  6 11:28:18 GST 2015 ====

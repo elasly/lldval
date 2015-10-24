@@ -1,0 +1,17 @@
+==== This output can be found in Systems/dx980/hmc/lsrsrc-l_IBM_MCP.txt ====
+==== START lsrsrc -l "IBM.MCP" Mon Jul  6 23:23:37 GST 2015 ====
+Resource Persistent Attributes for IBM.MCP
+resource 1:
+	MNName            = "10.51.229.223"
+	NodeID            = 8421958910391188606
+	KeyToken          = "ETISALAT-HMC"
+	IPAddresses       = {"10.51.229.182"}
+	ConnectivityNames = {"10.51.229.223"}
+	HMCName           = "7042CR7*21D858C"
+	HMCIPAddr         = "192.168.101.101"
+	HMCAddIPs         = "10.51.229.182,172.16.0.1"
+	HMCAddIPv6s       = ""
+	ActivePeerDomain  = "DX979_cluster"
+	NodeNameList      = {"DX980"}
+==== EXITED with rc 0 ====
+==== END lsrsrc -l "IBM.MCP" Mon Jul  6 23:23:37 GST 2015 ====

@@ -1,0 +1,36 @@
+==== This output can be found in Systems/dx979/storage/df-m.txt ====
+==== START df -m Tue Jul  7 00:28:58 GST 2015 ====
+Filesystem    MB blocks      Free %Used    Iused %Iused Mounted on
+/dev/hd4       10240.00  10031.98    3%    12524     1% /
+/dev/hd2       15360.00   8561.80   45%    94893     5% /usr
+/dev/hd9var    20480.00  19421.29    6%     8197     1% /var
+/dev/hd3       15360.00   7735.27   50%     3145     1% /tmp
+/dev/hd1       10240.00  10179.04    1%      590     1% /home
+/dev/hd11admin   2048.00   2047.35    1%        5     1% /admin
+/proc                 -         -    -         -     -  /proc
+/dev/hd10opt   25600.00  25403.36    1%     8678     1% /opt
+/dev/livedump    512.00    511.60    1%        4     1% /var/adm/ras/livedump
+/dev/perfdatalv   5120.00    328.12   94%     3050     4% /perfdata
+/aha                  -         -    -       106     1% /aha
+10.51.227.242:/data/col1/dd_GPRS_Bkp 265333162.50 14304505.50   95%    23087     1% /dd_GPRS_Bkp
+/dev/R1_arch1lv 1570816.00 949475.20   40%      393     1% /gprs_arclog1
+/dev/R1_arch2lv 1570816.00 949475.22   40%      393     1% /gprs_arclog2
+/dev/R5_baselv 102400.00  92876.63   10%    61040     1% /gprs_base
+/dev/bctlv      9728.00   9555.09    2%        7     1% /gprs_bct
+/dev/R6_bkplv 9426944.00 8421949.34   11%      497     1% /gprs_bkp
+/dev/R1_ctrl1lv  10170.00  10081.32    1%        7     1% /gprs_ctrl1
+/dev/R1_ctrl2lv  10170.00  10081.32    1%        7     1% /gprs_ctrl2
+/dev/R1_ctrl3lv  10170.00  10081.32    1%        7     1% /gprs_ctrl3
+/dev/R1_data1lv 8387552.00 5611619.00   34%      103     1% /gprs_data1
+/dev/R5_explv 1047040.00 580529.71   45%      242     1% /gprs_exp
+/dev/R1_flashlv  50976.00  50767.93    1%        4     1% /gprs_flash
+/dev/R5_gglv  204608.00 201560.62    2%     4567     1% /gprs_gg
+/dev/R1_indx1lv 3145312.00 2156411.78   32%       57     1% /gprs_index1
+/dev/R1_redo1lv  15360.00   7088.94   54%       10     1% /gprs_redo1
+/dev/R1_redo2lv  15360.00   7088.95   54%       10     1% /gprs_redo2
+/dev/R5_stagelv  51200.00  50991.89    1%        4     1% /gprs_stage
+/dev/R5_syslv  51200.00  50977.78    1%      176     1% /gprs_sys
+/dev/R1_templv 512000.00 484962.43    6%       25     1% /gprs_temp
+/dev/R5_undolv 204640.00  32895.24   84%       12     1% /gprs_undo
+==== EXITED with rc 0 ====
+==== END df -m Tue Jul  7 00:28:58 GST 2015 ====

@@ -1,0 +1,46 @@
+==== This output can be found in Systems/dx987/ha/odmget_HACMPdaemons.txt ====
+==== START odmget HACMPdaemons Tue Jul  7 00:00:50 GST 2015 ====
+
+HACMPdaemons:
+	nodename = "DX987"
+	daemon = "clstrmgr"
+	type = "start"
+	object = "manage"
+	value = "auto"
+
+HACMPdaemons:
+	nodename = "DX987"
+	daemon = "clstrmgr"
+	type = "start"
+	object = "broadcast"
+	value = "false"
+
+HACMPdaemons:
+	nodename = "DX987"
+	daemon = "clinfo"
+	type = "start"
+	object = "time"
+	value = "false"
+
+HACMPdaemons:
+	nodename = "DX987"
+	daemon = "clstrmgrES"
+	type = "stop"
+	object = "time"
+	value = "now"
+
+HACMPdaemons:
+	nodename = "DX987"
+	daemon = "clstrmgrES"
+	type = "stop"
+	object = "broadcast"
+	value = "true"
+
+HACMPdaemons:
+	nodename = "DX987"
+	daemon = "clstrmgrES"
+	type = "stop"
+	object = "mode"
+	value = "graceful"
+==== EXITED with rc 0 ====
+==== END odmget HACMPdaemons Tue Jul  7 00:00:50 GST 2015 ====

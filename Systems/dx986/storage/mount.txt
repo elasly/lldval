@@ -1,0 +1,36 @@
+==== This output can be found in Systems/dx986/storage/mount.txt ====
+==== START mount Tue Jul  7 00:44:16 GST 2015 ====
+  node       mounted        mounted over    vfs       date        options      
+-------- ---------------  ---------------  ------ ------------ --------------- 
+         /dev/hd4         /                jfs2   May 07 20:06 rw,log=/dev/hd8 
+         /dev/hd2         /usr             jfs2   May 07 20:06 rw,log=/dev/hd8 
+         /dev/hd9var      /var             jfs2   May 07 20:06 rw,log=/dev/hd8 
+         /dev/hd3         /tmp             jfs2   May 07 20:06 rw,log=/dev/hd8 
+         /dev/hd1         /home            jfs2   May 07 20:10 rw,log=/dev/hd8 
+         /dev/hd11admin   /admin           jfs2   May 07 20:10 rw,log=/dev/hd8 
+         /proc            /proc            procfs May 07 20:10 rw              
+         /dev/hd10opt     /opt             jfs2   May 07 20:10 rw,log=/dev/hd8 
+         /dev/livedump    /var/adm/ras/livedump jfs2   May 07 20:10 rw,log=/dev/hd8 
+         /dev/perfdatalv  /perfdata        jfs2   May 07 20:10 rw,log=/dev/hd8 
+         /aha             /aha             ahafs  May 07 20:11 rw              
+         /dev/R1_arch1lv  /nessdb_arclog1  jfs2   May 07 20:23 rw,rbw,rbr,noatime,log=INLINE
+         /dev/R1_arch2lv  /nessdb_arclog2  jfs2   May 07 20:23 rw,rbw,rbr,noatime,log=INLINE
+         /dev/R5_baselv   /nessdb_base     jfs2   May 07 20:23 rw,noatime,log=INLINE
+         /dev/R6_bkplv    /nessdb_bkp      jfs2   May 07 20:23 rw,rbw,rbr,noatime,log=INLINE
+         /dev/R6_bkp1lv   /nessdb_bkp1     jfs2   May 07 20:23 rw,rbw,rbr,noatime,log=INLINE
+         /dev/R1_ctrl1lv  /nessdb_ctrl1    jfs2   May 07 20:23 rw,noatime,log=INLINE
+         /dev/R1_ctrl2lv  /nessdb_ctrl2    jfs2   May 07 20:23 rw,noatime,log=INLINE
+         /dev/R1_ctrl3lv  /nessdb_ctrl3    jfs2   May 07 20:23 rw,noatime,log=INLINE
+         /dev/R1_data1lv  /nessdb_data1    jfs2   May 07 20:23 rw,noatime,log=INLINE
+         /dev/R1_flashlv  /nessdb_flash    jfs2   May 07 20:23 rw,noatime,log=INLINE
+         /dev/R1_indx1lv  /nessdb_index1   jfs2   May 07 20:23 rw,noatime,log=INLINE
+         /dev/R1_redo1lv  /nessdb_redo1    jfs2   May 07 20:23 rw,noatime,log=INLINE
+         /dev/R1_redo2lv  /nessdb_redo2    jfs2   May 07 20:23 rw,noatime,log=INLINE
+         /dev/R5_stagelv  /nessdb_stage    jfs2   May 07 20:23 rw,noatime,log=INLINE
+         /dev/R5_syslv    /nessdb_sys      jfs2   May 07 20:23 rw,noatime,log=INLINE
+         /dev/R1_templv   /nessdb_temp     jfs2   May 07 20:23 rw,noatime,log=INLINE
+         /dev/R5_undolv   /nessdb_undo     jfs2   May 07 20:23 rw,noatime,log=INLINE
+10.51.227.238 /data/col1/NESS_Bkp /nessbkp_nfs     nfs3   May 17 13:37 rw,intr,hard,rsize=65536,wsize=65536,proto=tcp,combehind,timeo=1200,numclust=128,bg,llock,noacl
+         /dev/bctlv       /nessdb_bct      jfs2   Jun 15 10:49 rw,log=/dev/loglv01
+==== EXITED with rc 0 ====
+==== END mount Tue Jul  7 00:44:16 GST 2015 ====
