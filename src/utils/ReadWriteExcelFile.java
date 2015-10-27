@@ -10,12 +10,16 @@ package utils;
  *
  * @author amrmostafa
  */
+import com.mysql.jdbc.StringUtils;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Iterator;
+import java.util.List;
+import java.util.stream.IntStream;
 
 import org.apache.poi.hssf.usermodel.HSSFCell;
 import org.apache.poi.hssf.usermodel.HSSFRow;
@@ -28,6 +32,7 @@ import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openxmlformats.schemas.spreadsheetml.x2006.main.CTSheetDimension;
+import static utils.CharToInt.CharToInt;
 
 public class ReadWriteExcelFile {
 
@@ -114,7 +119,11 @@ public class ReadWriteExcelFile {
                 CTSheetDimension dimension = sheet.getCTWorksheet().getDimension();
                 String sheetDimensions = dimension.getRef();
                 System.out.println(sheetDimensions);
-                
+                List<String> dimensions = StringUtils.split(sheetDimensions, ":", true);
+                String[] Dimensions = dimensions.get(1).toString().split("(?<=\\D)(?=\\d)");
+                int Colums = CharToInt(Dimensions[0]);
+                int Rows = Integer.parseInt(Dimensions[1]);
+                System.out.println();
 		Iterator rows = sheet.rowIterator();
 //                ArrayList[][] TableName = new ArrayList[10][10];
 		while (rows.hasNext())
