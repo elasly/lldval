@@ -14,6 +14,7 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.ArrayList;
 import java.util.Iterator;
 
 import org.apache.poi.hssf.usermodel.HSSFCell;
@@ -26,6 +27,7 @@ import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.openxmlformats.schemas.spreadsheetml.x2006.main.CTSheetDimension;
 
 public class ReadWriteExcelFile {
 
@@ -98,19 +100,23 @@ public class ReadWriteExcelFile {
 		fileOut.close();
 	}
 	
-	public static void readXLSXFile(String aFile) throws IOException
+	public static void readXLSXFile(String aFile,int SheetNo) throws IOException
 	{
+            
 		InputStream ExcelFileToRead = new FileInputStream(aFile);
 		XSSFWorkbook  wb = new XSSFWorkbook(ExcelFileToRead);
 		
 		XSSFWorkbook test = new XSSFWorkbook(); 
 		
-		XSSFSheet sheet = wb.getSheetAt(0);
+		XSSFSheet sheet = wb.getSheetAt(SheetNo);
 		XSSFRow row; 
 		XSSFCell cell;
-
+                CTSheetDimension dimension = sheet.getCTWorksheet().getDimension();
+                String sheetDimensions = dimension.getRef();
+                System.out.println(sheetDimensions);
+                
 		Iterator rows = sheet.rowIterator();
-
+//                ArrayList[][] TableName = new ArrayList[10][10];
 		while (rows.hasNext())
 		{
 			row=(XSSFRow) rows.next();
@@ -170,11 +176,11 @@ public class ReadWriteExcelFile {
 
 	public static void main(String[] args) throws IOException {
 		
-		writeXLSFile("./test.xls","testSheet");
-		readXLSFile("test.xls");
-		
-		writeXLSXFile("test.xlsx","testSheet");
-		readXLSXFile("test.xlsx");
+//		writeXLSFile("./test.xls","testSheet");
+//		readXLSFile("test.xls");
+//		
+//		writeXLSXFile("test.xlsx","testSheet");
+		readXLSXFile("./LLD.xlsx",1);
 
 	}
 
