@@ -125,31 +125,62 @@ public class ReadWriteExcelFile {
                 int Rows = Integer.parseInt(Dimensions[1]);
                 System.out.println();
 		Iterator rows = sheet.rowIterator();
-//                ArrayList[][] TableName = new ArrayList[10][10];
+                ArrayList[][] TableName = new ArrayList[Rows][Colums];
+                System.out.println(TableName.length);
+                int currentRow=0;
 		while (rows.hasNext())
 		{
+                    
 			row=(XSSFRow) rows.next();
 			Iterator cells = row.cellIterator();
-			while (cells.hasNext())
+                        int currentCell=0;
+//			System.out.println("currentRow="+currentRow+" And Current Colum is ="+currentCell);
+                        while (cells.hasNext())
 			{
 				cell=(XSSFCell) cells.next();
 		
-				if (cell.getCellType() == XSSFCell.CELL_TYPE_STRING)
-				{
-					System.out.print(cell.getStringCellValue()+" ");
+				if (cell.getCellType() == XSSFCell.CELL_TYPE_STRING){
+                                    System.out.println("current Row="+cell.getRowIndex()+" And Current Colum is ="+cell.getColumnIndex());
+                                    System.out.println(cell.getRichStringCellValue());
+                                    TableName[cell.getRowIndex()][cell.getColumnIndex()].set(Rows, sheet));
+                                    TableName[1][1].add(cell.getRichStringCellValue().toString());
+                                    
+//                                    System.out.println("Cell Type is :"+cell.getCellType());
+//                                    System.out.println("Cell Value is : "+cell.getRichStringCellValue());
+                                    }
+                                    else if(cell.getCellType() == XSSFCell.CELL_TYPE_NUMERIC) {
+                                    TableName[cell.getRowIndex()][cell.getColumnIndex()].add(cell.getNumericCellValue());                                    
+//                                    System.out.println("Cell Type is :"+cell.getCellType());
+//                                    System.out.println("current Row="+cell.getRowIndex()+" And Current Colum is ="+cell.getColumnIndex());
+//                                    int numericValue = (int) cell.getNumericCellValue();
+//                                    System.out.println("Cell Value is : "+numericValue);
+                                    
+                                    }else if(cell.getStringCellValue().isEmpty()){
+                                    TableName[cell.getRowIndex()][cell.getColumnIndex()].add(" - ");                                                                            
+//					System.out.print(cell.getStringCellValue()+" ");
+//                                        TableName[currentRow][currentCell].add(" ");
+//				System.out.println("Cell Value is : "+cell.toString());
+//                                System.out.println("Empty cell currentRow="+currentRow+" And Current Colum is ="+currentCell);
+                                        
 				}
-				else if(cell.getCellType() == XSSFCell.CELL_TYPE_NUMERIC)
-				{
-					System.out.print(cell.getNumericCellValue()+" ");
-				}
-				else
-				{
-					//U Can Handel Boolean, Formula, Errors
-				}
+
+//                                        TableName[currentRow][currentCell].add(cell.toString());
+				
+//				else
+//				{
+//					//U Can Handel Boolean, Formula, Errors
+//				}
+                                currentCell++;
 			}
 			System.out.println();
+                        currentRow++;
 		}
-	
+for (int i=0;TableName.length>i;i++){
+    for (int j=0;TableName[i].length>j;j++){
+System.out.println(TableName[i][j].toString());    
+    }
+
+}	
 	}
 	
 	public static void writeXLSXFile(String aFile,String aSheet) throws IOException {
@@ -189,7 +220,7 @@ public class ReadWriteExcelFile {
 //		readXLSFile("test.xls");
 //		
 //		writeXLSXFile("test.xlsx","testSheet");
-		readXLSXFile("./LLD.xlsx",1);
+		readXLSXFile("./LLD.xlsx",2);
 
 	}
 
