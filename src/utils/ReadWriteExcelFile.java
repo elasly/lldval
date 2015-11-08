@@ -138,13 +138,18 @@ public class ReadWriteExcelFile {
                         while (cells.hasNext())
 			{
 				cell=(XSSFCell) cells.next();
-		
-				if (cell.getCellType() == XSSFCell.CELL_TYPE_STRING){
+                                
+                                if(cell.getStringCellValue().isEmpty()){
+                                    TableName[cell.getRowIndex()][cell.getColumnIndex()].add(" - ");                                                                            
+//					System.out.print(cell.getStringCellValue()+" ");
+//                                        TableName[currentRow][currentCell].add(" ");
+//				System.out.println("Cell Value is : "+cell.toString());
+//                                System.out.println("Empty cell currentRow="+currentRow+" And Current Colum is ="+currentCell);
+                                        
+				} else if (cell.getCellType() == XSSFCell.CELL_TYPE_STRING){
                                     System.out.println("current Row="+cell.getRowIndex()+" And Current Colum is ="+cell.getColumnIndex());
                                     System.out.println(cell.getRichStringCellValue());
-                                    TableName[cell.getRowIndex()][cell.getColumnIndex()].set(Rows, sheet));
-                                    TableName[1][1].add(cell.getRichStringCellValue().toString());
-                                    
+                                    TableName[cell.getRowIndex()][cell.getColumnIndex()].add(cell.getRichStringCellValue().toString());
 //                                    System.out.println("Cell Type is :"+cell.getCellType());
 //                                    System.out.println("Cell Value is : "+cell.getRichStringCellValue());
                                     }
@@ -155,17 +160,7 @@ public class ReadWriteExcelFile {
 //                                    int numericValue = (int) cell.getNumericCellValue();
 //                                    System.out.println("Cell Value is : "+numericValue);
                                     
-                                    }else if(cell.getStringCellValue().isEmpty()){
-                                    TableName[cell.getRowIndex()][cell.getColumnIndex()].add(" - ");                                                                            
-//					System.out.print(cell.getStringCellValue()+" ");
-//                                        TableName[currentRow][currentCell].add(" ");
-//				System.out.println("Cell Value is : "+cell.toString());
-//                                System.out.println("Empty cell currentRow="+currentRow+" And Current Colum is ="+currentCell);
-                                        
-				}
-
-//                                        TableName[currentRow][currentCell].add(cell.toString());
-				
+                                    }
 //				else
 //				{
 //					//U Can Handel Boolean, Formula, Errors
