@@ -104,7 +104,7 @@ public class sqlinsert {
                  break;
              case 8:
                        for (int i =0; Values.size()> i ;i++){
-                  List list = (List) Values.get(i+1);
+                  List list = (List) Values.get(i);
             String taget = list.get(0).toString();
             String tunable = list.get(1).toString();
             String appliedonvio = list.get(2).toString();

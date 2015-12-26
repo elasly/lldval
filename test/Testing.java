@@ -2,7 +2,7 @@
 import java.util.List;
 import static utils.ReadLLDSheet.ReadLLDSheet;
 import static utils.sqlinsert.sqlinsert;
-
+import static utils.CreateDB.createdb;
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -16,8 +16,9 @@ import static utils.sqlinsert.sqlinsert;
 public class Testing {
     public static void main(String[] args) throws Exception{
     List Sheet = ReadLLDSheet("./LLD.xlsx",8);
-sqlinsert("testdb",Sheet,8);
-        showListData(Sheet);
+    createdb("testdb");
+//sqlinsert("testdb",Sheet,8);
+//        showListData(Sheet);
 
     }
 private static void showListData(List sheetData) {

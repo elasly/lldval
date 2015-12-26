@@ -14,8 +14,8 @@ import java.io.IOException;
  *  
  */  
 public class ReadCsv {  
- public void readCsv() {  
-  String csvFileToRead = "./tunables.csv";  
+ public void readCsv(String CSVFile) {  
+  String csvFileToRead = CSVFile;  
   BufferedReader br = null;  
   String line = "";  
   String splitBy = ",";  

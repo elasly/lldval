@@ -16,7 +16,6 @@ import objects.pcatFolders;
 import objects.pcatLparFolders;
 import objects.vfcMap;
 import org.apache.poi.ss.usermodel.Cell;
-import org.apache.poi.ss.usermodel.RichTextString;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
@@ -47,7 +46,7 @@ public class LLDVal {
   // reading data from a csv file  
   System.out.println("Reading data from csv :");  
   ReadCsv readCsv = new ReadCsv();  
-  readCsv.readCsv();  
+  readCsv.readCsv("./tunables.csv");  
   writeXLSXFile("./PCAT_AnalysisFile.xlsx", "Info");
   Workbook wb = new XSSFWorkbook(new FileInputStream("./PCAT_AnalysisFile.xlsx"));
   XSSFSheet clusterSheet = (XSSFSheet) wb.createSheet("caaConfigurations");
