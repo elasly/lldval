@@ -23,6 +23,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import utils.*;
 import static utils.ReadWriteExcelFile.writeXLSXFile;
 import static utils.readCaa.CAA;
+import static utils.readHDL.log;
 import static utils.readHW.lpar;
 import static utils.readVFCMap.vfcs;
 
@@ -70,61 +71,65 @@ public class LLDVal {
     for (int t = 0; t < lparFolders.fileList.length ; t++){
     System.out.println(lparFolders.fileList[t]);
     switch (lparFolders.fileList[t]){
-        case "caa":
-            readCaa caa = new readCaa(lparName[j]);
-            caa.processingLineByLine();
-            System.out.println("Cluster Configuration Populating");
-//            System.out.println(caa.toString());
-//            System.out.println(String.valueOf(CAA.CLUSTER_NAME+" : "+CAA.Cluster_shorthand_id_for_node+" : "+CAA.Mean_Deviation_in_network_rtt_to_node+" : "+CAA.Node_name+" : "+CAA.Number_of_clusters_node_is_a_member_in+" : "+CAA.Smoothed_rtt_to_node+" : "+CAA.State_of_node+" : "+CAA.UUID_for_node));
-            int sheetLength = clusterSheet.getPhysicalNumberOfRows();
-            if(sheetLength == 0){
-                Row row = clusterSheet.createRow((short)sheetLength);
-                Cell cell = row.createCell(0);
-                cell.setCellValue("CLUSTER_NAME");
-                Cell cell1 = row.createCell(1);
-                cell1.setCellValue("Node_name");
-                Cell cell2 = row.createCell(2);
-                cell2.setCellValue("Number_of_clusters_node_is_a_member_in");
-                Cell cell3 = row.createCell(3);
-                cell3.setCellValue("State_of_node");
-                Cell cell4 = row.createCell(4);
-                cell4.setCellValue("UUID_for_node");
-                Cell cell5 = row.createCell(5);
-                cell5.setCellValue("Cluster_shorthand_id_for_node");
-                Cell cell6 = row.createCell(6);
-                cell6.setCellValue("Smoothed_rtt_to_node");
-                Cell cell7 = row.createCell(7);
-                cell7.setCellValue("Mean_Deviation_in_network_rtt_to_node");}else
-              if (CAA.CLUSTER_NAME != null && !CAA.CLUSTER_NAME.isEmpty()){
-                Row row = clusterSheet.createRow((short)sheetLength+1);
-                Cell cell = row.createCell(0);
-                cell.setCellValue(CAA.CLUSTER_NAME);
-                Cell cell1 = row.createCell(1);
-                cell1.setCellValue(CAA.Node_name);
-                Cell cell2 = row.createCell(2);
-                cell2.setCellValue(CAA.Number_of_clusters_node_is_a_member_in);
-                Cell cell3 = row.createCell(3);
-                cell3.setCellValue(CAA.State_of_node);
-                Cell cell4 = row.createCell(4);
-                cell4.setCellValue(CAA.UUID_for_node);
-                Cell cell5 = row.createCell(5);
-                cell5.setCellValue(CAA.Cluster_shorthand_id_for_node);
-                Cell cell6 = row.createCell(6);
-                cell6.setCellValue(CAA.Smoothed_rtt_to_node);
-                Cell cell7 = row.createCell(7);
-                cell7.setCellValue(CAA.Mean_Deviation_in_network_rtt_to_node);
-              }
-                    try {
-        FileOutputStream out = new FileOutputStream("./PCAT_AnalysisFile.xlsx");
-        wb.write(out);
-        out.close();
-    } catch (Exception e) {
-        e.printStackTrace();
-    }
-            break;
-//        case "emc":
-//            System.out.println("EMC Storage Configuration Populating");
+//        case "caa":
+//            readCaa caa = new readCaa(lparName[j]);
+//            caa.processingLineByLine();
+//            System.out.println("Cluster Configuration Populating");
+////            System.out.println(caa.toString());
+////            System.out.println(String.valueOf(CAA.CLUSTER_NAME+" : "+CAA.Cluster_shorthand_id_for_node+" : "+CAA.Mean_Deviation_in_network_rtt_to_node+" : "+CAA.Node_name+" : "+CAA.Number_of_clusters_node_is_a_member_in+" : "+CAA.Smoothed_rtt_to_node+" : "+CAA.State_of_node+" : "+CAA.UUID_for_node));
+//            int sheetLength = clusterSheet.getPhysicalNumberOfRows();
+//            if(sheetLength == 0){
+//                Row row = clusterSheet.createRow((short)sheetLength);
+//                Cell cell = row.createCell(0);
+//                cell.setCellValue("CLUSTER_NAME");
+//                Cell cell1 = row.createCell(1);
+//                cell1.setCellValue("Node_name");
+//                Cell cell2 = row.createCell(2);
+//                cell2.setCellValue("Number_of_clusters_node_is_a_member_in");
+//                Cell cell3 = row.createCell(3);
+//                cell3.setCellValue("State_of_node");
+//                Cell cell4 = row.createCell(4);
+//                cell4.setCellValue("UUID_for_node");
+//                Cell cell5 = row.createCell(5);
+//                cell5.setCellValue("Cluster_shorthand_id_for_node");
+//                Cell cell6 = row.createCell(6);
+//                cell6.setCellValue("Smoothed_rtt_to_node");
+//                Cell cell7 = row.createCell(7);
+//                cell7.setCellValue("Mean_Deviation_in_network_rtt_to_node");}else
+//              if (CAA.CLUSTER_NAME != null && !CAA.CLUSTER_NAME.isEmpty()){
+//                Row row = clusterSheet.createRow((short)sheetLength+1);
+//                Cell cell = row.createCell(0);
+//                cell.setCellValue(CAA.CLUSTER_NAME);
+//                Cell cell1 = row.createCell(1);
+//                cell1.setCellValue(CAA.Node_name);
+//                Cell cell2 = row.createCell(2);
+//                cell2.setCellValue(CAA.Number_of_clusters_node_is_a_member_in);
+//                Cell cell3 = row.createCell(3);
+//                cell3.setCellValue(CAA.State_of_node);
+//                Cell cell4 = row.createCell(4);
+//                cell4.setCellValue(CAA.UUID_for_node);
+//                Cell cell5 = row.createCell(5);
+//                cell5.setCellValue(CAA.Cluster_shorthand_id_for_node);
+//                Cell cell6 = row.createCell(6);
+//                cell6.setCellValue(CAA.Smoothed_rtt_to_node);
+//                Cell cell7 = row.createCell(7);
+//                cell7.setCellValue(CAA.Mean_Deviation_in_network_rtt_to_node);
+//              }
+//                    try {
+//        FileOutputStream out = new FileOutputStream("./PCAT_AnalysisFile.xlsx");
+//        wb.write(out);
+//        out.close();
+//    } catch (Exception e) {
+//        e.printStackTrace();
+//    }
 //            break;
+        case "hds":
+            System.out.println("HDS Storage Configuration Populating");
+            readHDL parser = new readHDL(lparName[j]);
+            parser.processLineByLine(lparName[j]);
+//    System.out.println(String.valueOf(lpar.getLparName()+" : "+lpar.getLparID()+" : "+lpar.getHostname()+" : "+lpar.getEntCapacity()));
+    log("Done.");
+            break;
 //        case "hmc":
 //            System.out.println("HMC Configuration Populating");
 //            break;
